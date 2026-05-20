@@ -2,9 +2,8 @@ name: Update Deals and Deploy
 
 on:
   schedule:
-    # Runs every hour from 09:00 to 23:00 Kyiv time (covers UTC+2 and UTC+3 timezones)
-    # UTC hours: 06:00 to 21:00
-    - cron: '0 6-21 * * *'
+    # Runs every hour, 24/7
+    - cron: '0 * * * *'
   workflow_dispatch:
   push:
     branches:

@@ -295,10 +295,10 @@ async function run() {
   
   // Steam: Find new items
   for (const game of freshSteam) {
-    // 1. Hot deals: newly marked as isSpecial and discount >= 75
-    if (game.isSpecial && game.discountPercent >= 75) {
+    // 1. Hot deals: newly marked as isSpecial and discount >= 5
+    if (game.isSpecial && game.discountPercent >= 5) {
       const wasSpecialDeal = oldData.steam.some(oldGame => 
-        oldGame.id === game.id && oldGame.isSpecial && oldGame.discountPercent >= 75
+        oldGame.id === game.id && oldGame.isSpecial && oldGame.discountPercent >= 5
       );
       if (!wasSpecialDeal) {
         newSteamDeals.push(game);
@@ -337,7 +337,7 @@ async function run() {
   }
   
   if (newSteamDeals.length > 0) {
-    let steamText = `🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 75%)!</b>\n\n`;
+    let steamText = `🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 5%)!</b>\n\n`;
     for (const deal of newSteamDeals) {
       steamText += `🎮 <b>${deal.title}</b>\n` +
                    `🏷️ Знижка: <b>-${deal.discountPercent}%</b>\n` +

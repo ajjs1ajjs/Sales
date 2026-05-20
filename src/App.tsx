@@ -161,7 +161,7 @@ function App() {
       <section className="telegram-banner">
         <div className="tg-info">
           <h3><Send size={22} className="text-telegram" /> Приєднуйтесь до нашого Telegram-каналу!</h3>
-          <p>Отримуйте миттєві сповіщення про безкоштовні ігри, знижки від 75%, нові релізи та хіти продажів щогодини.</p>
+          <p>Отримуйте миттєві сповіщення про безкоштовні ігри, будь-які знижки Steam, нові релізи та хіти продажів щогодини.</p>
         </div>
         <a 
           href="https://t.me/salesgamesua" 
