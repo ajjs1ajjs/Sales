@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T10:13:50.948Z",
+  "lastUpdated": "2026-05-20T10:18:26.029Z",
   "epic": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -242,19 +242,6 @@
       "isNewRelease": false
     },
     {
-      "id": "2399830",
-      "title": "ARK: Survival Ascended",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2399830/157abe35b22e96ea4ecea8eb723fb923ea198715/capsule_616x353.jpg?t=1766710980",
-      "originalPrice": 1645,
-      "discountPrice": 411,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2399830",
-      "isSpecial": false,
-      "isPopular": true,
-      "isNewRelease": false
-    },
-    {
       "id": "74190",
       "title": "Escape from Tarkov - The Unheard Steam Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/74190/k398z72mc0yis44x/cd1ea622a12b33ce0b044d5aae89556a00e5217d/header_ratio.jpg?t=1779266178",
@@ -268,14 +255,27 @@
       "isNewRelease": false
     },
     {
-      "id": "4440380",
-      "title": "Forza Horizon 6 VIP Membership",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4440380/707f80366390aa9c2e2b38dd699aaa0618d1905d/capsule_616x353.jpg?t=1779162771",
-      "originalPrice": 699,
-      "discountPrice": 699,
+      "id": "2399830",
+      "title": "ARK: Survival Ascended",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2399830/157abe35b22e96ea4ecea8eb723fb923ea198715/capsule_616x353.jpg?t=1766710980",
+      "originalPrice": 1645,
+      "discountPrice": 411,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2399830",
+      "isSpecial": false,
+      "isPopular": true,
+      "isNewRelease": false
+    },
+    {
+      "id": "3041230",
+      "title": "Windrose",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/58031ef98f88d5602171eb018d9306c7383a6e6a/capsule_616x353.jpg?t=1777529081",
+      "originalPrice": 600,
+      "discountPrice": 600,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4440380",
+      "url": "https://store.steampowered.com/app/3041230",
       "isSpecial": false,
       "isPopular": true,
       "isNewRelease": false
