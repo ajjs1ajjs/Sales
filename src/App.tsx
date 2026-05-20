@@ -164,7 +164,7 @@ function App() {
           <p>Отримуйте миттєві сповіщення про безкоштовні ігри, знижки від 75%, нові релізи та хіти продажів щогодини.</p>
         </div>
         <a 
-          href="https://t.me/your_telegram_channel" 
+          href="https://t.me/salesgamesua" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="tg-button"
