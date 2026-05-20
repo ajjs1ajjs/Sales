@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T09:59:29.707Z",
+  "lastUpdated": "2026-05-20T10:04:36.186Z",
   "epic": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -99,19 +99,6 @@
       "isNewRelease": false
     },
     {
-      "id": "4466620",
-      "title": "SiNiSistar 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4466620/9ceef8e15438cd53a6b1c21ef971ba30118ef0b2/capsule_616x353.jpg?t=1778889257",
-      "originalPrice": 335,
-      "discountPrice": 268,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4466620",
-      "isSpecial": true,
-      "isPopular": false,
-      "isNewRelease": false
-    },
-    {
       "id": "848450",
       "title": "Subnautica: Below Zero",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/capsule_616x353.jpg?t=1777456254",
@@ -120,6 +107,19 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/848450",
+      "isSpecial": true,
+      "isPopular": false,
+      "isNewRelease": false
+    },
+    {
+      "id": "4466620",
+      "title": "SiNiSistar 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4466620/9ceef8e15438cd53a6b1c21ef971ba30118ef0b2/capsule_616x353.jpg?t=1778889257",
+      "originalPrice": 335,
+      "discountPrice": 268,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4466620",
       "isSpecial": true,
       "isPopular": false,
       "isNewRelease": false
@@ -151,19 +151,6 @@
       "isNewRelease": false
     },
     {
-      "id": "4078200",
-      "title": "Dwarf Eats Mountain",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078200/e989412d9ffb4a67da072be41b483e2df7ce0826/capsule_616x353.jpg?t=1779117763",
-      "originalPrice": 129,
-      "discountPrice": 116,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4078200",
-      "isSpecial": true,
-      "isPopular": false,
-      "isNewRelease": false
-    },
-    {
       "id": "601150",
       "title": "Devil May Cry 5",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/capsule_616x353.jpg?t=1768869803",
@@ -172,6 +159,19 @@
       "discountPercent": 85,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/601150",
+      "isSpecial": true,
+      "isPopular": false,
+      "isNewRelease": false
+    },
+    {
+      "id": "4078200",
+      "title": "Dwarf Eats Mountain",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078200/e989412d9ffb4a67da072be41b483e2df7ce0826/capsule_616x353.jpg?t=1779117763",
+      "originalPrice": 129,
+      "discountPrice": 116,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4078200",
       "isSpecial": true,
       "isPopular": false,
       "isNewRelease": false
@@ -255,14 +255,14 @@
       "isNewRelease": false
     },
     {
-      "id": "3041230",
-      "title": "Windrose",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/58031ef98f88d5602171eb018d9306c7383a6e6a/capsule_616x353.jpg?t=1777529081",
-      "originalPrice": 600,
-      "discountPrice": 600,
+      "id": "74190",
+      "title": "Escape from Tarkov - The Unheard Steam Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/74190/k398z72mc0yis44x/cd1ea622a12b33ce0b044d5aae89556a00e5217d/header_ratio.jpg?t=1779266178",
+      "originalPrice": 8000,
+      "discountPrice": 8000,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3041230",
+      "url": "https://store.steampowered.com/app/74190",
       "isSpecial": false,
       "isPopular": true,
       "isNewRelease": false
