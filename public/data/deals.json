@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T09:36:18.587Z",
+  "lastUpdated": "2026-05-20T09:50:40.372Z",
   "epic": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -150,14 +150,14 @@
       "url": "https://store.steampowered.com/app/601150"
     },
     {
-      "id": "1604030",
-      "title": "V Rising",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/51b4f7de5c6e00dea6785c4811b8d46d7170f02d/capsule_616x353.jpg?t=1776271883",
-      "originalPrice": 700,
-      "discountPrice": 315,
-      "discountPercent": 55,
+      "id": "3672400",
+      "title": "Farever",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672400/40622a5f1d0516d2aa7868fbebcacba84df42230/capsule_616x353_alt_assets_1.jpg?t=1778346609",
+      "originalPrice": 455,
+      "discountPrice": 409,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1604030"
+      "url": "https://store.steampowered.com/app/3672400"
     }
   ]
 }
