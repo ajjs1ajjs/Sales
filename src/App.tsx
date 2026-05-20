@@ -63,7 +63,7 @@ function App() {
       try {
         setLoading(true);
         const baseUrl = import.meta.env.BASE_URL || '/';
-        const res = await fetch(`${baseUrl}data/deals.json`);
+        const res = await fetch(`${baseUrl}data/deals.json?t=${Date.now()}`);
         
         if (!res.ok) {
           throw new Error(`Не вдалося завантажити дані (статус: ${res.status})`);
