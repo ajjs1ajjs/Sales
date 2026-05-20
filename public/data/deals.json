@@ -1,0 +1,163 @@
+{
+  "lastUpdated": "2026-05-20T09:33:31.840Z",
+  "epic": [
+    {
+      "id": "73a4416d5cdb42f682d504fdf48e987b",
+      "title": "The Telltale Batman Shadows Edition",
+      "description": "The Telltale Batman Shadows Edition",
+      "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/TheTelltaleBatmanShadowsEdition-2560x1440-1ababb36a948b5c732ab85a330787e85_2560x1440-8542c9faaf034219973add17b0749b9a",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "currency": "USD",
+      "url": "https://store.epicgames.com/p/the-telltale-batman",
+      "startDate": "2026-05-14T15:00:00.000Z",
+      "endDate": "2026-05-21T15:00:00.000Z",
+      "isFreeNow": true,
+      "isUpcomingFree": false
+    },
+    {
+      "id": "190cb955f17f48dcb8576aa8288c887f",
+      "title": "Sunderfolk - Standard Edition",
+      "description": "Sunderfolk - Standard Edition",
+      "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/OfferImageWide_2560x1440-05350f0fffad4da3945dc0871f2d2b24",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "currency": "USD",
+      "url": "https://store.epicgames.com/p/sunderfolk-standard-edition-83c05e",
+      "startDate": "2026-05-14T15:00:00.000Z",
+      "endDate": "2026-05-21T15:00:00.000Z",
+      "isFreeNow": true,
+      "isUpcomingFree": false
+    },
+    {
+      "id": "cd37ebd7ce804df9b51b84578e631b8a",
+      "title": "Mystery Game Week 21 Game 2",
+      "description": "Mystery Game Week 21 Game 2",
+      "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-570394ae470a43859ce7366ea875532f",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "currency": "USD",
+      "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game2",
+      "startDate": "2026-05-21T15:00:00.000Z",
+      "endDate": "2026-05-28T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": true
+    },
+    {
+      "id": "9e2567e57e61458686d53f5aeaf1e2e0",
+      "title": "Mystery Game Week 21 Game 1",
+      "description": "Mystery Game Week 21 Game 1",
+      "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-570394ae470a43859ce7366ea875532f",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "currency": "USD",
+      "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game1",
+      "startDate": "2026-05-21T15:00:00.000Z",
+      "endDate": "2026-05-28T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": true
+    }
+  ],
+  "steam": [
+    {
+      "id": "264710",
+      "title": "Subnautica",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/capsule_616x353.jpg?t=1777456112",
+      "originalPrice": 799,
+      "discountPrice": 199,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/264710"
+    },
+    {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180"
+    },
+    {
+      "id": "413150",
+      "title": "Stardew Valley",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
+      "originalPrice": 229,
+      "discountPrice": 114,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/413150"
+    },
+    {
+      "id": "4466620",
+      "title": "SiNiSistar 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4466620/9ceef8e15438cd53a6b1c21ef971ba30118ef0b2/capsule_616x353.jpg?t=1778889257",
+      "originalPrice": 335,
+      "discountPrice": 268,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4466620"
+    },
+    {
+      "id": "848450",
+      "title": "Subnautica: Below Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/capsule_616x353.jpg?t=1777456254",
+      "originalPrice": 799,
+      "discountPrice": 199,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/848450"
+    },
+    {
+      "id": "3542380",
+      "title": "Rune Dice",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3542380/2fe65a6d0a29db8bf3eb6b3d8ae7934850ca9e20/capsule_616x353.jpg?t=1779267089",
+      "originalPrice": 325,
+      "discountPrice": 276,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3542380"
+    },
+    {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
+      "originalPrice": 159,
+      "discountPrice": 98,
+      "discountPercent": 38,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290"
+    },
+    {
+      "id": "4078200",
+      "title": "Dwarf Eats Mountain",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078200/e989412d9ffb4a67da072be41b483e2df7ce0826/capsule_616x353.jpg?t=1779117763",
+      "originalPrice": 129,
+      "discountPrice": 116,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4078200"
+    },
+    {
+      "id": "601150",
+      "title": "Devil May Cry 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/capsule_616x353.jpg?t=1768869803",
+      "originalPrice": 949,
+      "discountPrice": 142,
+      "discountPercent": 85,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/601150"
+    },
+    {
+      "id": "1604030",
+      "title": "V Rising",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/51b4f7de5c6e00dea6785c4811b8d46d7170f02d/capsule_616x353.jpg?t=1776271883",
+      "originalPrice": 700,
+      "discountPrice": 315,
+      "discountPercent": 55,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1604030"
+    }
+  ]
+}
