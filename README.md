@@ -1,73 +1,147 @@
-# React + TypeScript + Vite
+# 🎮 Game Sales Aggregator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+**Персональний радар знижок та безкоштовних ігор**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[![Сайт](https://img.shields.io/badge/🌐_Сайт-ajjs1ajjs.github.io/Sales-blue?style=for-the-badge)](https://ajjs1ajjs.github.io/Sales/)
+[![Telegram](https://img.shields.io/badge/📢_Telegram-@salesgamesua-2CA5E0?style=for-the-badge&logo=telegram)](https://t.me/salesgamesua)
+[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/ajjs1ajjs/Sales/scheduler.yml?style=for-the-badge&label=Автооновлення)](https://github.com/ajjs1ajjs/Sales/actions)
 
-## React Compiler
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📖 Про проект
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**Game Sales Aggregator** — це автоматичний агрегатор ігрових знижок та безкоштовних роздач. Збирає актуальні пропозиції зі **Steam** та **Epic Games Store** і публікує їх на сайті та у Telegram-каналі.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### ✨ Що відстежується:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+| Платформа | Тип | Опис |
+|-----------|-----|-------|
+| 🎁 **Epic Games** | Безкоштовні роздачі | Ігри, які зараз безкоштовні |
+| 🎁 **Epic Games** | Майбутні роздачі | Ігри, що стануть безкоштовними невдовзі |
+| 🔥 **Steam** | Гарячі знижки | Акційні пропозиції від 5% |
+| ⭐ **Steam** | Топ продажів | Лідери продажів прямо зараз |
+| 🆕 **Steam** | Нові релізи | Свіжі популярні новинки |
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## 🚀 Як це працює
+
+```
+Кожну годину (24/7)
+        │
+        ▼
+GitHub Actions запускає скрипт
+        │
+        ▼
+Збираються дані з API Steam та Epic Games
+        │
+        ├──▶ Оновлюється deals.json у репозиторії
+        │
+        ├──▶ Будується React-додаток → GitHub Pages (сайт)
+        │
+        └──▶ Нові знижки/роздачі → Telegram-канал 📢
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Технології
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **Frontend:** React + TypeScript + Vite
+- **Стилі:** Vanilla CSS з Glassmorphism-ефектами
+- **Скрипт збору даних:** Node.js + TypeScript (tsx)
+- **Автоматизація:** GitHub Actions (cron кожну годину)
+- **Хостинг:** GitHub Pages
+- **Сповіщення:** Telegram Bot API
+
+---
+
+## 📦 Локальний запуск
+
+### Вимоги
+- Node.js 18+
+- npm
+
+### Встановлення
+
+```bash
+# Клонувати репозиторій
+git clone https://github.com/ajjs1ajjs/Sales.git
+cd Sales
+
+# Встановити залежності
+npm install
 ```
+
+### Запуск
+
+```bash
+# Отримати актуальні дані
+npm run fetch
+
+# Запустити сайт локально
+npm run dev
+
+# Зібрати продакшн-білд
+npm run build
+```
+
+---
+
+## ⚙️ Налаштування GitHub Actions
+
+Для повноцінної роботи потрібно додати **секрети** у налаштуваннях репозиторію:
+
+`Settings → Secrets and variables → Actions → New repository secret`
+
+| Секрет | Опис |
+|--------|------|
+| `TELEGRAM_BOT_TOKEN` | Токен бота від @BotFather |
+| `TELEGRAM_CHAT_ID` | ID вашого Telegram-каналу |
+
+### Отримання Chat ID каналу:
+1. Додайте бота як адміністратора каналу
+2. Надішліть повідомлення в канал
+3. Відкрийте: `https://api.telegram.org/bot<TOKEN>/getUpdates`
+4. Знайдіть поле `"chat": {"id": ...}`
+
+---
+
+## 📂 Структура проекту
+
+```
+Sales/
+├── .github/
+│   └── workflows/
+│       └── scheduler.yml      # GitHub Actions (запуск щогодини)
+├── public/
+│   └── data/
+│       └── deals.json         # Актуальні дані про знижки
+├── scripts/
+│   └── fetch-deals.ts         # Скрипт збору даних з API
+├── src/
+│   ├── App.tsx                # Головний компонент React
+│   └── index.css              # Стилі (Glassmorphism)
+└── index.html                 # HTML-шаблон з SEO мета-тегами
+```
+
+---
+
+## 📢 Telegram-канал
+
+Підписуйтесь на [@salesgamesua](https://t.me/salesgamesua) — отримуйте миттєві сповіщення про:
+- 🎁 Безкоштовні ігри від Epic Games
+- 🔥 Будь-які знижки у Steam
+- ⭐ Нові хіти продажів
+- 🆕 Популярні нові релізи
+
+---
+
+<div align="center">
+
+Розроблено для геймерів з ❤️
+
+</div>
