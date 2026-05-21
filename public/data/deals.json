@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T21:25:26.158Z",
+  "lastUpdated": "2026-05-21T23:01:13.744Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -184,18 +184,6 @@
       "isPopular": true
     },
     {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1304930",
       "title": "The Outlast Trials",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/05c384f4640c12cb1c99d9165c75893b567ad6d1/capsule_616x353_alt_assets_2.jpg?t=1779221190",
@@ -208,14 +196,14 @@
       "isPopular": false
     },
     {
-      "id": "1142710",
-      "title": "Total War: WARHAMMER III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1779383581",
-      "originalPrice": 1899,
-      "discountPrice": 284,
-      "discountPercent": 85,
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1142710",
+      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isPopular": false
     },
@@ -232,14 +220,14 @@
       "isPopular": false
     },
     {
-      "id": "1332010",
-      "title": "Stray",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/capsule_616x353.jpg?t=1733260906",
-      "originalPrice": 579,
-      "discountPrice": 289,
-      "discountPercent": 50,
+      "id": "1142710",
+      "title": "Total War: WARHAMMER III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1779383581",
+      "originalPrice": 1899,
+      "discountPrice": 284,
+      "discountPercent": 85,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1332010",
+      "url": "https://store.steampowered.com/app/1142710",
       "isSpecial": true,
       "isPopular": false
     },
@@ -252,6 +240,18 @@
       "discountPercent": 38,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3527290",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1332010",
+      "title": "Stray",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/capsule_616x353.jpg?t=1733260906",
+      "originalPrice": 579,
+      "discountPrice": 289,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1332010",
       "isSpecial": true,
       "isPopular": false
     },
@@ -340,14 +340,14 @@
       "isPopular": true
     },
     {
-      "id": "4399460",
-      "title": "Total War: WARHAMMER III - Bhashiva – Character Pack",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4399460/036ecf034e152a1f62e45728a15544afa6eda8d7/capsule_616x353.jpg?t=1779381574",
-      "originalPrice": 179,
-      "discountPrice": 179,
+      "id": "3768760",
+      "title": "007 First Light",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/d1a352d38355d4a693aa80e1aa6139fb079da1a3/capsule_616x353_alt_assets_0.jpg?t=1779394356",
+      "originalPrice": 1599,
+      "discountPrice": 1599,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4399460",
+      "url": "https://store.steampowered.com/app/3768760",
       "isSpecial": false,
       "isPopular": true
     },
