@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T02:59:13.668Z",
+  "lastUpdated": "2026-05-21T06:58:47.086Z",
   "epic": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -82,7 +82,20 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
-      "isPopular": false,
+      "isPopular": true,
+      "isNewRelease": false
+    },
+    {
+      "id": "413150",
+      "title": "Stardew Valley",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
+      "originalPrice": 229,
+      "discountPrice": 114,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/413150",
+      "isSpecial": true,
+      "isPopular": true,
       "isNewRelease": false
     },
     {
@@ -99,19 +112,6 @@
       "isNewRelease": false
     },
     {
-      "id": "413150",
-      "title": "Stardew Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
-      "originalPrice": 229,
-      "discountPrice": 114,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/413150",
-      "isSpecial": true,
-      "isPopular": false,
-      "isNewRelease": false
-    },
-    {
       "id": "1332010",
       "title": "Stray",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/capsule_616x353.jpg?t=1733260906",
@@ -120,6 +120,19 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1332010",
+      "isSpecial": true,
+      "isPopular": false,
+      "isNewRelease": false
+    },
+    {
+      "id": "848450",
+      "title": "Subnautica: Below Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/capsule_616x353.jpg?t=1777456254",
+      "originalPrice": 799,
+      "discountPrice": 199,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/848450",
       "isSpecial": true,
       "isPopular": false,
       "isNewRelease": false
@@ -151,6 +164,19 @@
       "isNewRelease": false
     },
     {
+      "id": "4466620",
+      "title": "SiNiSistar 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4466620/9ceef8e15438cd53a6b1c21ef971ba30118ef0b2/capsule_616x353.jpg?t=1778889257",
+      "originalPrice": 335,
+      "discountPrice": 268,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4466620",
+      "isSpecial": true,
+      "isPopular": false,
+      "isNewRelease": false
+    },
+    {
       "id": "3542380",
       "title": "Rune Dice",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3542380/2fe65a6d0a29db8bf3eb6b3d8ae7934850ca9e20/capsule_616x353.jpg?t=1779267089",
@@ -159,32 +185,6 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3542380",
-      "isSpecial": true,
-      "isPopular": false,
-      "isNewRelease": false
-    },
-    {
-      "id": "1604030",
-      "title": "V Rising",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/51b4f7de5c6e00dea6785c4811b8d46d7170f02d/capsule_616x353.jpg?t=1776271883",
-      "originalPrice": 700,
-      "discountPrice": 315,
-      "discountPercent": 55,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1604030",
-      "isSpecial": true,
-      "isPopular": false,
-      "isNewRelease": false
-    },
-    {
-      "id": "848450",
-      "title": "Subnautica: Below Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/capsule_616x353.jpg?t=1777456254",
-      "originalPrice": 799,
-      "discountPrice": 199,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/848450",
       "isSpecial": true,
       "isPopular": false,
       "isNewRelease": false
@@ -268,17 +268,43 @@
       "isNewRelease": false
     },
     {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1778274309",
-      "originalPrice": 187,
-      "discountPrice": 187,
+      "id": "3893830",
+      "title": "Brew or Die",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893830/6413be444791862f625a7179a06a05011f99a402/capsule_616x353.jpg?t=1779335614",
+      "originalPrice": 135,
+      "discountPrice": 81,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3893830",
+      "isSpecial": false,
+      "isPopular": false,
+      "isNewRelease": true
+    },
+    {
+      "id": "4671640",
+      "title": "Factory Reset",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4671640/1dc719441cc8204129d24ca45459a810d6495452/capsule_616x353.jpg?t=1779334567",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
+      "url": "https://store.steampowered.com/app/4671640",
       "isSpecial": false,
-      "isPopular": true,
-      "isNewRelease": false
+      "isPopular": false,
+      "isNewRelease": true
+    },
+    {
+      "id": "4449390",
+      "title": "HoRoyal 〜Hololive Battle Royal〜",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4449390/0c08bdac3f7afeccb836686bdd3ef08f656c920b/capsule_616x353.jpg?t=1779332216",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4449390",
+      "isSpecial": false,
+      "isPopular": false,
+      "isNewRelease": true
     },
     {
       "id": "4528830",
@@ -320,9 +346,22 @@
       "isNewRelease": true
     },
     {
+      "id": "4677180",
+      "title": "我为你种田",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4677180/ab6e7577f3dfb411db95a25e1ab89b7ac09cdee0/capsule_616x353.jpg?t=1779328860",
+      "originalPrice": 76,
+      "discountPrice": 68,
+      "discountPercent": 11,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4677180",
+      "isSpecial": false,
+      "isPopular": false,
+      "isNewRelease": true
+    },
+    {
       "id": "2537560",
       "title": "进击的打工人 Attack of the worker",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537560/capsule_616x353.jpg?t=1779328666",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537560/capsule_616x353.jpg?t=1779341567",
       "originalPrice": 76,
       "discountPrice": 68,
       "discountPercent": 11,
@@ -393,6 +432,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3059250",
+      "isSpecial": false,
+      "isPopular": false,
+      "isNewRelease": true
+    },
+    {
+      "id": "4535670",
+      "title": "Rock, Paper, Scissors: Survival",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4535670/ed656c059ff4954555376384c893ea1bca45a482/capsule_616x353.jpg?t=1779322767",
+      "originalPrice": 230,
+      "discountPrice": 230,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4535670",
       "isSpecial": false,
       "isPopular": false,
       "isNewRelease": true
@@ -471,19 +523,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4686280",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4098870",
-      "title": "Warrens Of Random",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4098870/03702595e08dabeceeee86a6814efca9a3f40b3d/capsule_616x353.jpg?t=1779307236",
-      "originalPrice": 130,
-      "discountPrice": 130,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4098870",
       "isSpecial": false,
       "isPopular": false,
       "isNewRelease": true
@@ -614,58 +653,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4651030",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4689590",
-      "title": "Allure Rush",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4689590/2b6664a127e339ac40cc2a1ec4d2640510985f15/capsule_616x353.jpg?t=1779294295",
-      "originalPrice": 195,
-      "discountPrice": 195,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4689590",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4669150",
-      "title": "Against The Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4669150/d88cf0db16116cfa939df190fd10aa09fc2f9291/capsule_616x353.jpg?t=1779293178",
-      "originalPrice": 199,
-      "discountPrice": 199,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4669150",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4630280",
-      "title": "Deep Rock Galactic: Rogue Core Soundtrack",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4630280/c2e23fc50e4c2d3803444875f87770b055ae074f/capsule_616x353.jpg?t=1779292947",
-      "originalPrice": 225,
-      "discountPrice": 225,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4630280",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4216130",
-      "title": "Deep Rock Galactic: Rogue Core - Supporter Upgrade",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4216130/b783a4b0ad644ddfef881ee9ddf00b267c62038d/capsule_616x353.jpg?t=1779292892",
-      "originalPrice": 309,
-      "discountPrice": 309,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4216130",
       "isSpecial": false,
       "isPopular": false,
       "isNewRelease": true
