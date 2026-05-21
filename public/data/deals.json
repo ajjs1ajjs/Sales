@@ -1,6 +1,86 @@
 {
-  "lastUpdated": "2026-05-21T19:50:07.111Z",
+  "lastUpdated": "2026-05-21T20:11:42.390Z",
   "epic": [
+    {
+      "id": "921e40c4c69f4d728914ca2a4f0aa407",
+      "title": "Eternal Threads",
+      "description": "Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
+      "originalPrice": 369,
+      "discountPrice": 73.8,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/eternal-threads-197169",
+      "startDate": "2026-05-14T15:00:00.000Z",
+      "endDate": "2026-06-11T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": false,
+      "isDiscounted": true,
+      "discountPercent": 80
+    },
+    {
+      "id": "be5600439b434624802764f704755cde",
+      "title": "Ghostrunner 2",
+      "description": "Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
+      "imageUrl": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
+      "originalPrice": 999,
+      "discountPrice": 199.8,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/ghostrunner-2",
+      "startDate": "2026-05-14T15:00:00.000Z",
+      "endDate": "2026-06-11T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": false,
+      "isDiscounted": true,
+      "discountPercent": 80
+    },
+    {
+      "id": "944b5b5d646d46bc92bc33edfe983d26",
+      "title": "LISA: The Definitive Edition",
+      "description": "Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
+      "imageUrl": "https://cdn1.epicgames.com/offer/ca3a9d16d131478c97fd56c138a6511a/EGS_LISATheDefinitiveEdition_DingalingProductions_Bundles_S1_2560x1440-55b66eb2046507e58eac435c21331bd5",
+      "originalPrice": 499,
+      "discountPrice": 274.45,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
+      "startDate": "2026-05-14T15:00:00.000Z",
+      "endDate": "2026-06-11T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": false,
+      "isDiscounted": true,
+      "discountPercent": 45
+    },
+    {
+      "id": "8f80897c0b6e4e678fed08da169d44be",
+      "title": "Castlevania Anniversary Collection",
+      "description": "Konami's Castlevania Anniversary Collection traces the origins of the historic vampire franchise. Included is a unique eBook with details provided by developers, artists and others inspired by the Castlevania legacy which sheds a fresh light into the world of Castlevania.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
+      "originalPrice": 279,
+      "discountPrice": 111.6,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/castlevania-anniversary-collection-a61f94",
+      "startDate": "2026-05-14T15:00:00.000Z",
+      "endDate": "2026-06-11T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": false,
+      "isDiscounted": true,
+      "discountPercent": 60
+    },
+    {
+      "id": "f967cff9761c4198b4e972cfd71e40d7",
+      "title": "Monument Valley",
+      "description": "Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
+      "originalPrice": 187,
+      "discountPrice": 65.45,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/monument-valley-1d99d3",
+      "startDate": "2026-05-14T15:00:00.000Z",
+      "endDate": "2026-06-11T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": false,
+      "isDiscounted": true,
+      "discountPercent": 65
+    },
     {
       "id": "cd37ebd7ce804df9b51b84578e631b8a",
       "title": "Down in Bermuda",
@@ -8,12 +88,14 @@
       "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Offer_wide_2560x1440-5314b15510b84a82971afea207658297",
       "originalPrice": 0,
       "discountPrice": 0,
-      "currency": "USD",
+      "currency": "UAH",
       "url": "https://store.epicgames.com/p/down-in-bermuda",
       "startDate": "2026-05-21T15:00:00.000Z",
       "endDate": "2026-05-28T15:00:00.000Z",
       "isFreeNow": true,
-      "isUpcomingFree": false
+      "isUpcomingFree": false,
+      "isDiscounted": false,
+      "discountPercent": 0
     },
     {
       "id": "9e2567e57e61458686d53f5aeaf1e2e0",
@@ -22,12 +104,14 @@
       "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Wide_2560x1440-8d4d3759851d462299fc4c6cf13643b2",
       "originalPrice": 0,
       "discountPrice": 0,
-      "currency": "USD",
+      "currency": "UAH",
       "url": "https://store.epicgames.com/p/tomb-raider-iiii-remastered-538640",
       "startDate": "2026-05-21T15:00:00.000Z",
       "endDate": "2026-05-28T15:00:00.000Z",
       "isFreeNow": true,
-      "isUpcomingFree": false
+      "isUpcomingFree": false,
+      "isDiscounted": false,
+      "discountPercent": 0
     },
     {
       "id": "9621cc6e5d32437ca3dd998de177f6da",
@@ -36,12 +120,14 @@
       "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-570394ae470a43859ce7366ea875532f",
       "originalPrice": 0,
       "discountPrice": 0,
-      "currency": "USD",
+      "currency": "UAH",
       "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week22-game1",
       "startDate": "2026-05-28T15:00:00.000Z",
       "endDate": "2026-06-04T15:00:00.000Z",
       "isFreeNow": false,
-      "isUpcomingFree": true
+      "isUpcomingFree": true,
+      "isDiscounted": false,
+      "discountPercent": 0
     },
     {
       "id": "7fc5abc8f11c471e837ddd00ce963350",
@@ -50,12 +136,14 @@
       "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-570394ae470a43859ce7366ea875532f",
       "originalPrice": 0,
       "discountPrice": 0,
-      "currency": "USD",
+      "currency": "UAH",
       "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week22-game2",
       "startDate": "2026-05-28T15:00:00.000Z",
       "endDate": "2026-06-04T15:00:00.000Z",
       "isFreeNow": false,
-      "isUpcomingFree": true
+      "isUpcomingFree": true,
+      "isDiscounted": false,
+      "discountPercent": 0
     }
   ],
   "steam": [
@@ -69,8 +157,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/264710",
       "isSpecial": true,
-      "isPopular": false,
-      "isNewRelease": false
+      "isPopular": false
     },
     {
       "id": "2183900",
@@ -82,8 +169,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
-      "isPopular": false,
-      "isNewRelease": false
+      "isPopular": false
     },
     {
       "id": "2536520",
@@ -95,8 +181,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2536520",
       "isSpecial": true,
-      "isPopular": false,
-      "isNewRelease": false
+      "isPopular": false
     },
     {
       "id": "1174180",
@@ -108,8 +193,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
-      "isPopular": false,
-      "isNewRelease": false
+      "isPopular": false
     },
     {
       "id": "1142710",
@@ -121,8 +205,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1142710",
       "isSpecial": true,
-      "isPopular": false,
-      "isNewRelease": false
+      "isPopular": false
     },
     {
       "id": "4351410",
@@ -134,34 +217,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4351410",
       "isSpecial": true,
-      "isPopular": false,
-      "isNewRelease": false
-    },
-    {
-      "id": "1332010",
-      "title": "Stray",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/capsule_616x353.jpg?t=1733260906",
-      "originalPrice": 579,
-      "discountPrice": 289,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1332010",
-      "isSpecial": true,
-      "isPopular": false,
-      "isNewRelease": false
-    },
-    {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
-      "originalPrice": 159,
-      "discountPrice": 98,
-      "discountPercent": 38,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isPopular": false,
-      "isNewRelease": false
+      "isPopular": false
     },
     {
       "id": "1304930",
@@ -173,8 +229,31 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1304930",
       "isSpecial": true,
-      "isPopular": false,
-      "isNewRelease": false
+      "isPopular": false
+    },
+    {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
+      "originalPrice": 159,
+      "discountPrice": 98,
+      "discountPercent": 38,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1332010",
+      "title": "Stray",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/capsule_616x353.jpg?t=1733260906",
+      "originalPrice": 579,
+      "discountPrice": 289,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1332010",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "848450",
@@ -186,8 +265,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/848450",
       "isSpecial": true,
-      "isPopular": false,
-      "isNewRelease": false
+      "isPopular": false
     },
     {
       "id": "2483190",
@@ -199,8 +277,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2483190",
       "isSpecial": false,
-      "isPopular": true,
-      "isNewRelease": false
+      "isPopular": true
     },
     {
       "id": "2532480",
@@ -212,8 +289,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2532480",
       "isSpecial": false,
-      "isPopular": true,
-      "isNewRelease": true
+      "isPopular": true
     },
     {
       "id": "2215200",
@@ -225,8 +301,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2215200",
       "isSpecial": false,
-      "isPopular": true,
-      "isNewRelease": false
+      "isPopular": true
     },
     {
       "id": "10076",
@@ -238,8 +313,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/10076",
       "isSpecial": false,
-      "isPopular": true,
-      "isNewRelease": false
+      "isPopular": true
     },
     {
       "id": "75870",
@@ -251,8 +325,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/75870",
       "isSpecial": false,
-      "isPopular": true,
-      "isNewRelease": false
+      "isPopular": true
     },
     {
       "id": "1624417",
@@ -264,8 +337,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1624417",
       "isSpecial": false,
-      "isPopular": true,
-      "isNewRelease": false
+      "isPopular": true
     },
     {
       "id": "4399460",
@@ -277,8 +349,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4399460",
       "isSpecial": false,
-      "isPopular": true,
-      "isNewRelease": false
+      "isPopular": true
     },
     {
       "id": "76235",
@@ -290,398 +361,19 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/76235",
       "isSpecial": false,
-      "isPopular": true,
-      "isNewRelease": false
+      "isPopular": true
     },
     {
       "id": "3768760",
       "title": "007 First Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/d1a352d38355d4a693aa80e1aa6139fb079da1a3/capsule_616x353_alt_assets_0.jpg?t=1779187561",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/d1a352d38355d4a693aa80e1aa6139fb079da1a3/capsule_616x353_alt_assets_0.jpg?t=1779393862",
       "originalPrice": 1599,
       "discountPrice": 1599,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3768760",
       "isSpecial": false,
-      "isPopular": true,
-      "isNewRelease": false
-    },
-    {
-      "id": "4381000",
-      "title": "Icarian",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4381000/d4df317e07d91c24a0acec3694eec44daf31f5f2/capsule_616x353.jpg?t=1779389167",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4381000",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4605700",
-      "title": "Kanojo Panic",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4605700/fd843f46f36e0a330648535492dc1bcad22910ad/capsule_616x353.jpg?t=1779386339",
-      "originalPrice": 130,
-      "discountPrice": 130,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4605700",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "3115240",
-      "title": "Alchemist: Journey of the Soul",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3115240/4a79867f9ce66a3812b8dbd9ea2cc9c38a54ca0a/capsule_616x353.jpg?t=1779387195",
-      "originalPrice": 275,
-      "discountPrice": 220,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3115240",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "3049020",
-      "title": "Turnout",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3049020/277750f47da0140f76e4eabc443985240b1631b7/capsule_616x353.jpg?t=1779384918",
-      "originalPrice": 119,
-      "discountPrice": 95,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3049020",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "3349970",
-      "title": "Gamestonk Simulator: Gone Rogue",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3349970/6ff9efbdc13370c3809b2f0214414f628024dde3/capsule_616x353.jpg?t=1779383543",
-      "originalPrice": 299,
-      "discountPrice": 254,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3349970",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4644950",
-      "title": "Layermask",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4644950/cd99d20d393e847da77ad670e746eb0cecff67ca/capsule_616x353.jpg?t=1779382944",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4644950",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4703150",
-      "title": "Mind Prison: The Last War",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4703150/0b9da17fb049d9da763e43db1896ebb0760201a0/capsule_616x353.jpg?t=1779382942",
-      "originalPrice": 76,
-      "discountPrice": 68,
-      "discountPercent": 11,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4703150",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "3593040",
-      "title": "Long Live My Lady! 🍻 Tavern Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3593040/76ec9d82a7f564234b8db6c75e3b7ed32f9c54d7/capsule_616x353.jpg?t=1779382821",
-      "originalPrice": 170,
-      "discountPrice": 127,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3593040",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "3597390",
-      "title": "Forsaken Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3597390/193f80794df8ad741aa184d5ca4989ed487e92ba/capsule_616x353.jpg?t=1779382809",
-      "originalPrice": 225,
-      "discountPrice": 191,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3597390",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "1823990",
-      "title": "Gravelord",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1823990/0ca886623dd6f623245ebf4863f88852d37f42f1/capsule_616x353_alt_assets_1.jpg?t=1779382679",
-      "originalPrice": 415,
-      "discountPrice": 373,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1823990",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4476090",
-      "title": "Geist Heist",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4476090/7e2cebbbeee09208f690fb7f90fd173d01f5dd26/capsule_616x353.jpg?t=1779382665",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4476090",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4602670",
-      "title": "Hentai Roxy",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4602670/dc28acdd165b0ff96f5ddd8e4e89ddb08ec8f207/capsule_616x353.jpg?t=1779382529",
-      "originalPrice": 27,
-      "discountPrice": 17,
-      "discountPercent": 37,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4602670",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "3336240",
-      "title": "Walk The Frog",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3336240/5fefabadaecde655857a265052716f43d16861d6/capsule_616x353.jpg?t=1779388899",
-      "originalPrice": 140,
-      "discountPrice": 105,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3336240",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4704410",
-      "title": "Life Shatter",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704410/70b1762ef3cd38712837ce4ed2a86d87284689ce/capsule_616x353.jpg?t=1779381948",
-      "originalPrice": 230,
-      "discountPrice": 230,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4704410",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "3507360",
-      "title": "The Longest Tale",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3507360/de3ab77dbb09d6b8b385a004a054f64c9a0216a0/capsule_616x353.jpg?t=1779381899",
-      "originalPrice": 335,
-      "discountPrice": 335,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3507360",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4561820",
-      "title": "Elemental: Reforged - Treasures of the Magi",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4561820/2d4d69991780d908b080c261b1431c186c99d266/capsule_616x353.jpg?t=1779383835",
-      "originalPrice": 210,
-      "discountPrice": 168,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4561820",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "3216800",
-      "title": "MÖRK BORG Heresy Supreme",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3216800/4d643567d2f6dd787dc5f1bbaa7cfe7680c02e82/capsule_616x353.jpg?t=1779379994",
-      "originalPrice": 415,
-      "discountPrice": 373,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3216800",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "2421950",
-      "title": "The Guardian of Nature",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2421950/7c3d1cf4861f88a3d872cac1de827f0014270639/capsule_616x353.jpg?t=1779379943",
-      "originalPrice": 206,
-      "discountPrice": 185,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2421950",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "3577690",
-      "title": "Warhammer 40,000: Battlesector - Ultramarines",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3577690/d3904a7438dfd0e0756b0c6ef8c6fcf5bef96de9/capsule_616x353.jpg?t=1779379728",
-      "originalPrice": 335,
-      "discountPrice": 335,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3577690",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4660150",
-      "title": "Warhammer 40,000: Gladius - Eradication pack",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4660150/0ff2f287020cd1ec73ae6bfc5060949825191e94/capsule_616x353.jpg?t=1779379753",
-      "originalPrice": 230,
-      "discountPrice": 230,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4660150",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4199860",
-      "title": "Paklyx",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4199860/98a3a66b0eb92658a02af6b014bbf65af5ba6bee/capsule_616x353.jpg?t=1779379224",
-      "originalPrice": 230,
-      "discountPrice": 207,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4199860",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4174310",
-      "title": "Retail Hell",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4174310/d230966035717d781e6c307905c77fb4fc1d5e8d/capsule_616x353.jpg?t=1779384572",
-      "originalPrice": 190,
-      "discountPrice": 161,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4174310",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4204170",
-      "title": "Warhammer 40,000: Mechanicus II – Digital Artbook",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4204170/a30e6eb4677dad65422a73097f21008114d5a8a3/capsule_616x353.jpg?t=1779378999",
-      "originalPrice": 85,
-      "discountPrice": 85,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4204170",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "2199080",
-      "title": "STARBITES",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2199080/70d23ce42dc7f63366b6f3a72c7f87c02dfc1648/capsule_616x353.jpg?t=1779379310",
-      "originalPrice": 1100,
-      "discountPrice": 1100,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2199080",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4194100",
-      "title": "Warhammer 40,000: Mechanicus II Soundtrack",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4194100/23e263e567527afcbdc669eb78e8cf2f85477e5a/capsule_616x353.jpg?t=1779378074",
-      "originalPrice": 250,
-      "discountPrice": 250,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4194100",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "2341100",
-      "title": "Lost in Cheese",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2341100/e293161bde51c4280c521acb1d4aad65b07a77bb/capsule_616x353.jpg?t=1779377367",
-      "originalPrice": 285,
-      "discountPrice": 228,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2341100",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "3206390",
-      "title": "【掲示板】ワイ魔法少女なんやが？【管理できん】",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3206390/c91bb0b970ca34a81a8b1f39555d856cbfff8d02/capsule_616x353.jpg?t=1779377258",
-      "originalPrice": 230,
-      "discountPrice": 195,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3206390",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4012840",
-      "title": "Hyper Euphoria",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4012840/56db8ee20a6b8a2d340c5dc0e9efcfac9ae9ba74/capsule_616x353.jpg?t=1779375779",
-      "originalPrice": 230,
-      "discountPrice": 184,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4012840",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4389120",
-      "title": "水彩画は水底に沈む",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4389120/2cc32f8fedc1e18283cbdba34a1e32bc4b07b92b/capsule_616x353.jpg?t=1779383831",
-      "originalPrice": 50,
-      "discountPrice": 50,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4389120",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
+      "isPopular": true
     }
   ]
 }

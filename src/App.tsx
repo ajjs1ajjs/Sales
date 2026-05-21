@@ -10,8 +10,7 @@ import {
   RefreshCw, 
   AlertCircle,
   Gamepad2,
-  TrendingUp,
-  Sparkles
+  TrendingUp
 } from 'lucide-react';
 
 interface EpicGame {
@@ -27,6 +26,8 @@ interface EpicGame {
   endDate: string;
   isFreeNow: boolean;
   isUpcomingFree: boolean;
+  isDiscounted: boolean;
+  discountPercent: number;
 }
 
 interface SteamGame {
@@ -40,7 +41,6 @@ interface SteamGame {
   url: string;
   isSpecial: boolean;
   isPopular: boolean;
-  isNewRelease: boolean;
 }
 
 interface DealsData {
@@ -49,7 +49,7 @@ interface DealsData {
   steam: SteamGame[];
 }
 
-type FilterType = 'all' | 'epic' | 'steam_specials' | 'steam_popular' | 'steam_new';
+type FilterType = 'all' | 'epic_free' | 'epic_discount' | 'steam_specials' | 'steam_popular';
 
 function App() {
   const [data, setData] = useState<DealsData | null>(null);
@@ -119,9 +119,23 @@ function App() {
     }
   };
 
+  const formatPrice = (price: number, currency: string) => {
+    if (!price && price !== 0) return '';
+    const formattedPrice = price % 1 === 0 ? price : price.toFixed(2);
+    if (currency === 'UAH') return `${formattedPrice} грн`;
+    if (currency === 'USD') return `$${formattedPrice}`;
+    return `${formattedPrice} ${currency}`;
+  };
+
   // Filter Epic and Steam games
   const filteredEpic = data?.epic.filter(game => {
-    return game.title.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesSearch = game.title.toLowerCase().includes(searchQuery.toLowerCase());
+    if (!matchesSearch) return false;
+
+    if (activeFilter === 'epic_free') return game.isFreeNow || game.isUpcomingFree;
+    if (activeFilter === 'epic_discount') return game.isDiscounted;
+    if (activeFilter === 'all') return true;
+    return false;
   }) || [];
 
   const filteredSteam = data?.steam.filter(game => {
@@ -130,18 +144,18 @@ function App() {
 
     if (activeFilter === 'steam_specials') return game.isSpecial;
     if (activeFilter === 'steam_popular') return game.isPopular;
-    if (activeFilter === 'steam_new') return game.isNewRelease;
-    return true; // for 'all' or 'epic' filters
+    if (activeFilter === 'all') return true;
+    return false;
   }) || [];
 
   // Categorize Epic Games
   const currentFreeEpic = filteredEpic.filter(g => g.isFreeNow);
   const upcomingFreeEpic = filteredEpic.filter(g => g.isUpcomingFree);
+  const discountedEpic = filteredEpic.filter(g => g.isDiscounted);
 
-  // Steam Subcategories for rendering in "all" view
+  // Steam Subcategories for rendering
   const steamSpecials = filteredSteam.filter(g => g.isSpecial);
   const steamPopular = filteredSteam.filter(g => g.isPopular);
-  const steamNew = filteredSteam.filter(g => g.isNewRelease);
 
   return (
     <>
@@ -196,11 +210,18 @@ function App() {
             Всі категорії
           </button>
           <button 
-            onClick={() => setActiveFilter('epic')} 
-            className={`filter-btn ${activeFilter === 'epic' ? 'active' : ''}`}
-            id="filter-epic"
+            onClick={() => setActiveFilter('epic_free')} 
+            className={`filter-btn ${activeFilter === 'epic_free' ? 'active' : ''}`}
+            id="filter-epic-free"
           >
-            Epic Games
+            Epic Роздачі
+          </button>
+          <button 
+            onClick={() => setActiveFilter('epic_discount')} 
+            className={`filter-btn ${activeFilter === 'epic_discount' ? 'active' : ''}`}
+            id="filter-epic-discount"
+          >
+            Epic Знижки
           </button>
           <button 
             onClick={() => setActiveFilter('steam_specials')} 
@@ -215,13 +236,6 @@ function App() {
             id="filter-steam-popular"
           >
             Steam Тренди
-          </button>
-          <button 
-            onClick={() => setActiveFilter('steam_new')} 
-            className={`filter-btn ${activeFilter === 'steam_new' ? 'active' : ''}`}
-            id="filter-steam-new"
-          >
-            Steam Новинки
           </button>
         </div>
       </section>
@@ -250,7 +264,7 @@ function App() {
         {!loading && !error && (
           <>
             {/* 1. Epic Games Section */}
-            {(activeFilter === 'all' || activeFilter === 'epic') && (
+            {(activeFilter === 'all' || activeFilter === 'epic_free') && (
               <>
                 <h2 className="section-title">
                   <Gift size={22} style={{ color: 'var(--accent-epic)' }} />
@@ -284,7 +298,7 @@ function App() {
                             <p className="card-desc">{game.description}</p>
                             <div className="card-footer">
                               <div className="price-container">
-                                <span className="price-original">{game.originalPrice > 0 ? `${game.originalPrice} ${game.currency}` : ''}</span>
+                                <span className="price-original">{game.originalPrice > 0 ? formatPrice(game.originalPrice, game.currency) : ''}</span>
                                 <span className="price-current free-text">БЕЗКОШТОВНО</span>
                               </div>
                               <a href={game.url} target="_blank" rel="noopener noreferrer" className="store-link">
@@ -332,6 +346,50 @@ function App() {
               </>
             )}
 
+            {/* 1.2 Epic Games Discounts Section */}
+            {(activeFilter === 'all' || activeFilter === 'epic_discount') && (
+              <>
+                <h2 className="section-title">
+                  <Tag size={22} style={{ color: 'var(--accent-epic)' }} />
+                  Знижки Epic Games Store
+                </h2>
+
+                {discountedEpic.length === 0 ? (
+                  <div className="empty-state" style={{ marginBottom: '40px' }}>
+                    <h3>Нічого не знайдено</h3>
+                    <p>Наразі немає активних знижок в Epic Games Store, що відповідають вашому запиту.</p>
+                  </div>
+                ) : (
+                  <div className="deals-grid" style={{ marginBottom: '48px' }}>
+                    {discountedEpic.map(game => (
+                      <div className="game-card" key={game.id}>
+                        <div className="card-image-wrapper">
+                          <span className="platform-badge epic">Epic Games</span>
+                          <span className="deal-badge">-{game.discountPercent}%</span>
+                          <img src={game.imageUrl} alt={game.title} className="card-image" loading="lazy" />
+                        </div>
+                        <div className="card-content">
+                          <h4 className="card-title" title={game.title}>{game.title}</h4>
+                          <p className="card-desc" style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--text-secondary)' }}>
+                            <Tag size={14} /> Тимчасова знижка в Epic Games Store.
+                          </p>
+                          <div className="card-footer">
+                            <div className="price-container">
+                              <span className="price-original">{formatPrice(game.originalPrice, game.currency)}</span>
+                              <span className="price-current">{formatPrice(game.discountPrice, game.currency)}</span>
+                            </div>
+                            <a href={game.url} target="_blank" rel="noopener noreferrer" className="store-link">
+                              Придбати <ExternalLink size={14} />
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
             {/* 2. Steam Specials Section */}
             {(activeFilter === 'all' || activeFilter === 'steam_specials') && (
               <>
@@ -361,8 +419,8 @@ function App() {
                           </p>
                           <div className="card-footer">
                             <div className="price-container">
-                              <span className="price-original">{deal.originalPrice} {deal.currency}</span>
-                              <span className="price-current">{deal.discountPrice} {deal.currency}</span>
+                              <span className="price-original">{formatPrice(deal.originalPrice, deal.currency)}</span>
+                              <span className="price-current">{formatPrice(deal.discountPrice, deal.currency)}</span>
                             </div>
                             <a href={deal.url} target="_blank" rel="noopener noreferrer" className="store-link">
                               Придбати <ExternalLink size={14} />
@@ -407,14 +465,14 @@ function App() {
                           </p>
                           <div className="card-footer">
                             <div className="price-container">
-                              {deal.discountPercent > 0 ? (
-                                <>
-                                  <span className="price-original">{deal.originalPrice} {deal.currency}</span>
-                                  <span className="price-current">{deal.discountPrice} {deal.currency}</span>
-                                </>
-                              ) : (
-                                <span className="price-current">{deal.discountPrice} {deal.currency}</span>
-                              )}
+                               {deal.discountPercent > 0 ? (
+                                 <>
+                                   <span className="price-original">{formatPrice(deal.originalPrice, deal.currency)}</span>
+                                   <span className="price-current">{formatPrice(deal.discountPrice, deal.currency)}</span>
+                                 </>
+                               ) : (
+                                 <span className="price-current">{formatPrice(deal.discountPrice, deal.currency)}</span>
+                               )}
                             </div>
                             <a href={deal.url} target="_blank" rel="noopener noreferrer" className="store-link">
                               Дивитися <ExternalLink size={14} />
@@ -428,59 +486,7 @@ function App() {
               </>
             )}
 
-            {/* 4. Steam New Releases Section */}
-            {(activeFilter === 'all' || activeFilter === 'steam_new') && (
-              <>
-                <h2 className="section-title">
-                  <Sparkles size={22} style={{ color: 'var(--accent-steam)' }} />
-                  Нові популярні релізи Steam
-                </h2>
 
-                {steamNew.length === 0 ? (
-                  <div className="empty-state">
-                    <h3>Нічого не знайдено</h3>
-                    <p>Не вдалося знайти нових релізів, що відповідають запиту.</p>
-                  </div>
-                ) : (
-                  <div className="deals-grid">
-                    {steamNew.map(deal => (
-                      <div className="game-card" key={deal.id}>
-                        <div className="card-image-wrapper">
-                          <span className="platform-badge steam">Steam</span>
-                          {deal.discountPercent > 0 && (
-                            <span className="deal-badge">-{deal.discountPercent}%</span>
-                          )}
-                          <img src={deal.imageUrl} alt={deal.title} className="card-image" loading="lazy" />
-                        </div>
-                        <div className="card-content">
-                          <h4 className="card-title" title={deal.title}>{deal.title}</h4>
-                          <p className="card-desc" style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--text-secondary)' }}>
-                            <Sparkles size={14} /> Свіжа популярна новинка в Steam.
-                          </p>
-                          <div className="card-footer">
-                            <div className="price-container">
-                              {deal.discountPercent > 0 ? (
-                                <>
-                                  <span className="price-original">{deal.originalPrice} {deal.currency}</span>
-                                  <span className="price-current">{deal.discountPrice} {deal.currency}</span>
-                                </>
-                              ) : deal.discountPrice === 0 ? (
-                                <span className="price-current free-text">БЕЗКОШТОВНО</span>
-                              ) : (
-                                <span className="price-current">{deal.discountPrice} {deal.currency}</span>
-                              )}
-                            </div>
-                            <a href={deal.url} target="_blank" rel="noopener noreferrer" className="store-link">
-                              Дивитися <ExternalLink size={14} />
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </>
-            )}
 
             {/* No matches for overall search */}
             {activeFilter === 'all' && filteredEpic.length === 0 && filteredSteam.length === 0 && (

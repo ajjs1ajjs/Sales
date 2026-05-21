@@ -22,6 +22,8 @@ interface EpicGame {
   endDate: string;
   isFreeNow: boolean;
   isUpcomingFree: boolean;
+  isDiscounted: boolean;
+  discountPercent: number;
 }
 
 interface SteamGame {
@@ -35,7 +37,6 @@ interface SteamGame {
   url: string;
   isSpecial: boolean;
   isPopular: boolean;
-  isNewRelease: boolean;
 }
 
 interface DealsData {
@@ -65,7 +66,7 @@ function formatDate(dateStr: string): string {
 async function fetchEpicGames(): Promise<EpicGame[]> {
   try {
     console.log("Fetching Epic Games promotions...");
-    const url = 'https://store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions';
+    const url = 'https://store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions?locale=uk&country=UA';
     const res = await fetch(url);
     const data = await res.json();
     const elements = data.data.Catalog.searchStore.elements || [];
@@ -73,6 +74,11 @@ async function fetchEpicGames(): Promise<EpicGame[]> {
     const games: EpicGame[] = [];
     
     for (const item of elements) {
+      const originalPrice = item.price.totalPrice.originalPrice / 100;
+      const discountPrice = item.price.totalPrice.discountPrice / 100;
+      const isDiscounted = discountPrice < originalPrice && discountPrice > 0;
+      const discountPercent = originalPrice > 0 ? Math.round((1 - discountPrice / originalPrice) * 100) : 0;
+      
       let isFreeNow = false;
       let isUpcomingFree = false;
       let startDate = "";
@@ -84,6 +90,9 @@ async function fetchEpicGames(): Promise<EpicGame[]> {
         for (const offer of block.promotionalOffers || []) {
           if (offer.discountSetting?.discountPercentage === 0) {
             isFreeNow = true;
+            startDate = offer.startDate;
+            endDate = offer.endDate;
+          } else if (offer.discountSetting?.discountPercentage > 0) {
             startDate = offer.startDate;
             endDate = offer.endDate;
           }
@@ -102,7 +111,7 @@ async function fetchEpicGames(): Promise<EpicGame[]> {
         }
       }
       
-      if (isFreeNow || isUpcomingFree) {
+      if (isFreeNow || isUpcomingFree || isDiscounted) {
         // Find suitable image
         const images = item.keyImages || [];
         const imageTypes = ['DieselStoreFrontWide', 'OfferImageWide', 'Thumbnail', 'OfferImageTall'];
@@ -140,14 +149,16 @@ async function fetchEpicGames(): Promise<EpicGame[]> {
           title: item.title,
           description: item.description || "Опис відсутній.",
           imageUrl,
-          originalPrice: item.price.totalPrice.originalPrice / 100,
-          discountPrice: item.price.totalPrice.discountPrice / 100,
+          originalPrice,
+          discountPrice,
           currency: item.price.totalPrice.currencyCode || "USD",
           url: gameUrl,
           startDate,
           endDate,
           isFreeNow,
-          isUpcomingFree
+          isUpcomingFree,
+          isDiscounted,
+          discountPercent
         });
       }
     }
@@ -168,11 +179,10 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
     
     const specials = data.specials?.items || [];
     const topSellers = data.top_sellers?.items || [];
-    const newReleases = data.new_releases?.items || [];
     
     const gamesMap = new Map<string, SteamGame>();
     
-    const processItems = (items: any[], isSpecial: boolean, isPopular: boolean, isNewRelease: boolean) => {
+    const processItems = (items: any[], isSpecial: boolean, isPopular: boolean) => {
       for (const item of items) {
         const id = String(item.id);
         const originalPrice = (item.original_price ?? item.final_price ?? 0) / 100;
@@ -182,7 +192,6 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
           const existing = gamesMap.get(id)!;
           if (isSpecial) existing.isSpecial = true;
           if (isPopular) existing.isPopular = true;
-          if (isNewRelease) existing.isNewRelease = true;
           // Keep the highest discount if listed multiple times
           if (item.discount_percent > existing.discountPercent) {
             existing.discountPercent = item.discount_percent;
@@ -200,16 +209,14 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
             currency: item.currency || "UAH",
             url: `https://store.steampowered.com/app/${id}`,
             isSpecial,
-            isPopular,
-            isNewRelease
+            isPopular
           });
         }
       }
     };
     
-    processItems(specials, true, false, false);
-    processItems(topSellers, false, true, false);
-    processItems(newReleases, false, false, true);
+    processItems(specials, true, false);
+    processItems(topSellers, false, true);
     
     return Array.from(gamesMap.values());
   } catch (err) {
@@ -279,16 +286,22 @@ async function run() {
   
   // Detect changes
   const newFreeGames: EpicGame[] = [];
+  const newEpicDiscounts: EpicGame[] = [];
   const newSteamDeals: SteamGame[] = [];
   const newPopularGames: SteamGame[] = [];
-  const newNewReleases: SteamGame[] = [];
   
-  // Epic: Find currently free games that were not free in the old data
+  // Epic: Find currently free games and discounts that were not in the old data
   for (const game of freshEpic) {
     if (game.isFreeNow) {
       const wasFree = oldData.epic.some(oldGame => oldGame.id === game.id && oldGame.isFreeNow);
       if (!wasFree) {
         newFreeGames.push(game);
+      }
+    }
+    if (game.isDiscounted) {
+      const wasDiscounted = oldData.epic.some(oldGame => oldGame.id === game.id && oldGame.isDiscounted);
+      if (!wasDiscounted) {
+        newEpicDiscounts.push(game);
       }
     }
   }
@@ -312,17 +325,9 @@ async function run() {
         newPopularGames.push(game);
       }
     }
-    
-    // 3. New Releases: newly marked as isNewRelease
-    if (game.isNewRelease) {
-      const wasNewRelease = oldData.steam.some(oldGame => oldGame.id === game.id && oldGame.isNewRelease);
-      if (!wasNewRelease) {
-        newNewReleases.push(game);
-      }
-    }
   }
   
-  console.log(`Detected: ${newFreeGames.length} free, ${newSteamDeals.length} hot specials, ${newPopularGames.length} popular, ${newNewReleases.length} new releases.`);
+  console.log(`Detected: ${newFreeGames.length} free Epic, ${newEpicDiscounts.length} discounted Epic, ${newSteamDeals.length} hot Steam, ${newPopularGames.length} popular Steam.`);
   
   // Send notifications if there are any updates
   if (newFreeGames.length > 0) {
@@ -336,6 +341,19 @@ async function run() {
     }
   }
   
+  if (newEpicDiscounts.length > 0) {
+    let epicText = `🔥 <b>ГАРЯЧІ ЗНИЖКИ В EPIC GAMES STORE!</b>\n\n`;
+    for (const deal of newEpicDiscounts) {
+      const pct = deal.discountPercent > 0 ? `-${deal.discountPercent}%` : 'знижка';
+      epicText += `🎮 <b>${deal.title}</b>\n` +
+                   `🏷️ Знижка: <b>${pct}</b>\n` +
+                   `💰 Ціна: <s>${deal.originalPrice} ${deal.currency}</s> ➡️ <b>${deal.discountPrice} ${deal.currency}</b>\n` +
+                   `🔗 <a href="${deal.url}">Детальніше в Epic Games Store</a>\n\n`;
+    }
+    epicText += `🚀 Більше пропозицій дивіться на нашому сайті!`;
+    await sendTelegramMessage(epicText);
+  }
+  
   if (newSteamDeals.length > 0) {
     let steamText = `🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 5%)!</b>\n\n`;
     for (const deal of newSteamDeals) {
@@ -347,7 +365,7 @@ async function run() {
     steamText += `🚀 Більше знижок дивіться на нашому сайті!`;
     await sendTelegramMessage(steamText);
   }
-
+  
   if (newPopularGames.length > 0) {
     let popularText = `⭐ <b>ТРЕНДОВІ ІГРИ В STEAM (TOP SELLERS)!</b>\n\n`;
     for (const game of newPopularGames) {
@@ -361,23 +379,6 @@ async function run() {
     }
     popularText += `🚀 Більше популярних ігор дивіться на нашому сайті!`;
     await sendTelegramMessage(popularText);
-  }
-
-  if (newNewReleases.length > 0) {
-    let releasesText = `🆕 <b>НОВІ ПОПУЛЯРНІ РЕЛІЗИ В STEAM!</b>\n\n`;
-    for (const game of newNewReleases) {
-      const priceText = game.discountPercent > 0 
-        ? `<s>${game.originalPrice} ${game.currency}</s> ➡️ <b>${game.discountPrice} ${game.currency}</b> (-${game.discountPercent}%)`
-        : game.discountPrice === 0 
-          ? `<b>Безкоштовно</b>`
-          : `<b>${game.discountPrice} ${game.currency}</b>`;
-      
-      releasesText += `🎮 <b>${game.title}</b>\n` +
-                      `💰 Ціна: ${priceText}\n` +
-                      `🔗 <a href="${game.url}">Дивитися в Steam</a>\n\n`;
-    }
-    releasesText += `🚀 Більше новинок дивіться на нашому сайті!`;
-    await sendTelegramMessage(releasesText);
   }
   
   // Save updated data
