@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T06:58:47.086Z",
+  "lastUpdated": "2026-05-21T10:43:11.255Z",
   "epic": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -82,7 +82,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
-      "isPopular": true,
+      "isPopular": false,
       "isNewRelease": false
     },
     {
@@ -95,7 +95,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/413150",
       "isSpecial": true,
-      "isPopular": true,
+      "isPopular": false,
       "isNewRelease": false
     },
     {
@@ -138,32 +138,6 @@
       "isNewRelease": false
     },
     {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
-      "originalPrice": 159,
-      "discountPrice": 98,
-      "discountPercent": 38,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isPopular": false,
-      "isNewRelease": false
-    },
-    {
-      "id": "311210",
-      "title": "Call of Duty®: Black Ops III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1748022663",
-      "originalPrice": 2552,
-      "discountPrice": 842,
-      "discountPercent": 67,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/311210",
-      "isSpecial": true,
-      "isPopular": false,
-      "isNewRelease": false
-    },
-    {
       "id": "4466620",
       "title": "SiNiSistar 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4466620/9ceef8e15438cd53a6b1c21ef971ba30118ef0b2/capsule_616x353.jpg?t=1778889257",
@@ -177,6 +151,19 @@
       "isNewRelease": false
     },
     {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
+      "originalPrice": 159,
+      "discountPrice": 98,
+      "discountPercent": 38,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290",
+      "isSpecial": true,
+      "isPopular": false,
+      "isNewRelease": false
+    },
+    {
       "id": "3542380",
       "title": "Rune Dice",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3542380/2fe65a6d0a29db8bf3eb6b3d8ae7934850ca9e20/capsule_616x353.jpg?t=1779267089",
@@ -185,6 +172,19 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3542380",
+      "isSpecial": true,
+      "isPopular": false,
+      "isNewRelease": false
+    },
+    {
+      "id": "311210",
+      "title": "Call of Duty®: Black Ops III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1748022663",
+      "originalPrice": 2552,
+      "discountPrice": 842,
+      "discountPercent": 67,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/311210",
       "isSpecial": true,
       "isPopular": false,
       "isNewRelease": false
@@ -229,6 +229,19 @@
       "isNewRelease": false
     },
     {
+      "id": "76235",
+      "title": "Disgraced State Agents Bundle",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/76235/bfvfgm0fyi0iswwq/9ebb2d008931942a1cd3891729b04e454242981f/capsule_616x353.jpg?t=1779354393",
+      "originalPrice": 1530,
+      "discountPrice": 1376,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/76235",
+      "isSpecial": false,
+      "isPopular": true,
+      "isNewRelease": false
+    },
+    {
       "id": "10076",
       "title": "Subnautica Deep Ocean Bundle",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/10076/zd6xzb1njfo3gm8d/191661494e808edd2cccc6e6de198dd6c2e0b36b/capsule_616x353.jpg?t=1778518597",
@@ -255,6 +268,19 @@
       "isNewRelease": false
     },
     {
+      "id": "54029",
+      "title": "Покращення прайм-статусу",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/54029/capsule_616x353.jpg?t=1713988570",
+      "originalPrice": 650,
+      "discountPrice": 650,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/54029",
+      "isSpecial": false,
+      "isPopular": true,
+      "isNewRelease": false
+    },
+    {
       "id": "3768760",
       "title": "007 First Light",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/d1a352d38355d4a693aa80e1aa6139fb079da1a3/capsule_616x353_alt_assets_0.jpg?t=1779187561",
@@ -266,6 +292,97 @@
       "isSpecial": false,
       "isPopular": true,
       "isNewRelease": false
+    },
+    {
+      "id": "2863680",
+      "title": "ZERO PARADES: For Dead Spies",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2863680/e57a9270fe45dd95208a5766c8e607bf4dd94050/capsule_616x353.jpg?t=1779357975",
+      "originalPrice": 765,
+      "discountPrice": 765,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2863680",
+      "isSpecial": false,
+      "isPopular": true,
+      "isNewRelease": true
+    },
+    {
+      "id": "3232870",
+      "title": "King of Tokyo - Richard Garfield",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3232870/8c371ef982d12d053535108cc34524d0d823128b/capsule_616x353.jpg?t=1779350409",
+      "originalPrice": 499,
+      "discountPrice": 499,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3232870",
+      "isSpecial": false,
+      "isPopular": false,
+      "isNewRelease": true
+    },
+    {
+      "id": "4663660",
+      "title": "Hidden Objects - Items Find",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4663660/37c3c382a4c4d5fc951526451d5967c4e393bac4/capsule_616x353.jpg?t=1779348180",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4663660",
+      "isSpecial": false,
+      "isPopular": false,
+      "isNewRelease": true
+    },
+    {
+      "id": "2560100",
+      "title": "Midnight Special",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2560100/4cee0d1e2ce89baa94affc9d2065dac06fa50f80/capsule_616x353.jpg?t=1779354852",
+      "originalPrice": 335,
+      "discountPrice": 251,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2560100",
+      "isSpecial": false,
+      "isPopular": false,
+      "isNewRelease": true
+    },
+    {
+      "id": "4337210",
+      "title": "Berserker Onslaught",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4337210/8a6e4863c74db6520d6905765e76e1e5828e4243/capsule_616x353.jpg?t=1779346601",
+      "originalPrice": 230,
+      "discountPrice": 195,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4337210",
+      "isSpecial": false,
+      "isPopular": false,
+      "isNewRelease": true
+    },
+    {
+      "id": "4536290",
+      "title": "Last Draft",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4536290/95c08c238cbd042f1484ddd242881fd3b04004f8/capsule_616x353.jpg?t=1779343573",
+      "originalPrice": 155,
+      "discountPrice": 155,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4536290",
+      "isSpecial": false,
+      "isPopular": false,
+      "isNewRelease": true
+    },
+    {
+      "id": "4691700",
+      "title": " RPG Maker MZ - Tileset Builder",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4691700/abf178814f519dfa31e9147df0d7f44029805df4/capsule_616x353.jpg?t=1779337627",
+      "originalPrice": 335,
+      "discountPrice": 301,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4691700",
+      "isSpecial": false,
+      "isPopular": false,
+      "isNewRelease": true
     },
     {
       "id": "3893830",
@@ -528,6 +645,19 @@
       "isNewRelease": true
     },
     {
+      "id": "3047800",
+      "title": "Dice Tech Dominion - Enter the Shadow Circuit",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3047800/d25d696e6e4d2f628de76c02f80f129ac3936efd/capsule_616x353.jpg?t=1779305153",
+      "originalPrice": 295,
+      "discountPrice": 250,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3047800",
+      "isSpecial": false,
+      "isPopular": false,
+      "isNewRelease": true
+    },
+    {
       "id": "3651880",
       "title": "KASAP",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3651880/3ceb0053e1f86ae7e129a1e729b7e38856827b38/capsule_616x353.jpg?t=1779303857",
@@ -549,110 +679,6 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4672360",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "3550710",
-      "title": "Vasilisa",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3550710/f1f6092c929d11e48540b216955e0276fe4931f4/capsule_616x353.jpg?t=1779299180",
-      "originalPrice": 163,
-      "discountPrice": 128,
-      "discountPercent": 21,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3550710",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4697430",
-      "title": "Bench Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697430/ec304e6cfad2a5d8fdee77b77d7e1bdbc3bb85d5/capsule_616x353.jpg?t=1779297848",
-      "originalPrice": 76,
-      "discountPrice": 76,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4697430",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4290470",
-      "title": "Echo Isle",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4290470/b701362eec6ec35e92232088062783f39fd00156/capsule_616x353.jpg?t=1779299411",
-      "originalPrice": 130,
-      "discountPrice": 104,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4290470",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "1807740",
-      "title": "Palliative - Reach for an Angel",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1807740/0469037d65e1af111bbf7fea325608fad8748397/capsule_616x353.jpg?t=1779296797",
-      "originalPrice": 124,
-      "discountPrice": 105,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1807740",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "3770700",
-      "title": "Cosmic Run",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3770700/bb18f2290322c932aa5274cb5ccff88b4d4d37d8/capsule_616x353.jpg?t=1779296582",
-      "originalPrice": 255,
-      "discountPrice": 229,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3770700",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4646860",
-      "title": "Gator Hucker",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4646860/967f32d64fe08b39b8b513d434899bf57b212bfe/capsule_616x353.jpg?t=1779297850",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4646860",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4330860",
-      "title": "Desktop Nard: Dice Idle",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4330860/05286bdf4ba75394fe2c316780f4e9e9650803d2/capsule_616x353.jpg?t=1779296033",
-      "originalPrice": 130,
-      "discountPrice": 117,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4330860",
-      "isSpecial": false,
-      "isPopular": false,
-      "isNewRelease": true
-    },
-    {
-      "id": "4651030",
-      "title": "PeeWee Purpdrank's FOENEM Clicker",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4651030/6c113576cebdd6f87527f85290050fca007cdf72/capsule_616x353.jpg?t=1779295892",
-      "originalPrice": 76,
-      "discountPrice": 76,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4651030",
       "isSpecial": false,
       "isPopular": false,
       "isNewRelease": true
