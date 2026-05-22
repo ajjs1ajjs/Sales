@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T10:22:39.048Z",
+  "lastUpdated": "2026-05-22T13:07:30.222Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -150,24 +150,12 @@
     {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/01258768bc382555819a5a128fb66cc2dc2f3c4e/capsule_616x353_alt_assets_12_ukrainian.jpg?t=1779444506",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/01258768bc382555819a5a128fb66cc2dc2f3c4e/capsule_616x353_alt_assets_12_ukrainian.jpg?t=1779454963",
       "originalPrice": 1299,
       "discountPrice": 389,
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2536520",
-      "title": "Diablo II: Resurrected - Infernal Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
-      "originalPrice": 1699,
-      "discountPrice": 1274,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2536520",
       "isSpecial": true,
       "isPopular": true
     },
@@ -208,14 +196,14 @@
       "isPopular": false
     },
     {
-      "id": "1142710",
-      "title": "Total War: WARHAMMER III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1779441058",
-      "originalPrice": 1899,
-      "discountPrice": 284,
-      "discountPercent": 85,
+      "id": "2536520",
+      "title": "Diablo II: Resurrected - Infernal Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
+      "originalPrice": 1699,
+      "discountPrice": 1274,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1142710",
+      "url": "https://store.steampowered.com/app/2536520",
       "isSpecial": true,
       "isPopular": false
     },
@@ -232,6 +220,18 @@
       "isPopular": false
     },
     {
+      "id": "1142710",
+      "title": "Total War: WARHAMMER III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1779441058",
+      "originalPrice": 1899,
+      "discountPrice": 284,
+      "discountPercent": 85,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1142710",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "4351410",
       "title": "House Flipper 2 - Sakura DLC",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4351410/4ff04576e62b655573a4f8d2acd2712d81144db2/capsule_616x353.jpg?t=1779369847",
@@ -240,6 +240,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4351410",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "848450",
+      "title": "Subnautica: Below Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/capsule_616x353.jpg?t=1777456254",
+      "originalPrice": 799,
+      "discountPrice": 199,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/848450",
       "isSpecial": true,
       "isPopular": false
     },
@@ -316,18 +328,6 @@
       "isPopular": true
     },
     {
-      "id": "1624417",
-      "title": "Warhammer 40,000: Dawn of War IV Commander Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/1624417/757efa668cb13fc541bd8d2f031f1a86320e7007/capsule_616x353.jpg?t=1779381125",
-      "originalPrice": 2899,
-      "discountPrice": 2609,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1624417",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "75870",
       "title": "Deep Rock Galactic x Rogue Core",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/75870/ibdz289hp2504r98/c0782a0b580fa74f97b55bf513b3117cd392be39/capsule_616x353.jpg?t=1779184275",
@@ -336,6 +336,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/75870",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1624417",
+      "title": "Warhammer 40,000: Dawn of War IV Commander Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/1624417/757efa668cb13fc541bd8d2f031f1a86320e7007/capsule_616x353.jpg?t=1779381125",
+      "originalPrice": 2899,
+      "discountPrice": 2609,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1624417",
       "isSpecial": false,
       "isPopular": true
     },
@@ -351,5 +363,189 @@
       "isSpecial": false,
       "isPopular": true
     }
-  ]
+  ],
+  "notifiedHistory": {
+    "epic_discount_921e40c4c69f4d728914ca2a4f0aa407": {
+      "title": "Eternal Threads",
+      "price": 73.8,
+      "percent": 80,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "discount"
+    },
+    "epic_discount_be5600439b434624802764f704755cde": {
+      "title": "Ghostrunner 2",
+      "price": 199.8,
+      "percent": 80,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "discount"
+    },
+    "epic_discount_944b5b5d646d46bc92bc33edfe983d26": {
+      "title": "LISA: The Definitive Edition",
+      "price": 274.45,
+      "percent": 45,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "discount"
+    },
+    "epic_discount_8f80897c0b6e4e678fed08da169d44be": {
+      "title": "Castlevania Anniversary Collection",
+      "price": 111.6,
+      "percent": 60,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "discount"
+    },
+    "epic_discount_f967cff9761c4198b4e972cfd71e40d7": {
+      "title": "Monument Valley",
+      "price": 65.45,
+      "percent": 65,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "discount"
+    },
+    "epic_free_cd37ebd7ce804df9b51b84578e631b8a": {
+      "title": "Down in Bermuda",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "free"
+    },
+    "epic_free_9e2567e57e61458686d53f5aeaf1e2e0": {
+      "title": "Tomb Raider I-III Remastered Starring Lara Croft",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "free"
+    },
+    "steam_discount_2183900": {
+      "title": "Warhammer 40,000: Space Marine 2",
+      "price": 389,
+      "percent": 70,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "discount"
+    },
+    "steam_popular_2183900": {
+      "title": "Warhammer 40,000: Space Marine 2",
+      "price": 389,
+      "percent": 70,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "popular"
+    },
+    "steam_discount_264710": {
+      "title": "Subnautica",
+      "price": 199,
+      "percent": 75,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "discount"
+    },
+    "steam_discount_1304930": {
+      "title": "The Outlast Trials",
+      "price": 222,
+      "percent": 70,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "discount"
+    },
+    "steam_discount_1174180": {
+      "title": "Red Dead Redemption 2",
+      "price": 649,
+      "percent": 75,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "discount"
+    },
+    "steam_discount_2536520": {
+      "title": "Diablo II: Resurrected - Infernal Edition",
+      "price": 1274,
+      "percent": 25,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "discount"
+    },
+    "steam_discount_3527290": {
+      "title": "PEAK",
+      "price": 98,
+      "percent": 38,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "discount"
+    },
+    "steam_discount_1142710": {
+      "title": "Total War: WARHAMMER III",
+      "price": 284,
+      "percent": 85,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "discount"
+    },
+    "steam_discount_4351410": {
+      "title": "House Flipper 2 - Sakura DLC",
+      "price": 224,
+      "percent": 10,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "discount"
+    },
+    "steam_discount_848450": {
+      "title": "Subnautica: Below Zero",
+      "price": 199,
+      "percent": 75,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "discount"
+    },
+    "steam_discount_1332010": {
+      "title": "Stray",
+      "price": 289,
+      "percent": 50,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "discount"
+    },
+    "steam_popular_2483190": {
+      "title": "Forza Horizon 6",
+      "price": 2299,
+      "percent": 0,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "popular"
+    },
+    "steam_popular_2215200": {
+      "title": "LEGO® Batman™: Legacy of the Dark Knight",
+      "price": 1899,
+      "percent": 0,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "popular"
+    },
+    "steam_popular_10076": {
+      "title": "Subnautica Deep Ocean Bundle",
+      "price": 1167,
+      "percent": 48,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "popular"
+    },
+    "steam_popular_3768760": {
+      "title": "007 First Light",
+      "price": 1599,
+      "percent": 0,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "popular"
+    },
+    "steam_popular_2532480": {
+      "title": "Warhammer 40,000: Mechanicus II",
+      "price": 1080,
+      "percent": 10,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "popular"
+    },
+    "steam_popular_75870": {
+      "title": "Deep Rock Galactic x Rogue Core",
+      "price": 916,
+      "percent": 0,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "popular"
+    },
+    "steam_popular_1624417": {
+      "title": "Warhammer 40,000: Dawn of War IV Commander Edition",
+      "price": 2609,
+      "percent": 10,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "popular"
+    },
+    "steam_popular_54029": {
+      "title": "Покращення прайм-статусу",
+      "price": 650,
+      "percent": 0,
+      "timestamp": "2026-05-22T13:07:29.586Z",
+      "type": "popular"
+    }
+  }
 }

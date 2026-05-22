@@ -39,10 +39,19 @@ interface SteamGame {
   isPopular: boolean;
 }
 
+interface NotifiedItem {
+  title: string;
+  price: number;
+  percent: number;
+  timestamp: string;
+  type: 'free' | 'discount' | 'popular';
+}
+
 interface DealsData {
   lastUpdated: string;
   epic: EpicGame[];
   steam: SteamGame[];
+  notifiedHistory?: Record<string, NotifiedItem>;
 }
 
 function formatDate(dateStr: string): string {
@@ -61,6 +70,16 @@ function formatDate(dateStr: string): string {
   } catch (err) {
     return dateStr;
   }
+}
+
+function formatPrice(price: number, currency: string): string {
+  if (price === 0) return 'Безкоштовно';
+  const formattedPrice = price.toLocaleString('uk-UA', {
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 2,
+  });
+  const currencySymbol = currency === 'UAH' ? 'грн' : currency === 'USD' ? '$' : currency;
+  return `${formattedPrice} ${currencySymbol}`;
 }
 
 async function fetchEpicGames(): Promise<EpicGame[]> {
@@ -280,6 +299,22 @@ async function run() {
     }
   }
   
+  // Load and clean notified history
+  const notifiedHistory = oldData.notifiedHistory || {};
+  const now = new Date();
+  const thirtyDaysAgo = now.getTime() - 30 * 24 * 60 * 60 * 1000;
+  
+  for (const [key, value] of Object.entries(notifiedHistory)) {
+    try {
+      const notifiedTime = new Date(value.timestamp).getTime();
+      if (notifiedTime < thirtyDaysAgo) {
+        delete notifiedHistory[key];
+      }
+    } catch (e) {
+      delete notifiedHistory[key];
+    }
+  }
+  
   // Fetch fresh data
   const freshEpic = await fetchEpicGames();
   const freshSteam = await fetchSteamGames();
@@ -290,18 +325,60 @@ async function run() {
   const newSteamDeals: SteamGame[] = [];
   const newPopularGames: SteamGame[] = [];
   
-  // Epic: Find currently free games and discounts that were not in the old data
+  // Epic: Find currently free games and discounts that were not notified
   for (const game of freshEpic) {
     if (game.isFreeNow) {
-      const wasFree = oldData.epic.some(oldGame => oldGame.id === game.id && oldGame.isFreeNow);
-      if (!wasFree) {
+      const historyKey = `epic_free_${game.id}`;
+      const historyEntry = notifiedHistory[historyKey];
+      
+      let shouldNotify = false;
+      if (!historyEntry) {
+        shouldNotify = true;
+      } else {
+        const lastNotified = new Date(historyEntry.timestamp).getTime();
+        // Cooldown of 14 days for free games
+        if (now.getTime() - lastNotified > 14 * 24 * 60 * 60 * 1000) {
+          shouldNotify = true;
+        }
+      }
+      
+      if (shouldNotify) {
         newFreeGames.push(game);
+        notifiedHistory[historyKey] = {
+          title: game.title,
+          price: 0,
+          percent: 100,
+          timestamp: now.toISOString(),
+          type: 'free'
+        };
       }
     }
+    
     if (game.isDiscounted) {
-      const wasDiscounted = oldData.epic.some(oldGame => oldGame.id === game.id && oldGame.isDiscounted);
-      if (!wasDiscounted) {
+      const historyKey = `epic_discount_${game.id}`;
+      const historyEntry = notifiedHistory[historyKey];
+      
+      let shouldNotify = false;
+      if (!historyEntry) {
+        shouldNotify = true;
+      } else {
+        const lastNotified = new Date(historyEntry.timestamp).getTime();
+        const priceDropped = game.discountPrice < historyEntry.price;
+        const cooldownExpired = now.getTime() - lastNotified > 30 * 24 * 60 * 60 * 1000;
+        if (priceDropped || cooldownExpired) {
+          shouldNotify = true;
+        }
+      }
+      
+      if (shouldNotify) {
         newEpicDiscounts.push(game);
+        notifiedHistory[historyKey] = {
+          title: game.title,
+          price: game.discountPrice,
+          percent: game.discountPercent,
+          timestamp: now.toISOString(),
+          type: 'discount'
+        };
       }
     }
   }
@@ -310,19 +387,58 @@ async function run() {
   for (const game of freshSteam) {
     // 1. Hot deals: newly marked as isSpecial and discount >= 5
     if (game.isSpecial && game.discountPercent >= 5) {
-      const wasSpecialDeal = oldData.steam.some(oldGame => 
-        oldGame.id === game.id && oldGame.isSpecial && oldGame.discountPercent >= 5
-      );
-      if (!wasSpecialDeal) {
+      const historyKey = `steam_discount_${game.id}`;
+      const historyEntry = notifiedHistory[historyKey];
+      
+      let shouldNotify = false;
+      if (!historyEntry) {
+        shouldNotify = true;
+      } else {
+        const lastNotified = new Date(historyEntry.timestamp).getTime();
+        const priceDropped = game.discountPrice < historyEntry.price;
+        const cooldownExpired = now.getTime() - lastNotified > 30 * 24 * 60 * 60 * 1000;
+        if (priceDropped || cooldownExpired) {
+          shouldNotify = true;
+        }
+      }
+      
+      if (shouldNotify) {
         newSteamDeals.push(game);
+        notifiedHistory[historyKey] = {
+          title: game.title,
+          price: game.discountPrice,
+          percent: game.discountPercent,
+          timestamp: now.toISOString(),
+          type: 'discount'
+        };
       }
     }
     
     // 2. New Popular Games (Top Sellers): newly marked as isPopular
     if (game.isPopular) {
-      const wasPopular = oldData.steam.some(oldGame => oldGame.id === game.id && oldGame.isPopular);
-      if (!wasPopular) {
+      const historyKey = `steam_popular_${game.id}`;
+      const historyEntry = notifiedHistory[historyKey];
+      
+      let shouldNotify = false;
+      if (!historyEntry) {
+        shouldNotify = true;
+      } else {
+        const lastNotified = new Date(historyEntry.timestamp).getTime();
+        const cooldownExpired = now.getTime() - lastNotified > 30 * 24 * 60 * 60 * 1000;
+        if (cooldownExpired) {
+          shouldNotify = true;
+        }
+      }
+      
+      if (shouldNotify) {
         newPopularGames.push(game);
+        notifiedHistory[historyKey] = {
+          title: game.title,
+          price: game.discountPrice,
+          percent: game.discountPercent,
+          timestamp: now.toISOString(),
+          type: 'popular'
+        };
       }
     }
   }
@@ -347,7 +463,7 @@ async function run() {
       const pct = deal.discountPercent > 0 ? `-${deal.discountPercent}%` : 'знижка';
       epicText += `🎮 <b>${deal.title}</b>\n` +
                    `🏷️ Знижка: <b>${pct}</b>\n` +
-                   `💰 Ціна: <s>${deal.originalPrice} ${deal.currency}</s> ➡️ <b>${deal.discountPrice} ${deal.currency}</b>\n` +
+                   `💰 Ціна: <s>${formatPrice(deal.originalPrice, deal.currency)}</s> ➡️ <b>${formatPrice(deal.discountPrice, deal.currency)}</b>\n` +
                    `🔗 <a href="${deal.url}">Детальніше в Epic Games Store</a>\n\n`;
     }
     epicText += `🚀 Більше пропозицій дивіться на нашому сайті!`;
@@ -359,7 +475,7 @@ async function run() {
     for (const deal of newSteamDeals) {
       steamText += `🎮 <b>${deal.title}</b>\n` +
                    `🏷️ Знижка: <b>-${deal.discountPercent}%</b>\n` +
-                   `💰 Ціна: <s>${deal.originalPrice} UAH</s> ➡️ <b>${deal.discountPrice} UAH</b>\n` +
+                   `💰 Ціна: <s>${formatPrice(deal.originalPrice, deal.currency)}</s> ➡️ <b>${formatPrice(deal.discountPrice, deal.currency)}</b>\n` +
                    `🔗 <a href="${deal.url}">Детальніше в Steam</a>\n\n`;
     }
     steamText += `🚀 Більше знижок дивіться на нашому сайті!`;
@@ -370,8 +486,8 @@ async function run() {
     let popularText = `⭐ <b>ТРЕНДОВІ ІГРИ В STEAM (TOP SELLERS)!</b>\n\n`;
     for (const game of newPopularGames) {
       const priceText = game.discountPercent > 0 
-        ? `<s>${game.originalPrice} ${game.currency}</s> ➡️ <b>${game.discountPrice} ${game.currency}</b> (-${game.discountPercent}%)`
-        : `<b>${game.discountPrice} ${game.currency}</b>`;
+        ? `<s>${formatPrice(game.originalPrice, game.currency)}</s> ➡️ <b>${formatPrice(game.discountPrice, game.currency)}</b> (-${game.discountPercent}%)`
+        : `<b>${formatPrice(game.discountPrice, game.currency)}</b>`;
       
       popularText += `🎮 <b>${game.title}</b>\n` +
                      `💰 Ціна: ${priceText}\n` +
@@ -385,7 +501,8 @@ async function run() {
   const newData: DealsData = {
     lastUpdated: new Date().toISOString(),
     epic: freshEpic,
-    steam: freshSteam
+    steam: freshSteam,
+    notifiedHistory
   };
   
   fs.mkdirSync(DEALS_DIR, { recursive: true });

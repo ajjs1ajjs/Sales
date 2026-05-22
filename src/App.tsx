@@ -47,6 +47,7 @@ interface DealsData {
   lastUpdated: string;
   epic: EpicGame[];
   steam: SteamGame[];
+  notifiedHistory?: Record<string, any>;
 }
 
 type FilterType = 'all' | 'epic_free' | 'epic_discount' | 'steam_specials' | 'steam_popular';
