@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T20:41:27.347Z",
+  "lastUpdated": "2026-05-22T22:05:07.908Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -244,18 +244,6 @@
       "isPopular": false
     },
     {
-      "id": "848450",
-      "title": "Subnautica: Below Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/capsule_616x353.jpg?t=1777456254",
-      "originalPrice": 799,
-      "discountPrice": 199,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/848450",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1966720",
       "title": "Lethal Company",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/capsule_616x353.jpg?t=1775380053",
@@ -264,6 +252,18 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1966720",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1332010",
+      "title": "Stray",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/capsule_616x353.jpg?t=1733260906",
+      "originalPrice": 579,
+      "discountPrice": 289,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1332010",
       "isSpecial": true,
       "isPopular": false
     },
