@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T13:29:36.485Z",
+  "lastUpdated": "2026-05-22T16:22:56.435Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -232,18 +232,6 @@
       "isPopular": false
     },
     {
-      "id": "4351410",
-      "title": "House Flipper 2 - Sakura DLC",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4351410/4ff04576e62b655573a4f8d2acd2712d81144db2/capsule_616x353.jpg?t=1779369847",
-      "originalPrice": 249,
-      "discountPrice": 224,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4351410",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "848450",
       "title": "Subnautica: Below Zero",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/capsule_616x353.jpg?t=1777456254",
@@ -256,14 +244,14 @@
       "isPopular": false
     },
     {
-      "id": "1332010",
-      "title": "Stray",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/capsule_616x353.jpg?t=1733260906",
-      "originalPrice": 579,
-      "discountPrice": 289,
-      "discountPercent": 50,
+      "id": "601150",
+      "title": "Devil May Cry 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/capsule_616x353.jpg?t=1768869803",
+      "originalPrice": 949,
+      "discountPrice": 142,
+      "discountPercent": 85,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1332010",
+      "url": "https://store.steampowered.com/app/601150",
       "isSpecial": true,
       "isPopular": false
     },
@@ -316,18 +304,6 @@
       "isPopular": true
     },
     {
-      "id": "2532480",
-      "title": "Warhammer 40,000: Mechanicus II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2532480/0dc323d5ba8afdad40f5ea8e6449ebc272c3306a/capsule_616x353.jpg?t=1779444541",
-      "originalPrice": 1200,
-      "discountPrice": 1080,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2532480",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "75870",
       "title": "Deep Rock Galactic x Rogue Core",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/75870/ibdz289hp2504r98/c0782a0b580fa74f97b55bf513b3117cd392be39/capsule_616x353.jpg?t=1779184275",
@@ -336,6 +312,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/75870",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2532480",
+      "title": "Warhammer 40,000: Mechanicus II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2532480/0dc323d5ba8afdad40f5ea8e6449ebc272c3306a/capsule_616x353.jpg?t=1779444541",
+      "originalPrice": 1200,
+      "discountPrice": 1080,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2532480",
       "isSpecial": false,
       "isPopular": true
     },
@@ -546,6 +534,13 @@
       "percent": 0,
       "timestamp": "2026-05-22T13:07:29.586Z",
       "type": "popular"
+    },
+    "steam_discount_601150": {
+      "title": "Devil May Cry 5",
+      "price": 142,
+      "percent": 85,
+      "timestamp": "2026-05-22T16:22:55.418Z",
+      "type": "discount"
     }
   }
 }
