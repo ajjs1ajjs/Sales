@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T06:53:42.228Z",
+  "lastUpdated": "2026-05-22T10:22:39.048Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -150,24 +150,12 @@
     {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/01258768bc382555819a5a128fb66cc2dc2f3c4e/capsule_616x353_alt_assets_12_ukrainian.jpg?t=1779381523",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/01258768bc382555819a5a128fb66cc2dc2f3c4e/capsule_616x353_alt_assets_12_ukrainian.jpg?t=1779444506",
       "originalPrice": 1299,
       "discountPrice": 389,
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "264710",
-      "title": "Subnautica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/capsule_616x353.jpg?t=1777456112",
-      "originalPrice": 799,
-      "discountPrice": 199,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/264710",
       "isSpecial": true,
       "isPopular": false
     },
@@ -182,6 +170,18 @@
       "url": "https://store.steampowered.com/app/2536520",
       "isSpecial": true,
       "isPopular": true
+    },
+    {
+      "id": "264710",
+      "title": "Subnautica",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/capsule_616x353.jpg?t=1777456112",
+      "originalPrice": 799,
+      "discountPrice": 199,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/264710",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "1304930",
@@ -210,7 +210,7 @@
     {
       "id": "1142710",
       "title": "Total War: WARHAMMER III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1779383581",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1779441058",
       "originalPrice": 1899,
       "discountPrice": 284,
       "discountPercent": 85,
@@ -292,18 +292,6 @@
       "isPopular": true
     },
     {
-      "id": "2532480",
-      "title": "Warhammer 40,000: Mechanicus II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2532480/0dc323d5ba8afdad40f5ea8e6449ebc272c3306a/capsule_616x353.jpg?t=1779383649",
-      "originalPrice": 1200,
-      "discountPrice": 1080,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2532480",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "3768760",
       "title": "007 First Light",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/d1a352d38355d4a693aa80e1aa6139fb079da1a3/capsule_616x353_alt_assets_0.jpg?t=1779394356",
@@ -316,14 +304,14 @@
       "isPopular": true
     },
     {
-      "id": "75870",
-      "title": "Deep Rock Galactic x Rogue Core",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/75870/ibdz289hp2504r98/c0782a0b580fa74f97b55bf513b3117cd392be39/capsule_616x353.jpg?t=1779184275",
-      "originalPrice": 1018,
-      "discountPrice": 916,
-      "discountPercent": 0,
+      "id": "2532480",
+      "title": "Warhammer 40,000: Mechanicus II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2532480/0dc323d5ba8afdad40f5ea8e6449ebc272c3306a/capsule_616x353.jpg?t=1779444541",
+      "originalPrice": 1200,
+      "discountPrice": 1080,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/75870",
+      "url": "https://store.steampowered.com/app/2532480",
       "isSpecial": false,
       "isPopular": true
     },
@@ -340,14 +328,26 @@
       "isPopular": true
     },
     {
-      "id": "76235",
-      "title": "Disgraced State Agents Bundle",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/76235/bfvfgm0fyi0iswwq/9ebb2d008931942a1cd3891729b04e454242981f/capsule_616x353.jpg?t=1779354393",
-      "originalPrice": 1530,
-      "discountPrice": 1376,
+      "id": "75870",
+      "title": "Deep Rock Galactic x Rogue Core",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/75870/ibdz289hp2504r98/c0782a0b580fa74f97b55bf513b3117cd392be39/capsule_616x353.jpg?t=1779184275",
+      "originalPrice": 1018,
+      "discountPrice": 916,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/76235",
+      "url": "https://store.steampowered.com/app/75870",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "54029",
+      "title": "Покращення прайм-статусу",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/54029/capsule_616x353.jpg?t=1713988570",
+      "originalPrice": 650,
+      "discountPrice": 650,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/54029",
       "isSpecial": false,
       "isPopular": true
     }
