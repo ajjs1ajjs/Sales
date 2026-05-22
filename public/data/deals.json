@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T18:51:56.993Z",
+  "lastUpdated": "2026-05-22T20:41:27.347Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -169,7 +169,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/264710",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "2536520",
@@ -184,6 +184,18 @@
       "isPopular": true
     },
     {
+      "id": "1304930",
+      "title": "The Outlast Trials",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/05c384f4640c12cb1c99d9165c75893b567ad6d1/capsule_616x353_alt_assets_2.jpg?t=1779221190",
+      "originalPrice": 740,
+      "discountPrice": 222,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1304930",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -196,14 +208,14 @@
       "isPopular": false
     },
     {
-      "id": "1304930",
-      "title": "The Outlast Trials",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/05c384f4640c12cb1c99d9165c75893b567ad6d1/capsule_616x353_alt_assets_2.jpg?t=1779221190",
-      "originalPrice": 740,
-      "discountPrice": 222,
-      "discountPercent": 70,
+      "id": "753640",
+      "title": "Outer Wilds",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/d8d60759820aab1272090bb2edd60fde2b42dcf7/capsule_616x353.jpg?t=1779137571",
+      "originalPrice": 499,
+      "discountPrice": 249,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1304930",
+      "url": "https://store.steampowered.com/app/753640",
       "isSpecial": true,
       "isPopular": false
     },
@@ -232,6 +244,18 @@
       "isPopular": false
     },
     {
+      "id": "848450",
+      "title": "Subnautica: Below Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/capsule_616x353.jpg?t=1777456254",
+      "originalPrice": 799,
+      "discountPrice": 199,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/848450",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1966720",
       "title": "Lethal Company",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/capsule_616x353.jpg?t=1775380053",
@@ -240,18 +264,6 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1966720",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1332010",
-      "title": "Stray",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/capsule_616x353.jpg?t=1733260906",
-      "originalPrice": 579,
-      "discountPrice": 289,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1332010",
       "isSpecial": true,
       "isPopular": false
     },
@@ -328,26 +340,14 @@
       "isPopular": true
     },
     {
-      "id": "1624417",
-      "title": "Warhammer 40,000: Dawn of War IV Commander Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/1624417/757efa668cb13fc541bd8d2f031f1a86320e7007/capsule_616x353.jpg?t=1779381125",
-      "originalPrice": 2899,
-      "discountPrice": 2609,
-      "discountPercent": 10,
+      "id": "3041230",
+      "title": "Windrose",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/58031ef98f88d5602171eb018d9306c7383a6e6a/capsule_616x353.jpg?t=1777529081",
+      "originalPrice": 600,
+      "discountPrice": 600,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1624417",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "2532480",
-      "title": "Warhammer 40,000: Mechanicus II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2532480/0dc323d5ba8afdad40f5ea8e6449ebc272c3306a/capsule_616x353.jpg?t=1779444541",
-      "originalPrice": 1200,
-      "discountPrice": 1080,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2532480",
+      "url": "https://store.steampowered.com/app/3041230",
       "isSpecial": false,
       "isPopular": true
     }
@@ -555,6 +555,27 @@
       "percent": 35,
       "timestamp": "2026-05-22T18:51:55.731Z",
       "type": "discount"
+    },
+    "steam_popular_264710": {
+      "title": "Subnautica",
+      "price": 199,
+      "percent": 75,
+      "timestamp": "2026-05-22T20:41:25.552Z",
+      "type": "popular"
+    },
+    "steam_discount_753640": {
+      "title": "Outer Wilds",
+      "price": 249,
+      "percent": 50,
+      "timestamp": "2026-05-22T20:41:25.552Z",
+      "type": "discount"
+    },
+    "steam_popular_3041230": {
+      "title": "Windrose",
+      "price": 600,
+      "percent": 0,
+      "timestamp": "2026-05-22T20:41:25.552Z",
+      "type": "popular"
     }
   }
 }
