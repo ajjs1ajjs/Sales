@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T23:01:13.744Z",
+  "lastUpdated": "2026-05-22T02:58:31.635Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -148,18 +148,6 @@
   ],
   "steam": [
     {
-      "id": "264710",
-      "title": "Subnautica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/capsule_616x353.jpg?t=1777456112",
-      "originalPrice": 799,
-      "discountPrice": 199,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/264710",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/01258768bc382555819a5a128fb66cc2dc2f3c4e/capsule_616x353_alt_assets_12_ukrainian.jpg?t=1779381523",
@@ -172,16 +160,16 @@
       "isPopular": false
     },
     {
-      "id": "2536520",
-      "title": "Diablo II: Resurrected - Infernal Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
-      "originalPrice": 1699,
-      "discountPrice": 1274,
-      "discountPercent": 25,
+      "id": "264710",
+      "title": "Subnautica",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/capsule_616x353.jpg?t=1777456112",
+      "originalPrice": 799,
+      "discountPrice": 199,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2536520",
+      "url": "https://store.steampowered.com/app/264710",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1304930",
@@ -196,6 +184,18 @@
       "isPopular": false
     },
     {
+      "id": "2536520",
+      "title": "Diablo II: Resurrected - Infernal Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
+      "originalPrice": 1699,
+      "discountPrice": 1274,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2536520",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -204,6 +204,18 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
+      "originalPrice": 159,
+      "discountPrice": 98,
+      "discountPercent": 38,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isPopular": false
     },
@@ -232,38 +244,26 @@
       "isPopular": false
     },
     {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
-      "originalPrice": 159,
-      "discountPrice": 98,
-      "discountPercent": 38,
+      "id": "1966720",
+      "title": "Lethal Company",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/capsule_616x353.jpg?t=1775380053",
+      "originalPrice": 225,
+      "discountPrice": 146,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
+      "url": "https://store.steampowered.com/app/1966720",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "1332010",
-      "title": "Stray",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/capsule_616x353.jpg?t=1733260906",
-      "originalPrice": 579,
-      "discountPrice": 289,
-      "discountPercent": 50,
+      "id": "632360",
+      "title": "Risk of Rain 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/capsule_616x353.jpg?t=1775753930",
+      "originalPrice": 329,
+      "discountPrice": 108,
+      "discountPercent": 67,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1332010",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "848450",
-      "title": "Subnautica: Below Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/capsule_616x353.jpg?t=1777456254",
-      "originalPrice": 799,
-      "discountPrice": 199,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/848450",
+      "url": "https://store.steampowered.com/app/632360",
       "isSpecial": true,
       "isPopular": false
     },
@@ -292,18 +292,6 @@
       "isPopular": true
     },
     {
-      "id": "2532480",
-      "title": "Warhammer 40,000: Mechanicus II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2532480/0dc323d5ba8afdad40f5ea8e6449ebc272c3306a/capsule_616x353.jpg?t=1779383649",
-      "originalPrice": 1200,
-      "discountPrice": 1080,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2532480",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "10076",
       "title": "Subnautica Deep Ocean Bundle",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/10076/zd6xzb1njfo3gm8d/191661494e808edd2cccc6e6de198dd6c2e0b36b/capsule_616x353.jpg?t=1778518597",
@@ -328,14 +316,14 @@
       "isPopular": true
     },
     {
-      "id": "1624417",
-      "title": "Warhammer 40,000: Dawn of War IV Commander Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/1624417/757efa668cb13fc541bd8d2f031f1a86320e7007/capsule_616x353.jpg?t=1779381125",
-      "originalPrice": 2899,
-      "discountPrice": 2609,
+      "id": "2532480",
+      "title": "Warhammer 40,000: Mechanicus II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2532480/0dc323d5ba8afdad40f5ea8e6449ebc272c3306a/capsule_616x353.jpg?t=1779383649",
+      "originalPrice": 1200,
+      "discountPrice": 1080,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1624417",
+      "url": "https://store.steampowered.com/app/2532480",
       "isSpecial": false,
       "isPopular": true
     },
@@ -352,6 +340,18 @@
       "isPopular": true
     },
     {
+      "id": "1624417",
+      "title": "Warhammer 40,000: Dawn of War IV Commander Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/1624417/757efa668cb13fc541bd8d2f031f1a86320e7007/capsule_616x353.jpg?t=1779381125",
+      "originalPrice": 2899,
+      "discountPrice": 2609,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1624417",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "76235",
       "title": "Disgraced State Agents Bundle",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/76235/bfvfgm0fyi0iswwq/9ebb2d008931942a1cd3891729b04e454242981f/capsule_616x353.jpg?t=1779354393",
@@ -360,6 +360,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/76235",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4399460",
+      "title": "Total War: WARHAMMER III - Bhashiva – Character Pack",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4399460/036ecf034e152a1f62e45728a15544afa6eda8d7/capsule_616x353.jpg?t=1779381574",
+      "originalPrice": 179,
+      "discountPrice": 179,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4399460",
       "isSpecial": false,
       "isPopular": true
     }
