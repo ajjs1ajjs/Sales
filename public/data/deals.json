@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T14:58:23.079Z",
+  "lastUpdated": "2026-05-23T17:58:48.045Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -181,7 +181,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1304930",
@@ -205,7 +205,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2536520",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "3527290",
@@ -232,30 +232,6 @@
       "isPopular": false
     },
     {
-      "id": "848450",
-      "title": "Subnautica: Below Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/capsule_616x353.jpg?t=1777456254",
-      "originalPrice": 799,
-      "discountPrice": 199,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/848450",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "601150",
-      "title": "Devil May Cry 5",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/capsule_616x353.jpg?t=1768869803",
-      "originalPrice": 949,
-      "discountPrice": 142,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/601150",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "753640",
       "title": "Outer Wilds",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/d8d60759820aab1272090bb2edd60fde2b42dcf7/capsule_616x353.jpg?t=1779137571",
@@ -264,6 +240,18 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/753640",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "848450",
+      "title": "Subnautica: Below Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/capsule_616x353.jpg?t=1777456254",
+      "originalPrice": 799,
+      "discountPrice": 199,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/848450",
       "isSpecial": true,
       "isPopular": false
     },
