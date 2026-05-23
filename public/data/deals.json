@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T11:08:11.642Z",
+  "lastUpdated": "2026-05-23T14:58:23.079Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -181,7 +181,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "1304930",
@@ -205,7 +205,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2536520",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "3527290",
@@ -244,18 +244,6 @@
       "isPopular": false
     },
     {
-      "id": "753640",
-      "title": "Outer Wilds",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/d8d60759820aab1272090bb2edd60fde2b42dcf7/capsule_616x353.jpg?t=1779137571",
-      "originalPrice": 499,
-      "discountPrice": 249,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/753640",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "601150",
       "title": "Devil May Cry 5",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/capsule_616x353.jpg?t=1768869803",
@@ -264,6 +252,18 @@
       "discountPercent": 85,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/601150",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "753640",
+      "title": "Outer Wilds",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/d8d60759820aab1272090bb2edd60fde2b42dcf7/capsule_616x353.jpg?t=1779137571",
+      "originalPrice": 499,
+      "discountPrice": 249,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/753640",
       "isSpecial": true,
       "isPopular": false
     },
@@ -340,14 +340,14 @@
       "isPopular": true
     },
     {
-      "id": "3321460",
-      "title": "Crimson Desert",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/d76689d0bd0a77b863a64b08760b8dd1c5b50081/capsule_616x353.jpg?t=1777016399",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
+      "id": "3041230",
+      "title": "Windrose",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/58031ef98f88d5602171eb018d9306c7383a6e6a/capsule_616x353.jpg?t=1777529081",
+      "originalPrice": 600,
+      "discountPrice": 600,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3321460",
+      "url": "https://store.steampowered.com/app/3041230",
       "isSpecial": false,
       "isPopular": true
     }
@@ -603,6 +603,13 @@
       "price": 2449,
       "percent": 0,
       "timestamp": "2026-05-23T09:49:14.448Z",
+      "type": "popular"
+    },
+    "steam_popular_1174180": {
+      "title": "Red Dead Redemption 2",
+      "price": 649,
+      "percent": 75,
+      "timestamp": "2026-05-23T14:58:21.756Z",
       "type": "popular"
     }
   }
