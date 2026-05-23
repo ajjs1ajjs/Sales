@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T00:04:22.265Z",
+  "lastUpdated": "2026-05-23T04:37:14.811Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -148,6 +148,18 @@
   ],
   "steam": [
     {
+      "id": "264710",
+      "title": "Subnautica",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/capsule_616x353.jpg?t=1777456112",
+      "originalPrice": 799,
+      "discountPrice": 199,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/264710",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/01258768bc382555819a5a128fb66cc2dc2f3c4e/capsule_616x353_alt_assets_12_ukrainian.jpg?t=1779454963",
@@ -160,16 +172,16 @@
       "isPopular": true
     },
     {
-      "id": "264710",
-      "title": "Subnautica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/capsule_616x353.jpg?t=1777456112",
-      "originalPrice": 799,
-      "discountPrice": 199,
-      "discountPercent": 75,
+      "id": "1304930",
+      "title": "The Outlast Trials",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/05c384f4640c12cb1c99d9165c75893b567ad6d1/capsule_616x353_alt_assets_2.jpg?t=1779221190",
+      "originalPrice": 740,
+      "discountPrice": 222,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/264710",
+      "url": "https://store.steampowered.com/app/1304930",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1174180",
@@ -196,18 +208,6 @@
       "isPopular": true
     },
     {
-      "id": "1304930",
-      "title": "The Outlast Trials",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/05c384f4640c12cb1c99d9165c75893b567ad6d1/capsule_616x353_alt_assets_2.jpg?t=1779221190",
-      "originalPrice": 740,
-      "discountPrice": 222,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1304930",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3527290",
       "title": "PEAK",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
@@ -216,18 +216,6 @@
       "discountPercent": 38,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "753640",
-      "title": "Outer Wilds",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/d8d60759820aab1272090bb2edd60fde2b42dcf7/capsule_616x353.jpg?t=1779137571",
-      "originalPrice": 499,
-      "discountPrice": 249,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/753640",
       "isSpecial": true,
       "isPopular": false
     },
@@ -244,14 +232,26 @@
       "isPopular": false
     },
     {
-      "id": "1966720",
-      "title": "Lethal Company",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/capsule_616x353.jpg?t=1775380053",
-      "originalPrice": 225,
-      "discountPrice": 146,
-      "discountPercent": 35,
+      "id": "753640",
+      "title": "Outer Wilds",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/d8d60759820aab1272090bb2edd60fde2b42dcf7/capsule_616x353.jpg?t=1779137571",
+      "originalPrice": 499,
+      "discountPrice": 249,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1966720",
+      "url": "https://store.steampowered.com/app/753640",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2747330",
+      "title": "Species: Unknown",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2747330/55ec65f6c060b4efff3071b170fc14da4567abc5/capsule_616x353_alt_assets_2.jpg?t=1779352240",
+      "originalPrice": 225,
+      "discountPrice": 180,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2747330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -282,7 +282,7 @@
     {
       "id": "2215200",
       "title": "LEGO® Batman™: Legacy of the Dark Knight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1779469737",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1779499107",
       "originalPrice": 1899,
       "discountPrice": 1899,
       "discountPercent": 0,
@@ -316,6 +316,18 @@
       "isPopular": true
     },
     {
+      "id": "54029",
+      "title": "Покращення прайм-статусу",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/54029/capsule_616x353.jpg?t=1713988570",
+      "originalPrice": 650,
+      "discountPrice": 650,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/54029",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "75870",
       "title": "Deep Rock Galactic x Rogue Core",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/75870/ibdz289hp2504r98/c0782a0b580fa74f97b55bf513b3117cd392be39/capsule_616x353.jpg?t=1779184275",
@@ -336,18 +348,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3892270",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3041230",
-      "title": "Windrose",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/58031ef98f88d5602171eb018d9306c7383a6e6a/capsule_616x353.jpg?t=1777529081",
-      "originalPrice": 600,
-      "discountPrice": 600,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3041230",
       "isSpecial": false,
       "isPopular": true
     }
@@ -590,6 +590,13 @@
       "percent": 0,
       "timestamp": "2026-05-23T00:04:20.928Z",
       "type": "popular"
+    },
+    "steam_discount_2747330": {
+      "title": "Species: Unknown",
+      "price": 180,
+      "percent": 20,
+      "timestamp": "2026-05-23T04:37:13.714Z",
+      "type": "discount"
     }
   }
 }
