@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T06:37:34.079Z",
+  "lastUpdated": "2026-05-24T09:20:21.576Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -157,7 +157,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/264710",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "2183900",
@@ -169,7 +169,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1174180",
@@ -232,18 +232,6 @@
       "isPopular": false
     },
     {
-      "id": "632360",
-      "title": "Risk of Rain 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/capsule_616x353.jpg?t=1775753930",
-      "originalPrice": 329,
-      "discountPrice": 108,
-      "discountPercent": 67,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/632360",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "848450",
       "title": "Subnautica: Below Zero",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/capsule_616x353.jpg?t=1777456254",
@@ -256,14 +244,14 @@
       "isPopular": false
     },
     {
-      "id": "1966720",
-      "title": "Lethal Company",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/capsule_616x353.jpg?t=1775380053",
-      "originalPrice": 225,
-      "discountPrice": 146,
-      "discountPercent": 35,
+      "id": "601150",
+      "title": "Devil May Cry 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/capsule_616x353.jpg?t=1768869803",
+      "originalPrice": 949,
+      "discountPrice": 142,
+      "discountPercent": 85,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1966720",
+      "url": "https://store.steampowered.com/app/601150",
       "isSpecial": true,
       "isPopular": false
     },
@@ -292,18 +280,6 @@
       "isPopular": true
     },
     {
-      "id": "10076",
-      "title": "Subnautica Deep Ocean Bundle",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/10076/zd6xzb1njfo3gm8d/191661494e808edd2cccc6e6de198dd6c2e0b36b/capsule_616x353.jpg?t=1778518597",
-      "originalPrice": 2497,
-      "discountPrice": 1167,
-      "discountPercent": 48,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/10076",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "3768760",
       "title": "007 First Light",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/d1a352d38355d4a693aa80e1aa6139fb079da1a3/capsule_616x353_alt_assets_0.jpg?t=1779394356",
@@ -316,50 +292,50 @@
       "isPopular": true
     },
     {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1778274309",
-      "originalPrice": 187,
-      "discountPrice": 187,
-      "discountPercent": 0,
+      "id": "10076",
+      "title": "Subnautica Deep Ocean Bundle",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/10076/zd6xzb1njfo3gm8d/191661494e808edd2cccc6e6de198dd6c2e0b36b/capsule_616x353.jpg?t=1778518597",
+      "originalPrice": 2497,
+      "discountPrice": 1167,
+      "discountPercent": 48,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
+      "url": "https://store.steampowered.com/app/10076",
       "isSpecial": false,
       "isPopular": true
     },
     {
-      "id": "4197610",
-      "title": "Librarian: Tidy Up the Arcane Library!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197610/273d2a3ddf5eab5d39b693a129b80609499e6b48/capsule_616x353.jpg?t=1777553917",
-      "originalPrice": 155,
-      "discountPrice": 155,
+      "id": "54029",
+      "title": "Покращення прайм-статусу",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/54029/capsule_616x353.jpg?t=1713988570",
+      "originalPrice": 650,
+      "discountPrice": 650,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4197610",
+      "url": "https://store.steampowered.com/app/54029",
       "isSpecial": false,
       "isPopular": true
     },
     {
-      "id": "75870",
-      "title": "Deep Rock Galactic x Rogue Core",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/75870/ibdz289hp2504r98/c0782a0b580fa74f97b55bf513b3117cd392be39/capsule_616x353.jpg?t=1779184275",
-      "originalPrice": 1018,
-      "discountPrice": 916,
+      "id": "1202520",
+      "title": "Fallout 1st",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
+      "originalPrice": 399,
+      "discountPrice": 399,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/75870",
+      "url": "https://store.steampowered.com/app/1202520",
       "isSpecial": false,
       "isPopular": true
     },
     {
-      "id": "3321460",
-      "title": "Crimson Desert",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/d76689d0bd0a77b863a64b08760b8dd1c5b50081/capsule_616x353.jpg?t=1777016399",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
+      "id": "266410",
+      "title": "iRacing",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1775586194",
+      "originalPrice": 225,
+      "discountPrice": 225,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3321460",
+      "url": "https://store.steampowered.com/app/266410",
       "isSpecial": false,
       "isPopular": true
     }
@@ -636,6 +612,20 @@
       "price": 155,
       "percent": 0,
       "timestamp": "2026-05-24T06:37:33.114Z",
+      "type": "popular"
+    },
+    "steam_popular_1202520": {
+      "title": "Fallout 1st",
+      "price": 399,
+      "percent": 0,
+      "timestamp": "2026-05-24T09:20:20.082Z",
+      "type": "popular"
+    },
+    "steam_popular_266410": {
+      "title": "iRacing",
+      "price": 225,
+      "percent": 0,
+      "timestamp": "2026-05-24T09:20:20.082Z",
       "type": "popular"
     }
   }
