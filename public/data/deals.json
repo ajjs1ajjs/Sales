@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T21:54:07.062Z",
+  "lastUpdated": "2026-05-24T22:55:32.894Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -340,18 +340,6 @@
       "isPopular": true
     },
     {
-      "id": "3041230",
-      "title": "Windrose",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/58031ef98f88d5602171eb018d9306c7383a6e6a/capsule_616x353.jpg?t=1777529081",
-      "originalPrice": 600,
-      "discountPrice": 600,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3041230",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "3892270",
       "title": "Gamble With Your Friends",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1778274309",
@@ -360,6 +348,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3892270",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3041230",
+      "title": "Windrose",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/58031ef98f88d5602171eb018d9306c7383a6e6a/capsule_616x353.jpg?t=1777529081",
+      "originalPrice": 600,
+      "discountPrice": 600,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3041230",
       "isSpecial": false,
       "isPopular": true
     }
