@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T02:56:09.223Z",
+  "lastUpdated": "2026-05-24T06:37:34.079Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -220,18 +220,6 @@
       "isPopular": false
     },
     {
-      "id": "2747330",
-      "title": "Species: Unknown",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2747330/55ec65f6c060b4efff3071b170fc14da4567abc5/capsule_616x353_alt_assets_2.jpg?t=1779352240",
-      "originalPrice": 225,
-      "discountPrice": 180,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2747330",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1142710",
       "title": "Total War: WARHAMMER III",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1779441058",
@@ -240,6 +228,30 @@
       "discountPercent": 85,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1142710",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "632360",
+      "title": "Risk of Rain 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/capsule_616x353.jpg?t=1775753930",
+      "originalPrice": 329,
+      "discountPrice": 108,
+      "discountPercent": 67,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/632360",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "848450",
+      "title": "Subnautica: Below Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/capsule_616x353.jpg?t=1777456254",
+      "originalPrice": 799,
+      "discountPrice": 199,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/848450",
       "isSpecial": true,
       "isPopular": false
     },
@@ -316,6 +328,18 @@
       "isPopular": true
     },
     {
+      "id": "4197610",
+      "title": "Librarian: Tidy Up the Arcane Library!",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197610/273d2a3ddf5eab5d39b693a129b80609499e6b48/capsule_616x353.jpg?t=1777553917",
+      "originalPrice": 155,
+      "discountPrice": 155,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4197610",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "75870",
       "title": "Deep Rock Galactic x Rogue Core",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/75870/ibdz289hp2504r98/c0782a0b580fa74f97b55bf513b3117cd392be39/capsule_616x353.jpg?t=1779184275",
@@ -328,26 +352,14 @@
       "isPopular": true
     },
     {
-      "id": "3041230",
-      "title": "Windrose",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/58031ef98f88d5602171eb018d9306c7383a6e6a/capsule_616x353.jpg?t=1777529081",
-      "originalPrice": 600,
-      "discountPrice": 600,
+      "id": "3321460",
+      "title": "Crimson Desert",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/d76689d0bd0a77b863a64b08760b8dd1c5b50081/capsule_616x353.jpg?t=1777016399",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3041230",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3124540",
-      "title": "Far Far West",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/84ba0d6764c576fbe291e0efd07a78128f5e7241/capsule_616x353_alt_assets_3.jpg?t=1778234595",
-      "originalPrice": 349,
-      "discountPrice": 349,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3124540",
+      "url": "https://store.steampowered.com/app/3321460",
       "isSpecial": false,
       "isPopular": true
     }
@@ -617,6 +629,13 @@
       "price": 349,
       "percent": 0,
       "timestamp": "2026-05-24T02:56:07.995Z",
+      "type": "popular"
+    },
+    "steam_popular_4197610": {
+      "title": "Librarian: Tidy Up the Arcane Library!",
+      "price": 155,
+      "percent": 0,
+      "timestamp": "2026-05-24T06:37:33.114Z",
       "type": "popular"
     }
   }
