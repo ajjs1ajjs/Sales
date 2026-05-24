@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T22:55:32.894Z",
+  "lastUpdated": "2026-05-24T23:58:00.542Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -169,7 +169,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1174180",
@@ -196,18 +196,6 @@
       "isPopular": false
     },
     {
-      "id": "1147923",
-      "title": "Squad Commander Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/1147923/418260230e780e715342b138f32eec37fce94753/capsule_616x353.jpg?t=1753206883",
-      "originalPrice": 1339,
-      "discountPrice": 535,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1147923",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2536520",
       "title": "Diablo II: Resurrected - Infernal Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
@@ -228,6 +216,18 @@
       "discountPercent": 38,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3527290",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1147923",
+      "title": "Squad Commander Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/1147923/418260230e780e715342b138f32eec37fce94753/capsule_616x353.jpg?t=1753206883",
+      "originalPrice": 1339,
+      "discountPrice": 535,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1147923",
       "isSpecial": true,
       "isPopular": false
     },
@@ -328,18 +328,6 @@
       "isPopular": true
     },
     {
-      "id": "54029",
-      "title": "Покращення прайм-статусу",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/54029/capsule_616x353.jpg?t=1713988570",
-      "originalPrice": 650,
-      "discountPrice": 650,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/54029",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "3892270",
       "title": "Gamble With Your Friends",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1778274309",
@@ -352,6 +340,18 @@
       "isPopular": true
     },
     {
+      "id": "54029",
+      "title": "Покращення прайм-статусу",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/54029/capsule_616x353.jpg?t=1713988570",
+      "originalPrice": 650,
+      "discountPrice": 650,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/54029",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "3041230",
       "title": "Windrose",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/58031ef98f88d5602171eb018d9306c7383a6e6a/capsule_616x353.jpg?t=1777529081",
@@ -360,6 +360,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3041230",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "75870",
+      "title": "Deep Rock Galactic x Rogue Core",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/75870/ibdz289hp2504r98/c0782a0b580fa74f97b55bf513b3117cd392be39/capsule_616x353.jpg?t=1779184275",
+      "originalPrice": 1018,
+      "discountPrice": 916,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/75870",
       "isSpecial": false,
       "isPopular": true
     }
