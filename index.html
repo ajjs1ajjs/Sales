@@ -2,15 +2,59 @@
 <html lang="uk">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/Sales/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#c084fc" />
+
     <title>Гарячі знижки та безкоштовні ігри — Steam & Epic Games</title>
-    <meta name="description" content="Агрегатор найкращих знижок у Steam та безкоштовних роздач у Epic Games Store. Оновлюється щогодини. Підписуйтесь на наш Telegram!" />
-    
+    <meta name="description" content="Агрегатор найкращих знижок у Steam та безкоштовних роздач у Epic Games Store. Оновлюється щогодини." />
+    <meta name="keywords" content="знижки ігри, безкоштовні ігри, Steam знижки, Epic Games безкоштовно, роздачі ігор" />
+    <meta name="author" content="Game Sales Aggregator" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Гарячі знижки та безкоштовні ігри — Steam & Epic Games" />
+    <meta property="og:description" content="Агрегатор найкращих знижок у Steam та безкоштовних роздач у Epic Games Store. Оновлюється щогодини." />
+    <meta property="og:url" content="https://ajjs1ajjs.github.io/Sales/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="uk_UA" />
+    <meta property="og:site_name" content="Game Sales Aggregator" />
+    <meta property="og:image" content="https://ajjs1ajjs.github.io/Sales/favicon.svg" />
+    <meta property="og:image:width" content="48" />
+    <meta property="og:image:height" content="46" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Гарячі знижки та безкоштовні ігри — Steam & Epic Games" />
+    <meta name="twitter:description" content="Агрегатор найкращих знижок у Steam та безкоштовних роздач у Epic Games Store." />
+    <meta name="twitter:image" content="https://ajjs1ajjs.github.io/Sales/favicon.svg" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Game Sales Aggregator",
+      "url": "https://ajjs1ajjs.github.io/Sales/",
+      "description": "Агрегатор найкращих знижок у Steam та безкоштовних роздач у Epic Games Store.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "All",
+      "inLanguage": "uk",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+
+    <!-- Preload critical resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" as="style" />
+    <link rel="preload" href="/Sales/data/deals.json" as="fetch" crossorigin="anonymous" />
+
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   </head>
   <body>
     <div id="root"></div>

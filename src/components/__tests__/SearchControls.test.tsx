@@ -1,0 +1,51 @@
+import { render, screen, fireEvent } from '@testing-library/react';
+import { describe, it, expect, vi } from 'vitest';
+import { SearchControls } from '../SearchControls';
+import type { FilterType } from '../../types';
+
+describe('SearchControls', () => {
+  const defaultProps = {
+    searchQuery: '',
+    onSearchChange: vi.fn(),
+    activeFilter: 'all' as FilterType,
+    onFilterChange: vi.fn(),
+  };
+
+  it('renders search input', () => {
+    render(<SearchControls {...defaultProps} />);
+    expect(screen.getByPlaceholderText('Пошук гри за назвою...')).toBeInTheDocument();
+  });
+
+  it('renders all filter buttons', () => {
+    render(<SearchControls {...defaultProps} />);
+    expect(screen.getByText('Всі категорії')).toBeInTheDocument();
+    expect(screen.getByText('Epic Роздачі')).toBeInTheDocument();
+    expect(screen.getByText('Epic Знижки')).toBeInTheDocument();
+    expect(screen.getByText('Steam Знижки')).toBeInTheDocument();
+    expect(screen.getByText('Steam Тренди')).toBeInTheDocument();
+  });
+
+  it('calls onSearchChange on input', () => {
+    const onSearchChange = vi.fn();
+    render(<SearchControls {...defaultProps} onSearchChange={onSearchChange} />);
+    fireEvent.change(screen.getByPlaceholderText('Пошук гри за назвою...'), {
+      target: { value: 'Cyberpunk' },
+    });
+    expect(onSearchChange).toHaveBeenCalledWith('Cyberpunk');
+  });
+
+  it('calls onFilterChange on button click', () => {
+    const onFilterChange = vi.fn();
+    render(<SearchControls {...defaultProps} onFilterChange={onFilterChange} />);
+    fireEvent.click(screen.getByText('Epic Роздачі'));
+    expect(onFilterChange).toHaveBeenCalledWith('epic_free');
+  });
+
+  it('marks active filter button as pressed', () => {
+    const { rerender } = render(<SearchControls {...defaultProps} activeFilter="epic_free" />);
+    expect(screen.getByText('Epic Роздачі')).toHaveAttribute('aria-pressed', 'true');
+
+    rerender(<SearchControls {...defaultProps} activeFilter="steam_specials" />);
+    expect(screen.getByText('Steam Знижки')).toHaveAttribute('aria-pressed', 'true');
+  });
+});
