@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T09:20:21.576Z",
+  "lastUpdated": "2026-05-24T11:14:21.643Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -157,7 +157,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/264710",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "2183900",
@@ -169,7 +169,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "1174180",
@@ -181,7 +181,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "1304930",
@@ -268,18 +268,6 @@
       "isPopular": true
     },
     {
-      "id": "2215200",
-      "title": "LEGO® Batman™: Legacy of the Dark Knight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1779499107",
-      "originalPrice": 1899,
-      "discountPrice": 1899,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2215200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "3768760",
       "title": "007 First Light",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/d1a352d38355d4a693aa80e1aa6139fb079da1a3/capsule_616x353_alt_assets_0.jpg?t=1779394356",
@@ -288,6 +276,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3768760",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2215200",
+      "title": "LEGO® Batman™: Legacy of the Dark Knight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1779499107",
+      "originalPrice": 1899,
+      "discountPrice": 1899,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2215200",
       "isSpecial": false,
       "isPopular": true
     },
@@ -316,26 +316,26 @@
       "isPopular": true
     },
     {
-      "id": "1202520",
-      "title": "Fallout 1st",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
-      "originalPrice": 399,
-      "discountPrice": 399,
+      "id": "4197610",
+      "title": "Librarian: Tidy Up the Arcane Library!",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197610/273d2a3ddf5eab5d39b693a129b80609499e6b48/capsule_616x353.jpg?t=1777553917",
+      "originalPrice": 155,
+      "discountPrice": 155,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1202520",
+      "url": "https://store.steampowered.com/app/4197610",
       "isSpecial": false,
       "isPopular": true
     },
     {
-      "id": "266410",
-      "title": "iRacing",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1775586194",
-      "originalPrice": 225,
-      "discountPrice": 225,
+      "id": "3041230",
+      "title": "Windrose",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/58031ef98f88d5602171eb018d9306c7383a6e6a/capsule_616x353.jpg?t=1777529081",
+      "originalPrice": 600,
+      "discountPrice": 600,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/266410",
+      "url": "https://store.steampowered.com/app/3041230",
       "isSpecial": false,
       "isPopular": true
     }
