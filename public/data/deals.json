@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T19:22:45.081Z",
+  "lastUpdated": "2026-05-24T19:35:45.521Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -244,14 +244,14 @@
       "isPopular": false
     },
     {
-      "id": "2747330",
-      "title": "Species: Unknown",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2747330/55ec65f6c060b4efff3071b170fc14da4567abc5/capsule_616x353_alt_assets_2.jpg?t=1779352240",
-      "originalPrice": 225,
-      "discountPrice": 180,
-      "discountPercent": 20,
+      "id": "1147923",
+      "title": "Squad Commander Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/1147923/418260230e780e715342b138f32eec37fce94753/capsule_616x353.jpg?t=1753206883",
+      "originalPrice": 1339,
+      "discountPrice": 535,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2747330",
+      "url": "https://store.steampowered.com/app/1147923",
       "isSpecial": true,
       "isPopular": false
     },
@@ -633,6 +633,13 @@
       "price": 100,
       "percent": 75,
       "timestamp": "2026-05-24T13:19:52.464Z",
+      "type": "discount"
+    },
+    "steam_discount_1147923": {
+      "title": "Squad Commander Edition",
+      "price": 535,
+      "percent": 60,
+      "timestamp": "2026-05-24T19:35:43.957Z",
       "type": "discount"
     }
   }
