@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T20:29:16.706Z",
+  "lastUpdated": "2026-05-24T20:52:32.566Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -328,18 +328,6 @@
       "isPopular": true
     },
     {
-      "id": "3041230",
-      "title": "Windrose",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/58031ef98f88d5602171eb018d9306c7383a6e6a/capsule_616x353.jpg?t=1777529081",
-      "originalPrice": 600,
-      "discountPrice": 600,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3041230",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "54029",
       "title": "Покращення прайм-статусу",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/54029/capsule_616x353.jpg?t=1713988570",
@@ -348,6 +336,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/54029",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3041230",
+      "title": "Windrose",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/58031ef98f88d5602171eb018d9306c7383a6e6a/capsule_616x353.jpg?t=1777529081",
+      "originalPrice": 600,
+      "discountPrice": 600,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3041230",
       "isSpecial": false,
       "isPopular": true
     },
