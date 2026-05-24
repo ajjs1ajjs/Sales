@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T18:00:08.738Z",
+  "lastUpdated": "2026-05-24T19:22:45.081Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -244,14 +244,14 @@
       "isPopular": false
     },
     {
-      "id": "601150",
-      "title": "Devil May Cry 5",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/capsule_616x353.jpg?t=1768869803",
-      "originalPrice": 949,
-      "discountPrice": 142,
-      "discountPercent": 85,
+      "id": "2747330",
+      "title": "Species: Unknown",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2747330/55ec65f6c060b4efff3071b170fc14da4567abc5/capsule_616x353_alt_assets_2.jpg?t=1779352240",
+      "originalPrice": 225,
+      "discountPrice": 180,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/601150",
+      "url": "https://store.steampowered.com/app/2747330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -316,18 +316,6 @@
       "isPopular": true
     },
     {
-      "id": "54029",
-      "title": "Покращення прайм-статусу",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/54029/capsule_616x353.jpg?t=1713988570",
-      "originalPrice": 650,
-      "discountPrice": 650,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/54029",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "3041230",
       "title": "Windrose",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/58031ef98f88d5602171eb018d9306c7383a6e6a/capsule_616x353.jpg?t=1777529081",
@@ -336,6 +324,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3041230",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "54029",
+      "title": "Покращення прайм-статусу",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/54029/capsule_616x353.jpg?t=1713988570",
+      "originalPrice": 650,
+      "discountPrice": 650,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/54029",
       "isSpecial": false,
       "isPopular": true
     }
