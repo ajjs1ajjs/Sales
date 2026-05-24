@@ -1,10 +1,5 @@
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
-
-// Define __dirname in ES module
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 const DEALS_DIR = path.join(process.cwd(), 'public', 'data');
 const DEALS_PATH = path.join(DEALS_DIR, 'deals.json');
@@ -67,7 +62,7 @@ function formatDate(dateStr: string): string {
       timeZone: 'Europe/Kyiv'
     };
     return d.toLocaleDateString('uk-UA', options) + " (за київським часом)";
-  } catch (err) {
+  } catch {
     return dateStr;
   }
 }
@@ -136,7 +131,7 @@ async function fetchEpicGames(): Promise<EpicGame[]> {
         const imageTypes = ['DieselStoreFrontWide', 'OfferImageWide', 'Thumbnail', 'OfferImageTall'];
         let imageUrl = "";
         for (const type of imageTypes) {
-          const found = images.find((img: any) => img.type === type);
+            const found = images.find((img: { type: string; url: string }) => img.type === type);
           if (found) {
             imageUrl = found.url;
             break;
@@ -152,7 +147,7 @@ async function fetchEpicGames(): Promise<EpicGame[]> {
           slug = slug[0] || "";
         }
         if (typeof slug !== 'string' || !slug || slug === '[]') {
-          const attrSlug = item.customAttributes?.find((attr: any) => attr.key === 'com.epicgames.app.productSlug')?.value;
+          const attrSlug = item.customAttributes?.find((attr: { key: string; value: string }) => attr.key === 'com.epicgames.app.productSlug')?.value;
           slug = attrSlug || "";
         }
         if (Array.isArray(slug)) {
@@ -201,7 +196,17 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
     
     const gamesMap = new Map<string, SteamGame>();
     
-    const processItems = (items: any[], isSpecial: boolean, isPopular: boolean) => {
+    const processItems = (items: {
+      id: number;
+      name: string;
+      large_capsule_image?: string;
+      header_image?: string;
+      capsule_image?: string;
+      original_price?: number;
+      final_price?: number;
+      discount_percent?: number;
+      currency?: string;
+    }[], isSpecial: boolean, isPopular: boolean) => {
       for (const item of items) {
         const id = String(item.id);
         const originalPrice = (item.original_price ?? item.final_price ?? 0) / 100;
@@ -294,7 +299,7 @@ async function run() {
         oldData = await res.json();
         console.log("✅ Loaded previous deals from GitHub Pages.");
       }
-    } catch (err) {
+    } catch {
       console.log("⚠️ Could not fetch from GitHub Pages, starting fresh.");
     }
   }
@@ -310,7 +315,7 @@ async function run() {
       if (notifiedTime < thirtyDaysAgo) {
         delete notifiedHistory[key];
       }
-    } catch (e) {
+    } catch {
       delete notifiedHistory[key];
     }
   }

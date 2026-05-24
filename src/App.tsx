@@ -43,11 +43,19 @@ interface SteamGame {
   isPopular: boolean;
 }
 
+interface NotifiedItem {
+  title: string;
+  price: number;
+  percent: number;
+  timestamp: string;
+  type: 'free' | 'discount' | 'popular';
+}
+
 interface DealsData {
   lastUpdated: string;
   epic: EpicGame[];
   steam: SteamGame[];
-  notifiedHistory?: Record<string, any>;
+  notifiedHistory?: Record<string, NotifiedItem>;
 }
 
 type FilterType = 'all' | 'epic_free' | 'epic_discount' | 'steam_specials' | 'steam_popular';
@@ -73,9 +81,10 @@ function App() {
         const jsonData = await res.json();
         setData(jsonData);
         setError(null);
-      } catch (err: any) {
+      } catch (err: unknown) {
+        const message = err instanceof Error ? err.message : 'Сталася помилка при завантаженні знижок.';
         console.error("Помилка завантаження даних:", err);
-        setError(err.message || 'Сталася помилка при завантаженні знижок.');
+        setError(message);
       } finally {
         setLoading(false);
       }
