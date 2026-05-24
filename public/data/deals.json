@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T11:14:21.643Z",
+  "lastUpdated": "2026-05-24T13:19:53.510Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -256,6 +256,18 @@
       "isPopular": false
     },
     {
+      "id": "227300",
+      "title": "Euro Truck Simulator 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1773641450",
+      "originalPrice": 400,
+      "discountPrice": 100,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/227300",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2483190",
       "title": "Forza Horizon 6",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1779221600",
@@ -280,18 +292,6 @@
       "isPopular": true
     },
     {
-      "id": "2215200",
-      "title": "LEGO® Batman™: Legacy of the Dark Knight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1779499107",
-      "originalPrice": 1899,
-      "discountPrice": 1899,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2215200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "10076",
       "title": "Subnautica Deep Ocean Bundle",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/10076/zd6xzb1njfo3gm8d/191661494e808edd2cccc6e6de198dd6c2e0b36b/capsule_616x353.jpg?t=1778518597",
@@ -300,6 +300,18 @@
       "discountPercent": 48,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/10076",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2215200",
+      "title": "LEGO® Batman™: Legacy of the Dark Knight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1779499107",
+      "originalPrice": 1899,
+      "discountPrice": 1899,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2215200",
       "isSpecial": false,
       "isPopular": true
     },
@@ -627,6 +639,13 @@
       "percent": 0,
       "timestamp": "2026-05-24T09:20:20.082Z",
       "type": "popular"
+    },
+    "steam_discount_227300": {
+      "title": "Euro Truck Simulator 2",
+      "price": 100,
+      "percent": 75,
+      "timestamp": "2026-05-24T13:19:52.464Z",
+      "type": "discount"
     }
   }
 }
