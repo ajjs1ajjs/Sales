@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T17:41:14.117Z",
+  "lastUpdated": "2026-05-25T19:25:54.345Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -172,6 +172,42 @@
       "isPopular": false
     },
     {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "233860",
+      "title": "Kenshi",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233860/b7e568633a9d06614fef54bfd5d7f835d78d1e1d/capsule_616x353.jpg?t=1779293333",
+      "originalPrice": 379,
+      "discountPrice": 106,
+      "discountPercent": 72,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/233860",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/d3d1550cec60e9d6b3d1ec00dbb6190e314683b2/capsule_616x353.jpg?t=1776675618",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/275850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1304930",
       "title": "The Outlast Trials",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/05c384f4640c12cb1c99d9165c75893b567ad6d1/capsule_616x353_alt_assets_2.jpg?t=1779221190",
@@ -192,18 +228,6 @@
       "discountPercent": 38,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": false
     },
@@ -244,18 +268,6 @@
       "isPopular": false
     },
     {
-      "id": "1966720",
-      "title": "Lethal Company",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/capsule_616x353.jpg?t=1775380053",
-      "originalPrice": 225,
-      "discountPrice": 146,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1966720",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2483190",
       "title": "Forza Horizon 6",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1779221600",
@@ -264,18 +276,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2483190",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "60734",
-      "title": "Paralives x House Flipper 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/60734/8j5llu4jm344561r/2890205ac4d88d742e6370b910ad10ab79ff9236/capsule_616x353.jpg?t=1779717696",
-      "originalPrice": 1317,
-      "discountPrice": 936,
-      "discountPercent": 21,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/60734",
       "isSpecial": false,
       "isPopular": true
     },
@@ -292,6 +292,18 @@
       "isPopular": true
     },
     {
+      "id": "60734",
+      "title": "Paralives x House Flipper 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/60734/8j5llu4jm344561r/2890205ac4d88d742e6370b910ad10ab79ff9236/capsule_616x353.jpg?t=1779717696",
+      "originalPrice": 1317,
+      "discountPrice": 936,
+      "discountPercent": 21,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/60734",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "2215200",
       "title": "LEGO® Batman™: Legacy of the Dark Knight",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1779499107",
@@ -300,18 +312,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2215200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "10076",
-      "title": "Subnautica Deep Ocean Bundle",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/10076/zd6xzb1njfo3gm8d/191661494e808edd2cccc6e6de198dd6c2e0b36b/capsule_616x353.jpg?t=1778518597",
-      "originalPrice": 1598,
-      "discountPrice": 1438,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/10076",
       "isSpecial": false,
       "isPopular": true
     },
@@ -328,18 +328,6 @@
       "isPopular": true
     },
     {
-      "id": "61110",
-      "title": "Dwarf Fortress x Paralives",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/61110/szxqgh6i3c3yxtjs/ec121ede9718064800962803c965b283e81d3cd8/capsule_616x353.jpg?t=1778762595",
-      "originalPrice": 1360,
-      "discountPrice": 1157,
-      "discountPercent": 5,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/61110",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4197610",
       "title": "Librarian: Tidy Up the Arcane Library!",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197610/273d2a3ddf5eab5d39b693a129b80609499e6b48/capsule_616x353.jpg?t=1777553917",
@@ -352,14 +340,38 @@
       "isPopular": true
     },
     {
-      "id": "2536520",
-      "title": "Diablo II: Resurrected - Infernal Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
-      "originalPrice": 1699,
-      "discountPrice": 1699,
+      "id": "61110",
+      "title": "Dwarf Fortress x Paralives",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/61110/szxqgh6i3c3yxtjs/ec121ede9718064800962803c965b283e81d3cd8/capsule_616x353.jpg?t=1778762595",
+      "originalPrice": 1360,
+      "discountPrice": 1157,
+      "discountPercent": 5,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/61110",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3041230",
+      "title": "Windrose",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/58031ef98f88d5602171eb018d9306c7383a6e6a/capsule_616x353.jpg?t=1777529081",
+      "originalPrice": 600,
+      "discountPrice": 600,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2536520",
+      "url": "https://store.steampowered.com/app/3041230",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "10076",
+      "title": "Subnautica Deep Ocean Bundle",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/10076/zd6xzb1njfo3gm8d/191661494e808edd2cccc6e6de198dd6c2e0b36b/capsule_616x353.jpg?t=1778518597",
+      "originalPrice": 1598,
+      "discountPrice": 1438,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/10076",
       "isSpecial": false,
       "isPopular": true
     }
@@ -713,6 +725,20 @@
       "price": 674,
       "percent": 50,
       "timestamp": "2026-05-25T17:41:13.018Z",
+      "type": "discount"
+    },
+    "steam_discount_233860": {
+      "title": "Kenshi",
+      "price": 106,
+      "percent": 72,
+      "timestamp": "2026-05-25T19:25:53.145Z",
+      "type": "discount"
+    },
+    "steam_discount_275850": {
+      "title": "No Man's Sky",
+      "price": 450,
+      "percent": 60,
+      "timestamp": "2026-05-25T19:25:53.145Z",
       "type": "discount"
     }
   }
