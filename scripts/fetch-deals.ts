@@ -49,6 +49,22 @@ interface DealsData {
   notifiedHistory?: Record<string, NotifiedItem>;
 }
 
+async function fetchWithRetry(url: string, options?: RequestInit, retries = 3, delay = 2000): Promise<Response> {
+  for (let i = 0; i < retries; i++) {
+    try {
+      const res = await fetch(url, options);
+      if (res.ok) return res;
+      console.warn(`⚠️ Fetch failed for ${url} with status ${res.status}. Attempt ${i + 1} of ${retries}.`);
+    } catch (err) {
+      console.warn(`⚠️ Fetch error for ${url}: ${err instanceof Error ? err.message : String(err)}. Attempt ${i + 1} of ${retries}.`);
+    }
+    if (i < retries - 1) {
+      await new Promise(resolve => setTimeout(resolve, delay * Math.pow(2, i))); // exponential backoff
+    }
+  }
+  throw new Error(`Failed to fetch ${url} after ${retries} attempts.`);
+}
+
 function formatDate(dateStr: string): string {
   if (!dateStr) return "невідомо";
   try {
@@ -81,7 +97,7 @@ async function fetchEpicGames(): Promise<EpicGame[]> {
   try {
     console.log("Fetching Epic Games promotions...");
     const url = 'https://store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions?locale=uk&country=UA';
-    const res = await fetch(url);
+    const res = await fetchWithRetry(url);
     const data = await res.json();
     const elements = data.data.Catalog.searchStore.elements || [];
     
@@ -179,8 +195,7 @@ async function fetchEpicGames(): Promise<EpicGame[]> {
     
     return games;
   } catch (err) {
-    console.error("❌ Error fetching Epic Games:", err);
-    return [];
+    throw new Error(`Error fetching Epic Games: ${err instanceof Error ? err.message : String(err)}`, { cause: err });
   }
 }
 
@@ -188,7 +203,7 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
   try {
     console.log("Fetching Steam categories...");
     const url = 'https://store.steampowered.com/api/featuredcategories/?cc=UA&l=ukrainian';
-    const res = await fetch(url);
+    const res = await fetchWithRetry(url);
     const data = await res.json();
     
     const specials = data.specials?.items || [];
@@ -244,8 +259,7 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
     
     return Array.from(gamesMap.values());
   } catch (err) {
-    console.error("❌ Error fetching Steam games:", err);
-    return [];
+    throw new Error(`Error fetching Steam games: ${err instanceof Error ? err.message : String(err)}`, { cause: err });
   }
 }
 
@@ -323,6 +337,16 @@ async function run() {
   // Fetch fresh data
   const freshEpic = await fetchEpicGames();
   const freshSteam = await fetchSteamGames();
+  
+  // Guard against API/scraping failure:
+  // If we fetched 0 games but we had games previously, it's highly likely a scrape failure.
+  // We should keep the old data and abort rather than overwriting the dataset with empty arrays.
+  if (freshEpic.length === 0 && oldData.epic.length > 0) {
+    throw new Error('Scraped Epic Games list is empty, but previous data was not. Aborting to prevent data deletion.');
+  }
+  if (freshSteam.length === 0 && oldData.steam.length > 0) {
+    throw new Error('Scraped Steam games list is empty, but previous data was not. Aborting to prevent data deletion.');
+  }
   
   // Detect changes
   const newFreeGames: EpicGame[] = [];

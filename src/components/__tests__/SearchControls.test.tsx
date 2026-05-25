@@ -48,4 +48,20 @@ describe('SearchControls', () => {
     rerender(<SearchControls {...defaultProps} activeFilter="steam_specials" />);
     expect(screen.getByText('Steam Знижки')).toHaveAttribute('aria-pressed', 'true');
   });
+
+  it('renders filter counts when provided', () => {
+    const filterCounts = {
+      all: 15,
+      epic_free: 2,
+      epic_discount: 5,
+      steam_specials: 6,
+      steam_popular: 2,
+    };
+    render(<SearchControls {...defaultProps} filterCounts={filterCounts} />);
+    expect(screen.getByRole('button', { name: /Всі категорії\(15\)/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /Epic Роздачі\(2\)/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /Epic Знижки\(5\)/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /Steam Знижки\(6\)/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /Steam Тренди\(2\)/i })).toBeInTheDocument();
+  });
 });

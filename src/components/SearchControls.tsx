@@ -6,6 +6,7 @@ interface Props {
   onSearchChange: (value: string) => void;
   activeFilter: FilterType;
   onFilterChange: (filter: FilterType) => void;
+  filterCounts?: Record<FilterType, number>;
 }
 
 const filters: { key: FilterType; label: string }[] = [
@@ -21,6 +22,7 @@ export function SearchControls({
   onSearchChange,
   activeFilter,
   onFilterChange,
+  filterCounts,
 }: Props) {
   return (
     <section className="controls-container" aria-label="Фільтри та пошук">
@@ -40,17 +42,21 @@ export function SearchControls({
       </div>
 
       <div className="filter-group" role="group" aria-label="Фільтри категорій">
-        {filters.map(({ key, label }) => (
-          <button
-            key={key}
-            onClick={() => onFilterChange(key)}
-            className={`filter-btn${activeFilter === key ? ' active' : ''}`}
-            aria-pressed={activeFilter === key}
-            type="button"
-          >
-            {label}
-          </button>
-        ))}
+        {filters.map(({ key, label }) => {
+          const count = filterCounts ? filterCounts[key] : undefined;
+          return (
+            <button
+              key={key}
+              onClick={() => onFilterChange(key)}
+              className={`filter-btn${activeFilter === key ? ' active' : ''}`}
+              aria-pressed={activeFilter === key}
+              type="button"
+            >
+              {label}
+              {count !== undefined && <span className="filter-count"> ({count})</span>}
+            </button>
+          );
+        })}
       </div>
     </section>
   );

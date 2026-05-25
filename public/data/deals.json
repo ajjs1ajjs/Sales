@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T15:48:53.654Z",
+  "lastUpdated": "2026-05-25T16:25:03.857Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -148,6 +148,18 @@
   ],
   "steam": [
     {
+      "id": "1118520",
+      "title": "Paralives",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353.jpg?t=1779721278",
+      "originalPrice": 740,
+      "discountPrice": 666,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1118520",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -172,18 +184,6 @@
       "isPopular": false
     },
     {
-      "id": "2536520",
-      "title": "Diablo II: Resurrected - Infernal Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
-      "originalPrice": 1699,
-      "discountPrice": 1274,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2536520",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/01258768bc382555819a5a128fb66cc2dc2f3c4e/capsule_616x353_alt_assets_12_ukrainian.jpg?t=1779454963",
@@ -194,6 +194,18 @@
       "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
       "isPopular": false
+    },
+    {
+      "id": "2536520",
+      "title": "Diablo II: Resurrected - Infernal Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
+      "originalPrice": 1699,
+      "discountPrice": 1274,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2536520",
+      "isSpecial": true,
+      "isPopular": true
     },
     {
       "id": "1304930",
@@ -220,18 +232,6 @@
       "isPopular": false
     },
     {
-      "id": "4630570",
-      "title": "RUNNING TRAIN | 走ル列車！",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4630570/e42498876d3362ebac906e3204db0f679d61808f/capsule_616x353.jpg?t=1779678066",
-      "originalPrice": 620,
-      "discountPrice": 558,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4630570",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "601150",
       "title": "Devil May Cry 5",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/capsule_616x353.jpg?t=1768869803",
@@ -240,6 +240,18 @@
       "discountPercent": 85,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/601150",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4630570",
+      "title": "RUNNING TRAIN | 走ル列車！",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4630570/e42498876d3362ebac906e3204db0f679d61808f/capsule_616x353.jpg?t=1779678066",
+      "originalPrice": 620,
+      "discountPrice": 558,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4630570",
       "isSpecial": true,
       "isPopular": false
     },
@@ -254,30 +266,6 @@
       "url": "https://store.steampowered.com/app/848450",
       "isSpecial": true,
       "isPopular": false
-    },
-    {
-      "id": "1142710",
-      "title": "Total War: WARHAMMER III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1779441058",
-      "originalPrice": 1899,
-      "discountPrice": 284,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1142710",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1118520",
-      "title": "Paralives",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353.jpg?t=1779721278",
-      "originalPrice": 740,
-      "discountPrice": 666,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1118520",
-      "isSpecial": false,
-      "isPopular": true
     },
     {
       "id": "2483190",
@@ -340,14 +328,14 @@
       "isPopular": true
     },
     {
-      "id": "54029",
-      "title": "Покращення прайм-статусу",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/54029/capsule_616x353.jpg?t=1713988570",
-      "originalPrice": 650,
-      "discountPrice": 650,
-      "discountPercent": 0,
+      "id": "61110",
+      "title": "Dwarf Fortress x Paralives",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/61110/szxqgh6i3c3yxtjs/ec121ede9718064800962803c965b283e81d3cd8/capsule_616x353.jpg?t=1778762595",
+      "originalPrice": 1360,
+      "discountPrice": 1157,
+      "discountPercent": 5,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/54029",
+      "url": "https://store.steampowered.com/app/61110",
       "isSpecial": false,
       "isPopular": true
     },
@@ -364,14 +352,14 @@
       "isPopular": true
     },
     {
-      "id": "61110",
-      "title": "Dwarf Fortress x Paralives",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/61110/szxqgh6i3c3yxtjs/ec121ede9718064800962803c965b283e81d3cd8/capsule_616x353.jpg?t=1778762595",
-      "originalPrice": 1360,
-      "discountPrice": 1157,
-      "discountPercent": 5,
+      "id": "54029",
+      "title": "Покращення прайм-статусу",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/54029/capsule_616x353.jpg?t=1713988570",
+      "originalPrice": 650,
+      "discountPrice": 650,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/61110",
+      "url": "https://store.steampowered.com/app/54029",
       "isSpecial": false,
       "isPopular": true
     }
@@ -712,6 +700,13 @@
       "percent": 5,
       "timestamp": "2026-05-25T15:48:51.787Z",
       "type": "popular"
+    },
+    "steam_discount_1118520": {
+      "title": "Paralives",
+      "price": 666,
+      "percent": 10,
+      "timestamp": "2026-05-25T16:25:03.067Z",
+      "type": "discount"
     }
   }
 }

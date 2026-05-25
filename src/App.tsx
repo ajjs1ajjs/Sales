@@ -50,7 +50,7 @@ function App() {
       try {
         setLoading(true);
         const baseUrl = import.meta.env.BASE_URL || '/';
-        const res = await fetch(`${baseUrl}data/deals.json?t=${Date.now()}`);
+        const res = await fetch(`${baseUrl}data/deals.json`, { cache: 'no-cache' });
 
         if (!res.ok) {
           throw new Error(`Не вдалося завантажити дані (статус: ${res.status})`);
@@ -74,31 +74,37 @@ function App() {
     fetchData();
   }, []);
 
-  const filteredEpic =
-    data?.epic.filter((game) => {
-      const matchesSearch = game.title
-        .toLowerCase()
-        .includes(searchQuery.toLowerCase());
-      if (!matchesSearch) return false;
+  const epicMatchingSearch =
+    data?.epic.filter((game) =>
+      game.title.toLowerCase().includes(searchQuery.toLowerCase())
+    ) || [];
 
-      if (activeFilter === 'epic_free') return game.isFreeNow || game.isUpcomingFree;
-      if (activeFilter === 'epic_discount') return game.isDiscounted;
-      if (activeFilter === 'all') return true;
-      return false;
-    }) || [];
+  const steamMatchingSearch =
+    data?.steam.filter((game) =>
+      game.title.toLowerCase().includes(searchQuery.toLowerCase())
+    ) || [];
 
-  const filteredSteam =
-    data?.steam.filter((game) => {
-      const matchesSearch = game.title
-        .toLowerCase()
-        .includes(searchQuery.toLowerCase());
-      if (!matchesSearch) return false;
+  const filterCounts = {
+    all: epicMatchingSearch.length + steamMatchingSearch.length,
+    epic_free: epicMatchingSearch.filter((game) => game.isFreeNow || game.isUpcomingFree).length,
+    epic_discount: epicMatchingSearch.filter((game) => game.isDiscounted).length,
+    steam_specials: steamMatchingSearch.filter((game) => game.isSpecial).length,
+    steam_popular: steamMatchingSearch.filter((game) => game.isPopular).length,
+  };
 
-      if (activeFilter === 'steam_specials') return game.isSpecial;
-      if (activeFilter === 'steam_popular') return game.isPopular;
-      if (activeFilter === 'all') return true;
-      return false;
-    }) || [];
+  const filteredEpic = epicMatchingSearch.filter((game) => {
+    if (activeFilter === 'epic_free') return game.isFreeNow || game.isUpcomingFree;
+    if (activeFilter === 'epic_discount') return game.isDiscounted;
+    if (activeFilter === 'all') return true;
+    return false;
+  });
+
+  const filteredSteam = steamMatchingSearch.filter((game) => {
+    if (activeFilter === 'steam_specials') return game.isSpecial;
+    if (activeFilter === 'steam_popular') return game.isPopular;
+    if (activeFilter === 'all') return true;
+    return false;
+  });
 
   return (
     <ErrorBoundary>
@@ -126,6 +132,7 @@ function App() {
         onSearchChange={setSearchQuery}
         activeFilter={activeFilter}
         onFilterChange={setActiveFilter}
+        filterCounts={filterCounts}
       />
 
       <main>
