@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T19:25:54.345Z",
+  "lastUpdated": "2026-05-25T21:03:37.462Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -160,14 +160,14 @@
       "isPopular": true
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/01258768bc382555819a5a128fb66cc2dc2f3c4e/capsule_616x353_alt_assets_12_ukrainian.jpg?t=1779454963",
-      "originalPrice": 1299,
-      "discountPrice": 389,
-      "discountPercent": 70,
+      "id": "233860",
+      "title": "Kenshi",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233860/b7e568633a9d06614fef54bfd5d7f835d78d1e1d/capsule_616x353.jpg?t=1779293333",
+      "originalPrice": 379,
+      "discountPrice": 106,
+      "discountPercent": 72,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
+      "url": "https://store.steampowered.com/app/233860",
       "isSpecial": true,
       "isPopular": false
     },
@@ -181,17 +181,17 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
-      "id": "233860",
-      "title": "Kenshi",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233860/b7e568633a9d06614fef54bfd5d7f835d78d1e1d/capsule_616x353.jpg?t=1779293333",
-      "originalPrice": 379,
-      "discountPrice": 106,
-      "discountPercent": 72,
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/01258768bc382555819a5a128fb66cc2dc2f3c4e/capsule_616x353_alt_assets_12_ukrainian.jpg?t=1779454963",
+      "originalPrice": 1299,
+      "discountPrice": 389,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/233860",
+      "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
       "isPopular": false
     },
@@ -244,6 +244,18 @@
       "isPopular": false
     },
     {
+      "id": "817628",
+      "title": "Grand Theft Auto: The Trilogy – The Definitive Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/817628/capsule_616x353.jpg?t=1752520763",
+      "originalPrice": 1499,
+      "discountPrice": 494,
+      "discountPercent": 67,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/817628",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1147923",
       "title": "Squad Commander Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/1147923/418260230e780e715342b138f32eec37fce94753/capsule_616x353.jpg?t=1753206883",
@@ -252,18 +264,6 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1147923",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4630570",
-      "title": "RUNNING TRAIN | 走ル列車！",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4630570/e42498876d3362ebac906e3204db0f679d61808f/capsule_616x353.jpg?t=1779678066",
-      "originalPrice": 620,
-      "discountPrice": 558,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4630570",
       "isSpecial": true,
       "isPopular": false
     },
@@ -348,30 +348,6 @@
       "discountPercent": 5,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/61110",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3041230",
-      "title": "Windrose",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/58031ef98f88d5602171eb018d9306c7383a6e6a/capsule_616x353.jpg?t=1777529081",
-      "originalPrice": 600,
-      "discountPrice": 600,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3041230",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "10076",
-      "title": "Subnautica Deep Ocean Bundle",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/10076/zd6xzb1njfo3gm8d/191661494e808edd2cccc6e6de198dd6c2e0b36b/capsule_616x353.jpg?t=1778518597",
-      "originalPrice": 1598,
-      "discountPrice": 1438,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/10076",
       "isSpecial": false,
       "isPopular": true
     }
@@ -739,6 +715,20 @@
       "price": 450,
       "percent": 60,
       "timestamp": "2026-05-25T19:25:53.145Z",
+      "type": "discount"
+    },
+    "steam_popular_3240220": {
+      "title": "Grand Theft Auto V Enhanced",
+      "price": 674,
+      "percent": 50,
+      "timestamp": "2026-05-25T21:03:36.075Z",
+      "type": "popular"
+    },
+    "steam_discount_817628": {
+      "title": "Grand Theft Auto: The Trilogy – The Definitive Edition",
+      "price": 494,
+      "percent": 67,
+      "timestamp": "2026-05-25T21:03:36.075Z",
       "type": "discount"
     }
   }
