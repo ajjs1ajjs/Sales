@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T23:58:00.542Z",
+  "lastUpdated": "2026-05-25T04:11:53.900Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -184,18 +184,6 @@
       "isPopular": false
     },
     {
-      "id": "1304930",
-      "title": "The Outlast Trials",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/05c384f4640c12cb1c99d9165c75893b567ad6d1/capsule_616x353_alt_assets_2.jpg?t=1779221190",
-      "originalPrice": 740,
-      "discountPrice": 222,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1304930",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2536520",
       "title": "Diablo II: Resurrected - Infernal Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
@@ -204,6 +192,18 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2536520",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "1304930",
+      "title": "The Outlast Trials",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/05c384f4640c12cb1c99d9165c75893b567ad6d1/capsule_616x353_alt_assets_2.jpg?t=1779221190",
+      "originalPrice": 740,
+      "discountPrice": 222,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1304930",
       "isSpecial": true,
       "isPopular": false
     },
@@ -220,14 +220,14 @@
       "isPopular": false
     },
     {
-      "id": "1147923",
-      "title": "Squad Commander Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/1147923/418260230e780e715342b138f32eec37fce94753/capsule_616x353.jpg?t=1753206883",
-      "originalPrice": 1339,
-      "discountPrice": 535,
-      "discountPercent": 60,
+      "id": "2747330",
+      "title": "Species: Unknown",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2747330/55ec65f6c060b4efff3071b170fc14da4567abc5/capsule_616x353_alt_assets_2.jpg?t=1779352240",
+      "originalPrice": 225,
+      "discountPrice": 180,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1147923",
+      "url": "https://store.steampowered.com/app/2747330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -244,26 +244,26 @@
       "isPopular": false
     },
     {
-      "id": "2747330",
-      "title": "Species: Unknown",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2747330/55ec65f6c060b4efff3071b170fc14da4567abc5/capsule_616x353_alt_assets_2.jpg?t=1779352240",
+      "id": "1966720",
+      "title": "Lethal Company",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/capsule_616x353.jpg?t=1775380053",
       "originalPrice": 225,
-      "discountPrice": 180,
-      "discountPercent": 20,
+      "discountPrice": 146,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2747330",
+      "url": "https://store.steampowered.com/app/1966720",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "848450",
-      "title": "Subnautica: Below Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/capsule_616x353.jpg?t=1777456254",
-      "originalPrice": 799,
-      "discountPrice": 199,
-      "discountPercent": 75,
+      "id": "601150",
+      "title": "Devil May Cry 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/capsule_616x353.jpg?t=1768869803",
+      "originalPrice": 949,
+      "discountPrice": 142,
+      "discountPercent": 85,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/848450",
+      "url": "https://store.steampowered.com/app/601150",
       "isSpecial": true,
       "isPopular": false
     },
@@ -340,14 +340,14 @@
       "isPopular": true
     },
     {
-      "id": "54029",
-      "title": "Покращення прайм-статусу",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/54029/capsule_616x353.jpg?t=1713988570",
-      "originalPrice": 650,
-      "discountPrice": 650,
+      "id": "3124540",
+      "title": "Far Far West",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/84ba0d6764c576fbe291e0efd07a78128f5e7241/capsule_616x353_alt_assets_3.jpg?t=1778234595",
+      "originalPrice": 349,
+      "discountPrice": 349,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/54029",
+      "url": "https://store.steampowered.com/app/3124540",
       "isSpecial": false,
       "isPopular": true
     },
@@ -360,18 +360,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3041230",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "75870",
-      "title": "Deep Rock Galactic x Rogue Core",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/75870/ibdz289hp2504r98/c0782a0b580fa74f97b55bf513b3117cd392be39/capsule_616x353.jpg?t=1779184275",
-      "originalPrice": 1018,
-      "discountPrice": 916,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/75870",
       "isSpecial": false,
       "isPopular": true
     }
