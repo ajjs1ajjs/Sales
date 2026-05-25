@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T12:27:35.733Z",
+  "lastUpdated": "2026-05-25T15:48:53.654Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -148,6 +148,18 @@
   ],
   "steam": [
     {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "264710",
       "title": "Subnautica",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/capsule_616x353.jpg?t=1777456112",
@@ -157,17 +169,17 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/264710",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
+      "id": "2536520",
+      "title": "Diablo II: Resurrected - Infernal Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
+      "originalPrice": 1699,
+      "discountPrice": 1274,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
+      "url": "https://store.steampowered.com/app/2536520",
       "isSpecial": true,
       "isPopular": true
     },
@@ -196,16 +208,16 @@
       "isPopular": false
     },
     {
-      "id": "2536520",
-      "title": "Diablo II: Resurrected - Infernal Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
-      "originalPrice": 1699,
-      "discountPrice": 1274,
-      "discountPercent": 25,
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
+      "originalPrice": 159,
+      "discountPrice": 98,
+      "discountPercent": 38,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2536520",
+      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "4630570",
@@ -220,26 +232,14 @@
       "isPopular": false
     },
     {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
-      "originalPrice": 159,
-      "discountPrice": 98,
-      "discountPercent": 38,
+      "id": "601150",
+      "title": "Devil May Cry 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/capsule_616x353.jpg?t=1768869803",
+      "originalPrice": 949,
+      "discountPrice": 142,
+      "discountPercent": 85,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1147923",
-      "title": "Squad Commander Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/1147923/418260230e780e715342b138f32eec37fce94753/capsule_616x353.jpg?t=1753206883",
-      "originalPrice": 1339,
-      "discountPrice": 535,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1147923",
+      "url": "https://store.steampowered.com/app/601150",
       "isSpecial": true,
       "isPopular": false
     },
@@ -268,6 +268,18 @@
       "isPopular": false
     },
     {
+      "id": "1118520",
+      "title": "Paralives",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353.jpg?t=1779721278",
+      "originalPrice": 740,
+      "discountPrice": 666,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1118520",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "2483190",
       "title": "Forza Horizon 6",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1779221600",
@@ -276,6 +288,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2483190",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "60734",
+      "title": "Paralives x House Flipper 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/60734/8j5llu4jm344561r/2890205ac4d88d742e6370b910ad10ab79ff9236/capsule_616x353.jpg?t=1779717696",
+      "originalPrice": 1317,
+      "discountPrice": 936,
+      "discountPercent": 21,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/60734",
       "isSpecial": false,
       "isPopular": true
     },
@@ -340,14 +364,14 @@
       "isPopular": true
     },
     {
-      "id": "3041230",
-      "title": "Windrose",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/58031ef98f88d5602171eb018d9306c7383a6e6a/capsule_616x353.jpg?t=1777529081",
-      "originalPrice": 600,
-      "discountPrice": 600,
-      "discountPercent": 0,
+      "id": "61110",
+      "title": "Dwarf Fortress x Paralives",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/61110/szxqgh6i3c3yxtjs/ec121ede9718064800962803c965b283e81d3cd8/capsule_616x353.jpg?t=1778762595",
+      "originalPrice": 1360,
+      "discountPrice": 1157,
+      "discountPercent": 5,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3041230",
+      "url": "https://store.steampowered.com/app/61110",
       "isSpecial": false,
       "isPopular": true
     }
@@ -666,6 +690,27 @@
       "price": 1000,
       "percent": 0,
       "timestamp": "2026-05-25T08:54:17.265Z",
+      "type": "popular"
+    },
+    "steam_popular_1118520": {
+      "title": "Paralives",
+      "price": 666,
+      "percent": 10,
+      "timestamp": "2026-05-25T15:48:51.787Z",
+      "type": "popular"
+    },
+    "steam_popular_60734": {
+      "title": "Paralives x House Flipper 2",
+      "price": 936,
+      "percent": 21,
+      "timestamp": "2026-05-25T15:48:51.787Z",
+      "type": "popular"
+    },
+    "steam_popular_61110": {
+      "title": "Dwarf Fortress x Paralives",
+      "price": 1157,
+      "percent": 5,
+      "timestamp": "2026-05-25T15:48:51.787Z",
       "type": "popular"
     }
   }
