@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T19:18:07.481Z",
+  "lastUpdated": "2026-05-26T21:41:51.088Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -160,18 +160,6 @@
       "isPopular": true
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "233860",
       "title": "Kenshi",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233860/b7e568633a9d06614fef54bfd5d7f835d78d1e1d/capsule_616x353.jpg?t=1779293333",
@@ -182,6 +170,18 @@
       "url": "https://store.steampowered.com/app/233860",
       "isSpecial": true,
       "isPopular": false
+    },
+    {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": true
     },
     {
       "id": "2183900",
@@ -208,6 +208,18 @@
       "isPopular": false
     },
     {
+      "id": "3159330",
+      "title": "Assassin’s Creed Shadows",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/2d5536f7e9f72d7844c59c5dc1416f7b756d3ad4/capsule_616x353.jpg?t=1775589420",
+      "originalPrice": 1999,
+      "discountPrice": 999,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3159330",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1304930",
       "title": "The Outlast Trials",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/05c384f4640c12cb1c99d9165c75893b567ad6d1/capsule_616x353_alt_assets_2.jpg?t=1779221190",
@@ -216,18 +228,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1304930",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2982610",
-      "title": "Stonemachia",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2982610/b0a3ac3a6069945093ddbdcd2194c3c0607d40d8/capsule_616x353.jpg?t=1779814810",
-      "originalPrice": 399,
-      "discountPrice": 359,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2982610",
       "isSpecial": true,
       "isPopular": false
     },
@@ -244,14 +244,14 @@
       "isPopular": false
     },
     {
-      "id": "2261430",
-      "title": "LumenTale: Memories of Trey",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2261430/0600b7108c74a9b0f0c51d5a2054005e22bf87c0/capsule_616x353.jpg?t=1779813982",
-      "originalPrice": 504,
-      "discountPrice": 453,
-      "discountPercent": 10,
+      "id": "1222140",
+      "title": "Detroit: Become Human",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg?t=1667468479",
+      "originalPrice": 1299,
+      "discountPrice": 259,
+      "discountPercent": 80,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2261430",
+      "url": "https://store.steampowered.com/app/1222140",
       "isSpecial": true,
       "isPopular": false
     },
@@ -270,7 +270,7 @@
     {
       "id": "2483190",
       "title": "Forza Horizon 6",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1779221600",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1779829240",
       "originalPrice": 2299,
       "discountPrice": 2299,
       "discountPercent": 0,
@@ -306,7 +306,7 @@
     {
       "id": "2215200",
       "title": "LEGO® Batman™: Legacy of the Dark Knight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1779499107",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1779824566",
       "originalPrice": 1899,
       "discountPrice": 1899,
       "discountPercent": 0,
@@ -764,6 +764,13 @@
       "percent": 0,
       "timestamp": "2026-05-26T19:18:05.421Z",
       "type": "popular"
+    },
+    "steam_discount_3159330": {
+      "title": "Assassin’s Creed Shadows",
+      "price": 999,
+      "percent": 50,
+      "timestamp": "2026-05-26T21:41:49.849Z",
+      "type": "discount"
     }
   }
 }
