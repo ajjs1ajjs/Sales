@@ -44,3 +44,5 @@ export interface DealsData {
 }
 
 export type FilterType = 'all' | 'epic_free' | 'epic_discount' | 'steam_specials' | 'steam_popular';
+
+export type SortType = 'default' | 'name-asc' | 'name-desc' | 'price-asc' | 'price-desc' | 'discount-desc';

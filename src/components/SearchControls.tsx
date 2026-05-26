@@ -1,5 +1,6 @@
 import { Search } from 'lucide-react';
-import type { FilterType } from '../types';
+import type { FilterType, SortType } from '../types';
+import { SortControls } from './SortControls';
 
 interface Props {
   searchQuery: string;
@@ -7,6 +8,8 @@ interface Props {
   activeFilter: FilterType;
   onFilterChange: (filter: FilterType) => void;
   filterCounts?: Record<FilterType, number>;
+  sortType: SortType;
+  onSortChange: (sort: SortType) => void;
 }
 
 const filters: { key: FilterType; label: string }[] = [
@@ -23,22 +26,27 @@ export function SearchControls({
   activeFilter,
   onFilterChange,
   filterCounts,
+  sortType,
+  onSortChange,
 }: Props) {
   return (
     <section className="controls-container" aria-label="Фільтри та пошук">
-      <div className="search-wrapper">
-        <Search size={18} className="search-icon" aria-hidden="true" />
-        <label htmlFor="search-games" className="visually-hidden">
-          Пошук гри за назвою
-        </label>
-        <input
-          type="text"
-          id="search-games"
-          placeholder="Пошук гри за назвою..."
-          value={searchQuery}
-          onChange={(e) => onSearchChange(e.target.value)}
-          className="search-input"
-        />
+      <div className="controls-top">
+        <div className="search-wrapper">
+          <Search size={18} className="search-icon" aria-hidden="true" />
+          <label htmlFor="search-games" className="visually-hidden">
+            Пошук гри за назвою
+          </label>
+          <input
+            type="text"
+            id="search-games"
+            placeholder="Пошук гри за назвою..."
+            value={searchQuery}
+            onChange={(e) => onSearchChange(e.target.value)}
+            className="search-input"
+          />
+        </div>
+        <SortControls sortType={sortType} onSortChange={onSortChange} />
       </div>
 
       <div className="filter-group" role="group" aria-label="Фільтри категорій">

@@ -1,5 +1,7 @@
+import { useMemo } from 'react';
 import { Flame, TrendingUp, Gamepad2 } from 'lucide-react';
-import type { SteamGame, FilterType } from '../types';
+import type { SteamGame, FilterType, SortType } from '../types';
+import { isSteamNonGame } from '../utils';
 import { GameCard } from './GameCard';
 import { ShowMore } from './ShowMore';
 
@@ -7,11 +9,37 @@ interface Props {
   games: SteamGame[];
   activeFilter: FilterType;
   searchQuery: string;
+  sortType: SortType;
+  nonGameIds?: Set<string>;
 }
 
-export function SteamSection({ games, activeFilter, searchQuery }: Props) {
-  const specials = games.filter((g) => g.isSpecial);
-  const popular = games.filter((g) => g.isPopular);
+function sortSteamGames(games: SteamGame[], sortType: SortType): SteamGame[] {
+  const sorted = [...games];
+  switch (sortType) {
+    case 'name-asc':
+      return sorted.sort((a, b) => a.title.localeCompare(b.title, 'uk'));
+    case 'name-desc':
+      return sorted.sort((a, b) => b.title.localeCompare(a.title, 'uk'));
+    case 'price-asc':
+      return sorted.sort((a, b) => a.discountPrice - b.discountPrice);
+    case 'price-desc':
+      return sorted.sort((a, b) => b.discountPrice - a.discountPrice);
+    case 'discount-desc':
+      return sorted.sort((a, b) => b.discountPercent - a.discountPercent);
+    default:
+      return sorted;
+  }
+}
+
+export function SteamSection({ games, activeFilter, searchQuery, sortType, nonGameIds }: Props) {
+  const sorted = useMemo(() => sortSteamGames(games, sortType), [games, sortType]);
+
+  const specials = sorted.filter((g) => g.isSpecial);
+  const popular = sorted.filter((g) => {
+    if (!g.isPopular) return false;
+    if (nonGameIds?.has(g.id)) return false;
+    return !isSteamNonGame(g.imageUrl);
+  });
 
   return (
     <>

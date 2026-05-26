@@ -1,5 +1,6 @@
+import { useMemo } from 'react';
 import { Gift, Tag, Gamepad2 } from 'lucide-react';
-import type { EpicGame, FilterType } from '../types';
+import type { EpicGame, FilterType, SortType } from '../types';
 import { GameCard } from './GameCard';
 import { ShowMore } from './ShowMore';
 
@@ -7,12 +8,33 @@ interface Props {
   games: EpicGame[];
   activeFilter: FilterType;
   searchQuery: string;
+  sortType: SortType;
 }
 
-export function EpicSection({ games, activeFilter, searchQuery }: Props) {
-  const currentFree = games.filter((g) => g.isFreeNow);
-  const upcomingFree = games.filter((g) => g.isUpcomingFree);
-  const discounted = games.filter((g) => g.isDiscounted);
+function sortEpicGames(games: EpicGame[], sortType: SortType): EpicGame[] {
+  const sorted = [...games];
+  switch (sortType) {
+    case 'name-asc':
+      return sorted.sort((a, b) => a.title.localeCompare(b.title, 'uk'));
+    case 'name-desc':
+      return sorted.sort((a, b) => b.title.localeCompare(a.title, 'uk'));
+    case 'price-asc':
+      return sorted.sort((a, b) => a.discountPrice - b.discountPrice);
+    case 'price-desc':
+      return sorted.sort((a, b) => b.discountPrice - a.discountPrice);
+    case 'discount-desc':
+      return sorted.sort((a, b) => b.discountPercent - a.discountPercent);
+    default:
+      return sorted;
+  }
+}
+
+export function EpicSection({ games, activeFilter, searchQuery, sortType }: Props) {
+  const sorted = useMemo(() => sortEpicGames(games, sortType), [games, sortType]);
+
+  const currentFree = sorted.filter((g) => g.isFreeNow);
+  const upcomingFree = sorted.filter((g) => g.isUpcomingFree);
+  const discounted = sorted.filter((g) => g.isDiscounted);
 
   return (
     <>
@@ -37,7 +59,7 @@ export function EpicSection({ games, activeFilter, searchQuery }: Props) {
             <div className="subsection">
               <h3 className="subsection-title">
                 <span className="dot dot--green" aria-hidden="true" />
-                Безкоштовно зараз
+                Безкоштовно зараз ({currentFree.length})
               </h3>
               <div className="deals-grid">
                 <ShowMore
@@ -60,7 +82,7 @@ export function EpicSection({ games, activeFilter, searchQuery }: Props) {
             <div className="subsection">
               <h3 className="subsection-title">
                 <span className="dot dot--purple" aria-hidden="true" />
-                Незабаром у роздачі
+                Незабаром у роздачі ({upcomingFree.length})
               </h3>
               <div className="deals-grid">
                 <ShowMore

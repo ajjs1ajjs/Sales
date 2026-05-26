@@ -1,15 +1,22 @@
-import { lazy, useEffect, useState } from 'react';
-import type { FunctionComponent } from 'react';
-import { Clock, RefreshCw, AlertCircle } from 'lucide-react';
-import type { DealsData, FilterType, EpicGame, SteamGame } from './types';
+import { lazy, useEffect, useState, type FunctionComponent, Suspense, useMemo } from 'react';
+import { HashRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { Clock, RefreshCw, AlertCircle, History } from 'lucide-react';
+import type { DealsData, FilterType, SortType, EpicGame, SteamGame } from './types';
 import { ErrorBoundary } from './ErrorBoundary';
 import { TelegramBanner } from './components/TelegramBanner';
 import { SearchControls } from './components/SearchControls';
+import { ThemeToggle } from './components/ThemeToggle';
+import { InstallPWA } from './components/InstallPWA';
+import { useDebounce } from './hooks/useDebounce';
+import { useLocalStorage } from './hooks/useLocalStorage';
+import { formatLastUpdated, isSteamNonGame } from './utils';
 
 type SectionProps = {
   games: EpicGame[] | SteamGame[];
   activeFilter: FilterType;
   searchQuery: string;
+  sortType: SortType;
+  nonGameIds?: Set<string>;
 };
 
 const EpicSection = lazy(() =>
@@ -18,34 +25,24 @@ const EpicSection = lazy(() =>
 const SteamSection = lazy(() =>
   import('./components/SteamSection').then((m) => ({ default: m.SteamSection as FunctionComponent<SectionProps> })),
 );
+const HistoryPageLazy = lazy(() =>
+  import('./components/HistoryPage').then((m) => ({ default: m.HistoryPage })),
+);
 
-function formatLastUpdated(dateStr: string): string {
-  if (!dateStr) return '';
-  try {
-    const d = new Date(dateStr);
-    const options: Intl.DateTimeFormatOptions = {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric',
-      hour: '2-digit',
-      minute: '2-digit',
-      second: '2-digit',
-      timeZone: 'Europe/Kyiv',
-    };
-    return d.toLocaleDateString('uk-UA', options);
-  } catch {
-    return dateStr;
-  }
-}
-
-function App() {
+function HomePage() {
+  const location = useLocation();
   const [data, setData] = useState<DealsData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [activeFilter, setActiveFilter] = useState<FilterType>('all');
+  const [sortType, setSortType] = useLocalStorage<SortType>('sort-type', 'default');
+  const debouncedSearch = useDebounce(searchQuery, 300);
 
   useEffect(() => {
+    const theme = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', theme);
+
     const fetchData = async () => {
       try {
         setLoading(true);
@@ -72,16 +69,28 @@ function App() {
     };
 
     fetchData();
-  }, []);
+  }, [location.pathname]);
+
+  const nonGameIds = useMemo(() => {
+    const ids = new Set<string>();
+    if (data) {
+      for (const game of data.steam) {
+        if (isSteamNonGame(game.imageUrl)) {
+          ids.add(game.id);
+        }
+      }
+    }
+    return ids;
+  }, [data]);
 
   const epicMatchingSearch =
     data?.epic.filter((game) =>
-      game.title.toLowerCase().includes(searchQuery.toLowerCase())
+      game.title.toLowerCase().includes(debouncedSearch.toLowerCase()),
     ) || [];
 
   const steamMatchingSearch =
     data?.steam.filter((game) =>
-      game.title.toLowerCase().includes(searchQuery.toLowerCase())
+      game.title.toLowerCase().includes(debouncedSearch.toLowerCase()),
     ) || [];
 
   const filterCounts = {
@@ -109,22 +118,33 @@ function App() {
   return (
     <ErrorBoundary>
       <header>
-        <h1>Game Sales Aggregator</h1>
-        <p>
-          Ваш персональний радар знижок та новинок. Безкоштовні ігри від Epic
-          Games Store, знижки, хіти та нові релізи Steam.
-        </p>
-
-        {data?.lastUpdated && (
-          <div className="last-updated">
-            <Clock size={14} aria-hidden="true" />
-            <span>
-              Останнє оновлення: <b>{formatLastUpdated(data.lastUpdated)}</b>
-            </span>
+        <div className="header-top">
+          <div className="header-left" />
+          <div className="header-center">
+            <h1>Game Sales Aggregator</h1>
+            <p>
+              Ваш персональний радар знижок та новинок. Безкоштовні ігри від Epic
+              Games Store, знижки, хіти та нові релізи Steam.
+            </p>
+            {data?.lastUpdated && (
+              <div className="last-updated">
+                <Clock size={14} aria-hidden="true" />
+                <span>
+                  Останнє оновлення: <b>{formatLastUpdated(data.lastUpdated)}</b>
+                </span>
+              </div>
+            )}
           </div>
-        )}
+          <div className="header-right">
+            <ThemeToggle />
+            <Link to="/history" className="history-nav-link" aria-label="Історія сповіщень">
+              <History size={18} />
+            </Link>
+          </div>
+        </div>
       </header>
 
+      <InstallPWA />
       <TelegramBanner />
 
       <SearchControls
@@ -133,54 +153,61 @@ function App() {
         activeFilter={activeFilter}
         onFilterChange={setActiveFilter}
         filterCounts={filterCounts}
+        sortType={sortType}
+        onSortChange={setSortType}
       />
 
-      <main>
-        {loading && (
-          <div className="empty-state loading-state" role="status" aria-live="polite">
-            <RefreshCw size={40} className="spinner" aria-hidden="true" />
-            <h3>Завантаження даних з серверів...</h3>
-            <p>Будь ласка, зачекайте.</p>
-          </div>
-        )}
+      <Suspense fallback={<div className="deals-grid">{Array.from({ length: 6 }).map((_, i) => <div key={i} className="game-card skeleton-card"><div className="card-image-wrapper skeleton-bg" /><div className="card-content"><div className="skeleton-line skeleton-title" /><div className="skeleton-line skeleton-desc" /></div></div>)}</div>}>
+        <main>
+          {loading && (
+            <div className="empty-state loading-state" role="status" aria-live="polite">
+              <RefreshCw size={40} className="spinner" aria-hidden="true" />
+              <h3>Завантаження даних з серверів...</h3>
+              <p>Будь ласка, зачекайте.</p>
+            </div>
+          )}
 
-        {error && (
-          <div className="empty-state error-state" role="alert">
-            <AlertCircle size={40} className="error-icon" aria-hidden="true" />
-            <h3>Не вдалося завантажити дані</h3>
-            <p>{error}</p>
-            <p className="error-hint">
-              Переконайтеся, що робочий процес GitHub Actions успішно виконався
-              та згенерував файл даних.
-            </p>
-          </div>
-        )}
+          {error && (
+            <div className="empty-state error-state" role="alert">
+              <AlertCircle size={40} className="error-icon" aria-hidden="true" />
+              <h3>Не вдалося завантажити дані</h3>
+              <p>{error}</p>
+              <p className="error-hint">
+                Переконайтеся, що робочий процес GitHub Actions успішно виконався
+                та згенерував файл даних.
+              </p>
+            </div>
+          )}
 
-        {!loading && !error && (
-          <>
-            <EpicSection
-              games={filteredEpic}
-              activeFilter={activeFilter}
-              searchQuery={searchQuery}
-            />
-            <SteamSection
-              games={filteredSteam}
-              activeFilter={activeFilter}
-              searchQuery={searchQuery}
-            />
+          {!loading && !error && (
+            <>
+              <EpicSection
+                games={filteredEpic}
+                activeFilter={activeFilter}
+                searchQuery={debouncedSearch}
+                sortType={sortType}
+              />
+              <SteamSection
+                games={filteredSteam}
+                activeFilter={activeFilter}
+                searchQuery={debouncedSearch}
+                sortType={sortType}
+                nonGameIds={nonGameIds}
+              />
 
-            {activeFilter === 'all' &&
-              filteredEpic.length === 0 &&
-              filteredSteam.length === 0 &&
-              !searchQuery && (
-                <div className="empty-state section-gap-top">
-                  <h3>Немає доступних пропозицій</h3>
-                  <p>Спробуйте змінити фільтри або зайдіть пізніше.</p>
-                </div>
-              )}
-          </>
-        )}
-      </main>
+              {activeFilter === 'all' &&
+                filteredEpic.length === 0 &&
+                filteredSteam.length === 0 &&
+                !debouncedSearch && (
+                  <div className="empty-state section-gap-top">
+                    <h3>Немає доступних пропозицій</h3>
+                    <p>Спробуйте змінити фільтри або зайдіть пізніше.</p>
+                  </div>
+                )}
+            </>
+          )}
+        </main>
+      </Suspense>
 
       <footer>
         <p>&copy; {new Date().getFullYear()} Game Sales Aggregator. Усі права захищено.</p>
@@ -200,6 +227,46 @@ function App() {
           .
         </p>
       </footer>
+    </ErrorBoundary>
+  );
+}
+
+function App() {
+  return (
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/history" element={
+          <Suspense fallback={<div className="empty-state loading-state" role="status"><RefreshCw size={40} className="spinner" /><h3>Завантаження...</h3></div>}>
+            <HistoryPageWrapper />
+          </Suspense>
+        } />
+      </Routes>
+    </HashRouter>
+  );
+}
+
+function HistoryPageWrapper() {
+  const [data, setData] = useState<DealsData | null>(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const baseUrl = import.meta.env.BASE_URL || '/';
+        const res = await fetch(`${baseUrl}data/deals.json`, { cache: 'no-cache' });
+        if (res.ok) {
+          setData(await res.json());
+        }
+      } catch { /* ignore */ }
+    };
+    fetchData();
+  }, []);
+
+  return (
+    <ErrorBoundary>
+      <div style={{ padding: '24px 0' }}>
+        <HistoryPageLazy data={data} />
+      </div>
     </ErrorBoundary>
   );
 }

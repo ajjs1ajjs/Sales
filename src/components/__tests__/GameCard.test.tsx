@@ -75,4 +75,9 @@ describe('GameCard', () => {
     expect(link).toHaveAttribute('href', mockEpicGame.url);
     expect(link).toHaveAttribute('target', '_blank');
   });
+
+  it('renders wishlist button', () => {
+    render(<GameCard game={mockEpicGame} platform="epic" />);
+    expect(screen.getByRole('button', { name: /додати.*в обране/i })).toBeInTheDocument();
+  });
 });

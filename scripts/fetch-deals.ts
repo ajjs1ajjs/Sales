@@ -214,6 +214,7 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
     const processItems = (items: {
       id: number;
       name: string;
+      type?: number;
       large_capsule_image?: string;
       header_image?: string;
       capsule_image?: string;
@@ -224,14 +225,24 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
     }[], isSpecial: boolean, isPopular: boolean) => {
       for (const item of items) {
         const id = String(item.id);
+        const imageUrl = item.large_capsule_image || item.header_image || item.capsule_image || "";
+
+        // Skip bundles, subscriptions, and non-game items
+        if (imageUrl.includes('/bundles/') || imageUrl.includes('/subs/')) {
+          continue;
+        }
+        // type 0 = game/app; skip other types (1 = DLC, 2 = demo, etc.)
+        if (item.type !== undefined && item.type !== 0) {
+          continue;
+        }
+
         const originalPrice = (item.original_price ?? item.final_price ?? 0) / 100;
         const discountPrice = (item.final_price ?? 0) / 100;
-        
+
         if (gamesMap.has(id)) {
           const existing = gamesMap.get(id)!;
           if (isSpecial) existing.isSpecial = true;
           if (isPopular) existing.isPopular = true;
-          // Keep the highest discount if listed multiple times
           if (item.discount_percent > existing.discountPercent) {
             existing.discountPercent = item.discount_percent;
             existing.originalPrice = originalPrice;
@@ -241,7 +252,7 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
           gamesMap.set(id, {
             id,
             title: item.name,
-            imageUrl: item.large_capsule_image || item.header_image || item.capsule_image || "",
+            imageUrl,
             originalPrice,
             discountPrice,
             discountPercent: item.discount_percent || 0,

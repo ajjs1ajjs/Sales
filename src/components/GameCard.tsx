@@ -1,7 +1,10 @@
+import { useState } from 'react';
 import { ExternalLink, Tag, TrendingUp } from 'lucide-react';
 import type { EpicGame, SteamGame } from '../types';
+import { formatPrice, formatDate, isEpicGame } from '../utils';
+import { WishlistButton } from './WishlistButton';
 
-type Game = EpicGame | SteamGame;
+export type Game = EpicGame | SteamGame;
 
 interface BaseProps {
   platform: 'epic' | 'steam';
@@ -15,34 +18,7 @@ interface BaseProps {
 
 type Props = BaseProps & { game: Game };
 
-function isEpicGame(game: Game): game is EpicGame {
-  return 'isFreeNow' in game && 'isUpcomingFree' in game;
-}
-
-function formatPrice(price: number, currency: string): string {
-  if (!price && price !== 0) return '';
-  const formattedPrice = price % 1 === 0 ? price : price.toFixed(2);
-  if (currency === 'UAH') return `${formattedPrice} грн`;
-  if (currency === 'USD') return `$${formattedPrice}`;
-  return `${formattedPrice} ${currency}`;
-}
-
-function formatDate(dateStr: string): string {
-  if (!dateStr) return '';
-  try {
-    const d = new Date(dateStr);
-    const options: Intl.DateTimeFormatOptions = {
-      day: 'numeric',
-      month: 'short',
-      hour: '2-digit',
-      minute: '2-digit',
-      timeZone: 'Europe/Kyiv',
-    };
-    return d.toLocaleDateString('uk-UA', options);
-  } catch {
-    return dateStr;
-  }
-}
+const FALLBACK_IMG = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22225%22%3E%3Crect fill=%22%23100d1a%22 width=%22400%22 height=%22225%22/%3E%3Ctext fill=%22%23555%22 x=%22200%22 y=%22120%22 text-anchor=%22middle%22 font-size=%2214%22%3EЗображення недоступне%3C/text%3E%3C/svg%3E';
 
 export function GameCard({
   game,
@@ -54,6 +30,8 @@ export function GameCard({
   isUpcoming,
   linkText = 'Придбати',
 }: Props) {
+  const [imgError, setImgError] = useState(false);
+
   return (
     <article
       className={`game-card${isUpcoming ? ' game-card--upcoming' : ''}`}
@@ -69,17 +47,21 @@ export function GameCard({
           </span>
         )}
         <img
-          src={game.imageUrl}
+          src={imgError ? FALLBACK_IMG : game.imageUrl}
           alt={game.title}
           className="card-image"
           loading="lazy"
           decoding="async"
+          onError={() => setImgError(true)}
         />
       </div>
       <div className="card-content">
-        <h4 className="card-title" title={game.title}>
-          {game.title}
-        </h4>
+        <div className="card-title-row">
+          <h4 className="card-title" title={game.title}>
+            {game.title}
+          </h4>
+          <WishlistButton gameId={game.id} title={game.title} />
+        </div>
 
         {isEpicGame(game) && game.description && !showTagDescription && !showTrendingDescription && (
           <p className="card-desc">{game.description}</p>

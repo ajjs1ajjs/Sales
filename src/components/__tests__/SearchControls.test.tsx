@@ -9,6 +9,8 @@ describe('SearchControls', () => {
     onSearchChange: vi.fn(),
     activeFilter: 'all' as FilterType,
     onFilterChange: vi.fn(),
+    sortType: 'default' as const,
+    onSortChange: vi.fn(),
   };
 
   it('renders search input', () => {
