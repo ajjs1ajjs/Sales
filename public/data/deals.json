@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T22:58:28.685Z",
+  "lastUpdated": "2026-05-26T00:11:05.852Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -193,7 +193,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "2183900",
@@ -292,6 +292,18 @@
       "isPopular": true
     },
     {
+      "id": "1962700",
+      "title": "Subnautica 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/ceed43f5d774d84a5578eccaaec6842cb9591667/capsule_616x353.jpg?t=1779437128",
+      "originalPrice": 899,
+      "discountPrice": 899,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1962700",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "60734",
       "title": "Paralives x House Flipper 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/60734/8j5llu4jm344561r/2890205ac4d88d742e6370b910ad10ab79ff9236/capsule_616x353.jpg?t=1779717696",
@@ -336,6 +348,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4197610",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3892270",
+      "title": "Gamble With Your Friends",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1778274309",
+      "originalPrice": 187,
+      "discountPrice": 187,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3892270",
       "isSpecial": false,
       "isPopular": true
     }
@@ -739,6 +763,13 @@
       "percent": 55,
       "timestamp": "2026-05-25T22:58:26.764Z",
       "type": "discount"
+    },
+    "steam_popular_1962700": {
+      "title": "Subnautica 2",
+      "price": 899,
+      "percent": 0,
+      "timestamp": "2026-05-26T00:11:04.802Z",
+      "type": "popular"
     }
   }
 }
