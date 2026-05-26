@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T21:41:51.088Z",
+  "lastUpdated": "2026-05-26T23:07:06.155Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -172,18 +172,6 @@
       "isPopular": false
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1779454963",
@@ -194,6 +182,18 @@
       "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
       "isPopular": false
+    },
+    {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": true
     },
     {
       "id": "275850",
@@ -270,7 +270,7 @@
     {
       "id": "2483190",
       "title": "Forza Horizon 6",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1779829240",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1779835890",
       "originalPrice": 2299,
       "discountPrice": 2299,
       "discountPercent": 0,
@@ -292,6 +292,18 @@
       "isPopular": true
     },
     {
+      "id": "2215200",
+      "title": "LEGO® Batman™: Legacy of the Dark Knight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1779824566",
+      "originalPrice": 1899,
+      "discountPrice": 1899,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2215200",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "4371500",
       "title": "MechWarrior 5: Mercenaries - Chaos Reign",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4371500/cced38718894793d7f8b94dbdd94a4006cc31a50/capsule_616x353.jpg?t=1779818604",
@@ -304,14 +316,14 @@
       "isPopular": true
     },
     {
-      "id": "2215200",
-      "title": "LEGO® Batman™: Legacy of the Dark Knight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1779824566",
-      "originalPrice": 1899,
-      "discountPrice": 1899,
+      "id": "4197610",
+      "title": "Librarian: Tidy Up the Arcane Library!",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197610/273d2a3ddf5eab5d39b693a129b80609499e6b48/capsule_616x353.jpg?t=1777553917",
+      "originalPrice": 155,
+      "discountPrice": 155,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2215200",
+      "url": "https://store.steampowered.com/app/4197610",
       "isSpecial": false,
       "isPopular": true
     }
