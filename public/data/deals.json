@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T16:40:15.249Z",
+  "lastUpdated": "2026-05-26T19:18:07.481Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -148,18 +148,6 @@
   ],
   "steam": [
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1118520",
       "title": "Paralives",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353.jpg?t=1779721278",
@@ -168,6 +156,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1118520",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": true
     },
@@ -220,14 +220,14 @@
       "isPopular": false
     },
     {
-      "id": "1222140",
-      "title": "Detroit: Become Human",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg?t=1667468479",
-      "originalPrice": 1299,
-      "discountPrice": 259,
-      "discountPercent": 80,
+      "id": "2982610",
+      "title": "Stonemachia",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2982610/b0a3ac3a6069945093ddbdcd2194c3c0607d40d8/capsule_616x353.jpg?t=1779814810",
+      "originalPrice": 399,
+      "discountPrice": 359,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1222140",
+      "url": "https://store.steampowered.com/app/2982610",
       "isSpecial": true,
       "isPopular": false
     },
@@ -244,14 +244,14 @@
       "isPopular": false
     },
     {
-      "id": "1805320",
-      "title": "Romestead",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/ecc3a9361f6193044c9d598d74a0e68593ae2f79/capsule_616x353.jpg?t=1779796425",
-      "originalPrice": 299,
-      "discountPrice": 269,
+      "id": "2261430",
+      "title": "LumenTale: Memories of Trey",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2261430/0600b7108c74a9b0f0c51d5a2054005e22bf87c0/capsule_616x353.jpg?t=1779813982",
+      "originalPrice": 504,
+      "discountPrice": 453,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1805320",
+      "url": "https://store.steampowered.com/app/2261430",
       "isSpecial": true,
       "isPopular": false
     },
@@ -292,6 +292,18 @@
       "isPopular": true
     },
     {
+      "id": "4371500",
+      "title": "MechWarrior 5: Mercenaries - Chaos Reign",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4371500/cced38718894793d7f8b94dbdd94a4006cc31a50/capsule_616x353.jpg?t=1779818604",
+      "originalPrice": 430,
+      "discountPrice": 430,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4371500",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "2215200",
       "title": "LEGO® Batman™: Legacy of the Dark Knight",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1779499107",
@@ -300,18 +312,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2215200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3009300",
-      "title": "Teamfight Manager 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3009300/686958185c8f2e09449f2f9dba416a3943601cee/capsule_616x353.jpg?t=1779758945",
-      "originalPrice": 415,
-      "discountPrice": 373,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3009300",
       "isSpecial": false,
       "isPopular": true
     }
@@ -743,6 +743,27 @@
       "percent": 10,
       "timestamp": "2026-05-26T09:49:14.994Z",
       "type": "discount"
+    },
+    "steam_discount_2982610": {
+      "title": "Stonemachia",
+      "price": 359,
+      "percent": 10,
+      "timestamp": "2026-05-26T19:18:05.421Z",
+      "type": "discount"
+    },
+    "steam_discount_2261430": {
+      "title": "LumenTale: Memories of Trey",
+      "price": 453,
+      "percent": 10,
+      "timestamp": "2026-05-26T19:18:05.421Z",
+      "type": "discount"
+    },
+    "steam_popular_4371500": {
+      "title": "MechWarrior 5: Mercenaries - Chaos Reign",
+      "price": 430,
+      "percent": 0,
+      "timestamp": "2026-05-26T19:18:05.421Z",
+      "type": "popular"
     }
   }
 }
