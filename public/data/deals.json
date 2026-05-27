@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T23:07:06.155Z",
+  "lastUpdated": "2026-05-27T03:30:39.782Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -160,6 +160,18 @@
       "isPopular": true
     },
     {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "233860",
       "title": "Kenshi",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233860/b7e568633a9d06614fef54bfd5d7f835d78d1e1d/capsule_616x353.jpg?t=1779293333",
@@ -184,18 +196,6 @@
       "isPopular": false
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "275850",
       "title": "No Man's Sky",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/d3d1550cec60e9d6b3d1ec00dbb6190e314683b2/capsule_616x353.jpg?t=1776675618",
@@ -204,18 +204,6 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/275850",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3159330",
-      "title": "Assassin’s Creed Shadows",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/2d5536f7e9f72d7844c59c5dc1416f7b756d3ad4/capsule_616x353.jpg?t=1775589420",
-      "originalPrice": 1999,
-      "discountPrice": 999,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3159330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -232,6 +220,18 @@
       "isPopular": false
     },
     {
+      "id": "3159330",
+      "title": "Assassin’s Creed Shadows",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/2d5536f7e9f72d7844c59c5dc1416f7b756d3ad4/capsule_616x353.jpg?t=1775589420",
+      "originalPrice": 1999,
+      "discountPrice": 999,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3159330",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3527290",
       "title": "PEAK",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
@@ -244,14 +244,26 @@
       "isPopular": false
     },
     {
-      "id": "1222140",
-      "title": "Detroit: Become Human",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg?t=1667468479",
-      "originalPrice": 1299,
-      "discountPrice": 259,
-      "discountPercent": 80,
+      "id": "753640",
+      "title": "Outer Wilds",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/d8d60759820aab1272090bb2edd60fde2b42dcf7/capsule_616x353.jpg?t=1779137571",
+      "originalPrice": 499,
+      "discountPrice": 249,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1222140",
+      "url": "https://store.steampowered.com/app/753640",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2499860",
+      "title": "DRAGON QUEST VII Reimagined",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2499860/2f5ecf8d4a17a0bf959f96145a41250703ee7993/capsule_616x353.jpg?t=1772804835",
+      "originalPrice": 1799,
+      "discountPrice": 1349,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2499860",
       "isSpecial": true,
       "isPopular": false
     },
@@ -304,18 +316,6 @@
       "isPopular": true
     },
     {
-      "id": "4371500",
-      "title": "MechWarrior 5: Mercenaries - Chaos Reign",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4371500/cced38718894793d7f8b94dbdd94a4006cc31a50/capsule_616x353.jpg?t=1779818604",
-      "originalPrice": 430,
-      "discountPrice": 430,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4371500",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4197610",
       "title": "Librarian: Tidy Up the Arcane Library!",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197610/273d2a3ddf5eab5d39b693a129b80609499e6b48/capsule_616x353.jpg?t=1777553917",
@@ -324,6 +324,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4197610",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4371500",
+      "title": "MechWarrior 5: Mercenaries - Chaos Reign",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4371500/cced38718894793d7f8b94dbdd94a4006cc31a50/capsule_616x353.jpg?t=1779818604",
+      "originalPrice": 430,
+      "discountPrice": 430,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4371500",
       "isSpecial": false,
       "isPopular": true
     }
@@ -782,6 +794,13 @@
       "price": 999,
       "percent": 50,
       "timestamp": "2026-05-26T21:41:49.849Z",
+      "type": "discount"
+    },
+    "steam_discount_2499860": {
+      "title": "DRAGON QUEST VII Reimagined",
+      "price": 1349,
+      "percent": 25,
+      "timestamp": "2026-05-27T03:30:38.102Z",
       "type": "discount"
     }
   }
