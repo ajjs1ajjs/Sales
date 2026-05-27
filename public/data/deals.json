@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T19:22:33.395Z",
+  "lastUpdated": "2026-05-27T21:52:12.985Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -160,18 +160,6 @@
       "isPopular": true
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/01258768bc382555819a5a128fb66cc2dc2f3c4e/capsule_616x353_alt_assets_12_ukrainian.jpg?t=1779872742",
@@ -194,6 +182,30 @@
       "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isPopular": false
+    },
+    {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1116050",
+      "title": "Starminer",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1116050/5af6103aaa0e318d7e2f30157026f6885a1b4d54/capsule_616x353.jpg?t=1779896765",
+      "originalPrice": 620,
+      "discountPrice": 558,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1116050",
+      "isSpecial": true,
+      "isPopular": true
     },
     {
       "id": "1304930",
@@ -220,6 +232,30 @@
       "isPopular": false
     },
     {
+      "id": "1771300",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
+      "originalPrice": 1599,
+      "discountPrice": 799,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1771300",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2057760",
+      "title": "Esoteric Ebb",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/c59230aa82e1373c76f020cd3f842acb084124a0/capsule_616x353.jpg?t=1776091835",
+      "originalPrice": 515,
+      "discountPrice": 412,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2057760",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3159330",
       "title": "Assassin’s Creed Shadows",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/2d5536f7e9f72d7844c59c5dc1416f7b756d3ad4/capsule_616x353.jpg?t=1775589420",
@@ -232,33 +268,9 @@
       "isPopular": false
     },
     {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
-      "originalPrice": 159,
-      "discountPrice": 98,
-      "discountPercent": 38,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1142710",
-      "title": "Total War: WARHAMMER III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1779441058",
-      "originalPrice": 1899,
-      "discountPrice": 284,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1142710",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2483190",
       "title": "Forza Horizon 6",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1779835890",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1779912021",
       "originalPrice": 2299,
       "discountPrice": 2299,
       "discountPercent": 0,
@@ -276,18 +288,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3768760",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1116050",
-      "title": "Starminer",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1116050/5af6103aaa0e318d7e2f30157026f6885a1b4d54/capsule_616x353.jpg?t=1779896765",
-      "originalPrice": 620,
-      "discountPrice": 558,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1116050",
       "isSpecial": false,
       "isPopular": true
     },
@@ -312,6 +312,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2215200",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4197610",
+      "title": "Librarian: Tidy Up the Arcane Library!",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197610/273d2a3ddf5eab5d39b693a129b80609499e6b48/capsule_616x353.jpg?t=1777553917",
+      "originalPrice": 155,
+      "discountPrice": 155,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4197610",
       "isSpecial": false,
       "isPopular": true
     }
@@ -799,6 +811,27 @@
       "percent": 10,
       "timestamp": "2026-05-27T16:35:25.590Z",
       "type": "popular"
+    },
+    "steam_discount_1116050": {
+      "title": "Starminer",
+      "price": 558,
+      "percent": 10,
+      "timestamp": "2026-05-27T21:52:11.572Z",
+      "type": "discount"
+    },
+    "steam_discount_1771300": {
+      "title": "Kingdom Come: Deliverance II",
+      "price": 799,
+      "percent": 50,
+      "timestamp": "2026-05-27T21:52:11.572Z",
+      "type": "discount"
+    },
+    "steam_discount_2057760": {
+      "title": "Esoteric Ebb",
+      "price": 412,
+      "percent": 20,
+      "timestamp": "2026-05-27T21:52:11.572Z",
+      "type": "discount"
     }
   }
 }
