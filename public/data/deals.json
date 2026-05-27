@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T08:00:50.260Z",
+  "lastUpdated": "2026-05-27T12:17:59.349Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -148,18 +148,6 @@
   ],
   "steam": [
     {
-      "id": "1118520",
-      "title": "Paralives",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353.jpg?t=1779721278",
-      "originalPrice": 740,
-      "discountPrice": 666,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1118520",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
@@ -172,21 +160,33 @@
       "isPopular": true
     },
     {
-      "id": "233860",
-      "title": "Kenshi",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233860/b7e568633a9d06614fef54bfd5d7f835d78d1e1d/capsule_616x353.jpg?t=1779293333",
-      "originalPrice": 379,
-      "discountPrice": 106,
-      "discountPercent": 72,
+      "id": "1304930",
+      "title": "The Outlast Trials",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/05c384f4640c12cb1c99d9165c75893b567ad6d1/capsule_616x353_alt_assets_2.jpg?t=1779221190",
+      "originalPrice": 740,
+      "discountPrice": 222,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/233860",
+      "url": "https://store.steampowered.com/app/1304930",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
+    },
+    {
+      "id": "1118520",
+      "title": "Paralives",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353.jpg?t=1779721278",
+      "originalPrice": 740,
+      "discountPrice": 666,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1118520",
+      "isSpecial": true,
+      "isPopular": true
     },
     {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1779454963",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/01258768bc382555819a5a128fb66cc2dc2f3c4e/capsule_616x353_alt_assets_12_ukrainian.jpg?t=1779872742",
       "originalPrice": 1299,
       "discountPrice": 389,
       "discountPercent": 70,
@@ -196,14 +196,14 @@
       "isPopular": false
     },
     {
-      "id": "1304930",
-      "title": "The Outlast Trials",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/05c384f4640c12cb1c99d9165c75893b567ad6d1/capsule_616x353_alt_assets_2.jpg?t=1779221190",
-      "originalPrice": 740,
-      "discountPrice": 222,
-      "discountPercent": 70,
+      "id": "233860",
+      "title": "Kenshi",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233860/b7e568633a9d06614fef54bfd5d7f835d78d1e1d/capsule_616x353.jpg?t=1779293333",
+      "originalPrice": 379,
+      "discountPrice": 106,
+      "discountPercent": 72,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1304930",
+      "url": "https://store.steampowered.com/app/233860",
       "isSpecial": true,
       "isPopular": false
     },
@@ -232,6 +232,18 @@
       "isPopular": false
     },
     {
+      "id": "2175540",
+      "title": "DRAGON QUEST MONSTERS: The Dark Prince",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2175540/capsule_616x353.jpg?t=1775105751",
+      "originalPrice": 1099,
+      "discountPrice": 274,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2175540",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1805320",
       "title": "Romestead",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/ecc3a9361f6193044c9d598d74a0e68593ae2f79/capsule_616x353.jpg?t=1779796425",
@@ -240,18 +252,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1805320",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
-      "originalPrice": 159,
-      "discountPrice": 98,
-      "discountPercent": 38,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isPopular": false
     },
@@ -270,7 +270,7 @@
     {
       "id": "3768760",
       "title": "007 First Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/d1a352d38355d4a693aa80e1aa6139fb079da1a3/capsule_616x353_alt_assets_0.jpg?t=1779804342",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/d1a352d38355d4a693aa80e1aa6139fb079da1a3/capsule_616x353_alt_assets_0.jpg?t=1779877607",
       "originalPrice": 1599,
       "discountPrice": 1599,
       "discountPercent": 0,
@@ -316,14 +316,14 @@
       "isPopular": true
     },
     {
-      "id": "1202520",
-      "title": "Fallout 1st",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
-      "originalPrice": 399,
-      "discountPrice": 399,
+      "id": "4197610",
+      "title": "Librarian: Tidy Up the Arcane Library!",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197610/273d2a3ddf5eab5d39b693a129b80609499e6b48/capsule_616x353.jpg?t=1777553917",
+      "originalPrice": 155,
+      "discountPrice": 155,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1202520",
+      "url": "https://store.steampowered.com/app/4197610",
       "isSpecial": false,
       "isPopular": true
     }
@@ -789,6 +789,20 @@
       "price": 1349,
       "percent": 25,
       "timestamp": "2026-05-27T03:30:38.102Z",
+      "type": "discount"
+    },
+    "steam_popular_1304930": {
+      "title": "The Outlast Trials",
+      "price": 222,
+      "percent": 70,
+      "timestamp": "2026-05-27T12:17:58.043Z",
+      "type": "popular"
+    },
+    "steam_discount_2175540": {
+      "title": "DRAGON QUEST MONSTERS: The Dark Prince",
+      "price": 274,
+      "percent": 75,
+      "timestamp": "2026-05-27T12:17:58.043Z",
       "type": "discount"
     }
   }
