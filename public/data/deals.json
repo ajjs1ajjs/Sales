@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T12:17:59.349Z",
+  "lastUpdated": "2026-05-27T16:35:26.955Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -148,6 +148,18 @@
   ],
   "steam": [
     {
+      "id": "1118520",
+      "title": "Paralives",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353.jpg?t=1779721278",
+      "originalPrice": 740,
+      "discountPrice": 666,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1118520",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
@@ -169,19 +181,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1304930",
       "isSpecial": true,
-      "isPopular": true
-    },
-    {
-      "id": "1118520",
-      "title": "Paralives",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353.jpg?t=1779721278",
-      "originalPrice": 740,
-      "discountPrice": 666,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1118520",
-      "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "2183900",
@@ -192,6 +192,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2183900",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779887382",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isPopular": false
     },
@@ -208,30 +220,6 @@
       "isPopular": false
     },
     {
-      "id": "3159330",
-      "title": "Assassin’s Creed Shadows",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/2d5536f7e9f72d7844c59c5dc1416f7b756d3ad4/capsule_616x353.jpg?t=1775589420",
-      "originalPrice": 1999,
-      "discountPrice": 999,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3159330",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/d3d1550cec60e9d6b3d1ec00dbb6190e314683b2/capsule_616x353.jpg?t=1776675618",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2175540",
       "title": "DRAGON QUEST MONSTERS: The Dark Prince",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2175540/capsule_616x353.jpg?t=1775105751",
@@ -244,14 +232,14 @@
       "isPopular": false
     },
     {
-      "id": "1805320",
-      "title": "Romestead",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/ecc3a9361f6193044c9d598d74a0e68593ae2f79/capsule_616x353.jpg?t=1779796425",
-      "originalPrice": 299,
-      "discountPrice": 269,
-      "discountPercent": 10,
+      "id": "3159330",
+      "title": "Assassin’s Creed Shadows",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/2d5536f7e9f72d7844c59c5dc1416f7b756d3ad4/capsule_616x353.jpg?t=1775589420",
+      "originalPrice": 1999,
+      "discountPrice": 999,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1805320",
+      "url": "https://store.steampowered.com/app/3159330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -268,9 +256,21 @@
       "isPopular": false
     },
     {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
+      "originalPrice": 159,
+      "discountPrice": 98,
+      "discountPercent": 38,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3768760",
       "title": "007 First Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/d1a352d38355d4a693aa80e1aa6139fb079da1a3/capsule_616x353_alt_assets_0.jpg?t=1779877607",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/93f5c0de8db2d42413f8c1eb4bdb1ccb80f7de65/capsule_616x353.jpg?t=1779897590",
       "originalPrice": 1599,
       "discountPrice": 1599,
       "discountPercent": 0,
@@ -304,6 +304,18 @@
       "isPopular": true
     },
     {
+      "id": "1116050",
+      "title": "Starminer",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1116050/5af6103aaa0e318d7e2f30157026f6885a1b4d54/capsule_616x353.jpg?t=1779896765",
+      "originalPrice": 620,
+      "discountPrice": 558,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1116050",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "2215200",
       "title": "LEGO® Batman™: Legacy of the Dark Knight",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1779824566",
@@ -312,18 +324,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2215200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4197610",
-      "title": "Librarian: Tidy Up the Arcane Library!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197610/273d2a3ddf5eab5d39b693a129b80609499e6b48/capsule_616x353.jpg?t=1777553917",
-      "originalPrice": 155,
-      "discountPrice": 155,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4197610",
       "isSpecial": false,
       "isPopular": true
     }
@@ -804,6 +804,13 @@
       "percent": 75,
       "timestamp": "2026-05-27T12:17:58.043Z",
       "type": "discount"
+    },
+    "steam_popular_1116050": {
+      "title": "Starminer",
+      "price": 558,
+      "percent": 10,
+      "timestamp": "2026-05-27T16:35:25.590Z",
+      "type": "popular"
     }
   }
 }
