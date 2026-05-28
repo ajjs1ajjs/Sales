@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T23:14:59.071Z",
+  "lastUpdated": "2026-05-28T02:51:03.822Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -160,6 +160,18 @@
       "isPopular": true
     },
     {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1116050",
       "title": "Starminer",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1116050/5af6103aaa0e318d7e2f30157026f6885a1b4d54/capsule_616x353.jpg?t=1779896765",
@@ -170,6 +182,18 @@
       "url": "https://store.steampowered.com/app/1116050",
       "isSpecial": true,
       "isPopular": true
+    },
+    {
+      "id": "1304930",
+      "title": "The Outlast Trials",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/05c384f4640c12cb1c99d9165c75893b567ad6d1/capsule_616x353_alt_assets_2.jpg?t=1779221190",
+      "originalPrice": 740,
+      "discountPrice": 222,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1304930",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "275850",
@@ -196,26 +220,14 @@
       "isPopular": false
     },
     {
-      "id": "1304930",
-      "title": "The Outlast Trials",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/05c384f4640c12cb1c99d9165c75893b567ad6d1/capsule_616x353_alt_assets_2.jpg?t=1779221190",
-      "originalPrice": 740,
-      "discountPrice": 222,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1304930",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
-      "originalPrice": 1349,
-      "discountPrice": 674,
+      "id": "1771300",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
+      "originalPrice": 1599,
+      "discountPrice": 799,
       "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
+      "url": "https://store.steampowered.com/app/1771300",
       "isSpecial": true,
       "isPopular": false
     },
@@ -232,14 +244,14 @@
       "isPopular": false
     },
     {
-      "id": "1771300",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
+      "id": "990080",
+      "title": "Hogwarts Legacy",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/22dd5a52e39a1952e77da2bd4ee49cc2e5e1a972/capsule_616x353.jpg?t=1778797474",
       "originalPrice": 1599,
-      "discountPrice": 799,
-      "discountPercent": 50,
+      "discountPrice": 239,
+      "discountPercent": 85,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1771300",
+      "url": "https://store.steampowered.com/app/990080",
       "isSpecial": true,
       "isPopular": false
     },
@@ -252,18 +264,6 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2057760",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1142710",
-      "title": "Total War: WARHAMMER III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1779441058",
-      "originalPrice": 1899,
-      "discountPrice": 284,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1142710",
       "isSpecial": true,
       "isPopular": false
     },
@@ -294,7 +294,7 @@
     {
       "id": "1962700",
       "title": "Subnautica 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/ceed43f5d774d84a5578eccaaec6842cb9591667/capsule_616x353.jpg?t=1779437128",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/ceed43f5d774d84a5578eccaaec6842cb9591667/capsule_616x353.jpg?t=1779930099",
       "originalPrice": 899,
       "discountPrice": 899,
       "discountPercent": 0,
@@ -316,14 +316,14 @@
       "isPopular": true
     },
     {
-      "id": "4197610",
-      "title": "Librarian: Tidy Up the Arcane Library!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197610/273d2a3ddf5eab5d39b693a129b80609499e6b48/capsule_616x353.jpg?t=1777553917",
-      "originalPrice": 155,
-      "discountPrice": 155,
+      "id": "4129110",
+      "title": "TEKKEN 8 — перепустка 3 сезону",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4129110/b6b5b0d419cdc4664cd81cf2d78f3e3d8c91cd9a/capsule_616x353.jpg?t=1779923272",
+      "originalPrice": 1109,
+      "discountPrice": 1109,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4197610",
+      "url": "https://store.steampowered.com/app/4129110",
       "isSpecial": false,
       "isPopular": true
     }
@@ -832,6 +832,20 @@
       "percent": 20,
       "timestamp": "2026-05-27T21:52:11.572Z",
       "type": "discount"
+    },
+    "steam_discount_990080": {
+      "title": "Hogwarts Legacy",
+      "price": 239,
+      "percent": 85,
+      "timestamp": "2026-05-28T02:51:01.701Z",
+      "type": "discount"
+    },
+    "steam_popular_4129110": {
+      "title": "TEKKEN 8 — перепустка 3 сезону",
+      "price": 1109,
+      "percent": 0,
+      "timestamp": "2026-05-28T02:51:01.701Z",
+      "type": "popular"
     }
   }
 }
