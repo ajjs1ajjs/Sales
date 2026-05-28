@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T14:36:30.437Z",
+  "lastUpdated": "2026-05-28T18:09:24.419Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -82,38 +82,6 @@
       "discountPercent": 65
     },
     {
-      "id": "cd37ebd7ce804df9b51b84578e631b8a",
-      "title": "Down in Bermuda",
-      "description": "Down in Bermuda",
-      "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Offer_wide_2560x1440-5314b15510b84a82971afea207658297",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/down-in-bermuda",
-      "startDate": "2026-05-21T15:00:00.000Z",
-      "endDate": "2026-05-28T15:00:00.000Z",
-      "isFreeNow": true,
-      "isUpcomingFree": false,
-      "isDiscounted": false,
-      "discountPercent": 0
-    },
-    {
-      "id": "9e2567e57e61458686d53f5aeaf1e2e0",
-      "title": "Tomb Raider I-III Remastered Starring Lara Croft",
-      "description": "Tomb Raider I-III Remastered Starring Lara Croft",
-      "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Wide_2560x1440-8d4d3759851d462299fc4c6cf13643b2",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/tomb-raider-iiii-remastered-538640",
-      "startDate": "2026-05-21T15:00:00.000Z",
-      "endDate": "2026-05-28T15:00:00.000Z",
-      "isFreeNow": true,
-      "isUpcomingFree": false,
-      "isDiscounted": false,
-      "discountPercent": 0
-    },
-    {
       "id": "9621cc6e5d32437ca3dd998de177f6da",
       "title": "LONESTAR",
       "description": "LONESTAR",
@@ -124,8 +92,8 @@
       "url": "https://store.epicgames.com/p/lonestar-83f143",
       "startDate": "2026-05-28T15:00:00.000Z",
       "endDate": "2026-06-04T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": true,
+      "isFreeNow": true,
+      "isUpcomingFree": false,
       "isDiscounted": false,
       "discountPercent": 0
     },
@@ -140,8 +108,8 @@
       "url": "https://store.epicgames.com/p/calico",
       "startDate": "2026-05-28T15:00:00.000Z",
       "endDate": "2026-06-04T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": true,
+      "isFreeNow": true,
+      "isUpcomingFree": false,
       "isDiscounted": false,
       "discountPercent": 0
     },
@@ -180,30 +148,6 @@
   ],
   "steam": [
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
-      "id": "1304930",
-      "title": "The Outlast Trials",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/05c384f4640c12cb1c99d9165c75893b567ad6d1/capsule_616x353_alt_assets_2.jpg?t=1779221190",
-      "originalPrice": 740,
-      "discountPrice": 222,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1304930",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1118520",
       "title": "Paralives",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353.jpg?t=1779721278",
@@ -216,16 +160,16 @@
       "isPopular": true
     },
     {
-      "id": "1116050",
-      "title": "Starminer",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1116050/5af6103aaa0e318d7e2f30157026f6885a1b4d54/capsule_616x353.jpg?t=1779896765",
-      "originalPrice": 620,
-      "discountPrice": 558,
-      "discountPercent": 10,
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1116050",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "275850",
@@ -240,6 +184,18 @@
       "isPopular": false
     },
     {
+      "id": "1116050",
+      "title": "Starminer",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1116050/5af6103aaa0e318d7e2f30157026f6885a1b4d54/capsule_616x353.jpg?t=1779896765",
+      "originalPrice": 620,
+      "discountPrice": 558,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1116050",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/01258768bc382555819a5a128fb66cc2dc2f3c4e/capsule_616x353_alt_assets_12_ukrainian.jpg?t=1779872742",
@@ -252,14 +208,14 @@
       "isPopular": false
     },
     {
-      "id": "233860",
-      "title": "Kenshi",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233860/b7e568633a9d06614fef54bfd5d7f835d78d1e1d/capsule_616x353.jpg?t=1779293333",
-      "originalPrice": 379,
-      "discountPrice": 106,
-      "discountPercent": 72,
+      "id": "3583210",
+      "title": "Crashout Crew",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3583210/93b822f30cab98333b8f7f4dd43ce543f4c8b355/capsule_616x353.jpg?t=1779978529",
+      "originalPrice": 154,
+      "discountPrice": 95,
+      "discountPercent": 38,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/233860",
+      "url": "https://store.steampowered.com/app/3583210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -276,26 +232,38 @@
       "isPopular": false
     },
     {
-      "id": "1805320",
-      "title": "Romestead",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/ecc3a9361f6193044c9d598d74a0e68593ae2f79/capsule_616x353.jpg?t=1779978440",
-      "originalPrice": 299,
-      "discountPrice": 269,
-      "discountPercent": 10,
+      "id": "2904040",
+      "title": "Cheap Car Repair",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2904040/e8153ca1f755c234a494faddef34016282042638/capsule_616x353.jpg?t=1779977714",
+      "originalPrice": 369,
+      "discountPrice": 276,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1805320",
+      "url": "https://store.steampowered.com/app/2904040",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
-      "originalPrice": 159,
-      "discountPrice": 98,
-      "discountPercent": 38,
+      "id": "3198890",
+      "title": "Scale the Depths",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3198890/e066b002c3a4872ea477d39bf215b1559acaa290/capsule_616x353.jpg?t=1779991276",
+      "originalPrice": 230,
+      "discountPrice": 195,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
+      "url": "https://store.steampowered.com/app/3198890",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "233860",
+      "title": "Kenshi",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233860/b7e568633a9d06614fef54bfd5d7f835d78d1e1d/capsule_616x353.jpg?t=1779293333",
+      "originalPrice": 379,
+      "discountPrice": 106,
+      "discountPercent": 72,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/233860",
       "isSpecial": true,
       "isPopular": false
     },
@@ -312,9 +280,21 @@
       "isPopular": true
     },
     {
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d83658e07ce4a822676708770ff420d128ce119f/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1779987180",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "3768760",
       "title": "007 First Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/93f5c0de8db2d42413f8c1eb4bdb1ccb80f7de65/capsule_616x353.jpg?t=1779968100",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/93f5c0de8db2d42413f8c1eb4bdb1ccb80f7de65/capsule_616x353.jpg?t=1779982298",
       "originalPrice": 1599,
       "discountPrice": 1599,
       "discountPercent": 0,
@@ -344,6 +324,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3219030",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2215200",
+      "title": "LEGO® Batman™: Legacy of the Dark Knight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1779824566",
+      "originalPrice": 1899,
+      "discountPrice": 1899,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2215200",
       "isSpecial": false,
       "isPopular": true
     }
@@ -872,6 +864,48 @@
       "price": 1145,
       "percent": 0,
       "timestamp": "2026-05-28T14:36:29.391Z",
+      "type": "popular"
+    },
+    "epic_free_9621cc6e5d32437ca3dd998de177f6da": {
+      "title": "LONESTAR",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-05-28T18:09:22.043Z",
+      "type": "free"
+    },
+    "epic_free_7fc5abc8f11c471e837ddd00ce963350": {
+      "title": "Calico",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-05-28T18:09:22.043Z",
+      "type": "free"
+    },
+    "steam_discount_3583210": {
+      "title": "Crashout Crew",
+      "price": 95,
+      "percent": 38,
+      "timestamp": "2026-05-28T18:09:22.043Z",
+      "type": "discount"
+    },
+    "steam_discount_2904040": {
+      "title": "Cheap Car Repair",
+      "price": 276,
+      "percent": 25,
+      "timestamp": "2026-05-28T18:09:22.043Z",
+      "type": "discount"
+    },
+    "steam_discount_3198890": {
+      "title": "Scale the Depths",
+      "price": 195,
+      "percent": 15,
+      "timestamp": "2026-05-28T18:09:22.043Z",
+      "type": "discount"
+    },
+    "steam_popular_4435490": {
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "price": 2449,
+      "percent": 0,
+      "timestamp": "2026-05-28T18:09:22.043Z",
       "type": "popular"
     }
   }
