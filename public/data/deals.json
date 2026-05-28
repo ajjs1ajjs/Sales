@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T18:09:24.419Z",
+  "lastUpdated": "2026-05-28T21:06:47.406Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -184,6 +184,30 @@
       "isPopular": false
     },
     {
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/98dd139718d2f8df091917976434ec846aaa5b1c/capsule_616x353_alt_assets_0.jpg?t=1779907126",
+      "originalPrice": 625,
+      "discountPrice": 312,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1144200",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "489830",
+      "title": "The Elder Scrolls V: Skyrim Special Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/capsule_616x353.jpg?t=1753715778",
+      "originalPrice": 649,
+      "discountPrice": 162,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/489830",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1116050",
       "title": "Starminer",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1116050/5af6103aaa0e318d7e2f30157026f6885a1b4d54/capsule_616x353.jpg?t=1779896765",
@@ -232,42 +256,6 @@
       "isPopular": false
     },
     {
-      "id": "2904040",
-      "title": "Cheap Car Repair",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2904040/e8153ca1f755c234a494faddef34016282042638/capsule_616x353.jpg?t=1779977714",
-      "originalPrice": 369,
-      "discountPrice": 276,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2904040",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3198890",
-      "title": "Scale the Depths",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3198890/e066b002c3a4872ea477d39bf215b1559acaa290/capsule_616x353.jpg?t=1779991276",
-      "originalPrice": 230,
-      "discountPrice": 195,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3198890",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "233860",
-      "title": "Kenshi",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233860/b7e568633a9d06614fef54bfd5d7f835d78d1e1d/capsule_616x353.jpg?t=1779293333",
-      "originalPrice": 379,
-      "discountPrice": 106,
-      "discountPercent": 72,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/233860",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2483190",
       "title": "Forza Horizon 6",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1779912021",
@@ -280,21 +268,21 @@
       "isPopular": true
     },
     {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d83658e07ce4a822676708770ff420d128ce119f/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1779987180",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
+      "id": "1962700",
+      "title": "Subnautica 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/ceed43f5d774d84a5578eccaaec6842cb9591667/capsule_616x353.jpg?t=1779930099",
+      "originalPrice": 899,
+      "discountPrice": 899,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
+      "url": "https://store.steampowered.com/app/1962700",
       "isSpecial": false,
       "isPopular": true
     },
     {
       "id": "3768760",
       "title": "007 First Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/93f5c0de8db2d42413f8c1eb4bdb1ccb80f7de65/capsule_616x353.jpg?t=1779982298",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/93f5c0de8db2d42413f8c1eb4bdb1ccb80f7de65/capsule_616x353.jpg?t=1779991799",
       "originalPrice": 1599,
       "discountPrice": 1599,
       "discountPercent": 0,
@@ -304,14 +292,14 @@
       "isPopular": true
     },
     {
-      "id": "1962700",
-      "title": "Subnautica 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/ceed43f5d774d84a5578eccaaec6842cb9591667/capsule_616x353.jpg?t=1779930099",
-      "originalPrice": 899,
-      "discountPrice": 899,
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d83658e07ce4a822676708770ff420d128ce119f/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1779987180",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1962700",
+      "url": "https://store.steampowered.com/app/4435490",
       "isSpecial": false,
       "isPopular": true
     },
@@ -907,6 +895,20 @@
       "percent": 0,
       "timestamp": "2026-05-28T18:09:22.043Z",
       "type": "popular"
+    },
+    "steam_discount_1144200": {
+      "title": "Ready or Not",
+      "price": 312,
+      "percent": 50,
+      "timestamp": "2026-05-28T21:06:45.789Z",
+      "type": "discount"
+    },
+    "steam_discount_489830": {
+      "title": "The Elder Scrolls V: Skyrim Special Edition",
+      "price": 162,
+      "percent": 75,
+      "timestamp": "2026-05-28T21:06:45.789Z",
+      "type": "discount"
     }
   }
 }
