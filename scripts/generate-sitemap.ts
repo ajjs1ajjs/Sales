@@ -1,7 +1,6 @@
 import fs from 'fs';
 
 const BASE_URL = 'https://ajjs1ajjs.github.io/Sales/';
-const DEALS_PATH = 'public/data/deals.json';
 const SITEMAP_PATH = 'public/sitemap.xml';
 
 function generateSitemap() {
