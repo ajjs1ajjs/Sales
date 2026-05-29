@@ -18,6 +18,7 @@ const filters: { key: FilterType; label: string }[] = [
   { key: 'epic_discount', label: 'Epic Знижки' },
   { key: 'steam_specials', label: 'Steam Знижки' },
   { key: 'steam_popular', label: 'Steam Тренди' },
+  { key: 'wishlist', label: 'Обране' },
 ];
 
 export function SearchControls({

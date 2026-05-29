@@ -43,6 +43,6 @@ export interface DealsData {
   notifiedHistory?: Record<string, NotifiedItem>;
 }
 
-export type FilterType = 'all' | 'epic_free' | 'epic_discount' | 'steam_specials' | 'steam_popular';
+export type FilterType = 'all' | 'epic_free' | 'epic_discount' | 'steam_specials' | 'steam_popular' | 'wishlist';
 
 export type SortType = 'default' | 'name-asc' | 'name-desc' | 'price-asc' | 'price-desc' | 'discount-desc';

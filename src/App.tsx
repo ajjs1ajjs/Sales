@@ -7,6 +7,7 @@ import { TelegramBanner } from './components/TelegramBanner';
 import { SearchControls } from './components/SearchControls';
 import { ThemeToggle } from './components/ThemeToggle';
 import { InstallPWA } from './components/InstallPWA';
+import { PriceRangeFilter } from './components/PriceRangeFilter';
 import { useDebounce } from './hooks/useDebounce';
 import { useLocalStorage } from './hooks/useLocalStorage';
 import { formatLastUpdated, isSteamNonGame } from './utils';
@@ -37,7 +38,10 @@ function HomePage() {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeFilter, setActiveFilter] = useState<FilterType>('all');
   const [sortType, setSortType] = useLocalStorage<SortType>('sort-type', 'default');
+  const [wishlist] = useLocalStorage<string[]>('wishlist', []);
   const debouncedSearch = useDebounce(searchQuery, 300);
+
+  const [userPriceRange, setUserPriceRange] = useState<[number, number] | null>(null);
 
   useEffect(() => {
     const theme = localStorage.getItem('theme') || 'dark';
@@ -46,6 +50,7 @@ function HomePage() {
     const fetchData = async () => {
       try {
         setLoading(true);
+        setUserPriceRange(null);
         const baseUrl = import.meta.env.BASE_URL || '/';
         const res = await fetch(`${baseUrl}data/deals.json`, { cache: 'no-cache' });
 
@@ -71,6 +76,33 @@ function HomePage() {
     fetchData();
   }, [location.pathname]);
 
+  const { absoluteMinPrice, absoluteMaxPrice } = useMemo(() => {
+    if (!data) return { absoluteMinPrice: 0, absoluteMaxPrice: 10000 };
+    let min = Infinity;
+    let max = -Infinity;
+
+    for (const g of data.epic) {
+      const price = g.isFreeNow ? 0 : g.discountPrice;
+      if (price < min) min = price;
+      if (price > max) max = price;
+    }
+
+    for (const g of data.steam) {
+      const price = g.discountPrice;
+      if (price < min) min = price;
+      if (price > max) max = price;
+    }
+
+    return {
+      absoluteMinPrice: min === Infinity ? 0 : Math.floor(min),
+      absoluteMaxPrice: max === -Infinity ? 10000 : Math.ceil(max),
+    };
+  }, [data]);
+
+  const priceRange = useMemo<[number, number]>(() => {
+    return userPriceRange || [absoluteMinPrice, absoluteMaxPrice];
+  }, [userPriceRange, absoluteMinPrice, absoluteMaxPrice]);
+
   const nonGameIds = useMemo(() => {
     const ids = new Set<string>();
     if (data) {
@@ -83,37 +115,63 @@ function HomePage() {
     return ids;
   }, [data]);
 
-  const epicMatchingSearch =
-    data?.epic.filter((game) =>
+  const epicMatchingSearch = useMemo(() => {
+    return data?.epic.filter((game) =>
       game.title.toLowerCase().includes(debouncedSearch.toLowerCase()),
     ) || [];
+  }, [data, debouncedSearch]);
 
-  const steamMatchingSearch =
-    data?.steam.filter((game) =>
+  const steamMatchingSearch = useMemo(() => {
+    return data?.steam.filter((game) =>
       game.title.toLowerCase().includes(debouncedSearch.toLowerCase()),
     ) || [];
+  }, [data, debouncedSearch]);
 
-  const filterCounts = {
-    all: epicMatchingSearch.length + steamMatchingSearch.length,
-    epic_free: epicMatchingSearch.filter((game) => game.isFreeNow || game.isUpcomingFree).length,
-    epic_discount: epicMatchingSearch.filter((game) => game.isDiscounted).length,
-    steam_specials: steamMatchingSearch.filter((game) => game.isSpecial).length,
-    steam_popular: steamMatchingSearch.filter((game) => game.isPopular).length,
-  };
+  const filterCounts = useMemo(() => {
+    return {
+      all: epicMatchingSearch.length + steamMatchingSearch.length,
+      epic_free: epicMatchingSearch.filter((game) => game.isFreeNow || game.isUpcomingFree).length,
+      epic_discount: epicMatchingSearch.filter((game) => game.isDiscounted).length,
+      steam_specials: steamMatchingSearch.filter((game) => game.isSpecial).length,
+      steam_popular: steamMatchingSearch.filter((game) => game.isPopular).length,
+      wishlist: epicMatchingSearch.filter((game) => wishlist.includes(game.id)).length +
+                steamMatchingSearch.filter((game) => wishlist.includes(game.id)).length,
+    };
+  }, [epicMatchingSearch, steamMatchingSearch, wishlist]);
 
-  const filteredEpic = epicMatchingSearch.filter((game) => {
-    if (activeFilter === 'epic_free') return game.isFreeNow || game.isUpcomingFree;
-    if (activeFilter === 'epic_discount') return game.isDiscounted;
-    if (activeFilter === 'all') return true;
-    return false;
-  });
+  const filteredEpic = useMemo(() => {
+    return epicMatchingSearch.filter((game) => {
+      if (activeFilter === 'wishlist') return wishlist.includes(game.id);
+      if (activeFilter === 'epic_free') return game.isFreeNow || game.isUpcomingFree;
+      if (activeFilter === 'epic_discount') return game.isDiscounted;
+      if (activeFilter === 'all') return true;
+      return false;
+    });
+  }, [epicMatchingSearch, activeFilter, wishlist]);
 
-  const filteredSteam = steamMatchingSearch.filter((game) => {
-    if (activeFilter === 'steam_specials') return game.isSpecial;
-    if (activeFilter === 'steam_popular') return game.isPopular;
-    if (activeFilter === 'all') return true;
-    return false;
-  });
+  const filteredSteam = useMemo(() => {
+    return steamMatchingSearch.filter((game) => {
+      if (activeFilter === 'wishlist') return wishlist.includes(game.id);
+      if (activeFilter === 'steam_specials') return game.isSpecial;
+      if (activeFilter === 'steam_popular') return game.isPopular;
+      if (activeFilter === 'all') return true;
+      return false;
+    });
+  }, [steamMatchingSearch, activeFilter, wishlist]);
+
+  const priceFilteredEpic = useMemo(() => {
+    return filteredEpic.filter((game) => {
+      const price = game.isFreeNow ? 0 : game.discountPrice;
+      return price >= priceRange[0] && price <= priceRange[1];
+    });
+  }, [filteredEpic, priceRange]);
+
+  const priceFilteredSteam = useMemo(() => {
+    return filteredSteam.filter((game) => {
+      const price = game.discountPrice;
+      return price >= priceRange[0] && price <= priceRange[1];
+    });
+  }, [filteredSteam, priceRange]);
 
   return (
     <ErrorBoundary>
@@ -157,6 +215,15 @@ function HomePage() {
         onSortChange={setSortType}
       />
 
+      {data && activeFilter !== 'epic_free' && (
+        <PriceRangeFilter
+          minPrice={absoluteMinPrice}
+          maxPrice={absoluteMaxPrice}
+          range={priceRange}
+          onChange={setUserPriceRange}
+        />
+      )}
+
       <Suspense fallback={<div className="deals-grid">{Array.from({ length: 6 }).map((_, i) => <div key={i} className="game-card skeleton-card"><div className="card-image-wrapper skeleton-bg" /><div className="card-content"><div className="skeleton-line skeleton-title" /><div className="skeleton-line skeleton-desc" /></div></div>)}</div>}>
         <main>
           {loading && (
@@ -182,13 +249,13 @@ function HomePage() {
           {!loading && !error && (
             <>
               <EpicSection
-                games={filteredEpic}
+                games={priceFilteredEpic}
                 activeFilter={activeFilter}
                 searchQuery={debouncedSearch}
                 sortType={sortType}
               />
               <SteamSection
-                games={filteredSteam}
+                games={priceFilteredSteam}
                 activeFilter={activeFilter}
                 searchQuery={debouncedSearch}
                 sortType={sortType}
@@ -196,12 +263,21 @@ function HomePage() {
               />
 
               {activeFilter === 'all' &&
-                filteredEpic.length === 0 &&
-                filteredSteam.length === 0 &&
+                priceFilteredEpic.length === 0 &&
+                priceFilteredSteam.length === 0 &&
                 !debouncedSearch && (
                   <div className="empty-state section-gap-top">
                     <h3>Немає доступних пропозицій</h3>
                     <p>Спробуйте змінити фільтри або зайдіть пізніше.</p>
+                  </div>
+                )}
+
+              {activeFilter === 'wishlist' &&
+                priceFilteredEpic.length === 0 &&
+                priceFilteredSteam.length === 0 && (
+                  <div className="empty-state section-gap-top">
+                    <h3>Ваш список обраного порожній</h3>
+                    <p>Додавайте ігри до обраного за допомогою сердечка на картках!</p>
                   </div>
                 )}
             </>

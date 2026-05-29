@@ -25,6 +25,7 @@ describe('SearchControls', () => {
     expect(screen.getByText('Epic Знижки')).toBeInTheDocument();
     expect(screen.getByText('Steam Знижки')).toBeInTheDocument();
     expect(screen.getByText('Steam Тренди')).toBeInTheDocument();
+    expect(screen.getByText('Обране')).toBeInTheDocument();
   });
 
   it('calls onSearchChange on input', () => {
@@ -58,6 +59,7 @@ describe('SearchControls', () => {
       epic_discount: 5,
       steam_specials: 6,
       steam_popular: 2,
+      wishlist: 1,
     };
     render(<SearchControls {...defaultProps} filterCounts={filterCounts} />);
     expect(screen.getByRole('button', { name: /Всі категорії\(15\)/i })).toBeInTheDocument();
@@ -65,5 +67,6 @@ describe('SearchControls', () => {
     expect(screen.getByRole('button', { name: /Epic Знижки\(5\)/i })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: /Steam Знижки\(6\)/i })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: /Steam Тренди\(2\)/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /Обране\(1\)/i })).toBeInTheDocument();
   });
 });
