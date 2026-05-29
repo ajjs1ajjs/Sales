@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T23:13:26.717Z",
+  "lastUpdated": "2026-05-29T02:54:36.124Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -160,6 +160,18 @@
       "isPopular": true
     },
     {
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/98dd139718d2f8df091917976434ec846aaa5b1c/capsule_616x353_alt_assets_0.jpg?t=1779907126",
+      "originalPrice": 625,
+      "discountPrice": 312,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1144200",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "489830",
       "title": "The Elder Scrolls V: Skyrim Special Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/capsule_616x353.jpg?t=1753715778",
@@ -172,14 +184,14 @@
       "isPopular": false
     },
     {
-      "id": "1144200",
-      "title": "Ready or Not",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/98dd139718d2f8df091917976434ec846aaa5b1c/capsule_616x353_alt_assets_0.jpg?t=1779907126",
-      "originalPrice": 625,
-      "discountPrice": 312,
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
+      "originalPrice": 1349,
+      "discountPrice": 674,
       "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1144200",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": true
     },
@@ -196,26 +208,14 @@
       "isPopular": false
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
+      "id": "3583210",
+      "title": "Crashout Crew",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3583210/93b822f30cab98333b8f7f4dd43ce543f4c8b355/capsule_616x353.jpg?t=1779978529",
+      "originalPrice": 154,
+      "discountPrice": 95,
+      "discountPercent": 38,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1116050",
-      "title": "Starminer",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1116050/5af6103aaa0e318d7e2f30157026f6885a1b4d54/capsule_616x353.jpg?t=1779896765",
-      "originalPrice": 620,
-      "discountPrice": 558,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1116050",
+      "url": "https://store.steampowered.com/app/3583210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -232,14 +232,26 @@
       "isPopular": false
     },
     {
-      "id": "3583210",
-      "title": "Crashout Crew",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3583210/93b822f30cab98333b8f7f4dd43ce543f4c8b355/capsule_616x353.jpg?t=1779978529",
-      "originalPrice": 154,
-      "discountPrice": 95,
-      "discountPercent": 38,
+      "id": "2141730",
+      "title": "Backrooms: Escape Together",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780015901",
+      "originalPrice": 225,
+      "discountPrice": 157,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3583210",
+      "url": "https://store.steampowered.com/app/2141730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1116050",
+      "title": "Starminer",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1116050/5af6103aaa0e318d7e2f30157026f6885a1b4d54/capsule_616x353.jpg?t=1779896765",
+      "originalPrice": 620,
+      "discountPrice": 558,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1116050",
       "isSpecial": true,
       "isPopular": false
     },
@@ -268,18 +280,6 @@
       "isPopular": true
     },
     {
-      "id": "3768760",
-      "title": "007 First Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/93f5c0de8db2d42413f8c1eb4bdb1ccb80f7de65/capsule_616x353.jpg?t=1779991799",
-      "originalPrice": 1599,
-      "discountPrice": 1599,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3768760",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d83658e07ce4a822676708770ff420d128ce119f/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1779987180",
@@ -292,14 +292,14 @@
       "isPopular": true
     },
     {
-      "id": "3219030",
-      "title": "Planet Zoo 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/d42390b547a06884e2b7cbf9bd1b0ae927b9bb46/capsule_616x353.jpg?t=1779973032",
-      "originalPrice": 1145,
-      "discountPrice": 1145,
+      "id": "3768760",
+      "title": "007 First Light",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/93f5c0de8db2d42413f8c1eb4bdb1ccb80f7de65/capsule_616x353.jpg?t=1779991799",
+      "originalPrice": 1599,
+      "discountPrice": 1599,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3219030",
+      "url": "https://store.steampowered.com/app/3768760",
       "isSpecial": false,
       "isPopular": true
     },
@@ -312,6 +312,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2215200",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3219030",
+      "title": "Planet Zoo 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/d42390b547a06884e2b7cbf9bd1b0ae927b9bb46/capsule_616x353.jpg?t=1779973032",
+      "originalPrice": 1145,
+      "discountPrice": 1145,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3219030",
       "isSpecial": false,
       "isPopular": true
     }
@@ -904,6 +916,13 @@
       "percent": 50,
       "timestamp": "2026-05-28T23:13:25.631Z",
       "type": "popular"
+    },
+    "steam_discount_2141730": {
+      "title": "Backrooms: Escape Together",
+      "price": 157,
+      "percent": 30,
+      "timestamp": "2026-05-29T02:54:34.354Z",
+      "type": "discount"
     }
   }
 }
