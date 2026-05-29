@@ -1,4 +1,4 @@
-import { Search } from 'lucide-react';
+import { Search, X } from 'lucide-react';
 import type { FilterType, SortType } from '../types';
 import { SortControls } from './SortControls';
 
@@ -46,6 +46,16 @@ export function SearchControls({
             onChange={(e) => onSearchChange(e.target.value)}
             className="search-input"
           />
+          {searchQuery && (
+            <button
+              type="button"
+              className="clear-search-btn"
+              onClick={() => onSearchChange('')}
+              aria-label="Очистити пошук"
+            >
+              <X size={16} />
+            </button>
+          )}
         </div>
         <SortControls sortType={sortType} onSortChange={onSortChange} />
       </div>

@@ -14,11 +14,33 @@ interface BaseProps {
   showTrendingDescription?: boolean;
   isUpcoming?: boolean;
   linkText?: string;
+  searchQuery?: string;
 }
 
 type Props = BaseProps & { game: Game };
 
 const FALLBACK_IMG = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22225%22%3E%3Crect fill=%22%23100d1a%22 width=%22400%22 height=%22225%22/%3E%3Ctext fill=%22%23555%22 x=%22200%22 y=%22120%22 text-anchor=%22middle%22 font-size=%2214%22%3EЗображення недоступне%3C/text%3E%3C/svg%3E';
+
+const escapeRegExp = (str: string) => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+function highlightText(text: string, highlight: string) {
+  if (!highlight.trim()) return <span>{text}</span>;
+  const regex = new RegExp(`(${escapeRegExp(highlight)})`, 'gi');
+  const parts = text.split(regex);
+  return (
+    <span>
+      {parts.map((part, i) =>
+        regex.test(part) ? (
+          <mark key={i} className="highlighted-text">
+            {part}
+          </mark>
+        ) : (
+          part
+        )
+      )}
+    </span>
+  );
+}
 
 export function GameCard({
   game,
@@ -29,6 +51,7 @@ export function GameCard({
   showTrendingDescription,
   isUpcoming,
   linkText = 'Придбати',
+  searchQuery = '',
 }: Props) {
   const [imgError, setImgError] = useState(false);
 
@@ -58,7 +81,7 @@ export function GameCard({
       <div className="card-content">
         <div className="card-title-row">
           <h4 className="card-title" title={game.title}>
-            {game.title}
+            {highlightText(game.title, searchQuery)}
           </h4>
           <WishlistButton gameId={game.id} title={game.title} />
         </div>

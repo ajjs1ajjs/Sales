@@ -68,6 +68,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, nonGa
                     platform="steam"
                     badge={deal.discountPercent > 0 ? `-${deal.discountPercent}%` : undefined}
                     showTagDescription
+                    searchQuery={searchQuery}
                   />
                 ))}
               />
@@ -100,6 +101,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, nonGa
                     platform="steam"
                     badge={deal.discountPercent > 0 ? `-${deal.discountPercent}%` : undefined}
                     showTrendingDescription
+                    searchQuery={searchQuery}
                   />
                 ))}
               />

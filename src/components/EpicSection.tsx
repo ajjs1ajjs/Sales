@@ -71,6 +71,7 @@ export function EpicSection({ games, activeFilter, searchQuery, sortType }: Prop
                       badge="FREE"
                       badgeVariant="free"
                       linkText="Забрати"
+                      searchQuery={searchQuery}
                     />
                   ))}
                 />
@@ -93,6 +94,7 @@ export function EpicSection({ games, activeFilter, searchQuery, sortType }: Prop
                       platform="epic"
                       isUpcoming
                       linkText="До магазину"
+                      searchQuery={searchQuery}
                     />
                   ))}
                 />
@@ -128,6 +130,7 @@ export function EpicSection({ games, activeFilter, searchQuery, sortType }: Prop
                     badge={game.discountPercent > 0 ? `-${game.discountPercent}%` : undefined}
                     badgeVariant={game.discountPercent > 0 ? 'discount' : undefined}
                     showTagDescription
+                    searchQuery={searchQuery}
                   />
                 ))}
               />
