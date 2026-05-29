@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T13:58:19.309Z",
+  "lastUpdated": "2026-05-29T17:36:43.291Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -196,18 +196,6 @@
       "isPopular": false
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/01258768bc382555819a5a128fb66cc2dc2f3c4e/capsule_616x353_alt_assets_12_ukrainian.jpg?t=1779872742",
-      "originalPrice": 1299,
-      "discountPrice": 389,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "275850",
       "title": "No Man's Sky",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
@@ -220,26 +208,14 @@
       "isPopular": false
     },
     {
-      "id": "1805320",
-      "title": "Romestead",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/ecc3a9361f6193044c9d598d74a0e68593ae2f79/capsule_616x353.jpg?t=1780059800",
-      "originalPrice": 299,
-      "discountPrice": 269,
-      "discountPercent": 10,
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/01258768bc382555819a5a128fb66cc2dc2f3c4e/capsule_616x353_alt_assets_12_ukrainian.jpg?t=1779872742",
+      "originalPrice": 1299,
+      "discountPrice": 389,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1805320",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1116050",
-      "title": "Starminer",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1116050/5af6103aaa0e318d7e2f30157026f6885a1b4d54/capsule_616x353.jpg?t=1779896765",
-      "originalPrice": 620,
-      "discountPrice": 558,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1116050",
+      "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
       "isPopular": false
     },
@@ -252,6 +228,30 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2141730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1332010",
+      "title": "Stray",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1779927784",
+      "originalPrice": 579,
+      "discountPrice": 289,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1332010",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1116050",
+      "title": "Starminer",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1116050/5af6103aaa0e318d7e2f30157026f6885a1b4d54/capsule_616x353.jpg?t=1779896765",
+      "originalPrice": 620,
+      "discountPrice": 558,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1116050",
       "isSpecial": true,
       "isPopular": false
     },
@@ -294,7 +294,7 @@
     {
       "id": "3768760",
       "title": "007 First Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/93f5c0de8db2d42413f8c1eb4bdb1ccb80f7de65/capsule_616x353.jpg?t=1779991799",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/93f5c0de8db2d42413f8c1eb4bdb1ccb80f7de65/capsule_616x353.jpg?t=1780073117",
       "originalPrice": 1599,
       "discountPrice": 1599,
       "discountPercent": 0,
@@ -306,7 +306,7 @@
     {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d83658e07ce4a822676708770ff420d128ce119f/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1779987180",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d83658e07ce4a822676708770ff420d128ce119f/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1780069725",
       "originalPrice": 2449,
       "discountPrice": 2449,
       "discountPercent": 0,
