@@ -7,22 +7,7 @@ const SITEMAP_PATH = 'public/sitemap.xml';
 function generateSitemap() {
   const urls: string[] = [
     BASE_URL,
-    `${BASE_URL}#/history`,
   ];
-
-  if (fs.existsSync(DEALS_PATH)) {
-    try {
-      const data = JSON.parse(fs.readFileSync(DEALS_PATH, 'utf-8'));
-      for (const game of data.epic || []) {
-        if (game.url) urls.push(game.url);
-      }
-      for (const game of data.steam || []) {
-        if (game.url) urls.push(game.url);
-      }
-    } catch {
-      console.warn('Could not parse deals.json for sitemap generation, using base URLs only.');
-    }
-  }
 
   const uniqueUrls = [...new Set(urls)];
 
