@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T04:51:15.395Z",
+  "lastUpdated": "2026-05-30T07:39:20.024Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -160,18 +160,6 @@
       "isPopular": true
     },
     {
-      "id": "1144200",
-      "title": "Ready or Not",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/98dd139718d2f8df091917976434ec846aaa5b1c/capsule_616x353_alt_assets_0.jpg?t=1779907126",
-      "originalPrice": 625,
-      "discountPrice": 312,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1144200",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
@@ -181,7 +169,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "275850",
@@ -192,6 +180,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/275850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/98dd139718d2f8df091917976434ec846aaa5b1c/capsule_616x353_alt_assets_0.jpg?t=1779907126",
+      "originalPrice": 625,
+      "discountPrice": 312,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1144200",
       "isSpecial": true,
       "isPopular": false
     },
@@ -208,18 +208,6 @@
       "isPopular": false
     },
     {
-      "id": "2141730",
-      "title": "Backrooms: Escape Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780114696",
-      "originalPrice": 225,
-      "discountPrice": 157,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2141730",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "489830",
       "title": "The Elder Scrolls V: Skyrim Special Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/capsule_616x353.jpg?t=1753715778",
@@ -228,6 +216,18 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/489830",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2141730",
+      "title": "Backrooms: Escape Together",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780114696",
+      "originalPrice": 225,
+      "discountPrice": 157,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2141730",
       "isSpecial": true,
       "isPopular": false
     },
@@ -268,18 +268,6 @@
       "isPopular": true
     },
     {
-      "id": "1875580",
-      "title": "Mina the Hollower",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/ba1e750e24c1a6218b22a4777a4020d967b8f1e1/capsule_616x353.jpg?t=1780106977",
-      "originalPrice": 430,
-      "discountPrice": 430,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1875580",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "3768760",
       "title": "007 First Light",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/93f5c0de8db2d42413f8c1eb4bdb1ccb80f7de65/capsule_616x353.jpg?t=1780082026",
@@ -292,26 +280,14 @@
       "isPopular": true
     },
     {
-      "id": "2215200",
-      "title": "LEGO® Batman™: Legacy of the Dark Knight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1779824566",
-      "originalPrice": 1899,
-      "discountPrice": 1899,
+      "id": "1875580",
+      "title": "Mina the Hollower",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/ba1e750e24c1a6218b22a4777a4020d967b8f1e1/capsule_616x353.jpg?t=1780106977",
+      "originalPrice": 430,
+      "discountPrice": 430,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2215200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d83658e07ce4a822676708770ff420d128ce119f/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1780069725",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
+      "url": "https://store.steampowered.com/app/1875580",
       "isSpecial": false,
       "isPopular": true
     }
