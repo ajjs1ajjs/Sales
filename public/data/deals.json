@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T11:24:14.609Z",
+  "lastUpdated": "2026-05-30T13:23:04.273Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -208,14 +208,14 @@
       "isPopular": false
     },
     {
-      "id": "489830",
-      "title": "The Elder Scrolls V: Skyrim Special Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/capsule_616x353.jpg?t=1753715778",
-      "originalPrice": 649,
-      "discountPrice": 162,
-      "discountPercent": 75,
+      "id": "1805320",
+      "title": "Romestead",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/ecc3a9361f6193044c9d598d74a0e68593ae2f79/capsule_616x353.jpg?t=1780059800",
+      "originalPrice": 299,
+      "discountPrice": 269,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/489830",
+      "url": "https://store.steampowered.com/app/1805320",
       "isSpecial": true,
       "isPopular": false
     },
@@ -232,14 +232,14 @@
       "isPopular": false
     },
     {
-      "id": "1116050",
-      "title": "Starminer",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1116050/5af6103aaa0e318d7e2f30157026f6885a1b4d54/capsule_616x353.jpg?t=1779896765",
-      "originalPrice": 620,
-      "discountPrice": 558,
-      "discountPercent": 10,
+      "id": "489830",
+      "title": "The Elder Scrolls V: Skyrim Special Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/capsule_616x353.jpg?t=1753715778",
+      "originalPrice": 649,
+      "discountPrice": 162,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1116050",
+      "url": "https://store.steampowered.com/app/489830",
       "isSpecial": true,
       "isPopular": false
     },
