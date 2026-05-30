@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T13:23:04.273Z",
+  "lastUpdated": "2026-05-30T15:03:59.806Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -208,18 +208,6 @@
       "isPopular": false
     },
     {
-      "id": "1805320",
-      "title": "Romestead",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/ecc3a9361f6193044c9d598d74a0e68593ae2f79/capsule_616x353.jpg?t=1780059800",
-      "originalPrice": 299,
-      "discountPrice": 269,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1805320",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1332010",
       "title": "Stray",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1779927784",
@@ -232,14 +220,26 @@
       "isPopular": false
     },
     {
-      "id": "489830",
-      "title": "The Elder Scrolls V: Skyrim Special Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/capsule_616x353.jpg?t=1753715778",
-      "originalPrice": 649,
-      "discountPrice": 162,
-      "discountPercent": 75,
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
+      "originalPrice": 159,
+      "discountPrice": 98,
+      "discountPercent": 38,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/489830",
+      "url": "https://store.steampowered.com/app/3527290",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1805320",
+      "title": "Romestead",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/ecc3a9361f6193044c9d598d74a0e68593ae2f79/capsule_616x353.jpg?t=1780059800",
+      "originalPrice": 299,
+      "discountPrice": 269,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1805320",
       "isSpecial": true,
       "isPopular": false
     },
