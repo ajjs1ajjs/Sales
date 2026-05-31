@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T17:59:12.153Z",
+  "lastUpdated": "2026-05-31T19:27:12.882Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -196,6 +196,18 @@
       "isPopular": false
     },
     {
+      "id": "2141730",
+      "title": "Backrooms: Escape Together",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780197473",
+      "originalPrice": 225,
+      "discountPrice": 157,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2141730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/01258768bc382555819a5a128fb66cc2dc2f3c4e/capsule_616x353_alt_assets_12_ukrainian.jpg?t=1779872742",
@@ -216,18 +228,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1332010",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2141730",
-      "title": "Backrooms: Escape Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780197473",
-      "originalPrice": 225,
-      "discountPrice": 157,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2141730",
       "isSpecial": true,
       "isPopular": false
     },
