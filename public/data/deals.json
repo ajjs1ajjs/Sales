@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T09:24:09.306Z",
+  "lastUpdated": "2026-06-01T15:54:22.930Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -181,12 +181,12 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1144200",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/01258768bc382555819a5a128fb66cc2dc2f3c4e/capsule_616x353_alt_assets_12_ukrainian.jpg?t=1779872742",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/01258768bc382555819a5a128fb66cc2dc2f3c4e/capsule_616x353_alt_assets_12_ukrainian.jpg?t=1780328011",
       "originalPrice": 1299,
       "discountPrice": 389,
       "discountPercent": 70,
@@ -232,14 +232,14 @@
       "isPopular": false
     },
     {
-      "id": "489830",
-      "title": "The Elder Scrolls V: Skyrim Special Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/capsule_616x353.jpg?t=1753715778",
-      "originalPrice": 649,
-      "discountPrice": 162,
-      "discountPercent": 75,
+      "id": "1805320",
+      "title": "Romestead",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/ecc3a9361f6193044c9d598d74a0e68593ae2f79/capsule_616x353.jpg?t=1780153528",
+      "originalPrice": 299,
+      "discountPrice": 269,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/489830",
+      "url": "https://store.steampowered.com/app/1805320",
       "isSpecial": true,
       "isPopular": false
     },
@@ -276,18 +276,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3768760",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1202520",
-      "title": "Fallout 1st",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
-      "originalPrice": 399,
-      "discountPrice": 399,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1202520",
       "isSpecial": false,
       "isPopular": true
     }
