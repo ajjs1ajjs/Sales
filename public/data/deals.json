@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T21:46:31.970Z",
+  "lastUpdated": "2026-06-02T23:43:45.432Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -172,6 +172,18 @@
       "isPopular": false
     },
     {
+      "id": "1371980",
+      "title": "No Rest for the Wicked",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1371980/05ce6d495f248d8e4d6419b93f531537183118d1/capsule_616x353.jpg?t=1780442295",
+      "originalPrice": 799,
+      "discountPrice": 559,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1371980",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
@@ -180,18 +192,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
-      "id": "1144200",
-      "title": "Ready or Not",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/capsule_616x353.jpg?t=1779907126",
-      "originalPrice": 625,
-      "discountPrice": 312,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1144200",
       "isSpecial": true,
       "isPopular": false
     },
@@ -204,6 +204,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2141730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/capsule_616x353.jpg?t=1779907126",
+      "originalPrice": 625,
+      "discountPrice": 312,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1144200",
       "isSpecial": true,
       "isPopular": false
     },
@@ -232,26 +244,14 @@
       "isPopular": false
     },
     {
-      "id": "4731620",
-      "title": "Fortune Mill",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4731620/40262b401a447ee0c909387faee1f11069c83793/capsule_616x353.jpg?t=1780416011",
-      "originalPrice": 195,
-      "discountPrice": 146,
-      "discountPercent": 25,
+      "id": "1943950",
+      "title": "Escape the Backrooms",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/dd891a9e514ff9f565f36068b738479fb73ac3b2/capsule_616x353.jpg?t=1780394865",
+      "originalPrice": 194,
+      "discountPrice": 155,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4731620",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1659040",
-      "title": "HITMAN World of Assassination",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/capsule_616x353.jpg?t=1780060872",
-      "originalPrice": 1315,
-      "discountPrice": 526,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1659040",
+      "url": "https://store.steampowered.com/app/1943950",
       "isSpecial": true,
       "isPopular": false
     },
@@ -280,6 +280,18 @@
       "isPopular": true
     },
     {
+      "id": "2288340",
+      "title": "ACE COMBAT 8: WINGS OF THEVE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/3bd993fa9f94ebd60c1b05dd61a4315cde829830/capsule_616x353.jpg?t=1780439388",
+      "originalPrice": 1999,
+      "discountPrice": 1999,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2288340",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "1962700",
       "title": "Subnautica 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/ceed43f5d774d84a5578eccaaec6842cb9591667/capsule_616x353.jpg?t=1780372044",
@@ -292,14 +304,14 @@
       "isPopular": true
     },
     {
-      "id": "3768760",
-      "title": "007 First Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/93f5c0de8db2d42413f8c1eb4bdb1ccb80f7de65/capsule_616x353.jpg?t=1780344100",
+      "id": "3669870",
+      "title": "CONTROL Resonant",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669870/d2c7e4d021ce81d9712ce7983efa9327fe29fece/capsule_616x353.jpg?t=1780436782",
       "originalPrice": 1599,
       "discountPrice": 1599,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3768760",
+      "url": "https://store.steampowered.com/app/3669870",
       "isSpecial": false,
       "isPopular": true
     }
@@ -961,6 +973,27 @@
       "price": 146,
       "percent": 25,
       "timestamp": "2026-06-02T18:37:48.128Z",
+      "type": "popular"
+    },
+    "steam_discount_1371980": {
+      "title": "No Rest for the Wicked",
+      "price": 559,
+      "percent": 30,
+      "timestamp": "2026-06-02T23:43:43.396Z",
+      "type": "discount"
+    },
+    "steam_popular_2288340": {
+      "title": "ACE COMBAT 8: WINGS OF THEVE",
+      "price": 1999,
+      "percent": 0,
+      "timestamp": "2026-06-02T23:43:43.396Z",
+      "type": "popular"
+    },
+    "steam_popular_3669870": {
+      "title": "CONTROL Resonant",
+      "price": 1599,
+      "percent": 0,
+      "timestamp": "2026-06-02T23:43:43.396Z",
       "type": "popular"
     }
   }
