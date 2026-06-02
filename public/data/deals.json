@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T18:37:50.104Z",
+  "lastUpdated": "2026-06-02T21:46:31.970Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -181,18 +181,6 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4731620",
-      "title": "Fortune Mill",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4731620/40262b401a447ee0c909387faee1f11069c83793/capsule_616x353.jpg?t=1780416011",
-      "originalPrice": 195,
-      "discountPrice": 146,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4731620",
-      "isSpecial": true,
       "isPopular": true
     },
     {
@@ -204,30 +192,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1144200",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "526870",
-      "title": "Satisfactory",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/290c413f4075e43a5d2e106dcbbaa036b3271621/capsule_616x353.jpg?t=1780413533",
-      "originalPrice": 740,
-      "discountPrice": 518,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/526870",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isPopular": false
     },
@@ -244,14 +208,50 @@
       "isPopular": false
     },
     {
-      "id": "1943950",
-      "title": "Escape the Backrooms",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/dd891a9e514ff9f565f36068b738479fb73ac3b2/capsule_616x353.jpg?t=1780394865",
-      "originalPrice": 194,
-      "discountPrice": 155,
-      "discountPercent": 20,
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1943950",
+      "url": "https://store.steampowered.com/app/275850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "526870",
+      "title": "Satisfactory",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/290c413f4075e43a5d2e106dcbbaa036b3271621/capsule_616x353.jpg?t=1780413533",
+      "originalPrice": 740,
+      "discountPrice": 518,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/526870",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4731620",
+      "title": "Fortune Mill",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4731620/40262b401a447ee0c909387faee1f11069c83793/capsule_616x353.jpg?t=1780416011",
+      "originalPrice": 195,
+      "discountPrice": 146,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4731620",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1659040",
+      "title": "HITMAN World of Assassination",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/capsule_616x353.jpg?t=1780060872",
+      "originalPrice": 1315,
+      "discountPrice": 526,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1659040",
       "isSpecial": true,
       "isPopular": false
     },
