@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T00:21:53.446Z",
+  "lastUpdated": "2026-06-02T05:28:36.043Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -148,18 +148,6 @@
   ],
   "steam": [
     {
-      "id": "1144200",
-      "title": "Ready or Not",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/capsule_616x353.jpg?t=1779907126",
-      "originalPrice": 625,
-      "discountPrice": 312,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1144200",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
@@ -169,7 +157,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "2183900",
@@ -196,14 +184,14 @@
       "isPopular": false
     },
     {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/capsule_616x353.jpg?t=1779907126",
+      "originalPrice": 625,
+      "discountPrice": 312,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
+      "url": "https://store.steampowered.com/app/1144200",
       "isSpecial": true,
       "isPopular": false
     },
@@ -216,6 +204,18 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1943950",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isPopular": false
     },
@@ -240,6 +240,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1659040",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "285900",
+      "title": "Gang Beasts",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/285900/capsule_616x353.jpg?t=1777561059",
+      "originalPrice": 389,
+      "discountPrice": 97,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/285900",
       "isSpecial": true,
       "isPopular": false
     },
@@ -270,7 +282,7 @@
     {
       "id": "1962700",
       "title": "Subnautica 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/ceed43f5d774d84a5578eccaaec6842cb9591667/capsule_616x353.jpg?t=1779930099",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/ceed43f5d774d84a5578eccaaec6842cb9591667/capsule_616x353.jpg?t=1780372044",
       "originalPrice": 899,
       "discountPrice": 899,
       "discountPercent": 0,
@@ -300,18 +312,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3892270",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "2215200",
-      "title": "LEGO® Batman™: Legacy of the Dark Knight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1779824566",
-      "originalPrice": 1899,
-      "discountPrice": 1899,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2215200",
       "isSpecial": false,
       "isPopular": true
     }
@@ -938,6 +938,13 @@
       "price": 526,
       "percent": 60,
       "timestamp": "2026-06-01T23:00:21.555Z",
+      "type": "discount"
+    },
+    "steam_discount_285900": {
+      "title": "Gang Beasts",
+      "price": 97,
+      "percent": 75,
+      "timestamp": "2026-06-02T05:28:34.680Z",
       "type": "discount"
     }
   }
