@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T14:50:23.669Z",
+  "lastUpdated": "2026-06-02T18:37:50.104Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -148,14 +148,14 @@
   ],
   "steam": [
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
+      "id": "2186990",
+      "title": "Fatekeeper",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/5ca53685f69f6112949e416b97565446dc3ff174/capsule_616x353_alt_assets_0.jpg?t=1780424266",
+      "originalPrice": 355,
+      "discountPrice": 284,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
+      "url": "https://store.steampowered.com/app/2186990",
       "isSpecial": true,
       "isPopular": true
     },
@@ -172,6 +172,30 @@
       "isPopular": false
     },
     {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4731620",
+      "title": "Fortune Mill",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4731620/40262b401a447ee0c909387faee1f11069c83793/capsule_616x353.jpg?t=1780416011",
+      "originalPrice": 195,
+      "discountPrice": 146,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4731620",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1144200",
       "title": "Ready or Not",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/capsule_616x353.jpg?t=1779907126",
@@ -180,6 +204,18 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1144200",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "526870",
+      "title": "Satisfactory",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/290c413f4075e43a5d2e106dcbbaa036b3271621/capsule_616x353.jpg?t=1780413533",
+      "originalPrice": 740,
+      "discountPrice": 518,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/526870",
       "isSpecial": true,
       "isPopular": false
     },
@@ -204,30 +240,6 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2141730",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "526870",
-      "title": "Satisfactory",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/290c413f4075e43a5d2e106dcbbaa036b3271621/capsule_616x353.jpg?t=1749717464",
-      "originalPrice": 740,
-      "discountPrice": 518,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/526870",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1659040",
-      "title": "HITMAN World of Assassination",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/capsule_616x353.jpg?t=1780060872",
-      "originalPrice": 1315,
-      "discountPrice": 526,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1659040",
       "isSpecial": true,
       "isPopular": false
     },
@@ -922,6 +934,34 @@
       "percent": 75,
       "timestamp": "2026-06-02T05:28:34.680Z",
       "type": "discount"
+    },
+    "steam_discount_2186990": {
+      "title": "Fatekeeper",
+      "price": 284,
+      "percent": 20,
+      "timestamp": "2026-06-02T18:37:48.128Z",
+      "type": "discount"
+    },
+    "steam_popular_2186990": {
+      "title": "Fatekeeper",
+      "price": 284,
+      "percent": 20,
+      "timestamp": "2026-06-02T18:37:48.128Z",
+      "type": "popular"
+    },
+    "steam_discount_4731620": {
+      "title": "Fortune Mill",
+      "price": 146,
+      "percent": 25,
+      "timestamp": "2026-06-02T18:37:48.128Z",
+      "type": "discount"
+    },
+    "steam_popular_4731620": {
+      "title": "Fortune Mill",
+      "price": 146,
+      "percent": 25,
+      "timestamp": "2026-06-02T18:37:48.128Z",
+      "type": "popular"
     }
   }
 }
