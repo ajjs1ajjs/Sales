@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T10:18:07.429Z",
+  "lastUpdated": "2026-06-02T14:50:23.669Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -196,18 +196,6 @@
       "isPopular": false
     },
     {
-      "id": "526870",
-      "title": "Satisfactory",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/290c413f4075e43a5d2e106dcbbaa036b3271621/capsule_616x353.jpg?t=1749717464",
-      "originalPrice": 740,
-      "discountPrice": 518,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/526870",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2141730",
       "title": "Backrooms: Escape Together",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780282746",
@@ -216,6 +204,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2141730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "526870",
+      "title": "Satisfactory",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/290c413f4075e43a5d2e106dcbbaa036b3271621/capsule_616x353.jpg?t=1749717464",
+      "originalPrice": 740,
+      "discountPrice": 518,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/526870",
       "isSpecial": true,
       "isPopular": false
     },
