@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T18:21:47.917Z",
+  "lastUpdated": "2026-06-03T21:46:40.037Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -220,18 +220,6 @@
       "isPopular": false
     },
     {
-      "id": "526870",
-      "title": "Satisfactory",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/290c413f4075e43a5d2e106dcbbaa036b3271621/capsule_616x353.jpg?t=1780413533",
-      "originalPrice": 740,
-      "discountPrice": 518,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/526870",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1943950",
       "title": "Escape the Backrooms",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/dd891a9e514ff9f565f36068b738479fb73ac3b2/capsule_616x353.jpg?t=1780394865",
@@ -244,14 +232,26 @@
       "isPopular": false
     },
     {
-      "id": "1659040",
-      "title": "HITMAN World of Assassination",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/capsule_616x353.jpg?t=1780060872",
-      "originalPrice": 1315,
-      "discountPrice": 526,
-      "discountPercent": 60,
+      "id": "526870",
+      "title": "Satisfactory",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/290c413f4075e43a5d2e106dcbbaa036b3271621/capsule_616x353.jpg?t=1780413533",
+      "originalPrice": 740,
+      "discountPrice": 518,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1659040",
+      "url": "https://store.steampowered.com/app/526870",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "285900",
+      "title": "Gang Beasts",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/285900/capsule_616x353.jpg?t=1780410654",
+      "originalPrice": 389,
+      "discountPrice": 97,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/285900",
       "isSpecial": true,
       "isPopular": false
     },
