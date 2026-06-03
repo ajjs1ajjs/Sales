@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T03:46:16.362Z",
+  "lastUpdated": "2026-06-03T08:53:22.562Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -172,14 +172,14 @@
       "isPopular": false
     },
     {
-      "id": "2141730",
-      "title": "Backrooms: Escape Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780282746",
-      "originalPrice": 225,
-      "discountPrice": 157,
+      "id": "1371980",
+      "title": "No Rest for the Wicked",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1371980/05ce6d495f248d8e4d6419b93f531537183118d1/capsule_616x353.jpg?t=1780442295",
+      "originalPrice": 799,
+      "discountPrice": 559,
       "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2141730",
+      "url": "https://store.steampowered.com/app/1371980",
       "isSpecial": true,
       "isPopular": false
     },
@@ -196,18 +196,6 @@
       "isPopular": false
     },
     {
-      "id": "1943950",
-      "title": "Escape the Backrooms",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/dd891a9e514ff9f565f36068b738479fb73ac3b2/capsule_616x353.jpg?t=1780394865",
-      "originalPrice": 194,
-      "discountPrice": 155,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1943950",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1144200",
       "title": "Ready or Not",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/capsule_616x353.jpg?t=1779907126",
@@ -220,14 +208,14 @@
       "isPopular": false
     },
     {
-      "id": "1371980",
-      "title": "No Rest for the Wicked",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1371980/05ce6d495f248d8e4d6419b93f531537183118d1/capsule_616x353.jpg?t=1780442295",
-      "originalPrice": 799,
-      "discountPrice": 559,
+      "id": "2141730",
+      "title": "Backrooms: Escape Together",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780282746",
+      "originalPrice": 225,
+      "discountPrice": 157,
       "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1371980",
+      "url": "https://store.steampowered.com/app/2141730",
       "isSpecial": true,
       "isPopular": false
     },
@@ -240,6 +228,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/275850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1943950",
+      "title": "Escape the Backrooms",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/dd891a9e514ff9f565f36068b738479fb73ac3b2/capsule_616x353.jpg?t=1780394865",
+      "originalPrice": 194,
+      "discountPrice": 155,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1943950",
       "isSpecial": true,
       "isPopular": false
     },
@@ -270,7 +270,7 @@
     {
       "id": "2288340",
       "title": "ACE COMBAT 8: WINGS OF THEVE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/3bd993fa9f94ebd60c1b05dd61a4315cde829830/capsule_616x353.jpg?t=1780453580",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/3bd993fa9f94ebd60c1b05dd61a4315cde829830/capsule_616x353.jpg?t=1780473498",
       "originalPrice": 1999,
       "discountPrice": 1999,
       "discountPercent": 0,
@@ -304,26 +304,14 @@
       "isPopular": true
     },
     {
-      "id": "3768760",
-      "title": "007 First Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/93f5c0de8db2d42413f8c1eb4bdb1ccb80f7de65/capsule_616x353.jpg?t=1780344100",
-      "originalPrice": 1599,
-      "discountPrice": 1599,
+      "id": "1202520",
+      "title": "Fallout 1st",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
+      "originalPrice": 399,
+      "discountPrice": 399,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3768760",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1778274309",
-      "originalPrice": 187,
-      "discountPrice": 187,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
+      "url": "https://store.steampowered.com/app/1202520",
       "isSpecial": false,
       "isPopular": true
     }
