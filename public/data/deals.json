@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T23:41:02.567Z",
+  "lastUpdated": "2026-06-04T03:41:50.056Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -172,14 +172,14 @@
       "isPopular": false
     },
     {
-      "id": "1371980",
-      "title": "No Rest for the Wicked",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1371980/05ce6d495f248d8e4d6419b93f531537183118d1/capsule_616x353.jpg?t=1780442295",
-      "originalPrice": 799,
-      "discountPrice": 559,
+      "id": "2141730",
+      "title": "Backrooms: Escape Together",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780282746",
+      "originalPrice": 225,
+      "discountPrice": 157,
       "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1371980",
+      "url": "https://store.steampowered.com/app/2141730",
       "isSpecial": true,
       "isPopular": false
     },
@@ -208,14 +208,14 @@
       "isPopular": false
     },
     {
-      "id": "2141730",
-      "title": "Backrooms: Escape Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780282746",
-      "originalPrice": 225,
-      "discountPrice": 157,
+      "id": "1371980",
+      "title": "No Rest for the Wicked",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1371980/05ce6d495f248d8e4d6419b93f531537183118d1/capsule_616x353.jpg?t=1780442295",
+      "originalPrice": 799,
+      "discountPrice": 559,
       "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2141730",
+      "url": "https://store.steampowered.com/app/1371980",
       "isSpecial": true,
       "isPopular": false
     },
@@ -232,18 +232,6 @@
       "isPopular": false
     },
     {
-      "id": "526870",
-      "title": "Satisfactory",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/290c413f4075e43a5d2e106dcbbaa036b3271621/capsule_616x353.jpg?t=1780413533",
-      "originalPrice": 740,
-      "discountPrice": 518,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/526870",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "285900",
       "title": "Gang Beasts",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/285900/capsule_616x353.jpg?t=1780410654",
@@ -252,6 +240,18 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/285900",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "526870",
+      "title": "Satisfactory",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/290c413f4075e43a5d2e106dcbbaa036b3271621/capsule_616x353.jpg?t=1780413533",
+      "originalPrice": 740,
+      "discountPrice": 518,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/526870",
       "isSpecial": true,
       "isPopular": false
     },
@@ -268,18 +268,6 @@
       "isPopular": true
     },
     {
-      "id": "4148930",
-      "title": "F1® 25: 2026 Season Pack",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148930/84d1dd2a8c02689a793e41001f1988fd6999dd57/capsule_616x353.jpg?t=1780498842",
-      "originalPrice": 899,
-      "discountPrice": 899,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4148930",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_616x353.jpg?t=1763066602",
@@ -288,6 +276,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4148930",
+      "title": "F1® 25: 2026 Season Pack",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148930/84d1dd2a8c02689a793e41001f1988fd6999dd57/capsule_616x353.jpg?t=1780498842",
+      "originalPrice": 899,
+      "discountPrice": 899,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4148930",
       "isSpecial": false,
       "isPopular": true
     },
