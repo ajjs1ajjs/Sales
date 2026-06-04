@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T20:02:07.952Z",
+  "lastUpdated": "2026-06-04T22:18:50.290Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -157,7 +157,19 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1326470",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
+    },
+    {
+      "id": "3764200",
+      "title": "Resident Evil Requiem",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
+      "originalPrice": 1999,
+      "discountPrice": 1599,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3764200",
+      "isSpecial": true,
+      "isPopular": true
     },
     {
       "id": "2050650",
@@ -184,18 +196,6 @@
       "isPopular": true
     },
     {
-      "id": "3764200",
-      "title": "Resident Evil Requiem",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
-      "originalPrice": 1999,
-      "discountPrice": 1599,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3764200",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
@@ -208,18 +208,6 @@
       "isPopular": false
     },
     {
-      "id": "1371980",
-      "title": "No Rest for the Wicked",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1371980/05ce6d495f248d8e4d6419b93f531537183118d1/capsule_616x353.jpg?t=1780442295",
-      "originalPrice": 799,
-      "discountPrice": 559,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1371980",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2141730",
       "title": "Backrooms: Escape Together",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780282746",
@@ -228,6 +216,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2141730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "996580",
+      "title": "Spyro™ Reignited Trilogy",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/996580/capsule_616x353.jpg?t=1748045178",
+      "originalPrice": 1699,
+      "discountPrice": 424,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/996580",
       "isSpecial": true,
       "isPopular": false
     },
@@ -256,18 +256,6 @@
       "isPopular": true
     },
     {
-      "id": "4200760",
-      "title": "Call of Duty®: Black Ops 7 - BlackCell (04 сезон)",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4200760/d7ef41d13e0492813eeed7e7015fd42300eefd76/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1780595635",
-      "originalPrice": 1275,
-      "discountPrice": 1275,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4200760",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "1118520",
       "title": "Paralives",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353.jpg?t=1779721278",
@@ -280,6 +268,18 @@
       "isPopular": true
     },
     {
+      "id": "4200760",
+      "title": "Call of Duty®: Black Ops 7 - BlackCell (04 сезон)",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4200760/d7ef41d13e0492813eeed7e7015fd42300eefd76/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1780595635",
+      "originalPrice": 1275,
+      "discountPrice": 1275,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4200760",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "1962700",
       "title": "Subnautica 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/ceed43f5d774d84a5578eccaaec6842cb9591667/capsule_616x353.jpg?t=1780372044",
@@ -288,18 +288,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1962700",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3405690",
-      "title": "EA SPORTS FC™ 26",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1780593271",
-      "originalPrice": 2299,
-      "discountPrice": 460,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3405690",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1060,6 +1048,20 @@
       "percent": 80,
       "timestamp": "2026-06-04T20:02:05.927Z",
       "type": "popular"
+    },
+    "steam_popular_1326470": {
+      "title": "Sons Of The Forest",
+      "price": 180,
+      "percent": 70,
+      "timestamp": "2026-06-04T22:18:48.820Z",
+      "type": "popular"
+    },
+    "steam_discount_996580": {
+      "title": "Spyro™ Reignited Trilogy",
+      "price": 424,
+      "percent": 75,
+      "timestamp": "2026-06-04T22:18:48.820Z",
+      "type": "discount"
     }
   }
 }
