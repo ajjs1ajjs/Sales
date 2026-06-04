@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T14:53:06.768Z",
+  "lastUpdated": "2026-06-04T17:44:07.600Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -82,38 +82,6 @@
       "discountPercent": 65
     },
     {
-      "id": "9621cc6e5d32437ca3dd998de177f6da",
-      "title": "LONESTAR",
-      "description": "LONESTAR",
-      "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/lonestar-31p94_2560x1440-c6a104de10c14d33854d3018ccf8cc75",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/lonestar-83f143",
-      "startDate": "2026-05-28T15:00:00.000Z",
-      "endDate": "2026-06-04T15:00:00.000Z",
-      "isFreeNow": true,
-      "isUpcomingFree": false,
-      "isDiscounted": false,
-      "discountPercent": 0
-    },
-    {
-      "id": "7fc5abc8f11c471e837ddd00ce963350",
-      "title": "Calico",
-      "description": "Calico",
-      "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/EGS_s2_2560x1440-79182ef9c56c44af95ab38b0a2c46329",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/calico",
-      "startDate": "2026-05-28T15:00:00.000Z",
-      "endDate": "2026-06-04T15:00:00.000Z",
-      "isFreeNow": true,
-      "isUpcomingFree": false,
-      "isDiscounted": false,
-      "discountPercent": 0
-    },
-    {
       "id": "a6a2d59fa54946dbbf16f14730c2e5f0",
       "title": "Rogue Waters",
       "description": "Rogue Waters",
@@ -124,8 +92,8 @@
       "url": "https://store.epicgames.com/p/rogue-waters-9764d6",
       "startDate": "2026-06-04T15:00:00.000Z",
       "endDate": "2026-06-11T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": true,
+      "isFreeNow": true,
+      "isUpcomingFree": false,
       "isDiscounted": false,
       "discountPercent": 0
     },
@@ -140,6 +108,22 @@
       "url": "https://store.epicgames.com/p/songs-of-conquest",
       "startDate": "2026-06-04T15:00:00.000Z",
       "endDate": "2026-06-11T15:00:00.000Z",
+      "isFreeNow": true,
+      "isUpcomingFree": false,
+      "isDiscounted": false,
+      "discountPercent": 0
+    },
+    {
+      "id": "7f0ab2828f9743d0abc6612a11222fdf",
+      "title": "The Ouroboros King",
+      "description": "The Ouroboros King combines the strategic depth of chess with the build variety and replayability of roguelikes. Assemble a formidable army, discover powerful relics, and buy surprising gadgets to defeat the Coven.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/33630d7105014582a478094e89953f49/the-ouroboros-king-jwabx.jpg",
+      "originalPrice": 184,
+      "discountPrice": 184,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/the-ouroboros-king-e1d547",
+      "startDate": "2026-06-11T15:00:00.000Z",
+      "endDate": "2026-06-18T15:00:00.000Z",
       "isFreeNow": false,
       "isUpcomingFree": true,
       "isDiscounted": false,
@@ -164,18 +148,6 @@
   ],
   "steam": [
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2186990",
       "title": "Fatekeeper",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/5ca53685f69f6112949e416b97565446dc3ff174/capsule_616x353_alt_assets_0.jpg?t=1780424266",
@@ -188,26 +160,14 @@
       "isPopular": true
     },
     {
-      "id": "1144200",
-      "title": "Ready or Not",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/capsule_616x353.jpg?t=1779907126",
-      "originalPrice": 625,
-      "discountPrice": 312,
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
+      "originalPrice": 1349,
+      "discountPrice": 674,
       "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1144200",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": false
     },
@@ -224,6 +184,18 @@
       "isPopular": false
     },
     {
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/275850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2141730",
       "title": "Backrooms: Escape Together",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780282746",
@@ -232,6 +204,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2141730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3710840",
+      "title": "House Flipper Remastered Collection",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3710840/b2f2c60d159f8f8ec5389ca82b3228336ad3ec3b/capsule_616x353.jpg?t=1780591455",
+      "originalPrice": 925,
+      "discountPrice": 832,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3710840",
       "isSpecial": true,
       "isPopular": false
     },
@@ -260,6 +244,18 @@
       "isPopular": false
     },
     {
+      "id": "1659040",
+      "title": "HITMAN World of Assassination",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/capsule_616x353.jpg?t=1780060872",
+      "originalPrice": 1315,
+      "discountPrice": 526,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1659040",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2483190",
       "title": "Forza Horizon 6",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1779912021",
@@ -272,14 +268,14 @@
       "isPopular": true
     },
     {
-      "id": "4148930",
-      "title": "F1® 25: 2026 Season Pack",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148930/84d1dd2a8c02689a793e41001f1988fd6999dd57/capsule_616x353.jpg?t=1780498842",
-      "originalPrice": 899,
-      "discountPrice": 899,
+      "id": "1118520",
+      "title": "Paralives",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353.jpg?t=1779721278",
+      "originalPrice": 740,
+      "discountPrice": 740,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4148930",
+      "url": "https://store.steampowered.com/app/1118520",
       "isSpecial": false,
       "isPopular": true
     },
@@ -296,14 +292,26 @@
       "isPopular": true
     },
     {
-      "id": "1118520",
-      "title": "Paralives",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353.jpg?t=1779721278",
-      "originalPrice": 740,
-      "discountPrice": 740,
+      "id": "4200760",
+      "title": "Call of Duty®: Black Ops 7 - BlackCell (04 сезон)",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4200760/d7ef41d13e0492813eeed7e7015fd42300eefd76/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1780592311",
+      "originalPrice": 1275,
+      "discountPrice": 1275,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1118520",
+      "url": "https://store.steampowered.com/app/4200760",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4148930",
+      "title": "F1® 25: 2026 Season Pack",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148930/84d1dd2a8c02689a793e41001f1988fd6999dd57/capsule_616x353.jpg?t=1780591507",
+      "originalPrice": 899,
+      "discountPrice": 899,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4148930",
       "isSpecial": false,
       "isPopular": true
     },
@@ -1012,6 +1020,34 @@
       "price": 0,
       "percent": 0,
       "timestamp": "2026-06-03T18:21:46.898Z",
+      "type": "popular"
+    },
+    "epic_free_a6a2d59fa54946dbbf16f14730c2e5f0": {
+      "title": "Rogue Waters",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-06-04T17:44:05.311Z",
+      "type": "free"
+    },
+    "epic_free_62b6d302e2bd41039449b1f2f9608748": {
+      "title": "Songs of Conquest",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-06-04T17:44:05.311Z",
+      "type": "free"
+    },
+    "steam_discount_3710840": {
+      "title": "House Flipper Remastered Collection",
+      "price": 832,
+      "percent": 10,
+      "timestamp": "2026-06-04T17:44:05.311Z",
+      "type": "discount"
+    },
+    "steam_popular_4200760": {
+      "title": "Call of Duty®: Black Ops 7 - BlackCell (04 сезон)",
+      "price": 1275,
+      "percent": 0,
+      "timestamp": "2026-06-04T17:44:05.311Z",
       "type": "popular"
     }
   }
