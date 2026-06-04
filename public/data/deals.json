@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T11:50:24.642Z",
+  "lastUpdated": "2026-06-04T14:53:06.768Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -115,13 +115,13 @@
     },
     {
       "id": "a6a2d59fa54946dbbf16f14730c2e5f0",
-      "title": "Mystery Game Week 23 Game 2",
-      "description": "Mystery Game Week 23 Game 2",
-      "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-570394ae470a43859ce7366ea875532f",
+      "title": "Rogue Waters",
+      "description": "Rogue Waters",
+      "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/rogue-waters-wide_2560x1440-673011871d1a462292f9ff38cc0e3410",
       "originalPrice": 0,
       "discountPrice": 0,
       "currency": "UAH",
-      "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week23-game2",
+      "url": "https://store.epicgames.com/p/rogue-waters-9764d6",
       "startDate": "2026-06-04T15:00:00.000Z",
       "endDate": "2026-06-11T15:00:00.000Z",
       "isFreeNow": false,
@@ -131,15 +131,31 @@
     },
     {
       "id": "62b6d302e2bd41039449b1f2f9608748",
-      "title": "Mystery Game Week 23 Game 1",
-      "description": "Mystery Game Week 23 Game 1",
-      "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-570394ae470a43859ce7366ea875532f",
+      "title": "Songs of Conquest",
+      "description": "Raise mighty armies, wield ancient magic and forge an empire. This turn-based strategy adventure game fuses strategic decision making, tactical combat and kingdom management.",
+      "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/s2_2560x1440-fd360f5c7abe499d90327b6999884e23",
       "originalPrice": 0,
       "discountPrice": 0,
       "currency": "UAH",
-      "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week23-game1",
+      "url": "https://store.epicgames.com/p/songs-of-conquest",
       "startDate": "2026-06-04T15:00:00.000Z",
       "endDate": "2026-06-11T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": true,
+      "isDiscounted": false,
+      "discountPercent": 0
+    },
+    {
+      "id": "eb6ae87e73d94d2c96bab3c4da4dd3de",
+      "title": "Warhammer 40K Speed Freeks",
+      "description": "High-octane combat racing in the Warhammer 40,000 universe.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/a1af14251fb748fc9bda63bfc260f933/warhammer-40k-speed-freeks-1k4pq.jpg",
+      "originalPrice": 369,
+      "discountPrice": 369,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/warhammer-40k-speed-freeks-12879c",
+      "startDate": "2026-06-11T15:00:00.000Z",
+      "endDate": "2026-06-18T15:00:00.000Z",
       "isFreeNow": false,
       "isUpcomingFree": true,
       "isDiscounted": false,
@@ -184,18 +200,6 @@
       "isPopular": false
     },
     {
-      "id": "1371980",
-      "title": "No Rest for the Wicked",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1371980/05ce6d495f248d8e4d6419b93f531537183118d1/capsule_616x353.jpg?t=1780442295",
-      "originalPrice": 799,
-      "discountPrice": 559,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1371980",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "275850",
       "title": "No Man's Sky",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
@@ -204,6 +208,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/275850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1371980",
+      "title": "No Rest for the Wicked",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1371980/05ce6d495f248d8e4d6419b93f531537183118d1/capsule_616x353.jpg?t=1780442295",
+      "originalPrice": 799,
+      "discountPrice": 559,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1371980",
       "isSpecial": true,
       "isPopular": false
     },
@@ -220,18 +236,6 @@
       "isPopular": false
     },
     {
-      "id": "526870",
-      "title": "Satisfactory",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/290c413f4075e43a5d2e106dcbbaa036b3271621/capsule_616x353.jpg?t=1780413533",
-      "originalPrice": 740,
-      "discountPrice": 518,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/526870",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1943950",
       "title": "Escape the Backrooms",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/dd891a9e514ff9f565f36068b738479fb73ac3b2/capsule_616x353.jpg?t=1780394865",
@@ -240,6 +244,18 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1943950",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "526870",
+      "title": "Satisfactory",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/290c413f4075e43a5d2e106dcbbaa036b3271621/capsule_616x353.jpg?t=1780413533",
+      "originalPrice": 740,
+      "discountPrice": 518,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/526870",
       "isSpecial": true,
       "isPopular": false
     },
