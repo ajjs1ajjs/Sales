@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T09:48:03.766Z",
+  "lastUpdated": "2026-06-05T12:34:33.658Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -193,7 +193,19 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2186990",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
+    },
+    {
+      "id": "883710",
+      "title": "Resident Evil 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/883710/capsule_616x353.jpg?t=1779433152",
+      "originalPrice": 1200,
+      "discountPrice": 240,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/883710",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "3240220",
@@ -220,16 +232,16 @@
       "isPopular": false
     },
     {
-      "id": "883710",
-      "title": "Resident Evil 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/883710/capsule_616x353.jpg?t=1779433152",
-      "originalPrice": 1200,
-      "discountPrice": 240,
-      "discountPercent": 80,
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_616x353.jpg?t=1763066602",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/883710",
-      "isSpecial": true,
-      "isPopular": false
+      "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isPopular": true
     },
     {
       "id": "2483190",
@@ -240,18 +252,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2483190",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_616x353.jpg?t=1763066602",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     },
