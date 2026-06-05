@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T00:04:21.118Z",
+  "lastUpdated": "2026-06-05T05:13:52.184Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -160,6 +160,18 @@
       "isPopular": true
     },
     {
+      "id": "2050650",
+      "title": "Resident Evil 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
+      "originalPrice": 1200,
+      "discountPrice": 300,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2050650",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "3764200",
       "title": "Resident Evil Requiem",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
@@ -172,18 +184,6 @@
       "isPopular": true
     },
     {
-      "id": "2050650",
-      "title": "Resident Evil 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
-      "originalPrice": 1200,
-      "discountPrice": 300,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2050650",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2186990",
       "title": "Fatekeeper",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/5ca53685f69f6112949e416b97565446dc3ff174/capsule_616x353_alt_assets_0.jpg?t=1780424266",
@@ -193,7 +193,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2186990",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "3240220",
@@ -204,6 +204,18 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "883710",
+      "title": "Resident Evil 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/883710/capsule_616x353.jpg?t=1779433152",
+      "originalPrice": 1200,
+      "discountPrice": 240,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/883710",
       "isSpecial": true,
       "isPopular": false
     },
@@ -220,16 +232,16 @@
       "isPopular": false
     },
     {
-      "id": "996580",
-      "title": "Spyro™ Reignited Trilogy",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/996580/capsule_616x353.jpg?t=1748045178",
-      "originalPrice": 1699,
-      "discountPrice": 424,
-      "discountPercent": 75,
+      "id": "2483190",
+      "title": "Forza Horizon 6",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1780597114",
+      "originalPrice": 2299,
+      "discountPrice": 2299,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/996580",
-      "isSpecial": true,
-      "isPopular": false
+      "url": "https://store.steampowered.com/app/2483190",
+      "isSpecial": false,
+      "isPopular": true
     },
     {
       "id": "1675200",
@@ -240,18 +252,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "2483190",
-      "title": "Forza Horizon 6",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1780597114",
-      "originalPrice": 2299,
-      "discountPrice": 2299,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2483190",
       "isSpecial": false,
       "isPopular": true
     },
@@ -1061,6 +1061,20 @@
       "price": 424,
       "percent": 75,
       "timestamp": "2026-06-04T22:18:48.820Z",
+      "type": "discount"
+    },
+    "steam_popular_2050650": {
+      "title": "Resident Evil 4",
+      "price": 300,
+      "percent": 75,
+      "timestamp": "2026-06-05T05:13:50.259Z",
+      "type": "popular"
+    },
+    "steam_discount_883710": {
+      "title": "Resident Evil 2",
+      "price": 240,
+      "percent": 80,
+      "timestamp": "2026-06-05T05:13:50.259Z",
       "type": "discount"
     }
   }
