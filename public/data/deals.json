@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T05:13:52.184Z",
+  "lastUpdated": "2026-06-05T09:41:20.236Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -193,7 +193,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2186990",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "3240220",
@@ -208,6 +208,18 @@
       "isPopular": false
     },
     {
+      "id": "242760",
+      "title": "The Forest",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/capsule_616x353.jpg?t=1699381053",
+      "originalPrice": 279,
+      "discountPrice": 61,
+      "discountPercent": 78,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/242760",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "883710",
       "title": "Resident Evil 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/883710/capsule_616x353.jpg?t=1779433152",
@@ -216,18 +228,6 @@
       "discountPercent": 80,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/883710",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2141730",
-      "title": "Backrooms: Escape Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780282746",
-      "originalPrice": 225,
-      "discountPrice": 157,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2141730",
       "isSpecial": true,
       "isPopular": false
     },
@@ -264,18 +264,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1118520",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4200760",
-      "title": "Call of Duty®: Black Ops 7 - BlackCell (04 сезон)",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4200760/d7ef41d13e0492813eeed7e7015fd42300eefd76/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1780595635",
-      "originalPrice": 1275,
-      "discountPrice": 1275,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4200760",
       "isSpecial": false,
       "isPopular": true
     },
@@ -1075,6 +1063,13 @@
       "price": 240,
       "percent": 80,
       "timestamp": "2026-06-05T05:13:50.259Z",
+      "type": "discount"
+    },
+    "steam_discount_242760": {
+      "title": "The Forest",
+      "price": 61,
+      "percent": 78,
+      "timestamp": "2026-06-05T09:41:18.200Z",
       "type": "discount"
     }
   }
