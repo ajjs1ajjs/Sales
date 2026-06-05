@@ -18,21 +18,11 @@ export function formatDate(dateStr: string, includeTime = false): string {
   if (!dateStr) return '';
   try {
     const d = new Date(dateStr);
-    const options: Intl.DateTimeFormatOptions = {
-      day: 'numeric',
-      month: includeTime ? 'long' : 'short',
-      year: includeTime ? 'numeric' : undefined,
-      hour: includeTime ? '2-digit' : '2-digit',
-      minute: includeTime ? '2-digit' : '2-digit',
-      timeZone: 'Europe/Kyiv',
-    };
-    if (!includeTime) {
-      delete options.year;
-      delete options.hour;
-      delete options.minute;
-      return d.toLocaleDateString('uk-UA', { day: 'numeric', month: 'short', timeZone: 'Europe/Kyiv' });
+    const tz = 'Europe/Kyiv';
+    if (includeTime) {
+      return d.toLocaleString('uk-UA', { day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: tz });
     }
-    return d.toLocaleString('uk-UA', options);
+    return d.toLocaleDateString('uk-UA', { day: 'numeric', month: 'short', timeZone: tz });
   } catch {
     return dateStr;
   }

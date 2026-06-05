@@ -1,16 +1,17 @@
 import { useMemo, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Calendar, ExternalLink } from 'lucide-react';
+import { Calendar, ExternalLink, RefreshCw } from 'lucide-react';
 import type { DealsData } from '../types';
 import { formatDate } from '../utils';
 
 interface Props {
   data: DealsData | null;
+  loading?: boolean;
 }
 
 type HistoryFilter = 'all' | 'free' | 'discount' | 'popular';
 
-export function HistoryPage({ data }: Props) {
+export function HistoryPage({ data, loading = false }: Props) {
   const location = useLocation();
   const [filter, setFilter] = useState<HistoryFilter>('all');
 
@@ -25,6 +26,16 @@ export function HistoryPage({ data }: Props) {
     if (filter === 'all') return history;
     return history.filter((item) => item.type === filter);
   }, [history, filter]);
+
+  if (loading) {
+    return (
+      <div className="empty-state loading-state" role="status" aria-live="polite">
+        <RefreshCw size={40} className="spinner" aria-hidden="true" />
+        <h3>Завантаження історії...</h3>
+        <p>Будь ласка, зачекайте.</p>
+      </div>
+    );
+  }
 
   if (!data) {
     return (

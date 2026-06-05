@@ -1,53 +1,9 @@
 import fs from 'fs';
 import path from 'path';
+import type { EpicGame, SteamGame, DealsData } from '../src/types';
 
 const DEALS_DIR = path.join(process.cwd(), 'public', 'data');
 const DEALS_PATH = path.join(DEALS_DIR, 'deals.json');
-
-interface EpicGame {
-  id: string;
-  title: string;
-  description: string;
-  imageUrl: string;
-  originalPrice: number;
-  discountPrice: number;
-  currency: string;
-  url: string;
-  startDate: string;
-  endDate: string;
-  isFreeNow: boolean;
-  isUpcomingFree: boolean;
-  isDiscounted: boolean;
-  discountPercent: number;
-}
-
-interface SteamGame {
-  id: string;
-  title: string;
-  imageUrl: string;
-  originalPrice: number;
-  discountPrice: number;
-  discountPercent: number;
-  currency: string;
-  url: string;
-  isSpecial: boolean;
-  isPopular: boolean;
-}
-
-interface NotifiedItem {
-  title: string;
-  price: number;
-  percent: number;
-  timestamp: string;
-  type: 'free' | 'discount' | 'popular';
-}
-
-interface DealsData {
-  lastUpdated: string;
-  epic: EpicGame[];
-  steam: SteamGame[];
-  notifiedHistory?: Record<string, NotifiedItem>;
-}
 
 async function fetchWithRetry(url: string, options?: RequestInit, retries = 3, delay = 2000): Promise<Response> {
   for (let i = 0; i < retries; i++) {
@@ -142,12 +98,11 @@ async function fetchEpicGames(): Promise<EpicGame[]> {
       }
       
       if (isFreeNow || isUpcomingFree || isDiscounted) {
-        // Find suitable image
-        const images = item.keyImages || [];
+        const images: { type: string; url: string }[] = item.keyImages || [];
         const imageTypes = ['DieselStoreFrontWide', 'OfferImageWide', 'Thumbnail', 'OfferImageTall'];
         let imageUrl = "";
         for (const type of imageTypes) {
-            const found = images.find((img: { type: string; url: string }) => img.type === type);
+          const found = images.find((img) => img.type === type);
           if (found) {
             imageUrl = found.url;
             break;
@@ -156,14 +111,19 @@ async function fetchEpicGames(): Promise<EpicGame[]> {
         if (!imageUrl && images.length > 0) {
           imageUrl = images[0].url;
         }
-        
-        // Resolve slug for the URL
-        let slug = item.catalogNs?.mappings?.[0]?.pageSlug || item.productSlug;
+
+        interface CatalogMapping { pageSlug?: string }
+        interface CatalogNs { mappings?: CatalogMapping[] }
+        interface CustomAttribute { key: string; value: string }
+
+        const catalogNs: CatalogNs | undefined = item.catalogNs;
+        let slug: string | string[] | undefined = catalogNs?.mappings?.[0]?.pageSlug || item.productSlug;
         if (Array.isArray(slug)) {
           slug = slug[0] || "";
         }
         if (typeof slug !== 'string' || !slug || slug === '[]') {
-          const attrSlug = item.customAttributes?.find((attr: { key: string; value: string }) => attr.key === 'com.epicgames.app.productSlug')?.value;
+          const customAttributes: CustomAttribute[] | undefined = item.customAttributes;
+          const attrSlug = customAttributes?.find((attr) => attr.key === 'com.epicgames.app.productSlug')?.value;
           slug = attrSlug || "";
         }
         if (Array.isArray(slug)) {

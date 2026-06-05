@@ -11,6 +11,7 @@ import { PriceRangeFilter } from './components/PriceRangeFilter';
 import { useDebounce } from './hooks/useDebounce';
 import { useLocalStorage } from './hooks/useLocalStorage';
 import { formatLastUpdated, isSteamNonGame } from './utils';
+import { Skeleton } from './components/Skeleton';
 
 type SectionProps = {
   games: EpicGame[] | SteamGame[];
@@ -215,16 +216,17 @@ function HomePage() {
         onSortChange={setSortType}
       />
 
-      {data && activeFilter !== 'epic_free' && (
+      {data && activeFilter !== 'epic_free' && activeFilter !== 'wishlist' && (
         <PriceRangeFilter
           minPrice={absoluteMinPrice}
           maxPrice={absoluteMaxPrice}
           range={priceRange}
           onChange={setUserPriceRange}
+          currency={data.epic[0]?.currency || data.steam[0]?.currency || 'UAH'}
         />
       )}
 
-      <Suspense fallback={<div className="deals-grid">{Array.from({ length: 6 }).map((_, i) => <div key={i} className="game-card skeleton-card"><div className="card-image-wrapper skeleton-bg" /><div className="card-content"><div className="skeleton-line skeleton-title" /><div className="skeleton-line skeleton-desc" /></div></div>)}</div>}>
+      <Suspense fallback={<div className="deals-grid"><Skeleton count={6} /></div>}>
         <main>
           {loading && (
             <div className="empty-state loading-state" role="status" aria-live="polite">
@@ -324,16 +326,21 @@ function App() {
 
 function HistoryPageWrapper() {
   const [data, setData] = useState<DealsData | null>(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
+        setLoading(true);
         const baseUrl = import.meta.env.BASE_URL || '/';
         const res = await fetch(`${baseUrl}data/deals.json`, { cache: 'no-cache' });
         if (res.ok) {
           setData(await res.json());
         }
       } catch { /* ignore */ }
+      finally {
+        setLoading(false);
+      }
     };
     fetchData();
   }, []);
@@ -341,7 +348,7 @@ function HistoryPageWrapper() {
   return (
     <ErrorBoundary>
       <div style={{ padding: '24px 0' }}>
-        <HistoryPageLazy data={data} />
+        <HistoryPageLazy data={data} loading={loading} />
       </div>
     </ErrorBoundary>
   );

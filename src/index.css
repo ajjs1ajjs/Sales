@@ -492,6 +492,12 @@ header p {
   font-size: 0.8rem;
 }
 
+.filter-count {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  margin-left: 2px;
+}
+
 /* Sections */
 .section-title {
   font-family: var(--font-heading);
@@ -1200,6 +1206,18 @@ footer a:hover {
 
 .history-item:hover {
   border-color: var(--border-glow-hover);
+}
+
+.history-item--free {
+  border-left: 3px solid var(--accent-free);
+}
+
+.history-item--discount {
+  border-left: 3px solid var(--accent-discount);
+}
+
+.history-item--popular {
+  border-left: 3px solid var(--accent-epic);
 }
 
 .history-item-main {

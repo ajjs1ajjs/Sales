@@ -5,9 +5,10 @@ interface Props {
   maxPrice: number;
   range: [number, number];
   onChange: (range: [number, number]) => void;
+  currency?: string;
 }
 
-export function PriceRangeFilter({ minPrice, maxPrice, range, onChange }: Props) {
+export function PriceRangeFilter({ minPrice, maxPrice, range, onChange, currency = 'UAH' }: Props) {
   const [show, setShow] = useState(false);
 
   const handleMinChange = (val: number) => {
@@ -49,7 +50,7 @@ export function PriceRangeFilter({ minPrice, maxPrice, range, onChange }: Props)
                 onChange={(e) => handleMinChange(Number(e.target.value))}
                 className="price-range-input"
               />{' '}
-              грн
+              {currency}
             </label>
             <label>
               До:{' '}
@@ -61,7 +62,7 @@ export function PriceRangeFilter({ minPrice, maxPrice, range, onChange }: Props)
                 onChange={(e) => handleMaxChange(Number(e.target.value))}
                 className="price-range-input"
               />{' '}
-              грн
+              {currency}
             </label>
             <button
               type="button"
