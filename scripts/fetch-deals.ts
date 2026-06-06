@@ -234,6 +234,13 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
   }
 }
 
+function escapeHtml(str: string): string {
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
 async function sendTelegramMessage(text: string) {
   const token = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
@@ -449,8 +456,8 @@ async function run() {
   if (newFreeGames.length > 0) {
     for (const game of newFreeGames) {
       const text = `🎁 <b>БЕЗКОШТОВНА ГРА В EPIC GAMES STORE!</b>\n\n` +
-                   `🎮 <b>${game.title}</b>\n` +
-                   `📝 ${game.description}\n\n` +
+                   `🎮 <b>${escapeHtml(game.title)}</b>\n` +
+                   `📝 ${escapeHtml(game.description)}\n\n` +
                    `📅 Роздача діє до: <b>${formatDate(game.endDate)}</b>\n\n` +
                    `🔗 <a href="${game.url}">Забрати гру в магазині</a>`;
       await sendTelegramMessage(text);
@@ -461,7 +468,7 @@ async function run() {
     let epicText = `🔥 <b>ГАРЯЧІ ЗНИЖКИ В EPIC GAMES STORE!</b>\n\n`;
     for (const deal of newEpicDiscounts) {
       const pct = deal.discountPercent > 0 ? `-${deal.discountPercent}%` : 'знижка';
-      epicText += `🎮 <b>${deal.title}</b>\n` +
+      epicText += `🎮 <b>${escapeHtml(deal.title)}</b>\n` +
                    `🏷️ Знижка: <b>${pct}</b>\n` +
                    `💰 Ціна: <s>${formatPrice(deal.originalPrice, deal.currency)}</s> ➡️ <b>${formatPrice(deal.discountPrice, deal.currency)}</b>\n` +
                    `🔗 <a href="${deal.url}">Детальніше в Epic Games Store</a>\n\n`;
@@ -473,7 +480,7 @@ async function run() {
   if (newSteamDeals.length > 0) {
     let steamText = `🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 5%)!</b>\n\n`;
     for (const deal of newSteamDeals) {
-      steamText += `🎮 <b>${deal.title}</b>\n` +
+      steamText += `🎮 <b>${escapeHtml(deal.title)}</b>\n` +
                    `🏷️ Знижка: <b>-${deal.discountPercent}%</b>\n` +
                    `💰 Ціна: <s>${formatPrice(deal.originalPrice, deal.currency)}</s> ➡️ <b>${formatPrice(deal.discountPrice, deal.currency)}</b>\n` +
                    `🔗 <a href="${deal.url}">Детальніше в Steam</a>\n\n`;
@@ -489,7 +496,7 @@ async function run() {
         ? `<s>${formatPrice(game.originalPrice, game.currency)}</s> ➡️ <b>${formatPrice(game.discountPrice, game.currency)}</b> (-${game.discountPercent}%)`
         : `<b>${formatPrice(game.discountPrice, game.currency)}</b>`;
       
-      popularText += `🎮 <b>${game.title}</b>\n` +
+      popularText += `🎮 <b>${escapeHtml(game.title)}</b>\n` +
                      `💰 Ціна: ${priceText}\n` +
                      `🔗 <a href="${game.url}">Дивитися в Steam</a>\n\n`;
     }
