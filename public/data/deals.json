@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T13:26:01.638Z",
+  "lastUpdated": "2026-06-06T15:12:41.627Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -196,18 +196,6 @@
       "isPopular": false
     },
     {
-      "id": "2186990",
-      "title": "Fatekeeper",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/5ca53685f69f6112949e416b97565446dc3ff174/capsule_616x353_alt_assets_0.jpg?t=1780742623",
-      "originalPrice": 355,
-      "discountPrice": 284,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2186990",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1551360",
       "title": "Forza Horizon 5",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1746471508",
@@ -220,14 +208,38 @@
       "isPopular": false
     },
     {
-      "id": "242760",
-      "title": "The Forest",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/capsule_616x353.jpg?t=1699381053",
-      "originalPrice": 279,
-      "discountPrice": 61,
-      "discountPercent": 78,
+      "id": "2186990",
+      "title": "Fatekeeper",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/5ca53685f69f6112949e416b97565446dc3ff174/capsule_616x353_alt_assets_0.jpg?t=1780742623",
+      "originalPrice": 355,
+      "discountPrice": 284,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/242760",
+      "url": "https://store.steampowered.com/app/2186990",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1172620",
+      "title": "Sea of Thieves: 2026 Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172620/1617656502fd33cb55deaff55fe1ffada0c51e18/capsule_616x353.jpg?t=1780506905",
+      "originalPrice": 1030,
+      "discountPrice": 360,
+      "discountPercent": 65,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1172620",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2141730",
+      "title": "Backrooms: Escape Together",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780282746",
+      "originalPrice": 225,
+      "discountPrice": 157,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2141730",
       "isSpecial": true,
       "isPopular": false
     },
@@ -288,6 +300,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1962700",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3405690",
+      "title": "EA SPORTS FC™ 26",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1780657408",
+      "originalPrice": 2299,
+      "discountPrice": 460,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3405690",
       "isSpecial": false,
       "isPopular": true
     }
