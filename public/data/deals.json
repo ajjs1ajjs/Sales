@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T15:12:41.627Z",
+  "lastUpdated": "2026-06-06T17:09:47.066Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -196,18 +196,6 @@
       "isPopular": false
     },
     {
-      "id": "1551360",
-      "title": "Forza Horizon 5",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1746471508",
-      "originalPrice": 1199,
-      "discountPrice": 599,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1551360",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2186990",
       "title": "Fatekeeper",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/5ca53685f69f6112949e416b97565446dc3ff174/capsule_616x353_alt_assets_0.jpg?t=1780742623",
@@ -240,6 +228,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2141730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "242760",
+      "title": "The Forest",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/capsule_616x353.jpg?t=1699381053",
+      "originalPrice": 279,
+      "discountPrice": 61,
+      "discountPercent": 78,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/242760",
       "isSpecial": true,
       "isPopular": false
     },
@@ -282,7 +282,7 @@
     {
       "id": "1118520",
       "title": "Paralives",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353.jpg?t=1779721278",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353.jpg?t=1780764457",
       "originalPrice": 740,
       "discountPrice": 740,
       "discountPercent": 0,
