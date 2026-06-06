@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T23:05:41.790Z",
+  "lastUpdated": "2026-06-06T02:50:46.444Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -196,6 +196,18 @@
       "isPopular": false
     },
     {
+      "id": "2141730",
+      "title": "Backrooms: Escape Together",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780282746",
+      "originalPrice": 225,
+      "discountPrice": 157,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2141730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2186990",
       "title": "Fatekeeper",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/5ca53685f69f6112949e416b97565446dc3ff174/capsule_616x353_alt_assets_0.jpg?t=1780424266",
@@ -204,18 +216,6 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2186990",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "242760",
-      "title": "The Forest",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/capsule_616x353.jpg?t=1699381053",
-      "originalPrice": 279,
-      "discountPrice": 61,
-      "discountPercent": 78,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/242760",
       "isSpecial": true,
       "isPopular": false
     },
@@ -232,14 +232,14 @@
       "isPopular": false
     },
     {
-      "id": "2141730",
-      "title": "Backrooms: Escape Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780282746",
-      "originalPrice": 225,
-      "discountPrice": 157,
-      "discountPercent": 30,
+      "id": "1943950",
+      "title": "Escape the Backrooms",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/dd891a9e514ff9f565f36068b738479fb73ac3b2/capsule_616x353.jpg?t=1780394865",
+      "originalPrice": 194,
+      "discountPrice": 155,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2141730",
+      "url": "https://store.steampowered.com/app/1943950",
       "isSpecial": true,
       "isPopular": false
     },
@@ -304,14 +304,14 @@
       "isPopular": true
     },
     {
-      "id": "3405690",
-      "title": "EA SPORTS FC™ 26",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1780657408",
-      "originalPrice": 2299,
-      "discountPrice": 460,
-      "discountPercent": 80,
+      "id": "2246340",
+      "title": "Monster Hunter Wilds",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/a1df989a3b439e15171dc7144c1ce13c32abcae6/capsule_616x353.jpg?t=1780446081",
+      "originalPrice": 1999,
+      "discountPrice": 839,
+      "discountPercent": 58,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3405690",
+      "url": "https://store.steampowered.com/app/2246340",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1121,6 +1121,13 @@
       "percent": 65,
       "timestamp": "2026-06-05T21:23:29.112Z",
       "type": "discount"
+    },
+    "steam_popular_2246340": {
+      "title": "Monster Hunter Wilds",
+      "price": 839,
+      "percent": 58,
+      "timestamp": "2026-06-06T02:50:45.072Z",
+      "type": "popular"
     }
   }
 }
