@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T00:13:51.489Z",
+  "lastUpdated": "2026-06-07T05:20:08.558Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -169,7 +169,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2050650",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "3764200",
@@ -184,18 +184,6 @@
       "isPopular": true
     },
     {
-      "id": "2141730",
-      "title": "Backrooms: Escape Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780282746",
-      "originalPrice": 225,
-      "discountPrice": 157,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2141730",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
@@ -208,14 +196,14 @@
       "isPopular": false
     },
     {
-      "id": "2186990",
-      "title": "Fatekeeper",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/5ca53685f69f6112949e416b97565446dc3ff174/capsule_616x353_alt_assets_0.jpg?t=1780742623",
-      "originalPrice": 355,
-      "discountPrice": 284,
-      "discountPercent": 20,
+      "id": "2141730",
+      "title": "Backrooms: Escape Together",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780282746",
+      "originalPrice": 225,
+      "discountPrice": 157,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2186990",
+      "url": "https://store.steampowered.com/app/2141730",
       "isSpecial": true,
       "isPopular": false
     },
@@ -232,16 +220,40 @@
       "isPopular": false
     },
     {
-      "id": "1172620",
-      "title": "Sea of Thieves: 2026 Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172620/1617656502fd33cb55deaff55fe1ffada0c51e18/capsule_616x353.jpg?t=1780506905",
-      "originalPrice": 1030,
-      "discountPrice": 360,
-      "discountPercent": 65,
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1172620",
+      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isPopular": false
+    },
+    {
+      "id": "2186990",
+      "title": "Fatekeeper",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/5ca53685f69f6112949e416b97565446dc3ff174/capsule_616x353_alt_assets_0.jpg?t=1780742623",
+      "originalPrice": 355,
+      "discountPrice": 284,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2186990",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2483190",
+      "title": "Forza Horizon 6",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1780597114",
+      "originalPrice": 2299,
+      "discountPrice": 2299,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2483190",
+      "isSpecial": false,
+      "isPopular": true
     },
     {
       "id": "1297900",
@@ -268,14 +280,14 @@
       "isPopular": true
     },
     {
-      "id": "2483190",
-      "title": "Forza Horizon 6",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1780597114",
-      "originalPrice": 2299,
-      "discountPrice": 2299,
+      "id": "1962700",
+      "title": "Subnautica 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/ceed43f5d774d84a5578eccaaec6842cb9591667/capsule_616x353.jpg?t=1780372044",
+      "originalPrice": 899,
+      "discountPrice": 899,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2483190",
+      "url": "https://store.steampowered.com/app/1962700",
       "isSpecial": false,
       "isPopular": true
     },
@@ -292,26 +304,14 @@
       "isPopular": true
     },
     {
-      "id": "1962700",
-      "title": "Subnautica 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/ceed43f5d774d84a5578eccaaec6842cb9591667/capsule_616x353.jpg?t=1780372044",
-      "originalPrice": 899,
-      "discountPrice": 899,
-      "discountPercent": 0,
+      "id": "2246340",
+      "title": "Monster Hunter Wilds",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/a1df989a3b439e15171dc7144c1ce13c32abcae6/capsule_616x353.jpg?t=1780446081",
+      "originalPrice": 1999,
+      "discountPrice": 839,
+      "discountPercent": 58,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1962700",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3405690",
-      "title": "EA SPORTS FC™ 26",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1780657408",
-      "originalPrice": 2299,
-      "discountPrice": 460,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3405690",
+      "url": "https://store.steampowered.com/app/2246340",
       "isSpecial": false,
       "isPopular": true
     }
