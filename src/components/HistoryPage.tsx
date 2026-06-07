@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Calendar, ExternalLink, RefreshCw } from 'lucide-react';
 import type { DealsData } from '../types';
 import { formatDate } from '../utils';
@@ -12,7 +12,6 @@ interface Props {
 type HistoryFilter = 'all' | 'free' | 'discount' | 'popular';
 
 export function HistoryPage({ data, loading = false }: Props) {
-  const location = useLocation();
   const [filter, setFilter] = useState<HistoryFilter>('all');
 
   const history = useMemo(() => {
@@ -107,9 +106,9 @@ export function HistoryPage({ data, loading = false }: Props) {
       )}
 
       <p style={{ textAlign: 'center', marginTop: '32px' }}>
-        <a href={location.pathname === '/history' ? '/' : '#/'} className="store-link">
+        <Link to="/" className="store-link">
           На головну
-        </a>
+        </Link>
       </p>
     </div>
   );

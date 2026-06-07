@@ -12,20 +12,19 @@ interface Props {
 }
 
 function sortEpicGames(games: EpicGame[], sortType: SortType): EpicGame[] {
-  const sorted = [...games];
   switch (sortType) {
     case 'name-asc':
-      return sorted.sort((a, b) => a.title.localeCompare(b.title, 'uk'));
+      return games.toSorted((a, b) => a.title.localeCompare(b.title, 'uk'));
     case 'name-desc':
-      return sorted.sort((a, b) => b.title.localeCompare(a.title, 'uk'));
+      return games.toSorted((a, b) => b.title.localeCompare(a.title, 'uk'));
     case 'price-asc':
-      return sorted.sort((a, b) => a.discountPrice - b.discountPrice);
+      return games.toSorted((a, b) => a.discountPrice - b.discountPrice);
     case 'price-desc':
-      return sorted.sort((a, b) => b.discountPrice - a.discountPrice);
+      return games.toSorted((a, b) => b.discountPrice - a.discountPrice);
     case 'discount-desc':
-      return sorted.sort((a, b) => b.discountPercent - a.discountPercent);
+      return games.toSorted((a, b) => b.discountPercent - a.discountPercent);
     default:
-      return sorted;
+      return games;
   }
 }
 

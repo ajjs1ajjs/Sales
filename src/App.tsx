@@ -1,7 +1,7 @@
 import { lazy, useEffect, useState, type FunctionComponent, Suspense, useMemo } from 'react';
-import { HashRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import { Clock, RefreshCw, AlertCircle, History } from 'lucide-react';
-import type { DealsData, FilterType, SortType, EpicGame, SteamGame } from './types';
+import type { FilterType, SortType, EpicGame, SteamGame } from './types';
 import { ErrorBoundary } from './ErrorBoundary';
 import { TelegramBanner } from './components/TelegramBanner';
 import { SearchControls } from './components/SearchControls';
@@ -10,6 +10,7 @@ import { InstallPWA } from './components/InstallPWA';
 import { PriceRangeFilter } from './components/PriceRangeFilter';
 import { useDebounce } from './hooks/useDebounce';
 import { useLocalStorage } from './hooks/useLocalStorage';
+import { DataProvider, useData } from './DataContext';
 import { formatLastUpdated, isSteamNonGame } from './utils';
 import { Skeleton } from './components/Skeleton';
 
@@ -32,10 +33,7 @@ const HistoryPageLazy = lazy(() =>
 );
 
 function HomePage() {
-  const location = useLocation();
-  const [data, setData] = useState<DealsData | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  const { data, loading, error } = useData();
   const [searchQuery, setSearchQuery] = useState('');
   const [activeFilter, setActiveFilter] = useState<FilterType>('all');
   const [sortType, setSortType] = useLocalStorage<SortType>('sort-type', 'default');
@@ -47,35 +45,7 @@ function HomePage() {
   useEffect(() => {
     const theme = localStorage.getItem('theme') || 'dark';
     document.documentElement.setAttribute('data-theme', theme);
-
-    const fetchData = async () => {
-      try {
-        setLoading(true);
-        setUserPriceRange(null);
-        const baseUrl = import.meta.env.BASE_URL || '/';
-        const res = await fetch(`${baseUrl}data/deals.json`, { cache: 'no-cache' });
-
-        if (!res.ok) {
-          throw new Error(`Не вдалося завантажити дані (статус: ${res.status})`);
-        }
-
-        const jsonData = (await res.json()) as DealsData;
-        setData(jsonData);
-        setError(null);
-      } catch (err: unknown) {
-        const message =
-          err instanceof Error
-            ? err.message
-            : 'Сталася помилка при завантаженні знижок.';
-        console.error('Помилка завантаження даних:', err);
-        setError(message);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchData();
-  }, [location.pathname]);
+  }, []);
 
   const { absoluteMinPrice, absoluteMaxPrice } = useMemo(() => {
     if (!data) return { absoluteMinPrice: 0, absoluteMaxPrice: 10000 };
@@ -312,38 +282,22 @@ function HomePage() {
 function App() {
   return (
     <HashRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/history" element={
-          <Suspense fallback={<div className="empty-state loading-state" role="status"><RefreshCw size={40} className="spinner" /><h3>Завантаження...</h3></div>}>
-            <HistoryPageWrapper />
-          </Suspense>
-        } />
-      </Routes>
+      <DataProvider>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/history" element={
+            <Suspense fallback={<div className="empty-state loading-state" role="status"><RefreshCw size={40} className="spinner" /><h3>Завантаження...</h3></div>}>
+              <HistoryPageWrapper />
+            </Suspense>
+          } />
+        </Routes>
+      </DataProvider>
     </HashRouter>
   );
 }
 
 function HistoryPageWrapper() {
-  const [data, setData] = useState<DealsData | null>(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        setLoading(true);
-        const baseUrl = import.meta.env.BASE_URL || '/';
-        const res = await fetch(`${baseUrl}data/deals.json`, { cache: 'no-cache' });
-        if (res.ok) {
-          setData(await res.json());
-        }
-      } catch { /* ignore */ }
-      finally {
-        setLoading(false);
-      }
-    };
-    fetchData();
-  }, []);
+  const { data, loading } = useData();
 
   return (
     <ErrorBoundary>
