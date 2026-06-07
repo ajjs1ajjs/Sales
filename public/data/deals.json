@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T08:52:23.491Z",
+  "lastUpdated": "2026-06-07T11:07:36.214Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -196,18 +196,6 @@
       "isPopular": true
     },
     {
-      "id": "2186990",
-      "title": "Fatekeeper",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/5ca53685f69f6112949e416b97565446dc3ff174/capsule_616x353_alt_assets_0.jpg?t=1780742623",
-      "originalPrice": 355,
-      "discountPrice": 284,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2186990",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1551360",
       "title": "Forza Horizon 5",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1746471508",
@@ -220,14 +208,14 @@
       "isPopular": false
     },
     {
-      "id": "1943950",
-      "title": "Escape the Backrooms",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/dd891a9e514ff9f565f36068b738479fb73ac3b2/capsule_616x353.jpg?t=1780394865",
-      "originalPrice": 194,
-      "discountPrice": 155,
+      "id": "2186990",
+      "title": "Fatekeeper",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/5ca53685f69f6112949e416b97565446dc3ff174/capsule_616x353_alt_assets_0.jpg?t=1780742623",
+      "originalPrice": 355,
+      "discountPrice": 284,
       "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1943950",
+      "url": "https://store.steampowered.com/app/2186990",
       "isSpecial": true,
       "isPopular": false
     },
@@ -240,6 +228,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2141730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "242760",
+      "title": "The Forest",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/capsule_616x353.jpg?t=1699381053",
+      "originalPrice": 279,
+      "discountPrice": 61,
+      "discountPercent": 78,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/242760",
       "isSpecial": true,
       "isPopular": false
     },
@@ -280,18 +280,6 @@
       "isPopular": true
     },
     {
-      "id": "1962700",
-      "title": "Subnautica 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/ceed43f5d774d84a5578eccaaec6842cb9591667/capsule_616x353.jpg?t=1780372044",
-      "originalPrice": 899,
-      "discountPrice": 899,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1962700",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "1118520",
       "title": "Paralives",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353.jpg?t=1780764457",
@@ -300,6 +288,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1118520",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1962700",
+      "title": "Subnautica 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/ceed43f5d774d84a5578eccaaec6842cb9591667/capsule_616x353.jpg?t=1780372044",
+      "originalPrice": 899,
+      "discountPrice": 899,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1962700",
       "isSpecial": false,
       "isPopular": true
     }
