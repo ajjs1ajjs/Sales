@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T13:05:14.831Z",
+  "lastUpdated": "2026-06-08T17:21:17.571Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -160,18 +160,6 @@
       "isPopular": true
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "2050650",
       "title": "Resident Evil 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
@@ -220,18 +208,6 @@
       "isPopular": false
     },
     {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1943950",
       "title": "Escape the Backrooms",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/dd891a9e514ff9f565f36068b738479fb73ac3b2/capsule_616x353.jpg?t=1780394865",
@@ -240,6 +216,18 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1943950",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "242760",
+      "title": "The Forest",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/capsule_616x353.jpg?t=1699381053",
+      "originalPrice": 279,
+      "discountPrice": 61,
+      "discountPercent": 78,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/242760",
       "isSpecial": true,
       "isPopular": false
     },
@@ -268,6 +256,18 @@
       "isPopular": true
     },
     {
+      "id": "1805110",
+      "title": "Solarpunk™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805110/0c963cfd748e799d234f3205ddb9f35787c10323/capsule_616x353.jpg?t=1780935129",
+      "originalPrice": 488,
+      "discountPrice": 488,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1805110",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "2483190",
       "title": "Forza Horizon 6",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1780597114",
@@ -280,26 +280,26 @@
       "isPopular": true
     },
     {
-      "id": "1118520",
-      "title": "Paralives",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353.jpg?t=1780764457",
-      "originalPrice": 740,
-      "discountPrice": 740,
-      "discountPercent": 0,
+      "id": "1597080",
+      "title": "Killer Bean",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1597080/5346955a4a570dfb8c7660983c584614425f9698/capsule_616x353.jpg?t=1780927030",
+      "originalPrice": 335,
+      "discountPrice": 268,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1118520",
+      "url": "https://store.steampowered.com/app/1597080",
       "isSpecial": false,
       "isPopular": true
     },
     {
-      "id": "1962700",
-      "title": "Subnautica 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/ceed43f5d774d84a5578eccaaec6842cb9591667/capsule_616x353.jpg?t=1780372044",
-      "originalPrice": 899,
-      "discountPrice": 899,
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
+      "originalPrice": 1349,
+      "discountPrice": 1349,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1962700",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1151,6 +1151,20 @@
       "percent": 20,
       "timestamp": "2026-06-07T21:09:50.870Z",
       "type": "discount"
+    },
+    "steam_popular_1805110": {
+      "title": "Solarpunk™",
+      "price": 488,
+      "percent": 0,
+      "timestamp": "2026-06-08T17:21:16.433Z",
+      "type": "popular"
+    },
+    "steam_popular_1597080": {
+      "title": "Killer Bean",
+      "price": 268,
+      "percent": 20,
+      "timestamp": "2026-06-08T17:21:16.433Z",
+      "type": "popular"
     }
   }
 }
