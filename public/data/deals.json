@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T23:02:31.140Z",
+  "lastUpdated": "2026-06-08T03:40:43.747Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -193,7 +193,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3764200",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "2141730",
@@ -204,30 +204,6 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2141730",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "996580",
-      "title": "Spyro™ Reignited Trilogy",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/996580/capsule_616x353.jpg?t=1748045178",
-      "originalPrice": 1699,
-      "discountPrice": 424,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/996580",
       "isSpecial": true,
       "isPopular": false
     },
@@ -244,6 +220,30 @@
       "isPopular": false
     },
     {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1765479644",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/275850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_616x353.jpg?t=1763066602",
@@ -256,18 +256,6 @@
       "isPopular": true
     },
     {
-      "id": "1297900",
-      "title": "Gothic 1 Remake",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1780742418",
-      "originalPrice": 1505,
-      "discountPrice": 1505,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1297900",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "2483190",
       "title": "Forza Horizon 6",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1780597114",
@@ -276,6 +264,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2483190",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1297900",
+      "title": "Gothic 1 Remake",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1780742418",
+      "originalPrice": 1505,
+      "discountPrice": 1505,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1297900",
       "isSpecial": false,
       "isPopular": true
     },
@@ -312,18 +312,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2806050",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3405690",
-      "title": "EA SPORTS FC™ 26",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1780657408",
-      "originalPrice": 2299,
-      "discountPrice": 460,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3405690",
       "isSpecial": false,
       "isPopular": true
     }
