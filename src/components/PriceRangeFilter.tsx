@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useLocale } from '../contexts/LocaleContext';
 
 interface Props {
   minPrice: number;
@@ -9,16 +10,17 @@ interface Props {
 }
 
 export function PriceRangeFilter({ minPrice, maxPrice, range, onChange, currency = 'UAH' }: Props) {
+  const { t } = useLocale();
   const [show, setShow] = useState(false);
 
   const handleMinChange = (val: number) => {
-    // Clamp min change to absolute minPrice and current max range value
+    if (isNaN(val)) return;
     const clamped = Math.max(minPrice, Math.min(val, range[1]));
     onChange([clamped, range[1]]);
   };
 
   const handleMaxChange = (val: number) => {
-    // Clamp max change to current min range value and absolute maxPrice
+    if (isNaN(val)) return;
     const clamped = Math.max(range[0], Math.min(val, maxPrice));
     onChange([range[0], clamped]);
   };
@@ -34,14 +36,14 @@ export function PriceRangeFilter({ minPrice, maxPrice, range, onChange, currency
         className={`price-range-toggle${show ? ' active' : ''}`}
         onClick={() => setShow((s) => !s)}
       >
-        {show ? 'Приховати фільтр ціни' : 'Фільтр за ціною'}
+        {show ? t.price.filterHide : t.price.filterToggle}
       </button>
 
       {show && (
         <div className="price-range-content">
           <div className="price-range-inputs">
             <label>
-              Від:{' '}
+              {t.price.from}{' '}
               <input
                 type="number"
                 min={minPrice}
@@ -53,7 +55,7 @@ export function PriceRangeFilter({ minPrice, maxPrice, range, onChange, currency
               {currency}
             </label>
             <label>
-              До:{' '}
+              {t.price.to}{' '}
               <input
                 type="number"
                 min={minPrice}
@@ -69,7 +71,7 @@ export function PriceRangeFilter({ minPrice, maxPrice, range, onChange, currency
               className="filter-btn filter-btn--sm"
               onClick={handleReset}
             >
-              Скинути
+              {t.price.reset}
             </button>
           </div>
         </div>

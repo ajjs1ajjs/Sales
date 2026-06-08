@@ -1,7 +1,9 @@
 import { Send, X } from 'lucide-react';
+import { useLocale } from '../contexts/LocaleContext';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 
 export function TelegramBanner() {
+  const { t } = useLocale();
   const [isDismissed, setIsDismissed] = useLocalStorage<boolean>('telegram-banner-dismissed', false);
 
   if (isDismissed) return null;
@@ -11,11 +13,10 @@ export function TelegramBanner() {
       <div className="tg-info">
         <h3>
           <Send size={22} className="text-telegram" aria-hidden="true" />
-          {' '}Приєднуйтесь до нашого Telegram-каналу!
+          {' '}{t.telegram.title}
         </h3>
         <p>
-          Отримуйте миттєві сповіщення про безкоштовні ігри, будь-які знижки
-          Steam, нові релізи та хіти продажів щогодини.
+          {t.telegram.desc}
         </p>
       </div>
       <div className="tg-actions" style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
@@ -24,15 +25,15 @@ export function TelegramBanner() {
           target="_blank"
           rel="noopener noreferrer"
           className="tg-button"
-          aria-label="Підписатися на Telegram-канал"
+          aria-label={t.telegram.subscribe}
         >
-          <Send size={18} aria-hidden="true" /> Підписатися
+          <Send size={18} aria-hidden="true" /> {t.telegram.subscribe}
         </a>
         <button
           type="button"
           className="install-dismiss"
           onClick={() => setIsDismissed(true)}
-          aria-label="Приховати банер Telegram-каналу"
+          aria-label={t.telegram.dismiss}
         >
           <X size={18} />
         </button>

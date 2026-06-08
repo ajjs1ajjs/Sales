@@ -1,7 +1,8 @@
 import { useMemo } from 'react';
 import { Flame, TrendingUp, Gamepad2 } from 'lucide-react';
+import { useLocale } from '../contexts/LocaleContext';
 import type { SteamGame, FilterType, SortType } from '../types';
-import { isSteamNonGame } from '../utils';
+import { sortGames } from '../utils';
 import { GameCard } from './GameCard';
 import { ShowMore } from './ShowMore';
 
@@ -13,31 +14,15 @@ interface Props {
   nonGameIds?: Set<string>;
 }
 
-function sortSteamGames(games: SteamGame[], sortType: SortType): SteamGame[] {
-  switch (sortType) {
-    case 'name-asc':
-      return games.toSorted((a, b) => a.title.localeCompare(b.title, 'uk'));
-    case 'name-desc':
-      return games.toSorted((a, b) => b.title.localeCompare(a.title, 'uk'));
-    case 'price-asc':
-      return games.toSorted((a, b) => a.discountPrice - b.discountPrice);
-    case 'price-desc':
-      return games.toSorted((a, b) => b.discountPrice - a.discountPrice);
-    case 'discount-desc':
-      return games.toSorted((a, b) => b.discountPercent - a.discountPercent);
-    default:
-      return games;
-  }
-}
-
 export function SteamSection({ games, activeFilter, searchQuery, sortType, nonGameIds }: Props) {
-  const sorted = useMemo(() => sortSteamGames(games, sortType), [games, sortType]);
+  const { t } = useLocale();
+  const sorted = useMemo(() => sortGames(games, sortType), [games, sortType]);
 
   const specials = sorted.filter((g) => g.isSpecial);
   const popular = sorted.filter((g) => {
     if (!g.isPopular) return false;
     if (nonGameIds?.has(g.id)) return false;
-    return !isSteamNonGame(g.imageUrl);
+    return true;
   });
 
   return (
@@ -46,16 +31,13 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, nonGa
         <section aria-labelledby="steam-specials-title">
           <h2 id="steam-specials-title" className="section-title">
             <Flame size={22} className="icon-steam" aria-hidden="true" />
-            Гарячі знижки Steam
+            {t.steam.specialsTitle}
           </h2>
 
           {specials.length === 0 ? (
             <div className="empty-state section-gap-bottom">
-              <h3>Нічого не знайдено</h3>
-              <p>
-                Наразі немає активних знижок у Steam, що відповідають вашому
-                пошуку.
-              </p>
+              <h3>{t.steam.emptySpecials}</h3>
+              <p>{t.steam.emptySpecialsDesc}</p>
             </div>
           ) : (
             <div className="deals-grid section-gap-bottom">
@@ -80,15 +62,13 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, nonGa
         <section aria-labelledby="steam-popular-title">
           <h2 id="steam-popular-title" className="section-title">
             <TrendingUp size={22} className="icon-epic" aria-hidden="true" />
-            Трендові ігри Steam (Top Sellers)
+            {t.steam.popularTitle}
           </h2>
 
           {popular.length === 0 ? (
             <div className="empty-state section-gap-bottom">
-              <h3>Нічого не знайдено</h3>
-              <p>
-                Не вдалося знайти популярних ігор, що відповідають запиту.
-              </p>
+              <h3>{t.steam.emptyPopular}</h3>
+              <p>{t.steam.emptyPopularDesc}</p>
             </div>
           ) : (
             <div className="deals-grid section-gap-bottom">
@@ -112,8 +92,8 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, nonGa
       {activeFilter === 'all' && games.length === 0 && searchQuery && (
         <div className="empty-state section-gap-top">
           <Gamepad2 size={48} className="icon-muted" aria-hidden="true" />
-          <h3>За запитом &ldquo;{searchQuery}&rdquo; ігор не знайдено</h3>
-          <p>Спробуйте змінити пошуковий запит або скинути фільтри.</p>
+          <h3>{t.app.notFoundTitle.replace('{query}', searchQuery)}</h3>
+          <p>{t.app.notFoundDesc}</p>
         </div>
       )}
     </>

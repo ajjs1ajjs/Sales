@@ -1,4 +1,5 @@
 import { Search, X } from 'lucide-react';
+import { useLocale } from '../contexts/LocaleContext';
 import type { FilterType, SortType } from '../types';
 import { SortControls } from './SortControls';
 
@@ -12,15 +13,6 @@ interface Props {
   onSortChange: (sort: SortType) => void;
 }
 
-const filters: { key: FilterType; label: string }[] = [
-  { key: 'all', label: 'Всі категорії' },
-  { key: 'epic_free', label: 'Epic Роздачі' },
-  { key: 'epic_discount', label: 'Epic Знижки' },
-  { key: 'steam_specials', label: 'Steam Знижки' },
-  { key: 'steam_popular', label: 'Steam Тренди' },
-  { key: 'wishlist', label: 'Обране' },
-];
-
 export function SearchControls({
   searchQuery,
   onSearchChange,
@@ -30,18 +22,28 @@ export function SearchControls({
   sortType,
   onSortChange,
 }: Props) {
+  const { t } = useLocale();
+  const filters: { key: FilterType; label: string }[] = [
+    { key: 'all', label: t.filters.all },
+    { key: 'epic_free', label: t.filters.epicFree },
+    { key: 'epic_discount', label: t.filters.epicDiscount },
+    { key: 'steam_specials', label: t.filters.steamSpecials },
+    { key: 'steam_popular', label: t.filters.steamPopular },
+    { key: 'wishlist', label: t.filters.wishlist },
+  ];
+
   return (
-    <section className="controls-container" aria-label="Фільтри та пошук">
+    <section className="controls-container" aria-label={t.filters.controlsAria}>
       <div className="controls-top">
         <div className="search-wrapper">
           <Search size={18} className="search-icon" aria-hidden="true" />
           <label htmlFor="search-games" className="visually-hidden">
-            Пошук гри за назвою
+            {t.app.searchLabel}
           </label>
           <input
             type="text"
             id="search-games"
-            placeholder="Пошук гри за назвою..."
+            placeholder={t.app.searchPlaceholder}
             value={searchQuery}
             onChange={(e) => onSearchChange(e.target.value)}
             className="search-input"
@@ -51,7 +53,7 @@ export function SearchControls({
               type="button"
               className="clear-search-btn"
               onClick={() => onSearchChange('')}
-              aria-label="Очистити пошук"
+              aria-label={t.app.clearSearch}
             >
               <X size={16} />
             </button>
@@ -60,7 +62,7 @@ export function SearchControls({
         <SortControls sortType={sortType} onSortChange={onSortChange} />
       </div>
 
-      <div className="filter-group" role="group" aria-label="Фільтри категорій">
+      <div className="filter-group" role="group" aria-label={t.filters.ariaLabel}>
         {filters.map(({ key, label }) => {
           const count = filterCounts ? filterCounts[key] : undefined;
           return (

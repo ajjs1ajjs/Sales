@@ -1,7 +1,12 @@
 import { render, screen } from '@testing-library/react';
 import { describe, it, expect } from 'vitest';
+import { LocaleProvider } from '../../contexts/LocaleContext';
 import { GameCard } from '../GameCard';
 import type { EpicGame, SteamGame } from '../../types';
+
+function Wrapper({ children }: { children: React.ReactNode }) {
+  return <LocaleProvider>{children}</LocaleProvider>;
+}
 
 const mockEpicGame: EpicGame = {
   id: 'epic-1',
@@ -35,7 +40,7 @@ const mockSteamGame: SteamGame = {
 
 describe('GameCard', () => {
   it('renders Epic free game', () => {
-    render(<GameCard game={mockEpicGame} platform="epic" badge="FREE" badgeVariant="free" linkText="Забрати" />);
+    render(<GameCard game={mockEpicGame} platform="epic" badge="FREE" badgeVariant="free" linkText="Забрати" />, { wrapper: Wrapper });
     expect(screen.getByText('Test Epic Game')).toBeInTheDocument();
     expect(screen.getByText('FREE')).toBeInTheDocument();
     expect(screen.getByText('БЕЗКОШТОВНО')).toBeInTheDocument();
@@ -43,14 +48,14 @@ describe('GameCard', () => {
   });
 
   it('renders Steam discount game', () => {
-    render(<GameCard game={mockSteamGame} platform="steam" badge="-50%" showTagDescription />);
+    render(<GameCard game={mockSteamGame} platform="steam" badge="-50%" showTagDescription />, { wrapper: Wrapper });
     expect(screen.getByText('Test Steam Game')).toBeInTheDocument();
     expect(screen.getByText('-50%')).toBeInTheDocument();
     expect(screen.getByText('Придбати')).toBeInTheDocument();
   });
 
   it('renders platform badges', () => {
-    const { rerender } = render(<GameCard game={mockEpicGame} platform="epic" />);
+    const { rerender } = render(<GameCard game={mockEpicGame} platform="epic" />, { wrapper: Wrapper });
     expect(screen.getByText('Epic Games')).toBeInTheDocument();
 
     rerender(<GameCard game={mockSteamGame} platform="steam" />);
@@ -58,26 +63,26 @@ describe('GameCard', () => {
   });
 
   it('shows current price', () => {
-    render(<GameCard game={mockSteamGame} platform="steam" />);
+    render(<GameCard game={mockSteamGame} platform="steam" />, { wrapper: Wrapper });
     expect(screen.getByText('14.99 грн')).toBeInTheDocument();
   });
 
   it('shows original price with strikethrough', () => {
-    render(<GameCard game={mockSteamGame} platform="steam" />);
+    render(<GameCard game={mockSteamGame} platform="steam" />, { wrapper: Wrapper });
     const originalPrice = screen.getByText('29.99 грн');
     expect(originalPrice).toBeInTheDocument();
     expect(originalPrice.className).toContain('price-original');
   });
 
   it('renders link with correct href', () => {
-    render(<GameCard game={mockEpicGame} platform="epic" linkText="Забрати" />);
+    render(<GameCard game={mockEpicGame} platform="epic" linkText="Забрати" />, { wrapper: Wrapper });
     const link = screen.getByRole('link', { name: /забрати/i });
     expect(link).toHaveAttribute('href', mockEpicGame.url);
     expect(link).toHaveAttribute('target', '_blank');
   });
 
   it('renders wishlist button', () => {
-    render(<GameCard game={mockEpicGame} platform="epic" />);
+    render(<GameCard game={mockEpicGame} platform="epic" />, { wrapper: Wrapper });
     expect(screen.getByRole('button', { name: /додати.*в обране/i })).toBeInTheDocument();
   });
 });

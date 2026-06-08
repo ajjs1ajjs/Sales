@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useState, type ReactElement } from 'react';
 import { ExternalLink, Tag, TrendingUp } from 'lucide-react';
+import { useLocale } from '../contexts/LocaleContext';
 import type { EpicGame, SteamGame } from '../types';
 import { formatPrice, formatDate, isEpicGame } from '../utils';
 import { WishlistButton } from './WishlistButton';
@@ -25,21 +26,19 @@ const escapeRegExp = (str: string) => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 
 function highlightText(text: string, highlight: string) {
   if (!highlight.trim()) return <span>{text}</span>;
-  const regex = new RegExp(`(${escapeRegExp(highlight)})`, 'gi');
+  const escaped = escapeRegExp(highlight);
+  const regex = new RegExp(escaped, 'gi');
   const parts = text.split(regex);
-  return (
-    <span>
-      {parts.map((part, i) =>
-        regex.test(part) ? (
-          <mark key={i} className="highlighted-text">
-            {part}
-          </mark>
-        ) : (
-          part
-        )
-      )}
-    </span>
-  );
+  const result: ReactElement[] = [];
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  while ((match = regex.exec(text)) !== null) {
+    result.push(<span key={`t-${lastIndex}`}>{parts[lastIndex]}</span>);
+    result.push(<mark key={`m-${match.index}`} className="highlighted-text">{match[0]}</mark>);
+    lastIndex++;
+  }
+  result.push(<span key={`t-${lastIndex}`}>{parts[lastIndex]}</span>);
+  return <>{result}</>;
 }
 
 export function GameCard({
@@ -50,15 +49,17 @@ export function GameCard({
   showTagDescription,
   showTrendingDescription,
   isUpcoming,
-  linkText = 'Придбати',
+  linkText,
   searchQuery = '',
 }: Props) {
+  const { t } = useLocale();
   const [imgError, setImgError] = useState(false);
+  const defaultLinkText = linkText ?? t.steam.buy;
 
   return (
     <article
       className={`game-card${isUpcoming ? ' game-card--upcoming' : ''}`}
-      aria-label={`${game.title} — ${platform === 'epic' ? 'Epic Games' : 'Steam'}`}
+      aria-label={t.platform.gameAria.replace('{title}', game.title).replace('{platform}', platform === 'epic' ? t.platform.epic : t.platform.steam)}
     >
       <div className="card-image-wrapper">
         <span className={`platform-badge ${platform}`}>
@@ -94,21 +95,21 @@ export function GameCard({
           <p className="card-desc card-desc--with-icon">
             <Tag size={14} aria-hidden="true" />{' '}
             {platform === 'epic'
-              ? 'Тимчасова знижка в Epic Games Store.'
-              : 'Найкращі акційні пропозиції у Steam.'}
+              ? t.epic.discountTag
+              : t.steam.specialsTag}
           </p>
         )}
 
         {showTrendingDescription && (
           <p className="card-desc card-desc--with-icon">
-            <TrendingUp size={14} aria-hidden="true" /> Хіт продажів прямо зараз.
+            <TrendingUp size={14} aria-hidden="true" /> {t.steam.trendingDesc}
           </p>
         )}
 
         {isUpcoming && (
           <p className="card-desc">
             <span className="upcoming-status">
-              З {formatDate((game as EpicGame).startDate)}
+              {t.date.from.replace('{date}', formatDate((game as EpicGame).startDate))}
             </span>
           </p>
         )}
@@ -121,7 +122,7 @@ export function GameCard({
               </span>
             )}
             {'isFreeNow' in game && game.isFreeNow ? (
-              <span className="price-current free-text">БЕЗКОШТОВНО</span>
+              <span className="price-current free-text">{t.price.free}</span>
             ) : (
               <span className="price-current">
                 {formatPrice(game.discountPrice, game.currency)}
@@ -133,9 +134,9 @@ export function GameCard({
             target="_blank"
             rel="noopener noreferrer"
             className="store-link"
-            aria-label={`${linkText} ${game.title}`}
+            aria-label={`${defaultLinkText} ${game.title}`}
           >
-            {linkText} <ExternalLink size={14} aria-hidden="true" />
+            {defaultLinkText} <ExternalLink size={14} aria-hidden="true" />
           </a>
         </div>
       </div>

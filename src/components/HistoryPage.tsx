@@ -1,17 +1,20 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Calendar, ExternalLink, RefreshCw } from 'lucide-react';
+import { useLocale } from '../contexts/LocaleContext';
 import type { DealsData } from '../types';
 import { formatDate } from '../utils';
 
 interface Props {
   data: DealsData | null;
   loading?: boolean;
+  locale?: string;
 }
 
 type HistoryFilter = 'all' | 'free' | 'discount' | 'popular';
 
 export function HistoryPage({ data, loading = false }: Props) {
+  const { t } = useLocale();
   const [filter, setFilter] = useState<HistoryFilter>('all');
 
   const history = useMemo(() => {
@@ -30,7 +33,7 @@ export function HistoryPage({ data, loading = false }: Props) {
     return (
       <div className="empty-state loading-state" role="status" aria-live="polite">
         <RefreshCw size={40} className="spinner" aria-hidden="true" />
-        <h3>Завантаження історії...</h3>
+        <h3>{t.history.loading}</h3>
         <p>Будь ласка, зачекайте.</p>
       </div>
     );
@@ -40,8 +43,8 @@ export function HistoryPage({ data, loading = false }: Props) {
     return (
       <div className="empty-state" role="status">
         <Calendar size={40} className="icon-muted" aria-hidden="true" />
-        <h3>Історія недоступна</h3>
-        <p>Завантажте дані, щоб переглянути історію знижок.</p>
+        <h3>{t.history.unavailable}</h3>
+        <p>{t.history.unavailableDesc}</p>
       </div>
     );
   }
@@ -51,19 +54,19 @@ export function HistoryPage({ data, loading = false }: Props) {
       <div className="history-header">
         <h1 className="history-title">
           <Calendar size={24} aria-hidden="true" />
-          Історія сповіщень
+          {t.history.title}
         </h1>
         <p className="history-subtitle">
-          Останні 30 днів виявлених знижок, роздач та хітів продажів.
+          {t.history.subtitle}
         </p>
       </div>
 
-      <div className="history-filters" role="group" aria-label="Фільтри історії">
+      <div className="history-filters" role="group" aria-label={t.history.filterAria}>
         {([
-          ['all', 'Всі'],
-          ['free', 'Роздачі'],
-          ['discount', 'Знижки'],
-          ['popular', 'Тренди'],
+          ['all', t.history.all],
+          ['free', t.history.free],
+          ['discount', t.history.discount],
+          ['popular', t.history.popular],
         ] as [HistoryFilter, string][]).map(([key, label]) => (
           <button
             key={key}
@@ -79,8 +82,8 @@ export function HistoryPage({ data, loading = false }: Props) {
 
       {filtered.length === 0 ? (
         <div className="empty-state">
-          <h3>Немає записів</h3>
-          <p>За цим фільтром історія порожня.</p>
+          <h3>{t.history.empty}</h3>
+          <p>{t.history.emptyDesc}</p>
         </div>
       ) : (
         <div className="history-list">
@@ -88,7 +91,7 @@ export function HistoryPage({ data, loading = false }: Props) {
             <div key={item.key} className={`history-item history-item--${item.type}`}>
               <div className="history-item-main">
                 <span className={`history-badge history-badge--${item.type}`}>
-                  {item.type === 'free' ? 'FREE' : item.type === 'discount' ? `-${item.percent}%` : 'TOP'}
+                  {item.type === 'free' ? t.history.freeBadge : item.type === 'discount' ? `-${item.percent}%` : t.history.topBadge}
                 </span>
                 <span className="history-item-title">{item.title}</span>
               </div>
@@ -107,7 +110,7 @@ export function HistoryPage({ data, loading = false }: Props) {
 
       <p style={{ textAlign: 'center', marginTop: '32px' }}>
         <Link to="/" className="store-link">
-          На головну
+          {t.app.backToHome}
         </Link>
       </p>
     </div>
