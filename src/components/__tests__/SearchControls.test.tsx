@@ -5,7 +5,7 @@ import { SearchControls } from '../SearchControls';
 import type { FilterType } from '../../types';
 
 function Wrapper({ children }: { children: React.ReactNode }) {
-  return <LocaleProvider>{children}</LocaleProvider>;
+  return <LocaleProvider initialLocale="uk">{children}</LocaleProvider>;
 }
 
 describe('SearchControls', () => {

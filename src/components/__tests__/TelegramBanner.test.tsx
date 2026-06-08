@@ -4,7 +4,7 @@ import { LocaleProvider } from '../../contexts/LocaleContext';
 import { TelegramBanner } from '../TelegramBanner';
 
 function Wrapper({ children }: { children: React.ReactNode }) {
-  return <LocaleProvider>{children}</LocaleProvider>;
+  return <LocaleProvider initialLocale="uk">{children}</LocaleProvider>;
 }
 
 describe('TelegramBanner', () => {

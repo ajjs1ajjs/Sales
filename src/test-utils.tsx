@@ -5,7 +5,7 @@ import { LocaleProvider } from './contexts/LocaleContext';
 
 function AllProviders({ children }: { children: React.ReactNode }) {
   return (
-    <LocaleProvider>
+    <LocaleProvider initialLocale="uk">
       {children}
     </LocaleProvider>
   );

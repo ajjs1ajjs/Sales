@@ -28,8 +28,8 @@ function getInitialLocale(): Locale {
 
 const LocaleContext = createContext<LocaleContextValue | null>(null);
 
-export function LocaleProvider({ children }: { children: ReactNode }) {
-  const [locale, setLocaleState] = useState<Locale>(getInitialLocale);
+export function LocaleProvider({ children, initialLocale }: { children: ReactNode; initialLocale?: Locale }) {
+  const [locale, setLocaleState] = useState<Locale>(initialLocale ?? getInitialLocale);
 
   const setLocale = useCallback((l: Locale) => {
     setLocaleState(l);
