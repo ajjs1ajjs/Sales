@@ -2,7 +2,7 @@ import { lazy, useEffect, useState, type FunctionComponent, Suspense, useMemo } 
 import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import { Clock, RefreshCw, AlertCircle, History } from 'lucide-react';
 import type { FilterType, SortType, EpicGame, SteamGame } from './types';
-import { ErrorBoundary } from './ErrorBoundary';
+import { ErrorBoundaryWithLocale } from './components/ErrorBoundaryWithLocale';
 import { TelegramBanner } from './components/TelegramBanner';
 import { SearchControls } from './components/SearchControls';
 import { ThemeToggle } from './components/ThemeToggle';
@@ -151,7 +151,7 @@ function HomePage() {
   const historyAria = locale === 'en' ? 'Notification history' : 'Історія сповіщень';
 
   return (
-    <ErrorBoundary>
+    <ErrorBoundaryWithLocale>
       <header>
         <div className="header-top">
           <div className="header-left" />
@@ -275,7 +275,7 @@ function HomePage() {
           {t.app.footerLink.split('{link}')[1] || '.'}
         </p>
       </footer>
-    </ErrorBoundary>
+    </ErrorBoundaryWithLocale>
   );
 }
 
@@ -303,11 +303,11 @@ function HistoryPageWrapper() {
   const { locale } = useLocale();
 
   return (
-    <ErrorBoundary>
+    <ErrorBoundaryWithLocale>
       <div style={{ padding: '24px 0' }}>
         <HistoryPageLazy data={data} loading={loading} locale={locale} />
       </div>
-    </ErrorBoundary>
+    </ErrorBoundaryWithLocale>
   );
 }
 

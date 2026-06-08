@@ -37,6 +37,7 @@
 - **Темна/світла тема** — перемикання одним кліком
 - **PWA** — можливість встановити як додаток на телефон/ПК
 - **Офлайн-режим** — кешування через Service Worker
+- **Двомовність** — українська та англійська мови (перемикання в хедері)
 - **SEO** — Open Graph, Twitter Cards, JSON-LD, sitemap.xml
 
 ---
@@ -67,6 +68,7 @@ GitHub Actions запускає скрипт
 
 - **Frontend:** React 19 + TypeScript + Vite + React Router
 - **Стилі:** Vanilla CSS з Glassmorphism-ефектами, темна/світла теми
+- **Локалізація:** Власна i18n система (LocaleContext) — українська та англійська мови
 - **Скрипт збору даних:** Node.js + TypeScript (tsx)
 - **Автоматизація:** GitHub Actions (cron кожну годину)
 - **Хостинг:** GitHub Pages
