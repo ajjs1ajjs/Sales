@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T20:11:02.180Z",
+  "lastUpdated": "2026-06-08T22:24:10.902Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -148,18 +148,6 @@
   ],
   "steam": [
     {
-      "id": "1326470",
-      "title": "Sons Of The Forest",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
-      "originalPrice": 600,
-      "discountPrice": 180,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1326470",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1649240",
       "title": "Returnal™",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1649240/capsule_616x353.jpg?t=1750956860",
@@ -168,6 +156,18 @@
       "discountPercent": 67,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1649240",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "1326470",
+      "title": "Sons Of The Forest",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
+      "originalPrice": 600,
+      "discountPrice": 180,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1326470",
       "isSpecial": true,
       "isPopular": false
     },
@@ -220,18 +220,6 @@
       "isPopular": false
     },
     {
-      "id": "242760",
-      "title": "The Forest",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/capsule_616x353.jpg?t=1699381053",
-      "originalPrice": 279,
-      "discountPrice": 61,
-      "discountPercent": 78,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/242760",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1943950",
       "title": "Escape the Backrooms",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/dd891a9e514ff9f565f36068b738479fb73ac3b2/capsule_616x353.jpg?t=1780394865",
@@ -242,18 +230,6 @@
       "url": "https://store.steampowered.com/app/1943950",
       "isSpecial": true,
       "isPopular": false
-    },
-    {
-      "id": "1297900",
-      "title": "Gothic 1 Remake",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1780742418",
-      "originalPrice": 1505,
-      "discountPrice": 1505,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1297900",
-      "isSpecial": false,
-      "isPopular": true
     },
     {
       "id": "1675200",
@@ -276,6 +252,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2483190",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1297900",
+      "title": "Gothic 1 Remake",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1780742418",
+      "originalPrice": 1505,
+      "discountPrice": 1505,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1297900",
       "isSpecial": false,
       "isPopular": true
     },
@@ -312,30 +300,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1962700",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "2963950",
-      "title": "Persona 4 Revival ",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963950/3140a9b2a44d4aee620475ecb5c8833fb5b004d9/capsule_616x353.jpg?t=1780949357",
-      "originalPrice": 2399,
-      "discountPrice": 2399,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2963950",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3405690",
-      "title": "EA SPORTS FC™ 26",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1780657408",
-      "originalPrice": 2299,
-      "discountPrice": 460,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3405690",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1214,6 +1178,13 @@
       "price": 2399,
       "percent": 0,
       "timestamp": "2026-06-08T20:11:00.202Z",
+      "type": "popular"
+    },
+    "steam_popular_1649240": {
+      "title": "Returnal™",
+      "price": 560,
+      "percent": 67,
+      "timestamp": "2026-06-08T22:24:09.225Z",
       "type": "popular"
     }
   }
