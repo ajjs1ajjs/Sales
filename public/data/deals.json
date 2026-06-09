@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T05:02:36.583Z",
+  "lastUpdated": "2026-06-09T09:37:50.827Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -172,18 +172,6 @@
       "isPopular": false
     },
     {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1778274309",
-      "originalPrice": 187,
-      "discountPrice": 149,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "2050650",
       "title": "Resident Evil 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
@@ -196,26 +184,14 @@
       "isPopular": false
     },
     {
-      "id": "2141730",
-      "title": "Backrooms: Escape Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780282746",
-      "originalPrice": 225,
-      "discountPrice": 157,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2141730",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1943950",
-      "title": "Escape the Backrooms",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/dd891a9e514ff9f565f36068b738479fb73ac3b2/capsule_616x353.jpg?t=1780394865",
-      "originalPrice": 194,
-      "discountPrice": 155,
+      "id": "4148240",
+      "title": "Road to Empress II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148240/bf648d7ecd91d614cf5b5dc5d5b138c3bc38c1f3/capsule_616x353.jpg?t=1780997401",
+      "originalPrice": 600,
+      "discountPrice": 480,
       "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1943950",
+      "url": "https://store.steampowered.com/app/4148240",
       "isSpecial": true,
       "isPopular": false
     },
@@ -232,14 +208,38 @@
       "isPopular": false
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_616x353.jpg?t=1763066602",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "3892270",
+      "title": "Gamble With Your Friends",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1778274309",
+      "originalPrice": 187,
+      "discountPrice": 149,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3892270",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2141730",
+      "title": "Backrooms: Escape Together",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780282746",
+      "originalPrice": 225,
+      "discountPrice": 157,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2141730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1297900",
+      "title": "Gothic 1 Remake",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1780965412",
+      "originalPrice": 1505,
+      "discountPrice": 1505,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
+      "url": "https://store.steampowered.com/app/1297900",
       "isSpecial": false,
       "isPopular": true
     },
@@ -256,38 +256,38 @@
       "isPopular": true
     },
     {
-      "id": "1297900",
-      "title": "Gothic 1 Remake",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1780965412",
-      "originalPrice": 1505,
-      "discountPrice": 1505,
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_616x353.jpg?t=1763066602",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1297900",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     },
     {
-      "id": "1805110",
-      "title": "Solarpunk™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805110/0c963cfd748e799d234f3205ddb9f35787c10323/capsule_616x353.jpg?t=1780935129",
-      "originalPrice": 488,
-      "discountPrice": 488,
+      "id": "1202520",
+      "title": "Fallout 1st",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
+      "originalPrice": 399,
+      "discountPrice": 399,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1805110",
+      "url": "https://store.steampowered.com/app/1202520",
       "isSpecial": false,
       "isPopular": true
     },
     {
-      "id": "3405690",
-      "title": "EA SPORTS FC™ 26",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1780657408",
-      "originalPrice": 2299,
-      "discountPrice": 460,
-      "discountPercent": 80,
+      "id": "1289670",
+      "title": "EA Play",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289670/1112f4ade4cf62ffeda41801985d1159a294faa5/capsule_616x353.jpg?t=1776976561",
+      "originalPrice": 129,
+      "discountPrice": 129,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3405690",
+      "url": "https://store.steampowered.com/app/1289670",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1173,6 +1173,20 @@
       "price": 560,
       "percent": 67,
       "timestamp": "2026-06-08T22:24:09.225Z",
+      "type": "popular"
+    },
+    "steam_discount_4148240": {
+      "title": "Road to Empress II",
+      "price": 480,
+      "percent": 20,
+      "timestamp": "2026-06-09T09:37:48.709Z",
+      "type": "discount"
+    },
+    "steam_popular_1289670": {
+      "title": "EA Play",
+      "price": 129,
+      "percent": 0,
+      "timestamp": "2026-06-09T09:37:48.709Z",
       "type": "popular"
     }
   }
