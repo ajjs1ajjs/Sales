@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T18:00:06.184Z",
+  "lastUpdated": "2026-06-09T20:19:00.440Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -184,14 +184,14 @@
       "isPopular": false
     },
     {
-      "id": "2050650",
-      "title": "Resident Evil 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
-      "originalPrice": 1200,
-      "discountPrice": 300,
-      "discountPercent": 75,
+      "id": "3892270",
+      "title": "Gamble With Your Friends",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1778274309",
+      "originalPrice": 187,
+      "discountPrice": 149,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2050650",
+      "url": "https://store.steampowered.com/app/3892270",
       "isSpecial": true,
       "isPopular": false
     },
@@ -208,26 +208,26 @@
       "isPopular": false
     },
     {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1778274309",
-      "originalPrice": 187,
-      "discountPrice": 149,
-      "discountPercent": 20,
+      "id": "1627720",
+      "title": "Lies of P",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/capsule_616x353.jpg?t=1764565054",
+      "originalPrice": 1625,
+      "discountPrice": 812,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
+      "url": "https://store.steampowered.com/app/1627720",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "3764200",
-      "title": "Resident Evil Requiem",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
-      "originalPrice": 1999,
-      "discountPrice": 1599,
-      "discountPercent": 20,
+      "id": "2050650",
+      "title": "Resident Evil 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
+      "originalPrice": 1200,
+      "discountPrice": 300,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3764200",
+      "url": "https://store.steampowered.com/app/2050650",
       "isSpecial": true,
       "isPopular": false
     },
@@ -276,6 +276,30 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2483190",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2866670",
+      "title": "NBA THE RUN",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2866670/e878a7992ad8b7907828212b49418ed26d86dca2/capsule_616x353.jpg?t=1781027947",
+      "originalPrice": 620,
+      "discountPrice": 620,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2866670",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3952720",
+      "title": "Destiny 2: «Тріумфальні нагороди» (набір срібла)",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3952720/c0c92284767d196956ef968bc3277e3c0c10693e/capsule_616x353.jpg?t=1781024419",
+      "originalPrice": 369,
+      "discountPrice": 369,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3952720",
       "isSpecial": false,
       "isPopular": true
     },
@@ -1209,6 +1233,27 @@
       "percent": 25,
       "timestamp": "2026-06-09T15:53:00.495Z",
       "type": "discount"
+    },
+    "steam_discount_1627720": {
+      "title": "Lies of P",
+      "price": 812,
+      "percent": 50,
+      "timestamp": "2026-06-09T20:18:58.669Z",
+      "type": "discount"
+    },
+    "steam_popular_2866670": {
+      "title": "NBA THE RUN",
+      "price": 620,
+      "percent": 0,
+      "timestamp": "2026-06-09T20:18:58.669Z",
+      "type": "popular"
+    },
+    "steam_popular_3952720": {
+      "title": "Destiny 2: «Тріумфальні нагороди» (набір срібла)",
+      "price": 369,
+      "percent": 0,
+      "timestamp": "2026-06-09T20:18:58.669Z",
+      "type": "popular"
     }
   }
 }
