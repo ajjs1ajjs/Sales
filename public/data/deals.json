@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T19:32:55.550Z",
+  "lastUpdated": "2026-06-10T21:58:55.112Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -192,18 +192,6 @@
       "isPopular": true
     },
     {
-      "id": "3844970",
-      "title": "Burglin' Gnomes",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/b779b481bdcfbd0fe04bdab741be885d1d13ed14/capsule_616x353.jpg?t=1781100001",
-      "originalPrice": 230,
-      "discountPrice": 207,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3844970",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1326470",
       "title": "Sons Of The Forest",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
@@ -212,6 +200,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1326470",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "3844970",
+      "title": "Burglin' Gnomes",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/b779b481bdcfbd0fe04bdab741be885d1d13ed14/capsule_616x353.jpg?t=1781100001",
+      "originalPrice": 230,
+      "discountPrice": 207,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3844970",
       "isSpecial": true,
       "isPopular": true
     },
@@ -237,7 +237,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2679100",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "2141730",
@@ -252,6 +252,18 @@
       "isPopular": false
     },
     {
+      "id": "3241660",
+      "title": "R.E.P.O.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
+      "originalPrice": 194,
+      "discountPrice": 135,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3241660",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2050650",
       "title": "Resident Evil 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
@@ -260,30 +272,6 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2050650",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1778274309",
-      "originalPrice": 187,
-      "discountPrice": 149,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3764200",
-      "title": "Resident Evil Requiem",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
-      "originalPrice": 1999,
-      "discountPrice": 1599,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3764200",
       "isSpecial": true,
       "isPopular": false
     },
@@ -320,18 +308,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1297900",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4121170",
-      "title": "Fears to Fathom® - Scratch Creek",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4121170/2a85fafce01d2646767ce0b24c4b1d7807b462d9/capsule_616x353.jpg?t=1781110205",
-      "originalPrice": 195,
-      "discountPrice": 195,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4121170",
       "isSpecial": false,
       "isPopular": true
     },
@@ -1342,6 +1318,13 @@
       "percent": 0,
       "timestamp": "2026-06-10T19:32:53.038Z",
       "type": "popular"
+    },
+    "steam_discount_3241660": {
+      "title": "R.E.P.O.",
+      "price": 135,
+      "percent": 30,
+      "timestamp": "2026-06-10T21:58:53.650Z",
+      "type": "discount"
     }
   }
 }
