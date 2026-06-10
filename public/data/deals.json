@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T21:58:55.112Z",
+  "lastUpdated": "2026-06-10T23:40:27.735Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -192,18 +192,6 @@
       "isPopular": true
     },
     {
-      "id": "1326470",
-      "title": "Sons Of The Forest",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
-      "originalPrice": 600,
-      "discountPrice": 180,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1326470",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "3844970",
       "title": "Burglin' Gnomes",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/b779b481bdcfbd0fe04bdab741be885d1d13ed14/capsule_616x353.jpg?t=1781100001",
@@ -212,6 +200,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3844970",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "1326470",
+      "title": "Sons Of The Forest",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
+      "originalPrice": 600,
+      "discountPrice": 180,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1326470",
       "isSpecial": true,
       "isPopular": true
     },
@@ -230,7 +230,7 @@
     {
       "id": "2679100",
       "title": "Witchspire",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679100/421afb55230da0cab20b228b57a2cf7561b51bd4/capsule_616x353.jpg?t=1781118464",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679100/a2b28ffa98c86e31b5bc8f26392ffc7e26dc3a47/capsule_616x353_alt_assets_1.jpg?t=1781118464",
       "originalPrice": 474,
       "discountPrice": 402,
       "discountPercent": 15,
@@ -252,18 +252,6 @@
       "isPopular": false
     },
     {
-      "id": "3241660",
-      "title": "R.E.P.O.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
-      "originalPrice": 194,
-      "discountPrice": 135,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3241660",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2050650",
       "title": "Resident Evil 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
@@ -272,6 +260,18 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2050650",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3241660",
+      "title": "R.E.P.O.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
+      "originalPrice": 194,
+      "discountPrice": 135,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3241660",
       "isSpecial": true,
       "isPopular": false
     },
@@ -312,14 +312,14 @@
       "isPopular": true
     },
     {
-      "id": "3405690",
-      "title": "EA SPORTS FC™ 26",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1781025991",
-      "originalPrice": 2299,
-      "discountPrice": 460,
-      "discountPercent": 80,
+      "id": "1118520",
+      "title": "Paralives",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353.jpg?t=1780764457",
+      "originalPrice": 740,
+      "discountPrice": 740,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3405690",
+      "url": "https://store.steampowered.com/app/1118520",
       "isSpecial": false,
       "isPopular": true
     }
