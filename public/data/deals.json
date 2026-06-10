@@ -1,6 +1,22 @@
 {
-  "lastUpdated": "2026-06-10T09:53:53.285Z",
+  "lastUpdated": "2026-06-10T12:54:46.973Z",
   "epic": [
+    {
+      "id": "ea365d314ecf4224a5f58d2d7430e7aa",
+      "title": "Citizen Sleeper",
+      "description": "Roleplaying in the ruins of interplanetary capitalism. Live the life of an escaped worker, washed-up on a lawless station at the edge of an interstellar society. Inspired by the flexibility and freedom of TTRPGs, choose your friends, escape your past and change your future.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/919d5976f3804d4cabb8ca90ea43a956/citizen-sleeper-xudwg.jpg",
+      "originalPrice": 369,
+      "discountPrice": 369,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/citizen-sleeper-944858",
+      "startDate": "2026-06-18T15:00:00.000Z",
+      "endDate": "2026-06-25T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": true,
+      "isDiscounted": false,
+      "discountPercent": 0
+    },
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
       "title": "Eternal Threads",
@@ -224,26 +240,14 @@
       "isPopular": false
     },
     {
-      "id": "1649240",
-      "title": "Returnal™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1649240/capsule_616x353.jpg?t=1750956860",
-      "originalPrice": 1699,
-      "discountPrice": 560,
-      "discountPercent": 67,
+      "id": "1167630",
+      "title": "Teardown",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167630/a0f032b8f6d7468d07d0efa7682dde577f61088b/capsule_616x353_alt_assets_6.jpg?t=1781095812",
+      "originalPrice": 649,
+      "discountPrice": 324,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1649240",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1778274309",
-      "originalPrice": 187,
-      "discountPrice": 149,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
+      "url": "https://store.steampowered.com/app/1167630",
       "isSpecial": true,
       "isPopular": false
     },
@@ -256,6 +260,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2141730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1943950",
+      "title": "Escape the Backrooms",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/dd891a9e514ff9f565f36068b738479fb73ac3b2/capsule_616x353.jpg?t=1780394865",
+      "originalPrice": 194,
+      "discountPrice": 155,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1943950",
       "isSpecial": true,
       "isPopular": false
     },
@@ -1248,6 +1264,13 @@
       "percent": 20,
       "timestamp": "2026-06-10T05:15:06.017Z",
       "type": "popular"
+    },
+    "steam_discount_1167630": {
+      "title": "Teardown",
+      "price": 324,
+      "percent": 50,
+      "timestamp": "2026-06-10T12:54:45.819Z",
+      "type": "discount"
     }
   }
 }
