@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T22:22:13.734Z",
+  "lastUpdated": "2026-06-10T00:10:20.896Z",
   "epic": [
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -220,18 +220,6 @@
       "isPopular": false
     },
     {
-      "id": "1943950",
-      "title": "Escape the Backrooms",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/dd891a9e514ff9f565f36068b738479fb73ac3b2/capsule_616x353.jpg?t=1780394865",
-      "originalPrice": 194,
-      "discountPrice": 155,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1943950",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3764200",
       "title": "Resident Evil Requiem",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
@@ -240,6 +228,18 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3764200",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1943950",
+      "title": "Escape the Backrooms",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/dd891a9e514ff9f565f36068b738479fb73ac3b2/capsule_616x353.jpg?t=1780394865",
+      "originalPrice": 194,
+      "discountPrice": 155,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1943950",
       "isSpecial": true,
       "isPopular": false
     },
@@ -280,18 +280,6 @@
       "isPopular": true
     },
     {
-      "id": "3405690",
-      "title": "EA SPORTS FC™ 26",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1781025991",
-      "originalPrice": 2299,
-      "discountPrice": 460,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3405690",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "1118520",
       "title": "Paralives",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353.jpg?t=1780764457",
@@ -300,6 +288,30 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1118520",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1962700",
+      "title": "Subnautica 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/ceed43f5d774d84a5578eccaaec6842cb9591667/capsule_616x353.jpg?t=1780372044",
+      "originalPrice": 899,
+      "discountPrice": 899,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1962700",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2866670",
+      "title": "NBA THE RUN",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2866670/e878a7992ad8b7907828212b49418ed26d86dca2/capsule_616x353.jpg?t=1781027947",
+      "originalPrice": 620,
+      "discountPrice": 620,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2866670",
       "isSpecial": false,
       "isPopular": true
     }
