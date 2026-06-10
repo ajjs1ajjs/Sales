@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T16:34:05.054Z",
+  "lastUpdated": "2026-06-10T19:32:55.550Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -218,7 +218,7 @@
     {
       "id": "2004680",
       "title": "Voidling Bound",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2004680/dd142d6dc10f8ef8daa4f852022c47bc74ffe65d/capsule_616x353_alt_assets_0.jpg?t=1781010770",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2004680/dd142d6dc10f8ef8daa4f852022c47bc74ffe65d/capsule_616x353_alt_assets_0.jpg?t=1781112548",
       "originalPrice": 530,
       "discountPrice": 477,
       "discountPercent": 10,
@@ -228,14 +228,14 @@
       "isPopular": true
     },
     {
-      "id": "2050650",
-      "title": "Resident Evil 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
-      "originalPrice": 1200,
-      "discountPrice": 300,
-      "discountPercent": 75,
+      "id": "2679100",
+      "title": "Witchspire",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679100/421afb55230da0cab20b228b57a2cf7561b51bd4/capsule_616x353.jpg?t=1781118464",
+      "originalPrice": 474,
+      "discountPrice": 402,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2050650",
+      "url": "https://store.steampowered.com/app/2679100",
       "isSpecial": true,
       "isPopular": false
     },
@@ -252,14 +252,14 @@
       "isPopular": false
     },
     {
-      "id": "1943950",
-      "title": "Escape the Backrooms",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/dd891a9e514ff9f565f36068b738479fb73ac3b2/capsule_616x353.jpg?t=1780394865",
-      "originalPrice": 194,
-      "discountPrice": 155,
-      "discountPercent": 20,
+      "id": "2050650",
+      "title": "Resident Evil 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
+      "originalPrice": 1200,
+      "discountPrice": 300,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1943950",
+      "url": "https://store.steampowered.com/app/2050650",
       "isSpecial": true,
       "isPopular": false
     },
@@ -300,18 +300,6 @@
       "isPopular": true
     },
     {
-      "id": "2679100",
-      "title": "Witchspire",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679100/421afb55230da0cab20b228b57a2cf7561b51bd4/capsule_616x353.jpg?t=1781105786",
-      "originalPrice": 474,
-      "discountPrice": 402,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2679100",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "2483190",
       "title": "Forza Horizon 6",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1781040370",
@@ -332,6 +320,30 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1297900",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4121170",
+      "title": "Fears to Fathom® - Scratch Creek",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4121170/2a85fafce01d2646767ce0b24c4b1d7807b462d9/capsule_616x353.jpg?t=1781110205",
+      "originalPrice": 195,
+      "discountPrice": 195,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4121170",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3405690",
+      "title": "EA SPORTS FC™ 26",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1781025991",
+      "originalPrice": 2299,
+      "discountPrice": 460,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3405690",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1315,6 +1327,20 @@
       "price": 402,
       "percent": 15,
       "timestamp": "2026-06-10T16:34:03.445Z",
+      "type": "popular"
+    },
+    "steam_discount_2679100": {
+      "title": "Witchspire",
+      "price": 402,
+      "percent": 15,
+      "timestamp": "2026-06-10T19:32:53.038Z",
+      "type": "discount"
+    },
+    "steam_popular_4121170": {
+      "title": "Fears to Fathom® - Scratch Creek",
+      "price": 195,
+      "percent": 0,
+      "timestamp": "2026-06-10T19:32:53.038Z",
       "type": "popular"
     }
   }
