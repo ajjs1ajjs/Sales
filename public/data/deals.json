@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T12:43:13.667Z",
+  "lastUpdated": "2026-06-11T16:52:41.268Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -18,38 +18,6 @@
       "discountPercent": 0
     },
     {
-      "id": "921e40c4c69f4d728914ca2a4f0aa407",
-      "title": "Eternal Threads",
-      "description": "Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
-      "originalPrice": 369,
-      "discountPrice": 73.8,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/eternal-threads-197169",
-      "startDate": "2026-05-14T15:00:00.000Z",
-      "endDate": "2026-06-11T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": false,
-      "isDiscounted": true,
-      "discountPercent": 80
-    },
-    {
-      "id": "be5600439b434624802764f704755cde",
-      "title": "Ghostrunner 2",
-      "description": "Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
-      "imageUrl": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
-      "originalPrice": 999,
-      "discountPrice": 199.8,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/ghostrunner-2",
-      "startDate": "2026-05-14T15:00:00.000Z",
-      "endDate": "2026-06-11T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": false,
-      "isDiscounted": true,
-      "discountPercent": 80
-    },
-    {
       "id": "aee7ec395d054078a48d867849e2a550",
       "title": "ROBOBEAT",
       "description": "Keep your trigger finger on the pulse! In rhythm shooter ROBOBEAT, you'll play as Ace - a bounty hunter on a mission to capture robot-gone-rogue Frazzer. Wall run, slide, and shoot to your own beat using the in-game custom music editor, blasting through Frazzer's armies!",
@@ -66,100 +34,20 @@
       "discountPercent": 0
     },
     {
-      "id": "944b5b5d646d46bc92bc33edfe983d26",
-      "title": "LISA: The Definitive Edition",
-      "description": "Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
-      "imageUrl": "https://cdn1.epicgames.com/offer/ca3a9d16d131478c97fd56c138a6511a/EGS_LISATheDefinitiveEdition_DingalingProductions_Bundles_S1_2560x1440-55b66eb2046507e58eac435c21331bd5",
-      "originalPrice": 499,
-      "discountPrice": 274.45,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
-      "startDate": "2026-05-14T15:00:00.000Z",
-      "endDate": "2026-06-11T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": false,
-      "isDiscounted": true,
-      "discountPercent": 45
-    },
-    {
-      "id": "8f80897c0b6e4e678fed08da169d44be",
-      "title": "Castlevania Anniversary Collection",
-      "description": "Konami's Castlevania Anniversary Collection traces the origins of the historic vampire franchise. Included is a unique eBook with details provided by developers, artists and others inspired by the Castlevania legacy which sheds a fresh light into the world of Castlevania.",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
-      "originalPrice": 279,
-      "discountPrice": 111.6,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/castlevania-anniversary-collection-a61f94",
-      "startDate": "2026-05-14T15:00:00.000Z",
-      "endDate": "2026-06-11T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": false,
-      "isDiscounted": true,
-      "discountPercent": 60
-    },
-    {
-      "id": "f967cff9761c4198b4e972cfd71e40d7",
-      "title": "Monument Valley",
-      "description": "Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
-      "originalPrice": 187,
-      "discountPrice": 65.45,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/monument-valley-1d99d3",
-      "startDate": "2026-05-14T15:00:00.000Z",
-      "endDate": "2026-06-11T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": false,
-      "isDiscounted": true,
-      "discountPercent": 65
-    },
-    {
-      "id": "a6a2d59fa54946dbbf16f14730c2e5f0",
-      "title": "Rogue Waters",
-      "description": "Rogue Waters",
-      "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/rogue-waters-wide_2560x1440-673011871d1a462292f9ff38cc0e3410",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/rogue-waters-9764d6",
-      "startDate": "2026-06-04T15:00:00.000Z",
-      "endDate": "2026-06-11T15:00:00.000Z",
-      "isFreeNow": true,
-      "isUpcomingFree": false,
-      "isDiscounted": false,
-      "discountPercent": 0
-    },
-    {
-      "id": "62b6d302e2bd41039449b1f2f9608748",
-      "title": "Songs of Conquest",
-      "description": "Raise mighty armies, wield ancient magic and forge an empire. This turn-based strategy adventure game fuses strategic decision making, tactical combat and kingdom management.",
-      "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/s2_2560x1440-fd360f5c7abe499d90327b6999884e23",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/songs-of-conquest",
-      "startDate": "2026-06-04T15:00:00.000Z",
-      "endDate": "2026-06-11T15:00:00.000Z",
-      "isFreeNow": true,
-      "isUpcomingFree": false,
-      "isDiscounted": false,
-      "discountPercent": 0
-    },
-    {
       "id": "7f0ab2828f9743d0abc6612a11222fdf",
       "title": "The Ouroboros King",
       "description": "The Ouroboros King combines the strategic depth of chess with the build variety and replayability of roguelikes. Assemble a formidable army, discover powerful relics, and buy surprising gadgets to defeat the Coven.",
       "imageUrl": "https://cdn1.epicgames.com/spt-assets/33630d7105014582a478094e89953f49/the-ouroboros-king-jwabx.jpg",
       "originalPrice": 184,
-      "discountPrice": 184,
+      "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/the-ouroboros-king-e1d547",
       "startDate": "2026-06-11T15:00:00.000Z",
       "endDate": "2026-06-18T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": true,
+      "isFreeNow": true,
+      "isUpcomingFree": false,
       "isDiscounted": false,
-      "discountPercent": 0
+      "discountPercent": 100
     },
     {
       "id": "eb6ae87e73d94d2c96bab3c4da4dd3de",
@@ -167,15 +55,15 @@
       "description": "High-octane combat racing in the Warhammer 40,000 universe.",
       "imageUrl": "https://cdn1.epicgames.com/spt-assets/a1af14251fb748fc9bda63bfc260f933/warhammer-40k-speed-freeks-1k4pq.jpg",
       "originalPrice": 369,
-      "discountPrice": 369,
+      "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/warhammer-40k-speed-freeks-12879c",
       "startDate": "2026-06-11T15:00:00.000Z",
       "endDate": "2026-06-18T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": true,
+      "isFreeNow": true,
+      "isUpcomingFree": false,
       "isDiscounted": false,
-      "discountPercent": 0
+      "discountPercent": 100
     }
   ],
   "steam": [
@@ -216,6 +104,18 @@
       "isPopular": true
     },
     {
+      "id": "2141730",
+      "title": "Backrooms: Escape Together",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780282746",
+      "originalPrice": 225,
+      "discountPrice": 157,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2141730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2004680",
       "title": "Voidling Bound",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2004680/dd142d6dc10f8ef8daa4f852022c47bc74ffe65d/capsule_616x353_alt_assets_0.jpg?t=1781112548",
@@ -225,19 +125,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2004680",
       "isSpecial": true,
-      "isPopular": true
-    },
-    {
-      "id": "2679100",
-      "title": "Witchspire",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679100/a2b28ffa98c86e31b5bc8f26392ffc7e26dc3a47/capsule_616x353_alt_assets_1.jpg?t=1781118464",
-      "originalPrice": 474,
-      "discountPrice": 402,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2679100",
-      "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "2050650",
@@ -252,28 +140,40 @@
       "isPopular": false
     },
     {
-      "id": "2141730",
-      "title": "Backrooms: Escape Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/512f1323feb843c8cc3a67e3f6f23290a9f8ecd6/capsule_616x353.jpg?t=1780282746",
-      "originalPrice": 225,
-      "discountPrice": 157,
-      "discountPercent": 30,
+      "id": "2679100",
+      "title": "Witchspire",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679100/a2b28ffa98c86e31b5bc8f26392ffc7e26dc3a47/capsule_616x353_alt_assets_1.jpg?t=1781118464",
+      "originalPrice": 474,
+      "discountPrice": 402,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2141730",
+      "url": "https://store.steampowered.com/app/2679100",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "3241660",
-      "title": "R.E.P.O.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
-      "originalPrice": 194,
-      "discountPrice": 135,
-      "discountPercent": 30,
+      "id": "242760",
+      "title": "The Forest",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/capsule_616x353.jpg?t=1699381053",
+      "originalPrice": 279,
+      "discountPrice": 61,
+      "discountPercent": 78,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3241660",
+      "url": "https://store.steampowered.com/app/242760",
       "isSpecial": true,
       "isPopular": false
+    },
+    {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_616x353.jpg?t=1763066602",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isPopular": true
     },
     {
       "id": "2483190",
@@ -284,6 +184,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2483190",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3276050",
+      "title": "SpaceCraft",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3276050/6d7d3a2245d5ffb4db30442dd375be14da465dab/capsule_616x353_alt_assets_1.jpg?t=1781191112",
+      "originalPrice": 669,
+      "discountPrice": 602,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3276050",
       "isSpecial": false,
       "isPopular": true
     },
@@ -300,14 +212,26 @@
       "isPopular": true
     },
     {
-      "id": "3276050",
-      "title": "SpaceCraft",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3276050/67bac4726ad486a0022d74a1f7f7b9a9337ecdc4/capsule_616x353.jpg?t=1781179560",
-      "originalPrice": 669,
-      "discountPrice": 602,
-      "discountPercent": 10,
+      "id": "4226770",
+      "title": "Warhammer 40,000: Rogue Trader - The Infinite Museion",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4226770/8f5d99ebd813233ad1e31c8f254ee2463899c9da/capsule_616x353.jpg?t=1781187675",
+      "originalPrice": 275,
+      "discountPrice": 275,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3276050",
+      "url": "https://store.steampowered.com/app/4226770",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3650060",
+      "title": "Warhammer 40,000: Rogue Trader - Season Pass 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3650060/abe3e88c15651decf2c7ab7cd624ecb2fba0a815/capsule_616x353.jpg?t=1781190902",
+      "originalPrice": 419,
+      "discountPrice": 419,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3650060",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1319,6 +1243,34 @@
       "price": 602,
       "percent": 10,
       "timestamp": "2026-06-11T12:43:12.364Z",
+      "type": "popular"
+    },
+    "epic_free_7f0ab2828f9743d0abc6612a11222fdf": {
+      "title": "The Ouroboros King",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-06-11T16:52:39.165Z",
+      "type": "free"
+    },
+    "epic_free_eb6ae87e73d94d2c96bab3c4da4dd3de": {
+      "title": "Warhammer 40K Speed Freeks",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-06-11T16:52:39.165Z",
+      "type": "free"
+    },
+    "steam_popular_4226770": {
+      "title": "Warhammer 40,000: Rogue Trader - The Infinite Museion",
+      "price": 275,
+      "percent": 0,
+      "timestamp": "2026-06-11T16:52:39.165Z",
+      "type": "popular"
+    },
+    "steam_popular_3650060": {
+      "title": "Warhammer 40,000: Rogue Trader - Season Pass 2",
+      "price": 419,
+      "percent": 0,
+      "timestamp": "2026-06-11T16:52:39.165Z",
       "type": "popular"
     }
   }
