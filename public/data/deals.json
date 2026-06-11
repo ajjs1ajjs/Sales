@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T19:33:55.636Z",
+  "lastUpdated": "2026-06-11T22:00:33.795Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -68,30 +68,6 @@
   ],
   "steam": [
     {
-      "id": "4704690",
-      "title": "MECCHA CHAMELEON",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1781108224",
-      "originalPrice": 155,
-      "discountPrice": 124,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4704690",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
-      "id": "3337380",
-      "title": "Tabletop Tavern",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337380/95f8388b7e3842676fac2644debce1c5c82bb537/capsule_616x353.jpg?t=1781197249",
-      "originalPrice": 299,
-      "discountPrice": 224,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3337380",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "2909400",
       "title": "FINAL FANTASY VII REBIRTH",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg?t=1775124617",
@@ -100,6 +76,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2909400",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "4704690",
+      "title": "MECCHA CHAMELEON",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1781108224",
+      "originalPrice": 155,
+      "discountPrice": 124,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": true,
       "isPopular": true
     },
@@ -116,6 +104,30 @@
       "isPopular": true
     },
     {
+      "id": "1462040",
+      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/capsule_616x353.jpg?t=1773895755",
+      "originalPrice": 1099,
+      "discountPrice": 384,
+      "discountPercent": 65,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1462040",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3337380",
+      "title": "Tabletop Tavern",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337380/95f8388b7e3842676fac2644debce1c5c82bb537/capsule_616x353.jpg?t=1781210046",
+      "originalPrice": 299,
+      "discountPrice": 224,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3337380",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "2004680",
       "title": "Voidling Bound",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2004680/dd142d6dc10f8ef8daa4f852022c47bc74ffe65d/capsule_616x353_alt_assets_0.jpg?t=1781112548",
@@ -124,6 +136,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2004680",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781200502",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
       "isPopular": false
     },
@@ -140,50 +164,14 @@
       "isPopular": false
     },
     {
-      "id": "1462040",
-      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/capsule_616x353.jpg?t=1773895755",
-      "originalPrice": 1099,
-      "discountPrice": 384,
-      "discountPercent": 65,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1462040",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3241660",
-      "title": "R.E.P.O.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
-      "originalPrice": 194,
-      "discountPrice": 135,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3241660",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1675200",
       "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_616x353.jpg?t=1763066602",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
       "originalPrice": 0,
       "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "2483190",
-      "title": "Forza Horizon 6",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1781040370",
-      "originalPrice": 2299,
-      "discountPrice": 2299,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2483190",
       "isSpecial": false,
       "isPopular": true
     },
@@ -200,6 +188,18 @@
       "isPopular": true
     },
     {
+      "id": "2483190",
+      "title": "Forza Horizon 6",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1781040370",
+      "originalPrice": 2299,
+      "discountPrice": 2299,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2483190",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "1297900",
       "title": "Gothic 1 Remake",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1780965412",
@@ -208,6 +208,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1297900",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3276050",
+      "title": "SpaceCraft",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3276050/6d7d3a2245d5ffb4db30442dd375be14da465dab/capsule_616x353_alt_assets_1.jpg?t=1781191112",
+      "originalPrice": 669,
+      "discountPrice": 602,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3276050",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1282,6 +1294,13 @@
       "price": 384,
       "percent": 65,
       "timestamp": "2026-06-11T19:33:54.407Z",
+      "type": "discount"
+    },
+    "steam_discount_252490": {
+      "title": "Rust",
+      "price": 389,
+      "percent": 50,
+      "timestamp": "2026-06-11T22:00:32.355Z",
       "type": "discount"
     }
   }
