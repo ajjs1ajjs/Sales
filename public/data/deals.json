@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T08:43:36.981Z",
+  "lastUpdated": "2026-06-11T12:43:13.667Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -180,18 +180,6 @@
   ],
   "steam": [
     {
-      "id": "4704690",
-      "title": "MECCHA CHAMELEON",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1781108224",
-      "originalPrice": 155,
-      "discountPrice": 124,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4704690",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1326470",
       "title": "Sons Of The Forest",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
@@ -200,6 +188,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1326470",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "4704690",
+      "title": "MECCHA CHAMELEON",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1781108224",
+      "originalPrice": 155,
+      "discountPrice": 124,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": true,
       "isPopular": true
     },
@@ -237,6 +237,18 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2679100",
       "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "2050650",
+      "title": "Resident Evil 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
+      "originalPrice": 1200,
+      "discountPrice": 300,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2050650",
+      "isSpecial": true,
       "isPopular": false
     },
     {
@@ -252,18 +264,6 @@
       "isPopular": false
     },
     {
-      "id": "2050650",
-      "title": "Resident Evil 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
-      "originalPrice": 1200,
-      "discountPrice": 300,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2050650",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3241660",
       "title": "R.E.P.O.",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
@@ -274,18 +274,6 @@
       "url": "https://store.steampowered.com/app/3241660",
       "isSpecial": true,
       "isPopular": false
-    },
-    {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_616x353.jpg?t=1763066602",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isPopular": true
     },
     {
       "id": "2483190",
@@ -308,6 +296,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1297900",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3276050",
+      "title": "SpaceCraft",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3276050/67bac4726ad486a0022d74a1f7f7b9a9337ecdc4/capsule_616x353.jpg?t=1781179560",
+      "originalPrice": 669,
+      "discountPrice": 602,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3276050",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1313,6 +1313,13 @@
       "percent": 30,
       "timestamp": "2026-06-10T21:58:53.650Z",
       "type": "discount"
+    },
+    "steam_popular_3276050": {
+      "title": "SpaceCraft",
+      "price": 602,
+      "percent": 10,
+      "timestamp": "2026-06-11T12:43:12.364Z",
+      "type": "popular"
     }
   }
 }
