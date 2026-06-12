@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T14:08:25.958Z",
+  "lastUpdated": "2026-06-12T17:35:55.768Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -80,18 +80,6 @@
       "isPopular": true
     },
     {
-      "id": "322330",
-      "title": "Don't Starve Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/d06913ca46e5068feee25b350cb2ca6e4d693897/capsule_616x353_alt_assets_50.jpg?t=1781206176",
-      "originalPrice": 229,
-      "discountPrice": 22,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/322330",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2909400",
       "title": "FINAL FANTASY VII REBIRTH",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg?t=1775124617",
@@ -102,6 +90,18 @@
       "url": "https://store.steampowered.com/app/2909400",
       "isSpecial": true,
       "isPopular": true
+    },
+    {
+      "id": "322330",
+      "title": "Don't Starve Together",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/d06913ca46e5068feee25b350cb2ca6e4d693897/capsule_616x353_alt_assets_50.jpg?t=1781284732",
+      "originalPrice": 229,
+      "discountPrice": 22,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/322330",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "3844970",
@@ -116,18 +116,6 @@
       "isPopular": true
     },
     {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781218495",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1462040",
       "title": "FINAL FANTASY VII REMAKE INTERGRADE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/capsule_616x353.jpg?t=1773895755",
@@ -140,14 +128,26 @@
       "isPopular": false
     },
     {
-      "id": "4148240",
-      "title": "Road to Empress II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148240/bf648d7ecd91d614cf5b5dc5d5b138c3bc38c1f3/capsule_616x353.jpg?t=1781165139",
-      "originalPrice": 600,
-      "discountPrice": 480,
-      "discountPercent": 20,
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781218495",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4148240",
+      "url": "https://store.steampowered.com/app/252490",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3276050",
+      "title": "SpaceCraft",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3276050/6d7d3a2245d5ffb4db30442dd375be14da465dab/capsule_616x353_alt_assets_1.jpg?t=1781191112",
+      "originalPrice": 669,
+      "discountPrice": 602,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3276050",
       "isSpecial": true,
       "isPopular": false
     },
