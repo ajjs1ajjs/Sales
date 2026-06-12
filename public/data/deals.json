@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T10:06:22.168Z",
+  "lastUpdated": "2026-06-12T14:08:25.958Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -104,6 +104,18 @@
       "isPopular": true
     },
     {
+      "id": "3844970",
+      "title": "Burglin' Gnomes",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/b779b481bdcfbd0fe04bdab741be885d1d13ed14/capsule_616x353.jpg?t=1781100001",
+      "originalPrice": 230,
+      "discountPrice": 207,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3844970",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "252490",
       "title": "Rust",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781218495",
@@ -113,7 +125,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1462040",
@@ -128,50 +140,38 @@
       "isPopular": false
     },
     {
-      "id": "3844970",
-      "title": "Burglin' Gnomes",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/b779b481bdcfbd0fe04bdab741be885d1d13ed14/capsule_616x353.jpg?t=1781100001",
-      "originalPrice": 230,
-      "discountPrice": 207,
-      "discountPercent": 10,
+      "id": "4148240",
+      "title": "Road to Empress II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148240/bf648d7ecd91d614cf5b5dc5d5b138c3bc38c1f3/capsule_616x353.jpg?t=1781165139",
+      "originalPrice": 600,
+      "discountPrice": 480,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3844970",
+      "url": "https://store.steampowered.com/app/4148240",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "3276050",
-      "title": "SpaceCraft",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3276050/6d7d3a2245d5ffb4db30442dd375be14da465dab/capsule_616x353_alt_assets_1.jpg?t=1781191112",
-      "originalPrice": 669,
-      "discountPrice": 602,
-      "discountPercent": 10,
+      "id": "3241660",
+      "title": "R.E.P.O.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
+      "originalPrice": 194,
+      "discountPrice": 135,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3276050",
+      "url": "https://store.steampowered.com/app/3241660",
       "isSpecial": true,
       "isPopular": false
     },
     {
       "id": "3337380",
       "title": "Tabletop Tavern",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337380/95f8388b7e3842676fac2644debce1c5c82bb537/capsule_616x353.jpg?t=1781210046",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337380/95f8388b7e3842676fac2644debce1c5c82bb537/capsule_616x353.jpg?t=1781266198",
       "originalPrice": 299,
       "discountPrice": 224,
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3337380",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2004680",
-      "title": "Voidling Bound",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2004680/dd142d6dc10f8ef8daa4f852022c47bc74ffe65d/capsule_616x353_alt_assets_0.jpg?t=1781112548",
-      "originalPrice": 530,
-      "discountPrice": 477,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2004680",
       "isSpecial": true,
       "isPopular": false
     },
@@ -184,18 +184,6 @@
       "discountPercent": 80,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3405690",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     },
