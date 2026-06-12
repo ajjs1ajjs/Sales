@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T05:29:17.163Z",
+  "lastUpdated": "2026-06-12T10:06:22.168Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -80,6 +80,18 @@
       "isPopular": true
     },
     {
+      "id": "322330",
+      "title": "Don't Starve Together",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/d06913ca46e5068feee25b350cb2ca6e4d693897/capsule_616x353_alt_assets_50.jpg?t=1781206176",
+      "originalPrice": 229,
+      "discountPrice": 22,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/322330",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2909400",
       "title": "FINAL FANTASY VII REBIRTH",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg?t=1775124617",
@@ -92,16 +104,16 @@
       "isPopular": true
     },
     {
-      "id": "322330",
-      "title": "Don't Starve Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/d06913ca46e5068feee25b350cb2ca6e4d693897/capsule_616x353_alt_assets_50.jpg?t=1781206176",
-      "originalPrice": 229,
-      "discountPrice": 22,
-      "discountPercent": 90,
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781218495",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/322330",
+      "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "1462040",
@@ -125,7 +137,19 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3844970",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
+    },
+    {
+      "id": "3276050",
+      "title": "SpaceCraft",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3276050/6d7d3a2245d5ffb4db30442dd375be14da465dab/capsule_616x353_alt_assets_1.jpg?t=1781191112",
+      "originalPrice": 669,
+      "discountPrice": 602,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3276050",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "3337380",
@@ -140,18 +164,6 @@
       "isPopular": false
     },
     {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1778274309",
-      "originalPrice": 187,
-      "discountPrice": 149,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2004680",
       "title": "Voidling Bound",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2004680/dd142d6dc10f8ef8daa4f852022c47bc74ffe65d/capsule_616x353_alt_assets_0.jpg?t=1781112548",
@@ -160,18 +172,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2004680",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3764200",
-      "title": "Resident Evil Requiem",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
-      "originalPrice": 1999,
-      "discountPrice": 1599,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3764200",
       "isSpecial": true,
       "isPopular": false
     },
@@ -208,6 +208,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2483190",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1297900",
+      "title": "Gothic 1 Remake",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1780965412",
+      "originalPrice": 1505,
+      "discountPrice": 1505,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1297900",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1310,6 +1322,20 @@
       "price": 22,
       "percent": 90,
       "timestamp": "2026-06-12T05:29:15.535Z",
+      "type": "discount"
+    },
+    "steam_popular_252490": {
+      "title": "Rust",
+      "price": 389,
+      "percent": 50,
+      "timestamp": "2026-06-12T10:06:20.233Z",
+      "type": "popular"
+    },
+    "steam_discount_3276050": {
+      "title": "SpaceCraft",
+      "price": 602,
+      "percent": 10,
+      "timestamp": "2026-06-12T10:06:20.233Z",
       "type": "discount"
     }
   }
