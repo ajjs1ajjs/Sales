@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T23:01:58.008Z",
+  "lastUpdated": "2026-06-14T03:41:48.236Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -80,18 +80,6 @@
       "isPopular": true
     },
     {
-      "id": "3105440",
-      "title": "Heroes of Might and Magic: Olden Era",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3105440/e2e5d0b727a89e836985c9a05d410033a2d349d9/capsule_616x353.jpg?t=1779786083",
-      "originalPrice": 599,
-      "discountPrice": 449,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3105440",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "3844970",
       "title": "Burglin' Gnomes",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/b779b481bdcfbd0fe04bdab741be885d1d13ed14/capsule_616x353.jpg?t=1781100001",
@@ -116,18 +104,6 @@
       "isPopular": false
     },
     {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781218495",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3892270",
       "title": "Gamble With Your Friends",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1778274309",
@@ -136,6 +112,18 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3892270",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3105440",
+      "title": "Heroes of Might and Magic: Olden Era",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3105440/e2e5d0b727a89e836985c9a05d410033a2d349d9/capsule_616x353.jpg?t=1779786083",
+      "originalPrice": 599,
+      "discountPrice": 449,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3105440",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,14 +140,14 @@
       "isPopular": false
     },
     {
-      "id": "2004680",
-      "title": "Voidling Bound",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2004680/dd142d6dc10f8ef8daa4f852022c47bc74ffe65d/capsule_616x353_alt_assets_0.jpg?t=1781263470",
-      "originalPrice": 530,
-      "discountPrice": 477,
-      "discountPercent": 10,
+      "id": "322330",
+      "title": "Don't Starve Together",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/d06913ca46e5068feee25b350cb2ca6e4d693897/capsule_616x353_alt_assets_50.jpg?t=1781363712",
+      "originalPrice": 229,
+      "discountPrice": 22,
+      "discountPercent": 90,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2004680",
+      "url": "https://store.steampowered.com/app/322330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -176,28 +164,28 @@
       "isPopular": false
     },
     {
-      "id": "2679100",
-      "title": "Witchspire",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679100/a2b28ffa98c86e31b5bc8f26392ffc7e26dc3a47/capsule_616x353_alt_assets_1.jpg?t=1781118464",
-      "originalPrice": 474,
-      "discountPrice": 402,
-      "discountPercent": 15,
+      "id": "3764200",
+      "title": "Resident Evil Requiem",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
+      "originalPrice": 1999,
+      "discountPrice": 1599,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2679100",
+      "url": "https://store.steampowered.com/app/3764200",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
+      "id": "2004680",
+      "title": "Voidling Bound",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2004680/dd142d6dc10f8ef8daa4f852022c47bc74ffe65d/capsule_616x353_alt_assets_0.jpg?t=1781263470",
+      "originalPrice": 530,
+      "discountPrice": 477,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isPopular": true
+      "url": "https://store.steampowered.com/app/2004680",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "2483190",
@@ -224,14 +212,14 @@
       "isPopular": true
     },
     {
-      "id": "1297900",
-      "title": "Gothic 1 Remake",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1780965412",
-      "originalPrice": 1505,
-      "discountPrice": 1505,
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1297900",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     },
@@ -244,6 +232,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1962700",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1297900",
+      "title": "Gothic 1 Remake",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1780965412",
+      "originalPrice": 1505,
+      "discountPrice": 1505,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1297900",
       "isSpecial": false,
       "isPopular": true
     }
