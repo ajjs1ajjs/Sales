@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T09:23:38.176Z",
+  "lastUpdated": "2026-06-16T15:02:43.191Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -104,6 +104,18 @@
       "isPopular": false
     },
     {
+      "id": "4148240",
+      "title": "Road to Empress II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148240/bf648d7ecd91d614cf5b5dc5d5b138c3bc38c1f3/capsule_616x353.jpg?t=1781165139",
+      "originalPrice": 600,
+      "discountPrice": 480,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4148240",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2050650",
       "title": "Resident Evil 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
@@ -128,14 +140,14 @@
       "isPopular": false
     },
     {
-      "id": "3105440",
-      "title": "Heroes of Might and Magic: Olden Era",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3105440/e2e5d0b727a89e836985c9a05d410033a2d349d9/capsule_616x353.jpg?t=1779786083",
-      "originalPrice": 599,
-      "discountPrice": 449,
-      "discountPercent": 25,
+      "id": "1172620",
+      "title": "Sea of Thieves: 2026 Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172620/1617656502fd33cb55deaff55fe1ffada0c51e18/capsule_616x353.jpg?t=1780506905",
+      "originalPrice": 1030,
+      "discountPrice": 360,
+      "discountPercent": 65,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3105440",
+      "url": "https://store.steampowered.com/app/1172620",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,28 +164,40 @@
       "isPopular": false
     },
     {
-      "id": "4148240",
-      "title": "Road to Empress II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148240/bf648d7ecd91d614cf5b5dc5d5b138c3bc38c1f3/capsule_616x353.jpg?t=1781165139",
-      "originalPrice": 600,
-      "discountPrice": 480,
-      "discountPercent": 20,
+      "id": "3105440",
+      "title": "Heroes of Might and Magic: Olden Era",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3105440/e2e5d0b727a89e836985c9a05d410033a2d349d9/capsule_616x353.jpg?t=1779786083",
+      "originalPrice": 599,
+      "discountPrice": 449,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4148240",
+      "url": "https://store.steampowered.com/app/3105440",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
+      "id": "4131670",
+      "title": "Jurassic World Evolution 3: Rebirth Expansion",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131670/63bbef3ee23572b5cf07336115f8a28d9c22323d/capsule_616x353.jpg?t=1781615080",
+      "originalPrice": 670,
+      "discountPrice": 670,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
-      "isSpecial": true,
-      "isPopular": false
+      "url": "https://store.steampowered.com/app/4131670",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3405690",
+      "title": "EA SPORTS FC™ 26",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1781025991",
+      "originalPrice": 1699,
+      "discountPrice": 340,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3405690",
+      "isSpecial": false,
+      "isPopular": true
     },
     {
       "id": "2483190",
@@ -188,14 +212,14 @@
       "isPopular": true
     },
     {
-      "id": "3405690",
-      "title": "EA SPORTS FC™ 26",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1781025991",
-      "originalPrice": 1699,
-      "discountPrice": 340,
-      "discountPercent": 80,
+      "id": "4467980",
+      "title": "theHunter: Call of the Wild™ - Peru Hunting Reserve",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4467980/ea4759790b05388dbceca3ec36be554138dbce91/capsule_616x353.jpg?t=1781618402",
+      "originalPrice": 275,
+      "discountPrice": 275,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3405690",
+      "url": "https://store.steampowered.com/app/4467980",
       "isSpecial": false,
       "isPopular": true
     },
@@ -1373,6 +1397,20 @@
       "price": 844,
       "percent": 35,
       "timestamp": "2026-06-15T20:23:31.109Z",
+      "type": "popular"
+    },
+    "steam_popular_4131670": {
+      "title": "Jurassic World Evolution 3: Rebirth Expansion",
+      "price": 670,
+      "percent": 0,
+      "timestamp": "2026-06-16T15:02:42.078Z",
+      "type": "popular"
+    },
+    "steam_popular_4467980": {
+      "title": "theHunter: Call of the Wild™ - Peru Hunting Reserve",
+      "price": 275,
+      "percent": 0,
+      "timestamp": "2026-06-16T15:02:42.078Z",
       "type": "popular"
     }
   }
