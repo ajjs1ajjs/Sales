@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T15:02:43.191Z",
+  "lastUpdated": "2026-06-16T19:31:25.210Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -68,16 +68,16 @@
   ],
   "steam": [
     {
-      "id": "4704690",
-      "title": "MECCHA CHAMELEON",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1781108224",
-      "originalPrice": 155,
-      "discountPrice": 124,
-      "discountPercent": 20,
+      "id": "381210",
+      "title": "Dead by Daylight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/a1fd8eb372877c6939bbd62ca325ad710b5e24c6/capsule_616x353_alt_assets_8.jpg?t=1781635275",
+      "originalPrice": 429,
+      "discountPrice": 171,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4704690",
+      "url": "https://store.steampowered.com/app/381210",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "2001120",
@@ -88,66 +88,6 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2001120",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
-      "id": "322330",
-      "title": "Don't Starve Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/d06913ca46e5068feee25b350cb2ca6e4d693897/capsule_616x353_alt_assets_50.jpg?t=1781363712",
-      "originalPrice": 229,
-      "discountPrice": 22,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/322330",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4148240",
-      "title": "Road to Empress II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148240/bf648d7ecd91d614cf5b5dc5d5b138c3bc38c1f3/capsule_616x353.jpg?t=1781165139",
-      "originalPrice": 600,
-      "discountPrice": 480,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4148240",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2050650",
-      "title": "Resident Evil 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
-      "originalPrice": 1200,
-      "discountPrice": 300,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2050650",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3241660",
-      "title": "R.E.P.O.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
-      "originalPrice": 194,
-      "discountPrice": 135,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3241660",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1172620",
-      "title": "Sea of Thieves: 2026 Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172620/1617656502fd33cb55deaff55fe1ffada0c51e18/capsule_616x353.jpg?t=1780506905",
-      "originalPrice": 1030,
-      "discountPrice": 360,
-      "discountPercent": 65,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1172620",
       "isSpecial": true,
       "isPopular": false
     },
@@ -164,6 +104,18 @@
       "isPopular": false
     },
     {
+      "id": "3241660",
+      "title": "R.E.P.O.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
+      "originalPrice": 194,
+      "discountPrice": 135,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3241660",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3105440",
       "title": "Heroes of Might and Magic: Olden Era",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3105440/e2e5d0b727a89e836985c9a05d410033a2d349d9/capsule_616x353.jpg?t=1779786083",
@@ -176,6 +128,90 @@
       "isPopular": false
     },
     {
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/252490",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2050650",
+      "title": "Resident Evil 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
+      "originalPrice": 1200,
+      "discountPrice": 300,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2050650",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3764200",
+      "title": "Resident Evil Requiem",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
+      "originalPrice": 1999,
+      "discountPrice": 1599,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3764200",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2909400",
+      "title": "FINAL FANTASY VII REBIRTH",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg?t=1775124617",
+      "originalPrice": 1699,
+      "discountPrice": 679,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2909400",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4704690",
+      "title": "MECCHA CHAMELEON",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1781108224",
+      "originalPrice": 155,
+      "discountPrice": 155,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4704690",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4586820",
+      "title": "Overwatch®: набір максимальної бойової перепустки третього сезону 2026",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4586820/d3c60ba2032dfb66d2ce470dd9e14111ba090de0/capsule_616x353.jpg?t=1781632872",
+      "originalPrice": 1677,
+      "discountPrice": 1677,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4586820",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4791830",
+      "title": "Dead by Daylight: Jason",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4791830/beda741f59cc349ff6056f214c8091f741e31e4a/capsule_616x353.jpg?t=1781621916",
+      "originalPrice": 115,
+      "discountPrice": 115,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4791830",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "4131670",
       "title": "Jurassic World Evolution 3: Rebirth Expansion",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131670/63bbef3ee23572b5cf07336115f8a28d9c22323d/capsule_616x353.jpg?t=1781615080",
@@ -184,6 +220,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4131670",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4586830",
+      "title": "Overwatch®, сезон 3: набір новачка 2026",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4586830/88ed6d44c6febbe3d33109041861ad1b749b9740/capsule_616x353.jpg?t=1781632883",
+      "originalPrice": 419,
+      "discountPrice": 419,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4586830",
       "isSpecial": false,
       "isPopular": true
     },
@@ -212,6 +260,18 @@
       "isPopular": true
     },
     {
+      "id": "2327720",
+      "title": "City Car Driving 2.0",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2327720/b692db7c32d4d01a538bd09d9c679db626b1ca31/capsule_616x353.jpg?t=1781624669",
+      "originalPrice": 685,
+      "discountPrice": 685,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2327720",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "4467980",
       "title": "theHunter: Call of the Wild™ - Peru Hunting Reserve",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4467980/ea4759790b05388dbceca3ec36be554138dbce91/capsule_616x353.jpg?t=1781618402",
@@ -220,18 +280,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4467980",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1297900",
-      "title": "Gothic 1 Remake",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1780965412",
-      "originalPrice": 1505,
-      "discountPrice": 1505,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1297900",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1411,6 +1459,41 @@
       "price": 275,
       "percent": 0,
       "timestamp": "2026-06-16T15:02:42.078Z",
+      "type": "popular"
+    },
+    "steam_discount_381210": {
+      "title": "Dead by Daylight",
+      "price": 171,
+      "percent": 60,
+      "timestamp": "2026-06-16T19:31:23.700Z",
+      "type": "discount"
+    },
+    "steam_popular_4586820": {
+      "title": "Overwatch®: набір максимальної бойової перепустки третього сезону 2026",
+      "price": 1677,
+      "percent": 0,
+      "timestamp": "2026-06-16T19:31:23.700Z",
+      "type": "popular"
+    },
+    "steam_popular_4791830": {
+      "title": "Dead by Daylight: Jason",
+      "price": 115,
+      "percent": 0,
+      "timestamp": "2026-06-16T19:31:23.700Z",
+      "type": "popular"
+    },
+    "steam_popular_4586830": {
+      "title": "Overwatch®, сезон 3: набір новачка 2026",
+      "price": 419,
+      "percent": 0,
+      "timestamp": "2026-06-16T19:31:23.700Z",
+      "type": "popular"
+    },
+    "steam_popular_2327720": {
+      "title": "City Car Driving 2.0",
+      "price": 685,
+      "percent": 0,
+      "timestamp": "2026-06-16T19:31:23.700Z",
       "type": "popular"
     }
   }
