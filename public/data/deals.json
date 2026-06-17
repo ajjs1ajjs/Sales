@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T11:44:54.911Z",
+  "lastUpdated": "2026-06-17T13:02:04.766Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -108,18 +108,6 @@
       "isPopular": false
     },
     {
-      "id": "4528730",
-      "title": "Scroll Of Taiwu - 促织化影",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4528730/e71045ca4516811c6f9b4a6b36d6d01e75965441/capsule_616x353.jpg?t=1781673536",
-      "originalPrice": 170,
-      "discountPrice": 136,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4528730",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "838350",
       "title": "太吾绘卷：天幕心帷",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/838350/37d3a979c652ef4eedf2d8ec9c2ec0f4d76816e1/capsule_616x353.jpg?t=1781692191",
@@ -128,6 +116,18 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/838350",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "4528730",
+      "title": "Scroll Of Taiwu - 促织化影",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4528730/e71045ca4516811c6f9b4a6b36d6d01e75965441/capsule_616x353.jpg?t=1781673536",
+      "originalPrice": 170,
+      "discountPrice": 136,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4528730",
       "isSpecial": true,
       "isPopular": false
     },
@@ -228,6 +228,18 @@
       "isPopular": true
     },
     {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "2483190",
       "title": "Forza Horizon 6",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/9d63ec056caddb97fc9a70c7c11aa6540736a6bf/capsule_616x353_alt_assets_1.jpg?t=1781643649",
@@ -248,30 +260,6 @@
       "discountPercent": 80,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3405690",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4131670",
-      "title": "Jurassic World Evolution 3: Rebirth Expansion",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131670/63bbef3ee23572b5cf07336115f8a28d9c22323d/capsule_616x353.jpg?t=1781615080",
-      "originalPrice": 670,
-      "discountPrice": 670,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4131670",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     }
