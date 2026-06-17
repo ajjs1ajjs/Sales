@@ -7,7 +7,7 @@ export function ErrorBoundaryWithLocale({ children }: { children: ReactNode }) {
 
   const labels: ErrorBoundaryLabels = {
     title: t.app.errorStateTitle,
-    message: 'Невідома помилка',
+    message: t.app.errorStateMessage,
     hint: t.app.errorStateDesc,
     reload: t.app.reload,
   };

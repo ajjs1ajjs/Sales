@@ -8,7 +8,6 @@ import { formatDate } from '../utils';
 interface Props {
   data: DealsData | null;
   loading?: boolean;
-  locale?: string;
 }
 
 type HistoryFilter = 'all' | 'free' | 'discount' | 'popular';
@@ -34,7 +33,7 @@ export function HistoryPage({ data, loading = false }: Props) {
       <div className="empty-state loading-state" role="status" aria-live="polite">
         <RefreshCw size={40} className="spinner" aria-hidden="true" />
         <h3>{t.history.loading}</h3>
-        <p>Будь ласка, зачекайте.</p>
+        <p>{t.app.loadingDesc}</p>
       </div>
     );
   }

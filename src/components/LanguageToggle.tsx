@@ -11,7 +11,7 @@ export function LanguageToggle() {
   return (
     <button
       type="button"
-      className="theme-toggle"
+      className="header-btn"
       onClick={toggle}
       aria-label={locale === 'uk' ? 'Switch to English' : 'Перемкнути на українську'}
       title={locale === 'uk' ? 'English' : 'Українська'}

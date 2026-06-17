@@ -23,6 +23,7 @@ export const en: Translations = {
     notFoundTitle: 'No games found for "{query}"',
     notFoundDesc: 'Try changing the search query or reset the filters.',
     errorStateTitle: 'Something went wrong',
+    errorStateMessage: 'Unknown error',
     errorStateDesc: 'Try reloading the page or come back later.',
     reload: 'Reload',
     searchPlaceholder: 'Search games by name...',
@@ -129,9 +130,8 @@ export const en: Translations = {
   date: {
     from: 'From {date}',
   },
-  priceFilter: {
-    from: 'From:',
-    to: 'To:',
-    label: 'Price filter',
+  showMore: {
+    showMore: 'Show more',
+    itemsLeft: 'Show more ({count})',
   },
 };

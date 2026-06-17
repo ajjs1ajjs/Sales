@@ -31,7 +31,7 @@ export function TelegramBanner() {
         </a>
         <button
           type="button"
-          className="install-dismiss"
+          className="dismiss-btn"
           onClick={() => setIsDismissed(true)}
           aria-label={t.telegram.dismiss}
         >

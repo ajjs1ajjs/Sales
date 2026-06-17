@@ -6,6 +6,7 @@ const SITEMAP_PATH = 'public/sitemap.xml';
 function generateSitemap() {
   const urls: string[] = [
     BASE_URL,
+    `${BASE_URL}#/history`,
   ];
 
   const uniqueUrls = [...new Set(urls)];

@@ -1,4 +1,4 @@
-import { lazy, useEffect, useState, type FunctionComponent, Suspense, useMemo } from 'react';
+import { lazy, useState, type FunctionComponent, Suspense, useMemo } from 'react';
 import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import { Clock, RefreshCw, AlertCircle, History } from 'lucide-react';
 import type { FilterType, SortType, EpicGame, SteamGame } from './types';
@@ -13,6 +13,7 @@ import { useDebounce } from './hooks/useDebounce';
 import { useLocalStorage } from './hooks/useLocalStorage';
 import { DataProvider, useData } from './DataContext';
 import { LocaleProvider, useLocale } from './contexts/LocaleContext';
+import { WishlistProvider, useWishlist } from './contexts/WishlistContext';
 import { formatLastUpdated, formatLastUpdatedEn, isSteamNonGame } from './utils';
 import { Skeleton } from './components/Skeleton';
 
@@ -40,15 +41,10 @@ function HomePage() {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeFilter, setActiveFilter] = useState<FilterType>('all');
   const [sortType, setSortType] = useLocalStorage<SortType>('sort-type', 'default');
-  const [wishlist] = useLocalStorage<string[]>('wishlist', []);
+  const { wishlist } = useWishlist();
   const debouncedSearch = useDebounce(searchQuery, 300);
 
   const [userPriceRange, setUserPriceRange] = useState<[number, number] | null>(null);
-
-  useEffect(() => {
-    const theme = localStorage.getItem('theme') || 'dark';
-    document.documentElement.setAttribute('data-theme', theme);
-  }, []);
 
   const { absoluteMinPrice, absoluteMaxPrice } = useMemo(() => {
     if (!data) return { absoluteMinPrice: 0, absoluteMaxPrice: 10000 };
@@ -172,7 +168,7 @@ function HomePage() {
           <div className="header-right">
             <LanguageToggle />
             <ThemeToggle />
-            <Link to="/history" className="history-nav-link" aria-label={historyAria}>
+            <Link to="/history" className="header-btn history-nav-link" aria-label={historyAria}>
               <History size={18} />
             </Link>
           </div>
@@ -192,7 +188,7 @@ function HomePage() {
         onSortChange={setSortType}
       />
 
-      {(activeFilter === 'all' || activeFilter === 'epic_discount' || activeFilter === 'steam_specials' || activeFilter === 'steam_popular') && (
+      {(activeFilter === 'all' || activeFilter === 'wishlist' || activeFilter === 'epic_discount' || activeFilter === 'steam_specials' || activeFilter === 'steam_popular') && (
         <PriceRangeFilter
           minPrice={absoluteMinPrice}
           maxPrice={absoluteMaxPrice}
@@ -283,6 +279,7 @@ function App() {
   return (
     <HashRouter>
       <LocaleProvider>
+        <WishlistProvider>
         <DataProvider>
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -293,6 +290,7 @@ function App() {
             } />
           </Routes>
         </DataProvider>
+        </WishlistProvider>
       </LocaleProvider>
     </HashRouter>
   );
@@ -300,12 +298,11 @@ function App() {
 
 function HistoryPageWrapper() {
   const { data, loading } = useData();
-  const { locale } = useLocale();
 
   return (
     <ErrorBoundaryWithLocale>
       <div style={{ padding: '24px 0' }}>
-        <HistoryPageLazy data={data} loading={loading} locale={locale} />
+        <HistoryPageLazy data={data} loading={loading} />
       </div>
     </ErrorBoundaryWithLocale>
   );

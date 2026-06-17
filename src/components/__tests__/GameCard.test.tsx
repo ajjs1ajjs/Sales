@@ -1,11 +1,16 @@
 import { render, screen } from '@testing-library/react';
 import { describe, it, expect } from 'vitest';
 import { LocaleProvider } from '../../contexts/LocaleContext';
+import { WishlistProvider } from '../../contexts/WishlistContext';
 import { GameCard } from '../GameCard';
 import type { EpicGame, SteamGame } from '../../types';
 
 function Wrapper({ children }: { children: React.ReactNode }) {
-  return <LocaleProvider initialLocale="uk">{children}</LocaleProvider>;
+  return (
+    <LocaleProvider initialLocale="uk">
+      <WishlistProvider>{children}</WishlistProvider>
+    </LocaleProvider>
+  );
 }
 
 const mockEpicGame: EpicGame = {

@@ -20,7 +20,7 @@ export function InstallPWA() {
         </button>
         <button
           type="button"
-          className="install-dismiss"
+          className="dismiss-btn"
           onClick={dismiss}
           aria-label={t.pwa.close}
         >

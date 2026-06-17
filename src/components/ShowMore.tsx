@@ -1,4 +1,5 @@
 import { useState, type ReactElement } from 'react';
+import { useLocale } from '../contexts/LocaleContext';
 
 interface Props {
   items: ReactElement[];
@@ -7,6 +8,7 @@ interface Props {
 }
 
 export function ShowMore({ items, initialCount = 12, step = 12 }: Props) {
+  const { t } = useLocale();
   const [visibleCount, setVisibleCount] = useState(initialCount);
   const hasMore = visibleCount < items.length;
 
@@ -22,7 +24,7 @@ export function ShowMore({ items, initialCount = 12, step = 12 }: Props) {
             className="show-more-btn"
             onClick={() => setVisibleCount((c) => c + step)}
           >
-            Показати ще ({Math.min(step, items.length - visibleCount)})
+            {t.showMore.itemsLeft.replace('{count}', String(Math.min(step, items.length - visibleCount)))}
           </button>
         </div>
       )}

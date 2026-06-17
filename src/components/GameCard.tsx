@@ -14,6 +14,7 @@ interface BaseProps {
   showTagDescription?: boolean;
   showTrendingDescription?: boolean;
   isUpcoming?: boolean;
+  upcomingStartDate?: string;
   linkText?: string;
   searchQuery?: string;
 }
@@ -49,6 +50,7 @@ export function GameCard({
   showTagDescription,
   showTrendingDescription,
   isUpcoming,
+  upcomingStartDate,
   linkText,
   searchQuery = '',
 }: Props) {
@@ -106,10 +108,10 @@ export function GameCard({
           </p>
         )}
 
-        {isUpcoming && (
+        {isUpcoming && upcomingStartDate && (
           <p className="card-desc">
             <span className="upcoming-status">
-              {t.date.from.replace('{date}', formatDate((game as EpicGame).startDate))}
+              {t.date.from.replace('{date}', formatDate(upcomingStartDate))}
             </span>
           </p>
         )}

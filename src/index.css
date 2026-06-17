@@ -195,8 +195,8 @@ header p {
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-/* Theme Toggle */
-.theme-toggle {
+/* Header action buttons (theme toggle, language toggle, history nav) */
+.header-btn {
   background: var(--bg-secondary);
   border: 1px solid rgba(255, 255, 255, 0.1);
   color: var(--text-secondary);
@@ -207,25 +207,16 @@ header p {
   align-items: center;
   justify-content: center;
   transition: var(--transition-smooth);
+  text-decoration: none;
 }
 
-.theme-toggle:hover {
+.header-btn:hover {
   border-color: var(--accent-epic);
   color: var(--accent-epic);
 }
 
 /* History nav link */
 .history-nav-link {
-  background: var(--bg-secondary);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: var(--text-secondary);
-  padding: 8px;
-  border-radius: 10px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: var(--transition-smooth);
   text-decoration: none;
 }
 
@@ -280,7 +271,7 @@ header p {
   transform: translateY(-1px);
 }
 
-.install-dismiss {
+.dismiss-btn {
   background: none;
   border: none;
   color: var(--text-muted);
@@ -290,7 +281,7 @@ header p {
   align-items: center;
 }
 
-.install-dismiss:hover {
+.dismiss-btn:hover {
   color: var(--text-primary);
 }
 

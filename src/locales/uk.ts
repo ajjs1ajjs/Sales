@@ -21,6 +21,7 @@ export const uk = {
     notFoundTitle: 'За запитом "{query}" ігор не знайдено',
     notFoundDesc: 'Спробуйте змінити пошуковий запит або скинути фільтри.',
     errorStateTitle: 'Сталася помилка',
+    errorStateMessage: 'Невідома помилка',
     errorStateDesc: 'Спробуйте перезавантажити сторінку або зайдіть пізніше.',
     reload: 'Перезавантажити',
     searchPlaceholder: 'Пошук гри за назвою...',
@@ -127,10 +128,9 @@ export const uk = {
   date: {
     from: 'З {date}',
   },
-  priceFilter: {
-    from: 'Від:',
-    to: 'До:',
-    label: 'Фільтр за ціною',
+  showMore: {
+    showMore: 'Показати ще',
+    itemsLeft: 'Показати ще ({count})',
   },
 };
 

@@ -49,6 +49,9 @@
     }
     </script>
 
+    <!-- Set theme before first paint to avoid flash -->
+    <script>document.documentElement.setAttribute('data-theme',localStorage.getItem('theme')||'dark')</script>
+
     <!-- Preload critical resources -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

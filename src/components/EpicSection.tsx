@@ -75,6 +75,7 @@ export function EpicSection({ games, activeFilter, searchQuery, sortType }: Prop
                       game={game}
                       platform="epic"
                       isUpcoming
+                      upcomingStartDate={game.startDate}
                       linkText={t.epic.toStore}
                       searchQuery={searchQuery}
                     />
