@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T19:31:25.210Z",
+  "lastUpdated": "2026-06-17T00:13:50.776Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -70,14 +70,14 @@
     {
       "id": "381210",
       "title": "Dead by Daylight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/a1fd8eb372877c6939bbd62ca325ad710b5e24c6/capsule_616x353_alt_assets_8.jpg?t=1781635275",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/a1fd8eb372877c6939bbd62ca325ad710b5e24c6/capsule_616x353_alt_assets_8.jpg?t=1781638389",
       "originalPrice": 429,
       "discountPrice": 171,
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/381210",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "2001120",
@@ -104,50 +104,14 @@
       "isPopular": false
     },
     {
-      "id": "3241660",
-      "title": "R.E.P.O.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
-      "originalPrice": 194,
-      "discountPrice": 135,
-      "discountPercent": 30,
+      "id": "2909400",
+      "title": "FINAL FANTASY VII REBIRTH",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg?t=1775124617",
+      "originalPrice": 1699,
+      "discountPrice": 679,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3241660",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3105440",
-      "title": "Heroes of Might and Magic: Olden Era",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3105440/e2e5d0b727a89e836985c9a05d410033a2d349d9/capsule_616x353.jpg?t=1779786083",
-      "originalPrice": 599,
-      "discountPrice": 449,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3105440",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2050650",
-      "title": "Resident Evil 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
-      "originalPrice": 1200,
-      "discountPrice": 300,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2050650",
+      "url": "https://store.steampowered.com/app/2909400",
       "isSpecial": true,
       "isPopular": false
     },
@@ -164,14 +128,50 @@
       "isPopular": false
     },
     {
-      "id": "2909400",
-      "title": "FINAL FANTASY VII REBIRTH",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg?t=1775124617",
-      "originalPrice": 1699,
-      "discountPrice": 679,
-      "discountPercent": 60,
+      "id": "3241660",
+      "title": "R.E.P.O.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
+      "originalPrice": 194,
+      "discountPrice": 135,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2909400",
+      "url": "https://store.steampowered.com/app/3241660",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2050650",
+      "title": "Resident Evil 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
+      "originalPrice": 1200,
+      "discountPrice": 300,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2050650",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/252490",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1462040",
+      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/capsule_616x353.jpg?t=1773895755",
+      "originalPrice": 1099,
+      "discountPrice": 384,
+      "discountPercent": 65,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1462040",
       "isSpecial": true,
       "isPopular": false
     },
@@ -250,36 +250,12 @@
     {
       "id": "2483190",
       "title": "Forza Horizon 6",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1781040370",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/9d63ec056caddb97fc9a70c7c11aa6540736a6bf/capsule_616x353_alt_assets_1.jpg?t=1781643649",
       "originalPrice": 2299,
       "discountPrice": 2299,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2483190",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "2327720",
-      "title": "City Car Driving 2.0",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2327720/b692db7c32d4d01a538bd09d9c679db626b1ca31/capsule_616x353.jpg?t=1781624669",
-      "originalPrice": 685,
-      "discountPrice": 685,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2327720",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4467980",
-      "title": "theHunter: Call of the Wild™ - Peru Hunting Reserve",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4467980/ea4759790b05388dbceca3ec36be554138dbce91/capsule_616x353.jpg?t=1781618402",
-      "originalPrice": 275,
-      "discountPrice": 275,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4467980",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1494,6 +1470,13 @@
       "price": 685,
       "percent": 0,
       "timestamp": "2026-06-16T19:31:23.700Z",
+      "type": "popular"
+    },
+    "steam_popular_381210": {
+      "title": "Dead by Daylight",
+      "price": 171,
+      "percent": 60,
+      "timestamp": "2026-06-17T00:13:49.666Z",
       "type": "popular"
     }
   }
