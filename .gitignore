@@ -22,3 +22,15 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.pfx
+*.jwt.secret
+*.autodoc.key
+credentials.txt
+master.key
