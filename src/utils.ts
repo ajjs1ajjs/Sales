@@ -84,6 +84,20 @@ export function isSteamNonGame(imageUrl: string): boolean {
   return imageUrl.includes('/bundles/') || imageUrl.includes('/subs/');
 }
 
+/**
+ * Повертає URL лише якщо він має безпечну http(s)-схему.
+ * Захист від javascript:/data: у href та src, якщо джерело даних скомпрометоване.
+ */
+export function safeUrl(url: string): string {
+  if (!url) return '';
+  try {
+    const u = new URL(url, window.location.origin);
+    return u.protocol === 'http:' || u.protocol === 'https:' ? url : '';
+  } catch {
+    return '';
+  }
+}
+
 export function sortGames<T extends EpicGame | SteamGame>(games: T[], sortType: SortType): T[] {
   switch (sortType) {
     case 'name-asc':

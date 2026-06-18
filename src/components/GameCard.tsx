@@ -1,8 +1,8 @@
-import { useState, type ReactElement } from 'react';
+import { useState } from 'react';
 import { ExternalLink, Tag, TrendingUp } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
 import type { EpicGame, SteamGame } from '../types';
-import { formatPrice, formatDate, isEpicGame } from '../utils';
+import { formatPrice, formatDate, isEpicGame, safeUrl } from '../utils';
 import { WishlistButton } from './WishlistButton';
 
 export type Game = EpicGame | SteamGame;
@@ -27,19 +27,19 @@ const escapeRegExp = (str: string) => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 
 function highlightText(text: string, highlight: string) {
   if (!highlight.trim()) return <span>{text}</span>;
-  const escaped = escapeRegExp(highlight);
-  const regex = new RegExp(escaped, 'gi');
-  const parts = text.split(regex);
-  const result: ReactElement[] = [];
-  let lastIndex = 0;
-  let match: RegExpExecArray | null;
-  while ((match = regex.exec(text)) !== null) {
-    result.push(<span key={`t-${lastIndex}`}>{parts[lastIndex]}</span>);
-    result.push(<mark key={`m-${match.index}`} className="highlighted-text">{match[0]}</mark>);
-    lastIndex++;
-  }
-  result.push(<span key={`t-${lastIndex}`}>{parts[lastIndex]}</span>);
-  return <>{result}</>;
+  // Capturing-група в split() кладе збіги на непарні індекси — один прохід, без stateful exec.
+  const parts = text.split(new RegExp(`(${escapeRegExp(highlight)})`, 'gi'));
+  return (
+    <>
+      {parts.map((part, i) =>
+        i % 2 === 1 ? (
+          <mark key={i} className="highlighted-text">{part}</mark>
+        ) : (
+          <span key={i}>{part}</span>
+        ),
+      )}
+    </>
+  );
 }
 
 export function GameCard({
@@ -73,7 +73,7 @@ export function GameCard({
           </span>
         )}
         <img
-          src={imgError ? FALLBACK_IMG : game.imageUrl}
+          src={imgError ? FALLBACK_IMG : (safeUrl(game.imageUrl) || FALLBACK_IMG)}
           alt={game.title}
           className="card-image"
           loading="lazy"
@@ -132,7 +132,7 @@ export function GameCard({
             )}
           </div>
           <a
-            href={game.url}
+            href={safeUrl(game.url) || '#'}
             target="_blank"
             rel="noopener noreferrer"
             className="store-link"

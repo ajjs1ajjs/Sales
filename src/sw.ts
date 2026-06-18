@@ -4,7 +4,9 @@ declare let self: ServiceWorkerGlobalScope;
 
 const manifestEntries: { url: string; revision: string | null }[] = (self as unknown as { __WB_MANIFEST: { url: string; revision: string | null }[] }).__WB_MANIFEST;
 const CACHE_PREFIX = 'game-sales';
-const CACHE = `${CACHE_PREFIX}-${manifestEntries.map((e) => e.revision || '0').join('-').slice(0, 32) || Date.now()}`;
+// Фіксований fallback замість Date.now(): якщо маніфест порожній, ім'я кешу не мусить
+// мінятися щозавантаження (інакше кеш ніколи не збігається й офлайн-режим ламається).
+const CACHE = `${CACHE_PREFIX}-${manifestEntries.map((e) => e.revision || '0').join('-').slice(0, 32) || 'static'}`;
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -41,7 +43,9 @@ self.addEventListener('fetch', (event) => {
         .then((response) => {
           if (response.ok) {
             const clone = response.clone();
-            caches.open(CACHE).then((cache) => cache.put(event.request, clone));
+            caches.open(CACHE).then((cache) => cache.put(event.request, clone)).catch(() => {
+              /* кеш переповнено / quota-exceeded — ігноруємо, відповідь уже віддано */
+            });
           }
           return response;
         })
@@ -58,7 +62,9 @@ self.addEventListener('fetch', (event) => {
         const fetched = fetch(event.request).then((response) => {
           if (response.ok) {
             const clone = response.clone();
-            caches.open(CACHE).then((cache) => cache.put(event.request, clone));
+            caches.open(CACHE).then((cache) => cache.put(event.request, clone)).catch(() => {
+              /* кеш переповнено / quota-exceeded — ігноруємо, відповідь уже віддано */
+            });
           }
           return response;
         });

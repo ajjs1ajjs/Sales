@@ -7,13 +7,22 @@ const DEALS_PATH = path.join(DEALS_DIR, 'deals.json');
 
 async function fetchWithRetry(url: string, options?: RequestInit, retries = 3, delay = 2000): Promise<Response> {
   for (let i = 0; i < retries; i++) {
+    let res: Response | undefined;
     try {
-      const res = await fetch(url, options);
-      if (res.ok) return res;
-      console.warn(`⚠️ Fetch failed for ${url} with status ${res.status}. Attempt ${i + 1} of ${retries}.`);
+      res = await fetch(url, options);
     } catch (err) {
       console.warn(`⚠️ Fetch error for ${url}: ${err instanceof Error ? err.message : String(err)}. Attempt ${i + 1} of ${retries}.`);
     }
+
+    if (res) {
+      if (res.ok) return res;
+      // 4xx — клієнтська помилка (404/400/403): повторювати безглуздо, перериваємо одразу.
+      if (res.status >= 400 && res.status < 500) {
+        throw new Error(`Failed to fetch ${url}: non-retryable client error ${res.status}.`);
+      }
+      console.warn(`⚠️ Fetch failed for ${url} with status ${res.status}. Attempt ${i + 1} of ${retries}.`);
+    }
+
     if (i < retries - 1) {
       await new Promise(resolve => setTimeout(resolve, delay * Math.pow(2, i))); // exponential backoff
     }
@@ -241,6 +250,12 @@ function escapeHtml(str: string): string {
     .replace(/>/g, '&gt;');
 }
 
+// Контекст атрибута href="..." потребує екранування лапок на додачу до < > &,
+// інакше URL із лапкою/дужкою зламає або інжектне розмітку Telegram-повідомлення.
+function escapeAttr(url: string): string {
+  return escapeHtml(url).replace(/"/g, '&quot;');
+}
+
 async function sendTelegramMessage(text: string) {
   const token = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
@@ -302,12 +317,10 @@ async function run() {
   const thirtyDaysAgo = now.getTime() - 30 * 24 * 60 * 60 * 1000;
   
   for (const [key, value] of Object.entries(notifiedHistory)) {
-    try {
-      const notifiedTime = new Date(value.timestamp).getTime();
-      if (notifiedTime < thirtyDaysAgo) {
-        delete notifiedHistory[key];
-      }
-    } catch {
+    const notifiedTime = new Date(value.timestamp).getTime();
+    // Видаляємо застарілі ТА пошкоджені (невалідна дата → NaN) записи,
+    // інакше биті записи накопичувалися б вічно (NaN < x === false).
+    if (Number.isNaN(notifiedTime) || notifiedTime < thirtyDaysAgo) {
       delete notifiedHistory[key];
     }
   }
@@ -459,7 +472,7 @@ async function run() {
                    `🎮 <b>${escapeHtml(game.title)}</b>\n` +
                    `📝 ${escapeHtml(game.description)}\n\n` +
                    `📅 Роздача діє до: <b>${formatDate(game.endDate)}</b>\n\n` +
-                   `🔗 <a href="${game.url}">Забрати гру в магазині</a>`;
+                   `🔗 <a href="${escapeAttr(game.url)}">Забрати гру в магазині</a>`;
       await sendTelegramMessage(text);
     }
   }
@@ -471,7 +484,7 @@ async function run() {
       epicText += `🎮 <b>${escapeHtml(deal.title)}</b>\n` +
                    `🏷️ Знижка: <b>${pct}</b>\n` +
                    `💰 Ціна: <s>${formatPrice(deal.originalPrice, deal.currency)}</s> ➡️ <b>${formatPrice(deal.discountPrice, deal.currency)}</b>\n` +
-                   `🔗 <a href="${deal.url}">Детальніше в Epic Games Store</a>\n\n`;
+                   `🔗 <a href="${escapeAttr(deal.url)}">Детальніше в Epic Games Store</a>\n\n`;
     }
     epicText += `🚀 Більше пропозицій дивіться на нашому сайті!`;
     await sendTelegramMessage(epicText);
@@ -483,7 +496,7 @@ async function run() {
       steamText += `🎮 <b>${escapeHtml(deal.title)}</b>\n` +
                    `🏷️ Знижка: <b>-${deal.discountPercent}%</b>\n` +
                    `💰 Ціна: <s>${formatPrice(deal.originalPrice, deal.currency)}</s> ➡️ <b>${formatPrice(deal.discountPrice, deal.currency)}</b>\n` +
-                   `🔗 <a href="${deal.url}">Детальніше в Steam</a>\n\n`;
+                   `🔗 <a href="${escapeAttr(deal.url)}">Детальніше в Steam</a>\n\n`;
     }
     steamText += `🚀 Більше знижок дивіться на нашому сайті!`;
     await sendTelegramMessage(steamText);
@@ -498,7 +511,7 @@ async function run() {
       
       popularText += `🎮 <b>${escapeHtml(game.title)}</b>\n` +
                      `💰 Ціна: ${priceText}\n` +
-                     `🔗 <a href="${game.url}">Дивитися в Steam</a>\n\n`;
+                     `🔗 <a href="${escapeAttr(game.url)}">Дивитися в Steam</a>\n\n`;
     }
     popularText += `🚀 Більше популярних ігор дивіться на нашому сайті!`;
     await sendTelegramMessage(popularText);
