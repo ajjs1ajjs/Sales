@@ -22,9 +22,9 @@
 |-----------|-----|-------|
 | **Epic Games** | Безкоштовні роздачі | Ігри, які зараз безкоштовні |
 | **Epic Games** | Майбутні роздачі | Ігри, що стануть безкоштовними невдовзі |
+| **Epic Games** | Знижки | Акційні пропозиції в Epic Games Store |
 | **Steam** | Гарячі знижки | Акційні пропозиції від 5% |
 | **Steam** | Топ продажів | Лідери продажів прямо зараз |
-| **Steam** | Нові релізи | Свіжі популярні новинки |
 
 ### Можливості сайту:
 
@@ -73,14 +73,14 @@ GitHub Actions запускає скрипт
 - **Автоматизація:** GitHub Actions (cron кожну годину)
 - **Хостинг:** GitHub Pages
 - **Сповіщення:** Telegram Bot API
-- **PWA:** vite-plugin-pwa + Service Worker з Network-First стратегією
+- **PWA:** vite-plugin-pwa + Service Worker (Network-First для даних, Stale-While-Revalidate для статики)
 
 ---
 
 ## Локальний запуск
 
 ### Вимоги
-- Node.js 18+
+- Node.js 20+ (використовується `Array.prototype.toSorted`)
 - npm
 
 ### Встановлення
@@ -197,9 +197,9 @@ Sales/
 
 Підписуйтесь на [@salesgamesua](https://t.me/salesgamesua) — отримуйте миттєві сповіщення про:
 - Безкоштовні ігри від Epic Games
-- Будь-які знижки у Steam
-- Нові хіти продажів
-- Популярні нові релізи
+- Знижки в Epic Games Store
+- Гарячі знижки у Steam (від 5%)
+- Нові хіти продажів (Steam Top Sellers)
 
 ---
 
