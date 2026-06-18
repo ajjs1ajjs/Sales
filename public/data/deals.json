@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T12:22:47.496Z",
+  "lastUpdated": "2026-06-18T13:51:01.997Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -96,18 +96,6 @@
       "isPopular": true
     },
     {
-      "id": "3764200",
-      "title": "Resident Evil Requiem",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
-      "originalPrice": 1999,
-      "discountPrice": 1599,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3764200",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2050650",
       "title": "Resident Evil 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
@@ -116,6 +104,18 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2050650",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3764200",
+      "title": "Resident Evil Requiem",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
+      "originalPrice": 1999,
+      "discountPrice": 1599,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3764200",
       "isSpecial": true,
       "isPopular": false
     },
@@ -144,18 +144,6 @@
       "isPopular": false
     },
     {
-      "id": "381210",
-      "title": "Dead by Daylight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/a1fd8eb372877c6939bbd62ca325ad710b5e24c6/capsule_616x353_alt_assets_8.jpg?t=1781638389",
-      "originalPrice": 429,
-      "discountPrice": 171,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/381210",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3241660",
       "title": "R.E.P.O.",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
@@ -164,6 +152,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3241660",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "381210",
+      "title": "Dead by Daylight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/a1fd8eb372877c6939bbd62ca325ad710b5e24c6/capsule_616x353_alt_assets_8.jpg?t=1781638389",
+      "originalPrice": 429,
+      "discountPrice": 171,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/381210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -204,18 +204,6 @@
       "isPopular": true
     },
     {
-      "id": "2483190",
-      "title": "Forza Horizon 6",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/9d63ec056caddb97fc9a70c7c11aa6540736a6bf/capsule_616x353_alt_assets_1.jpg?t=1781643649",
-      "originalPrice": 2299,
-      "discountPrice": 2299,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2483190",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "3483510",
       "title": "The Adventures of Elliot: The Millennium Tales",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3483510/0d5cbb1d81642a256b5a690d5c27b57cdd7891d4/capsule_616x353.jpg?t=1779674534",
@@ -224,6 +212,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3483510",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2483190",
+      "title": "Forza Horizon 6",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/9d63ec056caddb97fc9a70c7c11aa6540736a6bf/capsule_616x353_alt_assets_1.jpg?t=1781643649",
+      "originalPrice": 2299,
+      "discountPrice": 2299,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2483190",
       "isSpecial": false,
       "isPopular": true
     },
