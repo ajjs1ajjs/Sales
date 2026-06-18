@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T21:23:51.218Z",
+  "lastUpdated": "2026-06-18T22:04:41.447Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -88,18 +88,6 @@
       "isPopular": false
     },
     {
-      "id": "2138330",
-      "title": "Cyberpunk 2077: Ілюзія свободи",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1768305060",
-      "originalPrice": 699,
-      "discountPrice": 419,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2138330",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1874880",
       "title": "Arma Reforger",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874880/capsule_616x353.jpg?t=1779966148",
@@ -108,6 +96,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1874880",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2138330",
+      "title": "Cyberpunk 2077: Ілюзія свободи",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1768305060",
+      "originalPrice": 699,
+      "discountPrice": 419,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2138330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -136,26 +136,14 @@
       "isPopular": false
     },
     {
-      "id": "3241660",
-      "title": "R.E.P.O.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
-      "originalPrice": 194,
-      "discountPrice": 135,
-      "discountPercent": 30,
+      "id": "3404260",
+      "title": "Dead as Disco",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404260/0de32ca6690e936f8d633464028b3751e1dc947e/capsule_616x353.jpg?t=1778694984",
+      "originalPrice": 489,
+      "discountPrice": 391,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3241660",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3986670",
-      "title": "YOU ARE THE MONSTER",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3986670/9f7f92e6969b679e45115b3189be6d6af8971ff3/capsule_616x353.jpg?t=1781807394",
-      "originalPrice": 230,
-      "discountPrice": 195,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3986670",
+      "url": "https://store.steampowered.com/app/3404260",
       "isSpecial": true,
       "isPopular": false
     },
@@ -168,18 +156,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     },
@@ -1554,6 +1530,13 @@
       "price": 195,
       "percent": 15,
       "timestamp": "2026-06-18T21:23:49.764Z",
+      "type": "discount"
+    },
+    "steam_discount_3404260": {
+      "title": "Dead as Disco",
+      "price": 391,
+      "percent": 20,
+      "timestamp": "2026-06-18T22:04:40.082Z",
       "type": "discount"
     }
   }
