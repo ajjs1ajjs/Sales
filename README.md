@@ -153,10 +153,11 @@ Sales/
 │   ├── components/
 │   │   ├── __tests__/             # Тести компонентів
 │   │   ├── EpicSection.tsx        # Секція Epic Games
-│   │   ├── ErrorBoundary.tsx      # Обробка помилок React
+│   │   ├── ErrorBoundaryWithLocale.tsx # ErrorBoundary з локалізацією
 │   │   ├── GameCard.tsx           # Картка гри
 │   │   ├── HistoryPage.tsx        # Сторінка історії сповіщень
 │   │   ├── InstallPWA.tsx         # Банер встановлення PWA
+│   │   ├── LanguageToggle.tsx     # Перемикач мови (uk/en)
 │   │   ├── PriceRangeFilter.tsx   # Фільтр за діапазоном цін
 │   │   ├── SearchControls.tsx     # Пошук та фільтри
 │   │   ├── ShowMore.tsx           # Кнопка "Показати ще"
@@ -166,15 +167,24 @@ Sales/
 │   │   ├── TelegramBanner.tsx     # Банер Telegram
 │   │   ├── ThemeToggle.tsx        # Перемикач теми
 │   │   └── WishlistButton.tsx     # Кнопка обраного
+│   ├── contexts/
+│   │   ├── LocaleContext.tsx      # Контекст локалізації (i18n)
+│   │   └── WishlistContext.tsx    # Контекст списку бажань
 │   ├── hooks/
 │   │   ├── useDebounce.ts         # Debounce hook
 │   │   ├── useInstallPWA.ts       # PWA install hook
 │   │   └── useLocalStorage.ts     # localStorage hook
+│   ├── locales/
+│   │   ├── en.ts                  # Англійські переклади
+│   │   └── uk.ts                  # Українські переклади
 │   ├── App.tsx                    # Головний компонент + роутер
+│   ├── DataContext.tsx            # Контекст завантаження deals.json
+│   ├── ErrorBoundary.tsx          # Обробка помилок React
 │   ├── index.css                  # Стилі
 │   ├── main.tsx                   # Точка входу
 │   ├── sw.ts                      # Service Worker
 │   ├── test-setup.ts              # Налаштування тестів
+│   ├── test-utils.tsx             # Хелпери для тестів
 │   ├── types.ts                   # Типи TypeScript
 │   └── utils.ts                   # Утиліти (форматування)
 ├── index.html                     # HTML-шаблон з SEO мета-тегами
