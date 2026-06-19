@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T22:04:41.447Z",
+  "lastUpdated": "2026-06-19T00:24:20.369Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -76,26 +76,14 @@
       "isPopular": false
     },
     {
-      "id": "3156770",
-      "title": "Witchfire",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3156770/8889ff200d38801631d89de4f2bb2bfa18c130be/capsule_616x353.jpg?t=1781797490",
-      "originalPrice": 740,
-      "discountPrice": 592,
+      "id": "3404260",
+      "title": "Dead as Disco",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404260/0de32ca6690e936f8d633464028b3751e1dc947e/capsule_616x353.jpg?t=1778694984",
+      "originalPrice": 489,
+      "discountPrice": 391,
       "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3156770",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1874880",
-      "title": "Arma Reforger",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874880/capsule_616x353.jpg?t=1779966148",
-      "originalPrice": 899,
-      "discountPrice": 629,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1874880",
+      "url": "https://store.steampowered.com/app/3404260",
       "isSpecial": true,
       "isPopular": false
     },
@@ -112,6 +100,30 @@
       "isPopular": false
     },
     {
+      "id": "3156770",
+      "title": "Witchfire",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3156770/8889ff200d38801631d89de4f2bb2bfa18c130be/capsule_616x353.jpg?t=1781797490",
+      "originalPrice": 740,
+      "discountPrice": 592,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3156770",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2909400",
+      "title": "FINAL FANTASY VII REBIRTH",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg?t=1775124617",
+      "originalPrice": 1699,
+      "discountPrice": 679,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2909400",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2001120",
       "title": "Split Fiction",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
@@ -124,26 +136,14 @@
       "isPopular": false
     },
     {
-      "id": "381210",
-      "title": "Dead by Daylight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/a1fd8eb372877c6939bbd62ca325ad710b5e24c6/capsule_616x353_alt_assets_8.jpg?t=1781795618",
-      "originalPrice": 429,
-      "discountPrice": 171,
-      "discountPercent": 60,
+      "id": "221100",
+      "title": "DayZ",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/capsule_616x353.jpg?t=1769695513",
+      "originalPrice": 1199,
+      "discountPrice": 539,
+      "discountPercent": 55,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/381210",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3404260",
-      "title": "Dead as Disco",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404260/0de32ca6690e936f8d633464028b3751e1dc947e/capsule_616x353.jpg?t=1778694984",
-      "originalPrice": 489,
-      "discountPrice": 391,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3404260",
+      "url": "https://store.steampowered.com/app/221100",
       "isSpecial": true,
       "isPopular": false
     },
@@ -192,18 +192,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3483510",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1297900",
-      "title": "Gothic 1 Remake",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1780965412",
-      "originalPrice": 1505,
-      "discountPrice": 1505,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1297900",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1537,6 +1525,13 @@
       "price": 391,
       "percent": 20,
       "timestamp": "2026-06-18T22:04:40.082Z",
+      "type": "discount"
+    },
+    "steam_discount_221100": {
+      "title": "DayZ",
+      "price": 539,
+      "percent": 55,
+      "timestamp": "2026-06-19T00:24:18.914Z",
       "type": "discount"
     }
   }
