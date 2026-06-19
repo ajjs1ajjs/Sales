@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { ExternalLink, Tag, TrendingUp } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
 import type { EpicGame, SteamGame } from '../types';
-import { formatPrice, formatDate, isEpicGame, safeUrl } from '../utils';
+import { formatPrice, formatDate, formatDateEn, isEpicGame, safeUrl } from '../utils';
 import { WishlistButton } from './WishlistButton';
 
 export type Game = EpicGame | SteamGame;
@@ -54,7 +54,7 @@ export function GameCard({
   linkText,
   searchQuery = '',
 }: Props) {
-  const { t } = useLocale();
+  const { t, locale } = useLocale();
   const [imgError, setImgError] = useState(false);
   const defaultLinkText = linkText ?? t.steam.buy;
 
@@ -111,7 +111,10 @@ export function GameCard({
         {isUpcoming && upcomingStartDate && (
           <p className="card-desc">
             <span className="upcoming-status">
-              {t.date.from.replace('{date}', formatDate(upcomingStartDate))}
+              {t.date.from.replace(
+                '{date}',
+                locale === 'en' ? formatDateEn(upcomingStartDate) : formatDate(upcomingStartDate),
+              )}
             </span>
           </p>
         )}

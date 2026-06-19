@@ -1,5 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
-import { createContext, useContext, useState, useCallback, type ReactNode } from 'react';
+import { createContext, useContext, useState, useCallback, useEffect, type ReactNode } from 'react';
 import { uk } from '../locales/uk';
 import { en } from '../locales/en';
 import type { Translations } from '../locales/uk';
@@ -31,6 +31,13 @@ const LocaleContext = createContext<LocaleContextValue | null>(null);
 export function LocaleProvider({ children, initialLocale }: { children: ReactNode; initialLocale?: Locale }) {
   const [locale, setLocaleState] = useState<Locale>(initialLocale ?? getInitialLocale);
 
+  // Keep <html lang> in sync with the active locale — including the INITIAL
+  // value (index.html hard-codes lang="uk", so an English user would otherwise
+  // render English text under lang="uk" until they toggled languages).
+  useEffect(() => {
+    document.documentElement.lang = locale;
+  }, [locale]);
+
   const setLocale = useCallback((l: Locale) => {
     setLocaleState(l);
     try {
@@ -38,7 +45,6 @@ export function LocaleProvider({ children, initialLocale }: { children: ReactNod
     } catch {
       /* ignore */
     }
-    document.documentElement.lang = l;
   }, []);
 
   return (

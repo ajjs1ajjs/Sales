@@ -73,6 +73,11 @@ function HomePage() {
     return userPriceRange || [absoluteMinPrice, absoluteMaxPrice];
   }, [userPriceRange, absoluteMinPrice, absoluteMaxPrice]);
 
+  // A price filter is "active" only when the range is narrower than the full
+  // span — not merely when userPriceRange is non-null (Reset sets it to the full
+  // range), so the wishlist empty-state message stays correct after a reset.
+  const isPriceFiltered = priceRange[0] > absoluteMinPrice || priceRange[1] < absoluteMaxPrice;
+
   const nonGameIds = useMemo(() => {
     const ids = new Set<string>();
     if (data) {
@@ -98,16 +103,21 @@ function HomePage() {
   }, [data, debouncedSearch]);
 
   const filterCounts = useMemo(() => {
+    // Count from the SAME price-filtered set the sections render, so the badge
+    // numbers always match the visible cards.
+    const inPriceRange = (price: number) => price >= priceRange[0] && price <= priceRange[1];
+    const epicPriced = epicMatchingSearch.filter((g) => inPriceRange(g.isFreeNow ? 0 : g.discountPrice));
+    const steamPriced = steamMatchingSearch.filter((g) => inPriceRange(g.discountPrice));
     return {
-      all: epicMatchingSearch.length + steamMatchingSearch.length,
-      epic_free: epicMatchingSearch.filter((game) => game.isFreeNow || game.isUpcomingFree).length,
-      epic_discount: epicMatchingSearch.filter((game) => game.isDiscounted).length,
-      steam_specials: steamMatchingSearch.filter((game) => game.isSpecial).length,
-      steam_popular: steamMatchingSearch.filter((game) => game.isPopular).length,
-      wishlist: epicMatchingSearch.filter((game) => wishlist.includes(game.id)).length +
-                steamMatchingSearch.filter((game) => wishlist.includes(game.id)).length,
+      all: epicPriced.length + steamPriced.length,
+      epic_free: epicPriced.filter((game) => game.isFreeNow || game.isUpcomingFree).length,
+      epic_discount: epicPriced.filter((game) => game.isDiscounted).length,
+      steam_specials: steamPriced.filter((game) => game.isSpecial).length,
+      steam_popular: steamPriced.filter((game) => game.isPopular).length,
+      wishlist: epicPriced.filter((game) => wishlist.includes(game.id)).length +
+                steamPriced.filter((game) => wishlist.includes(game.id)).length,
     };
-  }, [epicMatchingSearch, steamMatchingSearch, wishlist]);
+  }, [epicMatchingSearch, steamMatchingSearch, wishlist, priceRange]);
 
   const filteredEpic = useMemo(() => {
     return epicMatchingSearch.filter((game) => {
@@ -247,8 +257,8 @@ function HomePage() {
                 priceFilteredEpic.length === 0 &&
                 priceFilteredSteam.length === 0 && (
                   <div className="empty-state section-gap-top">
-                    <h3>{userPriceRange ? t.app.wishlistEmptyPrice : t.app.wishlistEmpty}</h3>
-                    <p>{userPriceRange ? t.app.wishlistEmptyPriceDesc : t.app.wishlistEmptyDesc}</p>
+                    <h3>{isPriceFiltered ? t.app.wishlistEmptyPrice : t.app.wishlistEmpty}</h3>
+                    <p>{isPriceFiltered ? t.app.wishlistEmptyPriceDesc : t.app.wishlistEmptyDesc}</p>
                   </div>
                 )}
             </>

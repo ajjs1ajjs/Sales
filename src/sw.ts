@@ -7,6 +7,10 @@ const CACHE_PREFIX = 'game-sales';
 // Фіксований fallback замість Date.now(): якщо маніфест порожній, ім'я кешу не мусить
 // мінятися щозавантаження (інакше кеш ніколи не збігається й офлайн-режим ламається).
 const CACHE = `${CACHE_PREFIX}-${manifestEntries.map((e) => e.revision || '0').join('-').slice(0, 32) || 'static'}`;
+// App-shell URL for the offline navigation fallback (precached as .../index.html,
+// not under the bare base path), so an offline deep-link / cold start still works.
+const NAV_FALLBACK =
+  manifestEntries.find((e) => e.url.endsWith('index.html'))?.url ?? manifestEntries[0]?.url;
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -49,11 +53,16 @@ self.addEventListener('fetch', (event) => {
           }
           return response;
         })
-        .catch(() => {
-          return caches.match(event.request).then((cached) => {
-            if (cached) return cached;
-            throw new Error('Offline and no cached data available');
-          });
+        .catch(async () => {
+          const cached = await caches.match(event.request, { ignoreSearch: true });
+          if (cached) return cached;
+          // For a navigation that wasn't itself cached, serve the app shell so
+          // offline deep-links / cold starts render instead of throwing.
+          if (event.request.mode === 'navigate' && NAV_FALLBACK) {
+            const shell = await caches.match(NAV_FALLBACK);
+            if (shell) return shell;
+          }
+          throw new Error('Offline and no cached data available');
         })
     );
   } else {
@@ -68,7 +77,13 @@ self.addEventListener('fetch', (event) => {
           }
           return response;
         });
-        return cached || fetched;
+        if (cached) {
+          // Background revalidation: swallow its rejection (e.g. offline) so it
+          // doesn't surface as an unhandledrejection — the cached response is served.
+          fetched.catch(() => {});
+          return cached;
+        }
+        return fetched;
       }),
     );
   }

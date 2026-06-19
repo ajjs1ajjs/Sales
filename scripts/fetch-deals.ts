@@ -58,19 +58,62 @@ function formatPrice(price: number, currency: string): string {
   return `${formattedPrice} ${currencySymbol}`;
 }
 
+// Minimal typings for the external API responses (res.json() is `unknown`).
+interface EpicOffer {
+  discountSetting?: { discountPercentage?: number };
+  startDate?: string;
+  endDate?: string;
+}
+interface EpicPromoBlock { promotionalOffers?: EpicOffer[] }
+interface EpicElement {
+  id: string;
+  title: string;
+  description?: string;
+  price?: { totalPrice?: { originalPrice?: number; discountPrice?: number; currencyCode?: string } };
+  promotions?: { promotionalOffers?: EpicPromoBlock[]; upcomingPromotionalOffers?: EpicPromoBlock[] };
+  keyImages?: { type: string; url: string }[];
+  catalogNs?: { mappings?: { pageSlug?: string }[] };
+  productSlug?: string;
+  customAttributes?: { key: string; value: string }[];
+  urlSlug?: string;
+}
+interface EpicResponse { data?: { Catalog?: { searchStore?: { elements?: EpicElement[] } } } }
+
+interface SteamItem {
+  id: number;
+  name: string;
+  type?: number;
+  large_capsule_image?: string;
+  header_image?: string;
+  capsule_image?: string;
+  original_price?: number;
+  final_price?: number;
+  discount_percent?: number;
+  currency?: string;
+}
+interface SteamResponse {
+  specials?: { items?: SteamItem[] };
+  top_sellers?: { items?: SteamItem[] };
+}
+
 async function fetchEpicGames(): Promise<EpicGame[]> {
   try {
     console.log("Fetching Epic Games promotions...");
     const url = 'https://store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions?locale=uk&country=UA';
     const res = await fetchWithRetry(url);
-    const data = await res.json();
-    const elements = data.data.Catalog.searchStore.elements || [];
+    const data = await res.json() as EpicResponse;
+    const elements = data.data?.Catalog?.searchStore?.elements || [];
     
     const games: EpicGame[] = [];
     
     for (const item of elements) {
-      const originalPrice = item.price.totalPrice.originalPrice / 100;
-      const discountPrice = item.price.totalPrice.discountPrice / 100;
+      // Epic's catalog regularly returns region-locked/unpublished entries with
+      // a null price (or a missing title). Skip them instead of letting one bad
+      // element throw and abort the whole hourly fetch + deploy.
+      const totalPrice = item?.price?.totalPrice;
+      if (!totalPrice || typeof item?.title !== 'string') continue;
+      const originalPrice = (Number(totalPrice.originalPrice) || 0) / 100;
+      const discountPrice = (Number(totalPrice.discountPrice) || 0) / 100;
       const isDiscounted = discountPrice < originalPrice && discountPrice > 0;
       const discountPercent = originalPrice > 0 ? Math.round((1 - discountPrice / originalPrice) * 100) : 0;
       
@@ -85,11 +128,11 @@ async function fetchEpicGames(): Promise<EpicGame[]> {
         for (const offer of block.promotionalOffers || []) {
           if (offer.discountSetting?.discountPercentage === 0) {
             isFreeNow = true;
-            startDate = offer.startDate;
-            endDate = offer.endDate;
-          } else if (offer.discountSetting?.discountPercentage > 0) {
-            startDate = offer.startDate;
-            endDate = offer.endDate;
+            startDate = offer.startDate ?? "";
+            endDate = offer.endDate ?? "";
+          } else if ((offer.discountSetting?.discountPercentage ?? 0) > 0) {
+            startDate = offer.startDate ?? "";
+            endDate = offer.endDate ?? "";
           }
         }
       }
@@ -100,8 +143,8 @@ async function fetchEpicGames(): Promise<EpicGame[]> {
         for (const offer of block.promotionalOffers || []) {
           if (offer.discountSetting?.discountPercentage === 0) {
             isUpcomingFree = true;
-            startDate = offer.startDate;
-            endDate = offer.endDate;
+            startDate = offer.startDate ?? "";
+            endDate = offer.endDate ?? "";
           }
         }
       }
@@ -150,7 +193,7 @@ async function fetchEpicGames(): Promise<EpicGame[]> {
           imageUrl,
           originalPrice,
           discountPrice,
-          currency: item.price.totalPrice.currencyCode || "USD",
+          currency: totalPrice.currencyCode || "USD",
           url: gameUrl,
           startDate,
           endDate,
@@ -173,25 +216,14 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
     console.log("Fetching Steam categories...");
     const url = 'https://store.steampowered.com/api/featuredcategories/?cc=UA&l=ukrainian';
     const res = await fetchWithRetry(url);
-    const data = await res.json();
-    
+    const data = await res.json() as SteamResponse;
+
     const specials = data.specials?.items || [];
     const topSellers = data.top_sellers?.items || [];
-    
+
     const gamesMap = new Map<string, SteamGame>();
-    
-    const processItems = (items: {
-      id: number;
-      name: string;
-      type?: number;
-      large_capsule_image?: string;
-      header_image?: string;
-      capsule_image?: string;
-      original_price?: number;
-      final_price?: number;
-      discount_percent?: number;
-      currency?: string;
-    }[], isSpecial: boolean, isPopular: boolean) => {
+
+    const processItems = (items: SteamItem[], isSpecial: boolean, isPopular: boolean) => {
       for (const item of items) {
         const id = String(item.id);
         const imageUrl = item.large_capsule_image || item.header_image || item.capsule_image || "";
@@ -212,8 +244,8 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
           const existing = gamesMap.get(id)!;
           if (isSpecial) existing.isSpecial = true;
           if (isPopular) existing.isPopular = true;
-          if (item.discount_percent > existing.discountPercent) {
-            existing.discountPercent = item.discount_percent;
+          if ((item.discount_percent ?? 0) > existing.discountPercent) {
+            existing.discountPercent = item.discount_percent ?? 0;
             existing.originalPrice = originalPrice;
             existing.discountPrice = discountPrice;
           }
@@ -289,10 +321,27 @@ async function run() {
   console.log("Starting deals fetcher script...");
   
   // Load previous deals for comparison
-  let oldData: DealsData = { lastUpdated: "", epic: [], steam: [] };
+  // Coerce whatever we read (local file OR remote GitHub Pages) into a valid
+  // DealsData shape — a structurally-wrong-but-valid-JSON file (e.g. {}, an
+  // array, or a null `epic` from a prior partial write) must not crash the
+  // `oldData.epic.length` guards below.
+  const coerceOldData = (parsed: unknown): DealsData => {
+    const p = parsed && typeof parsed === 'object' ? (parsed as Record<string, unknown>) : {};
+    return {
+      lastUpdated: typeof p.lastUpdated === 'string' ? p.lastUpdated : '',
+      epic: Array.isArray(p.epic) ? (p.epic as DealsData['epic']) : [],
+      steam: Array.isArray(p.steam) ? (p.steam as DealsData['steam']) : [],
+      notifiedHistory:
+        p.notifiedHistory && typeof p.notifiedHistory === 'object'
+          ? (p.notifiedHistory as DealsData['notifiedHistory'])
+          : {},
+    };
+  };
+
+  let oldData: DealsData = { lastUpdated: "", epic: [], steam: [], notifiedHistory: {} };
   if (fs.existsSync(DEALS_PATH)) {
     try {
-      oldData = JSON.parse(fs.readFileSync(DEALS_PATH, 'utf-8'));
+      oldData = coerceOldData(JSON.parse(fs.readFileSync(DEALS_PATH, 'utf-8')));
       console.log("Loaded previous deals from local path.");
     } catch (err) {
       console.error("⚠️ Failed to parse old local deals.json:", err);
@@ -303,7 +352,7 @@ async function run() {
       console.log(`Trying to fetch previous deals from GitHub Pages: ${githubPagesUrl}`);
       const res = await fetch(githubPagesUrl);
       if (res.ok) {
-        oldData = await res.json();
+        oldData = coerceOldData(await res.json());
         console.log("✅ Loaded previous deals from GitHub Pages.");
       }
     } catch {

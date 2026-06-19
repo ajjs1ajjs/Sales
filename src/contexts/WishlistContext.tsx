@@ -10,8 +10,11 @@ interface WishlistContextValue {
 
 const WishlistContext = createContext<WishlistContextValue | null>(null);
 
+const isStringArray = (v: unknown): v is string[] =>
+  Array.isArray(v) && v.every((x) => typeof x === 'string');
+
 export function WishlistProvider({ children }: { children: ReactNode }) {
-  const [wishlist, setWishlist] = useLocalStorage<string[]>('wishlist', []);
+  const [wishlist, setWishlist] = useLocalStorage<string[]>('wishlist', [], isStringArray);
 
   const toggleWishlist = useCallback((gameId: string) => {
     setWishlist((prev) =>
