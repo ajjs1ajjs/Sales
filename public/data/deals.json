@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T14:58:36.043Z",
+  "lastUpdated": "2026-06-19T17:21:38.063Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -76,14 +76,14 @@
       "isPopular": true
     },
     {
-      "id": "2001120",
-      "title": "Split Fiction",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
-      "originalPrice": 1299,
-      "discountPrice": 844,
-      "discountPercent": 35,
+      "id": "1693980",
+      "title": "Dead Space",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/capsule_616x353.jpg?t=1777396576",
+      "originalPrice": 1499,
+      "discountPrice": 149,
+      "discountPercent": 90,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001120",
+      "url": "https://store.steampowered.com/app/1693980",
       "isSpecial": true,
       "isPopular": false
     },
@@ -100,14 +100,14 @@
       "isPopular": false
     },
     {
-      "id": "1693980",
-      "title": "Dead Space",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/capsule_616x353.jpg?t=1777396576",
-      "originalPrice": 1499,
-      "discountPrice": 149,
-      "discountPercent": 90,
+      "id": "2001120",
+      "title": "Split Fiction",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
+      "originalPrice": 1299,
+      "discountPrice": 844,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1693980",
+      "url": "https://store.steampowered.com/app/2001120",
       "isSpecial": true,
       "isPopular": false
     },
@@ -124,14 +124,14 @@
       "isPopular": false
     },
     {
-      "id": "322330",
-      "title": "Don't Starve Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/d06913ca46e5068feee25b350cb2ca6e4d693897/capsule_616x353_alt_assets_50.jpg?t=1781363712",
-      "originalPrice": 229,
-      "discountPrice": 22,
-      "discountPercent": 90,
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/322330",
+      "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
       "isPopular": false
     },
