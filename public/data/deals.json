@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T19:45:48.097Z",
+  "lastUpdated": "2026-06-19T21:07:19.778Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -73,7 +73,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2138330",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1693980",
@@ -112,18 +112,6 @@
       "isPopular": false
     },
     {
-      "id": "221100",
-      "title": "DayZ",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/capsule_616x353.jpg?t=1769695513",
-      "originalPrice": 1199,
-      "discountPrice": 539,
-      "discountPercent": 55,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/221100",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3156770",
       "title": "Witchfire",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3156770/8889ff200d38801631d89de4f2bb2bfa18c130be/capsule_616x353.jpg?t=1781797490",
@@ -132,6 +120,18 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3156770",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "221100",
+      "title": "DayZ",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/capsule_616x353.jpg?t=1769695513",
+      "originalPrice": 1199,
+      "discountPrice": 539,
+      "discountPercent": 55,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/221100",
       "isSpecial": true,
       "isPopular": false
     },
@@ -204,6 +204,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1297900",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1962700",
+      "title": "Subnautica 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/ceed43f5d774d84a5578eccaaec6842cb9591667/capsule_616x353.jpg?t=1780372044",
+      "originalPrice": 899,
+      "discountPrice": 899,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1962700",
       "isSpecial": false,
       "isPopular": true
     }
