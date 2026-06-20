@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T00:07:14.291Z",
+  "lastUpdated": "2026-06-20T05:10:43.199Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -76,6 +76,18 @@
       "isPopular": true
     },
     {
+      "id": "2001120",
+      "title": "Split Fiction",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
+      "originalPrice": 1299,
+      "discountPrice": 844,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2001120",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1693980",
       "title": "Dead Space",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/capsule_616x353.jpg?t=1777396576",
@@ -88,14 +100,14 @@
       "isPopular": false
     },
     {
-      "id": "2001120",
-      "title": "Split Fiction",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
-      "originalPrice": 1299,
-      "discountPrice": 844,
-      "discountPercent": 35,
+      "id": "1426210",
+      "title": "It Takes Two",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
+      "originalPrice": 999,
+      "discountPrice": 299,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001120",
+      "url": "https://store.steampowered.com/app/1426210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -112,18 +124,6 @@
       "isPopular": false
     },
     {
-      "id": "3404260",
-      "title": "Dead as Disco",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404260/0de32ca6690e936f8d633464028b3751e1dc947e/capsule_616x353.jpg?t=1778694984",
-      "originalPrice": 489,
-      "discountPrice": 391,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3404260",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3241660",
       "title": "R.E.P.O.",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
@@ -136,26 +136,14 @@
       "isPopular": false
     },
     {
-      "id": "1874880",
-      "title": "Arma Reforger",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874880/capsule_616x353.jpg?t=1779966148",
-      "originalPrice": 899,
-      "discountPrice": 629,
-      "discountPercent": 30,
+      "id": "2909400",
+      "title": "FINAL FANTASY VII REBIRTH",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg?t=1775124617",
+      "originalPrice": 1699,
+      "discountPrice": 679,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1874880",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "221100",
-      "title": "DayZ",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/capsule_616x353.jpg?t=1769695513",
-      "originalPrice": 1199,
-      "discountPrice": 539,
-      "discountPercent": 55,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/221100",
+      "url": "https://store.steampowered.com/app/2909400",
       "isSpecial": true,
       "isPopular": false
     },
@@ -172,18 +160,6 @@
       "isPopular": true
     },
     {
-      "id": "3405690",
-      "title": "EA SPORTS FC™ 26",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1781720918",
-      "originalPrice": 1699,
-      "discountPrice": 340,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3405690",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "2483190",
       "title": "Forza Horizon 6",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/9d63ec056caddb97fc9a70c7c11aa6540736a6bf/capsule_616x353_alt_assets_1.jpg?t=1781815797",
@@ -196,14 +172,14 @@
       "isPopular": true
     },
     {
-      "id": "1962700",
-      "title": "Subnautica 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/ceed43f5d774d84a5578eccaaec6842cb9591667/capsule_616x353.jpg?t=1780372044",
-      "originalPrice": 899,
-      "discountPrice": 899,
-      "discountPercent": 0,
+      "id": "3405690",
+      "title": "EA SPORTS FC™ 26",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1781720918",
+      "originalPrice": 1699,
+      "discountPrice": 340,
+      "discountPercent": 80,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1962700",
+      "url": "https://store.steampowered.com/app/3405690",
       "isSpecial": false,
       "isPopular": true
     }
