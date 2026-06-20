@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T15:45:06.362Z",
+  "lastUpdated": "2026-06-20T17:23:49.441Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -64,30 +64,6 @@
       "isPopular": true
     },
     {
-      "id": "2001120",
-      "title": "Split Fiction",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
-      "originalPrice": 1299,
-      "discountPrice": 844,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001120",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
-      "id": "1426210",
-      "title": "It Takes Two",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
-      "originalPrice": 999,
-      "discountPrice": 299,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1426210",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2138330",
       "title": "Cyberpunk 2077: Ілюзія свободи",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1768305060",
@@ -100,26 +76,26 @@
       "isPopular": false
     },
     {
-      "id": "292030",
-      "title": "Відьмак 3: Дикий гін",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/96b8627588997030e5a6b56ca5e9944756c8f288/capsule_616x353.jpg?t=1768303991",
-      "originalPrice": 949,
-      "discountPrice": 94,
-      "discountPercent": 90,
+      "id": "2001120",
+      "title": "Split Fiction",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
+      "originalPrice": 1299,
+      "discountPrice": 844,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/292030",
+      "url": "https://store.steampowered.com/app/2001120",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "1693980",
-      "title": "Dead Space",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/capsule_616x353.jpg?t=1777396576",
-      "originalPrice": 1499,
-      "discountPrice": 149,
-      "discountPercent": 90,
+      "id": "1426210",
+      "title": "It Takes Two",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
+      "originalPrice": 999,
+      "discountPrice": 299,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1693980",
+      "url": "https://store.steampowered.com/app/1426210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,14 +124,38 @@
       "isPopular": false
     },
     {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
+      "id": "381210",
+      "title": "Dead by Daylight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/a1fd8eb372877c6939bbd62ca325ad710b5e24c6/capsule_616x353_alt_assets_8.jpg?t=1781795618",
+      "originalPrice": 429,
+      "discountPrice": 171,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
+      "url": "https://store.steampowered.com/app/381210",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1693980",
+      "title": "Dead Space",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/capsule_616x353.jpg?t=1777396576",
+      "originalPrice": 1499,
+      "discountPrice": 149,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1693980",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "292030",
+      "title": "Відьмак 3: Дикий гін",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/96b8627588997030e5a6b56ca5e9944756c8f288/capsule_616x353.jpg?t=1768303991",
+      "originalPrice": 949,
+      "discountPrice": 94,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/292030",
       "isSpecial": true,
       "isPopular": false
     },
@@ -192,6 +192,18 @@
       "discountPercent": 80,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3405690",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     },
