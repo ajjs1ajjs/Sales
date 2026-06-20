@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T22:54:04.010Z",
+  "lastUpdated": "2026-06-20T00:07:14.291Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -88,6 +88,18 @@
       "isPopular": false
     },
     {
+      "id": "2001120",
+      "title": "Split Fiction",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
+      "originalPrice": 1299,
+      "discountPrice": 844,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2001120",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3156770",
       "title": "Witchfire",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3156770/8889ff200d38801631d89de4f2bb2bfa18c130be/capsule_616x353.jpg?t=1781797490",
@@ -100,14 +112,14 @@
       "isPopular": false
     },
     {
-      "id": "221100",
-      "title": "DayZ",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/capsule_616x353.jpg?t=1769695513",
-      "originalPrice": 1199,
-      "discountPrice": 539,
-      "discountPercent": 55,
+      "id": "3404260",
+      "title": "Dead as Disco",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404260/0de32ca6690e936f8d633464028b3751e1dc947e/capsule_616x353.jpg?t=1778694984",
+      "originalPrice": 489,
+      "discountPrice": 391,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/221100",
+      "url": "https://store.steampowered.com/app/3404260",
       "isSpecial": true,
       "isPopular": false
     },
@@ -136,26 +148,14 @@
       "isPopular": false
     },
     {
-      "id": "3404260",
-      "title": "Dead as Disco",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404260/0de32ca6690e936f8d633464028b3751e1dc947e/capsule_616x353.jpg?t=1778694984",
-      "originalPrice": 489,
-      "discountPrice": 391,
-      "discountPercent": 20,
+      "id": "221100",
+      "title": "DayZ",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/capsule_616x353.jpg?t=1769695513",
+      "originalPrice": 1199,
+      "discountPrice": 539,
+      "discountPercent": 55,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3404260",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2001120",
-      "title": "Split Fiction",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
-      "originalPrice": 1299,
-      "discountPrice": 844,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001120",
+      "url": "https://store.steampowered.com/app/221100",
       "isSpecial": true,
       "isPopular": false
     },
@@ -196,14 +196,14 @@
       "isPopular": true
     },
     {
-      "id": "1297900",
-      "title": "Gothic 1 Remake",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1780965412",
-      "originalPrice": 1505,
-      "discountPrice": 1505,
+      "id": "1962700",
+      "title": "Subnautica 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/ceed43f5d774d84a5578eccaaec6842cb9591667/capsule_616x353.jpg?t=1780372044",
+      "originalPrice": 899,
+      "discountPrice": 899,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1297900",
+      "url": "https://store.steampowered.com/app/1962700",
       "isSpecial": false,
       "isPopular": true
     }
