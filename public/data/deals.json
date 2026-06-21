@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T11:44:04.083Z",
+  "lastUpdated": "2026-06-21T14:03:37.599Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -73,7 +73,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2001120",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "2138330",
@@ -148,14 +148,14 @@
       "isPopular": false
     },
     {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
+      "id": "3105440",
+      "title": "Heroes of Might and Magic: Olden Era",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3105440/e2e5d0b727a89e836985c9a05d410033a2d349d9/capsule_616x353.jpg?t=1779786083",
+      "originalPrice": 599,
+      "discountPrice": 449,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
+      "url": "https://store.steampowered.com/app/3105440",
       "isSpecial": true,
       "isPopular": false
     },
@@ -196,18 +196,6 @@
       "isPopular": true
     },
     {
-      "id": "1297900",
-      "title": "Gothic 1 Remake",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1780965412",
-      "originalPrice": 1505,
-      "discountPrice": 1505,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1297900",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
@@ -218,191 +206,21 @@
       "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
+    },
+    {
+      "id": "1297900",
+      "title": "Gothic 1 Remake",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1780965412",
+      "originalPrice": 1505,
+      "discountPrice": 1505,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1297900",
+      "isSpecial": false,
+      "isPopular": true
     }
   ],
   "notifiedHistory": {
-    "epic_discount_921e40c4c69f4d728914ca2a4f0aa407": {
-      "title": "Eternal Threads",
-      "price": 73.8,
-      "percent": 80,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "discount"
-    },
-    "epic_discount_be5600439b434624802764f704755cde": {
-      "title": "Ghostrunner 2",
-      "price": 199.8,
-      "percent": 80,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "discount"
-    },
-    "epic_discount_944b5b5d646d46bc92bc33edfe983d26": {
-      "title": "LISA: The Definitive Edition",
-      "price": 274.45,
-      "percent": 45,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "discount"
-    },
-    "epic_discount_8f80897c0b6e4e678fed08da169d44be": {
-      "title": "Castlevania Anniversary Collection",
-      "price": 111.6,
-      "percent": 60,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "discount"
-    },
-    "epic_discount_f967cff9761c4198b4e972cfd71e40d7": {
-      "title": "Monument Valley",
-      "price": 65.45,
-      "percent": 65,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "discount"
-    },
-    "epic_free_cd37ebd7ce804df9b51b84578e631b8a": {
-      "title": "Down in Bermuda",
-      "price": 0,
-      "percent": 100,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "free"
-    },
-    "epic_free_9e2567e57e61458686d53f5aeaf1e2e0": {
-      "title": "Tomb Raider I-III Remastered Starring Lara Croft",
-      "price": 0,
-      "percent": 100,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "free"
-    },
-    "steam_discount_2183900": {
-      "title": "Warhammer 40,000: Space Marine 2",
-      "price": 389,
-      "percent": 70,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "discount"
-    },
-    "steam_popular_2183900": {
-      "title": "Warhammer 40,000: Space Marine 2",
-      "price": 389,
-      "percent": 70,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "popular"
-    },
-    "steam_discount_264710": {
-      "title": "Subnautica",
-      "price": 199,
-      "percent": 75,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "discount"
-    },
-    "steam_discount_1304930": {
-      "title": "The Outlast Trials",
-      "price": 222,
-      "percent": 70,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "discount"
-    },
-    "steam_discount_1174180": {
-      "title": "Red Dead Redemption 2",
-      "price": 649,
-      "percent": 75,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "discount"
-    },
-    "steam_discount_2536520": {
-      "title": "Diablo II: Resurrected - Infernal Edition",
-      "price": 1274,
-      "percent": 25,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "discount"
-    },
-    "steam_discount_3527290": {
-      "title": "PEAK",
-      "price": 98,
-      "percent": 38,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "discount"
-    },
-    "steam_discount_1142710": {
-      "title": "Total War: WARHAMMER III",
-      "price": 284,
-      "percent": 85,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "discount"
-    },
-    "steam_discount_4351410": {
-      "title": "House Flipper 2 - Sakura DLC",
-      "price": 224,
-      "percent": 10,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "discount"
-    },
-    "steam_discount_848450": {
-      "title": "Subnautica: Below Zero",
-      "price": 199,
-      "percent": 75,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "discount"
-    },
-    "steam_discount_1332010": {
-      "title": "Stray",
-      "price": 289,
-      "percent": 50,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "discount"
-    },
-    "steam_popular_2483190": {
-      "title": "Forza Horizon 6",
-      "price": 2299,
-      "percent": 0,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "popular"
-    },
-    "steam_popular_2215200": {
-      "title": "LEGO® Batman™: Legacy of the Dark Knight",
-      "price": 1899,
-      "percent": 0,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "popular"
-    },
-    "steam_popular_10076": {
-      "title": "Subnautica Deep Ocean Bundle",
-      "price": 1167,
-      "percent": 48,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "popular"
-    },
-    "steam_popular_3768760": {
-      "title": "007 First Light",
-      "price": 1599,
-      "percent": 0,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "popular"
-    },
-    "steam_popular_2532480": {
-      "title": "Warhammer 40,000: Mechanicus II",
-      "price": 1080,
-      "percent": 10,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "popular"
-    },
-    "steam_popular_75870": {
-      "title": "Deep Rock Galactic x Rogue Core",
-      "price": 916,
-      "percent": 0,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "popular"
-    },
-    "steam_popular_1624417": {
-      "title": "Warhammer 40,000: Dawn of War IV Commander Edition",
-      "price": 2609,
-      "percent": 10,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "popular"
-    },
-    "steam_popular_54029": {
-      "title": "Покращення прайм-статусу",
-      "price": 650,
-      "percent": 0,
-      "timestamp": "2026-05-22T13:07:29.586Z",
-      "type": "popular"
-    },
     "steam_discount_601150": {
       "title": "Devil May Cry 5",
       "price": 142,
@@ -1585,6 +1403,13 @@
       "percent": 90,
       "timestamp": "2026-06-21T11:44:02.649Z",
       "type": "discount"
+    },
+    "steam_popular_2483190": {
+      "title": "Forza Horizon 6",
+      "price": 2299,
+      "percent": 0,
+      "timestamp": "2026-06-21T14:03:36.539Z",
+      "type": "popular"
     }
   }
 }
