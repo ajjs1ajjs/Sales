@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T14:03:37.599Z",
+  "lastUpdated": "2026-06-21T16:28:34.222Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -73,7 +73,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2001120",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "2138330",
@@ -100,18 +100,6 @@
       "isPopular": false
     },
     {
-      "id": "3156770",
-      "title": "Witchfire",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3156770/8889ff200d38801631d89de4f2bb2bfa18c130be/capsule_616x353.jpg?t=1781797490",
-      "originalPrice": 740,
-      "discountPrice": 592,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3156770",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3241660",
       "title": "R.E.P.O.",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
@@ -124,26 +112,38 @@
       "isPopular": false
     },
     {
-      "id": "322330",
-      "title": "Don't Starve Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/d06913ca46e5068feee25b350cb2ca6e4d693897/capsule_616x353_alt_assets_50.jpg?t=1781363712",
-      "originalPrice": 229,
-      "discountPrice": 22,
-      "discountPercent": 90,
+      "id": "3156770",
+      "title": "Witchfire",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3156770/8889ff200d38801631d89de4f2bb2bfa18c130be/capsule_616x353.jpg?t=1781797490",
+      "originalPrice": 740,
+      "discountPrice": 592,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/322330",
+      "url": "https://store.steampowered.com/app/3156770",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "518790",
-      "title": "theHunter: Call of the Wild™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/518790/bd431b18564b6fbfa998f2f4e88e1f832aaa1001/capsule_616x353_alt_assets_13.jpg?t=1781679235",
-      "originalPrice": 415,
-      "discountPrice": 41,
-      "discountPercent": 90,
+      "id": "381210",
+      "title": "Dead by Daylight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/a1fd8eb372877c6939bbd62ca325ad710b5e24c6/capsule_616x353_alt_assets_8.jpg?t=1781795618",
+      "originalPrice": 429,
+      "discountPrice": 171,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/518790",
+      "url": "https://store.steampowered.com/app/381210",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2909400",
+      "title": "FINAL FANTASY VII REBIRTH",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg?t=1775124617",
+      "originalPrice": 1699,
+      "discountPrice": 679,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2909400",
       "isSpecial": true,
       "isPopular": false
     },
@@ -172,14 +172,14 @@
       "isPopular": true
     },
     {
-      "id": "2483190",
-      "title": "Forza Horizon 6",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/9d63ec056caddb97fc9a70c7c11aa6540736a6bf/capsule_616x353_alt_assets_1.jpg?t=1781815797",
-      "originalPrice": 2299,
-      "discountPrice": 2299,
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2483190",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     },
@@ -196,14 +196,14 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "2483190",
+      "title": "Forza Horizon 6",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/9d63ec056caddb97fc9a70c7c11aa6540736a6bf/capsule_616x353_alt_assets_1.jpg?t=1781815797",
+      "originalPrice": 2299,
+      "discountPrice": 2299,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
+      "url": "https://store.steampowered.com/app/2483190",
       "isSpecial": false,
       "isPopular": true
     },
@@ -221,13 +221,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_601150": {
-      "title": "Devil May Cry 5",
-      "price": 142,
-      "percent": 85,
-      "timestamp": "2026-05-22T16:22:55.418Z",
-      "type": "discount"
-    },
     "steam_popular_2536520": {
       "title": "Diablo II: Resurrected - Infernal Edition",
       "price": 1274,
