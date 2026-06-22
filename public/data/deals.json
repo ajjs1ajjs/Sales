@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T17:29:24.334Z",
+  "lastUpdated": "2026-06-22T20:42:30.139Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -52,6 +52,18 @@
   ],
   "steam": [
     {
+      "id": "2420110",
+      "title": " Повне видання Horizon Forbidden West™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/capsule_616x353.jpg?t=1776465869",
+      "originalPrice": 1699,
+      "discountPrice": 849,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2420110",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1769690377",
@@ -64,28 +76,16 @@
       "isPopular": true
     },
     {
-      "id": "2001120",
-      "title": "Split Fiction",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
-      "originalPrice": 1299,
-      "discountPrice": 844,
-      "discountPercent": 35,
+      "id": "1374490",
+      "title": "RuneScape: Dragonwilds",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/0cdd00bcad1da10ad9604a642665d4aae764f033/capsule_616x353_alt_assets_1.jpg?t=1781803285",
+      "originalPrice": 800,
+      "discountPrice": 560,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001120",
+      "url": "https://store.steampowered.com/app/1374490",
       "isSpecial": true,
       "isPopular": true
-    },
-    {
-      "id": "2138330",
-      "title": "Cyberpunk 2077: Ілюзія свободи",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1768305060",
-      "originalPrice": 699,
-      "discountPrice": 419,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2138330",
-      "isSpecial": true,
-      "isPopular": false
     },
     {
       "id": "381210",
@@ -100,26 +100,14 @@
       "isPopular": false
     },
     {
-      "id": "1426210",
-      "title": "It Takes Two",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
-      "originalPrice": 999,
-      "discountPrice": 299,
-      "discountPercent": 70,
+      "id": "2138330",
+      "title": "Cyberpunk 2077: Ілюзія свободи",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1768305060",
+      "originalPrice": 699,
+      "discountPrice": 419,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1426210",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
+      "url": "https://store.steampowered.com/app/2138330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -136,14 +124,26 @@
       "isPopular": false
     },
     {
-      "id": "322330",
-      "title": "Don't Starve Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/d06913ca46e5068feee25b350cb2ca6e4d693897/capsule_616x353_alt_assets_50.jpg?t=1781363712",
-      "originalPrice": 229,
-      "discountPrice": 22,
-      "discountPercent": 90,
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/322330",
+      "url": "https://store.steampowered.com/app/252490",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2001120",
+      "title": "Split Fiction",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
+      "originalPrice": 1299,
+      "discountPrice": 844,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2001120",
       "isSpecial": true,
       "isPopular": false
     },
@@ -172,6 +172,18 @@
       "isPopular": true
     },
     {
+      "id": "1431300",
+      "title": "SAND: Raiders of Sophie",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1431300/99cd5db84193d408dc92f12cfd9c533b7e69266b/capsule_616x353.jpg?t=1782150974",
+      "originalPrice": 399,
+      "discountPrice": 315,
+      "discountPercent": 21,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1431300",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "3405690",
       "title": "EA SPORTS FC™ 26",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1781720918",
@@ -192,18 +204,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2483190",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1297900",
-      "title": "Gothic 1 Remake",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1782140243",
-      "originalPrice": 1505,
-      "discountPrice": 1505,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1297900",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1320,6 +1320,41 @@
       "price": 2299,
       "percent": 0,
       "timestamp": "2026-06-21T14:03:36.539Z",
+      "type": "popular"
+    },
+    "steam_discount_2420110": {
+      "title": " Повне видання Horizon Forbidden West™",
+      "price": 849,
+      "percent": 50,
+      "timestamp": "2026-06-22T20:42:28.480Z",
+      "type": "discount"
+    },
+    "steam_popular_2420110": {
+      "title": " Повне видання Horizon Forbidden West™",
+      "price": 849,
+      "percent": 50,
+      "timestamp": "2026-06-22T20:42:28.480Z",
+      "type": "popular"
+    },
+    "steam_discount_1374490": {
+      "title": "RuneScape: Dragonwilds",
+      "price": 560,
+      "percent": 30,
+      "timestamp": "2026-06-22T20:42:28.480Z",
+      "type": "discount"
+    },
+    "steam_popular_1374490": {
+      "title": "RuneScape: Dragonwilds",
+      "price": 560,
+      "percent": 30,
+      "timestamp": "2026-06-22T20:42:28.480Z",
+      "type": "popular"
+    },
+    "steam_popular_1431300": {
+      "title": "SAND: Raiders of Sophie",
+      "price": 315,
+      "percent": 21,
+      "timestamp": "2026-06-22T20:42:28.480Z",
       "type": "popular"
     }
   }
