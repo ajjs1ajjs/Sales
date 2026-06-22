@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T22:11:59.391Z",
+  "lastUpdated": "2026-06-22T00:09:03.192Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -64,18 +64,6 @@
       "isPopular": true
     },
     {
-      "id": "3241660",
-      "title": "R.E.P.O.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
-      "originalPrice": 194,
-      "discountPrice": 135,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3241660",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2138330",
       "title": "Cyberpunk 2077: Ілюзія свободи",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1768305060",
@@ -84,6 +72,18 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2138330",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3241660",
+      "title": "R.E.P.O.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
+      "originalPrice": 194,
+      "discountPrice": 135,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3241660",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,14 +148,14 @@
       "isPopular": false
     },
     {
-      "id": "221100",
-      "title": "DayZ",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/capsule_616x353.jpg?t=1769695513",
-      "originalPrice": 1199,
-      "discountPrice": 539,
-      "discountPercent": 55,
+      "id": "1462040",
+      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/capsule_616x353.jpg?t=1773895755",
+      "originalPrice": 1099,
+      "discountPrice": 384,
+      "discountPercent": 65,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/221100",
+      "url": "https://store.steampowered.com/app/1462040",
       "isSpecial": true,
       "isPopular": false
     },
@@ -220,33 +220,19 @@
       "isPopular": true
     },
     {
-      "id": "1297900",
-      "title": "Gothic 1 Remake",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1780965412",
-      "originalPrice": 1505,
-      "discountPrice": 1505,
+      "id": "3844970",
+      "title": "Burglin' Gnomes",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/b779b481bdcfbd0fe04bdab741be885d1d13ed14/capsule_616x353.jpg?t=1781100001",
+      "originalPrice": 230,
+      "discountPrice": 230,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1297900",
+      "url": "https://store.steampowered.com/app/3844970",
       "isSpecial": false,
       "isPopular": true
     }
   ],
   "notifiedHistory": {
-    "steam_discount_632360": {
-      "title": "Risk of Rain 2",
-      "price": 108,
-      "percent": 67,
-      "timestamp": "2026-05-23T00:04:20.928Z",
-      "type": "discount"
-    },
-    "steam_popular_3892270": {
-      "title": "Gamble With Your Friends",
-      "price": 187,
-      "percent": 0,
-      "timestamp": "2026-05-23T00:04:20.928Z",
-      "type": "popular"
-    },
     "steam_discount_2747330": {
       "title": "Species: Unknown",
       "price": 180,
