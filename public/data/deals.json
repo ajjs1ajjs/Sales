@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T20:42:30.139Z",
+  "lastUpdated": "2026-06-22T22:45:19.319Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -124,18 +124,6 @@
       "isPopular": false
     },
     {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2001120",
       "title": "Split Fiction",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
@@ -144,6 +132,18 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2001120",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
       "isPopular": false
     },
@@ -174,7 +174,7 @@
     {
       "id": "1431300",
       "title": "SAND: Raiders of Sophie",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1431300/99cd5db84193d408dc92f12cfd9c533b7e69266b/capsule_616x353.jpg?t=1782150974",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1431300/99cd5db84193d408dc92f12cfd9c533b7e69266b/capsule_616x353.jpg?t=1782165837",
       "originalPrice": 399,
       "discountPrice": 315,
       "discountPercent": 21,
