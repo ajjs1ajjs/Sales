@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T00:03:03.710Z",
+  "lastUpdated": "2026-06-23T04:57:41.628Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -52,6 +52,18 @@
   ],
   "steam": [
     {
+      "id": "1091500",
+      "title": "Cyberpunk 2077",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1769690377",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1091500",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "2420110",
       "title": " Повне видання Horizon Forbidden West™",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/capsule_616x353.jpg?t=1776465869",
@@ -64,16 +76,16 @@
       "isPopular": true
     },
     {
-      "id": "1091500",
-      "title": "Cyberpunk 2077",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1769690377",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
+      "id": "322330",
+      "title": "Don't Starve Together",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/d06913ca46e5068feee25b350cb2ca6e4d693897/capsule_616x353_alt_assets_50.jpg?t=1781363712",
+      "originalPrice": 229,
+      "discountPrice": 22,
+      "discountPercent": 90,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1091500",
+      "url": "https://store.steampowered.com/app/322330",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1374490",
@@ -112,18 +124,6 @@
       "isPopular": false
     },
     {
-      "id": "3241660",
-      "title": "R.E.P.O.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
-      "originalPrice": 194,
-      "discountPrice": 135,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3241660",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2001120",
       "title": "Split Fiction",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
@@ -136,26 +136,26 @@
       "isPopular": false
     },
     {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
+      "id": "3241660",
+      "title": "R.E.P.O.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
+      "originalPrice": 194,
+      "discountPrice": 135,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
+      "url": "https://store.steampowered.com/app/3241660",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "221100",
-      "title": "DayZ",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/capsule_616x353.jpg?t=1769695513",
-      "originalPrice": 1199,
-      "discountPrice": 539,
-      "discountPercent": 55,
+      "id": "1426210",
+      "title": "It Takes Two",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
+      "originalPrice": 999,
+      "discountPrice": 299,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/221100",
+      "url": "https://store.steampowered.com/app/1426210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -209,13 +209,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_3124540": {
-      "title": "Far Far West",
-      "price": 349,
-      "percent": 0,
-      "timestamp": "2026-05-24T02:56:07.995Z",
-      "type": "popular"
-    },
     "steam_popular_4197610": {
       "title": "Librarian: Tidy Up the Arcane Library!",
       "price": 155,
