@@ -1,5 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
-import { createContext, useContext, useCallback, type ReactNode } from 'react';
+import { createContext, useContext, useCallback, useMemo, type ReactNode } from 'react';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 
 interface WishlistContextValue {
@@ -16,6 +16,8 @@ const isStringArray = (v: unknown): v is string[] =>
 export function WishlistProvider({ children }: { children: ReactNode }) {
   const [wishlist, setWishlist] = useLocalStorage<string[]>('wishlist', [], isStringArray);
 
+  const wishlistSet = useMemo(() => new Set(wishlist), [wishlist]);
+
   const toggleWishlist = useCallback((gameId: string) => {
     setWishlist((prev) =>
       prev.includes(gameId) ? prev.filter((id) => id !== gameId) : [...prev, gameId],
@@ -23,8 +25,8 @@ export function WishlistProvider({ children }: { children: ReactNode }) {
   }, [setWishlist]);
 
   const isWishlisted = useCallback((gameId: string) => {
-    return wishlist.includes(gameId);
-  }, [wishlist]);
+    return wishlistSet.has(gameId);
+  }, [wishlistSet]);
 
   return (
     <WishlistContext.Provider value={{ wishlist, toggleWishlist, isWishlisted }}>

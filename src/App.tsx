@@ -40,7 +40,9 @@ function HomePage() {
   const { t, locale } = useLocale();
   const [searchQuery, setSearchQuery] = useState('');
   const [activeFilter, setActiveFilter] = useState<FilterType>('all');
-  const [sortType, setSortType] = useLocalStorage<SortType>('sort-type', 'default');
+  const sortValues = new Set<SortType>(['default','name-asc','name-desc','price-asc','price-desc','discount-desc']);
+  const isValidSort = (v: unknown): v is SortType => typeof v === 'string' && sortValues.has(v as SortType);
+  const [sortType, setSortType] = useLocalStorage<SortType>('sort-type', 'default', isValidSort);
   const { wishlist } = useWishlist();
   const debouncedSearch = useDebounce(searchQuery, 300);
 

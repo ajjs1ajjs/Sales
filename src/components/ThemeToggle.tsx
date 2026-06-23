@@ -4,9 +4,11 @@ import { useLocalStorage } from '../hooks/useLocalStorage';
 
 type Theme = 'dark' | 'light';
 
+const isValidTheme = (v: unknown): v is Theme => v === 'dark' || v === 'light';
+
 export function ThemeToggle() {
   const { t } = useLocale();
-  const [theme, setTheme] = useLocalStorage<Theme>('theme', 'dark');
+  const [theme, setTheme] = useLocalStorage<Theme>('theme', 'dark', isValidTheme);
 
   const toggleTheme = () => {
     const next = theme === 'dark' ? 'light' : 'dark';

@@ -1,9 +1,13 @@
 import fs from 'fs';
 import path from 'path';
-import type { EpicGame, SteamGame, DealsData } from '../src/types';
+import type { EpicGame, SteamGame, DealsData, NotifiedItem } from '../src/types';
 
 const DEALS_DIR = path.join(process.cwd(), 'public', 'data');
 const DEALS_PATH = path.join(DEALS_DIR, 'deals.json');
+
+const FREE_GAME_COOLDOWN_MS = 14 * 24 * 60 * 60 * 1000;
+const DISCOUNT_COOLDOWN_MS = 30 * 24 * 60 * 60 * 1000;
+const TG_MESSAGE_LIMIT = 4000; // Telegram limit is 4096, leave room for overlap
 
 async function fetchWithRetry(url: string, options?: RequestInit, retries = 3, delay = 2000): Promise<Response> {
   for (let i = 0; i < retries; i++) {
@@ -406,20 +410,13 @@ async function run() {
       } else {
         const lastNotified = new Date(historyEntry.timestamp).getTime();
         // Cooldown of 14 days for free games
-        if (now.getTime() - lastNotified > 14 * 24 * 60 * 60 * 1000) {
+        if (now.getTime() - lastNotified > FREE_GAME_COOLDOWN_MS) {
           shouldNotify = true;
         }
       }
       
       if (shouldNotify) {
         newFreeGames.push(game);
-        notifiedHistory[historyKey] = {
-          title: game.title,
-          price: 0,
-          percent: 100,
-          timestamp: now.toISOString(),
-          type: 'free'
-        };
       }
     }
     
@@ -433,7 +430,7 @@ async function run() {
       } else {
         const lastNotified = new Date(historyEntry.timestamp).getTime();
         const priceDropped = game.discountPrice < historyEntry.price;
-        const cooldownExpired = now.getTime() - lastNotified > 30 * 24 * 60 * 60 * 1000;
+        const cooldownExpired = now.getTime() - lastNotified > DISCOUNT_COOLDOWN_MS;
         if (priceDropped || cooldownExpired) {
           shouldNotify = true;
         }
@@ -441,13 +438,6 @@ async function run() {
       
       if (shouldNotify) {
         newEpicDiscounts.push(game);
-        notifiedHistory[historyKey] = {
-          title: game.title,
-          price: game.discountPrice,
-          percent: game.discountPercent,
-          timestamp: now.toISOString(),
-          type: 'discount'
-        };
       }
     }
   }
@@ -465,7 +455,7 @@ async function run() {
       } else {
         const lastNotified = new Date(historyEntry.timestamp).getTime();
         const priceDropped = game.discountPrice < historyEntry.price;
-        const cooldownExpired = now.getTime() - lastNotified > 30 * 24 * 60 * 60 * 1000;
+        const cooldownExpired = now.getTime() - lastNotified > DISCOUNT_COOLDOWN_MS;
         if (priceDropped || cooldownExpired) {
           shouldNotify = true;
         }
@@ -473,13 +463,6 @@ async function run() {
       
       if (shouldNotify) {
         newSteamDeals.push(game);
-        notifiedHistory[historyKey] = {
-          title: game.title,
-          price: game.discountPrice,
-          percent: game.discountPercent,
-          timestamp: now.toISOString(),
-          type: 'discount'
-        };
       }
     }
     
@@ -493,7 +476,7 @@ async function run() {
         shouldNotify = true;
       } else {
         const lastNotified = new Date(historyEntry.timestamp).getTime();
-        const cooldownExpired = now.getTime() - lastNotified > 30 * 24 * 60 * 60 * 1000;
+        const cooldownExpired = now.getTime() - lastNotified > DISCOUNT_COOLDOWN_MS;
         if (cooldownExpired) {
           shouldNotify = true;
         }
@@ -501,19 +484,35 @@ async function run() {
       
       if (shouldNotify) {
         newPopularGames.push(game);
-        notifiedHistory[historyKey] = {
-          title: game.title,
-          price: game.discountPrice,
-          percent: game.discountPercent,
-          timestamp: now.toISOString(),
-          type: 'popular'
-        };
       }
     }
   }
   
   console.log(`Detected: ${newFreeGames.length} free Epic, ${newEpicDiscounts.length} discounted Epic, ${newSteamDeals.length} hot Steam, ${newPopularGames.length} popular Steam.`);
-  
+
+  function markNotified(key: string, entry: NotifiedItem) {
+    notifiedHistory[key] = entry;
+  }
+
+  // Helper: split array of items into batches and send each as Telegram message
+  async function sendBatched<T>(
+    header: string,
+    items: T[],
+    footer: string,
+    buildItem: (item: T) => string,
+  ) {
+    const batchSize = 10;
+    for (let i = 0; i < items.length; i += batchSize) {
+      const batch = items.slice(i, i + batchSize);
+      let text = header;
+      for (const item of batch) {
+        text += buildItem(item) + '\n\n';
+      }
+      text += footer;
+      await sendTelegramMessage(text.slice(0, TG_MESSAGE_LIMIT));
+    }
+  }
+
   // Send notifications if there are any updates
   if (newFreeGames.length > 0) {
     for (const game of newFreeGames) {
@@ -522,48 +521,66 @@ async function run() {
                    `📝 ${escapeHtml(game.description)}\n\n` +
                    `📅 Роздача діє до: <b>${formatDate(game.endDate)}</b>\n\n` +
                    `🔗 <a href="${escapeAttr(game.url)}">Забрати гру в магазині</a>`;
-      await sendTelegramMessage(text);
+      try {
+        await sendTelegramMessage(text);
+        markNotified(`epic_free_${game.id}`, {
+          title: game.title, price: 0, percent: 100, timestamp: now.toISOString(), type: 'free'
+        });
+      } catch (err) {
+        console.error(`❌ Failed to notify free game ${game.title}:`, err);
+      }
     }
   }
   
   if (newEpicDiscounts.length > 0) {
-    let epicText = `🔥 <b>ГАРЯЧІ ЗНИЖКИ В EPIC GAMES STORE!</b>\n\n`;
+    await sendBatched(
+      `🔥 <b>ГАРЯЧІ ЗНИЖКИ В EPIC GAMES STORE!</b>\n\n`,
+      newEpicDiscounts,
+      `🚀 Більше пропозицій дивіться на нашому сайті!`,
+      (deal) => {
+        const pct = deal.discountPercent > 0 ? `-${deal.discountPercent}%` : 'знижка';
+        return `🎮 <b>${escapeHtml(deal.title)}</b>\n🏷️ Знижка: <b>${pct}</b>\n💰 Ціна: <s>${formatPrice(deal.originalPrice, deal.currency)}</s> ➡️ <b>${formatPrice(deal.discountPrice, deal.currency)}</b>\n🔗 <a href="${escapeAttr(deal.url)}">Детальніше в Epic Games Store</a>`;
+      }
+    );
     for (const deal of newEpicDiscounts) {
-      const pct = deal.discountPercent > 0 ? `-${deal.discountPercent}%` : 'знижка';
-      epicText += `🎮 <b>${escapeHtml(deal.title)}</b>\n` +
-                   `🏷️ Знижка: <b>${pct}</b>\n` +
-                   `💰 Ціна: <s>${formatPrice(deal.originalPrice, deal.currency)}</s> ➡️ <b>${formatPrice(deal.discountPrice, deal.currency)}</b>\n` +
-                   `🔗 <a href="${escapeAttr(deal.url)}">Детальніше в Epic Games Store</a>\n\n`;
+      markNotified(`epic_discount_${deal.id}`, {
+        title: deal.title, price: deal.discountPrice, percent: deal.discountPercent, timestamp: now.toISOString(), type: 'discount'
+      });
     }
-    epicText += `🚀 Більше пропозицій дивіться на нашому сайті!`;
-    await sendTelegramMessage(epicText);
   }
   
   if (newSteamDeals.length > 0) {
-    let steamText = `🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 5%)!</b>\n\n`;
+    await sendBatched(
+      `🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 5%)!</b>\n\n`,
+      newSteamDeals,
+      `🚀 Більше знижок дивіться на нашому сайті!`,
+      (deal) =>
+        `🎮 <b>${escapeHtml(deal.title)}</b>\n🏷️ Знижка: <b>-${deal.discountPercent}%</b>\n💰 Ціна: <s>${formatPrice(deal.originalPrice, deal.currency)}</s> ➡️ <b>${formatPrice(deal.discountPrice, deal.currency)}</b>\n🔗 <a href="${escapeAttr(deal.url)}">Детальніше в Steam</a>`
+    );
     for (const deal of newSteamDeals) {
-      steamText += `🎮 <b>${escapeHtml(deal.title)}</b>\n` +
-                   `🏷️ Знижка: <b>-${deal.discountPercent}%</b>\n` +
-                   `💰 Ціна: <s>${formatPrice(deal.originalPrice, deal.currency)}</s> ➡️ <b>${formatPrice(deal.discountPrice, deal.currency)}</b>\n` +
-                   `🔗 <a href="${escapeAttr(deal.url)}">Детальніше в Steam</a>\n\n`;
+      markNotified(`steam_discount_${deal.id}`, {
+        title: deal.title, price: deal.discountPrice, percent: deal.discountPercent, timestamp: now.toISOString(), type: 'discount'
+      });
     }
-    steamText += `🚀 Більше знижок дивіться на нашому сайті!`;
-    await sendTelegramMessage(steamText);
   }
   
   if (newPopularGames.length > 0) {
-    let popularText = `⭐ <b>ТРЕНДОВІ ІГРИ В STEAM (TOP SELLERS)!</b>\n\n`;
+    await sendBatched(
+      `⭐ <b>ТРЕНДОВІ ІГРИ В STEAM (TOP SELLERS)!</b>\n\n`,
+      newPopularGames,
+      `🚀 Більше популярних ігор дивіться на нашому сайті!`,
+      (game) => {
+        const priceText = game.discountPercent > 0 
+          ? `<s>${formatPrice(game.originalPrice, game.currency)}</s> ➡️ <b>${formatPrice(game.discountPrice, game.currency)}</b> (-${game.discountPercent}%)`
+          : `<b>${formatPrice(game.discountPrice, game.currency)}</b>`;
+        return `🎮 <b>${escapeHtml(game.title)}</b>\n💰 Ціна: ${priceText}\n🔗 <a href="${escapeAttr(game.url)}">Дивитися в Steam</a>`;
+      }
+    );
     for (const game of newPopularGames) {
-      const priceText = game.discountPercent > 0 
-        ? `<s>${formatPrice(game.originalPrice, game.currency)}</s> ➡️ <b>${formatPrice(game.discountPrice, game.currency)}</b> (-${game.discountPercent}%)`
-        : `<b>${formatPrice(game.discountPrice, game.currency)}</b>`;
-      
-      popularText += `🎮 <b>${escapeHtml(game.title)}</b>\n` +
-                     `💰 Ціна: ${priceText}\n` +
-                     `🔗 <a href="${escapeAttr(game.url)}">Дивитися в Steam</a>\n\n`;
+      markNotified(`steam_popular_${game.id}`, {
+        title: game.title, price: game.discountPrice, percent: game.discountPercent, timestamp: now.toISOString(), type: 'popular'
+      });
     }
-    popularText += `🚀 Більше популярних ігор дивіться на нашому сайті!`;
-    await sendTelegramMessage(popularText);
   }
   
   // Save updated data

@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 
 export function useLocalStorage<T>(
   key: string,
@@ -31,6 +31,24 @@ export function useLocalStorage<T>(
     },
     [key],
   );
+
+  // Cross-tab sync: react to storage events from other tabs/windows
+  useEffect(() => {
+    const handleStorage = (e: StorageEvent) => {
+      if (e.key !== key) return;
+      if (e.newValue === null) {
+        setStoredValue(initialValue);
+        return;
+      }
+      try {
+        const parsed: unknown = JSON.parse(e.newValue);
+        if (validate && !validate(parsed)) return;
+        setStoredValue(parsed as T);
+      } catch { /* ignore corrupt */ }
+    };
+    window.addEventListener('storage', handleStorage);
+    return () => window.removeEventListener('storage', handleStorage);
+  }, [key, initialValue, validate]);
 
   return [storedValue, setValue];
 }

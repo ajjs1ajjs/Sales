@@ -49,7 +49,7 @@ export function PriceRangeFilter({ minPrice, maxPrice, range, onChange, currency
                 min={minPrice}
                 max={maxPrice}
                 value={range[0]}
-                onChange={(e) => handleMinChange(Number(e.target.value))}
+                onChange={(e) => handleMinChange(e.target.value === '' ? minPrice : Number(e.target.value))}
                 className="price-range-input"
               />{' '}
               {currency}
@@ -61,7 +61,7 @@ export function PriceRangeFilter({ minPrice, maxPrice, range, onChange, currency
                 min={minPrice}
                 max={maxPrice}
                 value={range[1]}
-                onChange={(e) => handleMaxChange(Number(e.target.value))}
+                onChange={(e) => handleMaxChange(e.target.value === '' ? maxPrice : Number(e.target.value))}
                 className="price-range-input"
               />{' '}
               {currency}
