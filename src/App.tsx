@@ -14,7 +14,7 @@ import { useLocalStorage } from './hooks/useLocalStorage';
 import { DataProvider, useData } from './DataContext';
 import { LocaleProvider, useLocale } from './contexts/LocaleContext';
 import { WishlistProvider, useWishlist } from './contexts/WishlistContext';
-import { formatLastUpdated, formatLastUpdatedEn, isSteamNonGame, interp } from './utils';
+import { formatLastUpdated, formatLastUpdatedEn, interp } from './utils';
 import { Skeleton } from './components/Skeleton';
 
 type SectionProps = {
@@ -79,18 +79,6 @@ function HomePage() {
   // span — not merely when userPriceRange is non-null (Reset sets it to the full
   // range), so the wishlist empty-state message stays correct after a reset.
   const isPriceFiltered = priceRange[0] > absoluteMinPrice || priceRange[1] < absoluteMaxPrice;
-
-  const nonGameIds = useMemo(() => {
-    const ids = new Set<string>();
-    if (data) {
-      for (const game of data.steam) {
-        if (isSteamNonGame(game.imageUrl)) {
-          ids.add(game.id);
-        }
-      }
-    }
-    return ids;
-  }, [data]);
 
   const epicMatchingSearch = useMemo(() => {
     return data?.epic.filter((game) =>
@@ -244,7 +232,6 @@ function HomePage() {
                 activeFilter={activeFilter}
                 searchQuery={debouncedSearch}
                 sortType={sortType}
-                nonGameIds={nonGameIds}
               />
 
               {activeFilter === 'all' &&

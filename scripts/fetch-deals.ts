@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import type { EpicGame, SteamGame, DealsData, NotifiedItem } from '../src/types';
+import { formatPrice, formatDate, escapeHtml, escapeAttr } from '../src/shared/format';
 
 const DEALS_DIR = path.join(process.cwd(), 'public', 'data');
 const DEALS_PATH = path.join(DEALS_DIR, 'deals.json');
@@ -32,34 +33,6 @@ async function fetchWithRetry(url: string, options?: RequestInit, retries = 3, d
     }
   }
   throw new Error(`Failed to fetch ${url} after ${retries} attempts.`);
-}
-
-function formatDate(dateStr: string): string {
-  if (!dateStr) return "невідомо";
-  try {
-    const d = new Date(dateStr);
-    const options: Intl.DateTimeFormatOptions = {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric',
-      hour: '2-digit',
-      minute: '2-digit',
-      timeZone: 'Europe/Kyiv'
-    };
-    return d.toLocaleDateString('uk-UA', options) + " (за київським часом)";
-  } catch {
-    return dateStr;
-  }
-}
-
-function formatPrice(price: number, currency: string): string {
-  if (price === 0) return 'Безкоштовно';
-  const formattedPrice = price.toLocaleString('uk-UA', {
-    minimumFractionDigits: 0,
-    maximumFractionDigits: 2,
-  });
-  const currencySymbol = currency === 'UAH' ? 'грн' : currency === 'USD' ? '$' : currency;
-  return `${formattedPrice} ${currencySymbol}`;
 }
 
 // Minimal typings for the external API responses (res.json() is `unknown`).
@@ -277,19 +250,6 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
   } catch (err) {
     throw new Error(`Error fetching Steam games: ${err instanceof Error ? err.message : String(err)}`, { cause: err });
   }
-}
-
-function escapeHtml(str: string): string {
-  return str
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;');
-}
-
-// Контекст атрибута href="..." потребує екранування лапок на додачу до < > &,
-// інакше URL із лапкою/дужкою зламає або інжектне розмітку Telegram-повідомлення.
-function escapeAttr(url: string): string {
-  return escapeHtml(url).replace(/"/g, '&quot;');
 }
 
 async function sendTelegramMessage(text: string) {
@@ -519,7 +479,7 @@ async function run() {
       const text = `🎁 <b>БЕЗКОШТОВНА ГРА В EPIC GAMES STORE!</b>\n\n` +
                    `🎮 <b>${escapeHtml(game.title)}</b>\n` +
                    `📝 ${escapeHtml(game.description)}\n\n` +
-                   `📅 Роздача діє до: <b>${formatDate(game.endDate)}</b>\n\n` +
+                   `📅 Роздача діє до: <b>${formatDate(game.endDate, true)}</b>\n\n` +
                    `🔗 <a href="${escapeAttr(game.url)}">Забрати гру в магазині</a>`;
       try {
         await sendTelegramMessage(text);

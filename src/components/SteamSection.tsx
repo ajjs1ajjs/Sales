@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { Flame, TrendingUp } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
 import type { SteamGame, FilterType, SortType } from '../types';
-import { sortGames } from '../utils';
+import { sortGames, isSteamNonGame } from '../utils';
 import { GameCard } from './GameCard';
 import { ShowMore } from './ShowMore';
 import { SearchEmptyState } from './SearchEmptyState';
@@ -12,17 +12,23 @@ interface Props {
   activeFilter: FilterType;
   searchQuery: string;
   sortType: SortType;
-  nonGameIds?: Set<string>;
 }
 
-export function SteamSection({ games, activeFilter, searchQuery, sortType, nonGameIds }: Props) {
+export function SteamSection({ games, activeFilter, searchQuery, sortType }: Props) {
   const { t } = useLocale();
   const sorted = useMemo(() => sortGames(games, sortType), [games, sortType]);
+  const nonGameIds = useMemo(() => {
+    const ids = new Set<string>();
+    for (const g of games) {
+      if (isSteamNonGame(g.imageUrl)) ids.add(g.id);
+    }
+    return ids;
+  }, [games]);
 
   const specials = sorted.filter((g) => g.isSpecial);
   const popular = sorted.filter((g) => {
     if (!g.isPopular) return false;
-    if (nonGameIds?.has(g.id)) return false;
+    if (nonGameIds.has(g.id)) return false;
     return true;
   });
 

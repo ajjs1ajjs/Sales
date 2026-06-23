@@ -1,0 +1,364 @@
+﻿/* Price Range Filter */
+.price-range-filter {
+  margin-top: 12px;
+}
+
+.price-range-toggle {
+  background: var(--bg-secondary);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-secondary);
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  transition: var(--transition-smooth);
+}
+
+.price-range-toggle:hover,
+.price-range-toggle.active {
+  border-color: var(--accent-epic);
+  color: var(--text-primary);
+}
+
+.price-range-content {
+  margin-top: 12px;
+  padding: 16px;
+  background: var(--bg-secondary);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+}
+
+.price-range-inputs {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.price-range-input {
+  width: 80px;
+  background: var(--bg-tertiary);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 6px 10px;
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.price-range-input:focus {
+  border-color: var(--accent-epic);
+}
+
+.price-filtered-games {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.price-filtered-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.price-filtered-img {
+  width: 60px;
+  height: 34px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.price-filtered-title {
+  flex: 1;
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.price-filtered-price {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.price-filtered-empty {
+  text-align: center;
+  color: var(--text-muted);
+  padding: 16px;
+}
+
+/* Visually hidden for screen readers */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* History Page */
+.history-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.history-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.history-title {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.history-subtitle {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.history-filters {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  background: var(--bg-secondary);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  transition: var(--transition-smooth);
+}
+
+.history-item:hover {
+  border-color: var(--border-glow-hover);
+}
+
+.history-item--free {
+  border-left: 3px solid var(--accent-free);
+}
+
+.history-item--discount {
+  border-left: 3px solid var(--accent-discount);
+}
+
+.history-item--popular {
+  border-left: 3px solid var(--accent-epic);
+}
+
+.history-item-main {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.history-badge {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 8px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.history-badge--free {
+  background: rgba(225, 29, 72, 0.15);
+  color: var(--accent-free);
+}
+
+.history-badge--discount {
+  background: rgba(34, 197, 94, 0.15);
+  color: var(--accent-discount);
+}
+
+.history-badge--popular {
+  background: rgba(192, 132, 252, 0.15);
+  color: var(--accent-epic);
+}
+
+.history-item-title {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.history-item-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.history-item-date {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-left {
+    display: none;
+  }
+
+  .header-right {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+
+  header h1 {
+    font-size: 2.2rem;
+  }
+
+  .telegram-banner {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .tg-info h3 {
+    justify-content: center;
+  }
+
+  .controls-top {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filter-group {
+    justify-content: center;
+  }
+
+  .sort-controls {
+    justify-content: flex-end;
+  }
+
+  .deals-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .install-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .history-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
+
+/* Clear Search Button */
+.clear-search-btn {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 50%;
+  transition: var(--transition-smooth);
+  z-index: 2;
+}
+
+.clear-search-btn:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+[data-theme="light"] .clear-search-btn:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* Highlighted Text */
+.highlighted-text {
+  background-color: rgba(192, 132, 252, 0.35); /* Translucent purple match */
+  color: #fff;
+  border-radius: 4px;
+  padding: 0 2px;
+}
+
+[data-theme="light"] .highlighted-text {
+  background-color: rgba(139, 92, 246, 0.2);
+  color: #1e1b4b;
+}
+
+/* Pulsing Skeletons */
+@keyframes pulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+.skeleton-card {
+  animation: pulse 1.8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

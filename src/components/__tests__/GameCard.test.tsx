@@ -69,12 +69,12 @@ describe('GameCard', () => {
 
   it('shows current price', () => {
     render(<GameCard game={mockSteamGame} platform="steam" />, { wrapper: Wrapper });
-    expect(screen.getByText('14.99 грн')).toBeInTheDocument();
+    expect(screen.getByText('14,99 грн')).toBeInTheDocument();
   });
 
   it('shows original price with strikethrough', () => {
     render(<GameCard game={mockSteamGame} platform="steam" />, { wrapper: Wrapper });
-    const originalPrice = screen.getByText('29.99 грн');
+    const originalPrice = screen.getByText('29,99 грн');
     expect(originalPrice).toBeInTheDocument();
     expect(originalPrice.className).toContain('price-original');
   });

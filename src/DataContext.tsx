@@ -49,7 +49,13 @@ function normalizeSteam(g: Record<string, unknown>): SteamGame {
 function normalizeList<T>(raw: unknown, normalize: (g: Record<string, unknown>) => T): T[] {
   if (!Array.isArray(raw)) return [];
   return raw
-    .filter((g): g is Record<string, unknown> => !!g && typeof g === 'object' && typeof (g as { title?: unknown }).title === 'string')
+    .filter((g): g is Record<string, unknown> => {
+      const ok = !!g && typeof g === 'object' && typeof (g as { title?: unknown }).title === 'string';
+      if (!ok && typeof (g as { title?: unknown })?.title !== 'string') {
+        console.warn('DataContext: skipping entry without a valid title', g);
+      }
+      return ok;
+    })
     .map(normalize);
 }
 
