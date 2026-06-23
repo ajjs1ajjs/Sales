@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T04:57:41.628Z",
+  "lastUpdated": "2026-06-23T08:30:37.459Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -52,18 +52,6 @@
   ],
   "steam": [
     {
-      "id": "1091500",
-      "title": "Cyberpunk 2077",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1769690377",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1091500",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "2420110",
       "title": " Повне видання Horizon Forbidden West™",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/capsule_616x353.jpg?t=1776465869",
@@ -76,16 +64,16 @@
       "isPopular": true
     },
     {
-      "id": "322330",
-      "title": "Don't Starve Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/d06913ca46e5068feee25b350cb2ca6e4d693897/capsule_616x353_alt_assets_50.jpg?t=1781363712",
-      "originalPrice": 229,
-      "discountPrice": 22,
-      "discountPercent": 90,
+      "id": "1091500",
+      "title": "Cyberpunk 2077",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1769690377",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/322330",
+      "url": "https://store.steampowered.com/app/1091500",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "1374490",
@@ -98,18 +86,6 @@
       "url": "https://store.steampowered.com/app/1374490",
       "isSpecial": true,
       "isPopular": true
-    },
-    {
-      "id": "381210",
-      "title": "Dead by Daylight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/a1fd8eb372877c6939bbd62ca325ad710b5e24c6/capsule_616x353_alt_assets_8.jpg?t=1781795618",
-      "originalPrice": 429,
-      "discountPrice": 171,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/381210",
-      "isSpecial": true,
-      "isPopular": false
     },
     {
       "id": "2138330",
@@ -132,6 +108,30 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2001120",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "381210",
+      "title": "Dead by Daylight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/a1fd8eb372877c6939bbd62ca325ad710b5e24c6/capsule_616x353_alt_assets_8.jpg?t=1781795618",
+      "originalPrice": 429,
+      "discountPrice": 171,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/381210",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "322330",
+      "title": "Don't Starve Together",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/d06913ca46e5068feee25b350cb2ca6e4d693897/capsule_616x353_alt_assets_50.jpg?t=1781363712",
+      "originalPrice": 229,
+      "discountPrice": 22,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/322330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -206,16 +206,21 @@
       "url": "https://store.steampowered.com/app/2483190",
       "isSpecial": false,
       "isPopular": true
+    },
+    {
+      "id": "1202520",
+      "title": "Fallout 1st",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
+      "originalPrice": 399,
+      "discountPrice": 399,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1202520",
+      "isSpecial": false,
+      "isPopular": true
     }
   ],
   "notifiedHistory": {
-    "steam_popular_4197610": {
-      "title": "Librarian: Tidy Up the Arcane Library!",
-      "price": 155,
-      "percent": 0,
-      "timestamp": "2026-05-24T06:37:33.114Z",
-      "type": "popular"
-    },
     "steam_popular_1202520": {
       "title": "Fallout 1st",
       "price": 399,
