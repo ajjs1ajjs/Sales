@@ -1,4 +1,4 @@
-import { lazy, useState, type FunctionComponent, Suspense, useMemo } from 'react';
+import { lazy, useState, type FunctionComponent, Suspense, useMemo, Fragment } from 'react';
 import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import { Clock, RefreshCw, AlertCircle, History } from 'lucide-react';
 import type { FilterType, SortType, EpicGame, SteamGame } from './types';
@@ -14,7 +14,7 @@ import { useLocalStorage } from './hooks/useLocalStorage';
 import { DataProvider, useData } from './DataContext';
 import { LocaleProvider, useLocale } from './contexts/LocaleContext';
 import { WishlistProvider, useWishlist } from './contexts/WishlistContext';
-import { formatLastUpdated, formatLastUpdatedEn, isSteamNonGame } from './utils';
+import { formatLastUpdated, formatLastUpdatedEn, isSteamNonGame, interp } from './utils';
 import { Skeleton } from './components/Skeleton';
 
 type SectionProps = {
@@ -170,9 +170,11 @@ function HomePage() {
               <div className="last-updated">
                 <Clock size={14} aria-hidden="true" />
                 <span>
-                  {t.app.lastUpdated.split('{date}')[0]}
-                  <b>{formatUpdate(data.lastUpdated)}</b>
-                  {t.app.lastUpdated.split('{date}')[1]}
+                  {interp(t.app.lastUpdated).map((part, i) =>
+                    part.key === 'date'
+                      ? <b key={i}>{formatUpdate(data.lastUpdated)}</b>
+                      : <Fragment key={i}>{part.text}</Fragment>
+                  )}
                 </span>
               </div>
             )}
@@ -272,15 +274,11 @@ function HomePage() {
         <p>{t.app.footer.replace('{year}', String(new Date().getFullYear()))}</p>
         <p>{t.app.footerSub}</p>
         <p className="footer-link">
-          {t.app.footerLink.split('{link}')[0]}
-          <a
-            href="https://github.com/ajjs1ajjs/Sales"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {t.app.viewOnGitHub}
-          </a>
-          {t.app.footerLink.split('{link}')[1] || '.'}
+          {interp(t.app.footerLink).map((part, i) =>
+            part.key === 'link'
+              ? <a key={i} href="https://github.com/ajjs1ajjs/Sales" target="_blank" rel="noopener noreferrer">{t.app.viewOnGitHub}</a>
+              : <Fragment key={i}>{part.text}</Fragment>
+          )}
         </p>
       </footer>
     </ErrorBoundaryWithLocale>

@@ -1,10 +1,11 @@
 import { useMemo } from 'react';
-import { Flame, TrendingUp, Gamepad2 } from 'lucide-react';
+import { Flame, TrendingUp } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
 import type { SteamGame, FilterType, SortType } from '../types';
 import { sortGames } from '../utils';
 import { GameCard } from './GameCard';
 import { ShowMore } from './ShowMore';
+import { SearchEmptyState } from './SearchEmptyState';
 
 interface Props {
   games: SteamGame[];
@@ -90,11 +91,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, nonGa
       )}
 
       {activeFilter === 'all' && games.length === 0 && searchQuery && (
-        <div className="empty-state section-gap-top">
-          <Gamepad2 size={48} className="icon-muted" aria-hidden="true" />
-          <h3>{t.app.notFoundTitle.replace('{query}', searchQuery)}</h3>
-          <p>{t.app.notFoundDesc}</p>
-        </div>
+        <SearchEmptyState searchQuery={searchQuery} />
       )}
     </>
   );
