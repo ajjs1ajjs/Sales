@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T19:58:50.984Z",
+  "lastUpdated": "2026-06-23T21:45:53.856Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -100,21 +100,9 @@
       "isPopular": false
     },
     {
-      "id": "2138330",
-      "title": "Cyberpunk 2077: Ілюзія свободи",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1768305060",
-      "originalPrice": 699,
-      "discountPrice": 419,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2138330",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "381210",
       "title": "Dead by Daylight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/a1fd8eb372877c6939bbd62ca325ad710b5e24c6/capsule_616x353_alt_assets_8.jpg?t=1781795618",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/a1fd8eb372877c6939bbd62ca325ad710b5e24c6/capsule_616x353_alt_assets_8.jpg?t=1782245493",
       "originalPrice": 429,
       "discountPrice": 171,
       "discountPercent": 60,
@@ -124,14 +112,14 @@
       "isPopular": false
     },
     {
-      "id": "2458980",
-      "title": "Dimhaven - The Lost Source",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/0ae1fd1836257aac400e04af37983b06524e1dce/capsule_616x353.jpg?t=1782229679",
-      "originalPrice": 599,
-      "discountPrice": 509,
-      "discountPercent": 15,
+      "id": "2138330",
+      "title": "Cyberpunk 2077: Ілюзія свободи",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1768305060",
+      "originalPrice": 699,
+      "discountPrice": 419,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2458980",
+      "url": "https://store.steampowered.com/app/2138330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -156,6 +144,18 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/252490",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2458980",
+      "title": "Dimhaven - The Lost Source",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/0ae1fd1836257aac400e04af37983b06524e1dce/capsule_616x353.jpg?t=1782229679",
+      "originalPrice": 599,
+      "discountPrice": 509,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2458980",
       "isSpecial": true,
       "isPopular": false
     },
@@ -196,18 +196,6 @@
       "isPopular": true
     },
     {
-      "id": "1431300",
-      "title": "SAND: Raiders of Sophie",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1431300/99cd5db84193d408dc92f12cfd9c533b7e69266b/capsule_616x353.jpg?t=1782165837",
-      "originalPrice": 399,
-      "discountPrice": 315,
-      "discountPercent": 21,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1431300",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "3405690",
       "title": "EA SPORTS FC™ 26",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1781720918",
@@ -220,9 +208,21 @@
       "isPopular": true
     },
     {
+      "id": "1431300",
+      "title": "SAND: Raiders of Sophie",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1431300/99cd5db84193d408dc92f12cfd9c533b7e69266b/capsule_616x353.jpg?t=1782165837",
+      "originalPrice": 399,
+      "discountPrice": 315,
+      "discountPercent": 21,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1431300",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "4657090",
       "title": "Sid Meier’s Civilization® VII: Колекція Brush and Blade",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4657090/eb91ef5959f430437971616a44c20892630a6381/capsule_616x353.jpg?t=1782230397",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4657090/eb91ef5959f430437971616a44c20892630a6381/capsule_616x353.jpg?t=1782246131",
       "originalPrice": 1349,
       "discountPrice": 1349,
       "discountPercent": 0,
