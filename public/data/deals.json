@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T08:30:37.459Z",
+  "lastUpdated": "2026-06-23T11:54:35.995Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -52,18 +52,6 @@
   ],
   "steam": [
     {
-      "id": "2420110",
-      "title": " Повне видання Horizon Forbidden West™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/capsule_616x353.jpg?t=1776465869",
-      "originalPrice": 1699,
-      "discountPrice": 849,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2420110",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1769690377",
@@ -76,9 +64,21 @@
       "isPopular": true
     },
     {
+      "id": "2420110",
+      "title": " Повне видання Horizon Forbidden West™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/capsule_616x353.jpg?t=1776465869",
+      "originalPrice": 1699,
+      "discountPrice": 849,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2420110",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1374490",
       "title": "RuneScape: Dragonwilds",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/0cdd00bcad1da10ad9604a642665d4aae764f033/capsule_616x353_alt_assets_1.jpg?t=1781803285",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/91ab96a83047ad282e9741a597a9f83a17d2121d/capsule_616x353_alt_assets_2.jpg?t=1782209165",
       "originalPrice": 800,
       "discountPrice": 560,
       "discountPercent": 30,
@@ -86,18 +86,6 @@
       "url": "https://store.steampowered.com/app/1374490",
       "isSpecial": true,
       "isPopular": true
-    },
-    {
-      "id": "2138330",
-      "title": "Cyberpunk 2077: Ілюзія свободи",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1768305060",
-      "originalPrice": 699,
-      "discountPrice": 419,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2138330",
-      "isSpecial": true,
-      "isPopular": false
     },
     {
       "id": "2001120",
@@ -108,6 +96,18 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2001120",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2138330",
+      "title": "Cyberpunk 2077: Ілюзія свободи",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1768305060",
+      "originalPrice": 699,
+      "discountPrice": 419,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2138330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -136,18 +136,6 @@
       "isPopular": false
     },
     {
-      "id": "3241660",
-      "title": "R.E.P.O.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
-      "originalPrice": 194,
-      "discountPrice": 135,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3241660",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1426210",
       "title": "It Takes Two",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
@@ -156,6 +144,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1426210",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3241660",
+      "title": "R.E.P.O.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
+      "originalPrice": 194,
+      "discountPrice": 135,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3241660",
       "isSpecial": true,
       "isPopular": false
     },
@@ -206,35 +206,9 @@
       "url": "https://store.steampowered.com/app/2483190",
       "isSpecial": false,
       "isPopular": true
-    },
-    {
-      "id": "1202520",
-      "title": "Fallout 1st",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
-      "originalPrice": 399,
-      "discountPrice": 399,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1202520",
-      "isSpecial": false,
-      "isPopular": true
     }
   ],
   "notifiedHistory": {
-    "steam_popular_1202520": {
-      "title": "Fallout 1st",
-      "price": 399,
-      "percent": 0,
-      "timestamp": "2026-05-24T09:20:20.082Z",
-      "type": "popular"
-    },
-    "steam_popular_266410": {
-      "title": "iRacing",
-      "price": 225,
-      "percent": 0,
-      "timestamp": "2026-05-24T09:20:20.082Z",
-      "type": "popular"
-    },
     "steam_discount_227300": {
       "title": "Euro Truck Simulator 2",
       "price": 100,
