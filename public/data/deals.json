@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T15:11:25.460Z",
+  "lastUpdated": "2026-06-23T17:49:53.560Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -85,7 +85,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1374490",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "2001120",
@@ -112,14 +112,14 @@
       "isPopular": false
     },
     {
-      "id": "1426210",
-      "title": "It Takes Two",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
-      "originalPrice": 999,
-      "discountPrice": 299,
-      "discountPercent": 70,
+      "id": "381210",
+      "title": "Dead by Daylight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/a1fd8eb372877c6939bbd62ca325ad710b5e24c6/capsule_616x353_alt_assets_8.jpg?t=1781795618",
+      "originalPrice": 429,
+      "discountPrice": 171,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1426210",
+      "url": "https://store.steampowered.com/app/381210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -136,14 +136,14 @@
       "isPopular": false
     },
     {
-      "id": "381210",
-      "title": "Dead by Daylight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/a1fd8eb372877c6939bbd62ca325ad710b5e24c6/capsule_616x353_alt_assets_8.jpg?t=1781795618",
-      "originalPrice": 429,
-      "discountPrice": 171,
-      "discountPercent": 60,
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/381210",
+      "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
       "isPopular": false
     },
@@ -160,18 +160,6 @@
       "isPopular": false
     },
     {
-      "id": "4355580",
-      "title": "Warhammer 40,000: Darktide - Skitarii Class Deluxe Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4355580/c47ccf071136c4117e248e0a2277c1e8421665f4/capsule_616x353.jpg?t=1782226751",
-      "originalPrice": 349,
-      "discountPrice": 349,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4355580",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4704690",
       "title": "MECCHA CHAMELEON",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1781108224",
@@ -184,14 +172,38 @@
       "isPopular": true
     },
     {
+      "id": "4355580",
+      "title": "Warhammer 40,000: Darktide - Skitarii Class Deluxe Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4355580/c47ccf071136c4117e248e0a2277c1e8421665f4/capsule_616x353.jpg?t=1782236025",
+      "originalPrice": 349,
+      "discountPrice": 349,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4355580",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "4355570",
       "title": "Warhammer 40,000: Darktide - Skitarii Class",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4355570/ca3601ae4cd21bcbf2576ad59c9c006c7f410132/capsule_616x353.jpg?t=1782226782",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4355570/ca3601ae4cd21bcbf2576ad59c9c006c7f410132/capsule_616x353.jpg?t=1782235928",
       "originalPrice": 229,
       "discountPrice": 229,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4355570",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4657090",
+      "title": "Sid Meier’s Civilization® VII: Колекція Brush and Blade",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4657090/eb91ef5959f430437971616a44c20892630a6381/capsule_616x353.jpg?t=1782230397",
+      "originalPrice": 1349,
+      "discountPrice": 1349,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4657090",
       "isSpecial": false,
       "isPopular": true
     },
@@ -1346,6 +1358,13 @@
       "price": 229,
       "percent": 0,
       "timestamp": "2026-06-23T15:11:24.437Z",
+      "type": "popular"
+    },
+    "steam_popular_4657090": {
+      "title": "Sid Meier’s Civilization® VII: Колекція Brush and Blade",
+      "price": 1349,
+      "percent": 0,
+      "timestamp": "2026-06-23T17:49:52.133Z",
       "type": "popular"
     }
   }
