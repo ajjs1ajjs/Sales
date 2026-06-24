@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T13:19:26.146Z",
+  "lastUpdated": "2026-06-24T16:17:20.075Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -172,6 +172,18 @@
       "isPopular": true
     },
     {
+      "id": "1671210",
+      "title": "DELTARUNE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
+      "originalPrice": 499,
+      "discountPrice": 499,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1671210",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
@@ -180,30 +192,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4355580",
-      "title": "Warhammer 40,000: Darktide - Skitarii Class Deluxe Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4355580/c47ccf071136c4117e248e0a2277c1e8421665f4/capsule_616x353.jpg?t=1782236025",
-      "originalPrice": 349,
-      "discountPrice": 349,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4355580",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4355570",
-      "title": "Warhammer 40,000: Darktide - Skitarii Class",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4355570/ca3601ae4cd21bcbf2576ad59c9c006c7f410132/capsule_616x353.jpg?t=1782235928",
-      "originalPrice": 229,
-      "discountPrice": 229,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4355570",
       "isSpecial": false,
       "isPopular": true
     },
@@ -218,30 +206,21 @@
       "url": "https://store.steampowered.com/app/3405690",
       "isSpecial": false,
       "isPopular": true
+    },
+    {
+      "id": "4355580",
+      "title": "Warhammer 40,000: Darktide - Skitarii Class Deluxe Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4355580/c47ccf071136c4117e248e0a2277c1e8421665f4/capsule_616x353.jpg?t=1782236025",
+      "originalPrice": 349,
+      "discountPrice": 349,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4355580",
+      "isSpecial": false,
+      "isPopular": true
     }
   ],
   "notifiedHistory": {
-    "steam_popular_1118520": {
-      "title": "Paralives",
-      "price": 666,
-      "percent": 10,
-      "timestamp": "2026-05-25T15:48:51.787Z",
-      "type": "popular"
-    },
-    "steam_popular_60734": {
-      "title": "Paralives x House Flipper 2",
-      "price": 936,
-      "percent": 21,
-      "timestamp": "2026-05-25T15:48:51.787Z",
-      "type": "popular"
-    },
-    "steam_popular_61110": {
-      "title": "Dwarf Fortress x Paralives",
-      "price": 1157,
-      "percent": 5,
-      "timestamp": "2026-05-25T15:48:51.787Z",
-      "type": "popular"
-    },
     "steam_discount_1118520": {
       "title": "Paralives",
       "price": 666,
@@ -1353,6 +1332,13 @@
       "price": 480,
       "percent": 20,
       "timestamp": "2026-06-23T19:58:49.045Z",
+      "type": "popular"
+    },
+    "steam_popular_1671210": {
+      "title": "DELTARUNE",
+      "price": 499,
+      "percent": 0,
+      "timestamp": "2026-06-24T16:17:18.757Z",
       "type": "popular"
     }
   }
