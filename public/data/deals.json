@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T06:47:13.301Z",
+  "lastUpdated": "2026-06-24T10:20:44.728Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -88,6 +88,18 @@
       "isPopular": true
     },
     {
+      "id": "2001120",
+      "title": "Split Fiction",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
+      "originalPrice": 1299,
+      "discountPrice": 844,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2001120",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2138330",
       "title": "Cyberpunk 2077: Ілюзія свободи",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1768305060",
@@ -96,6 +108,18 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2138330",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "322330",
+      "title": "Don't Starve Together",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/d06913ca46e5068feee25b350cb2ca6e4d693897/capsule_616x353_alt_assets_50.jpg?t=1781363712",
+      "originalPrice": 229,
+      "discountPrice": 22,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/322330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -112,14 +136,14 @@
       "isPopular": false
     },
     {
-      "id": "2001120",
-      "title": "Split Fiction",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
-      "originalPrice": 1299,
-      "discountPrice": 844,
-      "discountPercent": 35,
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001120",
+      "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
       "isPopular": false
     },
@@ -132,30 +156,6 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/381210",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1426210",
-      "title": "It Takes Two",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
-      "originalPrice": 999,
-      "discountPrice": 299,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1426210",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "322330",
-      "title": "Don't Starve Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/d06913ca46e5068feee25b350cb2ca6e4d693897/capsule_616x353_alt_assets_50.jpg?t=1781363712",
-      "originalPrice": 229,
-      "discountPrice": 22,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/322330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -184,18 +184,6 @@
       "isPopular": true
     },
     {
-      "id": "4355570",
-      "title": "Warhammer 40,000: Darktide - Skitarii Class",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4355570/ca3601ae4cd21bcbf2576ad59c9c006c7f410132/capsule_616x353.jpg?t=1782235928",
-      "originalPrice": 229,
-      "discountPrice": 229,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4355570",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
@@ -204,6 +192,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4355570",
+      "title": "Warhammer 40,000: Darktide - Skitarii Class",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4355570/ca3601ae4cd21bcbf2576ad59c9c006c7f410132/capsule_616x353.jpg?t=1782235928",
+      "originalPrice": 229,
+      "discountPrice": 229,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4355570",
       "isSpecial": false,
       "isPopular": true
     },
@@ -221,20 +221,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_4630570": {
-      "title": "RUNNING TRAIN | 走ル列車！",
-      "price": 558,
-      "percent": 10,
-      "timestamp": "2026-05-25T08:54:17.265Z",
-      "type": "discount"
-    },
-    "steam_popular_70424": {
-      "title": "Комплект EA SPORTS FC™ 25 і видання ICONS EA SPORTS FC™ 26",
-      "price": 1000,
-      "percent": 0,
-      "timestamp": "2026-05-25T08:54:17.265Z",
-      "type": "popular"
-    },
     "steam_popular_1118520": {
       "title": "Paralives",
       "price": 666,
