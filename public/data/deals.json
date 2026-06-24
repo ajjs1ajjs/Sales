@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T16:17:20.075Z",
+  "lastUpdated": "2026-06-24T18:49:40.338Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -85,7 +85,19 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1374490",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
+    },
+    {
+      "id": "2138330",
+      "title": "Cyberpunk 2077: Ілюзія свободи",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1768305060",
+      "originalPrice": 699,
+      "discountPrice": 419,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2138330",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "2001120",
@@ -112,38 +124,26 @@
       "isPopular": false
     },
     {
-      "id": "2138330",
-      "title": "Cyberpunk 2077: Ілюзія свободи",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1768305060",
-      "originalPrice": 699,
-      "discountPrice": 419,
-      "discountPercent": 40,
+      "id": "2416450",
+      "title": "Приватний детектив МАУС",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/a495751f3ff5c722860319c89d7962ffee7ab743/capsule_616x353.jpg?t=1780271651",
+      "originalPrice": 600,
+      "discountPrice": 480,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2138330",
+      "url": "https://store.steampowered.com/app/2416450",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "3241660",
-      "title": "R.E.P.O.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
-      "originalPrice": 194,
-      "discountPrice": 135,
-      "discountPercent": 30,
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3241660",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1426210",
-      "title": "It Takes Two",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
-      "originalPrice": 999,
-      "discountPrice": 299,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1426210",
+      "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
       "isPopular": false
     },
@@ -180,6 +180,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1671210",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4323990",
+      "title": "EMPULSE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4323990/69b77df269484416a70045677789050da556c0ff/capsule_616x353.jpg?t=1782317659",
+      "originalPrice": 405,
+      "discountPrice": 303,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4323990",
       "isSpecial": false,
       "isPopular": true
     },
@@ -221,20 +233,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_1118520": {
-      "title": "Paralives",
-      "price": 666,
-      "percent": 10,
-      "timestamp": "2026-05-25T16:25:03.067Z",
-      "type": "discount"
-    },
-    "steam_discount_3240220": {
-      "title": "Grand Theft Auto V Enhanced",
-      "price": 674,
-      "percent": 50,
-      "timestamp": "2026-05-25T17:41:13.018Z",
-      "type": "discount"
-    },
     "steam_discount_233860": {
       "title": "Kenshi",
       "price": 106,
@@ -1339,6 +1337,13 @@
       "price": 499,
       "percent": 0,
       "timestamp": "2026-06-24T16:17:18.757Z",
+      "type": "popular"
+    },
+    "steam_popular_4323990": {
+      "title": "EMPULSE",
+      "price": 303,
+      "percent": 25,
+      "timestamp": "2026-06-24T18:49:38.852Z",
       "type": "popular"
     }
   }
