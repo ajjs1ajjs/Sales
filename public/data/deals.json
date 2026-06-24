@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T20:46:29.996Z",
+  "lastUpdated": "2026-06-24T22:14:39.631Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -88,14 +88,14 @@
       "isPopular": true
     },
     {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
+      "id": "381210",
+      "title": "Dead by Daylight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/a1fd8eb372877c6939bbd62ca325ad710b5e24c6/capsule_616x353_alt_assets_8.jpg?t=1782245493",
+      "originalPrice": 429,
+      "discountPrice": 171,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
+      "url": "https://store.steampowered.com/app/381210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -112,26 +112,26 @@
       "isPopular": false
     },
     {
-      "id": "381210",
-      "title": "Dead by Daylight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/a1fd8eb372877c6939bbd62ca325ad710b5e24c6/capsule_616x353_alt_assets_8.jpg?t=1782245493",
-      "originalPrice": 429,
-      "discountPrice": 171,
-      "discountPercent": 60,
+      "id": "322330",
+      "title": "Don't Starve Together",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/d06913ca46e5068feee25b350cb2ca6e4d693897/capsule_616x353_alt_assets_50.jpg?t=1781363712",
+      "originalPrice": 229,
+      "discountPrice": 22,
+      "discountPercent": 90,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/381210",
+      "url": "https://store.steampowered.com/app/322330",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "2416450",
-      "title": "Приватний детектив МАУС",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/a495751f3ff5c722860319c89d7962ffee7ab743/capsule_616x353.jpg?t=1780271651",
-      "originalPrice": 600,
-      "discountPrice": 480,
-      "discountPercent": 20,
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2416450",
+      "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,14 +148,14 @@
       "isPopular": false
     },
     {
-      "id": "322330",
-      "title": "Don't Starve Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/d06913ca46e5068feee25b350cb2ca6e4d693897/capsule_616x353_alt_assets_50.jpg?t=1781363712",
-      "originalPrice": 229,
-      "discountPrice": 22,
-      "discountPercent": 90,
+      "id": "2416450",
+      "title": "Приватний детектив МАУС",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/a495751f3ff5c722860319c89d7962ffee7ab743/capsule_616x353.jpg?t=1780271651",
+      "originalPrice": 600,
+      "discountPrice": 480,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/322330",
+      "url": "https://store.steampowered.com/app/2416450",
       "isSpecial": true,
       "isPopular": false
     },
@@ -218,23 +218,21 @@
       "url": "https://store.steampowered.com/app/4355580",
       "isSpecial": false,
       "isPopular": true
+    },
+    {
+      "id": "4323990",
+      "title": "EMPULSE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4323990/69b77df269484416a70045677789050da556c0ff/capsule_616x353.jpg?t=1782317659",
+      "originalPrice": 405,
+      "discountPrice": 303,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4323990",
+      "isSpecial": false,
+      "isPopular": true
     }
   ],
   "notifiedHistory": {
-    "steam_popular_3240220": {
-      "title": "Grand Theft Auto V Enhanced",
-      "price": 674,
-      "percent": 50,
-      "timestamp": "2026-05-25T21:03:36.075Z",
-      "type": "popular"
-    },
-    "steam_discount_817628": {
-      "title": "Grand Theft Auto: The Trilogy – The Definitive Edition",
-      "price": 494,
-      "percent": 67,
-      "timestamp": "2026-05-25T21:03:36.075Z",
-      "type": "discount"
-    },
     "steam_popular_275850": {
       "title": "No Man's Sky",
       "price": 450,
