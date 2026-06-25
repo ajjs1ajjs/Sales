@@ -1,53 +1,21 @@
 {
-  "lastUpdated": "2026-06-25T14:25:43.073Z",
+  "lastUpdated": "2026-06-25T17:10:15.420Z",
   "epic": [
-    {
-      "id": "ea365d314ecf4224a5f58d2d7430e7aa",
-      "title": "Citizen Sleeper",
-      "description": "Roleplaying in the ruins of interplanetary capitalism. Live the life of an escaped worker, washed-up on a lawless station at the edge of an interstellar society. Inspired by the flexibility and freedom of TTRPGs, choose your friends, escape your past and change your future.",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/919d5976f3804d4cabb8ca90ea43a956/citizen-sleeper-xudwg.jpg",
-      "originalPrice": 369,
-      "discountPrice": 0,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/citizen-sleeper-944858",
-      "startDate": "2026-06-18T15:00:00.000Z",
-      "endDate": "2026-06-25T15:00:00.000Z",
-      "isFreeNow": true,
-      "isUpcomingFree": false,
-      "isDiscounted": false,
-      "discountPercent": 100
-    },
-    {
-      "id": "aee7ec395d054078a48d867849e2a550",
-      "title": "ROBOBEAT",
-      "description": "Keep your trigger finger on the pulse! In rhythm shooter ROBOBEAT, you'll play as Ace - a bounty hunter on a mission to capture robot-gone-rogue Frazzer. Wall run, slide, and shoot to your own beat using the in-game custom music editor, blasting through Frazzer's armies!",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/91105717b53044ed8e384e5fada71db8/robobeat-1ojda.png",
-      "originalPrice": 279,
-      "discountPrice": 0,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/robobeat-5f084b",
-      "startDate": "2026-06-18T15:00:00.000Z",
-      "endDate": "2026-06-25T15:00:00.000Z",
-      "isFreeNow": true,
-      "isUpcomingFree": false,
-      "isDiscounted": false,
-      "discountPercent": 100
-    },
     {
       "id": "bbccf66ad70e492d812e031e17f93b9d",
       "title": "Voidwrought",
       "description": "Voidwrought is a 2D action-platformer set in a hand-drawn world of cosmic horrors. Explore the thawing ruins of the First Civilisation and strike down the gods that dwell there. Grow your powers, uncover ancient Artifacts, and expand your shrine amid the wreckage.",
       "imageUrl": "https://cdn1.epicgames.com/spt-assets/ae3f962fab4d42eba2dbefa4a1e76ff6/voidwrought-bio8j.jpg",
       "originalPrice": 369,
-      "discountPrice": 369,
+      "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/voidwrought-ce8f4b",
       "startDate": "2026-06-25T15:00:00.000Z",
       "endDate": "2026-07-02T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": true,
+      "isFreeNow": true,
+      "isUpcomingFree": false,
       "isDiscounted": false,
-      "discountPercent": 0
+      "discountPercent": 100
     },
     {
       "id": "9bf3d3188d1e498095bc23c0955538d9",
@@ -108,14 +76,14 @@
       "isPopular": true
     },
     {
-      "id": "1374490",
-      "title": "RuneScape: Dragonwilds",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/91ab96a83047ad282e9741a597a9f83a17d2121d/capsule_616x353_alt_assets_2.jpg?t=1782209165",
-      "originalPrice": 800,
-      "discountPrice": 560,
-      "discountPercent": 30,
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1374490",
+      "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
       "isPopular": true
     },
@@ -156,18 +124,6 @@
       "isPopular": false
     },
     {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3576350",
       "title": "Sex, Secrets & Used Tech",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3576350/c13d902cb72b4290157b572eeafaca7f09df543e/capsule_616x353.jpg?t=1782349109",
@@ -177,7 +133,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3576350",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1426210",
@@ -188,6 +144,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1426210",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2909400",
+      "title": "FINAL FANTASY VII REBIRTH",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg?t=1775124617",
+      "originalPrice": 1699,
+      "discountPrice": 679,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2909400",
       "isSpecial": true,
       "isPopular": false
     },
@@ -224,6 +192,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1374490",
+      "title": "RuneScape: Dragonwilds",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/91ab96a83047ad282e9741a597a9f83a17d2121d/capsule_616x353_alt_assets_2.jpg?t=1782209165",
+      "originalPrice": 800,
+      "discountPrice": 560,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1374490",
       "isSpecial": false,
       "isPopular": true
     },
@@ -1290,6 +1270,13 @@
       "percent": 10,
       "timestamp": "2026-06-25T14:25:41.626Z",
       "type": "popular"
+    },
+    "epic_free_bbccf66ad70e492d812e031e17f93b9d": {
+      "title": "Voidwrought",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-06-25T17:10:13.859Z",
+      "type": "free"
     }
   }
 }
