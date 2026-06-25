@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T08:56:41.846Z",
+  "lastUpdated": "2026-06-25T11:40:32.464Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -88,18 +88,6 @@
       "isPopular": true
     },
     {
-      "id": "3576350",
-      "title": "Sex, Secrets & Used Tech",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3576350/c13d902cb72b4290157b572eeafaca7f09df543e/capsule_616x353.jpg?t=1782349109",
-      "originalPrice": 370,
-      "discountPrice": 333,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3576350",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "322330",
       "title": "Don't Starve Together",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/d06913ca46e5068feee25b350cb2ca6e4d693897/capsule_616x353_alt_assets_50.jpg?t=1781363712",
@@ -136,26 +124,38 @@
       "isPopular": false
     },
     {
-      "id": "2909400",
-      "title": "FINAL FANTASY VII REBIRTH",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg?t=1775124617",
-      "originalPrice": 1699,
-      "discountPrice": 679,
-      "discountPercent": 60,
+      "id": "3576350",
+      "title": "Sex, Secrets & Used Tech",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3576350/c13d902cb72b4290157b572eeafaca7f09df543e/capsule_616x353.jpg?t=1782349109",
+      "originalPrice": 370,
+      "discountPrice": 333,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2909400",
+      "url": "https://store.steampowered.com/app/3576350",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "381210",
-      "title": "Dead by Daylight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/a1fd8eb372877c6939bbd62ca325ad710b5e24c6/capsule_616x353_alt_assets_8.jpg?t=1782245493",
-      "originalPrice": 429,
-      "discountPrice": 171,
-      "discountPercent": 60,
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/381210",
+      "url": "https://store.steampowered.com/app/252490",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1426210",
+      "title": "It Takes Two",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
+      "originalPrice": 999,
+      "discountPrice": 299,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1426210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -196,18 +196,6 @@
       "isPopular": true
     },
     {
-      "id": "1671210",
-      "title": "DELTARUNE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
-      "originalPrice": 499,
-      "discountPrice": 499,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1671210",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "2483190",
       "title": "Forza Horizon 6",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/9d63ec056caddb97fc9a70c7c11aa6540736a6bf/capsule_616x353_alt_assets_1.jpg?t=1782238812",
@@ -218,16 +206,21 @@
       "url": "https://store.steampowered.com/app/2483190",
       "isSpecial": false,
       "isPopular": true
+    },
+    {
+      "id": "1671210",
+      "title": "DELTARUNE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
+      "originalPrice": 499,
+      "discountPrice": 499,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1671210",
+      "isSpecial": false,
+      "isPopular": true
     }
   ],
   "notifiedHistory": {
-    "steam_discount_1805320": {
-      "title": "Romestead",
-      "price": 269,
-      "percent": 10,
-      "timestamp": "2026-05-26T09:49:14.994Z",
-      "type": "discount"
-    },
     "steam_discount_2982610": {
       "title": "Stonemachia",
       "price": 359,
