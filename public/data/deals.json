@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T00:08:34.555Z",
+  "lastUpdated": "2026-06-25T05:02:36.360Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -88,18 +88,6 @@
       "isPopular": true
     },
     {
-      "id": "322330",
-      "title": "Don't Starve Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/d06913ca46e5068feee25b350cb2ca6e4d693897/capsule_616x353_alt_assets_50.jpg?t=1781363712",
-      "originalPrice": 229,
-      "discountPrice": 22,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/322330",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2138330",
       "title": "Cyberpunk 2077: Ілюзія свободи",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1768305060",
@@ -112,26 +100,14 @@
       "isPopular": false
     },
     {
-      "id": "381210",
-      "title": "Dead by Daylight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/a1fd8eb372877c6939bbd62ca325ad710b5e24c6/capsule_616x353_alt_assets_8.jpg?t=1782245493",
-      "originalPrice": 429,
-      "discountPrice": 171,
-      "discountPercent": 60,
+      "id": "3576350",
+      "title": "Sex, Secrets & Used Tech",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3576350/c13d902cb72b4290157b572eeafaca7f09df543e/capsule_616x353.jpg?t=1782349109",
+      "originalPrice": 370,
+      "discountPrice": 333,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/381210",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
+      "url": "https://store.steampowered.com/app/3576350",
       "isSpecial": true,
       "isPopular": false
     },
@@ -144,6 +120,18 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2001120",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "381210",
+      "title": "Dead by Daylight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/a1fd8eb372877c6939bbd62ca325ad710b5e24c6/capsule_616x353_alt_assets_8.jpg?t=1782245493",
+      "originalPrice": 429,
+      "discountPrice": 171,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/381210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -184,6 +172,18 @@
       "isPopular": true
     },
     {
+      "id": "3405690",
+      "title": "EA SPORTS FC™ 26",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1781720918",
+      "originalPrice": 1699,
+      "discountPrice": 340,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3405690",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "1671210",
       "title": "DELTARUNE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
@@ -196,14 +196,14 @@
       "isPopular": true
     },
     {
-      "id": "3405690",
-      "title": "EA SPORTS FC™ 26",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1781720918",
-      "originalPrice": 1699,
-      "discountPrice": 340,
-      "discountPercent": 80,
+      "id": "1431300",
+      "title": "SAND: Raiders of Sophie",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1431300/99cd5db84193d408dc92f12cfd9c533b7e69266b/capsule_616x353.jpg?t=1782290789",
+      "originalPrice": 399,
+      "discountPrice": 315,
+      "discountPercent": 21,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3405690",
+      "url": "https://store.steampowered.com/app/1431300",
       "isSpecial": false,
       "isPopular": true
     },
@@ -218,42 +218,9 @@
       "url": "https://store.steampowered.com/app/4355580",
       "isSpecial": false,
       "isPopular": true
-    },
-    {
-      "id": "4323990",
-      "title": "EMPULSE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4323990/69b77df269484416a70045677789050da556c0ff/capsule_616x353.jpg?t=1782317659",
-      "originalPrice": 405,
-      "discountPrice": 303,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4323990",
-      "isSpecial": false,
-      "isPopular": true
     }
   ],
   "notifiedHistory": {
-    "steam_popular_1962700": {
-      "title": "Subnautica 2",
-      "price": 899,
-      "percent": 0,
-      "timestamp": "2026-05-26T00:11:04.802Z",
-      "type": "popular"
-    },
-    "steam_discount_3009300": {
-      "title": "Teamfight Manager 2",
-      "price": 373,
-      "percent": 10,
-      "timestamp": "2026-05-26T05:01:08.684Z",
-      "type": "discount"
-    },
-    "steam_popular_3009300": {
-      "title": "Teamfight Manager 2",
-      "price": 373,
-      "percent": 10,
-      "timestamp": "2026-05-26T05:01:08.684Z",
-      "type": "popular"
-    },
     "steam_discount_1805320": {
       "title": "Romestead",
       "price": 269,
@@ -1296,6 +1263,13 @@
       "percent": 25,
       "timestamp": "2026-06-24T18:49:38.852Z",
       "type": "popular"
+    },
+    "steam_discount_3576350": {
+      "title": "Sex, Secrets & Used Tech",
+      "price": 333,
+      "percent": 10,
+      "timestamp": "2026-06-25T05:02:35.356Z",
+      "type": "discount"
     }
   }
 }
