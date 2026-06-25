@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T11:40:32.464Z",
+  "lastUpdated": "2026-06-25T14:25:43.073Z",
   "epic": [
     {
       "id": "ea365d314ecf4224a5f58d2d7430e7aa",
@@ -44,6 +44,38 @@
       "url": "https://store.epicgames.com/p/voidwrought-ce8f4b",
       "startDate": "2026-06-25T15:00:00.000Z",
       "endDate": "2026-07-02T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": true,
+      "isDiscounted": false,
+      "discountPercent": 0
+    },
+    {
+      "id": "9bf3d3188d1e498095bc23c0955538d9",
+      "title": "River City Girls 2",
+      "description": "A pixel-art sci-fi adventure set in the midst of a rebellion against a totalitarian regime, LUNARK is a modern take on the 2D cinematic platformer genre of the '90s. Run, jump, hang, climb, roll, and shoot your way through gorgeous and mysterious locations!",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/dfdcd48c05c6483284cb40b333dc71e4/river-city-girls-2-1hqkv.png",
+      "originalPrice": 729,
+      "discountPrice": 729,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/river-city-girls-2-77af3a",
+      "startDate": "2026-07-02T15:00:00.000Z",
+      "endDate": "2026-07-09T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": true,
+      "isDiscounted": false,
+      "discountPercent": 0
+    },
+    {
+      "id": "4ef54d5829b04656902dfa1f29b3b732",
+      "title": "I Have No Mouth, and I Must Scream",
+      "description": "The Allied Mastercomputer has destroyed all of humanity except for five people, whom it has been keeping them alive and torturing them for the past one hundred and nine years by designing virtual adventures based on their fears and weaknesses.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/b153ccd09d834353a8f27ffa9b41f5a2/i-have-no-mouth-and-i-must-scream-163j8.png",
+      "originalPrice": 184,
+      "discountPrice": 184,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/i-have-no-mouth-and-i-must-scream-95c5c2",
+      "startDate": "2026-07-02T15:00:00.000Z",
+      "endDate": "2026-07-09T15:00:00.000Z",
       "isFreeNow": false,
       "isUpcomingFree": true,
       "isDiscounted": false,
@@ -124,18 +156,6 @@
       "isPopular": false
     },
     {
-      "id": "3576350",
-      "title": "Sex, Secrets & Used Tech",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3576350/c13d902cb72b4290157b572eeafaca7f09df543e/capsule_616x353.jpg?t=1782349109",
-      "originalPrice": 370,
-      "discountPrice": 333,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3576350",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "252490",
       "title": "Rust",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
@@ -146,6 +166,18 @@
       "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
       "isPopular": false
+    },
+    {
+      "id": "3576350",
+      "title": "Sex, Secrets & Used Tech",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3576350/c13d902cb72b4290157b572eeafaca7f09df543e/capsule_616x353.jpg?t=1782349109",
+      "originalPrice": 370,
+      "discountPrice": 333,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3576350",
+      "isSpecial": true,
+      "isPopular": true
     },
     {
       "id": "1426210",
@@ -204,18 +236,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2483190",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1671210",
-      "title": "DELTARUNE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
-      "originalPrice": 499,
-      "discountPrice": 499,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1671210",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1263,6 +1283,13 @@
       "percent": 10,
       "timestamp": "2026-06-25T05:02:35.356Z",
       "type": "discount"
+    },
+    "steam_popular_3576350": {
+      "title": "Sex, Secrets & Used Tech",
+      "price": 333,
+      "percent": 10,
+      "timestamp": "2026-06-25T14:25:41.626Z",
+      "type": "popular"
     }
   }
 }
