@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T17:10:15.420Z",
+  "lastUpdated": "2026-06-25T19:55:50.160Z",
   "epic": [
     {
       "id": "bbccf66ad70e492d812e031e17f93b9d",
@@ -52,6 +52,90 @@
   ],
   "steam": [
     {
+      "id": "108600",
+      "title": "Project Zomboid",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1777298596",
+      "originalPrice": 415,
+      "discountPrice": 278,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/108600",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "1086940",
+      "title": "Baldur's Gate 3",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
+      "originalPrice": 899,
+      "discountPrice": 674,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1086940",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "814380",
+      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
+      "originalPrice": 2035,
+      "discountPrice": 1017,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/814380",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1671210",
+      "title": "DELTARUNE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
+      "originalPrice": 499,
+      "discountPrice": 399,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1671210",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "105600",
+      "title": "Terraria",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/capsule_616x353.jpg?t=1769844435",
+      "originalPrice": 225,
+      "discountPrice": 112,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/105600",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1769690377",
@@ -61,101 +145,17 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
-      "id": "2420110",
-      "title": " Повне видання Horizon Forbidden West™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/capsule_616x353.jpg?t=1776465869",
+      "id": "2322010",
+      "title": "God of War Ragnarök",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/capsule_616x353.jpg?t=1776465233",
       "originalPrice": 1699,
-      "discountPrice": 849,
-      "discountPercent": 50,
+      "discountPrice": 1138,
+      "discountPercent": 33,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2420110",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
-      "id": "322330",
-      "title": "Don't Starve Together",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/d06913ca46e5068feee25b350cb2ca6e4d693897/capsule_616x353_alt_assets_50.jpg?t=1781363712",
-      "originalPrice": 229,
-      "discountPrice": 22,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/322330",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2001120",
-      "title": "Split Fiction",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
-      "originalPrice": 1299,
-      "discountPrice": 844,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001120",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2138330",
-      "title": "Cyberpunk 2077: Ілюзія свободи",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1768305060",
-      "originalPrice": 699,
-      "discountPrice": 419,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2138330",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3576350",
-      "title": "Sex, Secrets & Used Tech",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3576350/c13d902cb72b4290157b572eeafaca7f09df543e/capsule_616x353.jpg?t=1782349109",
-      "originalPrice": 370,
-      "discountPrice": 333,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3576350",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1426210",
-      "title": "It Takes Two",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
-      "originalPrice": 999,
-      "discountPrice": 299,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1426210",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2909400",
-      "title": "FINAL FANTASY VII REBIRTH",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg?t=1775124617",
-      "originalPrice": 1699,
-      "discountPrice": 679,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2909400",
+      "url": "https://store.steampowered.com/app/2322010",
       "isSpecial": true,
       "isPopular": false
     },
@@ -172,18 +172,6 @@
       "isPopular": true
     },
     {
-      "id": "3405690",
-      "title": "EA SPORTS FC™ 26",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1781720918",
-      "originalPrice": 1699,
-      "discountPrice": 340,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3405690",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
@@ -194,54 +182,9 @@
       "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
-    },
-    {
-      "id": "1374490",
-      "title": "RuneScape: Dragonwilds",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/91ab96a83047ad282e9741a597a9f83a17d2121d/capsule_616x353_alt_assets_2.jpg?t=1782209165",
-      "originalPrice": 800,
-      "discountPrice": 560,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1374490",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "2483190",
-      "title": "Forza Horizon 6",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/9d63ec056caddb97fc9a70c7c11aa6540736a6bf/capsule_616x353_alt_assets_1.jpg?t=1782238812",
-      "originalPrice": 2299,
-      "discountPrice": 2299,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2483190",
-      "isSpecial": false,
-      "isPopular": true
     }
   ],
   "notifiedHistory": {
-    "steam_discount_2982610": {
-      "title": "Stonemachia",
-      "price": 359,
-      "percent": 10,
-      "timestamp": "2026-05-26T19:18:05.421Z",
-      "type": "discount"
-    },
-    "steam_discount_2261430": {
-      "title": "LumenTale: Memories of Trey",
-      "price": 453,
-      "percent": 10,
-      "timestamp": "2026-05-26T19:18:05.421Z",
-      "type": "discount"
-    },
-    "steam_popular_4371500": {
-      "title": "MechWarrior 5: Mercenaries - Chaos Reign",
-      "price": 430,
-      "percent": 0,
-      "timestamp": "2026-05-26T19:18:05.421Z",
-      "type": "popular"
-    },
     "steam_discount_3159330": {
       "title": "Assassin’s Creed Shadows",
       "price": 999,
@@ -1277,6 +1220,90 @@
       "percent": 100,
       "timestamp": "2026-06-25T17:10:13.859Z",
       "type": "free"
+    },
+    "steam_discount_108600": {
+      "title": "Project Zomboid",
+      "price": 278,
+      "percent": 33,
+      "timestamp": "2026-06-25T19:55:48.282Z",
+      "type": "discount"
+    },
+    "steam_discount_1086940": {
+      "title": "Baldur's Gate 3",
+      "price": 674,
+      "percent": 25,
+      "timestamp": "2026-06-25T19:55:48.282Z",
+      "type": "discount"
+    },
+    "steam_discount_3240220": {
+      "title": "Grand Theft Auto V Enhanced",
+      "price": 674,
+      "percent": 50,
+      "timestamp": "2026-06-25T19:55:48.282Z",
+      "type": "discount"
+    },
+    "steam_discount_814380": {
+      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "price": 1017,
+      "percent": 50,
+      "timestamp": "2026-06-25T19:55:48.282Z",
+      "type": "discount"
+    },
+    "steam_discount_1174180": {
+      "title": "Red Dead Redemption 2",
+      "price": 649,
+      "percent": 75,
+      "timestamp": "2026-06-25T19:55:48.282Z",
+      "type": "discount"
+    },
+    "steam_discount_1671210": {
+      "title": "DELTARUNE",
+      "price": 399,
+      "percent": 20,
+      "timestamp": "2026-06-25T19:55:48.282Z",
+      "type": "discount"
+    },
+    "steam_discount_105600": {
+      "title": "Terraria",
+      "price": 112,
+      "percent": 50,
+      "timestamp": "2026-06-25T19:55:48.282Z",
+      "type": "discount"
+    },
+    "steam_discount_2322010": {
+      "title": "God of War Ragnarök",
+      "price": 1138,
+      "percent": 33,
+      "timestamp": "2026-06-25T19:55:48.282Z",
+      "type": "discount"
+    },
+    "steam_popular_108600": {
+      "title": "Project Zomboid",
+      "price": 278,
+      "percent": 33,
+      "timestamp": "2026-06-25T19:55:48.282Z",
+      "type": "popular"
+    },
+    "steam_popular_1086940": {
+      "title": "Baldur's Gate 3",
+      "price": 674,
+      "percent": 25,
+      "timestamp": "2026-06-25T19:55:48.282Z",
+      "type": "popular"
+    },
+    "steam_popular_3240220": {
+      "title": "Grand Theft Auto V Enhanced",
+      "price": 674,
+      "percent": 50,
+      "timestamp": "2026-06-25T19:55:48.282Z",
+      "type": "popular"
+    },
+    "steam_popular_814380": {
+      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "price": 1017,
+      "percent": 50,
+      "timestamp": "2026-06-25T19:55:48.282Z",
+      "type": "popular"
     }
   }
 }
