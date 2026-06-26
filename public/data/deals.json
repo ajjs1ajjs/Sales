@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T20:44:56.042Z",
+  "lastUpdated": "2026-06-26T22:10:02.640Z",
   "epic": [
     {
       "id": "bbccf66ad70e492d812e031e17f93b9d",
@@ -112,14 +112,14 @@
       "isPopular": false
     },
     {
-      "id": "1326470",
-      "title": "Sons Of The Forest",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
-      "originalPrice": 600,
-      "discountPrice": 180,
-      "discountPercent": 70,
+      "id": "1671210",
+      "title": "DELTARUNE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
+      "originalPrice": 499,
+      "discountPrice": 399,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1326470",
+      "url": "https://store.steampowered.com/app/1671210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -136,14 +136,14 @@
       "isPopular": false
     },
     {
-      "id": "1671210",
-      "title": "DELTARUNE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
-      "originalPrice": 499,
-      "discountPrice": 399,
-      "discountPercent": 20,
+      "id": "1326470",
+      "title": "Sons Of The Forest",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
+      "originalPrice": 600,
+      "discountPrice": 180,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1671210",
+      "url": "https://store.steampowered.com/app/1326470",
       "isSpecial": true,
       "isPopular": false
     },
@@ -185,27 +185,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_1116050": {
-      "title": "Starminer",
-      "price": 558,
-      "percent": 10,
-      "timestamp": "2026-05-27T21:52:11.572Z",
-      "type": "discount"
-    },
-    "steam_discount_1771300": {
-      "title": "Kingdom Come: Deliverance II",
-      "price": 799,
-      "percent": 50,
-      "timestamp": "2026-05-27T21:52:11.572Z",
-      "type": "discount"
-    },
-    "steam_discount_2057760": {
-      "title": "Esoteric Ebb",
-      "price": 412,
-      "percent": 20,
-      "timestamp": "2026-05-27T21:52:11.572Z",
-      "type": "discount"
-    },
     "steam_discount_990080": {
       "title": "Hogwarts Legacy",
       "price": 239,
