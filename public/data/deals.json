@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T10:48:24.132Z",
+  "lastUpdated": "2026-06-26T13:08:51.114Z",
   "epic": [
     {
       "id": "bbccf66ad70e492d812e031e17f93b9d",
@@ -52,18 +52,6 @@
   ],
   "steam": [
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -76,14 +64,14 @@
       "isPopular": true
     },
     {
-      "id": "1086940",
-      "title": "Baldur's Gate 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
-      "originalPrice": 899,
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1349,
       "discountPrice": 674,
-      "discountPercent": 25,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1086940",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": true
     },
@@ -96,6 +84,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "1086940",
+      "title": "Baldur's Gate 3",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
+      "originalPrice": 899,
+      "discountPrice": 674,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1086940",
       "isSpecial": true,
       "isPopular": true
     },
@@ -173,20 +173,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_1304930": {
-      "title": "The Outlast Trials",
-      "price": 222,
-      "percent": 70,
-      "timestamp": "2026-05-27T12:17:58.043Z",
-      "type": "popular"
-    },
-    "steam_discount_2175540": {
-      "title": "DRAGON QUEST MONSTERS: The Dark Prince",
-      "price": 274,
-      "percent": 75,
-      "timestamp": "2026-05-27T12:17:58.043Z",
-      "type": "discount"
-    },
     "steam_popular_1116050": {
       "title": "Starminer",
       "price": 558,
