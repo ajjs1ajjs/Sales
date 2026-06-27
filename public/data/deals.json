@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T17:59:37.363Z",
+  "lastUpdated": "2026-06-27T19:39:59.404Z",
   "epic": [
     {
       "id": "bbccf66ad70e492d812e031e17f93b9d",
@@ -112,26 +112,14 @@
       "isPopular": false
     },
     {
-      "id": "413150",
-      "title": "Stardew Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
-      "originalPrice": 229,
-      "discountPrice": 137,
-      "discountPercent": 40,
+      "id": "1671210",
+      "title": "DELTARUNE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
+      "originalPrice": 499,
+      "discountPrice": 399,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/413150",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3489700",
-      "title": "Stellar Blade™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/22469f910e2be326ea2a70d10601e3521c7b105d/capsule_616x353.jpg?t=1776466244",
-      "originalPrice": 1999,
-      "discountPrice": 1339,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3489700",
+      "url": "https://store.steampowered.com/app/1671210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,14 +136,26 @@
       "isPopular": false
     },
     {
-      "id": "1671210",
-      "title": "DELTARUNE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
-      "originalPrice": 499,
-      "discountPrice": 399,
-      "discountPercent": 20,
+      "id": "2215430",
+      "title": "РЕЖИСЕРСЬКА ВЕРСІЯ Ghost of Tsushima",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/capsule_616x353.jpg?t=1763409398",
+      "originalPrice": 1699,
+      "discountPrice": 1019,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1671210",
+      "url": "https://store.steampowered.com/app/2215430",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3489700",
+      "title": "Stellar Blade™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/22469f910e2be326ea2a70d10601e3521c7b105d/capsule_616x353.jpg?t=1776466244",
+      "originalPrice": 1999,
+      "discountPrice": 1339,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3489700",
       "isSpecial": true,
       "isPopular": false
     },
@@ -185,48 +185,6 @@
     }
   ],
   "notifiedHistory": {
-    "epic_free_9621cc6e5d32437ca3dd998de177f6da": {
-      "title": "LONESTAR",
-      "price": 0,
-      "percent": 100,
-      "timestamp": "2026-05-28T18:09:22.043Z",
-      "type": "free"
-    },
-    "epic_free_7fc5abc8f11c471e837ddd00ce963350": {
-      "title": "Calico",
-      "price": 0,
-      "percent": 100,
-      "timestamp": "2026-05-28T18:09:22.043Z",
-      "type": "free"
-    },
-    "steam_discount_3583210": {
-      "title": "Crashout Crew",
-      "price": 95,
-      "percent": 38,
-      "timestamp": "2026-05-28T18:09:22.043Z",
-      "type": "discount"
-    },
-    "steam_discount_2904040": {
-      "title": "Cheap Car Repair",
-      "price": 276,
-      "percent": 25,
-      "timestamp": "2026-05-28T18:09:22.043Z",
-      "type": "discount"
-    },
-    "steam_discount_3198890": {
-      "title": "Scale the Depths",
-      "price": 195,
-      "percent": 15,
-      "timestamp": "2026-05-28T18:09:22.043Z",
-      "type": "discount"
-    },
-    "steam_popular_4435490": {
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "price": 2449,
-      "percent": 0,
-      "timestamp": "2026-05-28T18:09:22.043Z",
-      "type": "popular"
-    },
     "steam_discount_1144200": {
       "title": "Ready or Not",
       "price": 312,
