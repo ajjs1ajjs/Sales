@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T14:27:13.067Z",
+  "lastUpdated": "2026-06-27T16:02:35.684Z",
   "epic": [
     {
       "id": "bbccf66ad70e492d812e031e17f93b9d",
@@ -121,7 +121,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/413150",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "814380",
@@ -170,28 +170,9 @@
       "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": false,
       "isPopular": true
-    },
-    {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isPopular": true
     }
   ],
   "notifiedHistory": {
-    "steam_popular_3219030": {
-      "title": "Planet Zoo 2",
-      "price": 1145,
-      "percent": 0,
-      "timestamp": "2026-05-28T14:36:29.391Z",
-      "type": "popular"
-    },
     "epic_free_9621cc6e5d32437ca3dd998de177f6da": {
       "title": "LONESTAR",
       "price": 0,
