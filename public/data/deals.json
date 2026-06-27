@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T10:04:32.144Z",
+  "lastUpdated": "2026-06-27T12:07:19.814Z",
   "epic": [
     {
       "id": "bbccf66ad70e492d812e031e17f93b9d",
@@ -100,30 +100,6 @@
       "isPopular": true
     },
     {
-      "id": "413150",
-      "title": "Stardew Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
-      "originalPrice": 229,
-      "discountPrice": 137,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/413150",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3489700",
-      "title": "Stellar Blade™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/22469f910e2be326ea2a70d10601e3521c7b105d/capsule_616x353.jpg?t=1776466244",
-      "originalPrice": 1999,
-      "discountPrice": 1339,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3489700",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1326470",
       "title": "Sons Of The Forest",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
@@ -132,6 +108,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1326470",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "413150",
+      "title": "Stardew Valley",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
+      "originalPrice": 229,
+      "discountPrice": 137,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/413150",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,21 +136,33 @@
       "isPopular": false
     },
     {
-      "id": "266410",
-      "title": "iRacing",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1781016164",
-      "originalPrice": 225,
-      "discountPrice": 112,
-      "discountPercent": 50,
+      "id": "3489700",
+      "title": "Stellar Blade™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/22469f910e2be326ea2a70d10601e3521c7b105d/capsule_616x353.jpg?t=1776466244",
+      "originalPrice": 1999,
+      "discountPrice": 1339,
+      "discountPercent": 33,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/266410",
+      "url": "https://store.steampowered.com/app/3489700",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2215430",
+      "title": "РЕЖИСЕРСЬКА ВЕРСІЯ Ghost of Tsushima",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/capsule_616x353.jpg?t=1763409398",
+      "originalPrice": 1699,
+      "discountPrice": 1019,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2215430",
       "isSpecial": true,
       "isPopular": false
     },
     {
       "id": "4704690",
       "title": "MECCHA CHAMELEON",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782460404",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
       "originalPrice": 155,
       "discountPrice": 155,
       "discountPercent": 0,
