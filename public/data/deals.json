@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T23:59:09.817Z",
+  "lastUpdated": "2026-06-28T04:26:54.323Z",
   "epic": [
     {
       "id": "bbccf66ad70e492d812e031e17f93b9d",
@@ -52,18 +52,6 @@
   ],
   "steam": [
     {
-      "id": "1086940",
-      "title": "Baldur's Gate 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
-      "originalPrice": 899,
-      "discountPrice": 674,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1086940",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1769690377",
@@ -72,6 +60,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "1086940",
+      "title": "Baldur's Gate 3",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
+      "originalPrice": 899,
+      "discountPrice": 674,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1086940",
       "isSpecial": true,
       "isPopular": true
     },
@@ -112,6 +112,30 @@
       "isPopular": false
     },
     {
+      "id": "3489700",
+      "title": "Stellar Blade™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/22469f910e2be326ea2a70d10601e3521c7b105d/capsule_616x353.jpg?t=1776466244",
+      "originalPrice": 1999,
+      "discountPrice": 1339,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3489700",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "413150",
+      "title": "Stardew Valley",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
+      "originalPrice": 229,
+      "discountPrice": 137,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/413150",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1671210",
       "title": "DELTARUNE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
@@ -124,18 +148,6 @@
       "isPopular": false
     },
     {
-      "id": "2215430",
-      "title": "РЕЖИСЕРСЬКА ВЕРСІЯ Ghost of Tsushima",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/capsule_616x353.jpg?t=1763409398",
-      "originalPrice": 1699,
-      "discountPrice": 1019,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2215430",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "814380",
       "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
@@ -144,18 +156,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/814380",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3489700",
-      "title": "Stellar Blade™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/22469f910e2be326ea2a70d10601e3521c7b105d/capsule_616x353.jpg?t=1776466244",
-      "originalPrice": 1999,
-      "discountPrice": 1339,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3489700",
       "isSpecial": true,
       "isPopular": false
     },
@@ -185,13 +185,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_2141730": {
-      "title": "Backrooms: Escape Together",
-      "price": 157,
-      "percent": 30,
-      "timestamp": "2026-05-29T02:54:34.354Z",
-      "type": "discount"
-    },
     "steam_popular_1875580": {
       "title": "Mina the Hollower",
       "price": 430,
