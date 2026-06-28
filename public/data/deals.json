@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T04:26:54.323Z",
+  "lastUpdated": "2026-06-28T08:19:07.399Z",
   "epic": [
     {
       "id": "bbccf66ad70e492d812e031e17f93b9d",
@@ -52,14 +52,14 @@
   ],
   "steam": [
     {
-      "id": "1091500",
-      "title": "Cyberpunk 2077",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1769690377",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
+      "id": "266410",
+      "title": "iRacing",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1781016164",
+      "originalPrice": 225,
+      "discountPrice": 112,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1091500",
+      "url": "https://store.steampowered.com/app/266410",
       "isSpecial": true,
       "isPopular": true
     },
@@ -76,6 +76,18 @@
       "isPopular": true
     },
     {
+      "id": "1091500",
+      "title": "Cyberpunk 2077",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1769690377",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1091500",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -85,7 +97,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "3240220",
@@ -112,18 +124,6 @@
       "isPopular": false
     },
     {
-      "id": "3489700",
-      "title": "Stellar Blade™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/22469f910e2be326ea2a70d10601e3521c7b105d/capsule_616x353.jpg?t=1776466244",
-      "originalPrice": 1999,
-      "discountPrice": 1339,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3489700",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "413150",
       "title": "Stardew Valley",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
@@ -132,30 +132,6 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/413150",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1671210",
-      "title": "DELTARUNE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
-      "originalPrice": 499,
-      "discountPrice": 399,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1671210",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "814380",
-      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
-      "originalPrice": 2035,
-      "discountPrice": 1017,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/814380",
       "isSpecial": true,
       "isPopular": false
     },
@@ -170,28 +146,9 @@
       "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": false,
       "isPopular": true
-    },
-    {
-      "id": "1431300",
-      "title": "SAND: Raiders of Sophie",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1431300/99cd5db84193d408dc92f12cfd9c533b7e69266b/capsule_616x353.jpg?t=1782290789",
-      "originalPrice": 399,
-      "discountPrice": 315,
-      "discountPercent": 21,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1431300",
-      "isSpecial": false,
-      "isPopular": true
     }
   ],
   "notifiedHistory": {
-    "steam_popular_1875580": {
-      "title": "Mina the Hollower",
-      "price": 430,
-      "percent": 0,
-      "timestamp": "2026-05-29T06:53:39.095Z",
-      "type": "popular"
-    },
     "steam_discount_1943950": {
       "title": "Escape the Backrooms",
       "price": 155,
@@ -1213,6 +1170,13 @@
       "percent": 50,
       "timestamp": "2026-06-27T10:04:30.968Z",
       "type": "discount"
+    },
+    "steam_popular_266410": {
+      "title": "iRacing",
+      "price": 112,
+      "percent": 50,
+      "timestamp": "2026-06-28T08:19:05.924Z",
+      "type": "popular"
     }
   }
 }
