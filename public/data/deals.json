@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T14:12:31.068Z",
+  "lastUpdated": "2026-06-30T17:05:03.510Z",
   "epic": [
     {
       "id": "bbccf66ad70e492d812e031e17f93b9d",
@@ -61,19 +61,19 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
+      "id": "1086940",
+      "title": "Baldur's Gate 3",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
+      "originalPrice": 899,
+      "discountPrice": 674,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
+      "url": "https://store.steampowered.com/app/1086940",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "3240220",
@@ -88,6 +88,18 @@
       "isPopular": false
     },
     {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1326470",
       "title": "Sons Of The Forest",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
@@ -96,18 +108,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1326470",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1086940",
-      "title": "Baldur's Gate 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
-      "originalPrice": 899,
-      "discountPrice": 674,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1086940",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,28 +148,16 @@
       "isPopular": false
     },
     {
-      "id": "648800",
-      "title": "Raft",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/capsule_616x353.jpg?t=1727184011",
-      "originalPrice": 430,
-      "discountPrice": 288,
-      "discountPercent": 33,
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
+      "originalPrice": 625,
+      "discountPrice": 312,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/648800",
+      "url": "https://store.steampowered.com/app/1144200",
       "isSpecial": true,
       "isPopular": false
-    },
-    {
-      "id": "4704690",
-      "title": "MECCHA CHAMELEON",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
-      "originalPrice": 155,
-      "discountPrice": 155,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4704690",
-      "isSpecial": false,
-      "isPopular": true
     },
     {
       "id": "4165910",
@@ -180,6 +168,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4704690",
+      "title": "MECCHA CHAMELEON",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
+      "originalPrice": 155,
+      "discountPrice": 155,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": false,
       "isPopular": true
     },
