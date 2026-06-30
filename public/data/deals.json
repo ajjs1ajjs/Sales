@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T08:35:50.288Z",
+  "lastUpdated": "2026-06-30T11:43:46.696Z",
   "epic": [
     {
       "id": "bbccf66ad70e492d812e031e17f93b9d",
@@ -73,7 +73,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "1174180",
@@ -88,18 +88,6 @@
       "isPopular": false
     },
     {
-      "id": "1326470",
-      "title": "Sons Of The Forest",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
-      "originalPrice": 600,
-      "discountPrice": 180,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1326470",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1086940",
       "title": "Baldur's Gate 3",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
@@ -108,6 +96,18 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1086940",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1326470",
+      "title": "Sons Of The Forest",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
+      "originalPrice": 600,
+      "discountPrice": 180,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1326470",
       "isSpecial": true,
       "isPopular": false
     },
@@ -136,26 +136,26 @@
       "isPopular": false
     },
     {
-      "id": "1671210",
-      "title": "DELTARUNE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
-      "originalPrice": 499,
-      "discountPrice": 399,
-      "discountPercent": 20,
+      "id": "814380",
+      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
+      "originalPrice": 2035,
+      "discountPrice": 1017,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1671210",
+      "url": "https://store.steampowered.com/app/814380",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "1144200",
-      "title": "Ready or Not",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
-      "originalPrice": 625,
-      "discountPrice": 312,
-      "discountPercent": 50,
+      "id": "108600",
+      "title": "Project Zomboid",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1777298596",
+      "originalPrice": 415,
+      "discountPrice": 278,
+      "discountPercent": 33,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1144200",
+      "url": "https://store.steampowered.com/app/108600",
       "isSpecial": true,
       "isPopular": false
     },
@@ -180,30 +180,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "2323150",
-      "title": "Underground roof fall hazard assessment VR Training",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2323150/capsule_616x353.jpg?t=1691136395",
-      "originalPrice": 7000,
-      "discountPrice": 5600,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2323150",
       "isSpecial": false,
       "isPopular": true
     }
