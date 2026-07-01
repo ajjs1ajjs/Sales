@@ -1,6 +1,22 @@
 {
-  "lastUpdated": "2026-07-01T08:08:57.035Z",
+  "lastUpdated": "2026-07-01T11:58:55.697Z",
   "epic": [
+    {
+      "id": "e5da2c017d4d4afab9f4c56525b66100",
+      "title": "Nova Lands",
+      "description": "Nova Lands is a factory building, exploration, and island management game. Explore, engage in combat, and automate your industry. The planet you’re on is full of mysteries, creatures, people, and things to do. Welcome to your new home amongst the stars!",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/9a2764693c414ecda63d8f785452a4bb/nova-lands-offer-16wzy.png",
+      "originalPrice": 399,
+      "discountPrice": 399,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/nova-lands-4d1788",
+      "startDate": "2026-07-09T15:00:00.000Z",
+      "endDate": "2026-07-16T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": true,
+      "isDiscounted": false,
+      "discountPercent": 0
+    },
     {
       "id": "bbccf66ad70e492d812e031e17f93b9d",
       "title": "Voidwrought",
@@ -52,30 +68,6 @@
   ],
   "steam": [
     {
-      "id": "266410",
-      "title": "iRacing",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1781016164",
-      "originalPrice": 225,
-      "discountPrice": 112,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/266410",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1769690377",
@@ -88,16 +80,16 @@
       "isPopular": false
     },
     {
-      "id": "1086940",
-      "title": "Baldur's Gate 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
-      "originalPrice": 899,
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1349,
       "discountPrice": 674,
-      "discountPercent": 25,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1086940",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "1174180",
@@ -124,6 +116,18 @@
       "isPopular": false
     },
     {
+      "id": "1086940",
+      "title": "Baldur's Gate 3",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
+      "originalPrice": 899,
+      "discountPrice": 674,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1086940",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "413150",
       "title": "Stardew Valley",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
@@ -132,6 +136,42 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/413150",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "814380",
+      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
+      "originalPrice": 2035,
+      "discountPrice": 1017,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/814380",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2001120",
+      "title": "Split Fiction",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
+      "originalPrice": 1299,
+      "discountPrice": 844,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2001120",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1671210",
+      "title": "DELTARUNE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
+      "originalPrice": 499,
+      "discountPrice": 399,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1671210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -156,18 +196,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1202520",
-      "title": "Fallout 1st",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
-      "originalPrice": 399,
-      "discountPrice": 399,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1202520",
       "isSpecial": false,
       "isPopular": true
     }
