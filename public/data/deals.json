@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T02:55:59.513Z",
+  "lastUpdated": "2026-07-02T06:40:20.834Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -89,18 +89,6 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1086940",
-      "title": "Baldur's Gate 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
-      "originalPrice": 899,
-      "discountPrice": 674,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1086940",
-      "isSpecial": true,
       "isPopular": true
     },
     {
@@ -116,6 +104,18 @@
       "isPopular": false
     },
     {
+      "id": "1086940",
+      "title": "Baldur's Gate 3",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
+      "originalPrice": 899,
+      "discountPrice": 674,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1086940",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1326470",
       "title": "Sons Of The Forest",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
@@ -124,6 +124,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1326470",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "413150",
+      "title": "Stardew Valley",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
+      "originalPrice": 229,
+      "discountPrice": 137,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/413150",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,18 +160,6 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1671210",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "413150",
-      "title": "Stardew Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
-      "originalPrice": 229,
-      "discountPrice": 137,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/413150",
       "isSpecial": true,
       "isPopular": false
     },
@@ -210,28 +210,9 @@
       "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
-    },
-    {
-      "id": "1431300",
-      "title": "SAND: Raiders of Sophie",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1431300/99cd5db84193d408dc92f12cfd9c533b7e69266b/capsule_616x353.jpg?t=1782290789",
-      "originalPrice": 399,
-      "discountPrice": 315,
-      "discountPercent": 21,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1431300",
-      "isSpecial": false,
-      "isPopular": true
     }
   ],
   "notifiedHistory": {
-    "steam_discount_285900": {
-      "title": "Gang Beasts",
-      "price": 97,
-      "percent": 75,
-      "timestamp": "2026-06-02T05:28:34.680Z",
-      "type": "discount"
-    },
     "steam_discount_2186990": {
       "title": "Fatekeeper",
       "price": 284,
