@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T17:43:48.683Z",
+  "lastUpdated": "2026-07-02T19:19:57.001Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -68,14 +68,14 @@
   ],
   "steam": [
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
+      "id": "1086940",
+      "title": "Baldur's Gate 3",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
+      "originalPrice": 899,
       "discountPrice": 674,
-      "discountPercent": 50,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
+      "url": "https://store.steampowered.com/app/1086940",
       "isSpecial": true,
       "isPopular": true
     },
@@ -92,6 +92,18 @@
       "isPopular": false
     },
     {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -102,18 +114,6 @@
       "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isPopular": false
-    },
-    {
-      "id": "1086940",
-      "title": "Baldur's Gate 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
-      "originalPrice": 899,
-      "discountPrice": 674,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1086940",
-      "isSpecial": true,
-      "isPopular": true
     },
     {
       "id": "1326470",
@@ -140,6 +140,18 @@
       "isPopular": false
     },
     {
+      "id": "1671210",
+      "title": "DELTARUNE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
+      "originalPrice": 499,
+      "discountPrice": 399,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1671210",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "413150",
       "title": "Stardew Valley",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
@@ -148,18 +160,6 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/413150",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2001120",
-      "title": "Split Fiction",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
-      "originalPrice": 1299,
-      "discountPrice": 844,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001120",
       "isSpecial": true,
       "isPopular": false
     },
@@ -198,37 +198,21 @@
       "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": false,
       "isPopular": true
+    },
+    {
+      "id": "2424420",
+      "title": "Avatar Legends: The Fighting Game",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/1f5de7ef86f661029a33ab172a3b71f2a35058f7/capsule_616x353.jpg?t=1783007456",
+      "originalPrice": 600,
+      "discountPrice": 600,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2424420",
+      "isSpecial": false,
+      "isPopular": true
     }
   ],
   "notifiedHistory": {
-    "steam_discount_2186990": {
-      "title": "Fatekeeper",
-      "price": 284,
-      "percent": 20,
-      "timestamp": "2026-06-02T18:37:48.128Z",
-      "type": "discount"
-    },
-    "steam_popular_2186990": {
-      "title": "Fatekeeper",
-      "price": 284,
-      "percent": 20,
-      "timestamp": "2026-06-02T18:37:48.128Z",
-      "type": "popular"
-    },
-    "steam_discount_4731620": {
-      "title": "Fortune Mill",
-      "price": 146,
-      "percent": 25,
-      "timestamp": "2026-06-02T18:37:48.128Z",
-      "type": "discount"
-    },
-    "steam_popular_4731620": {
-      "title": "Fortune Mill",
-      "price": 146,
-      "percent": 25,
-      "timestamp": "2026-06-02T18:37:48.128Z",
-      "type": "popular"
-    },
     "steam_discount_1371980": {
       "title": "No Rest for the Wicked",
       "price": 559,
@@ -1264,6 +1248,13 @@
       "percent": 100,
       "timestamp": "2026-07-02T15:12:54.841Z",
       "type": "free"
+    },
+    "steam_popular_2424420": {
+      "title": "Avatar Legends: The Fighting Game",
+      "price": 600,
+      "percent": 0,
+      "timestamp": "2026-07-02T19:19:55.588Z",
+      "type": "popular"
     }
   }
 }
