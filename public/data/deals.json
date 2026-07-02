@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T12:55:22.025Z",
+  "lastUpdated": "2026-07-02T15:12:56.318Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -18,32 +18,32 @@
       "discountPercent": 0
     },
     {
-      "id": "bbccf66ad70e492d812e031e17f93b9d",
-      "title": "Voidwrought",
-      "description": "Voidwrought is a 2D action-platformer set in a hand-drawn world of cosmic horrors. Explore the thawing ruins of the First Civilisation and strike down the gods that dwell there. Grow your powers, uncover ancient Artifacts, and expand your shrine amid the wreckage.",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/ae3f962fab4d42eba2dbefa4a1e76ff6/voidwrought-bio8j.jpg",
-      "originalPrice": 369,
+      "id": "9bf3d3188d1e498095bc23c0955538d9",
+      "title": "River City Girls 2",
+      "description": "A pixel-art sci-fi adventure set in the midst of a rebellion against a totalitarian regime, LUNARK is a modern take on the 2D cinematic platformer genre of the '90s. Run, jump, hang, climb, roll, and shoot your way through gorgeous and mysterious locations!",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/dfdcd48c05c6483284cb40b333dc71e4/river-city-girls-2-1hqkv.png",
+      "originalPrice": 729,
       "discountPrice": 0,
       "currency": "UAH",
-      "url": "https://store.epicgames.com/p/voidwrought-ce8f4b",
-      "startDate": "2026-06-25T15:00:00.000Z",
-      "endDate": "2026-07-02T15:00:00.000Z",
+      "url": "https://store.epicgames.com/p/river-city-girls-2-77af3a",
+      "startDate": "2026-07-02T15:00:00.000Z",
+      "endDate": "2026-07-09T15:00:00.000Z",
       "isFreeNow": true,
       "isUpcomingFree": false,
       "isDiscounted": false,
       "discountPercent": 100
     },
     {
-      "id": "9bf3d3188d1e498095bc23c0955538d9",
-      "title": "River City Girls 2",
-      "description": "A pixel-art sci-fi adventure set in the midst of a rebellion against a totalitarian regime, LUNARK is a modern take on the 2D cinematic platformer genre of the '90s. Run, jump, hang, climb, roll, and shoot your way through gorgeous and mysterious locations!",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/dfdcd48c05c6483284cb40b333dc71e4/river-city-girls-2-1hqkv.png",
-      "originalPrice": 729,
-      "discountPrice": 729,
+      "id": "f247e0af293645bda266fa9957d82d62",
+      "title": "Tattoo Tycoon",
+      "description": "Станьте тату-майстром і керуйте власним салоном. Підбирайте ідеальні ескізи для ексцентричних клієнтів, перетворюючи їхні приблизні побажання на шедеври бодіарту. Розширте свою невеличку затишну студію до успішного бізнесу з кількома салонами в різних районах Татуга Бей.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/0b68dfc82a014fe2ac9971f13e0e3ce5/tattoo-tycoon-11qwx.jpg",
+      "originalPrice": 750,
+      "discountPrice": 750,
       "currency": "UAH",
-      "url": "https://store.epicgames.com/p/river-city-girls-2-77af3a",
-      "startDate": "2026-07-02T15:00:00.000Z",
-      "endDate": "2026-07-09T15:00:00.000Z",
+      "url": "https://store.epicgames.com/p/tattoo-tycoon-b4352c",
+      "startDate": "2026-07-09T15:00:00.000Z",
+      "endDate": "2026-07-16T15:00:00.000Z",
       "isFreeNow": false,
       "isUpcomingFree": true,
       "isDiscounted": false,
@@ -55,18 +55,30 @@
       "description": "The Allied Mastercomputer has destroyed all of humanity except for five people, whom it has been keeping them alive and torturing them for the past one hundred and nine years by designing virtual adventures based on their fears and weaknesses.",
       "imageUrl": "https://cdn1.epicgames.com/spt-assets/b153ccd09d834353a8f27ffa9b41f5a2/i-have-no-mouth-and-i-must-scream-163j8.png",
       "originalPrice": 184,
-      "discountPrice": 184,
+      "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/i-have-no-mouth-and-i-must-scream-95c5c2",
       "startDate": "2026-07-02T15:00:00.000Z",
       "endDate": "2026-07-09T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": true,
+      "isFreeNow": true,
+      "isUpcomingFree": false,
       "isDiscounted": false,
-      "discountPercent": 0
+      "discountPercent": 100
     }
   ],
   "steam": [
+    {
+      "id": "1091500",
+      "title": "Cyberpunk 2077",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1769690377",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1091500",
+      "isSpecial": true,
+      "isPopular": true
+    },
     {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
@@ -78,18 +90,6 @@
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": true
-    },
-    {
-      "id": "1091500",
-      "title": "Cyberpunk 2077",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1769690377",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1091500",
-      "isSpecial": true,
-      "isPopular": false
     },
     {
       "id": "1174180",
@@ -104,18 +104,6 @@
       "isPopular": false
     },
     {
-      "id": "1086940",
-      "title": "Baldur's Gate 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
-      "originalPrice": 899,
-      "discountPrice": 674,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1086940",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1326470",
       "title": "Sons Of The Forest",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
@@ -124,6 +112,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1326470",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1086940",
+      "title": "Baldur's Gate 3",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
+      "originalPrice": 899,
+      "discountPrice": 674,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1086940",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,6 +152,18 @@
       "isPopular": false
     },
     {
+      "id": "108600",
+      "title": "Project Zomboid",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1777298596",
+      "originalPrice": 415,
+      "discountPrice": 278,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/108600",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2001120",
       "title": "Split Fiction",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
@@ -160,18 +172,6 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2001120",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1144200",
-      "title": "Ready or Not",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
-      "originalPrice": 625,
-      "discountPrice": 312,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1144200",
       "isSpecial": true,
       "isPopular": false
     },
@@ -1250,6 +1250,20 @@
       "percent": 0,
       "timestamp": "2026-07-01T08:08:55.978Z",
       "type": "popular"
+    },
+    "epic_free_9bf3d3188d1e498095bc23c0955538d9": {
+      "title": "River City Girls 2",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-07-02T15:12:54.841Z",
+      "type": "free"
+    },
+    "epic_free_4ef54d5829b04656902dfa1f29b3b732": {
+      "title": "I Have No Mouth, and I Must Scream",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-07-02T15:12:54.841Z",
+      "type": "free"
     }
   }
 }
