@@ -11,7 +11,8 @@
     "test:watch": "vitest",
     "preview": "vite preview",
     "fetch": "tsx scripts/fetch-deals.ts",
-    "sitemap": "tsx scripts/generate-sitemap.ts"
+    "sitemap": "tsx scripts/generate-sitemap.ts",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "lucide-react": "^1.16.0",
@@ -34,6 +35,7 @@
     "gh-pages": "^6.3.0",
     "globals": "^17.6.0",
     "jsdom": "^29.1.1",
+    "patch-package": "^8.0.1",
     "tsx": "^4.22.3",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.59.2",
