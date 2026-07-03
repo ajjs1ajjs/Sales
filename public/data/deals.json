@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T23:02:13.091Z",
+  "lastUpdated": "2026-07-03T02:39:17.705Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -152,26 +152,26 @@
       "isPopular": false
     },
     {
-      "id": "3164500",
-      "title": "Schedule I",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164500/86e34f84a874cf1853c6b45b7b5948694c7794cb/capsule_616x353.jpg?t=1773974661",
-      "originalPrice": 415,
-      "discountPrice": 249,
-      "discountPercent": 40,
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
+      "originalPrice": 625,
+      "discountPrice": 312,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3164500",
+      "url": "https://store.steampowered.com/app/1144200",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "2651280",
-      "title": "Marvel's Spider-Man 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg?t=1763569811",
-      "originalPrice": 1699,
-      "discountPrice": 1138,
-      "discountPercent": 33,
+      "id": "413150",
+      "title": "Stardew Valley",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
+      "originalPrice": 229,
+      "discountPrice": 137,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2651280",
+      "url": "https://store.steampowered.com/app/413150",
       "isSpecial": true,
       "isPopular": false
     },
@@ -200,6 +200,18 @@
       "isPopular": true
     },
     {
+      "id": "1431300",
+      "title": "SAND: Raiders of Sophie",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1431300/99cd5db84193d408dc92f12cfd9c533b7e69266b/capsule_616x353.jpg?t=1782290789",
+      "originalPrice": 399,
+      "discountPrice": 315,
+      "discountPercent": 21,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1431300",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "2424420",
       "title": "Avatar Legends: The Fighting Game",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/1f5de7ef86f661029a33ab172a3b71f2a35058f7/capsule_616x353.jpg?t=1783007456",
@@ -213,27 +225,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_1371980": {
-      "title": "No Rest for the Wicked",
-      "price": 559,
-      "percent": 30,
-      "timestamp": "2026-06-02T23:43:43.396Z",
-      "type": "discount"
-    },
-    "steam_popular_2288340": {
-      "title": "ACE COMBAT 8: WINGS OF THEVE",
-      "price": 1999,
-      "percent": 0,
-      "timestamp": "2026-06-02T23:43:43.396Z",
-      "type": "popular"
-    },
-    "steam_popular_3669870": {
-      "title": "CONTROL Resonant",
-      "price": 1599,
-      "percent": 0,
-      "timestamp": "2026-06-02T23:43:43.396Z",
-      "type": "popular"
-    },
     "steam_popular_4148930": {
       "title": "F1® 25: 2026 Season Pack",
       "price": 899,
