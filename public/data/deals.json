@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T21:01:45.449Z",
+  "lastUpdated": "2026-07-03T22:59:21.942Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -77,7 +77,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1086940",
@@ -92,18 +92,6 @@
       "isPopular": true
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -112,6 +100,18 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,14 +152,14 @@
       "isPopular": false
     },
     {
-      "id": "1144200",
-      "title": "Ready or Not",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
-      "originalPrice": 625,
-      "discountPrice": 312,
-      "discountPercent": 50,
+      "id": "1374490",
+      "title": "RuneScape: Dragonwilds",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/91ab96a83047ad282e9741a597a9f83a17d2121d/capsule_616x353_alt_assets_2.jpg?t=1783074967",
+      "originalPrice": 800,
+      "discountPrice": 560,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1144200",
+      "url": "https://store.steampowered.com/app/1374490",
       "isSpecial": true,
       "isPopular": false
     },
@@ -196,6 +196,30 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4558480",
+      "title": "ARK Tides of Fortune",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4558480/6132b567bea230760285e961e969a561326d5a79/capsule_616x353.jpg?t=1783118668",
+      "originalPrice": 885,
+      "discountPrice": 885,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4558480",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4558490",
+      "title": "ARK: Dragontopia",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4558490/583a07fe69ea87602bb6087957894204e7d7f85b/capsule_616x353.jpg?t=1783118627",
+      "originalPrice": 1330,
+      "discountPrice": 1330,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4558490",
       "isSpecial": false,
       "isPopular": true
     },
@@ -1252,6 +1276,20 @@
       "price": 1799,
       "percent": 0,
       "timestamp": "2026-07-03T21:01:43.994Z",
+      "type": "popular"
+    },
+    "steam_popular_4558480": {
+      "title": "ARK Tides of Fortune",
+      "price": 885,
+      "percent": 0,
+      "timestamp": "2026-07-03T22:59:20.263Z",
+      "type": "popular"
+    },
+    "steam_popular_4558490": {
+      "title": "ARK: Dragontopia",
+      "price": 1330,
+      "percent": 0,
+      "timestamp": "2026-07-03T22:59:20.263Z",
       "type": "popular"
     }
   }
