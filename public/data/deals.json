@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T06:29:04.121Z",
+  "lastUpdated": "2026-07-03T06:37:08.628Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -68,6 +68,18 @@
   ],
   "steam": [
     {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1769690377",
@@ -90,18 +102,6 @@
       "url": "https://store.steampowered.com/app/1086940",
       "isSpecial": true,
       "isPopular": true
-    },
-    {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": false
     },
     {
       "id": "1174180",
@@ -196,18 +196,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "2424420",
-      "title": "Avatar Legends: The Fighting Game",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/1f5de7ef86f661029a33ab172a3b71f2a35058f7/capsule_616x353.jpg?t=1783007456",
-      "originalPrice": 600,
-      "discountPrice": 600,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2424420",
       "isSpecial": false,
       "isPopular": true
     }
