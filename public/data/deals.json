@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T17:22:05.972Z",
+  "lastUpdated": "2026-07-03T19:16:03.532Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -128,18 +128,6 @@
       "isPopular": false
     },
     {
-      "id": "413150",
-      "title": "Stardew Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
-      "originalPrice": 229,
-      "discountPrice": 137,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/413150",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "814380",
       "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
@@ -152,14 +140,14 @@
       "isPopular": false
     },
     {
-      "id": "2001120",
-      "title": "Split Fiction",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
-      "originalPrice": 1299,
-      "discountPrice": 844,
-      "discountPercent": 35,
+      "id": "413150",
+      "title": "Stardew Valley",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
+      "originalPrice": 229,
+      "discountPrice": 137,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001120",
+      "url": "https://store.steampowered.com/app/413150",
       "isSpecial": true,
       "isPopular": false
     },
@@ -172,6 +160,18 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1671210",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2651280",
+      "title": "Marvel's Spider-Man 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg?t=1763569811",
+      "originalPrice": 1699,
+      "discountPrice": 1138,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2651280",
       "isSpecial": true,
       "isPopular": false
     },
@@ -213,20 +213,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_4148930": {
-      "title": "F1® 25: 2026 Season Pack",
-      "price": 899,
-      "percent": 0,
-      "timestamp": "2026-06-03T18:21:46.898Z",
-      "type": "popular"
-    },
-    "steam_popular_1675200": {
-      "title": "Steam Deck",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-06-03T18:21:46.898Z",
-      "type": "popular"
-    },
     "epic_free_a6a2d59fa54946dbbf16f14730c2e5f0": {
       "title": "Rogue Waters",
       "price": 0,
@@ -1241,6 +1227,13 @@
       "percent": 33,
       "timestamp": "2026-07-02T23:02:12.022Z",
       "type": "discount"
+    },
+    "steam_popular_1675200": {
+      "title": "Steam Deck",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-03T19:16:02.010Z",
+      "type": "popular"
     }
   }
 }
