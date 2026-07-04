@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T15:59:18.439Z",
+  "lastUpdated": "2026-07-04T17:14:39.794Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -200,14 +200,14 @@
       "isPopular": true
     },
     {
-      "id": "4558480",
-      "title": "ARK Tides of Fortune",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4558480/6132b567bea230760285e961e969a561326d5a79/capsule_616x353.jpg?t=1783148519",
-      "originalPrice": 885,
-      "discountPrice": 885,
+      "id": "3751950",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1782753569",
+      "originalPrice": 1799,
+      "discountPrice": 1799,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4558480",
+      "url": "https://store.steampowered.com/app/3751950",
       "isSpecial": false,
       "isPopular": true
     }
