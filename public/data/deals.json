@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T14:27:08.165Z",
+  "lastUpdated": "2026-07-04T15:59:18.439Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -89,7 +89,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1086940",
@@ -101,7 +101,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1086940",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "1174180",
