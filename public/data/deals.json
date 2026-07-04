@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T19:06:22.443Z",
+  "lastUpdated": "2026-07-04T20:53:35.274Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -68,18 +68,6 @@
   ],
   "steam": [
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1769690377",
@@ -89,7 +77,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "1086940",
@@ -100,6 +88,18 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1086940",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": true
     },
@@ -128,18 +128,6 @@
       "isPopular": false
     },
     {
-      "id": "413150",
-      "title": "Stardew Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
-      "originalPrice": 229,
-      "discountPrice": 137,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/413150",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "814380",
       "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
@@ -160,6 +148,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1374490",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
+      "originalPrice": 625,
+      "discountPrice": 312,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1144200",
       "isSpecial": true,
       "isPopular": false
     },
@@ -200,54 +200,19 @@
       "isPopular": true
     },
     {
-      "id": "4558480",
-      "title": "ARK Tides of Fortune",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4558480/6132b567bea230760285e961e969a561326d5a79/capsule_616x353.jpg?t=1783148519",
-      "originalPrice": 885,
-      "discountPrice": 885,
+      "id": "3751950",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1782753569",
+      "originalPrice": 1799,
+      "discountPrice": 1799,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4558480",
+      "url": "https://store.steampowered.com/app/3751950",
       "isSpecial": false,
       "isPopular": true
     }
   ],
   "notifiedHistory": {
-    "steam_discount_1326470": {
-      "title": "Sons Of The Forest",
-      "price": 180,
-      "percent": 70,
-      "timestamp": "2026-06-04T20:02:05.927Z",
-      "type": "discount"
-    },
-    "steam_discount_2050650": {
-      "title": "Resident Evil 4",
-      "price": 300,
-      "percent": 75,
-      "timestamp": "2026-06-04T20:02:05.927Z",
-      "type": "discount"
-    },
-    "steam_discount_3764200": {
-      "title": "Resident Evil Requiem",
-      "price": 1599,
-      "percent": 20,
-      "timestamp": "2026-06-04T20:02:05.927Z",
-      "type": "discount"
-    },
-    "steam_popular_3764200": {
-      "title": "Resident Evil Requiem",
-      "price": 1599,
-      "percent": 20,
-      "timestamp": "2026-06-04T20:02:05.927Z",
-      "type": "popular"
-    },
-    "steam_popular_3405690": {
-      "title": "EA SPORTS FC™ 26",
-      "price": 460,
-      "percent": 80,
-      "timestamp": "2026-06-04T20:02:05.927Z",
-      "type": "popular"
-    },
     "steam_popular_1326470": {
       "title": "Sons Of The Forest",
       "price": 180,
@@ -1227,6 +1192,13 @@
       "percent": 0,
       "timestamp": "2026-07-03T22:59:20.263Z",
       "type": "popular"
+    },
+    "steam_discount_1326470": {
+      "title": "Sons Of The Forest",
+      "price": 180,
+      "percent": 70,
+      "timestamp": "2026-07-04T20:53:33.995Z",
+      "type": "discount"
     }
   }
 }
