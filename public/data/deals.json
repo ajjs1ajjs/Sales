@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T04:53:46.676Z",
+  "lastUpdated": "2026-07-05T07:54:31.692Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -101,7 +101,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "1086940",
@@ -112,18 +112,6 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1086940",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isPopular": false
     },
@@ -140,38 +128,26 @@
       "isPopular": false
     },
     {
-      "id": "1326470",
-      "title": "Sons Of The Forest",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
-      "originalPrice": 600,
-      "discountPrice": 180,
-      "discountPercent": 70,
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1326470",
+      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "413150",
-      "title": "Stardew Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
-      "originalPrice": 229,
-      "discountPrice": 137,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/413150",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "814380",
-      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
-      "originalPrice": 2035,
-      "discountPrice": 1017,
+      "id": "266410",
+      "title": "iRacing",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1781016164",
+      "originalPrice": 225,
+      "discountPrice": 112,
       "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/814380",
+      "url": "https://store.steampowered.com/app/266410",
       "isSpecial": true,
       "isPopular": false
     },
@@ -201,20 +177,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_2050650": {
-      "title": "Resident Evil 4",
-      "price": 300,
-      "percent": 75,
-      "timestamp": "2026-06-05T05:13:50.259Z",
-      "type": "popular"
-    },
-    "steam_discount_883710": {
-      "title": "Resident Evil 2",
-      "price": 240,
-      "percent": 80,
-      "timestamp": "2026-06-05T05:13:50.259Z",
-      "type": "discount"
-    },
     "steam_discount_242760": {
       "title": "The Forest",
       "price": 61,
