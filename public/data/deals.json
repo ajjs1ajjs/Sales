@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T07:54:31.692Z",
+  "lastUpdated": "2026-07-05T10:09:15.035Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -68,30 +68,6 @@
   ],
   "steam": [
     {
-      "id": "108600",
-      "title": "Project Zomboid",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1777298596",
-      "originalPrice": 415,
-      "discountPrice": 278,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/108600",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
-      "id": "1091500",
-      "title": "Cyberpunk 2077",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1769690377",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1091500",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -104,26 +80,14 @@
       "isPopular": true
     },
     {
-      "id": "1086940",
-      "title": "Baldur's Gate 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
-      "originalPrice": 899,
-      "discountPrice": 674,
-      "discountPercent": 25,
+      "id": "1091500",
+      "title": "Cyberpunk 2077",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1769690377",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1086940",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "105600",
-      "title": "Terraria",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/capsule_616x353.jpg?t=1769844435",
-      "originalPrice": 225,
-      "discountPrice": 112,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/105600",
+      "url": "https://store.steampowered.com/app/1091500",
       "isSpecial": true,
       "isPopular": false
     },
@@ -140,6 +104,18 @@
       "isPopular": false
     },
     {
+      "id": "1086940",
+      "title": "Baldur's Gate 3",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
+      "originalPrice": 899,
+      "discountPrice": 674,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1086940",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "266410",
       "title": "iRacing",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1781016164",
@@ -148,6 +124,30 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/266410",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1326470",
+      "title": "Sons Of The Forest",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
+      "originalPrice": 600,
+      "discountPrice": 180,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1326470",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "413150",
+      "title": "Stardew Valley",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
+      "originalPrice": 229,
+      "discountPrice": 137,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/413150",
       "isSpecial": true,
       "isPopular": false
     },
@@ -174,16 +174,33 @@
       "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": false,
       "isPopular": true
+    },
+    {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3751950",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1782753569",
+      "originalPrice": 1799,
+      "discountPrice": 1799,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3751950",
+      "isSpecial": false,
+      "isPopular": true
     }
   ],
   "notifiedHistory": {
-    "steam_discount_242760": {
-      "title": "The Forest",
-      "price": 61,
-      "percent": 78,
-      "timestamp": "2026-06-05T09:41:18.200Z",
-      "type": "discount"
-    },
     "steam_popular_1297900": {
       "title": "Gothic 1 Remake",
       "price": 1505,
