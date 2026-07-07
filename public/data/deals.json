@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T04:49:34.090Z",
+  "lastUpdated": "2026-07-07T08:20:35.609Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -68,6 +68,18 @@
   ],
   "steam": [
     {
+      "id": "2209900",
+      "title": "Moonlight Peaks",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/86fad83c53a1d9b21b66abf89827b21f0e45ed4a/capsule_616x353.jpg?t=1783397812",
+      "originalPrice": 1260,
+      "discountPrice": 1071,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2209900",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1769690377",
@@ -76,18 +88,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isPopular": false
     },
@@ -116,6 +116,18 @@
       "isPopular": false
     },
     {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1326470",
       "title": "Sons Of The Forest",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
@@ -136,18 +148,6 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/413150",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1671210",
-      "title": "DELTARUNE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
-      "originalPrice": 499,
-      "discountPrice": 399,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1671210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -208,18 +208,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3751950",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "2209900",
-      "title": "Moonlight Peaks",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/86fad83c53a1d9b21b66abf89827b21f0e45ed4a/capsule_616x353.jpg?t=1783397812",
-      "originalPrice": 1260,
-      "discountPrice": 1071,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2209900",
       "isSpecial": false,
       "isPopular": true
     },
@@ -1188,6 +1176,13 @@
       "percent": 15,
       "timestamp": "2026-07-07T04:49:32.318Z",
       "type": "popular"
+    },
+    "steam_discount_2209900": {
+      "title": "Moonlight Peaks",
+      "price": 1071,
+      "percent": 15,
+      "timestamp": "2026-07-07T08:20:32.454Z",
+      "type": "discount"
     }
   }
 }
