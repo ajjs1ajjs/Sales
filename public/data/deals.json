@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T14:25:08.874Z",
+  "lastUpdated": "2026-07-07T17:11:20.646Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -70,12 +70,24 @@
     {
       "id": "2209900",
       "title": "Moonlight Peaks",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/86fad83c53a1d9b21b66abf89827b21f0e45ed4a/capsule_616x353.jpg?t=1783397812",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/86fad83c53a1d9b21b66abf89827b21f0e45ed4a/capsule_616x353.jpg?t=1783444081",
       "originalPrice": 1260,
       "discountPrice": 1071,
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2209900",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "108600",
+      "title": "Project Zomboid",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1777298596",
+      "originalPrice": 415,
+      "discountPrice": 278,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/108600",
       "isSpecial": true,
       "isPopular": true
     },
@@ -140,18 +152,6 @@
       "isPopular": false
     },
     {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/c961ac047294838bfe382bf193ade5c64b19e573/capsule_616x353.jpg?t=1782406665",
-      "originalPrice": 600,
-      "discountPrice": 420,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "413150",
       "title": "Stardew Valley",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
@@ -164,14 +164,14 @@
       "isPopular": false
     },
     {
-      "id": "814380",
-      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
-      "originalPrice": 2035,
-      "discountPrice": 1017,
-      "discountPercent": 50,
+      "id": "1623730",
+      "title": "Palworld",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/c961ac047294838bfe382bf193ade5c64b19e573/capsule_616x353.jpg?t=1782406665",
+      "originalPrice": 600,
+      "discountPrice": 420,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/814380",
+      "url": "https://store.steampowered.com/app/1623730",
       "isSpecial": true,
       "isPopular": false
     },
@@ -212,14 +212,14 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "3469450",
+      "title": "DOOM: The Dark Ages | Revelations",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3469450/706ca083d5768e3a6d01765b2c8974c10b1d771e/capsule_616x353.jpg?t=1780927906",
+      "originalPrice": 599,
+      "discountPrice": 599,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
+      "url": "https://store.steampowered.com/app/3469450",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1183,6 +1183,13 @@
       "percent": 15,
       "timestamp": "2026-07-07T08:20:32.454Z",
       "type": "discount"
+    },
+    "steam_popular_3469450": {
+      "title": "DOOM: The Dark Ages | Revelations",
+      "price": 599,
+      "percent": 0,
+      "timestamp": "2026-07-07T17:11:19.544Z",
+      "type": "popular"
     }
   }
 }
