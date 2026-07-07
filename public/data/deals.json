@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T19:50:54.653Z",
+  "lastUpdated": "2026-07-07T21:21:13.951Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -67,18 +67,6 @@
     }
   ],
   "steam": [
-    {
-      "id": "108600",
-      "title": "Project Zomboid",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1777298596",
-      "originalPrice": 415,
-      "discountPrice": 278,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/108600",
-      "isSpecial": true,
-      "isPopular": true
-    },
     {
       "id": "2209900",
       "title": "Moonlight Peaks",
@@ -152,18 +140,6 @@
       "isPopular": false
     },
     {
-      "id": "814380",
-      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
-      "originalPrice": 2035,
-      "discountPrice": 1017,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/814380",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3017860",
       "title": "DOOM: The Dark Ages",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/d60fa778602d18abfbf0bbb059d0b99ff1ee3485/capsule_616x353_alt_assets_2_ukrainian.jpg?t=1783452885",
@@ -172,6 +148,30 @@
       "discountPercent": 67,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3017860",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1623730",
+      "title": "Palworld",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/c961ac047294838bfe382bf193ade5c64b19e573/capsule_616x353.jpg?t=1782406665",
+      "originalPrice": 600,
+      "discountPrice": 420,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "814380",
+      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
+      "originalPrice": 2035,
+      "discountPrice": 1017,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/814380",
       "isSpecial": true,
       "isPopular": false
     },
@@ -212,6 +212,18 @@
       "isPopular": true
     },
     {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "3469450",
       "title": "DOOM: The Dark Ages | Revelations",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3469450/706ca083d5768e3a6d01765b2c8974c10b1d771e/capsule_616x353.jpg?t=1780927906",
@@ -225,13 +237,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_3892270": {
-      "title": "Gamble With Your Friends",
-      "price": 149,
-      "percent": 20,
-      "timestamp": "2026-06-07T21:09:50.870Z",
-      "type": "discount"
-    },
     "steam_popular_1805110": {
       "title": "Solarpunk™",
       "price": 488,
