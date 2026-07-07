@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T17:11:20.646Z",
+  "lastUpdated": "2026-07-07T19:50:54.653Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -68,18 +68,6 @@
   ],
   "steam": [
     {
-      "id": "2209900",
-      "title": "Moonlight Peaks",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/86fad83c53a1d9b21b66abf89827b21f0e45ed4a/capsule_616x353.jpg?t=1783444081",
-      "originalPrice": 1260,
-      "discountPrice": 1071,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2209900",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "108600",
       "title": "Project Zomboid",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1777298596",
@@ -88,6 +76,18 @@
       "discountPercent": 33,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/108600",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "2209900",
+      "title": "Moonlight Peaks",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/86fad83c53a1d9b21b66abf89827b21f0e45ed4a/capsule_616x353.jpg?t=1783444081",
+      "originalPrice": 1260,
+      "discountPrice": 1071,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2209900",
       "isSpecial": true,
       "isPopular": true
     },
@@ -152,26 +152,26 @@
       "isPopular": false
     },
     {
-      "id": "413150",
-      "title": "Stardew Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
-      "originalPrice": 229,
-      "discountPrice": 137,
-      "discountPercent": 40,
+      "id": "814380",
+      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
+      "originalPrice": 2035,
+      "discountPrice": 1017,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/413150",
+      "url": "https://store.steampowered.com/app/814380",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/c961ac047294838bfe382bf193ade5c64b19e573/capsule_616x353.jpg?t=1782406665",
-      "originalPrice": 600,
-      "discountPrice": 420,
-      "discountPercent": 30,
+      "id": "3017860",
+      "title": "DOOM: The Dark Ages",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/d60fa778602d18abfbf0bbb059d0b99ff1ee3485/capsule_616x353_alt_assets_2_ukrainian.jpg?t=1783452885",
+      "originalPrice": 2449,
+      "discountPrice": 808,
+      "discountPercent": 67,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
+      "url": "https://store.steampowered.com/app/3017860",
       "isSpecial": true,
       "isPopular": false
     },
@@ -225,20 +225,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_2806050": {
-      "title": "Halo: Campaign Evolved",
-      "price": 1999,
-      "percent": 0,
-      "timestamp": "2026-06-07T19:18:42.983Z",
-      "type": "popular"
-    },
-    "steam_popular_3010850": {
-      "title": "Gears of War: E-Day",
-      "price": 2299,
-      "percent": 0,
-      "timestamp": "2026-06-07T19:18:42.983Z",
-      "type": "popular"
-    },
     "steam_discount_3892270": {
       "title": "Gamble With Your Friends",
       "price": 149,
@@ -1190,6 +1176,13 @@
       "percent": 0,
       "timestamp": "2026-07-07T17:11:19.544Z",
       "type": "popular"
+    },
+    "steam_discount_3017860": {
+      "title": "DOOM: The Dark Ages",
+      "price": 808,
+      "percent": 67,
+      "timestamp": "2026-07-07T19:50:53.281Z",
+      "type": "discount"
     }
   }
 }
