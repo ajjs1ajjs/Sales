@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T15:18:16.474Z",
+  "lastUpdated": "2026-07-08T17:26:06.881Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -132,14 +132,14 @@
       "isPopular": false
     },
     {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/c961ac047294838bfe382bf193ade5c64b19e573/capsule_616x353.jpg?t=1782406665",
-      "originalPrice": 600,
-      "discountPrice": 420,
-      "discountPercent": 30,
+      "id": "108600",
+      "title": "Project Zomboid",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1777298596",
+      "originalPrice": 415,
+      "discountPrice": 278,
+      "discountPercent": 33,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
+      "url": "https://store.steampowered.com/app/108600",
       "isSpecial": true,
       "isPopular": false
     },
@@ -156,6 +156,18 @@
       "isPopular": false
     },
     {
+      "id": "1623730",
+      "title": "Palworld",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/c961ac047294838bfe382bf193ade5c64b19e573/capsule_616x353.jpg?t=1782406665",
+      "originalPrice": 600,
+      "discountPrice": 420,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "413150",
       "title": "Stardew Valley",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
@@ -164,18 +176,6 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/413150",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2209900",
-      "title": "Moonlight Peaks",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/86fad83c53a1d9b21b66abf89827b21f0e45ed4a/capsule_616x353.jpg?t=1783444081",
-      "originalPrice": 1260,
-      "discountPrice": 1071,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2209900",
       "isSpecial": true,
       "isPopular": false
     },
@@ -250,35 +250,9 @@
       "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": false,
       "isPopular": true
-    },
-    {
-      "id": "4376930",
-      "title": "Disney Dreamlight Valley: Honeyglow Woods",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4376930/2e64b0f7c953e686807c06ae947192ca0330bcd1/capsule_616x353.jpg?t=1783515660",
-      "originalPrice": 549,
-      "discountPrice": 549,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4376930",
-      "isSpecial": false,
-      "isPopular": true
     }
   ],
   "notifiedHistory": {
-    "steam_popular_1805110": {
-      "title": "Solarpunk™",
-      "price": 488,
-      "percent": 0,
-      "timestamp": "2026-06-08T17:21:16.433Z",
-      "type": "popular"
-    },
-    "steam_popular_1597080": {
-      "title": "Killer Bean",
-      "price": 268,
-      "percent": 20,
-      "timestamp": "2026-06-08T17:21:16.433Z",
-      "type": "popular"
-    },
     "steam_discount_1649240": {
       "title": "Returnal™",
       "price": 560,
