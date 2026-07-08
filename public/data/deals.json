@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T17:26:06.881Z",
+  "lastUpdated": "2026-07-08T19:20:12.620Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -132,18 +132,6 @@
       "isPopular": false
     },
     {
-      "id": "108600",
-      "title": "Project Zomboid",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1777298596",
-      "originalPrice": 415,
-      "discountPrice": 278,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/108600",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1326470",
       "title": "Sons Of The Forest",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
@@ -152,6 +140,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1326470",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "108600",
+      "title": "Project Zomboid",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1777298596",
+      "originalPrice": 415,
+      "discountPrice": 278,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/108600",
       "isSpecial": true,
       "isPopular": false
     },
@@ -168,14 +168,14 @@
       "isPopular": false
     },
     {
-      "id": "413150",
-      "title": "Stardew Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
-      "originalPrice": 229,
-      "discountPrice": 137,
-      "discountPercent": 40,
+      "id": "2209900",
+      "title": "Moonlight Peaks",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/86fad83c53a1d9b21b66abf89827b21f0e45ed4a/capsule_616x353.jpg?t=1783444081",
+      "originalPrice": 1260,
+      "discountPrice": 1071,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/413150",
+      "url": "https://store.steampowered.com/app/2209900",
       "isSpecial": true,
       "isPopular": false
     },
@@ -192,18 +192,6 @@
       "isPopular": false
     },
     {
-      "id": "3839790",
-      "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Standard Edition)",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839790/535e83714c9d614041b546fca1b036d26f527809/capsule_616x353.jpg?t=1783522815",
-      "originalPrice": 799,
-      "discountPrice": 799,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3839790",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
@@ -212,6 +200,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3839790",
+      "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Standard Edition)",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839790/535e83714c9d614041b546fca1b036d26f527809/capsule_616x353.jpg?t=1783522815",
+      "originalPrice": 799,
+      "discountPrice": 799,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3839790",
       "isSpecial": false,
       "isPopular": true
     },
@@ -228,18 +228,6 @@
       "isPopular": true
     },
     {
-      "id": "4306890",
-      "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Special Edition)",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4306890/e68555769e6388523a39c7b5da8d330f8b6e1a44/capsule_616x353.jpg?t=1781748039",
-      "originalPrice": 1499,
-      "discountPrice": 1499,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4306890",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4704690",
       "title": "MECCHA CHAMELEON",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
@@ -248,6 +236,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4306890",
+      "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Special Edition)",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4306890/e68555769e6388523a39c7b5da8d330f8b6e1a44/capsule_616x353.jpg?t=1781748039",
+      "originalPrice": 1499,
+      "discountPrice": 1499,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4306890",
       "isSpecial": false,
       "isPopular": true
     }
