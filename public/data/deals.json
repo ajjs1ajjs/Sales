@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T20:44:57.815Z",
+  "lastUpdated": "2026-07-09T22:19:36.774Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -128,18 +128,6 @@
       "isPopular": false
     },
     {
-      "id": "703080",
-      "title": "Planet Zoo",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/703080/capsule_616x353.jpg?t=1765896213",
-      "originalPrice": 830,
-      "discountPrice": 41,
-      "discountPercent": 95,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/703080",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1771300",
       "title": "Kingdom Come: Deliverance II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
@@ -148,6 +136,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1771300",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "703080",
+      "title": "Planet Zoo",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/703080/capsule_616x353.jpg?t=1765896213",
+      "originalPrice": 830,
+      "discountPrice": 41,
+      "discountPercent": 95,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/703080",
       "isSpecial": true,
       "isPopular": false
     },
@@ -214,7 +214,7 @@
     {
       "id": "4032350",
       "title": "EA SPORTS™ College Football 27",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4032350/78f6aee0ab19432cc9addd80b7bcf77d3aee98f3/capsule_616x353.jpg?t=1783619957",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4032350/78f6aee0ab19432cc9addd80b7bcf77d3aee98f3/capsule_616x353.jpg?t=1783633200",
       "originalPrice": 2199,
       "discountPrice": 2199,
       "discountPercent": 0,
@@ -236,14 +236,14 @@
       "isPopular": true
     },
     {
-      "id": "2244210",
-      "title": "Echoes of Aincrad",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2244210/ad1d55b1a3acbfe421714bacd2b9ee04641120d3/capsule_616x353.jpg?t=1781687351",
-      "originalPrice": 1999,
-      "discountPrice": 1999,
+      "id": "4835400",
+      "title": "THE FINALS - Season 11 Ultimate Battle Pass Bundle",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4835400/be8e094e60f466b4a21485f9d0112f67c33522c6/capsule_616x353.jpg?t=1783604423",
+      "originalPrice": 1240,
+      "discountPrice": 1240,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2244210",
+      "url": "https://store.steampowered.com/app/4835400",
       "isSpecial": false,
       "isPopular": true
     }
@@ -2111,6 +2111,13 @@
       "percent": 0,
       "timestamp": "2026-07-09T20:44:55.241Z",
       "type": "free"
+    },
+    "steam_popular_4835400": {
+      "title": "THE FINALS - Season 11 Ultimate Battle Pass Bundle",
+      "price": 1240,
+      "percent": 0,
+      "timestamp": "2026-07-09T22:19:34.329Z",
+      "type": "popular"
     }
   }
 }
