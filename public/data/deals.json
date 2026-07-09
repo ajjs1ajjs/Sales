@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T16:25:39.077Z",
+  "lastUpdated": "2026-07-09T18:48:37.714Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -68,18 +68,6 @@
   ],
   "steam": [
     {
-      "id": "1091500",
-      "title": "Cyberpunk 2077",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1769690377",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1091500",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -107,78 +95,90 @@
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
+      "originalPrice": 1999,
+      "discountPrice": 879,
+      "discountPercent": 56,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "1086940",
-      "title": "Baldur's Gate 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
-      "originalPrice": 899,
-      "discountPrice": 674,
-      "discountPercent": 25,
+      "id": "1771300",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
+      "originalPrice": 1599,
+      "discountPrice": 639,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1086940",
+      "url": "https://store.steampowered.com/app/1771300",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "1326470",
-      "title": "Sons Of The Forest",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
-      "originalPrice": 600,
-      "discountPrice": 180,
-      "discountPercent": 70,
+      "id": "4380490",
+      "title": "Cat Mail Co.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/6e4907425b2795c1c7e35dd454d4970266178288/capsule_616x353.jpg?t=1783610189",
+      "originalPrice": 306,
+      "discountPrice": 260,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1326470",
+      "url": "https://store.steampowered.com/app/4380490",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "814380",
-      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
-      "originalPrice": 2035,
-      "discountPrice": 1017,
+      "id": "2209900",
+      "title": "Moonlight Peaks",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/86fad83c53a1d9b21b66abf89827b21f0e45ed4a/capsule_616x353.jpg?t=1783444081",
+      "originalPrice": 1260,
+      "discountPrice": 1071,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2209900",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2749950",
+      "title": "Esports Manager 2026",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/eddaddc1b8752c6f64f1d32ca42095d0611c21c8/capsule_616x353.jpg?t=1783451404",
+      "originalPrice": 415,
+      "discountPrice": 332,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2749950",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "703080",
+      "title": "Planet Zoo",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/703080/capsule_616x353.jpg?t=1765896213",
+      "originalPrice": 830,
+      "discountPrice": 41,
+      "discountPercent": 95,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/703080",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1332010",
+      "title": "Stray",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1779927784",
+      "originalPrice": 579,
+      "discountPrice": 289,
       "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/814380",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "413150",
-      "title": "Stardew Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
-      "originalPrice": 229,
-      "discountPrice": 137,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/413150",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2001120",
-      "title": "Split Fiction",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
-      "originalPrice": 1299,
-      "discountPrice": 844,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001120",
+      "url": "https://store.steampowered.com/app/1332010",
       "isSpecial": true,
       "isPopular": false
     },
     {
       "id": "3751950",
       "title": "Assassin's Creed Black Flag Resynced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783611543",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
       "originalPrice": 1799,
       "discountPrice": 1799,
       "discountPercent": 0,
@@ -200,18 +200,6 @@
       "isPopular": true
     },
     {
-      "id": "3839790",
-      "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Standard Edition)",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839790/535e83714c9d614041b546fca1b036d26f527809/capsule_616x353.jpg?t=1783522815",
-      "originalPrice": 799,
-      "discountPrice": 799,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3839790",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4704690",
       "title": "MECCHA CHAMELEON",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
@@ -220,6 +208,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3839790",
+      "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Standard Edition)",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839790/535e83714c9d614041b546fca1b036d26f527809/capsule_616x353.jpg?t=1783522815",
+      "originalPrice": 799,
+      "discountPrice": 799,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3839790",
       "isSpecial": false,
       "isPopular": true
     }
@@ -2044,6 +2044,34 @@
       "percent": 30,
       "timestamp": "2026-07-09T16:25:35.802Z",
       "type": "popular"
+    },
+    "steam_discount_1771300": {
+      "title": "Kingdom Come: Deliverance II",
+      "price": 639,
+      "percent": 60,
+      "timestamp": "2026-07-09T18:48:35.462Z",
+      "type": "discount"
+    },
+    "steam_discount_4380490": {
+      "title": "Cat Mail Co.",
+      "price": 260,
+      "percent": 15,
+      "timestamp": "2026-07-09T18:48:35.462Z",
+      "type": "discount"
+    },
+    "steam_discount_703080": {
+      "title": "Planet Zoo",
+      "price": 41,
+      "percent": 95,
+      "timestamp": "2026-07-09T18:48:35.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1332010": {
+      "title": "Stray",
+      "price": 289,
+      "percent": 50,
+      "timestamp": "2026-07-09T18:48:35.462Z",
+      "type": "discount"
     }
   }
 }
