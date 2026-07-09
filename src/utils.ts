@@ -1,9 +1,13 @@
-import type { EpicGame, SteamGame, SortType } from './types';
+import type { EpicGame, SteamGame, XboxGame, SortType } from './types';
 
-export type Game = EpicGame | SteamGame;
+export type Game = EpicGame | SteamGame | XboxGame;
 
 export function isEpicGame(game: Game): game is EpicGame {
   return 'isFreeNow' in game && 'isUpcomingFree' in game;
+}
+
+export function isXboxGame(game: Game): game is XboxGame {
+  return 'isGamePass' in game;
 }
 
 export { formatPrice, formatDate } from './shared/format';
@@ -91,7 +95,7 @@ export function interp(template: string): { text: string; key: string | null }[]
   return parts;
 }
 
-export function sortGames<T extends EpicGame | SteamGame>(games: T[], sortType: SortType): T[] {
+export function sortGames<T extends EpicGame | SteamGame | XboxGame>(games: T[], sortType: SortType): T[] {
   switch (sortType) {
     case 'name-asc':
       return games.toSorted((a, b) => a.title.localeCompare(b.title));

@@ -17,6 +17,7 @@ const mockData: DealsData = {
   lastUpdated: '2026-06-16T03:44:30.960Z',
   epic: [],
   steam: [],
+  xbox: [],
   notifiedHistory: {
     'epic_free_game1': {
       title: 'Free Game 1',

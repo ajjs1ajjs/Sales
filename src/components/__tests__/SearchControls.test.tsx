@@ -64,6 +64,9 @@ describe('SearchControls', () => {
       epic_discount: 5,
       steam_specials: 6,
       steam_popular: 2,
+      xbox_gamepass: 0,
+      xbox_new: 0,
+      xbox_discount: 0,
       wishlist: 1,
     };
     render(<SearchControls {...defaultProps} filterCounts={filterCounts} />, { wrapper: Wrapper });

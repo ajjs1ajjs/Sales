@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
-import { Flame, TrendingUp } from 'lucide-react';
+import { Flame, TrendingUp, ChevronDown } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
+import { useLocalStorage } from '../hooks/useLocalStorage';
 import type { SteamGame, FilterType, SortType } from '../types';
 import { sortGames, isSteamNonGame } from '../utils';
 import { GameCard } from './GameCard';
@@ -16,6 +17,8 @@ interface Props {
 
 export function SteamSection({ games, activeFilter, searchQuery, sortType }: Props) {
   const { t } = useLocale();
+  const [collapsedSpecials, setCollapsedSpecials] = useLocalStorage('collapse-steam-specials', false);
+  const [collapsedPopular, setCollapsedPopular] = useLocalStorage('collapse-steam-popular', false);
   const sorted = useMemo(() => sortGames(games, sortType), [games, sortType]);
   const nonGameIds = useMemo(() => {
     const ids = new Set<string>();
@@ -32,66 +35,94 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType }: Pro
     return true;
   });
 
+  const canCollapse = activeFilter === 'all';
+
   return (
     <>
       {(activeFilter === 'all' || activeFilter === 'steam_specials') && (
         <section aria-labelledby="steam-specials-title">
-          <h2 id="steam-specials-title" className="section-title">
+          <h2
+            id="steam-specials-title"
+            className={`section-title${canCollapse ? ' section-title--toggle' : ''}`}
+            onClick={canCollapse ? () => setCollapsedSpecials((c) => !c) : undefined}
+            role={canCollapse ? 'button' : undefined}
+            tabIndex={canCollapse ? 0 : undefined}
+            onKeyDown={canCollapse ? (e) => { if (e.key === 'Enter' || e.key === ' ') setCollapsedSpecials((c) => !c); } : undefined}
+            aria-expanded={canCollapse ? !collapsedSpecials : undefined}
+          >
             <Flame size={22} className="icon-steam" aria-hidden="true" />
             {t.steam.specialsTitle}
+            {canCollapse && <ChevronDown size={20} className={`section-chevron${collapsedSpecials ? ' collapsed' : ''}`} aria-hidden="true" />}
           </h2>
 
-          {specials.length === 0 ? (
-            <div className="empty-state section-gap-bottom">
-              <h3>{t.steam.emptySpecials}</h3>
-              <p>{t.steam.emptySpecialsDesc}</p>
-            </div>
-          ) : (
-            <div className="deals-grid section-gap-bottom">
-              <ShowMore
-                items={specials.map((deal) => (
-                  <GameCard
-                    key={deal.id}
-                    game={deal}
-                    platform="steam"
-                    badge={deal.discountPercent > 0 ? `-${deal.discountPercent}%` : undefined}
-                    showTagDescription
-                    searchQuery={searchQuery}
+          {(!canCollapse || !collapsedSpecials) && (
+            <>
+              {specials.length === 0 ? (
+                <div className="empty-state section-gap-bottom">
+                  <h3>{t.steam.emptySpecials}</h3>
+                  <p>{t.steam.emptySpecialsDesc}</p>
+                </div>
+              ) : (
+                <div className="deals-grid section-gap-bottom">
+                  <ShowMore
+                    items={specials.map((deal) => (
+                      <GameCard
+                        key={deal.id}
+                        game={deal}
+                        platform="steam"
+                        badge={deal.discountPercent > 0 ? `-${deal.discountPercent}%` : undefined}
+                        showTagDescription
+                        searchQuery={searchQuery}
+                      />
+                    ))}
                   />
-                ))}
-              />
-            </div>
+                </div>
+              )}
+            </>
           )}
         </section>
       )}
 
       {(activeFilter === 'all' || activeFilter === 'steam_popular') && (
         <section aria-labelledby="steam-popular-title">
-          <h2 id="steam-popular-title" className="section-title">
+          <h2
+            id="steam-popular-title"
+            className={`section-title${canCollapse ? ' section-title--toggle' : ''}`}
+            onClick={canCollapse ? () => setCollapsedPopular((c) => !c) : undefined}
+            role={canCollapse ? 'button' : undefined}
+            tabIndex={canCollapse ? 0 : undefined}
+            onKeyDown={canCollapse ? (e) => { if (e.key === 'Enter' || e.key === ' ') setCollapsedPopular((c) => !c); } : undefined}
+            aria-expanded={canCollapse ? !collapsedPopular : undefined}
+          >
             <TrendingUp size={22} className="icon-steam" aria-hidden="true" />
             {t.steam.popularTitle}
+            {canCollapse && <ChevronDown size={20} className={`section-chevron${collapsedPopular ? ' collapsed' : ''}`} aria-hidden="true" />}
           </h2>
 
-          {popular.length === 0 ? (
-            <div className="empty-state section-gap-bottom">
-              <h3>{t.steam.emptyPopular}</h3>
-              <p>{t.steam.emptyPopularDesc}</p>
-            </div>
-          ) : (
-            <div className="deals-grid section-gap-bottom">
-              <ShowMore
-                items={popular.map((deal) => (
-                  <GameCard
-                    key={deal.id}
-                    game={deal}
-                    platform="steam"
-                    badge={deal.discountPercent > 0 ? `-${deal.discountPercent}%` : undefined}
-                    showTrendingDescription
-                    searchQuery={searchQuery}
+          {(!canCollapse || !collapsedPopular) && (
+            <>
+              {popular.length === 0 ? (
+                <div className="empty-state section-gap-bottom">
+                  <h3>{t.steam.emptyPopular}</h3>
+                  <p>{t.steam.emptyPopularDesc}</p>
+                </div>
+              ) : (
+                <div className="deals-grid section-gap-bottom">
+                  <ShowMore
+                    items={popular.map((deal) => (
+                      <GameCard
+                        key={deal.id}
+                        game={deal}
+                        platform="steam"
+                        badge={deal.discountPercent > 0 ? `-${deal.discountPercent}%` : undefined}
+                        showTrendingDescription
+                        searchQuery={searchQuery}
+                      />
+                    ))}
                   />
-                ))}
-              />
-            </div>
+                </div>
+              )}
+            </>
           )}
         </section>
       )}

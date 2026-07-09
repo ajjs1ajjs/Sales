@@ -3,7 +3,7 @@ import type { Translations } from './uk';
 export const en: Translations = {
   app: {
     title: 'Game Sales Aggregator',
-    description: 'Your personal radar for game deals and news. Free games from Epic Games Store, discounts, top sellers and new releases on Steam.',
+    description: 'Your personal PC gaming deals radar. Free games from Epic Games Store, Steam discounts & top sellers, new PC Game Pass additions.',
     footer: '© {year} Game Sales Aggregator. All rights reserved.',
     footerSub: 'Built for gamers with ❤️. Data provided by unofficial Steam and Epic Games Store APIs.',
     footerLink: 'Source code available on {link}.',
@@ -43,6 +43,9 @@ export const en: Translations = {
     epicDiscount: 'Epic Deals',
     steamSpecials: 'Steam Deals',
     steamPopular: 'Steam Trends',
+    xboxGamePass: 'Game Pass',
+    xboxNew: 'New Game Pass',
+    xboxDiscount: 'Game Pass Deals',
     wishlist: 'Wishlist',
     ariaLabel: 'Category filters',
     controlsAria: 'Filters and search',
@@ -56,6 +59,21 @@ export const en: Translations = {
     nameAsc: 'Name A-Z',
     nameDesc: 'Name Z-A',
     groupAria: 'Sort games',
+  },
+  xbox: {
+    title: 'PC Game Pass',
+    newTitle: 'New to Game Pass',
+    newTitleCount: 'New to Game Pass ({count})',
+    comingTitle: 'Coming to Game Pass',
+    comingTitleCount: 'Coming to Game Pass ({count})',
+    gamepassTag: 'Available in PC Game Pass.',
+    emptyNew: 'Nothing found',
+    emptyNewDesc: 'No new Game Pass additions matching your query.',
+    emptyGamePass: 'No games found',
+    emptyGamePassDesc: 'No Game Pass games matching your query.',
+    play: 'Play',
+    toStore: 'View in Store',
+    discountTitle: 'Game Pass Deals',
   },
   epic: {
     freeTitle: 'Epic Games Store Freebies',
@@ -125,6 +143,7 @@ export const en: Translations = {
   platform: {
     epic: 'Epic Games',
     steam: 'Steam',
+    xbox: 'Xbox Game Pass',
     gameAria: '{title} — {platform}',
   },
   date: {

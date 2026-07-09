@@ -13,6 +13,23 @@ interface Props {
   onSortChange: (sort: SortType) => void;
 }
 
+interface FilterItem { filterKey: FilterType; label: string }
+
+function FilterBtn({ filterKey, label, count, active, onClick }: FilterItem & { count?: number; active: boolean; onClick: () => void }) {
+  return (
+    <button
+      key={filterKey}
+      onClick={onClick}
+      className={`filter-btn${active ? ' active' : ''}`}
+      aria-pressed={active}
+      type="button"
+    >
+      {label}
+      {count !== undefined && <span className="filter-count"> ({count})</span>}
+    </button>
+  );
+}
+
 export function SearchControls({
   searchQuery,
   onSearchChange,
@@ -23,14 +40,56 @@ export function SearchControls({
   onSortChange,
 }: Props) {
   const { t } = useLocale();
-  const filters: { key: FilterType; label: string }[] = [
-    { key: 'all', label: t.filters.all },
-    { key: 'epic_free', label: t.filters.epicFree },
-    { key: 'epic_discount', label: t.filters.epicDiscount },
-    { key: 'steam_specials', label: t.filters.steamSpecials },
-    { key: 'steam_popular', label: t.filters.steamPopular },
-    { key: 'wishlist', label: t.filters.wishlist },
+
+  const groupedFilters: { label: string; items: FilterItem[] }[] = [
+    {
+      label: '',
+      items: [
+        { filterKey: 'all', label: t.filters.all },
+        { filterKey: 'wishlist', label: t.filters.wishlist },
+      ],
+    },
+    {
+      label: 'Epic Games',
+      items: [
+        { filterKey: 'epic_free', label: t.filters.epicFree },
+        { filterKey: 'epic_discount', label: t.filters.epicDiscount },
+      ],
+    },
+    {
+      label: 'Steam',
+      items: [
+        { filterKey: 'steam_specials', label: t.filters.steamSpecials },
+        { filterKey: 'steam_popular', label: t.filters.steamPopular },
+      ],
+    },
+    {
+      label: 'Xbox Game Pass (PC)',
+      items: [
+        { filterKey: 'xbox_gamepass', label: t.filters.xboxGamePass },
+        { filterKey: 'xbox_new', label: t.filters.xboxNew },
+        { filterKey: 'xbox_discount', label: t.filters.xboxDiscount },
+      ],
+    },
   ];
+
+  function renderGroup(group: typeof groupedFilters[number]) {
+    return (
+      <div key={group.label || 'main'} className="filter-group-row">
+        {group.label && <span className="filter-group-label">{group.label}</span>}
+        {group.items.map((filter) => (
+          <FilterBtn
+            key={filter.filterKey}
+            filterKey={filter.filterKey}
+            label={filter.label}
+            count={filterCounts?.[filter.filterKey]}
+            active={activeFilter === filter.filterKey}
+            onClick={() => onFilterChange(filter.filterKey)}
+          />
+        ))}
+      </div>
+    );
+  }
 
   return (
     <section className="controls-container" aria-label={t.filters.controlsAria}>
@@ -63,21 +122,7 @@ export function SearchControls({
       </div>
 
       <div className="filter-group" role="group" aria-label={t.filters.ariaLabel}>
-        {filters.map(({ key, label }) => {
-          const count = filterCounts ? filterCounts[key] : undefined;
-          return (
-            <button
-              key={key}
-              onClick={() => onFilterChange(key)}
-              className={`filter-btn${activeFilter === key ? ' active' : ''}`}
-              aria-pressed={activeFilter === key}
-              type="button"
-            >
-              {label}
-              {count !== undefined && <span className="filter-count"> ({count})</span>}
-            </button>
-          );
-        })}
+        {groupedFilters.map(renderGroup)}
       </div>
     </section>
   );

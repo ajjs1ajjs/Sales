@@ -1,7 +1,7 @@
 export const uk = {
   app: {
     title: 'Game Sales Aggregator',
-    description: 'Ваш персональний радар знижок та новинок. Безкоштовні ігри від Epic Games Store, знижки, хіти та нові релізи Steam.',
+    description: 'Ваш персональний радар знижок та новинок ПК-ігор. Безкоштовні ігри від Epic Games Store, знижки та хіти Steam, нові надходження PC Game Pass.',
     footer: '© {year} Game Sales Aggregator. Усі права захищено.',
     footerSub: 'Розроблено для геймерів з ❤️. Дані надано неофіційними API Steam та Epic Games Store.',
     footerLink: 'Код проекту доступний на {link}.',
@@ -41,6 +41,9 @@ export const uk = {
     epicDiscount: 'Epic Знижки',
     steamSpecials: 'Steam Знижки',
     steamPopular: 'Steam Тренди',
+    xboxGamePass: 'Game Pass',
+    xboxNew: 'Нові Game Pass',
+    xboxDiscount: 'Знижки Game Pass',
     wishlist: 'Обране',
     ariaLabel: 'Фільтри категорій',
     controlsAria: 'Фільтри та пошук',
@@ -54,6 +57,21 @@ export const uk = {
     nameAsc: 'Назва А-Я',
     nameDesc: 'Назва Я-А',
     groupAria: 'Сортування ігор',
+  },
+  xbox: {
+    title: 'PC Game Pass',
+    newTitle: 'Нові надходження Game Pass',
+    newTitleCount: 'Нові надходження Game Pass ({count})',
+    comingTitle: 'Очікується в Game Pass',
+    comingTitleCount: 'Очікується в Game Pass ({count})',
+    gamepassTag: 'Доступно в PC Game Pass.',
+    emptyNew: 'Нічого не знайдено',
+    emptyNewDesc: 'Наразі немає нових надходжень у Game Pass.',
+    emptyGamePass: 'Немає ігор',
+    emptyGamePassDesc: 'Наразі в Game Pass немає ігор, що відповідають вашому запиту.',
+    play: 'Грати',
+    toStore: 'У магазин',
+    discountTitle: 'Знижки Game Pass',
   },
   epic: {
     freeTitle: 'Роздачі Epic Games Store',
@@ -123,6 +141,7 @@ export const uk = {
   platform: {
     epic: 'Epic Games',
     steam: 'Steam',
+    xbox: 'Xbox Game Pass',
     gameAria: '{title} — {platform}',
   },
   date: {

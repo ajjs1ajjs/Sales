@@ -173,6 +173,75 @@
   margin-bottom: 48px;
 }
 
+/* Collapsible sections */
+.section-title--toggle {
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.2s;
+}
+
+.section-title--toggle:hover {
+  opacity: 0.75;
+}
+
+.section-title--toggle:focus-visible {
+  outline: 2px solid var(--accent-xbox);
+  outline-offset: 4px;
+  border-radius: 8px;
+}
+
+.section-chevron {
+  margin-left: auto;
+  transition: transform 0.25s ease;
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+
+.section-chevron.collapsed {
+  transform: rotate(-90deg);
+}
+
+/* Collapsible container */
+.collapsible-content {
+  overflow: hidden;
+  transition: opacity 0.2s ease;
+}
+
+/* Platform separator */
+.platform-separator {
+  margin: 16px 0;
+  border: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.08) 50%, transparent 100%);
+}
+
+[data-theme="light"] .platform-separator {
+  background: linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.08) 50%, transparent 100%);
+}
+
+/* Platform filter groups */
+.filter-group-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  padding: 8px 12px 4px;
+}
+
+.filter-group-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 0 12px 4px;
+}
+
+.filter-btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 /* Game Card Styles */
 .game-card {
   background: var(--bg-secondary);
@@ -634,6 +703,10 @@ footer a:hover {
 
 .icon-steam {
   color: var(--accent-steam);
+}
+
+.icon-xbox {
+  color: var(--accent-xbox);
 }
 
 .icon-muted {

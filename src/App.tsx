@@ -1,7 +1,7 @@
 import { lazy, useState, type FunctionComponent, Suspense, useMemo, Fragment } from 'react';
 import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import { Clock, RefreshCw, AlertCircle, History } from 'lucide-react';
-import type { FilterType, SortType, EpicGame, SteamGame } from './types';
+import type { FilterType, SortType, EpicGame, SteamGame, XboxGame } from './types';
 import { ErrorBoundaryWithLocale } from './components/ErrorBoundaryWithLocale';
 import { TelegramBanner } from './components/TelegramBanner';
 import { SearchControls } from './components/SearchControls';
@@ -18,7 +18,7 @@ import { formatLastUpdated, formatLastUpdatedEn, interp } from './utils';
 import { Skeleton } from './components/Skeleton';
 
 type SectionProps = {
-  games: EpicGame[] | SteamGame[];
+  games: EpicGame[] | SteamGame[] | XboxGame[];
   activeFilter: FilterType;
   searchQuery: string;
   sortType: SortType;
@@ -29,6 +29,9 @@ const EpicSection = lazy(() =>
 );
 const SteamSection = lazy(() =>
   import('./components/SteamSection').then((m) => ({ default: m.SteamSection as FunctionComponent<SectionProps> })),
+);
+const XboxSection = lazy(() =>
+  import('./components/XboxSection').then((m) => ({ default: m.XboxSection as FunctionComponent<SectionProps> })),
 );
 const HistoryPageLazy = lazy(() =>
   import('./components/HistoryPage').then((m) => ({ default: m.HistoryPage })),
@@ -47,6 +50,8 @@ function HomePage() {
 
   const [userPriceRange, setUserPriceRange] = useState<[number, number] | null>(null);
 
+  const isXboxFilter = activeFilter === 'xbox_gamepass' || activeFilter === 'xbox_new' || activeFilter === 'xbox_discount';
+
   const { absoluteMinPrice, absoluteMaxPrice } = useMemo(() => {
     if (!data) return { absoluteMinPrice: 0, absoluteMaxPrice: 10000 };
     let min = Infinity;
@@ -59,6 +64,12 @@ function HomePage() {
     }
 
     for (const g of data.steam) {
+      const price = g.discountPrice;
+      if (price < min) min = price;
+      if (price > max) max = price;
+    }
+
+    for (const g of data.xbox) {
       const price = g.discountPrice;
       if (price < min) min = price;
       if (price > max) max = price;
@@ -91,42 +102,62 @@ function HomePage() {
     ) || [];
   }, [data, debouncedSearch]);
 
+  const xboxMatchingSearch = useMemo(() => {
+    return data?.xbox.filter((game) =>
+      game.title.toLowerCase().includes(debouncedSearch.toLowerCase()),
+    ) || [];
+  }, [data, debouncedSearch]);
+
   const filterCounts = useMemo(() => {
-    // Count from the SAME price-filtered set the sections render, so the badge
-    // numbers always match the visible cards.
     const inPriceRange = (price: number) => price >= priceRange[0] && price <= priceRange[1];
     const epicPriced = epicMatchingSearch.filter((g) => inPriceRange(g.isFreeNow ? 0 : g.discountPrice));
     const steamPriced = steamMatchingSearch.filter((g) => inPriceRange(g.discountPrice));
+    const xboxPriced = xboxMatchingSearch.filter((g) => inPriceRange(g.discountPrice));
     return {
-      all: epicPriced.length + steamPriced.length,
+      all: epicPriced.length + steamPriced.length + xboxPriced.length,
       epic_free: epicPriced.filter((game) => game.isFreeNow || game.isUpcomingFree).length,
       epic_discount: epicPriced.filter((game) => game.isDiscounted).length,
       steam_specials: steamPriced.filter((game) => game.isSpecial).length,
       steam_popular: steamPriced.filter((game) => game.isPopular).length,
+      xbox_gamepass: xboxPriced.length,
+      xbox_new: xboxPriced.filter((game) => game.isNewToGamePass || game.isComingSoon).length,
+      xbox_discount: xboxPriced.filter((game) => game.isDiscounted).length,
       wishlist: epicPriced.filter((game) => wishlist.includes(game.id)).length +
-                steamPriced.filter((game) => wishlist.includes(game.id)).length,
+                steamPriced.filter((game) => wishlist.includes(game.id)).length +
+                xboxPriced.filter((game) => wishlist.includes(game.id)).length,
     };
-  }, [epicMatchingSearch, steamMatchingSearch, wishlist, priceRange]);
+  }, [epicMatchingSearch, steamMatchingSearch, xboxMatchingSearch, wishlist, priceRange]);
 
   const filteredEpic = useMemo(() => {
     return epicMatchingSearch.filter((game) => {
+      if (isXboxFilter) return false;
       if (activeFilter === 'wishlist') return wishlist.includes(game.id);
       if (activeFilter === 'epic_free') return game.isFreeNow || game.isUpcomingFree;
       if (activeFilter === 'epic_discount') return game.isDiscounted;
       if (activeFilter === 'all') return true;
       return false;
     });
-  }, [epicMatchingSearch, activeFilter, wishlist]);
+  }, [epicMatchingSearch, activeFilter, wishlist, isXboxFilter]);
 
   const filteredSteam = useMemo(() => {
     return steamMatchingSearch.filter((game) => {
+      if (isXboxFilter) return false;
       if (activeFilter === 'wishlist') return wishlist.includes(game.id);
       if (activeFilter === 'steam_specials') return game.isSpecial;
       if (activeFilter === 'steam_popular') return game.isPopular;
       if (activeFilter === 'all') return true;
       return false;
     });
-  }, [steamMatchingSearch, activeFilter, wishlist]);
+  }, [steamMatchingSearch, activeFilter, wishlist, isXboxFilter]);
+
+  const filteredXbox = useMemo(() => {
+    return xboxMatchingSearch.filter((game) => {
+      if (activeFilter === 'wishlist') return wishlist.includes(game.id);
+      if (activeFilter === 'xbox_gamepass' || activeFilter === 'xbox_new' || activeFilter === 'xbox_discount') return true;
+      if (activeFilter === 'all') return true;
+      return false;
+    });
+  }, [xboxMatchingSearch, activeFilter, wishlist]);
 
   const priceFilteredEpic = useMemo(() => {
     return filteredEpic.filter((game) => {
@@ -141,6 +172,13 @@ function HomePage() {
       return price >= priceRange[0] && price <= priceRange[1];
     });
   }, [filteredSteam, priceRange]);
+
+  const priceFilteredXbox = useMemo(() => {
+    return filteredXbox.filter((game) => {
+      const price = game.discountPrice;
+      return price >= priceRange[0] && price <= priceRange[1];
+    });
+  }, [filteredXbox, priceRange]);
 
   const formatUpdate = locale === 'en' ? formatLastUpdatedEn : formatLastUpdated;
   const historyAria = locale === 'en' ? 'Notification history' : 'Історія сповіщень';
@@ -189,13 +227,13 @@ function HomePage() {
         onSortChange={setSortType}
       />
 
-      {(activeFilter === 'all' || activeFilter === 'wishlist' || activeFilter === 'epic_discount' || activeFilter === 'steam_specials' || activeFilter === 'steam_popular') && (
+      {(activeFilter === 'all' || activeFilter === 'wishlist' || activeFilter === 'epic_discount' || activeFilter === 'steam_specials' || activeFilter === 'steam_popular' || isXboxFilter) && (
         <PriceRangeFilter
           minPrice={absoluteMinPrice}
           maxPrice={absoluteMaxPrice}
           range={priceRange}
           onChange={setUserPriceRange}
-          currency={data?.epic[0]?.currency || data?.steam[0]?.currency || 'UAH'}
+          currency={data?.epic[0]?.currency || data?.steam[0]?.currency || data?.xbox[0]?.currency || 'UAH'}
         />
       )}
 
@@ -226,8 +264,16 @@ function HomePage() {
                 searchQuery={debouncedSearch}
                 sortType={sortType}
               />
+              <hr className="platform-separator" />
               <SteamSection
                 games={priceFilteredSteam}
+                activeFilter={activeFilter}
+                searchQuery={debouncedSearch}
+                sortType={sortType}
+              />
+              <hr className="platform-separator" />
+              <XboxSection
+                games={priceFilteredXbox}
                 activeFilter={activeFilter}
                 searchQuery={debouncedSearch}
                 sortType={sortType}
@@ -236,6 +282,7 @@ function HomePage() {
               {activeFilter === 'all' &&
                 priceFilteredEpic.length === 0 &&
                 priceFilteredSteam.length === 0 &&
+                priceFilteredXbox.length === 0 &&
                 !debouncedSearch && (
                   <div className="empty-state section-gap-top">
                     <h3>{t.app.noDeals}</h3>
@@ -245,7 +292,8 @@ function HomePage() {
 
               {activeFilter === 'wishlist' &&
                 priceFilteredEpic.length === 0 &&
-                priceFilteredSteam.length === 0 && (
+                priceFilteredSteam.length === 0 &&
+                priceFilteredXbox.length === 0 && (
                   <div className="empty-state section-gap-top">
                     <h3>{isPriceFiltered ? t.app.wishlistEmptyPrice : t.app.wishlistEmpty}</h3>
                     <p>{isPriceFiltered ? t.app.wishlistEmptyPriceDesc : t.app.wishlistEmptyDesc}</p>
@@ -305,3 +353,4 @@ function HistoryPageWrapper() {
 }
 
 export default App;
+

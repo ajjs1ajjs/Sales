@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import { ExternalLink, Tag, TrendingUp } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
-import type { EpicGame, SteamGame } from '../types';
+import type { EpicGame, SteamGame, XboxGame } from '../types';
 import { formatPrice, formatDate, formatDateEn, isEpicGame, safeUrl } from '../utils';
 import { WishlistButton } from './WishlistButton';
 
-export type Game = EpicGame | SteamGame;
+export type Game = EpicGame | SteamGame | XboxGame;
 
 interface BaseProps {
-  platform: 'epic' | 'steam';
+  platform: 'epic' | 'steam' | 'xbox';
   badge?: string;
   badgeVariant?: 'free' | 'discount';
   showTagDescription?: boolean;
@@ -61,11 +61,11 @@ export function GameCard({
   return (
     <article
       className={`game-card${isUpcoming ? ' game-card--upcoming' : ''}`}
-      aria-label={t.platform.gameAria.replace('{title}', game.title).replace('{platform}', platform === 'epic' ? t.platform.epic : t.platform.steam)}
+      aria-label={t.platform.gameAria.replace('{title}', game.title).replace('{platform}', platform === 'epic' ? t.platform.epic : platform === 'xbox' ? t.platform.xbox : t.platform.steam)}
     >
       <div className="card-image-wrapper">
         <span className={`platform-badge ${platform}`}>
-          {platform === 'epic' ? 'Epic Games' : 'Steam'}
+          {platform === 'epic' ? 'Epic Games' : platform === 'xbox' ? 'Game Pass PC' : 'Steam'}
         </span>
         {badge && (
           <span className={`deal-badge${badgeVariant ? ` ${badgeVariant}` : ''}`}>
@@ -98,6 +98,8 @@ export function GameCard({
             <Tag size={14} aria-hidden="true" />{' '}
             {platform === 'epic'
               ? t.epic.discountTag
+              : platform === 'xbox'
+              ? t.xbox.gamepassTag
               : t.steam.specialsTag}
           </p>
         )}
@@ -126,7 +128,7 @@ export function GameCard({
                 {formatPrice(game.originalPrice, game.currency, locale)}
               </span>
             )}
-            {'isFreeNow' in game && game.isFreeNow ? (
+            {'isFreeNow' in game && (game as EpicGame).isFreeNow ? (
               <span className="price-current free-text">{t.price.free}</span>
             ) : (
               <span className="price-current">

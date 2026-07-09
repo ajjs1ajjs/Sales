@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import type { EpicGame, SteamGame, DealsData, NotifiedItem } from '../src/types';
+import type { EpicGame, SteamGame, XboxGame, DealsData, NotifiedItem } from '../src/types';
 import { formatPrice, formatDate, escapeHtml, escapeAttr } from '../src/shared/format';
 
 const DEALS_DIR = path.join(process.cwd(), 'public', 'data');
@@ -8,7 +8,11 @@ const DEALS_PATH = path.join(DEALS_DIR, 'deals.json');
 
 const FREE_GAME_COOLDOWN_MS = 14 * 24 * 60 * 60 * 1000;
 const DISCOUNT_COOLDOWN_MS = 30 * 24 * 60 * 60 * 1000;
-const TG_MESSAGE_LIMIT = 4000; // Telegram limit is 4096, leave room for overlap
+const TG_MESSAGE_LIMIT = 4000;
+
+const XBOX_SGL_ALL_PC = '609d944c-d395-4c0a-9ea4-e9f39b52c1ad';
+const XBOX_SGL_NEW_PC = '3fdd7f57-7092-4b65-bd40-5a9dac1b2b84';
+const XBOX_SGL_COMING_PC = '4165f752-d702-49c8-886b-fb57936f6bae'; // Telegram limit is 4096, leave room for overlap
 
 async function fetchWithRetry(url: string, options?: RequestInit, retries = 3, delay = 2000): Promise<Response> {
   for (let i = 0; i < retries; i++) {
@@ -244,6 +248,125 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
   }
 }
 
+interface XboxProductResponse { Products?: XboxProduct[] }
+interface XboxProduct {
+  ProductId: string;
+  LocalizedProperties?: { ProductTitle?: string; ProductDescription?: string; Images?: XboxImage[] }[];
+  DisplaySkuAvailabilities?: XboxSkuAvailability[];
+  MarketProperties?: { OriginalReleaseDate?: string }[];
+}
+interface XboxImage { ImagePurpose?: string; Uri?: string }
+interface XboxSkuAvailability {
+  Sku?: { SkuId?: string };
+  Availabilities?: XboxAvailability[];
+}
+interface XboxAvailability {
+  OrderManagementData?: { Price?: { CurrencyCode?: string; ListPrice?: number; MSRP?: number } };
+}
+
+async function fetchXboxGameIds(sglId: string): Promise<string[]> {
+  const url = `https://catalog.gamepass.com/sigls/v2?id=${sglId}&market=UA&language=uk-UA`;
+  const res = await fetchWithRetry(url);
+  const data = (await res.json()) as { id?: string }[];
+  return data
+    .filter((item): item is { id: string } => typeof item.id === 'string' && !!item.id)
+    .map((item) => item.id);
+}
+
+async function fetchXboxDetails(ids: string[]): Promise<XboxProduct[]> {
+  if (ids.length === 0) return [];
+  const batchSize = 20;
+  const allDetails: XboxProduct[] = [];
+  for (let i = 0; i < ids.length; i += batchSize) {
+    const batch = ids.slice(i, i + batchSize);
+    const url = `https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=${batch.join(',')}&market=UA&languages=uk-UA`;
+    const res = await fetchWithRetry(url);
+    const data = (await res.json()) as XboxProductResponse;
+    if (data.Products) {
+      allDetails.push(...data.Products);
+    }
+  }
+  return allDetails;
+}
+
+function extractXboxPrice(product: XboxProduct): { originalPrice: number; discountPrice: number; discountPercent: number; currency: string } {
+  const defaultPrice = { originalPrice: 0, discountPrice: 0, discountPercent: 0, currency: 'UAH' };
+  try {
+    const avail = product.DisplaySkuAvailabilities?.[0];
+    if (!avail?.Availabilities?.length) return defaultPrice;
+    const priceData = avail.Availabilities[0].OrderManagementData?.Price;
+    if (!priceData) return defaultPrice;
+    const listPrice = priceData.ListPrice || 0;
+    const currency = priceData.CurrencyCode || 'UAH';
+    return {
+      originalPrice: listPrice,
+      discountPrice: listPrice,
+      discountPercent: 0,
+      currency,
+    };
+  } catch {
+    return defaultPrice;
+  }
+}
+
+function extractXboxImage(product: XboxProduct): string {
+  try {
+    const images = product.LocalizedProperties?.[0]?.Images || [];
+    const preferredTypes = ['SuperHeroArt', 'BoxArt', 'Poster'];
+    for (const type of preferredTypes) {
+      const img = images.find((i) => i.ImagePurpose === type);
+      if (img?.Uri) return `https:${img.Uri}`;
+    }
+    if (images.length > 0 && images[0].Uri) return `https:${images[0].Uri}`;
+  } catch { /* ignore */ }
+  return '';
+}
+
+async function fetchXboxGames(): Promise<{ games: XboxGame[]; newIds: Set<string>; comingIds: Set<string> }> {
+  try {
+    console.log("Fetching Xbox Game Pass games...");
+    const [newIds, comingIds, allIds] = await Promise.all([
+      fetchXboxGameIds(XBOX_SGL_NEW_PC),
+      fetchXboxGameIds(XBOX_SGL_COMING_PC),
+      fetchXboxGameIds(XBOX_SGL_ALL_PC),
+    ]);
+    const newSet = new Set(newIds);
+    const comingSet = new Set(comingIds);
+    const allSet = new Set(allIds);
+    const needDetails = [...new Set([...newIds, ...comingIds])];
+    const details = await fetchXboxDetails(needDetails);
+    const detailMap = new Map<string, XboxProduct>();
+    for (const d of details) {
+      detailMap.set(d.ProductId, d);
+    }
+    const games: XboxGame[] = [];
+    for (const id of allSet) {
+      const product = detailMap.get(id);
+      const title = product?.LocalizedProperties?.[0]?.ProductTitle;
+      if (!title) continue;
+      const priceInfo = product ? extractXboxPrice(product) : { originalPrice: 0, discountPrice: 0, discountPercent: 0, currency: 'UAH' };
+      games.push({
+        id,
+        title,
+        description: product?.LocalizedProperties?.[0]?.ProductDescription || '',
+        imageUrl: product ? extractXboxImage(product) : '',
+        originalPrice: priceInfo.originalPrice,
+        discountPrice: priceInfo.discountPrice,
+        discountPercent: priceInfo.discountPercent,
+        currency: priceInfo.currency,
+        url: `https://www.xbox.com/uk-ua/games/store/-/${id}`,
+        isGamePass: true,
+        isNewToGamePass: newSet.has(id),
+        isComingSoon: comingSet.has(id),
+        isDiscounted: false,
+      });
+    }
+    return { games, newIds: newSet, comingIds: comingSet };
+  } catch (err) {
+    throw new Error(`Error fetching Xbox games: ${err instanceof Error ? err.message : String(err)}`, { cause: err });
+  }
+}
+
 async function sendTelegramMessage(text: string) {
   const token = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
@@ -287,6 +410,7 @@ async function run() {
       lastUpdated: typeof p.lastUpdated === 'string' ? p.lastUpdated : '',
       epic: Array.isArray(p.epic) ? (p.epic as DealsData['epic']) : [],
       steam: Array.isArray(p.steam) ? (p.steam as DealsData['steam']) : [],
+      xbox: Array.isArray(p.xbox) ? (p.xbox as DealsData['xbox']) : [],
       notifiedHistory:
         p.notifiedHistory && typeof p.notifiedHistory === 'object'
           ? (p.notifiedHistory as DealsData['notifiedHistory'])
@@ -294,7 +418,7 @@ async function run() {
     };
   };
 
-  let oldData: DealsData = { lastUpdated: "", epic: [], steam: [], notifiedHistory: {} };
+  let oldData: DealsData = { lastUpdated: "", epic: [], steam: [], xbox: [], notifiedHistory: {} };
   if (fs.existsSync(DEALS_PATH)) {
     try {
       oldData = coerceOldData(JSON.parse(fs.readFileSync(DEALS_PATH, 'utf-8')));
@@ -333,6 +457,8 @@ async function run() {
   // Fetch fresh data
   const freshEpic = await fetchEpicGames();
   const freshSteam = await fetchSteamGames();
+  const freshXboxData = await fetchXboxGames();
+  const freshXbox = freshXboxData.games;
   
   // Guard against API/scraping failure:
   // If we fetched 0 games but we had games previously, it's highly likely a scrape failure.
@@ -343,12 +469,16 @@ async function run() {
   if (freshSteam.length === 0 && oldData.steam.length > 0) {
     throw new Error('Scraped Steam games list is empty, but previous data was not. Aborting to prevent data deletion.');
   }
+  if (freshXbox.length === 0 && oldData.xbox.length > 0) {
+    throw new Error('Fetched Xbox games list is empty, but previous data was not. Aborting to prevent data deletion.');
+  }
   
   // Detect changes
   const newFreeGames: EpicGame[] = [];
   const newEpicDiscounts: EpicGame[] = [];
   const newSteamDeals: SteamGame[] = [];
   const newPopularGames: SteamGame[] = [];
+  const newXboxAdditions: XboxGame[] = [];
   
   // Epic: Find currently free games and discounts that were not notified
   for (const game of freshEpic) {
@@ -440,7 +570,27 @@ async function run() {
     }
   }
   
-  console.log(`Detected: ${newFreeGames.length} free Epic, ${newEpicDiscounts.length} discounted Epic, ${newSteamDeals.length} hot Steam, ${newPopularGames.length} popular Steam.`);
+  // Xbox: Find new Game Pass additions
+  for (const game of freshXbox) {
+    if (game.isNewToGamePass) {
+      const historyKey = `xbox_new_${game.id}`;
+      const historyEntry = notifiedHistory[historyKey];
+      let shouldNotify = false;
+      if (!historyEntry) {
+        shouldNotify = true;
+      } else {
+        const lastNotified = new Date(historyEntry.timestamp).getTime();
+        if (now.getTime() - lastNotified > DISCOUNT_COOLDOWN_MS) {
+          shouldNotify = true;
+        }
+      }
+      if (shouldNotify) {
+        newXboxAdditions.push(game);
+      }
+    }
+  }
+
+  console.log(`Detected: ${newFreeGames.length} free Epic, ${newEpicDiscounts.length} discounted Epic, ${newSteamDeals.length} hot Steam, ${newPopularGames.length} popular Steam, ${newXboxAdditions.length} new Xbox Game Pass.`);
 
   function markNotified(key: string, entry: NotifiedItem) {
     notifiedHistory[key] = entry;
@@ -535,11 +685,39 @@ async function run() {
     );
   }
   
+  if (newXboxAdditions.length > 0) {
+    await sendBatched(
+      `🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n`,
+      newXboxAdditions,
+      `🚀 Більше ігор PC Game Pass дивіться на нашому сайті!`,
+      (game) => {
+        let text = `🎮 <b>${escapeHtml(game.title)}</b>\n`;
+        if (game.description) {
+          text += `📝 ${escapeHtml(game.description.slice(0, 120))}${game.description.length > 120 ? '…' : ''}\n`;
+        }
+        if (game.originalPrice > 0) {
+          text += `💰 Ціна в магазині: <b>${formatPrice(game.originalPrice, game.currency)}</b>\n`;
+        }
+        if (game.isComingSoon) {
+          text += `📅 Скоро в Game Pass\n`;
+        } else {
+          text += `✅ Доступно в PC Game Pass\n`;
+        }
+        text += `🔗 <a href="${escapeAttr(game.url)}">Microsoft Store</a>`;
+        return text;
+      },
+      (i) => markNotified(`xbox_new_${newXboxAdditions[i].id}`, {
+        title: newXboxAdditions[i].title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'free'
+      }),
+    );
+  }
+  
   // Save updated data
   const newData: DealsData = {
     lastUpdated: new Date().toISOString(),
     epic: freshEpic,
     steam: freshSteam,
+    xbox: freshXbox,
     notifiedHistory
   };
   

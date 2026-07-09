@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
-import type { DealsData, EpicGame, SteamGame } from './types';
+import type { DealsData, EpicGame, SteamGame, XboxGame } from './types';
 
 // deals.json is generated from external Epic/Steam APIs, so an element can be
 // missing fields (e.g. an upstream API omits a title). Normalize EVERY element
@@ -11,6 +11,24 @@ const num = (v: unknown): number => {
   return Number.isFinite(n) ? n : 0;
 };
 const str = (v: unknown): string => (typeof v === 'string' ? v : v == null ? '' : String(v));
+
+function normalizeXbox(g: Record<string, unknown>): XboxGame {
+  return {
+    id: str(g.id),
+    title: str(g.title),
+    description: str(g.description),
+    imageUrl: str(g.imageUrl),
+    originalPrice: num(g.originalPrice),
+    discountPrice: num(g.discountPrice),
+    discountPercent: num(g.discountPercent),
+    currency: str(g.currency),
+    url: str(g.url),
+    isGamePass: Boolean(g.isGamePass),
+    isNewToGamePass: Boolean(g.isNewToGamePass),
+    isComingSoon: Boolean(g.isComingSoon),
+    isDiscounted: Boolean(g.isDiscounted),
+  };
+}
 
 function normalizeEpic(g: Record<string, unknown>): EpicGame {
   return {
@@ -96,6 +114,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
           lastUpdated: typeof raw?.lastUpdated === 'string' ? raw.lastUpdated : '',
           epic: normalizeList(raw?.epic, normalizeEpic),
           steam: normalizeList(raw?.steam, normalizeSteam),
+          xbox: normalizeList(raw?.xbox, normalizeXbox),
           notifiedHistory:
             raw?.notifiedHistory && typeof raw.notifiedHistory === 'object'
               ? raw.notifiedHistory
