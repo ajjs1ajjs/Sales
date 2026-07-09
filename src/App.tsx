@@ -22,7 +22,6 @@ type SectionProps = {
   activeFilter: FilterType;
   searchQuery: string;
   sortType: SortType;
-  nonGameIds?: Set<string>;
 };
 
 const EpicSection = lazy(() =>

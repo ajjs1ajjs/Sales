@@ -1,13 +1,13 @@
 const KYIV_TZ = 'Europe/Kyiv';
 
-export function formatPrice(price: number, currency: string): string {
+export function formatPrice(price: number, currency: string, locale: 'uk' | 'en' = 'uk'): string {
   if (!price && price !== 0) return '';
-  if (price === 0) return 'Безкоштовно';
-  const formattedPrice = price.toLocaleString('uk-UA', {
+  if (price === 0) return locale === 'en' ? 'Free' : 'Безкоштовно';
+  const formattedPrice = price.toLocaleString(locale === 'en' ? 'en-US' : 'uk-UA', {
     minimumFractionDigits: 0,
     maximumFractionDigits: 2,
   });
-  const currencySymbol = currency === 'UAH' ? 'грн' : currency === 'USD' ? '$' : currency;
+  const currencySymbol = currency === 'UAH' ? (locale === 'en' ? 'UAH' : 'грн') : currency === 'USD' ? '$' : currency;
   return `${formattedPrice} ${currencySymbol}`;
 }
 

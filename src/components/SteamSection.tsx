@@ -68,7 +68,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType }: Pro
       {(activeFilter === 'all' || activeFilter === 'steam_popular') && (
         <section aria-labelledby="steam-popular-title">
           <h2 id="steam-popular-title" className="section-title">
-            <TrendingUp size={22} className="icon-epic" aria-hidden="true" />
+            <TrendingUp size={22} className="icon-steam" aria-hidden="true" />
             {t.steam.popularTitle}
           </h2>
 

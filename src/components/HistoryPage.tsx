@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Calendar, ExternalLink, RefreshCw } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
 import type { DealsData } from '../types';
-import { formatDate } from '../utils';
+import { formatDate, formatDateEn } from '../utils';
 
 interface Props {
   data: DealsData | null;
@@ -13,7 +13,7 @@ interface Props {
 type HistoryFilter = 'all' | 'free' | 'discount' | 'popular';
 
 export function HistoryPage({ data, loading = false }: Props) {
-  const { t } = useLocale();
+  const { t, locale } = useLocale();
   const [filter, setFilter] = useState<HistoryFilter>('all');
 
   const history = useMemo(() => {
@@ -90,13 +90,13 @@ export function HistoryPage({ data, loading = false }: Props) {
             <div key={item.key} className={`history-item history-item--${item.type}`}>
               <div className="history-item-main">
                 <span className={`history-badge history-badge--${item.type}`}>
-                  {item.type === 'free' ? t.history.freeBadge : item.type === 'discount' ? `-${item.percent}%` : t.history.topBadge}
+                  {({ free: t.history.freeBadge, discount: `-${item.percent}%`, popular: t.history.topBadge } satisfies Record<string, string>)[item.type]}
                 </span>
                 <span className="history-item-title">{item.title}</span>
               </div>
               <div className="history-item-meta">
                 <span className="history-item-date">
-                  {formatDate(item.timestamp, true)}
+                  {locale === 'en' ? formatDateEn(item.timestamp, true) : formatDate(item.timestamp, true)}
                 </span>
                 {item.type === 'free' ? (
                   <ExternalLink size={14} aria-hidden="true" />

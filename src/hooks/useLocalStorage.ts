@@ -37,6 +37,7 @@ export function useLocalStorage<T>(
     const handleStorage = (e: StorageEvent) => {
       if (e.key !== key) return;
       if (e.newValue === null) {
+        if (validate && !validate(initialValue)) return;
         setStoredValue(initialValue);
         return;
       }

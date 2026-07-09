@@ -123,14 +123,14 @@ export function GameCard({
           <div className="price-container">
             {'originalPrice' in game && game.originalPrice > 0 && (
               <span className="price-original">
-                {formatPrice(game.originalPrice, game.currency)}
+                {formatPrice(game.originalPrice, game.currency, locale)}
               </span>
             )}
             {'isFreeNow' in game && game.isFreeNow ? (
               <span className="price-current free-text">{t.price.free}</span>
             ) : (
               <span className="price-current">
-                {formatPrice(game.discountPrice, game.currency)}
+                {formatPrice(game.discountPrice, game.currency, locale)}
               </span>
             )}
           </div>

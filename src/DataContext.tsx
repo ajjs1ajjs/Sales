@@ -51,8 +51,11 @@ function normalizeList<T>(raw: unknown, normalize: (g: Record<string, unknown>) 
   return raw
     .filter((g): g is Record<string, unknown> => {
       const ok = !!g && typeof g === 'object' && typeof (g as { title?: unknown }).title === 'string';
-      if (!ok && typeof (g as { title?: unknown })?.title !== 'string') {
-        console.warn('DataContext: skipping entry without a valid title', g);
+      if (!ok) {
+        if (import.meta.env.DEV) {
+          const id = typeof g === 'object' && g !== null ? (g as Record<string, unknown>).id ?? 'unknown' : 'unknown';
+          console.warn('DataContext: skipping entry without a valid title (id=%s)', id);
+        }
       }
       return ok;
     })

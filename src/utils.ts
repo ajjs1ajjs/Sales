@@ -80,18 +80,14 @@ export function safeUrl(url: string): string {
 
 export function interp(template: string): { text: string; key: string | null }[] {
   const parts: { text: string; key: string | null }[] = [];
-  let remaining = template;
-  while (remaining.length > 0) {
-    const match = remaining.match(/\{(\w+)\}/);
-    if (!match) {
-      parts.push({ text: remaining, key: null });
-      break;
-    }
-    const before = remaining.slice(0, match.index);
-    if (before) parts.push({ text: before, key: null });
-    parts.push({ text: match[0], key: match[1] });
-    remaining = remaining.slice(match.index! + match[0].length);
-  }
+  let lastIndex = 0;
+  template.replace(/\{(\w+)\}/g, (match, key, offset) => {
+    if (offset > lastIndex) parts.push({ text: template.slice(lastIndex, offset), key: null });
+    parts.push({ text: match, key });
+    lastIndex = offset + match.length;
+    return match;
+  });
+  if (lastIndex < template.length) parts.push({ text: template.slice(lastIndex), key: null });
   return parts;
 }
 

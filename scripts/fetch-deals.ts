@@ -143,24 +143,16 @@ async function fetchEpicGames(): Promise<EpicGame[]> {
 
         interface CatalogMapping { pageSlug?: string }
         interface CatalogNs { mappings?: CatalogMapping[] }
-        interface CustomAttribute { key: string; value: string }
 
         const catalogNs: CatalogNs | undefined = item.catalogNs;
-        let slug: string | string[] | undefined = catalogNs?.mappings?.[0]?.pageSlug || item.productSlug;
-        if (Array.isArray(slug)) {
-          slug = slug[0] || "";
-        }
-        if (typeof slug !== 'string' || !slug || slug === '[]') {
-          const customAttributes: CustomAttribute[] | undefined = item.customAttributes;
-          const attrSlug = customAttributes?.find((attr) => attr.key === 'com.epicgames.app.productSlug')?.value;
-          slug = attrSlug || "";
-        }
-        if (Array.isArray(slug)) {
-          slug = slug[0] || "";
-        }
-        if (typeof slug !== 'string' || !slug || slug === '[]') {
-          slug = item.urlSlug || "";
-        }
+        const slug = ((): string => {
+          const s = catalogNs?.mappings?.[0]?.pageSlug || item.productSlug;
+          if (typeof s === 'string' && s && s !== '[]') return s;
+          if (Array.isArray(s) && typeof s[0] === 'string') return s[0];
+          const attrSlug = item.customAttributes?.find((a) => a.key === 'com.epicgames.app.productSlug')?.value;
+          if (attrSlug) return attrSlug;
+          return item.urlSlug || '';
+        })();
         const gameUrl = `https://store.epicgames.com/p/${slug}`;
         
         games.push({
@@ -275,7 +267,7 @@ async function sendTelegramMessage(text: string) {
   
   if (!response.ok) {
     const errorText = await response.text();
-    console.error("❌ Failed to send Telegram message:", errorText);
+    console.error("❌ Failed to send Telegram message:", errorText.slice(0, 500));
   } else {
     console.log("✅ Telegram message sent successfully.");
   }
@@ -454,12 +446,15 @@ async function run() {
     notifiedHistory[key] = entry;
   }
 
-  // Helper: split array of items into batches and send each as Telegram message
+  // Helper: split array of items into batches and send each as Telegram message.
+  // Calls markSent(index) after each successful batch to prevent duplicate
+  // notifications on the next cron run if a later batch fails.
   async function sendBatched<T>(
     header: string,
     items: T[],
     footer: string,
     buildItem: (item: T) => string,
+    markSent: (index: number) => void,
   ) {
     const batchSize = 10;
     for (let i = 0; i < items.length; i += batchSize) {
@@ -470,6 +465,9 @@ async function run() {
       }
       text += footer;
       await sendTelegramMessage(text.slice(0, TG_MESSAGE_LIMIT));
+      for (let j = 0; j < batch.length; j++) {
+        markSent(i + j);
+      }
     }
   }
 
@@ -500,13 +498,11 @@ async function run() {
       (deal) => {
         const pct = deal.discountPercent > 0 ? `-${deal.discountPercent}%` : 'знижка';
         return `🎮 <b>${escapeHtml(deal.title)}</b>\n🏷️ Знижка: <b>${pct}</b>\n💰 Ціна: <s>${formatPrice(deal.originalPrice, deal.currency)}</s> ➡️ <b>${formatPrice(deal.discountPrice, deal.currency)}</b>\n🔗 <a href="${escapeAttr(deal.url)}">Детальніше в Epic Games Store</a>`;
-      }
+      },
+      (i) => markNotified(`epic_discount_${newEpicDiscounts[i].id}`, {
+        title: newEpicDiscounts[i].title, price: newEpicDiscounts[i].discountPrice, percent: newEpicDiscounts[i].discountPercent, timestamp: now.toISOString(), type: 'discount'
+      }),
     );
-    for (const deal of newEpicDiscounts) {
-      markNotified(`epic_discount_${deal.id}`, {
-        title: deal.title, price: deal.discountPrice, percent: deal.discountPercent, timestamp: now.toISOString(), type: 'discount'
-      });
-    }
   }
   
   if (newSteamDeals.length > 0) {
@@ -515,13 +511,11 @@ async function run() {
       newSteamDeals,
       `🚀 Більше знижок дивіться на нашому сайті!`,
       (deal) =>
-        `🎮 <b>${escapeHtml(deal.title)}</b>\n🏷️ Знижка: <b>-${deal.discountPercent}%</b>\n💰 Ціна: <s>${formatPrice(deal.originalPrice, deal.currency)}</s> ➡️ <b>${formatPrice(deal.discountPrice, deal.currency)}</b>\n🔗 <a href="${escapeAttr(deal.url)}">Детальніше в Steam</a>`
+        `🎮 <b>${escapeHtml(deal.title)}</b>\n🏷️ Знижка: <b>-${deal.discountPercent}%</b>\n💰 Ціна: <s>${formatPrice(deal.originalPrice, deal.currency)}</s> ➡️ <b>${formatPrice(deal.discountPrice, deal.currency)}</b>\n🔗 <a href="${escapeAttr(deal.url)}">Детальніше в Steam</a>`,
+      (i) => markNotified(`steam_discount_${newSteamDeals[i].id}`, {
+        title: newSteamDeals[i].title, price: newSteamDeals[i].discountPrice, percent: newSteamDeals[i].discountPercent, timestamp: now.toISOString(), type: 'discount'
+      }),
     );
-    for (const deal of newSteamDeals) {
-      markNotified(`steam_discount_${deal.id}`, {
-        title: deal.title, price: deal.discountPrice, percent: deal.discountPercent, timestamp: now.toISOString(), type: 'discount'
-      });
-    }
   }
   
   if (newPopularGames.length > 0) {
@@ -534,13 +528,11 @@ async function run() {
           ? `<s>${formatPrice(game.originalPrice, game.currency)}</s> ➡️ <b>${formatPrice(game.discountPrice, game.currency)}</b> (-${game.discountPercent}%)`
           : `<b>${formatPrice(game.discountPrice, game.currency)}</b>`;
         return `🎮 <b>${escapeHtml(game.title)}</b>\n💰 Ціна: ${priceText}\n🔗 <a href="${escapeAttr(game.url)}">Дивитися в Steam</a>`;
-      }
+      },
+      (i) => markNotified(`steam_popular_${newPopularGames[i].id}`, {
+        title: newPopularGames[i].title, price: newPopularGames[i].discountPrice, percent: newPopularGames[i].discountPercent, timestamp: now.toISOString(), type: 'popular'
+      }),
     );
-    for (const game of newPopularGames) {
-      markNotified(`steam_popular_${game.id}`, {
-        title: game.title, price: game.discountPrice, percent: game.discountPercent, timestamp: now.toISOString(), type: 'popular'
-      });
-    }
   }
   
   // Save updated data
