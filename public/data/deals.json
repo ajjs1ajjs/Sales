@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T18:48:37.714Z",
+  "lastUpdated": "2026-07-09T20:44:57.815Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -89,7 +89,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "3240220",
@@ -100,30 +100,6 @@
       "discountPercent": 56,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1771300",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
-      "originalPrice": 1599,
-      "discountPrice": 639,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1771300",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4380490",
-      "title": "Cat Mail Co.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/6e4907425b2795c1c7e35dd454d4970266178288/capsule_616x353.jpg?t=1783610189",
-      "originalPrice": 306,
-      "discountPrice": 260,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4380490",
       "isSpecial": true,
       "isPopular": false
     },
@@ -140,14 +116,14 @@
       "isPopular": false
     },
     {
-      "id": "2749950",
-      "title": "Esports Manager 2026",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/eddaddc1b8752c6f64f1d32ca42095d0611c21c8/capsule_616x353.jpg?t=1783451404",
-      "originalPrice": 415,
-      "discountPrice": 332,
-      "discountPercent": 20,
+      "id": "4380490",
+      "title": "Cat Mail Co.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/6e4907425b2795c1c7e35dd454d4970266178288/capsule_616x353.jpg?t=1783610189",
+      "originalPrice": 306,
+      "discountPrice": 260,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2749950",
+      "url": "https://store.steampowered.com/app/4380490",
       "isSpecial": true,
       "isPopular": false
     },
@@ -164,14 +140,38 @@
       "isPopular": false
     },
     {
-      "id": "1332010",
-      "title": "Stray",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1779927784",
-      "originalPrice": 579,
-      "discountPrice": 289,
-      "discountPercent": 50,
+      "id": "1771300",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
+      "originalPrice": 1599,
+      "discountPrice": 639,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1332010",
+      "url": "https://store.steampowered.com/app/1771300",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2749950",
+      "title": "Esports Manager 2026",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/eddaddc1b8752c6f64f1d32ca42095d0611c21c8/capsule_616x353.jpg?t=1783451404",
+      "originalPrice": 415,
+      "discountPrice": 332,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2749950",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "12210",
+      "title": "Grand Theft Auto IV: The Complete Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/capsule_616x353.jpg?t=1721061564",
+      "originalPrice": 429,
+      "discountPrice": 128,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/12210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -212,6 +212,18 @@
       "isPopular": true
     },
     {
+      "id": "4032350",
+      "title": "EA SPORTS™ College Football 27",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4032350/78f6aee0ab19432cc9addd80b7bcf77d3aee98f3/capsule_616x353.jpg?t=1783619957",
+      "originalPrice": 2199,
+      "discountPrice": 2199,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4032350",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "3839790",
       "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Standard Edition)",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839790/535e83714c9d614041b546fca1b036d26f527809/capsule_616x353.jpg?t=1783522815",
@@ -220,6 +232,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3839790",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2244210",
+      "title": "Echoes of Aincrad",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2244210/ad1d55b1a3acbfe421714bacd2b9ee04641120d3/capsule_616x353.jpg?t=1781687351",
+      "originalPrice": 1999,
+      "discountPrice": 1999,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2244210",
       "isSpecial": false,
       "isPopular": true
     }
@@ -824,6 +848,21 @@
       "isNewToGamePass": true,
       "isComingSoon": false,
       "isDiscounted": false
+    },
+    {
+      "id": "9P41GS5W1C6L",
+      "title": "Wuthering Waves",
+      "description": "Wuthering Waves is a story-rich open-world action RPG with a high degree of freedom. You wake from your slumber as Rover, joined by a vibrant cast of Resonators on a journey to reclaim your lost memories and change the world.\n\nWelcome aboard, roving voyager.\nUpon the shores lay the silent embers of a world during the Ebb Tide.\nDesolated by the Lament, the erstwhile creations and earthly beings are left static.\nBut they strike back, strong enough to penetrate the silence.\nHumanity has risen anew from the ashes of the apocalypse. \nAnd you, Rover, are poised for an adventure of Awakening.\nCompanions to meet, enemies to conquer, new powers to gain, hidden truths to unveil, and unseen spectacles to behold... A vast world of endless possibilities awaits. The choice rests in your hands. Be the answer, be the leader, and follow the sounds to arrive at a new future.\nAs Wuthering Waves echo endlessly, mankind set sail on a new journey.\nRise and embark on your odyssey, Rover.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.34545.14597666972638877.4c0fa7d8-85b9-41ec-92d4-4c095a3f069c.8b46ce17-82a4-460e-8efe-a883a7387da6",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9P41GS5W1C6L",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
     }
   ],
   "notifiedHistory": {
@@ -833,27 +872,6 @@
       "percent": 30,
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
-    },
-    "steam_discount_1627720": {
-      "title": "Lies of P",
-      "price": 812,
-      "percent": 50,
-      "timestamp": "2026-06-09T20:18:58.669Z",
-      "type": "discount"
-    },
-    "steam_popular_2866670": {
-      "title": "NBA THE RUN",
-      "price": 620,
-      "percent": 0,
-      "timestamp": "2026-06-09T20:18:58.669Z",
-      "type": "popular"
-    },
-    "steam_popular_3952720": {
-      "title": "Destiny 2: «Тріумфальні нагороди» (набір срібла)",
-      "price": 369,
-      "percent": 0,
-      "timestamp": "2026-06-09T20:18:58.669Z",
-      "type": "popular"
     },
     "steam_discount_4704690": {
       "title": "MECCHA CHAMELEON",
@@ -2072,6 +2090,27 @@
       "percent": 50,
       "timestamp": "2026-07-09T18:48:35.462Z",
       "type": "discount"
+    },
+    "steam_discount_12210": {
+      "title": "Grand Theft Auto IV: The Complete Edition",
+      "price": 128,
+      "percent": 70,
+      "timestamp": "2026-07-09T20:44:55.241Z",
+      "type": "discount"
+    },
+    "steam_popular_2244210": {
+      "title": "Echoes of Aincrad",
+      "price": 1999,
+      "percent": 0,
+      "timestamp": "2026-07-09T20:44:55.241Z",
+      "type": "popular"
+    },
+    "xbox_new_9P41GS5W1C6L": {
+      "title": "Wuthering Waves",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-09T20:44:55.241Z",
+      "type": "free"
     }
   }
 }
