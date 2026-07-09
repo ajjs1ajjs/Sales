@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T13:47:02.793Z",
+  "lastUpdated": "2026-07-09T16:25:39.077Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -7,31 +7,31 @@
       "description": "Nova Lands is a factory building, exploration, and island management game. Explore, engage in combat, and automate your industry. The planet you’re on is full of mysteries, creatures, people, and things to do. Welcome to your new home amongst the stars!",
       "imageUrl": "https://cdn1.epicgames.com/spt-assets/9a2764693c414ecda63d8f785452a4bb/nova-lands-offer-16wzy.png",
       "originalPrice": 399,
-      "discountPrice": 399,
+      "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/nova-lands-4d1788",
       "startDate": "2026-07-09T15:00:00.000Z",
       "endDate": "2026-07-16T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": true,
-      "isDiscounted": false,
-      "discountPercent": 0
-    },
-    {
-      "id": "9bf3d3188d1e498095bc23c0955538d9",
-      "title": "River City Girls 2",
-      "description": "A pixel-art sci-fi adventure set in the midst of a rebellion against a totalitarian regime, LUNARK is a modern take on the 2D cinematic platformer genre of the '90s. Run, jump, hang, climb, roll, and shoot your way through gorgeous and mysterious locations!",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/dfdcd48c05c6483284cb40b333dc71e4/river-city-girls-2-1hqkv.png",
-      "originalPrice": 729,
-      "discountPrice": 0,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/river-city-girls-2-77af3a",
-      "startDate": "2026-07-02T15:00:00.000Z",
-      "endDate": "2026-07-09T15:00:00.000Z",
       "isFreeNow": true,
       "isUpcomingFree": false,
       "isDiscounted": false,
       "discountPercent": 100
+    },
+    {
+      "id": "c27f2bb0dd9b4c4ca4973e653ab8a5be",
+      "title": "Luto",
+      "description": "Luto is a psychological horror experience where you take on the role of someone unable to leave their home. Every attempt to escape will lead you deeper into the unknown, where nothing is as it seems and everything will test your senses.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/eda0432529164b29b8a659d627d660e4/luto-14zrp.png",
+      "originalPrice": 415,
+      "discountPrice": 415,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/luto-0a4ab3",
+      "startDate": "2026-07-16T15:00:00.000Z",
+      "endDate": "2026-07-23T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": true,
+      "isDiscounted": false,
+      "discountPercent": 0
     },
     {
       "id": "f247e0af293645bda266fa9957d82d62",
@@ -39,27 +39,11 @@
       "description": "Станьте тату-майстром і керуйте власним салоном. Підбирайте ідеальні ескізи для ексцентричних клієнтів, перетворюючи їхні приблизні побажання на шедеври бодіарту. Розширте свою невеличку затишну студію до успішного бізнесу з кількома салонами в різних районах Татуга Бей.",
       "imageUrl": "https://cdn1.epicgames.com/spt-assets/0b68dfc82a014fe2ac9971f13e0e3ce5/tattoo-tycoon-11qwx.jpg",
       "originalPrice": 750,
-      "discountPrice": 750,
+      "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/tattoo-tycoon-b4352c",
       "startDate": "2026-07-09T15:00:00.000Z",
       "endDate": "2026-07-16T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": true,
-      "isDiscounted": false,
-      "discountPercent": 0
-    },
-    {
-      "id": "4ef54d5829b04656902dfa1f29b3b732",
-      "title": "I Have No Mouth, and I Must Scream",
-      "description": "The Allied Mastercomputer has destroyed all of humanity except for five people, whom it has been keeping them alive and torturing them for the past one hundred and nine years by designing virtual adventures based on their fears and weaknesses.",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/b153ccd09d834353a8f27ffa9b41f5a2/i-have-no-mouth-and-i-must-scream-163j8.png",
-      "originalPrice": 184,
-      "discountPrice": 0,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/i-have-no-mouth-and-i-must-scream-95c5c2",
-      "startDate": "2026-07-02T15:00:00.000Z",
-      "endDate": "2026-07-09T15:00:00.000Z",
       "isFreeNow": true,
       "isUpcomingFree": false,
       "isDiscounted": false,
@@ -96,14 +80,14 @@
       "isPopular": false
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
+      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isPopular": false
     },
@@ -117,17 +101,17 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": false
     },
@@ -156,18 +140,6 @@
       "isPopular": false
     },
     {
-      "id": "413150",
-      "title": "Stardew Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
-      "originalPrice": 229,
-      "discountPrice": 137,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/413150",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "814380",
       "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
@@ -180,21 +152,33 @@
       "isPopular": false
     },
     {
-      "id": "108600",
-      "title": "Project Zomboid",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1777298596",
-      "originalPrice": 415,
-      "discountPrice": 278,
-      "discountPercent": 33,
+      "id": "413150",
+      "title": "Stardew Valley",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
+      "originalPrice": 229,
+      "discountPrice": 137,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/108600",
+      "url": "https://store.steampowered.com/app/413150",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2001120",
+      "title": "Split Fiction",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
+      "originalPrice": 1299,
+      "discountPrice": 844,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2001120",
       "isSpecial": true,
       "isPopular": false
     },
     {
       "id": "3751950",
       "title": "Assassin's Creed Black Flag Resynced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1782753569",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783611543",
       "originalPrice": 1799,
       "discountPrice": 1799,
       "discountPercent": 0,
@@ -843,20 +827,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_2004680": {
-      "title": "Voidling Bound",
-      "price": 477,
-      "percent": 10,
-      "timestamp": "2026-06-09T15:53:00.495Z",
-      "type": "discount"
-    },
-    "steam_popular_2004680": {
-      "title": "Voidling Bound",
-      "price": 477,
-      "percent": 10,
-      "timestamp": "2026-06-09T15:53:00.495Z",
-      "type": "popular"
-    },
     "steam_discount_1623730": {
       "title": "Palworld",
       "price": 420,
@@ -2053,6 +2023,27 @@
       "percent": 0,
       "timestamp": "2026-07-09T08:29:41.619Z",
       "type": "free"
+    },
+    "epic_free_e5da2c017d4d4afab9f4c56525b66100": {
+      "title": "Nova Lands",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-07-09T16:25:35.802Z",
+      "type": "free"
+    },
+    "epic_free_f247e0af293645bda266fa9957d82d62": {
+      "title": "Tattoo Tycoon",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-07-09T16:25:35.802Z",
+      "type": "free"
+    },
+    "steam_popular_1623730": {
+      "title": "Palworld",
+      "price": 420,
+      "percent": 30,
+      "timestamp": "2026-07-09T16:25:35.802Z",
+      "type": "popular"
     }
   }
 }
