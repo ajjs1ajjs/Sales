@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T04:48:13.512Z",
+  "lastUpdated": "2026-07-10T08:19:29.758Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -80,18 +80,6 @@
       "isPopular": true
     },
     {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -100,6 +88,18 @@
       "discountPercent": 56,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isPopular": false
     },
@@ -140,18 +140,6 @@
       "isPopular": false
     },
     {
-      "id": "1771300",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
-      "originalPrice": 1599,
-      "discountPrice": 639,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1771300",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2749950",
       "title": "Esports Manager 2026",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/eddaddc1b8752c6f64f1d32ca42095d0611c21c8/capsule_616x353.jpg?t=1783451404",
@@ -164,14 +152,14 @@
       "isPopular": false
     },
     {
-      "id": "1984270",
-      "title": "Digimon Story Time Stranger",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1984270/86a9e0f67df177da7f74a01ad51a086c1b9ae3e0/capsule_616x353.jpg?t=1783566003",
-      "originalPrice": 1999,
-      "discountPrice": 1139,
-      "discountPercent": 43,
+      "id": "1771300",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
+      "originalPrice": 1599,
+      "discountPrice": 639,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1984270",
+      "url": "https://store.steampowered.com/app/1771300",
       "isSpecial": true,
       "isPopular": false
     },
@@ -212,6 +200,18 @@
       "isPopular": true
     },
     {
+      "id": "3839790",
+      "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Standard Edition)",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839790/535e83714c9d614041b546fca1b036d26f527809/capsule_616x353.jpg?t=1783522815",
+      "originalPrice": 799,
+      "discountPrice": 799,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3839790",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "2244210",
       "title": "Echoes of Aincrad",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2244210/ad1d55b1a3acbfe421714bacd2b9ee04641120d3/capsule_616x353.jpg?t=1783634634",
@@ -220,18 +220,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2244210",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4032350",
-      "title": "EA SPORTS™ College Football 27",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4032350/78f6aee0ab19432cc9addd80b7bcf77d3aee98f3/capsule_616x353.jpg?t=1783633200",
-      "originalPrice": 2199,
-      "discountPrice": 2199,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4032350",
       "isSpecial": false,
       "isPopular": true
     }
@@ -860,20 +848,6 @@
       "percent": 30,
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
-    },
-    "steam_discount_4704690": {
-      "title": "MECCHA CHAMELEON",
-      "price": 124,
-      "percent": 20,
-      "timestamp": "2026-06-10T05:15:06.017Z",
-      "type": "discount"
-    },
-    "steam_popular_4704690": {
-      "title": "MECCHA CHAMELEON",
-      "price": 124,
-      "percent": 20,
-      "timestamp": "2026-06-10T05:15:06.017Z",
-      "type": "popular"
     },
     "steam_discount_1167630": {
       "title": "Teardown",
@@ -2113,6 +2087,13 @@
       "percent": 43,
       "timestamp": "2026-07-10T00:01:54.989Z",
       "type": "discount"
+    },
+    "steam_popular_4704690": {
+      "title": "MECCHA CHAMELEON",
+      "price": 155,
+      "percent": 0,
+      "timestamp": "2026-07-10T08:19:27.389Z",
+      "type": "popular"
     }
   }
 }
