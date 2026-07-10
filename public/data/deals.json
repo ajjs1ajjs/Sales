@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T21:58:50.387Z",
+  "lastUpdated": "2026-07-10T23:03:17.537Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -128,18 +128,6 @@
       "isPopular": false
     },
     {
-      "id": "2019620",
-      "title": "GERONIMO",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2019620/3ce98a9c0cba6b116688833b0ba0c79f453ebdb2/capsule_616x353.jpg?t=1783702823",
-      "originalPrice": 845,
-      "discountPrice": 760,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2019620",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4380490",
       "title": "Cat Mail Co.",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/6e4907425b2795c1c7e35dd454d4970266178288/capsule_616x353.jpg?t=1783683473",
@@ -148,6 +136,18 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4380490",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2019620",
+      "title": "GERONIMO",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2019620/3ce98a9c0cba6b116688833b0ba0c79f453ebdb2/capsule_616x353.jpg?t=1783702823",
+      "originalPrice": 845,
+      "discountPrice": 760,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2019620",
       "isSpecial": true,
       "isPopular": false
     },
@@ -844,13 +844,6 @@
       "price": 420,
       "percent": 30,
       "timestamp": "2026-07-03T15:08:25.816Z",
-      "type": "discount"
-    },
-    "steam_discount_3241660": {
-      "title": "R.E.P.O.",
-      "price": 135,
-      "percent": 30,
-      "timestamp": "2026-06-10T21:58:53.650Z",
       "type": "discount"
     },
     "steam_popular_3276050": {
