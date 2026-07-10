@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T11:48:37.240Z",
+  "lastUpdated": "2026-07-10T14:16:24.614Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -164,18 +164,6 @@
       "isPopular": false
     },
     {
-      "id": "1332010",
-      "title": "Stray",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1779927784",
-      "originalPrice": 579,
-      "discountPrice": 289,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1332010",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3751950",
       "title": "Assassin's Creed Black Flag Resynced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
@@ -212,18 +200,6 @@
       "isPopular": true
     },
     {
-      "id": "2244210",
-      "title": "Echoes of Aincrad",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2244210/ad1d55b1a3acbfe421714bacd2b9ee04641120d3/capsule_616x353.jpg?t=1783634634",
-      "originalPrice": 1999,
-      "discountPrice": 1999,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2244210",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "3839790",
       "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Standard Edition)",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839790/535e83714c9d614041b546fca1b036d26f527809/capsule_616x353.jpg?t=1783675384",
@@ -232,6 +208,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3839790",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2244210",
+      "title": "Echoes of Aincrad",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2244210/ad1d55b1a3acbfe421714bacd2b9ee04641120d3/capsule_616x353.jpg?t=1783634634",
+      "originalPrice": 1999,
+      "discountPrice": 1999,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2244210",
       "isSpecial": false,
       "isPopular": true
     }
@@ -613,21 +601,6 @@
       "isDiscounted": false
     },
     {
-      "id": "9PFWZMT737GG",
-      "title": "Outbound",
-      "description": "Досліджуй колоритний світ і будуй власний затишний дім на колесах. Створюй робочі станції й отримуй енергію від сонця, вітру або води. Удосконалюй і персоналізуй свій транспорт, вирощуй врожаї та живи енергонезалежно в компанії до 4 інших гравців.\n\nOutbound — це затишна дослідницька гра з відкритим світом, дія якої відбувається в недалекому утопічному майбутньому. Почни з порожнього фургона й перетвори його на дім мрії — самотужки або разом із друзями. Будуй і досліджуй у зручному темпі. Збирай матеріали, створюй і розміщуй модульні частини як усередині, так і ззовні свого транспорту. Розвивай технології й ефективно використовуй енергію для забезпечення дому.\n\nДосліджуй\nДосліджуй колоритний світ за кермом електричного фургона, що живиться енергією сонця, вітру або води. Відкривай знакові місця в різноманітних біомах.\n\nБудуй і створюй\nОблаштовуй власну рухому базу завдяки модульній системі. Персоналізуй свій транспорт за допомогою фарби, прикрас і меблів, створивши ідеальне затишне місце на свій смак.\n\nВирощуй\nЗакладай сади, щоби вирощувати смачні й поживні рослини та гриби. Споживай їх сирими або готуй вишукані страви, щоб утамувати голод у дорозі.\n\nНайкращі друзі назавжди\nЗаведи нового друга в лоджі «Лапи й вуса». Годуй, песть і тренуй його допомагати тобі день у день.\n\nГрай із друзями\nВирушай у подорож різноманітними біомами та збудуй власний дім на колесах самотужки або в мережі з 4 іншими гравцями.\n\n",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.43708.14196427234086945.901894be-1096-43bd-aa09-55fbbd5f3312.98961ad9-4dbf-4f54-9d41-1028f6ec74fd",
-      "originalPrice": 519,
-      "discountPrice": 519,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9PFWZMT737GG",
-      "isGamePass": true,
-      "isNewToGamePass": true,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
       "id": "9NZDHXL9SJJ8",
       "title": "Persona 5 Royal",
       "description": "Prepare for the award-winning RPG experience in this definitive edition of Persona 5 Royal, featuring a treasure trove of downloadable content included! \r\n\r\nForced to transfer to a high school in Tokyo, the protagonist has a strange dream. “You truly are a prisoner of fate. In the near future, ruin awaits you.” With the goal of “rehabilitation” looming overhead, he must save others from distorted desires by donning the mask of a Phantom Thief.\r\n\r\nKey Features include:\r\n-Explore Tokyo, unlock Personas, customize your own personal Thieves Den, experience alternate endings, and more\r\n-Become the ultimate Phantom Thief and defy conventions, discover the power within, and fight for justice in the definitive version of Persona 5 Royal\r\n-Includes over 40 items of previously released downloadable content\r\n-Choose between Japanese and English VO",
@@ -859,13 +832,6 @@
       "price": 420,
       "percent": 30,
       "timestamp": "2026-07-03T15:08:25.816Z",
-      "type": "discount"
-    },
-    "steam_discount_1167630": {
-      "title": "Teardown",
-      "price": 324,
-      "percent": 50,
-      "timestamp": "2026-06-10T12:54:45.819Z",
       "type": "discount"
     },
     "steam_discount_3844970": {
