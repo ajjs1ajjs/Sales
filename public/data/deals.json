@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T14:16:24.614Z",
+  "lastUpdated": "2026-07-10T16:53:23.006Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -80,18 +80,6 @@
       "isPopular": true
     },
     {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -104,6 +92,18 @@
       "isPopular": false
     },
     {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "703080",
       "title": "Planet Zoo",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/703080/capsule_616x353.jpg?t=1765896213",
@@ -112,18 +112,6 @@
       "discountPercent": 95,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/703080",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4380490",
-      "title": "Cat Mail Co.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/6e4907425b2795c1c7e35dd454d4970266178288/capsule_616x353.jpg?t=1783683473",
-      "originalPrice": 306,
-      "discountPrice": 260,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4380490",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,6 +140,18 @@
       "isPopular": false
     },
     {
+      "id": "4380490",
+      "title": "Cat Mail Co.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/6e4907425b2795c1c7e35dd454d4970266178288/capsule_616x353.jpg?t=1783683473",
+      "originalPrice": 306,
+      "discountPrice": 260,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4380490",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1771300",
       "title": "Kingdom Come: Deliverance II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
@@ -160,6 +160,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1771300",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1332010",
+      "title": "Stray",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1779927784",
+      "originalPrice": 579,
+      "discountPrice": 289,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1332010",
       "isSpecial": true,
       "isPopular": false
     },
@@ -200,18 +212,6 @@
       "isPopular": true
     },
     {
-      "id": "3839790",
-      "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Standard Edition)",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839790/535e83714c9d614041b546fca1b036d26f527809/capsule_616x353.jpg?t=1783675384",
-      "originalPrice": 799,
-      "discountPrice": 799,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3839790",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "2244210",
       "title": "Echoes of Aincrad",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2244210/ad1d55b1a3acbfe421714bacd2b9ee04641120d3/capsule_616x353.jpg?t=1783634634",
@@ -220,6 +220,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2244210",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3839790",
+      "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Standard Edition)",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839790/535e83714c9d614041b546fca1b036d26f527809/capsule_616x353.jpg?t=1783675384",
+      "originalPrice": 799,
+      "discountPrice": 799,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3839790",
       "isSpecial": false,
       "isPopular": true
     }
@@ -833,27 +845,6 @@
       "percent": 30,
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
-    },
-    "steam_discount_3844970": {
-      "title": "Burglin' Gnomes",
-      "price": 207,
-      "percent": 10,
-      "timestamp": "2026-06-10T16:34:03.445Z",
-      "type": "discount"
-    },
-    "steam_popular_3844970": {
-      "title": "Burglin' Gnomes",
-      "price": 207,
-      "percent": 10,
-      "timestamp": "2026-06-10T16:34:03.445Z",
-      "type": "popular"
-    },
-    "steam_popular_2679100": {
-      "title": "Witchspire",
-      "price": 402,
-      "percent": 15,
-      "timestamp": "2026-06-10T16:34:03.445Z",
-      "type": "popular"
     },
     "steam_discount_2679100": {
       "title": "Witchspire",
