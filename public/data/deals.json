@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T18:21:00.127Z",
+  "lastUpdated": "2026-07-10T20:20:12.965Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -104,6 +104,18 @@
       "isPopular": false
     },
     {
+      "id": "2019620",
+      "title": "GERONIMO",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2019620/3ce98a9c0cba6b116688833b0ba0c79f453ebdb2/capsule_616x353.jpg?t=1783702823",
+      "originalPrice": 845,
+      "discountPrice": 760,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2019620",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2209900",
       "title": "Moonlight Peaks",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/86fad83c53a1d9b21b66abf89827b21f0e45ed4a/capsule_616x353.jpg?t=1783444081",
@@ -128,18 +140,6 @@
       "isPopular": false
     },
     {
-      "id": "2749950",
-      "title": "Esports Manager 2026",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/eddaddc1b8752c6f64f1d32ca42095d0611c21c8/capsule_616x353.jpg?t=1783451404",
-      "originalPrice": 415,
-      "discountPrice": 332,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2749950",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4380490",
       "title": "Cat Mail Co.",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/6e4907425b2795c1c7e35dd454d4970266178288/capsule_616x353.jpg?t=1783683473",
@@ -152,6 +152,18 @@
       "isPopular": false
     },
     {
+      "id": "2749950",
+      "title": "Esports Manager 2026",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/eddaddc1b8752c6f64f1d32ca42095d0611c21c8/capsule_616x353.jpg?t=1783451404",
+      "originalPrice": 415,
+      "discountPrice": 332,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2749950",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1771300",
       "title": "Kingdom Come: Deliverance II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
@@ -160,18 +172,6 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1771300",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1332010",
-      "title": "Stray",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1779927784",
-      "originalPrice": 579,
-      "discountPrice": 289,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1332010",
       "isSpecial": true,
       "isPopular": false
     },
@@ -208,6 +208,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1431300",
+      "title": "SAND: Raiders of Sophie",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1431300/99cd5db84193d408dc92f12cfd9c533b7e69266b/capsule_616x353.jpg?t=1782290789",
+      "originalPrice": 399,
+      "discountPrice": 399,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1431300",
       "isSpecial": false,
       "isPopular": true
     },
@@ -833,20 +845,6 @@
       "percent": 30,
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
-    },
-    "steam_discount_2679100": {
-      "title": "Witchspire",
-      "price": 402,
-      "percent": 15,
-      "timestamp": "2026-06-10T19:32:53.038Z",
-      "type": "discount"
-    },
-    "steam_popular_4121170": {
-      "title": "Fears to Fathom® - Scratch Creek",
-      "price": 195,
-      "percent": 0,
-      "timestamp": "2026-06-10T19:32:53.038Z",
-      "type": "popular"
     },
     "steam_discount_3241660": {
       "title": "R.E.P.O.",
@@ -2051,6 +2049,13 @@
       "percent": 0,
       "timestamp": "2026-07-10T08:19:27.389Z",
       "type": "popular"
+    },
+    "steam_discount_2019620": {
+      "title": "GERONIMO",
+      "price": 760,
+      "percent": 10,
+      "timestamp": "2026-07-10T20:20:10.506Z",
+      "type": "discount"
     }
   }
 }
