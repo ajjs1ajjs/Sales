@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T20:20:12.965Z",
+  "lastUpdated": "2026-07-10T21:58:50.387Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -104,18 +104,6 @@
       "isPopular": false
     },
     {
-      "id": "2019620",
-      "title": "GERONIMO",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2019620/3ce98a9c0cba6b116688833b0ba0c79f453ebdb2/capsule_616x353.jpg?t=1783702823",
-      "originalPrice": 845,
-      "discountPrice": 760,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2019620",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2209900",
       "title": "Moonlight Peaks",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/86fad83c53a1d9b21b66abf89827b21f0e45ed4a/capsule_616x353.jpg?t=1783444081",
@@ -136,6 +124,18 @@
       "discountPercent": 95,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/703080",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2019620",
+      "title": "GERONIMO",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2019620/3ce98a9c0cba6b116688833b0ba0c79f453ebdb2/capsule_616x353.jpg?t=1783702823",
+      "originalPrice": 845,
+      "discountPrice": 760,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2019620",
       "isSpecial": true,
       "isPopular": false
     },
@@ -164,14 +164,14 @@
       "isPopular": false
     },
     {
-      "id": "1771300",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
-      "originalPrice": 1599,
-      "discountPrice": 639,
-      "discountPercent": 60,
+      "id": "1332010",
+      "title": "Stray",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1779927784",
+      "originalPrice": 579,
+      "discountPrice": 289,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1771300",
+      "url": "https://store.steampowered.com/app/1332010",
       "isSpecial": true,
       "isPopular": false
     },
@@ -224,14 +224,14 @@
       "isPopular": true
     },
     {
-      "id": "2244210",
-      "title": "Echoes of Aincrad",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2244210/ad1d55b1a3acbfe421714bacd2b9ee04641120d3/capsule_616x353.jpg?t=1783634634",
-      "originalPrice": 1999,
-      "discountPrice": 1999,
+      "id": "4032350",
+      "title": "EA SPORTS™ College Football 27",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4032350/78f6aee0ab19432cc9addd80b7bcf77d3aee98f3/capsule_616x353.jpg?t=1783700053",
+      "originalPrice": 2199,
+      "discountPrice": 2199,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2244210",
+      "url": "https://store.steampowered.com/app/4032350",
       "isSpecial": false,
       "isPopular": true
     }
