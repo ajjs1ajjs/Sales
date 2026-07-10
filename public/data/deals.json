@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T22:19:36.774Z",
+  "lastUpdated": "2026-07-10T00:01:57.702Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -68,18 +68,6 @@
   ],
   "steam": [
     {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1623730",
       "title": "Palworld",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/c961ac047294838bfe382bf193ade5c64b19e573/capsule_616x353.jpg?t=1782406665",
@@ -88,6 +76,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isPopular": false
     },
@@ -140,18 +140,6 @@
       "isPopular": false
     },
     {
-      "id": "703080",
-      "title": "Planet Zoo",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/703080/capsule_616x353.jpg?t=1765896213",
-      "originalPrice": 830,
-      "discountPrice": 41,
-      "discountPercent": 95,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/703080",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2749950",
       "title": "Esports Manager 2026",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/eddaddc1b8752c6f64f1d32ca42095d0611c21c8/capsule_616x353.jpg?t=1783451404",
@@ -164,28 +152,28 @@
       "isPopular": false
     },
     {
-      "id": "12210",
-      "title": "Grand Theft Auto IV: The Complete Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/capsule_616x353.jpg?t=1721061564",
-      "originalPrice": 429,
-      "discountPrice": 128,
-      "discountPercent": 70,
+      "id": "703080",
+      "title": "Planet Zoo",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/703080/capsule_616x353.jpg?t=1765896213",
+      "originalPrice": 830,
+      "discountPrice": 41,
+      "discountPercent": 95,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/12210",
+      "url": "https://store.steampowered.com/app/703080",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "3751950",
-      "title": "Assassin's Creed Black Flag Resynced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
-      "originalPrice": 1799,
-      "discountPrice": 1799,
-      "discountPercent": 0,
+      "id": "1984270",
+      "title": "Digimon Story Time Stranger",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1984270/86a9e0f67df177da7f74a01ad51a086c1b9ae3e0/capsule_616x353.jpg?t=1783566003",
+      "originalPrice": 1999,
+      "discountPrice": 1139,
+      "discountPercent": 43,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3751950",
-      "isSpecial": false,
-      "isPopular": true
+      "url": "https://store.steampowered.com/app/1984270",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "4165910",
@@ -196,6 +184,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3751950",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
+      "originalPrice": 1799,
+      "discountPrice": 1799,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3751950",
       "isSpecial": false,
       "isPopular": true
     },
@@ -224,6 +224,18 @@
       "isPopular": true
     },
     {
+      "id": "2244210",
+      "title": "Echoes of Aincrad",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2244210/ad1d55b1a3acbfe421714bacd2b9ee04641120d3/capsule_616x353.jpg?t=1783634634",
+      "originalPrice": 1999,
+      "discountPrice": 1999,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2244210",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "3839790",
       "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Standard Edition)",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839790/535e83714c9d614041b546fca1b036d26f527809/capsule_616x353.jpg?t=1783522815",
@@ -232,18 +244,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3839790",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4835400",
-      "title": "THE FINALS - Season 11 Ultimate Battle Pass Bundle",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4835400/be8e094e60f466b4a21485f9d0112f67c33522c6/capsule_616x353.jpg?t=1783604423",
-      "originalPrice": 1240,
-      "discountPrice": 1240,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4835400",
       "isSpecial": false,
       "isPopular": true
     }
@@ -2118,6 +2118,13 @@
       "percent": 0,
       "timestamp": "2026-07-09T22:19:34.329Z",
       "type": "popular"
+    },
+    "steam_discount_1984270": {
+      "title": "Digimon Story Time Stranger",
+      "price": 1139,
+      "percent": 43,
+      "timestamp": "2026-07-10T00:01:54.989Z",
+      "type": "discount"
     }
   }
 }
