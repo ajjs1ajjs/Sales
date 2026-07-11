@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T15:30:07.404Z",
+  "lastUpdated": "2026-07-11T15:53:07.452Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -128,18 +128,6 @@
       "isPopular": false
     },
     {
-      "id": "2749950",
-      "title": "Esports Manager 2026",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/eddaddc1b8752c6f64f1d32ca42095d0611c21c8/capsule_616x353.jpg?t=1783451404",
-      "originalPrice": 415,
-      "discountPrice": 332,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2749950",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4380490",
       "title": "Cat Mail Co.",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/6e4907425b2795c1c7e35dd454d4970266178288/capsule_616x353.jpg?t=1783683473",
@@ -148,6 +136,18 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4380490",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2749950",
+      "title": "Esports Manager 2026",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/eddaddc1b8752c6f64f1d32ca42095d0611c21c8/capsule_616x353.jpg?t=1783451404",
+      "originalPrice": 415,
+      "discountPrice": 332,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2749950",
       "isSpecial": true,
       "isPopular": false
     },
@@ -220,6 +220,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4032350",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3839790",
+      "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Standard Edition)",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839790/535e83714c9d614041b546fca1b036d26f527809/capsule_616x353.jpg?t=1783675384",
+      "originalPrice": 799,
+      "discountPrice": 799,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3839790",
       "isSpecial": false,
       "isPopular": true
     }
