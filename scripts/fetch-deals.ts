@@ -12,7 +12,8 @@ const TG_MESSAGE_LIMIT = 4000;
 
 const XBOX_SGL_ALL_PC = '609d944c-d395-4c0a-9ea4-e9f39b52c1ad';
 const XBOX_SGL_NEW_PC = '3fdd7f57-7092-4b65-bd40-5a9dac1b2b84';
-const XBOX_SGL_COMING_PC = '4165f752-d702-49c8-886b-fb57936f6bae'; // Telegram limit is 4096, leave room for overlap
+const XBOX_SGL_COMING_PC = '4165f752-d702-49c8-886b-fb57936f6bae';
+const XBOX_SGL_EA_PLAY_PC = '1d33fbb9-b895-4732-a8ca-a55c8b99fa2c';
 
 async function fetchWithRetry(url: string, options?: RequestInit, retries = 3, delay = 2000): Promise<Response> {
   for (let i = 0; i < retries; i++) {
@@ -323,26 +324,30 @@ function extractXboxImage(product: XboxProduct): string {
   return '';
 }
 
-async function fetchXboxGames(): Promise<{ games: XboxGame[]; newIds: Set<string>; comingIds: Set<string> }> {
+async function fetchXboxGames(): Promise<{ games: XboxGame[]; allIds: string[]; newIds: Set<string>; comingIds: Set<string> }> {
   try {
     console.log("Fetching Xbox Game Pass games...");
-    const [newIds, comingIds, allIds] = await Promise.all([
+    const [newIds, comingIds, allIds, eaIds] = await Promise.all([
       fetchXboxGameIds(XBOX_SGL_NEW_PC),
       fetchXboxGameIds(XBOX_SGL_COMING_PC),
       fetchXboxGameIds(XBOX_SGL_ALL_PC),
+      fetchXboxGameIds(XBOX_SGL_EA_PLAY_PC),
     ]);
     const newSet = new Set(newIds);
     const comingSet = new Set(comingIds);
     const allSet = new Set(allIds);
-    // Беремо всі унікальні ID з усіх трьох SGL-списків,
-    // щоб жодна гра не залишилась без деталей.
-    const allUniqueIds = [...new Set([...newIds, ...comingIds, ...allIds])];
+    const eaSet = new Set(eaIds);
+    // Беремо всі унікальні ID з усіх SGL-списків (включно з EA Play),
+    // щоб жодна гра, зокрема від Ubisoft/EA, не залишилась без деталей.
+    const allUniqueIds = [...new Set([...newIds, ...comingIds, ...allIds, ...eaIds])];
     const details = await fetchXboxDetails(allUniqueIds);
     const detailMap = new Map<string, XboxProduct>();
     for (const d of details) {
       detailMap.set(d.ProductId, d);
     }
     const games: XboxGame[] = [];
+    const visitedIds = new Set<string>();
+    // Спочатку додаємо ігри з головного каталогу (allSet)
     for (const id of allSet) {
       const product = detailMap.get(id);
       const title = product?.LocalizedProperties?.[0]?.ProductTitle;
@@ -363,8 +368,32 @@ async function fetchXboxGames(): Promise<{ games: XboxGame[]; newIds: Set<string
         isComingSoon: comingSet.has(id),
         isDiscounted: priceInfo.discountPercent > 0,
       });
+      visitedIds.add(id);
     }
-    return { games, newIds: newSet, comingIds: comingSet };
+    // Додаємо ігри з EA Play, яких ще немає в головному каталозі
+    for (const id of eaSet) {
+      if (visitedIds.has(id)) continue;
+      const product = detailMap.get(id);
+      const title = product?.LocalizedProperties?.[0]?.ProductTitle;
+      if (!title) continue;
+      const priceInfo = product ? extractXboxPrice(product) : { originalPrice: 0, discountPrice: 0, discountPercent: 0, currency: 'UAH' };
+      games.push({
+        id,
+        title,
+        description: product?.LocalizedProperties?.[0]?.ProductDescription || '',
+        imageUrl: product ? extractXboxImage(product) : '',
+        originalPrice: priceInfo.originalPrice,
+        discountPrice: priceInfo.discountPrice,
+        discountPercent: priceInfo.discountPercent,
+        currency: priceInfo.currency,
+        url: `https://www.xbox.com/uk-ua/games/store/-/${id}`,
+        isGamePass: true,
+        isNewToGamePass: newSet.has(id) || eaSet.has(id),
+        isComingSoon: comingSet.has(id),
+        isDiscounted: priceInfo.discountPercent > 0,
+      });
+    }
+    return { games, allIds, newIds: newSet, comingIds: comingSet };
   } catch (err) {
     throw new Error(`Error fetching Xbox games: ${err instanceof Error ? err.message : String(err)}`, { cause: err });
   }
@@ -574,8 +603,16 @@ async function run() {
   }
   
   // Xbox: Find new Game Pass additions
+  // Використовуємо ID попереднього запуску для виявлення нових ігор,
+  // які могли не потрапити до списку "Нещодавно додані" (наприклад, Ubisoft).
+  const oldXboxIds = new Set(oldData.xbox.map(g => g.id));
+
   for (const game of freshXbox) {
-    if (game.isNewToGamePass) {
+    // Вважаємо гру "новою", якщо:
+    // 1. Вона позначена як isNewToGamePass (список "Нещодавно додані"), АБО
+    // 2. Її ID немає в попередніх даних (нова в каталозі)
+    const isNewToCatalog = !oldXboxIds.has(game.id);
+    if (game.isNewToGamePass || isNewToCatalog) {
       const historyKey = `xbox_new_${game.id}`;
       const historyEntry = notifiedHistory[historyKey];
       let shouldNotify = false;
