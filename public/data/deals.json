@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T17:53:06.206Z",
+  "lastUpdated": "2026-07-11T18:57:29.317Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -104,18 +104,6 @@
       "isPopular": false
     },
     {
-      "id": "703080",
-      "title": "Planet Zoo",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/703080/capsule_616x353.jpg?t=1765896213",
-      "originalPrice": 830,
-      "discountPrice": 41,
-      "discountPercent": 95,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/703080",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2209900",
       "title": "Moonlight Peaks",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/86fad83c53a1d9b21b66abf89827b21f0e45ed4a/capsule_616x353.jpg?t=1783444081",
@@ -124,6 +112,18 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2209900",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "703080",
+      "title": "Planet Zoo",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/703080/capsule_616x353.jpg?t=1765896213",
+      "originalPrice": 830,
+      "discountPrice": 41,
+      "discountPercent": 95,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/703080",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,18 +152,6 @@
       "isPopular": false
     },
     {
-      "id": "1771300",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
-      "originalPrice": 1599,
-      "discountPrice": 639,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1771300",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2019620",
       "title": "GERONIMO",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2019620/3ce98a9c0cba6b116688833b0ba0c79f453ebdb2/capsule_616x353.jpg?t=1783702823",
@@ -172,6 +160,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2019620",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1771300",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
+      "originalPrice": 1599,
+      "discountPrice": 639,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1771300",
       "isSpecial": true,
       "isPopular": false
     },
@@ -220,18 +220,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4032350",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4735410",
-      "title": "Warframe: колекція «Спадок» для Меси",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4735410/4715a6a9cbc2c95d8113957c306532712d98d564/capsule_616x353.jpg?t=1783782016",
-      "originalPrice": 499,
-      "discountPrice": 499,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4735410",
       "isSpecial": false,
       "isPopular": true
     }
