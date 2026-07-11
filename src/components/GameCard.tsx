@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { ExternalLink, Tag, TrendingUp } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
 import type { EpicGame, SteamGame, XboxGame } from '../types';
-import { formatPrice, formatDate, formatDateEn, isEpicGame, safeUrl } from '../utils';
+import { formatPrice, formatDate, formatDateEn, safeUrl } from '../utils';
 import { WishlistButton } from './WishlistButton';
 
 export type Game = EpicGame | SteamGame | XboxGame;
@@ -89,7 +89,7 @@ export function GameCard({
           <WishlistButton gameId={game.id} title={game.title} />
         </div>
 
-        {game.description && !showTagDescription && !showTrendingDescription && (
+        {'description' in game && game.description && !showTagDescription && !showTrendingDescription && (
           <p className="card-desc">
             {game.description.length > 200
               ? `${game.description.slice(0, 200)}…`
