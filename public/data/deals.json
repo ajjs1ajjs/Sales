@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T16:53:42.609Z",
+  "lastUpdated": "2026-07-11T17:53:06.206Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -220,6 +220,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4032350",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4735410",
+      "title": "Warframe: колекція «Спадок» для Меси",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4735410/4715a6a9cbc2c95d8113957c306532712d98d564/capsule_616x353.jpg?t=1783782016",
+      "originalPrice": 499,
+      "discountPrice": 499,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4735410",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1271,7 +1283,7 @@
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NTXGKBW2HSM",
       "isGamePass": true,
-      "isNewToGamePass": true,
+      "isNewToGamePass": false,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -10357,6 +10369,13 @@
       "percent": 10,
       "timestamp": "2026-07-10T20:20:10.506Z",
       "type": "discount"
+    },
+    "steam_popular_4735410": {
+      "title": "Warframe: колекція «Спадок» для Меси",
+      "price": 499,
+      "percent": 0,
+      "timestamp": "2026-07-11T17:52:55.748Z",
+      "type": "popular"
     }
   }
 }
