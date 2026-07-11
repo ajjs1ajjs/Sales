@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T07:50:19.065Z",
+  "lastUpdated": "2026-07-11T09:25:22.327Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -104,18 +104,6 @@
       "isPopular": false
     },
     {
-      "id": "2209900",
-      "title": "Moonlight Peaks",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/86fad83c53a1d9b21b66abf89827b21f0e45ed4a/capsule_616x353.jpg?t=1783444081",
-      "originalPrice": 1260,
-      "discountPrice": 1071,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2209900",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "703080",
       "title": "Planet Zoo",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/703080/capsule_616x353.jpg?t=1765896213",
@@ -128,14 +116,14 @@
       "isPopular": false
     },
     {
-      "id": "4380490",
-      "title": "Cat Mail Co.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/6e4907425b2795c1c7e35dd454d4970266178288/capsule_616x353.jpg?t=1783683473",
-      "originalPrice": 306,
-      "discountPrice": 260,
+      "id": "2209900",
+      "title": "Moonlight Peaks",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/86fad83c53a1d9b21b66abf89827b21f0e45ed4a/capsule_616x353.jpg?t=1783444081",
+      "originalPrice": 1260,
+      "discountPrice": 1071,
       "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4380490",
+      "url": "https://store.steampowered.com/app/2209900",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,6 +136,18 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2749950",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4380490",
+      "title": "Cat Mail Co.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/6e4907425b2795c1c7e35dd454d4970266178288/capsule_616x353.jpg?t=1783683473",
+      "originalPrice": 306,
+      "discountPrice": 260,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4380490",
       "isSpecial": true,
       "isPopular": false
     },
@@ -220,18 +220,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3839790",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1202520",
-      "title": "Fallout 1st",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
-      "originalPrice": 399,
-      "discountPrice": 399,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1202520",
       "isSpecial": false,
       "isPopular": true
     }
