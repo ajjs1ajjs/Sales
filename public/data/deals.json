@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T15:53:07.452Z",
+  "lastUpdated": "2026-07-11T16:53:42.609Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -220,18 +220,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4032350",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3839790",
-      "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Standard Edition)",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839790/535e83714c9d614041b546fca1b036d26f527809/capsule_616x353.jpg?t=1783675384",
-      "originalPrice": 799,
-      "discountPrice": 799,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3839790",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1598,7 +1586,7 @@
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PF697TG7PP7",
       "isGamePass": true,
-      "isNewToGamePass": true,
+      "isNewToGamePass": false,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -9200,34 +9188,6 @@
       "percent": 30,
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
-    },
-    "epic_free_7f0ab2828f9743d0abc6612a11222fdf": {
-      "title": "The Ouroboros King",
-      "price": 0,
-      "percent": 100,
-      "timestamp": "2026-06-11T16:52:39.165Z",
-      "type": "free"
-    },
-    "epic_free_eb6ae87e73d94d2c96bab3c4da4dd3de": {
-      "title": "Warhammer 40K Speed Freeks",
-      "price": 0,
-      "percent": 100,
-      "timestamp": "2026-06-11T16:52:39.165Z",
-      "type": "free"
-    },
-    "steam_popular_4226770": {
-      "title": "Warhammer 40,000: Rogue Trader - The Infinite Museion",
-      "price": 275,
-      "percent": 0,
-      "timestamp": "2026-06-11T16:52:39.165Z",
-      "type": "popular"
-    },
-    "steam_popular_3650060": {
-      "title": "Warhammer 40,000: Rogue Trader - Season Pass 2",
-      "price": 419,
-      "percent": 0,
-      "timestamp": "2026-06-11T16:52:39.165Z",
-      "type": "popular"
     },
     "steam_discount_3337380": {
       "title": "Tabletop Tavern",
