@@ -89,8 +89,12 @@ export function GameCard({
           <WishlistButton gameId={game.id} title={game.title} />
         </div>
 
-        {isEpicGame(game) && game.description && !showTagDescription && !showTrendingDescription && (
-          <p className="card-desc">{game.description}</p>
+        {game.description && !showTagDescription && !showTrendingDescription && (
+          <p className="card-desc">
+            {game.description.length > 200
+              ? `${game.description.slice(0, 200)}…`
+              : game.description}
+          </p>
         )}
 
         {showTagDescription && (

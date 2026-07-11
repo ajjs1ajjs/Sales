@@ -139,6 +139,8 @@ export const en: Translations = {
     filterAria: 'History filters',
     freeBadge: 'FREE',
     topBadge: 'TOP',
+    xboxBadge: 'GAME PASS',
+    xboxNew: 'Game Pass',
   },
   platform: {
     epic: 'Epic Games',

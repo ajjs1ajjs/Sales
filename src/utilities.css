@@ -185,6 +185,10 @@
   border-left: 3px solid var(--accent-epic);
 }
 
+.history-item--xbox_new {
+  border-left: 3px solid var(--accent-xbox);
+}
+
 .history-item-main {
   display: flex;
   align-items: center;
@@ -214,6 +218,11 @@
 .history-badge--popular {
   background: rgba(192, 132, 252, 0.15);
   color: var(--accent-epic);
+}
+
+.history-badge--xbox_new {
+  background: rgba(0, 178, 0, 0.15);
+  color: var(--accent-xbox);
 }
 
 .history-item-title {

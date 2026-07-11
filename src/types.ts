@@ -33,7 +33,7 @@ export interface NotifiedItem {
   price: number;
   percent: number;
   timestamp: string;
-  type: 'free' | 'discount' | 'popular';
+  type: 'free' | 'discount' | 'popular' | 'xbox_new';
 }
 
 export interface XboxGame {

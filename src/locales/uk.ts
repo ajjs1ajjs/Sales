@@ -137,6 +137,8 @@ export const uk = {
     filterAria: 'Фільтри історії',
     freeBadge: 'FREE',
     topBadge: 'TOP',
+    xboxBadge: 'GAME PASS',
+    xboxNew: 'Game Pass',
   },
   platform: {
     epic: 'Epic Games',

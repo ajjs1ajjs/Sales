@@ -14,7 +14,7 @@
 
 ## Про проект
 
-**Game Sales Aggregator** — це автоматичний агрегатор ігрових знижок та безкоштовних роздач. Збирає актуальні пропозиції зі **Steam** та **Epic Games Store** і публікує їх на сайті та у Telegram-каналі.
+**Game Sales Aggregator** — це автоматичний агрегатор ігрових знижок, безкоштовних роздач та нових надходжень. Збирає актуальні пропозиції зі **Steam**, **Epic Games Store** та **Xbox Game Pass (PC)** і публікує їх на сайті та у Telegram-каналі.
 
 ### Що відстежується:
 
@@ -25,6 +25,9 @@
 | **Epic Games** | Знижки | Акційні пропозиції в Epic Games Store |
 | **Steam** | Гарячі знижки | Акційні пропозиції від 5% |
 | **Steam** | Топ продажів | Лідери продажів прямо зараз |
+| **Xbox Game Pass PC** | Нові надходження | Ігри, щойно додані до PC Game Pass |
+| **Xbox Game Pass PC** | Очікується | Ігри, що скоро з'являться в Game Pass |
+| **Xbox Game Pass PC** | Знижки | Знижки на ігри з каталогу Game Pass |
 
 ### Можливості сайту:
 
@@ -51,7 +54,7 @@
 GitHub Actions запускає скрипт
         │
         ▼
-Збираються дані з API Steam та Epic Games
+Збираються дані з API Steam, Epic Games та Xbox Game Pass
         │
         ├──▶ Оновлюється deals.json у репозиторії
         │
@@ -59,7 +62,7 @@ GitHub Actions запускає скрипт
         │
         ├──▶ Будується React-додаток → GitHub Pages (сайт)
         │
-        └──▶ Нові знижки/роздачі → Telegram-канал
+        └──▶ Нові знижки/роздачі/додавання → Telegram-канал
 ```
 
 ---
@@ -164,6 +167,7 @@ Sales/
 │   │   ├── Skeleton.tsx           # Скелетон-завантаження
 │   │   ├── SortControls.tsx       # Сортування
 │   │   ├── SteamSection.tsx       # Секція Steam
+│   │   ├── XboxSection.tsx        # Секція Xbox Game Pass
 │   │   ├── TelegramBanner.tsx     # Банер Telegram
 │   │   ├── ThemeToggle.tsx        # Перемикач теми
 │   │   └── WishlistButton.tsx     # Кнопка обраного
@@ -200,6 +204,8 @@ Sales/
 - Знижки в Epic Games Store
 - Гарячі знижки у Steam (від 5%)
 - Нові хіти продажів (Steam Top Sellers)
+- Нові ігри в PC Game Pass
+- Очікувані додавання до Game Pass
 
 ---
 

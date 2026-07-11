@@ -10,7 +10,7 @@ interface Props {
   loading?: boolean;
 }
 
-type HistoryFilter = 'all' | 'free' | 'discount' | 'popular';
+type HistoryFilter = 'all' | 'free' | 'discount' | 'popular' | 'xbox_new';
 
 export function HistoryPage({ data, loading = false }: Props) {
   const { t, locale } = useLocale();
@@ -66,6 +66,7 @@ export function HistoryPage({ data, loading = false }: Props) {
           ['free', t.history.free],
           ['discount', t.history.discount],
           ['popular', t.history.popular],
+          ['xbox_new', t.history.xboxNew],
         ] as [HistoryFilter, string][]).map(([key, label]) => (
           <button
             key={key}
@@ -90,7 +91,7 @@ export function HistoryPage({ data, loading = false }: Props) {
             <div key={item.key} className={`history-item history-item--${item.type}`}>
               <div className="history-item-main">
                 <span className={`history-badge history-badge--${item.type}`}>
-                  {({ free: t.history.freeBadge, discount: `-${item.percent}%`, popular: t.history.topBadge } satisfies Record<string, string>)[item.type]}
+                  {({ free: t.history.freeBadge, discount: `-${item.percent}%`, popular: t.history.topBadge, xbox_new: t.history.xboxBadge } satisfies Record<string, string>)[item.type]}
                 </span>
                 <span className="history-item-title">{item.title}</span>
               </div>

@@ -297,11 +297,12 @@ function extractXboxPrice(product: XboxProduct): { originalPrice: number; discou
     const priceData = avail.Availabilities[0].OrderManagementData?.Price;
     if (!priceData) return defaultPrice;
     const listPrice = priceData.ListPrice || 0;
+    const msrp = priceData.MSRP || listPrice;
     const currency = priceData.CurrencyCode || 'UAH';
     return {
-      originalPrice: listPrice,
+      originalPrice: msrp,
       discountPrice: listPrice,
-      discountPercent: 0,
+      discountPercent: msrp > 0 ? Math.round((1 - listPrice / msrp) * 100) : 0,
       currency,
     };
   } catch {
@@ -333,8 +334,10 @@ async function fetchXboxGames(): Promise<{ games: XboxGame[]; newIds: Set<string
     const newSet = new Set(newIds);
     const comingSet = new Set(comingIds);
     const allSet = new Set(allIds);
-    const needDetails = [...new Set([...newIds, ...comingIds])];
-    const details = await fetchXboxDetails(needDetails);
+    // Беремо всі унікальні ID з усіх трьох SGL-списків,
+    // щоб жодна гра не залишилась без деталей.
+    const allUniqueIds = [...new Set([...newIds, ...comingIds, ...allIds])];
+    const details = await fetchXboxDetails(allUniqueIds);
     const detailMap = new Map<string, XboxProduct>();
     for (const d of details) {
       detailMap.set(d.ProductId, d);
@@ -358,7 +361,7 @@ async function fetchXboxGames(): Promise<{ games: XboxGame[]; newIds: Set<string
         isGamePass: true,
         isNewToGamePass: newSet.has(id),
         isComingSoon: comingSet.has(id),
-        isDiscounted: false,
+        isDiscounted: priceInfo.discountPercent > 0,
       });
     }
     return { games, newIds: newSet, comingIds: comingSet };
@@ -624,9 +627,10 @@ async function run() {
   // Send notifications if there are any updates
   if (newFreeGames.length > 0) {
     for (const game of newFreeGames) {
+      const desc = game.description?.trim();
       const text = `🎁 <b>БЕЗКОШТОВНА ГРА В EPIC GAMES STORE!</b>\n\n` +
                    `🎮 <b>${escapeHtml(game.title)}</b>\n` +
-                   `📝 ${escapeHtml(game.description)}\n\n` +
+                   (desc ? `📝 ${escapeHtml(desc)}\n\n` : '') +
                    `📅 Роздача діє до: <b>${formatDate(game.endDate, true)}</b>\n\n` +
                    `🔗 <a href="${escapeAttr(game.url)}">Забрати гру в магазині</a>`;
       try {
@@ -692,8 +696,9 @@ async function run() {
       `🚀 Більше ігор PC Game Pass дивіться на нашому сайті!`,
       (game) => {
         let text = `🎮 <b>${escapeHtml(game.title)}</b>\n`;
-        if (game.description) {
-          text += `📝 ${escapeHtml(game.description.slice(0, 120))}${game.description.length > 120 ? '…' : ''}\n`;
+        const desc = game.description?.trim();
+        if (desc) {
+          text += `📝 ${escapeHtml(desc.slice(0, 120))}${desc.length > 120 ? '…' : ''}\n`;
         }
         if (game.originalPrice > 0) {
           text += `💰 Ціна в магазині: <b>${formatPrice(game.originalPrice, game.currency)}</b>\n`;
@@ -707,7 +712,7 @@ async function run() {
         return text;
       },
       (i) => markNotified(`xbox_new_${newXboxAdditions[i].id}`, {
-        title: newXboxAdditions[i].title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'free'
+        title: newXboxAdditions[i].title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'xbox_new'
       }),
     );
   }
