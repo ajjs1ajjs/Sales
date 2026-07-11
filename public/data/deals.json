@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T21:45:29.172Z",
+  "lastUpdated": "2026-07-11T22:44:08.191Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -152,6 +152,18 @@
       "isPopular": false
     },
     {
+      "id": "367270",
+      "title": "Angels Fall First",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367270/26990b5d2fe9c588550682ef89b30970edcbe67a/capsule_616x353.jpg?t=1783807186",
+      "originalPrice": 259,
+      "discountPrice": 233,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/367270",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2019620",
       "title": "GERONIMO",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2019620/3ce98a9c0cba6b116688833b0ba0c79f453ebdb2/capsule_616x353.jpg?t=1783702823",
@@ -160,18 +172,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2019620",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1771300",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
-      "originalPrice": 1599,
-      "discountPrice": 639,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1771300",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9201,13 +9201,6 @@
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
     },
-    "steam_discount_252490": {
-      "title": "Rust",
-      "price": 389,
-      "percent": 50,
-      "timestamp": "2026-06-11T22:00:32.355Z",
-      "type": "discount"
-    },
     "steam_popular_1462040": {
       "title": "FINAL FANTASY VII REMAKE INTERGRADE",
       "price": 384,
@@ -10341,6 +10334,13 @@
       "percent": 0,
       "timestamp": "2026-07-11T17:52:55.748Z",
       "type": "popular"
+    },
+    "steam_discount_367270": {
+      "title": "Angels Fall First",
+      "price": 233,
+      "percent": 10,
+      "timestamp": "2026-07-11T22:44:02.083Z",
+      "type": "discount"
     }
   }
 }
