@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T11:01:37.497Z",
+  "lastUpdated": "2026-07-11T13:11:22.209Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -80,18 +80,6 @@
       "isPopular": true
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1999,
-      "discountPrice": 879,
-      "discountPercent": 56,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -100,6 +88,18 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1999,
+      "discountPrice": 879,
+      "discountPercent": 56,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,18 +152,6 @@
       "isPopular": false
     },
     {
-      "id": "2019620",
-      "title": "GERONIMO",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2019620/3ce98a9c0cba6b116688833b0ba0c79f453ebdb2/capsule_616x353.jpg?t=1783702823",
-      "originalPrice": 845,
-      "discountPrice": 760,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2019620",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1771300",
       "title": "Kingdom Come: Deliverance II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
@@ -172,6 +160,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1771300",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2019620",
+      "title": "GERONIMO",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2019620/3ce98a9c0cba6b116688833b0ba0c79f453ebdb2/capsule_616x353.jpg?t=1783702823",
+      "originalPrice": 845,
+      "discountPrice": 760,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2019620",
       "isSpecial": true,
       "isPopular": false
     },
@@ -833,13 +833,6 @@
       "percent": 30,
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
-    },
-    "steam_popular_3276050": {
-      "title": "SpaceCraft",
-      "price": 602,
-      "percent": 10,
-      "timestamp": "2026-06-11T12:43:12.364Z",
-      "type": "popular"
     },
     "epic_free_7f0ab2828f9743d0abc6612a11222fdf": {
       "title": "The Ouroboros King",
