@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T18:57:29.317Z",
+  "lastUpdated": "2026-07-11T20:06:26.475Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -9187,41 +9187,6 @@
       "price": 420,
       "percent": 30,
       "timestamp": "2026-07-03T15:08:25.816Z",
-      "type": "discount"
-    },
-    "steam_discount_3337380": {
-      "title": "Tabletop Tavern",
-      "price": 224,
-      "percent": 25,
-      "timestamp": "2026-06-11T19:33:54.407Z",
-      "type": "discount"
-    },
-    "steam_popular_3337380": {
-      "title": "Tabletop Tavern",
-      "price": 224,
-      "percent": 25,
-      "timestamp": "2026-06-11T19:33:54.407Z",
-      "type": "popular"
-    },
-    "steam_discount_2909400": {
-      "title": "FINAL FANTASY VII REBIRTH",
-      "price": 679,
-      "percent": 60,
-      "timestamp": "2026-06-11T19:33:54.407Z",
-      "type": "discount"
-    },
-    "steam_popular_2909400": {
-      "title": "FINAL FANTASY VII REBIRTH",
-      "price": 679,
-      "percent": 60,
-      "timestamp": "2026-06-11T19:33:54.407Z",
-      "type": "popular"
-    },
-    "steam_discount_1462040": {
-      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
-      "price": 384,
-      "percent": 65,
-      "timestamp": "2026-06-11T19:33:54.407Z",
       "type": "discount"
     },
     "steam_discount_252490": {
