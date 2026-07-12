@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T08:11:51.984Z",
+  "lastUpdated": "2026-07-12T10:24:18.421Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -104,18 +104,6 @@
       "isPopular": false
     },
     {
-      "id": "367270",
-      "title": "Angels Fall First",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367270/26990b5d2fe9c588550682ef89b30970edcbe67a/capsule_616x353.jpg?t=1783807186",
-      "originalPrice": 259,
-      "discountPrice": 233,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/367270",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "703080",
       "title": "Planet Zoo",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/703080/capsule_616x353.jpg?t=1765896213",
@@ -124,6 +112,18 @@
       "discountPercent": 95,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/703080",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "367270",
+      "title": "Angels Fall First",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367270/26990b5d2fe9c588550682ef89b30970edcbe67a/capsule_616x353.jpg?t=1783807186",
+      "originalPrice": 259,
+      "discountPrice": 233,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/367270",
       "isSpecial": true,
       "isPopular": false
     },
@@ -200,14 +200,14 @@
       "isPopular": true
     },
     {
-      "id": "3839790",
-      "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Standard Edition)",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839790/535e83714c9d614041b546fca1b036d26f527809/capsule_616x353.jpg?t=1783675384",
-      "originalPrice": 799,
-      "discountPrice": 799,
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3839790",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     }
@@ -609,14 +609,14 @@
       "description": "Відродіться в новому досвіді виживання динозаврів, про який ви навіть не мріяли... оскільки ARK переосмислюється з нуля в технологію відеоігор нового покоління за допомогою Unreal Engine 5! Ви прокидаєтеся на таємничому острові, ваші почуття переповнені сліпучим сонячним світлом і яскравими кольорами, що відбиваються від усіх поверхонь навколо вас, блакитні води зеленого острова плескаються біля ваших босих ніг. Глибокий гуркіт лунає з туманних джунглів, спонукаючи вас до дії, і ви встаєте — не налякані, а заінтриговані. Чи готові ви сформувати плем’я, приборкати та розводити сотні видів динозаврів та інших первісних істот, досліджувати, створювати, будувати та пробиватися до вершини харчового ланцюга? Ваш новий світ чекає… Перейдіть крізь дзеркало та приєднайтеся до нього!\n\nОСОБЛИВОСТІ\n\nARK: Survival Ascended повністю відтворив і переробив ілюстрацію та світи ARK, щоб скористатися перевагами новітньої технології відеоігор, Unreal Engine 5, використовуючи високоякісні графічні функції, такі як повністю динамічне глобальне освітлення («Lumen»), щоб світло реалістично відбивається від поверхонь і забезпечує реалістичні відображення, а вдосконалена сітчаста потокова передача («Nanite») із сотень мільйонів трикутників для надзвичайної деталізації.\n\nНові передові фізичні системи, такі як динамічна вода, щоб кожна істота створювала хвилі, брижі, бризки та бульбашки, рухаючись крізь рідини, і повністю інтерактивне фізичне листя, де кожна травинка, кущ і дерево реагують на персонажів, вибухи, снаряди, і об'єкти фізики. Збийте дерево, і побачите, як воно врізається в інші дерева та тріпає все листя на своєму шляху вниз до трави внизу! Виявляйте ворога, який непомітно рухається крізь траву, коли він пересувається та хитається у відповідь на їх присутність. Знесіть будівлю та спостерігайте, як шматки реалістично розпадаються, взаємодіючи з травою та водою під час падіння.\n\nARK: Survival Ascended включає доступ до всіх світів ARK, включаючи Scorched Earth, Aberration, Extinction, ARK Genesis Part 1, ARK Genesis Part 2 тощо. «Острів», «Випалена земля», «Аберація» та «Центр» випущені зараз, а наступні світи розширення додаватимуться без додаткових витрат на регулярній основі.\n\nПовний досвід виживання повертається краще, ніж будь-коли: створіть свій Survivor, сформуйте плем’я та приручайте, тренуйте, розводьте та катайтеся на динозаврах у живій екосистемі. Слідкуйте за їжею, водою, температурою та погодою. Повільно розширюйтесь назовні, збираючи врожай, будуючи споруди, вирощуючи культури, налаштовуючи свій візуальний дизайн і продовжуючи досліджувати, щоб розкрити справжню природу Острова та світів за його межами. \n\nҐрунтовне оновлення якості життя в кожній області: перероблені інтерфейси користувача, динамічна навігація для розумного пошуку шляхів істот, дикі немовлята, режим фото, нові системи камер, нова система карт, система стеження, нові структури та предмети, нові істоти та багато іншого.\n\nКросплатформне модифікування: завантажуйте та відтворюйте новий власний вміст, створений гравцями, включаючи нові карти, істот, предмети та режими гри, за допомогою спеціальної колекції модів безпосередньо в грі! Насолоджуйтесь нескінченним потоком нового вмісту ARK, оскільки творчий потенціал і талант спільноти вперше повністю розкриваються на ігрових платформах!\n\nМіжплатформна багатокористувацька гра: сформуйте своє онлайн-плем’я на різних ігрових платформах, працюючи разом, щоб виживати та процвітати в ARK!\n\nПідтримує публічну багатокористувацьку онлайн-ігру для до 70 гравців, приватну багатокористувацьку сесію для до 8 гравців і локальний розділений екран для 2 гравців.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.34402.14545480955348978.6df932ed-6670-40c9-9a84-fc164557d4ec.635b23a8-4ec7-44bd-b0ba-bc07c9b9ebb6",
       "originalPrice": 1886.63,
-      "discountPrice": 471.65,
-      "discountPercent": 75,
+      "discountPrice": 1886.63,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P33VJGVPHVP",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P686C1GJ91L",
@@ -924,14 +924,14 @@
       "description": "Explore and reshape distant worlds! Astroneer is set during the 25th century Intergalactic Age of Discovery, where Astroneers explore the frontiers of outer space, risking their lives in harsh environments to unearth rare discoveries and unlock the mysteries of the universe.\r\n\r\nOn this adventure, players can work together to build custom bases above or below ground, create vehicles to explore a vast solar system, and use terrain to create anything they can imagine. A player’s creativity and ingenuity are the key to seeking out and thriving while on exciting planetary adventures! In Astroneer you can:\r\n\r\n•Reshape the ground under your feet as though it were made of clay.\r\n•Survive on and explore carefully crafted planets that can be entirely deformed and traversed.\r\n•Snap together components and objects to build bases and vehicles.\r\n•Play with friends in 4 player online drop-in/drop-out co-op.\r\n•Discover and uncover the mysteries of the solar system\r\n\r\n•••Deform & shape everything around you•••\r\nIn Astroneer, players use their deform tool to dig, collect, shape and build anything they wish. Use this ability to dig to the center of the planet, build a ramp into the sky, or make megaliths just by using terrain! \r\n\r\n•••Explore an entire solar system•••\r\nOur vast solar system includes 7 wondrous planets that players can travel between and explore every inch of, from the entire spherical surface, through treacherous layers of caves, all the way down to mysterious the core. Each of those planets has unique and challenging surface and cave biomes that offer a multitude of challenges for players on their journey.\r\n\r\n•••Customize & build on the fly••• \r\nItems that Astroneers craft and find in the world can be snapped and connected together to create unique creations for any situation. Customize and decorate your bases, vehicles, and Astroneer.\r\n\r\n•••4 Player co-op•••\r\nAstroneer is better with friends. Group up with other players and work together to create massive industrial bases or to create fun games in the extensive creative sandbox. \r\n\r\n•••Survive & harness the power of the planets•••\r\nOnce Astroneers are ready, they may choose to attempt to understand and possibly harness the power behind mysterious structures found in the world.\r\n\r\nAstroneer began as a Game Preview title and would not be here today if not for your support, feedback, and ideas throughout that process. Now that we have hit 1.0 we will keep our pledge to continue building on the foundation that is Astroneer with free, ongoing content updates. If you're curious about the direction we're aiming for, be sure to go check out our roadmap, and our development vlogs to keep updated on what we are working on!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.54149.13510798887933723.57e43f19-4066-429e-b1a2-caea56e427b4.dcf4a36f-b6bf-4cbd-809f-f4dfd75f32b9",
       "originalPrice": 479.99,
-      "discountPrice": 119.99,
-      "discountPercent": 75,
+      "discountPrice": 479.99,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NBLGGH43KZB",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NCGTG3KR2W9",
@@ -1704,14 +1704,14 @@
       "description": "Clone Drone in the Danger Zone is a robot voxel slice-em-up where any part of your body can be sliced off. With your mind downloaded into a robot gladiator, you must survive the sinister trials of the arena.\r\n\r\nSingleplayer Game Modes:\r\n   • Story Mode - One part epic tale of human defiance, another part laser swords.\r\n   • Endless Mode - Challenge yourself to fight through 86 level variants spread across 7 difficulty tiers. Can you make it to TITANIUM?\r\n   • Challenge Mode - Bow-only, hammer-only, can you still survive the arena?\r\n\r\nMultiplayer Game Modes:\r\n   • Last Bot Standing - A Battle-Royale-like game mode with short, 5-10 minute play sessions and up to 15 players. Survive, and shower in the remains of your fellow robot competitors.\r\n   • Private Duels - Challenge your friend to a 1v1 duel!\r\n   • Online Co-op! - Use the power of human friendship (and laser swords!) to survive in the arena!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.63442.13656707570024266.6eb12281-8416-458c-8123-d1d704e3a0c1.dab1e435-5e21-4bba-b3dd-4852c5fb6e42",
       "originalPrice": 605.99,
-      "discountPrice": 121.19,
-      "discountPercent": 80,
+      "discountPrice": 605.99,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NKHKBQJSSC3",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P8V7HR160B4",
@@ -1854,14 +1854,14 @@
       "description": "At DE NILE SHIPPING, things move fast. And if they don’t, you’re the problem. Make a crew of up to 4 overworked friends and drive into a frantic co-op forklift experience where teamwork is key, and disaster is inevitable.\n\nMULTIPLAYER WAREHOUSE MAYHEM \nResearch shows the best way to hit impossible deadlines is to build for speed, not safety. That’s why our warehouse isn’t just a workplace, it’s a full-blown raceway! Our forklifts come tricked out with boost and drift capabilities for maximum productivity (and employee enrichment). Just try not to smash into each other.\n\nGRAB IT, STACK IT, SHIP IT\nThanks to our forklifts’ patented “Easy-Grab” functionality, sorting and stacking is a breeze. Remember to constantly yell at your coworkers to keep the warehouse organized to avoid becoming buried under a pile of missed quotas. And chickens.\n\nFULFILL RIDICULOUS ORDERS\nOur warehouse is equipped to handle the most outlandish orders from across the globe. Lemons, anvils, explosives, primates… if you can dream it, we can deliver it! Fulfill a variety of unique contracts with over 20 types of boxes guaranteed to make your job a physics-based nightmare!!\nDE NILE SHIPPING understands that customer convenience comes at the cost of employee safety, so please handle any volatile orders with care. Any damages will come out of your paycheck!\n\nUPGRADES, UPGRADES, UPGRADES!\nWe might be out of budget for warehouse improvements, but you’re still welcome to spend your own hard-earned cash on new devices and forklift upgrades that are sure to make your job easier, if not a little safer!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.203.13675289401486045.76eb52e5-997e-40b6-9329-c737ead64f75.6c97b9f2-3abb-41b7-9e6b-b78c11432fb9",
       "originalPrice": 154,
-      "discountPrice": 107.8,
-      "discountPercent": 30,
+      "discountPrice": 154,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NJJVQZ3BVPX",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NKF2SZ630ZH",
@@ -2154,14 +2154,14 @@
       "description": "Supports Xbox Play Anywhere: yours to play on both Xbox One and Windows 10 PC at no additional cost.\r\n\r\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++\r\nNOTE: Crossplay is between Xbox One and Windows 11 PC (Microsoft Store) version only \r\nRead more here: https://www.deeprockgalactic.com/crossplay-info\r\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++\r\n\r\nDeep Rock Galactic is a 1-4 player co-op FPS featuring badass space Dwarves, 100% destructible environments, procedurally-generated caves, and endless hordes of alien monsters.\r\n\r\nHoxxes IV has the highest concentration of valuable minerals ever discovered; however, everything on the planet from the creatures to the fauna is extremely hostile. Good thing Deep Rock Galactic employs the best space miners in the universe: Dwarves! Combining two things Dwarves love most - mining and killing monsters - Hoxxes is the perfect job for any proud, space-faring Dwarf.\r\n\r\n*** 4-player Co-Op ***\r\nWork together as a team to dig, explore, and fight your way through a massive cave system filled with hordes of deadly enemies and valuable resources. You will need to rely on your teammates if you want to survive the most hostile cave systems in the galaxy!\r\n\r\n*** 4 Unique Classes ***\r\nPick the right class for the job. Mow through enemies as the Gunner, scout ahead and light up the caves as the Scout, chew through solid rock as the Driller, or support the team with defensive structures and turrets as the Engineer.\r\n\r\n*** Fully Destructible Environments ***\r\nDestroy everything around you to reach your goal. There is no set path so you can complete your mission your way. Drill straight down to your objective or build an intricate network of paths to explore your surroundings -- the choice is yours. But proceed with caution, you don’t want to stumble into an alien swarm unprepared!\r\n\r\n*** Procedurally Generated Cave Network ***\r\nExplore a network of procedurally generated cave systems filled with enemies to fight and riches to collect. There’s always something new to discover and no two playthroughs are alike.\r\n\r\n*** High-Tech Gadgets and Weapons ***\r\nDwarves know what they need to bring to get the job done. This means the most powerful weapons and the most advanced gadgets around - flamethrowers, gatling guns, portable platform launchers, and much, much more.\r\n\r\n*** Light Your Path ***\r\nThe underground caves are dark and full of terrors. You will need to bring your own lights if you want to illuminate these pitch-black caverns.\r\n\r\nFull details on the latest status of the game, how you can give feedback and report issues can be found at https://www.deeprockgalactic.com/",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.43518.13626568325427111.acf8bd0b-a403-422a-bfd4-5262a9b59ec2.cc737eb2-7f52-43c4-89e5-cd92558971e9",
       "originalPrice": 760,
-      "discountPrice": 228,
-      "discountPercent": 70,
+      "discountPrice": 760,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NHFVWX1V7QJ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PHGQPRBBSXK",
@@ -2394,14 +2394,14 @@
       "description": "Захищайтеся від хвиль інопланетних монстрів в унікальному roguelike екшн-копачі. У проміжку між атаками вгризайтеся в землю, щоб добувати цінні ресурси й реліквії, а потім повертайтеся з ними до купола та відкривайте потужні поліпшення й нові корисні пристрої.\n\nАле незабаром прийдуть нещадні монстри... Чи наважитеся ви заглибитися в шахту? Або ж повернетеся на базу, щоб підготуватися до неминучої атаки? Вибір за вами, тільки робіть його швидше!\n \nКопайте \n\nБеріть бур і спорядження хранителя та швиденько рийте тунелі, щоб досліджувати глибини під куполом. У кожному проходженні на вас чекає унікальна, процедурно згенерована мапа, повна ресурсів і печер для дослідження, а також купи різноманітних пристроїв, які можна відшукати.\n\nЗахищайте \n\nОбороняйте купол, скориставшись його потужним арсеналом, щоб відбивати хвилі монстрів. Модернізуйте й ремонтуйте устаткування, а потім захищайтеся від різноманітних типів летючих і наземних ворогів, у кожного з яких власні методи атаки та траєкторія руху.\n \nРозвивайте \n\nВитрачайте ресурси на корисні поліпшення для оборони купола, посилення свердла або збільшення швидкості руху — вибирайте ретельно, щоб шанси вижити були максимальними.\n\nДосліджуйте \n\nОберіть спорядження під себе й знайдіть власний стиль гри: на вибір два унікальні хранителі, чотири різні куполи та чотири основні пристрої. Оберіть модифікатор проходження, підкалібруйте рівень складності й відшукайте десятки другорядних пристроїв, копаючись під землею.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.48800.14079008461384212.b22d67d3-497d-402a-afdb-593cf2c91f54.28d72a7c-9cb1-4afb-a6c3-eb62b3bb1aa1",
       "originalPrice": 630,
-      "discountPrice": 472.5,
-      "discountPercent": 25,
+      "discountPrice": 630,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P8XKV2D5DZ5",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9N6V2181GHLM",
@@ -2769,14 +2769,14 @@
       "description": "Echo Generation 2 is a turn-based sci-fi deckbuilding RPG from the creators of the award-winning Echo Generation (Best Indie Game, Best Narrative, Best Soundtrack).\n\nIn Echo Generation 2, you step into the past as Jack, the father. What begins as a family vacation spirals into a mystery of hidden experiments, impossible realities, and the truth behind it all.\n\n\nFeatures\n\nSix Playable Heroes\n\nBuild your party from six distinct characters, each with their own abilities, decks, and playstyles.\n\nForm a party of three in the Championships, and discover how characters work together to unlock powerful synergies.\n\n\nBreak the Enemy\n\nMaster a strategic stance system that rewards planning and timing. Match symbols to break enemy defenses, create openings, and unleash high-impact combos.\n\n\nBuild Your Strategy\n\nCustomize your playstyle with deck choices, skill trees, and badge upgrades. Shape each hero to fit your approach and experiment with team compositions to overcome increasing threats.\n\n\nA Multi-Perspective Story\n\nExperience a character-driven narrative told across multiple perspectives.  Each chapter follows different heroes, with distinct tones and worlds, from noir horror to neon-lit cyberpunk.\n\nAs these stories unfold, connections emerge, revealing a larger mystery.\n\n\nRetro 3D Pixel Aesthetic\n\nImmerse yourself in a richly detailed voxel world, crisp, colorful, and nostalgically crunchy, blending retro charm with modern visual polish.\n\n\nTurn Up the Synths\n\nCruise through the cosmos to an 80s-inspired analog synth soundtrack by Pusher, returning with an all-new interstellar score.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.34800.13910585715840872.59f91350-304f-4d12-aec0-2cd70d8a7740.764512ad-5155-4607-bd77-8da018d83a26",
       "originalPrice": 880,
-      "discountPrice": 792,
-      "discountPercent": 10,
+      "discountPrice": 880,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N17PD34G54M",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PDKDBQGG2N2",
@@ -3264,14 +3264,14 @@
       "description": "Fire alert incoming! With Firefighting Simulator-The Squad, you can become part of a major US city's firefighting team and experience how it feels to fight fires. \r\n\r\nStart the siren of your fire truck, grab your hose, and fight realistic fires to save lives. Discover over 30 diverse deployment locations spread across the city inspired by the North American West Coast. Equip yourself with authentic firefighting gear such as helmets, firefighter boots, and a breathing apparatus model by well-known North American firefighting equipment manufacturers. \r\n\r\nWhether in the industrial area, the suburbs, or downtown: Your city needs you! \r\n\r\nFeatures:\r\nMultiplayer co-op mode, where you can play with up to three friends and take on whichever role suits you most. Assign tasks to your team or jump into the action yourself. Together with your squad you can be the firefighting heroes of your city and save the lives of your neighbours.\r\n\r\nSingle player mode, where you can become the leader of an experienced firefighting team. Guide your squad to success in your missions and extinguish as many fires as possible.\r\n\r\nAdvanced fire simulation, including water, smoke, heat, back drafts, flashovers, grease fires, and a wide range of other causes of fires, such as electronics, chemicals, and explosions.\r\n\r\nFive licensed Rosenbauer America fire trucks, such as the TP3® Pumper, or the T-Rex® hydraulic platform.\r\n\r\nAuthentic equipment by well-known US firefighting industry brands, such as Cairns®, MSA G1® SCBA, and HAIX®. \r\n\r\nA detailed 15k acres large US city with different districts, such as an industrial area, suburbs, and downtown.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.21696.13574093128038227.7f017f9d-a7e7-46d3-ac09-ad5cece1a687.8c44ae06-7246-4ef6-856e-b9b3e480ec98",
       "originalPrice": 760,
-      "discountPrice": 250.8,
-      "discountPercent": 67,
+      "discountPrice": 760,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NBZ7Z3JRXQ8",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "BQQKG9H2STC0",
@@ -6009,14 +6009,14 @@
       "description": "PlateUp! combines chaotic kitchen and restaurant management with strategic planning and development to create a delightful roguelite dish unlike any other.\r\n\r\nUp to four players build and run a restaurant from scratch, choosing dishes, buying and placing appliances – some of which can be daisy-chained together to create ambitious automatic kitchens – cooking food and serving customers.\r\n\r\nPlayers have free rein to design their restaurant which will expand and develop between shifts – with additional content and challenges unlocked through progression.\r\n\r\nCan you cook, serve and manage your way through 15 hectic days in your restaurant and unlock a brand-new franchise?\r\n\r\nClassic co-op cooking action, with a wide selection of mains, sides, sauces, toppings, desserts, and starters.\r\nChoose your equipment, lay out your kitchen, curate your menu and plate up your dishes.\r\nFrom bubbling soups to sublime salads, tender steaks to hearty pies, there's something for everyone.\r\n\r\nLook after front-of-house: seating customers, delivering orders, and managing patience.\r\nEquip your restaurant to handle the most fickle of customers and deliver them what they need, right when they need it.\r\nCo-operate with your team like a well-olive-oiled machine or build a name for yourself going it alone.\r\nExceed your goals and take your franchise to greater heights at a new location, bringing with you new unlocks and upgrades.\r\n\r\nUpgrade and rearrange your restaurant to your personal taste: when the restaurant closes for the day, the planning begins!\r\nDecide what new equipment to purchase, and place it wherever you want.\r\nWant to go high-tech? Install the turbo-ovens, crank up the conveyors, and make way for the robo-kitchen of the future.\r\nFancy something a little more... fancy? Curate your art collection, fix up that wallpaper, enlist a friend as a maître d' and get ready to provide the culinary experience of a lifetime.\r\n\r\nExceed your goals and start over at your next location, bringing with you new unlocks and upgrades.\r\nTailor your brand towards gourmet dining, or fine-tune your fast food franchise.\r\nEvery restaurant is procedurally-generated with its own climate, customers and conditions.\r\nReturn to your franchise HQ to view your achievements, customise your characters and upgrade your kit, ready for your next adventure!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.57631.14557765520174668.1718d940-8154-42aa-b7e5-83e812dac193.25205be2-f2b8-46d3-889f-4c0bedc93f2e",
       "originalPrice": 505,
-      "discountPrice": 151.5,
-      "discountPercent": 70,
+      "discountPrice": 505,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P2HHT3VS7MP",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P0NPLQ9P1DB",
@@ -6879,14 +6879,14 @@
       "description": "NEW OPERATIVE, NEW THREAT, NEW EPIC CAMPAIGN\nOffering unparalleled sniping mechanics, stealth and tactical third-person combat, Sniper Elite: Resistance turns the attention of the award-winning series towards a hidden war, far from the front lines, deep within the heart of occupied France.\nIn a gripping new story that runs parallel with Sniper Elite 5, Harry Hawker, agent of the Special Operations Executive (SOE), takes the lead for the first time as he discovers an insidious new Wunderwaffe - something so powerful, it guarantees the Nazis will win the war.\nWorking with the French Resistance, this deadly addition to the Reich's arsenal must be eliminated.\nMultiple Kill List targets, and different infiltration and extraction points give you an unequalled choice with how to accomplish objectives and create your own playstyle.\nThe full campaign can also be experienced in co-op. Fight against the Nazi war machine with an ally to share weapons, items and tactical know-how, as well as help each other get back in the fight when you go down during firefights.\n\nVISCERAL X-RAY KILL CAM AND ADVANCED GUNPLAY PHYSICS \nThe trademark X-ray kill cam returns, showing the true destructive power of every one of your signature shots. Bones deflect bullets to unpredictably rip new paths through enemy bodies and SMGs and pistols also trigger kill cams, showing multiple bullet shots in dramatic slow motion.\nTo land that shot you will need to think like a true sniper. Factor in rifle stock and barrel options along with gravity, wind and heart rate while you zero your sights on the target.\n\nAUTHENTIC WORLD WAR II WEAPONS AND CUSTOMISATION \nThe arsenal at your disposal will feature returning franchise favourites as well as a host of new authentic WWII weapons. Picking your loadout will be key to striking down the Reich’s nefarious plans! \nCustomise your weapon to suit your operating style. Find workbenches scattered around the campaign to customise and upgrade your rifles, secondaries and pistols with new scopes, stocks, barrels, magazines and more. Also remember to pick the right ammo for the right job, whether you need armour-piercing shells or a non-lethal takedown.\n\nPROPAGANDA MISSIONS – BE THE RESISTANCE\nLocate unique Propaganda posters across the main campaign and step into the shoes of a French Resistance fighter in all new Propaganda missions. During these scenarios, sneak, snipe and take down enemies to complete time-sensitive objectives and help end the Nazi occupation.\n\nAXIS INVASION MODE\nThe fan-favourite Axis Invasion mode is back! invade another player’s Campaign as an Axis sniper and engage in a deadly game of cat and mouse. Whether you stalk your prey, lay an ambush, or run in guns blazing, the threat of invasion provides a new dimension to the campaign’s challenge. \n\nTENSE ONLINE MULTIPLAYER \nWhen you’ve mastered your rifle, customise your character and loadout as you take the fight online in competitive 16-player battles to earn XP, medals and ribbons.\nIf competition isn’t your style, you can also team up with up to 3 other players against waves of enemies in Survival mode.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.55270.13884837624671830.a1b4bcb8-63aa-419a-ac34-76ae03d6dca7.ac396b37-681e-4a66-bec8-0bb4bbe9c4a1",
       "originalPrice": 1540,
-      "discountPrice": 770,
-      "discountPercent": 50,
+      "discountPrice": 1540,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MXRG5GCRPXZ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NP6WL1XQDBW",
@@ -9175,20 +9175,6 @@
       "price": 420,
       "percent": 30,
       "timestamp": "2026-07-03T15:08:25.816Z",
-      "type": "discount"
-    },
-    "steam_popular_252490": {
-      "title": "Rust",
-      "price": 389,
-      "percent": 50,
-      "timestamp": "2026-06-12T10:06:20.233Z",
-      "type": "popular"
-    },
-    "steam_discount_3276050": {
-      "title": "SpaceCraft",
-      "price": 602,
-      "percent": 10,
-      "timestamp": "2026-06-12T10:06:20.233Z",
       "type": "discount"
     },
     "steam_discount_3105440": {
