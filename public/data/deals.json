@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T05:54:35.781Z",
+  "lastUpdated": "2026-07-12T08:11:51.984Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -152,26 +152,14 @@
       "isPopular": false
     },
     {
-      "id": "1771300",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
-      "originalPrice": 1599,
-      "discountPrice": 639,
-      "discountPercent": 60,
+      "id": "2749950",
+      "title": "Esports Manager 2026",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/eddaddc1b8752c6f64f1d32ca42095d0611c21c8/capsule_616x353.jpg?t=1783451404",
+      "originalPrice": 415,
+      "discountPrice": 332,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1771300",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1984270",
-      "title": "Digimon Story Time Stranger",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1984270/86a9e0f67df177da7f74a01ad51a086c1b9ae3e0/capsule_616x353.jpg?t=1783566003",
-      "originalPrice": 1999,
-      "discountPrice": 1139,
-      "discountPercent": 43,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1984270",
+      "url": "https://store.steampowered.com/app/2749950",
       "isSpecial": true,
       "isPopular": false
     },
@@ -212,26 +200,14 @@
       "isPopular": true
     },
     {
-      "id": "4032350",
-      "title": "EA SPORTS™ College Football 27",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4032350/78f6aee0ab19432cc9addd80b7bcf77d3aee98f3/capsule_616x353.jpg?t=1783700053",
-      "originalPrice": 2199,
-      "discountPrice": 2199,
+      "id": "3839790",
+      "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Standard Edition)",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839790/535e83714c9d614041b546fca1b036d26f527809/capsule_616x353.jpg?t=1783675384",
+      "originalPrice": 799,
+      "discountPrice": 799,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4032350",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
+      "url": "https://store.steampowered.com/app/3839790",
       "isSpecial": false,
       "isPopular": true
     }
