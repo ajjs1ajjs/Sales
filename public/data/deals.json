@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T22:53:40.473Z",
+  "lastUpdated": "2026-07-13T23:52:13.354Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -164,14 +164,14 @@
       "isPopular": false
     },
     {
-      "id": "2749950",
-      "title": "Esports Manager 2026",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/eddaddc1b8752c6f64f1d32ca42095d0611c21c8/capsule_616x353.jpg?t=1783970464",
-      "originalPrice": 415,
-      "discountPrice": 332,
-      "discountPercent": 20,
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2749950",
+      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isPopular": false
     },
@@ -10315,6 +10315,13 @@
       "price": 269,
       "percent": 50,
       "timestamp": "2026-07-13T18:41:36.323Z",
+      "type": "discount"
+    },
+    "steam_discount_275850": {
+      "title": "No Man's Sky",
+      "price": 450,
+      "percent": 60,
+      "timestamp": "2026-07-13T23:52:04.590Z",
       "type": "discount"
     }
   }
