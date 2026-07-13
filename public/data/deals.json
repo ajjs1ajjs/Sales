@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T18:41:42.840Z",
+  "lastUpdated": "2026-07-13T20:11:58.329Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -104,14 +104,14 @@
       "isPopular": false
     },
     {
-      "id": "703080",
-      "title": "Planet Zoo",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/703080/capsule_616x353.jpg?t=1765896213",
-      "originalPrice": 830,
-      "discountPrice": 41,
-      "discountPercent": 95,
+      "id": "1671210",
+      "title": "DELTARUNE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
+      "originalPrice": 499,
+      "discountPrice": 399,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/703080",
+      "url": "https://store.steampowered.com/app/1671210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -128,18 +128,6 @@
       "isPopular": false
     },
     {
-      "id": "1671210",
-      "title": "DELTARUNE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
-      "originalPrice": 499,
-      "discountPrice": 399,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1671210",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4380490",
       "title": "Cat Mail Co.",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/6e4907425b2795c1c7e35dd454d4970266178288/capsule_616x353.jpg?t=1783683473",
@@ -148,6 +136,18 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4380490",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "703080",
+      "title": "Planet Zoo",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/703080/capsule_616x353.jpg?t=1765896213",
+      "originalPrice": 830,
+      "discountPrice": 41,
+      "discountPercent": 95,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/703080",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9203,20 +9203,6 @@
       "percent": 30,
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
-    },
-    "steam_discount_3105440": {
-      "title": "Heroes of Might and Magic: Olden Era",
-      "price": 449,
-      "percent": 25,
-      "timestamp": "2026-06-13T19:20:53.132Z",
-      "type": "discount"
-    },
-    "steam_popular_3105440": {
-      "title": "Heroes of Might and Magic: Olden Era",
-      "price": 449,
-      "percent": 25,
-      "timestamp": "2026-06-13T19:20:53.132Z",
-      "type": "popular"
     },
     "steam_discount_1681430": {
       "title": "RoboCop: Rogue City",
