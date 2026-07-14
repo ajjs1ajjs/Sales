@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T17:59:00.842Z",
+  "lastUpdated": "2026-07-14T19:35:06.706Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -116,18 +116,6 @@
       "isPopular": false
     },
     {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "367270",
       "title": "Angels Fall First",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367270/26990b5d2fe9c588550682ef89b30970edcbe67a/capsule_616x353.jpg?t=1783807186",
@@ -136,6 +124,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/367270",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2209900",
+      "title": "Moonlight Peaks",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/86fad83c53a1d9b21b66abf89827b21f0e45ed4a/capsule_616x353.jpg?t=1783444081",
+      "originalPrice": 1260,
+      "discountPrice": 1071,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2209900",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,26 +152,26 @@
       "isPopular": false
     },
     {
-      "id": "2749950",
-      "title": "Esports Manager 2026",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/eddaddc1b8752c6f64f1d32ca42095d0611c21c8/capsule_616x353.jpg?t=1783970464",
-      "originalPrice": 415,
-      "discountPrice": 332,
-      "discountPercent": 20,
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2749950",
+      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "2209900",
-      "title": "Moonlight Peaks",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/86fad83c53a1d9b21b66abf89827b21f0e45ed4a/capsule_616x353.jpg?t=1783444081",
-      "originalPrice": 1260,
-      "discountPrice": 1071,
+      "id": "4380490",
+      "title": "Cat Mail Co.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/6e4907425b2795c1c7e35dd454d4970266178288/capsule_616x353.jpg?t=1784045214",
+      "originalPrice": 306,
+      "discountPrice": 260,
       "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2209900",
+      "url": "https://store.steampowered.com/app/4380490",
       "isSpecial": true,
       "isPopular": false
     },
@@ -1106,7 +1106,7 @@
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/BSLX1RNXR6H7",
       "isGamePass": true,
-      "isNewToGamePass": true,
+      "isNewToGamePass": false,
       "isComingSoon": false,
       "isDiscounted": false
     },
