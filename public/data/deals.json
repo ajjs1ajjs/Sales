@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T14:46:21.749Z",
+  "lastUpdated": "2026-07-14T16:11:08.088Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -140,18 +140,6 @@
       "isPopular": false
     },
     {
-      "id": "710230",
-      "title": "Urban Strife",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/710230/5a11479b89229a7bddf7037a57a93e71e5123054/capsule_616x353.jpg?t=1784039019",
-      "originalPrice": 700,
-      "discountPrice": 490,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/710230",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "367270",
       "title": "Angels Fall First",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367270/26990b5d2fe9c588550682ef89b30970edcbe67a/capsule_616x353.jpg?t=1783807186",
@@ -184,6 +172,18 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2209900",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "710230",
+      "title": "Urban Strife",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/710230/5a11479b89229a7bddf7037a57a93e71e5123054/capsule_616x353.jpg?t=1784039019",
+      "originalPrice": 700,
+      "discountPrice": 490,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/710230",
       "isSpecial": true,
       "isPopular": false
     },
@@ -3631,7 +3631,7 @@
       "id": "9PF2ZS4XB4JH",
       "title": "GOALS",
       "description": "GOALS is a fast, responsive football game built for pure skill, real competition, and a global community. Every match feels sharp thanks to instant inputs, custom physics, and smarter AI that keep the game flowing. It’s fully free to play with no paywalls, updated continuously, and played across PC and console in one shared ecosystem.\n\nYour squad is truly yours - every player in the game is unique, grows over time, peaks, and eventually retires, creating a living football world that never repeats itself. And with a competitive foundation built from day one, GOALS is ready for creators, tournaments, and high-level play the moment you load in.\n\nGAMEPLAY FIRST\nBuilt on responsiveness, balance, and custom physics. No input delay. Smarter AI.\nProcedural characters add endless variety, while our in-house matchmaking adapts to skill and regional liquidity for consistently sharp, high-quality matches.\n\nFREE TO PLAY\nA football game with no paywalls, no barriers, and no locked-off modes. Fully accessible from the start and built as a global live service. New content, features, and events are introduced continuously, making the game grow alongside the community and staying fresh for every type of player.\n\nCROSSPLAY FOR REAL\nTrue crossplay across PC and consoles, one unified playerbase with no platform barriers. Everyone plays together in the same ecosystem, with shared progression and a single global community that grows stronger as more players join.\n\nUNIQUE PLAYERS & PROGRESSION\nEvery player is truly unique, no duplicates, no clones. Your squad is yours alone. Players grow, peak, and eventually retire, creating a living ecosystem of team-building and discovery that traditional licensed games can’t offer. Streamers, influencers, and legends can join as Originals, giving global appeal with zero licensing barriers and endless possibilities for fresh matchups.\n\nESPORTS READY\nBuilt for real competition. No hidden mechanics, no scripting, just pure skill. Ranked, ladders, and custom tournaments are built in from day one, supported by full spectator tools and replay systems for creators and esports. The entire game, from netcode to gameplay, is engineered for high-skill play and competitive integrity.\n\nGAME MODES\nGOALS is built for every type of player, from hardcore competitors to casual social players and those who want to train alone. All modes share the same progression, matchmaking, and underlying competitive integrity, ensuring fast queues and consistent gameplay across the board.\n\n• 1v1\n• 2v2 Coming soon.\n• 5v5 Coming soon.\n• Solo vs AI\n\n",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.43721.14212860962709000.5ab52623-b468-458c-8ed1-633022aec084.83284e15-2095-479b-8ea2-1f0d35976814",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.47503.14212860962709000.df32da00-c18c-45f6-a4b4-4e82dfd43691.2f5ee415-8fef-4f83-8703-af0958605d37",
       "originalPrice": 0,
       "discountPrice": 0,
       "discountPercent": 0,
