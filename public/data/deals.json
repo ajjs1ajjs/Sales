@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T23:52:13.354Z",
+  "lastUpdated": "2026-07-14T02:08:47.549Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -89,7 +89,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "1174180",
@@ -100,18 +100,6 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "367270",
-      "title": "Angels Fall First",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367270/26990b5d2fe9c588550682ef89b30970edcbe67a/capsule_616x353.jpg?t=1783807186",
-      "originalPrice": 259,
-      "discountPrice": 233,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/367270",
       "isSpecial": true,
       "isPopular": false
     },
@@ -128,6 +116,18 @@
       "isPopular": false
     },
     {
+      "id": "367270",
+      "title": "Angels Fall First",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367270/26990b5d2fe9c588550682ef89b30970edcbe67a/capsule_616x353.jpg?t=1783807186",
+      "originalPrice": 259,
+      "discountPrice": 233,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/367270",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2209900",
       "title": "Moonlight Peaks",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/86fad83c53a1d9b21b66abf89827b21f0e45ed4a/capsule_616x353.jpg?t=1783444081",
@@ -136,6 +136,18 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2209900",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isPopular": false
     },
@@ -164,14 +176,14 @@
       "isPopular": false
     },
     {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
+      "id": "3159330",
+      "title": "Assassin’s Creed Shadows",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/2d5536f7e9f72d7844c59c5dc1416f7b756d3ad4/capsule_616x353.jpg?t=1775589420",
+      "originalPrice": 1999,
+      "discountPrice": 899,
+      "discountPercent": 55,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
+      "url": "https://store.steampowered.com/app/3159330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -5821,6 +5833,21 @@
       "isDiscounted": false
     },
     {
+      "id": "9PJRQHMCFQGS",
+      "title": "PBA Pro Bowling 2026",
+      "description": "Серія PBA Pro Bowling повертається зі своїм найкращим творінням — PBA Pro Bowling 2026. Це не просто оновлення — це абсолютно нова гра, переосмислена та розроблена з нуля. Проходьте гру у обширному режимі кар'єри з чудовим редактором персонажів або змагайтеся з друзями та суперниками онлайн. Насолоджуйтеся найкращим ігровим процесом з оновленою фізикою куль і кеглів, покращеною імітацією нанесення олії та реалістичним розподілом олії на доріжці. PBA Pro Bowling 2026 пропонує нові режими гри, місця змагань, професіоналів, кулі, щоденні цілі та інше. Це досконала гра про боулінг, в якій є все, що люблять і шанувальники, і звичайні гравці.\nНовітня фізика\nPBA Pro Bowling 2026 — найамбіційніша гра про боулінг усіх часів. Завдяки новітньому рушію гра має приголомшливу графіку, відточену фізику та модернізований ігровий процес, що передає справжні відчуття від цього виду спорту.\nНовий, повністю перетворений режим кар'єри\nНа відміну від того, що було в попередніх частинах серії, тут режим кар'єри перероблено з нуля. Почніть як новачок у лізі рідного міста та пробийтеся на професійний турнір з боулінгу PBA Pro Tour, просуваючись у рейтингу та збираючи нові кулі та спорядження. Оберіть власний шлях: зосередьтеся на традиційних змаганнях із боулінгу чи спробуйте такі цікаві альтернативні режими, як страйк-дербі або кендлпін-боулінг. Просувайтеся від місцевих до національних змагань і станьте новою легендою.\nНові режими гри\nКендлпін-боулінг, дакпін-боулінг, страйк-дербі, випробування зі збиттям окремих кеглів і рулетка способів нанесення олії — усе це свіжі способи урізноманітнити ігровий процес.\nНові захопливі місця змагань\nКатайте кулі в 13 приголомшливих локаціях: від реальних знакових місць, як-от Національний стадіон для боулінгу в Ріно, штат Невада, до вигаданих на кшталт підводного боулінгу. У цьому виданні додано 2 цілком нові майданчики, а всі 11 улюблених місць із минулих ігор повністю перероблено для надання їм напрочуд автентичного й разючого зовнішнього вигляду.\nЗберіть свою колекцію куль\nКожну кулю точно відтворено з урахуванням природних властивостей і матеріалу, тож не знадобиться жодних поліпшень чи купівель у грі. Зберіть ідеальну колекцію, яка пасуватиме під будь-яку з доріжок, просувайтесь у кар'єрі та відкривайте нові кулі. Ви зможете зібрати загалом 272 кулі від улюблених реальних брендів, серед яких 100 нових моделей і досі небачені анімовані кулі, що зроблять колекцію справді унікальною.\nГрайте з профі\nВипробуйте свої сили проти 32 найкращих зірок PBA сучасності, втілених у грі за допомогою новітніх технологій. Киньте виклик легендам і молодим зіркам, зокрема 7 нещодавно доданим персонажам, як-от Пеккі Хенрахан, Ей Джей Джонсон і Кайл Шерман. Подолайте їх усіх і станьте першим.\nОфіційна ліцензія PBA і трансляції з коментарями\nГра PBA Pro Bowling 2026 має офіційну ліцензію від Асоціації професійних боулерів (PBA), а коментує ігри телевізійна команда Роба Стоуна та члена Зали слави Ренді Педерсена.\n",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.14347.14276876348664667.9e0ca272-03d8-4736-b77b-d1224ceb323a.3e098c80-9fc8-48d6-bd57-a281a8ff5168",
+      "originalPrice": 1405,
+      "discountPrice": 1405,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9PJRQHMCFQGS",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
       "id": "9MVPD3Z5N4QL",
       "title": "Peggle®",
       "description": "Want to be a Peggle Master? Take your best shot! Shoot and clear the orange pegs to achieve Extreme Fever as 10 outlandish teachers help you rise to Peggle greatness. Conquer 55 levels and wield 10 Magic Powers in Adventure mode... and the fun is just getting started!\r\n\r\n\r\n\r\nPut your skills to the ultimate test with 75 challenges as you rack up bonus points and style shots you'll smile about for weeks. Face off against friends or the computer in Duel mode. It's an epic blend of luck and skill that msnbc.com calls one of the \"Top 5 most addictive video games of all time!\"\r\n\r\n\r\n\r\nFeatures\r\n\r\n\r\n\r\n- Winner of over a dozen awards, including Action & Arcade Game of the Year (Zeeby Awards, 2008) and Editor's Choice - PC Casual Game of the Year (1Up.com, 2008)\r\n\r\n- Master 55 levels and 10 Magic Powers!\r\n\r\n- Conquer 75 Grand Master challenges!\r\n\r\n- Play friends or the computer in Duel Mode!\r\n\r\n- Save and replay your hottest shots!\r\n\r\n- Revel in breathtaking artwork and music!\r\n\r\nCONDITIONS AND RESTRICTIONS APPLY. SEE EA.COM/LEGAL FOR DETAILS.",
@@ -5961,14 +5988,14 @@
       "description": "Світ після появи машин\nНа рідній планеті Лани й Муї нові технології приносять прогрес, але також пробуджують жадобу й порушують рівновагу. Коли різні племена по-своєму засвоюють технології, напруга зростає, а гармонія світу починає відступати. Коли ті, що прагнуть влади, заходять надто далеко, Лана і її звіренятко мають вирушити в подорож, що відкриває давно поховані істини про їхню планету — і про них самих.\n\nСвіт, що розповідає про себе\nПодорожуйте замерзлими вершинами, глибокими океанами й забутими руїнами в мальованому світі, де природа співіснує з технологіями. У грі немає діалогів: персонажі розмовляють чужопланетною мовою. А отже, сам світ, музика й ваші дії розкривають сюжетну лінію й запрошують вас знайти в ній власний сенс.\n\nПодорож, де дружба — найголовніше  \nPlanet of Lana II — це кінематографічна пригодницька гра-головоломка, побудована на взаємовиручці й довірі. Керуйте старшою, спритнішою Ланою та її вірним звіренятком Муї — їхній зв’язок стає ключем до руху вперед у світі, де краса й небезпека існують пліч-о-пліч.\n\nРозумні головоломки й плавний рух\nГоловоломки органічно вплетено у світ гри, винагороджуючи уважність, вчасні дії та співпрацю, а не складну логіку. Використовуйте збільшену спритність Лани — від стрибків від стін до плавних рухів та інерції, — щоб прокладати шлях крізь небезпечні ділянки.\n\nЕмоційна пригода з продуманим розвитком сюжету\nПід час мандрів Лани й Муї вони відкривають таємниці історії своєї планети й правду про походження Муї. Їхня подорож стає зворушливою оповіддю про співіснування, відповідальність і ціну прогресу. Вона розгортається на фоні проникливої оркестрової музики, яка підкреслює важливість тихих пауз, сміливих відкриттів і кожного емоційного повороту протягом пригоди, що триватиме 6–8 годин.\n\nСамостійна пригода\nPlanet of Lana II вітає нових гравців і водночас пропонує тим, хто вже знайомий із серією, ще більше — зворушливу історію про єдність, незламність і захист того, що лишається важливим у мінливому світі.\n\nГоловні особливості\n\nКінематографічний платформер-головоломка\nПригода з глибоким сюжетом і кінематографічною атмосферою, під час якої ви будете досліджувати локації і розв’язувати головоломки, взаємодіючи з оточенням.\n\nВаш вірний супутник у подорожі\nЕмоційна пригода, у центрі якої — дружба між Ланою та її звіренятком Муї.\n\nМальований світ на порозі змін\nДосліджуйте дивовижну планету, де зіштовхнулися природа й технології та різні племена по-різному реагують на прогрес.\n\nДинамічне дослідження, більше рухливості\nКеруйте старшою, спритнішою Ланою: стрибки від стін, плавне долання перешкод і динамічний рух у різноманітних локаціях.\n\nРізноманітні розумні головоломки\nГоловоломки органічно вплетено у світ гри — з акцентом на спостережливість, вчасні дії та співпрацю, а не складну логіку.\n\nІсторія без слів\nУ грі немає діалогів. Сенс розкривається через візуальний ряд, музику й вашу взаємодію зі світом.\n\nЕмоційна науково-фантастична оповідь із продуманим розвитком сюжету\nВідкривайте нові істини про планету й минуле Муї протягом кінематографічної подорожі тривалістю 6–8 годин у супроводі проникливої оркестрової музики.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.15678.14317666116941426.e57b1e7d-4597-43f1-a958-a00160b1a5c4.96258332-65ba-41f0-adb8-34144d09d2af",
       "originalPrice": 700,
-      "discountPrice": 700,
-      "discountPercent": 0,
+      "discountPrice": 525,
+      "discountPercent": 25,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PL89B9HCZ9W",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N0X5NFZTQJK",
@@ -10323,6 +10350,20 @@
       "percent": 60,
       "timestamp": "2026-07-13T23:52:04.590Z",
       "type": "discount"
+    },
+    "steam_discount_3159330": {
+      "title": "Assassin’s Creed Shadows",
+      "price": 899,
+      "percent": 55,
+      "timestamp": "2026-07-14T02:08:41.048Z",
+      "type": "discount"
+    },
+    "xbox_new_9PJRQHMCFQGS": {
+      "title": "PBA Pro Bowling 2026",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-14T02:08:41.048Z",
+      "type": "xbox_new"
     }
   }
 }
