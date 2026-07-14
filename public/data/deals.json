@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T07:57:44.931Z",
+  "lastUpdated": "2026-07-14T10:01:00.157Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -92,18 +92,6 @@
       "isPopular": false
     },
     {
-      "id": "1671210",
-      "title": "DELTARUNE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
-      "originalPrice": 499,
-      "discountPrice": 399,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1671210",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -112,6 +100,18 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1671210",
+      "title": "DELTARUNE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
+      "originalPrice": 499,
+      "discountPrice": 399,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1671210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,6 +152,18 @@
       "isPopular": false
     },
     {
+      "id": "2749950",
+      "title": "Esports Manager 2026",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/eddaddc1b8752c6f64f1d32ca42095d0611c21c8/capsule_616x353.jpg?t=1783970464",
+      "originalPrice": 415,
+      "discountPrice": 332,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2749950",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "703080",
       "title": "Planet Zoo",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/703080/capsule_616x353.jpg?t=1765896213",
@@ -160,18 +172,6 @@
       "discountPercent": 95,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/703080",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2209900",
-      "title": "Moonlight Peaks",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/86fad83c53a1d9b21b66abf89827b21f0e45ed4a/capsule_616x353.jpg?t=1783444081",
-      "originalPrice": 1260,
-      "discountPrice": 1071,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2209900",
       "isSpecial": true,
       "isPopular": false
     },
@@ -7683,14 +7683,14 @@
       "description": "ГРА НА ВИЖИВАННЯ ЩЕ НІКОЛИ НЕ ЗАЧІПАЛА ТАКИХ ГЛИБИН ДУШІ\nThe Alters — амбітна науково-фантастична гра на виживання, яких ви ще не бачили. Відчуйте себе в ролі Яна Дольського, єдиного учасника космічної експедиції, який врятувався після невдалого приземлення на ворожій планеті. Задля виживання вам необхідно сформувати новий екіпаж для мобільної бази. Користуючись речовиною під назвою рапідій, створюйте альтернативні версії Яна, — АЛЬТЕРСІВ, — кожна з яких є втіленням вибору різних доленосних рішень із минулого протагоніста.\n\nСтворюйте власних альтерсів\nЗа допомогою квантового комп'ютера, що знаходиться на борту вашої бази, змоделюйте альтернативні варіанти минулих виборів Яна й дізнайтеся, якими могли б бути його життєві стежки. Кожен альтерс, що оживає завдяки дивовижним властивостям рапідія, наділений унікальними навичками й переживаннями. Подібне рішення одночасно створює як можливості, так і виклики, адже вам доведеться зіткнутися з особистими труднощами й підтримувати крихку рівновагу в команді.\n\nОсобливості виживання\nЩоб користуватися мобільною базою, вам доведеться досліджувати поверхню планети в пошуках цінних ресурсів, як-от метали та органічні сполуки. Однак перебування за межами безпечного прихистку супроводжується ризиком зустрічі із різноманітними смертельними аномаліями, а також впливом сонячної радіації. Тому варто враховувати цикл зміни дня і ночі в грі й ретельно планувати свої справи впродовж доби!\n\nРозгалужена історія\nПросувайтеся неймовірною сюжетною лінією, сповненою моральних дилем і численних розгалужень. Ваш вибір визначатиме стосунки Яна з його альтерсами, що позначиться на вашій подорожі й матиме різні наслідки, а отже вплине й на кінцівку історії.\n\nРозширюйте базу\nЗібрані ресурси можна витратити як вам треба: зробити необхідні предмети або поліпшити базу за допомогою додаткових модулів, як-от дослідницька лабораторія або кімната дозвілля. Іноді вам доведеться обирати між створенням предметів суто для альтерсів, і тих, що можуть посприяти успіху місії, як-от детектори аномалій або радіаційні фільтри. Тягар кожного рішення лежатиме виключно на ваших плечах, бо задовольнити потреби всіх не вийде.\n\nДослідження\nНа планеті повно унікальних біомів і таємниць, які треба розгадати, але на вашому шляху стоять смертельні аномалії. Левітуючі каменюки й моторошні викривлення реальності миттєво привертають увагу, тоді як інші сингулярності ніяк не побачити неозброєним оком: для цього вам знадобляться особливі інструменти. У будь-якому випадку ви повинні бути дуже обережними, бо ризикуєте миттєво загинути, отримати травми від радіації і навіть зіткнутися із розпадом часу-простору. Крім того, намагайтеся уникати дослідження планети в години, коли особливо сильна радіація може роз'їсти ваш костюм. Щасливої подорожі!\n\nНауково-фантастична історія, яка відгукується у серці\nЯн Дольський буквально зможе отримати відповідь на гнітюче питання: «А що, якби?..», співпрацюючи з альтернативними версіями самого себе. А це ще більше ускладнює його становище, оскільки ви поволі починаєте розуміти, як кожен вибір впливає на виживання Яна.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38282.13917104365848520.a4bd4730-c578-4118-a439-d16f88dde25a.44b2ea97-4aef-4233-a76d-cffc0db061a0",
       "originalPrice": 895,
-      "discountPrice": 447.5,
-      "discountPercent": 50,
+      "discountPrice": 895,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N0P25WJHM8C",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PN3VDFTB5HZ",
@@ -7923,14 +7923,14 @@
       "description": "The Gunk stars Rani, part of our duo of gritty space haulers, struggling to make a buck as they chance upon an untouched planet brimming with life. They came in search of valuable resources, and it looks like they’ve hit the jackpot…\r\n\r\nAs they uncover the dormant secrets of a shattered civilization, they must battle the curse of a toxic gunk parasite, all while getting caught in a spiral of festering mistrust.\r\n\r\nUse your trusty Power Glove to reverse the corruption, uncover secrets of old and heal the planet! Experience the evolving relationship of the crew, as you explore this unique planet. Use your ingenuity as well as your quick reactions to overcome the challenges that await. What stories lay hidden in this mysterious abandoned world? \r\n\r\nWhat does it all mean? What role can Rani play in the fate of this evocative, moody planet? Sometimes you just have to take a leap of faith. \r\n\r\nUncover the mystery. Cleanse the Gunk. Save the planet. \r\n\r\nFEATURES:\r\nEngaging Exploration: Discover a lush jungle planet with damp caves, venture into the unknown and explore a bygone society.\r\nCorruption & Regrowth: Eradicate the gunk, restore nature, and transform the world around you. Employ the revived plant life to delve deeper into this strange and wondrous ecosystem.\r\nIntimate Narrative: The narrative is intrinsically linked with the exploration, where our two main characters keep in tight radio contact throughout the game. Fiona Nova lends her voice in a stellar performance as main character Rani.\r\nMusic & Atmosphere: The Gunk invites you to take the time and listen to its soothing tunes. An explorative atmosphere conveyed through an evocative art style. Kick your feet back and enjoy an adventure like no other!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.58106.14466083566107896.f1b98327-0240-4097-b759-cc5bd89ee66e.5fab2823-b931-4d24-bf6d-46d16533da2e",
       "originalPrice": 640,
-      "discountPrice": 64,
-      "discountPercent": 90,
+      "discountPrice": 640,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P008L2LS87F",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NFKN56ZBMR0",
