@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T19:35:06.706Z",
+  "lastUpdated": "2026-07-14T20:57:36.388Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -128,18 +128,6 @@
       "isPopular": false
     },
     {
-      "id": "2209900",
-      "title": "Moonlight Peaks",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/86fad83c53a1d9b21b66abf89827b21f0e45ed4a/capsule_616x353.jpg?t=1783444081",
-      "originalPrice": 1260,
-      "discountPrice": 1071,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2209900",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3159330",
       "title": "Assassin’s Creed Shadows",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/2d5536f7e9f72d7844c59c5dc1416f7b756d3ad4/capsule_616x353.jpg?t=1775589420",
@@ -160,6 +148,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/275850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2947440",
+      "title": "SILENT HILL f",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/fff09a07dbcb20b4fbfcc1105dcef9fe9d06e1b3/capsule_616x353.jpg?t=1770169624",
+      "originalPrice": 1475,
+      "discountPrice": 737,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2947440",
       "isSpecial": true,
       "isPopular": false
     },
@@ -10358,6 +10358,13 @@
       "price": 490,
       "percent": 30,
       "timestamp": "2026-07-14T14:46:16.487Z",
+      "type": "discount"
+    },
+    "steam_discount_2947440": {
+      "title": "SILENT HILL f",
+      "price": 737,
+      "percent": 50,
+      "timestamp": "2026-07-14T20:57:30.856Z",
       "type": "discount"
     }
   }
