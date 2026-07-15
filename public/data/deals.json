@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T23:02:47.889Z",
+  "lastUpdated": "2026-07-15T02:06:27.106Z",
   "epic": [
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
@@ -116,18 +116,6 @@
       "isPopular": false
     },
     {
-      "id": "367270",
-      "title": "Angels Fall First",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367270/26990b5d2fe9c588550682ef89b30970edcbe67a/capsule_616x353.jpg?t=1783807186",
-      "originalPrice": 259,
-      "discountPrice": 233,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/367270",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1304930",
       "title": "The Outlast Trials",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/4aaf4d66ab40042a48a69cc8c96c142efc35aa57/capsule_616x353_alt_assets_3.jpg?t=1784039821",
@@ -140,14 +128,14 @@
       "isPopular": false
     },
     {
-      "id": "2947440",
-      "title": "SILENT HILL f",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/fff09a07dbcb20b4fbfcc1105dcef9fe9d06e1b3/capsule_616x353.jpg?t=1770169624",
-      "originalPrice": 1475,
-      "discountPrice": 737,
-      "discountPercent": 50,
+      "id": "367270",
+      "title": "Angels Fall First",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367270/26990b5d2fe9c588550682ef89b30970edcbe67a/capsule_616x353.jpg?t=1783807186",
+      "originalPrice": 259,
+      "discountPrice": 233,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2947440",
+      "url": "https://store.steampowered.com/app/367270",
       "isSpecial": true,
       "isPopular": false
     },
@@ -160,6 +148,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/275850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2947440",
+      "title": "SILENT HILL f",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/fff09a07dbcb20b4fbfcc1105dcef9fe9d06e1b3/capsule_616x353.jpg?t=1770169624",
+      "originalPrice": 1475,
+      "discountPrice": 737,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2947440",
       "isSpecial": true,
       "isPopular": false
     },
