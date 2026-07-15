@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T21:56:44.454Z",
+  "lastUpdated": "2026-07-15T22:58:05.163Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -156,6 +156,18 @@
       "isPopular": false
     },
     {
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/275850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "367270",
       "title": "Angels Fall First",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367270/26990b5d2fe9c588550682ef89b30970edcbe67a/capsule_616x353.jpg?t=1783807186",
@@ -168,26 +180,14 @@
       "isPopular": false
     },
     {
-      "id": "1996010",
-      "title": "Crow Country",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1996010/capsule_616x353.jpg?t=1781799922",
-      "originalPrice": 415,
-      "discountPrice": 124,
-      "discountPercent": 70,
+      "id": "3892270",
+      "title": "Gamble With Your Friends",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1782258835",
+      "originalPrice": 187,
+      "discountPrice": 115,
+      "discountPercent": 39,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1996010",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
+      "url": "https://store.steampowered.com/app/3892270",
       "isSpecial": true,
       "isPopular": false
     },
@@ -8824,14 +8824,14 @@
       "description": "Play as Marcus Holloway, a brilliant young hacker living in the birthplace of the tech revolution, the San Francisco Bay Area.\nTeam up with Dedsec, a notorious group of hackers, to execute the biggest hack in history; take down ctOS 2.0, an invasive operating system being used by criminal masterminds to monitor and manipulate citizens on a massive scale.\n\n·         Explore the dynamic open-world, full of gameplay possibilities\n·         Hack into every connected device and take control of the city infrastructure.\n·         Develop different skills to suit your playstyle, and upgrade your hacker tools – RC cars, Quadcopter drone, 3D printed weapons and much more.\n·         Stay seamlessly connected to your friends with a brand new co-op and adversarial multiplayer Watch Dogs experience.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38484.69997608528322872.06dc9610-5c4e-484e-b028-58ad215e637a.29a8afc9-c3c7-4b3d-8e9f-f1b2858db4f8",
       "originalPrice": 1810,
-      "discountPrice": 1810,
-      "discountPercent": 0,
+      "discountPrice": 90.5,
+      "discountPercent": 95,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NLFKBTNP2VJ",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PCKZH7M40CK",
@@ -10436,6 +10436,13 @@
       "price": 124,
       "percent": 70,
       "timestamp": "2026-07-15T21:56:37.907Z",
+      "type": "discount"
+    },
+    "steam_discount_3892270": {
+      "title": "Gamble With Your Friends",
+      "price": 115,
+      "percent": 39,
+      "timestamp": "2026-07-15T22:57:59.724Z",
       "type": "discount"
     }
   }
