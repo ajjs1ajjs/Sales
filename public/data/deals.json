@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T16:18:44.853Z",
+  "lastUpdated": "2026-07-15T18:03:21.950Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -120,6 +120,18 @@
       "isPopular": false
     },
     {
+      "id": "2524850",
+      "title": "Denshattack!",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/13f5840674052080806eb01e8b185d64e507cb3b/capsule_616x353_alt_assets_0.jpg?t=1784129650",
+      "originalPrice": 499,
+      "discountPrice": 449,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2524850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1671210",
       "title": "DELTARUNE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
@@ -168,26 +180,26 @@
       "isPopular": false
     },
     {
-      "id": "4512570",
-      "title": "A Game About Chopping Trees",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4512570/5b42fbf895720265910d097206df41769b065aeb/capsule_616x353.jpg?t=1784122534",
-      "originalPrice": 195,
-      "discountPrice": 175,
+      "id": "367270",
+      "title": "Angels Fall First",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367270/26990b5d2fe9c588550682ef89b30970edcbe67a/capsule_616x353.jpg?t=1783807186",
+      "originalPrice": 259,
+      "discountPrice": 233,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4512570",
+      "url": "https://store.steampowered.com/app/367270",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "2749950",
-      "title": "Esports Manager 2026",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/eddaddc1b8752c6f64f1d32ca42095d0611c21c8/capsule_616x353.jpg?t=1784067117",
-      "originalPrice": 415,
-      "discountPrice": 332,
-      "discountPercent": 20,
+      "id": "4297840",
+      "title": "Rock Bottom",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4297840/c155877bcdd1b98a9f9193aafc47ea9f64996164/capsule_616x353.jpg?t=1784041176",
+      "originalPrice": 195,
+      "discountPrice": 175,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2749950",
+      "url": "https://store.steampowered.com/app/4297840",
       "isSpecial": true,
       "isPopular": false
     },
@@ -273,8 +285,8 @@
       "title": "33 Immortals",
       "description": "33 Immortals is a co-op action-roguelike for 33 players. Jump straight into runs, solo or with friends. Battle hordes of monsters, defeat massive bosses, and grow stronger each run. Use in-game emotes to coordinate and combine powers with your fellow rebels, and face the Wrath of God, together.\n\nPICK-UP AND RAID\nJump straight into 33-player co-op runs with instant matchmaking; no lobbies or planning required. Drop in solo or party up with up to 4 friends and fight through streamlined, replayable raids built for fast sessions, massive cooperative battles against hordes of monsters, and epic boss fights.\n\n33 PLAYER CO-Op\nSurvive by fighting together. No voice chat required: coordinate through in-game emotes, pings, and cooperative abilities. Revive fallen allies, combine powerful effects, and adapt to chaotic encounters as dozens of players battle side by side.\n\nGROW STRONGER EACH RUN\nGod’s armies will strike you down again and again, but every run makes you stronger. Collect resources during raids, unlock permanent upgrades for your soul, and expand your arsenal with new weapons, relics, and powers. Experiment with different builds and prepare for even greater battles against God's wrath.\n\nFACE THE WRATH OF GOD\nFace the Wrath of God, together. Fight as a renegade in the immortal rebellion against God’s final judgment, and battle for your eternal life in a unique blend of mythic fantasy, action roguelike progression, and large-scale cooperative play.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.3461.14090162823233215.2d39e9bd-f341-4d5f-9638-b1a6c75a4e3a.72ec0057-de44-41e8-8f55-3697194006ad",
-      "originalPrice": 505,
-      "discountPrice": 505,
+      "originalPrice": 525,
+      "discountPrice": 525,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P8LR42PTRGJ",
@@ -10437,6 +10449,13 @@
       "percent": 0,
       "timestamp": "2026-07-15T16:18:35.331Z",
       "type": "xbox_new"
+    },
+    "steam_discount_2524850": {
+      "title": "Denshattack!",
+      "price": 449,
+      "percent": 10,
+      "timestamp": "2026-07-15T18:03:14.983Z",
+      "type": "discount"
     }
   }
 }
