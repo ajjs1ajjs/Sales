@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T14:46:30.549Z",
+  "lastUpdated": "2026-07-15T16:18:44.853Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -120,18 +120,6 @@
       "isPopular": false
     },
     {
-      "id": "1304930",
-      "title": "The Outlast Trials",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/4aaf4d66ab40042a48a69cc8c96c142efc35aa57/capsule_616x353_alt_assets_3.jpg?t=1784123708",
-      "originalPrice": 740,
-      "discountPrice": 222,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1304930",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1671210",
       "title": "DELTARUNE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
@@ -144,26 +132,14 @@
       "isPopular": false
     },
     {
-      "id": "2749950",
-      "title": "Esports Manager 2026",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/eddaddc1b8752c6f64f1d32ca42095d0611c21c8/capsule_616x353.jpg?t=1784067117",
-      "originalPrice": 415,
-      "discountPrice": 332,
-      "discountPercent": 20,
+      "id": "1304930",
+      "title": "The Outlast Trials",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/4aaf4d66ab40042a48a69cc8c96c142efc35aa57/capsule_616x353_alt_assets_3.jpg?t=1784123708",
+      "originalPrice": 740,
+      "discountPrice": 222,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2749950",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
+      "url": "https://store.steampowered.com/app/1304930",
       "isSpecial": true,
       "isPopular": false
     },
@@ -180,16 +156,52 @@
       "isPopular": false
     },
     {
-      "id": "4297840",
-      "title": "Rock Bottom",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4297840/c155877bcdd1b98a9f9193aafc47ea9f64996164/capsule_616x353.jpg?t=1784041176",
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/275850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4512570",
+      "title": "A Game About Chopping Trees",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4512570/5b42fbf895720265910d097206df41769b065aeb/capsule_616x353.jpg?t=1784122534",
       "originalPrice": 195,
       "discountPrice": 175,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4297840",
+      "url": "https://store.steampowered.com/app/4512570",
       "isSpecial": true,
       "isPopular": false
+    },
+    {
+      "id": "2749950",
+      "title": "Esports Manager 2026",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/eddaddc1b8752c6f64f1d32ca42095d0611c21c8/capsule_616x353.jpg?t=1784067117",
+      "originalPrice": 415,
+      "discountPrice": 332,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2749950",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3767850",
+      "title": "SpiritVale",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767850/62e010c766ba291271a2eef06621a6fbb96c9cca/capsule_616x353.jpg?t=1784127621",
+      "originalPrice": 299,
+      "discountPrice": 299,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3767850",
+      "isSpecial": false,
+      "isPopular": true
     },
     {
       "id": "3751950",
@@ -236,18 +248,6 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2569760",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     }
@@ -2230,6 +2230,21 @@
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PHGQPRBBSXK",
       "isGamePass": true,
       "isNewToGamePass": false,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
+      "id": "9N18L56XHK8Z",
+      "title": "Denshattack!",
+      "description": "Виконуй фліпи, трюки і ґрайнди на своєму потязі в шаленому заїзді яскравою японською антиутопією. Переможи ворожі банди, зруйнуй підступну мегакорпорацію і стань королем колій — все завдяки скілу, швидкості і стилю.\n\nВиконуй оллі, кікфліпи і ґрайнди через найбільші міста Японії, а також через степи, вулкани та океанські простори. Набивай очки, бий рекорди та кайфуй від кожного фліпу, трюку й ідеального приземлення у своєму персоналізованому потязі.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.53135.13909930485351294.30c54075-76a6-46f7-9d7f-06cf4bddc3d5.90bf79d1-9d7b-4e3f-b00d-78dae18ee7f5",
+      "originalPrice": 700,
+      "discountPrice": 700,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9N18L56XHK8Z",
+      "isGamePass": true,
+      "isNewToGamePass": true,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -6324,7 +6339,7 @@
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P9446P7D9TZ",
       "isGamePass": true,
-      "isNewToGamePass": false,
+      "isNewToGamePass": true,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -9247,13 +9262,6 @@
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
     },
-    "steam_popular_4241420": {
-      "title": "Stellaris: Nomads",
-      "price": 669,
-      "percent": 0,
-      "timestamp": "2026-06-15T16:15:49.392Z",
-      "type": "popular"
-    },
     "steam_discount_2001120": {
       "title": "Split Fiction",
       "price": 844,
@@ -10401,6 +10409,34 @@
       "percent": 20,
       "timestamp": "2026-07-15T10:46:14.131Z",
       "type": "popular"
+    },
+    "steam_discount_4512570": {
+      "title": "A Game About Chopping Trees",
+      "price": 175,
+      "percent": 10,
+      "timestamp": "2026-07-15T16:18:35.331Z",
+      "type": "discount"
+    },
+    "steam_popular_3767850": {
+      "title": "SpiritVale",
+      "price": 299,
+      "percent": 0,
+      "timestamp": "2026-07-15T16:18:35.331Z",
+      "type": "popular"
+    },
+    "xbox_new_9N18L56XHK8Z": {
+      "title": "Denshattack!",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-15T16:18:35.331Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9P9446P7D9TZ": {
+      "title": "Quarantine Zone: The Last Check",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-15T16:18:35.331Z",
+      "type": "xbox_new"
     }
   }
 }
