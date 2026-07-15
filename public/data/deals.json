@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T12:12:38.178Z",
+  "lastUpdated": "2026-07-15T14:46:30.549Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -122,7 +122,7 @@
     {
       "id": "1304930",
       "title": "The Outlast Trials",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/4aaf4d66ab40042a48a69cc8c96c142efc35aa57/capsule_616x353_alt_assets_3.jpg?t=1784039821",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/4aaf4d66ab40042a48a69cc8c96c142efc35aa57/capsule_616x353_alt_assets_3.jpg?t=1784123708",
       "originalPrice": 740,
       "discountPrice": 222,
       "discountPercent": 70,
@@ -144,18 +144,6 @@
       "isPopular": false
     },
     {
-      "id": "3159330",
-      "title": "Assassin’s Creed Shadows",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/2d5536f7e9f72d7844c59c5dc1416f7b756d3ad4/capsule_616x353.jpg?t=1775589420",
-      "originalPrice": 1999,
-      "discountPrice": 899,
-      "discountPercent": 55,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3159330",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2749950",
       "title": "Esports Manager 2026",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/eddaddc1b8752c6f64f1d32ca42095d0611c21c8/capsule_616x353.jpg?t=1784067117",
@@ -168,14 +156,26 @@
       "isPopular": false
     },
     {
-      "id": "1771300",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
-      "originalPrice": 1599,
-      "discountPrice": 639,
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
+      "originalPrice": 1125,
+      "discountPrice": 450,
       "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1771300",
+      "url": "https://store.steampowered.com/app/275850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3159330",
+      "title": "Assassin’s Creed Shadows",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/2d5536f7e9f72d7844c59c5dc1416f7b756d3ad4/capsule_616x353.jpg?t=1775589420",
+      "originalPrice": 1999,
+      "discountPrice": 899,
+      "discountPercent": 55,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3159330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -190,18 +190,6 @@
       "url": "https://store.steampowered.com/app/4297840",
       "isSpecial": true,
       "isPopular": false
-    },
-    {
-      "id": "2569760",
-      "title": "The Mound: Omen of Cthulhu",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/55dd83f6b6d332501102b8fef5a0d8cca0c0153c/capsule_616x353.jpg?t=1784110925",
-      "originalPrice": 899,
-      "discountPrice": 719,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2569760",
-      "isSpecial": false,
-      "isPopular": true
     },
     {
       "id": "3751950",
@@ -236,6 +224,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2569760",
+      "title": "The Mound: Omen of Cthulhu",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/55dd83f6b6d332501102b8fef5a0d8cca0c0153c/capsule_616x353.jpg?t=1784110925",
+      "originalPrice": 899,
+      "discountPrice": 719,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2569760",
       "isSpecial": false,
       "isPopular": true
     },
