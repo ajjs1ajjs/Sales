@@ -1,6 +1,22 @@
 {
-  "lastUpdated": "2026-07-15T08:02:58.627Z",
+  "lastUpdated": "2026-07-15T10:46:20.397Z",
   "epic": [
+    {
+      "id": "223c59e227e74e079a1bbe5a234b896f",
+      "title": "Foretales",
+      "description": "Decide the fate of the world in this ingenious story-driven card game.\n\nForetales offers a unique take on the adventure genre, with a multitude of playstyles and story paths through which you can save the world… or bring about its end.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/2b593b82aea84695b1608d74d3850ceb/foretales-offer-urvzn.jpg",
+      "originalPrice": 590,
+      "discountPrice": 590,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/foretales-d6c5bd",
+      "startDate": "2026-07-23T15:00:00.000Z",
+      "endDate": "2026-07-30T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": true,
+      "isDiscounted": false,
+      "discountPercent": 0
+    },
     {
       "id": "e5da2c017d4d4afab9f4c56525b66100",
       "title": "Nova Lands",
@@ -128,30 +144,6 @@
       "isPopular": false
     },
     {
-      "id": "367270",
-      "title": "Angels Fall First",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367270/26990b5d2fe9c588550682ef89b30970edcbe67a/capsule_616x353.jpg?t=1783807186",
-      "originalPrice": 259,
-      "discountPrice": 233,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/367270",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3159330",
       "title": "Assassin’s Creed Shadows",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/2d5536f7e9f72d7844c59c5dc1416f7b756d3ad4/capsule_616x353.jpg?t=1775589420",
@@ -160,6 +152,30 @@
       "discountPercent": 55,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3159330",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2749950",
+      "title": "Esports Manager 2026",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/eddaddc1b8752c6f64f1d32ca42095d0611c21c8/capsule_616x353.jpg?t=1784067117",
+      "originalPrice": 415,
+      "discountPrice": 332,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2749950",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1771300",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
+      "originalPrice": 1599,
+      "discountPrice": 639,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1771300",
       "isSpecial": true,
       "isPopular": false
     },
@@ -208,6 +224,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2569760",
+      "title": "The Mound: Omen of Cthulhu",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/55dd83f6b6d332501102b8fef5a0d8cca0c0153c/capsule_616x353.jpg?t=1784110925",
+      "originalPrice": 899,
+      "discountPrice": 719,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2569760",
       "isSpecial": false,
       "isPopular": true
     },
@@ -9219,13 +9247,6 @@
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
     },
-    "steam_popular_3936530": {
-      "title": "Pro Cycling Manager 26",
-      "price": 765,
-      "percent": 0,
-      "timestamp": "2026-06-15T10:24:06.187Z",
-      "type": "popular"
-    },
     "steam_popular_4241420": {
       "title": "Stellaris: Nomads",
       "price": 669,
@@ -10373,6 +10394,13 @@
       "percent": 10,
       "timestamp": "2026-07-15T08:02:53.296Z",
       "type": "discount"
+    },
+    "steam_popular_2569760": {
+      "title": "The Mound: Omen of Cthulhu",
+      "price": 719,
+      "percent": 20,
+      "timestamp": "2026-07-15T10:46:14.131Z",
+      "type": "popular"
     }
   }
 }
