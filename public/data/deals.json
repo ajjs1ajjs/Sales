@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T06:22:47.256Z",
+  "lastUpdated": "2026-07-16T09:10:40.652Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -86,7 +86,7 @@
     {
       "id": "1623730",
       "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1783654507",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784190284",
       "originalPrice": 600,
       "discountPrice": 420,
       "discountPercent": 30,
@@ -120,18 +120,6 @@
       "isPopular": false
     },
     {
-      "id": "1671210",
-      "title": "DELTARUNE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
-      "originalPrice": 499,
-      "discountPrice": 399,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1671210",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2524850",
       "title": "Denshattack!",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/13f5840674052080806eb01e8b185d64e507cb3b/capsule_616x353_alt_assets_0.jpg?t=1784158945",
@@ -140,6 +128,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2524850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1671210",
+      "title": "DELTARUNE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
+      "originalPrice": 499,
+      "discountPrice": 399,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1671210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -156,6 +156,18 @@
       "isPopular": false
     },
     {
+      "id": "1771300",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
+      "originalPrice": 1599,
+      "discountPrice": 639,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1771300",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3892270",
       "title": "Gamble With Your Friends",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1782258835",
@@ -168,14 +180,14 @@
       "isPopular": false
     },
     {
-      "id": "1771300",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
-      "originalPrice": 1599,
-      "discountPrice": 639,
-      "discountPercent": 60,
+      "id": "3159330",
+      "title": "Assassin’s Creed Shadows",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/2d5536f7e9f72d7844c59c5dc1416f7b756d3ad4/capsule_616x353.jpg?t=1775589420",
+      "originalPrice": 1999,
+      "discountPrice": 899,
+      "discountPercent": 55,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1771300",
+      "url": "https://store.steampowered.com/app/3159330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -204,6 +216,18 @@
       "isPopular": true
     },
     {
+      "id": "4449410",
+      "title": "KYOTO XANADU -the Blooming Phantom-",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4449410/8baeb1194fe2a4e11a7c4a9c230fa76716415c55/capsule_616x353.jpg?t=1784185157",
+      "originalPrice": 1649,
+      "discountPrice": 1649,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4449410",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "4704690",
       "title": "MECCHA CHAMELEON",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
@@ -228,14 +252,14 @@
       "isPopular": true
     },
     {
-      "id": "2569760",
-      "title": "The Mound: Omen of Cthulhu",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/55dd83f6b6d332501102b8fef5a0d8cca0c0153c/capsule_616x353.jpg?t=1784110925",
-      "originalPrice": 899,
-      "discountPrice": 719,
-      "discountPercent": 20,
+      "id": "1202520",
+      "title": "Fallout 1st",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
+      "originalPrice": 399,
+      "discountPrice": 399,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2569760",
+      "url": "https://store.steampowered.com/app/1202520",
       "isSpecial": false,
       "isPopular": true
     }
@@ -2702,36 +2726,6 @@
       "isDiscounted": false
     },
     {
-      "id": "9PGX472J0RJP",
-      "title": "Dungeons Of Hinterberg",
-      "description": "Вас вітає Гінтерберг, нове популярне туристичне місце в ідилічних Австрійських Альпах. Ви граєте за Луїзу, практикантку-правницю, яка втомилась від шаленого ритму офісного життя й вирішила підкорити підземелля Гінтербергу. На неї чекає безліч підземель і пригод у цьому містечку, але чим усе скінчиться — Луїза в перший же день спакує валізи назад додому чи залишиться й стане професійною вбивцею? Є лише один спосіб дізнатися... \r\n\r\nДосліджуйте Альпи!\r\n\r\nКатайтеся на сноуборді поміж дерев на заледенілих схилах, підкорюйте гірські вершини або насолоджуйтеся кавою на березі озера... Ви завжди знайдете, де цікаво провести час у цій місцевості, готуючись до пригод у новому підземеллі!\r\n\r\nВражайте!\r\n\r\nУ Гінтербергу монстри чатують на вас за кожним кутом, і лише ваш меч та знання магії допоможуть захиститися від них. Опануйте силу вітру, начаклуйте сноуборд із повітря або перетворіть ворога на крижаний стовп!\r\n\r\nЗнаходьте вихід!\r\n\r\nДля підкорення підземель потрібні не лише першокласне спортивне спорядження та гарні бойові навички — у підземеллях Гінтербергу повно неочікуваних і складних загадок. Щоб розгадати їх, використовуйте голову, знання магії та все, що трапиться під руку.\r\n\r\nЗнайомтеся з місцевими жителями!\r\n\r\nПроводьте вечори з місцевими жителями та іншими шукачами пригод! Хтось із них додасть вам сили або навчить новим хитрощам, а хтось завітав сюди лише для розваг і красивих селфі... Але нові знайомства не тільки залишать вам приємні спогади — вони допоможуть краще вбивати!",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.7008.14242993966939702.666252c0-1731-4ea5-9e8f-c502fc479904.2df85b7b-da53-4b98-a0a9-9f0b398b3b42",
-      "originalPrice": 599,
-      "discountPrice": 599,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9PGX472J0RJP",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
-      "id": "9PDJCH8VMPJV",
-      "title": "EA SPORTS FC™ 24",
-      "description": "EA SPORTS FC™ 24 is a new era for The World’s Game: 19,000+ fully licensed players, 700+ teams, and 30+ leagues playing together in the most authentic football experience ever created.\r\n\r\nFeel closer to the game with three cutting-edge technologies powering unparalleled realism in every match: HyperMotionV, PlayStyles optimised by Opta, and an enhanced Frostbite™ Engine.\r\nHyperMotionV captures the game as it’s truly played, using volumetric data from 180+ pro men’s and women’s matches to ensure movement in-game accurately reflects real-world action on the pitch.\r\nPlayStyles dimensionalise athletes, interpreting data from Opta and other sources into signature abilities which heighten the realism and individuality of each player.\r\nThe enhanced Frostbite™ Engine delivers The World’s Game in lifelike detail, bringing a new level of immersion to each match.\r\n\r\nDevelop club legends and improve your players with the brand new Ultimate Team™ Evolutions, and welcome women’s footballers to the pitch alongside men as you craft your dream XI.\r\nWrite your own story in Manager and Player Career, and join friends on the pitch with cross-play* in Clubs and VOLTA FOOTBALL™.\r\n\r\nEA SPORTS FC™ 24 is the next chapter in a more innovative future of football.\r\n\r\nThis game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\r\nFC Points not available in Belgium.\r\nConditions and restrictions apply. See https://www.ea.com/games/ea-sports-fc/fc-24/game-offer-and-disclaimers for details.\r\n*Cross-play enabled in certain modes on same-generation platforms. Cross-play not available on Nintendo Switch™ version. See ea.com/games/ea-sports-fc/fc-24/news/fc24crossplayupdate for details.\r\n\r\n© 2023 Electronic Arts Inc. Electronic Arts, EA, EA SPORTS, the EA SPORTS logo, EA SPORTS FC, the EA SPORTS FC logo, Frostbite, the Frostbite logo, Ultimate Team, and VOLTA FOOTBALL are trademarks of Electronic Arts Inc.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.11160.14149336736014321.ba14b91a-e8c6-40d0-9285-ac512ca86a54.31393edd-f0a7-43a4-b8f2-1f19a088d526",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9PDJCH8VMPJV",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
       "id": "9P8RC7S4NRQ3",
       "title": "EA SPORTS FC™ 25 - PC",
       "description": "EA SPORTS FC™ 25 gives you more ways to win for the club.\n\nTeam up with 5v5 Rush, a new way to play with friends in Football Ultimate Team™, Clubs, and Kick-Off with small-sided gameplay. In Football Ultimate Team Rush, build your dream 5-a-side squad with up to three friends, each controlling your favourite Player Item.\n\nGet your team playing like the world’s best with FC IQ. An overhaul of tactical foundations across the game delivers greater strategic control and more realistic collective movement at the team level, while a new AI model, powered by real-world data, influences player tactics through all-new Player Roles.\n\nNew additions to Manager and Player Career let you live out the biggest storylines from the real-world with Live Start Points**; rewrite the stories of past ICONs with today’s teams in Player Career; and for the first time, play an authentic Women’s Career experience, taking control of a club or player from the top five women’s leagues.\n\nEA SPORTS FC™ 25 has the best players from the biggest clubs and competitions around the globe, with match data from the world’s top leagues powering how 19,000+ players move, play, and win in every match.\n\nIntroducing Club Membership – the next phase of loyalty in EA SPORTS FC™ 25. Available to fans that have played EA SPORTS FC™ 24 before 27 September 2024 and play EA SPORTS FC™ 25 before November 1st, 2024*.\nFC 25 Club Members will receive a host of exclusive benefits across the year, including a badge and kit to represent their status and rewards across all your favourite game modes.\nOnce again, all Founders will be able to unlock their Founders exclusive cosmetic items.\n\nNo matter how you choose to win in EA SPORTS FC™ 25, do it for the club.\n\nThis game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n\nConditions & restrictions apply. See ea.com/legal for details.\n\n†Conditions & restrictions apply. See https://www.ea.com/games/ea-sports-fc/fc-25/dual-entitlement for details.\n*Conditions and restrictions apply. See https://www.ea.com/games/ea-sports-fc/fc-25/disclaimers for details.\n**To be released with a post-launch update. For more details & availability, visit https://www.ea.com/games/ea-sports-fc/fc-25/disclaimers.\n\nFC Points purchase is not available in Belgium.\n\nAll unspent FC Points will expire and be removed from your balance after 180 days from date of purchase.\n\nAudio commentary for languages other than English and the console-settings language requires a separate download.\n\n© 2024 Electronic Arts Inc. Electronic Arts, EA, EA SPORTS, the EA SPORTS logo, EA SPORTS FC, the EA SPORTS FC logo, Frostbite, the Frostbite logo, Football Ultimate Team, and Ultimate Team are trademarks of Electronic Arts Inc.",
@@ -3675,21 +3669,6 @@
       "isNewToGamePass": false,
       "isComingSoon": false,
       "isDiscounted": false
-    },
-    {
-      "id": "9MVK5W0HMRP7",
-      "title": "Golf With Your Friends (Windows Version)",
-      "description": "Why have friends if not to play Golf... With Your Friends! Nothing is out of bounds as you take on  courses filled with fast paced, exciting, simultaneous mini golf for up to 12 players! \r\n\r\nKey Features:\r\n\r\n12 Player Multiplayer! Make sure your skills are up to scratch as you tee off against 11 other golfers in online multiplayer.\r\n\r\nThemed Courses! Get the Par-Tee started and go head to head on themed courses! Become a pro in the pirate ship, declare worms warfare on the worms course or aim for an albatross in the ancient theme.\r\n\r\nPowerups! Drive a wedge between your friends as you trap their ball in honey, freeze it or turn it into a cube.\r\n\r\nThree Game Modes! Tee off in classic mini golf, shoot for the pars in hoops or swap the hole for a goal in hockey\r\n\r\nCustomisations! Turn the fairway into the runway, with stylish hats, floaties and trails for your ball!",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.489.13862246495458326.cf5e01bc-715d-42eb-ae23-68f6a922a8e0.ae6b551e-97b4-4b48-9fc0-cc21b94d9259",
-      "originalPrice": 505,
-      "discountPrice": 50.5,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9MVK5W0HMRP7",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": true
     },
     {
       "id": "9N36BLQF3FX6",
@@ -4997,21 +4976,6 @@
       "isDiscounted": false
     },
     {
-      "id": "9NRL00D96M3R",
-      "title": "Minami Lane",
-      "description": "Welcome to Minami Lane! Build your own street in this tiny cozy, casual management sim. Minami Lane won an Xbox Excellence Award in 2025 for Store Rating! \n\nMinami Lane is a small, wholesome management game set on a Japanese-inspired street. Create and manage your own street, make sure everyone is happy, and watch the villagers live their lives! Enjoy 2 to 4 hours of playtime, cute tanukis and lots of cats!\n\nGAMEPLAY\n\nBuild your street\nBuild homes to add villagers to your street, then improve their happiness by beautifying every inch and building a variety of shops & attractions! These include ramen shops, boba cafes, bookstores and more, each with unique inventories and effects.\n\nManage your shops\nattract customers with everything from floral bouquets to karaoke! Shops you create will need your careful guidance to offer the right products at the right prices. Lead them to success and make your neighborhood thrive.\n\nWatch your villagers live their lives\nOnce you start the day, you'll get to see each villager react to your street and offer helpful feedback on how to improve! Memorize their preferences and refine your street the following day.\n\nReach your objectives\nComplete missions to unlock new levels with more buildings, villager types, and other surprises.\n\nFEATURES\nWhat Minami Lane offers:\n• 2-4 hours of play time\n• Create and customize your own adorable street\n• Manage shops by adjusting their inventory, recipes, and prices\n• Play strategically to complete each level's mission objectives\n• Keep the streets clean by picking up trash\n• Tanukis and cats!\n\nWhat Minami Lane does not offer:\n• Hardcore strategy\n• Multiplayer\n• Tons of missions\n• New levels after release\n\nGAME MODES\n\n• In Minami Lane's missions, you'll need to strategically plan each day and use elements such as random events to your advantage to complete multiple objectives.\n• The sandbox mode focuses on creativity and relaxation, allowing you to immerse yourself in the peaceful, cozy world without the stress of objectives.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.33614.14385535525236346.6b91828b-0da4-4a9d-a72a-7686dfd21a21.0f990b31-8b60-4ac9-b490-525bd9b9d376",
-      "originalPrice": 127.5,
-      "discountPrice": 89.25,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9NRL00D96M3R",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": true
-    },
-    {
       "id": "9NB6BVL3MTG4",
       "title": "Minecraft Dungeons for Windows + Launcher",
       "description": "If you are playing the Windows 10 version of the game and you uninstall the game, your save files will be permanently removed. This means that your save files will be deleted and you will lose all of your progress.\r\n\r\nFight your way through an all-new action-adventure game, inspired by classic dungeon crawlers and set in the Minecraft universe! Brave the dungeons alone, or team up with friends! Up to four players can battle together through action-packed, treasure-stuffed, wildly varied levels – all in an epic quest to save the villagers and take down the evil Arch-Illager!\r\n \r\nDiscover a trove of powerful new weapons and items that will help you defeat ruthless swarms of new-and-nasty mobs. Fight or flee through canyons, swamps and – of course – mines! Any adventurer brave or foolish enough to explore this blocky and beautiful world will need to come prepared. So quickly, gear up!\r\n \r\nDungeon Creeper! Battle new-and-nasty mobs in this all-new action-adventure, inspired by classic dungeon crawlers.\r\n\r\nMultiplayer! Up to four players can team up and fight together in co-op mode.\r\n\r\nPower Up! Unlock dozens of unique items and weapon enchantments for devastating special attacks.\r\n\r\nOptions! Personalize your character, then fight up-close and personal with melee swings, hang back with ranged attacks, or tank your way through swarms of mobs, shielded by heavy armour!\r\n\r\nEpicness! Explore treasure-stuffed levels in a quest to take down the evil Arch-Illager!\r\n",
@@ -6152,21 +6116,6 @@
       "isDiscounted": false
     },
     {
-      "id": "9NHDJC0NW20M",
-      "title": "PowerWash Simulator",
-      "description": "Вивільніть тиск у грі PowerWash Simulator! Змийте геть усі ваші турботи під заспокійливі звуки води високого тиску. Заснуйте клінінговий бізнес, щоб зробити цей світ набагато чистішим.\r\nЧАС ВІДМИТИ ДО БЛИСКУ УСЕ НАВКРУГИ\r\nЗаснуйте бізнес та відмивайте від бруду місто Макінгем. Вам не треба приймати важливі рішення та рахувати очки, на вас не тисне час – просто розслабтеся та знімайте стрес, у режимі кар'єри або вільної гри.\r\nВІДМИВАЙТЕ ТА ВІДПОЧИВАЙТЕ\r\nРозслаблюйтесь, відпочивайте та грайте разом з друзями онлайн! Допомагайте друзям у режимі кар’єри або розважайтеся аж вшестером у режимі вільної гри.\r\nВСЕ БУДЕ ЧИСТИМ\r\nДля тих, хто найкраще працює під тиском, є режим випробувань! Бийтеся з брудом у різних сценаріях, проходіть випробування на час та заощаджуйте воду.\r\nЧИСТОТА – ЦЕ ВЕСЕЛО\r\nЖодне графіті, бруд, мох або пліснява не встоять перед вашими агрегатами, соплами та чистильниками, тож використтовуйте стратегію, підбираючи обладнання для чищення різного бруду.\r\nРОЗСЛАБЛЕННЯ ТА НАСОЛОДА ГАРАНТОВАНІ\r\nВсотуйте розслаблюючу атмосферу та насолоджуйтесь безстресовим середовищем, відмиваючи патіо, бруківку, машини та публічні парки. Стрес не минає нікого з нас, тож присядьте, розслабтесь і стежте, як усі ваші тривоги стікають просто у каналізацію.\r\nСВІТ СТАНЕ ВАШИМ ПОЛОТНОМ\r\nЗаймайтесь мистецтвом, прибираючи. Ваші сопла стануть пензлями, а все, що навколо — вашим полотном. Вивільніть свій креативний талант та перетворіть звичайний бруд у захопливий витвір мистецтва!  ",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.42503.13631853399995812.7c8d5b79-31b8-46af-9143-329dfb697258.5f06d2e9-fb6d-4e93-8ad0-f271312d6941",
-      "originalPrice": 819,
-      "discountPrice": 819,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9NHDJC0NW20M",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
       "id": "9P45GGDTFNSM",
       "title": "PowerWash Simulator 2",
       "description": "PowerWash Simulator is back, satisfaction is a spray away!\n\nDust off your power washer and relax into pure feel-good fun. Blast away every last speck, smear and splatter of filth to restore Muckingham (and beyond 👀) to gleaming glory.\n\nCraving more to Clean?\n\nThe jobs and water keep flowing in PowerWash Simulator 2. Play through a fresh new campaign, uncovering more of Muckingham’s mysteries. Plus, venture even further out to brand-new grime-coated locations like Sponge Valley, Power Falls and Lubri City.\n\nAlongside new locations and jobs, you’ll also find a new job type. Multi-stage jobs will unlock different areas of a job – from vehicle interiors to entirely different rooms, your to-do list keeps growing.\n\nTools of the Trade\n\nReach new heights of power washing professionalism with a range of new tools to help you achieve a spectacular sparkle, high and low. Realise even your loftiest cleaning ambitions with the help of an all-new abseiling rig and cherry picker or stay grounded with a grime busting surface cleaner for large areas.\n\nNo Place like your Home-base\n\nKick back and relax in your home-base after a hard-days-cleaning. Make the place yours by collecting furniture and trinkets to spruce it up along the way, then invite your power wash pals over to check out your pad. \n\nYou didn’t think we’d leave your furry friends in the van, did you? Your pretty kitties are the purr-fect distraction for when you’ve pressed paws on work for the day. \n\nSoap-erior Washing\n\nWatch your worries melt away with each swipe of your power washer. Cleaning feels even better in PowerWash Simulator 2, with enhanced soap that clings to stubborn stains and annihilates dirt. \nClean in Split-screen!\n\nSatisfaction on the double! Share campaign progression online together for the first time. In addition to online play, split-screen co-op has entered the chat. Team up and take on the dirt with twice the wash-power, from the convenience of one screen.",
@@ -6746,21 +6695,6 @@
       "discountPercent": 65,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P2N57MC619K",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": true
-    },
-    {
-      "id": "BNQQ3WVBNZCQ",
-      "title": "Shadow of the Tomb Raider Definitive Edition",
-      "description": "In Shadow of the Tomb Raider Definitive Edition experience the final chapter of Lara’s origin as she is forged into the Tomb Raider she is destined to be. Combining the base game, all seven DLC challenge tombs, as well as all downloadable weapons, outfits, and skills, Shadow of the Tomb Raider Definitive Edition is the ultimate way to experience Lara’s defining moment.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.6674.68112460555114547.f599eff6-c432-4510-af15-bfe339796812.82807eb7-4599-4760-a6f2-d92bbbd9d272",
-      "originalPrice": 1195,
-      "discountPrice": 179.25,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/BNQQ3WVBNZCQ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
@@ -7352,21 +7286,6 @@
       "isDiscounted": true
     },
     {
-      "id": "9NXQPGMR917R",
-      "title": "Stellaris",
-      "description": "Get ready to explore, discover and interact with a multitude of species as you journey among the stars. Forge a galactic empire by sending out science ships to survey and explore, while construction ships build stations around newly discovered planets. Discover buried treasures and galactic wonders as you spin a direction for your society, creating limitations and evolutions for your explorers. Alliances will form and wars will be declared.\n\nLike all our Grand Strategy games, the adventure evolves with time. Because free updates are a part of any active Paradox game, you can continue to grow and expand your empire with new technologies and capabilities. What will you find beyond the stars? Only you can answer that.\n\nStellaris now includes the base game, three expansion packs, and a collection of digital goods.\n\nStellaris: Chart a vast, procedurally generated galaxy where every star system holds a new mystery to uncover or an alien civilization to encounter. Forge a unique empire: from your first warp jump to galactic domination, you decide whether the universe remembers you as a benevolent pioneer or a relentless conqueror.\n\nUtopia: Unlock the full potential of your empire with this expansion focused on the evolution of society. Whether you're building mega-structures or ascending to a higher plane of existence, Utopia helps you create a future that’s as bright as the stars themselves.\n\nSynthetic Dawn Story Pack: Take command of a Machine Empire and reshape the galaxy in your own image. Will you lead your mechanical creations to peaceful coexistence, or will the rise of synthetic life spell the end for organics?\n\nHumanoids Species Pack: the most-played phenotype now gains more variety with unique civics and a new origin. Along with their own unique ship class, new portraits, and more, there’s never been a better time to explore the future of humanity.\n\nAnd on top of this, the Digital Collector’s Book, a Signed Wallpaper, a Unique Forum Avatar and Icon!\n\nDEEP AND VARIED EXPLORATION\nEvery game begins with a civilization that has just discovered the means to travel between stars and is ready to explore the galaxy. Have your science ships survey and explore anomalies, leading you into a myriad of quests, introducing strange worlds with even stranger stories and discoveries that may completely change your outcome.\n\nSTUNNING SPACE VISUALS\nWith characteristically complex unique planets and celestial bodies, you will enter a whirlwind of spectacles in a highly detailed universe.\n\nINFINITE VARIATION OF SPECIES AND ADVANCED DIPLOMACY\nThrough customization and procedural generation, you will encounter infinitely varied races. Choose positive or negative traits, specific ideologies, limitations, evolutions or anything you can imagine. Interact with others through the advanced diplomacy system. Diplomacy is key in a proper grand strategy adventure. Adjust your strategy to your situation through negotiation and skill.\n\nINTERSTELLAR WARFARE\nAn eternal cycle of war, diplomacy, suspicions and alliances await you. Defend or attack with fully customizable war fleets, where adaptation is the key to victory. Choose from an array of complex technologies when designing and customizing your ships with the complex ship designer. You have a multitude of capabilities to choose from to meet the unknown quests that await.\n\nENORMOUS PROCEDURAL GALAXIES\nGrow and expand your empire with thousands of randomly generated planet types, galaxies, quests and monsters lurking in space.\n\nPLAY THE WAY YOU WANT\nCustomize your Empire! The characters you choose, be it a murderous mushroom society or an engineering reptile race, can be customized with traits like ethics, type of technology, form of preferred space travel, type of habitat, philosophies and more. The direction of the game is based on your choices.\n\nParadox Account required for certain features of the game. You have to be 16 years or older to create a Paradox Account. See https://legal.paradoxplaza.com/eula for details.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.4644.14495165831263442.20e8e941-d5c0-4577-b5bd-c4b8a2c58715.f667d6ee-8861-479c-8376-708018187fa4",
-      "originalPrice": 1755,
-      "discountPrice": 1755,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9NXQPGMR917R",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
       "id": "9PJPCB188SVG",
       "title": "Subnautica 2 (Game Preview)",
       "description": "Ця гра перебуває в розробці. З часом вона може змінюватися або взагалі не вийти як фінальний продукт. Купуйте її лише якщо вас влаштовує поточний стан незавершеної гри.\n\nSubnautica 2 — це пригодницька гра про виживання під водою, події якої розгортаються у цілком новому чужому світі. Це наступна глава у всесвіті Subnautica, створена студією Unknown Worlds. \n\nВи змушені покинути дім через безперервний конфлікт, однак корпорація Alterra дає шанс почати нове життя. Та коли колоніальний корабель «Цикада» доправляє вас та інших першопрохідців до нового дому, щось йде не за планом. Штучний інтелект корабля наполягає, що ваша місія має тривати. Наодинці перед майже нездоланними перешкодами, ви маєте зробити все можливе, щоб вижити. Майбутнє людства у цьому чужому світі залежить тільки від вас.\n\nГРАЙТЕ САМОСТІЙНО АБО З ДРУЗЯМИ \nSubnautica 2 розробляється як гра для одного гравця, але за бажанням можна грати в компанії до трьох друзів у мережі. Обирайте одного з чотирьох готових персонажів, а впродовж раннього доступу на вас чекатимуть нові герої та ще більше можливостей для налаштування. Працюйте разом, щоб досліджувати давно забуті руїни та навчитися виживати на планеті, яка, можливо, не бажає вашої присутності.\n\nПРИСТОСОВУЙТЕСЯ, ЩОБ ВИЖИТИ \nЩоб вижити в глибинах і зробити цю планету своїм домом, доведеться застосувати всі доступні інструменти. Досліджуйте яскраві та захопливі біоми на підводному апараті «Пуголовок». Проєктуйте та налаштовуйте бази, куди можна повертатися, коли пригоди заносять вас за межі безпечних мілководь. Упродовж раннього доступу розширюватиметься і ваш арсенал інструментів, спорядження та транспортних засобів. Поліпшення допоможуть зробити крок за звичні межі та розкрити таємниці цього дивного світу.\n\nДОСЛІДЖУЙТЕ НЕВІДОМЕ \nСкануйте та вивчайте багатий світ біорізноманіття, щоб зрозуміти, як тут влаштоване життя. Досліджуйте все — від найменших істот до величних левіафанів. Відчуйте захоплення та небезпеку, що чатують за кожним кутом. Кожне занурення — це можливість дізнатися, чому штучний інтелект корабля так наполягає на продовженні місії та які таємниці приховані під поверхнею цього неймовірного нового світу.\n\nРОЗРОБЛЯЄТЬСЯ ДЛЯ РАННЬОГО ДОСТУПУ \nSubnautica 2 перебуває на етапі раннього доступу та активно розробляється. Протягом цієї подорожі ми постійно розширюватимемо світ новими біомами, істотами та предметами для майстрування, а також доповнюватимемо сюжет. Ви можете стикатися з помилками, функціями, що перебувають в розробленні, та проблемами продуктивності. Ваші відгуки є ключовим елементом нашої роботи над грою. Приєднуйтесь і допоможіть нам написати наступну главу всесвіту Subnautica.\n\nСТВОРЕНО СТУДІЄЮ \nUNKNOWN WORLDS Subnautica 2 розробляється студією Unknown Worlds, яка створила відзначені нагородами Subnautica та Subnautica: Below Zero. Наша подорож почалася з моду для Half-Life 2003 року — Natural Selection, а сьогодні ми стали повністю віддаленою, глобально розподіленою командою, що працює від США до Великої Британії, Франції, Австралії та інших країн. Ми керуємося філософією відкритої розробки та більш ніж десятирічним досвідом інновацій, що орієнтовані на спільноту, і запрошуємо зануритися в глибини разом зі студією, яка прагне розширювати межі жанру виживання.\n\nЛаскаво просимо на борт, першопрохідцю.",
@@ -7391,21 +7310,6 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NNLBL0T2Z43",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": true
-    },
-    {
-      "id": "9MZ8B96NDG1T",
-      "title": "Super Fantasy Kingdom (Game Preview)",
-      "description": "Повернувшись із полювання, ви побачили свої землі в руїнах, то ж вам не залишається нічого іншого, окрім як відбудувати свій дім, відбиваючись від орд монстрів, які щоночі ломляться у ваші ворота. Якщо ж сили темряви поглинуть ваше місто і розповзуться по всій країні, ви повстанете з мертвих, щоб почати все спочатку в новому раунді, отримавши нагороди за попередні невдачі: більше героїв, уже відкриті недосліджені раніше землі й можливість просунутися далі, розкриваючи таємницю, що тримає вас у пастці нескінченного циклу життя і смерті.\n\nГЕРОЇ ТА МОНСТРИ\nЗ вечірніми сутінками із темряви з'являтимуться орди монстрів, які намагатимуться знищити все, що ви побудували. Зверніть увагу: що глибшою ставатиме ніч, то більше навіснітимуть монстри. Грізні боси нещадно випробовуватимуть вашу оборону, і єдине, що стоятиме у них на шляху, – це найняті вами для захисту земель відважні воїни, могутні створіння та магічні істоти.\n• Для кожного нового циклу ви зможете обрати нового захисника, який очолить вашу оборону. Кожен із них має сильні й слабкі сторони, а також можливості для побудови унікальних стратегій і розвитку, на який впливає вибір спорядження та досвід. Вибір тактики ведення бою за вами: дозвольте жриці льоду заморожувати монстрів на місці, щоб арбалетники й половинчики могли їх розстрілювати з відстані, або ж пустіть лицаря в бій, закидуючи ворога камінням із требуше. \n• Досліджуйте світ, у якому ви зустрінете понад 50 виняткових воїнів, і створюйте з ними найефективніші комбінації: вампіри охоронятимуть половинчиків, озброєних пращами, динозаври мчатимуть попереду джинів-заклинателів або ж арбалетники прикриватимуть мечників. Досліджуйте навколишні території, щоб знайти потенційних захисників, наймайте і покращуйте їх за ресурси, здобуті важкою працею. Або наймайте мандрівних воїнів, які з'являються випадково, причому кожен цикл пропонує різні можливості для вербування.\n\nБУДУВАННЯ КОРОЛІВСТВА\nРезультат проведення раунду визначатиметься ретельністю планування й вибором стратегії, оскільки ресурсами, військами й королівством ви керуватимете одночасно. З обмеженою кількістю місць для будівництва споруд, яких вам пропонується значно більше, ніж території, приготуйтеся приймати прості, але одночасно й складні рішення, що впливатимуть на перебіг подій і в наступних раундах.\n• Розташування ресурсів і доступ до них змінюються випадковим чином із кожним раундом. Вам доведеться приймати важливі рішення, чому саме віддати перевагу, адже спочатку важливо забезпечити швидкий доступ до сировини, але з часом важливішу роль відіграватиме оптимізація виробничих ланцюжків.\n• З часом ви розблокуєте більш просунуті методи отримання ресурсів, що дасть змогу звільнити робочу силу, але переконайтеся, що ви правильно визначили пріоритети для запланованої стратегії. Будете посилювати оборону, зосередившись на виробництві деревини для виготовлення требушетів і катапульт, чи організуєте видобуток каменю для зведення міцних мурів? Або, можливо, шукатимете способи налагодження виробництва золота, щоб мати змогу швидше розвивати своїх найздібніших воїнів?\n• Коли ваші герої збиратимуться в таверні для святкування перемог, від страв, які ви для них приготуєте, вони ставатимуть сильнішими. Тож будуйте рибальські хатини, ферми, млини й інше, щоб допомогти своїм воїнам підготуватися до сутички зі злом, яке чигає за мурами!\n\nСВІТ ДИВ\nДосліджуйте світ і відкривайте його таємниці – від героїв та ресурсів до завдань, випробувань і не тільки! Ви ніколи не знатимете, кого чи що зустрінете на своєму шляху, досліджуючи яскраві й живі землі у грі Super Fantasy Kingdom. Це означає, що стратегічний вибір, який ви робитимете для будівництва міста й ведення бою, з часом буде розвиватися й змінюватися.\n• Здобувайте славу в боях, щоб отримувати доступ до більшої кількості стратегічних можливостей у вашому королівстві: що довше ви протримаєтеся, то більше території зможете дослідити й то більше можливостей з'явиться, щоб перемогти в наступному раунді.\n• Ваші відкриття переносяться в майбутні цикли, відкриваючи цілком нові початкові можливості й стратегічні підходи, які раніше ставали доступними лише після проведення кількох битв. Це можуть бути і могутні охоронці, і відважні герої, і загадкові реліквії або навіть союзники, готові допомогти в будь-яку мить.\n\nSuper Fantasy Kingdom – це гра з непередбачуваними можливостями й різноманітними механіками в різних світах і королівствах, створена для неодноразового проходження. Грайте в гру, яку легко вивчити, але важко опанувати, безкінечно, щоразу будуючи різні стратегії й підбираючи інші підходи.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.57799.13879203897836456.c844470f-6f27-40ff-9f4b-8ac011a83d55.3d4eefb2-3edd-4d91-a405-1bd9b2a80b40",
-      "originalPrice": 299,
-      "discountPrice": 149.5,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9MZ8B96NDG1T",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
@@ -7620,21 +7524,6 @@
       "isNewToGamePass": false,
       "isComingSoon": false,
       "isDiscounted": false
-    },
-    {
-      "id": "9NR1RVDK9T78",
-      "title": "Techtonica (Game Preview)",
-      "description": "This game is a work in progress. It may or may not change over time or release as a final product. Purchase only if you are comfortable with the current state of the unfinished game.\n\nTechtonica is a first-person factory automation game with a gripping sci-fi mystery about mining your way out from the depths of an alien planet. Explore bioluminescent caves, mold destructible terrain with a black hole gun, and construct a massive subterranean factory. Dig your way toward answers and discover the secrets of Calyx alone or with friends in up to 4 player co-op.\n\nFull details on the latest status of the game, how you can give feedback and report issues can be found at https://techtonicagame.com.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.24986.13758483650312929.ca4bc002-6e9e-4a86-855a-b4dbf502add5.22a40b73-5c1e-4dcb-bb4d-25c414e4582e",
-      "originalPrice": 760,
-      "discountPrice": 190,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9NR1RVDK9T78",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": true
     },
     {
       "id": "9NF83PRZK6K3",
@@ -10432,6 +10321,13 @@
       "percent": 39,
       "timestamp": "2026-07-15T22:57:59.724Z",
       "type": "discount"
+    },
+    "steam_popular_4449410": {
+      "title": "KYOTO XANADU -the Blooming Phantom-",
+      "price": 1649,
+      "percent": 0,
+      "timestamp": "2026-07-16T09:10:34.922Z",
+      "type": "popular"
     }
   }
 }
