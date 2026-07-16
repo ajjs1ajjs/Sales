@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T13:43:02.979Z",
+  "lastUpdated": "2026-07-16T15:37:01.252Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -7,31 +7,79 @@
       "description": "Decide the fate of the world in this ingenious story-driven card game.\n\nForetales offers a unique take on the adventure genre, with a multitude of playstyles and story paths through which you can save the world… or bring about its end.",
       "imageUrl": "https://cdn1.epicgames.com/spt-assets/2b593b82aea84695b1608d74d3850ceb/foretales-offer-urvzn.jpg",
       "originalPrice": 590,
-      "discountPrice": 590,
+      "discountPrice": 88.5,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/foretales-d6c5bd",
       "startDate": "2026-07-23T15:00:00.000Z",
       "endDate": "2026-07-30T15:00:00.000Z",
       "isFreeNow": false,
       "isUpcomingFree": true,
-      "isDiscounted": false,
-      "discountPercent": 0
+      "isDiscounted": true,
+      "discountPercent": 85
     },
     {
-      "id": "e5da2c017d4d4afab9f4c56525b66100",
-      "title": "Nova Lands",
-      "description": "Nova Lands is a factory building, exploration, and island management game. Explore, engage in combat, and automate your industry. The planet you’re on is full of mysteries, creatures, people, and things to do. Welcome to your new home amongst the stars!",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/9a2764693c414ecda63d8f785452a4bb/nova-lands-offer-16wzy.png",
-      "originalPrice": 399,
-      "discountPrice": 0,
+      "id": "921e40c4c69f4d728914ca2a4f0aa407",
+      "title": "Eternal Threads",
+      "description": "Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
+      "originalPrice": 369,
+      "discountPrice": 73.8,
       "currency": "UAH",
-      "url": "https://store.epicgames.com/p/nova-lands-4d1788",
-      "startDate": "2026-07-09T15:00:00.000Z",
-      "endDate": "2026-07-16T15:00:00.000Z",
-      "isFreeNow": true,
+      "url": "https://store.epicgames.com/p/eternal-threads-197169",
+      "startDate": "2026-07-16T15:00:00.000Z",
+      "endDate": "2026-07-30T15:00:00.000Z",
+      "isFreeNow": false,
       "isUpcomingFree": false,
-      "isDiscounted": false,
-      "discountPercent": 100
+      "isDiscounted": true,
+      "discountPercent": 80
+    },
+    {
+      "id": "be5600439b434624802764f704755cde",
+      "title": "Ghostrunner 2",
+      "description": "Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
+      "imageUrl": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
+      "originalPrice": 999,
+      "discountPrice": 199.8,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/ghostrunner-2",
+      "startDate": "2026-07-16T15:00:00.000Z",
+      "endDate": "2026-07-30T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": false,
+      "isDiscounted": true,
+      "discountPercent": 80
+    },
+    {
+      "id": "4a88d0dc64114b20b67339c74543f859",
+      "title": "Lost Castle: The Old Ones Awaken",
+      "description": "The Old Ones Awaken adds new levels to explore, new enemies to defeat, and new bosses to face along with a host exciting new weapons and equipment to wield and wear.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/a6d76157ad884f2c9aa470b30da9e2ff/lost-castle-r390n.png",
+      "originalPrice": 73,
+      "discountPrice": 36.5,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/lost-castle-abb2e2",
+      "startDate": "2026-07-16T15:00:00.000Z",
+      "endDate": "2026-07-30T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": false,
+      "isDiscounted": true,
+      "discountPercent": 50
+    },
+    {
+      "id": "8f80897c0b6e4e678fed08da169d44be",
+      "title": "Castlevania Anniversary Collection",
+      "description": "Konami's Castlevania Anniversary Collection traces the origins of the historic vampire franchise. Included is a unique eBook with details provided by developers, artists and others inspired by the Castlevania legacy which sheds a fresh light into the world of Castlevania.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
+      "originalPrice": 279,
+      "discountPrice": 111.6,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/castlevania-anniversary-collection-a61f94",
+      "startDate": "2026-07-16T15:00:00.000Z",
+      "endDate": "2026-07-30T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": false,
+      "isDiscounted": true,
+      "discountPercent": 60
     },
     {
       "id": "c27f2bb0dd9b4c4ca4973e653ab8a5be",
@@ -39,27 +87,11 @@
       "description": "Luto is a psychological horror experience where you take on the role of someone unable to leave their home. Every attempt to escape will lead you deeper into the unknown, where nothing is as it seems and everything will test your senses.",
       "imageUrl": "https://cdn1.epicgames.com/spt-assets/eda0432529164b29b8a659d627d660e4/luto-14zrp.png",
       "originalPrice": 415,
-      "discountPrice": 415,
+      "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/luto-0a4ab3",
       "startDate": "2026-07-16T15:00:00.000Z",
       "endDate": "2026-07-23T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": true,
-      "isDiscounted": false,
-      "discountPercent": 0
-    },
-    {
-      "id": "f247e0af293645bda266fa9957d82d62",
-      "title": "Tattoo Tycoon",
-      "description": "Станьте тату-майстром і керуйте власним салоном. Підбирайте ідеальні ескізи для ексцентричних клієнтів, перетворюючи їхні приблизні побажання на шедеври бодіарту. Розширте свою невеличку затишну студію до успішного бізнесу з кількома салонами в різних районах Татуга Бей.",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/0b68dfc82a014fe2ac9971f13e0e3ce5/tattoo-tycoon-11qwx.jpg",
-      "originalPrice": 750,
-      "discountPrice": 0,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/tattoo-tycoon-b4352c",
-      "startDate": "2026-07-09T15:00:00.000Z",
-      "endDate": "2026-07-16T15:00:00.000Z",
       "isFreeNow": true,
       "isUpcomingFree": false,
       "isDiscounted": false,
@@ -71,15 +103,15 @@
       "description": "Lead a gang of kids to uncover spooky mysteries, battle creatures, and explore the supernatural side of your hometown in Echo Generation, a turn-based adventure set in the 90s.",
       "imageUrl": "https://cdn1.epicgames.com/spt-assets/d85d8cbcd8bd43308d262ba62af5b5ce/echo-generation-midnight-edition-49ac1.jpg",
       "originalPrice": 459,
-      "discountPrice": 459,
+      "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/echo-generation-midnight-edition-069026",
       "startDate": "2026-07-16T15:00:00.000Z",
       "endDate": "2026-07-23T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": true,
+      "isFreeNow": true,
+      "isUpcomingFree": false,
       "isDiscounted": false,
-      "discountPercent": 0
+      "discountPercent": 100
     }
   ],
   "steam": [
@@ -120,6 +152,18 @@
       "isPopular": false
     },
     {
+      "id": "4210580",
+      "title": "Ore Factory Squad ⛏️",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210580/5c0e7a280decdccdda5aabcf74dea7a6ae0ac214/capsule_616x353.jpg?t=1784206688",
+      "originalPrice": 295,
+      "discountPrice": 221,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4210580",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2524850",
       "title": "Denshattack!",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/13f5840674052080806eb01e8b185d64e507cb3b/capsule_616x353_alt_assets_0.jpg?t=1784195031",
@@ -132,18 +176,6 @@
       "isPopular": false
     },
     {
-      "id": "3808690",
-      "title": "Pathogenic",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808690/c8ec231b98f038c8b3acc81be6c6046260efc881/capsule_616x353.jpg?t=1784205866",
-      "originalPrice": 110,
-      "discountPrice": 88,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3808690",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1671210",
       "title": "DELTARUNE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
@@ -152,6 +184,18 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1671210",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3808690",
+      "title": "Pathogenic",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808690/c8ec231b98f038c8b3acc81be6c6046260efc881/capsule_616x353.jpg?t=1784215912",
+      "originalPrice": 110,
+      "discountPrice": 88,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3808690",
       "isSpecial": true,
       "isPopular": false
     },
@@ -180,16 +224,16 @@
       "isPopular": false
     },
     {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1782258835",
-      "originalPrice": 187,
-      "discountPrice": 115,
-      "discountPercent": 39,
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
-      "isSpecial": true,
-      "isPopular": false
+      "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
     },
     {
       "id": "1675200",
@@ -200,18 +244,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isPopular": true
     },
@@ -240,14 +272,14 @@
       "isPopular": true
     },
     {
-      "id": "4449410",
-      "title": "KYOTO XANADU -the Blooming Phantom-",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4449410/8baeb1194fe2a4e11a7c4a9c230fa76716415c55/capsule_616x353.jpg?t=1784185157",
-      "originalPrice": 1649,
-      "discountPrice": 1649,
+      "id": "4229450",
+      "title": "PowerWash Simulator 2 - STAR WARS Pack",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4229450/1a06f94e2de3b73a0ae18d67213d2197977b7605/capsule_616x353.jpg?t=1784209747",
+      "originalPrice": 230,
+      "discountPrice": 230,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4449410",
+      "url": "https://store.steampowered.com/app/4229450",
       "isSpecial": false,
       "isPopular": true
     }
@@ -4794,7 +4826,7 @@
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NZX67J81X6F",
       "isGamePass": true,
-      "isNewToGamePass": false,
+      "isNewToGamePass": true,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -9142,20 +9174,6 @@
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
     },
-    "steam_popular_4131670": {
-      "title": "Jurassic World Evolution 3: Rebirth Expansion",
-      "price": 670,
-      "percent": 0,
-      "timestamp": "2026-06-16T15:02:42.078Z",
-      "type": "popular"
-    },
-    "steam_popular_4467980": {
-      "title": "theHunter: Call of the Wild™ - Peru Hunting Reserve",
-      "price": 275,
-      "percent": 0,
-      "timestamp": "2026-06-16T15:02:42.078Z",
-      "type": "popular"
-    },
     "steam_discount_381210": {
       "title": "Dead by Daylight",
       "price": 171,
@@ -10345,6 +10363,69 @@
       "percent": 0,
       "timestamp": "2026-07-16T13:42:56.997Z",
       "type": "xbox_new"
+    },
+    "epic_free_c27f2bb0dd9b4c4ca4973e653ab8a5be": {
+      "title": "Luto",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-07-16T15:36:52.984Z",
+      "type": "free"
+    },
+    "epic_free_371545146a944478ad5a87f9b581ac29": {
+      "title": "Echo Generation: Midnight Edition",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-07-16T15:36:52.984Z",
+      "type": "free"
+    },
+    "epic_discount_223c59e227e74e079a1bbe5a234b896f": {
+      "title": "Foretales",
+      "price": 88.5,
+      "percent": 85,
+      "timestamp": "2026-07-16T15:36:52.984Z",
+      "type": "discount"
+    },
+    "epic_discount_921e40c4c69f4d728914ca2a4f0aa407": {
+      "title": "Eternal Threads",
+      "price": 73.8,
+      "percent": 80,
+      "timestamp": "2026-07-16T15:36:52.984Z",
+      "type": "discount"
+    },
+    "epic_discount_be5600439b434624802764f704755cde": {
+      "title": "Ghostrunner 2",
+      "price": 199.8,
+      "percent": 80,
+      "timestamp": "2026-07-16T15:36:52.984Z",
+      "type": "discount"
+    },
+    "epic_discount_4a88d0dc64114b20b67339c74543f859": {
+      "title": "Lost Castle: The Old Ones Awaken",
+      "price": 36.5,
+      "percent": 50,
+      "timestamp": "2026-07-16T15:36:52.984Z",
+      "type": "discount"
+    },
+    "epic_discount_8f80897c0b6e4e678fed08da169d44be": {
+      "title": "Castlevania Anniversary Collection",
+      "price": 111.6,
+      "percent": 60,
+      "timestamp": "2026-07-16T15:36:52.984Z",
+      "type": "discount"
+    },
+    "steam_discount_4210580": {
+      "title": "Ore Factory Squad ⛏️",
+      "price": 221,
+      "percent": 25,
+      "timestamp": "2026-07-16T15:36:52.984Z",
+      "type": "discount"
+    },
+    "steam_popular_4229450": {
+      "title": "PowerWash Simulator 2 - STAR WARS Pack",
+      "price": 230,
+      "percent": 0,
+      "timestamp": "2026-07-16T15:36:52.984Z",
+      "type": "popular"
     }
   }
 }
