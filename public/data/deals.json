@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T11:37:05.963Z",
+  "lastUpdated": "2026-07-16T13:43:02.979Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -132,6 +132,18 @@
       "isPopular": false
     },
     {
+      "id": "3808690",
+      "title": "Pathogenic",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808690/c8ec231b98f038c8b3acc81be6c6046260efc881/capsule_616x353.jpg?t=1784205866",
+      "originalPrice": 110,
+      "discountPrice": 88,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3808690",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1671210",
       "title": "DELTARUNE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
@@ -180,16 +192,16 @@
       "isPopular": false
     },
     {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
-      "isSpecial": true,
-      "isPopular": false
+      "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isPopular": true
     },
     {
       "id": "4165910",
@@ -236,18 +248,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4449410",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     }
@@ -4778,6 +4778,21 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NK4NC5LFCQ7",
+      "isGamePass": true,
+      "isNewToGamePass": false,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
+      "id": "9NZX67J81X6F",
+      "title": "MAVRIX by Matt Jones",
+      "description": "Designed by Pro Red Bull Athlete Matt Jones, MAVRIX is THE ultimate multiplayer open world for riders, with authenticity at the core.\n\nPure creativity. Spanning 100 square kilometres of Downhill race tracks, huge Slopestyle lines and multiple bike parks! Get ready to race or bring your style and creativity to define your own lines.\n\nRide Together with your buddies, discover hidden challenges and join the Pros to hit huge jumps.\n\nGlobal Rankings: Want to be the best? The rankings don't lie. Race hard to unlock rare items and compete for genuine prizes.\n\nAuthentic Physics & Control: Using dual stick controls, independent brake levers and physics based handling/suspension. The MAVRIX physics engine connects you with the bike to balance grip, stomp tricks and ride in your own unique way.\n\nSponsorship puts the life of a professional rider in your hands. Sign and collect contracts to manage your own MTB career.\n\nCustomisation is key. Unlock bikes, clothes and components from real MTB brands to create your dream set-up.\n\nSee you on the mountain!\n\nFull details on the latest status of the game, how you can give feedback and report issues can be found at https://discord.gg/ZmambDFz].\n",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.28668.14471845286194830.d020df30-4cbe-4cbc-88b5-60f65e890792.e1be86c0-7f04-4b35-ba0f-4f1737699473",
+      "originalPrice": 1405,
+      "discountPrice": 1405,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9NZX67J81X6F",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
@@ -10316,6 +10331,20 @@
       "percent": 0,
       "timestamp": "2026-07-16T09:10:34.922Z",
       "type": "popular"
+    },
+    "steam_discount_3808690": {
+      "title": "Pathogenic",
+      "price": 88,
+      "percent": 20,
+      "timestamp": "2026-07-16T13:42:56.997Z",
+      "type": "discount"
+    },
+    "xbox_new_9NZX67J81X6F": {
+      "title": "MAVRIX by Matt Jones",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-16T13:42:56.997Z",
+      "type": "xbox_new"
     }
   }
 }
