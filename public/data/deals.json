@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T22:58:05.163Z",
+  "lastUpdated": "2026-07-16T00:01:33.941Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -122,7 +122,7 @@
     {
       "id": "2524850",
       "title": "Denshattack!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/13f5840674052080806eb01e8b185d64e507cb3b/capsule_616x353_alt_assets_0.jpg?t=1784129650",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/13f5840674052080806eb01e8b185d64e507cb3b/capsule_616x353_alt_assets_0.jpg?t=1784158945",
       "originalPrice": 499,
       "discountPrice": 449,
       "discountPercent": 10,
@@ -156,14 +156,14 @@
       "isPopular": false
     },
     {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
+      "id": "3892270",
+      "title": "Gamble With Your Friends",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1782258835",
+      "originalPrice": 187,
+      "discountPrice": 115,
+      "discountPercent": 39,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
+      "url": "https://store.steampowered.com/app/3892270",
       "isSpecial": true,
       "isPopular": false
     },
@@ -180,14 +180,14 @@
       "isPopular": false
     },
     {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1782258835",
-      "originalPrice": 187,
-      "discountPrice": 115,
-      "discountPercent": 39,
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
+      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isPopular": false
     },
@@ -228,18 +228,6 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "2569760",
       "title": "The Mound: Omen of Cthulhu",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/55dd83f6b6d332501102b8fef5a0d8cca0c0153c/capsule_616x353.jpg?t=1784110925",
@@ -248,6 +236,18 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2569760",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     }
