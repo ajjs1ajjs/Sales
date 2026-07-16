@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T15:37:01.252Z",
+  "lastUpdated": "2026-07-16T17:11:50.652Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -140,6 +140,18 @@
       "isPopular": false
     },
     {
+      "id": "3712080",
+      "title": "Funnel Runners",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784214036",
+      "originalPrice": 160,
+      "discountPrice": 144,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3712080",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -148,6 +160,18 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3869850",
+      "title": "Welcome to the Game III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3869850/c4f854a8076a13eeb421e973638b565dd66fcfed/capsule_616x353.jpg?t=1784217528",
+      "originalPrice": 415,
+      "discountPrice": 373,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3869850",
       "isSpecial": true,
       "isPopular": false
     },
@@ -164,18 +188,6 @@
       "isPopular": false
     },
     {
-      "id": "2524850",
-      "title": "Denshattack!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/13f5840674052080806eb01e8b185d64e507cb3b/capsule_616x353_alt_assets_0.jpg?t=1784195031",
-      "originalPrice": 499,
-      "discountPrice": 449,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2524850",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1671210",
       "title": "DELTARUNE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
@@ -188,14 +200,14 @@
       "isPopular": false
     },
     {
-      "id": "3808690",
-      "title": "Pathogenic",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808690/c8ec231b98f038c8b3acc81be6c6046260efc881/capsule_616x353.jpg?t=1784215912",
-      "originalPrice": 110,
-      "discountPrice": 88,
-      "discountPercent": 20,
+      "id": "2524850",
+      "title": "Denshattack!",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/13f5840674052080806eb01e8b185d64e507cb3b/capsule_616x353_alt_assets_0.jpg?t=1784195031",
+      "originalPrice": 499,
+      "discountPrice": 449,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3808690",
+      "url": "https://store.steampowered.com/app/2524850",
       "isSpecial": true,
       "isPopular": false
     },
@@ -208,18 +220,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1304930",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1771300",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
-      "originalPrice": 1599,
-      "discountPrice": 639,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1771300",
       "isSpecial": true,
       "isPopular": false
     },
@@ -10425,6 +10425,27 @@
       "price": 230,
       "percent": 0,
       "timestamp": "2026-07-16T15:36:52.984Z",
+      "type": "popular"
+    },
+    "steam_discount_3712080": {
+      "title": "Funnel Runners",
+      "price": 144,
+      "percent": 10,
+      "timestamp": "2026-07-16T17:11:43.485Z",
+      "type": "discount"
+    },
+    "steam_discount_3869850": {
+      "title": "Welcome to the Game III",
+      "price": 373,
+      "percent": 10,
+      "timestamp": "2026-07-16T17:11:43.485Z",
+      "type": "discount"
+    },
+    "steam_popular_3712080": {
+      "title": "Funnel Runners",
+      "price": 144,
+      "percent": 10,
+      "timestamp": "2026-07-16T17:11:43.485Z",
       "type": "popular"
     }
   }
