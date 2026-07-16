@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T09:10:40.652Z",
+  "lastUpdated": "2026-07-16T11:37:05.963Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -122,7 +122,7 @@
     {
       "id": "2524850",
       "title": "Denshattack!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/13f5840674052080806eb01e8b185d64e507cb3b/capsule_616x353_alt_assets_0.jpg?t=1784158945",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/13f5840674052080806eb01e8b185d64e507cb3b/capsule_616x353_alt_assets_0.jpg?t=1784195031",
       "originalPrice": 499,
       "discountPrice": 449,
       "discountPercent": 10,
@@ -180,14 +180,14 @@
       "isPopular": false
     },
     {
-      "id": "3159330",
-      "title": "Assassin’s Creed Shadows",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/2d5536f7e9f72d7844c59c5dc1416f7b756d3ad4/capsule_616x353.jpg?t=1775589420",
-      "originalPrice": 1999,
-      "discountPrice": 899,
-      "discountPercent": 55,
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/1c192a30cb46b0f763fbe38ccb386b3d11b9a7d0/capsule_616x353_alt_assets_25.jpg?t=1779908213",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3159330",
+      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isPopular": false
     },
@@ -216,18 +216,6 @@
       "isPopular": true
     },
     {
-      "id": "4449410",
-      "title": "KYOTO XANADU -the Blooming Phantom-",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4449410/8baeb1194fe2a4e11a7c4a9c230fa76716415c55/capsule_616x353.jpg?t=1784185157",
-      "originalPrice": 1649,
-      "discountPrice": 1649,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4449410",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4704690",
       "title": "MECCHA CHAMELEON",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
@@ -240,6 +228,18 @@
       "isPopular": true
     },
     {
+      "id": "4449410",
+      "title": "KYOTO XANADU -the Blooming Phantom-",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4449410/8baeb1194fe2a4e11a7c4a9c230fa76716415c55/capsule_616x353.jpg?t=1784185157",
+      "originalPrice": 1649,
+      "discountPrice": 1649,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4449410",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
@@ -248,18 +248,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1202520",
-      "title": "Fallout 1st",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
-      "originalPrice": 399,
-      "discountPrice": 399,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1202520",
       "isSpecial": false,
       "isPopular": true
     }
@@ -4411,14 +4399,14 @@
       "description": "Kingdom Come: Deliverance II — це захоплива динамічна рольова гра, у якій події відбуваються посеред хаосу громадянської війни у Богемії в 15 столітті.\n\nВи гратимете за Генрі зі Скеліце, потрапивши у насичену подіями історію про помсту. У пошуках свого призначення в цьому прекрасному, але жорстокому середньовічному світі він пройде епічний шлях від простого ковадла й до самого королівського двору.\n\nМандруйте галасливими вулицями та пишними лісами у відкритому світі середньовічної Європи. Вас чекає незабутня пригода, сповнена подій, дивовиж і гострих відчуттів.\n\nОСОБЛИВОСТІ \n\nОповідь про любов та помсту\nЖивіть життям юного Генрі, що став на шлях помсти за вбивство батьків. Ви дивитиметеся його очима й діятимете його руками. Його історія, додатково розкрита п’ятигодинними грандіозними кінематографічними вставками, веде від натхненного воїна до заколотника, зводячи з харизматичними особами та незабутніми пригодами, коли юнак постає проти короля Угорщини.\n\nДосвід справжніх рольових ігор\nВаші дії формують долю Генрі та ставлення світу до нього. Вільно налаштовуйте зовнішність, уміння та спорядження, дотримуючись моральних засад у вихорі подій навколо вас. Мандруйте країною, займаючись різноманітною автентичною діяльністю, як-от ковальство та стрільба з лука, щоби повністю стати частиною цього яскравого регіону Європи, який назавжди запам’ятає ваші діяння.\n\nЖиття у Середньовіччі\nПриголомшливе автентичне відтворення Богемії 15 століття дозволить вам як ніколи раніше насолодитися цим прекрасним періодом. Блукайте протяжними заплутаними вуличками міста, взаємодійте із селянами та спілкуйтеся зі шляхтою, досліджуючи велику та багату місцевість з тавернами, лазнями, замками та іншим. \n\nАвтетничні бої з видом від першої особи\nВідчуйте брязкання сталі та лихоманку бою, занурившись у захопливі битви в реальному часі. Різномаїття історично-достовірної зброї та бойових стилів задовольнять будь-чиї забаганки. Пішки, верхи чи скрадаючись ви можете здобути спеціалізацію в елегантному володінні мечем, жорстокій бійці ударною зброєю чи смертоносних пострілах здалека. ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.36586.13979588110779567.5e6f9542-73ca-4800-a714-e6819fafc7f7.ad2ade38-0cff-4753-ae4f-b9e8cdc428e2",
       "originalPrice": 1999,
-      "discountPrice": 799.6,
-      "discountPercent": 60,
+      "discountPrice": 1999,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N4W31HSMVVD",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "BWT2GPVWCH2F",
