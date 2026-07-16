@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T17:11:50.652Z",
+  "lastUpdated": "2026-07-16T19:04:31.397Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -128,18 +128,6 @@
       "isPopular": true
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3712080",
       "title": "Funnel Runners",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784214036",
@@ -152,14 +140,14 @@
       "isPopular": true
     },
     {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": false
     },
@@ -176,6 +164,18 @@
       "isPopular": false
     },
     {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "4210580",
       "title": "Ore Factory Squad ⛏️",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210580/5c0e7a280decdccdda5aabcf74dea7a6ae0ac214/capsule_616x353.jpg?t=1784206688",
@@ -188,18 +188,6 @@
       "isPopular": false
     },
     {
-      "id": "1671210",
-      "title": "DELTARUNE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
-      "originalPrice": 499,
-      "discountPrice": 399,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1671210",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2524850",
       "title": "Denshattack!",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/13f5840674052080806eb01e8b185d64e507cb3b/capsule_616x353_alt_assets_0.jpg?t=1784195031",
@@ -208,6 +196,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2524850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1671210",
+      "title": "DELTARUNE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
+      "originalPrice": 499,
+      "discountPrice": 399,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1671210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -236,18 +236,6 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "3751950",
       "title": "Assassin's Creed Black Flag Resynced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
@@ -272,14 +260,14 @@
       "isPopular": true
     },
     {
-      "id": "4229450",
-      "title": "PowerWash Simulator 2 - STAR WARS Pack",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4229450/1a06f94e2de3b73a0ae18d67213d2197977b7605/capsule_616x353.jpg?t=1784209747",
-      "originalPrice": 230,
-      "discountPrice": 230,
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4229450",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     }
