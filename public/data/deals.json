@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T16:12:38.740Z",
+  "lastUpdated": "2026-07-17T18:03:05.630Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -188,18 +188,6 @@
       "isPopular": false
     },
     {
-      "id": "1304930",
-      "title": "The Outlast Trials",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/4aaf4d66ab40042a48a69cc8c96c142efc35aa57/capsule_616x353_alt_assets_3.jpg?t=1784123708",
-      "originalPrice": 740,
-      "discountPrice": 222,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1304930",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1671210",
       "title": "DELTARUNE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
@@ -212,14 +200,26 @@
       "isPopular": false
     },
     {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1782258835",
-      "originalPrice": 187,
-      "discountPrice": 115,
-      "discountPercent": 39,
+      "id": "1304930",
+      "title": "The Outlast Trials",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/4aaf4d66ab40042a48a69cc8c96c142efc35aa57/capsule_616x353_alt_assets_3.jpg?t=1784123708",
+      "originalPrice": 740,
+      "discountPrice": 222,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
+      "url": "https://store.steampowered.com/app/1304930",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2968420",
+      "title": "PowerWash Simulator 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2968420/374fc7a0419c7361cda3ae7fa6fe4e383f206e5d/capsule_616x353.jpg?t=1784211271",
+      "originalPrice": 500,
+      "discountPrice": 375,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2968420",
       "isSpecial": true,
       "isPopular": false
     },
