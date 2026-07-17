@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T12:06:30.326Z",
+  "lastUpdated": "2026-07-17T14:40:53.345Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -137,7 +137,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "1174180",
@@ -208,18 +208,6 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2968420",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4210580",
-      "title": "Ore Factory Squad ⛏️",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210580/5c0e7a280decdccdda5aabcf74dea7a6ae0ac214/capsule_616x353.jpg?t=1784286903",
-      "originalPrice": 295,
-      "discountPrice": 221,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4210580",
       "isSpecial": true,
       "isPopular": false
     },
