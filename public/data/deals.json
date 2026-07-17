@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T14:40:53.345Z",
+  "lastUpdated": "2026-07-17T16:12:38.740Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -137,7 +137,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1174180",
@@ -176,6 +176,18 @@
       "isPopular": false
     },
     {
+      "id": "3981100",
+      "title": "Leaf it Alone",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981100/6097bfcd878f6b0e62f4fec1fa415404734989b4/capsule_616x353.jpg?t=1784289624",
+      "originalPrice": 149,
+      "discountPrice": 96,
+      "discountPercent": 36,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3981100",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1304930",
       "title": "The Outlast Trials",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/4aaf4d66ab40042a48a69cc8c96c142efc35aa57/capsule_616x353_alt_assets_3.jpg?t=1784123708",
@@ -200,26 +212,14 @@
       "isPopular": false
     },
     {
-      "id": "2968420",
-      "title": "PowerWash Simulator 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2968420/374fc7a0419c7361cda3ae7fa6fe4e383f206e5d/capsule_616x353.jpg?t=1784211271",
-      "originalPrice": 500,
-      "discountPrice": 375,
-      "discountPercent": 25,
+      "id": "3892270",
+      "title": "Gamble With Your Friends",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1782258835",
+      "originalPrice": 187,
+      "discountPrice": 115,
+      "discountPercent": 39,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2968420",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3981100",
-      "title": "Leaf it Alone",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981100/6097bfcd878f6b0e62f4fec1fa415404734989b4/capsule_616x353.jpg?t=1784289624",
-      "originalPrice": 149,
-      "discountPrice": 96,
-      "discountPercent": 36,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3981100",
+      "url": "https://store.steampowered.com/app/3892270",
       "isSpecial": true,
       "isPopular": false
     },
