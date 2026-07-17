@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T18:03:05.630Z",
+  "lastUpdated": "2026-07-17T20:03:45.981Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -137,19 +137,19 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
+      "id": "3712080",
+      "title": "Funnel Runners",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784232579",
+      "originalPrice": 160,
+      "discountPrice": 144,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
+      "url": "https://store.steampowered.com/app/3712080",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "2183900",
@@ -164,26 +164,14 @@
       "isPopular": false
     },
     {
-      "id": "3712080",
-      "title": "Funnel Runners",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784232579",
-      "originalPrice": 160,
-      "discountPrice": 144,
-      "discountPercent": 10,
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3712080",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3981100",
-      "title": "Leaf it Alone",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981100/6097bfcd878f6b0e62f4fec1fa415404734989b4/capsule_616x353.jpg?t=1784289624",
-      "originalPrice": 149,
-      "discountPrice": 96,
-      "discountPercent": 36,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3981100",
+      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isPopular": false
     },
@@ -200,14 +188,14 @@
       "isPopular": false
     },
     {
-      "id": "1304930",
-      "title": "The Outlast Trials",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/4aaf4d66ab40042a48a69cc8c96c142efc35aa57/capsule_616x353_alt_assets_3.jpg?t=1784123708",
-      "originalPrice": 740,
-      "discountPrice": 222,
-      "discountPercent": 70,
+      "id": "3981100",
+      "title": "Leaf it Alone",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981100/6097bfcd878f6b0e62f4fec1fa415404734989b4/capsule_616x353.jpg?t=1784289624",
+      "originalPrice": 149,
+      "discountPrice": 96,
+      "discountPercent": 36,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1304930",
+      "url": "https://store.steampowered.com/app/3981100",
       "isSpecial": true,
       "isPopular": false
     },
@@ -224,6 +212,18 @@
       "isPopular": false
     },
     {
+      "id": "3892270",
+      "title": "Gamble With Your Friends",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1782258835",
+      "originalPrice": 187,
+      "discountPrice": 115,
+      "discountPercent": 39,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3892270",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
@@ -232,18 +232,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     },
@@ -268,6 +256,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     }
@@ -3358,6 +3358,21 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N7MVHP2R7VP",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
+      "id": "9P2PP895LSBJ",
+      "title": "Fogpiercer",
+      "description": "Смертоносний туман накриває світ. Майбутнє людства — у ваших руках! Зберіть свій потяг, щоб визначити стартову колоду, прокладіть маршрут крізь світ, захоплений бандитами, та готуйтеся до динамічних покрокових тактичних боїв, де синергії, позиціювання та ланцюгові реакції вирішують усе.\n\nСТВОРІТЬ СВОЮ КОЛОДУ\nОбирайте з різноманітних локомотивів, вагонів і машиністів для своєї експедиції. Кожне рішення формує стартову колоду, відкриваючи різні можливості та здібності протягом проходження. Збирайте ресурси, щоб покращувати потяг або купувати нові вагони, які додають до колоди додаткові тактичні інструменти. Прокладайте шлях крізь туман і вступайте в бої з дедалі різноманітнішими ворогами — кожен із власною зброєю, рисами, сильними та слабкими сторонами. На що зробите ставку: на шквал вогню мінігана, щоб швидко знищувати супротивників; на артилерію, яка жорстко збиває переслідувачів із курсу; чи на щити й таран, щоб витримати натиск і прорвати оборону ворога? \n\nВід хакерів, здатних розгортати приманки та перехоплювати керування ворожими машинами, до кранів, що розштовхують супротивників по всьому полю бою, — у вас є безліч способів здолати бандитів та їхніх ватажків. Здобувайте унікальні поліпшення карт і експериментуйте з несподіваними комбінаціями, відкриваючи потужні синергії — кожна з власними ризиками та можливостями.\n\nДИНАМІЧНІ БОЇ\nОбмежена кількість очок дій на хід змушує ретельно планувати кожен крок і діяти без помилок, адже ворог постійно переважає числом і намагається взяти вас у кільце. Заганяйте супротивників у зони небезпеки довкілля, скидайте їх зі скель, зіштовхуйте між собою або хитрістю змушуйте атакувати одне одного. Вороги заздалегідь попереджають про свої дії — тож у вас є час підготувати власний хід. Вдале використання «Вугілля» у поєднанні з влучним «Артилерійським пострілом» може виштовхнути ворога прямо на рейки перед вами — і вже за мить ви розчавите його під колесами. Тим самим пострілом можна знищити машину в голові колони й відкинути її назад, завдавши шкоди (а іноді й знищивши) всіх, хто мчить позаду. Карти зламу дозволяють виставити ще більше машин у потрібну лінію перед ударом. Правильна послідовність дій дозволить рознести ворожі конвої.\n\nПонад 170 карт із різноманітними ефектами стану, інструментами підтримки, варіантами шкоди та іншими механіками дозволяють зібрати потяг під ваш стиль гри й відкрити по-справжньому потужні комбінації. Супутні руйнування, ланцюгові реакції та контроль поля бою — ключові елементи на шляху до перемоги.\n\nКВИТОК ДО ПРИГОД\nПодорожуйте від регіону до регіону, пробиваючись до краю туману, та обирайте маршрут залежно від унікальних модифікаторів місцевості й доступних нагород. Розгалужені шляхи всередині регіонів дозволяють точно налаштовувати курс до фінальної точки, зважуючи ризики й винагороди кожного вузла — від полів бою до дружніх стоянок, де можна відремонтувати й удосконалити потяг.\n\nКожне поле бою унікальне: десь на допомогу прийде союзник, десь буде обмежений простір для маневру й ухиляння, а інколи сутичка розгорнеться просто на краю урвища, перетворюючи довкілля на постійну загрозу, яку можна обернути проти ворогів. Часто поля бою поєднують кілька таких чинників, що можуть як допомогти, так і завадити вашому просуванню, водночас винагороджуючи додатковими картами, модифікаторами та запасами брухту для подальшої подорожі. Ремцехи й депо дають змогу ремонтувати вагони та локомотив, інколи — покращувати їх і відкривати нові карти, а також купувати й продавати вагони, щоб точніше налаштувати колоду. Випадкові зустрічі можуть подарувати рідкісні можливості в цьому безжальному світі, тоді як битви з босами наприкінці кожного регіону зведуть вас із особливими персонажами — кожен із власною історією та унікальними здібностями.\n\nМетапрогресія дозволяє відкривати додаткові вагони, машиністів і локомотиви, щоб шукати нові комбінації для майбутніх проходжень, або ж зосередитися на прокачуванні улюблених, відкриваючи ще більше карт для бою. Бандити невблаганні й не пробачають помилок: рішення під час проходження мають значення, а вибір між спробами відкриває зовсім нові можливості.\n\nFogpiercer садить вас за кермо шаленого потяга, що мчить до порятунку й майбутнього людства. У напружених покрокових тактичних боях ворог переважає числом і вогневою міццю, але вправний тактик завжди знайде спосіб утримати ситуацію на рейках.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.25959.14553435086111963.df80ae9a-2226-4cc1-99bb-24cdb3f4b8a2.243400c9-a25e-4b28-a77d-380956e23ce3",
+      "originalPrice": 299,
+      "discountPrice": 299,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9P2PP895LSBJ",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
@@ -9177,13 +9192,6 @@
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
     },
-    "steam_popular_4735390": {
-      "title": "Warframe: повна колекція «Сузір’я»",
-      "price": 699,
-      "percent": 0,
-      "timestamp": "2026-06-17T18:13:09.686Z",
-      "type": "popular"
-    },
     "steam_popular_3483510": {
       "title": "The Adventures of Elliot: The Millennium Tales",
       "price": 1799,
@@ -10408,6 +10416,13 @@
       "percent": 36,
       "timestamp": "2026-07-17T12:06:24.219Z",
       "type": "discount"
+    },
+    "xbox_new_9P2PP895LSBJ": {
+      "title": "Fogpiercer",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-17T20:03:38.462Z",
+      "type": "xbox_new"
     }
   }
 }
