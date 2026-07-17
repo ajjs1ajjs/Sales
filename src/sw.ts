@@ -75,18 +75,17 @@ self.addEventListener('fetch', (event) => {
   } else {
     event.respondWith(
       caches.match(event.request).then((cached) => {
-        const fetched = fetch(event.request).then((response) => {
-          if (response.ok) {
-            const clone = response.clone();
-            putWithLimit(event.request, clone);
-          }
-          return response;
-        });
-        if (cached) {
-          fetched.catch(() => {});
-          return cached;
-        }
-        return fetched;
+        return fetch(event.request)
+          .then((response) => {
+            if (response.ok) {
+              const clone = response.clone();
+              putWithLimit(event.request, clone);
+              return response;
+            }
+            // Fetch returned an error — fall back to cache if available
+            return cached || response;
+          })
+          .catch(() => cached || new Response('Offline', { status: 503 }));
       }),
     );
   }

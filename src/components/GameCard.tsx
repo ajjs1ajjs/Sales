@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { ExternalLink, Tag, TrendingUp } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
 import type { EpicGame, SteamGame, XboxGame } from '../types';
-import { formatPrice, formatDate, formatDateEn, safeUrl } from '../utils';
+import { isEpicGame, formatPrice, formatDate, formatDateEn, safeUrl } from '../utils';
 import { WishlistButton } from './WishlistButton';
 
 export type Game = EpicGame | SteamGame | XboxGame;
@@ -132,7 +132,7 @@ export function GameCard({
                 {formatPrice(game.originalPrice, game.currency, locale)}
               </span>
             )}
-            {'isFreeNow' in game && (game as EpicGame).isFreeNow ? (
+            {isEpicGame(game) && game.isFreeNow ? (
               <span className="price-current free-text">{t.price.free}</span>
             ) : (
               <span className="price-current">

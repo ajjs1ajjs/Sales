@@ -10,10 +10,10 @@ const FREE_GAME_COOLDOWN_MS = 14 * 24 * 60 * 60 * 1000;
 const DISCOUNT_COOLDOWN_MS = 30 * 24 * 60 * 60 * 1000;
 const TG_MESSAGE_LIMIT = 4000;
 
-const XBOX_SGL_ALL_PC = '609d944c-d395-4c0a-9ea4-e9f39b52c1ad';
-const XBOX_SGL_NEW_PC = '3fdd7f57-7092-4b65-bd40-5a9dac1b2b84';
-const XBOX_SGL_COMING_PC = '4165f752-d702-49c8-886b-fb57936f6bae';
-const XBOX_SGL_EA_PLAY_PC = '1d33fbb9-b895-4732-a8ca-a55c8b99fa2c';
+const XBOX_SGL_ALL_PC = process.env.XBOX_SGL_ALL_PC ?? '609d944c-d395-4c0a-9ea4-e9f39b52c1ad';
+const XBOX_SGL_NEW_PC = process.env.XBOX_SGL_NEW_PC ?? '3fdd7f57-7092-4b65-bd40-5a9dac1b2b84';
+const XBOX_SGL_COMING_PC = process.env.XBOX_SGL_COMING_PC ?? '4165f752-d702-49c8-886b-fb57936f6bae';
+const XBOX_SGL_EA_PLAY_PC = process.env.XBOX_SGL_EA_PLAY_PC ?? '1d33fbb9-b895-4732-a8ca-a55c8b99fa2c';
 
 async function fetchWithRetry(url: string, options?: RequestInit, retries = 3, delay = 2000): Promise<Response> {
   for (let i = 0; i < retries; i++) {
@@ -421,8 +421,7 @@ async function sendTelegramMessage(text: string) {
   });
   
   if (!response.ok) {
-    const errorText = await response.text();
-    console.error("❌ Failed to send Telegram message:", errorText.slice(0, 500));
+    console.error(`❌ Telegram API error: ${response.status}`);
   } else {
     console.log("✅ Telegram message sent successfully.");
   }

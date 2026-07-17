@@ -81,9 +81,7 @@ function HomePage() {
     };
   }, [data]);
 
-  const priceRange = useMemo<[number, number]>(() => {
-    return userPriceRange || [absoluteMinPrice, absoluteMaxPrice];
-  }, [userPriceRange, absoluteMinPrice, absoluteMaxPrice]);
+  const priceRange: [number, number] = userPriceRange ?? [absoluteMinPrice, absoluteMaxPrice];
 
   // A price filter is "active" only when the range is narrower than the full
   // span — not merely when userPriceRange is non-null (Reset sets it to the full
@@ -110,22 +108,41 @@ function HomePage() {
 
   const filterCounts = useMemo(() => {
     const inPriceRange = (price: number) => price >= priceRange[0] && price <= priceRange[1];
-    const epicPriced = epicMatchingSearch.filter((g) => inPriceRange(g.isFreeNow ? 0 : g.discountPrice));
-    const steamPriced = steamMatchingSearch.filter((g) => inPriceRange(g.discountPrice));
-    const xboxPriced = xboxMatchingSearch.filter((g) => inPriceRange(g.discountPrice));
-    return {
-      all: epicPriced.length + steamPriced.length + xboxPriced.length,
-      epic_free: epicPriced.filter((game) => game.isFreeNow || game.isUpcomingFree).length,
-      epic_discount: epicPriced.filter((game) => game.isDiscounted).length,
-      steam_specials: steamPriced.filter((game) => game.isSpecial).length,
-      steam_popular: steamPriced.filter((game) => game.isPopular).length,
-      xbox_gamepass: xboxPriced.length,
-      xbox_new: xboxPriced.filter((game) => game.isNewToGamePass || game.isComingSoon).length,
-      xbox_discount: xboxPriced.filter((game) => game.isDiscounted).length,
-      wishlist: epicPriced.filter((game) => wishlist.includes(game.id)).length +
-                steamPriced.filter((game) => wishlist.includes(game.id)).length +
-                xboxPriced.filter((game) => wishlist.includes(game.id)).length,
+    const counts: Record<FilterType, number> = {
+      all: 0, epic_free: 0, epic_discount: 0,
+      steam_specials: 0, steam_popular: 0,
+      xbox_gamepass: 0, xbox_new: 0, xbox_discount: 0, wishlist: 0,
     };
+
+    for (const g of epicMatchingSearch) {
+      const price = g.isFreeNow ? 0 : g.discountPrice;
+      if (!inPriceRange(price)) continue;
+      counts.all++;
+      if (g.isFreeNow || g.isUpcomingFree) counts.epic_free++;
+      if (g.isDiscounted) counts.epic_discount++;
+      if (wishlist.includes(g.id)) counts.wishlist++;
+    }
+
+    for (const g of steamMatchingSearch) {
+      const price = g.discountPrice;
+      if (!inPriceRange(price)) continue;
+      counts.all++;
+      if (g.isSpecial) counts.steam_specials++;
+      if (g.isPopular) counts.steam_popular++;
+      if (wishlist.includes(g.id)) counts.wishlist++;
+    }
+
+    for (const g of xboxMatchingSearch) {
+      const price = g.discountPrice;
+      if (!inPriceRange(price)) continue;
+      counts.all++;
+      counts.xbox_gamepass++;
+      if (g.isNewToGamePass || g.isComingSoon) counts.xbox_new++;
+      if (g.isDiscounted) counts.xbox_discount++;
+      if (wishlist.includes(g.id)) counts.wishlist++;
+    }
+
+    return counts;
   }, [epicMatchingSearch, steamMatchingSearch, xboxMatchingSearch, wishlist, priceRange]);
 
   const filteredEpic = useMemo(() => {

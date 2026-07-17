@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
-import { Sparkles, Timer, ChevronDown } from 'lucide-react';
+import { Sparkles, Timer } from 'lucide-react';
+import { CollapsibleSection } from './CollapsibleSection';
 import { useLocale } from '../contexts/LocaleContext';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 import type { XboxGame, FilterType, SortType } from '../types';
@@ -30,23 +31,16 @@ export function XboxSection({ games, activeFilter, searchQuery, sortType }: Prop
   return (
     <>
       {(activeFilter === 'all' || activeFilter === 'xbox_new') && (
-        <section aria-labelledby="xbox-new-title">
-          <h2
-            id="xbox-new-title"
-            className={`section-title${canCollapse ? ' section-title--toggle' : ''}`}
-            onClick={canCollapse ? () => setCollapsedNew((c) => !c) : undefined}
-            role={canCollapse ? 'button' : undefined}
-            tabIndex={canCollapse ? 0 : undefined}
-            onKeyDown={canCollapse ? (e) => { if (e.key === 'Enter' || e.key === ' ') setCollapsedNew((c) => !c); } : undefined}
-            aria-expanded={canCollapse ? !collapsedNew : undefined}
-          >
-            <Sparkles size={22} className="icon-xbox" aria-hidden="true" />
-            {newAdditions.length > 0
-              ? t.xbox.newTitleCount.replace('{count}', String(newAdditions.length))
-              : t.xbox.newTitle}
-            {canCollapse && <ChevronDown size={20} className={`section-chevron${collapsedNew ? ' collapsed' : ''}`} aria-hidden="true" />}
-          </h2>
-
+        <CollapsibleSection
+          id="xbox-new-title"
+          title={newAdditions.length > 0
+            ? t.xbox.newTitleCount.replace('{count}', String(newAdditions.length))
+            : t.xbox.newTitle}
+          icon={<Sparkles size={22} className="icon-xbox" aria-hidden="true" />}
+          canCollapse={canCollapse}
+          collapsed={collapsedNew}
+          onToggle={() => setCollapsedNew((c) => !c)}
+        >
           {(!canCollapse || !collapsedNew) && (
             <>
               {newAdditions.length === 0 && comingSoon.length === 0 && (
@@ -106,25 +100,18 @@ export function XboxSection({ games, activeFilter, searchQuery, sortType }: Prop
               )}
             </>
           )}
-        </section>
+        </CollapsibleSection>
       )}
 
       {(activeFilter === 'all' || activeFilter === 'xbox_discount') && (
-        <section aria-labelledby="xbox-discount-title">
-          <h2
-            id="xbox-discount-title"
-            className={`section-title${canCollapse ? ' section-title--toggle' : ''}`}
-            onClick={canCollapse ? () => setCollapsedDiscount((c) => !c) : undefined}
-            role={canCollapse ? 'button' : undefined}
-            tabIndex={canCollapse ? 0 : undefined}
-            onKeyDown={canCollapse ? (e) => { if (e.key === 'Enter' || e.key === ' ') setCollapsedDiscount((c) => !c); } : undefined}
-            aria-expanded={canCollapse ? !collapsedDiscount : undefined}
-          >
-            <Timer size={22} className="icon-xbox" aria-hidden="true" />
-            {t.xbox.discountTitle}
-            {canCollapse && <ChevronDown size={20} className={`section-chevron${collapsedDiscount ? ' collapsed' : ''}`} aria-hidden="true" />}
-          </h2>
-
+        <CollapsibleSection
+          id="xbox-discount-title"
+          title={t.xbox.discountTitle}
+          icon={<Timer size={22} className="icon-xbox" aria-hidden="true" />}
+          canCollapse={canCollapse}
+          collapsed={collapsedDiscount}
+          onToggle={() => setCollapsedDiscount((c) => !c)}
+        >
           {(!canCollapse || !collapsedDiscount) && (
             <>
               {discounted.length === 0 ? (
@@ -151,7 +138,7 @@ export function XboxSection({ games, activeFilter, searchQuery, sortType }: Prop
               )}
             </>
           )}
-        </section>
+        </CollapsibleSection>
       )}
 
       {activeFilter === 'all' && games.length === 0 && searchQuery && (

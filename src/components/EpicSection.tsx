@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
-import { Gift, Tag, ChevronDown } from 'lucide-react';
+import { Gift, Tag } from 'lucide-react';
+import { CollapsibleSection } from './CollapsibleSection';
 import { useLocale } from '../contexts/LocaleContext';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 import type { EpicGame, FilterType, SortType } from '../types';
@@ -33,125 +34,103 @@ export function EpicSection({ games, activeFilter, searchQuery, sortType }: Prop
   return (
     <>
       {(activeFilter === 'all' || activeFilter === 'epic_free') && (
-        <section aria-labelledby="epic-free-title">
-          <h2
-            id="epic-free-title"
-            className={`section-title${canCollapse ? ' section-title--toggle' : ''}`}
-            onClick={canCollapse ? toggleFree : undefined}
-            role={canCollapse ? 'button' : undefined}
-            tabIndex={canCollapse ? 0 : undefined}
-            onKeyDown={canCollapse ? (e) => { if (e.key === 'Enter' || e.key === ' ') toggleFree(); } : undefined}
-            aria-expanded={canCollapse ? !collapsedFree : undefined}
-          >
-            <Gift size={22} className="icon-epic" aria-hidden="true" />
-            {t.epic.freeTitle}
-            {canCollapse && <ChevronDown size={20} className={`section-chevron${collapsedFree ? ' collapsed' : ''}`} aria-hidden="true" />}
-          </h2>
-
-          {(!canCollapse || !collapsedFree) && (
-            <>
-              {currentFree.length === 0 && upcomingFree.length === 0 && (
-                <div className="empty-state section-gap-bottom">
-                  <h3>{t.epic.emptyFree}</h3>
-                  <p>{t.epic.emptyFreeDesc}</p>
-                </div>
-              )}
-
-              {currentFree.length > 0 && (
-                <div className="subsection">
-                  <h3 className="subsection-title">
-                    <span className="dot dot--green" aria-hidden="true" />
-                    {t.epic.freeSubtitle.replace('{count}', String(currentFree.length))}
-                  </h3>
-                  <div className="deals-grid">
-                    <ShowMore
-                      items={currentFree.map((game) => (
-                        <GameCard
-                          key={game.id}
-                          game={game}
-                          platform="epic"
-                          badge="FREE"
-                          badgeVariant="free"
-                          linkText={t.epic.getFree}
-                          searchQuery={searchQuery}
-                        />
-                      ))}
-                    />
-                  </div>
-                </div>
-              )}
-
-              {upcomingFree.length > 0 && (
-                <div className="subsection">
-                  <h3 className="subsection-title">
-                    <span className="dot dot--purple" aria-hidden="true" />
-                    {t.epic.upcomingSubtitle.replace('{count}', String(upcomingFree.length))}
-                  </h3>
-                  <div className="deals-grid">
-                    <ShowMore
-                      items={upcomingFree.map((game) => (
-                        <GameCard
-                          key={game.id}
-                          game={game}
-                          platform="epic"
-                          isUpcoming
-                          upcomingStartDate={game.startDate}
-                          linkText={t.epic.toStore}
-                          searchQuery={searchQuery}
-                        />
-                      ))}
-                    />
-                  </div>
-                </div>
-              )}
-            </>
+        <CollapsibleSection
+          id="epic-free-title"
+          title={t.epic.freeTitle}
+          icon={<Gift size={22} className="icon-epic" aria-hidden="true" />}
+          canCollapse={canCollapse}
+          collapsed={collapsedFree}
+          onToggle={toggleFree}
+        >
+          {currentFree.length === 0 && upcomingFree.length === 0 && (
+            <div className="empty-state section-gap-bottom">
+              <h3>{t.epic.emptyFree}</h3>
+              <p>{t.epic.emptyFreeDesc}</p>
+            </div>
           )}
-        </section>
+
+          {currentFree.length > 0 && (
+            <div className="subsection">
+              <h3 className="subsection-title">
+                <span className="dot dot--green" aria-hidden="true" />
+                {t.epic.freeSubtitle.replace('{count}', String(currentFree.length))}
+              </h3>
+              <div className="deals-grid">
+                <ShowMore
+                  items={currentFree.map((game) => (
+                    <GameCard
+                      key={game.id}
+                      game={game}
+                      platform="epic"
+                      badge="FREE"
+                      badgeVariant="free"
+                      linkText={t.epic.getFree}
+                      searchQuery={searchQuery}
+                    />
+                  ))}
+                />
+              </div>
+            </div>
+          )}
+
+          {upcomingFree.length > 0 && (
+            <div className="subsection">
+              <h3 className="subsection-title">
+                <span className="dot dot--purple" aria-hidden="true" />
+                {t.epic.upcomingSubtitle.replace('{count}', String(upcomingFree.length))}
+              </h3>
+              <div className="deals-grid">
+                <ShowMore
+                  items={upcomingFree.map((game) => (
+                    <GameCard
+                      key={game.id}
+                      game={game}
+                      platform="epic"
+                      isUpcoming
+                      upcomingStartDate={game.startDate}
+                      linkText={t.epic.toStore}
+                      searchQuery={searchQuery}
+                    />
+                  ))}
+                />
+              </div>
+            </div>
+          )}
+        </CollapsibleSection>
       )}
 
       {(activeFilter === 'all' || activeFilter === 'epic_discount') && (
-        <section aria-labelledby="epic-discount-title">
-          <h2
-            id="epic-discount-title"
-            className={`section-title${canCollapse ? ' section-title--toggle' : ''}`}
-            onClick={canCollapse ? toggleDiscount : undefined}
-            role={canCollapse ? 'button' : undefined}
-            tabIndex={canCollapse ? 0 : undefined}
-            onKeyDown={canCollapse ? (e) => { if (e.key === 'Enter' || e.key === ' ') toggleDiscount(); } : undefined}
-            aria-expanded={canCollapse ? !collapsedDiscount : undefined}
-          >
-            <Tag size={22} className="icon-epic" aria-hidden="true" />
-            {t.epic.discountTitle}
-            {canCollapse && <ChevronDown size={20} className={`section-chevron${collapsedDiscount ? ' collapsed' : ''}`} aria-hidden="true" />}
-          </h2>
-
-          {(!canCollapse || !collapsedDiscount) && (
-            <>
-              {discounted.length === 0 ? (
-                <div className="empty-state section-gap-bottom">
-                  <h3>{t.epic.emptyDiscount}</h3>
-                  <p>{t.epic.emptyDiscountDesc}</p>
-                </div>
-              ) : (
-                <div className="deals-grid section-gap-bottom">
-                  <ShowMore
-                    items={discounted.map((game) => (
-                      <GameCard
-                        key={game.id}
-                        game={game}
-                        platform="epic"
-                        badge={game.discountPercent > 0 ? `-${game.discountPercent}%` : undefined}
-                        badgeVariant={game.discountPercent > 0 ? 'discount' : undefined}
-                        showTagDescription
-                        searchQuery={searchQuery}
-                      />
-                    ))}
+        <CollapsibleSection
+          id="epic-discount-title"
+          title={t.epic.discountTitle}
+          icon={<Tag size={22} className="icon-epic" aria-hidden="true" />}
+          canCollapse={canCollapse}
+          collapsed={collapsedDiscount}
+          onToggle={toggleDiscount}
+        >
+          {discounted.length === 0 ? (
+            <div className="empty-state section-gap-bottom">
+              <h3>{t.epic.emptyDiscount}</h3>
+              <p>{t.epic.emptyDiscountDesc}</p>
+            </div>
+          ) : (
+            <div className="deals-grid section-gap-bottom">
+              <ShowMore
+                items={discounted.map((game) => (
+                  <GameCard
+                    key={game.id}
+                    game={game}
+                    platform="epic"
+                    badge={game.discountPercent > 0 ? `-${game.discountPercent}%` : undefined}
+                    badgeVariant={game.discountPercent > 0 ? 'discount' : undefined}
+                    showTagDescription
+                    searchQuery={searchQuery}
                   />
-                </div>
-              )}
-            </>
+                ))}
+              />
+            </div>
           )}
-        </section>
+        </CollapsibleSection>
       )}
 
       {activeFilter === 'all' && games.length === 0 && searchQuery && (
