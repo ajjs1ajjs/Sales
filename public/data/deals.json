@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T05:39:18.464Z",
+  "lastUpdated": "2026-07-17T08:04:19.322Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -128,18 +128,6 @@
       "isPopular": true
     },
     {
-      "id": "3712080",
-      "title": "Funnel Runners",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784232579",
-      "originalPrice": 160,
-      "discountPrice": 144,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3712080",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -164,6 +152,18 @@
       "isPopular": false
     },
     {
+      "id": "3712080",
+      "title": "Funnel Runners",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784232579",
+      "originalPrice": 160,
+      "discountPrice": 144,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3712080",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
@@ -176,18 +176,6 @@
       "isPopular": false
     },
     {
-      "id": "1671210",
-      "title": "DELTARUNE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
-      "originalPrice": 499,
-      "discountPrice": 399,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1671210",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1304930",
       "title": "The Outlast Trials",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/4aaf4d66ab40042a48a69cc8c96c142efc35aa57/capsule_616x353_alt_assets_3.jpg?t=1784123708",
@@ -196,6 +184,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1304930",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1671210",
+      "title": "DELTARUNE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
+      "originalPrice": 499,
+      "discountPrice": 399,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1671210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -224,18 +224,6 @@
       "isPopular": false
     },
     {
-      "id": "2524850",
-      "title": "Denshattack!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/13f5840674052080806eb01e8b185d64e507cb3b/capsule_616x353_alt_assets_0.jpg?t=1784228760",
-      "originalPrice": 499,
-      "discountPrice": 449,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2524850",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
@@ -248,18 +236,6 @@
       "isPopular": true
     },
     {
-      "id": "4704690",
-      "title": "MECCHA CHAMELEON",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
-      "originalPrice": 155,
-      "discountPrice": 155,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4704690",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "3751950",
       "title": "Assassin's Creed Black Flag Resynced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
@@ -268,6 +244,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3751950",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4704690",
+      "title": "MECCHA CHAMELEON",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
+      "originalPrice": 155,
+      "discountPrice": 155,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": false,
       "isPopular": true
     },
@@ -3357,6 +3345,21 @@
       "url": "https://www.xbox.com/uk-ua/games/store/-/BQQKG9H2STC0",
       "isGamePass": true,
       "isNewToGamePass": false,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
+      "id": "9N7MVHP2R7VP",
+      "title": "FixForce",
+      "description": "Leap, climb, and launch your friends in this chaotic co-op extraction platformer for up to 6 players! Use your drill-wrench to build your way across a vibrant post-apocalyptic world, find replacement parts, and fix broken machines. \n\nBUILD WITH FRIENDS\n\nAs FixForce bots, you and up to 5 friends will build towers and paths out of scrap parts, using the structures to climb all over the worksite. Rescue each other when things get hairy, and remember: how high or far you go is limited only by how much scrap you can find.\n\nFIND + FIX\n\nIn each round, you and your team will be dropped near machines in desperate need of repair. Once you’ve found them, use your drill-wrench to scour the site for the perfect replacement parts to get them working again so you can clock out on time. You might even find a few extra odd jobs around to line your pockets...\n\nWORKPLACE HAZARDS\n\nNo job is the same, but they’re all teeming with hazards and violent rogue robots. Keep your eyes peeled so you can protect yourself, your friends, and your precious towers and bridges from their destructive wrath while you finish the job.\n\nBUT DON’T LOSE YOUR HEAD\n\nFixForce means reliability, and high-risk assignments are your bread and butter. If you take a tumble, slip into the water, or find yourself on the wrong side of a rogue bot, your friends can simply recover your head and snap it onto another body. Good as new!\n\nPERKS OF THE JOB\n\nThe work is relentless, but so is your resolve! Every successful fix lines your bank account, letting you snag new tools to maximise efficiency and tackle even the toughest of challenges in exchange for a few unorthodox updates to your uniform.\n\nWield the drill-wrench: Use your built-in power tool to fix machines, build towers and bridges to get around, retrieve your friends’ fallen heads, and launch items around.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.8926.14061818942283170.453dd0a8-2e69-4069-87c0-422a2c787feb.5de15890-0a62-4aba-88dc-8e1fdc5988b1",
+      "originalPrice": 281,
+      "discountPrice": 281,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9N7MVHP2R7VP",
+      "isGamePass": true,
+      "isNewToGamePass": true,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -9174,34 +9177,6 @@
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
     },
-    "steam_discount_4528730": {
-      "title": "Scroll Of Taiwu - 促织化影",
-      "price": 136,
-      "percent": 20,
-      "timestamp": "2026-06-17T06:07:43.025Z",
-      "type": "discount"
-    },
-    "steam_popular_4528730": {
-      "title": "Scroll Of Taiwu - 促织化影",
-      "price": 136,
-      "percent": 20,
-      "timestamp": "2026-06-17T06:07:43.025Z",
-      "type": "popular"
-    },
-    "steam_discount_838350": {
-      "title": "太吾绘卷：天幕心帷",
-      "price": 559,
-      "percent": 20,
-      "timestamp": "2026-06-17T06:07:43.025Z",
-      "type": "discount"
-    },
-    "steam_popular_838350": {
-      "title": "太吾绘卷：天幕心帷",
-      "price": 559,
-      "percent": 20,
-      "timestamp": "2026-06-17T06:07:43.025Z",
-      "type": "popular"
-    },
     "steam_popular_4735390": {
       "title": "Warframe: повна колекція «Сузір’я»",
       "price": 699,
@@ -10419,6 +10394,13 @@
       "percent": 25,
       "timestamp": "2026-07-17T02:32:54.672Z",
       "type": "discount"
+    },
+    "xbox_new_9N7MVHP2R7VP": {
+      "title": "FixForce",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-17T08:04:13.659Z",
+      "type": "xbox_new"
     }
   }
 }
