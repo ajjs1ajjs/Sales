@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T21:50:11.587Z",
+  "lastUpdated": "2026-07-17T22:45:43.184Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -176,6 +176,18 @@
       "isPopular": false
     },
     {
+      "id": "3844970",
+      "title": "Burglin' Gnomes",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/b779b481bdcfbd0fe04bdab741be885d1d13ed14/capsule_616x353.jpg?t=1781100001",
+      "originalPrice": 230,
+      "discountPrice": 184,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3844970",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3892270",
       "title": "Gamble With Your Friends",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1782258835",
@@ -208,18 +220,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1304930",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3219010",
-      "title": "Fogpiercer",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219010/1710827a0306deffc1d9924c58b17d11901e1f4d/capsule_616x353.jpg?t=1784313817",
-      "originalPrice": 299,
-      "discountPrice": 224,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3219010",
       "isSpecial": true,
       "isPopular": false
     },
@@ -10429,6 +10429,13 @@
       "price": 224,
       "percent": 25,
       "timestamp": "2026-07-17T21:50:03.800Z",
+      "type": "discount"
+    },
+    "steam_discount_3844970": {
+      "title": "Burglin' Gnomes",
+      "price": 184,
+      "percent": 20,
+      "timestamp": "2026-07-17T22:45:37.547Z",
       "type": "discount"
     }
   }
