@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T07:43:43.759Z",
+  "lastUpdated": "2026-07-18T09:21:06.086Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -188,18 +188,6 @@
       "isPopular": false
     },
     {
-      "id": "3844970",
-      "title": "Burglin' Gnomes",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/b779b481bdcfbd0fe04bdab741be885d1d13ed14/capsule_616x353.jpg?t=1781100001",
-      "originalPrice": 230,
-      "discountPrice": 184,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3844970",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1671210",
       "title": "DELTARUNE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
@@ -212,14 +200,26 @@
       "isPopular": false
     },
     {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1782258835",
-      "originalPrice": 187,
-      "discountPrice": 115,
-      "discountPercent": 39,
+      "id": "3844970",
+      "title": "Burglin' Gnomes",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/b779b481bdcfbd0fe04bdab741be885d1d13ed14/capsule_616x353.jpg?t=1781100001",
+      "originalPrice": 230,
+      "discountPrice": 184,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
+      "url": "https://store.steampowered.com/app/3844970",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3981100",
+      "title": "Leaf it Alone",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981100/6097bfcd878f6b0e62f4fec1fa415404734989b4/capsule_616x353.jpg?t=1784289624",
+      "originalPrice": 149,
+      "discountPrice": 96,
+      "discountPercent": 36,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3981100",
       "isSpecial": true,
       "isPopular": false
     },
@@ -248,18 +248,6 @@
       "isPopular": true
     },
     {
-      "id": "4704690",
-      "title": "MECCHA CHAMELEON",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
-      "originalPrice": 155,
-      "discountPrice": 155,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4704690",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
@@ -268,6 +256,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4704690",
+      "title": "MECCHA CHAMELEON",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
+      "originalPrice": 155,
+      "discountPrice": 155,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": false,
       "isPopular": true
     },
