@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T22:45:04.298Z",
+  "lastUpdated": "2026-07-18T23:51:25.174Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -268,6 +268,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2569760",
+      "title": "The Mound: Omen of Cthulhu",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/55dd83f6b6d332501102b8fef5a0d8cca0c0153c/capsule_616x353.jpg?t=1784110925",
+      "originalPrice": 899,
+      "discountPrice": 719,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2569760",
       "isSpecial": false,
       "isPopular": true
     }
