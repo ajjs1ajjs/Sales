@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T09:21:06.086Z",
+  "lastUpdated": "2026-07-18T10:59:52.831Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -137,7 +137,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "1174180",
@@ -148,18 +148,6 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3712080",
-      "title": "Funnel Runners",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784232579",
-      "originalPrice": 160,
-      "discountPrice": 144,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3712080",
       "isSpecial": true,
       "isPopular": false
     },
@@ -188,6 +176,18 @@
       "isPopular": false
     },
     {
+      "id": "3712080",
+      "title": "Funnel Runners",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784232579",
+      "originalPrice": 160,
+      "discountPrice": 144,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3712080",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1671210",
       "title": "DELTARUNE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
@@ -200,18 +200,6 @@
       "isPopular": false
     },
     {
-      "id": "3844970",
-      "title": "Burglin' Gnomes",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/b779b481bdcfbd0fe04bdab741be885d1d13ed14/capsule_616x353.jpg?t=1781100001",
-      "originalPrice": 230,
-      "discountPrice": 184,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3844970",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3981100",
       "title": "Leaf it Alone",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981100/6097bfcd878f6b0e62f4fec1fa415404734989b4/capsule_616x353.jpg?t=1784289624",
@@ -220,6 +208,18 @@
       "discountPercent": 36,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3981100",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2968420",
+      "title": "PowerWash Simulator 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2968420/374fc7a0419c7361cda3ae7fa6fe4e383f206e5d/capsule_616x353.jpg?t=1784211271",
+      "originalPrice": 500,
+      "discountPrice": 375,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2968420",
       "isSpecial": true,
       "isPopular": false
     },
@@ -268,18 +268,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1202520",
-      "title": "Fallout 1st",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
-      "originalPrice": 399,
-      "discountPrice": 399,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1202520",
       "isSpecial": false,
       "isPopular": true
     }
