@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T23:50:10.794Z",
+  "lastUpdated": "2026-07-18T02:07:27.232Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -149,7 +149,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3712080",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "1174180",
@@ -188,14 +188,14 @@
       "isPopular": false
     },
     {
-      "id": "1671210",
-      "title": "DELTARUNE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
-      "originalPrice": 499,
-      "discountPrice": 399,
-      "discountPercent": 20,
+      "id": "1304930",
+      "title": "The Outlast Trials",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/4aaf4d66ab40042a48a69cc8c96c142efc35aa57/capsule_616x353_alt_assets_3.jpg?t=1784123708",
+      "originalPrice": 740,
+      "discountPrice": 222,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1671210",
+      "url": "https://store.steampowered.com/app/1304930",
       "isSpecial": true,
       "isPopular": false
     },
@@ -212,14 +212,14 @@
       "isPopular": false
     },
     {
-      "id": "1304930",
-      "title": "The Outlast Trials",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/4aaf4d66ab40042a48a69cc8c96c142efc35aa57/capsule_616x353_alt_assets_3.jpg?t=1784123708",
-      "originalPrice": 740,
-      "discountPrice": 222,
-      "discountPercent": 70,
+      "id": "1671210",
+      "title": "DELTARUNE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
+      "originalPrice": 499,
+      "discountPrice": 399,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1304930",
+      "url": "https://store.steampowered.com/app/1671210",
       "isSpecial": true,
       "isPopular": false
     },
@@ -236,18 +236,6 @@
       "isPopular": true
     },
     {
-      "id": "3751950",
-      "title": "Assassin's Creed Black Flag Resynced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
-      "originalPrice": 1799,
-      "discountPrice": 1799,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3751950",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4704690",
       "title": "MECCHA CHAMELEON",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
@@ -256,6 +244,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3751950",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
+      "originalPrice": 1799,
+      "discountPrice": 1799,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3751950",
       "isSpecial": false,
       "isPopular": true
     },
