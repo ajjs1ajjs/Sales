@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T20:05:28.928Z",
+  "lastUpdated": "2026-07-18T21:47:20.289Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -161,7 +161,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3712080",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "2183900",
@@ -9190,34 +9190,6 @@
       "price": 420,
       "percent": 30,
       "timestamp": "2026-07-03T15:08:25.816Z",
-      "type": "discount"
-    },
-    "steam_discount_1693980": {
-      "title": "Dead Space",
-      "price": 149,
-      "percent": 90,
-      "timestamp": "2026-06-18T21:23:49.764Z",
-      "type": "discount"
-    },
-    "steam_discount_3156770": {
-      "title": "Witchfire",
-      "price": 592,
-      "percent": 20,
-      "timestamp": "2026-06-18T21:23:49.764Z",
-      "type": "discount"
-    },
-    "steam_discount_1874880": {
-      "title": "Arma Reforger",
-      "price": 629,
-      "percent": 30,
-      "timestamp": "2026-06-18T21:23:49.764Z",
-      "type": "discount"
-    },
-    "steam_discount_3986670": {
-      "title": "YOU ARE THE MONSTER",
-      "price": 195,
-      "percent": 15,
-      "timestamp": "2026-06-18T21:23:49.764Z",
       "type": "discount"
     },
     "steam_discount_3404260": {
