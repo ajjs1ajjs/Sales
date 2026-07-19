@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T23:51:25.174Z",
+  "lastUpdated": "2026-07-19T02:24:44.325Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -188,18 +188,6 @@
       "isPopular": false
     },
     {
-      "id": "1671210",
-      "title": "DELTARUNE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
-      "originalPrice": 499,
-      "discountPrice": 399,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1671210",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3892270",
       "title": "Gamble With Your Friends",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1782258835",
@@ -224,6 +212,18 @@
       "isPopular": false
     },
     {
+      "id": "1671210",
+      "title": "DELTARUNE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_616x353.jpg?t=1782314340",
+      "originalPrice": 499,
+      "discountPrice": 399,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1671210",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
@@ -232,18 +232,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3751950",
-      "title": "Assassin's Creed Black Flag Resynced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
-      "originalPrice": 1799,
-      "discountPrice": 1799,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3751950",
       "isSpecial": false,
       "isPopular": true
     },
@@ -260,6 +248,18 @@
       "isPopular": true
     },
     {
+      "id": "3751950",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
+      "originalPrice": 1799,
+      "discountPrice": 1799,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3751950",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
@@ -268,18 +268,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "2569760",
-      "title": "The Mound: Omen of Cthulhu",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/55dd83f6b6d332501102b8fef5a0d8cca0c0153c/capsule_616x353.jpg?t=1784110925",
-      "originalPrice": 899,
-      "discountPrice": 719,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2569760",
       "isSpecial": false,
       "isPopular": true
     }
@@ -5351,7 +5339,7 @@
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NDJLXD2X2DM",
       "isGamePass": true,
-      "isNewToGamePass": true,
+      "isNewToGamePass": false,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -6491,7 +6479,7 @@
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P9278ZMGQLJ",
       "isGamePass": true,
-      "isNewToGamePass": true,
+      "isNewToGamePass": false,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -9202,13 +9190,6 @@
       "price": 420,
       "percent": 30,
       "timestamp": "2026-07-03T15:08:25.816Z",
-      "type": "discount"
-    },
-    "steam_discount_221100": {
-      "title": "DayZ",
-      "price": 539,
-      "percent": 55,
-      "timestamp": "2026-06-19T00:24:18.914Z",
       "type": "discount"
     },
     "steam_popular_2138330": {
