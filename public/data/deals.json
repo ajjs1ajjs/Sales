@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T02:24:44.325Z",
+  "lastUpdated": "2026-07-19T05:48:34.202Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -164,14 +164,14 @@
       "isPopular": false
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
-      "originalPrice": 1299,
-      "discountPrice": 389,
-      "discountPercent": 70,
+      "id": "3892270",
+      "title": "Gamble With Your Friends",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1782258835",
+      "originalPrice": 187,
+      "discountPrice": 115,
+      "discountPercent": 39,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
+      "url": "https://store.steampowered.com/app/3892270",
       "isSpecial": true,
       "isPopular": false
     },
@@ -188,26 +188,14 @@
       "isPopular": false
     },
     {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1782258835",
-      "originalPrice": 187,
-      "discountPrice": 115,
-      "discountPercent": 39,
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
+      "originalPrice": 1299,
+      "discountPrice": 389,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3844970",
-      "title": "Burglin' Gnomes",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/b779b481bdcfbd0fe04bdab741be885d1d13ed14/capsule_616x353.jpg?t=1781100001",
-      "originalPrice": 230,
-      "discountPrice": 184,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3844970",
+      "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
       "isPopular": false
     },
@@ -220,6 +208,18 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1671210",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3844970",
+      "title": "Burglin' Gnomes",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/b779b481bdcfbd0fe04bdab741be885d1d13ed14/capsule_616x353.jpg?t=1781100001",
+      "originalPrice": 230,
+      "discountPrice": 184,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3844970",
       "isSpecial": true,
       "isPopular": false
     },
@@ -268,6 +268,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2569760",
+      "title": "The Mound: Omen of Cthulhu",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/55dd83f6b6d332501102b8fef5a0d8cca0c0153c/capsule_616x353.jpg?t=1784110925",
+      "originalPrice": 899,
+      "discountPrice": 719,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2569760",
       "isSpecial": false,
       "isPopular": true
     }
