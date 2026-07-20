@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T19:48:27.788Z",
+  "lastUpdated": "2026-07-20T21:08:50.609Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -144,18 +144,6 @@
       "isPopular": true
     },
     {
-      "id": "1605850",
-      "title": "ZeroSpace",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/680028c7f338abbb870bf92acab9d3a20382b2ab/capsule_616x353.jpg?t=1784567471",
-      "originalPrice": 765,
-      "discountPrice": 688,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1605850",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -192,6 +180,18 @@
       "isPopular": false
     },
     {
+      "id": "1466060",
+      "title": "Tainted Grail: The Fall of Avalon",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/00ad11fb97becadc742bcbb4e871e6d0494c7428/capsule_616x353.jpg?t=1782412343",
+      "originalPrice": 835,
+      "discountPrice": 417,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1466060",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1304930",
       "title": "The Outlast Trials",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/4aaf4d66ab40042a48a69cc8c96c142efc35aa57/capsule_616x353_alt_assets_3.jpg?t=1784123708",
@@ -200,18 +200,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1304930",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2936290",
-      "title": "The Life and Suffering of Prince Jerian",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2936290/d7dadf65ecf67f14d3ded3c497422eaf0c06b6a7/capsule_616x353.jpg?t=1784566297",
-      "originalPrice": 490,
-      "discountPrice": 416,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2936290",
       "isSpecial": true,
       "isPopular": false
     },
@@ -228,14 +216,26 @@
       "isPopular": false
     },
     {
-      "id": "1466060",
-      "title": "Tainted Grail: The Fall of Avalon",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/00ad11fb97becadc742bcbb4e871e6d0494c7428/capsule_616x353.jpg?t=1782412343",
-      "originalPrice": 835,
-      "discountPrice": 417,
-      "discountPercent": 50,
+      "id": "588030",
+      "title": "Derail Valley",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588030/capsule_616x353.jpg?t=1782140299",
+      "originalPrice": 765,
+      "discountPrice": 574,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1466060",
+      "url": "https://store.steampowered.com/app/588030",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2936290",
+      "title": "The Life and Suffering of Prince Jerian",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2936290/d7dadf65ecf67f14d3ded3c497422eaf0c06b6a7/capsule_616x353.jpg?t=1784566297",
+      "originalPrice": 490,
+      "discountPrice": 416,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2936290",
       "isSpecial": true,
       "isPopular": false
     },
@@ -288,14 +288,14 @@
       "isPopular": true
     },
     {
-      "id": "3405690",
-      "title": "EA SPORTS FC™ 26",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1783095306",
-      "originalPrice": 2299,
-      "discountPrice": 459,
-      "discountPercent": 80,
+      "id": "1605850",
+      "title": "ZeroSpace",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/680028c7f338abbb870bf92acab9d3a20382b2ab/capsule_616x353.jpg?t=1784567471",
+      "originalPrice": 765,
+      "discountPrice": 688,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3405690",
+      "url": "https://store.steampowered.com/app/1605850",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10408,6 +10408,13 @@
       "price": 417,
       "percent": 50,
       "timestamp": "2026-07-20T19:48:21.505Z",
+      "type": "discount"
+    },
+    "steam_discount_588030": {
+      "title": "Derail Valley",
+      "price": 574,
+      "percent": 25,
+      "timestamp": "2026-07-20T21:08:45.659Z",
       "type": "discount"
     }
   }
