@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T17:58:28.810Z",
+  "lastUpdated": "2026-07-20T19:48:27.788Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -144,6 +144,18 @@
       "isPopular": true
     },
     {
+      "id": "1605850",
+      "title": "ZeroSpace",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/680028c7f338abbb870bf92acab9d3a20382b2ab/capsule_616x353.jpg?t=1784567471",
+      "originalPrice": 765,
+      "discountPrice": 688,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1605850",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -192,18 +204,6 @@
       "isPopular": false
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
-      "originalPrice": 1299,
-      "discountPrice": 389,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2936290",
       "title": "The Life and Suffering of Prince Jerian",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2936290/d7dadf65ecf67f14d3ded3c497422eaf0c06b6a7/capsule_616x353.jpg?t=1784566297",
@@ -216,26 +216,26 @@
       "isPopular": false
     },
     {
-      "id": "526870",
-      "title": "Satisfactory",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/290c413f4075e43a5d2e106dcbbaa036b3271621/capsule_616x353.jpg?t=1780413533",
-      "originalPrice": 740,
-      "discountPrice": 518,
-      "discountPercent": 30,
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
+      "originalPrice": 1299,
+      "discountPrice": 389,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/526870",
+      "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "4252290",
-      "title": "Meowgic",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4252290/37f5c6b7ead035f9943491e562295e6ca7952d9d/capsule_616x353.jpg?t=1784559240",
-      "originalPrice": 159,
-      "discountPrice": 98,
-      "discountPercent": 38,
+      "id": "1466060",
+      "title": "Tainted Grail: The Fall of Avalon",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/00ad11fb97becadc742bcbb4e871e6d0494c7428/capsule_616x353.jpg?t=1782412343",
+      "originalPrice": 835,
+      "discountPrice": 417,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4252290",
+      "url": "https://store.steampowered.com/app/1466060",
       "isSpecial": true,
       "isPopular": false
     },
@@ -264,14 +264,14 @@
       "isPopular": true
     },
     {
-      "id": "1605850",
-      "title": "ZeroSpace",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/680028c7f338abbb870bf92acab9d3a20382b2ab/capsule_616x353.jpg?t=1784567471",
-      "originalPrice": 765,
-      "discountPrice": 688,
-      "discountPercent": 10,
+      "id": "4704690",
+      "title": "MECCHA CHAMELEON",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
+      "originalPrice": 155,
+      "discountPrice": 155,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1605850",
+      "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": false,
       "isPopular": true
     },
@@ -284,18 +284,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3751950",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4704690",
-      "title": "MECCHA CHAMELEON",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
-      "originalPrice": 155,
-      "discountPrice": 155,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": false,
       "isPopular": true
     },
@@ -10407,6 +10395,20 @@
       "percent": 80,
       "timestamp": "2026-07-20T17:58:24.028Z",
       "type": "popular"
+    },
+    "steam_discount_1605850": {
+      "title": "ZeroSpace",
+      "price": 688,
+      "percent": 10,
+      "timestamp": "2026-07-20T19:48:21.505Z",
+      "type": "discount"
+    },
+    "steam_discount_1466060": {
+      "title": "Tainted Grail: The Fall of Avalon",
+      "price": 417,
+      "percent": 50,
+      "timestamp": "2026-07-20T19:48:21.505Z",
+      "type": "discount"
     }
   }
 }
