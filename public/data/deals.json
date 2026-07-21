@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T08:22:44.366Z",
+  "lastUpdated": "2026-07-21T11:05:38.153Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -156,18 +156,6 @@
       "isPopular": false
     },
     {
-      "id": "3712080",
-      "title": "Funnel Runners",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784567934",
-      "originalPrice": 160,
-      "discountPrice": 144,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3712080",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -176,6 +164,18 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1466060",
+      "title": "Tainted Grail: The Fall of Avalon",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/00ad11fb97becadc742bcbb4e871e6d0494c7428/capsule_616x353.jpg?t=1784626931",
+      "originalPrice": 835,
+      "discountPrice": 417,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1466060",
       "isSpecial": true,
       "isPopular": false
     },
@@ -192,14 +192,26 @@
       "isPopular": false
     },
     {
-      "id": "1466060",
-      "title": "Tainted Grail: The Fall of Avalon",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/00ad11fb97becadc742bcbb4e871e6d0494c7428/capsule_616x353.jpg?t=1782412343",
-      "originalPrice": 835,
-      "discountPrice": 417,
-      "discountPercent": 50,
+      "id": "3712080",
+      "title": "Funnel Runners",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784567934",
+      "originalPrice": 160,
+      "discountPrice": 144,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1466060",
+      "url": "https://store.steampowered.com/app/3712080",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "588030",
+      "title": "Derail Valley",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588030/capsule_616x353.jpg?t=1782140299",
+      "originalPrice": 765,
+      "discountPrice": 574,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/588030",
       "isSpecial": true,
       "isPopular": false
     },
@@ -228,18 +240,6 @@
       "isPopular": false
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
-      "originalPrice": 1299,
-      "discountPrice": 389,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
@@ -252,14 +252,26 @@
       "isPopular": true
     },
     {
-      "id": "1202520",
-      "title": "Fallout 1st",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
-      "originalPrice": 399,
-      "discountPrice": 399,
+      "id": "3751950",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
+      "originalPrice": 1799,
+      "discountPrice": 1799,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1202520",
+      "url": "https://store.steampowered.com/app/3751950",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4704690",
+      "title": "MECCHA CHAMELEON",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
+      "originalPrice": 155,
+      "discountPrice": 155,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": false,
       "isPopular": true
     },
@@ -272,18 +284,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "266410",
-      "title": "iRacing",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1781016164",
-      "originalPrice": 225,
-      "discountPrice": 225,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/266410",
       "isSpecial": false,
       "isPopular": true
     }
@@ -6040,14 +6040,14 @@
       "description": "Світ після появи машин\nНа рідній планеті Лани й Муї нові технології приносять прогрес, але також пробуджують жадобу й порушують рівновагу. Коли різні племена по-своєму засвоюють технології, напруга зростає, а гармонія світу починає відступати. Коли ті, що прагнуть влади, заходять надто далеко, Лана і її звіренятко мають вирушити в подорож, що відкриває давно поховані істини про їхню планету — і про них самих.\n\nСвіт, що розповідає про себе\nПодорожуйте замерзлими вершинами, глибокими океанами й забутими руїнами в мальованому світі, де природа співіснує з технологіями. У грі немає діалогів: персонажі розмовляють чужопланетною мовою. А отже, сам світ, музика й ваші дії розкривають сюжетну лінію й запрошують вас знайти в ній власний сенс.\n\nПодорож, де дружба — найголовніше  \nPlanet of Lana II — це кінематографічна пригодницька гра-головоломка, побудована на взаємовиручці й довірі. Керуйте старшою, спритнішою Ланою та її вірним звіренятком Муї — їхній зв’язок стає ключем до руху вперед у світі, де краса й небезпека існують пліч-о-пліч.\n\nРозумні головоломки й плавний рух\nГоловоломки органічно вплетено у світ гри, винагороджуючи уважність, вчасні дії та співпрацю, а не складну логіку. Використовуйте збільшену спритність Лани — від стрибків від стін до плавних рухів та інерції, — щоб прокладати шлях крізь небезпечні ділянки.\n\nЕмоційна пригода з продуманим розвитком сюжету\nПід час мандрів Лани й Муї вони відкривають таємниці історії своєї планети й правду про походження Муї. Їхня подорож стає зворушливою оповіддю про співіснування, відповідальність і ціну прогресу. Вона розгортається на фоні проникливої оркестрової музики, яка підкреслює важливість тихих пауз, сміливих відкриттів і кожного емоційного повороту протягом пригоди, що триватиме 6–8 годин.\n\nСамостійна пригода\nPlanet of Lana II вітає нових гравців і водночас пропонує тим, хто вже знайомий із серією, ще більше — зворушливу історію про єдність, незламність і захист того, що лишається важливим у мінливому світі.\n\nГоловні особливості\n\nКінематографічний платформер-головоломка\nПригода з глибоким сюжетом і кінематографічною атмосферою, під час якої ви будете досліджувати локації і розв’язувати головоломки, взаємодіючи з оточенням.\n\nВаш вірний супутник у подорожі\nЕмоційна пригода, у центрі якої — дружба між Ланою та її звіренятком Муї.\n\nМальований світ на порозі змін\nДосліджуйте дивовижну планету, де зіштовхнулися природа й технології та різні племена по-різному реагують на прогрес.\n\nДинамічне дослідження, більше рухливості\nКеруйте старшою, спритнішою Ланою: стрибки від стін, плавне долання перешкод і динамічний рух у різноманітних локаціях.\n\nРізноманітні розумні головоломки\nГоловоломки органічно вплетено у світ гри — з акцентом на спостережливість, вчасні дії та співпрацю, а не складну логіку.\n\nІсторія без слів\nУ грі немає діалогів. Сенс розкривається через візуальний ряд, музику й вашу взаємодію зі світом.\n\nЕмоційна науково-фантастична оповідь із продуманим розвитком сюжету\nВідкривайте нові істини про планету й минуле Муї протягом кінематографічної подорожі тривалістю 6–8 годин у супроводі проникливої оркестрової музики.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.15678.14317666116941426.e57b1e7d-4597-43f1-a958-a00160b1a5c4.96258332-65ba-41f0-adb8-34144d09d2af",
       "originalPrice": 700,
-      "discountPrice": 525,
-      "discountPercent": 25,
+      "discountPrice": 700,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PL89B9HCZ9W",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9N0X5NFZTQJK",
