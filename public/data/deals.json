@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T13:41:09.444Z",
+  "lastUpdated": "2026-07-21T15:40:43.511Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -153,18 +153,6 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": true
-    },
-    {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
       "isPopular": false
     },
     {
@@ -176,6 +164,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1304930",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isPopular": false
     },
@@ -192,6 +192,18 @@
       "isPopular": false
     },
     {
+      "id": "1605850",
+      "title": "ZeroSpace",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/680028c7f338abbb870bf92acab9d3a20382b2ab/capsule_616x353.jpg?t=1784567471",
+      "originalPrice": 765,
+      "discountPrice": 688,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1605850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3712080",
       "title": "Funnel Runners",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784567934",
@@ -204,30 +216,6 @@
       "isPopular": false
     },
     {
-      "id": "2050650",
-      "title": "Resident Evil 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
-      "originalPrice": 1200,
-      "discountPrice": 300,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2050650",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3279440",
-      "title": "Drone Sector",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3279440/73c62680b15ec5ddd4ca1e1ea1f80216ae982b5e/capsule_616x353.jpg?t=1784631068",
-      "originalPrice": 370,
-      "discountPrice": 333,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3279440",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "588030",
       "title": "Derail Valley",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588030/capsule_616x353.jpg?t=1782140299",
@@ -236,6 +224,18 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/588030",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2050650",
+      "title": "Resident Evil 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
+      "originalPrice": 1200,
+      "discountPrice": 300,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2050650",
       "isSpecial": true,
       "isPopular": false
     },
@@ -296,6 +296,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2806050",
+      "title": "Halo: Campaign Evolved",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1783544553",
+      "originalPrice": 1999,
+      "discountPrice": 1999,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2806050",
       "isSpecial": false,
       "isPopular": true
     }
@@ -632,12 +644,27 @@
       "isDiscounted": false
     },
     {
+      "id": "9P1VNX9Z03N5",
+      "title": "Anno 1800™",
+      "description": "Welcome to the dawn of the Industrial Age. Experience one of the most exciting and fast-changing periods of all time in a rich city-building experience.\n\nDiscover new technologies, continents, and societies. The strategy you choose will define your world.\n\nPlay solo, PvP, or co-op. How the world remembers your name is up to you.\n\nTHE DAWN OF A NEW ERA: Prove your skills as you create huge cities, plan logistic networks, settle exotic new continents, send out expeditions around the globe, and dominate opponents by diplomacy, trade, or warfare.\n\nA CLASSIC ANNO EXPERIENCE: Includes a story-based campaign, customizable sandbox mode, and a classic Anno multiplayer experience.\n\nNEW FEATURES FOR A NEW AGE, such as expeditions across the globe to seek fame and fortune and a new workforce feature.\n\nTeam up with up to three friends to build the industrial empire of your dreams together in the co-op mode for Anno 1800™.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.2514.14560706864397031.06afa3fb-7b74-40b6-aa11-c213f11bfec6.4d995db5-55e5-4a78-afc7-10364c1d671d",
+      "originalPrice": 915,
+      "discountPrice": 915,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9P1VNX9Z03N5",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
       "id": "9P2KNSPZ9292",
       "title": "Anno 1800™",
       "description": "Welcome to the dawn of the Industrial Age. Experience one of the most exciting and fast-changing periods of all time in a rich city-building experience.\n\nDiscover new technologies, continents, and societies. The strategy you choose will define your world.\n\nPlay solo, PvP, or co-op. How the world remembers your name is up to you.\n\nTHE DAWN OF A NEW ERA: Prove your skills as you create huge cities, plan logistic networks, settle exotic new continents, send out expeditions around the globe, and dominate opponents by diplomacy, trade, or warfare.\n\nA CLASSIC ANNO EXPERIENCE: Includes a story-based campaign, customizable sandbox mode, and a classic Anno multiplayer experience.\n\nNEW FEATURES FOR A NEW AGE, such as expeditions across the globe to seek fame and fortune and a new workforce feature.\n\nTeam up with up to three friends to build the industrial empire of your dreams together in the co-op mode for Anno 1800™.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.2514.14560706864397031.06afa3fb-7b74-40b6-aa11-c213f11bfec6.4d995db5-55e5-4a78-afc7-10364c1d671d",
-      "originalPrice": 910,
-      "discountPrice": 910,
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P2KNSPZ9292",
@@ -861,15 +888,30 @@
       "title": "Assassin's Creed Origins",
       "description": "Ancient Egypt, a land of majesty and intrigue, is disappearing in a ruthless fight for power. Unveil dark secrets and forgotten myths as you go back to the one founding moment: The Origins of the Assassin’s Brotherhood.\n\nA COUNTRY TO DISCOVER\nSail down the Nile, uncover the mysteries of the pyramids or fight your way against dangerous ancient factions and wild beasts as you explore this gigantic and unpredictable land.\n\nA NEW STORY EVERY TIME YOU PLAY\nEngage into multiple quests and gripping stories as you cross paths with strong and memorable characters, from the wealthiest high-born to the most desperate outcasts.\n\nEMBRACE ACTION-RPG\nExperience a completely new way to fight. Loot and use dozens of weapons with different characteristics and rarities. Explore deep progression mechanics and challenge your skills against unique and powerful bosses.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.51508.63657969076271726.154f5a09-55ab-4b31-bc57-4e0335fab06a.8c56d9de-b95f-4f50-931b-818bc7d5711c",
-      "originalPrice": 910,
-      "discountPrice": 136.5,
-      "discountPercent": 85,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NC2HVPRQQ9F",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
+    },
+    {
+      "id": "9P2CHXX6D861",
+      "title": "Assassin's Creed Origins",
+      "description": "Ancient Egypt, a land of majesty and intrigue, is disappearing in a ruthless fight for power. Unveil dark secrets and forgotten myths as you go back to the one founding moment: The Origins of the Assassin’s Brotherhood.\n\nA COUNTRY TO DISCOVER\nSail down the Nile, uncover the mysteries of the pyramids or fight your way against dangerous ancient factions and wild beasts as you explore this gigantic and unpredictable land.\n\nA NEW STORY EVERY TIME YOU PLAY\nEngage into multiple quests and gripping stories as you cross paths with strong and memorable characters, from the wealthiest high-born to the most desperate outcasts.\n\nEMBRACE ACTION-RPG\nExperience a completely new way to fight. Loot and use dozens of weapons with different characteristics and rarities. Explore deep progression mechanics and challenge your skills against unique and powerful bosses.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.51508.63657969076271726.154f5a09-55ab-4b31-bc57-4e0335fab06a.8c56d9de-b95f-4f50-931b-818bc7d5711c",
+      "originalPrice": 915,
+      "discountPrice": 915,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9P2CHXX6D861",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
     },
     {
       "id": "9MZG3KH0PVZC",
@@ -932,34 +974,64 @@
       "isDiscounted": false
     },
     {
+      "id": "9PDNF24PP2V2",
+      "title": "Assassin's Creed® Odyssey",
+      "description": "Master your fate in Assassin's Creed® Odyssey.\nFrom outcast to living legend, embark on an odyssey to uncover the secrets of your past and change the fate of Ancient Greece.\n\nTRAVEL TO ANCIENT GREECE \nFrom lush vibrant forests to volcanic islands and bustling cities, start a journey of exploration and encounters in a war torn world shaped by gods and men.\n\nFORGE YOUR LEGEND\nYour decisions will impact how your odyssey unfolds. Play through multiple endings thanks to the new dialogue system and the choices you make. Customize your gear, ship, and special abilities to become a legend.\n\nFIGHT ON A NEW SCALE\nDemonstrate your warrior's abilities in large scale epic battles between Athens and Sparta featuring hundreds of soldiers, or ram and cleave your way through entire fleets in naval battles across the Aegean Sea.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.53783.71972716530068101.ccdcadf1-1d2a-49f2-9c37-0b0a27e5a53c.6d60329c-2f2a-4ac9-9dd3-2f132d5c3b6c",
+      "originalPrice": 915,
+      "discountPrice": 915,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9PDNF24PP2V2",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
       "id": "9PMB5879J2FW",
       "title": "Assassin's Creed® Odyssey",
       "description": "Master your fate in Assassin's Creed® Odyssey.\r\nFrom outcast to living legend, embark on an odyssey to uncover the secrets of your past and change the fate of Ancient Greece.\r\n\r\nTRAVEL TO ANCIENT GREECE \r\nFrom lush vibrant forests to volcanic islands and bustling cities, start a journey of exploration and encounters in a war torn world shaped by gods and men.\r\n\r\nFORGE YOUR LEGEND\r\nYour decisions will impact how your odyssey unfolds. Play through multiple endings thanks to the new dialogue system and the choices you make. Customize your gear, ship, and special abilities to become a legend.\r\n\r\nFIGHT ON A NEW SCALE\r\nDemonstrate your warrior's abilities in large scale epic battles between Athens and Sparta featuring hundreds of soldiers, or ram and cleave your way through entire fleets in naval battles across the Aegean Sea.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.53783.71972716530068101.ccdcadf1-1d2a-49f2-9c37-0b0a27e5a53c.6d60329c-2f2a-4ac9-9dd3-2f132d5c3b6c",
-      "originalPrice": 910,
-      "discountPrice": 136.5,
-      "discountPercent": 85,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PMB5879J2FW",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
+    },
+    {
+      "id": "9NJ2SFHNCCRV",
+      "title": "Assassin's Creed® Valhalla",
+      "description": "Become Eivor, a legendary Viking raider on a quest for glory. \n\n- Lead epic Viking raids against Saxon troops and fortresses.\n- Relive the visceral fighting style of the Vikings as you dual-wield powerful weapons.\n- Challenge yourself with the most varied collection of enemies ever in Assassin's Creed.\n- Shape the growth of your character and your clan's settlement with every choice you make.\n- Explore a Dark Age open world, from the harsh shores of Norway to the beautiful kingdoms of England.\n\nIncludes the Forgotten Saga, a FREE new rogue-lite game mode for all Assassin's Creed® Valhalla players.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.8098.14585440003614248.9f7109bf-73f7-4bc7-ba61-1eeb006d905a.222e4dfa-df01-4864-a10a-bc3666f1a3cf",
+      "originalPrice": 915,
+      "discountPrice": 915,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9NJ2SFHNCCRV",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
     },
     {
       "id": "9NMHP9SMZHGZ",
       "title": "Assassin's Creed® Valhalla",
       "description": "Become Eivor, a legendary Viking raider on a quest for glory. \r\n\r\n- Lead epic Viking raids against Saxon troops and fortresses.\r\n- Relive the visceral fighting style of the Vikings as you dual-wield powerful weapons.\r\n- Challenge yourself with the most varied collection of enemies ever in Assassin's Creed.\r\n- Shape the growth of your character and your clan's settlement with every choice you make.\r\n- Explore a Dark Age open world, from the harsh shores of Norway to the beautiful kingdoms of England.\r\n\r\nIncludes the Forgotten Saga, a FREE new rogue-lite game mode for all Assassin's Creed® Valhalla players.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.8098.14585440003614248.9f7109bf-73f7-4bc7-ba61-1eeb006d905a.222e4dfa-df01-4864-a10a-bc3666f1a3cf",
-      "originalPrice": 915,
-      "discountPrice": 228.75,
-      "discountPercent": 75,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NMHP9SMZHGZ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9N0QFT016SGV",
@@ -992,6 +1064,21 @@
       "isDiscounted": false
     },
     {
+      "id": "9NVZ03XT8S2P",
+      "title": "Assassin’s Creed IV Black Flag - Gold Edition",
+      "description": "Extra Content included in Gold Edition\nSeason Pass: Gives you all-in-one access to a new 3+ hour single-player story featuring Adewale, an ex-slave turned Assassin, the exclusive Kraken Ship Pack, plus multiplayer characters and much more!\nCaptain Kenway's Legacy Pack: Golden Scimitars and Multiplayer Treasure Hunter Costume\nThe Trove of Mystery Pack: Iron Wheel & Astrolabe Relic\nPirates Bounty Pack: German Rapiers & Compass Relic\nSacrificed Secrets Pack: Dark and dangerous treasure-hunting mission on Sacrifice Island; Unlock Captain Drake's Dual Swords and Pistols, Picture, Title, and Relics\nHidden Mystery Pack: Adventurous treasure-hunting mission on Mystery Island; Unlock Stede Bonnet's Ship, Costumes and other MP items\nBlack Island Pack: Dark and dangerous treasure-hunting mission on Black Island; Unlock the Deadly Black Ship and Captain Morgan's Silver Flintlock Pistols, Costume, Picture, and Title\nAveline Pack: 60 minutes of additional gameplay featuring Aveline de Grandpré from Assassin's Creed III Liberation; Unlockable Aveline ship figurehead\n",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.44102.13940090142368898.8299cde5-c41c-4157-9f91-9b62c239a7c3.8b3397b3-e63a-49cd-9f33-d9d3acb6dcc3",
+      "originalPrice": 610,
+      "discountPrice": 610,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9NVZ03XT8S2P",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
       "id": "9PHPDGTRVGGL",
       "title": "Assassin’s Creed Syndicate",
       "description": "DUAL CHARACTERS, DUAL COMBAT STYLES\nAs the brash, rebellious Jacob Frye, put up your dukes and take enemies on with lightning-fast multikills and countermoves with your arsenal of weapons. As his twin sister Evie, master the art of stealth as a relentless Assassin who has perfected the silent, swift strike.\n\n\nEXPLORE THE FAST-PACED WORLD OF INDUSTRIAL LONDON\nFrom Buckingham Palace to Big Ben, fight and triumph across the massive open world of Victorian London. Use parkour across moving vehicles to track down enemies or escape after a daring raid, hijack carriages to engage in a no-holds-barred street race, or blaze a trail of destruction aboard steamboats along the River Thames.\n\n\nLEAD THE LONDON UNDERWORLD\nEstablish Great Britain’s fiercest gang, the only force that can challenge the elite and defeat rival gangs. Infiltrate enemy strongholds by using an arsenal of weapons to take over London’s underworld. From robbing trains to rescuing child laborers, bring justice to London’s dangerous streets.\n",
@@ -1011,15 +1098,30 @@
       "title": "Assassin’s Creed® Mirage",
       "description": "VALLEY OF MEMORY\n\nEnjoy 6 hours of new gameplay in Valley of Memory, a free major update that expands Basim’s story and introduces the breathtaking new region of AlUla, with gameplay improvements across the full game.\n\nTHE ULTIMATE ASSASSIN\n\nBecome the most versatile and resourceful Assassin in franchise history. Parkour seamlessly through the city and leverage the largest assortment of tools to date. Get contracts and upgrades at the Assassin’s bureaus, collect vital clues, and stealthily take down targets with more visceral assassinations than ever before.\n\n\nA TRIBUTE TO AN ORIGINAL\n\nExperience a modern take on the iconic features and gameplay that have defined the franchise. Journey to Alamut, the legendary home of the Assassins who laid the foundations of the Creed, in this heartfelt homage to the game that started it all.\n\n\nAN IMMERSIVE, REACTIVE CITY \n\nExplore an incredibly dense and vibrant city whose inhabitants react to your every move. Uncover the secrets of four unique districts, from the industrial Karkh to the lush gardens of the Round City. Discover surprising world events and interact with historical figures that shaped the Golden Age of Baghdad.\n\n\nA POWERFUL COMING-OF-AGE STORY\n\nFollow Basim’s journey in this tightly crafted, narrative-driven action-adventure experience. Witness his transformation from a defiant young thief to a Master Assassin as he meets allies, mentors, and foes who shape his destiny.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.54943.14378628701982792.38d7c069-713c-4985-a73a-8768c6daf401.f1ca6c61-bbba-4382-bb2e-acaeeb217cf8",
-      "originalPrice": 1090,
-      "discountPrice": 436,
-      "discountPercent": 60,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NRPWTTJHNBC",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
+    },
+    {
+      "id": "9NTK0V6ZK6T8",
+      "title": "Assassin’s Creed® Mirage",
+      "description": "VALLEY OF MEMORY\n\nEnjoy 6 hours of new gameplay in Valley of Memory, a free major update that expands Basim’s story and introduces the breathtaking new region of AlUla, with gameplay improvements across the full game.\n\nTHE ULTIMATE ASSASSIN\n\nBecome the most versatile and resourceful Assassin in franchise history. Parkour seamlessly through the city and leverage the largest assortment of tools to date. Get contracts and upgrades at the Assassin’s bureaus, collect vital clues, and stealthily take down targets with more visceral assassinations than ever before.\n\n\nA TRIBUTE TO AN ORIGINAL\n\nExperience a modern take on the iconic features and gameplay that have defined the franchise. Journey to Alamut, the legendary home of the Assassins who laid the foundations of the Creed, in this heartfelt homage to the game that started it all.\n\n\nAN IMMERSIVE, REACTIVE CITY \n\nExplore an incredibly dense and vibrant city whose inhabitants react to your every move. Uncover the secrets of four unique districts, from the industrial Karkh to the lush gardens of the Round City. Discover surprising world events and interact with historical figures that shaped the Golden Age of Baghdad.\n\n\nA POWERFUL COMING-OF-AGE STORY\n\nFollow Basim’s journey in this tightly crafted, narrative-driven action-adventure experience. Witness his transformation from a defiant young thief to a Master Assassin as he meets allies, mentors, and foes who shape his destiny.\n",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.54943.14378628701982792.38d7c069-713c-4985-a73a-8768c6daf401.f1ca6c61-bbba-4382-bb2e-acaeeb217cf8",
+      "originalPrice": 1089,
+      "discountPrice": 1089,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9NTK0V6ZK6T8",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
     },
     {
       "id": "9NBLGGH43KZB",
@@ -1067,19 +1169,34 @@
       "isDiscounted": false
     },
     {
+      "id": "9N21G14CVS5L",
+      "title": "Avatar: Frontiers of Pandora",
+      "description": "Avatar: Frontiers of Pandora™ is a first-person, action-adventure game set in the never-before-seen Western Frontier of Pandora. Abducted by the human militaristic corporation known as the RDA, you, a Na’vi, were trained and molded to serve their purpose. Fifteen years later, you are free, but find yourself a stranger in your birthplace. Reconnect with your lost heritage, discover what it truly means to be Na’vi, and join other clans to protect Pandora from the RDA. \n\nEXPLORE A WORLD OF WONDER AND DANGER\nExperience the epic wonders of the Western Frontier, a never-before-seen continent of Pandora. Journey through beautiful yet unpredictable open world regions, where lowering your guard can lead to deadly mistakes.\n\nBECOME NA’VI\nHarness your incredible strength and agility while customizing your character; crafting new gear, and upgrading skills and weapons to fit your playstyle.\n\nSOAR THE SKIES\nBond with your own personal banshee that will give you an edge in aerial combat and can be used for traveling across the vast Western Frontier.\n\nMASTER MULTIPLE COMBAT STYLES\nFight off the dangers of Pandora as you embrace the precision of traditional Na’vi weapons, including your bow and spear-thrower, or leverage your human training with more destructive weapons, such as an assault rifle or a shotgun.\n\nAN IMMERSIVE NEXT-GEN EXPERIENCE\nDeveloped to maximize the power of Xbox Series X|S, Avatar: Frontiers of Pandora will push the limits of immersion with extraordinary level of detail, rendering, density, and immersive audio.\n\nSHARE YOUR ADVENTURE IN FULL CAMPAIGN CO-OP\nPlay the full story campaign in single-player or with a friend online in two-player co-op.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.47583.14085423200549889.cfdf6256-40bb-43be-96b3-e075b78ab817.39e7a3f9-1153-47eb-9b2c-2c610a4671a2",
+      "originalPrice": 1519,
+      "discountPrice": 1519,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9N21G14CVS5L",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
       "id": "9P8TK8GZ6G6V",
       "title": "Avatar: Frontiers of Pandora",
       "description": "Avatar: Frontiers of Pandora™ is a first-person, action-adventure game set in the never-before-seen Western Frontier of Pandora. Abducted by the human militaristic corporation known as the RDA, you, a Na’vi, were trained and molded to serve their purpose. Fifteen years later, you are free, but find yourself a stranger in your birthplace. Reconnect with your lost heritage, discover what it truly means to be Na’vi, and join other clans to protect Pandora from the RDA. \n\nEXPLORE A WORLD OF WONDER AND DANGER\nExperience the epic wonders of the Western Frontier, a never-before-seen continent of Pandora. Journey through beautiful yet unpredictable open world regions, where lowering your guard can lead to deadly mistakes.\n\nBECOME NA’VI\nHarness your incredible strength and agility while customizing your character; crafting new gear, and upgrading skills and weapons to fit your playstyle.\n\nSOAR THE SKIES\nBond with your own personal banshee that will give you an edge in aerial combat and can be used for traveling across the vast Western Frontier.\n\nMASTER MULTIPLE COMBAT STYLES\nFight off the dangers of Pandora as you embrace the precision of traditional Na’vi weapons, including your bow and spear-thrower, or leverage your human training with more destructive weapons, such as an assault rifle or a shotgun.\n\nAN IMMERSIVE NEXT-GEN EXPERIENCE\nDeveloped to maximize the power of Xbox Series X|S, Avatar: Frontiers of Pandora will push the limits of immersion with extraordinary level of detail, rendering, density, and immersive audio.\n\nSHARE YOUR ADVENTURE IN FULL CAMPAIGN CO-OP\nPlay the full story campaign in single-player or with a friend online in two-player co-op.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.47583.14085423200549889.cfdf6256-40bb-43be-96b3-e075b78ab817.39e7a3f9-1153-47eb-9b2c-2c610a4671a2",
-      "originalPrice": 860,
-      "discountPrice": 516,
-      "discountPercent": 40,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P8TK8GZ6G6V",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9MSVPJCHHRPR",
@@ -1468,6 +1585,21 @@
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MXMZ39GVHPG",
       "isGamePass": true,
       "isNewToGamePass": false,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
+      "id": "9NKFLWWM9CZ1",
+      "title": "Brawlhalla",
+      "description": "PLAY WITH ANYONE ANYWHERE FOR FREE\nBrawlhalla is and always will be 100% free to play. Plus with server regions across the world and over 125 million players, you can play with anyone and everyone no matter who you are or where you are.\n\nUP TO 8 PLAYERS IN PVP, PVE, AND TEAM MODES\nTest your skill in Ranked 1v1, 2v2, and 3v3, then chill with your friends in modes like Capture the Flag and Volleybrawl, and survive as long as possible in Horde and Walker Attack.\n\nOVER 60 LEGENDS AND ALWAYS ADDING MORE\nFrom a werewolf with ice powers, to a space warrior who controls black holes, to a trickster god with a very large pet snake, to a fairy queen who rides a war beetle into battle, there is a Legend for everyone. And maybe next month there will be a new one for you, too.\n\nBRAWL AS CHARACTERS FROM FILM, TV, AND GAMES\nWhat legendary battle will you play out? SpongeBob SquarePants & Darth Vader vs John Cena & Mega Man? What about Aang & Tiny Tina vs Rayman & Lara Croft? Or even Po & Heatblast vs Chun Li & Shovel Knight?\n\nCROSS-PLAY ACROSS ALL PLATFORMS\nBrawlhalla is free to play on PC, Mac, PlayStation, Xbox, Nintendo Switch, iOS, and Android devices. With cross-play, that means anyone on any platform can play with you on your console, computer, or phone.\n",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.39724.13891464908023063.a041e1c7-f56f-4ac1-ab92-18f9ca74105a.08fa5ea8-3157-4314-8e90-04ff3dce38ed",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9NKFLWWM9CZ1",
+      "isGamePass": true,
+      "isNewToGamePass": true,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -3107,19 +3239,34 @@
       "isDiscounted": false
     },
     {
-      "id": "9PN0MPNNP92J",
+      "id": "9NXWKGRHT31F",
       "title": "FAR CRY 3",
       "description": "Far Cry 3 is an open world first-person shooter set on an island unlike any other. A place where heavily armed warlords traffic in slaves. Where outsiders are hunted for ransom. And as you embark on a desperate quest to rescue your friends, you realize that the only way to escape this darkness… is to embrace it\n\nAN OPEN WORLD FIRST-PERSON SHOOTER\nCreate your own FPS adventure. Customize your weapons, your skills and your approach to each mission, whether you favor intense run-and-gun action, stealthy close-up takedowns or long-range sniping.\n\nAN ISLAND OF DANGER AND DISCOVERY\nExplore a diverse island playground, from mountain ranges and swampy grasslands to white sandy beaches. Discover relics, hunt exotic animals, play mini-games and travel quickly by land, sea or air. Fight your way through the island’s towns, temples, river ports and more!\n\nUNCOVER A MEMORABLE STORY AND AN INSANE CAST OF CHARACTERS\nEncounter an engaging and disturbed cast of characters as you take a gritty journey to the dark side of humanity, written by a Writers Guild Award winner.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38505.71220804959101191.bad88979-60b4-40b4-af6d-182d4534c987.f4e71fb2-e446-46e4-8291-e474508a0c71",
       "originalPrice": 299,
-      "discountPrice": 59.8,
-      "discountPercent": 80,
+      "discountPrice": 299,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9NXWKGRHT31F",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
+      "id": "9PN0MPNNP92J",
+      "title": "FAR CRY 3",
+      "description": "Far Cry 3 is an open world first-person shooter set on an island unlike any other. A place where heavily armed warlords traffic in slaves. Where outsiders are hunted for ransom. And as you embark on a desperate quest to rescue your friends, you realize that the only way to escape this darkness… is to embrace it\n\nAN OPEN WORLD FIRST-PERSON SHOOTER\nCreate your own FPS adventure. Customize your weapons, your skills and your approach to each mission, whether you favor intense run-and-gun action, stealthy close-up takedowns or long-range sniping.\n\nAN ISLAND OF DANGER AND DISCOVERY\nExplore a diverse island playground, from mountain ranges and swampy grasslands to white sandy beaches. Discover relics, hunt exotic animals, play mini-games and travel quickly by land, sea or air. Fight your way through the island’s towns, temples, river ports and more!\n\nUNCOVER A MEMORABLE STORY AND AN INSANE CAST OF CHARACTERS\nEncounter an engaging and disturbed cast of characters as you take a gritty journey to the dark side of humanity, written by a Writers Guild Award winner.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.38505.71220804959101191.bad88979-60b4-40b4-af6d-182d4534c987.f4e71fb2-e446-46e4-8291-e474508a0c71",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PN0MPNNP92J",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P06W7K6Q3C6",
@@ -3137,79 +3284,169 @@
       "isDiscounted": false
     },
     {
+      "id": "9P5Z088TJQ5S",
+      "title": "FAR CRY 3 BLOOD DRAGON",
+      "description": "Welcome to an 80s vision of the future taking place on a bizarre open world island crawling with evil, now on the current generation of consoles. Become Sergeant Rex Colt, a cyber commando. Get the girl, kill the bad guys, save the world.\n\n- As Sergeant Rex Colt, you are part man, part machine, all American. You are a state-of-the-art Mark IV cyber commando on a mission of vengeance.\n- Experience updated graphics and gameplay to allow players to experience every cliché of this VHS-era vision of the nuclear future.\n- Take down the enemy with ninja stars, guns, or even just good old explosives. Your battle. Your way. Their tough luck.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.40113.14462013986416587.d1c1ac44-b40a-4aec-bbb4-174c6a3b4535.f96f0c7c-6e67-4d4e-b029-ed62c5b1fd83",
+      "originalPrice": 225,
+      "discountPrice": 225,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9P5Z088TJQ5S",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
+      "id": "9MVV32Z0JPCL",
+      "title": "FAR CRY 4",
+      "description": "THE SEQUEL TO THE BEST-RATED SHOOTER OF 2012* Hidden in the towering Himalayas lies Kyrat, a country steeped in tradition and violence. You are Ajay Ghale. Traveling to Kyrat to fulfill your mother’s dying wish, you find yourself caught up in a civil war to overthrow the oppressive regime of dictator Pagan Min. Explore and navigate this vast open world, where danger and unpredictability lurk around every corner. Here, every decision counts, and every second is a story. Welcome to Kyrat.\n\nGAME FEATURES:\n\n• REVOLUTIONARY OPEN WORLD CO-OP: Far Cry 4 allows for a second player to drop in and drop out at any point, re-imagining the cooperative experience in the true spirit of Far Cry for the next generation. You’ll now be able to discover and explore the living open world of Kyrat together.\n\n• MASSIVE OPEN WORLD: Discover the most diverse Far Cry world ever created. With terrain spanning from lush forests to the snowcapped Himalayas, the entire world is alive…and deadly.\n\n• ABUNDANT NEW WILDLIFE: From leopards, rhinos, black eagles, and vicious honey badgers, as you embark on your hunt for resources, know that something may be hunting you...\n\n• NEW WAYS TO GET AROUND: Scout enemy territory from above in the all-new gyrocopter and then plummet back to earth in your wing suit. Climb aboard the back of a six-ton elephant and unleash its raw power on your enemies.\n\n• POWERFUL NEW WEAPONS: Choose the right weapon for the job, no matter how insane or unpredictable that job might be. With a diverse arsenal, you’ll be prepared for anything.\n\n",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.44418.14286944504058611.3e034c1a-7e15-4e7d-b215-ef424d80d5e7.d6c1114a-3068-4a8e-8250-17609b794ca7",
+      "originalPrice": 459,
+      "discountPrice": 459,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9MVV32Z0JPCL",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
       "id": "9PMTJMML92S4",
       "title": "FAR CRY 4",
       "description": "THE SEQUEL TO THE BEST-RATED SHOOTER OF 2012* Hidden in the towering Himalayas lies Kyrat, a country steeped in tradition and violence. You are Ajay Ghale. Traveling to Kyrat to fulfill your mother’s dying wish, you find yourself caught up in a civil war to overthrow the oppressive regime of dictator Pagan Min. Explore and navigate this vast open world, where danger and unpredictability lurk around every corner. Here, every decision counts, and every second is a story. Welcome to Kyrat.\n\nGAME FEATURES:\n\n• REVOLUTIONARY OPEN WORLD CO-OP: Far Cry 4 allows for a second player to drop in and drop out at any point, re-imagining the cooperative experience in the true spirit of Far Cry for the next generation. You’ll now be able to discover and explore the living open world of Kyrat together.\n\n• MASSIVE OPEN WORLD: Discover the most diverse Far Cry world ever created. With terrain spanning from lush forests to the snowcapped Himalayas, the entire world is alive…and deadly.\n\n• ABUNDANT NEW WILDLIFE: From leopards, rhinos, black eagles, and vicious honey badgers, as you embark on your hunt for resources, know that something may be hunting you...\n\n• NEW WAYS TO GET AROUND: Scout enemy territory from above in the all-new gyrocopter and then plummet back to earth in your wing suit. Climb aboard the back of a six-ton elephant and unleash its raw power on your enemies.\n\n• POWERFUL NEW WEAPONS: Choose the right weapon for the job, no matter how insane or unpredictable that job might be. With a diverse arsenal, you’ll be prepared for anything.\n\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.44418.14286944504058611.3e034c1a-7e15-4e7d-b215-ef424d80d5e7.d6c1114a-3068-4a8e-8250-17609b794ca7",
-      "originalPrice": 460,
-      "discountPrice": 46,
-      "discountPercent": 90,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PMTJMML92S4",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NSRHJ8DJT2M",
       "title": "Far Cry New Dawn",
       "description": "Dive into a transformed vibrant post-apocalyptic Hope County, Montana, 17 years after a global nuclear catastrophe.\nJoin fellow survivors and lead the fight against the dangerous new threat the Highwaymen, and their ruthless leaders The Twins, as they seek to take over the last remaining resources. \n\nFIGHT FOR SURVIVAL IN A POST-APOCALYPTIC WORLD\n• Take up arms on your own or with a friend in two player co-op in an unpredicatable and transformed world\n\nCOLLIDE AGAINST TWO ALL NEW VILLAINS\n• Recruit an eclectic cast of Guns and Fangs for Hire and form alliances to fight by your side against the Highwaymen's unruly leaders The Twins\n\nBUILD UP YOUR HOMEBASE AND THE SURVIVORS\n• Recruit Specialists to upgrade your homebase, who will help unlock all new features including crafting weapons, gear and more\n\nBATTLE FOR RESOURCES IN HOPE COUNTY AND BEYOND\n• Engage the Highwaymen in escalation and venture on Expeditions to memorable locations across the USA\n\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.28761.14362540444080020.c2f260b5-6cc7-4ec2-b90f-271c59d624ae.21fbd875-d8d1-47a1-a73a-87baf8ac7c55",
-      "originalPrice": 685,
-      "discountPrice": 137,
-      "discountPercent": 80,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NSRHJ8DJT2M",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
+    },
+    {
+      "id": "9NWX420Z2NLG",
+      "title": "Far Cry New Dawn",
+      "description": "Dive into a transformed vibrant post-apocalyptic Hope County, Montana, 17 years after a global nuclear catastrophe.\nJoin fellow survivors and lead the fight against the dangerous new threat the Highwaymen, and their ruthless leaders The Twins, as they seek to take over the last remaining resources. \n\nFIGHT FOR SURVIVAL IN A POST-APOCALYPTIC WORLD\n• Take up arms on your own or with a friend in two player co-op in an unpredicatable and transformed world\n\nCOLLIDE AGAINST TWO ALL NEW VILLAINS\n• Recruit an eclectic cast of Guns and Fangs for Hire and form alliances to fight by your side against the Highwaymen's unruly leaders The Twins\n\nBUILD UP YOUR HOMEBASE AND THE SURVIVORS\n• Recruit Specialists to upgrade your homebase, who will help unlock all new features including crafting weapons, gear and more\n\nBATTLE FOR RESOURCES IN HOPE COUNTY AND BEYOND\n• Engage the Highwaymen in escalation and venture on Expeditions to memorable locations across the USA\n\n",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.28761.14362540444080020.c2f260b5-6cc7-4ec2-b90f-271c59d624ae.21fbd875-d8d1-47a1-a73a-87baf8ac7c55",
+      "originalPrice": 689,
+      "discountPrice": 689,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9NWX420Z2NLG",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
+      "id": "9P1HX8TFF3VW",
+      "title": "FAR CRY PRIMAL",
+      "description": "The award-winning Far Cry franchise that stormed the tropics and the Himalayas now enters the original fight for humanity’s survival with its innovative open-world sandbox gameplay, bringing together massive beasts, breathtaking environments, and unpredictable savage encounters. \nWelcome to the Stone Age, a time of extreme danger and limitless adventure, when giant mammoths and sabretooth tigers ruled the Earth and humanity is at the bottom of the food chain. As the last survivor of your hunting group, you will learn to craft a deadly arsenal, fend off fierce predators, and outsmart enemy tribes to conquer the land of Oros and become the Apex Predator.\nGAME FEATURES\n• STONE AGE BY FAR CRY: The rich setting of the Stone Age provides a new setting filled with unpredictable mayhem, dangerous threats, and incredible stories that Far Cry is known for. \n\n• RISE ABOVE EXTINCTION: Play as Takkar, a seasoned hunter and the last surviving member of your group. There is one goal: survive in a world where you are the prey. \n\n• FIERCE WILDLIFE AND SAVAGE AND MAJESTIC WORLD: This is earth before man laid claim to it, where deadly sabretooth tigers ruled the world, giant woolly mammoths were kings, and herds of massive Elk stormed through the plains. Discover these and many more daunting creatures in the savage open-world of Oros within the towering redwood forests, harsh taiga, cold glacial mountains and humid swamps.\n",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.40324.14079505688681780.9ec50825-311f-45ea-ad4f-9e9011ea0aaa.8efa213b-01a1-479c-8ecd-8fdad63ae7b5",
+      "originalPrice": 759,
+      "discountPrice": 759,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9P1HX8TFF3VW",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
     },
     {
       "id": "9P8X98F4BDC9",
       "title": "FAR CRY PRIMAL",
       "description": "The award-winning Far Cry franchise that stormed the tropics and the Himalayas now enters the original fight for humanity’s survival with its innovative open-world sandbox gameplay, bringing together massive beasts, breathtaking environments, and unpredictable savage encounters. \nWelcome to the Stone Age, a time of extreme danger and limitless adventure, when giant mammoths and sabretooth tigers ruled the Earth and humanity is at the bottom of the food chain. As the last survivor of your hunting group, you will learn to craft a deadly arsenal, fend off fierce predators, and outsmart enemy tribes to conquer the land of Oros and become the Apex Predator.\nGAME FEATURES\n• STONE AGE BY FAR CRY: The rich setting of the Stone Age provides a new setting filled with unpredictable mayhem, dangerous threats, and incredible stories that Far Cry is known for. \n\n• RISE ABOVE EXTINCTION: Play as Takkar, a seasoned hunter and the last surviving member of your group. There is one goal: survive in a world where you are the prey. \n\n• FIERCE WILDLIFE AND SAVAGE AND MAJESTIC WORLD: This is earth before man laid claim to it, where deadly sabretooth tigers ruled the world, giant woolly mammoths were kings, and herds of massive Elk stormed through the plains. Discover these and many more daunting creatures in the savage open-world of Oros within the towering redwood forests, harsh taiga, cold glacial mountains and humid swamps.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.40324.14079505688681780.9ec50825-311f-45ea-ad4f-9e9011ea0aaa.8efa213b-01a1-479c-8ecd-8fdad63ae7b5",
-      "originalPrice": 760,
-      "discountPrice": 114,
-      "discountPercent": 85,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P8X98F4BDC9",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9MVQXW1RJVCN",
       "title": "Far Cry® 5",
       "description": "Welcome to Hope County, Montana, the land of the free and brave, but also the home of a fanatical doomsday cult. Stand up to cult leader Joseph Seed and his siblings, the Heralds, to spark the fires of resistance and liberate the besieged community.\n\nDISCOVER ONE OF THE MOST ACCLAIMED FAR CRY GAMES\nJoin the millions of players in the Far Cry 5 community and discover what IGN describes as “fast-paced fun.”\n\nFIGHT AGAINST THE DEADLY CULT OF JOSEPH SEED\nFree Hope County from the Eden's Gate cult and the Seed family. Discover the first appearance of the charismatic antagonist Joseph Seed, before his return in Far Cry® New Dawn and his own dedicated DLC in Far Cry® 6, Collapse.\n\nEXPLORE THE HOPE COUNTY OPEN WORLD SOLO OR CO-OP AND MAKE YOUR OWN RULES\nPlay solo or two-player co-op in the vast open world of Hope County, now available at 60 fps running on Xbox Series X|S. Use a vast arsenal of weapons from rocket launchers to shovels, and take control of iconic muscle cars, ATVs, planes, and more to engage the cult forces in epic fights. Ally with the Fangs for Hire group, including fan-favorite bear Cheeseburger and dog Boomer, and free Hope County from its oppressors.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.22845.69582963086497758.e1cff2e3-ddf1-42bf-930d-f380ad63f100.1ef04059-9768-4999-b495-f48a52290ae9",
-      "originalPrice": 910,
-      "discountPrice": 136.5,
-      "discountPercent": 85,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MVQXW1RJVCN",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
+    },
+    {
+      "id": "9NG3KNWZ7RZ7",
+      "title": "Far Cry® 5",
+      "description": "Welcome to Hope County, Montana, the land of the free and brave, but also the home of a fanatical doomsday cult. Stand up to cult leader Joseph Seed and his siblings, the Heralds, to spark the fires of resistance and liberate the besieged community.\n\nDISCOVER ONE OF THE MOST ACCLAIMED FAR CRY GAMES\nJoin the millions of players in the Far Cry 5 community and discover what IGN describes as “fast-paced fun.”\n\nFIGHT AGAINST THE DEADLY CULT OF JOSEPH SEED\nFree Hope County from the Eden's Gate cult and the Seed family. Discover the first appearance of the charismatic antagonist Joseph Seed, before his return in Far Cry® New Dawn and his own dedicated DLC in Far Cry® 6, Collapse.\n\nEXPLORE THE HOPE COUNTY OPEN WORLD SOLO OR CO-OP AND MAKE YOUR OWN RULES\nPlay solo or two-player co-op in the vast open world of Hope County, now available at 60 fps running on Xbox Series X|S. Use a vast arsenal of weapons from rocket launchers to shovels, and take control of iconic muscle cars, ATVs, planes, and more to engage the cult forces in epic fights. Ally with the Fangs for Hire group, including fan-favorite bear Cheeseburger and dog Boomer, and free Hope County from its oppressors.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.22845.69582963086497758.e1cff2e3-ddf1-42bf-930d-f380ad63f100.1ef04059-9768-4999-b495-f48a52290ae9",
+      "originalPrice": 915,
+      "discountPrice": 915,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9NG3KNWZ7RZ7",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
     },
     {
       "id": "9N661LCNBH8J",
       "title": "Far Cry® 6",
       "description": "Welcome to Yara, a tropical paradise frozen in time. As the dictator of Yara, Antón Castillo is intent on restoring his nation to its former glory by any means necessary, with his son, Diego, following in his bloody footsteps. Their oppressive rule has ignited a revolution. \r\n\r\n- Play as Dani Rojas, a local Yaran, as you fight alongside a modern-day guerrilla revolution to liberate Yara. Play the full game solo or with a friend in co-op.\r\n\r\n- Explore jungles, beaches, and cities on foot, horseback, or in a wide variety of vehicles including boats and Jet Skis as you fight against Castillo’s regime in the most expansive Far Cry to date.\r\n\r\n- Feel the thrill of combat with an arsenal of hundreds of weapons alongside helpful amigos like Chorizo the dog and Guapo the gator. \r\n\r\n- Enjoy all-new content and features added since launch, including four new special operations, free blockbuster crossover missions, and fan-requested updates such as New Game Plus, Completionist Aid, an extra-hard difficulty mode, and four new loadout slots.\r\n\r\nThere has never been a better time to join millions of players in Yara!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.55639.14115267245615103.8e12f551-059b-455a-97ec-4b8173f3621e.9f8ad06c-377d-4273-b93c-47d3bab4d919",
-      "originalPrice": 915,
-      "discountPrice": 228.75,
-      "discountPercent": 75,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N661LCNBH8J",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
+    },
+    {
+      "id": "9PJ45NJCHSFS",
+      "title": "Far Cry® 6",
+      "description": "Welcome to Yara, a tropical paradise frozen in time. As the dictator of Yara, Antón Castillo is intent on restoring his nation to its former glory by any means necessary, with his son, Diego, following in his bloody footsteps. Their oppressive rule has ignited a revolution. \n\n- Play as Dani Rojas, a local Yaran, as you fight alongside a modern-day guerrilla revolution to liberate Yara. Play the full game solo or with a friend in co-op.\n\n- Explore jungles, beaches, and cities on foot, horseback, or in a wide variety of vehicles including boats and Jet Skis as you fight against Castillo’s regime in the most expansive Far Cry to date.\n\n- Feel the thrill of combat with an arsenal of hundreds of weapons alongside helpful amigos like Chorizo the dog and Guapo the gator. \n\n- Enjoy all-new content and features added since launch, including four new special operations, free blockbuster crossover missions, and fan-requested updates such as New Game Plus, Completionist Aid, an extra-hard difficulty mode, and four new loadout slots.\n\nThere has never been a better time to join millions of players in Yara!",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.55639.14115267245615103.8e12f551-059b-455a-97ec-4b8173f3621e.9f8ad06c-377d-4273-b93c-47d3bab4d919",
+      "originalPrice": 915,
+      "discountPrice": 915,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9PJ45NJCHSFS",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
     },
     {
       "id": "9PM709J61828",
@@ -3425,7 +3662,7 @@
       "id": "9NMNZ4CK59DM",
       "title": "Football Manager 26 для консолей",
       "description": "СТВОРІТЬ СВОЮ ТАКТИКУ — ГРАЙТЕ ВЖЕ ЗАРАЗ\nНові можливості творити майбутнє футболу власноруч.\nЗавдяки простому інтуїтивному управлінню з консолі, переробленому інтерфейсу й динамічному ігровому процесу ви будете ближче до ключових моментів матчу.  \n\nЗДОБУДЬТЕ СЛАВУ FIFA WORLD CUP 2026™\nПеремога в найбільшому міжнародному футбольному турнірі — у ваших руках. Не проґавте спеціальну дату старту для FIFA World Cup 2026™ та випробуйте нові інструменти керування національними збірними, а також автентичну ліцензовану телевізійну графіку, брендинг турніру, офіційні м’ячі й форму.\n\nРОЗРОБЛЕНО НА UNITY\nНасолоджуйтеся найяскравішими враженнями від серії з оновленою графікою та деталями на полі!\nАтаки виразніші завдяки оновленому захопленню руху та об’ємним анімаціям, а нові швидкі команди на контролері між ключовими епізодами дають змогу оперативно коригувати тактику з бровки. \n\nЛАСКАВО ПРОСИМО ДО ПРЕМ’ЄР-ЛІГИ \nПориньте у світ Прем’єр-ліги, вперше повністю ліцензованої.\nНовий рівень автентичності: ТВ-подача й ракурс найкращого місця ведуть до головного трофея.  \n\nПОЛІПШЕННЯ ТАКТИКИ\nОпануйте сучасну тактику з новими формаціями для гри з м’ячем і без м’яча. \nОновлені ролі й візуалізація фаз гри підіймуть передматчеву підготовку на новий рівень.\n\nЩЕ БЛИЖЧЕ ДО ГРИ  \nОновлений інтерфейс: навігація на консолях плавніша й розумніша. Плануйте у своєму темпі: ключова інформація з’являється вчасно й там, де треба, завдяки новому «Порталу» — вашому вікну у світ футболу. \n\nПРЕДСТАВЛЯЄМО: ЖІНОЧИЙ ФУТБОЛ   \nНова сторінка: жіночий футбол дебютує у FM26 та інтегрований в єдиний футбольний світ.\nГрайте в 14 лігах в 11 країнах, від WSL до NWSL, і шукайте таланти в найбільшій ігровій базі жіночого футболу. \n\nІНСТРУМЕНТИ ПЕРЕВЕДЕННЯ ГРАВЦІВ\nВикористовуйте TransferRoom™, онлайн-ринок трансферів, щоб формувати чемпіонські склади з глибшим розумінням ринку.\nПідписуйте й продавайте простіше завдяки вимогам і можливостям. Більше контролю в кожному трансферному вікні.\n\nВАШ ТРЕНЕР — ВАШІ ПРАВИЛА\nБільше індивідуальності у вашій кар’єрі — завдяки оновленому редактору тренера. \nНалаштуйте зовнішність і створіть передісторію кар’єри, унікальну для вашого життя на тренерській лаві.\n\nУ FM26 на консолях футбол стає вашим проєктом. Настав час змінити правила гри.\n\nВикористовуючи цей продукт, ви приймаєте цю ЛІЦЕНЗІЙНУ УГОДУ: https://games.sega.com/eula/?lang=ru\n\n* Через погодження ліцензій не всі комплекти форми команд FIFA World Cup 2026™ будуть доступні на момент запуску цієї функції. Деякі з них можуть бути додані згодом.\n",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.64069.13754609462095808.4b0cebe1-c2cc-45d6-a0b6-c2209d4557ef.e6ed6164-c940-408a-8cf1-ee129f966af1",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.18485.13754609462095808.6e939a74-099e-490d-b009-02e7105155bd.57af7efd-c236-4f6c-ad75-9181b7718799",
       "originalPrice": 2499,
       "discountPrice": 2499,
       "discountPercent": 0,
@@ -3433,6 +3670,21 @@
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NMNZ4CK59DM",
       "isGamePass": true,
       "isNewToGamePass": false,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
+      "id": "9P82LXD5RH31",
+      "title": "FOR HONOR",
+      "description": "MASTER THE ART OF BATTLE\nFeel the power of every strike with the highly technical Art of Battle control system. Wield your blade according to your style: swift Assassin, tanky Heavy, versatile Vanguard, or technical Hybrid.\n\nA NEVER-ENDING GAME\nEnjoy an ever-evolving experience with more than 30 heroes, five factions, 18 maps, seasonal events, thousands of gear items, cross-platform play, and more! \n\nPERSONALIZE YOUR HEROES\nUnlock rewards and customize your heroes with thousands of different weapons, emblems, and more!\n\nMEMORABLE STORY CAMPAIGN\nStorm castles and fortresses in massive battles and confront bosses in intense duels.\n\n\nChoose the Ultimate Edition to get the best experience, with 12 additional heroes!",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.44059.13664541971149542.2f5fbe40-bf98-4cd6-8d48-94e08f070c43.fd1de821-de65-4361-a8ea-241c5823da0d",
+      "originalPrice": 459,
+      "discountPrice": 459,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9P82LXD5RH31",
+      "isGamePass": true,
+      "isNewToGamePass": true,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -4007,34 +4259,64 @@
       "isDiscounted": false
     },
     {
+      "id": "9P5241RBH1SZ",
+      "title": "Heroes of Might and Magic 3 - Complete Edition",
+      "description": "Murdered by traitors and resurrected by Necromancers as an undead lich, Erathia's deceased king commands its neighboring enemies to seize his former kingdom. His progress is halted when his daughter Catherine, Queen of Enroth, returns to the shores of her homeland. In the service of Erathia, beset by enemies external and internal, you command the land's greatest heroes and fiercest creatures in Queen Catherine's war to restore her homeland, discover her father's killer, and free him from the prison of his undead body.\n\nOver 200 different maps and scenarios to explore and conquer.\nTurn-based gameplay allows everyone to play at their own speed.\nUnique and unlimited replayability with the Random Scenario Generator.\n\nHeroes III: Armageddon's Blade\nIn the demon kingdom of Eeofol, Lucifer Kreegan has a vision to set the world on fire by constructing \"Armageddon's Blade.\" Seeking to dethrone this insane king, Catherine invades. However, her generals report the appearance of the fiery Phoenix and mysterious elemental Confluxes. As Catherine contemplates her next move, she wonders -- do these omens foretell of Erathia's victory . . . or the world's destruction?\n\nHeroes III: The Shadow of Death\nSandro, a power-hungry lich, seeks two powerful combination artifacts that will allow him to rule all of Antagarich. Four brave Heroes must find the fabled Angelic Alliance sword to defeat the unstoppable forces of the undead, over the course of the seven exhilarating campaigns.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.13759.14074196081223875.50e0d7fc-9a8a-4327-99d3-4874afe93860.1365bc68-642a-4596-a9dd-48ba8a857818",
+      "originalPrice": 289,
+      "discountPrice": 289,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9P5241RBH1SZ",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
       "id": "9P96BJ164SL8",
       "title": "Heroes of Might and Magic 3 - Complete Edition",
       "description": "Murdered by traitors and resurrected by Necromancers as an undead lich, Erathia's deceased king commands its neighboring enemies to seize his former kingdom. His progress is halted when his daughter Catherine, Queen of Enroth, returns to the shores of her homeland. In the service of Erathia, beset by enemies external and internal, you command the land's greatest heroes and fiercest creatures in Queen Catherine's war to restore her homeland, discover her father's killer, and free him from the prison of his undead body.\n\nOver 200 different maps and scenarios to explore and conquer.\nTurn-based gameplay allows everyone to play at their own speed.\nUnique and unlimited replayability with the Random Scenario Generator.\n\nHeroes III: Armageddon's Blade\nIn the demon kingdom of Eeofol, Lucifer Kreegan has a vision to set the world on fire by constructing \"Armageddon's Blade.\" Seeking to dethrone this insane king, Catherine invades. However, her generals report the appearance of the fiery Phoenix and mysterious elemental Confluxes. As Catherine contemplates her next move, she wonders -- do these omens foretell of Erathia's victory . . . or the world's destruction?\n\nHeroes III: The Shadow of Death\nSandro, a power-hungry lich, seeks two powerful combination artifacts that will allow him to rule all of Antagarich. Four brave Heroes must find the fabled Angelic Alliance sword to defeat the unstoppable forces of the undead, over the course of the seven exhilarating campaigns.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.13759.14074196081223875.50e0d7fc-9a8a-4327-99d3-4874afe93860.1365bc68-642a-4596-a9dd-48ba8a857818",
-      "originalPrice": 291,
-      "discountPrice": 72.75,
-      "discountPercent": 75,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P96BJ164SL8",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9N5TWT260Q8H",
       "title": "Heroes of Might and Magic II - Gold Edition",
       "description": "Lord Ironfist is dead and the Kingdom is plunged into a vicious civil war by his feuding sons. At stake is the ultimate prize: control of the land and succession of the royal throne. Will you support the villainous usurper and lead the armies of evil or be loyal to the righteous prince and deliver the people from tyranny.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.34358.14026542729109328.c9762218-832d-41f7-bacf-90b135ef4d56.7b0f1543-803d-45ea-9098-a329f7d06a04",
-      "originalPrice": 291,
-      "discountPrice": 72.75,
-      "discountPercent": 75,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N5TWT260Q8H",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
+    },
+    {
+      "id": "9NSB55HX1GGN",
+      "title": "Heroes of Might and Magic II - Gold Edition",
+      "description": "Lord Ironfist is dead and the Kingdom is plunged into a vicious civil war by his feuding sons. At stake is the ultimate prize: control of the land and succession of the royal throne. Will you support the villainous usurper and lead the armies of evil or be loyal to the righteous prince and deliver the people from tyranny.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.34358.14026542729109328.c9762218-832d-41f7-bacf-90b135ef4d56.7b0f1543-803d-45ea-9098-a329f7d06a04",
+      "originalPrice": 289,
+      "discountPrice": 289,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9NSB55HX1GGN",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
     },
     {
       "id": "9P2TFCCRKMRD",
@@ -4221,15 +4503,30 @@
       "title": "Immortals Fenyx Rising™",
       "description": "Immortals Fenyx Rising brings grand mythological adventure to life. \r\n\r\nPlay as Fenyx, a new, winged demigod, on a quest to save the Greek gods. The fate of the world is at stake – you are the gods’ last hope.\r\n\r\n- Wield the powers of the gods, like Achilles' sword and Daidalos' wings, to battle powerful enemies and solve ancient puzzles.\r\n- Fight iconic mythological beasts like Cyclops and Medusa in dynamic combat in the air and on the ground. \r\n- Use your skills and diverse weapons, including self-guided arrows, telekinesis, and more, for devastating damage.  \r\n- Discover a stylized open world across seven unique regions, each inspired by the gods.\r\n\r\nThis game leverages Smart Delivery allowing access to both the Xbox One title and the Xbox Series X|S title",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.30084.64682799204913125.f407971c-f15c-4acc-99e1-682aec54019d.8b30a1ba-1d1e-4659-8550-022a44a311f3",
-      "originalPrice": 869,
-      "discountPrice": 173.8,
-      "discountPercent": 80,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NFPNPLR8VBK",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
+    },
+    {
+      "id": "9NV0Q705NQ2N",
+      "title": "Immortals Fenyx Rising™",
+      "description": "Immortals Fenyx Rising brings grand mythological adventure to life. \n\nPlay as Fenyx, a new, winged demigod, on a quest to save the Greek gods. The fate of the world is at stake – you are the gods’ last hope.\n\n- Wield the powers of the gods, like Achilles' sword and Daidalos' wings, to battle powerful enemies and solve ancient puzzles.\n- Fight iconic mythological beasts like Cyclops and Medusa in dynamic combat in the air and on the ground. \n- Use your skills and diverse weapons, including self-guided arrows, telekinesis, and more, for devastating damage.  \n- Discover a stylized open world across seven unique regions, each inspired by the gods.\n\nThis game leverages Smart Delivery allowing access to both the Xbox One title and the Xbox Series X|S title",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.30084.64682799204913125.f407971c-f15c-4acc-99e1-682aec54019d.8b30a1ba-1d1e-4659-8550-022a44a311f3",
+      "originalPrice": 869,
+      "discountPrice": 869,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9NV0Q705NQ2N",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
     },
     {
       "id": "9P6Z93565T92",
@@ -5188,6 +5485,21 @@
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NH0MSG29X6L",
       "isGamePass": true,
       "isNewToGamePass": false,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
+      "id": "9NVH8SJNX20S",
+      "title": "MONOPOLY 2024",
+      "description": "MONOPOLY® is back with a fresh look and an improved game experience. Buy, sell, trade properties, and grow your empire in this faithful adaptation of the game we all grew up with! Roll the dice, start the game, and dive in to explore an exciting, fully animated 3D city. \n\nA BOARD THAT COMES TO LIFE\n- With next-gen graphics quality and a detailed 3D city, MONOPOLY brings the classic franchise to a new level.\n- Move around the board to explore the city and its different neighborhoods, or spy on your opponents before your next move.\n- With a day/night and weather cycle, admire the city as it transforms from sunny mornings to stormy nights.\n\nA TABLETOP FEEL\n- Feel the essence of tabletop gaming in every move as you buy, sell, trade, and scheme your way to riches.\n- You can now manipulate your token, moving it around and making jumps. Want revenge for your bankruptcy? Knock out the guilty one’s tokens! You end up in jail? Flip the whole board! \n\nA FAMILY GAME NIGHT STAPLE\n- Play with up to six players in your living room or take the matches online* to compete against other property moguls from around the world. MONOPOLY also supports cross-play!\n- Choose to play with one controller for all or just one per player!\n- Customize your dice set and discover your favorite tokens in a new light.\n",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.26380.14398698669674983.cc5a91f2-0bac-41fb-b41c-5530163b4e44.0407e45c-7ebe-486c-84ea-fd84acbc13dd",
+      "originalPrice": 225,
+      "discountPrice": 225,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9NVH8SJNX20S",
+      "isGamePass": true,
+      "isNewToGamePass": true,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -6227,19 +6539,34 @@
       "isDiscounted": true
     },
     {
+      "id": "9PDCBPJ8C47K",
+      "title": "Prince of Persia The Lost Crown",
+      "description": "Dash into a stylish and thrilling action-adventure platformer set in a mythological Persian world where the boundaries of time and space are yours to manipulate. Play as Sargon and evolve from sword-wielding prodigy to extraordinary legend as you master acrobatic combat and unlock new Time Powers and unique super abilities.\n\nUNLEASH YOUR INNER WARRIOR\nUse your Time Powers, combat, and platforming skills to perform deadly combos and defeat time-corrupted enemies and mythological creatures. \n\nLOSE YOURSELF IN THE PRODIGIOUS MOUNT QAF\nDiscover a cursed Persian-inspired world filled with larger-than-life landmarks and explore a variety of highly detailed biomes, each with their own identity, wonder, and danger.\n\nLIVE AN EPIC ADVENTURE\nImmerse yourself in a Persian mythological​ fantasy through an intriguing and original story as you use your wits to solve puzzles, find hidden treasures, and complete quests to learn more about this corrupted place.\n\n",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.27142.14216211347341818.1e4ac427-e1a5-47bd-9a8e-a8f9d9a0fc8d.4c59895c-ae3c-45ba-a7c7-3d3c14f529da",
+      "originalPrice": 869,
+      "discountPrice": 869,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9PDCBPJ8C47K",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
       "id": "9PJ8CKFDWWLF",
       "title": "Prince of Persia The Lost Crown",
       "description": "Dash into a stylish and thrilling action-adventure platformer set in a mythological Persian world where the boundaries of time and space are yours to manipulate. Play as Sargon and evolve from sword-wielding prodigy to extraordinary legend as you master acrobatic combat and unlock new Time Powers and unique super abilities.\n\nUNLEASH YOUR INNER WARRIOR\nUse your Time Powers, combat, and platforming skills to perform deadly combos and defeat time-corrupted enemies and mythological creatures. \n\nLOSE YOURSELF IN THE PRODIGIOUS MOUNT QAF\nDiscover a cursed Persian-inspired world filled with larger-than-life landmarks and explore a variety of highly detailed biomes, each with their own identity, wonder, and danger.\n\nLIVE AN EPIC ADVENTURE\nImmerse yourself in a Persian mythological​ fantasy through an intriguing and original story as you use your wits to solve puzzles, find hidden treasures, and complete quests to learn more about this corrupted place.\n\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.27142.14216211347341818.1e4ac427-e1a5-47bd-9a8e-a8f9d9a0fc8d.4c59895c-ae3c-45ba-a7c7-3d3c14f529da",
-      "originalPrice": 865,
-      "discountPrice": 259.5,
-      "discountPercent": 70,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PJ8CKFDWWLF",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NCT87FKQ4GM",
@@ -6621,15 +6948,30 @@
       "title": "Riders Republic Standard Edition",
       "description": "MASSIVE MULTIPLAYER RACES & EVOLVING CONTENT\nGo head-to-head with over 50 players as you fight your way to the finish line! The Republic is always evolving with seasonal events, new sports, and challenges. Jump into pick-up runs, trick competitions, or laid-back crew rides. There's always a new reason to drop in, send it, and shred the massive multiplayer playground!\n\nEXPLORE A VIBRANT, SEAMLESS OPEN WORLD\nSwitch on the fly between bike, skis, snowboard, or wingsuit as you roam an expansive world of urban streets and iconic US national parks: Yosemite, Zion, Bryce Canyon, Yellowstone, Grand Canyon.\n\nCUSTOMIZE YOUR CHARACTER\nUnlock a vast array of cosmetic items, from iconic brands to legendary streetwear, and build a look to show off your style as you dominate the slopes and trails.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.56482.14501696194323418.a10bcd38-e545-4ad0-af0a-a77518bae589.48049bee-e944-4c07-b6b2-b54eb88bc72a",
-      "originalPrice": 910,
-      "discountPrice": 91,
-      "discountPercent": 90,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N1XDDL50X5F",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
+    },
+    {
+      "id": "9NZ4T5RFD7KF",
+      "title": "Riders Republic Standard Edition",
+      "description": "MASSIVE MULTIPLAYER RACES & EVOLVING CONTENT\nGo head-to-head with over 50 players as you fight your way to the finish line! The Republic is always evolving with seasonal events, new sports, and challenges. Jump into pick-up runs, trick competitions, or laid-back crew rides. There's always a new reason to drop in, send it, and shred the massive multiplayer playground!\n\nEXPLORE A VIBRANT, SEAMLESS OPEN WORLD\nSwitch on the fly between bike, skis, snowboard, or wingsuit as you roam an expansive world of urban streets and iconic US national parks: Yosemite, Zion, Bryce Canyon, Yellowstone, Grand Canyon.\n\nCUSTOMIZE YOUR CHARACTER\nUnlock a vast array of cosmetic items, from iconic brands to legendary streetwear, and build a look to show off your style as you dominate the slopes and trails.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.56482.14501696194323418.a10bcd38-e545-4ad0-af0a-a77518bae589.48049bee-e944-4c07-b6b2-b54eb88bc72a",
+      "originalPrice": 869,
+      "discountPrice": 869,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9NZ4T5RFD7KF",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
     },
     {
       "id": "9NS84HCWZD8B",
@@ -6921,15 +7263,30 @@
       "title": "Skull and Bones",
       "description": "ENGAGE IN SPECTACULAR NAVAL COMBAT\nPrepare for devastating battles by crafting different ships and equip your fleet with powerful loadouts. Unlock stronger weapons as you progress and customize your ships to reflect your unique pirate playstyle.\n\nSAIL INTO A DANGEROUS HELL IN PARADISE\nVoyage into the Indian Ocean and explore a vast open world teeming with cutthroat pirates, deadly sea monsters, supernatural threats, devastating storms, and more.\n\nTEAM UP WITH OR BATTLE AGAINST FELLOW PIRATES\nJoin up to two friends or other players to partake in shareable contracts and rewards. Or, dominate the competition and destroy other bloodthirsty players in a thrilling team-based PvP mode.\n\nENJOY EVER-EVOLVING CONTENT\nEach season enhances the pirate experience with exciting new features, formidable new threats, fresh ways to play the endgame, and quality-of-life improvements designed to keep players engaged.\n\nPersistent internet connection and Ubisoft account required.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.25339.63081064281400272.22dc605b-57df-47ca-ae17-888c5e63e437.1cc6e3bd-f897-4a36-a20b-edb0b61b3aba",
-      "originalPrice": 1139,
-      "discountPrice": 113.9,
-      "discountPercent": 90,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P7X7VL05K48",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
+    },
+    {
+      "id": "9PG0S835V6J5",
+      "title": "Skull and Bones",
+      "description": "ENGAGE IN SPECTACULAR NAVAL COMBAT\nPrepare for devastating battles by crafting different ships and equip your fleet with powerful loadouts. Unlock stronger weapons as you progress and customize your ships to reflect your unique pirate playstyle.\n\nSAIL INTO A DANGEROUS HELL IN PARADISE\nVoyage into the Indian Ocean and explore a vast open world teeming with cutthroat pirates, deadly sea monsters, supernatural threats, devastating storms, and more.\n\nTEAM UP WITH OR BATTLE AGAINST FELLOW PIRATES\nJoin up to two friends or other players to partake in shareable contracts and rewards. Or, dominate the competition and destroy other bloodthirsty players in a thrilling team-based PvP mode.\n\nENJOY EVER-EVOLVING CONTENT\nEach season enhances the pirate experience with exciting new features, formidable new threats, fresh ways to play the endgame, and quality-of-life improvements designed to keep players engaged.\n\nPersistent internet connection and Ubisoft account required.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.25339.63081064281400272.22dc605b-57df-47ca-ae17-888c5e63e437.1cc6e3bd-f897-4a36-a20b-edb0b61b3aba",
+      "originalPrice": 1139,
+      "discountPrice": 1139,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9PG0S835V6J5",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
     },
     {
       "id": "9N9C1TB18R3B",
@@ -7056,15 +7413,30 @@
       "title": "South Park™: The Fractured but Whole™",
       "description": "Delve into the crime-ridden underbelly of South Park with Coon and Friends, this dedicated group of crime fighters formed by Eric Cartman, also known as The Coon. Join Mysterion, Toolshed, Human Kite and a host of others to battle the forces of evil while Coon strives to make his team the most beloved superheroes in history.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.30740.13614170963517427.58a3fd51-cd1e-499a-a5dc-fbf13cf861e3.3ee7b3e2-1404-42a1-b3f6-8249fd7881eb",
-      "originalPrice": 655,
-      "discountPrice": 131,
-      "discountPercent": 80,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NDQ5PS0447L",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
+    },
+    {
+      "id": "9PJNXM82ZX47",
+      "title": "South Park™: The Fractured but Whole™",
+      "description": "Delve into the crime-ridden underbelly of South Park with Coon and Friends, this dedicated group of crime fighters formed by Eric Cartman, also known as The Coon. Join Mysterion, Toolshed, Human Kite and a host of others to battle the forces of evil while Coon strives to make his team the most beloved superheroes in history.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.30740.13614170963517427.58a3fd51-cd1e-499a-a5dc-fbf13cf861e3.3ee7b3e2-1404-42a1-b3f6-8249fd7881eb",
+      "originalPrice": 649,
+      "discountPrice": 649,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9PJNXM82ZX47",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
     },
     {
       "id": "9NG5L58FD3X5",
@@ -7176,15 +7548,30 @@
       "title": "Star Wars Outlaws",
       "description": "Experience the first-ever open world Star Wars™ action-adventure game and explore distinct locations across the galaxy, both iconic and new. Risk it all as scoundrel Kay Vess, seeking freedom and the means to start a new life. Fight, steal, and outwit your way through the galaxy’s crime syndicates as you join the galaxy’s most wanted.\n\nIf you’re willing to take the risk, the galaxy is full of opportunity.\n\nDISCOVER A GALAXY OF OPPORTUNITY\nExplore distinct locations with bustling cities and cantinas. Race across sprawling outdoor landscapes on your speeder. Each location brings new adventures, unique challenges, and enticing rewards if you’re willing to take the risk.\n\nEXPERIENCE AN ORIGINAL SCOUNDREL STORY\nLive the high-stakes lifestyle of an outlaw. Turn any situation to your advantage with Nix by your side: fight with your blaster, overcome enemies with stealth and gadgets, or find the right moments to distract enemies and gain the upper hand.\n\nEMBARK ON HIGH-STAKES MISSIONS\nTake on high-risk, high-reward missions from the galaxy’s crime syndicates. Steal valuable goods, infiltrate secret locations, and outwit enemies as one of the galaxy’s most wanted. Every choice you make influences your ever-changing reputation.\n\nJUMP INTO THE PILOT SEAT\nPilot your ship, the Trailblazer, as you engage in thrilling dogfights with the Empire and other foes. Find the right opportunities to chase, evade, and attack to get the upper hand.\n\nOffer, content, and dates subject to change.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.18587.13971727707799327.bcd7e3d8-36c8-49ba-a85a-1fc0f1fd6ad0.18099bcc-8b72-411d-89f7-265d7d5f6a64",
-      "originalPrice": 1519,
-      "discountPrice": 379.75,
-      "discountPercent": 75,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N59CT2NKDPV",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
+    },
+    {
+      "id": "9P1P7DWHBDBD",
+      "title": "Star Wars Outlaws",
+      "description": "Experience the first-ever open world Star Wars™ action-adventure game and explore distinct locations across the galaxy, both iconic and new. Risk it all as scoundrel Kay Vess, seeking freedom and the means to start a new life. Fight, steal, and outwit your way through the galaxy’s crime syndicates as you join the galaxy’s most wanted.\n\nIf you’re willing to take the risk, the galaxy is full of opportunity.\n\nDISCOVER A GALAXY OF OPPORTUNITY\nExplore distinct locations with bustling cities and cantinas. Race across sprawling outdoor landscapes on your speeder. Each location brings new adventures, unique challenges, and enticing rewards if you’re willing to take the risk.\n\nEXPERIENCE AN ORIGINAL SCOUNDREL STORY\nLive the high-stakes lifestyle of an outlaw. Turn any situation to your advantage with Nix by your side: fight with your blaster, overcome enemies with stealth and gadgets, or find the right moments to distract enemies and gain the upper hand.\n\nEMBARK ON HIGH-STAKES MISSIONS\nTake on high-risk, high-reward missions from the galaxy’s crime syndicates. Steal valuable goods, infiltrate secret locations, and outwit enemies as one of the galaxy’s most wanted. Every choice you make influences your ever-changing reputation.\n\nJUMP INTO THE PILOT SEAT\nPilot your ship, the Trailblazer, as you engage in thrilling dogfights with the Empire and other foes. Find the right opportunities to chase, evade, and attack to get the upper hand.\n\nOffer, content, and dates subject to change.\n",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.18587.13971727707799327.bcd7e3d8-36c8-49ba-a85a-1fc0f1fd6ad0.18099bcc-8b72-411d-89f7-265d7d5f6a64",
+      "originalPrice": 1519,
+      "discountPrice": 1519,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9P1P7DWHBDBD",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
     },
     {
       "id": "9MXJZGJC7BJC",
@@ -7356,15 +7743,30 @@
       "title": "STEEP",
       "description": "Ride a massive open world across the Alps, where the powder is always fresh and the run never ends. \nTame the wilderness on the American continent in the Alaska free update, a new region filled with challenges.\nThe mountain is yours to explore. So strap in, suit up, and drop in. \n\n- RIDE YOUR WAY -Conquer the world's most epic mountains on skis, wingsuits, snowboards, and paragliders. Create your own path through a massive open world.\n\n- LIVE UNFORGETTABLE MOMENTS WITH OTHERS -Ride solo or drop in next to other players to share thrilling rides.\n\n- PUT YOUR SKILLS TO THE TEST -Paticipate in unique and spectacular challenges.\n\n- SHARE EVERYTHING -Capture your best stunts and share via social media.\n\nA permanent internet connection is required in order to play the game.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.54937.14451369249544010.92785d89-da13-4fcb-b0eb-bd80a391e663.5d0446b4-89e0-4ed6-99c3-4f65db11b824",
-      "originalPrice": 459,
-      "discountPrice": 68.85,
-      "discountPercent": 85,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NWDKGFHMZK3",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
+    },
+    {
+      "id": "9P2RT7TNT37T",
+      "title": "STEEP",
+      "description": "Ride a massive open world across the Alps, where the powder is always fresh and the run never ends. \nTame the wilderness on the American continent in the Alaska free update, a new region filled with challenges.\nThe mountain is yours to explore. So strap in, suit up, and drop in. \n\n- RIDE YOUR WAY -Conquer the world's most epic mountains on skis, wingsuits, snowboards, and paragliders. Create your own path through a massive open world.\n\n- LIVE UNFORGETTABLE MOMENTS WITH OTHERS -Ride solo or drop in next to other players to share thrilling rides.\n\n- PUT YOUR SKILLS TO THE TEST -Paticipate in unique and spectacular challenges.\n\n- SHARE EVERYTHING -Capture your best stunts and share via social media.\n\nA permanent internet connection is required in order to play the game.\n",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.54937.14451369249544010.92785d89-da13-4fcb-b0eb-bd80a391e663.5d0446b4-89e0-4ed6-99c3-4f65db11b824",
+      "originalPrice": 459,
+      "discountPrice": 459,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9P2RT7TNT37T",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
     },
     {
       "id": "9PJPCB188SVG",
@@ -7742,34 +8144,64 @@
       "isDiscounted": false
     },
     {
-      "id": "9NKBNRKJ9FXS",
+      "id": "9NC4PV16GVT1",
       "title": "The Crew Motorfest",
       "description": "Welcome to Motorfest! This all-year-round festival will let you enjoy the best experiences car culture has to offer.\n\nEXPLORE A VIBRANT HAWAIIAN OPEN WORLD\nThe Crew Motorfest has settled down in one of the most breathtaking places on Earth: the island of O‘ahu, Hawaii. Join high-speed street races through the bustling city of Honolulu, test your skills off-road on the ashy slopes of a volcano, or master the perfect curve on the tracks.\n\nCELEBRATE ALL THE FACETS OF CAR CULTURE\nEnjoy a variety of thrilling driving activities and choose how you want to have fun with your cars! Discover the playlists and dive into thematic campaigns that will immerse you in the most exciting car culture universes, including American muscle, Japanese-style street racing, and legendary machines of the past!\n\nCOLLECT THE MOST LEGENDARY CARS\nCompete in intense driving races, show off your own style, collect the most iconic cars, and much more! Master every driving challenge and fill your collection with the most legendary vehicles ever created.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.34839.13664379846002571.e994a5cb-c181-4550-82b8-fe0cba4033ba.75893202-ae4a-46f4-9e4f-4291e2fc0be8",
       "originalPrice": 1519,
-      "discountPrice": 303.8,
-      "discountPercent": 80,
+      "discountPrice": 1519,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9NC4PV16GVT1",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
+      "id": "9NKBNRKJ9FXS",
+      "title": "The Crew Motorfest",
+      "description": "Welcome to Motorfest! This all-year-round festival will let you enjoy the best experiences car culture has to offer.\n\nEXPLORE A VIBRANT HAWAIIAN OPEN WORLD\nThe Crew Motorfest has settled down in one of the most breathtaking places on Earth: the island of O‘ahu, Hawaii. Join high-speed street races through the bustling city of Honolulu, test your skills off-road on the ashy slopes of a volcano, or master the perfect curve on the tracks.\n\nCELEBRATE ALL THE FACETS OF CAR CULTURE\nEnjoy a variety of thrilling driving activities and choose how you want to have fun with your cars! Discover the playlists and dive into thematic campaigns that will immerse you in the most exciting car culture universes, including American muscle, Japanese-style street racing, and legendary machines of the past!\n\nCOLLECT THE MOST LEGENDARY CARS\nCompete in intense driving races, show off your own style, collect the most iconic cars, and much more! Master every driving challenge and fill your collection with the most legendary vehicles ever created.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.34839.13664379846002571.e994a5cb-c181-4550-82b8-fe0cba4033ba.75893202-ae4a-46f4-9e4f-4291e2fc0be8",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NKBNRKJ9FXS",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
+    },
+    {
+      "id": "9NP6CV98V8M7",
+      "title": "The Crew® 2",
+      "description": "JOIN A COMMUNITY OF 30 MILLION PLAYERS! Get ready for a high-speed trip across the USA and enjoy one of the most complete open-world action driving experiences ever created. With access to free content, new game modes, tracks, vehicles, events, and more added every season, The Crew® 2 has all you need for an unforgettable ride.\n\nTake on the American motorsports scene, discover exhilarating landscapes and pick your favorite vehicles among hundreds. Experience the thrill and excitement of competing across the USA as you test your skills in a wide range of disciplines. Record every heart-pounding moment and share them with the push of a button - fame is yours to take! Play with up to seven friends online.\n",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.34621.14489278278993944.0867f455-80a1-4c6c-bc96-2f183089f7bc.18a35a25-6d91-469a-8c2c-a8ccc769824e",
+      "originalPrice": 859,
+      "discountPrice": 859,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9NP6CV98V8M7",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
     },
     {
       "id": "9NXTFRQJGZ43",
       "title": "The Crew® 2",
       "description": "JOIN A COMMUNITY OF 30 MILLION PLAYERS! Get ready for a high-speed trip across the USA and enjoy one of the most complete open-world action driving experiences ever created. With access to free content, new game modes, tracks, vehicles, events, and more added every season, The Crew® 2 has all you need for an unforgettable ride.\n\nTake on the American motorsports scene, discover exhilarating landscapes and pick your favorite vehicles among hundreds. Experience the thrill and excitement of competing across the USA as you test your skills in a wide range of disciplines. Record every heart-pounding moment and share them with the push of a button - fame is yours to take! Play with up to seven friends online.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.34621.14489278278993944.0867f455-80a1-4c6c-bc96-2f183089f7bc.18a35a25-6d91-469a-8c2c-a8ccc769824e",
-      "originalPrice": 865,
-      "discountPrice": 173,
-      "discountPercent": 80,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NXTFRQJGZ43",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PFXKRLVWJ0B",
@@ -8166,13 +8598,28 @@
       "title": "Tom Clancy's Ghost Recon® Breakpoint",
       "description": "Become an elite spec ops soldier known as a Ghost, tasked with a special mission to Auroa. The remote archipelago somewhere in the South Pacific has lost contact with outside world due to Skell Technology turning hostile. The Wolves, a rogue spec ops team, lead by your ex-brother in arms, have taken over and are hunting you down. Lead your team through the island landscape and save the civilians without being noticed.\n\nTaylor your experience to fit your playstyle:\n- Solo, as the leader of up 3 fully customizable AI Teammates\n- Or, play in coop PVE with up to 3 friends \n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38194.13854112670148905.26c6c61d-a4a5-45bb-b0b1-c5edd982ab6a.9b40f66f-1a82-47a6-940d-7d96cbbb45a2",
-      "originalPrice": 910,
-      "discountPrice": 910,
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MVR1G75VX22",
       "isGamePass": true,
       "isNewToGamePass": false,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
+      "id": "9PKJ0532DTCW",
+      "title": "Tom Clancy's Ghost Recon® Breakpoint",
+      "description": "Become an elite spec ops soldier known as a Ghost, tasked with a special mission to Auroa. The remote archipelago somewhere in the South Pacific has lost contact with outside world due to Skell Technology turning hostile. The Wolves, a rogue spec ops team, lead by your ex-brother in arms, have taken over and are hunting you down. Lead your team through the island landscape and save the civilians without being noticed.\n\nTaylor your experience to fit your playstyle:\n- Solo, as the leader of up 3 fully customizable AI Teammates\n- Or, play in coop PVE with up to 3 friends \n",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.38194.13854112670148905.26c6c61d-a4a5-45bb-b0b1-c5edd982ab6a.9b40f66f-1a82-47a6-940d-7d96cbbb45a2",
+      "originalPrice": 915,
+      "discountPrice": 915,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9PKJ0532DTCW",
+      "isGamePass": true,
+      "isNewToGamePass": true,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -8207,12 +8654,27 @@
       "isDiscounted": false
     },
     {
+      "id": "9P85NL6T3DHP",
+      "title": "Tom Clancy’s Ghost Recon Wildlands",
+      "description": "Create a team with up to 3 friends in Tom Clancy’s Ghost Recon® Wildlands and enjoy the ultimate military shooter experience set in a massive, dangerous, and responsive open world.\n\nTAKE DOWN THE CARTEL\nIn a near future, Bolivia has fallen into the hands of Santa Blanca, a merciless drug cartel who spread injustice and violence. Their objective: to create the biggest Narco-State in history.\n \nBECOME A GHOST\nCreate and fully customize your Ghost, weapons, and gear. Enjoy total freedom of playstyle. Lead your team and take down the cartel, either solo or with up to three friends.\n\nEXPLORE BOLIVIA\nJourney through Ubisoft's largest action-adventure open world. Discover the stunning diverse landscapes of the Wildlands both on and off road, in the air, on land, and at sea with over 60 different vehicles. \n",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.35822.65577870102127192.24a0a154-ded1-4a40-a91f-102019aaee70.cdf0a22e-4116-4049-a936-c6e4508342fb",
+      "originalPrice": 759,
+      "discountPrice": 759,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9P85NL6T3DHP",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
       "id": "9PJ1PLJQ7QPN",
       "title": "Tom Clancy’s Ghost Recon Wildlands",
       "description": "Create a team with up to 3 friends in Tom Clancy’s Ghost Recon® Wildlands and enjoy the ultimate military shooter experience set in a massive, dangerous, and responsive open world.\n\nTAKE DOWN THE CARTEL\nIn a near future, Bolivia has fallen into the hands of Santa Blanca, a merciless drug cartel who spread injustice and violence. Their objective: to create the biggest Narco-State in history.\n \nBECOME A GHOST\nCreate and fully customize your Ghost, weapons, and gear. Enjoy total freedom of playstyle. Lead your team and take down the cartel, either solo or with up to three friends.\n\nEXPLORE BOLIVIA\nJourney through Ubisoft's largest action-adventure open world. Discover the stunning diverse landscapes of the Wildlands both on and off road, in the air, on land, and at sea with over 60 different vehicles. \n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.35822.65577870102127192.24a0a154-ded1-4a40-a91f-102019aaee70.cdf0a22e-4116-4049-a936-c6e4508342fb",
-      "originalPrice": 760,
-      "discountPrice": 760,
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PJ1PLJQ7QPN",
@@ -8226,15 +8688,30 @@
       "title": "Tom Clancy’s Rainbow Six® Extraction",
       "description": "For decades, Team Rainbow has been the shield against the worst global threats imaginable. Now, we face the greatest terror yet: a lethal, mutating alien parasite. \n•\tIncludes Buddy Pass: Invite 2 friends to play with you for FREE for 14 days.\n•\tPlay alone or with friends from any platform in this 1- to 3-player co-op PvE FPS.\n•\t69 guns, 25 gadgets, 18 operators with progression levels, 12 large dynamic maps, 13 mutating enemies, and free post-launch content\n•\tTest your skills with 4 adjustable difficulty levels and a thrilling Endgame ranked mode.\n•\tTom Clancy's Rainbow Six® Siege Players: Get 4 EXCLUSIVE Epic gearsets across both games and instantly unlock all 18 Tom Clancy's Rainbow® Six Extraction operators in Rainbow Six Siege.\n\nOffer and dates subject to change. Restrictions apply, including availability, technical, and content restrictions. Buddy Pass features may differ. Void where prohibited. More info here: https://ubi.li/BuddyPass.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.50084.63231504676176196.fce3b959-5f54-4aad-a199-00e19cf052ba.0fbf2fa3-423b-4ffc-8e42-a8e8360287b3",
-      "originalPrice": 610,
-      "discountPrice": 152.5,
-      "discountPercent": 75,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NK1FQJ1SMCB",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
+    },
+    {
+      "id": "9P0G4TBCCS7J",
+      "title": "Tom Clancy’s Rainbow Six® Extraction",
+      "description": "For decades, Team Rainbow has been the shield against the worst global threats imaginable. Now, we face the greatest terror yet: a lethal, mutating alien parasite. \n•\tIncludes Buddy Pass: Invite 2 friends to play with you for FREE for 14 days.\n•\tPlay alone or with friends from any platform in this 1- to 3-player co-op PvE FPS.\n•\t69 guns, 25 gadgets, 18 operators with progression levels, 12 large dynamic maps, 13 mutating enemies, and free post-launch content\n•\tTest your skills with 4 adjustable difficulty levels and a thrilling Endgame ranked mode.\n•\tTom Clancy's Rainbow Six® Siege Players: Get 4 EXCLUSIVE Epic gearsets across both games and instantly unlock all 18 Tom Clancy's Rainbow® Six Extraction operators in Rainbow Six Siege.\n\nOffer and dates subject to change. Restrictions apply, including availability, technical, and content restrictions. Buddy Pass features may differ. Void where prohibited. More info here: https://ubi.li/BuddyPass.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.50084.63231504676176196.fce3b959-5f54-4aad-a199-00e19cf052ba.0fbf2fa3-423b-4ffc-8e42-a8e8360287b3",
+      "originalPrice": 610,
+      "discountPrice": 610,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9P0G4TBCCS7J",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
     },
     {
       "id": "9NRXKRVCGRNM",
@@ -8250,6 +8727,21 @@
       "isNewToGamePass": false,
       "isComingSoon": false,
       "isDiscounted": true
+    },
+    {
+      "id": "9PHR6KG3D1RQ",
+      "title": "Tom Clancy’s The Division 2",
+      "description": "Defend and rebuild Washington, D.C. after a devastating pandemic in this tactical open world third-person shooter:\n\nTACTICAL COMBAT\nEngage enemies in intense, cover-based firefights where tactical positioning and utility usage make the difference between life and death.\n\nBUILD THE ULTIMATE AGENT\nLoot and craft cutting-edge gear and learn powerful skills to customize the way you fight. Take things further with Specializations, with roles like the long-range marksman, the demolition expert, the survivalist leader, and more.\n\nTEAMWORK SAVES LIVES\nTeam up with up to three other agents for tactical co-op missions where synergy matters. Combine Specializations, share resources, and take on dynamic challenges that scale with your squad.\n\nSURVIVE EVER-EVOLVING WASHINGTON, D.C.\nFrom tense firefights in changing weather to the constant push and pull of factions warring over map control, the city reacts, adapts, and challenges you to survive with every move you make.\n\nVISCERAL ENDGAME\nReaching max level is just the start. Dive into high-stakes endgame missions, intense PvP battles, and dynamic world events that push your skills and teamwork to the limit. Every season brings fresh rewards and fierce challenges.\n\nInternet connection, Ubisoft account, Microsoft Account and Game Pass Ultimate or Core (subscriptions sold separately) required to access online multiplayer/features.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.8662.71050925055292780.d113598c-97ad-4805-8dbc-eb73bf447e25.c44374e8-bbb5-4411-a862-16a5b5a549e8",
+      "originalPrice": 649,
+      "discountPrice": 649,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9PHR6KG3D1RQ",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
     },
     {
       "id": "9N926481VT1Z",
@@ -8777,19 +9269,34 @@
       "isDiscounted": true
     },
     {
+      "id": "9MXG725MBV3N",
+      "title": "Watch Dogs®: Legion",
+      "description": "Build a resistance made from anyone in the world to take back a near-future London that is facing its downfall. Recipient of over 65 E3 awards and nominations.\n\nRecruit and play as anyone from London. Everyone you see has a unique backstory, personality, and skill set for unique situations.\nHack armed drones, deploy spider-bots, and take down enemies using an Augmented Reality Cloak.\nExplore a massive urban open world featuring London’s many iconic landmarks and fun side activities.\nTeam up with your friends to complete new four-player co-op missions and PvP matches in the new online mode.\nUpgrade to the Gold Edition or Ultimate Edition for access to the season pass and more!",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.10849.14454478644537775.18e64e6c-91d5-4ac4-9098-101dbd702e9f.b9faa86a-02c8-42de-96c8-4ba5dce61d27",
+      "originalPrice": 915,
+      "discountPrice": 915,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9MXG725MBV3N",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
       "id": "9NW7G97J9S6X",
       "title": "Watch Dogs®: Legion",
       "description": "Build a resistance made from anyone in the world to take back a near-future London that is facing its downfall. Recipient of over 65 E3 awards and nominations.\n\nRecruit and play as anyone from London. Everyone you see has a unique backstory, personality, and skill set for unique situations.\nHack armed drones, deploy spider-bots, and take down enemies using an Augmented Reality Cloak.\nExplore a massive urban open world featuring London’s many iconic landmarks and fun side activities.\nTeam up with your friends to complete new four-player co-op missions and PvP matches in the new online mode.\nUpgrade to the Gold Edition or Ultimate Edition for access to the season pass and more!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.10849.14454478644537775.18e64e6c-91d5-4ac4-9098-101dbd702e9f.b9faa86a-02c8-42de-96c8-4ba5dce61d27",
-      "originalPrice": 910,
-      "discountPrice": 136.5,
-      "discountPercent": 85,
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NW7G97J9S6X",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NLFKBTNP2VJ",
@@ -9234,13 +9741,6 @@
       "percent": 30,
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
-    },
-    "steam_popular_2483190": {
-      "title": "Forza Horizon 6",
-      "price": 2299,
-      "percent": 0,
-      "timestamp": "2026-06-21T14:03:36.539Z",
-      "type": "popular"
     },
     "steam_discount_2420110": {
       "title": " Повне видання Horizon Forbidden West™",
@@ -10466,6 +10966,237 @@
       "percent": 0,
       "timestamp": "2026-07-21T13:40:51.162Z",
       "type": "popular"
+    },
+    "xbox_new_9P1VNX9Z03N5": {
+      "title": "Anno 1800™",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9P2CHXX6D861": {
+      "title": "Assassin's Creed Origins",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9PDNF24PP2V2": {
+      "title": "Assassin's Creed® Odyssey",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9NJ2SFHNCCRV": {
+      "title": "Assassin's Creed® Valhalla",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9NVZ03XT8S2P": {
+      "title": "Assassin’s Creed IV Black Flag - Gold Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9NTK0V6ZK6T8": {
+      "title": "Assassin’s Creed® Mirage",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9N21G14CVS5L": {
+      "title": "Avatar: Frontiers of Pandora",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9NKFLWWM9CZ1": {
+      "title": "Brawlhalla",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9NXWKGRHT31F": {
+      "title": "FAR CRY 3",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9P5Z088TJQ5S": {
+      "title": "FAR CRY 3 BLOOD DRAGON",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9MVV32Z0JPCL": {
+      "title": "FAR CRY 4",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9NWX420Z2NLG": {
+      "title": "Far Cry New Dawn",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9P1HX8TFF3VW": {
+      "title": "FAR CRY PRIMAL",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9NG3KNWZ7RZ7": {
+      "title": "Far Cry® 5",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9PJ45NJCHSFS": {
+      "title": "Far Cry® 6",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9P82LXD5RH31": {
+      "title": "FOR HONOR",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9P5241RBH1SZ": {
+      "title": "Heroes of Might and Magic 3 - Complete Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9NSB55HX1GGN": {
+      "title": "Heroes of Might and Magic II - Gold Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9NV0Q705NQ2N": {
+      "title": "Immortals Fenyx Rising™",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9NVH8SJNX20S": {
+      "title": "MONOPOLY 2024",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9PDCBPJ8C47K": {
+      "title": "Prince of Persia The Lost Crown",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9NZ4T5RFD7KF": {
+      "title": "Riders Republic Standard Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9PG0S835V6J5": {
+      "title": "Skull and Bones",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9PJNXM82ZX47": {
+      "title": "South Park™: The Fractured but Whole™",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9P1P7DWHBDBD": {
+      "title": "Star Wars Outlaws",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9P2RT7TNT37T": {
+      "title": "STEEP",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9NC4PV16GVT1": {
+      "title": "The Crew Motorfest",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9NP6CV98V8M7": {
+      "title": "The Crew® 2",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9PKJ0532DTCW": {
+      "title": "Tom Clancy's Ghost Recon® Breakpoint",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9P85NL6T3DHP": {
+      "title": "Tom Clancy’s Ghost Recon Wildlands",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9P0G4TBCCS7J": {
+      "title": "Tom Clancy’s Rainbow Six® Extraction",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9PHR6KG3D1RQ": {
+      "title": "Tom Clancy’s The Division 2",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9MXG725MBV3N": {
+      "title": "Watch Dogs®: Legion",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T15:40:36.039Z",
+      "type": "xbox_new"
     }
   }
 }
