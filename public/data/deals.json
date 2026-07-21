@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T19:16:14.875Z",
+  "lastUpdated": "2026-07-21T21:04:58.734Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -156,18 +156,6 @@
       "isPopular": true
     },
     {
-      "id": "1466060",
-      "title": "Tainted Grail: The Fall of Avalon",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/00ad11fb97becadc742bcbb4e871e6d0494c7428/capsule_616x353.jpg?t=1784626931",
-      "originalPrice": 835,
-      "discountPrice": 417,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1466060",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -176,6 +164,18 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1466060",
+      "title": "Tainted Grail: The Fall of Avalon",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/00ad11fb97becadc742bcbb4e871e6d0494c7428/capsule_616x353.jpg?t=1784626931",
+      "originalPrice": 835,
+      "discountPrice": 417,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1466060",
       "isSpecial": true,
       "isPopular": false
     },
@@ -192,14 +192,14 @@
       "isPopular": false
     },
     {
-      "id": "1605850",
-      "title": "ZeroSpace",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/680028c7f338abbb870bf92acab9d3a20382b2ab/capsule_616x353.jpg?t=1784567471",
-      "originalPrice": 765,
-      "discountPrice": 688,
-      "discountPercent": 10,
+      "id": "1145350",
+      "title": "Hades II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/65e1c51cf2950d70209d63e288d1c5ba3f86044b/capsule_616x353.jpg?t=1779901265",
+      "originalPrice": 460,
+      "discountPrice": 322,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1605850",
+      "url": "https://store.steampowered.com/app/1145350",
       "isSpecial": true,
       "isPopular": false
     },
@@ -216,6 +216,18 @@
       "isPopular": false
     },
     {
+      "id": "1605850",
+      "title": "ZeroSpace",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/680028c7f338abbb870bf92acab9d3a20382b2ab/capsule_616x353.jpg?t=1784567471",
+      "originalPrice": 765,
+      "discountPrice": 688,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1605850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
@@ -224,18 +236,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3590290",
-      "title": "DIVE or DIE - Children of Rain",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590290/008369416bf2420abc5bb938693b297248befd5b/capsule_616x353.jpg?t=1784642480",
-      "originalPrice": 450,
-      "discountPrice": 360,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3590290",
       "isSpecial": true,
       "isPopular": false
     },
@@ -284,6 +284,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3751950",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     },
@@ -3448,21 +3460,6 @@
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P82LXD5RH31",
       "isGamePass": true,
       "isNewToGamePass": true,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
-      "id": "9PDWSL3BZ6WS",
-      "title": "FOR HONOR - Standard Edition",
-      "description": "MASTER THE ART OF BATTLE\nFeel the power of every strike with the highly technical Art of Battle control system. Wield your blade according to your style: swift Assassin, tanky Heavy, versatile Vanguard, or technical Hybrid.\n\nA NEVER-ENDING GAME\nEnjoy an ever-evolving experience with more than 30 heroes, five factions, 18 maps, seasonal events, thousands of gear items, cross-platform play, and more! \n\nPERSONALIZE YOUR HEROES\nUnlock rewards and customize your heroes with thousands of different weapons, emblems, and more!\n\nMEMORABLE STORY CAMPAIGN\nStorm castles and fortresses in massive battles and confront bosses in intense duels.\n\n\nChoose the Ultimate Edition to get the best experience, with 12 additional heroes!",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.44059.14211822826622421.7ad86c5f-f956-4a16-8f6f-0b05242e2a34.7036d7f1-9a5a-46e5-8b41-739766cf988b",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9PDWSL3BZ6WS",
-      "isGamePass": true,
-      "isNewToGamePass": false,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -10696,6 +10693,13 @@
       "price": 360,
       "percent": 20,
       "timestamp": "2026-07-21T19:16:07.913Z",
+      "type": "discount"
+    },
+    "steam_discount_1145350": {
+      "title": "Hades II",
+      "price": 322,
+      "percent": 30,
+      "timestamp": "2026-07-21T21:04:51.177Z",
       "type": "discount"
     }
   }
