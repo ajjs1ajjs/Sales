@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T23:56:36.209Z",
+  "lastUpdated": "2026-07-21T02:34:53.205Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -144,18 +144,6 @@
       "isPopular": true
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3712080",
       "title": "Funnel Runners",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784567934",
@@ -166,6 +154,18 @@
       "url": "https://store.steampowered.com/app/3712080",
       "isSpecial": true,
       "isPopular": true
+    },
+    {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "1174180",
@@ -228,14 +228,14 @@
       "isPopular": false
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
-      "originalPrice": 1299,
-      "discountPrice": 389,
-      "discountPercent": 70,
+      "id": "2050650",
+      "title": "Resident Evil 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
+      "originalPrice": 1200,
+      "discountPrice": 300,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
+      "url": "https://store.steampowered.com/app/2050650",
       "isSpecial": true,
       "isPopular": false
     },
@@ -252,18 +252,6 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4704690",
       "title": "MECCHA CHAMELEON",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
@@ -276,14 +264,14 @@
       "isPopular": true
     },
     {
-      "id": "3751950",
-      "title": "Assassin's Creed Black Flag Resynced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
-      "originalPrice": 1799,
-      "discountPrice": 1799,
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3751950",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     },
@@ -296,6 +284,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2806050",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3751950",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
+      "originalPrice": 1799,
+      "discountPrice": 1799,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3751950",
       "isSpecial": false,
       "isPopular": true
     }
@@ -7952,6 +7952,21 @@
       "isDiscounted": true
     },
     {
+      "id": "9N072VV7MFK7",
+      "title": "The Planet Crafter",
+      "description": "Embark on a chill experience alone or with up to 8 friends in online co-op. Your mission is to survive on a hostile planet and turn a barren land into a lush paradise. Terraforming is the only way!\n\nYou are sent on a hostile planet with one mission: Make it habitable for Humans. You'll have to survive, collect resources, build your base, produce machines to heat the planet, create an oxygen-rich atmosphere and eventually geo-engineer an entire planet!\n\nGather minerals and resources to survive. Craft all the tools you need to fulfil your mission. Explore old shipwrecks and ruins and discover a planet full of mysteries!\n\nYou'll need a base and all sorts of machines to make yourself at home, and be able to bring life to this planet! Progress through building tiers to upgrade and expand your base and explore the planet further.\n\nSee life forms appear on the planet as you terraform it by increasing heat, oxygen and pressure. Witness the first signs of life with moss and insects and unleash the planet's full potential with thick forests and animals.\n\nFrom chill to hardcore, choose the difficulty level that suits you. Play with starting pre-sets to create new games and experience endless possibilities.\n\nMultiplayer: survive by yourself or with friends (1-8 online co-op) \nSurvival: Thirst, Oxygen, Temperature and Health mechanics \nBase Building: shelter from a hostile environment and expand your exploration \nCrafting: equipment, tools and food to help you survive \nTerraformation: turn an entire hostile planet to a habitable paradise!\nBuild machines to create atmospheric pressure and heat the planet \nCreate a biosphere with breathable oxygen\nSee your environment change as your terraformation progresses\nCreatures: create life by decrypting and mixing DNA extracts and make your own animals \nProcedurally generated shipwrecks: explore and find infinite rare loot \nChill experience with no violence: the only enemy you'll have to fight is the hostile environment \nAdjustable difficulty to fit your level \nAdjustable pre-sets for renewed experiences through time \nCreative mode",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.13691.13926241205782582.d41e8478-bfd5-4760-8d82-8f74d1584c38.2b871ae3-26b2-4768-a505-24da479bcb71",
+      "originalPrice": 499,
+      "discountPrice": 449.1,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9N072VV7MFK7",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": true
+    },
+    {
       "id": "9P1WJCK9B8S6",
       "title": "The Rogue Prince of Persia™",
       "description": "Dive into a thrilling and epic adventure, where every action pulses to the heady rhythm of an intense soundtrack. Master fluid, acrobatic, and responsive combat, paired with challenging parkour. Death after death, forge your own playstyle – through exploration and encounters, perhaps you'll find a way to right your wrongs and save the Persian kingdom envisioned by Evil Empire.\n\nREWRITE FATE. SAVE PERSIA. DIE TRYING.\nShape the legend of a Prince spared by death, whose fatal mistake doomed his people. Try your best to right your wrongs: each failure is a new chance to explore different paths, discover secrets, meet new characters, and use the knowledge gained from past attempts to change your people's fate and prove yourself as the true Prince of Persia.\n\nMASTER A FAST AND ACROBATIC STYLE\nAs the Prince of Persia, agility is your greatest weapon. Dodge traps, wall-run, chain acrobatic combos, and strike with precision. Every movement is an opportunity, and every battle will reward skill and style.\n\nFIGHT YOUR OWN WAY\nDiscover, unlock, and master over 100 unique weapons and medallions. Adapt, upgrade, and customize your build with each run, crafting deadly combinations that fit your playstyle.\n\nONE MORE TRULY UNIQUE RUN\nNo run is ever the same. Dive back into this ever-evolving adventure, where narration, metaprogression, difficulty modifiers, random events, and procedurally generated levels will always leave you craving just one more unique run.",
@@ -10423,6 +10438,20 @@
       "percent": 0,
       "timestamp": "2026-07-20T22:56:53.835Z",
       "type": "popular"
+    },
+    "steam_discount_2050650": {
+      "title": "Resident Evil 4",
+      "price": 300,
+      "percent": 75,
+      "timestamp": "2026-07-21T02:34:46.444Z",
+      "type": "discount"
+    },
+    "xbox_new_9N072VV7MFK7": {
+      "title": "The Planet Crafter",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-21T02:34:46.444Z",
+      "type": "xbox_new"
     }
   }
 }
