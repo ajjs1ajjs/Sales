@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T11:05:38.153Z",
+  "lastUpdated": "2026-07-21T13:41:09.444Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -153,7 +153,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "1174180",
@@ -164,18 +164,6 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1466060",
-      "title": "Tainted Grail: The Fall of Avalon",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/00ad11fb97becadc742bcbb4e871e6d0494c7428/capsule_616x353.jpg?t=1784626931",
-      "originalPrice": 835,
-      "discountPrice": 417,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1466060",
       "isSpecial": true,
       "isPopular": false
     },
@@ -192,6 +180,18 @@
       "isPopular": false
     },
     {
+      "id": "1466060",
+      "title": "Tainted Grail: The Fall of Avalon",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/00ad11fb97becadc742bcbb4e871e6d0494c7428/capsule_616x353.jpg?t=1784626931",
+      "originalPrice": 835,
+      "discountPrice": 417,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1466060",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3712080",
       "title": "Funnel Runners",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784567934",
@@ -200,18 +200,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3712080",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "588030",
-      "title": "Derail Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588030/capsule_616x353.jpg?t=1782140299",
-      "originalPrice": 765,
-      "discountPrice": 574,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/588030",
       "isSpecial": true,
       "isPopular": false
     },
@@ -228,16 +216,40 @@
       "isPopular": false
     },
     {
-      "id": "3764200",
-      "title": "Resident Evil Requiem",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
-      "originalPrice": 1999,
-      "discountPrice": 1599,
-      "discountPercent": 20,
+      "id": "3279440",
+      "title": "Drone Sector",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3279440/73c62680b15ec5ddd4ca1e1ea1f80216ae982b5e/capsule_616x353.jpg?t=1784631068",
+      "originalPrice": 370,
+      "discountPrice": 333,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3764200",
+      "url": "https://store.steampowered.com/app/3279440",
       "isSpecial": true,
       "isPopular": false
+    },
+    {
+      "id": "588030",
+      "title": "Derail Valley",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588030/capsule_616x353.jpg?t=1782140299",
+      "originalPrice": 765,
+      "discountPrice": 574,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/588030",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4600470",
+      "title": "Battlefield Pro сезону 4— Battlefield™ 6 і REDSEC",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4600470/392d81dac91334a9f43ced0c4f50f943a5487df0/capsule_616x353.jpg?t=1784624333",
+      "originalPrice": 749,
+      "discountPrice": 749,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4600470",
+      "isSpecial": false,
+      "isPopular": true
     },
     {
       "id": "4165910",
@@ -252,18 +264,6 @@
       "isPopular": true
     },
     {
-      "id": "3751950",
-      "title": "Assassin's Creed Black Flag Resynced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
-      "originalPrice": 1799,
-      "discountPrice": 1799,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3751950",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4704690",
       "title": "MECCHA CHAMELEON",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
@@ -272,6 +272,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3751950",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
+      "originalPrice": 1799,
+      "discountPrice": 1799,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3751950",
       "isSpecial": false,
       "isPopular": true
     },
@@ -9223,13 +9235,6 @@
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
     },
-    "steam_discount_518790": {
-      "title": "theHunter: Call of the Wild™",
-      "price": 41,
-      "percent": 90,
-      "timestamp": "2026-06-21T11:44:02.649Z",
-      "type": "discount"
-    },
     "steam_popular_2483190": {
       "title": "Forza Horizon 6",
       "price": 2299,
@@ -10447,6 +10452,20 @@
       "percent": 20,
       "timestamp": "2026-07-21T05:47:25.265Z",
       "type": "discount"
+    },
+    "steam_discount_3279440": {
+      "title": "Drone Sector",
+      "price": 333,
+      "percent": 10,
+      "timestamp": "2026-07-21T13:40:51.162Z",
+      "type": "discount"
+    },
+    "steam_popular_4600470": {
+      "title": "Battlefield Pro сезону 4— Battlefield™ 6 і REDSEC",
+      "price": 749,
+      "percent": 0,
+      "timestamp": "2026-07-21T13:40:51.162Z",
+      "type": "popular"
     }
   }
 }
