@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T05:47:31.690Z",
+  "lastUpdated": "2026-07-21T08:22:44.366Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -134,7 +134,7 @@
     {
       "id": "1623730",
       "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784190284",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784620170",
       "originalPrice": 600,
       "discountPrice": 420,
       "discountPercent": 30,
@@ -165,7 +165,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3712080",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1174180",
@@ -228,14 +228,14 @@
       "isPopular": false
     },
     {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1782258835",
-      "originalPrice": 187,
-      "discountPrice": 115,
-      "discountPercent": 39,
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
+      "originalPrice": 1299,
+      "discountPrice": 389,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
+      "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
       "isPopular": false
     },
@@ -252,14 +252,14 @@
       "isPopular": true
     },
     {
-      "id": "4704690",
-      "title": "MECCHA CHAMELEON",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
-      "originalPrice": 155,
-      "discountPrice": 155,
+      "id": "1202520",
+      "title": "Fallout 1st",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
+      "originalPrice": 399,
+      "discountPrice": 399,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4704690",
+      "url": "https://store.steampowered.com/app/1202520",
       "isSpecial": false,
       "isPopular": true
     },
@@ -276,26 +276,14 @@
       "isPopular": true
     },
     {
-      "id": "2806050",
-      "title": "Halo: Campaign Evolved",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1783544553",
-      "originalPrice": 1999,
-      "discountPrice": 1999,
+      "id": "266410",
+      "title": "iRacing",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1781016164",
+      "originalPrice": 225,
+      "discountPrice": 225,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2806050",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3751950",
-      "title": "Assassin's Creed Black Flag Resynced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
-      "originalPrice": 1799,
-      "discountPrice": 1799,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3751950",
+      "url": "https://store.steampowered.com/app/266410",
       "isSpecial": false,
       "isPopular": true
     }
