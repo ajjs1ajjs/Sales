@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T21:04:58.734Z",
+  "lastUpdated": "2026-07-21T22:53:09.022Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -153,7 +153,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1174180",
@@ -164,6 +164,30 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3712080",
+      "title": "Funnel Runners",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784567934",
+      "originalPrice": 160,
+      "discountPrice": 144,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3712080",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "1145350",
+      "title": "Hades II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/65e1c51cf2950d70209d63e288d1c5ba3f86044b/capsule_616x353.jpg?t=1779901265",
+      "originalPrice": 460,
+      "discountPrice": 322,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1145350",
       "isSpecial": true,
       "isPopular": false
     },
@@ -180,26 +204,14 @@
       "isPopular": false
     },
     {
-      "id": "3712080",
-      "title": "Funnel Runners",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784567934",
-      "originalPrice": 160,
-      "discountPrice": 144,
+      "id": "1605850",
+      "title": "ZeroSpace",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/680028c7f338abbb870bf92acab9d3a20382b2ab/capsule_616x353.jpg?t=1784567471",
+      "originalPrice": 765,
+      "discountPrice": 688,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3712080",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1145350",
-      "title": "Hades II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/65e1c51cf2950d70209d63e288d1c5ba3f86044b/capsule_616x353.jpg?t=1779901265",
-      "originalPrice": 460,
-      "discountPrice": 322,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1145350",
+      "url": "https://store.steampowered.com/app/1605850",
       "isSpecial": true,
       "isPopular": false
     },
@@ -216,26 +228,14 @@
       "isPopular": false
     },
     {
-      "id": "1605850",
-      "title": "ZeroSpace",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/680028c7f338abbb870bf92acab9d3a20382b2ab/capsule_616x353.jpg?t=1784567471",
-      "originalPrice": 765,
-      "discountPrice": 688,
-      "discountPercent": 10,
+      "id": "3590290",
+      "title": "DIVE or DIE - Children of Rain",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590290/008369416bf2420abc5bb938693b297248befd5b/capsule_616x353.jpg?t=1784642480",
+      "originalPrice": 450,
+      "discountPrice": 360,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1605850",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
-      "originalPrice": 1299,
-      "discountPrice": 389,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
+      "url": "https://store.steampowered.com/app/3590290",
       "isSpecial": true,
       "isPopular": false
     },
@@ -288,18 +288,6 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "2806050",
       "title": "Halo: Campaign Evolved",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1783544553",
@@ -308,6 +296,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2806050",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3405690",
+      "title": "EA SPORTS FC™ 26",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1783095306",
+      "originalPrice": 2299,
+      "discountPrice": 459,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3405690",
       "isSpecial": false,
       "isPopular": true
     }
