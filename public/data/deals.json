@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T22:53:09.022Z",
+  "lastUpdated": "2026-07-21T23:53:51.820Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -156,18 +156,6 @@
       "isPopular": false
     },
     {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3712080",
       "title": "Funnel Runners",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784567934",
@@ -188,6 +176,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1145350",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isPopular": false
     },
@@ -228,14 +228,14 @@
       "isPopular": false
     },
     {
-      "id": "3590290",
-      "title": "DIVE or DIE - Children of Rain",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590290/008369416bf2420abc5bb938693b297248befd5b/capsule_616x353.jpg?t=1784642480",
-      "originalPrice": 450,
-      "discountPrice": 360,
-      "discountPercent": 20,
+      "id": "1145360",
+      "title": "Hades",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/capsule_616x353.jpg?t=1758127023",
+      "originalPrice": 515,
+      "discountPrice": 154,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3590290",
+      "url": "https://store.steampowered.com/app/1145360",
       "isSpecial": true,
       "isPopular": false
     },
@@ -276,18 +276,6 @@
       "isPopular": true
     },
     {
-      "id": "3751950",
-      "title": "Assassin's Creed Black Flag Resynced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
-      "originalPrice": 1799,
-      "discountPrice": 1799,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3751950",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "2806050",
       "title": "Halo: Campaign Evolved",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1783544553",
@@ -296,6 +284,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2806050",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3751950",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
+      "originalPrice": 1799,
+      "discountPrice": 1799,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3751950",
       "isSpecial": false,
       "isPopular": true
     },
@@ -10700,6 +10700,13 @@
       "price": 322,
       "percent": 30,
       "timestamp": "2026-07-21T21:04:51.177Z",
+      "type": "discount"
+    },
+    "steam_discount_1145360": {
+      "title": "Hades",
+      "price": 154,
+      "percent": 70,
+      "timestamp": "2026-07-21T23:53:45.608Z",
       "type": "discount"
     }
   }
