@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T05:46:36.161Z",
+  "lastUpdated": "2026-07-22T08:23:06.396Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -156,18 +156,6 @@
       "isPopular": true
     },
     {
-      "id": "3712080",
-      "title": "Funnel Runners",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784567934",
-      "originalPrice": 160,
-      "discountPrice": 144,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3712080",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -204,14 +192,14 @@
       "isPopular": false
     },
     {
-      "id": "2050650",
-      "title": "Resident Evil 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
-      "originalPrice": 1200,
-      "discountPrice": 300,
-      "discountPercent": 75,
+      "id": "3712080",
+      "title": "Funnel Runners",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784567934",
+      "originalPrice": 160,
+      "discountPrice": 144,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2050650",
+      "url": "https://store.steampowered.com/app/3712080",
       "isSpecial": true,
       "isPopular": false
     },
@@ -230,12 +218,24 @@
     {
       "id": "1605850",
       "title": "ZeroSpace",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/680028c7f338abbb870bf92acab9d3a20382b2ab/capsule_616x353.jpg?t=1784683745",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/680028c7f338abbb870bf92acab9d3a20382b2ab/capsule_616x353.jpg?t=1784704232",
       "originalPrice": 765,
       "discountPrice": 688,
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1605850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2050650",
+      "title": "Resident Evil 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
+      "originalPrice": 1200,
+      "discountPrice": 300,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2050650",
       "isSpecial": true,
       "isPopular": false
     },
