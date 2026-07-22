@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T02:22:16.647Z",
+  "lastUpdated": "2026-07-22T05:46:36.161Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -144,6 +144,18 @@
       "isPopular": true
     },
     {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "3712080",
       "title": "Funnel Runners",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784567934",
@@ -154,18 +166,6 @@
       "url": "https://store.steampowered.com/app/3712080",
       "isSpecial": true,
       "isPopular": true
-    },
-    {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": false
     },
     {
       "id": "1174180",
@@ -204,26 +204,14 @@
       "isPopular": false
     },
     {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1782258835",
-      "originalPrice": 187,
-      "discountPrice": 115,
-      "discountPercent": 39,
+      "id": "2050650",
+      "title": "Resident Evil 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
+      "originalPrice": 1200,
+      "discountPrice": 300,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1605850",
-      "title": "ZeroSpace",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/680028c7f338abbb870bf92acab9d3a20382b2ab/capsule_616x353.jpg?t=1784683745",
-      "originalPrice": 765,
-      "discountPrice": 688,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1605850",
+      "url": "https://store.steampowered.com/app/2050650",
       "isSpecial": true,
       "isPopular": false
     },
@@ -240,16 +228,16 @@
       "isPopular": false
     },
     {
-      "id": "4600470",
-      "title": "Battlefield Pro сезону 4— Battlefield™ 6 і REDSEC",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4600470/392d81dac91334a9f43ced0c4f50f943a5487df0/capsule_616x353.jpg?t=1784624333",
-      "originalPrice": 749,
-      "discountPrice": 749,
-      "discountPercent": 0,
+      "id": "1605850",
+      "title": "ZeroSpace",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/680028c7f338abbb870bf92acab9d3a20382b2ab/capsule_616x353.jpg?t=1784683745",
+      "originalPrice": 765,
+      "discountPrice": 688,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4600470",
-      "isSpecial": false,
-      "isPopular": true
+      "url": "https://store.steampowered.com/app/1605850",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "4165910",
@@ -260,6 +248,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4600470",
+      "title": "Battlefield Pro сезону 4— Battlefield™ 6 і REDSEC",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4600470/392d81dac91334a9f43ced0c4f50f943a5487df0/capsule_616x353.jpg?t=1784624333",
+      "originalPrice": 749,
+      "discountPrice": 749,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4600470",
       "isSpecial": false,
       "isPopular": true
     },
@@ -296,30 +296,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3751950",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3405690",
-      "title": "EA SPORTS FC™ 26",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7bee4fc257ccc11a9496f0c19c553cccfb9fafa9/capsule_616x353_alt_assets_3.jpg?t=1783095306",
-      "originalPrice": 2299,
-      "discountPrice": 459,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3405690",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "2569760",
-      "title": "The Mound: Omen of Cthulhu",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/55dd83f6b6d332501102b8fef5a0d8cca0c0153c/capsule_616x353.jpg?t=1784110925",
-      "originalPrice": 899,
-      "discountPrice": 719,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2569760",
       "isSpecial": false,
       "isPopular": true
     }
