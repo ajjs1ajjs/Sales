@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T15:38:17.801Z",
+  "lastUpdated": "2026-07-22T17:14:03.964Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -144,6 +144,42 @@
       "isPopular": true
     },
     {
+      "id": "4324480",
+      "title": "Dirty Business",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4324480/4a95a41b3cb6e9faa3c8c6aefec4205ba256eaa5/capsule_616x353.jpg?t=1784733062",
+      "originalPrice": 335,
+      "discountPrice": 268,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4324480",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "1913120",
+      "title": "Tears of Metal",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784731614",
+      "originalPrice": 530,
+      "discountPrice": 477,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1913120",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "3722330",
+      "title": "Shift At Midnight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784732222",
+      "originalPrice": 230,
+      "discountPrice": 207,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3722330",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -153,7 +189,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1174180",
@@ -180,18 +216,6 @@
       "isPopular": false
     },
     {
-      "id": "1466060",
-      "title": "Tainted Grail: The Fall of Avalon",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/00ad11fb97becadc742bcbb4e871e6d0494c7428/capsule_616x353.jpg?t=1784626931",
-      "originalPrice": 835,
-      "discountPrice": 417,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1466060",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3712080",
       "title": "Funnel Runners",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784567934",
@@ -204,38 +228,14 @@
       "isPopular": false
     },
     {
-      "id": "1605850",
-      "title": "ZeroSpace",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/680028c7f338abbb870bf92acab9d3a20382b2ab/capsule_616x353.jpg?t=1784704232",
-      "originalPrice": 765,
-      "discountPrice": 688,
-      "discountPercent": 10,
+      "id": "1466060",
+      "title": "Tainted Grail: The Fall of Avalon",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/00ad11fb97becadc742bcbb4e871e6d0494c7428/capsule_616x353.jpg?t=1784626931",
+      "originalPrice": 835,
+      "discountPrice": 417,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1605850",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
-      "originalPrice": 1299,
-      "discountPrice": 389,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3590290",
-      "title": "DIVE or DIE - Children of Rain",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590290/008369416bf2420abc5bb938693b297248befd5b/capsule_616x353.jpg?t=1784712822",
-      "originalPrice": 450,
-      "discountPrice": 360,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3590290",
+      "url": "https://store.steampowered.com/app/1466060",
       "isSpecial": true,
       "isPopular": false
     },
@@ -248,18 +248,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1913120",
-      "title": "Tears of Metal",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784731614",
-      "originalPrice": 530,
-      "discountPrice": 477,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1913120",
       "isSpecial": false,
       "isPopular": true
     },
@@ -284,42 +272,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3751950",
-      "title": "Assassin's Creed Black Flag Resynced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
-      "originalPrice": 1799,
-      "discountPrice": 1799,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3751950",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4324480",
-      "title": "Dirty Business",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4324480/4a95a41b3cb6e9faa3c8c6aefec4205ba256eaa5/capsule_616x353.jpg?t=1784733062",
-      "originalPrice": 335,
-      "discountPrice": 268,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4324480",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4600470",
-      "title": "Battlefield Pro сезону 4— Battlefield™ 6 і REDSEC",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4600470/392d81dac91334a9f43ced0c4f50f943a5487df0/capsule_616x353.jpg?t=1784624333",
-      "originalPrice": 749,
-      "discountPrice": 749,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4600470",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10778,6 +10730,34 @@
       "percent": 0,
       "timestamp": "2026-07-22T15:38:09.842Z",
       "type": "xbox_new"
+    },
+    "steam_discount_4324480": {
+      "title": "Dirty Business",
+      "price": 268,
+      "percent": 20,
+      "timestamp": "2026-07-22T17:13:57.879Z",
+      "type": "discount"
+    },
+    "steam_discount_1913120": {
+      "title": "Tears of Metal",
+      "price": 477,
+      "percent": 10,
+      "timestamp": "2026-07-22T17:13:57.879Z",
+      "type": "discount"
+    },
+    "steam_discount_3722330": {
+      "title": "Shift At Midnight",
+      "price": 207,
+      "percent": 10,
+      "timestamp": "2026-07-22T17:13:57.879Z",
+      "type": "discount"
+    },
+    "steam_popular_3722330": {
+      "title": "Shift At Midnight",
+      "price": 207,
+      "percent": 10,
+      "timestamp": "2026-07-22T17:13:57.879Z",
+      "type": "popular"
     }
   }
 }
