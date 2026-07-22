@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T17:14:03.964Z",
+  "lastUpdated": "2026-07-22T19:11:22.126Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -144,18 +144,6 @@
       "isPopular": true
     },
     {
-      "id": "4324480",
-      "title": "Dirty Business",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4324480/4a95a41b3cb6e9faa3c8c6aefec4205ba256eaa5/capsule_616x353.jpg?t=1784733062",
-      "originalPrice": 335,
-      "discountPrice": 268,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4324480",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1913120",
       "title": "Tears of Metal",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784731614",
@@ -168,14 +156,14 @@
       "isPopular": true
     },
     {
-      "id": "3722330",
-      "title": "Shift At Midnight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784732222",
-      "originalPrice": 230,
-      "discountPrice": 207,
-      "discountPercent": 10,
+      "id": "4324480",
+      "title": "Dirty Business",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4324480/4a95a41b3cb6e9faa3c8c6aefec4205ba256eaa5/capsule_616x353.jpg?t=1784733062",
+      "originalPrice": 335,
+      "discountPrice": 268,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3722330",
+      "url": "https://store.steampowered.com/app/4324480",
       "isSpecial": true,
       "isPopular": true
     },
@@ -192,6 +180,18 @@
       "isPopular": false
     },
     {
+      "id": "3722330",
+      "title": "Shift At Midnight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784732222",
+      "originalPrice": 230,
+      "discountPrice": 207,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3722330",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -204,18 +204,6 @@
       "isPopular": false
     },
     {
-      "id": "1145350",
-      "title": "Hades II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/65e1c51cf2950d70209d63e288d1c5ba3f86044b/capsule_616x353.jpg?t=1779901265",
-      "originalPrice": 460,
-      "discountPrice": 322,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1145350",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3712080",
       "title": "Funnel Runners",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784567934",
@@ -224,6 +212,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3712080",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1145350",
+      "title": "Hades II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/65e1c51cf2950d70209d63e288d1c5ba3f86044b/capsule_616x353.jpg?t=1779901265",
+      "originalPrice": 460,
+      "discountPrice": 322,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1145350",
       "isSpecial": true,
       "isPopular": false
     },
@@ -272,6 +272,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3751950",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
+      "originalPrice": 1799,
+      "discountPrice": 1799,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3751950",
       "isSpecial": false,
       "isPopular": true
     }
@@ -3148,14 +3160,14 @@
       "description": "The award-winning Far Cry franchise that stormed the tropics and the Himalayas now enters the original fight for humanity’s survival with its innovative open-world sandbox gameplay, bringing together massive beasts, breathtaking environments, and unpredictable savage encounters. \nWelcome to the Stone Age, a time of extreme danger and limitless adventure, when giant mammoths and sabretooth tigers ruled the Earth and humanity is at the bottom of the food chain. As the last survivor of your hunting group, you will learn to craft a deadly arsenal, fend off fierce predators, and outsmart enemy tribes to conquer the land of Oros and become the Apex Predator.\nGAME FEATURES\n• STONE AGE BY FAR CRY: The rich setting of the Stone Age provides a new setting filled with unpredictable mayhem, dangerous threats, and incredible stories that Far Cry is known for. \n\n• RISE ABOVE EXTINCTION: Play as Takkar, a seasoned hunter and the last surviving member of your group. There is one goal: survive in a world where you are the prey. \n\n• FIERCE WILDLIFE AND SAVAGE AND MAJESTIC WORLD: This is earth before man laid claim to it, where deadly sabretooth tigers ruled the world, giant woolly mammoths were kings, and herds of massive Elk stormed through the plains. Discover these and many more daunting creatures in the savage open-world of Oros within the towering redwood forests, harsh taiga, cold glacial mountains and humid swamps.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.40324.14079505688681780.9ec50825-311f-45ea-ad4f-9e9011ea0aaa.8efa213b-01a1-479c-8ecd-8fdad63ae7b5",
       "originalPrice": 759,
-      "discountPrice": 759,
-      "discountPercent": 0,
+      "discountPrice": 113.85,
+      "discountPercent": 85,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P1HX8TFF3VW",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NG3KNWZ7RZ7",
@@ -8248,14 +8260,14 @@
       "description": "Defend and rebuild Washington, D.C. after a devastating pandemic in this tactical open world third-person shooter:\n\nTACTICAL COMBAT\nEngage enemies in intense, cover-based firefights where tactical positioning and utility usage make the difference between life and death.\n\nBUILD THE ULTIMATE AGENT\nLoot and craft cutting-edge gear and learn powerful skills to customize the way you fight. Take things further with Specializations, with roles like the long-range marksman, the demolition expert, the survivalist leader, and more.\n\nTEAMWORK SAVES LIVES\nTeam up with up to three other agents for tactical co-op missions where synergy matters. Combine Specializations, share resources, and take on dynamic challenges that scale with your squad.\n\nSURVIVE EVER-EVOLVING WASHINGTON, D.C.\nFrom tense firefights in changing weather to the constant push and pull of factions warring over map control, the city reacts, adapts, and challenges you to survive with every move you make.\n\nVISCERAL ENDGAME\nReaching max level is just the start. Dive into high-stakes endgame missions, intense PvP battles, and dynamic world events that push your skills and teamwork to the limit. Every season brings fresh rewards and fierce challenges.\n\nInternet connection, Ubisoft account, Microsoft Account and Game Pass Ultimate or Core (subscriptions sold separately) required to access online multiplayer/features.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.8662.71050925055292780.d113598c-97ad-4805-8dbc-eb73bf447e25.c44374e8-bbb5-4411-a862-16a5b5a549e8",
       "originalPrice": 649,
-      "discountPrice": 649,
-      "discountPercent": 0,
+      "discountPrice": 162.25,
+      "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PHR6KG3D1RQ",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N926481VT1Z",
@@ -8788,14 +8800,14 @@
       "description": "Build a resistance made from anyone in the world to take back a near-future London that is facing its downfall. Recipient of over 65 E3 awards and nominations.\n\nRecruit and play as anyone from London. Everyone you see has a unique backstory, personality, and skill set for unique situations.\nHack armed drones, deploy spider-bots, and take down enemies using an Augmented Reality Cloak.\nExplore a massive urban open world featuring London’s many iconic landmarks and fun side activities.\nTeam up with your friends to complete new four-player co-op missions and PvP matches in the new online mode.\nUpgrade to the Gold Edition or Ultimate Edition for access to the season pass and more!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.10849.14454478644537775.18e64e6c-91d5-4ac4-9098-101dbd702e9f.b9faa86a-02c8-42de-96c8-4ba5dce61d27",
       "originalPrice": 915,
-      "discountPrice": 915,
-      "discountPercent": 0,
+      "discountPrice": 137.25,
+      "discountPercent": 85,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MXG725MBV3N",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NLFKBTNP2VJ",
