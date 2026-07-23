@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T00:05:29.537Z",
+  "lastUpdated": "2026-07-23T04:12:43.712Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -156,6 +156,18 @@
       "isPopular": true
     },
     {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3722330",
       "title": "Shift At Midnight",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784732222",
@@ -165,17 +177,29 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3722330",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
+      "id": "3712080",
+      "title": "Funnel Runners",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784567934",
+      "originalPrice": 160,
+      "discountPrice": 144,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
+      "url": "https://store.steampowered.com/app/3712080",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1845250",
+      "title": "Rubinite",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1845250/bbb621b0865adf959215d39bb6153412e265ab37/capsule_616x353.jpg?t=1784768415",
+      "originalPrice": 430,
+      "discountPrice": 387,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1845250",
       "isSpecial": true,
       "isPopular": false
     },
@@ -204,18 +228,6 @@
       "isPopular": false
     },
     {
-      "id": "3712080",
-      "title": "Funnel Runners",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784567934",
-      "originalPrice": 160,
-      "discountPrice": 144,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3712080",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1145350",
       "title": "Hades II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/65e1c51cf2950d70209d63e288d1c5ba3f86044b/capsule_616x353.jpg?t=1779901265",
@@ -224,18 +236,6 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1145350",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1466060",
-      "title": "Tainted Grail: The Fall of Avalon",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/00ad11fb97becadc742bcbb4e871e6d0494c7428/capsule_616x353.jpg?t=1784626931",
-      "originalPrice": 835,
-      "discountPrice": 417,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1466060",
       "isSpecial": true,
       "isPopular": false
     },
@@ -260,6 +260,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2806050",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4570720",
+      "title": "DragonSword : Awakening",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4570720/2b80e22ce77b81a4705683c2c14488a336e4e38d/capsule_616x353.jpg?t=1784776402",
+      "originalPrice": 799,
+      "discountPrice": 799,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4570720",
       "isSpecial": false,
       "isPopular": true
     },
@@ -10734,6 +10746,20 @@
       "price": 207,
       "percent": 10,
       "timestamp": "2026-07-22T17:13:57.879Z",
+      "type": "popular"
+    },
+    "steam_discount_1845250": {
+      "title": "Rubinite",
+      "price": 387,
+      "percent": 10,
+      "timestamp": "2026-07-23T04:12:37.857Z",
+      "type": "discount"
+    },
+    "steam_popular_4570720": {
+      "title": "DragonSword : Awakening",
+      "price": 799,
+      "percent": 0,
+      "timestamp": "2026-07-23T04:12:37.857Z",
       "type": "popular"
     }
   }
