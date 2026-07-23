@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T17:17:59.049Z",
+  "lastUpdated": "2026-07-23T19:10:17.989Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -144,6 +144,18 @@
       "isPopular": true
     },
     {
+      "id": "3440070",
+      "title": "Dinoblade",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/43335ad2a148d293c4e4cd4e2da5735f3b031044/capsule_616x353.jpg?t=1784826028",
+      "originalPrice": 430,
+      "discountPrice": 387,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3440070",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1913120",
       "title": "Tears of Metal",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784731614",
@@ -204,6 +216,18 @@
       "isPopular": false
     },
     {
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
+      "originalPrice": 1299,
+      "discountPrice": 389,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2183900",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1845250",
       "title": "Rubinite",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1845250/bbb621b0865adf959215d39bb6153412e265ab37/capsule_616x353.jpg?t=1784788602",
@@ -228,33 +252,9 @@
       "isPopular": false
     },
     {
-      "id": "1466060",
-      "title": "Tainted Grail: The Fall of Avalon",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/00ad11fb97becadc742bcbb4e871e6d0494c7428/capsule_616x353.jpg?t=1784626931",
-      "originalPrice": 835,
-      "discountPrice": 417,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1466060",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
-      "originalPrice": 1299,
-      "discountPrice": 389,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2806050",
       "title": "Halo: Campaign Evolved",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1784823898",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1784829117",
       "originalPrice": 1999,
       "discountPrice": 1999,
       "discountPercent": 0,
@@ -272,6 +272,30 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4200770",
+      "title": "Call of Duty®: Black Ops 7 - BlackCell (05 сезон)",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4200770/a48ecfab0f3a3a160bf30cba557d821ac26c2641/capsule_616x353_alt_assets_0.jpg?t=1784823495",
+      "originalPrice": 1275,
+      "discountPrice": 1275,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4200770",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isPopular": true
     },
@@ -296,30 +320,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2424420",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1181550",
-      "title": "Carnival Hunt",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1181550/1db1597bef80bc9b1d67378d29b2475aed1f100c/capsule_616x353.jpg?t=1784823412",
-      "originalPrice": 429,
-      "discountPrice": 386,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1181550",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1663,8 +1663,8 @@
     {
       "id": "9NNFG8BQRCXL",
       "title": "Call of Duty®: Warzone™",
-      "description": "Call of Duty®: Warzone™ will no longer be playable on Xbox One at the end of Season 06 of Black Ops 7.\n\nWelcome to Call of Duty®: Warzone™, the massive free-to-play combat arena. Experience thrilling modes & new gameplay features across three new geo updates in Fortune's Keep, Endgame (for a limited time), Battle Royale, Black Ops Royale and Resurgence.\n\nCall of Duty®: Warzone™ is Yours for the Taking.\n\nFortune favours the bold. It’s the Fortune’s Keep you know, now playable like never before. Revisit your favourite haunts and explore new geo updates, with enhanced movement and fresh features that bring a new depth to gameplay.\n\nPlus, for a limited time, Endgame is now FREE in Call of Duty®: Warzone™. The fight in Endgame grows even more dangerous with the arrival of a new Glitch Fracture and a fresh Operation packed with rewards, XP and a hidden Glitch Fracture to uncover.\n\nWant to really kick it up a notch? Head to Resurgence Ranked Play and smoke the competition.\n\n\nA mobile phone number linked to your Activision account may be required to play Call of Duty®: Warzone™.\n\nA Game Pass Core subscription is not required to play Call of Duty®: Warzone™. All other online modes still require Game Pass Core.\n\nFor more information, please visit www.callofduty.com.\n\n©/TM/® 2026 Activision Publishing, Inc. This product contains software technology licensed from Id Software ('Id Technology'). Id Technology © 1999-2026 Id Software, Inc.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.922.13739535057760905.0ccc23c7-9a53-4f10-9633-af191ba42378.d49ef268-4477-4fea-b8ba-1f565b84025e",
+      "description": "Call of Duty®: Warzone™ will no longer be playable on Xbox One at the end of Season 06 of Black Ops 7.\n\nWelcome to Call of Duty®: Warzone™, the massive free-to-play combat arena. Experience thrilling modes & new gameplay features including the new Drone Labs POI in Verdansk, Endgame (for a limited time), Battle Royale, Black Ops Royale, and Resurgence.\n\nCall of Duty®: Warzone™ is Armed for Impact.\n\nEyes up - the skies of Verdansk have never been more loaded. The new Drone Labs POI enters the Map with ramped up production, unleashing Loot Drones that now flood the skies.\n\nPlus, for a limited time, Endgame is now FREE in Call of Duty®: Warzone™. The fight in Endgame grows even more dangerous with the arrival of a new Assignment and a way to upgrade your Abilities with new, rare enhancements that can be acquired from caches.\n\nWant to really kick it up a notch? Head to Resurgence Ranked Play and smoke the competition.\n\n\nA mobile phone number linked to your Activision account may be required to play Call of Duty®: Warzone™.\n\nA Game Pass Core subscription is not required to play Call of Duty®: Warzone™. All other online modes still require Game Pass Core.\n\nFor more information, please visit www.callofduty.com.\n\n©/TM/® 2026 Activision Publishing, Inc. This product contains software technology licensed from Id Software ('Id Technology'). Id Technology © 1999-2026 Id Software, Inc.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.26499.13739535057760905.cd3d6e45-3ccc-4b13-80a5-0568cb1692ae.29ec6b3c-c60f-4746-b246-fcafeb63e866",
       "originalPrice": 0,
       "discountPrice": 0,
       "discountPercent": 0,
@@ -9289,13 +9289,6 @@
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
     },
-    "steam_popular_4657090": {
-      "title": "Sid Meier’s Civilization® VII: Колекція Brush and Blade",
-      "price": 1349,
-      "percent": 0,
-      "timestamp": "2026-06-23T17:49:52.133Z",
-      "type": "popular"
-    },
     "steam_discount_2416450": {
       "title": "Приватний детектив МАУС",
       "price": 480,
@@ -10841,6 +10834,27 @@
       "price": 386,
       "percent": 10,
       "timestamp": "2026-07-23T17:17:53.495Z",
+      "type": "popular"
+    },
+    "steam_discount_3440070": {
+      "title": "Dinoblade",
+      "price": 387,
+      "percent": 10,
+      "timestamp": "2026-07-23T19:10:10.663Z",
+      "type": "discount"
+    },
+    "steam_popular_3440070": {
+      "title": "Dinoblade",
+      "price": 387,
+      "percent": 10,
+      "timestamp": "2026-07-23T19:10:10.663Z",
+      "type": "popular"
+    },
+    "steam_popular_4200770": {
+      "title": "Call of Duty®: Black Ops 7 - BlackCell (05 сезон)",
+      "price": 1275,
+      "percent": 0,
+      "timestamp": "2026-07-23T19:10:10.663Z",
       "type": "popular"
     }
   }
