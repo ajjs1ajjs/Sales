@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T19:10:17.989Z",
+  "lastUpdated": "2026-07-23T20:59:46.394Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -10,7 +10,7 @@
       "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/foretales-d6c5bd",
-      "startDate": "2026-07-16T15:00:00.000Z",
+      "startDate": "2026-07-23T15:00:00.000Z",
       "endDate": "2026-07-30T15:00:00.000Z",
       "isFreeNow": true,
       "isUpcomingFree": false,
@@ -204,6 +204,18 @@
       "isPopular": false
     },
     {
+      "id": "1149460",
+      "title": "ICARUS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/capsule_616x353.jpg?t=1784744651",
+      "originalPrice": 700,
+      "discountPrice": 140,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1149460",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "4324480",
       "title": "Dirty Business",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4324480/4a95a41b3cb6e9faa3c8c6aefec4205ba256eaa5/capsule_616x353.jpg?t=1784806503",
@@ -228,30 +240,6 @@
       "isPopular": false
     },
     {
-      "id": "1845250",
-      "title": "Rubinite",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1845250/bbb621b0865adf959215d39bb6153412e265ab37/capsule_616x353.jpg?t=1784788602",
-      "originalPrice": 430,
-      "discountPrice": 387,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1845250",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1145350",
-      "title": "Hades II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/65e1c51cf2950d70209d63e288d1c5ba3f86044b/capsule_616x353.jpg?t=1779901265",
-      "originalPrice": 460,
-      "discountPrice": 322,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1145350",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2806050",
       "title": "Halo: Campaign Evolved",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1784829117",
@@ -260,30 +248,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2806050",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
-      "originalPrice": 600,
-      "discountPrice": 600,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4200770",
-      "title": "Call of Duty®: Black Ops 7 - BlackCell (05 сезон)",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4200770/a48ecfab0f3a3a160bf30cba557d821ac26c2641/capsule_616x353_alt_assets_0.jpg?t=1784823495",
-      "originalPrice": 1275,
-      "discountPrice": 1275,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4200770",
       "isSpecial": false,
       "isPopular": true
     },
@@ -308,6 +272,30 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4570720",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1623730",
+      "title": "Palworld",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
+      "originalPrice": 600,
+      "discountPrice": 600,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4200770",
+      "title": "Call of Duty®: Black Ops 7 - BlackCell (05 сезон)",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4200770/a48ecfab0f3a3a160bf30cba557d821ac26c2641/capsule_616x353_alt_assets_0.jpg?t=1784823495",
+      "originalPrice": 1275,
+      "discountPrice": 1275,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4200770",
       "isSpecial": false,
       "isPopular": true
     },
@@ -9289,27 +9277,6 @@
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
     },
-    "steam_discount_2416450": {
-      "title": "Приватний детектив МАУС",
-      "price": 480,
-      "percent": 20,
-      "timestamp": "2026-06-23T19:58:49.045Z",
-      "type": "discount"
-    },
-    "steam_discount_2458980": {
-      "title": "Dimhaven - The Lost Source",
-      "price": 509,
-      "percent": 15,
-      "timestamp": "2026-06-23T19:58:49.045Z",
-      "type": "discount"
-    },
-    "steam_popular_2416450": {
-      "title": "Приватний детектив МАУС",
-      "price": 480,
-      "percent": 20,
-      "timestamp": "2026-06-23T19:58:49.045Z",
-      "type": "popular"
-    },
     "steam_popular_1671210": {
       "title": "DELTARUNE",
       "price": 499,
@@ -10856,6 +10823,13 @@
       "percent": 0,
       "timestamp": "2026-07-23T19:10:10.663Z",
       "type": "popular"
+    },
+    "steam_discount_1149460": {
+      "title": "ICARUS",
+      "price": 140,
+      "percent": 80,
+      "timestamp": "2026-07-23T20:59:41.443Z",
+      "type": "discount"
     }
   }
 }
