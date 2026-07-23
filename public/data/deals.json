@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T15:06:09.637Z",
+  "lastUpdated": "2026-07-23T17:17:59.049Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -132,26 +132,38 @@
   ],
   "steam": [
     {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
-      "originalPrice": 600,
-      "discountPrice": 420,
-      "discountPercent": 30,
+      "id": "2699230",
+      "title": "Grim Dawn - Fangs of Asterkarn",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/d9ea5bbe62eaa89f572b1fb2c4206cbce63cc3a3/capsule_616x353.jpg?t=1784815303",
+      "originalPrice": 405,
+      "discountPrice": 364,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
+      "url": "https://store.steampowered.com/app/2699230",
       "isSpecial": true,
       "isPopular": true
     },
     {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
+      "id": "1913120",
+      "title": "Tears of Metal",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784731614",
+      "originalPrice": 530,
+      "discountPrice": 477,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
+      "url": "https://store.steampowered.com/app/1913120",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "4704690",
+      "title": "MECCHA CHAMELEON",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
+      "originalPrice": 155,
+      "discountPrice": 131,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": true,
       "isPopular": false
     },
@@ -166,18 +178,6 @@
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": false
-    },
-    {
-      "id": "1913120",
-      "title": "Tears of Metal",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784731614",
-      "originalPrice": 530,
-      "discountPrice": 477,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1913120",
-      "isSpecial": true,
-      "isPopular": true
     },
     {
       "id": "3722330",
@@ -228,38 +228,50 @@
       "isPopular": false
     },
     {
-      "id": "3712080",
-      "title": "Funnel Runners",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784567934",
-      "originalPrice": 160,
-      "discountPrice": 144,
-      "discountPercent": 10,
+      "id": "1466060",
+      "title": "Tainted Grail: The Fall of Avalon",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/00ad11fb97becadc742bcbb4e871e6d0494c7428/capsule_616x353.jpg?t=1784626931",
+      "originalPrice": 835,
+      "discountPrice": 417,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3712080",
+      "url": "https://store.steampowered.com/app/1466060",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "2699230",
-      "title": "Grim Dawn - Fangs of Asterkarn",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/d9ea5bbe62eaa89f572b1fb2c4206cbce63cc3a3/capsule_616x353.jpg?t=1784815303",
-      "originalPrice": 405,
-      "discountPrice": 364,
-      "discountPercent": 10,
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
+      "originalPrice": 1299,
+      "discountPrice": 389,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2699230",
-      "isSpecial": false,
-      "isPopular": true
+      "url": "https://store.steampowered.com/app/2183900",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "2806050",
       "title": "Halo: Campaign Evolved",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1783544553",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1784823898",
       "originalPrice": 1999,
       "discountPrice": 1999,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2806050",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1623730",
+      "title": "Palworld",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
+      "originalPrice": 600,
+      "discountPrice": 600,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1623730",
       "isSpecial": false,
       "isPopular": true
     },
@@ -276,18 +288,6 @@
       "isPopular": true
     },
     {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "2424420",
       "title": "Avatar Legends: The Fighting Game",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/f156d3b8b7864bff6b75ab9a676167633d05ecee/capsule_616x353.jpg?t=1784815174",
@@ -300,14 +300,26 @@
       "isPopular": true
     },
     {
-      "id": "4704690",
-      "title": "MECCHA CHAMELEON",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
-      "originalPrice": 155,
-      "discountPrice": 155,
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4704690",
+      "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1181550",
+      "title": "Carnival Hunt",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1181550/1db1597bef80bc9b1d67378d29b2475aed1f100c/capsule_616x353.jpg?t=1784823412",
+      "originalPrice": 429,
+      "discountPrice": 386,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1181550",
       "isSpecial": false,
       "isPopular": true
     }
@@ -9277,20 +9289,6 @@
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
     },
-    "steam_popular_4355580": {
-      "title": "Warhammer 40,000: Darktide - Skitarii Class Deluxe Edition",
-      "price": 349,
-      "percent": 0,
-      "timestamp": "2026-06-23T15:11:24.437Z",
-      "type": "popular"
-    },
-    "steam_popular_4355570": {
-      "title": "Warhammer 40,000: Darktide - Skitarii Class",
-      "price": 229,
-      "percent": 0,
-      "timestamp": "2026-06-23T15:11:24.437Z",
-      "type": "popular"
-    },
     "steam_popular_4657090": {
       "title": "Sid Meier’s Civilization® VII: Колекція Brush and Blade",
       "price": 1349,
@@ -10823,6 +10821,27 @@
       "percent": 0,
       "timestamp": "2026-07-23T15:06:02.489Z",
       "type": "xbox_new"
+    },
+    "steam_discount_2699230": {
+      "title": "Grim Dawn - Fangs of Asterkarn",
+      "price": 364,
+      "percent": 10,
+      "timestamp": "2026-07-23T17:17:53.495Z",
+      "type": "discount"
+    },
+    "steam_discount_4704690": {
+      "title": "MECCHA CHAMELEON",
+      "price": 131,
+      "percent": 15,
+      "timestamp": "2026-07-23T17:17:53.495Z",
+      "type": "discount"
+    },
+    "steam_popular_1181550": {
+      "title": "Carnival Hunt",
+      "price": 386,
+      "percent": 10,
+      "timestamp": "2026-07-23T17:17:53.495Z",
+      "type": "popular"
     }
   }
 }
