@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T12:22:11.999Z",
+  "lastUpdated": "2026-07-23T15:06:09.637Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -7,15 +7,15 @@
       "description": "Decide the fate of the world in this ingenious story-driven card game.\n\nForetales offers a unique take on the adventure genre, with a multitude of playstyles and story paths through which you can save the world… or bring about its end.",
       "imageUrl": "https://cdn1.epicgames.com/spt-assets/2b593b82aea84695b1608d74d3850ceb/foretales-offer-urvzn.jpg",
       "originalPrice": 590,
-      "discountPrice": 88.5,
+      "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/foretales-d6c5bd",
-      "startDate": "2026-07-23T15:00:00.000Z",
+      "startDate": "2026-07-16T15:00:00.000Z",
       "endDate": "2026-07-30T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": true,
-      "isDiscounted": true,
-      "discountPercent": 85
+      "isFreeNow": true,
+      "isUpcomingFree": false,
+      "isDiscounted": false,
+      "discountPercent": 100
     },
     {
       "id": "921e40c4c69f4d728914ca2a4f0aa407",
@@ -82,22 +82,6 @@
       "discountPercent": 60
     },
     {
-      "id": "c27f2bb0dd9b4c4ca4973e653ab8a5be",
-      "title": "Luto",
-      "description": "Luto is a psychological horror experience where you take on the role of someone unable to leave their home. Every attempt to escape will lead you deeper into the unknown, where nothing is as it seems and everything will test your senses.",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/eda0432529164b29b8a659d627d660e4/luto-14zrp.png",
-      "originalPrice": 415,
-      "discountPrice": 0,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/luto-0a4ab3",
-      "startDate": "2026-07-16T15:00:00.000Z",
-      "endDate": "2026-07-23T15:00:00.000Z",
-      "isFreeNow": true,
-      "isUpcomingFree": false,
-      "isDiscounted": false,
-      "discountPercent": 100
-    },
-    {
       "id": "f967cff9761c4198b4e972cfd71e40d7",
       "title": "Monument Valley",
       "description": "Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
@@ -114,20 +98,36 @@
       "discountPercent": 75
     },
     {
-      "id": "371545146a944478ad5a87f9b581ac29",
-      "title": "Echo Generation: Midnight Edition",
-      "description": "Lead a gang of kids to uncover spooky mysteries, battle creatures, and explore the supernatural side of your hometown in Echo Generation, a turn-based adventure set in the 90s.",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/d85d8cbcd8bd43308d262ba62af5b5ce/echo-generation-midnight-edition-49ac1.jpg",
-      "originalPrice": 459,
-      "discountPrice": 0,
+      "id": "fb86769d4908427986ca9f7d94b581c2",
+      "title": "OTXO",
+      "description": "Увійдіть у незрозумілий і загадковий маєток, щоб врятувати свою кохану в цьому динамічному, жорстокому й похмурому роуглайті, з брутальними перестрілками на точність та ефектом сповільненої дії.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/f6da0031691c4d94a6e21255b18c1710/otxo-wtcug.jpg",
+      "originalPrice": 275,
+      "discountPrice": 123.75,
       "currency": "UAH",
-      "url": "https://store.epicgames.com/p/echo-generation-midnight-edition-069026",
-      "startDate": "2026-07-16T15:00:00.000Z",
-      "endDate": "2026-07-23T15:00:00.000Z",
-      "isFreeNow": true,
-      "isUpcomingFree": false,
+      "url": "https://store.epicgames.com/p/otxo-396b8b",
+      "startDate": "2026-07-30T15:00:00.000Z",
+      "endDate": "2026-08-06T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": true,
+      "isDiscounted": true,
+      "discountPercent": 55
+    },
+    {
+      "id": "c71375f1ac9444fcae1ca584a53ba6f0",
+      "title": "Sol Cesto",
+      "description": "Sol Cesto is a tactical and frantic roguelite where mastering your luck is key. Choose a hero, upgrade them using cursed teeth and magical items, and descend to the bottom of an ever-changing dungeon. In this dark world, every action has consequences…",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/30d70e74bab1498686aba69969a6c19e/sol-cesto-1ara2.png",
+      "originalPrice": 150,
+      "discountPrice": 150,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/sol-cesto-e9b803",
+      "startDate": "2026-07-30T15:00:00.000Z",
+      "endDate": "2026-08-06T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": true,
       "isDiscounted": false,
-      "discountPercent": 100
+      "discountPercent": 0
     }
   ],
   "steam": [
@@ -144,6 +144,18 @@
       "isPopular": true
     },
     {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -153,7 +165,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1913120",
@@ -166,18 +178,6 @@
       "url": "https://store.steampowered.com/app/1913120",
       "isSpecial": true,
       "isPopular": true
-    },
-    {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isPopular": false
     },
     {
       "id": "3722330",
@@ -228,26 +228,26 @@
       "isPopular": false
     },
     {
-      "id": "3837350",
-      "title": "Staffer Retro : A Supernatural Mystery Quest",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3837350/499183760e65c96576401213ef0554d535a82a2d/capsule_616x353.jpg?t=1784732461",
-      "originalPrice": 558,
-      "discountPrice": 502,
+      "id": "3712080",
+      "title": "Funnel Runners",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/dba6f8b29a884b90072926b79ae50d2d744dc110/capsule_616x353.jpg?t=1784567934",
+      "originalPrice": 160,
+      "discountPrice": 144,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3837350",
+      "url": "https://store.steampowered.com/app/3712080",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "4570720",
-      "title": "DragonSword : Awakening",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4570720/2b80e22ce77b81a4705683c2c14488a336e4e38d/capsule_616x353.jpg?t=1784795371",
-      "originalPrice": 799,
-      "discountPrice": 799,
-      "discountPercent": 0,
+      "id": "2699230",
+      "title": "Grim Dawn - Fangs of Asterkarn",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/d9ea5bbe62eaa89f572b1fb2c4206cbce63cc3a3/capsule_616x353.jpg?t=1784815303",
+      "originalPrice": 405,
+      "discountPrice": 364,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4570720",
+      "url": "https://store.steampowered.com/app/2699230",
       "isSpecial": false,
       "isPopular": true
     },
@@ -260,6 +260,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2806050",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4570720",
+      "title": "DragonSword : Awakening",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4570720/2b80e22ce77b81a4705683c2c14488a336e4e38d/capsule_616x353.jpg?t=1784795371",
+      "originalPrice": 799,
+      "discountPrice": 799,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4570720",
       "isSpecial": false,
       "isPopular": true
     },
@@ -278,12 +290,24 @@
     {
       "id": "2424420",
       "title": "Avatar Legends: The Fighting Game",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/f156d3b8b7864bff6b75ab9a676167633d05ecee/capsule_616x353.jpg?t=1784736575",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/f156d3b8b7864bff6b75ab9a676167633d05ecee/capsule_616x353.jpg?t=1784815174",
       "originalPrice": 600,
       "discountPrice": 600,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2424420",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4704690",
+      "title": "MECCHA CHAMELEON",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
+      "originalPrice": 155,
+      "discountPrice": 155,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": false,
       "isPopular": true
     }
@@ -3931,6 +3955,21 @@
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NTM9HXNLSZX",
       "isGamePass": true,
       "isNewToGamePass": false,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
+      "id": "9N9097G0XZMB",
+      "title": "Hell is Us",
+      "description": "Hell is Us — це пригодницька гра від третьої особи, що поєднала в собі інтенсивні бої та захоплююче дослідження місцевості. Мандруйте напіввідкритим світом, де на вас чекають зустрічі з загадковими створіннями, та шукайте відповіді на свої запитання.\n\nЖОРСТОКИЙ СВІТ\nОкрім громадянської війни, що розділила країну, у регіоні вирує загадкове лихо. Воно породило надприродних істот, проти яких не діє жодна сучасна зброя. Ваші вірні союзники — дрон і стародавній меч — допоможуть вам прокласти шлях крізь землі, що кишать жахливими химерами, та розкрити таємницю виникнення цих жахливих створінь.\n\nУНІКАЛЬНА СИСТЕМА ДОСЛІДЖЕНЬ\nТут немає карти, компасу чи маркерів завдань — лише ваше внутрішнє чуття. Отримайте унікальний досвід: інноваційний сюжет та унікальний дизайн рівнів дозволять вам діяти, покладаючись на власні рішення та інтуїцію. Усі відкриття лише за вами.\n\nБОРОТЬБА З НЕЗВИЧАЙНИМИ СТВОРІННЯМИ\nМечі, списи та сокири: у вашому розпорядженні широкий вибір зброї, створеної спеціально для боротьби з цими надприродними істотами. Щоб залишитися в живих, вам доведеться навчитися боротися та розумно користуватися дроном.\n\n«Головна ідея Hell is Us полягає в тому, що людське насильство вічне, бо його підживлюють людські емоції та пристрасті», — Джонатан Жак-Белльтет, креативний директор",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.28194.13542441777400767.a5c76c76-ba5a-4024-b4ed-cbd190240c15.b1a52869-a951-40d2-9a9e-53df7017263c",
+      "originalPrice": 1799,
+      "discountPrice": 1799,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9N9097G0XZMB",
+      "isGamePass": true,
+      "isNewToGamePass": true,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -10756,6 +10795,34 @@
       "percent": 10,
       "timestamp": "2026-07-23T12:22:06.139Z",
       "type": "discount"
+    },
+    "epic_free_223c59e227e74e079a1bbe5a234b896f": {
+      "title": "Foretales",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-07-23T15:06:02.489Z",
+      "type": "free"
+    },
+    "epic_discount_fb86769d4908427986ca9f7d94b581c2": {
+      "title": "OTXO",
+      "price": 123.75,
+      "percent": 55,
+      "timestamp": "2026-07-23T15:06:02.489Z",
+      "type": "discount"
+    },
+    "steam_popular_2699230": {
+      "title": "Grim Dawn - Fangs of Asterkarn",
+      "price": 364,
+      "percent": 10,
+      "timestamp": "2026-07-23T15:06:02.489Z",
+      "type": "popular"
+    },
+    "xbox_new_9N9097G0XZMB": {
+      "title": "Hell is Us",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-23T15:06:02.489Z",
+      "type": "xbox_new"
     }
   }
 }
