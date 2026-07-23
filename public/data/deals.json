@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T22:10:19.209Z",
+  "lastUpdated": "2026-07-23T23:57:31.398Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -180,18 +180,6 @@
       "isPopular": false
     },
     {
-      "id": "1149460",
-      "title": "ICARUS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/capsule_616x353.jpg?t=1784744651",
-      "originalPrice": 700,
-      "discountPrice": 140,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1149460",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3722330",
       "title": "Shift At Midnight",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784799421",
@@ -200,6 +188,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3722330",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1149460",
+      "title": "ICARUS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/capsule_616x353.jpg?t=1784744651",
+      "originalPrice": 700,
+      "discountPrice": 140,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1149460",
       "isSpecial": true,
       "isPopular": false
     },
@@ -240,6 +240,18 @@
       "isPopular": false
     },
     {
+      "id": "2840770",
+      "title": "Avatar: Frontiers of Pandora™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2840770/192cba5b2a29346ba8899042c4f72e03d8f6515c/capsule_616x353.jpg?t=1778598692",
+      "originalPrice": 859,
+      "discountPrice": 515,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2840770",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2806050",
       "title": "Halo: Campaign Evolved",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1784829117",
@@ -248,6 +260,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2806050",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2424420",
+      "title": "Avatar Legends: The Fighting Game",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/f156d3b8b7864bff6b75ab9a676167633d05ecee/capsule_616x353.jpg?t=1784815174",
+      "originalPrice": 600,
+      "discountPrice": 600,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2424420",
       "isSpecial": false,
       "isPopular": true
     },
@@ -264,18 +288,6 @@
       "isPopular": true
     },
     {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "1623730",
       "title": "Palworld",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
@@ -288,14 +300,14 @@
       "isPopular": true
     },
     {
-      "id": "2424420",
-      "title": "Avatar Legends: The Fighting Game",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/f156d3b8b7864bff6b75ab9a676167633d05ecee/capsule_616x353.jpg?t=1784815174",
-      "originalPrice": 600,
-      "discountPrice": 600,
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2424420",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10817,6 +10829,13 @@
       "price": 140,
       "percent": 80,
       "timestamp": "2026-07-23T20:59:41.443Z",
+      "type": "discount"
+    },
+    "steam_discount_2840770": {
+      "title": "Avatar: Frontiers of Pandora™",
+      "price": 515,
+      "percent": 40,
+      "timestamp": "2026-07-23T23:57:22.500Z",
       "type": "discount"
     }
   }
