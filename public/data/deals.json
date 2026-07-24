@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T19:20:12.826Z",
+  "lastUpdated": "2026-07-24T20:58:49.576Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -132,18 +132,6 @@
   ],
   "steam": [
     {
-      "id": "2699230",
-      "title": "Grim Dawn - Fangs of Asterkarn",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/d9ea5bbe62eaa89f572b1fb2c4206cbce63cc3a3/capsule_616x353.jpg?t=1784815303",
-      "originalPrice": 405,
-      "discountPrice": 364,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2699230",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "4704690",
       "title": "MECCHA CHAMELEON",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
@@ -152,6 +140,18 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "2699230",
+      "title": "Grim Dawn - Fangs of Asterkarn",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/d9ea5bbe62eaa89f572b1fb2c4206cbce63cc3a3/capsule_616x353.jpg?t=1784815303",
+      "originalPrice": 405,
+      "discountPrice": 364,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2699230",
       "isSpecial": true,
       "isPopular": true
     },
@@ -168,18 +168,6 @@
       "isPopular": true
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3440070",
       "title": "Dinoblade",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/43335ad2a148d293c4e4cd4e2da5735f3b031044/capsule_616x353.jpg?t=1784885012",
@@ -190,6 +178,18 @@
       "url": "https://store.steampowered.com/app/3440070",
       "isSpecial": true,
       "isPopular": true
+    },
+    {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "1149460",
@@ -216,18 +216,6 @@
       "isPopular": false
     },
     {
-      "id": "4324480",
-      "title": "Dirty Business",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4324480/4a95a41b3cb6e9faa3c8c6aefec4205ba256eaa5/capsule_616x353.jpg?t=1784806503",
-      "originalPrice": 335,
-      "discountPrice": 268,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4324480",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
@@ -240,14 +228,26 @@
       "isPopular": false
     },
     {
-      "id": "2840770",
-      "title": "Avatar: Frontiers of Pandora™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2840770/192cba5b2a29346ba8899042c4f72e03d8f6515c/capsule_616x353.jpg?t=1778598692",
-      "originalPrice": 859,
-      "discountPrice": 515,
-      "discountPercent": 40,
+      "id": "3241660",
+      "title": "R.E.P.O.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
+      "originalPrice": 194,
+      "discountPrice": 126,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2840770",
+      "url": "https://store.steampowered.com/app/3241660",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4324480",
+      "title": "Dirty Business",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4324480/4a95a41b3cb6e9faa3c8c6aefec4205ba256eaa5/capsule_616x353.jpg?t=1784806503",
+      "originalPrice": 335,
+      "discountPrice": 268,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4324480",
       "isSpecial": true,
       "isPopular": false
     },
@@ -276,18 +276,6 @@
       "isPopular": true
     },
     {
-      "id": "4570720",
-      "title": "DragonSword : Awakening",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4570720/2b80e22ce77b81a4705683c2c14488a336e4e38d/capsule_616x353.jpg?t=1784900913",
-      "originalPrice": 799,
-      "discountPrice": 799,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4570720",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "3751950",
       "title": "Assassin's Creed Black Flag Resynced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
@@ -296,6 +284,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3751950",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4570720",
+      "title": "DragonSword : Awakening",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4570720/2b80e22ce77b81a4705683c2c14488a336e4e38d/capsule_616x353.jpg?t=1784900913",
+      "originalPrice": 799,
+      "discountPrice": 799,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4570720",
       "isSpecial": false,
       "isPopular": true
     },
@@ -10836,6 +10836,13 @@
       "price": 227,
       "percent": 35,
       "timestamp": "2026-07-24T11:01:12.484Z",
+      "type": "discount"
+    },
+    "steam_discount_3241660": {
+      "title": "R.E.P.O.",
+      "price": 126,
+      "percent": 35,
+      "timestamp": "2026-07-24T20:58:42.109Z",
       "type": "discount"
     }
   }
