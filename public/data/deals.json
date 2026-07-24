@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T13:29:27.557Z",
+  "lastUpdated": "2026-07-24T15:23:20.923Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -156,18 +156,6 @@
       "isPopular": true
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1913120",
       "title": "Tears of Metal",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784731614",
@@ -194,24 +182,24 @@
     {
       "id": "3722330",
       "title": "Shift At Midnight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784799421",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784896937",
       "originalPrice": 230,
       "discountPrice": 207,
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3722330",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
-      "id": "3683770",
-      "title": "Boba Cafe Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3683770/80465c8835116604e15f75fa3f6827e1579bb393/capsule_616x353.jpg?t=1784893308",
-      "originalPrice": 350,
-      "discountPrice": 227,
-      "discountPercent": 35,
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3683770",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": false
     },
@@ -228,14 +216,14 @@
       "isPopular": false
     },
     {
-      "id": "4324480",
-      "title": "Dirty Business",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4324480/4a95a41b3cb6e9faa3c8c6aefec4205ba256eaa5/capsule_616x353.jpg?t=1784806503",
-      "originalPrice": 335,
-      "discountPrice": 268,
-      "discountPercent": 20,
+      "id": "3683770",
+      "title": "Boba Cafe Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3683770/80465c8835116604e15f75fa3f6827e1579bb393/capsule_616x353.jpg?t=1784893308",
+      "originalPrice": 350,
+      "discountPrice": 227,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4324480",
+      "url": "https://store.steampowered.com/app/3683770",
       "isSpecial": true,
       "isPopular": false
     },
@@ -252,6 +240,18 @@
       "isPopular": false
     },
     {
+      "id": "4324480",
+      "title": "Dirty Business",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4324480/4a95a41b3cb6e9faa3c8c6aefec4205ba256eaa5/capsule_616x353.jpg?t=1784806503",
+      "originalPrice": 335,
+      "discountPrice": 268,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4324480",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2806050",
       "title": "Halo: Campaign Evolved",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1784829117",
@@ -260,18 +260,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2806050",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4570720",
-      "title": "DragonSword : Awakening",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4570720/2b80e22ce77b81a4705683c2c14488a336e4e38d/capsule_616x353.jpg?t=1784795371",
-      "originalPrice": 799,
-      "discountPrice": 799,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4570720",
       "isSpecial": false,
       "isPopular": true
     },
@@ -288,6 +276,18 @@
       "isPopular": true
     },
     {
+      "id": "4570720",
+      "title": "DragonSword : Awakening",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4570720/2b80e22ce77b81a4705683c2c14488a336e4e38d/capsule_616x353.jpg?t=1784900913",
+      "originalPrice": 799,
+      "discountPrice": 799,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4570720",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "3751950",
       "title": "Assassin's Creed Black Flag Resynced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
@@ -300,14 +300,14 @@
       "isPopular": true
     },
     {
-      "id": "4200770",
-      "title": "Call of Duty®: Black Ops 7 - BlackCell (05 сезон)",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4200770/a48ecfab0f3a3a160bf30cba557d821ac26c2641/capsule_616x353_alt_assets_0.jpg?t=1784823495",
-      "originalPrice": 1275,
-      "discountPrice": 1275,
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4200770",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isPopular": true
     }
