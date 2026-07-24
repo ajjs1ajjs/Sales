@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T08:22:06.251Z",
+  "lastUpdated": "2026-07-24T11:01:18.238Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -10,7 +10,7 @@
       "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/foretales-d6c5bd",
-      "startDate": "2026-07-23T15:00:00.000Z",
+      "startDate": "2026-07-16T15:00:00.000Z",
       "endDate": "2026-07-30T15:00:00.000Z",
       "isFreeNow": true,
       "isUpcomingFree": false,
@@ -144,9 +144,21 @@
       "isPopular": true
     },
     {
+      "id": "4704690",
+      "title": "MECCHA CHAMELEON",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
+      "originalPrice": 155,
+      "discountPrice": 131,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4704690",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "3440070",
       "title": "Dinoblade",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/43335ad2a148d293c4e4cd4e2da5735f3b031044/capsule_616x353.jpg?t=1784863991",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/43335ad2a148d293c4e4cd4e2da5735f3b031044/capsule_616x353.jpg?t=1784885012",
       "originalPrice": 430,
       "discountPrice": 387,
       "discountPercent": 10,
@@ -168,14 +180,14 @@
       "isPopular": true
     },
     {
-      "id": "4704690",
-      "title": "MECCHA CHAMELEON",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1782561846",
-      "originalPrice": 155,
-      "discountPrice": 131,
-      "discountPercent": 15,
+      "id": "3683770",
+      "title": "Boba Cafe Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3683770/80465c8835116604e15f75fa3f6827e1579bb393/capsule_616x353.jpg?t=1784880046",
+      "originalPrice": 350,
+      "discountPrice": 227,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4704690",
+      "url": "https://store.steampowered.com/app/3683770",
       "isSpecial": true,
       "isPopular": false
     },
@@ -192,18 +204,6 @@
       "isPopular": false
     },
     {
-      "id": "3722330",
-      "title": "Shift At Midnight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784799421",
-      "originalPrice": 230,
-      "discountPrice": 207,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3722330",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1149460",
       "title": "ICARUS",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/capsule_616x353.jpg?t=1784744651",
@@ -216,38 +216,26 @@
       "isPopular": false
     },
     {
-      "id": "1809540",
-      "title": "Nine Sols",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/capsule_616x353.jpg?t=1782464830",
-      "originalPrice": 600,
-      "discountPrice": 300,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1809540",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4324480",
-      "title": "Dirty Business",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4324480/4a95a41b3cb6e9faa3c8c6aefec4205ba256eaa5/capsule_616x353.jpg?t=1784806503",
-      "originalPrice": 335,
-      "discountPrice": 268,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4324480",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1845250",
-      "title": "Rubinite",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1845250/bbb621b0865adf959215d39bb6153412e265ab37/capsule_616x353.jpg?t=1784788602",
-      "originalPrice": 430,
-      "discountPrice": 387,
+      "id": "3722330",
+      "title": "Shift At Midnight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784799421",
+      "originalPrice": 230,
+      "discountPrice": 207,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1845250",
+      "url": "https://store.steampowered.com/app/3722330",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
+      "originalPrice": 1299,
+      "discountPrice": 389,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
       "isPopular": false
     },
@@ -296,18 +284,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "2424420",
-      "title": "Avatar Legends: The Fighting Game",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/f156d3b8b7864bff6b75ab9a676167633d05ecee/capsule_616x353.jpg?t=1784815174",
-      "originalPrice": 600,
-      "discountPrice": 600,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2424420",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10843,6 +10819,13 @@
       "price": 300,
       "percent": 50,
       "timestamp": "2026-07-24T08:22:01.521Z",
+      "type": "discount"
+    },
+    "steam_discount_3683770": {
+      "title": "Boba Cafe Simulator",
+      "price": 227,
+      "percent": 35,
+      "timestamp": "2026-07-24T11:01:12.484Z",
       "type": "discount"
     }
   }
