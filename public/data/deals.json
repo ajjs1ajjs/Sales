@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T02:47:31.643Z",
+  "lastUpdated": "2026-07-24T05:47:28.899Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -146,7 +146,7 @@
     {
       "id": "3440070",
       "title": "Dinoblade",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/43335ad2a148d293c4e4cd4e2da5735f3b031044/capsule_616x353.jpg?t=1784826028",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/43335ad2a148d293c4e4cd4e2da5735f3b031044/capsule_616x353.jpg?t=1784863991",
       "originalPrice": 430,
       "discountPrice": 387,
       "discountPercent": 10,
@@ -228,26 +228,26 @@
       "isPopular": false
     },
     {
-      "id": "4324480",
-      "title": "Dirty Business",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4324480/4a95a41b3cb6e9faa3c8c6aefec4205ba256eaa5/capsule_616x353.jpg?t=1784806503",
-      "originalPrice": 335,
-      "discountPrice": 268,
-      "discountPercent": 20,
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
+      "originalPrice": 1299,
+      "discountPrice": 389,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4324480",
+      "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "2840770",
-      "title": "Avatar: Frontiers of Pandora™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2840770/192cba5b2a29346ba8899042c4f72e03d8f6515c/capsule_616x353.jpg?t=1778598692",
-      "originalPrice": 859,
-      "discountPrice": 515,
-      "discountPercent": 40,
+      "id": "1845250",
+      "title": "Rubinite",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1845250/bbb621b0865adf959215d39bb6153412e265ab37/capsule_616x353.jpg?t=1784788602",
+      "originalPrice": 430,
+      "discountPrice": 387,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2840770",
+      "url": "https://store.steampowered.com/app/1845250",
       "isSpecial": true,
       "isPopular": false
     },
