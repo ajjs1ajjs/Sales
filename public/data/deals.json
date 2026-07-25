@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T20:46:38.313Z",
+  "lastUpdated": "2026-07-25T21:52:43.651Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -156,6 +156,18 @@
       "isPopular": true
     },
     {
+      "id": "3722330",
+      "title": "Shift At Midnight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784981268",
+      "originalPrice": 230,
+      "discountPrice": 207,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3722330",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "2699230",
       "title": "Grim Dawn - Fangs of Asterkarn",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/d9ea5bbe62eaa89f572b1fb2c4206cbce63cc3a3/capsule_616x353.jpg?t=1784815303",
@@ -178,18 +190,6 @@
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": false
-    },
-    {
-      "id": "3722330",
-      "title": "Shift At Midnight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784981268",
-      "originalPrice": 230,
-      "discountPrice": 207,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3722330",
-      "isSpecial": true,
-      "isPopular": true
     },
     {
       "id": "1149460",
@@ -296,6 +296,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4570720",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2569760",
+      "title": "The Mound: Omen of Cthulhu",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/55dd83f6b6d332501102b8fef5a0d8cca0c0153c/capsule_616x353.jpg?t=1784110925",
+      "originalPrice": 899,
+      "discountPrice": 719,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2569760",
       "isSpecial": false,
       "isPopular": true
     },
@@ -9276,20 +9288,6 @@
       "percent": 30,
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
-    },
-    "steam_discount_3489700": {
-      "title": "Stellar Blade™",
-      "price": 1339,
-      "percent": 33,
-      "timestamp": "2026-06-25T21:41:26.948Z",
-      "type": "discount"
-    },
-    "steam_popular_3489700": {
-      "title": "Stellar Blade™",
-      "price": 1339,
-      "percent": 33,
-      "timestamp": "2026-06-25T21:41:26.948Z",
-      "type": "popular"
     },
     "steam_discount_2215430": {
       "title": "РЕЖИСЕРСЬКА ВЕРСІЯ Ghost of Tsushima",
