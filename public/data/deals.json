@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T16:02:02.908Z",
+  "lastUpdated": "2026-07-25T17:56:16.428Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -10,7 +10,7 @@
       "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/foretales-d6c5bd",
-      "startDate": "2026-07-23T15:00:00.000Z",
+      "startDate": "2026-07-16T15:00:00.000Z",
       "endDate": "2026-07-30T15:00:00.000Z",
       "isFreeNow": true,
       "isUpcomingFree": false,
@@ -144,18 +144,6 @@
       "isPopular": true
     },
     {
-      "id": "3722330",
-      "title": "Shift At Midnight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784981268",
-      "originalPrice": 230,
-      "discountPrice": 207,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3722330",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -166,6 +154,18 @@
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": false
+    },
+    {
+      "id": "1913120",
+      "title": "Tears of Metal",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784995292",
+      "originalPrice": 530,
+      "discountPrice": 477,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1913120",
+      "isSpecial": true,
+      "isPopular": true
     },
     {
       "id": "2699230",
@@ -180,16 +180,16 @@
       "isPopular": true
     },
     {
-      "id": "1913120",
-      "title": "Tears of Metal",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784995292",
-      "originalPrice": 530,
-      "discountPrice": 477,
+      "id": "3722330",
+      "title": "Shift At Midnight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784981268",
+      "originalPrice": 230,
+      "discountPrice": 207,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1913120",
+      "url": "https://store.steampowered.com/app/3722330",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "3440070",
@@ -252,18 +252,6 @@
       "isPopular": false
     },
     {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
-      "originalPrice": 600,
-      "discountPrice": 600,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "2806050",
       "title": "Halo: Campaign Evolved",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1784829117",
@@ -276,14 +264,14 @@
       "isPopular": true
     },
     {
-      "id": "4570720",
-      "title": "DragonSword : Awakening",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4570720/2b80e22ce77b81a4705683c2c14488a336e4e38d/capsule_616x353.jpg?t=1784900913",
-      "originalPrice": 799,
-      "discountPrice": 799,
+      "id": "1623730",
+      "title": "Palworld",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
+      "originalPrice": 600,
+      "discountPrice": 600,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4570720",
+      "url": "https://store.steampowered.com/app/1623730",
       "isSpecial": false,
       "isPopular": true
     },
@@ -296,6 +284,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3751950",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4570720",
+      "title": "DragonSword : Awakening",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4570720/2b80e22ce77b81a4705683c2c14488a336e4e38d/capsule_616x353.jpg?t=1784900913",
+      "originalPrice": 799,
+      "discountPrice": 799,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4570720",
       "isSpecial": false,
       "isPopular": true
     },
@@ -9276,13 +9276,6 @@
       "percent": 30,
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
-    },
-    "epic_free_bbccf66ad70e492d812e031e17f93b9d": {
-      "title": "Voidwrought",
-      "price": 0,
-      "percent": 100,
-      "timestamp": "2026-06-25T17:10:13.859Z",
-      "type": "free"
     },
     "steam_discount_108600": {
       "title": "Project Zomboid",
