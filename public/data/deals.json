@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T08:59:04.618Z",
+  "lastUpdated": "2026-07-25T10:38:33.216Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -10,7 +10,7 @@
       "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/foretales-d6c5bd",
-      "startDate": "2026-07-16T15:00:00.000Z",
+      "startDate": "2026-07-23T15:00:00.000Z",
       "endDate": "2026-07-30T15:00:00.000Z",
       "isFreeNow": true,
       "isUpcomingFree": false,
@@ -156,16 +156,16 @@
       "isPopular": true
     },
     {
-      "id": "3722330",
-      "title": "Shift At Midnight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784896937",
-      "originalPrice": 230,
-      "discountPrice": 207,
+      "id": "1913120",
+      "title": "Tears of Metal",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784731614",
+      "originalPrice": 530,
+      "discountPrice": 477,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3722330",
+      "url": "https://store.steampowered.com/app/1913120",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "3240220",
@@ -180,14 +180,14 @@
       "isPopular": false
     },
     {
-      "id": "1913120",
-      "title": "Tears of Metal",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784731614",
-      "originalPrice": 530,
-      "discountPrice": 477,
+      "id": "3722330",
+      "title": "Shift At Midnight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784896937",
+      "originalPrice": 230,
+      "discountPrice": 207,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1913120",
+      "url": "https://store.steampowered.com/app/3722330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -216,18 +216,6 @@
       "isPopular": false
     },
     {
-      "id": "3241660",
-      "title": "R.E.P.O.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
-      "originalPrice": 194,
-      "discountPrice": 126,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3241660",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
@@ -236,6 +224,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2183900",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3241660",
+      "title": "R.E.P.O.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
+      "originalPrice": 194,
+      "discountPrice": 126,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3241660",
       "isSpecial": true,
       "isPopular": false
     },
@@ -252,18 +252,6 @@
       "isPopular": false
     },
     {
-      "id": "2806050",
-      "title": "Halo: Campaign Evolved",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1784829117",
-      "originalPrice": 1999,
-      "discountPrice": 1999,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2806050",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "1623730",
       "title": "Palworld",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
@@ -276,14 +264,14 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "2806050",
+      "title": "Halo: Campaign Evolved",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1784829117",
+      "originalPrice": 1999,
+      "discountPrice": 1999,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
+      "url": "https://store.steampowered.com/app/2806050",
       "isSpecial": false,
       "isPopular": true
     },
@@ -300,26 +288,26 @@
       "isPopular": true
     },
     {
-      "id": "1202520",
-      "title": "Fallout 1st",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
-      "originalPrice": 399,
-      "discountPrice": 399,
+      "id": "3751950",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
+      "originalPrice": 1799,
+      "discountPrice": 1799,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1202520",
+      "url": "https://store.steampowered.com/app/3751950",
       "isSpecial": false,
       "isPopular": true
     },
     {
-      "id": "266410",
-      "title": "iRacing",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1781016164",
-      "originalPrice": 225,
-      "discountPrice": 225,
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/266410",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     }
