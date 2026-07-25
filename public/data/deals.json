@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T22:52:09.814Z",
+  "lastUpdated": "2026-07-25T23:57:39.060Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -308,18 +308,6 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2569760",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     }
@@ -9288,20 +9276,6 @@
       "percent": 30,
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
-    },
-    "steam_discount_2215430": {
-      "title": "РЕЖИСЕРСЬКА ВЕРСІЯ Ghost of Tsushima",
-      "price": 1019,
-      "percent": 40,
-      "timestamp": "2026-06-25T23:15:21.372Z",
-      "type": "discount"
-    },
-    "steam_popular_2322010": {
-      "title": "God of War Ragnarök",
-      "price": 1138,
-      "percent": 33,
-      "timestamp": "2026-06-25T23:15:21.372Z",
-      "type": "popular"
     },
     "steam_discount_413150": {
       "title": "Stardew Valley",
