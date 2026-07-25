@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T03:31:03.073Z",
+  "lastUpdated": "2026-07-25T06:14:39.206Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -168,18 +168,6 @@
       "isPopular": true
     },
     {
-      "id": "3440070",
-      "title": "Dinoblade",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/43335ad2a148d293c4e4cd4e2da5735f3b031044/capsule_616x353.jpg?t=1784885012",
-      "originalPrice": 430,
-      "discountPrice": 387,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3440070",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "3722330",
       "title": "Shift At Midnight",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784896937",
@@ -190,6 +178,18 @@
       "url": "https://store.steampowered.com/app/3722330",
       "isSpecial": true,
       "isPopular": true
+    },
+    {
+      "id": "3440070",
+      "title": "Dinoblade",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/43335ad2a148d293c4e4cd4e2da5735f3b031044/capsule_616x353.jpg?t=1784885012",
+      "originalPrice": 430,
+      "discountPrice": 387,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3440070",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "3240220",
@@ -240,14 +240,14 @@
       "isPopular": false
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
-      "originalPrice": 1299,
-      "discountPrice": 389,
-      "discountPercent": 70,
+      "id": "3683770",
+      "title": "Boba Cafe Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3683770/80465c8835116604e15f75fa3f6827e1579bb393/capsule_616x353.jpg?t=1784893308",
+      "originalPrice": 350,
+      "discountPrice": 227,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
+      "url": "https://store.steampowered.com/app/3683770",
       "isSpecial": true,
       "isPopular": false
     },
@@ -276,18 +276,6 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4570720",
       "title": "DragonSword : Awakening",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4570720/2b80e22ce77b81a4705683c2c14488a336e4e38d/capsule_616x353.jpg?t=1784900913",
@@ -296,6 +284,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4570720",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     },
@@ -9275,13 +9275,6 @@
       "price": 420,
       "percent": 30,
       "timestamp": "2026-07-03T15:08:25.816Z",
-      "type": "discount"
-    },
-    "steam_discount_3576350": {
-      "title": "Sex, Secrets & Used Tech",
-      "price": 333,
-      "percent": 10,
-      "timestamp": "2026-06-25T05:02:35.356Z",
       "type": "discount"
     },
     "steam_popular_3576350": {
