@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T19:04:49.976Z",
+  "lastUpdated": "2026-07-25T20:46:38.313Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -10,7 +10,7 @@
       "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/foretales-d6c5bd",
-      "startDate": "2026-07-23T15:00:00.000Z",
+      "startDate": "2026-07-16T15:00:00.000Z",
       "endDate": "2026-07-30T15:00:00.000Z",
       "isFreeNow": true,
       "isUpcomingFree": false,
@@ -156,18 +156,6 @@
       "isPopular": true
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2699230",
       "title": "Grim Dawn - Fangs of Asterkarn",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/d9ea5bbe62eaa89f572b1fb2c4206cbce63cc3a3/capsule_616x353.jpg?t=1784815303",
@@ -180,6 +168,18 @@
       "isPopular": true
     },
     {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3722330",
       "title": "Shift At Midnight",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784981268",
@@ -188,6 +188,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3722330",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "1149460",
+      "title": "ICARUS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/capsule_616x353.jpg?t=1784744651",
+      "originalPrice": 700,
+      "discountPrice": 140,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1149460",
       "isSpecial": true,
       "isPopular": false
     },
@@ -200,18 +212,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3440070",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1149460",
-      "title": "ICARUS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/capsule_616x353.jpg?t=1784744651",
-      "originalPrice": 700,
-      "discountPrice": 140,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1149460",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9277,90 +9277,6 @@
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
     },
-    "steam_discount_108600": {
-      "title": "Project Zomboid",
-      "price": 278,
-      "percent": 33,
-      "timestamp": "2026-06-25T19:55:48.282Z",
-      "type": "discount"
-    },
-    "steam_discount_1086940": {
-      "title": "Baldur's Gate 3",
-      "price": 674,
-      "percent": 25,
-      "timestamp": "2026-06-25T19:55:48.282Z",
-      "type": "discount"
-    },
-    "steam_discount_3240220": {
-      "title": "Grand Theft Auto V Enhanced",
-      "price": 674,
-      "percent": 50,
-      "timestamp": "2026-06-25T19:55:48.282Z",
-      "type": "discount"
-    },
-    "steam_discount_814380": {
-      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
-      "price": 1017,
-      "percent": 50,
-      "timestamp": "2026-06-25T19:55:48.282Z",
-      "type": "discount"
-    },
-    "steam_discount_1174180": {
-      "title": "Red Dead Redemption 2",
-      "price": 649,
-      "percent": 75,
-      "timestamp": "2026-06-25T19:55:48.282Z",
-      "type": "discount"
-    },
-    "steam_discount_1671210": {
-      "title": "DELTARUNE",
-      "price": 399,
-      "percent": 20,
-      "timestamp": "2026-06-25T19:55:48.282Z",
-      "type": "discount"
-    },
-    "steam_discount_105600": {
-      "title": "Terraria",
-      "price": 112,
-      "percent": 50,
-      "timestamp": "2026-06-25T19:55:48.282Z",
-      "type": "discount"
-    },
-    "steam_discount_2322010": {
-      "title": "God of War Ragnarök",
-      "price": 1138,
-      "percent": 33,
-      "timestamp": "2026-06-25T19:55:48.282Z",
-      "type": "discount"
-    },
-    "steam_popular_108600": {
-      "title": "Project Zomboid",
-      "price": 278,
-      "percent": 33,
-      "timestamp": "2026-06-25T19:55:48.282Z",
-      "type": "popular"
-    },
-    "steam_popular_1086940": {
-      "title": "Baldur's Gate 3",
-      "price": 674,
-      "percent": 25,
-      "timestamp": "2026-06-25T19:55:48.282Z",
-      "type": "popular"
-    },
-    "steam_popular_3240220": {
-      "title": "Grand Theft Auto V Enhanced",
-      "price": 674,
-      "percent": 50,
-      "timestamp": "2026-06-25T19:55:48.282Z",
-      "type": "popular"
-    },
-    "steam_popular_814380": {
-      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
-      "price": 1017,
-      "percent": 50,
-      "timestamp": "2026-06-25T19:55:48.282Z",
-      "type": "popular"
-    },
     "steam_discount_3489700": {
       "title": "Stellar Blade™",
       "price": 1339,
@@ -10829,6 +10745,13 @@
       "price": 333,
       "percent": 10,
       "timestamp": "2026-07-25T14:28:38.434Z",
+      "type": "discount"
+    },
+    "steam_discount_3240220": {
+      "title": "Grand Theft Auto V Enhanced",
+      "price": 674,
+      "percent": 50,
+      "timestamp": "2026-07-25T20:46:34.071Z",
       "type": "discount"
     }
   }
