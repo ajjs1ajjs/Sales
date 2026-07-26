@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T17:59:40.998Z",
+  "lastUpdated": "2026-07-26T19:23:14.557Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -10,7 +10,7 @@
       "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/foretales-d6c5bd",
-      "startDate": "2026-07-16T15:00:00.000Z",
+      "startDate": "2026-07-23T15:00:00.000Z",
       "endDate": "2026-07-30T15:00:00.000Z",
       "isFreeNow": true,
       "isUpcomingFree": false,
@@ -156,18 +156,6 @@
       "isPopular": false
     },
     {
-      "id": "3722330",
-      "title": "Shift At Midnight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784981268",
-      "originalPrice": 230,
-      "discountPrice": 207,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3722330",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1149460",
       "title": "ICARUS",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/capsule_616x353.jpg?t=1784744651",
@@ -188,6 +176,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1913120",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3722330",
+      "title": "Shift At Midnight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784981268",
+      "originalPrice": 230,
+      "discountPrice": 207,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3722330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -228,14 +228,14 @@
       "isPopular": false
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
-      "originalPrice": 1299,
-      "discountPrice": 389,
-      "discountPercent": 70,
+      "id": "3440070",
+      "title": "Dinoblade",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/43335ad2a148d293c4e4cd4e2da5735f3b031044/capsule_616x353.jpg?t=1784885012",
+      "originalPrice": 430,
+      "discountPrice": 387,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
+      "url": "https://store.steampowered.com/app/3440070",
       "isSpecial": true,
       "isPopular": false
     },
@@ -308,18 +308,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4570720",
-      "title": "DragonSword : Awakening",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4570720/2b80e22ce77b81a4705683c2c14488a336e4e38d/capsule_616x353.jpg?t=1784900913",
-      "originalPrice": 799,
-      "discountPrice": 799,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4570720",
       "isSpecial": false,
       "isPopular": true
     }
