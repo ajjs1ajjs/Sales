@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T06:09:25.805Z",
+  "lastUpdated": "2026-07-26T09:09:46.488Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -156,18 +156,6 @@
       "isPopular": true
     },
     {
-      "id": "1913120",
-      "title": "Tears of Metal",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784995292",
-      "originalPrice": 530,
-      "discountPrice": 477,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1913120",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -192,14 +180,14 @@
       "isPopular": false
     },
     {
-      "id": "3440070",
-      "title": "Dinoblade",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/43335ad2a148d293c4e4cd4e2da5735f3b031044/capsule_616x353.jpg?t=1784885012",
-      "originalPrice": 430,
-      "discountPrice": 387,
+      "id": "1913120",
+      "title": "Tears of Metal",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784995292",
+      "originalPrice": 530,
+      "discountPrice": 477,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3440070",
+      "url": "https://store.steampowered.com/app/1913120",
       "isSpecial": true,
       "isPopular": false
     },
@@ -216,14 +204,26 @@
       "isPopular": false
     },
     {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1784926504",
-      "originalPrice": 187,
-      "discountPrice": 115,
-      "discountPercent": 39,
+      "id": "3105440",
+      "title": "Heroes of Might and Magic: Olden Era",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3105440/e2e5d0b727a89e836985c9a05d410033a2d349d9/capsule_616x353.jpg?t=1784898415",
+      "originalPrice": 599,
+      "discountPrice": 449,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
+      "url": "https://store.steampowered.com/app/3105440",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3440070",
+      "title": "Dinoblade",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/43335ad2a148d293c4e4cd4e2da5735f3b031044/capsule_616x353.jpg?t=1784885012",
+      "originalPrice": 430,
+      "discountPrice": 387,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3440070",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9265,13 +9265,6 @@
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
     },
-    "steam_popular_413150": {
-      "title": "Stardew Valley",
-      "price": 137,
-      "percent": 40,
-      "timestamp": "2026-06-26T07:48:36.491Z",
-      "type": "popular"
-    },
     "steam_discount_266410": {
       "title": "iRacing",
       "price": 112,
@@ -10705,6 +10698,13 @@
       "price": 629,
       "percent": 30,
       "timestamp": "2026-07-26T02:58:18.998Z",
+      "type": "discount"
+    },
+    "steam_discount_3105440": {
+      "title": "Heroes of Might and Magic: Olden Era",
+      "price": 449,
+      "percent": 25,
+      "timestamp": "2026-07-26T09:09:41.800Z",
       "type": "discount"
     }
   }
