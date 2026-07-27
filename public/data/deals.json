@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T15:39:58.145Z",
+  "lastUpdated": "2026-07-27T17:39:45.149Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -10,7 +10,7 @@
       "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/foretales-d6c5bd",
-      "startDate": "2026-07-16T15:00:00.000Z",
+      "startDate": "2026-07-23T15:00:00.000Z",
       "endDate": "2026-07-30T15:00:00.000Z",
       "isFreeNow": true,
       "isUpcomingFree": false,
@@ -132,6 +132,18 @@
   ],
   "steam": [
     {
+      "id": "2684630",
+      "title": "Endacopia",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2684630/5e7427b6a49d4dd07a9f4ecac556a7c53006587d/capsule_616x353.jpg?t=1785164359",
+      "originalPrice": 359,
+      "discountPrice": 323,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2684630",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "4704690",
       "title": "MECCHA CHAMELEON",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1785107783",
@@ -140,18 +152,6 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
-      "id": "3722330",
-      "title": "Shift At Midnight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784981268",
-      "originalPrice": 230,
-      "discountPrice": 207,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3722330",
       "isSpecial": true,
       "isPopular": true
     },
@@ -168,6 +168,18 @@
       "isPopular": false
     },
     {
+      "id": "1149460",
+      "title": "ICARUS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/capsule_616x353.jpg?t=1784744651",
+      "originalPrice": 700,
+      "discountPrice": 140,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1149460",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2417610",
       "title": "METAL GEAR SOLID Δ: SNAKE EATER",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/9038732c9ed1efe365d102b1eb7d239f345ec791/capsule_616x353.jpg?t=1762249119",
@@ -180,14 +192,26 @@
       "isPopular": false
     },
     {
-      "id": "1149460",
-      "title": "ICARUS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/capsule_616x353.jpg?t=1784744651",
-      "originalPrice": 700,
-      "discountPrice": 140,
-      "discountPercent": 80,
+      "id": "3722330",
+      "title": "Shift At Midnight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784981268",
+      "originalPrice": 230,
+      "discountPrice": 207,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1149460",
+      "url": "https://store.steampowered.com/app/3722330",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1913120",
+      "title": "Tears of Metal",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784995292",
+      "originalPrice": 530,
+      "discountPrice": 477,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1913120",
       "isSpecial": true,
       "isPopular": false
     },
@@ -204,18 +228,6 @@
       "isPopular": false
     },
     {
-      "id": "1874880",
-      "title": "Arma Reforger",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874880/capsule_616x353.jpg?t=1779966148",
-      "originalPrice": 899,
-      "discountPrice": 629,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1874880",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3241660",
       "title": "R.E.P.O.",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
@@ -224,18 +236,6 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3241660",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1913120",
-      "title": "Tears of Metal",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784995292",
-      "originalPrice": 530,
-      "discountPrice": 477,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1913120",
       "isSpecial": true,
       "isPopular": false
     },
@@ -276,6 +276,18 @@
       "isPopular": true
     },
     {
+      "id": "951770",
+      "title": "Forsaken Realms: Vahrin's Call",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/951770/917f22122c96265740be8073b1cf971ddf016ffc/capsule_616x353.jpg?t=1785164441",
+      "originalPrice": 720,
+      "discountPrice": 648,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/951770",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "2806050",
       "title": "Halo: Campaign Evolved",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1784829117",
@@ -288,14 +300,14 @@
       "isPopular": true
     },
     {
-      "id": "951770",
-      "title": "Forsaken Realms: Vahrin's Call",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/951770/917f22122c96265740be8073b1cf971ddf016ffc/capsule_616x353.jpg?t=1785164441",
-      "originalPrice": 720,
-      "discountPrice": 648,
-      "discountPercent": 10,
+      "id": "3751950",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
+      "originalPrice": 1799,
+      "discountPrice": 1799,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/951770",
+      "url": "https://store.steampowered.com/app/3751950",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10719,6 +10731,20 @@
       "price": 648,
       "percent": 10,
       "timestamp": "2026-07-27T15:39:50.885Z",
+      "type": "popular"
+    },
+    "steam_discount_2684630": {
+      "title": "Endacopia",
+      "price": 323,
+      "percent": 10,
+      "timestamp": "2026-07-27T17:39:37.826Z",
+      "type": "discount"
+    },
+    "steam_popular_2684630": {
+      "title": "Endacopia",
+      "price": 323,
+      "percent": 10,
+      "timestamp": "2026-07-27T17:39:37.826Z",
       "type": "popular"
     }
   }
