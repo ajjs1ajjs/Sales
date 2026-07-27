@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T17:39:45.149Z",
+  "lastUpdated": "2026-07-27T19:22:06.836Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -132,18 +132,6 @@
   ],
   "steam": [
     {
-      "id": "2684630",
-      "title": "Endacopia",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2684630/5e7427b6a49d4dd07a9f4ecac556a7c53006587d/capsule_616x353.jpg?t=1785164359",
-      "originalPrice": 359,
-      "discountPrice": 323,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2684630",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "4704690",
       "title": "MECCHA CHAMELEON",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1785107783",
@@ -152,6 +140,30 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "1149460",
+      "title": "ICARUS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/capsule_616x353.jpg?t=1784744651",
+      "originalPrice": 700,
+      "discountPrice": 140,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1149460",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2684630",
+      "title": "Endacopia",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2684630/5e7427b6a49d4dd07a9f4ecac556a7c53006587d/capsule_616x353.jpg?t=1785164359",
+      "originalPrice": 359,
+      "discountPrice": 323,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2684630",
       "isSpecial": true,
       "isPopular": true
     },
@@ -168,18 +180,6 @@
       "isPopular": false
     },
     {
-      "id": "1149460",
-      "title": "ICARUS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/capsule_616x353.jpg?t=1784744651",
-      "originalPrice": 700,
-      "discountPrice": 140,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1149460",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2417610",
       "title": "METAL GEAR SOLID Δ: SNAKE EATER",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/9038732c9ed1efe365d102b1eb7d239f345ec791/capsule_616x353.jpg?t=1762249119",
@@ -188,6 +188,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2417610",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1091500",
+      "title": "Cyberpunk 2077",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1091500",
       "isSpecial": true,
       "isPopular": false
     },
@@ -216,6 +228,18 @@
       "isPopular": false
     },
     {
+      "id": "2138330",
+      "title": "Cyberpunk 2077: Ілюзія свободи",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1784713876",
+      "originalPrice": 699,
+      "discountPrice": 419,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2138330",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2699230",
       "title": "Grim Dawn - Fangs of Asterkarn",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/d9ea5bbe62eaa89f572b1fb2c4206cbce63cc3a3/capsule_616x353.jpg?t=1784815303",
@@ -224,30 +248,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2699230",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3241660",
-      "title": "R.E.P.O.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
-      "originalPrice": 194,
-      "discountPrice": 126,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3241660",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1784926504",
-      "originalPrice": 187,
-      "discountPrice": 115,
-      "discountPercent": 39,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
       "isSpecial": true,
       "isPopular": false
     },
@@ -276,18 +276,6 @@
       "isPopular": true
     },
     {
-      "id": "951770",
-      "title": "Forsaken Realms: Vahrin's Call",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/951770/917f22122c96265740be8073b1cf971ddf016ffc/capsule_616x353.jpg?t=1785164441",
-      "originalPrice": 720,
-      "discountPrice": 648,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/951770",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "2806050",
       "title": "Halo: Campaign Evolved",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1784829117",
@@ -296,6 +284,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2806050",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     },
@@ -10746,6 +10746,20 @@
       "percent": 10,
       "timestamp": "2026-07-27T17:39:37.826Z",
       "type": "popular"
+    },
+    "steam_discount_1091500": {
+      "title": "Cyberpunk 2077",
+      "price": 419,
+      "percent": 70,
+      "timestamp": "2026-07-27T19:22:01.153Z",
+      "type": "discount"
+    },
+    "steam_discount_2138330": {
+      "title": "Cyberpunk 2077: Ілюзія свободи",
+      "price": 419,
+      "percent": 40,
+      "timestamp": "2026-07-27T19:22:01.153Z",
+      "type": "discount"
     }
   }
 }
