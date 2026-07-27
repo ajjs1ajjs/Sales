@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T12:18:35.082Z",
+  "lastUpdated": "2026-07-27T15:39:58.145Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -10,7 +10,7 @@
       "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/foretales-d6c5bd",
-      "startDate": "2026-07-23T15:00:00.000Z",
+      "startDate": "2026-07-16T15:00:00.000Z",
       "endDate": "2026-07-30T15:00:00.000Z",
       "isFreeNow": true,
       "isUpcomingFree": false,
@@ -156,18 +156,6 @@
       "isPopular": true
     },
     {
-      "id": "2417610",
-      "title": "METAL GEAR SOLID Δ: SNAKE EATER",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/9038732c9ed1efe365d102b1eb7d239f345ec791/capsule_616x353.jpg?t=1762249119",
-      "originalPrice": 1475,
-      "discountPrice": 590,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2417610",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -176,6 +164,18 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2417610",
+      "title": "METAL GEAR SOLID Δ: SNAKE EATER",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/9038732c9ed1efe365d102b1eb7d239f345ec791/capsule_616x353.jpg?t=1762249119",
+      "originalPrice": 1475,
+      "discountPrice": 590,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2417610",
       "isSpecial": true,
       "isPopular": false
     },
@@ -204,14 +204,14 @@
       "isPopular": false
     },
     {
-      "id": "1913120",
-      "title": "Tears of Metal",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784995292",
-      "originalPrice": 530,
-      "discountPrice": 477,
-      "discountPercent": 10,
+      "id": "1874880",
+      "title": "Arma Reforger",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874880/capsule_616x353.jpg?t=1779966148",
+      "originalPrice": 899,
+      "discountPrice": 629,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1913120",
+      "url": "https://store.steampowered.com/app/1874880",
       "isSpecial": true,
       "isPopular": false
     },
@@ -228,26 +228,26 @@
       "isPopular": false
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1780329761",
-      "originalPrice": 1299,
-      "discountPrice": 389,
-      "discountPercent": 70,
+      "id": "1913120",
+      "title": "Tears of Metal",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784995292",
+      "originalPrice": 530,
+      "discountPrice": 477,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
+      "url": "https://store.steampowered.com/app/1913120",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "1874880",
-      "title": "Arma Reforger",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874880/capsule_616x353.jpg?t=1779966148",
-      "originalPrice": 899,
-      "discountPrice": 629,
-      "discountPercent": 30,
+      "id": "3892270",
+      "title": "Gamble With Your Friends",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1784926504",
+      "originalPrice": 187,
+      "discountPrice": 115,
+      "discountPercent": 39,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1874880",
+      "url": "https://store.steampowered.com/app/3892270",
       "isSpecial": true,
       "isPopular": false
     },
@@ -276,26 +276,26 @@
       "isPopular": true
     },
     {
-      "id": "4570720",
-      "title": "DragonSword : Awakening",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4570720/2b80e22ce77b81a4705683c2c14488a336e4e38d/capsule_616x353.jpg?t=1784900913",
-      "originalPrice": 799,
-      "discountPrice": 799,
+      "id": "2806050",
+      "title": "Halo: Campaign Evolved",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1784829117",
+      "originalPrice": 1999,
+      "discountPrice": 1999,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4570720",
+      "url": "https://store.steampowered.com/app/2806050",
       "isSpecial": false,
       "isPopular": true
     },
     {
-      "id": "3751950",
-      "title": "Assassin's Creed Black Flag Resynced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/caf2c6ef32bdbfaca877f917cea1076a4f0a520e/capsule_616x353.jpg?t=1783617053",
-      "originalPrice": 1799,
-      "discountPrice": 1799,
-      "discountPercent": 0,
+      "id": "951770",
+      "title": "Forsaken Realms: Vahrin's Call",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/951770/917f22122c96265740be8073b1cf971ddf016ffc/capsule_616x353.jpg?t=1785164441",
+      "originalPrice": 720,
+      "discountPrice": 648,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3751950",
+      "url": "https://store.steampowered.com/app/951770",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1962,7 +1962,7 @@
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NJJVQZ3BVPX",
       "isGamePass": true,
-      "isNewToGamePass": true,
+      "isNewToGamePass": false,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -10712,6 +10712,13 @@
       "price": 590,
       "percent": 60,
       "timestamp": "2026-07-27T00:03:06.462Z",
+      "type": "popular"
+    },
+    "steam_popular_951770": {
+      "title": "Forsaken Realms: Vahrin's Call",
+      "price": 648,
+      "percent": 10,
+      "timestamp": "2026-07-27T15:39:50.885Z",
       "type": "popular"
     }
   }
