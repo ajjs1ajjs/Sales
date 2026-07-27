@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T21:06:56.459Z",
+  "lastUpdated": "2026-07-27T22:57:57.208Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -141,7 +141,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "4704690",
@@ -156,14 +156,14 @@
       "isPopular": true
     },
     {
-      "id": "2417610",
-      "title": "METAL GEAR SOLID Δ: SNAKE EATER",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/9038732c9ed1efe365d102b1eb7d239f345ec791/capsule_616x353.jpg?t=1762249119",
-      "originalPrice": 1475,
-      "discountPrice": 590,
-      "discountPercent": 60,
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2417610",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": false
     },
@@ -180,14 +180,14 @@
       "isPopular": false
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
+      "id": "2417610",
+      "title": "METAL GEAR SOLID Δ: SNAKE EATER",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/9038732c9ed1efe365d102b1eb7d239f345ec791/capsule_616x353.jpg?t=1762249119",
+      "originalPrice": 1475,
+      "discountPrice": 590,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
+      "url": "https://store.steampowered.com/app/2417610",
       "isSpecial": true,
       "isPopular": false
     },
@@ -228,6 +228,18 @@
       "isPopular": false
     },
     {
+      "id": "2215200",
+      "title": "LEGO® Batman™: Legacy of the Dark Knight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1783025238",
+      "originalPrice": 1899,
+      "discountPrice": 1519,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2215200",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1913120",
       "title": "Tears of Metal",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784995292",
@@ -236,18 +248,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1913120",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2699230",
-      "title": "Grim Dawn - Fangs of Asterkarn",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/d9ea5bbe62eaa89f572b1fb2c4206cbce63cc3a3/capsule_616x353.jpg?t=1784815303",
-      "originalPrice": 405,
-      "discountPrice": 364,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2699230",
       "isSpecial": true,
       "isPopular": false
     },
@@ -264,18 +264,6 @@
       "isPopular": true
     },
     {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
-      "originalPrice": 600,
-      "discountPrice": 600,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "2806050",
       "title": "Halo: Campaign Evolved",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1784829117",
@@ -288,14 +276,14 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "1623730",
+      "title": "Palworld",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
+      "originalPrice": 600,
+      "discountPrice": 600,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
+      "url": "https://store.steampowered.com/app/1623730",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10748,6 +10736,20 @@
       "percent": 40,
       "timestamp": "2026-07-27T19:22:01.153Z",
       "type": "discount"
+    },
+    "steam_discount_2215200": {
+      "title": "LEGO® Batman™: Legacy of the Dark Knight",
+      "price": 1519,
+      "percent": 20,
+      "timestamp": "2026-07-27T22:57:50.284Z",
+      "type": "discount"
+    },
+    "steam_popular_1091500": {
+      "title": "Cyberpunk 2077",
+      "price": 419,
+      "percent": 70,
+      "timestamp": "2026-07-27T22:57:50.284Z",
+      "type": "popular"
     }
   }
 }
