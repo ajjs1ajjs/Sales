@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T13:58:08.726Z",
+  "lastUpdated": "2026-07-28T16:06:32.958Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -141,7 +141,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "3240220",
@@ -166,6 +166,18 @@
       "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": true,
       "isPopular": false
+    },
+    {
+      "id": "4594150",
+      "title": "Sir, We Have an Orc Problem",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4594150/14f59bcffd1b2ab5d745f5dd15f51b33d26f361c/capsule_616x353.jpg?t=1785243619",
+      "originalPrice": 129,
+      "discountPrice": 116,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4594150",
+      "isSpecial": true,
+      "isPopular": true
     },
     {
       "id": "3722330",
@@ -216,40 +228,16 @@
       "isPopular": false
     },
     {
-      "id": "3241660",
-      "title": "R.E.P.O.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
-      "originalPrice": 194,
-      "discountPrice": 126,
-      "discountPercent": 35,
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/e3dafad599e2901430fede53f249d6f104a58d4b/capsule_616x353_alt_assets_13_ukrainian.jpg?t=1785248228",
+      "originalPrice": 1299,
+      "discountPrice": 389,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3241660",
+      "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
       "isPopular": false
-    },
-    {
-      "id": "2699230",
-      "title": "Grim Dawn - Fangs of Asterkarn",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/d9ea5bbe62eaa89f572b1fb2c4206cbce63cc3a3/capsule_616x353.jpg?t=1784815303",
-      "originalPrice": 405,
-      "discountPrice": 364,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2699230",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2806050",
-      "title": "Halo: Campaign Evolved",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1784829117",
-      "originalPrice": 1999,
-      "discountPrice": 1999,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2806050",
-      "isSpecial": false,
-      "isPopular": true
     },
     {
       "id": "4165910",
@@ -272,6 +260,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4906890",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2806050",
+      "title": "Halo: Campaign Evolved",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1785250952",
+      "originalPrice": 1999,
+      "discountPrice": 1999,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2806050",
       "isSpecial": false,
       "isPopular": true
     },
@@ -3886,6 +3886,21 @@
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NBLGGH5WLR0",
       "isGamePass": true,
       "isNewToGamePass": false,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
+      "id": "9N6J4RNFPKKL",
+      "title": "Halo: Campaign Evolved — Standard Edition",
+      "description": "ПОРИНЬТЕ ТУДИ, ДЕ ПОЧИНАЄТЬСЯ ЛЕГЕНДА\nHalo: Campaign Evolved — це вірний оригіналу, але водночас сучасний римейк сюжетної кампанії Halo: Combat Evolved. Переживіть оригінальну історію заново — із високоякісною HD-графікою, оновленими кінематографічними сценами та вдосконаленим керуванням, а також абсолютно новою пригодою з трьох місій за участю Майстра Чіфа та сержанта Джонсона. Розширений арсенал зброї, техніки, ворогів і бойові модифікатори «Skulls» — додаткові параметри, що змінюють стиль бою, роблячи його цікавішим і складнішим — відкривають нові тактики та безкінечні можливості для повторного проходження гри. \n\nГрайте, як вам зручно: наодинці, удвох на розділеному екрані (лише на консолях) або в онлайні до 4 гравців із повною підтримкою кросплею та спільного прогресу.*  Незалежно від того, відкриваєте ви Halo вперше чи повертаєтеся на ринг після 25-річної перерви, з Halo: Campaign Evolved ви відправитесь у пригоду, що водночас здається і класичною, і зовсім новою.\n\nВІДКРИЙТЕ ДЛЯ СЕБЕ СВІТ-КІЛЬЦЕ: \nПісля аварійної посадки на загадковому світі-кільці, відомому як Halo, Майстер Чіф отримує завдання допомогти решткам людства вижити перед лицем переважаючих сил Ковенанту. Разом зі своєю помічницею на базі ШІ Кортаною він розкриває темні секрети Halo та веде відчайдушну боротьбу, аби не допустити загибелі всього живого в галактиці.\n\nПОВНЕ ОНОВЛЕННЯ КІНЕМАТОГРАФІЧНИХ СЦЕН І ЗВУКУ: \nПовністю нові візуальні ефекти й анімації, перероблений саундтрек і звукове оформлення для ще більшого занурення.\n\nРОЗШИРЕНІ БОЙОВІ МОЖЛИВОСТІ ТА АРСЕНАЛ: \nКласична бойова система Halo стала ще драйвовішою, а ваш арсенал поповнили 9 додаткових культових видів зброї з усієї серії.\n\nТРИ НОВІ МІСІЇ: \nГрайте за Майстра Чіфа разом із сержантом Джонсоном в окремій бойовій операції «Метеорит». На вас чекають нові локації, ігровий процес і вороги.\n\nГРАЙТЕ НАОДИНЦІ АБО З ДРУЗЯМИ: \nДва гравці на розділеному екрані (лише на консолях) або до 4 гравців в онлайні, з кросплеєм і спільним прогресом між консолями та ПК.\n\nВОДІННЯ, ВИКРАДЕННЯ, ХАОС: \nКультові транспортні засоби Halo повертаються, тепер із новими можливостями для створення незабутнього хаосу. Уперше в Halo: CE ви можете викрадати ворожі транспортні засоби та приміряти на себе роль оператора повністю керованого танка Wraith.\n\nНЕСКІНЧЕННІ МОЖЛИВОСТІ ДЛЯ РЕГРАБЕЛЬНОСТІ: \nЗмінюйте хід будь-якої місії за допомогою додаткових модифікаторів «Skulls», які додають різноманіття та складності завдяки випадковому розташуванню зброї, ворогів і локацій.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.55711.14013303168404443.9aeddd2c-3066-401b-a64b-fbe89019f14a.7d3e0d82-8972-47d4-956b-79be525dcb3c",
+      "originalPrice": 1999,
+      "discountPrice": 1999,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9N6J4RNFPKKL",
+      "isGamePass": true,
+      "isNewToGamePass": true,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -10757,6 +10772,27 @@
       "percent": 10,
       "timestamp": "2026-07-28T11:54:56.315Z",
       "type": "popular"
+    },
+    "steam_discount_4594150": {
+      "title": "Sir, We Have an Orc Problem",
+      "price": 116,
+      "percent": 10,
+      "timestamp": "2026-07-28T16:06:22.706Z",
+      "type": "discount"
+    },
+    "steam_popular_4594150": {
+      "title": "Sir, We Have an Orc Problem",
+      "price": 116,
+      "percent": 10,
+      "timestamp": "2026-07-28T16:06:22.706Z",
+      "type": "popular"
+    },
+    "xbox_new_9N6J4RNFPKKL": {
+      "title": "Halo: Campaign Evolved — Standard Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-28T16:06:22.706Z",
+      "type": "xbox_new"
     }
   }
 }
