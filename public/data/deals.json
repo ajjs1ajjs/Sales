@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T22:01:27.083Z",
+  "lastUpdated": "2026-07-28T23:56:24.302Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -153,7 +153,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "4594150",
@@ -216,6 +216,18 @@
       "isPopular": false
     },
     {
+      "id": "2417610",
+      "title": "METAL GEAR SOLID Δ: SNAKE EATER",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/9038732c9ed1efe365d102b1eb7d239f345ec791/capsule_616x353.jpg?t=1762249119",
+      "originalPrice": 1475,
+      "discountPrice": 590,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2417610",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1913120",
       "title": "Tears of Metal",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784995292",
@@ -236,18 +248,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2684630",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2417610",
-      "title": "METAL GEAR SOLID Δ: SNAKE EATER",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/9038732c9ed1efe365d102b1eb7d239f345ec791/capsule_616x353.jpg?t=1762249119",
-      "originalPrice": 1475,
-      "discountPrice": 590,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2417610",
       "isSpecial": true,
       "isPopular": false
     },
@@ -288,18 +288,6 @@
       "isPopular": true
     },
     {
-      "id": "4906890",
-      "title": "Le Mans Ultimate - US Track Pass",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4906890/c3ddce684608f35880fdb23efb68839f1a9d780a/capsule_616x353.jpg?t=1785238701",
-      "originalPrice": 1500,
-      "discountPrice": 1350,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4906890",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
@@ -308,6 +296,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4906890",
+      "title": "Le Mans Ultimate - US Track Pass",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4906890/c3ddce684608f35880fdb23efb68839f1a9d780a/capsule_616x353.jpg?t=1785238701",
+      "originalPrice": 1500,
+      "discountPrice": 1350,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4906890",
       "isSpecial": false,
       "isPopular": true
     }
