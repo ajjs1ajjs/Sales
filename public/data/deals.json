@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T16:18:37.252Z",
+  "lastUpdated": "2026-07-29T18:04:20.344Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -172,18 +172,6 @@
       "isPopular": true
     },
     {
-      "id": "3722330",
-      "title": "Shift At Midnight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784981268",
-      "originalPrice": 230,
-      "discountPrice": 207,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3722330",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/e3dafad599e2901430fede53f249d6f104a58d4b/capsule_616x353_alt_assets_13_ukrainian.jpg?t=1785341124",
@@ -220,18 +208,6 @@
       "isPopular": false
     },
     {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1784926504",
-      "originalPrice": 187,
-      "discountPrice": 115,
-      "discountPercent": 39,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1149460",
       "title": "ICARUS",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/capsule_616x353.jpg?t=1784744651",
@@ -244,18 +220,6 @@
       "isPopular": false
     },
     {
-      "id": "3241660",
-      "title": "R.E.P.O.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
-      "originalPrice": 194,
-      "discountPrice": 126,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3241660",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1913120",
       "title": "Tears of Metal",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784995292",
@@ -264,6 +228,30 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1913120",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3892270",
+      "title": "Gamble With Your Friends",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1784926504",
+      "originalPrice": 187,
+      "discountPrice": 187,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3892270",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2417610",
+      "title": "METAL GEAR SOLID Δ: SNAKE EATER",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/9038732c9ed1efe365d102b1eb7d239f345ec791/capsule_616x353.jpg?t=1762249119",
+      "originalPrice": 1475,
+      "discountPrice": 590,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2417610",
       "isSpecial": true,
       "isPopular": false
     },
@@ -294,7 +282,7 @@
     {
       "id": "3934250",
       "title": "Village in the Shade",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3934250/f3dc8c1ebbe5c6a6686cf799e382258d1d96b408/capsule_616x353.jpg?t=1785337239",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3934250/f3dc8c1ebbe5c6a6686cf799e382258d1d96b408/capsule_616x353.jpg?t=1785345724",
       "originalPrice": 1125,
       "discountPrice": 1125,
       "discountPercent": 0,
@@ -9311,13 +9299,6 @@
       "timestamp": "2026-07-03T15:08:25.816Z",
       "type": "discount"
     },
-    "steam_popular_4165910": {
-      "title": "Steam Machine",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-06-29T17:33:38.972Z",
-      "type": "popular"
-    },
     "steam_popular_2323150": {
       "title": "Underground roof fall hazard assessment VR Training",
       "price": 5600,
@@ -10835,6 +10816,13 @@
       "price": 1125,
       "percent": 0,
       "timestamp": "2026-07-29T16:18:31.923Z",
+      "type": "popular"
+    },
+    "steam_popular_4165910": {
+      "title": "Steam Machine",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-29T18:04:14.027Z",
       "type": "popular"
     }
   }
