@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T02:28:20.806Z",
+  "lastUpdated": "2026-07-29T05:48:59.752Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -144,18 +144,6 @@
       "isPopular": true
     },
     {
-      "id": "4704690",
-      "title": "MECCHA CHAMELEON",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1785107783",
-      "originalPrice": 155,
-      "discountPrice": 131,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4704690",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "3722330",
       "title": "Shift At Midnight",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784981268",
@@ -164,6 +152,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3722330",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "4704690",
+      "title": "MECCHA CHAMELEON",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1785107783",
+      "originalPrice": 155,
+      "discountPrice": 131,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": true,
       "isPopular": false
     },
@@ -188,18 +188,6 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2138330",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2417610",
-      "title": "METAL GEAR SOLID Δ: SNAKE EATER",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/9038732c9ed1efe365d102b1eb7d239f345ec791/capsule_616x353.jpg?t=1762249119",
-      "originalPrice": 1475,
-      "discountPrice": 590,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2417610",
       "isSpecial": true,
       "isPopular": false
     },
@@ -240,28 +228,28 @@
       "isPopular": false
     },
     {
-      "id": "1149460",
-      "title": "ICARUS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/capsule_616x353.jpg?t=1784744651",
-      "originalPrice": 700,
-      "discountPrice": 140,
-      "discountPercent": 80,
+      "id": "3892270",
+      "title": "Gamble With Your Friends",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1784926504",
+      "originalPrice": 187,
+      "discountPrice": 115,
+      "discountPercent": 39,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1149460",
+      "url": "https://store.steampowered.com/app/3892270",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "2806050",
-      "title": "Halo: Campaign Evolved",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1785260966",
-      "originalPrice": 1999,
-      "discountPrice": 1999,
-      "discountPercent": 0,
+      "id": "2417610",
+      "title": "METAL GEAR SOLID Δ: SNAKE EATER",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/9038732c9ed1efe365d102b1eb7d239f345ec791/capsule_616x353.jpg?t=1762249119",
+      "originalPrice": 1475,
+      "discountPrice": 590,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2806050",
-      "isSpecial": false,
-      "isPopular": true
+      "url": "https://store.steampowered.com/app/2417610",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "4165910",
@@ -272,6 +260,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2806050",
+      "title": "Halo: Campaign Evolved",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1785260966",
+      "originalPrice": 1999,
+      "discountPrice": 1999,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2806050",
       "isSpecial": false,
       "isPopular": true
     },
@@ -9293,13 +9293,6 @@
       "price": 420,
       "percent": 30,
       "timestamp": "2026-07-03T15:08:25.816Z",
-      "type": "discount"
-    },
-    "steam_discount_1256670": {
-      "title": "Library Of Ruina",
-      "price": 128,
-      "percent": 66,
-      "timestamp": "2026-06-29T05:28:38.459Z",
       "type": "discount"
     },
     "steam_discount_648800": {
