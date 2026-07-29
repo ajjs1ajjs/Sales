@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T23:56:24.302Z",
+  "lastUpdated": "2026-07-29T02:28:20.806Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -141,7 +141,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "4704690",
@@ -154,6 +154,18 @@
       "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": true,
       "isPopular": true
+    },
+    {
+      "id": "3722330",
+      "title": "Shift At Midnight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784981268",
+      "originalPrice": 230,
+      "discountPrice": 207,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3722330",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "4594150",
@@ -180,14 +192,14 @@
       "isPopular": false
     },
     {
-      "id": "3722330",
-      "title": "Shift At Midnight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/d3129300e7b1c41d36ebe2be53ff820e9599d8f6/capsule_616x353.jpg?t=1784981268",
-      "originalPrice": 230,
-      "discountPrice": 207,
-      "discountPercent": 10,
+      "id": "2417610",
+      "title": "METAL GEAR SOLID Δ: SNAKE EATER",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/9038732c9ed1efe365d102b1eb7d239f345ec791/capsule_616x353.jpg?t=1762249119",
+      "originalPrice": 1475,
+      "discountPrice": 590,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3722330",
+      "url": "https://store.steampowered.com/app/2417610",
       "isSpecial": true,
       "isPopular": false
     },
@@ -200,30 +212,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1149460",
-      "title": "ICARUS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/capsule_616x353.jpg?t=1784744651",
-      "originalPrice": 700,
-      "discountPrice": 140,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1149460",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2417610",
-      "title": "METAL GEAR SOLID Δ: SNAKE EATER",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/9038732c9ed1efe365d102b1eb7d239f345ec791/capsule_616x353.jpg?t=1762249119",
-      "originalPrice": 1475,
-      "discountPrice": 590,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2417610",
       "isSpecial": true,
       "isPopular": false
     },
@@ -248,6 +236,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2684630",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1149460",
+      "title": "ICARUS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/capsule_616x353.jpg?t=1784744651",
+      "originalPrice": 700,
+      "discountPrice": 140,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1149460",
       "isSpecial": true,
       "isPopular": false
     },
@@ -296,18 +296,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4906890",
-      "title": "Le Mans Ultimate - US Track Pass",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4906890/c3ddce684608f35880fdb23efb68839f1a9d780a/capsule_616x353.jpg?t=1785238701",
-      "originalPrice": 1500,
-      "discountPrice": 1350,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4906890",
       "isSpecial": false,
       "isPopular": true
     }
@@ -2494,14 +2482,14 @@
       "description": "МІСТИТЬ 8000 МІСЯЧНОГО КАМІННЯ*\r\n\r\nDisney Dreamlight Valley - це суміш між симулятором життя та пригодницькою грою. Гра насичена завданнями, дослідженням та захоплюючими заняттями за участю як старих, так і нових друзів Disney та Pixar.\r\n\r\nКолись ідилічна земля, Долина Дрімлайт була місцем, де герої Disney та Pixar проживали в гармонії... доки не настало Забуття. Нічні колючки проросли по всій землі і розірвали чудові спогади, пов'язані з цим чарівним місцем. Не маючи куди піти, мешканці Долини Дрімлайт, що втратили надію, сховалися за замкненими дверима Замку мрій.\r\n\r\nТепер саме вам належить відкрити для себе історії цього світу і повернути магію в Долину Дрімлайт!\r\n\r\nВідкрийте для себе таємниці Долини Дрімлайт\r\nЗвільніть Замок мрій від підступної хватки Забуття та відкрийте унікальні царства улюблених персонажів Disney та Pixar, у тому числі великих королев і королів, таких як Анна і Сімба. Кожне Королівство містить унікальні завдання з головоломками, які потрібно розгадати, щоб повернути дружбу в Долину.\r\nВи розпочнете свою пригоду в Долині, але ваша подорож заведе вас до нескінченності... і далі! Дослідіть, що ховається в Лісі Доблесті, і зважтеся зазирнути у найглибші печери, приймаючи виклики від культових героїв та лиходіїв Disney та Pixar. Хто знає, кого - або що - ви можете там знайти. \r\n\r\nЗміцнюйте дружбу з персонажами Disney та Pixar\r\nСадіть разом з ВОЛЛ-І, готуйте разом з Ремі або розслабтеся та рибальте разом з Гуфі. Що може бути краще, ніж збирати, майструвати та відновлювати Долину разом з другом! Від прекрасних принцес до підступних лиходіїв - кожен мешканець Долини Дрімлайт має свою власну сюжетну лінію, завдання та винагороди. Зустрічайтеся на щоденних тусовках і потоваришуйте з улюбленими персонажами Disney та Pixar.\r\n\r\nВідновіть колишню славу Долини\r\nЗвільніть Долину Дрімлайт від влади Забуття та поверніть їй колишню велич, зробивши її своєю власною. У Dreamlight Valley ви можете побудувати ідеальний район, що підходить саме вам, з повністю налаштованим плануванням, креативним ландшафтним дизайном і тисячами декоративних елементів.\r\nХочете влаштуватися на пляжі поруч с хатинкою Ваяни? А може, вашим сусідом стане Базз Лайтер?\r\n\r\nВиразіть свій стиль Disney\r\nРозкрийте свою внутрішню принцесу, лиходія або діснеївського розбійника! Зберіть унікальне вбрання та прикрасьте свій будинок тисячами фантастичних предметів. За допомогою інструмента Дотик магії ви можете навіть створювати свої власні малюнки, використовуючи наклейки Disney та Pixar!\r\nЗа допомогою вбудованої камери приготуйтеся зробити селфі на заході сонця з Мірабель, кулінарне творіння з Ремі або просто зафіксувати мить.\r\n\r\nГра у постійному розвитку\r\nНовий контент означає, що завжди є щось свіже для дослідження. Зустрічайте нових персонажів у Долині, перевіряйте останні колекції одягу та меблів у магазині Скруджа, а також виконуйте складні ігрові завдання! Не пропустіть можливість регулярно повертатися в Долину Дрімлайт, щоб відкрити для себе нові пригоди!\r\n\r\n*Місячне каміння - це внутрішньоігрова валюта, яку можна отримати безкоштовно за виконання ігрових завдань або придбати за реальні гроші. Вони використовуються для відкриття преміум-версії Шляху Зірок (схожа на Бойовий пропуск система, що нагороджує гравця косметичними предметами за виконання різних завдань та задач). Місячне каміння також може бути використане для прискорення прогресу Шляху Зірок. Також за Місячне каміння можна придбати косметичні товари із внутрішньоігрового магазину.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.22218.14365104417622257.a416f4b3-90d8-4dd6-b445-c3e51f46f9d2.f5ced13b-1cda-4a9a-93da-544cc91fcffe",
       "originalPrice": 1030,
-      "discountPrice": 1030,
-      "discountPercent": 0,
+      "discountPrice": 721,
+      "discountPercent": 30,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NSF0BGH8D86",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N6Z8DQXSQWH",
@@ -9239,6 +9227,21 @@
       "isDiscounted": false
     },
     {
+      "id": "9N4X0WFZ2STM",
+      "title": "Zenless Zone Zero",
+      "description": "Zenless Zone Zero is HoYoverse's brand-new urban fantasy ARPG.\n\nHere, contemporary civilization has been destroyed by a calamity known as \"Hollows.\" They appear out of thin air, creating spatial anomalies filled with formidable monsters — \"Ethereals.\"\n \nAmidst this overwhelming catastrophe, New Eridu, the last metropolis that survived the apocalypse, has risen against the odds by harnessing the technology and resources necessary to fight the Hollow disaster, gradually evolving into human civilization's last beacon of hope.\n \nIn New Eridu, you step into the shoes of a Proxy, a professional specialized in navigating the dangerous Hollows, guiding those who, for various reasons, need to venture inside. You will embark on an adventure with unique characters to explore Hollows, battle formidable enemies, complete commissions, and learn about the mysteries behind the city.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.56867.13974579424110118.a7c4bc1b-04b3-4177-85c0-1252f18d6f9c.6d018030-74e6-4dcd-a504-a34a6c0b5f4d",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9N4X0WFZ2STM",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
       "id": "9NLZH0VNVSKR",
       "title": "ZOMBI",
       "description": "PURE SURVIVAL HORROR\nResources are scarce, your enemies are numerous, and you never know when you’ll find more weapons, ammo, first aid, or food. How you allocate the resources determines if you live or die.\n\nWITH PERMADEATH, EVERYTHING IS AT STAKE\nSurvival is not guaranteed. Once you die, your character joins the horde of undead shambling through London. You’ll come back as an entirely new character and try to survive, again.\n\nBUG-OUT BAG\nYour bug-out bag holds all your tools, inventory, first aid kits, maps, and more. Don’t get distracted, as zombies can attack you at any moment. If you die, your bag stays with your old character, who is now a zombie. Will you risk it all to get your bag back, or start scavenging anew?",
@@ -10802,6 +10805,13 @@
       "price": 0,
       "percent": 0,
       "timestamp": "2026-07-28T16:06:22.706Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9N4X0WFZ2STM": {
+      "title": "Zenless Zone Zero",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-07-29T02:28:14.062Z",
       "type": "xbox_new"
     }
   }
