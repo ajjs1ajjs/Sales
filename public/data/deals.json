@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T05:48:59.752Z",
+  "lastUpdated": "2026-07-29T08:34:36.836Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -153,7 +153,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3722330",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "4704690",
@@ -204,42 +204,6 @@
       "isPopular": false
     },
     {
-      "id": "1913120",
-      "title": "Tears of Metal",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/7cf569d2cc8eac5319de170b1e84af259443edde/capsule_616x353.jpg?t=1784995292",
-      "originalPrice": 530,
-      "discountPrice": 477,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1913120",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2684630",
-      "title": "Endacopia",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2684630/5e7427b6a49d4dd07a9f4ecac556a7c53006587d/capsule_616x353.jpg?t=1785164359",
-      "originalPrice": 359,
-      "discountPrice": 323,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2684630",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1784926504",
-      "originalPrice": 187,
-      "discountPrice": 115,
-      "discountPercent": 39,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2417610",
       "title": "METAL GEAR SOLID Δ: SNAKE EATER",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/9038732c9ed1efe365d102b1eb7d239f345ec791/capsule_616x353.jpg?t=1762249119",
@@ -248,6 +212,30 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2417610",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1149460",
+      "title": "ICARUS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/capsule_616x353.jpg?t=1784744651",
+      "originalPrice": 700,
+      "discountPrice": 140,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1149460",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3241660",
+      "title": "R.E.P.O.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
+      "originalPrice": 194,
+      "discountPrice": 126,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3241660",
       "isSpecial": true,
       "isPopular": false
     },
@@ -288,14 +276,14 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "266410",
+      "title": "iRacing",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1785202053",
+      "originalPrice": 225,
+      "discountPrice": 225,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
+      "url": "https://store.steampowered.com/app/266410",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10806,6 +10794,13 @@
       "percent": 0,
       "timestamp": "2026-07-29T02:28:14.062Z",
       "type": "xbox_new"
+    },
+    "steam_popular_266410": {
+      "title": "iRacing",
+      "price": 225,
+      "percent": 0,
+      "timestamp": "2026-07-29T08:34:31.837Z",
+      "type": "popular"
     }
   }
 }
