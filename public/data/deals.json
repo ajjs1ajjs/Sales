@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T19:20:53.964Z",
+  "lastUpdated": "2026-07-30T21:05:13.087Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -80,30 +80,6 @@
       "isPopular": true
     },
     {
-      "id": "3934270",
-      "title": "How Many Dudes?",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3934270/bc1c26d78a8187807b7b06c40c4eefea274a3977/capsule_616x353.jpg?t=1785428583",
-      "originalPrice": 335,
-      "discountPrice": 217,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3934270",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1091500",
-      "title": "Cyberpunk 2077",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1091500",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1817070",
       "title": "Marvel’s Spider-Man Remastered",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg?t=1763569047",
@@ -124,6 +100,54 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2651280",
+      "title": "Marvel's Spider-Man 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg?t=1763569811",
+      "originalPrice": 1699,
+      "discountPrice": 1138,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2651280",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1091500",
+      "title": "Cyberpunk 2077",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1091500",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1817190",
+      "title": "Marvel’s Spider-Man: Miles Morales",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/capsule_616x353.jpg?t=1763569499",
+      "originalPrice": 1499,
+      "discountPrice": 599,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1817190",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3934270",
+      "title": "How Many Dudes?",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3934270/bc1c26d78a8187807b7b06c40c4eefea274a3977/capsule_616x353.jpg?t=1785428583",
+      "originalPrice": 335,
+      "discountPrice": 217,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3934270",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,18 +176,6 @@
       "isPopular": false
     },
     {
-      "id": "3558600",
-      "title": "Leafy Corner",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3558600/3259667d87931aaee8963ba58d844856dd8cb30f/capsule_616x353.jpg?t=1785432023",
-      "originalPrice": 199,
-      "discountPrice": 159,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3558600",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "252490",
       "title": "Rust",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
@@ -172,18 +184,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/252490",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2651280",
-      "title": "Marvel's Spider-Man 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg?t=1763569811",
-      "originalPrice": 1699,
-      "discountPrice": 1138,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2651280",
       "isSpecial": true,
       "isPopular": false
     },
@@ -10880,6 +10880,13 @@
       "price": 159,
       "percent": 20,
       "timestamp": "2026-07-30T19:20:44.013Z",
+      "type": "discount"
+    },
+    "steam_discount_1817190": {
+      "title": "Marvel’s Spider-Man: Miles Morales",
+      "price": 599,
+      "percent": 60,
+      "timestamp": "2026-07-30T21:05:07.493Z",
       "type": "discount"
     }
   }
