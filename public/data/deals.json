@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T21:05:13.087Z",
+  "lastUpdated": "2026-07-30T23:02:34.405Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -92,18 +92,6 @@
       "isPopular": false
     },
     {
-      "id": "4704690",
-      "title": "MECCHA CHAMELEON",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1785107783",
-      "originalPrice": 155,
-      "discountPrice": 131,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4704690",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2651280",
       "title": "Marvel's Spider-Man 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg?t=1763569811",
@@ -116,14 +104,26 @@
       "isPopular": false
     },
     {
-      "id": "1091500",
-      "title": "Cyberpunk 2077",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
+      "id": "3934270",
+      "title": "How Many Dudes?",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3934270/bc1c26d78a8187807b7b06c40c4eefea274a3977/capsule_616x353.jpg?t=1785428583",
+      "originalPrice": 335,
+      "discountPrice": 217,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1091500",
+      "url": "https://store.steampowered.com/app/3934270",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4704690",
+      "title": "MECCHA CHAMELEON",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1785107783",
+      "originalPrice": 155,
+      "discountPrice": 131,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": true,
       "isPopular": false
     },
@@ -140,14 +140,14 @@
       "isPopular": false
     },
     {
-      "id": "3934270",
-      "title": "How Many Dudes?",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3934270/bc1c26d78a8187807b7b06c40c4eefea274a3977/capsule_616x353.jpg?t=1785428583",
-      "originalPrice": 335,
-      "discountPrice": 217,
-      "discountPercent": 35,
+      "id": "1091500",
+      "title": "Cyberpunk 2077",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3934270",
+      "url": "https://store.steampowered.com/app/1091500",
       "isSpecial": true,
       "isPopular": false
     },
@@ -176,14 +176,14 @@
       "isPopular": false
     },
     {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
+      "id": "3164500",
+      "title": "Schedule I",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164500/86e34f84a874cf1853c6b45b7b5948694c7794cb/capsule_616x353.jpg?t=1773974661",
+      "originalPrice": 415,
+      "discountPrice": 290,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
+      "url": "https://store.steampowered.com/app/3164500",
       "isSpecial": true,
       "isPopular": false
     },
@@ -224,18 +224,6 @@
       "isPopular": true
     },
     {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
-      "originalPrice": 600,
-      "discountPrice": 600,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "2806050",
       "title": "Halo: Campaign Evolved",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1785367749",
@@ -244,6 +232,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2806050",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1623730",
+      "title": "Palworld",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
+      "originalPrice": 600,
+      "discountPrice": 600,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1623730",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10887,6 +10887,13 @@
       "price": 599,
       "percent": 60,
       "timestamp": "2026-07-30T21:05:07.493Z",
+      "type": "discount"
+    },
+    "steam_discount_3164500": {
+      "title": "Schedule I",
+      "price": 290,
+      "percent": 30,
+      "timestamp": "2026-07-30T23:02:27.983Z",
       "type": "discount"
     }
   }
