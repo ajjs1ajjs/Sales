@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T02:03:41.991Z",
+  "lastUpdated": "2026-07-30T05:37:01.350Z",
   "epic": [
     {
       "id": "223c59e227e74e079a1bbe5a234b896f",
@@ -10,7 +10,7 @@
       "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/foretales-d6c5bd",
-      "startDate": "2026-07-23T15:00:00.000Z",
+      "startDate": "2026-07-16T15:00:00.000Z",
       "endDate": "2026-07-30T15:00:00.000Z",
       "isFreeNow": true,
       "isUpcomingFree": false,
@@ -172,6 +172,18 @@
       "isPopular": false
     },
     {
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/e3dafad599e2901430fede53f249d6f104a58d4b/capsule_616x353_alt_assets_13_ukrainian.jpg?t=1785341124",
+      "originalPrice": 1299,
+      "discountPrice": 389,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2183900",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "252490",
       "title": "Rust",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
@@ -180,18 +192,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/252490",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4594150",
-      "title": "Sir, We Have an Orc Problem",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4594150/14f59bcffd1b2ab5d745f5dd15f51b33d26f361c/capsule_616x353.jpg?t=1785243619",
-      "originalPrice": 129,
-      "discountPrice": 116,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4594150",
       "isSpecial": true,
       "isPopular": false
     },
@@ -208,14 +208,26 @@
       "isPopular": false
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/e3dafad599e2901430fede53f249d6f104a58d4b/capsule_616x353_alt_assets_13_ukrainian.jpg?t=1785341124",
-      "originalPrice": 1299,
-      "discountPrice": 389,
-      "discountPercent": 70,
+      "id": "4594150",
+      "title": "Sir, We Have an Orc Problem",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4594150/14f59bcffd1b2ab5d745f5dd15f51b33d26f361c/capsule_616x353.jpg?t=1785243619",
+      "originalPrice": 129,
+      "discountPrice": 116,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
+      "url": "https://store.steampowered.com/app/4594150",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3241660",
+      "title": "R.E.P.O.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
+      "originalPrice": 194,
+      "discountPrice": 126,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3241660",
       "isSpecial": true,
       "isPopular": false
     },
@@ -256,16 +268,16 @@
       "isPopular": false
     },
     {
-      "id": "2684630",
-      "title": "Endacopia",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2684630/5e7427b6a49d4dd07a9f4ecac556a7c53006587d/capsule_616x353.jpg?t=1785317935",
-      "originalPrice": 359,
-      "discountPrice": 323,
-      "discountPercent": 10,
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2684630",
-      "isSpecial": true,
-      "isPopular": false
+      "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
     },
     {
       "id": "3282300",
@@ -276,18 +288,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3282300",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isPopular": true
     },
@@ -324,18 +324,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4572310",
-      "title": "Mistfall Hunter - Upgrade to Deluxe Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572310/9b1e81194b87e9f3a5578efba1076ab6d4b91cd7/capsule_616x353.jpg?t=1785373126",
-      "originalPrice": 300,
-      "discountPrice": 270,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4572310",
       "isSpecial": false,
       "isPopular": true
     }
