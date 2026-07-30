@@ -1,22 +1,6 @@
 {
-  "lastUpdated": "2026-07-30T13:51:13.225Z",
+  "lastUpdated": "2026-07-30T15:50:06.099Z",
   "epic": [
-    {
-      "id": "223c59e227e74e079a1bbe5a234b896f",
-      "title": "Foretales",
-      "description": "Decide the fate of the world in this ingenious story-driven card game.\n\nForetales offers a unique take on the adventure genre, with a multitude of playstyles and story paths through which you can save the world… or bring about its end.",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/2b593b82aea84695b1608d74d3850ceb/foretales-offer-urvzn.jpg",
-      "originalPrice": 590,
-      "discountPrice": 0,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/foretales-d6c5bd",
-      "startDate": "2026-07-23T15:00:00.000Z",
-      "endDate": "2026-07-30T15:00:00.000Z",
-      "isFreeNow": true,
-      "isUpcomingFree": false,
-      "isDiscounted": false,
-      "discountPercent": 100
-    },
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
       "title": "Beacon Pines",
@@ -34,84 +18,20 @@
       "discountPercent": 0
     },
     {
-      "id": "921e40c4c69f4d728914ca2a4f0aa407",
-      "title": "Eternal Threads",
-      "description": "Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
-      "originalPrice": 369,
-      "discountPrice": 73.8,
+      "id": "231e8f6d250a453f9c44c0adf3a34656",
+      "title": "We Were Here Together",
+      "description": "Поки ми досліджуємо ці замерзлі пустки, нещастя знову завдає удару. Крізь люту хуртовину спалахує сигнальна ракета, а за нею — крик про допомогу по радіо — уривчастий, згасаючий... Ніхто інший не зможе прийти на порятунок. Чи зможемо ми повернутися — разом?",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/f24f7e149dc64df18f14dfab4f6dae4d/we-were-here-together-1w9jc.png",
+      "originalPrice": 239,
+      "discountPrice": 239,
       "currency": "UAH",
-      "url": "https://store.epicgames.com/p/eternal-threads-197169",
-      "startDate": "2026-07-16T15:00:00.000Z",
-      "endDate": "2026-07-30T15:00:00.000Z",
+      "url": "https://store.epicgames.com/p/we-were-here-together-6a6d66",
+      "startDate": "2026-08-06T15:00:00.000Z",
+      "endDate": "2026-08-13T15:00:00.000Z",
       "isFreeNow": false,
-      "isUpcomingFree": false,
-      "isDiscounted": true,
-      "discountPercent": 80
-    },
-    {
-      "id": "be5600439b434624802764f704755cde",
-      "title": "Ghostrunner 2",
-      "description": "Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
-      "imageUrl": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
-      "originalPrice": 999,
-      "discountPrice": 199.8,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/ghostrunner-2",
-      "startDate": "2026-07-16T15:00:00.000Z",
-      "endDate": "2026-07-30T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": false,
-      "isDiscounted": true,
-      "discountPercent": 80
-    },
-    {
-      "id": "4a88d0dc64114b20b67339c74543f859",
-      "title": "Lost Castle: The Old Ones Awaken",
-      "description": "The Old Ones Awaken adds new levels to explore, new enemies to defeat, and new bosses to face along with a host exciting new weapons and equipment to wield and wear.",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/a6d76157ad884f2c9aa470b30da9e2ff/lost-castle-r390n.png",
-      "originalPrice": 73,
-      "discountPrice": 36.5,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/lost-castle-abb2e2",
-      "startDate": "2026-07-16T15:00:00.000Z",
-      "endDate": "2026-07-30T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": false,
-      "isDiscounted": true,
-      "discountPercent": 50
-    },
-    {
-      "id": "8f80897c0b6e4e678fed08da169d44be",
-      "title": "Castlevania Anniversary Collection",
-      "description": "Konami's Castlevania Anniversary Collection traces the origins of the historic vampire franchise. Included is a unique eBook with details provided by developers, artists and others inspired by the Castlevania legacy which sheds a fresh light into the world of Castlevania.",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
-      "originalPrice": 279,
-      "discountPrice": 111.6,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/castlevania-anniversary-collection-a61f94",
-      "startDate": "2026-07-16T15:00:00.000Z",
-      "endDate": "2026-07-30T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": false,
-      "isDiscounted": true,
-      "discountPercent": 60
-    },
-    {
-      "id": "f967cff9761c4198b4e972cfd71e40d7",
-      "title": "Monument Valley",
-      "description": "Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
-      "originalPrice": 187,
-      "discountPrice": 46.75,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/monument-valley-1d99d3",
-      "startDate": "2026-07-20T09:50:00.701Z",
-      "endDate": "2026-07-30T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": false,
-      "isDiscounted": true,
-      "discountPercent": 75
+      "isUpcomingFree": true,
+      "isDiscounted": false,
+      "discountPercent": 0
     },
     {
       "id": "fb86769d4908427986ca9f7d94b581c2",
@@ -119,15 +39,15 @@
       "description": "Увійдіть у незрозумілий і загадковий маєток, щоб врятувати свою кохану в цьому динамічному, жорстокому й похмурому роуглайті, з брутальними перестрілками на точність та ефектом сповільненої дії.",
       "imageUrl": "https://cdn1.epicgames.com/spt-assets/f6da0031691c4d94a6e21255b18c1710/otxo-wtcug.jpg",
       "originalPrice": 275,
-      "discountPrice": 123.75,
+      "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/otxo-396b8b",
       "startDate": "2026-07-30T15:00:00.000Z",
       "endDate": "2026-08-06T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": true,
-      "isDiscounted": true,
-      "discountPercent": 55
+      "isFreeNow": true,
+      "isUpcomingFree": false,
+      "isDiscounted": false,
+      "discountPercent": 100
     },
     {
       "id": "c71375f1ac9444fcae1ca584a53ba6f0",
@@ -135,15 +55,15 @@
       "description": "Sol Cesto is a tactical and frantic roguelite where mastering your luck is key. Choose a hero, upgrade them using cursed teeth and magical items, and descend to the bottom of an ever-changing dungeon. In this dark world, every action has consequences…",
       "imageUrl": "https://cdn1.epicgames.com/spt-assets/30d70e74bab1498686aba69969a6c19e/sol-cesto-1ara2.png",
       "originalPrice": 150,
-      "discountPrice": 150,
+      "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/sol-cesto-e9b803",
       "startDate": "2026-07-30T15:00:00.000Z",
       "endDate": "2026-08-06T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": true,
+      "isFreeNow": true,
+      "isUpcomingFree": false,
       "isDiscounted": false,
-      "discountPercent": 0
+      "discountPercent": 100
     }
   ],
   "steam": [
@@ -196,6 +116,18 @@
       "isPopular": false
     },
     {
+      "id": "1097840",
+      "title": "Gears 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1097840/capsule_616x353.jpg?t=1780003997",
+      "originalPrice": 760,
+      "discountPrice": 114,
+      "discountPercent": 85,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1097840",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "252490",
       "title": "Rust",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
@@ -208,18 +140,6 @@
       "isPopular": false
     },
     {
-      "id": "2138330",
-      "title": "Cyberpunk 2077: Ілюзія свободи",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1784713876",
-      "originalPrice": 699,
-      "discountPrice": 419,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2138330",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1149460",
       "title": "ICARUS",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/capsule_616x353.jpg?t=1784744651",
@@ -228,6 +148,18 @@
       "discountPercent": 80,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1149460",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2138330",
+      "title": "Cyberpunk 2077: Ілюзія свободи",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1784713876",
+      "originalPrice": 699,
+      "discountPrice": 419,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2138330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -252,18 +184,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4594150",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2699230",
-      "title": "Grim Dawn - Fangs of Asterkarn",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/d9ea5bbe62eaa89f572b1fb2c4206cbce63cc3a3/capsule_616x353.jpg?t=1785339653",
-      "originalPrice": 405,
-      "discountPrice": 364,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2699230",
       "isSpecial": true,
       "isPopular": false
     },
@@ -4220,8 +4140,8 @@
     {
       "id": "BSMZH25V6V46",
       "title": "Human Fall Flat",
-      "description": "***NEW LEVELS 'HIKE' AND 'CANDYLAND' AVAILABLE NOW***\n\nCrossplay with friends on Xbox One, Xbox Series X|S and Windows 10.\n\nIncludes 29 great levels. Over 55 million units sold across all formats.\n\nGet ready for a sugar rush with the release of a brand-new level for Human Fall Flat, Candyland! \n\nStep into this sweet new level and start exploring sugar crystal spires, marshmallows soft enough to munch on, a castle complete with crisp chocolate portcullis and a waffle-y devious selection of new obstacles to overcome!\n\nTo infiltrate this castle, you’ll need to gingerly navigate seesaw platforms, use candycanes to slide down ziplines, ride waffle rafts down a chocolate river, bounce between the marshmallow blobs blocking your way - and plenty more besides!\n\nPlay solo or call your friends; seven pals by your side in co-op maximises the silliness of an outsized adventure.\n\nHuman: Fall Flat is a hilarious, light-hearted physics platformer set in a world of floating dreamscapes. \n \nEach dream level provides a new environment to navigate, from mansions, castles and Aztec adventures to snowy mountains, eerie nightscapes and industrial locations. Multiple routes through each level, and perfectly playful puzzles ensure exploration and ingenuity are rewarded.\n\nThis game leverages Smart Delivery allowing access to both the Xbox One title and the Xbox Series X|S title.\"",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.39927.69811231537758929.2c9d4e54-bad3-430f-aef8-714e2cc8969d.448380bb-35c0-49e1-90e5-cab460a7f3db",
+      "description": "***NEW LEVELS STEAMPUNK PARTY + TEST CHAMBER AVAILABLE NOW***\n\nCrossplay with friends on Xbox One, Xbox Series X|S and Windows 10.\n\nIncludes 31 great levels. Over 55 million units sold across all formats.\n\nParty Animals’ Nemo & Otta join the mayhem in the very first crossover collaboration for Human Fall Flat! The pair make their cameo in Steampunk Party. Also get ready to prove yourself in Test Chamber; designed to push your problem-solving skills to the limit! Now is a great time to join 58 million players worldwide enjoying the fun that is Human Fall Flat.\n\nPlay solo or call your friends; seven pals by your side in co-op maximises the silliness of an outsized adventure.\n\nHuman: Fall Flat is a hilarious, light-hearted physics platformer set in a world of floating dreamscapes. \n \nEach dream level provides a new environment to navigate, from mansions, castles and Aztec adventures to snowy mountains, eerie nightscapes and industrial locations. Multiple routes through each level, and perfectly playful puzzles ensure exploration and ingenuity are rewarded.\n\nThis game leverages Smart Delivery allowing access to both the Xbox One title and the Xbox Series X|S title.\"",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.47833.69811231537758929.fc90ef4a-ab04-4596-8db8-fa6120f06b6b.c358f2f1-4d39-470f-8f92-7dc6fd8d2757",
       "originalPrice": 429,
       "discountPrice": 429,
       "discountPercent": 0,
@@ -10893,6 +10813,27 @@
       "percent": 30,
       "timestamp": "2026-07-30T11:04:16.123Z",
       "type": "popular"
+    },
+    "epic_free_fb86769d4908427986ca9f7d94b581c2": {
+      "title": "OTXO",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-07-30T15:49:59.526Z",
+      "type": "free"
+    },
+    "epic_free_c71375f1ac9444fcae1ca584a53ba6f0": {
+      "title": "Sol Cesto",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-07-30T15:49:59.526Z",
+      "type": "free"
+    },
+    "steam_discount_1097840": {
+      "title": "Gears 5",
+      "price": 114,
+      "percent": 85,
+      "timestamp": "2026-07-30T15:49:59.526Z",
+      "type": "discount"
     }
   }
 }
