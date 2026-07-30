@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T15:50:06.099Z",
+  "lastUpdated": "2026-07-30T17:23:21.877Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -80,6 +80,18 @@
       "isPopular": true
     },
     {
+      "id": "3934270",
+      "title": "How Many Dudes?",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3934270/bc1c26d78a8187807b7b06c40c4eefea274a3977/capsule_616x353.jpg?t=1785428583",
+      "originalPrice": 335,
+      "discountPrice": 217,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3934270",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
@@ -92,26 +104,14 @@
       "isPopular": false
     },
     {
-      "id": "4704690",
-      "title": "MECCHA CHAMELEON",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1785107783",
-      "originalPrice": 155,
-      "discountPrice": 131,
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785423322",
+      "originalPrice": 199,
+      "discountPrice": 169,
       "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4704690",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/e3dafad599e2901430fede53f249d6f104a58d4b/capsule_616x353_alt_assets_13_ukrainian.jpg?t=1785341124",
-      "originalPrice": 1299,
-      "discountPrice": 389,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
+      "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
       "isPopular": false
     },
@@ -128,6 +128,18 @@
       "isPopular": false
     },
     {
+      "id": "4704690",
+      "title": "MECCHA CHAMELEON",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1785107783",
+      "originalPrice": 155,
+      "discountPrice": 131,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4704690",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "252490",
       "title": "Rust",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
@@ -140,18 +152,6 @@
       "isPopular": false
     },
     {
-      "id": "1149460",
-      "title": "ICARUS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/capsule_616x353.jpg?t=1784744651",
-      "originalPrice": 700,
-      "discountPrice": 140,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1149460",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2138330",
       "title": "Cyberpunk 2077: Ілюзія свободи",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1784713876",
@@ -160,18 +160,6 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2138330",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3241660",
-      "title": "R.E.P.O.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/134bb2a6b8dd945af183f4fa38ac56f8f9f9e0de/capsule_616x353_alt_assets_2.jpg?t=1778158882",
-      "originalPrice": 194,
-      "discountPrice": 126,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3241660",
       "isSpecial": true,
       "isPopular": false
     },
@@ -10834,6 +10822,27 @@
       "percent": 85,
       "timestamp": "2026-07-30T15:49:59.526Z",
       "type": "discount"
+    },
+    "steam_discount_3934270": {
+      "title": "How Many Dudes?",
+      "price": 217,
+      "percent": 35,
+      "timestamp": "2026-07-30T17:23:14.898Z",
+      "type": "discount"
+    },
+    "steam_discount_4108000": {
+      "title": "Machine Party",
+      "price": 169,
+      "percent": 15,
+      "timestamp": "2026-07-30T17:23:14.898Z",
+      "type": "discount"
+    },
+    "steam_popular_3934270": {
+      "title": "How Many Dudes?",
+      "price": 217,
+      "percent": 35,
+      "timestamp": "2026-07-30T17:23:14.898Z",
+      "type": "popular"
     }
   }
 }
