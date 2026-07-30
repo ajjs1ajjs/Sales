@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T17:23:21.877Z",
+  "lastUpdated": "2026-07-30T19:20:53.964Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -89,7 +89,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3934270",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1091500",
@@ -104,9 +104,33 @@
       "isPopular": false
     },
     {
+      "id": "1817070",
+      "title": "Marvel’s Spider-Man Remastered",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg?t=1763569047",
+      "originalPrice": 1399,
+      "discountPrice": 559,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1817070",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4704690",
+      "title": "MECCHA CHAMELEON",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1785107783",
+      "originalPrice": 155,
+      "discountPrice": 131,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4704690",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "4108000",
       "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785423322",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785433392",
       "originalPrice": 199,
       "discountPrice": 169,
       "discountPercent": 15,
@@ -128,14 +152,14 @@
       "isPopular": false
     },
     {
-      "id": "4704690",
-      "title": "MECCHA CHAMELEON",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1785107783",
-      "originalPrice": 155,
-      "discountPrice": 131,
-      "discountPercent": 15,
+      "id": "3558600",
+      "title": "Leafy Corner",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3558600/3259667d87931aaee8963ba58d844856dd8cb30f/capsule_616x353.jpg?t=1785432023",
+      "originalPrice": 199,
+      "discountPrice": 159,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4704690",
+      "url": "https://store.steampowered.com/app/3558600",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,33 +176,21 @@
       "isPopular": false
     },
     {
-      "id": "2138330",
-      "title": "Cyberpunk 2077: Ілюзія свободи",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1784713876",
-      "originalPrice": 699,
-      "discountPrice": 419,
-      "discountPercent": 40,
+      "id": "2651280",
+      "title": "Marvel's Spider-Man 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg?t=1763569811",
+      "originalPrice": 1699,
+      "discountPrice": 1138,
+      "discountPercent": 33,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2138330",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4594150",
-      "title": "Sir, We Have an Orc Problem",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4594150/14f59bcffd1b2ab5d745f5dd15f51b33d26f361c/capsule_616x353.jpg?t=1785243619",
-      "originalPrice": 129,
-      "discountPrice": 116,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4594150",
+      "url": "https://store.steampowered.com/app/2651280",
       "isSpecial": true,
       "isPopular": false
     },
     {
       "id": "3282300",
       "title": "Mistfall Hunter",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/7ca0f74fbbdf70b4c29c9722d54e7a2830ac9926/capsule_616x353_alt_assets_8.jpg?t=1785374850",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/e450e346a57c7cd2dc1668c08bab9174a3201c44/capsule_616x353.jpg?t=1785434347",
       "originalPrice": 530,
       "discountPrice": 477,
       "discountPercent": 10,
@@ -220,6 +232,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2806050",
+      "title": "Halo: Campaign Evolved",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1785367749",
+      "originalPrice": 1999,
+      "discountPrice": 1999,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2806050",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10843,6 +10867,20 @@
       "percent": 35,
       "timestamp": "2026-07-30T17:23:14.898Z",
       "type": "popular"
+    },
+    "steam_discount_1817070": {
+      "title": "Marvel’s Spider-Man Remastered",
+      "price": 559,
+      "percent": 60,
+      "timestamp": "2026-07-30T19:20:44.013Z",
+      "type": "discount"
+    },
+    "steam_discount_3558600": {
+      "title": "Leafy Corner",
+      "price": 159,
+      "percent": 20,
+      "timestamp": "2026-07-30T19:20:44.013Z",
+      "type": "discount"
     }
   }
 }
