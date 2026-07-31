@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T23:02:34.405Z",
+  "lastUpdated": "2026-07-31T02:30:08.356Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -68,6 +68,18 @@
   ],
   "steam": [
     {
+      "id": "1817070",
+      "title": "Marvel’s Spider-Man Remastered",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg?t=1763569047",
+      "originalPrice": 1399,
+      "discountPrice": 559,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1817070",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1086940",
       "title": "Baldur's Gate 3",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
@@ -80,18 +92,6 @@
       "isPopular": true
     },
     {
-      "id": "1817070",
-      "title": "Marvel’s Spider-Man Remastered",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg?t=1763569047",
-      "originalPrice": 1399,
-      "discountPrice": 559,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1817070",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2651280",
       "title": "Marvel's Spider-Man 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg?t=1763569811",
@@ -100,30 +100,6 @@
       "discountPercent": 33,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2651280",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3934270",
-      "title": "How Many Dudes?",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3934270/bc1c26d78a8187807b7b06c40c4eefea274a3977/capsule_616x353.jpg?t=1785428583",
-      "originalPrice": 335,
-      "discountPrice": 217,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3934270",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4704690",
-      "title": "MECCHA CHAMELEON",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1785107783",
-      "originalPrice": 155,
-      "discountPrice": 131,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": true,
       "isPopular": false
     },
@@ -164,14 +140,26 @@
       "isPopular": false
     },
     {
-      "id": "1097840",
-      "title": "Gears 5",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1097840/capsule_616x353.jpg?t=1780003997",
-      "originalPrice": 760,
-      "discountPrice": 114,
-      "discountPercent": 85,
+      "id": "3934270",
+      "title": "How Many Dudes?",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3934270/bc1c26d78a8187807b7b06c40c4eefea274a3977/capsule_616x353.jpg?t=1785428583",
+      "originalPrice": 335,
+      "discountPrice": 217,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1097840",
+      "url": "https://store.steampowered.com/app/3934270",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4704690",
+      "title": "MECCHA CHAMELEON",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1785107783",
+      "originalPrice": 155,
+      "discountPrice": 131,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": true,
       "isPopular": false
     },
@@ -188,16 +176,16 @@
       "isPopular": false
     },
     {
-      "id": "3282300",
-      "title": "Mistfall Hunter",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/e450e346a57c7cd2dc1668c08bab9174a3201c44/capsule_616x353.jpg?t=1785434347",
-      "originalPrice": 530,
-      "discountPrice": 477,
-      "discountPercent": 10,
+      "id": "1097840",
+      "title": "Gears 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1097840/capsule_616x353.jpg?t=1780003997",
+      "originalPrice": 760,
+      "discountPrice": 114,
+      "discountPercent": 85,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3282300",
-      "isSpecial": false,
-      "isPopular": true
+      "url": "https://store.steampowered.com/app/1097840",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "4165910",
@@ -212,14 +200,14 @@
       "isPopular": true
     },
     {
-      "id": "4433900",
-      "title": "DRAGON BALL: Sparking! ZERO - Super Limit-Breaking NEO",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4433900/af136d850337e76eddbeb8d925064fd5824ba8b5/capsule_616x353.jpg?t=1785366920",
-      "originalPrice": 1109,
-      "discountPrice": 1109,
-      "discountPercent": 0,
+      "id": "3282300",
+      "title": "Mistfall Hunter",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/e450e346a57c7cd2dc1668c08bab9174a3201c44/capsule_616x353.jpg?t=1785434347",
+      "originalPrice": 530,
+      "discountPrice": 477,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4433900",
+      "url": "https://store.steampowered.com/app/3282300",
       "isSpecial": false,
       "isPopular": true
     },
@@ -244,6 +232,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4433900",
+      "title": "DRAGON BALL: Sparking! ZERO - Super Limit-Breaking NEO",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4433900/af136d850337e76eddbeb8d925064fd5824ba8b5/capsule_616x353.jpg?t=1785366920",
+      "originalPrice": 1109,
+      "discountPrice": 1109,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4433900",
       "isSpecial": false,
       "isPopular": true
     }
@@ -9125,7 +9125,7 @@
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PLCL2VB2SC0",
       "isGamePass": true,
-      "isNewToGamePass": true,
+      "isNewToGamePass": false,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -10895,6 +10895,13 @@
       "percent": 30,
       "timestamp": "2026-07-30T23:02:27.983Z",
       "type": "discount"
+    },
+    "steam_popular_1817070": {
+      "title": "Marvel’s Spider-Man Remastered",
+      "price": 559,
+      "percent": 60,
+      "timestamp": "2026-07-31T02:30:03.135Z",
+      "type": "popular"
     }
   }
 }
