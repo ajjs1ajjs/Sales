@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T18:17:30.413Z",
+  "lastUpdated": "2026-07-31T20:17:27.171Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -70,7 +70,7 @@
     {
       "id": "1368140",
       "title": "Corsair Cove",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785513998",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785527747",
       "originalPrice": 599,
       "discountPrice": 449,
       "discountPercent": 25,
@@ -125,18 +125,6 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2651280",
       "isSpecial": true,
-      "isPopular": true
-    },
-    {
-      "id": "1091500",
-      "title": "Cyberpunk 2077",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1091500",
-      "isSpecial": true,
       "isPopular": false
     },
     {
@@ -164,6 +152,18 @@
       "isPopular": false
     },
     {
+      "id": "1091500",
+      "title": "Cyberpunk 2077",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1091500",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3164500",
       "title": "Schedule I",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164500/86e34f84a874cf1853c6b45b7b5948694c7794cb/capsule_616x353.jpg?t=1773974661",
@@ -176,14 +176,14 @@
       "isPopular": false
     },
     {
-      "id": "2001120",
-      "title": "Split Fiction",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
-      "originalPrice": 1299,
-      "discountPrice": 844,
-      "discountPercent": 35,
+      "id": "3293260",
+      "title": "Waterpark Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3293260/732cdbfce458c5e31a96a7e287eb22b01ee2003d/capsule_616x353_alt_assets_5.jpg?t=1785510020",
+      "originalPrice": 245,
+      "discountPrice": 196,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001120",
+      "url": "https://store.steampowered.com/app/3293260",
       "isSpecial": true,
       "isPopular": false
     },
@@ -208,6 +208,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2806050",
+      "title": "Halo: Campaign Evolved",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1785367749",
+      "originalPrice": 1999,
+      "discountPrice": 1999,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2806050",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10922,6 +10934,13 @@
       "price": 449,
       "percent": 25,
       "timestamp": "2026-07-31T18:17:23.208Z",
+      "type": "discount"
+    },
+    "steam_discount_3293260": {
+      "title": "Waterpark Simulator",
+      "price": 196,
+      "percent": 20,
+      "timestamp": "2026-07-31T20:17:20.216Z",
       "type": "discount"
     }
   }
