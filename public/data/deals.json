@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T02:30:08.356Z",
+  "lastUpdated": "2026-07-31T06:09:12.364Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -68,18 +68,6 @@
   ],
   "steam": [
     {
-      "id": "1817070",
-      "title": "Marvel’s Spider-Man Remastered",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg?t=1763569047",
-      "originalPrice": 1399,
-      "discountPrice": 559,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1817070",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1086940",
       "title": "Baldur's Gate 3",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
@@ -92,6 +80,18 @@
       "isPopular": true
     },
     {
+      "id": "1817070",
+      "title": "Marvel’s Spider-Man Remastered",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg?t=1763569047",
+      "originalPrice": 1399,
+      "discountPrice": 559,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1817070",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "2651280",
       "title": "Marvel's Spider-Man 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg?t=1763569811",
@@ -100,6 +100,18 @@
       "discountPercent": 33,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2651280",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "1091500",
+      "title": "Cyberpunk 2077",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1091500",
       "isSpecial": true,
       "isPopular": false
     },
@@ -116,14 +128,14 @@
       "isPopular": false
     },
     {
-      "id": "1091500",
-      "title": "Cyberpunk 2077",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
+      "id": "4704690",
+      "title": "MECCHA CHAMELEON",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1785107783",
+      "originalPrice": 155,
+      "discountPrice": 131,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1091500",
+      "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,26 +164,14 @@
       "isPopular": false
     },
     {
-      "id": "4704690",
-      "title": "MECCHA CHAMELEON",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1785107783",
-      "originalPrice": 155,
-      "discountPrice": 131,
-      "discountPercent": 15,
+      "id": "2001120",
+      "title": "Split Fiction",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
+      "originalPrice": 1299,
+      "discountPrice": 844,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4704690",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3164500",
-      "title": "Schedule I",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164500/86e34f84a874cf1853c6b45b7b5948694c7794cb/capsule_616x353.jpg?t=1773974661",
-      "originalPrice": 415,
-      "discountPrice": 290,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3164500",
+      "url": "https://store.steampowered.com/app/2001120",
       "isSpecial": true,
       "isPopular": false
     },
@@ -188,6 +188,18 @@
       "isPopular": false
     },
     {
+      "id": "3282300",
+      "title": "Mistfall Hunter",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/9492f5551d79e80de57fcf9c4798a1042ceced33/capsule_616x353.jpg?t=1785472771",
+      "originalPrice": 530,
+      "discountPrice": 477,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3282300",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
@@ -196,18 +208,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3282300",
-      "title": "Mistfall Hunter",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/e450e346a57c7cd2dc1668c08bab9174a3201c44/capsule_616x353.jpg?t=1785434347",
-      "originalPrice": 530,
-      "discountPrice": 477,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3282300",
       "isSpecial": false,
       "isPopular": true
     },
@@ -232,18 +232,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4433900",
-      "title": "DRAGON BALL: Sparking! ZERO - Super Limit-Breaking NEO",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4433900/af136d850337e76eddbeb8d925064fd5824ba8b5/capsule_616x353.jpg?t=1785366920",
-      "originalPrice": 1109,
-      "discountPrice": 1109,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4433900",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10901,6 +10889,20 @@
       "price": 559,
       "percent": 60,
       "timestamp": "2026-07-31T02:30:03.135Z",
+      "type": "popular"
+    },
+    "steam_discount_2001120": {
+      "title": "Split Fiction",
+      "price": 844,
+      "percent": 35,
+      "timestamp": "2026-07-31T06:09:05.894Z",
+      "type": "discount"
+    },
+    "steam_popular_2651280": {
+      "title": "Marvel's Spider-Man 2",
+      "price": 1138,
+      "percent": 33,
+      "timestamp": "2026-07-31T06:09:05.894Z",
       "type": "popular"
     }
   }
