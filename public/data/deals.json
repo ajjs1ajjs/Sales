@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T16:42:44.823Z",
+  "lastUpdated": "2026-07-31T18:17:30.413Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -68,6 +68,18 @@
   ],
   "steam": [
     {
+      "id": "1368140",
+      "title": "Corsair Cove",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785513998",
+      "originalPrice": 599,
+      "discountPrice": 449,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1368140",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1086940",
       "title": "Baldur's Gate 3",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
@@ -116,6 +128,18 @@
       "isPopular": true
     },
     {
+      "id": "1091500",
+      "title": "Cyberpunk 2077",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1091500",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1817190",
       "title": "Marvel’s Spider-Man: Miles Morales",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/capsule_616x353.jpg?t=1763569499",
@@ -140,14 +164,14 @@
       "isPopular": false
     },
     {
-      "id": "1091500",
-      "title": "Cyberpunk 2077",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
+      "id": "3164500",
+      "title": "Schedule I",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164500/86e34f84a874cf1853c6b45b7b5948694c7794cb/capsule_616x353.jpg?t=1773974661",
+      "originalPrice": 415,
+      "discountPrice": 290,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1091500",
+      "url": "https://store.steampowered.com/app/3164500",
       "isSpecial": true,
       "isPopular": false
     },
@@ -162,42 +186,6 @@
       "url": "https://store.steampowered.com/app/2001120",
       "isSpecial": true,
       "isPopular": false
-    },
-    {
-      "id": "1426210",
-      "title": "It Takes Two",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
-      "originalPrice": 999,
-      "discountPrice": 299,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1426210",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3934270",
-      "title": "How Many Dudes?",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3934270/bc1c26d78a8187807b7b06c40c4eefea274a3977/capsule_616x353.jpg?t=1785428583",
-      "originalPrice": 335,
-      "discountPrice": 217,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3934270",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1368140",
-      "title": "Corsair Cove",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785513998",
-      "originalPrice": 599,
-      "discountPrice": 449,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1368140",
-      "isSpecial": false,
-      "isPopular": true
     },
     {
       "id": "4165910",
@@ -10928,6 +10916,13 @@
       "percent": 0,
       "timestamp": "2026-07-31T16:42:38.351Z",
       "type": "xbox_new"
+    },
+    "steam_discount_1368140": {
+      "title": "Corsair Cove",
+      "price": 449,
+      "percent": 25,
+      "timestamp": "2026-07-31T18:17:23.208Z",
+      "type": "discount"
     }
   }
 }
