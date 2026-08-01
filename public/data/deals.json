@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T06:25:45.460Z",
+  "lastUpdated": "2026-08-01T09:03:34.421Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -128,18 +128,6 @@
       "isPopular": false
     },
     {
-      "id": "1817190",
-      "title": "Marvel’s Spider-Man: Miles Morales",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/capsule_616x353.jpg?t=1763569499",
-      "originalPrice": 1499,
-      "discountPrice": 599,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1817190",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
@@ -148,6 +136,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1817190",
+      "title": "Marvel’s Spider-Man: Miles Morales",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/capsule_616x353.jpg?t=1763569499",
+      "originalPrice": 1499,
+      "discountPrice": 599,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1817190",
       "isSpecial": true,
       "isPopular": false
     },
@@ -164,26 +164,26 @@
       "isPopular": false
     },
     {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785485527",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
+      "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "3164500",
-      "title": "Schedule I",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164500/86e34f84a874cf1853c6b45b7b5948694c7794cb/capsule_616x353.jpg?t=1773974661",
-      "originalPrice": 415,
-      "discountPrice": 290,
-      "discountPercent": 30,
+      "id": "2001120",
+      "title": "Split Fiction",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
+      "originalPrice": 1299,
+      "discountPrice": 844,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3164500",
+      "url": "https://store.steampowered.com/app/2001120",
       "isSpecial": true,
       "isPopular": false
     },
@@ -200,26 +200,14 @@
       "isPopular": true
     },
     {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
-      "originalPrice": 600,
-      "discountPrice": 600,
+      "id": "266410",
+      "title": "iRacing",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1785202053",
+      "originalPrice": 225,
+      "discountPrice": 225,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "2806050",
-      "title": "Halo: Campaign Evolved",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg?t=1785367749",
-      "originalPrice": 1999,
-      "discountPrice": 1999,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2806050",
+      "url": "https://store.steampowered.com/app/266410",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1021,21 +1009,6 @@
       "isDiscounted": false
     },
     {
-      "id": "9PKWJSJ4NWC7",
-      "title": "Back to the Dawn",
-      "description": "A gripping prison escape RPG woven with crime, corruption, and hidden agendas. Step into a maximum-security facility where every inmate has a past—and a plan. You'll have to fight to survive, investigate, and ultimately break free before the time runs out.\nUncover a scheme that threatens more than just your life—it could bring down the entire city. In this thrilling adventure, choices matter, and escape is your only salvation!\n\nPick Your Path, Break Free\nChoose between two protagonists — Thomas, a reporter caught in a web of lies, or Bob, an undercover agent sent deep into the prison system. Each storyline delivers over 20 hours of engrossing mystery, where your every choice matters. Navigate a prison ruled by three powerful gangs, interact with 48 uniquely crafted inmates, and uncover layers of intrigue through dozens of memorable NPCs.\nWith over 100 handcrafted quests, multiple escape routes—each with its own risks and rewards—several possible endings, and more than 500,000 words of gripping narrative, Back to the Dawn delivers a deeply replayable RPG unlike anything you've experienced.\n\nUncover the Truth\nThomas the Fox is a journalist caught up in a dark conspiracy and who got thrown into a maximum-security prison for not playing ball. Working with your attorney friend on the outside, you must collect evidence to save yourself and the city from grave danger!\n\nBob the Panther is an undercover agent who has never failed on any of his missions, but he is growing exhausted of this line of work and wants out. But a personal tragedy drags him back for one last job in prison. Experience a hardboiled tale of betrayal, vengeance, and truth! \n\nWhat Kind of Prisoner Will You Be?\nThis is an enormous prison with lots to do and many places to explore, but make sure you follow the rules, or at least try not to get caught! \nYou’ll encounter all kinds of challenges as you explore your new environment. But will you be a model prisoner and just try to keep your head down, or will you leave a trail of chaos and destruction in your wake? It’s all up to you.\n\nA Colorful Cast\nMeet a colorful cast of inmates in your prison, each with an interesting story to tell. You can either make them your friends or fight, bully and rob them into submission. Will you be part of a gang or a cunning lone wolf? Pick a side!\n\nOpen the Character Growth System\nAre you a tough guy who lets his fists do the talking, a thief who hides in the shadows, or perhaps a smooth talker who manipulates the scene? Develop your skills, craft tools to suit your style, and climb your way from “new fish” to “top dog.”\n\nPlan Your Prison Escape\nIn a place built to break you, your sharpest weapon is your creativity and cunning. Every inch of Boulderton Prison might hold the key to your escape, from your prison cell to the infirmary, to the sewers and even the rooftops. Can you break free?",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.24597.14254385379777466.8ff2da73-ccca-40bf-ba1d-d4a22cee3c97.c8e835ce-ccf1-498a-8d52-01a897740ff2",
-      "originalPrice": 610,
-      "discountPrice": 610,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9PKWJSJ4NWC7",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
       "id": "9PK087LNGJC5",
       "title": "Balatro",
       "description": "Balatro — натхненна покером гра в жанрі роуґ-лайк про будування колоди, створення потужних синергій і великі куші.\r\n\r\nПокерний рогалик. Balatro — гіпнотично приємна гра про будування колоди, де ви будете використовувати нелегальні покерні комбінації, викладати джокерів, що змінюють гру, і активувати адреналінові комбо.\r\n\r\nПоєднуйте покерні комбінації з унікальними джокерами й створюйте різноманітні синергії та колоди. Заробіть достатньо фішок, щоб побити хитрі блайнди, відкрити приховані бонусні руки й колоди. Кожна перевага стане в пригоді, щоб дістатися бос-блайнду, побити фінальну ставку й здобути перемогу.",
@@ -1636,21 +1609,6 @@
       "isDiscounted": false
     },
     {
-      "id": "BWMQL2RPWBHB",
-      "title": "Celeste",
-      "description": "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight, hand-crafted platformer from the creators of multiplayer classic TowerFall.\n\n • A narrative-driven, single-player adventure like mom used to make, with a charming cast of characters and a touching story of self-discovery\n • A massive mountain teeming with 700+ screens of hardcore platforming challenges and devious secrets\n • Brutal B-side chapters to unlock, built for only the bravest mountaineers\n • IGF “Excellence in Audio” finalist, with over 2 hours of original music led by dazzling live piano and catchy synth beats\n • Pie\n\nThe controls are simple and accessible - simply jump, air-dash, and climb - but with layers of expressive depth to master, where every death is a lesson. Lightning-fast respawns keep you climbing as you uncover the mysteries of the mountain and brave its many perils. \n\nThis is it, Madeline. Just breathe. You can do this.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.24023.71633162879241707.7cf18b3b-9fa5-486f-9a68-067f06d50bf1.6778804d-f496-4d2c-87db-8df1ec5beda7",
-      "originalPrice": 389,
-      "discountPrice": 389,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/BWMQL2RPWBHB",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
       "id": "9NP1LC5MX609",
       "title": "Child of Light",
       "description": "AN ADVENTURE AWAITS!\nCreated by a talented team at Ubisoft Montreal using the UbiArt Framework, Child of Light is an RPG inspired by fairy tales complemented with a story carefully crafted in verse and rhyme. Step into a living painting, the breathtaking scenery of Lemuria is an invitation to explore a long lost world.\n\nENTER THE WORLD OF LEMURIA\nAcross your journey through Lemuria you will encounter many eccentric creatures, from spirits of the forest to talking mice to wicked witches and evil sea serpents. Discover a vast land with iconic locations and exciting dungeons that will evolve as Aurora regains the stolen lights.\n\nFIGHT THE DARK\nBattle enemies using an Active-Time Battle System alongside the firefly Igniculus and other members of Aurora’s party on their quest to recover the sun, the moon and the stars. Beat your enemies using a deep party system and the varied skill trees of your party. Play with a friend as both Aurora and Igniculus using the seamless drop-in drop-out cooperative multiplayer.\n",
@@ -1930,21 +1888,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NGZ1M3N98P2",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
-      "id": "9N7GG222GTTH",
-      "title": "Crusader Kings III",
-      "description": "Your legacy awaits. Choose your noble house and lead your dynasty to greatness in a Middle Ages epic that spans generations. War is but one of many tools to establish your reign, as real strategy requires expert diplomatic skill, mastery of your realm, and true cunning. Crusader Kings III continues the popular series made by Paradox Development Studio, featuring the widely acclaimed marriage of immersive grand strategy and deep, dramatic medieval roleplaying. \n\n\nA bloodline begins\n  \n• Take command of your house and expand your dynasty through a meticulously researched Middle Ages. Begin in 867, 1066 or 1178 and claim lands, titles, and vassals to secure a realm worthy of your royal blood. Your death is only a footnote as your lineage continues with new playable heirs, either planned… or not. \n• Discover a sprawling simulated world teeming with peasants and knights, courtiers, spies, knaves and jesters, and secret love affairs. An extensive cast of historical characters can be romanced, betrayed, executed, or subtly influenced.  \n• Explore a vast medieval map stretching from the snowswept Nordic lands to the Horn of Africa, and the British Isles in the west to the exotic riches of Burma in the east. Claim, conquer, and rule thousands of unique counties, duchies, kingdoms, and empires. \n\n\nLarger than life \n\n• Each character is larger than life, with traits and lifestyle choices determining their actions and schemes. Prompt fear and dread as you rule with an iron fist, or inspire your subjects with magnanimous deeds. Genetics can be passed along to your children, be it the gift of genius or crippling stupidity. \n• Groom your heir with the appropriate guardians or educate them yourself. If found wanting, marry them off or despatch them through other means. \n• Customize your ruler and noble house, from appearance to attributes, and create a monarch worthy of all their inherited virtues and vices.\n\n\n\nReal strategy requires cunning\n\n• Govern an ever-evolving realm and grant titles to whom you see fit - or usurp your liege to claim their crown as your own. Be wary of rivals, from restless serfs to revengeful concubines. \n• The shadows stir frequently, and danger lurks around every darkened corner. Recruit agents and other unsavory elements to undermine, blackmail, or murder those who stand in your path. Or be inspired by the bard and ballad, and seduce your way to power and influence.\n• Blood will flow. Assemble men-at-arms units and powerful knights. Manage your battlefield tactics and armies. Raid and plunder nearby lands or hire mercenaries and Holy Orders for your major conflicts. \n\n\n\nAccomplish great things\n\n• Be a pious king to invite the religious powers to your side, or design your own faith as you battle between everlasting fame or eternal damnation.\n• Bring novel innovations to your culture and construct mighty castles and bastions to increase the wealth, prestige, and security of your realm. \n• The paths to follow are limitless: experience thousands of dynamic events and life-altering decisions tailored to each and every conceivable situation and character. There are countless ways of securing and keeping your place in the history books. \n\nParadox Account required for certain features of the game. You have to be 16 years or older to create a Paradox Account. See https://legal.paradoxplaza.com/eula for details.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.61473.14065406176999862.d433bba3-dfb8-463a-bd60-0c7bd30829d8.79455e2e-404c-4e8b-bdaa-1f15562ad48c",
-      "originalPrice": 1285,
-      "discountPrice": 1285,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9N7GG222GTTH",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
@@ -5311,21 +5254,6 @@
       "isDiscounted": false
     },
     {
-      "id": "9PDHWZ7X3P03",
-      "title": "Mount & Blade II: Bannerlord",
-      "description": "The horns sound, the ravens gather. An empire is torn by civil war. Beyond its borders, new kingdoms rise. Gird on your sword, don your armour, summon your followers and ride forth to win glory on the battlefields of Calradia.\r\n\r\nSet forth on an epic adventure in a fictional Dark Ages sandbox that combines strategy and action-RPG gameplay. \r\n\r\nCreate and develop your own character, gather companions, and use diplomacy, trade, and roguery to your advantage as you attempt to establish your clan among the ranks of the nobility. \r\n\r\nRaise armies to command and fight alongside in huge, real-time battles and sieges using an extensive command system, and an intuitive, skill-based directional combat system.\r\n\r\nCarve out your own kingdom or champion another’s cause as you explore the vast, reimagined continent of Calradia in this prequel to the critically acclaimed, Mount & Blade: Warband. ",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.64331.14149597270613176.7ab8db21-d435-4f1c-8c3a-236ab836bd6b.1a740937-b760-4423-b90e-aba5302fd819",
-      "originalPrice": 1285,
-      "discountPrice": 1285,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9PDHWZ7X3P03",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
       "id": "9P88K6NQW12H",
       "title": "Moving Out 2",
       "description": "Moving Out 2 — це чудернацьке продовження всесвітньо відомого симулятора переїзду, що спирається на закони фізики. Грайте самостійно, як незалежний підрядник П.О.П.А. або разом друзями (до 3 чол.), одягніться у форму Smooth Moves і допоможіть мешканцям Пакмора та інших міст зібрати речі та переїхати!\r\n\r\nБАГАТОВИМІРНА ЛОКАЛЬНА ГРА ТА БАКАТОКОРИСТУВАЦЬКА ОНЛАЙН ГРА\r\nДрузі, які переїжджають разом, все роблять разом! Незалежно від того, чи любите ви локальні кооперативні ігри чи багатокористувацькі онлайн-ігри, у нас ви зможете підписати коробки, запечатати їх та доставити!\r\n\r\nНОВА ПРИГОДА\r\nМи більше не в Пакморі… Через міжвимірні портали ви досліджуватимете нове світи, наповнені веселими і чудернацькими випробуваннями та хаотичною і смішною грою.\r\n\r\nНОВІ ТА УЛЮБЛЕНІ ПЕРСОНАЖІ, ЩО ПОВЕРНУЛИСЯ\r\nУ грі Moving Out 2 абсолютно новий підбір надзвичайно милих персонажів, тому що Smooth Moves залучили новобранців П.О.П.А.! Але не хвилюйтеся, Рай Ю та Сідні все ще працюють тут…\r\n\r\nГРА ДЛЯ КОЖНОГО!\r\nРежим допомоги?! Є! Широкий спектр можливостей доступності?! Є! Безліч персонажів і незліченна кількість тонко підібраних образів для всіх любителів моди?! Є! Є! Є!",
@@ -5365,21 +5293,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NDJLXD2X2DM",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
-      "id": "9MWV1MV9LWF4",
-      "title": "My Friendly Neighborhood",
-      "description": "Something is amiss with everyone's favorite Saturday morning puppet show! For years, the colorful cast of The Friendly Neighborhood delighted audiences across the globe with their cooky capers and educational adventures. However, as time went on and interest waned, the production studio found themselves out of money and closed their doors for good. Toy sales would dwindle, and birthday balloons and cakes would find new mascots. In time, the once household names would fade into increasingly niche fandoms. Until one night years later, the studio unexpectedly clicks back to life and starts broadcasting The Friendly Neighborhood. TV sets across the globe flicker for a moment before the familiar puppets return for a surprise encore! But this isn't your typical family-friendly holiday special... are those puppets eating each other!?\n\nThinking the antenna on top of the main building has started broadcasting old episodes, the city sends Handyman Gordon to straighten things out. It doesn't take Gordon long to find that the typically friendly neighborhood has become a lot less welcoming. Stepping into his work boots, you'll have to fend off ferocious friends, solve a plethora of playtime puzzles turned perilous, and hopefully uncover the dastardly truth at the heart of this terrifying tale.\n\nIf you're tired of games that rely on gore more than solid scares, then come on over to the streets of MFN! Featuring a mix of action and adventure, MFN is the perfect game for horror fans looking for something a bit different. Sure, there might not be any dismemberment or decapitations. But that just means the puppets don't stay down for good...",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.4716.13832354349125905.43143cd3-426b-4a91-a56a-b6ff2d3a6231.5277a06a-1de7-4d55-bc43-39d97f736f9d",
-      "originalPrice": 610,
-      "discountPrice": 610,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9MWV1MV9LWF4",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
@@ -6376,21 +6289,6 @@
       "isDiscounted": true
     },
     {
-      "id": "9PNPFBPLGCMW",
-      "title": "Rain World",
-      "description": "You are a slugcat. The world around you is full of danger, and you must face it – alone. Separated from your family in a devastating flood, you will need to find food and shelter between terrifying torrential downpours which threaten to drown all life. Climb through the ruins of an ancient civilization, evade the jaws of vicious predators, and discover new lands teeming with strange creatures and buried mysteries. Find your family before something makes a meal of you!\r\n\r\nInspired by the simplicity and aesthetics of 16-bit classics, this survival platformer requires clever decision-making, both to catch your own prey and to avoid the jaws of hungry predators. Each ravenous foe in your path will be cunning, vicious and always on the hunt – eager to sink their teeth into you, or even each other. As a small, soft slugcat you must rely on stealth and wit rather than force: learn the ecosystem and turn their strengths to your advantage. Maybe then you can survive… Rain World!",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.16289.14344758136653430.0a9ce6ed-b26d-40f7-a6e0-5e2514866b02.6cbc74e6-55a0-4e71-9bde-bfb5b8cea35b",
-      "originalPrice": 489,
-      "discountPrice": 489,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9PNPFBPLGCMW",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
       "id": "9NQ4M2DG11L0",
       "title": "RAYMAN LEGENDS",
       "description": "Michel Ancel, the celebrated creator of Rayman®, Beyond Good & Evil®, and the Raving Rabbids®, returns to unleash his innovative creativity on this new entry into the Rayman® franchise.\n\nWhen Rayman, Globox, and the Teensies discover a mysterious tent filled with captivating paintings, they are suddenly transported to a series of mythical new worlds!\n\nJoin them as they run, jump, and slap their way through each world to get home, save the day, and discover the secrets of the legendary paintings!\n\nFOUR-PLAYER CO-OP: You and three friends can seamlessly jump in and drop out of the action for non-stop fun!\n3D BOSS BATTLES: Battle dragons and other epic creatures in an extra dimension! They can attack from all angles, so you’ll have to be on top of your game to defeat them.\nROCKIN’ RAYMAN: Jump to the beat of a drum, punch to the bass line, even zip-line during amazing guitar riffs. Timing and rhythm is the key to beat these maps set to original and licensed musical tracks.",
@@ -6955,21 +6853,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NV8W1KJSQLL",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
-      "id": "9MXRG5GCRPXZ",
-      "title": "Sniper Elite: Resistance",
-      "description": "NEW OPERATIVE, NEW THREAT, NEW EPIC CAMPAIGN\nOffering unparalleled sniping mechanics, stealth and tactical third-person combat, Sniper Elite: Resistance turns the attention of the award-winning series towards a hidden war, far from the front lines, deep within the heart of occupied France.\nIn a gripping new story that runs parallel with Sniper Elite 5, Harry Hawker, agent of the Special Operations Executive (SOE), takes the lead for the first time as he discovers an insidious new Wunderwaffe - something so powerful, it guarantees the Nazis will win the war.\nWorking with the French Resistance, this deadly addition to the Reich's arsenal must be eliminated.\nMultiple Kill List targets, and different infiltration and extraction points give you an unequalled choice with how to accomplish objectives and create your own playstyle.\nThe full campaign can also be experienced in co-op. Fight against the Nazi war machine with an ally to share weapons, items and tactical know-how, as well as help each other get back in the fight when you go down during firefights.\n\nVISCERAL X-RAY KILL CAM AND ADVANCED GUNPLAY PHYSICS \nThe trademark X-ray kill cam returns, showing the true destructive power of every one of your signature shots. Bones deflect bullets to unpredictably rip new paths through enemy bodies and SMGs and pistols also trigger kill cams, showing multiple bullet shots in dramatic slow motion.\nTo land that shot you will need to think like a true sniper. Factor in rifle stock and barrel options along with gravity, wind and heart rate while you zero your sights on the target.\n\nAUTHENTIC WORLD WAR II WEAPONS AND CUSTOMISATION \nThe arsenal at your disposal will feature returning franchise favourites as well as a host of new authentic WWII weapons. Picking your loadout will be key to striking down the Reich’s nefarious plans! \nCustomise your weapon to suit your operating style. Find workbenches scattered around the campaign to customise and upgrade your rifles, secondaries and pistols with new scopes, stocks, barrels, magazines and more. Also remember to pick the right ammo for the right job, whether you need armour-piercing shells or a non-lethal takedown.\n\nPROPAGANDA MISSIONS – BE THE RESISTANCE\nLocate unique Propaganda posters across the main campaign and step into the shoes of a French Resistance fighter in all new Propaganda missions. During these scenarios, sneak, snipe and take down enemies to complete time-sensitive objectives and help end the Nazi occupation.\n\nAXIS INVASION MODE\nThe fan-favourite Axis Invasion mode is back! invade another player’s Campaign as an Axis sniper and engage in a deadly game of cat and mouse. Whether you stalk your prey, lay an ambush, or run in guns blazing, the threat of invasion provides a new dimension to the campaign’s challenge. \n\nTENSE ONLINE MULTIPLAYER \nWhen you’ve mastered your rifle, customise your character and loadout as you take the fight online in competitive 16-player battles to earn XP, medals and ribbons.\nIf competition isn’t your style, you can also team up with up to 3 other players against waves of enemies in Survival mode.\n",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.55270.13884837624671830.a1b4bcb8-63aa-419a-ac34-76ae03d6dca7.ac396b37-681e-4a66-bec8-0bb4bbe9c4a1",
-      "originalPrice": 1540,
-      "discountPrice": 1540,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9MXRG5GCRPXZ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
@@ -8877,21 +8760,6 @@
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N76QGDS5GJR",
       "isGamePass": true,
       "isNewToGamePass": true,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
-      "id": "9NM2T0DMP4XV",
-      "title": "Whiskerwood (Game Preview)",
-      "description": "Прорубуйте гори, перетинайте моря та досліджуйте нові незвідані землі, будуючи грандіозні міста, — винахідливість скромної миші в повній мірі проявляється у Whiskerwood, де ви встановлюєте хитромудрі системи автоматизації для ефективного управління складними виробничими ланцюжками, одночасно маючи справу з деспотичними вимогами ваших володарів-котів.\n\nПРИБОРКАЙТЕ WHISKERWOOD\nУ міру того, як панування котів поширюється через моря, звичайна миша вирушає з дому в небезпечні мандри. Прибувши на кораблі на незаймані острови, багаті на всілякі ресурси, миша повинна швидко заснувати колонію, щоб задовольнити термінові й постійно зростаючі потреби своїх котячих господарів.\n\n• Міста Whiskerwood побудовані на островах, і хоча вони різні за розміром, простір завжди буде обмежений, тому використовуйте суворих гризунів, щоб будувати вгору й пронизувати небо, або копайте глибоко під землю та на схилах скель і гір, які розкидані по всій землі, щоб максимально використати доступний вам простір. Вертикальність є ключовим фактором у Whiskerwood: вона приносить із собою як великі можливості, так і випробування.\n• Хоча ваш корабель прибуває з початковим запасом ресурсів і стартовою групою мишей, ви повинні швидко створити основні споруди, необхідні послуги й виробничі потужності, щоб забезпечити постійне зростання та процвітання. Створюйте логістичні мережі й медичні заклади, забезпечте належне опалення й обслуговування будівель і відправляйте мишей рубати дерева, добувати корисні копалини, доглядати за полями та ловити рибу. Коти вимагатимуть свого, і ваші громадяни покинуть колонію, якщо їхні потреби не задовольнятимуться щодня, тому ви повинні знайти ідеальний баланс між потребами мишей і котів.\n• Колоністи мають унікальні властивості, які впливають на їхню здатність ефективно виконувати завдання, і кожен з них належить до однієї з кількох гільдій, які впливають на їхні вподобання, сильні та слабкі сторони. Розподіляйте завдання між мишами відповідним чином, а також звертайте особливу увагу на їхні особисті риси — хтось віддаватиме перевагу життю під землею або на самоті, а хтось не звертатиме уваги на забруднення і з радістю житиме навіть у найбільш індустріальних частинах вашого міста.\n\nСКЛАДНІ СИМУЛЯЦІЇ\nЖиття першопрохідця нелегке — далеко від дому, без звичних зручностей, ви повинні навчитися протистояти силам природи й використовувати їх, щоб забезпечити свою колонію та задовольнити різноманітні потреби й бажання вашого мишачого народу.\n\n• Змінюйте форму землі за допомогою тераформування, створюючи величезні нори для житла та складування в горах, або відводячи воду з узбережжя вглиб материка, щоб забезпечити енергією свою промисловість. Витрачайте час на вирівнювання величезних просторів землі, щоб полегшити та здешевити ваші будівельні проекти, або обходьте вершини й долини на кожній новій процедурно згенерованій карті острова.\n• Клімат грає ключову роль в успіху вашої нової домівки: штормовий день може приглушити природний ентузіазм ваших мишей, а холодний фронт може швидко зіпсувати сезонний урожай або іншим чином поставити під загрозу їхні життя. Будуйте складні мережі труб для підігріву води й запуску парових систем клімат-контролю, а також заривайтеся глибоко під землю, щоб захистити зимові запаси.\n• Максимально розвивайте сільськогосподарське виробництво, приділяючи пильну увагу конкретним потребам кожної культури. Волога печера оптимальна для грибів, але вам буде важко вирощувати пшеницю далеко від прямих сонячних променів і родючого ґрунту. Чи будете ви шукати потенційно віддалені частини вашого острова, де ці оптимальні умови зустрічаються у природі? Або ж ви використаєте свої інженерні навички, щоб підкорити природу під свої потреби ближче до дому?\n• Піраміда потреб за Мишлоу діє в повній мірі, коли ваші громадяни прагнуть повноцінного життя у своїй новій домівці. Забезпечте достатній запас їжі й води, надавайте притулок, щоб громадяни могли добре відпочити, і організуйте технічне обслуговування, щоб запобігти зносу, який приходить із шумом та метушнею зростаючого міста. Після того, як базові потреби будуть забезпечені, ви постанете перед вибором: чи будувати величні статуї своїх грізних котячих володарів, щоб мотивувати мишей і підвищити їхню продуктивність ціною їхнього морального духу, або піти шляхом опору, поставивши на перше місце щастя ваших мишей, а не великі парки й фонтани? Потреби вашого мишачого народу різноманітні, і їхнє щастя має бути делікатно збалансоване з вимогами пазуристої лапи, що нависає над ними.\n\nКОМПЛЕКСНА АВТОМАТИЗАЦІЯ ТА ВИРОБНИЧІ ЛАНЦЮЖКИ\nСтаранна миша не лише працьовита, але й розумна! Використовуйте можливості автоматизації, щоб винюхувати ефективність на кожному кроці. Упроваджуйте системи конвеєрних стрічок на великі відстані, щоб переміщати товари вгору і вниз по колонії швидше, ніж це можна було б зробити одними мишачими лапами, та використовуйте передові технології, щоб перетворити скромну мишачу колонію на стімпанківський мишополіс.\n\n• У Whiskerwood є 40 різних товарів, які можна збирати, виробляти або продавати в інтересах добробуту вашої колонії й задоволення ваших володарів. Видобувайте сировину, таку як металева руда, деревина та пшениця. Створюйте вироби, такі як мотузки, накидки й готові страви. Шукайте предмети розкоші у вигляді спецій, чаю та меблів — з розвитком колонії ваша економіка повинна розширюватися, щоб задовольнити зростаючі бажання осілих мишей.\n• Виконуйте котячі вимоги, щоб здобути прихильність і доступ до предметів розкоші, які важко дістати у вашій молодій колонії, або ж налагоджуйте торговельні відносини з іншими фракціями мишей та піратськими баронами.\n• Будуйте складні лабіринти з конвеєрних стрічок, пандусів, ліфтів і гірок, щоб полегшити швидке переміщення товарів до місць збору, переробки, зберігання та використання. Подібні інструменти у вашому розпорядженні допоможуть прискорити переміщення як мишей, так і матеріалів — з обмеженою кількістю часу для щоденної роботи ефективність має вирішальне значення.\n• Прокладайте трубопроводи, які забезпечать безперебійний потік води й пари на великі відстані для задоволення основних потреб по всьому острову. Насоси, водонапірні вежі, радіатори й вентиляційні отвори працюють на обмежених ділянках, і потрібно ретельно продумати, щоб забезпечити покриття всієї колонії. \n• Працюйте в дослідницьких лабораторіях над новими технологіями, які розширять ваші можливості. Нові будівлі, ресурси та стратегії принесуть світле майбутнє мишачому роду.\n\nГРА В КІШКИ-МИШКИ\nНе можна постійно тиснути на мишу та вважати, що вона не дасть здачі. Вимоги котів стають все більш нерозумними з кожним днем, і їм байдуже, якими стражданнями ці вимоги задовольняються. У будь-яку погоду вантажі повинні бути доставлені на радість котам, інакше вони покличуть своїх поплічників, щоб жорстоко нагадати вам про ваші обов'язки. Чи будете ви вічно служити цій деспотичній лапі? Або зрештою піднімете вуса на знак протесту?",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.58191.13695831805699613.e09b9554-b031-482b-a223-893ddf497fef.cf1c0818-67ef-4265-ac28-96e680f95e65",
-      "originalPrice": 399,
-      "discountPrice": 399,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9NM2T0DMP4XV",
-      "isGamePass": true,
-      "isNewToGamePass": false,
       "isComingSoon": false,
       "isDiscounted": false
     },
