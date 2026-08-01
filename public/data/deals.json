@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T16:02:41.719Z",
+  "lastUpdated": "2026-08-01T17:57:44.636Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -116,18 +116,6 @@
       "isPopular": true
     },
     {
-      "id": "1091500",
-      "title": "Cyberpunk 2077",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1091500",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4704690",
       "title": "MECCHA CHAMELEON",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1785107783",
@@ -136,6 +124,18 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1091500",
+      "title": "Cyberpunk 2077",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1091500",
       "isSpecial": true,
       "isPopular": false
     },
@@ -164,6 +164,18 @@
       "isPopular": false
     },
     {
+      "id": "3164500",
+      "title": "Schedule I",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164500/86e34f84a874cf1853c6b45b7b5948694c7794cb/capsule_616x353.jpg?t=1773974661",
+      "originalPrice": 415,
+      "discountPrice": 290,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3164500",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "4108000",
       "title": "Machine Party",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785485527",
@@ -172,18 +184,6 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4108000",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2001120",
-      "title": "Split Fiction",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
-      "originalPrice": 1299,
-      "discountPrice": 844,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001120",
       "isSpecial": true,
       "isPopular": false
     },
