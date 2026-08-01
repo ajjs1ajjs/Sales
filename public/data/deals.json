@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T11:14:03.259Z",
+  "lastUpdated": "2026-08-01T13:12:10.874Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -116,18 +116,6 @@
       "isPopular": true
     },
     {
-      "id": "3282300",
-      "title": "Mistfall Hunter",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/9492f5551d79e80de57fcf9c4798a1042ceced33/capsule_616x353.jpg?t=1785472771",
-      "originalPrice": 530,
-      "discountPrice": 477,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3282300",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
@@ -176,6 +164,18 @@
       "isPopular": false
     },
     {
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785485527",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4108000",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2001120",
       "title": "Split Fiction",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
@@ -196,6 +196,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3282300",
+      "title": "Mistfall Hunter",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/9492f5551d79e80de57fcf9c4798a1042ceced33/capsule_616x353.jpg?t=1785584605",
+      "originalPrice": 530,
+      "discountPrice": 477,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3282300",
       "isSpecial": false,
       "isPopular": true
     },
