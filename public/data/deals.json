@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T22:53:11.094Z",
+  "lastUpdated": "2026-08-02T23:55:29.481Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -152,18 +152,6 @@
       "isPopular": false
     },
     {
-      "id": "393380",
-      "title": "Squad",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/ad23025eadcd9c8a1281f3e8a8904308a9e61dd8/capsule_616x353.jpg?t=1784319638",
-      "originalPrice": 1099,
-      "discountPrice": 439,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/393380",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3164500",
       "title": "Schedule I",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164500/86e34f84a874cf1853c6b45b7b5948694c7794cb/capsule_616x353.jpg?t=1773974661",
@@ -172,6 +160,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3164500",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "393380",
+      "title": "Squad",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/ad23025eadcd9c8a1281f3e8a8904308a9e61dd8/capsule_616x353.jpg?t=1784319638",
+      "originalPrice": 1099,
+      "discountPrice": 439,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/393380",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9122,20 +9122,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_4558480": {
-      "title": "ARK Tides of Fortune",
-      "price": 885,
-      "percent": 0,
-      "timestamp": "2026-07-03T22:59:20.263Z",
-      "type": "popular"
-    },
-    "steam_popular_4558490": {
-      "title": "ARK: Dragontopia",
-      "price": 1330,
-      "percent": 0,
-      "timestamp": "2026-07-03T22:59:20.263Z",
-      "type": "popular"
-    },
     "steam_discount_1326470": {
       "title": "Sons Of The Forest",
       "price": 180,
