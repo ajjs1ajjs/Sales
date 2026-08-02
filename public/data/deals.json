@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T14:59:27.667Z",
+  "lastUpdated": "2026-08-02T16:06:55.259Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -118,22 +118,22 @@
     {
       "id": "4108000",
       "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785485527",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785684305",
       "originalPrice": 199,
       "discountPrice": 169,
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "4704690",
       "title": "MECCHA CHAMELEON",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/8c199d9c704956104caa7de32cccef828b3cf3d0/capsule_616x353.jpg?t=1785107783",
       "originalPrice": 155,
-      "discountPrice": 131,
-      "discountPercent": 15,
+      "discountPrice": 155,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4704690",
       "isSpecial": true,
@@ -164,18 +164,6 @@
       "isPopular": false
     },
     {
-      "id": "393380",
-      "title": "Squad",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/ad23025eadcd9c8a1281f3e8a8904308a9e61dd8/capsule_616x353.jpg?t=1784319638",
-      "originalPrice": 1099,
-      "discountPrice": 439,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/393380",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2436940",
       "title": "Sephiria",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436940/c8378b0b0d34d0c82c88c5dc18ad2d87af043ee6/capsule_616x353_alt_assets_0.jpg?t=1785481238",
@@ -184,6 +172,18 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2436940",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "393380",
+      "title": "Squad",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/ad23025eadcd9c8a1281f3e8a8904308a9e61dd8/capsule_616x353.jpg?t=1784319638",
+      "originalPrice": 1099,
+      "discountPrice": 439,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/393380",
       "isSpecial": true,
       "isPopular": false
     },
@@ -208,6 +208,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3282300",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1623730",
+      "title": "Palworld",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
+      "originalPrice": 600,
+      "discountPrice": 600,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1623730",
       "isSpecial": false,
       "isPopular": true
     }
@@ -9110,13 +9122,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_1623730": {
-      "title": "Palworld",
-      "price": 420,
-      "percent": 30,
-      "timestamp": "2026-07-03T15:08:25.816Z",
-      "type": "discount"
-    },
     "steam_popular_1675200": {
       "title": "Steam Deck",
       "price": 0,
