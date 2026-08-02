@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T20:51:26.856Z",
+  "lastUpdated": "2026-08-02T21:52:31.767Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -92,18 +92,6 @@
       "isPopular": true
     },
     {
-      "id": "1368140",
-      "title": "Corsair Cove",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785527747",
-      "originalPrice": 599,
-      "discountPrice": 449,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1368140",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "2651280",
       "title": "Marvel's Spider-Man 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg?t=1763569811",
@@ -112,6 +100,18 @@
       "discountPercent": 33,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2651280",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "1368140",
+      "title": "Corsair Cove",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785527747",
+      "originalPrice": 599,
+      "discountPrice": 449,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1368140",
       "isSpecial": true,
       "isPopular": true
     },
@@ -140,6 +140,18 @@
       "isPopular": false
     },
     {
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785684305",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4108000",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "393380",
       "title": "Squad",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/ad23025eadcd9c8a1281f3e8a8904308a9e61dd8/capsule_616x353.jpg?t=1784319638",
@@ -160,18 +172,6 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3164500",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785684305",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9122,13 +9122,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_3751950": {
-      "title": "Assassin's Creed Black Flag Resynced",
-      "price": 1799,
-      "percent": 0,
-      "timestamp": "2026-07-03T21:01:43.994Z",
-      "type": "popular"
-    },
     "steam_popular_4558480": {
       "title": "ARK Tides of Fortune",
       "price": 885,
