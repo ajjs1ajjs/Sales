@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T11:59:42.904Z",
+  "lastUpdated": "2026-08-02T13:44:37.059Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -80,18 +80,6 @@
       "isPopular": true
     },
     {
-      "id": "1086940",
-      "title": "Baldur's Gate 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
-      "originalPrice": 899,
-      "discountPrice": 629,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1086940",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1368140",
       "title": "Corsair Cove",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785527747",
@@ -100,6 +88,18 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1368140",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "1086940",
+      "title": "Baldur's Gate 3",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
+      "originalPrice": 899,
+      "discountPrice": 629,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1086940",
       "isSpecial": true,
       "isPopular": true
     },
@@ -125,7 +125,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "4704690",
@@ -202,24 +202,12 @@
     {
       "id": "3282300",
       "title": "Mistfall Hunter",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/9492f5551d79e80de57fcf9c4798a1042ceced33/capsule_616x353.jpg?t=1785584605",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/9492f5551d79e80de57fcf9c4798a1042ceced33/capsule_616x353.jpg?t=1785673983",
       "originalPrice": 530,
       "discountPrice": 477,
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3282300",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
-      "originalPrice": 600,
-      "discountPrice": 600,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10815,6 +10803,13 @@
       "percent": 40,
       "timestamp": "2026-08-02T08:17:17.067Z",
       "type": "discount"
+    },
+    "steam_popular_4108000": {
+      "title": "Machine Party",
+      "price": 169,
+      "percent": 15,
+      "timestamp": "2026-08-02T13:44:30.940Z",
+      "type": "popular"
     }
   }
 }
