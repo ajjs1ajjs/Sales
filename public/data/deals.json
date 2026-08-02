@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T17:59:26.305Z",
+  "lastUpdated": "2026-08-02T19:20:46.061Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -176,14 +176,14 @@
       "isPopular": false
     },
     {
-      "id": "2001120",
-      "title": "Split Fiction",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
-      "originalPrice": 1299,
-      "discountPrice": 844,
-      "discountPercent": 35,
+      "id": "3293260",
+      "title": "Waterpark Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3293260/732cdbfce458c5e31a96a7e287eb22b01ee2003d/capsule_616x353_alt_assets_5.jpg?t=1785510020",
+      "originalPrice": 245,
+      "discountPrice": 196,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001120",
+      "url": "https://store.steampowered.com/app/3293260",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9122,13 +9122,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_1675200": {
-      "title": "Steam Deck",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-03T19:16:02.010Z",
-      "type": "popular"
-    },
     "steam_popular_3751950": {
       "title": "Assassin's Creed Black Flag Resynced",
       "price": 1799,
