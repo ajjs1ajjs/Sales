@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T02:30:25.838Z",
+  "lastUpdated": "2026-08-03T06:18:53.004Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -80,6 +80,18 @@
       "isPopular": true
     },
     {
+      "id": "2651280",
+      "title": "Marvel's Spider-Man 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg?t=1763569811",
+      "originalPrice": 1699,
+      "discountPrice": 1138,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2651280",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1086940",
       "title": "Baldur's Gate 3",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
@@ -92,16 +104,16 @@
       "isPopular": true
     },
     {
-      "id": "2651280",
-      "title": "Marvel's Spider-Man 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg?t=1763569811",
-      "originalPrice": 1699,
-      "discountPrice": 1138,
-      "discountPercent": 33,
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785684305",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2651280",
+      "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1368140",
@@ -124,18 +136,6 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1817190",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785684305",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
       "isPopular": false
     },
@@ -176,16 +176,40 @@
       "isPopular": false
     },
     {
-      "id": "3293260",
-      "title": "Waterpark Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3293260/732cdbfce458c5e31a96a7e287eb22b01ee2003d/capsule_616x353_alt_assets_5.jpg?t=1785510020",
-      "originalPrice": 245,
-      "discountPrice": 196,
-      "discountPercent": 20,
+      "id": "2436940",
+      "title": "Sephiria",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436940/c8378b0b0d34d0c82c88c5dc18ad2d87af043ee6/capsule_616x353_alt_assets_0.jpg?t=1785481238",
+      "originalPrice": 325,
+      "discountPrice": 195,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3293260",
+      "url": "https://store.steampowered.com/app/2436940",
       "isSpecial": true,
       "isPopular": false
+    },
+    {
+      "id": "4412680",
+      "title": "Street Fighter™ 6 — Пропуск персонажа на 4 рік",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4412680/d4d886a327b3c01caca3cb190b6e84810eeadcfc/capsule_616x353.jpg?t=1784618343",
+      "originalPrice": 979,
+      "discountPrice": 979,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4412680",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4412690",
+      "title": "Street Fighter™ 6 — Повний пропуск на 4 рік",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4412690/d71de030a5f67bb35e5ca2020d5c826f66de8763/capsule_616x353.jpg?t=1784618777",
+      "originalPrice": 1469,
+      "discountPrice": 1469,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4412690",
+      "isSpecial": false,
+      "isPopular": true
     },
     {
       "id": "4165910",
@@ -200,18 +224,6 @@
       "isPopular": true
     },
     {
-      "id": "3282300",
-      "title": "Mistfall Hunter",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/9492f5551d79e80de57fcf9c4798a1042ceced33/capsule_616x353.jpg?t=1785673983",
-      "originalPrice": 530,
-      "discountPrice": 477,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3282300",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "1623730",
       "title": "Palworld",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
@@ -220,18 +232,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "2001760",
-      "title": "Beast of Reincarnation",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/e50e4f7fb9d08195d624890bf811951e86f1cfb1/capsule_616x353.jpg?t=1785194490",
-      "originalPrice": 1499,
-      "discountPrice": 1499,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001760",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10805,6 +10805,20 @@
       "price": 1499,
       "percent": 0,
       "timestamp": "2026-08-03T02:30:20.586Z",
+      "type": "popular"
+    },
+    "steam_popular_4412680": {
+      "title": "Street Fighter™ 6 — Пропуск персонажа на 4 рік",
+      "price": 979,
+      "percent": 0,
+      "timestamp": "2026-08-03T06:18:47.855Z",
+      "type": "popular"
+    },
+    "steam_popular_4412690": {
+      "title": "Street Fighter™ 6 — Повний пропуск на 4 рік",
+      "price": 1469,
+      "percent": 0,
+      "timestamp": "2026-08-03T06:18:47.855Z",
       "type": "popular"
     }
   }
