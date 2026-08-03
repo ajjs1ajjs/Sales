@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T06:18:53.004Z",
+  "lastUpdated": "2026-08-03T10:39:29.373Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -80,18 +80,6 @@
       "isPopular": true
     },
     {
-      "id": "2651280",
-      "title": "Marvel's Spider-Man 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg?t=1763569811",
-      "originalPrice": 1699,
-      "discountPrice": 1138,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2651280",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1086940",
       "title": "Baldur's Gate 3",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
@@ -104,38 +92,26 @@
       "isPopular": true
     },
     {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785684305",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
+      "id": "2651280",
+      "title": "Marvel's Spider-Man 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg?t=1763569811",
+      "originalPrice": 1699,
+      "discountPrice": 1138,
+      "discountPercent": 33,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
+      "url": "https://store.steampowered.com/app/2651280",
       "isSpecial": true,
       "isPopular": false
     },
     {
       "id": "1368140",
       "title": "Corsair Cove",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785527747",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785750972",
       "originalPrice": 599,
       "discountPrice": 449,
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1368140",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1817190",
-      "title": "Marvel’s Spider-Man: Miles Morales",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/capsule_616x353.jpg?t=1763569499",
-      "originalPrice": 1499,
-      "discountPrice": 599,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1817190",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,14 +128,26 @@
       "isPopular": false
     },
     {
-      "id": "3164500",
-      "title": "Schedule I",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164500/86e34f84a874cf1853c6b45b7b5948694c7794cb/capsule_616x353.jpg?t=1773974661",
-      "originalPrice": 415,
-      "discountPrice": 290,
-      "discountPercent": 30,
+      "id": "1817190",
+      "title": "Marvel’s Spider-Man: Miles Morales",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/capsule_616x353.jpg?t=1763569499",
+      "originalPrice": 1499,
+      "discountPrice": 599,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3164500",
+      "url": "https://store.steampowered.com/app/1817190",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785746697",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
       "isPopular": false
     },
@@ -188,14 +176,26 @@
       "isPopular": false
     },
     {
-      "id": "4412680",
-      "title": "Street Fighter™ 6 — Пропуск персонажа на 4 рік",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4412680/d4d886a327b3c01caca3cb190b6e84810eeadcfc/capsule_616x353.jpg?t=1784618343",
-      "originalPrice": 979,
-      "discountPrice": 979,
+      "id": "3164500",
+      "title": "Schedule I",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164500/86e34f84a874cf1853c6b45b7b5948694c7794cb/capsule_616x353.jpg?t=1785744977",
+      "originalPrice": 415,
+      "discountPrice": 290,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3164500",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4412680",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isPopular": true
     },
@@ -212,26 +212,26 @@
       "isPopular": true
     },
     {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "4412680",
+      "title": "Street Fighter™ 6 — Пропуск персонажа на 4 рік",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4412680/d4d886a327b3c01caca3cb190b6e84810eeadcfc/capsule_616x353.jpg?t=1784618343",
+      "originalPrice": 979,
+      "discountPrice": 979,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
+      "url": "https://store.steampowered.com/app/4412680",
       "isSpecial": false,
       "isPopular": true
     },
     {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
-      "originalPrice": 600,
-      "discountPrice": 600,
+      "id": "2001760",
+      "title": "Beast of Reincarnation",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/e50e4f7fb9d08195d624890bf811951e86f1cfb1/capsule_616x353.jpg?t=1785194490",
+      "originalPrice": 1499,
+      "discountPrice": 1499,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
+      "url": "https://store.steampowered.com/app/2001760",
       "isSpecial": false,
       "isPopular": true
     }
@@ -8986,7 +8986,7 @@
       "id": "C1ZT6N30L1WH",
       "title": "World of Warships: Legends",
       "description": "Command history's greatest warships and dominate the seas in this epic free-to-play naval combat game. Step aboard, rewrite naval history, and take the helms of legendary vessels in World of Warships: Legends—an immersive online multiplayer game. Assemble your fleet, recruit powerful Commanders, and outsmart real opponents in tactical 5v5 and 9v9 battles across stunning ocean maps.\n\nSTART YOUR NAVAL JOURNEY\nWith over 600 destroyers, cruisers, battleships, and aircraft carriers from 13 different nations at your fingertips—no two Captains fight the same. Dominate at knife-fight range, rain down fire from the horizon, or forge your own unpredictable strategy. The ocean rewards those bold enough to claim it.\n\nENJOY REGULAR UPDATES\nDive into a constant wave of new content, including warships, campaigns, and limited-time events. Each update delivers fresh gameplay, unique rewards, and game-changing features to keep you in the heat of battle. \n\nPLAY YOUR WAY WITH ENDLESS FEATURES\nKeep the action fresh with new vessels, campaigns with exclusive rewards, and PvE operations inspired by historical events like the Hunt for Bismarck and more. Whether you're clashing in battle; building icons like mighty Yamato; or collecting famous warships such as HMS Hood, USS Iowa, and others—there's always something new to master.\n\nJOIN EXCITING EVENTS, COLLABS, AND TOURNAMENTS\nTake part in seasonal events celebrating Halloween, April Fools’ Day, and more to earn unique rewards! Discover collaborations with popular franchises packed with exclusive themed content. Prove your skills in Ranked Battles, experiment with wild mechanic tweaks in Brawls, and compete for the prestigious Fleet Cup in a special tournament for Fleet Divisions.\n\nTEAM UP AND DOMINATE THE SEAS\nJoin forces with friends or make new allies across all platforms to coordinate devastating strikes, outmaneuver rival fleets, and seize victory in battles where teamwork isn’t just an advantage—it’s the ultimate weapon.\n\nWorld of Warships: Legends features containers with loot-box mechanics, packed with surprises—from powerful warships to various resources that help you dominate the seas.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.56184.65694988112101034.97bd8666-3b00-460c-91cf-75f2c3b7bc37.90a9422a-8d45-4f96-b21f-e36c52a38627",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.48710.65694988112101034.315588c9-f4fb-4605-b06d-bd525b01ce5f.1e93cf12-a4bf-472b-a29e-17f631c5c630",
       "originalPrice": 0,
       "discountPrice": 0,
       "discountPercent": 0,
