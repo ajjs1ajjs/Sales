@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T17:44:05.600Z",
+  "lastUpdated": "2026-08-04T19:26:36.583Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -128,6 +128,18 @@
       "isPopular": false
     },
     {
+      "id": "1368140",
+      "title": "Corsair Cove",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785860713",
+      "originalPrice": 599,
+      "discountPrice": 449,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1368140",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1222680",
       "title": "Need for Speed™ Heat",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/capsule_616x353.jpg?t=1777414224",
@@ -152,14 +164,14 @@
       "isPopular": false
     },
     {
-      "id": "1368140",
-      "title": "Corsair Cove",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785860713",
-      "originalPrice": 599,
-      "discountPrice": 449,
-      "discountPercent": 25,
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1368140",
+      "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
       "isPopular": false
     },
@@ -172,18 +184,6 @@
       "discountPercent": 80,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/812140",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785746697",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
       "isPopular": false
     },
@@ -202,7 +202,7 @@
     {
       "id": "247970",
       "title": "Korea. IL-2 Series",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247970/bbca62ba800619714e19a99487d021c75e9ad6c7/capsule_616x353.jpg?t=1785863268",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247970/bbca62ba800619714e19a99487d021c75e9ad6c7/capsule_616x353.jpg?t=1785869790",
       "originalPrice": 2290,
       "discountPrice": 2290,
       "discountPercent": 0,
