@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T10:34:36.905Z",
+  "lastUpdated": "2026-08-04T12:59:09.931Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -92,6 +92,18 @@
       "isPopular": true
     },
     {
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785746697",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4108000",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "2651280",
       "title": "Marvel's Spider-Man 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg?t=1763569811",
@@ -101,7 +113,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2651280",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1091500",
@@ -112,30 +124,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785746697",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1817190",
-      "title": "Marvel’s Spider-Man: Miles Morales",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/capsule_616x353.jpg?t=1763569499",
-      "originalPrice": 1499,
-      "discountPrice": 599,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1817190",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,6 +140,18 @@
       "isPopular": false
     },
     {
+      "id": "1817190",
+      "title": "Marvel’s Spider-Man: Miles Morales",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/capsule_616x353.jpg?t=1763569499",
+      "originalPrice": 1499,
+      "discountPrice": 599,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1817190",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "252490",
       "title": "Rust",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
@@ -164,6 +164,18 @@
       "isPopular": false
     },
     {
+      "id": "1222680",
+      "title": "Need for Speed™ Heat",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/capsule_616x353.jpg?t=1777414224",
+      "originalPrice": 1999,
+      "discountPrice": 99,
+      "discountPercent": 95,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1222680",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "812140",
       "title": "Assassin's Creed® Odyssey",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/capsule_616x353.jpg?t=1777476997",
@@ -172,18 +184,6 @@
       "discountPercent": 80,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/812140",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3156770",
-      "title": "Witchfire",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3156770/8889ff200d38801631d89de4f2bb2bfa18c130be/capsule_616x353.jpg?t=1785478776",
-      "originalPrice": 740,
-      "discountPrice": 592,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3156770",
       "isSpecial": true,
       "isPopular": false
     },
@@ -983,8 +983,8 @@
       "title": "Avatar: Frontiers of Pandora",
       "description": "Avatar: Frontiers of Pandora™ is a first-person, action-adventure game set in the never-before-seen Western Frontier of Pandora. Abducted by the human militaristic corporation known as the RDA, you, a Na’vi, were trained and molded to serve their purpose. Fifteen years later, you are free, but find yourself a stranger in your birthplace. Reconnect with your lost heritage, discover what it truly means to be Na’vi, and join other clans to protect Pandora from the RDA. \n\nEXPLORE A WORLD OF WONDER AND DANGER\nExperience the epic wonders of the Western Frontier, a never-before-seen continent of Pandora. Journey through beautiful yet unpredictable open world regions, where lowering your guard can lead to deadly mistakes.\n\nBECOME NA’VI\nHarness your incredible strength and agility while customizing your character; crafting new gear, and upgrading skills and weapons to fit your playstyle.\n\nSOAR THE SKIES\nBond with your own personal banshee that will give you an edge in aerial combat and can be used for traveling across the vast Western Frontier.\n\nMASTER MULTIPLE COMBAT STYLES\nFight off the dangers of Pandora as you embrace the precision of traditional Na’vi weapons, including your bow and spear-thrower, or leverage your human training with more destructive weapons, such as an assault rifle or a shotgun.\n\nAN IMMERSIVE NEXT-GEN EXPERIENCE\nDeveloped to maximize the power of Xbox Series X|S, Avatar: Frontiers of Pandora will push the limits of immersion with extraordinary level of detail, rendering, density, and immersive audio.\n\nSHARE YOUR ADVENTURE IN FULL CAMPAIGN CO-OP\nPlay the full story campaign in single-player or with a friend online in two-player co-op.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.47583.14085423200549889.cfdf6256-40bb-43be-96b3-e075b78ab817.39e7a3f9-1153-47eb-9b2c-2c610a4671a2",
-      "originalPrice": 1519,
-      "discountPrice": 1519,
+      "originalPrice": 860,
+      "discountPrice": 860,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N21G14CVS5L",
@@ -10825,6 +10825,13 @@
       "percent": 0,
       "timestamp": "2026-08-04T00:05:46.683Z",
       "type": "xbox_new"
+    },
+    "steam_discount_1222680": {
+      "title": "Need for Speed™ Heat",
+      "price": 99,
+      "percent": 95,
+      "timestamp": "2026-08-04T12:59:02.713Z",
+      "type": "discount"
     }
   }
 }
