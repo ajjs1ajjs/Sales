@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T00:05:52.940Z",
+  "lastUpdated": "2026-08-04T04:10:18.974Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -128,18 +128,6 @@
       "isPopular": false
     },
     {
-      "id": "812140",
-      "title": "Assassin's Creed® Odyssey",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/capsule_616x353.jpg?t=1777476997",
-      "originalPrice": 915,
-      "discountPrice": 183,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/812140",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1817190",
       "title": "Marvel’s Spider-Man: Miles Morales",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/capsule_616x353.jpg?t=1763569499",
@@ -148,6 +136,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1817190",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "812140",
+      "title": "Assassin's Creed® Odyssey",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/capsule_616x353.jpg?t=1777476997",
+      "originalPrice": 915,
+      "discountPrice": 183,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/812140",
       "isSpecial": true,
       "isPopular": false
     },
@@ -176,6 +176,18 @@
       "isPopular": false
     },
     {
+      "id": "3164500",
+      "title": "Schedule I",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164500/86e34f84a874cf1853c6b45b7b5948694c7794cb/capsule_616x353.jpg?t=1785744977",
+      "originalPrice": 415,
+      "discountPrice": 290,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3164500",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
@@ -188,6 +200,18 @@
       "isPopular": true
     },
     {
+      "id": "2001760",
+      "title": "Beast of Reincarnation",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/e50e4f7fb9d08195d624890bf811951e86f1cfb1/capsule_616x353.jpg?t=1785811991",
+      "originalPrice": 1499,
+      "discountPrice": 1499,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2001760",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "1623730",
       "title": "Palworld",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
@@ -196,18 +220,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3282300",
-      "title": "Mistfall Hunter",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/9492f5551d79e80de57fcf9c4798a1042ceced33/capsule_616x353.jpg?t=1785673983",
-      "originalPrice": 530,
-      "discountPrice": 477,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3282300",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1214,7 +1226,7 @@
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NXWSWBM4H6T",
       "isGamePass": true,
-      "isNewToGamePass": false,
+      "isNewToGamePass": true,
       "isComingSoon": false,
       "isDiscounted": false
     },
