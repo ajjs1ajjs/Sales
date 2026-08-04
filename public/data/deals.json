@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T07:35:49.262Z",
+  "lastUpdated": "2026-08-04T10:34:36.905Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -152,6 +152,18 @@
       "isPopular": false
     },
     {
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/252490",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "812140",
       "title": "Assassin's Creed® Odyssey",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/capsule_616x353.jpg?t=1777476997",
@@ -160,18 +172,6 @@
       "discountPercent": 80,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/812140",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2138330",
-      "title": "Cyberpunk 2077: Ілюзія свободи",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1784713876",
-      "originalPrice": 699,
-      "discountPrice": 419,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2138330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -196,6 +196,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2001760",
+      "title": "Beast of Reincarnation",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/e50e4f7fb9d08195d624890bf811951e86f1cfb1/capsule_616x353.jpg?t=1785818525",
+      "originalPrice": 1499,
+      "discountPrice": 1499,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2001760",
       "isSpecial": false,
       "isPopular": true
     }
@@ -7857,14 +7869,14 @@
       "description": "Embark on a chill experience alone or with up to 8 friends in online co-op. Your mission is to survive on a hostile planet and turn a barren land into a lush paradise. Terraforming is the only way!\n\nYou are sent on a hostile planet with one mission: Make it habitable for Humans. You'll have to survive, collect resources, build your base, produce machines to heat the planet, create an oxygen-rich atmosphere and eventually geo-engineer an entire planet!\n\nGather minerals and resources to survive. Craft all the tools you need to fulfil your mission. Explore old shipwrecks and ruins and discover a planet full of mysteries!\n\nYou'll need a base and all sorts of machines to make yourself at home, and be able to bring life to this planet! Progress through building tiers to upgrade and expand your base and explore the planet further.\n\nSee life forms appear on the planet as you terraform it by increasing heat, oxygen and pressure. Witness the first signs of life with moss and insects and unleash the planet's full potential with thick forests and animals.\n\nFrom chill to hardcore, choose the difficulty level that suits you. Play with starting pre-sets to create new games and experience endless possibilities.\n\nMultiplayer: survive by yourself or with friends (1-8 online co-op) \nSurvival: Thirst, Oxygen, Temperature and Health mechanics \nBase Building: shelter from a hostile environment and expand your exploration \nCrafting: equipment, tools and food to help you survive \nTerraformation: turn an entire hostile planet to a habitable paradise!\nBuild machines to create atmospheric pressure and heat the planet \nCreate a biosphere with breathable oxygen\nSee your environment change as your terraformation progresses\nCreatures: create life by decrypting and mixing DNA extracts and make your own animals \nProcedurally generated shipwrecks: explore and find infinite rare loot \nChill experience with no violence: the only enemy you'll have to fight is the hostile environment \nAdjustable difficulty to fit your level \nAdjustable pre-sets for renewed experiences through time \nCreative mode",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.58007.13926241205782582.03edd26d-20d2-4e77-abf0-0ece1ae045c8.cd2024f3-e09a-474c-8f91-4b316876dadf",
       "originalPrice": 499,
-      "discountPrice": 449.1,
-      "discountPercent": 10,
+      "discountPrice": 499,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N072VV7MFK7",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P1WJCK9B8S6",
