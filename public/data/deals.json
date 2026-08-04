@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T21:08:53.267Z",
+  "lastUpdated": "2026-08-04T22:59:49.726Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -113,7 +113,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2651280",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1091500",
@@ -124,42 +124,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1368140",
-      "title": "Corsair Cove",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785860713",
-      "originalPrice": 599,
-      "discountPrice": 449,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1368140",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1222680",
-      "title": "Need for Speed™ Heat",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/capsule_616x353.jpg?t=1777414224",
-      "originalPrice": 1999,
-      "discountPrice": 99,
-      "discountPercent": 95,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1222680",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785746697",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
       "isPopular": false
     },
@@ -176,14 +140,50 @@
       "isPopular": false
     },
     {
-      "id": "3156770",
-      "title": "Witchfire",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3156770/8889ff200d38801631d89de4f2bb2bfa18c130be/capsule_616x353.jpg?t=1785478776",
-      "originalPrice": 740,
-      "discountPrice": 592,
-      "discountPercent": 20,
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785746697",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3156770",
+      "url": "https://store.steampowered.com/app/4108000",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
+      "originalPrice": 625,
+      "discountPrice": 312,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1144200",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1222680",
+      "title": "Need for Speed™ Heat",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/capsule_616x353.jpg?t=1777414224",
+      "originalPrice": 1999,
+      "discountPrice": 99,
+      "discountPercent": 95,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1222680",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1368140",
+      "title": "Corsair Cove",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785860713",
+      "originalPrice": 599,
+      "discountPrice": 449,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1368140",
       "isSpecial": true,
       "isPopular": false
     },
@@ -196,6 +196,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3010850",
+      "title": "Gears of War: E-Day",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/976e1a03f1dd94a80d962fdd734efe0d79b407f4/capsule_616x353.jpg?t=1785432491",
+      "originalPrice": 2299,
+      "discountPrice": 2299,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3010850",
       "isSpecial": false,
       "isPopular": true
     },
@@ -10852,6 +10864,20 @@
       "price": 2290,
       "percent": 0,
       "timestamp": "2026-08-04T17:43:57.114Z",
+      "type": "popular"
+    },
+    "steam_discount_1144200": {
+      "title": "Ready or Not",
+      "price": 312,
+      "percent": 50,
+      "timestamp": "2026-08-04T22:59:43.554Z",
+      "type": "discount"
+    },
+    "steam_popular_3010850": {
+      "title": "Gears of War: E-Day",
+      "price": 2299,
+      "percent": 0,
+      "timestamp": "2026-08-04T22:59:43.554Z",
       "type": "popular"
     }
   }
