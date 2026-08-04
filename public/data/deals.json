@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T15:27:48.976Z",
+  "lastUpdated": "2026-08-04T17:44:05.600Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -82,7 +82,7 @@
     {
       "id": "1478500",
       "title": "Big Walk",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785848401",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785861188",
       "originalPrice": 449,
       "discountPrice": 336,
       "discountPercent": 25,
@@ -104,18 +104,6 @@
       "isPopular": true
     },
     {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785746697",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "2651280",
       "title": "Marvel's Spider-Man 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg?t=1763569811",
@@ -125,7 +113,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2651280",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "1091500",
@@ -136,6 +124,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1222680",
+      "title": "Need for Speed™ Heat",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/capsule_616x353.jpg?t=1777414224",
+      "originalPrice": 1999,
+      "discountPrice": 99,
+      "discountPercent": 95,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1222680",
       "isSpecial": true,
       "isPopular": false
     },
@@ -154,7 +154,7 @@
     {
       "id": "1368140",
       "title": "Corsair Cove",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785750972",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785860713",
       "originalPrice": 599,
       "discountPrice": 449,
       "discountPercent": 25,
@@ -164,26 +164,26 @@
       "isPopular": false
     },
     {
-      "id": "1222680",
-      "title": "Need for Speed™ Heat",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/capsule_616x353.jpg?t=1777414224",
-      "originalPrice": 1999,
-      "discountPrice": 99,
-      "discountPercent": 95,
+      "id": "812140",
+      "title": "Assassin's Creed® Odyssey",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/capsule_616x353.jpg?t=1777476997",
+      "originalPrice": 915,
+      "discountPrice": 183,
+      "discountPercent": 80,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1222680",
+      "url": "https://store.steampowered.com/app/812140",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "3156770",
-      "title": "Witchfire",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3156770/8889ff200d38801631d89de4f2bb2bfa18c130be/capsule_616x353.jpg?t=1785478776",
-      "originalPrice": 740,
-      "discountPrice": 592,
-      "discountPercent": 20,
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785746697",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3156770",
+      "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
       "isPopular": false
     },
@@ -196,6 +196,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "247970",
+      "title": "Korea. IL-2 Series",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247970/bbca62ba800619714e19a99487d021c75e9ad6c7/capsule_616x353.jpg?t=1785863268",
+      "originalPrice": 2290,
+      "discountPrice": 2290,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/247970",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10833,6 +10845,13 @@
       "price": 336,
       "percent": 25,
       "timestamp": "2026-08-04T15:27:40.108Z",
+      "type": "popular"
+    },
+    "steam_popular_247970": {
+      "title": "Korea. IL-2 Series",
+      "price": 2290,
+      "percent": 0,
+      "timestamp": "2026-08-04T17:43:57.114Z",
       "type": "popular"
     }
   }
