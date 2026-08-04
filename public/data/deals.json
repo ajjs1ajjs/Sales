@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T22:05:35.397Z",
+  "lastUpdated": "2026-08-04T00:05:52.940Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -101,7 +101,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2651280",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "1091500",
@@ -116,14 +116,14 @@
       "isPopular": false
     },
     {
-      "id": "1368140",
-      "title": "Corsair Cove",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785750972",
-      "originalPrice": 599,
-      "discountPrice": 449,
-      "discountPercent": 25,
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785746697",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1368140",
+      "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,14 +152,14 @@
       "isPopular": false
     },
     {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785746697",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
+      "id": "1368140",
+      "title": "Corsair Cove",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785750972",
+      "originalPrice": 599,
+      "discountPrice": 449,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
+      "url": "https://store.steampowered.com/app/1368140",
       "isSpecial": true,
       "isPopular": false
     },
@@ -176,18 +176,6 @@
       "isPopular": false
     },
     {
-      "id": "3164500",
-      "title": "Schedule I",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164500/86e34f84a874cf1853c6b45b7b5948694c7794cb/capsule_616x353.jpg?t=1785744977",
-      "originalPrice": 415,
-      "discountPrice": 290,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3164500",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
@@ -200,18 +188,6 @@
       "isPopular": true
     },
     {
-      "id": "2001760",
-      "title": "Beast of Reincarnation",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/e50e4f7fb9d08195d624890bf811951e86f1cfb1/capsule_616x353.jpg?t=1785194490",
-      "originalPrice": 1499,
-      "discountPrice": 1499,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001760",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "1623730",
       "title": "Palworld",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
@@ -220,6 +196,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3282300",
+      "title": "Mistfall Hunter",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/9492f5551d79e80de57fcf9c4798a1042ceced33/capsule_616x353.jpg?t=1785673983",
+      "originalPrice": 530,
+      "discountPrice": 477,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3282300",
       "isSpecial": false,
       "isPopular": true
     }
@@ -276,14 +264,14 @@
       "description": "Dig deep, sell what you find, update your equiptment to continue your journey further and further. With every spadeful you dig, you get closer to the truth. There's no rush, no rules - just you and the adventure underground.\n\nCosts as much as a ☕ coffee, but is fun for longer!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.53246.13643221603035245.ddde7541-3c1c-43b1-8b36-964427f91e73.117e0b3f-3f9b-42c1-af93-941770647d68",
       "originalPrice": 127.5,
-      "discountPrice": 127.5,
-      "discountPercent": 0,
+      "discountPrice": 89.25,
+      "discountPercent": 30,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NGLST31DG26",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N97RC576957",
@@ -546,14 +534,14 @@
       "description": "Welcome to the neon-covered, 2D-meets-3D Cyberpunk world of ANNO: Mutationem. In this Action-Adventure game with RPG elements you become Ann: a highly-skilled combat-trained lone wolf on a personal mission in the giant Metropolis, full of sinister mega-corporations, mysterious fringe groups and creatures more bizarre than words can express.\r\n\r\n【Explore and discover】\r\nThis is a world full of surprises waiting for you to find out! While going thru the main story you can chat with a Cyborg corgi, take on a part-time bartender job, hunt down vicious criminals reveal the true face of a trending V-streamer! By exploring diverse locations such as neon Noctis Town, an off-shore cargo ship and huge underground structures, players are free to go as they please and act as they want.\r\n\r\n【Showing new perspective】\r\nUnique 2D-to-3D gameplay, seamless switching between 2D Action n' Platforming and 3D Exploration to interact with the world and its inhabitants. Let's dive into pixel gaming from another perspective!\r\n\r\n【Ann kicks Ass】\r\nAnn will slash, shoot, combo, grenade-throw & ground-pound her way through hordes of enemies and huge bosses. From great swords to double blades, from pistols to rocket launchers and uppercuts, time to become the one-girl army you always knew you had in you.\r\n\r\n【Try to finish the jigsaw】\r\nA grand story, befitting a rich and dark cyberpunk décor, featuring our main hero Ann Flores and her trusty hyper hacker side-kick Ayane on a personal mission to find out where her missing brother has gone to. Little do the two know just what they will unravel…\r\n\r\n【Please arm yourself to teeth】\r\nCollect, buy or craft items & upgrade Ann's stats, skills and gear. Use chips to modify any kind of weapon you find. Equip Ann and make her combat-ready for all enemies (both humanoid and not…) that are about to head her way.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.34808.14297915627755596.63bda613-b706-49f5-b411-63eac88ab8f8.50ef0930-5e99-4574-b078-81447c6f3e20",
       "originalPrice": 505,
-      "discountPrice": 505,
-      "discountPercent": 0,
+      "discountPrice": 252.5,
+      "discountPercent": 50,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PMHGHXLGLJM",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P1VNX9Z03N5",
@@ -1216,6 +1204,21 @@
       "isDiscounted": false
     },
     {
+      "id": "9NXWSWBM4H6T",
+      "title": "Beast of Reincarnation",
+      "description": "Set in a post-apocalyptic Japan, humanity's only hope lies with Emma, an outcast shunned from society for her affliction, and Koo, the blighted dog. Together, they embark on this expansive adventure in this one-person, one-dog action RPG.\n\nExperience a journey where you feel moments of loneliness, and also the reliability and comfort of your companion. Savor a world of impermanence, where forests suddenly burst forth amidst the wasteland. As Emma and Koo travel through this beautiful yet harsh world, their bond and abilities blossom.\n\nCustomize your playstyle with unique skill trees, gear, and spirit stones to survive this beautiful yet brutal world. Define your own playstyle through your preferred loadout, including ranged, stealthy, and aggressive combat.\n\nIn this world ravaged by blight...what will you find at the end of your journey?\n\nEmma and Koo’s Synergy \nEmma and Koo create a revolutionary action RPG experience. Fight as a unit with the protagonist, Emma’s sword abilities while giving Koo commands to unleash various techniques, just like in a turn-based RPG.\n\nJapan: Year 4026\nTravel through a beautiful yet harsh post-apocalyptic world. Experience the ever-changing scenery, in the blighted forest, and the Bosses that rule this world. Emma and Koo, who met in the far east, are tasked with battling Bosses from all over the world and capturing their powers in order to defeat the Beast of Reincarnation.\n\nA Story Filled With Secrets\nDive into a brutal narrative where every character hides a dangerous truth. Uncover the intertwined fates of Emma and Koo in this profound story.\n",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.54026.14487652983694462.828587f8-7b7f-474f-aed4-900fa0e0896d.79e46929-fbd3-41c5-806f-3aa39c42b9af",
+      "originalPrice": 1930,
+      "discountPrice": 1930,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9NXWSWBM4H6T",
+      "isGamePass": true,
+      "isNewToGamePass": false,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
       "id": "9NJRSC0B0K88",
       "title": "Beastro",
       "description": "Пало Порі — гарне мирне село ремісників і справжніх гурманів. Але за захисною стіною набирає сили темрява. Голодні чудовиська заполонили терени й тепер точать зуби на останній острівець надії та щастя навкруги — ваш дім.\nВи Панко — молодий талановитий кухар, що працює в місцевій харчевні. Одного разу ваш учитель зникає, а в селі з’являється дивний чужинець, що розповідає про небезпеки за стіною. Тепер вам доведеться самотужки керувати забігайлівкою, опікуючись як продуктами, так і відвідувачами. Окрім цього, ви пристанете на службу до Хранителів — хоробрих героїв, покликаних урятувати світ. У цій пригоді боротьба за мир починається на кухні!\n\nОСОБЛИВОСТІ: ЩО В МЕНЮ?\n\nЛИШЕ НАТУРАЛЬНІ ПРОДУКТИ\nУ Пало Порі люблять свіженьке! Збирайте інгредієнти та ресурси, доглядайте за тваринами й вирощуйте фрукти та овочі, щоб підвищувати репутацію своєї харчевні з натуральними продуктами. Збирайте дикі трави й відкривайте нове насіння, щоб урізноманітнювати свої страви.\n\nПІКЛУЙТЕСЯ ПРО ВІДВІДУВАЧІВ\nРубіть, перегортайте та смажте в захопливих мінііграх, щоб годувати всіх селян неймовірно смачними стравами. Смакувати добру їжу завжди приємніше в компанії, тож нагострюйте свої кулінарні навички й експериментуйте з інгредієнтами — відвідувачі будуть щасливі!\nПідбирайте меню під смаки громади, розвивайте дерево кулінарних навичок, щоб готувати ще смачніше, та змінюйте декор вашого закладу, щоб підвищити його привабливість.\n\nГОДУЙТЕ ХРАНИТЕЛІВ\nСеляни, звісно, важливі, але є ще й голодні Хранителі — відважні бійці, які захищають село від чудовиськ. І вони теж чекають від вас кулінарних подвигів! У кожного з Хранителів свої вподобання: хтось любить гірке, хтось солодке, а комусь однаково, що їсти, головне побільше. Продумуйте меню та готуйте так, щоб підняти їхній бойовий дух, розвинути навички й навіть відкрити нові здібності. Ви дуже важлива людина в загоні, адже на голодний шлунок світ рятувати складно.\n\nЗБИРАЙТЕ КОЛОДУ ЗІ СМАКОМ\nЧас перевірити ваші навички в цій справі! Поєднати, так би мовити, смак і тактику в одній тарілці. Приготовані вами страви впливають на бойову колоду обраного Хранителя, і кожен інгредієнт дає нову карту. Після трапези Хранителі відправляються в пустище битися з чудовиськами, а потім повертаються з новими історіями про свої бойові подвиги та, можливо, новими ДИВОГЛЯДНИМИ інгредієнтами. Плануйте й збирайте колоду, щоб перемагати чудовиськ у покроковій картковій грі. Обігруйте супротивників, підбираючи магію смаків та нейтралізатори для ворожих здібностей, і не забувайте вчасно розігрувати карти посилення на свого бійця! Ваші чари здатні переломити хід будь-якого бою, а в цьому ви справжній профі!\n\nВикористовуйте унікальні ефекти своїх кулінарних інгредієнтів, щоб занурити ворогів у сон або, наприклад, змусити їх скинути карти. Але стережіться, особливі здібності маєте не тільки ви. Якщо не пильнуватимете — хтось може вас підсмажити.\nЧас додати перцю до цієї кухарської пригоди! Готові до кулінарних поєдинків?\n\nВідкрийте магію їжі.\n",
@@ -1866,14 +1869,14 @@
       "description": "At DE NILE SHIPPING, things move fast. And if they don’t, you’re the problem. Make a crew of up to 4 overworked friends and drive into a frantic co-op forklift experience where teamwork is key, and disaster is inevitable.\n\nMULTIPLAYER WAREHOUSE MAYHEM \nResearch shows the best way to hit impossible deadlines is to build for speed, not safety. That’s why our warehouse isn’t just a workplace, it’s a full-blown raceway! Our forklifts come tricked out with boost and drift capabilities for maximum productivity (and employee enrichment). Just try not to smash into each other.\n\nGRAB IT, STACK IT, SHIP IT\nThanks to our forklifts’ patented “Easy-Grab” functionality, sorting and stacking is a breeze. Remember to constantly yell at your coworkers to keep the warehouse organized to avoid becoming buried under a pile of missed quotas. And chickens.\n\nFULFILL RIDICULOUS ORDERS\nOur warehouse is equipped to handle the most outlandish orders from across the globe. Lemons, anvils, explosives, primates… if you can dream it, we can deliver it! Fulfill a variety of unique contracts with over 20 types of boxes guaranteed to make your job a physics-based nightmare!!\nDE NILE SHIPPING understands that customer convenience comes at the cost of employee safety, so please handle any volatile orders with care. Any damages will come out of your paycheck!\n\nUPGRADES, UPGRADES, UPGRADES!\nWe might be out of budget for warehouse improvements, but you’re still welcome to spend your own hard-earned cash on new devices and forklift upgrades that are sure to make your job easier, if not a little safer!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.203.13675289401486045.76eb52e5-997e-40b6-9329-c737ead64f75.6c97b9f2-3abb-41b7-9e6b-b78c11432fb9",
       "originalPrice": 154,
-      "discountPrice": 154,
-      "discountPercent": 0,
+      "discountPrice": 100.1,
+      "discountPercent": 35,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NJJVQZ3BVPX",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NKF2SZ630ZH",
@@ -2151,14 +2154,14 @@
       "description": "Supports Xbox Play Anywhere: yours to play on both Xbox One and Windows 10 PC at no additional cost.\r\n\r\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++\r\nNOTE: Crossplay is between Xbox One and Windows 11 PC (Microsoft Store) version only \r\nRead more here: https://www.deeprockgalactic.com/crossplay-info\r\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++\r\n\r\nDeep Rock Galactic is a 1-4 player co-op FPS featuring badass space Dwarves, 100% destructible environments, procedurally-generated caves, and endless hordes of alien monsters.\r\n\r\nHoxxes IV has the highest concentration of valuable minerals ever discovered; however, everything on the planet from the creatures to the fauna is extremely hostile. Good thing Deep Rock Galactic employs the best space miners in the universe: Dwarves! Combining two things Dwarves love most - mining and killing monsters - Hoxxes is the perfect job for any proud, space-faring Dwarf.\r\n\r\n*** 4-player Co-Op ***\r\nWork together as a team to dig, explore, and fight your way through a massive cave system filled with hordes of deadly enemies and valuable resources. You will need to rely on your teammates if you want to survive the most hostile cave systems in the galaxy!\r\n\r\n*** 4 Unique Classes ***\r\nPick the right class for the job. Mow through enemies as the Gunner, scout ahead and light up the caves as the Scout, chew through solid rock as the Driller, or support the team with defensive structures and turrets as the Engineer.\r\n\r\n*** Fully Destructible Environments ***\r\nDestroy everything around you to reach your goal. There is no set path so you can complete your mission your way. Drill straight down to your objective or build an intricate network of paths to explore your surroundings -- the choice is yours. But proceed with caution, you don’t want to stumble into an alien swarm unprepared!\r\n\r\n*** Procedurally Generated Cave Network ***\r\nExplore a network of procedurally generated cave systems filled with enemies to fight and riches to collect. There’s always something new to discover and no two playthroughs are alike.\r\n\r\n*** High-Tech Gadgets and Weapons ***\r\nDwarves know what they need to bring to get the job done. This means the most powerful weapons and the most advanced gadgets around - flamethrowers, gatling guns, portable platform launchers, and much, much more.\r\n\r\n*** Light Your Path ***\r\nThe underground caves are dark and full of terrors. You will need to bring your own lights if you want to illuminate these pitch-black caverns.\r\n\r\nFull details on the latest status of the game, how you can give feedback and report issues can be found at https://www.deeprockgalactic.com/",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.43518.13626568325427111.acf8bd0b-a403-422a-bfd4-5262a9b59ec2.cc737eb2-7f52-43c4-89e5-cd92558971e9",
       "originalPrice": 760,
-      "discountPrice": 760,
-      "discountPercent": 0,
+      "discountPrice": 228,
+      "discountPercent": 70,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NHFVWX1V7QJ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PHGQPRBBSXK",
@@ -3426,14 +3429,14 @@
       "description": "Game Features\nTongue First Into Everything - Your tongue is your tool for everything. Swing through the world, grab objects, and nudge your friends into unexpected situations.\n\nBetter Together in the Sewers - Head into The Sewers together, gather what you can, and make your way back as a team however that ends up looking.\n\nQuota, Sorted - Bring back enough food to hit the day’s quota and keep the Swamp King content, unlocking what comes next for your group.\n\nIf It Exists, Use It - Experiment with anything you find. Stack, pull, and improvise your way through each run.\n\nSay Hello to the Locals - The Sewers are full of strange little inhabitants who add just the right amount of disruption.\n\nBig Frog Energy - The more you eat, the bigger you become, until you’re rolling through the world as a booming Megafrog.\n\nTiny Frog, Big Help Needed - Drop your food when you take a hit, and you’ll shrink into a tiny frogspawn! Ready for a helping hand from your team.\n\nSay It Out Loud - Talk naturally as you play, your frog’s mouth moving along with every laugh and shout shared in the moment.\n\nTeam Up With Friends\nJoin up to 7 froggy friends for a physics-filled scramble through the sewers. Swing from pipes with your sticky tongue, wrangle oversized food through tight tunnels, solve problems your own way, and occasionally launch each other across the room all in service of the ever-hungry Swamp King.\n\nFind Food\nExplore sewers that never quite stay the same, where each run brings new hazards, strange encounters, and food worth the effort. Keep eating, keep growing, and before long you’ll be rolling around as a delightfully massive Megafrog. \n\n... And Don't Get Eaten!\nThe Swamp King’s appetite grows a little each day. Spend your hard-earned gold on new toys and gadgets to shake up future runs, and work together to keep up with the daily quota. He’s not too picky about where his next meal comes from. ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.39981.13907096050138817.7fbf6475-c772-4edc-86bc-618d25d93186.ed5809a2-c822-4868-b161-f51c2841bf91",
       "originalPrice": 281,
-      "discountPrice": 281,
-      "discountPercent": 0,
+      "discountPrice": 210.75,
+      "discountPercent": 25,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N16RZ0S50V2",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N0KN24FWP6B",
@@ -3471,14 +3474,14 @@
       "description": "Gang Beasts is a silly multiplayer party game with surly gelatinous characters, brutal slapstick fight sequences, and absurd hazardous environments, set in the mean streets of Beef City.\r\n\r\nCustomise your character and fight local and online enemies in the melee game mode or fight with friends against the gangs of Beef City in the gang game mode.\r\n\r\nGang Beasts is made by Boneloaf, a small independent game studio making a series of experimental multiplayer party games.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.32163.68150164172276526.ddc374d7-ef5e-43b9-940a-bbc04440bb33.deaff9b9-d8af-4e35-9f45-75951fe60524",
       "originalPrice": 389,
-      "discountPrice": 389,
-      "discountPercent": 0,
+      "discountPrice": 155.6,
+      "discountPercent": 60,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/BPQZT43FWD49",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P4KMR76PLLQ",
@@ -3636,14 +3639,14 @@
       "description": "THE WORLD IS ENDING AND THE GODS ARE SQUABBLING! Suck up and launch speech bubbles in a wacky world of puzzles, puppets, and weird gods… or THE RIFT WILL CONSUME US ALL!!\n\nOnce in a generation, the gods come together to postpone the apocalypse. But this time, the god of communication started a bunch of heavenly fights and then went awol.\n\nWith the sky splitting and the gods in disarray, who’s gonna join the Bizzyboys to help SAVE DA WORLD FROM A-POCKY-LIPS???\n\n• SUCK UP AND LAUNCH DIALOGUE! As the gods’ new mail-carrier, you can suck up speech bubbles and fire them at anyone to communicate! Solve puzzles! Flirt! HURT GODS’ FEELINGS! Aww…\n• DISCOVER BIZARRE GODS: The god of teamwork? The god of LOVE SONGS? Drain it, who’s in charge around here…?\n• Experience talking scarecrows! Cooking puppets!! THE END OF THE WORLD AS WE KNOW IT!!!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.30443.13938047926882205.478db89a-539b-4b20-956d-db969f740012.394ba679-fdf1-4c98-9b74-8acdc0958526",
       "originalPrice": 505,
-      "discountPrice": 505,
-      "discountPercent": 0,
+      "discountPrice": 252.5,
+      "discountPercent": 50,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N36BLQF3FX6",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N0ZHH9GPLGZ",
@@ -4191,14 +4194,14 @@
       "description": "ПОЗНАЙОМТЕСЯ З НЕЗВИЧАЙНОЮ ЧЕРНИЦЕЮ\r\n\r\nINDIKA — гра від третьої особи з історією про дивний світ, де релігія вступає в протиборство з жорстокою реальністю. Гра розповідає про молоду черницю, яка вирушає на пошуки самої себе пліч-о-пліч з рогатим другом.\r\n\r\nЗовні Індіка звичайна, нічим не видатна черниця. Вона всіма силами намагається нести тягар монастирського життя. Однак скромність і спокій лише прикриття її суті, адже в друзі вона собі вибрала — на хвилиночку! — самого диявола!\r\n\r\nІндіка, заручившись такими своєрідними зв'язками зі злом у плоті, відправляється в світ за межами монастиря. Картина, що їй відкривається, являє собою суміш трагікомедії, що зійшла зі сторінок романів Достоєвського і Булгакова.\r\n\r\nПОРИНЬТЕ В ІНДІ-ГРУ, ДЕ ДОЗВОЛЕНО ВСЕ\r\n\r\nПід час своєї подорожі Індика зіткнеться з темами релігії та влади, а по дорозі вона повинна буде відповісти на безліч запитань. Направляйте її та допоможіть знайти усі відповіді, перш ніж вона зможе закінчити свою доленосну одіссею.\r\n\r\nOdd Meter — це невелика незалежна студія, яка раніше розташовувалася в Москві, але тепер працює в Казахстані. Її учасники ставлять естетику на перше місце та не бояться переступати тонку межу етичних норм. Гра є яскравим підтвердженням цього, оскільки INDIKA відкрито кидає виклик встановленому підходу до створення відеоігор.\r\n\r\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.56052.13929914726070906.6aa62ae0-b192-481c-ae91-7d0c41788b49.3c498dac-1f66-4de9-af69-ee435aa16097",
       "originalPrice": 640,
-      "discountPrice": 640,
-      "discountPercent": 0,
+      "discountPrice": 256,
+      "discountPercent": 60,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N020KFQG301",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NVV0M74W05C",
@@ -4221,14 +4224,14 @@
       "description": "Зустрічайте новинку від розробника Pony Island і The Hex, яка точно зламає вам мозок. \r\n\r\nСвоєрідне зізнання в коханні іграм, написане на піску. Inscryption — карткова гра у чорних тонах, справжня одіссея, яка поєднала елементи жанру roguelike, головоломки типу «втікайте з кімнати» та психологічний жах. Темні секрети ховаються в картах...\r\n\r\nУ грі Inscryption ви:\r\n\r\nСтворите цілу низку лісових істот за допомогою вибору, хірургії та самопошкодження.\r\n\r\nДізнаєтеся, які таємниці ховаються за стінами хижі Лісовика.\r\n\r\nВирушите в дивовижну і неймовірно страшну подорож.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.40267.14084380653642072.5b7362f4-7943-463e-aa3b-fca7f77fd749.bdecb49a-dd5f-4d09-9c0c-68d4eb0d2d36",
       "originalPrice": 505,
-      "discountPrice": 505,
-      "discountPercent": 0,
+      "discountPrice": 151.5,
+      "discountPercent": 70,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P8NSTDMZ11P",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "C17GQF31D617",
@@ -5211,14 +5214,14 @@
       "description": "Every adventure has to pay off\r\nDuring an archaeological excavation – a set of Gates were discovered. People quickly realized that these ancient passages lead to different realms and dimensions. Rynoka, a small commercial village, was found near the excavation site – providing brave and reckless adventurers with treasures beyond measure.\r\n\r\nMoonlighter is an Action RPG with rogue-lite elements that demonstrates two sides of the coin – revealing everyday routines of Will, an adventurous shopkeeper that secretly dreams of becoming a hero.\r\n\r\nShopkeeping\r\nWhile conducting your business in Rynoka village, you can put items on sale, set their price carefully, manage gold reserves, recruit assistants and upgrade the shop. Be careful though – some shady individuals may want to steal your precious wares!\r\nMeet villagers\r\nGetting to know Rynoka’s residents and understanding needs of customers is crucial. Some folks may have special quests for you, requesting rare items and offering handsome rewards in return.\r\n\r\nCraft and enchant\r\nCrafting and enchanting system is essential for the your progression. Interacting with the villagers is the way to craft new armors, weapons and enchant existing equipment. This creates a great deal of flexibility and spices up the way the equipment is used.\r\n\r\nGet the loot\r\nWhile visiting other worlds, collect valuable resources, weapons, armors, treasures and peculiar artefacts. Then, manage acquired loot using unique inventory-based abilities.\r\n\r\nFight with style\r\nDefeating various enemies and bosses, revel in the challenging and deep combat mechanics. The depth of combat depends on the interactions between weapons, timing, positioning, enemies and environment. Feel comfortable developing your own battling style.\r\n\r\nOpen the gates\r\nGates lead to different worlds. Each run is unique and forces you to take some smart decisions. You never know what you will encounter next – that’s why you have to be prepared for everything.\r\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.36643.14078999020725962.ddb83977-3b2d-4498-aa21-0a1bdeb1cddc.7cf5715a-f99d-4a58-a93d-44bed95c01dd",
       "originalPrice": 505,
-      "discountPrice": 505,
-      "discountPercent": 0,
+      "discountPrice": 75.75,
+      "discountPercent": 85,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P8XJRLCLH2P",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NDJX252Q5BW",
@@ -6111,14 +6114,14 @@
       "description": "PowerWash Simulator is back, satisfaction is a spray away!\n\nDust off your power washer and relax into pure feel-good fun. Blast away every last speck, smear and splatter of filth to restore Muckingham (and beyond 👀) to gleaming glory.\n\nCraving more to Clean?\n\nThe jobs and water keep flowing in PowerWash Simulator 2. Play through a fresh new campaign, uncovering more of Muckingham’s mysteries. Plus, venture even further out to brand-new grime-coated locations like Sponge Valley, Power Falls and Lubri City.\n\nAlongside new locations and jobs, you’ll also find a new job type. Multi-stage jobs will unlock different areas of a job – from vehicle interiors to entirely different rooms, your to-do list keeps growing.\n\nTools of the Trade\n\nReach new heights of power washing professionalism with a range of new tools to help you achieve a spectacular sparkle, high and low. Realise even your loftiest cleaning ambitions with the help of an all-new abseiling rig and cherry picker or stay grounded with a grime busting surface cleaner for large areas.\n\nNo Place like your Home-base\n\nKick back and relax in your home-base after a hard-days-cleaning. Make the place yours by collecting furniture and trinkets to spruce it up along the way, then invite your power wash pals over to check out your pad. \n\nYou didn’t think we’d leave your furry friends in the van, did you? Your pretty kitties are the purr-fect distraction for when you’ve pressed paws on work for the day. \n\nSoap-erior Washing\n\nWatch your worries melt away with each swipe of your power washer. Cleaning feels even better in PowerWash Simulator 2, with enhanced soap that clings to stubborn stains and annihilates dirt. \nClean in Split-screen!\n\nSatisfaction on the double! Share campaign progression online together for the first time. In addition to online play, split-screen co-op has entered the chat. Team up and take on the dirt with twice the wash-power, from the convenience of one screen.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38722.14599755904534716.1db4a72b-b82e-4475-af6c-9adfe3cee911.2d5cefe4-5dc8-40b3-b23c-c79585eb582c",
       "originalPrice": 640,
-      "discountPrice": 640,
-      "discountPercent": 0,
+      "discountPrice": 480,
+      "discountPercent": 25,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P45GGDTFNSM",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PBC1QFBW563",
@@ -6366,14 +6369,14 @@
       "description": "A crew. A job. A plan. Toss those ingredients together, and you’ve got yourself a classic heist — but with a few twists. Your crew members are everyday citizens (from different countries in Africa) with pretty normal careers. The job is to liberate African artifacts from Western museums. And the plan? Well, that’s up to you to create.\n\nAfricanfutur-heist\nNear the end of the 21st century, the political powers that be brokered a Transatlantic Returns Treaty, promising the repatriation of African artifacts from museums. Good old fashioned diplomacy was working — until it wasn’t. An amendment switched up the terms and conditions of which objects were to be returned. Museums, now knowing that only publicly displayed artifacts would be given back, were slowly removing artifacts from public display.\nWhen life gives you lemons and museums pulling shady moves, it’s time to chuck the lemons back at life and try a new, stealthier form of diplomacy. You’ve got 70 of these artifacts to (re)loot, all of which exist in real-life and are of huge cultural, historical, and spiritual significance to the people they were taken from.\n\nTeamwork Makes The Heist Work\nIt all starts with a troublesome little brother, who, yeah, gets you into all sorts of messes. But thankfully, as Nomali, you’ll meet more reliable crew members from different African countries. Recruit people from the classic hacker to… your prim and proper grandma? Don’t worry, grandma pulls her weight.\n\nCase the Joint\nPlan ahead to lay the groundwork for a beautiful masterpiece of an escape. Check the getaway route, fiddle with puzzles and obstacles, and find spots to recruit the help of the right teammates.\n\nGet In. Get Out.\nOnce you’ve set the stage carefully and the artifact is sitting all pretty — looking quite not-stolen, but no worries, you’re gonna fix that ASAP — this is the moment to perform. Plucking an artifact from its resting spot starts the countdown timer, and with Nomali’s flow-based parkour abilities, escape should feel like you’re in the fun, montage part of a heist movie. But if you slacked on the planning phase, you’re gonna pay for it!\n\nKey Features:\n• Pull off heists: Plan and prepare your escape route by solving puzzles and placing teammates in the right place. When you’re ready, take the artifact and escape with Nomali’s flow-based parkour abilities.\n• Recruit a crew: Meet and gradually recruit different team members with their unique abilities.\n• Explore an Africanfuturist setting: With a Hideout based in South Africa, you’ll see parts of Johannesburg imagined in the future.\n• Reclaim Real Artifacts: Recover 70 artifacts that exist in real-life, all of which are of huge cultural, historical, and spiritual significance to the people they were taken from.\n\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.59865.14320824299519255.dcbcdae0-7b7f-4ec7-b428-8db1b8659f3d.32f5e310-c690-41a5-8c7d-c97e197be77e",
       "originalPrice": 525,
-      "discountPrice": 525,
-      "discountPercent": 0,
+      "discountPrice": 367.5,
+      "discountPercent": 30,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PPP5344B3LS",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N5K7HWXL4Q6",
@@ -6396,14 +6399,14 @@
       "description": "REMNANT II® STANDARD EDITION\r\nINCLUDES REMNANT II® GAME\r\n\r\nUnimaginable Worlds. Unrelenting Odds \r\n\r\nRemnant II® is the sequel to the best-selling game Remnant: From the Ashes that pits survivors of humanity against new deadly creatures and god-like bosses across terrifying worlds. Play solo or co-op with two other friends to explore the depths of the unknown to stop an evil from destroying reality itself. To succeed, players will need to rely on their own skills and those of their team to overcome the toughest challenges and to stave off humanity’s extinction.\r\n\r\nIntense Remnant Combat Experience\r\n\r\nA mix of methodical and frenetic ranged/melee combat returns with cunning enemies and large scale boss battles. Choose specific gear and weapons to optimize for the different biomes and battles ahead. Bosses will bring high-level players to team up to overcome the challenge and try to obtain the biggest rewards\r\n\r\nNew Worlds to Explore\r\n\r\nPlayers can travel alone or with friends as a team through strange new worlds and beyond, overrun by mythical creatures and deadly foes while trying to stay alive. There are multiple worlds to explore with different types of creatures, weapons, and items. Utilize and upgrade discovered items to take on tougher challenges\r\n\r\nEndless Replayability\r\n\r\nBranching quest lines, augments, crafting, and loot rewards will test the resolve of even the most hardened players in dynamically generated dungeons and areas. Playthroughs will feel challenging, varied, and rewarding as players succeed against unrelenting odds. Various stories are woven throughout the different worlds, encouraging exploration and multiple revisits\r\n\r\nNew Archetypical Progression\r\n\r\nExpanded Archetype system provides players with unique passive bonuses and stunning powers. Multiple Archetypes can be unlocked during play, leveled up, and equipped together for a variety of play styles\r\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.8039.14081014349971267.a7a585d0-5056-4c66-b233-8ac53fa0da07.31e0a863-f97c-4063-9d08-8099ddd9dc4e",
       "originalPrice": 1285,
-      "discountPrice": 1285,
-      "discountPercent": 0,
+      "discountPrice": 321.25,
+      "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P9278ZMGQLJ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NV3L234VGXD",
@@ -6891,14 +6894,14 @@
       "description": "Solarpunk - це гра про виживання у технологічно розвиненому світі, що складається з летючих островів. Самостійно або з друзями ви можете будувати, вирощувати їжу, створювати пристрої й досліджувати небо на власному дирижаблі.\n\nSolarpunk - це спокійна гра-пісочниця про виживання та крафтинг, створена лише двома розробниками.\nГрайте наодинці або в кооперативі: будуйте креативні будівлі, декоруйте свій дім безліччю меблів і предметів, вирощуйте та готуйте їжу, створюйте ґаджети й досліджуйте далекі острови на власному дирижаблі.\n\nВикористовуйте сонячну та вітрову енергію, щоб створити власну енергосистему та автоматизувати процеси  - наприклад, збір ресурсів і полив рослин.\n\n🏠 Вільне будівництво\nСтворюйте базу своєї мрії з великої кількості матеріалів і декору. Зробіть свій острів затишним і по-справжньому своїм.\n\n⚡ Енергосистема\nГенеруйте електроенергію з вітру й сонця. Погода впливає на виробництво, тому варто планувати наперед. Зберігайте енергію в батареях і забезпечуйте бездротове живлення своєї бази.\n\n👥 Мультиплеєр\nГрайте наодинці або з друзями. У кожного - свій інвентар. Ви можете будувати разом або облаштувати власний куточок у небі.\n\n🐷 Тварини й фермерство\nУ Solarpunk ви живете у симбіозі з тваринами. Жодної експлуатації - тільки співіснування. Наприклад, якщо добре ставитись до свиней, вони можуть знайти трюфелі. Овочі та фрукти - основне джерело їжі. Сійте насіння й збирайте врожай.\n\n🤖 Автоматизація\nВикористовуйте транспортні дрони для збирання ресурсів і автоматизуйте рутинні завдання, щоб мати більше часу на будівництво й дослідження.\n\n✈️ Дирижабль\nКожен гравець може створити власний дирижабль і подорожувати між островами в пошуках нових ресурсів.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.25584.14048175656271533.921e1817-53b5-470d-9f55-c1e8e8e03e8b.e45e3cef-5a3a-446d-9e33-964e23a0062c",
       "originalPrice": 805,
-      "discountPrice": 805,
-      "discountPercent": 0,
+      "discountPrice": 644,
+      "discountPercent": 20,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N8BRH7PGJMJ",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N221ZTFGQB0",
@@ -7386,14 +7389,14 @@
       "description": "Ви засинаєте о третій ранку. Ваші очі змикаються під набридливу рекламу програми терапевтичних сновидінь доктора Пірса. Ви прокидаєтеся у незнайомому місці й розумієте, що, насправді, застрягли уві сні. Сні, де сприйняття – це єдина реальність. Ласкаво просимо до Superliminal. \r\n\r\nSuperliminal – це гра-головоломка від першої особи, що надихається оптичними ілюзіями. Гравці розв'язують божевільні задачки, шукають нестандартні рішення та вчаться очікувати неочікуваного.\r\n\r\nЦя гра може похизуватися детально продуманим світом, інтригуючим голосом оповідача та різними дивними штуками.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.1690.14393569011623061.24d2b16b-20df-48f4-b265-623d2c0e948a.b161efbf-815b-4aee-9d82-f815731bd218",
       "originalPrice": 505,
-      "discountPrice": 505,
-      "discountPercent": 0,
+      "discountPrice": 202,
+      "discountPercent": 60,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NVR4ZQKNBSB",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NR0GCBSLDW4",
@@ -10815,6 +10818,13 @@
       "percent": 80,
       "timestamp": "2026-08-03T22:05:30.731Z",
       "type": "discount"
+    },
+    "xbox_new_9NXWSWBM4H6T": {
+      "title": "Beast of Reincarnation",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-04T00:05:46.683Z",
+      "type": "xbox_new"
     }
   }
 }
