@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T20:23:54.117Z",
+  "lastUpdated": "2026-08-05T22:09:54.435Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -129,7 +129,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2651280",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "2142790",
@@ -192,14 +192,14 @@
       "isPopular": false
     },
     {
-      "id": "1368140",
-      "title": "Corsair Cove",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785860713",
-      "originalPrice": 599,
-      "discountPrice": 449,
-      "discountPercent": 25,
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
+      "originalPrice": 159,
+      "discountPrice": 79,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1368140",
+      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isPopular": false
     },
@@ -224,6 +224,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4908380",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3787240",
+      "title": "MARVEL Tōkon: Fighting Souls",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/c7f5d61d655d10574e4d1299c34203484b1796b7/capsule_616x353.jpg?t=1784908718",
+      "originalPrice": 1999,
+      "discountPrice": 1999,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3787240",
       "isSpecial": false,
       "isPopular": true
     }
@@ -9141,13 +9153,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_4032350": {
-      "title": "EA SPORTS™ College Football 27",
-      "price": 2199,
-      "percent": 0,
-      "timestamp": "2026-07-06T20:50:59.593Z",
-      "type": "popular"
-    },
     "steam_popular_2209900": {
       "title": "Moonlight Peaks",
       "price": 1071,
@@ -10889,6 +10894,13 @@
       "price": 415,
       "percent": 0,
       "timestamp": "2026-08-05T20:23:46.328Z",
+      "type": "popular"
+    },
+    "steam_popular_3787240": {
+      "title": "MARVEL Tōkon: Fighting Souls",
+      "price": 1999,
+      "percent": 0,
+      "timestamp": "2026-08-05T22:09:48.488Z",
       "type": "popular"
     }
   }
