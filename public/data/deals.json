@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T09:34:33.703Z",
+  "lastUpdated": "2026-08-05T11:56:58.379Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -12,6 +12,22 @@
       "url": "https://store.epicgames.com/p/beacon-pines-629fc3",
       "startDate": "2026-08-06T15:00:00.000Z",
       "endDate": "2026-08-13T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": true,
+      "isDiscounted": false,
+      "discountPercent": 0
+    },
+    {
+      "id": "0e44600a079e419abbb291ccf5af9ee7",
+      "title": "Caravan SandWitch",
+      "description": "Embark on a journey across vast landscapes in Caravan SandWitch, a captivating narrative-driven exploration adventure.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/95b9a9a220e8483c8c1a70ad692de4b3/caravan-sandwitch-1uz0l.jpg",
+      "originalPrice": 500,
+      "discountPrice": 500,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/caravan-sandwitch-05ff58",
+      "startDate": "2026-08-13T15:00:00.000Z",
+      "endDate": "2026-08-20T15:00:00.000Z",
       "isFreeNow": false,
       "isUpcomingFree": true,
       "isDiscounted": false,
@@ -116,18 +132,6 @@
       "isPopular": true
     },
     {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
@@ -140,6 +144,18 @@
       "isPopular": false
     },
     {
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4108000",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1817190",
       "title": "Marvel’s Spider-Man: Miles Morales",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/capsule_616x353.jpg?t=1763569499",
@@ -148,18 +164,6 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1817190",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1368140",
-      "title": "Corsair Cove",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785860713",
-      "originalPrice": 599,
-      "discountPrice": 449,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1368140",
       "isSpecial": true,
       "isPopular": false
     },
@@ -176,14 +180,26 @@
       "isPopular": false
     },
     {
-      "id": "1222680",
-      "title": "Need for Speed™ Heat",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/capsule_616x353.jpg?t=1777414224",
-      "originalPrice": 1999,
-      "discountPrice": 99,
-      "discountPercent": 95,
+      "id": "1368140",
+      "title": "Corsair Cove",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785860713",
+      "originalPrice": 599,
+      "discountPrice": 449,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1222680",
+      "url": "https://store.steampowered.com/app/1368140",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
+      "originalPrice": 159,
+      "discountPrice": 79,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isPopular": false
     },
@@ -4032,14 +4048,14 @@
       "description": "Hogwarts Legacy — рольова гра з відкритим світом, що базується на книгах про Гаррі Поттера. Вирушайте в подорож уже знайомими та новими місцями, знаходьте магічних звірів, індивідуалізуйте персонажа, варіть зілля, опановуйте закляття, поліпшуйте здібності й станьте чарівником або чаклункою своїх мрій.\n\nНа вас чекає Гоґвортс 1800-х. Ви — учень або учениця, що мають ключ до старовинної таємниці, яка може розірвати світ чар на шматочки. Знаходьте союзників, бийтеся з темними чаклунами й вирішуйте долю світу чар. Ви самі створюєте свою спадщину. Проживіть те, чого немає на сторінках книг.\n\nВключає завдання в магазині з привидами, де ви отримаєте доступ до нового підземелля, косметичний набір продавця та магазин у Гоґсміді.\n\nНовинки:\n- фоторежим;\n- скидання очок таланту.\n\nТепер нові косметичні предмети доступні усім: живі окуляри, наряд і плащ в'язня Азкабану, їздовий оніксовий гіпогриф, рецепт зілля Фелікс Феліціс, мітли темного чарівника (2).\n\nЯкщо у вас вже є цифрова версія цієї гри для Xbox One, ви можете придбати цифрову версію Xbox Series X|S зі знижкою.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38223.13814785456466922.0fef76f8-710d-4aca-b42f-c45e536f8d2b.0570d0b7-cf5e-4106-84d7-fa031e67d49f",
       "originalPrice": 1795,
-      "discountPrice": 269.25,
-      "discountPercent": 85,
+      "discountPrice": 1795,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MT5NJ5W7B8Z",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9N116V0599HB",
