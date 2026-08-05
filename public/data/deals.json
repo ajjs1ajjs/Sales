@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T00:11:23.301Z",
+  "lastUpdated": "2026-08-05T03:57:52.185Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -92,6 +92,18 @@
       "isPopular": true
     },
     {
+      "id": "2651280",
+      "title": "Marvel's Spider-Man 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg?t=1763569811",
+      "originalPrice": 1699,
+      "discountPrice": 1138,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2651280",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1086940",
       "title": "Baldur's Gate 3",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
@@ -104,18 +116,6 @@
       "isPopular": true
     },
     {
-      "id": "2651280",
-      "title": "Marvel's Spider-Man 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg?t=1763569811",
-      "originalPrice": 1699,
-      "discountPrice": 1138,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2651280",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
@@ -124,30 +124,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1817190",
-      "title": "Marvel’s Spider-Man: Miles Morales",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/capsule_616x353.jpg?t=1763569499",
-      "originalPrice": 1499,
-      "discountPrice": 599,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1817190",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1144200",
-      "title": "Ready or Not",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
-      "originalPrice": 625,
-      "discountPrice": 312,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1144200",
       "isSpecial": true,
       "isPopular": false
     },
@@ -164,14 +140,26 @@
       "isPopular": false
     },
     {
-      "id": "1222680",
-      "title": "Need for Speed™ Heat",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/capsule_616x353.jpg?t=1777414224",
-      "originalPrice": 1999,
-      "discountPrice": 99,
-      "discountPercent": 95,
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
+      "originalPrice": 625,
+      "discountPrice": 312,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1222680",
+      "url": "https://store.steampowered.com/app/1144200",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1817190",
+      "title": "Marvel’s Spider-Man: Miles Morales",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/capsule_616x353.jpg?t=1763569499",
+      "originalPrice": 1499,
+      "discountPrice": 599,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1817190",
       "isSpecial": true,
       "isPopular": false
     },
@@ -184,6 +172,18 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3527290",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1222680",
+      "title": "Need for Speed™ Heat",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/capsule_616x353.jpg?t=1777414224",
+      "originalPrice": 1999,
+      "discountPrice": 99,
+      "discountPercent": 95,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1222680",
       "isSpecial": true,
       "isPopular": false
     },
@@ -208,18 +208,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3010850",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
-      "originalPrice": 600,
-      "discountPrice": 600,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
       "isSpecial": false,
       "isPopular": true
     }
