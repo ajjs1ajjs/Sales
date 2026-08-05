@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T16:38:38.984Z",
+  "lastUpdated": "2026-08-05T18:18:11.959Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -96,18 +96,6 @@
       "isPopular": true
     },
     {
-      "id": "1478500",
-      "title": "Big Walk",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
-      "originalPrice": 449,
-      "discountPrice": 336,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1478500",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1086940",
       "title": "Baldur's Gate 3",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
@@ -116,6 +104,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1086940",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "1478500",
+      "title": "Big Walk",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
+      "originalPrice": 449,
+      "discountPrice": 336,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1478500",
       "isSpecial": true,
       "isPopular": true
     },
@@ -132,6 +132,18 @@
       "isPopular": true
     },
     {
+      "id": "2142790",
+      "title": "Fields of Mistria",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/09f8e54c1e074b22acb84b891924c0c8b8835a2b/capsule_616x353_alt_assets_4.jpg?t=1785944891",
+      "originalPrice": 310,
+      "discountPrice": 279,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2142790",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
@@ -140,18 +152,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
       "isPopular": false
     },
@@ -168,18 +168,6 @@
       "isPopular": false
     },
     {
-      "id": "1368140",
-      "title": "Corsair Cove",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785860713",
-      "originalPrice": 599,
-      "discountPrice": 449,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1368140",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1144200",
       "title": "Ready or Not",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
@@ -192,14 +180,26 @@
       "isPopular": false
     },
     {
-      "id": "2142790",
-      "title": "Fields of Mistria",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/c3e50b7430c906044c9e1658fb7c8c7cc831eda0/capsule_616x353.jpg?t=1785944891",
-      "originalPrice": 310,
-      "discountPrice": 279,
-      "discountPercent": 10,
+      "id": "1368140",
+      "title": "Corsair Cove",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785860713",
+      "originalPrice": 599,
+      "discountPrice": 449,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2142790",
+      "url": "https://store.steampowered.com/app/1368140",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
+      "originalPrice": 159,
+      "discountPrice": 79,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isPopular": false
     },
@@ -6851,7 +6851,7 @@
       "id": "9N9C1TB18R3B",
       "title": "Sledding Game",
       "description": "This game is a work in progress. It may or may not change over time or release as a final product. Purchase only if you are comfortable with the current state of the unfinished game. \n\nSledding Game is a multiplayer snowsports hangout game with proximity chat. Go sledding, relax and see what else there is to do. There’s also ragdoll physics so the crashes look terrible really really good. \n\nHANG OUT\nUse proximity voice chat to talk to your friends, or express your feelings by repeatedly crashing into each other. \n\nSLED FAST, SLED STUPID\nCompete to see who can reach the bottom first or get the most points through gnarly tricks, building your own ramps and launching off them. Or you can just sled around and explore, up to you.\n\nDO OTHER STUFF\nBreak up the sledding with side activities and minigames, like snowball fights, snowmen making, darts, curling, roasting smores, drinking hot chocolate in the cozy cabin, and more. \n\nLOOKIN’ GOOD\nChoose from a range of fully customizable animal characters and expressions. Earn points to spend on cool cosmetics for your bod and your sled.\n\nGET KICKED BY A YETI\nThis isn’t a joke if you wander of course a yeti will literally come and kick you back on like a football\n\nJOIN THE SLEDDERS\nJoin public or private lobbies to sled with friends or meet new ones. Sit on a bench with a homie, or race down the hill with your group. With up to 30* players, the ski-lift could get quite the line.\n\n*I'm hoping I can do 50 player lobbies, but until further testing, this will just be a guess. Also I'm not sure if too many people will feel overcrowded, so I might want to keep it smaller\n\nFeatures:\nMultiplayer sledding fun \nTalk through proximity chat \nRaces and cool tricks\nMini games and hang out spots\nPublic and private lobbies\nRagdoll physics\nCustomizable avatars\nFun and friendly community\nYeti \n\nAbout the developer\nHi I’m Max! Sledding Game is my first ever video game! I’ve been sharing my development progress online since the start so if you wanna see how sledding game is made or wanna share ideas, follow me on socials.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.2386.13540127136823287.e914eec4-a62e-44d7-98fd-e81e0a73af25.5f730ad1-e023-4d38-bfdc-fd0e9981a4e7",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.41769.13540127136823287.f9891775-8883-4915-a560-03e5eddd9940.8f36a480-a3c0-45bd-8336-8c556c87f6cc",
       "originalPrice": 154,
       "discountPrice": 154,
       "discountPercent": 0,
@@ -10878,6 +10878,13 @@
       "percent": 10,
       "timestamp": "2026-08-05T16:38:33.278Z",
       "type": "discount"
+    },
+    "steam_popular_2142790": {
+      "title": "Fields of Mistria",
+      "price": 279,
+      "percent": 10,
+      "timestamp": "2026-08-05T18:18:04.942Z",
+      "type": "popular"
     }
   }
 }
