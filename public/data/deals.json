@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T18:18:11.959Z",
+  "lastUpdated": "2026-08-05T20:23:54.117Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -141,7 +141,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2142790",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1091500",
@@ -164,6 +164,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1817190",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1222680",
+      "title": "Need for Speed™ Heat",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/capsule_616x353.jpg?t=1777414224",
+      "originalPrice": 1999,
+      "discountPrice": 99,
+      "discountPercent": 95,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1222680",
       "isSpecial": true,
       "isPopular": false
     },
@@ -192,18 +204,6 @@
       "isPopular": false
     },
     {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
-      "originalPrice": 159,
-      "discountPrice": 79,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
@@ -212,6 +212,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4908380",
+      "title": "The Bazaar - The Dragons",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4908380/d552a3ec1f337220a9966ca51525f6be42451df3/capsule_616x353.jpg?t=1785951762",
+      "originalPrice": 415,
+      "discountPrice": 415,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4908380",
       "isSpecial": false,
       "isPopular": true
     }
@@ -9129,20 +9141,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_2749950": {
-      "title": "Esports Manager 2026",
-      "price": 332,
-      "percent": 20,
-      "timestamp": "2026-07-06T18:53:32.588Z",
-      "type": "discount"
-    },
-    "steam_popular_2749950": {
-      "title": "Esports Manager 2026",
-      "price": 332,
-      "percent": 20,
-      "timestamp": "2026-07-06T18:53:32.588Z",
-      "type": "popular"
-    },
     "steam_popular_4032350": {
       "title": "EA SPORTS™ College Football 27",
       "price": 2199,
@@ -10884,6 +10882,13 @@
       "price": 279,
       "percent": 10,
       "timestamp": "2026-08-05T18:18:04.942Z",
+      "type": "popular"
+    },
+    "steam_popular_4908380": {
+      "title": "The Bazaar - The Dragons",
+      "price": 415,
+      "percent": 0,
+      "timestamp": "2026-08-05T20:23:46.328Z",
       "type": "popular"
     }
   }
