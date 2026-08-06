@@ -1,7 +1,7 @@
 const KYIV_TZ = 'Europe/Kyiv';
 
 export function formatPrice(price: number, currency: string, locale: 'uk' | 'en' = 'uk'): string {
-  if (!price && price !== 0) return '';
+  if (typeof price !== 'number' || !Number.isFinite(price)) return '';
   if (price === 0) return locale === 'en' ? 'Free' : 'Безкоштовно';
   const formattedPrice = price.toLocaleString(locale === 'en' ? 'en-US' : 'uk-UA', {
     minimumFractionDigits: 0,

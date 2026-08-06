@@ -65,6 +65,7 @@ export const uk = {
     comingTitle: 'Очікується в Game Pass',
     comingTitleCount: 'Очікується в Game Pass ({count})',
     gamepassTag: 'Доступно в PC Game Pass.',
+    nowAvailable: 'Доступно зараз',
     emptyNew: 'Нічого не знайдено',
     emptyNewDesc: 'Наразі немає нових надходжень у Game Pass.',
     emptyGamePass: 'Немає ігор',

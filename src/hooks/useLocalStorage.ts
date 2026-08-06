@@ -6,6 +6,7 @@ export function useLocalStorage<T>(
   validate?: (value: unknown) => value is T,
 ): [T, (value: T | ((prev: T) => T)) => void] {
   const [storedValue, setStoredValue] = useState<T>(() => {
+    if (typeof window === 'undefined') return initialValue;
     try {
       const item = window.localStorage.getItem(key);
       if (!item) return initialValue;
@@ -24,7 +25,9 @@ export function useLocalStorage<T>(
       setStoredValue((prev) => {
         const valueToStore = value instanceof Function ? value(prev) : value;
         try {
-          window.localStorage.setItem(key, JSON.stringify(valueToStore));
+          if (typeof window !== 'undefined') {
+            window.localStorage.setItem(key, JSON.stringify(valueToStore));
+          }
         } catch { /* storage full, ignore */ }
         return valueToStore;
       });

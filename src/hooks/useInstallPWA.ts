@@ -11,6 +11,7 @@ export function useInstallPWA() {
   const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null);
   const [isInstallable, setIsInstallable] = useState(false);
   const [isDismissed, setIsDismissed] = useState(() => {
+    if (typeof window === 'undefined') return false;
     try {
       return localStorage.getItem(STORAGE_KEY) === 'true';
     } catch {
@@ -52,6 +53,7 @@ export function useInstallPWA() {
   const dismiss = useCallback(() => {
     setIsInstallable(false);
     setIsDismissed(true);
+    if (typeof window === 'undefined') return;
     try {
       localStorage.setItem(STORAGE_KEY, 'true');
     } catch { /* ignore */ }

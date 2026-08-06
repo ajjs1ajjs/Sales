@@ -315,11 +315,19 @@ function extractXboxImage(product: XboxProduct): string {
   try {
     const images = product.LocalizedProperties?.[0]?.Images || [];
     const preferredTypes = ['SuperHeroArt', 'BoxArt', 'Poster'];
+    const pick = (img: XboxImage | undefined): string => {
+      if (!img?.Uri) return '';
+      // Xbox API returns protocol-relative URIs ("//cdn..."). Normalize to
+      // https and refuse anything that is not an http(s) URL so a tampered
+      // product record cannot inject javascript:/data: into the app.
+      const uri = img.Uri.startsWith('//') ? `https:${img.Uri}` : img.Uri;
+      return /^https?:\/\//i.test(uri) ? uri : '';
+    };
     for (const type of preferredTypes) {
-      const img = images.find((i) => i.ImagePurpose === type);
-      if (img?.Uri) return `https:${img.Uri}`;
+      const url = pick(images.find((i) => i.ImagePurpose === type));
+      if (url) return url;
     }
-    if (images.length > 0 && images[0].Uri) return `https:${images[0].Uri}`;
+    if (images.length > 0) return pick(images[0]);
   } catch { /* ignore */ }
   return '';
 }
@@ -408,20 +416,29 @@ async function sendTelegramMessage(text: string) {
     return;
   }
   
+  // Never log the full URL: the bot token lives in the path and must not leak
+  // into CI logs via error messages / stack traces.
   const url = `https://api.telegram.org/bot${token}/sendMessage`;
-  const response = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      chat_id: chatId,
-      text: text,
-      parse_mode: 'HTML',
-      disable_web_page_preview: false
-    })
-  });
+  const logSafeUrl = 'https://api.telegram.org/bot[REDACTED]/sendMessage';
+  let response: Response;
+  try {
+    response = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        chat_id: chatId,
+        text: text,
+        parse_mode: 'HTML',
+        disable_web_page_preview: false
+      })
+    });
+  } catch (err) {
+    console.error(`❌ Telegram API network error for ${logSafeUrl}: ${err instanceof Error ? err.message : String(err)}`);
+    throw err;
+  }
   
   if (!response.ok) {
-    console.error(`❌ Telegram API error: ${response.status}`);
+    console.error(`❌ Telegram API error for ${logSafeUrl}: ${response.status}`);
   } else {
     console.log("✅ Telegram message sent successfully.");
   }
@@ -635,6 +652,23 @@ async function run() {
     notifiedHistory[key] = entry;
   }
 
+  // Shared Telegram-HTML builders to keep the notification blocks DRY.
+  const gameTitle = (name: string) => `<b>${escapeHtml(name)}</b>`;
+  const storeLink = (label: string, url: string) => `<a href="${escapeAttr(url)}">${label}</a>`;
+
+  function formatDealLine(
+    title: string,
+    percent: number,
+    originalPrice: number,
+    discountPrice: number,
+    currency: string,
+    url: string,
+    linkLabel: string,
+  ): string {
+    const pct = percent > 0 ? `-${percent}%` : 'знижка';
+    return `🎮 ${gameTitle(title)}\n🏷️ Знижка: <b>${pct}</b>\n💰 Ціна: <s>${formatPrice(originalPrice, currency)}</s> ➡️ <b>${formatPrice(discountPrice, currency)}</b>\n🔗 ${storeLink(linkLabel, url)}`;
+  }
+
   // Helper: split array of items into batches and send each as Telegram message.
   // Calls markSent(index) after each successful batch to prevent duplicate
   // notifications on the next cron run if a later batch fails.
@@ -665,10 +699,10 @@ async function run() {
     for (const game of newFreeGames) {
       const desc = game.description?.trim();
       const text = `🎁 <b>БЕЗКОШТОВНА ГРА В EPIC GAMES STORE!</b>\n\n` +
-                   `🎮 <b>${escapeHtml(game.title)}</b>\n` +
+                   `🎮 ${gameTitle(game.title)}\n` +
                    (desc ? `📝 ${escapeHtml(desc)}\n\n` : '') +
                    `📅 Роздача діє до: <b>${formatDate(game.endDate, true)}</b>\n\n` +
-                   `🔗 <a href="${escapeAttr(game.url)}">Забрати гру в магазині</a>`;
+                   `🔗 ${storeLink('Забрати гру в магазині', game.url)}`;
       try {
         await sendTelegramMessage(text);
         markNotified(`epic_free_${game.id}`, {
@@ -685,10 +719,7 @@ async function run() {
       `🔥 <b>ГАРЯЧІ ЗНИЖКИ В EPIC GAMES STORE!</b>\n\n`,
       newEpicDiscounts,
       `🚀 Більше пропозицій дивіться на нашому сайті!`,
-      (deal) => {
-        const pct = deal.discountPercent > 0 ? `-${deal.discountPercent}%` : 'знижка';
-        return `🎮 <b>${escapeHtml(deal.title)}</b>\n🏷️ Знижка: <b>${pct}</b>\n💰 Ціна: <s>${formatPrice(deal.originalPrice, deal.currency)}</s> ➡️ <b>${formatPrice(deal.discountPrice, deal.currency)}</b>\n🔗 <a href="${escapeAttr(deal.url)}">Детальніше в Epic Games Store</a>`;
-      },
+      (deal) => formatDealLine(deal.title, deal.discountPercent, deal.originalPrice, deal.discountPrice, deal.currency, deal.url, 'Детальніше в Epic Games Store'),
       (i) => markNotified(`epic_discount_${newEpicDiscounts[i].id}`, {
         title: newEpicDiscounts[i].title, price: newEpicDiscounts[i].discountPrice, percent: newEpicDiscounts[i].discountPercent, timestamp: now.toISOString(), type: 'discount'
       }),
@@ -700,8 +731,7 @@ async function run() {
       `🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 5%)!</b>\n\n`,
       newSteamDeals,
       `🚀 Більше знижок дивіться на нашому сайті!`,
-      (deal) =>
-        `🎮 <b>${escapeHtml(deal.title)}</b>\n🏷️ Знижка: <b>-${deal.discountPercent}%</b>\n💰 Ціна: <s>${formatPrice(deal.originalPrice, deal.currency)}</s> ➡️ <b>${formatPrice(deal.discountPrice, deal.currency)}</b>\n🔗 <a href="${escapeAttr(deal.url)}">Детальніше в Steam</a>`,
+      (deal) => formatDealLine(deal.title, deal.discountPercent, deal.originalPrice, deal.discountPrice, deal.currency, deal.url, 'Детальніше в Steam'),
       (i) => markNotified(`steam_discount_${newSteamDeals[i].id}`, {
         title: newSteamDeals[i].title, price: newSteamDeals[i].discountPrice, percent: newSteamDeals[i].discountPercent, timestamp: now.toISOString(), type: 'discount'
       }),
@@ -717,7 +747,7 @@ async function run() {
         const priceText = game.discountPercent > 0 
           ? `<s>${formatPrice(game.originalPrice, game.currency)}</s> ➡️ <b>${formatPrice(game.discountPrice, game.currency)}</b> (-${game.discountPercent}%)`
           : `<b>${formatPrice(game.discountPrice, game.currency)}</b>`;
-        return `🎮 <b>${escapeHtml(game.title)}</b>\n💰 Ціна: ${priceText}\n🔗 <a href="${escapeAttr(game.url)}">Дивитися в Steam</a>`;
+        return `🎮 ${gameTitle(game.title)}\n💰 Ціна: ${priceText}\n🔗 ${storeLink('Дивитися в Steam', game.url)}`;
       },
       (i) => markNotified(`steam_popular_${newPopularGames[i].id}`, {
         title: newPopularGames[i].title, price: newPopularGames[i].discountPrice, percent: newPopularGames[i].discountPercent, timestamp: now.toISOString(), type: 'popular'
@@ -731,7 +761,7 @@ async function run() {
       newXboxAdditions,
       `🚀 Більше ігор PC Game Pass дивіться на нашому сайті!`,
       (game) => {
-        let text = `🎮 <b>${escapeHtml(game.title)}</b>\n`;
+        let text = `🎮 ${gameTitle(game.title)}\n`;
         const desc = game.description?.trim();
         if (desc) {
           text += `📝 ${escapeHtml(desc.slice(0, 120))}${desc.length > 120 ? '…' : ''}\n`;
@@ -744,7 +774,7 @@ async function run() {
         } else {
           text += `✅ Доступно в PC Game Pass\n`;
         }
-        text += `🔗 <a href="${escapeAttr(game.url)}">Microsoft Store</a>`;
+        text += `🔗 ${storeLink('Microsoft Store', game.url)}`;
         return text;
       },
       (i) => markNotified(`xbox_new_${newXboxAdditions[i].id}`, {
@@ -762,8 +792,8 @@ async function run() {
     notifiedHistory
   };
   
-  fs.mkdirSync(DEALS_DIR, { recursive: true });
-  fs.writeFileSync(DEALS_PATH, JSON.stringify(newData, null, 2), 'utf-8');
+  await fs.promises.mkdir(DEALS_DIR, { recursive: true });
+  await fs.promises.writeFile(DEALS_PATH, JSON.stringify(newData, null, 2), 'utf-8');
   console.log(`✅ Saved new data to ${DEALS_PATH}`);
 }
 

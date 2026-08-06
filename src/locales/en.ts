@@ -67,6 +67,7 @@ export const en: Translations = {
     comingTitle: 'Coming to Game Pass',
     comingTitleCount: 'Coming to Game Pass ({count})',
     gamepassTag: 'Available in PC Game Pass.',
+    nowAvailable: 'Now available',
     emptyNew: 'Nothing found',
     emptyNewDesc: 'No new Game Pass additions matching your query.',
     emptyGamePass: 'No games found',

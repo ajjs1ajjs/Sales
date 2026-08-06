@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { ExternalLink, Tag, TrendingUp } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
 import type { EpicGame, SteamGame, XboxGame } from '../types';
@@ -25,10 +25,10 @@ const FALLBACK_IMG = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/
 
 const escapeRegExp = (str: string) => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
-function highlightText(text: string, highlight: string) {
-  if (!highlight.trim()) return <span>{text}</span>;
+function highlightText(text: string, regex: RegExp | null) {
+  if (!regex) return <span>{text}</span>;
   // Capturing-група в split() кладе збіги на непарні індекси — один прохід, без stateful exec.
-  const parts = text.split(new RegExp(`(${escapeRegExp(highlight)})`, 'gi'));
+  const parts = text.split(regex);
   return (
     <>
       {parts.map((part, i) =>
@@ -58,6 +58,11 @@ export function GameCard({
   const [imgError, setImgError] = useState(false);
   const defaultLinkText = linkText ?? t.steam.buy;
 
+  const highlightRegex = useMemo(() => {
+    const q = searchQuery.trim();
+    return q ? new RegExp(`(${escapeRegExp(q)})`, 'gi') : null;
+  }, [searchQuery]);
+
   return (
     <article
       className={`game-card${isUpcoming ? ' game-card--upcoming' : ''}`}
@@ -84,7 +89,7 @@ export function GameCard({
       <div className="card-content">
         <div className="card-title-row">
           <h4 className="card-title" title={game.title}>
-            {highlightText(game.title, searchQuery)}
+            {highlightText(game.title, highlightRegex)}
           </h4>
           <WishlistButton gameId={game.id} title={game.title} />
         </div>

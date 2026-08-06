@@ -15,6 +15,7 @@ interface LocaleContextValue {
 const translations: Record<Locale, Translations> = { uk, en };
 
 function getInitialLocale(): Locale {
+  if (typeof window === 'undefined') return 'uk';
   try {
     const saved = localStorage.getItem('locale') as Locale | null;
     if (saved === 'uk' || saved === 'en') return saved;
@@ -40,6 +41,7 @@ export function LocaleProvider({ children, initialLocale }: { children: ReactNod
 
   const setLocale = useCallback((l: Locale) => {
     setLocaleState(l);
+    if (typeof window === 'undefined') return;
     try {
       localStorage.setItem('locale', l);
     } catch {

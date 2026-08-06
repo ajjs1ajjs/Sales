@@ -54,7 +54,7 @@ export function XboxSection({ games, activeFilter, searchQuery, sortType }: Prop
                 <div className="subsection">
                   <h3 className="subsection-title">
                     <span className="dot dot--green" aria-hidden="true" />
-                    Now available
+                    {t.xbox.nowAvailable}
                   </h3>
                   <div className="deals-grid">
                     <ShowMore

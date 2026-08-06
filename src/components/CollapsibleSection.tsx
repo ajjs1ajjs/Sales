@@ -23,7 +23,7 @@ export function CollapsibleSection({
         onClick={canCollapse ? onToggle : undefined}
         role={canCollapse ? 'button' : undefined}
         tabIndex={canCollapse ? 0 : undefined}
-        onKeyDown={canCollapse ? (e) => { if (e.key === 'Enter' || e.key === ' ') onToggle(); } : undefined}
+        onKeyDown={canCollapse ? (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onToggle(); } } : undefined}
         aria-expanded={canCollapse ? !collapsed : undefined}
       >
         {icon}
