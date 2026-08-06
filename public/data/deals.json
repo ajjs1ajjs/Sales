@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T23:57:25.580Z",
+  "lastUpdated": "2026-08-06T02:39:39.370Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -117,7 +117,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1086940",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "2651280",
@@ -132,18 +132,6 @@
       "isPopular": false
     },
     {
-      "id": "1091500",
-      "title": "Cyberpunk 2077",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1091500",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2142790",
       "title": "Fields of Mistria",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/09f8e54c1e074b22acb84b891924c0c8b8835a2b/capsule_616x353_alt_assets_4.jpg?t=1785944891",
@@ -152,6 +140,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2142790",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1091500",
+      "title": "Cyberpunk 2077",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1091500",
       "isSpecial": true,
       "isPopular": false
     },
@@ -224,6 +224,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3787240",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3010850",
+      "title": "Gears of War: E-Day",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/976e1a03f1dd94a80d962fdd734efe0d79b407f4/capsule_616x353.jpg?t=1785432491",
+      "originalPrice": 2299,
+      "discountPrice": 2299,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3010850",
       "isSpecial": false,
       "isPopular": true
     }
@@ -3370,14 +3382,14 @@
       "description": "Бийтеся проти деспотичної Королеви Фарула самостійно або в команді з чотирьох гравців у сиквелі надзвичайно популярної рольової гри настільного типу «For The King» із покроковим проходженням і елементами rogue-lite. Чи вдасться вам розплутати жахливу таємницю Королеви, що колись була прекрасною та чарівною?\n\nКоролева Розомон колись була улюбленицею своїх підданих, але стала їхнім кошмаром після того, як поневолила людей у темних шахтах Фарула та утворила союзи з ницими й злими силами.\n\nВирушайте до Фарулу — у складі команди з чотирьох гравців або самостійно — щоб попри будь-які ризики подолати деспотичну Королеву й покласти край її лихому правлінню.\n\nТворці популярної рольової гри настільного типу «For The King» з елементами rogue-lite пропонують нову серію пригод у Фарулі з оновленнями й удосконаленнями ігрового процесу, які будуть цікаві як досвідченим героям, так і новоприбулим дослідникам.\n\nПРИГОДИ В СТИЛІ НАСТІЛЬНОЇ ГРИ\nБудь-хто може легко почати грати в «For The King II», але в процесі гри вам знадобиться здобувати навички, проявляти терпіння та стратегічно мислити. Завдяки автоматичному генеруванню мапи гра має безліч можливих сценаріїв розвитку подій, які ніколи не повторюються. Знайомі, але водночас унікальні механізми ходів, зіткнень і боїв у стилі ігор із кістьми додають ще більше неочікуваності та розмаїтості до низки злетів і падінь, які підготувала гравцям фортуна.\n\nЛЕГКА ДЛЯ СПРИЙНЯТТЯ КАМПАНІЯ В СТИЛІ ROGUE-LIKE\nУ «For The King II» на вас чекає повноцінна кампанія тривалістю понад 30 ігрових годин, розділена на 7 окремих пригод, пов’язаних між собою спільним сюжетом. Шлях буде довгим і складним, але вам не варто боятися — у разі поразки ви зможете розпочати гру заново вже з додатковими силами, новими знаннями та покращеним початковим спорядженням.\n\nНЕСКІНЧЕНИЙ РЕЖИМ ПІДЗЕМЕЛЛЯ\nЗапрошуємо всіх випробувати свої сили в нескінченному режимі підземелля «Темний карнавал». Під проводом хитрого Володаря арени вам потрібно підкорити якомога більше рівнів, перш ніж неминуче загинути. Збирайте квитки на карнавал, щоб відкривати нові шляхи, знаходьте численні тематичні кімнати та крутіть Колесо смерті, намагаючись уникнути злої долі. Як довго ви протримаєтеся на Темному карнавалі?\n\nКОМАНДА З ЧОТИРЬОХ ГРАВЦІВ\nПодорожувати Фарулом можна наодинці або в компанії максимум трьох друзів.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.11794.14401580739712929.1516cf95-6368-4bda-ba63-aea64b42d32f.4458b648-1d9d-4798-8525-94ef88449729",
       "originalPrice": 599,
-      "discountPrice": 599,
-      "discountPercent": 0,
+      "discountPrice": 197.67,
+      "discountPercent": 67,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NVC9KWJVLT0",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NKX70BBCDRN",
@@ -4120,14 +4132,14 @@
       "description": "***NEW LEVELS STEAMPUNK PARTY + TEST CHAMBER AVAILABLE NOW***\n\nCrossplay with friends on Xbox One, Xbox Series X|S and Windows 10.\n\nIncludes 31 great levels. Over 55 million units sold across all formats.\n\nParty Animals’ Nemo & Otta join the mayhem in the very first crossover collaboration for Human Fall Flat! The pair make their cameo in Steampunk Party. Also get ready to prove yourself in Test Chamber; designed to push your problem-solving skills to the limit! Now is a great time to join 58 million players worldwide enjoying the fun that is Human Fall Flat.\n\nPlay solo or call your friends; seven pals by your side in co-op maximises the silliness of an outsized adventure.\n\nHuman: Fall Flat is a hilarious, light-hearted physics platformer set in a world of floating dreamscapes. \n \nEach dream level provides a new environment to navigate, from mansions, castles and Aztec adventures to snowy mountains, eerie nightscapes and industrial locations. Multiple routes through each level, and perfectly playful puzzles ensure exploration and ingenuity are rewarded.\n\nThis game leverages Smart Delivery allowing access to both the Xbox One title and the Xbox Series X|S title.\"",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.47833.69811231537758929.fc90ef4a-ab04-4596-8db8-fa6120f06b6b.c358f2f1-4d39-470f-8f92-7dc6fd8d2757",
       "originalPrice": 429,
-      "discountPrice": 429,
-      "discountPercent": 0,
+      "discountPrice": 128.7,
+      "discountPercent": 70,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/BSMZH25V6V46",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P57SQHVWND7",
@@ -8095,14 +8107,14 @@
       "description": "Become an elite spec ops soldier known as a Ghost, tasked with a special mission to Auroa. The remote archipelago somewhere in the South Pacific has lost contact with outside world due to Skell Technology turning hostile. The Wolves, a rogue spec ops team, lead by your ex-brother in arms, have taken over and are hunting you down. Lead your team through the island landscape and save the civilians without being noticed.\n\nTaylor your experience to fit your playstyle:\n- Solo, as the leader of up 3 fully customizable AI Teammates\n- Or, play in coop PVE with up to 3 friends \n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38194.13854112670148905.26c6c61d-a4a5-45bb-b0b1-c5edd982ab6a.9b40f66f-1a82-47a6-940d-7d96cbbb45a2",
       "originalPrice": 915,
-      "discountPrice": 915,
-      "discountPercent": 0,
+      "discountPrice": 45.75,
+      "discountPercent": 95,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PKJ0532DTCW",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NCZ8W65H33V",
@@ -8140,14 +8152,14 @@
       "description": "Create a team with up to 3 friends in Tom Clancy’s Ghost Recon® Wildlands and enjoy the ultimate military shooter experience set in a massive, dangerous, and responsive open world.\n\nTAKE DOWN THE CARTEL\nIn a near future, Bolivia has fallen into the hands of Santa Blanca, a merciless drug cartel who spread injustice and violence. Their objective: to create the biggest Narco-State in history.\n \nBECOME A GHOST\nCreate and fully customize your Ghost, weapons, and gear. Enjoy total freedom of playstyle. Lead your team and take down the cartel, either solo or with up to three friends.\n\nEXPLORE BOLIVIA\nJourney through Ubisoft's largest action-adventure open world. Discover the stunning diverse landscapes of the Wildlands both on and off road, in the air, on land, and at sea with over 60 different vehicles. \n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.35822.65577870102127192.24a0a154-ded1-4a40-a91f-102019aaee70.cdf0a22e-4116-4049-a936-c6e4508342fb",
       "originalPrice": 759,
-      "discountPrice": 759,
-      "discountPercent": 0,
+      "discountPrice": 37.95,
+      "discountPercent": 95,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P85NL6T3DHP",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P0G4TBCCS7J",
