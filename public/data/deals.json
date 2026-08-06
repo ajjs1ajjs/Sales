@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T11:19:57.814Z",
+  "lastUpdated": "2026-08-06T13:58:35.156Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -108,14 +108,14 @@
       "isPopular": true
     },
     {
-      "id": "1478500",
-      "title": "Big Walk",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
-      "originalPrice": 449,
-      "discountPrice": 336,
-      "discountPercent": 25,
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1478500",
+      "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
       "isPopular": true
     },
@@ -132,26 +132,14 @@
       "isPopular": false
     },
     {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
+      "id": "1478500",
+      "title": "Big Walk",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
+      "originalPrice": 449,
+      "discountPrice": 336,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2142790",
-      "title": "Fields of Mistria",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/09f8e54c1e074b22acb84b891924c0c8b8835a2b/capsule_616x353_alt_assets_4.jpg?t=1785944891",
-      "originalPrice": 310,
-      "discountPrice": 279,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2142790",
+      "url": "https://store.steampowered.com/app/1478500",
       "isSpecial": true,
       "isPopular": false
     },
@@ -168,14 +156,14 @@
       "isPopular": false
     },
     {
-      "id": "1144200",
-      "title": "Ready or Not",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
-      "originalPrice": 625,
-      "discountPrice": 312,
-      "discountPercent": 50,
+      "id": "2142790",
+      "title": "Fields of Mistria",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/09f8e54c1e074b22acb84b891924c0c8b8835a2b/capsule_616x353_alt_assets_4.jpg?t=1785944891",
+      "originalPrice": 310,
+      "discountPrice": 279,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1144200",
+      "url": "https://store.steampowered.com/app/2142790",
       "isSpecial": true,
       "isPopular": false
     },
@@ -192,28 +180,28 @@
       "isPopular": false
     },
     {
-      "id": "1222680",
-      "title": "Need for Speed™ Heat",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/capsule_616x353.jpg?t=1777414224",
-      "originalPrice": 1999,
-      "discountPrice": 99,
-      "discountPercent": 95,
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
+      "originalPrice": 159,
+      "discountPrice": 79,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1222680",
+      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
+      "originalPrice": 625,
+      "discountPrice": 312,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isPopular": true
+      "url": "https://store.steampowered.com/app/1144200",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "3787240",
@@ -224,6 +212,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3787240",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isPopular": true
     }
