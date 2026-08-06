@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T02:39:39.370Z",
+  "lastUpdated": "2026-08-06T05:45:32.922Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -117,7 +117,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1086940",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "2651280",
@@ -128,18 +128,6 @@
       "discountPercent": 33,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2651280",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2142790",
-      "title": "Fields of Mistria",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/09f8e54c1e074b22acb84b891924c0c8b8835a2b/capsule_616x353_alt_assets_4.jpg?t=1785944891",
-      "originalPrice": 310,
-      "discountPrice": 279,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2142790",
       "isSpecial": true,
       "isPopular": false
     },
@@ -164,6 +152,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1817190",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2142790",
+      "title": "Fields of Mistria",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/09f8e54c1e074b22acb84b891924c0c8b8835a2b/capsule_616x353_alt_assets_4.jpg?t=1785944891",
+      "originalPrice": 310,
+      "discountPrice": 279,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2142790",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9153,13 +9153,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_2209900": {
-      "title": "Moonlight Peaks",
-      "price": 1071,
-      "percent": 15,
-      "timestamp": "2026-07-07T04:49:32.318Z",
-      "type": "popular"
-    },
     "steam_discount_2209900": {
       "title": "Moonlight Peaks",
       "price": 1071,
