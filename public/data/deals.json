@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T21:35:43.630Z",
+  "lastUpdated": "2026-08-07T22:31:36.014Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -112,18 +112,6 @@
       "isPopular": false
     },
     {
-      "id": "4450620",
-      "title": "GRAIN ROT",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/a4b40733c84080c18a226704b37f55a48949f1d5/capsule_616x353_alt_assets_0.jpg?t=1786114521",
-      "originalPrice": 200,
-      "discountPrice": 180,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4450620",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4108000",
       "title": "Machine Party",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
@@ -144,6 +132,18 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3527290",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4450620",
+      "title": "GRAIN ROT",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/a4b40733c84080c18a226704b37f55a48949f1d5/capsule_616x353_alt_assets_0.jpg?t=1786114521",
+      "originalPrice": 200,
+      "discountPrice": 180,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4450620",
       "isSpecial": true,
       "isPopular": false
     },
@@ -204,6 +204,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3010850",
+      "title": "Gears of War: E-Day",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/976e1a03f1dd94a80d962fdd734efe0d79b407f4/capsule_616x353.jpg?t=1785432491",
+      "originalPrice": 2299,
+      "discountPrice": 2299,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3010850",
       "isSpecial": false,
       "isPopular": true
     }
