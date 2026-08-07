@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T13:58:35.156Z",
+  "lastUpdated": "2026-08-07T00:39:22.424Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -7,15 +7,15 @@
       "description": "Beacon Pines is a cute and creepy adventure game. Sneak out late, make new friends, uncover hidden truths, and collect words that will change the course of fate!",
       "imageUrl": "https://cdn1.epicgames.com/spt-assets/c89a3b955d704c3c97ddd2aba5265a38/beacon-pines-offer-1l6ky.jpg",
       "originalPrice": 369,
-      "discountPrice": 369,
+      "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/beacon-pines-629fc3",
       "startDate": "2026-08-06T15:00:00.000Z",
       "endDate": "2026-08-13T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": true,
+      "isFreeNow": true,
+      "isUpcomingFree": false,
       "isDiscounted": false,
-      "discountPercent": 0
+      "discountPercent": 100
     },
     {
       "id": "0e44600a079e419abbb291ccf5af9ee7",
@@ -39,43 +39,11 @@
       "description": "Поки ми досліджуємо ці замерзлі пустки, нещастя знову завдає удару. Крізь люту хуртовину спалахує сигнальна ракета, а за нею — крик про допомогу по радіо — уривчастий, згасаючий... Ніхто інший не зможе прийти на порятунок. Чи зможемо ми повернутися — разом?",
       "imageUrl": "https://cdn1.epicgames.com/spt-assets/f24f7e149dc64df18f14dfab4f6dae4d/we-were-here-together-1w9jc.png",
       "originalPrice": 239,
-      "discountPrice": 239,
+      "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/we-were-here-together-6a6d66",
       "startDate": "2026-08-06T15:00:00.000Z",
       "endDate": "2026-08-13T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": true,
-      "isDiscounted": false,
-      "discountPercent": 0
-    },
-    {
-      "id": "fb86769d4908427986ca9f7d94b581c2",
-      "title": "OTXO",
-      "description": "Увійдіть у незрозумілий і загадковий маєток, щоб врятувати свою кохану в цьому динамічному, жорстокому й похмурому роуглайті, з брутальними перестрілками на точність та ефектом сповільненої дії.",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/f6da0031691c4d94a6e21255b18c1710/otxo-wtcug.jpg",
-      "originalPrice": 275,
-      "discountPrice": 0,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/otxo-396b8b",
-      "startDate": "2026-07-30T15:00:00.000Z",
-      "endDate": "2026-08-06T15:00:00.000Z",
-      "isFreeNow": true,
-      "isUpcomingFree": false,
-      "isDiscounted": false,
-      "discountPercent": 100
-    },
-    {
-      "id": "c71375f1ac9444fcae1ca584a53ba6f0",
-      "title": "Sol Cesto",
-      "description": "Sol Cesto is a tactical and frantic roguelite where mastering your luck is key. Choose a hero, upgrade them using cursed teeth and magical items, and descend to the bottom of an ever-changing dungeon. In this dark world, every action has consequences…",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/30d70e74bab1498686aba69969a6c19e/sol-cesto-1ara2.png",
-      "originalPrice": 150,
-      "discountPrice": 0,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/sol-cesto-e9b803",
-      "startDate": "2026-07-30T15:00:00.000Z",
-      "endDate": "2026-08-06T15:00:00.000Z",
       "isFreeNow": true,
       "isUpcomingFree": false,
       "isDiscounted": false,
@@ -84,38 +52,26 @@
   ],
   "steam": [
     {
-      "id": "1817070",
-      "title": "Marvel’s Spider-Man Remastered",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg?t=1763569047",
-      "originalPrice": 1399,
-      "discountPrice": 559,
-      "discountPercent": 60,
+      "id": "2950790",
+      "title": "IRON NEST: Heavy Turret Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786028313",
+      "originalPrice": 299,
+      "discountPrice": 224,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1817070",
+      "url": "https://store.steampowered.com/app/2950790",
       "isSpecial": true,
       "isPopular": true
     },
     {
-      "id": "2651280",
-      "title": "Marvel's Spider-Man 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg?t=1763569811",
-      "originalPrice": 1699,
-      "discountPrice": 1138,
-      "discountPercent": 33,
+      "id": "1478500",
+      "title": "Big Walk",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
+      "originalPrice": 449,
+      "discountPrice": 336,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2651280",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
+      "url": "https://store.steampowered.com/app/1478500",
       "isSpecial": true,
       "isPopular": true
     },
@@ -132,26 +88,14 @@
       "isPopular": false
     },
     {
-      "id": "1478500",
-      "title": "Big Walk",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
-      "originalPrice": 449,
-      "discountPrice": 336,
-      "discountPercent": 25,
+      "id": "3812600",
+      "title": "ReStory: Chill Electronics Repairs",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/22dfadc750afc4461f5d34ff8826f7003d66fde7/capsule_616x353_alt_assets_3.jpg?t=1786056257",
+      "originalPrice": 299,
+      "discountPrice": 269,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1478500",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1817190",
-      "title": "Marvel’s Spider-Man: Miles Morales",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/capsule_616x353.jpg?t=1763569499",
-      "originalPrice": 1499,
-      "discountPrice": 599,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1817190",
+      "url": "https://store.steampowered.com/app/3812600",
       "isSpecial": true,
       "isPopular": false
     },
@@ -168,26 +112,38 @@
       "isPopular": false
     },
     {
-      "id": "1368140",
-      "title": "Corsair Cove",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785860713",
-      "originalPrice": 599,
-      "discountPrice": 449,
-      "discountPercent": 25,
+      "id": "3904850",
+      "title": "Approximately Up",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3904850/dd811c9d1cf2548b22cce739a8be9a7e8529d45e/capsule_616x353.jpg?t=1786035600",
+      "originalPrice": 530,
+      "discountPrice": 424,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1368140",
+      "url": "https://store.steampowered.com/app/3904850",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
-      "originalPrice": 159,
-      "discountPrice": 79,
-      "discountPercent": 50,
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
+      "url": "https://store.steampowered.com/app/4108000",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2231380",
+      "title": "Tom Clancy's Ghost Recon® Breakpoint",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/5e6e2ce9f3eb1cfdf4618ab0b2ad7756e84f1662/capsule_616x353.jpg?t=1786026109",
+      "originalPrice": 915,
+      "discountPrice": 45,
+      "discountPercent": 95,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2231380",
       "isSpecial": true,
       "isPopular": false
     },
@@ -204,9 +160,21 @@
       "isPopular": false
     },
     {
+      "id": "3469450",
+      "title": "DOOM: The Dark Ages | Revelations",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3469450/706ca083d5768e3a6d01765b2c8974c10b1d771e/capsule_616x353.jpg?t=1785785087",
+      "originalPrice": 599,
+      "discountPrice": 299,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3469450",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3787240",
       "title": "MARVEL Tōkon: Fighting Souls",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/c7f5d61d655d10574e4d1299c34203484b1796b7/capsule_616x353.jpg?t=1784908718",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/c7f5d61d655d10574e4d1299c34203484b1796b7/capsule_616x353.jpg?t=1786028588",
       "originalPrice": 1999,
       "discountPrice": 1999,
       "discountPercent": 0,
@@ -224,6 +192,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3010850",
+      "title": "Gears of War: E-Day",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/976e1a03f1dd94a80d962fdd734efe0d79b407f4/capsule_616x353.jpg?t=1785432491",
+      "originalPrice": 2299,
+      "discountPrice": 2299,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3010850",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1042,8 +1022,8 @@
     {
       "id": "9MWXF3SRD7QN",
       "title": "BALL x PIT",
-      "description": "*** The Shadow Update ***\n\nВ оновленні «Тінь» до BALL x PIT на вас чекають нові кулі, будівлі, персонажі й пасивні здібності, що розширюють можливості вашої улюбленої roguelite-гри, у якій кулі не знають спокою, а час летить непомітно.\n\nЗнайомтеся з абсолютно новим персонажем — шахтарем на ім’я Прохідник, чиї кулі можуть огинати екран. До нього приєднується ще один герой — схожий на ніндзю Тишко, який залишається невидимим для ворогів, але за це платить своїм здоров’ям і кількістю отримуваної шкоди.\n\nЗ оновленням «Тінь» ви отримуєте понад 10 нових куль для експериментів. Куля «Жнець» може миттєво покінчити з ворогом; куля «Час» створює часову пастку, що знерухомлює всіх у радіусі дії; куля «Стрибок» після кожного влучання відлітає в довільну точку поля, а куля «Отрута» сповільнює ворогів, завдає їм шкоди та здатна їх паралізувати. Та це ще не все. Решту несподіванок вам доведеться відкрити самостійно.\n\nЗавдяки новій пасивній здібності «Стріла долі» ворожі снаряди більше не шкодитимуть вам. Натомість вони перетворюватимуться на рикошетні кульки. А ще можна скористатися пасивною здібністю «Металева рапіра», що завдає шкоди, пропорційної кількості кульок і ворогів на полі. І це лише частина нових пасивних здібностей, які чекають на вас у цьому оновленні.\n\nНа базі з’явилася нова будівля — Зала гільдій, яка дозволяє обмінювати раніше вибрані покращення персонажів.\n\n***\n\nBALL x PIT — динамічна фентезійна roguelite-гра, де потрібно шукати кулі, щоб зануритися ще глибше в бездонну прірву з монстрами. Створюйте магічні снаряди й ресурси для пошуку скарбів і залучайте нових героїв, які допомагатимуть вам у цій небезпечній авантюрі.\n\nКульвілон зруйновано. Раптова метеоритна катастрофа повністю знищила величне місто, залишивши на його місці глибоку і зловісну прірву. До руїн міста звідусіль прибувають мисливці за скарбами, розкиданими десь у глибинах прірви. Але на поверхню повертаються не всі.\n\nУ прірві оселилися армії безжальних створінь, які будь-що прагнуть зупинити вашу місію ще до її початку. Використовуйте динамічний арсенал магічних снарядів, аби прокладати шлях крізь численні, дедалі складніші рівні. Збирайте цінні призи й будуйте Новий Кульвілон!\n\nЗ’єднуйте кулі\nЗавдяки системі злиття куль ви можете проводити вибухові експерименти з понад 60 випадковими кулями під час своєї мандрівки. Серед сотень можливих варіантів ховаються потужні комбінації й несподівані синергії.\n\nБудуйте Новий Кульвілон\nЗбудуйте Новий Кульвілон! Ви можете звести понад 70 унікальних будівель, які надають різноманітні ігрові бонуси та відкривають нових героїв, покращення й інші можливості. Розширюйте спільноту й доручайте героям автоматизовані завдання для безперервного видобування ресурсів, необхідних для занурення в прірву.\n\nВідкривайте нові королівства\nДосліджуйте глибини прірви, протистоячи численним ворогам у суворих пустелях, крижаних печерах і диких лісах. Кожна локація приховує унікальні небезпеки, навали сильних ворогів і могутніх босів, що ледве вміщаються на екрані.\n\nОб’єднуйтеся з іншими мисливцями за скарбами\nУ глибинах прірви ви зустрінете інших мисливців, що радо приєднаються до вашої експедиції. Кожен із них має унікальні механіки, які можна покращувати, відкриваючи абсолютно нові підходи до гри. Експериментуйте й адаптуйтеся до різних умов, щоб привести Новий Кульвілон до процвітання!",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.21687.13835016463632115.ff511f8a-9163-4f5c-ad59-a2477b07361c.dd7e6172-99c9-4db7-8980-9a86a7f79d36",
+      "description": "*** The Naturalist Update ***\n\n«Сили природи» – це останнє безплатне оновлення до roguelite-гри з відскакуванням куль BALL x PIT, у якому на вас чекають не бачені раніше кулі, пасивні здібності та два нові персонажі.\n\nПерший із цих персонажів – Куленосець – робить ставку на подвоєну вогневу міць. І це не метафора – він має вдвічі більше комірок для куль, але натомість повністю втрачає доступ до пасивних навичок. На противагу йому постає Барахольник. У нього лише дві комірки для куль, зате вдвічі більше комірок для пасивних здібностей, тому головним джерелом сили стають потужні варіанти розвитку предметів.\n\nОновлення «Сили природи» додає до гри 11 нових куль. Світляк освітлює поле битви, створюючи після кожного відскакування світляка, який знаходить найсильнішого ворога й уражає його та сусідні цілі блискавкою. Бур атакує ворогів зі спини, пробиває їх наскрізь і завдає додаткової шкоди. Армагеддон викликає нищівний метеоритний дощ одразу після влучання у ворога. А от решту куль вам доведеться відкрити самостійно.\n\nОновлення «Сили природи» також пропонує п’ять нових пасивних навичок, зокрема Платинову гантель, яка винагороджує за влучні постріли, підвищуючи шкоду ваших куль до моменту їхнього зіткнення із верхньою стіною. Ганебний молот не припиняє атаку після відскакування: після удару об бічну або верхню стіни арени куля миттєво атакує випадкового ворога, завдаючи йому зменшеної шкоди. Дистанційний підривник перетворює кожне вбивство на ще одну нагоду влаштувати вибух.\n\nУсе це й навіть більше – в оновленні «Сили природи»!\n\n***\n\nBALL x PIT — динамічна фентезійна roguelite-гра, де потрібно шукати кулі, щоб зануритися ще глибше в бездонну прірву з монстрами. Створюйте магічні снаряди й ресурси для пошуку скарбів і залучайте нових героїв, які допомагатимуть вам у цій небезпечній авантюрі.\n\nКульвілон зруйновано. Раптова метеоритна катастрофа повністю знищила величне місто, залишивши на його місці глибоку і зловісну прірву. До руїн міста звідусіль прибувають мисливці за скарбами, розкиданими десь у глибинах прірви. Але на поверхню повертаються не всі.\n\nУ прірві оселилися армії безжальних створінь, які будь-що прагнуть зупинити вашу місію ще до її початку. Використовуйте динамічний арсенал магічних снарядів, аби прокладати шлях крізь численні, дедалі складніші рівні. Збирайте цінні призи й будуйте Новий Кульвілон!\n\nЗ’єднуйте кулі\nЗавдяки системі злиття куль ви можете проводити вибухові експерименти з понад 60 випадковими кулями під час своєї мандрівки. Серед сотень можливих варіантів ховаються потужні комбінації й несподівані синергії.\n\nБудуйте Новий Кульвілон\nЗбудуйте Новий Кульвілон! Ви можете звести понад 70 унікальних будівель, які надають різноманітні ігрові бонуси та відкривають нових героїв, покращення й інші можливості. Розширюйте спільноту й доручайте героям автоматизовані завдання для безперервного видобування ресурсів, необхідних для занурення в прірву.\n\nВідкривайте нові королівства\nДосліджуйте глибини прірви, протистоячи численним ворогам у суворих пустелях, крижаних печерах і диких лісах. Кожна локація приховує унікальні небезпеки, навали сильних ворогів і могутніх босів, що ледве вміщаються на екрані.\n\nОб’єднуйтеся з іншими мисливцями за скарбами\nУ глибинах прірви ви зустрінете інших мисливців, що радо приєднаються до вашої експедиції. Кожен із них має унікальні механіки, які можна покращувати, відкриваючи абсолютно нові підходи до гри. Експериментуйте й адаптуйтеся до різних умов, щоб привести Новий Кульвілон до процвітання!",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.59747.13835016463632115.666396b5-f6e8-4a0a-ae87-81ee6b77084a.b20a80cf-1b8f-43b5-8253-c51070bacef7",
       "originalPrice": 385,
       "discountPrice": 385,
       "discountPercent": 0,
@@ -5049,8 +5029,8 @@
       "title": "Minecraft: Java & Bedrock Edition for PC",
       "description": "ВТІЛЮЙТЕ ІДЕЇ \nСтворюйте все, що можете уявити, у власному безмежному світі, що є унікальним для кожного проходження. \n\nДОСЛІДЖУЙТЕ   \nЗнаходьте біоми, ресурси та мобів, прокладіть свій власний шлях у світі, сповненому несподіванок, у цій неперевершеній грі-пісочниці. \n\nВИЖИВАЙТЕ  \nПереживіть незабутні пригоди: сміливо зустрічайтеся з таємничими ворогами, прокладайте шлях серед захопливих краєвидів і мандруйте до небезпечних вимірів. \n\nГРАЙТЕ РАЗОМ  \nВідривайтеся з друзями в Bedrock Edition, навіть якщо ви далеко одне від одного, у кросплатформній грі для консолі, мобільного пристрою та ПК. Або приєднуйтесь до інших майнкрафтерів у Java Edition для ПК, Mac і Linux*. Приєднуйтесь до мільйонів гравців на колективних серверах або оформіть передплату на Realms Plus чи Realms для Java, щоб грати ще з максимум 10 друзями на власному приватному сервері. \n\nОТРИМУЙТЕ ЩЕ БІЛЬШЕ ВРАЖЕНЬ \nОтримуйте оригінальні доповнення, неймовірні світи й стильні декоративні елементи на ринку Minecraft Marketplace — лише в Bedrock Edition. Оформіть передплату на сервіс Marketplace Pass (або Realms Plus) для Bedrock Edition й отримайте доступ до понад 150 світів, наборів скінів і текстур тощо із щомісячним оновленням контенту. \n\nПРИМІТКА. Світи / збережені елементи з Minecraft: Java Edition несумісні з Minecraft: Bedrock Edition. \n \nГравцям, які *не* використовують Windows 10 або Windows 11, слід перейти за посиланням Minecraft.net/download, щоб отримати Запускач Minecraft для своєї операційної системи для доступу до гри. Докладнішу інформацію про використання Запускача Minecraft можна знайти на сторінці https://aka.ms/MCLauncherFAQ. \n\n*Minecraft: Java Edition працює у Windows, на Mac і в Linux; Minecraft: Bedrock Edition працює у Windows.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.58378.14492077886571533.338a563a-86e7-47b1-b9dc-41cf411f5dcd.dc840f22-6e8f-4a59-b7bc-57958a0740fd",
-      "originalPrice": 1238,
-      "discountPrice": 1238,
+      "originalPrice": 1599.99,
+      "discountPrice": 1599.99,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NXP44L49SHJ",
@@ -6202,8 +6182,8 @@
     {
       "id": "9P1Z43KRNQD4",
       "title": "Quake",
-      "description": "Developed by the award-winning id Software, Quake® is the ground-breaking, original dark fantasy first-person shooter that inspires today’s retro-style FPS games. Now, experience the authentic, updated, and visually enhanced version of the original.\r\n\r\nExperience the Original Game, Enhanced\r\nEnjoy the original, authentic version of Quake, now with up to 4K* and widescreen resolution support, enhanced models, dynamic and colored lighting, anti-aliasing, depth of field, the original, atmospheric soundtrack and theme song by Trent Reznor, and more. There’s never been a better time to play Quake.\r\n\r\nPlay the Dark Fantasy Campaign\r\nYou are Ranger, a warrior armed with a powerful arsenal of weapons. Fight corrupted knights, deformed ogres and an army of twisted creatures across four dark dimensions of infested military bases, ancient medieval castles, lava-filled dungeons and gothic cathedrals in search of the four magic runes. Only after you have collected the runes will you hold the power to defeat the ancient evil that threatens all of humanity.\r\n\r\nGet the Original & New Expansion Packs\r\nQuake also comes with both original expansion packs: “The Scourge of Armagon” and “Dissolution of Eternity,” as well as two expansions developed by the award-winning team at MachineGames: “Dimension of the Past,” and the all-new “Dimension of the Machine.”\r\n\r\nDiscover the All-New “Dimension of the Machine” Expansion\r\nIn the deepest depths of the labyrinth lies the core of lava and steel known only as The Machine. Crusade across time and space against the forces of evil to bring together the lost runes, power the dormant machine, and open the portal hiding the greatest threat to all known worlds—destroy it...before it destroys us all.\r\n\r\nHorde Mode\r\nExperience the all-new Horde Mode and add-ons for Quake, free to all players. Grab your guns and drop into Horde Mode - play solo, with friends online, or in local multiplayer split-screen. Unlock powerful weapons and power-ups and battle your way through endless waves of monsters.\r\n\r\nEnjoy Online & Local Multiplayer and CO-OP\r\nFight through the dark fantasy base campaign and expansions in 4-player online or local split-screen co-op, and compete in pure, retro-style combat with support for 8-player (online) or 4-player (local split-screen) matches. Featuring dedicated server support for online matchmaking and peer-to-peer support for custom matches. \r\n\r\nDownload Additional, Free Mods & Missions\r\nExpand your experience with free, curated, fan-made and official mods and missions such as Quake 64, which is available to download and play now. More fan-made and official mods and missions coming soon. \r\n\r\nPlay Together with Crossplay\r\nPlay the campaign and all expansion packs cooperatively or go toe-to-toe in multiplayer matches with your friends regardless of platform! Crossplay is supported among PC (controller-enabled), Xbox One, Xbox Series X/S, PS4, PS5  and Nintendo Switch.\r\n\r\nTake Quake Anywhere with xCloud Portability \r\nPlay Quake wherever you want with Xbox’s xCloud, available only to Game Pass Ultimate players.\r\n\r\n*Maximum display resolutions vary by platform.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.1853.14497943460299347.3ad06bb4-d442-43a2-99e0-f41399a5b03e.cd82a6c1-63e8-44e3-b84a-174ae43f0d57",
+      "description": "Developed by the award-winning id Software, Quake™ is the ground-breaking, original dark fantasy first-person shooter that inspires today’s retro-style FPS games. Now, experience the authentic, updated, and visually enhanced version of the original.\n\nExperience the Original Game, Enhanced\nEnjoy the original, authentic version of Quake, now with up to 4K* and widescreen resolution support, enhanced models, dynamic and colored lighting, anti-aliasing, depth of field, the original, atmospheric soundtrack and theme song by Trent Reznor, and more. There’s never been a better time to play Quake.\n\nPlay the Dark Fantasy Campaign\nYou are Ranger, a warrior armed with a powerful arsenal of weapons. Fight corrupted knights, deformed ogres and an army of twisted creatures across four dark dimensions of infested military bases, ancient medieval castles, lava-filled dungeons and gothic cathedrals in search of the four magic runes. Only after you have collected the runes will you hold the power to defeat the ancient evil that threatens all of humanity.\n\nGet the Original & New Expansion Packs\nQuake also comes with both original expansion packs: “The Scourge of Armagon” and “Dissolution of Eternity,” as well as three expansions developed by the award-winning team at MachineGames: “Dimension of the Past,” “Dimension of the Machine,” and the all-new “Dawn of the Machine.” \n\nDiscover the All-New “Dawn of the Machine” Expansion\nRanger is trapped in a dimension of endless illusion—reliving the same violent cycles for what feels like lifetimes, dying thousands of times in a futile attempt to escape. Wearied but unbroken, he has heard rumor of The Nightmare Machine.\nBeyond the hordes of monsters—twisted by an eternity in the Elder realms—lies the Machine. It is believed its destruction will shatter the illusion, finally breaking the loop. \n\n\nEnjoy Online & Local Multiplayer and CO-OP\nFight through the dark fantasy base campaign and expansions in 4-player online or local split-screen co-op, and compete in pure, retro-style combat with support for 8-player (online) or 4-player (local split-screen) matches. Featuring dedicated server support for online matchmaking and peer-to-peer support for custom matches. \n\nDownload Additional, Free Mods & Missions\nExpand your experience with free, curated, fan-made and official mods and missions such as Quake 64, which is available to download and play now. \n\nPlay Together with Crossplay\nPlay the campaign and all expansion packs cooperatively or go toe-to-toe in multiplayer matches with your friends regardless of platform! \n\n\n*Maximum display resolutions vary by platform.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.26053.14497943460299347.698189cd-abde-4390-8de0-c7c0eba77ee7.76fcbb8c-5b0c-4713-9b92-67ab2bdda749",
       "originalPrice": 200,
       "discountPrice": 80,
       "discountPercent": 60,
@@ -8790,7 +8770,7 @@
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N76QGDS5GJR",
       "isGamePass": true,
-      "isNewToGamePass": true,
+      "isNewToGamePass": false,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -8865,7 +8845,7 @@
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N9X9PC8V9CP",
       "isGamePass": true,
-      "isNewToGamePass": true,
+      "isNewToGamePass": false,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -9141,27 +9121,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_3469450": {
-      "title": "DOOM: The Dark Ages | Revelations",
-      "price": 599,
-      "percent": 0,
-      "timestamp": "2026-07-07T17:11:19.544Z",
-      "type": "popular"
-    },
-    "steam_discount_3017860": {
-      "title": "DOOM: The Dark Ages",
-      "price": 808,
-      "percent": 67,
-      "timestamp": "2026-07-07T19:50:53.281Z",
-      "type": "discount"
-    },
-    "steam_discount_286160": {
-      "title": "Tabletop Simulator",
-      "price": 207,
-      "percent": 50,
-      "timestamp": "2026-07-07T22:58:38.253Z",
-      "type": "discount"
-    },
     "steam_popular_3839790": {
       "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Standard Edition)",
       "price": 799,
@@ -10875,6 +10834,62 @@
       "price": 1999,
       "percent": 0,
       "timestamp": "2026-08-05T22:09:48.488Z",
+      "type": "popular"
+    },
+    "epic_free_871cc4ff18444059890a4d28653a62d5": {
+      "title": "Beacon Pines",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-08-07T00:39:15.904Z",
+      "type": "free"
+    },
+    "epic_free_231e8f6d250a453f9c44c0adf3a34656": {
+      "title": "We Were Here Together",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-08-07T00:39:15.904Z",
+      "type": "free"
+    },
+    "steam_discount_2950790": {
+      "title": "IRON NEST: Heavy Turret Simulator",
+      "price": 224,
+      "percent": 25,
+      "timestamp": "2026-08-07T00:39:15.904Z",
+      "type": "discount"
+    },
+    "steam_discount_3812600": {
+      "title": "ReStory: Chill Electronics Repairs",
+      "price": 269,
+      "percent": 10,
+      "timestamp": "2026-08-07T00:39:15.904Z",
+      "type": "discount"
+    },
+    "steam_discount_3904850": {
+      "title": "Approximately Up",
+      "price": 424,
+      "percent": 20,
+      "timestamp": "2026-08-07T00:39:15.904Z",
+      "type": "discount"
+    },
+    "steam_discount_2231380": {
+      "title": "Tom Clancy's Ghost Recon® Breakpoint",
+      "price": 45,
+      "percent": 95,
+      "timestamp": "2026-08-07T00:39:15.904Z",
+      "type": "discount"
+    },
+    "steam_discount_3469450": {
+      "title": "DOOM: The Dark Ages | Revelations",
+      "price": 299,
+      "percent": 50,
+      "timestamp": "2026-08-07T00:39:15.904Z",
+      "type": "discount"
+    },
+    "steam_popular_2950790": {
+      "title": "IRON NEST: Heavy Turret Simulator",
+      "price": 224,
+      "percent": 25,
+      "timestamp": "2026-08-07T00:39:15.904Z",
       "type": "popular"
     }
   }
