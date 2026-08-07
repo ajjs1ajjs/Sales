@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T14:11:31.402Z",
+  "lastUpdated": "2026-08-07T15:52:55.207Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -136,18 +136,6 @@
       "isPopular": false
     },
     {
-      "id": "2142790",
-      "title": "Fields of Mistria",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/09f8e54c1e074b22acb84b891924c0c8b8835a2b/capsule_616x353_alt_assets_4.jpg?t=1785944891",
-      "originalPrice": 310,
-      "discountPrice": 279,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2142790",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1368140",
       "title": "Corsair Cove",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785860713",
@@ -156,6 +144,18 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1368140",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2142790",
+      "title": "Fields of Mistria",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/09f8e54c1e074b22acb84b891924c0c8b8835a2b/capsule_616x353_alt_assets_4.jpg?t=1785944891",
+      "originalPrice": 310,
+      "discountPrice": 279,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2142790",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9109,27 +9109,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_3839790": {
-      "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Standard Edition)",
-      "price": 799,
-      "percent": 0,
-      "timestamp": "2026-07-08T15:18:14.531Z",
-      "type": "popular"
-    },
-    "steam_popular_4306890": {
-      "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Special Edition)",
-      "price": 1499,
-      "percent": 0,
-      "timestamp": "2026-07-08T15:18:14.531Z",
-      "type": "popular"
-    },
-    "steam_popular_4376930": {
-      "title": "Disney Dreamlight Valley: Honeyglow Woods",
-      "price": 549,
-      "percent": 0,
-      "timestamp": "2026-07-08T15:18:14.531Z",
-      "type": "popular"
-    },
     "xbox_new_9P8LR42PTRGJ": {
       "title": "33 Immortals",
       "price": 0,
