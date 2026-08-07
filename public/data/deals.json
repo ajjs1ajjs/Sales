@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T11:43:54.691Z",
+  "lastUpdated": "2026-08-07T12:55:21.754Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -88,18 +88,6 @@
       "isPopular": true
     },
     {
-      "id": "3812600",
-      "title": "ReStory: Chill Electronics Repairs",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/22dfadc750afc4461f5d34ff8826f7003d66fde7/capsule_616x353_alt_assets_3.jpg?t=1786100176",
-      "originalPrice": 299,
-      "discountPrice": 269,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3812600",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4108000",
       "title": "Machine Party",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
@@ -109,29 +97,17 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
-      "id": "2142790",
-      "title": "Fields of Mistria",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/09f8e54c1e074b22acb84b891924c0c8b8835a2b/capsule_616x353_alt_assets_4.jpg?t=1785944891",
-      "originalPrice": 310,
-      "discountPrice": 279,
+      "id": "3812600",
+      "title": "ReStory: Chill Electronics Repairs",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/22dfadc750afc4461f5d34ff8826f7003d66fde7/capsule_616x353_alt_assets_3.jpg?t=1786100176",
+      "originalPrice": 299,
+      "discountPrice": 269,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2142790",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
-      "originalPrice": 159,
-      "discountPrice": 79,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
+      "url": "https://store.steampowered.com/app/3812600",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,14 +124,26 @@
       "isPopular": false
     },
     {
-      "id": "1368140",
-      "title": "Corsair Cove",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785860713",
-      "originalPrice": 599,
-      "discountPrice": 449,
-      "discountPercent": 25,
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
+      "originalPrice": 159,
+      "discountPrice": 79,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1368140",
+      "url": "https://store.steampowered.com/app/3527290",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2142790",
+      "title": "Fields of Mistria",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/09f8e54c1e074b22acb84b891924c0c8b8835a2b/capsule_616x353_alt_assets_4.jpg?t=1785944891",
+      "originalPrice": 310,
+      "discountPrice": 279,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2142790",
       "isSpecial": true,
       "isPopular": false
     },
@@ -168,6 +156,18 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1144200",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1368140",
+      "title": "Corsair Cove",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785860713",
+      "originalPrice": 599,
+      "discountPrice": 449,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1368140",
       "isSpecial": true,
       "isPopular": false
     },
@@ -192,18 +192,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3787240",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
-      "originalPrice": 600,
-      "discountPrice": 600,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
       "isSpecial": false,
       "isPopular": true
     }
