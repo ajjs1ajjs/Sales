@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T09:58:20.790Z",
+  "lastUpdated": "2026-08-07T10:56:29.749Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -64,18 +64,6 @@
       "isPopular": true
     },
     {
-      "id": "1478500",
-      "title": "Big Walk",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
-      "originalPrice": 449,
-      "discountPrice": 336,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1478500",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
@@ -88,16 +76,28 @@
       "isPopular": false
     },
     {
+      "id": "1478500",
+      "title": "Big Walk",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
+      "originalPrice": 449,
+      "discountPrice": 336,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1478500",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "3812600",
       "title": "ReStory: Chill Electronics Repairs",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/22dfadc750afc4461f5d34ff8826f7003d66fde7/capsule_616x353_alt_assets_3.jpg?t=1786056257",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/22dfadc750afc4461f5d34ff8826f7003d66fde7/capsule_616x353_alt_assets_3.jpg?t=1786100176",
       "originalPrice": 299,
       "discountPrice": 269,
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3812600",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "4108000",
@@ -112,6 +112,18 @@
       "isPopular": false
     },
     {
+      "id": "2231380",
+      "title": "Tom Clancy's Ghost Recon® Breakpoint",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/5e6e2ce9f3eb1cfdf4618ab0b2ad7756e84f1662/capsule_616x353.jpg?t=1786026109",
+      "originalPrice": 915,
+      "discountPrice": 45,
+      "discountPercent": 95,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2231380",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3527290",
       "title": "PEAK",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
@@ -120,18 +132,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1144200",
-      "title": "Ready or Not",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
-      "originalPrice": 625,
-      "discountPrice": 312,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1144200",
       "isSpecial": true,
       "isPopular": false
     },
@@ -160,14 +160,14 @@
       "isPopular": false
     },
     {
-      "id": "2231380",
-      "title": "Tom Clancy's Ghost Recon® Breakpoint",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/5e6e2ce9f3eb1cfdf4618ab0b2ad7756e84f1662/capsule_616x353.jpg?t=1786026109",
-      "originalPrice": 915,
-      "discountPrice": 45,
-      "discountPercent": 95,
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
+      "originalPrice": 625,
+      "discountPrice": 312,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2231380",
+      "url": "https://store.steampowered.com/app/1144200",
       "isSpecial": true,
       "isPopular": false
     },
@@ -186,24 +186,12 @@
     {
       "id": "3787240",
       "title": "MARVEL Tōkon: Fighting Souls",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/c7f5d61d655d10574e4d1299c34203484b1796b7/capsule_616x353.jpg?t=1786028588",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/c7f5d61d655d10574e4d1299c34203484b1796b7/capsule_616x353.jpg?t=1786097849",
       "originalPrice": 1999,
       "discountPrice": 1999,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3787240",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1289670",
-      "title": "EA Play",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289670/38a9c194965a78816f3bd61520d3c688bcf44b4e/capsule_616x353.jpg?t=1786039203",
-      "originalPrice": 129,
-      "discountPrice": 26,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1289670",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10897,6 +10885,13 @@
       "price": 26,
       "percent": 80,
       "timestamp": "2026-08-07T08:55:23.044Z",
+      "type": "popular"
+    },
+    "steam_popular_3812600": {
+      "title": "ReStory: Chill Electronics Repairs",
+      "price": 269,
+      "percent": 10,
+      "timestamp": "2026-08-07T10:56:23.517Z",
       "type": "popular"
     }
   }
