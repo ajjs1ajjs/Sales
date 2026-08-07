@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T19:50:34.542Z",
+  "lastUpdated": "2026-08-07T20:36:58.180Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -136,6 +136,18 @@
       "isPopular": false
     },
     {
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4108000",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1144200",
       "title": "Ready or Not",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
@@ -156,18 +168,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2142790",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
       "isPopular": false
     },
