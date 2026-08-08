@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T06:44:37.773Z",
+  "lastUpdated": "2026-08-08T07:46:18.149Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -100,18 +100,6 @@
       "isPopular": true
     },
     {
-      "id": "3812600",
-      "title": "ReStory: Chill Electronics Repairs",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/22dfadc750afc4461f5d34ff8826f7003d66fde7/capsule_616x353_alt_assets_3.jpg?t=1786119982",
-      "originalPrice": 299,
-      "discountPrice": 269,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3812600",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "252490",
       "title": "Rust",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
@@ -124,14 +112,14 @@
       "isPopular": false
     },
     {
-      "id": "4450620",
-      "title": "GRAIN ROT",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/a4b40733c84080c18a226704b37f55a48949f1d5/capsule_616x353_alt_assets_0.jpg?t=1786114521",
-      "originalPrice": 200,
-      "discountPrice": 180,
+      "id": "3812600",
+      "title": "ReStory: Chill Electronics Repairs",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/22dfadc750afc4461f5d34ff8826f7003d66fde7/capsule_616x353_alt_assets_3.jpg?t=1786119982",
+      "originalPrice": 299,
+      "discountPrice": 269,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4450620",
+      "url": "https://store.steampowered.com/app/3812600",
       "isSpecial": true,
       "isPopular": false
     },
@@ -144,6 +132,18 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3527290",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4450620",
+      "title": "GRAIN ROT",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/a4b40733c84080c18a226704b37f55a48949f1d5/capsule_616x353_alt_assets_0.jpg?t=1786114521",
+      "originalPrice": 200,
+      "discountPrice": 180,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4450620",
       "isSpecial": true,
       "isPopular": false
     },
