@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T20:24:51.665Z",
+  "lastUpdated": "2026-08-08T21:26:19.095Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -64,18 +64,6 @@
       "isPopular": true
     },
     {
-      "id": "1478500",
-      "title": "Big Walk",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
-      "originalPrice": 449,
-      "discountPrice": 336,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1478500",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
@@ -86,6 +74,18 @@
       "url": "https://store.steampowered.com/app/1091500",
       "isSpecial": true,
       "isPopular": false
+    },
+    {
+      "id": "1478500",
+      "title": "Big Walk",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
+      "originalPrice": 449,
+      "discountPrice": 336,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1478500",
+      "isSpecial": true,
+      "isPopular": true
     },
     {
       "id": "3812600",
@@ -112,6 +112,18 @@
       "isPopular": false
     },
     {
+      "id": "4450620",
+      "title": "GRAIN ROT",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/a4b40733c84080c18a226704b37f55a48949f1d5/capsule_616x353_alt_assets_0.jpg?t=1786114521",
+      "originalPrice": 200,
+      "discountPrice": 180,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4450620",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3527290",
       "title": "PEAK",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
@@ -132,18 +144,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1144200",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4450620",
-      "title": "GRAIN ROT",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/a4b40733c84080c18a226704b37f55a48949f1d5/capsule_616x353_alt_assets_0.jpg?t=1786114521",
-      "originalPrice": 200,
-      "discountPrice": 180,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4450620",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9121,27 +9121,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_12210": {
-      "title": "Grand Theft Auto IV: The Complete Edition",
-      "price": 128,
-      "percent": 70,
-      "timestamp": "2026-07-09T20:44:55.241Z",
-      "type": "discount"
-    },
-    "steam_popular_2244210": {
-      "title": "Echoes of Aincrad",
-      "price": 1999,
-      "percent": 0,
-      "timestamp": "2026-07-09T20:44:55.241Z",
-      "type": "popular"
-    },
-    "xbox_new_9P41GS5W1C6L": {
-      "title": "Wuthering Waves",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T20:44:55.241Z",
-      "type": "free"
-    },
     "steam_popular_4835400": {
       "title": "THE FINALS - Season 11 Ultimate Battle Pass Bundle",
       "price": 1240,
@@ -10674,6 +10653,13 @@
       "percent": 0,
       "timestamp": "2026-08-08T16:28:47.357Z",
       "type": "popular"
+    },
+    "xbox_new_9P41GS5W1C6L": {
+      "title": "Wuthering Waves",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-08T21:26:11.858Z",
+      "type": "xbox_new"
     }
   }
 }
