@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T07:46:18.149Z",
+  "lastUpdated": "2026-08-08T08:35:59.429Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -64,18 +64,6 @@
       "isPopular": true
     },
     {
-      "id": "1478500",
-      "title": "Big Walk",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
-      "originalPrice": 449,
-      "discountPrice": 336,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1478500",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
@@ -88,6 +76,18 @@
       "isPopular": false
     },
     {
+      "id": "1478500",
+      "title": "Big Walk",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
+      "originalPrice": 449,
+      "discountPrice": 336,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1478500",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "4108000",
       "title": "Machine Party",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
@@ -97,7 +97,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "252490",
@@ -136,6 +136,18 @@
       "isPopular": false
     },
     {
+      "id": "1368140",
+      "title": "Corsair Cove",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785860713",
+      "originalPrice": 599,
+      "discountPrice": 449,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1368140",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "4450620",
       "title": "GRAIN ROT",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/a4b40733c84080c18a226704b37f55a48949f1d5/capsule_616x353_alt_assets_0.jpg?t=1786114521",
@@ -156,18 +168,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2142790",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2231380",
-      "title": "Tom Clancy's Ghost Recon® Breakpoint",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/5e6e2ce9f3eb1cfdf4618ab0b2ad7756e84f1662/capsule_616x353.jpg?t=1786026109",
-      "originalPrice": 915,
-      "discountPrice": 45,
-      "discountPercent": 95,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2231380",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9121,286 +9121,6 @@
     }
   ],
   "notifiedHistory": {
-    "xbox_new_9P8LR42PTRGJ": {
-      "title": "33 Immortals",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9P8NKVVB0XQJ": {
-      "title": "Abyssus",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_BSLX1RNXR6H7": {
-      "title": "Batman™: Arkham Knight",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9NJRSC0B0K88": {
-      "title": "Beastro",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9N4X39HZ1CSQ": {
-      "title": "Beatdown City Survivors",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9NTXGKBW2HSM": {
-      "title": "Black Jacket",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9P5B8CPQ9S7F": {
-      "title": "Buckshot Roulette",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9MZ1RZTJTZKB": {
-      "title": "Call of Duty®: Black Ops 6 - Standard Edition (Windows)",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9N0SNSC9PK4D": {
-      "title": "Call of Duty®: Vanguard - Standard Edition",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9PF697TG7PP7": {
-      "title": "Call of the Elder Gods",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9NJJVQZ3BVPX": {
-      "title": "Crashout Crew",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9N3XQQ1LHJ4X": {
-      "title": "EA SPORTS FC™ 26 - PC",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9N17PD34G54M": {
-      "title": "Echo Generation 2",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9NKBDN695GTT": {
-      "title": "Escape Simulator",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9MW15L8FRT9P": {
-      "title": "Escape the Backrooms",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9N255K81XBD3": {
-      "title": "FINAL FANTASY VI",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9N431PX143P8": {
-      "title": "Forza Horizon 6 Standard Edition",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9N16RZ0S50V2": {
-      "title": "Frog Sqwad",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9PF2ZS4XB4JH": {
-      "title": "GOALS",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9NZPKBFF0CV9": {
-      "title": "Junkster",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9NX7HCWL13Z9": {
-      "title": "Jurassic World Evolution 3",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9NM4WQ7TTH3J": {
-      "title": "Kabuto Park",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9PLBH9J0XGR8": {
-      "title": "Luna Abyss",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9NC9M1NCZ7SD": {
-      "title": "Microsoft Jewel",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9NDJLXD2X2DM": {
-      "title": "My Friend Peppa Pig",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9PFWZMT737GG": {
-      "title": "Outbound",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9NZDHXL9SJJ8": {
-      "title": "Persona 5 Royal",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9P9278ZMGQLJ": {
-      "title": "Remnant II® - Standard Edition",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9MW79BJVF3QX": {
-      "title": "RV There Yet?",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9N8BRH7PGJMJ": {
-      "title": "Solarpunk",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9NTZH69PZSH0": {
-      "title": "STARSEEKER: Astroneer Expeditions (Game Preview)",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9PJPCB188SVG": {
-      "title": "Subnautica 2 (Game Preview)",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9P43RGDPJ62T": {
-      "title": "Tamashika",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_BRKX5CRMRTC2": {
-      "title": "The Elder Scrolls Online: Standard Edition",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9NLFKBTNP2VJ": {
-      "title": "Watch Dogs®2",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9N76QGDS5GJR": {
-      "title": "Where Winds Meet",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9P1ZW5K4S44V": {
-      "title": "Winds of Arcana: Ruination",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9N9X9PC8V9CP": {
-      "title": "Wo Long: Fallen Dynasty",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9N11JM7F5CXK": {
-      "title": "World of Tanks: HEAT",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
-    "xbox_new_9PLCL2VB2SC0": {
-      "title": "World War Z: Aftermath",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-09T08:29:41.619Z",
-      "type": "free"
-    },
     "epic_free_e5da2c017d4d4afab9f4c56525b66100": {
       "title": "Nova Lands",
       "price": 0,
@@ -10891,6 +10611,111 @@
       "percent": 10,
       "timestamp": "2026-08-07T16:50:48.826Z",
       "type": "discount"
+    },
+    "xbox_new_9P8LR42PTRGJ": {
+      "title": "33 Immortals",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-08T08:35:52.543Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9P8NKVVB0XQJ": {
+      "title": "Abyssus",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-08T08:35:52.543Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9NJRSC0B0K88": {
+      "title": "Beastro",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-08T08:35:52.543Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9N4X39HZ1CSQ": {
+      "title": "Beatdown City Survivors",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-08T08:35:52.543Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9P5B8CPQ9S7F": {
+      "title": "Buckshot Roulette",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-08T08:35:52.543Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9MZ1RZTJTZKB": {
+      "title": "Call of Duty®: Black Ops 6 - Standard Edition (Windows)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-08T08:35:52.543Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9N0SNSC9PK4D": {
+      "title": "Call of Duty®: Vanguard - Standard Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-08T08:35:52.543Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9N3XQQ1LHJ4X": {
+      "title": "EA SPORTS FC™ 26 - PC",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-08T08:35:52.543Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9N16RZ0S50V2": {
+      "title": "Frog Sqwad",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-08T08:35:52.543Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9NZPKBFF0CV9": {
+      "title": "Junkster",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-08T08:35:52.543Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9MW79BJVF3QX": {
+      "title": "RV There Yet?",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-08T08:35:52.543Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9NTZH69PZSH0": {
+      "title": "STARSEEKER: Astroneer Expeditions (Game Preview)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-08T08:35:52.543Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9P43RGDPJ62T": {
+      "title": "Tamashika",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-08T08:35:52.543Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9NLFKBTNP2VJ": {
+      "title": "Watch Dogs®2",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-08T08:35:52.543Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9P1ZW5K4S44V": {
+      "title": "Winds of Arcana: Ruination",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-08T08:35:52.543Z",
+      "type": "xbox_new"
     }
   }
 }
