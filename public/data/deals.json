@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T18:32:43.136Z",
+  "lastUpdated": "2026-08-08T19:26:21.538Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -100,18 +100,6 @@
       "isPopular": false
     },
     {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3527290",
       "title": "PEAK",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
@@ -120,18 +108,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2231380",
-      "title": "Tom Clancy's Ghost Recon® Breakpoint",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/5e6e2ce9f3eb1cfdf4618ab0b2ad7756e84f1662/capsule_616x353.jpg?t=1786026109",
-      "originalPrice": 915,
-      "discountPrice": 45,
-      "discountPercent": 95,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2231380",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,18 +124,6 @@
       "isPopular": false
     },
     {
-      "id": "2142790",
-      "title": "Fields of Mistria",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/09f8e54c1e074b22acb84b891924c0c8b8835a2b/capsule_616x353_alt_assets_4.jpg?t=1785944891",
-      "originalPrice": 310,
-      "discountPrice": 279,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2142790",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4450620",
       "title": "GRAIN ROT",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/a4b40733c84080c18a226704b37f55a48949f1d5/capsule_616x353_alt_assets_0.jpg?t=1786114521",
@@ -168,6 +132,42 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4450620",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4108000",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2231380",
+      "title": "Tom Clancy's Ghost Recon® Breakpoint",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/5e6e2ce9f3eb1cfdf4618ab0b2ad7756e84f1662/capsule_616x353.jpg?t=1786026109",
+      "originalPrice": 915,
+      "discountPrice": 45,
+      "discountPercent": 95,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2231380",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2142790",
+      "title": "Fields of Mistria",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/09f8e54c1e074b22acb84b891924c0c8b8835a2b/capsule_616x353_alt_assets_4.jpg?t=1785944891",
+      "originalPrice": 310,
+      "discountPrice": 279,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2142790",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9121,34 +9121,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_1771300": {
-      "title": "Kingdom Come: Deliverance II",
-      "price": 639,
-      "percent": 60,
-      "timestamp": "2026-07-09T18:48:35.462Z",
-      "type": "discount"
-    },
-    "steam_discount_4380490": {
-      "title": "Cat Mail Co.",
-      "price": 260,
-      "percent": 15,
-      "timestamp": "2026-07-09T18:48:35.462Z",
-      "type": "discount"
-    },
-    "steam_discount_703080": {
-      "title": "Planet Zoo",
-      "price": 41,
-      "percent": 95,
-      "timestamp": "2026-07-09T18:48:35.462Z",
-      "type": "discount"
-    },
-    "steam_discount_1332010": {
-      "title": "Stray",
-      "price": 289,
-      "percent": 50,
-      "timestamp": "2026-07-09T18:48:35.462Z",
-      "type": "discount"
-    },
     "steam_discount_12210": {
       "title": "Grand Theft Auto IV: The Complete Edition",
       "price": 128,
