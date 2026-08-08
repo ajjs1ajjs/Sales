@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T10:28:23.666Z",
+  "lastUpdated": "2026-08-08T11:24:30.357Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -136,14 +136,14 @@
       "isPopular": false
     },
     {
-      "id": "1144200",
-      "title": "Ready or Not",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
-      "originalPrice": 625,
-      "discountPrice": 312,
-      "discountPercent": 50,
+      "id": "2231380",
+      "title": "Tom Clancy's Ghost Recon® Breakpoint",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/5e6e2ce9f3eb1cfdf4618ab0b2ad7756e84f1662/capsule_616x353.jpg?t=1786026109",
+      "originalPrice": 915,
+      "discountPrice": 45,
+      "discountPercent": 95,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1144200",
+      "url": "https://store.steampowered.com/app/2231380",
       "isSpecial": true,
       "isPopular": false
     },
@@ -160,14 +160,14 @@
       "isPopular": false
     },
     {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
+      "originalPrice": 625,
+      "discountPrice": 312,
       "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
+      "url": "https://store.steampowered.com/app/1144200",
       "isSpecial": true,
       "isPopular": false
     },
@@ -192,18 +192,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3787240",
-      "title": "MARVEL Tōkon: Fighting Souls",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/c7f5d61d655d10574e4d1299c34203484b1796b7/capsule_616x353.jpg?t=1786097849",
-      "originalPrice": 1999,
-      "discountPrice": 1999,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3787240",
       "isSpecial": false,
       "isPopular": true
     }
