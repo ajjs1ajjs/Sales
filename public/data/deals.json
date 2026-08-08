@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T21:26:19.095Z",
+  "lastUpdated": "2026-08-08T22:24:45.324Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -64,18 +64,6 @@
       "isPopular": true
     },
     {
-      "id": "1091500",
-      "title": "Cyberpunk 2077",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1091500",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1478500",
       "title": "Big Walk",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
@@ -86,6 +74,18 @@
       "url": "https://store.steampowered.com/app/1478500",
       "isSpecial": true,
       "isPopular": true
+    },
+    {
+      "id": "1091500",
+      "title": "Cyberpunk 2077",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1091500",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "3812600",
@@ -124,18 +124,6 @@
       "isPopular": false
     },
     {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
-      "originalPrice": 159,
-      "discountPrice": 79,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1144200",
       "title": "Ready or Not",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
@@ -144,6 +132,18 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1144200",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
+      "originalPrice": 159,
+      "discountPrice": 79,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9121,13 +9121,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_4835400": {
-      "title": "THE FINALS - Season 11 Ultimate Battle Pass Bundle",
-      "price": 1240,
-      "percent": 0,
-      "timestamp": "2026-07-09T22:19:34.329Z",
-      "type": "popular"
-    },
     "steam_discount_1984270": {
       "title": "Digimon Story Time Stranger",
       "price": 1139,
