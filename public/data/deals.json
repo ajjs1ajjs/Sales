@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T15:25:30.392Z",
+  "lastUpdated": "2026-08-08T16:28:53.636Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -76,18 +76,6 @@
       "isPopular": true
     },
     {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
@@ -96,6 +84,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
       "isPopular": false
     },
@@ -192,6 +192,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3787240",
+      "title": "MARVEL Tōkon: Fighting Souls",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/c7f5d61d655d10574e4d1299c34203484b1796b7/capsule_616x353.jpg?t=1786097849",
+      "originalPrice": 1999,
+      "discountPrice": 1999,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3787240",
       "isSpecial": false,
       "isPopular": true
     }
@@ -9109,27 +9121,6 @@
     }
   ],
   "notifiedHistory": {
-    "epic_free_e5da2c017d4d4afab9f4c56525b66100": {
-      "title": "Nova Lands",
-      "price": 0,
-      "percent": 100,
-      "timestamp": "2026-07-09T16:25:35.802Z",
-      "type": "free"
-    },
-    "epic_free_f247e0af293645bda266fa9957d82d62": {
-      "title": "Tattoo Tycoon",
-      "price": 0,
-      "percent": 100,
-      "timestamp": "2026-07-09T16:25:35.802Z",
-      "type": "free"
-    },
-    "steam_popular_1623730": {
-      "title": "Palworld",
-      "price": 420,
-      "percent": 30,
-      "timestamp": "2026-07-09T16:25:35.802Z",
-      "type": "popular"
-    },
     "steam_discount_1771300": {
       "title": "Kingdom Come: Deliverance II",
       "price": 639,
@@ -10704,6 +10695,13 @@
       "percent": 0,
       "timestamp": "2026-08-08T08:35:52.543Z",
       "type": "xbox_new"
+    },
+    "steam_popular_1623730": {
+      "title": "Palworld",
+      "price": 600,
+      "percent": 0,
+      "timestamp": "2026-08-08T16:28:47.357Z",
+      "type": "popular"
     }
   }
 }
