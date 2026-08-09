@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T21:28:06.522Z",
+  "lastUpdated": "2026-08-09T22:26:53.871Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -148,18 +148,6 @@
       "isPopular": false
     },
     {
-      "id": "2231380",
-      "title": "Tom Clancy's Ghost Recon® Breakpoint",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/5e6e2ce9f3eb1cfdf4618ab0b2ad7756e84f1662/capsule_616x353.jpg?t=1786026109",
-      "originalPrice": 915,
-      "discountPrice": 45,
-      "discountPercent": 95,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2231380",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2138330",
       "title": "Cyberpunk 2077: Ілюзія свободи",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1784713876",
@@ -168,6 +156,18 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2138330",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2231380",
+      "title": "Tom Clancy's Ghost Recon® Breakpoint",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/5e6e2ce9f3eb1cfdf4618ab0b2ad7756e84f1662/capsule_616x353.jpg?t=1786026109",
+      "originalPrice": 915,
+      "discountPrice": 45,
+      "discountPercent": 95,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2231380",
       "isSpecial": true,
       "isPopular": false
     },
