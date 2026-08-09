@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T14:30:48.208Z",
+  "lastUpdated": "2026-08-09T15:27:09.576Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -148,18 +148,6 @@
       "isPopular": false
     },
     {
-      "id": "2436940",
-      "title": "Sephiria",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436940/c8378b0b0d34d0c82c88c5dc18ad2d87af043ee6/capsule_616x353_alt_assets_0.jpg?t=1785481238",
-      "originalPrice": 325,
-      "discountPrice": 195,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2436940",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4450620",
       "title": "GRAIN ROT",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/a4b40733c84080c18a226704b37f55a48949f1d5/capsule_616x353_alt_assets_0.jpg?t=1786114521",
@@ -168,6 +156,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4450620",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2231380",
+      "title": "Tom Clancy's Ghost Recon® Breakpoint",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/5e6e2ce9f3eb1cfdf4618ab0b2ad7756e84f1662/capsule_616x353.jpg?t=1786026109",
+      "originalPrice": 915,
+      "discountPrice": 45,
+      "discountPercent": 95,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2231380",
       "isSpecial": true,
       "isPopular": false
     },
