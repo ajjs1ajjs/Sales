@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T06:50:57.500Z",
+  "lastUpdated": "2026-08-09T07:51:25.307Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -52,6 +52,18 @@
   ],
   "steam": [
     {
+      "id": "2950790",
+      "title": "IRON NEST: Heavy Turret Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786028313",
+      "originalPrice": 299,
+      "discountPrice": 224,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2950790",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1478500",
       "title": "Big Walk",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
@@ -64,14 +76,14 @@
       "isPopular": true
     },
     {
-      "id": "2950790",
-      "title": "IRON NEST: Heavy Turret Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786028313",
-      "originalPrice": 299,
-      "discountPrice": 224,
-      "discountPercent": 25,
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2950790",
+      "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
       "isPopular": true
     },
@@ -88,26 +100,14 @@
       "isPopular": false
     },
     {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
+      "originalPrice": 159,
+      "discountPrice": 79,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
-      "id": "3812600",
-      "title": "ReStory: Chill Electronics Repairs",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/22dfadc750afc4461f5d34ff8826f7003d66fde7/capsule_616x353_alt_assets_3.jpg?t=1786119982",
-      "originalPrice": 299,
-      "discountPrice": 269,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3812600",
+      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isPopular": false
     },
@@ -124,38 +124,14 @@
       "isPopular": false
     },
     {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
-      "originalPrice": 159,
-      "discountPrice": 79,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4450620",
-      "title": "GRAIN ROT",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/a4b40733c84080c18a226704b37f55a48949f1d5/capsule_616x353_alt_assets_0.jpg?t=1786114521",
-      "originalPrice": 200,
-      "discountPrice": 180,
+      "id": "3812600",
+      "title": "ReStory: Chill Electronics Repairs",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/22dfadc750afc4461f5d34ff8826f7003d66fde7/capsule_616x353_alt_assets_3.jpg?t=1786119982",
+      "originalPrice": 299,
+      "discountPrice": 269,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4450620",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2142790",
-      "title": "Fields of Mistria",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/09f8e54c1e074b22acb84b891924c0c8b8835a2b/capsule_616x353_alt_assets_4.jpg?t=1785944891",
-      "originalPrice": 310,
-      "discountPrice": 279,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2142790",
+      "url": "https://store.steampowered.com/app/3812600",
       "isSpecial": true,
       "isPopular": false
     },
@@ -172,6 +148,30 @@
       "isPopular": false
     },
     {
+      "id": "4450620",
+      "title": "GRAIN ROT",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/a4b40733c84080c18a226704b37f55a48949f1d5/capsule_616x353_alt_assets_0.jpg?t=1786114521",
+      "originalPrice": 200,
+      "discountPrice": 180,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4450620",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2436940",
+      "title": "Sephiria",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436940/c8378b0b0d34d0c82c88c5dc18ad2d87af043ee6/capsule_616x353_alt_assets_0.jpg?t=1785481238",
+      "originalPrice": 325,
+      "discountPrice": 195,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2436940",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
@@ -180,6 +180,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1289670",
+      "title": "EA Play",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289670/38a9c194965a78816f3bd61520d3c688bcf44b4e/capsule_616x353.jpg?t=1786039203",
+      "originalPrice": 129,
+      "discountPrice": 26,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1289670",
       "isSpecial": false,
       "isPopular": true
     },
