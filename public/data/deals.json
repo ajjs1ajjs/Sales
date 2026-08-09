@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T05:00:55.495Z",
+  "lastUpdated": "2026-08-09T06:50:57.500Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -100,18 +100,6 @@
       "isPopular": true
     },
     {
-      "id": "1144200",
-      "title": "Ready or Not",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
-      "originalPrice": 625,
-      "discountPrice": 312,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1144200",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3812600",
       "title": "ReStory: Chill Electronics Repairs",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/22dfadc750afc4461f5d34ff8826f7003d66fde7/capsule_616x353_alt_assets_3.jpg?t=1786119982",
@@ -120,6 +108,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3812600",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
+      "originalPrice": 625,
+      "discountPrice": 312,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1144200",
       "isSpecial": true,
       "isPopular": false
     },
@@ -160,14 +160,14 @@
       "isPopular": false
     },
     {
-      "id": "2231380",
-      "title": "Tom Clancy's Ghost Recon® Breakpoint",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/5e6e2ce9f3eb1cfdf4618ab0b2ad7756e84f1662/capsule_616x353.jpg?t=1786026109",
-      "originalPrice": 915,
-      "discountPrice": 45,
-      "discountPercent": 95,
+      "id": "1368140",
+      "title": "Corsair Cove",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785860713",
+      "originalPrice": 599,
+      "discountPrice": 449,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2231380",
+      "url": "https://store.steampowered.com/app/1368140",
       "isSpecial": true,
       "isPopular": false
     },
@@ -192,18 +192,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3787240",
-      "title": "MARVEL Tōkon: Fighting Souls",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/c7f5d61d655d10574e4d1299c34203484b1796b7/capsule_616x353.jpg?t=1786097849",
-      "originalPrice": 1999,
-      "discountPrice": 1999,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3787240",
       "isSpecial": false,
       "isPopular": true
     }
