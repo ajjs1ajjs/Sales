@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T11:24:59.582Z",
+  "lastUpdated": "2026-08-09T12:41:46.173Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -97,7 +97,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "3812600",
@@ -108,18 +108,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3812600",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1144200",
-      "title": "Ready or Not",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
-      "originalPrice": 625,
-      "discountPrice": 312,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1144200",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,6 +136,18 @@
       "isPopular": false
     },
     {
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
+      "originalPrice": 625,
+      "discountPrice": 312,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1144200",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2436940",
       "title": "Sephiria",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436940/c8378b0b0d34d0c82c88c5dc18ad2d87af043ee6/capsule_616x353_alt_assets_0.jpg?t=1785481238",
@@ -160,14 +160,14 @@
       "isPopular": false
     },
     {
-      "id": "2001120",
-      "title": "Split Fiction",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
-      "originalPrice": 1299,
-      "discountPrice": 844,
-      "discountPercent": 35,
+      "id": "4450620",
+      "title": "GRAIN ROT",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/a4b40733c84080c18a226704b37f55a48949f1d5/capsule_616x353_alt_assets_0.jpg?t=1786114521",
+      "originalPrice": 200,
+      "discountPrice": 180,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001120",
+      "url": "https://store.steampowered.com/app/4450620",
       "isSpecial": true,
       "isPopular": false
     },
@@ -180,18 +180,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
-      "originalPrice": 600,
-      "discountPrice": 600,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
       "isSpecial": false,
       "isPopular": true
     }
