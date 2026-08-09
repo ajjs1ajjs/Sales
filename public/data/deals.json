@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T10:30:21.779Z",
+  "lastUpdated": "2026-08-09T11:24:59.582Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -64,18 +64,6 @@
       "isPopular": true
     },
     {
-      "id": "1478500",
-      "title": "Big Walk",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
-      "originalPrice": 449,
-      "discountPrice": 336,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1478500",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
@@ -88,6 +76,18 @@
       "isPopular": false
     },
     {
+      "id": "1478500",
+      "title": "Big Walk",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
+      "originalPrice": 449,
+      "discountPrice": 336,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1478500",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "4108000",
       "title": "Machine Party",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
@@ -96,18 +96,6 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4108000",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1368140",
-      "title": "Corsair Cove",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785860713",
-      "originalPrice": 599,
-      "discountPrice": 449,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1368140",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,6 +136,18 @@
       "isPopular": false
     },
     {
+      "id": "1368140",
+      "title": "Corsair Cove",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785860713",
+      "originalPrice": 599,
+      "discountPrice": 449,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1368140",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2436940",
       "title": "Sephiria",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436940/c8378b0b0d34d0c82c88c5dc18ad2d87af043ee6/capsule_616x353_alt_assets_0.jpg?t=1785481238",
@@ -160,14 +160,14 @@
       "isPopular": false
     },
     {
-      "id": "1426210",
-      "title": "It Takes Two",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
-      "originalPrice": 999,
-      "discountPrice": 299,
-      "discountPercent": 70,
+      "id": "2001120",
+      "title": "Split Fiction",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
+      "originalPrice": 1299,
+      "discountPrice": 844,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1426210",
+      "url": "https://store.steampowered.com/app/2001120",
       "isSpecial": true,
       "isPopular": false
     },
@@ -180,18 +180,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1289670",
-      "title": "EA Play",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289670/38a9c194965a78816f3bd61520d3c688bcf44b4e/capsule_616x353.jpg?t=1786039203",
-      "originalPrice": 129,
-      "discountPrice": 26,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1289670",
       "isSpecial": false,
       "isPopular": true
     },
