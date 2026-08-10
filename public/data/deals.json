@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T15:57:37.356Z",
+  "lastUpdated": "2026-08-10T16:54:57.186Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -85,17 +85,17 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1478500",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
+      "id": "2138330",
+      "title": "Cyberpunk 2077: Ілюзія свободи",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1784713876",
+      "originalPrice": 699,
+      "discountPrice": 419,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
+      "url": "https://store.steampowered.com/app/2138330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -112,14 +112,26 @@
       "isPopular": false
     },
     {
-      "id": "2138330",
-      "title": "Cyberpunk 2077: Ілюзія свободи",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1784713876",
-      "originalPrice": 699,
-      "discountPrice": 419,
-      "discountPercent": 40,
+      "id": "3812600",
+      "title": "ReStory: Chill Electronics Repairs",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/22dfadc750afc4461f5d34ff8826f7003d66fde7/capsule_616x353_alt_assets_3.jpg?t=1786119982",
+      "originalPrice": 299,
+      "discountPrice": 269,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2138330",
+      "url": "https://store.steampowered.com/app/3812600",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
       "isPopular": false
     },
@@ -132,18 +144,6 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2436940",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3812600",
-      "title": "ReStory: Chill Electronics Repairs",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/22dfadc750afc4461f5d34ff8826f7003d66fde7/capsule_616x353_alt_assets_3.jpg?t=1786119982",
-      "originalPrice": 299,
-      "discountPrice": 269,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3812600",
       "isSpecial": true,
       "isPopular": false
     },
@@ -3418,7 +3418,7 @@
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N16RZ0S50V2",
       "isGamePass": true,
-      "isNewToGamePass": true,
+      "isNewToGamePass": false,
       "isComingSoon": false,
       "isDiscounted": true
     },
