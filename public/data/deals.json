@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T21:37:54.854Z",
+  "lastUpdated": "2026-08-10T22:33:50.402Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -66,7 +66,7 @@
     {
       "id": "1067360",
       "title": "Pax Autocratica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786388821",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786398295",
       "originalPrice": 620,
       "discountPrice": 515,
       "discountPercent": 17,
@@ -148,14 +148,14 @@
       "isPopular": false
     },
     {
-      "id": "2231380",
-      "title": "Tom Clancy's Ghost Recon® Breakpoint",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/5e6e2ce9f3eb1cfdf4618ab0b2ad7756e84f1662/capsule_616x353.jpg?t=1786026109",
-      "originalPrice": 915,
-      "discountPrice": 45,
-      "discountPercent": 95,
+      "id": "1222140",
+      "title": "Detroit: Become Human",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg?t=1667468479",
+      "originalPrice": 1299,
+      "discountPrice": 259,
+      "discountPercent": 80,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2231380",
+      "url": "https://store.steampowered.com/app/1222140",
       "isSpecial": true,
       "isPopular": false
     },
@@ -184,18 +184,6 @@
       "isPopular": true
     },
     {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
-      "originalPrice": 600,
-      "discountPrice": 600,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "3787240",
       "title": "MARVEL Tōkon: Fighting Souls",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/c7f5d61d655d10574e4d1299c34203484b1796b7/capsule_616x353.jpg?t=1786097849",
@@ -204,6 +192,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3787240",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1623730",
+      "title": "Palworld",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
+      "originalPrice": 600,
+      "discountPrice": 600,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1623730",
       "isSpecial": false,
       "isPopular": true
     }
@@ -4204,8 +4204,8 @@
       "title": "inKONBINI: One Store. Many Stories",
       "description": "inKONBINI: One Store. Many Stories is a cozy, narrative-driven slice-of-life game with light simulation elements, centered on human connection and everyday moments.\n\nPlay as Makoto Hayakawa, a college student spending her summer behind the counter of a small-town convenience store, in a colorful world inspired by early 1990s Japan.\n\nYour days are shaped by simple, tactile actions. You stock shelves, tidy displays, and prepare the store for customers, not to optimize numbers, but to settle into a comforting rhythm. Between tasks, you explore the store and its surroundings, notice tiny details, and connect with regulars whose lives gently intertwine with yours.\n\nThrough branching conversations and meaningful choices, your interactions shape relationships and reveal intimate stories of a close-knit neighborhood.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.25819.14457562359158030.5e16d94e-ba1b-4212-969b-21b5f41f5ec2.67352483-0cae-4902-8b69-5a0e363fd683",
-      "originalPrice": 618,
-      "discountPrice": 618,
+      "originalPrice": 665,
+      "discountPrice": 665,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NVV0M74W05C",
@@ -10652,6 +10652,13 @@
       "price": 360,
       "percent": 65,
       "timestamp": "2026-08-10T18:52:06.349Z",
+      "type": "discount"
+    },
+    "steam_discount_1222140": {
+      "title": "Detroit: Become Human",
+      "price": 259,
+      "percent": 80,
+      "timestamp": "2026-08-10T22:33:43.649Z",
       "type": "discount"
     }
   }
