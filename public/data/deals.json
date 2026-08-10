@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T16:54:57.186Z",
+  "lastUpdated": "2026-08-10T17:49:09.454Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -52,14 +52,14 @@
   ],
   "steam": [
     {
-      "id": "1091500",
-      "title": "Cyberpunk 2077",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
+      "id": "1067360",
+      "title": "Pax Autocratica",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786382900",
+      "originalPrice": 620,
+      "discountPrice": 514,
+      "discountPercent": 17,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1091500",
+      "url": "https://store.steampowered.com/app/1067360",
       "isSpecial": true,
       "isPopular": true
     },
@@ -84,18 +84,6 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1478500",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
-      "id": "2138330",
-      "title": "Cyberpunk 2077: Ілюзія свободи",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1784713876",
-      "originalPrice": 699,
-      "discountPrice": 419,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2138330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -124,30 +112,6 @@
       "isPopular": false
     },
     {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2436940",
-      "title": "Sephiria",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436940/6ccbd199bf6565c102ac8bca678e309688a369a6/capsule_616x353.jpg?t=1785481238",
-      "originalPrice": 325,
-      "discountPrice": 195,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2436940",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "252490",
       "title": "Rust",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
@@ -156,6 +120,18 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/252490",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
       "isPopular": false
     },
@@ -172,6 +148,30 @@
       "isPopular": false
     },
     {
+      "id": "2142790",
+      "title": "Fields of Mistria",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/09f8e54c1e074b22acb84b891924c0c8b8835a2b/capsule_616x353_alt_assets_4.jpg?t=1785944891",
+      "originalPrice": 310,
+      "discountPrice": 279,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2142790",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2001120",
+      "title": "Split Fiction",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
+      "originalPrice": 1299,
+      "discountPrice": 844,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2001120",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
@@ -184,14 +184,14 @@
       "isPopular": true
     },
     {
-      "id": "1067360",
-      "title": "Pax Autocratica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786374222",
-      "originalPrice": 620,
-      "discountPrice": 514,
-      "discountPercent": 17,
+      "id": "1091500",
+      "title": "Cyberpunk 2077",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
+      "originalPrice": 1399,
+      "discountPrice": 1399,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1067360",
+      "url": "https://store.steampowered.com/app/1091500",
       "isSpecial": false,
       "isPopular": true
     }
@@ -5600,8 +5600,8 @@
     {
       "id": "BQVQTL3PCH05",
       "title": "No Man's Sky",
-      "description": "No Man’s Sky comes complete with all major updates up to and including Voyagers (6.0).\n\nInspired by the adventure and imagination that we love from classic science-fiction, No Man's Sky presents you with a galaxy to explore, filled with unique planets and lifeforms, and constant danger and action.\n\nIn No Man's Sky, every star is the light of a distant sun, each orbited by planets filled with life, and you can go to any of them you choose. Fly smoothly from deep space to planetary surfaces, with no loading screens, and no limits. In this infinite procedurally generated universe, you'll discover places and creatures that no other players have seen before - and perhaps never will again.\n\nEmbark on an epic voyage\nAt the centre of the galaxy lies a irresistible pulse which draws you on a journey towards it to learn the true nature of the cosmos. But, facing hostile creatures and fierce pirates, you'll know that death comes at a cost, and survival will be down to the choices you make over how you upgrade your ship, your weapon and suit.\n\nFind your own destiny\nYour voyage through No Man's Sky is up to you. Will you be a fighter, preying on the weak and taking their riches, or taking out pirates for their bounties? Power is yours if you upgrade your ship for speed and weaponry.\nOr a trader? Find rich resources on forgotten worlds and exploit them for the highest prices. Invest in more cargo space and you'll reap huge rewards.\nOr perhaps an explorer? Go beyond the known frontier and discover places and things that no one has ever seen before. Upgrade your engines to jump ever farther, and strengthen your suit for survival in toxic environments that would kill the unwary.\n\nShare your journey\nThe galaxy is a living, breathing place. Trade convoys travel between stars, factions vie for territory, pirates hunt the unwary, and the police are ever watching. Every other player lives in the same galaxy, and you can choose to share your discoveries with them on a map that spans known space. Perhaps you will see the results of their actions as well as your own...",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.56486.68818099466568894.391e0700-449d-4430-a634-7339176aa70e.d4f21bcd-310b-4bde-b82b-236031e51f98",
+      "description": "No Man’s Sky comes complete with all major updates up to and including The Swarm.\n\nInspired by the adventure and imagination that we love from classic science-fiction, No Man's Sky presents you with a galaxy to explore, filled with unique planets and lifeforms, and constant danger and action.\n\nIn No Man's Sky, every star is the light of a distant sun, each orbited by planets filled with life, and you can go to any of them you choose. Fly smoothly from deep space to planetary surfaces, with no loading screens, and no limits. In this infinite procedurally generated universe, you'll discover places and creatures that no other players have seen before - and perhaps never will again.\n\nEmbark on an epic voyage\nAt the centre of the galaxy lies a irresistible pulse which draws you on a journey towards it to learn the true nature of the cosmos. But, facing hostile creatures and fierce pirates, you'll know that death comes at a cost, and survival will be down to the choices you make over how you upgrade your ship, your weapon and suit.\n\nFind your own destiny\nYour voyage through No Man's Sky is up to you. Will you be a fighter, preying on the weak and taking their riches, or taking out pirates for their bounties? Power is yours if you upgrade your ship for speed and weaponry.\nOr a trader? Find rich resources on forgotten worlds and exploit them for the highest prices. Invest in more cargo space and you'll reap huge rewards.\nOr perhaps an explorer? Go beyond the known frontier and discover places and things that no one has ever seen before. Upgrade your engines to jump ever farther, and strengthen your suit for survival in toxic environments that would kill the unwary.\n\nShare your journey\nThe galaxy is a living, breathing place. Trade convoys travel between stars, factions vie for territory, pirates hunt the unwary, and the police are ever watching. Every other player lives in the same galaxy, and you can choose to share your discoveries with them on a map that spans known space. Perhaps you will see the results of their actions as well as your own...",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.43892.68818099466568894.c45f3219-f40b-416f-b0ee-34cb9652410f.b196776d-cfc0-42d6-aec4-1254993e3f08",
       "originalPrice": 1540,
       "discountPrice": 1540,
       "discountPercent": 0,
@@ -7213,7 +7213,7 @@
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NTZH69PZSH0",
       "isGamePass": true,
-      "isNewToGamePass": true,
+      "isNewToGamePass": false,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -10634,6 +10634,13 @@
       "percent": 17,
       "timestamp": "2026-08-10T15:57:19.529Z",
       "type": "popular"
+    },
+    "steam_discount_1067360": {
+      "title": "Pax Autocratica",
+      "price": 514,
+      "percent": 17,
+      "timestamp": "2026-08-10T17:49:04.127Z",
+      "type": "discount"
     }
   }
 }
