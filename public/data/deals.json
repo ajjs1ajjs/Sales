@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T11:04:47.035Z",
+  "lastUpdated": "2026-08-10T12:59:26.283Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -52,18 +52,6 @@
   ],
   "steam": [
     {
-      "id": "2950790",
-      "title": "IRON NEST: Heavy Turret Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786028313",
-      "originalPrice": 299,
-      "discountPrice": 224,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2950790",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "1091500",
       "title": "Cyberpunk 2077",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
@@ -72,6 +60,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "2950790",
+      "title": "IRON NEST: Heavy Turret Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786366652",
+      "originalPrice": 299,
+      "discountPrice": 224,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2950790",
       "isSpecial": true,
       "isPopular": true
     },
@@ -85,19 +85,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1478500",
       "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
-      "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "4108000",
@@ -109,7 +97,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4108000",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "3527290",
@@ -120,18 +108,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3812600",
-      "title": "ReStory: Chill Electronics Repairs",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/22dfadc750afc4461f5d34ff8826f7003d66fde7/capsule_616x353_alt_assets_3.jpg?t=1786119982",
-      "originalPrice": 299,
-      "discountPrice": 269,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3812600",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,6 +124,18 @@
       "isPopular": false
     },
     {
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/252490",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2436940",
       "title": "Sephiria",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436940/6ccbd199bf6565c102ac8bca678e309688a369a6/capsule_616x353.jpg?t=1785481238",
@@ -160,14 +148,26 @@
       "isPopular": false
     },
     {
-      "id": "1368140",
-      "title": "Corsair Cove",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg?t=1785860713",
-      "originalPrice": 599,
-      "discountPrice": 449,
-      "discountPercent": 25,
+      "id": "3812600",
+      "title": "ReStory: Chill Electronics Repairs",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/22dfadc750afc4461f5d34ff8826f7003d66fde7/capsule_616x353_alt_assets_3.jpg?t=1786119982",
+      "originalPrice": 299,
+      "discountPrice": 269,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1368140",
+      "url": "https://store.steampowered.com/app/3812600",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2001120",
+      "title": "Split Fiction",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
+      "originalPrice": 1299,
+      "discountPrice": 844,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2001120",
       "isSpecial": true,
       "isPopular": false
     },
@@ -180,18 +180,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     }
@@ -7011,7 +6999,7 @@
       "id": "9MT19Q3CRMQZ",
       "title": "Star Trucker",
       "description": "–Застрибуйте за кермо вантажівки на ракетному двигуні, перевозьте вантажі, збирайте здобич і спілкуйтеся з колоритною командою зіркових далекобійників у пронизаній американським духом подорожі по безмежних космічних просторах!\n\nПЕРЕВОЗЬТЕ Й СПІЛКУЙТЕСЯ\n\nМандруйте гіпермагістралями й виконуйте найрізноманітніші завдання, як-от дальні перевезення в умовах дефіциту пального та ризиковані висадки, щоб заробити грошей і розблокувати новий контент.\n\nІ не забувайте виходити в етер за допомогою своєї Сі-Бі-рації для спілкування з колегами по цеху — це чудовий спосіб дізнатися про побічні маршрути й останні чутки.\n\n\nКЕРУЙТЕ Й ОБСЛУГОВУЙТЕ\n\nПідтримувати вантажівку на ходу завжди важко. Основні системи мають працювати, компенсатор сили тяжіння обертатися, а корпус має бути залатаний, щоб не допустити витікання кисню.\n\nПеред рейсом неодмінно зазирніть у крамницю, щоб придбати запасні частини, а також розгляньте варіант модернізації вантажівки в місцевому гаражі. Це допоможе вам безпечно працювати у нестабільних секторах і гарантувати своєчасну доставку.\n\n\nГІПЕРСТРИБОК!\n\nВикористовуйте галактичну мапу, щоб планувати подорож і варп-стрибки, стежте за запасом пального й рівнем потужності.\n\nПрокладіть маршрут, відкиньтеся в кріслі, увімкніть музику й насолоджуйтеся добіркою оригінальних пісень, що поєднують зоряний блюз, галактичний рок і настояну на астероїдах американу. Дорога чекає!\n\nВІД МОНСТРІВ\nStar Trucker — це дитя невеличкої команди Monster and Monster — інді-студії з двох людей, котрі люблять симулятори й усе науково-фантастичне.\n\nЗа підтримки талановитих друзів вони розробили дивовижну гру, наповнену несподіваними викликами й комплексними механіками, що потребують освоєння. Тож пристебніть ремені й вирушайте з ними в довгу подорож!",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.16851.13821700683757810.89118bcb-37c3-4645-abe7-b733ccb23ac2.e1affadc-0fc7-4702-9da4-2004fdbc4a50",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.41920.13821700683757810.93b2f721-fab5-4d3d-b441-a854a8efa421.b8e20177-867b-4e6f-8eb0-5c6ed474cf75",
       "originalPrice": 640,
       "discountPrice": 640,
       "discountPercent": 0,
