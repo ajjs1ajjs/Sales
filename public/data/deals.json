@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T17:49:09.454Z",
+  "lastUpdated": "2026-08-10T18:52:11.403Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -54,7 +54,7 @@
     {
       "id": "1067360",
       "title": "Pax Autocratica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786382900",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786387229",
       "originalPrice": 620,
       "discountPrice": 514,
       "discountPercent": 17,
@@ -85,6 +85,18 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1478500",
       "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "3812600",
+      "title": "ReStory: Chill Electronics Repairs",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/22dfadc750afc4461f5d34ff8826f7003d66fde7/capsule_616x353_alt_assets_3.jpg?t=1786119982",
+      "originalPrice": 299,
+      "discountPrice": 269,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3812600",
+      "isSpecial": true,
       "isPopular": false
     },
     {
@@ -96,18 +108,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3812600",
-      "title": "ReStory: Chill Electronics Repairs",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/22dfadc750afc4461f5d34ff8826f7003d66fde7/capsule_616x353_alt_assets_3.jpg?t=1786119982",
-      "originalPrice": 299,
-      "discountPrice": 269,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3812600",
       "isSpecial": true,
       "isPopular": false
     },
@@ -124,14 +124,14 @@
       "isPopular": false
     },
     {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
+      "id": "2142790",
+      "title": "Fields of Mistria",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/09f8e54c1e074b22acb84b891924c0c8b8835a2b/capsule_616x353_alt_assets_4.jpg?t=1785944891",
+      "originalPrice": 310,
+      "discountPrice": 279,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
+      "url": "https://store.steampowered.com/app/2142790",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,26 +148,26 @@
       "isPopular": false
     },
     {
-      "id": "2142790",
-      "title": "Fields of Mistria",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/09f8e54c1e074b22acb84b891924c0c8b8835a2b/capsule_616x353_alt_assets_4.jpg?t=1785944891",
-      "originalPrice": 310,
-      "discountPrice": 279,
+      "id": "4450620",
+      "title": "GRAIN ROT",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/a4b40733c84080c18a226704b37f55a48949f1d5/capsule_616x353_alt_assets_0.jpg?t=1786114521",
+      "originalPrice": 200,
+      "discountPrice": 180,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2142790",
+      "url": "https://store.steampowered.com/app/4450620",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "2001120",
-      "title": "Split Fiction",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
-      "originalPrice": 1299,
-      "discountPrice": 844,
-      "discountPercent": 35,
+      "id": "1172620",
+      "title": "Sea of Thieves: 2026 Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172620/1617656502fd33cb55deaff55fe1ffada0c51e18/capsule_616x353.jpg?t=1782135471",
+      "originalPrice": 1030,
+      "discountPrice": 360,
+      "discountPercent": 65,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001120",
+      "url": "https://store.steampowered.com/app/1172620",
       "isSpecial": true,
       "isPopular": false
     },
@@ -184,14 +184,14 @@
       "isPopular": true
     },
     {
-      "id": "1091500",
-      "title": "Cyberpunk 2077",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
-      "originalPrice": 1399,
-      "discountPrice": 1399,
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1091500",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     }
@@ -9109,13 +9109,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_4735410": {
-      "title": "Warframe: колекція «Спадок» для Меси",
-      "price": 499,
-      "percent": 0,
-      "timestamp": "2026-07-11T17:52:55.748Z",
-      "type": "popular"
-    },
     "steam_discount_367270": {
       "title": "Angels Fall First",
       "price": 233,
@@ -10640,6 +10633,13 @@
       "price": 514,
       "percent": 17,
       "timestamp": "2026-08-10T17:49:04.127Z",
+      "type": "discount"
+    },
+    "steam_discount_1172620": {
+      "title": "Sea of Thieves: 2026 Edition",
+      "price": 360,
+      "percent": 65,
+      "timestamp": "2026-08-10T18:52:06.349Z",
       "type": "discount"
     }
   }
