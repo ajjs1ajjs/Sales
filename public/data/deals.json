@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T03:40:11.280Z",
+  "lastUpdated": "2026-08-11T05:04:09.646Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -148,18 +148,6 @@
       "isPopular": false
     },
     {
-      "id": "3812600",
-      "title": "ReStory: Chill Electronics Repairs",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/22dfadc750afc4461f5d34ff8826f7003d66fde7/capsule_616x353_alt_assets_3.jpg?t=1786119982",
-      "originalPrice": 299,
-      "discountPrice": 269,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3812600",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "699130",
       "title": "World War Z",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/312f7a491b3b773dcee4f6ac13da41a872afc003/capsule_616x353.jpg?t=1781783964",
@@ -168,6 +156,18 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/699130",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3812600",
+      "title": "ReStory: Chill Electronics Repairs",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/22dfadc750afc4461f5d34ff8826f7003d66fde7/capsule_616x353_alt_assets_3.jpg?t=1786119982",
+      "originalPrice": 299,
+      "discountPrice": 269,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3812600",
       "isSpecial": true,
       "isPopular": false
     },
