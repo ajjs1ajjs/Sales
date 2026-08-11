@@ -20,7 +20,7 @@ const revisions = manifestEntries.map((e) => e.revision || '0').join('-');
 const CACHE = `${CACHE_PREFIX}-${revisions ? fnv1a(revisions) : 'static'}`;
 const NAV_FALLBACK =
   manifestEntries.find((e) => e.url.endsWith('index.html'))?.url ?? manifestEntries[0]?.url;
-const MAX_DYNAMIC_ENTRIES = 50;
+const MAX_DYNAMIC_ENTRIES = 200;
 
 async function putWithLimit(request: Request, response: Response) {
   try {
@@ -63,7 +63,9 @@ self.addEventListener('fetch', (event) => {
 
   const isDynamic =
     event.request.mode === 'navigate' ||
-    event.request.url.includes('/data/deals.json');
+    // Suffix match handles both dev (/data/deals.json) and the GitHub Pages
+    // base (/Sales/data/deals.json) without depending on the build config.
+    event.request.url.endsWith('/data/deals.json');
 
   if (isDynamic) {
     event.respondWith(

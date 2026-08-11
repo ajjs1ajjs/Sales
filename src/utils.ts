@@ -74,6 +74,9 @@ export function isSteamNonGame(imageUrl: string): boolean {
  */
 export function safeUrl(url: string): string {
   if (!url) return '';
+  // Protocol-relative URLs (//evil.com) resolve to the current scheme and
+  // would pass the http/https check below; reject them explicitly.
+  if (url.startsWith('//')) return '';
   try {
     const u = new URL(url, window.location.origin);
     return u.protocol === 'http:' || u.protocol === 'https:' ? url : '';

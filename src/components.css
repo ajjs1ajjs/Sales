@@ -255,7 +255,7 @@
 }
 
 /* Image shimmer skeleton */
-@keyframes shimmer {
+@keyframes card-shimmer {
   0% { transform: translateX(-100%); }
   100% { transform: translateX(100%); }
 }
@@ -324,7 +324,7 @@
   inset: 0;
   background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.04) 50%, transparent 100%);
   transform: translateX(-100%);
-  animation: shimmer 2s ease-in-out infinite;
+  animation: card-shimmer 2s ease-in-out infinite;
   pointer-events: none;
   z-index: 1;
 }
