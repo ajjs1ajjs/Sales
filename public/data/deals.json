@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T21:41:41.087Z",
+  "lastUpdated": "2026-08-11T22:37:38.555Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -52,18 +52,6 @@
   ],
   "steam": [
     {
-      "id": "2358720",
-      "title": "Black Myth: Wukong",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
-      "originalPrice": 1699,
-      "discountPrice": 1189,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2358720",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2523770",
       "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
@@ -74,6 +62,18 @@
       "url": "https://store.steampowered.com/app/2523770",
       "isSpecial": true,
       "isPopular": true
+    },
+    {
+      "id": "2358720",
+      "title": "Black Myth: Wukong",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
+      "originalPrice": 1699,
+      "discountPrice": 1189,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2358720",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "2950790",
@@ -100,18 +100,6 @@
       "isPopular": false
     },
     {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
-      "originalPrice": 159,
-      "discountPrice": 79,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1067360",
       "title": "Pax Autocratica",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786398295",
@@ -120,6 +108,18 @@
       "discountPercent": 17,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1067360",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
+      "originalPrice": 159,
+      "discountPrice": 79,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isPopular": false
     },
@@ -160,14 +160,14 @@
       "isPopular": false
     },
     {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
+      "id": "553850",
+      "title": "HELLDIVERS™ 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/0d3b55ad9670b934fa6c81f2ef8db8826440bf0e/capsule_616x353.jpg?t=1779899567",
+      "originalPrice": 1199,
+      "discountPrice": 899,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
+      "url": "https://store.steampowered.com/app/553850",
       "isSpecial": true,
       "isPopular": false
     },
@@ -10799,6 +10799,13 @@
       "percent": 10,
       "timestamp": "2026-08-11T20:39:07.724Z",
       "type": "popular"
+    },
+    "steam_discount_553850": {
+      "title": "HELLDIVERS™ 2",
+      "price": 899,
+      "percent": 25,
+      "timestamp": "2026-08-11T22:37:30.709Z",
+      "type": "discount"
     }
   }
 }
