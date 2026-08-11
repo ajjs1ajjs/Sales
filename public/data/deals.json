@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T17:59:04.781Z",
+  "lastUpdated": "2026-08-11T19:10:38.989Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -73,31 +73,19 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2950790",
       "isSpecial": true,
-      "isPopular": true
-    },
-    {
-      "id": "1067360",
-      "title": "Pax Autocratica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786398295",
-      "originalPrice": 620,
-      "discountPrice": 515,
-      "discountPercent": 17,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1067360",
-      "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "1574480",
-      "title": "Agent 64: Spies Never Die",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/55f4a416ebfa7289b39bfd130205961e40965e78/capsule_616x353.jpg?t=1786459687",
-      "originalPrice": 466,
-      "discountPrice": 414,
-      "discountPercent": 11,
+      "id": "2523770",
+      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
+      "originalPrice": 415,
+      "discountPrice": 373,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1574480",
+      "url": "https://store.steampowered.com/app/2523770",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1478500",
@@ -108,6 +96,18 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1478500",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1067360",
+      "title": "Pax Autocratica",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786398295",
+      "originalPrice": 620,
+      "discountPrice": 515,
+      "discountPercent": 17,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1067360",
       "isSpecial": true,
       "isPopular": false
     },
@@ -124,6 +124,30 @@
       "isPopular": false
     },
     {
+      "id": "1574480",
+      "title": "Agent 64: Spies Never Die",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/55f4a416ebfa7289b39bfd130205961e40965e78/capsule_616x353.jpg?t=1786459687",
+      "originalPrice": 466,
+      "discountPrice": 414,
+      "discountPercent": 11,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1574480",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3929470",
+      "title": "Warhounds",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3929470/482cc5d989745bdfccbbd0c47994e9d3d15b0d4e/capsule_616x353_alt_assets_1.jpg?t=1786461167",
+      "originalPrice": 720,
+      "discountPrice": 612,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3929470",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "252490",
       "title": "Rust",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
@@ -132,18 +156,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/252490",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "699130",
-      "title": "World War Z",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/312f7a491b3b773dcee4f6ac13da41a872afc003/capsule_616x353.jpg?t=1786453804",
-      "originalPrice": 750,
-      "discountPrice": 187,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/699130",
       "isSpecial": true,
       "isPopular": false
     },
@@ -160,18 +172,6 @@
       "isPopular": false
     },
     {
-      "id": "1222140",
-      "title": "Detroit: Become Human",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg?t=1667468479",
-      "originalPrice": 1299,
-      "discountPrice": 259,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1222140",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
@@ -184,6 +184,18 @@
       "isPopular": true
     },
     {
+      "id": "4815770",
+      "title": "Overwatch®: набір максимальної бойової перепустки четвертого сезону 2026",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4815770/678c52f54e418a7254af880b259264aa63606061/capsule_616x353.jpg?t=1786471225",
+      "originalPrice": 1677,
+      "discountPrice": 1677,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4815770",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "1867240",
       "title": "WARDOGS",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1786467028",
@@ -192,6 +204,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1867240",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4815780",
+      "title": "Overwatch®, сезон 4: набір новачка 2026",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4815780/6d66fe4aff29e62e8a7a4e0dbd58c4670626e26f/capsule_616x353.jpg?t=1786471242",
+      "originalPrice": 419,
+      "discountPrice": 419,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4815780",
       "isSpecial": false,
       "isPopular": true
     }
@@ -5750,8 +5774,8 @@
     {
       "id": "9P36DQX6W9CS",
       "title": "Overwatch® PC",
-      "description": "Overwatch — це безкоштовна командна гра в жанрі «геройська стрілянка», що постійно розвивається й наповнюється подіями. Її сюжет розгортається в оптимістичному майбутньому, де кожен матч — це справжня баталія у форматі «5 на 5» або «6 на 6» із новими персонажами й мапами, цікавими стратегіями та унікальними елементами персоналізації! Виберіть одного з понад 40 персонажів Overwatch й очолюйте команду на шляху до перемоги, проводьте неочікувані атаки або ж допомагайте союзникам. Об’єднайте зусилля з друзями, разом бийтеся на просторах більш ніж 25 футуристичних мап, натхнених реальними локаціями, і спробуйте себе в різних виняткових ігрових режимах.\n\n«Панування Талону» — сезон 3: «У лігві тигра»\n\nЧас випустити кігті й увірватися в бій\n\nНовий небезпечний герой з’являється на полі бою, поки Overwatch б’ється на розтрощених вулицях зухвалої гібридної мапи. Зустрічайте: сюжетна подія, свіжі міфічні предмети та нові ультраскіни!\n\nСезон 3 «Панування Талону: У лігві тигра» переносить Overwatch туди, де яскраве світло прорізає темряву, а вибір союзників визначає все. Шіон, новий швидкий і смертоносний герой ролі дамагера, очолює горезвісний клан Хашімото, випробовуючи вашу рішучість на кожному кроці. На вас також чекає перша нова гібридна мапа в метаподії «Аніма-удар»: розкривайте секрети та заробляйте нагороди впродовж сюжетної кампанії, що триватиме весь сезон. А потім уривайтеся в бій із міфічним скіном «Відроджений фенікс» для Ілларі та міфічною зброєю «Токійський бунтар» для Гандзо — і не забудьте про ультраскіни, щоб зробити кожну сутичку за краще майбутнє максимально стильною та видовищною!",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.2443.14548245473193065.ca43c283-3e5e-44fa-97fd-449f8fbfb3cb.c539d38e-ce66-4a54-8d25-fbd48c997395",
+      "description": "Overwatch — це безкоштовна командна гра в жанрі «геройська стрілянка», що постійно розвивається й наповнюється подіями. Її сюжет розгортається в оптимістичному майбутньому, де кожен матч — це справжня баталія у форматі «5 на 5» або «6 на 6» із новими персонажами й мапами, цікавими стратегіями та унікальними елементами персоналізації! Виберіть одного з понад 40 персонажів Overwatch й очолюйте команду на шляху до перемоги, проводьте неочікувані атаки або ж допомагайте союзникам. Об’єднайте зусилля з друзями, разом бийтеся на просторах більш ніж 25 футуристичних мап, натхнених реальними локаціями, і спробуйте себе в різних виняткових ігрових режимах.\n\n«Панування Талону» — сезон 4: «Герої Пусану»\n\nРозкрийте героя один в одному\n\nD.Mon вступає в бій як новий герой-танк, щоб захищати Пусан цього зесону. Вона спроможна виявляти найкраще в кожному на полі бою!\n\nЮнкерси та Талон наступають на Пусан, тож новий герой-танк D.Mon приєднується до D.Va та решти загону MEKA, щоб захистити їхній дім! Оберіть свого улюбленого пілота в події «Shooting Stars: My MEKA Mania», заробляйте зірки та розблоковуйте історію загону, поки ваша підтримка допомагатиме їм підніматися в світовому рейтингу Потім пройдіть оновлену бойову перепустку з гнучким прогресом та можливістю обміну відповідної легендарної нагороди. Крім того, дослідіть оновлені версії Пусану, Параїсо та Айхенвальду, перш ніж вирушити в командні змагання, де команди просуваються разом, а покращений зворотний зв’язок серед бою робить вплив кожного гравця помітнішим. Насамкінець розблокуйте міфічну зброю Ґендзі або міфічну зброю Соджорн, а також інші косметичні предмети, й завершіть свою колекцію!",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.18677.14548245473193065.9c82be1a-823e-414c-80e7-be1aa2cecce1.89a56f88-2bbb-413a-b4e4-0104c28c76cc",
       "originalPrice": 0,
       "discountPrice": 0,
       "discountPercent": 0,
@@ -10739,6 +10763,34 @@
       "price": 414,
       "percent": 11,
       "timestamp": "2026-08-11T17:58:59.308Z",
+      "type": "popular"
+    },
+    "steam_discount_2523770": {
+      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
+      "price": 373,
+      "percent": 10,
+      "timestamp": "2026-08-11T19:10:32.394Z",
+      "type": "discount"
+    },
+    "steam_discount_3929470": {
+      "title": "Warhounds",
+      "price": 612,
+      "percent": 15,
+      "timestamp": "2026-08-11T19:10:32.394Z",
+      "type": "discount"
+    },
+    "steam_popular_4815770": {
+      "title": "Overwatch®: набір максимальної бойової перепустки четвертого сезону 2026",
+      "price": 1677,
+      "percent": 0,
+      "timestamp": "2026-08-11T19:10:32.394Z",
+      "type": "popular"
+    },
+    "steam_popular_4815780": {
+      "title": "Overwatch®, сезон 4: набір новачка 2026",
+      "price": 419,
+      "percent": 0,
+      "timestamp": "2026-08-11T19:10:32.394Z",
       "type": "popular"
     }
   }
