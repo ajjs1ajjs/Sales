@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T15:57:38.415Z",
+  "lastUpdated": "2026-08-11T16:58:29.142Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -52,6 +52,18 @@
   ],
   "steam": [
     {
+      "id": "2358720",
+      "title": "Black Myth: Wukong",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
+      "originalPrice": 1699,
+      "discountPrice": 1189,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2358720",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "2950790",
       "title": "IRON NEST: Heavy Turret Simulator",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786366652",
@@ -73,7 +85,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1067360",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1478500",
@@ -88,14 +100,14 @@
       "isPopular": false
     },
     {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
+      "id": "1574480",
+      "title": "Agent 64: Spies Never Die",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/55f4a416ebfa7289b39bfd130205961e40965e78/capsule_616x353.jpg?t=1786459687",
+      "originalPrice": 466,
+      "discountPrice": 414,
+      "discountPercent": 11,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
+      "url": "https://store.steampowered.com/app/1574480",
       "isSpecial": true,
       "isPopular": false
     },
@@ -124,6 +136,18 @@
       "isPopular": false
     },
     {
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4108000",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "699130",
       "title": "World War Z",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/312f7a491b3b773dcee4f6ac13da41a872afc003/capsule_616x353.jpg?t=1786453804",
@@ -148,30 +172,6 @@
       "isPopular": false
     },
     {
-      "id": "1222140",
-      "title": "Detroit: Become Human",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg?t=1667468479",
-      "originalPrice": 1299,
-      "discountPrice": 259,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1222140",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2001120",
-      "title": "Split Fiction",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
-      "originalPrice": 1299,
-      "discountPrice": 844,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001120",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
@@ -184,26 +184,14 @@
       "isPopular": true
     },
     {
-      "id": "4553980",
-      "title": "Jurassic World Evolution 3: Crocodilia Coast",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4553980/08e5e62f258c68b503dadb1c8f50ffc3842a28d5/capsule_616x353.jpg?t=1786453318",
-      "originalPrice": 420,
-      "discountPrice": 420,
+      "id": "1867240",
+      "title": "WARDOGS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1786467028",
+      "originalPrice": 829,
+      "discountPrice": 829,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4553980",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "974480",
-      "title": "Echoes of Mystralia",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/974480/5b0c044e4f623bc99eb26551b78c3a7c24f18fbb/capsule_616x353_alt_assets_1.jpg?t=1786460340",
-      "originalPrice": 430,
-      "discountPrice": 430,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/974480",
+      "url": "https://store.steampowered.com/app/1867240",
       "isSpecial": false,
       "isPopular": true
     },
@@ -10728,6 +10716,34 @@
       "price": 612,
       "percent": 15,
       "timestamp": "2026-08-11T15:57:32.433Z",
+      "type": "popular"
+    },
+    "steam_discount_2358720": {
+      "title": "Black Myth: Wukong",
+      "price": 1189,
+      "percent": 30,
+      "timestamp": "2026-08-11T16:58:23.438Z",
+      "type": "discount"
+    },
+    "steam_discount_1574480": {
+      "title": "Agent 64: Spies Never Die",
+      "price": 414,
+      "percent": 11,
+      "timestamp": "2026-08-11T16:58:23.438Z",
+      "type": "discount"
+    },
+    "steam_popular_2358720": {
+      "title": "Black Myth: Wukong",
+      "price": 1189,
+      "percent": 30,
+      "timestamp": "2026-08-11T16:58:23.438Z",
+      "type": "popular"
+    },
+    "steam_popular_1867240": {
+      "title": "WARDOGS",
+      "price": 829,
+      "percent": 0,
+      "timestamp": "2026-08-11T16:58:23.438Z",
       "type": "popular"
     }
   }
