@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T16:58:29.142Z",
+  "lastUpdated": "2026-08-11T17:59:04.781Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -88,6 +88,18 @@
       "isPopular": false
     },
     {
+      "id": "1574480",
+      "title": "Agent 64: Spies Never Die",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/55f4a416ebfa7289b39bfd130205961e40965e78/capsule_616x353.jpg?t=1786459687",
+      "originalPrice": 466,
+      "discountPrice": 414,
+      "discountPercent": 11,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1574480",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "1478500",
       "title": "Big Walk",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
@@ -100,21 +112,9 @@
       "isPopular": false
     },
     {
-      "id": "1574480",
-      "title": "Agent 64: Spies Never Die",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/55f4a416ebfa7289b39bfd130205961e40965e78/capsule_616x353.jpg?t=1786459687",
-      "originalPrice": 466,
-      "discountPrice": 414,
-      "discountPercent": 11,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1574480",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3527290",
       "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1775581133",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
       "originalPrice": 159,
       "discountPrice": 79,
       "discountPercent": 50,
@@ -136,18 +136,6 @@
       "isPopular": false
     },
     {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "699130",
       "title": "World War Z",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/312f7a491b3b773dcee4f6ac13da41a872afc003/capsule_616x353.jpg?t=1786453804",
@@ -160,14 +148,26 @@
       "isPopular": false
     },
     {
-      "id": "1648360",
-      "title": "Luminary",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1648360/0abbbcbaab56312991b84901742be9c3ae607e5a/capsule_616x353.jpg?t=1786457864",
-      "originalPrice": 430,
-      "discountPrice": 365,
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
+      "originalPrice": 199,
+      "discountPrice": 169,
       "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1648360",
+      "url": "https://store.steampowered.com/app/4108000",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1222140",
+      "title": "Detroit: Become Human",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg?t=1667468479",
+      "originalPrice": 1299,
+      "discountPrice": 259,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1222140",
       "isSpecial": true,
       "isPopular": false
     },
@@ -192,18 +192,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1867240",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3929470",
-      "title": "Warhounds",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3929470/482cc5d989745bdfccbbd0c47994e9d3d15b0d4e/capsule_616x353_alt_assets_1.jpg?t=1786461167",
-      "originalPrice": 720,
-      "discountPrice": 612,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3929470",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10744,6 +10732,13 @@
       "price": 829,
       "percent": 0,
       "timestamp": "2026-08-11T16:58:23.438Z",
+      "type": "popular"
+    },
+    "steam_popular_1574480": {
+      "title": "Agent 64: Spies Never Die",
+      "price": 414,
+      "percent": 11,
+      "timestamp": "2026-08-11T17:58:59.308Z",
       "type": "popular"
     }
   }
