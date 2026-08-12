@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T21:41:13.631Z",
+  "lastUpdated": "2026-08-12T22:36:38.470Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -128,18 +128,6 @@
       "isPopular": false
     },
     {
-      "id": "2552430",
-      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2552430",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3527290",
       "title": "PEAK",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
@@ -164,6 +152,18 @@
       "isPopular": false
     },
     {
+      "id": "2552430",
+      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2552430",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "4108000",
       "title": "Machine Party",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1786561627",
@@ -176,28 +176,16 @@
       "isPopular": false
     },
     {
-      "id": "2552450",
-      "title": "KINGDOM HEARTS III + Re Mind (DLC)",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552450/capsule_616x353.jpg?t=1779418883",
-      "originalPrice": 1699,
-      "discountPrice": 509,
-      "discountPercent": 70,
+      "id": "1172620",
+      "title": "Sea of Thieves: 2026 Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172620/1617656502fd33cb55deaff55fe1ffada0c51e18/capsule_616x353.jpg?t=1782135471",
+      "originalPrice": 1030,
+      "discountPrice": 360,
+      "discountPercent": 65,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2552450",
+      "url": "https://store.steampowered.com/app/1172620",
       "isSpecial": true,
       "isPopular": false
-    },
-    {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1786515952",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
-      "isSpecial": false,
-      "isPopular": true
     },
     {
       "id": "4165910",
@@ -208,6 +196,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1786515952",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isPopular": true
     },
