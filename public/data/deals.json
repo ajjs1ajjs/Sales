@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T11:03:48.230Z",
+  "lastUpdated": "2026-08-12T13:00:29.133Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -88,6 +88,30 @@
       "isPopular": false
     },
     {
+      "id": "1478500",
+      "title": "Big Walk",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
+      "originalPrice": 449,
+      "discountPrice": 336,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1478500",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4108000",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3527290",
       "title": "PEAK",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
@@ -112,14 +136,14 @@
       "isPopular": false
     },
     {
-      "id": "1478500",
-      "title": "Big Walk",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
-      "originalPrice": 449,
-      "discountPrice": 336,
+      "id": "553850",
+      "title": "HELLDIVERS™ 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/5dca2c120a87aeee02bbe8ed58711b4255c26228/capsule_616x353.jpg?t=1786525389",
+      "originalPrice": 1199,
+      "discountPrice": 899,
       "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1478500",
+      "url": "https://store.steampowered.com/app/553850",
       "isSpecial": true,
       "isPopular": false
     },
@@ -136,38 +160,14 @@
       "isPopular": false
     },
     {
-      "id": "553850",
-      "title": "HELLDIVERS™ 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/5dca2c120a87aeee02bbe8ed58711b4255c26228/capsule_616x353.jpg?t=1786525389",
-      "originalPrice": 1199,
-      "discountPrice": 899,
-      "discountPercent": 25,
+      "id": "2001120",
+      "title": "Split Fiction",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
+      "originalPrice": 1299,
+      "discountPrice": 844,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/553850",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3929470",
-      "title": "Warhounds",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3929470/482cc5d989745bdfccbbd0c47994e9d3d15b0d4e/capsule_616x353_alt_assets_1.jpg?t=1786480353",
-      "originalPrice": 720,
-      "discountPrice": 612,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3929470",
+      "url": "https://store.steampowered.com/app/2001120",
       "isSpecial": true,
       "isPopular": false
     },
