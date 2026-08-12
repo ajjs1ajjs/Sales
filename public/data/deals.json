@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T01:39:37.500Z",
+  "lastUpdated": "2026-08-12T04:03:50.329Z",
   "epic": [
     {
       "id": "871cc4ff18444059890a4d28653a62d5",
@@ -85,7 +85,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1478500",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "2950790",
@@ -96,18 +96,6 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2950790",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1067360",
-      "title": "Pax Autocratica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786398295",
-      "originalPrice": 620,
-      "discountPrice": 515,
-      "discountPercent": 17,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1067360",
       "isSpecial": true,
       "isPopular": false
     },
@@ -124,14 +112,14 @@
       "isPopular": false
     },
     {
-      "id": "1574480",
-      "title": "Agent 64: Spies Never Die",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/55f4a416ebfa7289b39bfd130205961e40965e78/capsule_616x353.jpg?t=1786459687",
-      "originalPrice": 466,
-      "discountPrice": 414,
-      "discountPercent": 11,
+      "id": "1067360",
+      "title": "Pax Autocratica",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786398295",
+      "originalPrice": 620,
+      "discountPrice": 515,
+      "discountPercent": 17,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1574480",
+      "url": "https://store.steampowered.com/app/1067360",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,6 +136,18 @@
       "isPopular": false
     },
     {
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/252490",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "553850",
       "title": "HELLDIVERS™ 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/0d3b55ad9670b934fa6c81f2ef8db8826440bf0e/capsule_616x353.jpg?t=1779899567",
@@ -160,16 +160,28 @@
       "isPopular": false
     },
     {
-      "id": "3929470",
-      "title": "Warhounds",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3929470/482cc5d989745bdfccbbd0c47994e9d3d15b0d4e/capsule_616x353_alt_assets_1.jpg?t=1786480353",
-      "originalPrice": 720,
-      "discountPrice": 612,
-      "discountPercent": 15,
+      "id": "1574480",
+      "title": "Agent 64: Spies Never Die",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/55f4a416ebfa7289b39bfd130205961e40965e78/capsule_616x353.jpg?t=1786459687",
+      "originalPrice": 466,
+      "discountPrice": 414,
+      "discountPercent": 11,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3929470",
+      "url": "https://store.steampowered.com/app/1574480",
       "isSpecial": true,
       "isPopular": false
+    },
+    {
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1786499411",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
+      "isPopular": true
     },
     {
       "id": "4165910",
@@ -10782,6 +10794,13 @@
       "percent": 25,
       "timestamp": "2026-08-11T22:37:30.709Z",
       "type": "discount"
+    },
+    "steam_popular_4115450": {
+      "title": "Phantom Blade Zero",
+      "price": 2249,
+      "percent": 0,
+      "timestamp": "2026-08-12T04:03:43.561Z",
+      "type": "popular"
     }
   }
 }
