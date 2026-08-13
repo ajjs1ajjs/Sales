@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T16:54:30.925Z",
+  "lastUpdated": "2026-08-13T17:55:32.777Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -54,7 +54,7 @@
     {
       "id": "2764460",
       "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786638296",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786641888",
       "originalPrice": 199,
       "discountPrice": 129,
       "discountPercent": 35,
@@ -73,7 +73,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2358720",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "2523770",
@@ -112,18 +112,6 @@
       "isPopular": false
     },
     {
-      "id": "2542020",
-      "title": "Duskfade",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2542020/54099f5cee11132f07b5617323184ecd8f451cee/capsule_616x353.jpg?t=1786631734",
-      "originalPrice": 749,
-      "discountPrice": 599,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2542020",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1478500",
       "title": "Big Walk",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
@@ -132,6 +120,18 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1478500",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2542020",
+      "title": "Duskfade",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2542020/54099f5cee11132f07b5617323184ecd8f451cee/capsule_616x353.jpg?t=1786631734",
+      "originalPrice": 749,
+      "discountPrice": 599,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2542020",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,18 +148,6 @@
       "isPopular": false
     },
     {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1786561627",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1067360",
       "title": "Pax Autocratica",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786607873",
@@ -168,6 +156,18 @@
       "discountPercent": 17,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1067360",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3636770",
+      "title": "Servant of the Lake",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/6a548a0c7f36e279e7ffd899115319cad890527a/capsule_616x353.jpg?t=1786622239",
+      "originalPrice": 195,
+      "discountPrice": 146,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3636770",
       "isSpecial": true,
       "isPopular": false
     },
@@ -192,6 +192,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3079210",
+      "title": "Hell Let Loose: Vietnam",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079210/aeedc94bb7c21f9a4a4e9bb14beca090b36c7db1/capsule_616x353.jpg?t=1786637345",
+      "originalPrice": 810,
+      "discountPrice": 810,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3079210",
       "isSpecial": false,
       "isPopular": true
     }
@@ -374,6 +386,21 @@
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N42SSSX2MTG",
       "isGamePass": true,
       "isNewToGamePass": false,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
+      "id": "9P91FNMH1GG0",
+      "title": "Age of Empires III: Definitive Edition",
+      "description": "Age of Empires III: Definitive Edition відзначає одну з найулюбленіших франшиз у жанрі стратегії в реальному часі в повному виданні з розширеними функціями та модернізованим ігровим процесом. Візьміть під контроль імперії Європи, Азії та Америки з картами Рідного міста й новими стилями гри. Насолодіться новими історичними битвами в кооперативному режимі, різноманітними картами, випробуваннями «Мистецтво війни», вдосконаленими кампаніями та косметичними предметами героїв у приголомшливій графіці 4K Ultra HD.\n\nКеруйте 18 цивілізаціями\nОчольте різноманіття європейських, індіанських та азійських цивілізацій з оригінальної гри, а також чотири додаткові: шведів, інків, мексиканців та американців. Використовуйте унікальні бонуси своєї цивілізації та налаштовуйте стратегію за допомогою нових, перероблених і повністю розблокованих карт Рідного міста. Задійте силу оновлених Революцій, як-от у Бразилії, Індонезії чи Єгипті, щоб кардинально змінити перебіг битви, розблоковуючи нові карти і юніти, унікальні для кожної нації.\n\nГрайте в історію разом у кооперативних історичних битвах\nПереживіть знакові моменти історії разом: ви з другом зможете пройти 9 сюжетних місій, натхненних реальними подіями. Координуйте свої армії, розподіляйте обов’язки та давайте відсіч покращеному ШІ в битвах із цілями, створених для командної гри. Отримайте досвід історії, ставок і видовищних подій, створених для двох.\n\nПройдіть випробувальні місії «Мистецтво війни»\nВідточіть свою стратегію в серії сфокусованих сценаріїв, створених, щоб допомогти вам опанувати основні механіки. Візьміть участь у випробуваннях навичок, що перевірять стійкість вашої економіки, тактику та бойове виконання, поки ви прагнете здобути золоті медалі. Незалежно від того, вивчаєте ви основи чи вдосконалюєте свої ігрові навички, випробувальні місії – це ваш шлях становлення як грізного воєначальника.\n\nКористуйтеся новими інструментами та вмістом\n•        Дослідіть 30 нових карт– Відкрийте для себе широкий вибір полів битв, що додадуть різноманіття кожній сутичці та кожному матчу.\n•        Перероблені Рідні міста– Пропустіть гринд: усі карти розблоковано за замовчуванням. Створіть власну стратегію з новими й переробленими картами або одразу почніть гру з готовими колодами.\n•        Переосмислені революції та політичні вибори– Політики революції та переходу отримали новий дизайн із новими можливостями, юнітами та стратегіями, які варто вивчити\n•        Модернізований ігровий процес та інструменти– відчуйте вдосконалений баланс юнітів, місії кампанії, морські формації та розширене різноманіття юнітів. Покращте свою гру за допомогою вбудованого режиму спостерігача, фоторежиму й менеджера модів.\n•        Бонусний вміст– Тепер видання містить увесь контент із доповнень «США», «Мексика» та«Пакета косметичних предметів для героїв. Том 1».\n\nВиходьте в мережу та зіграйте з друзями, або перевірте свої навички в сутичках проти ШІ на різноманітних картах. Хай який стиль гри ви оберете, насолодіться приголомшливою графікою, повністю оновленим саундтреком і модернізованим RTS-геймплеєм у третій частині відзначеної нагородами франшизи. Доповніть свою колекцію фінальним розділом подорожі Age of Age of Empires III: Definitive Edition.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.20714.14081462193625859.994d9972-d3a0-4111-83ed-b0dd9fc78edd.e4baaecf-b239-4ef8-b204-fef8f0c984f0",
+      "originalPrice": 1230,
+      "discountPrice": 1230,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9P91FNMH1GG0",
+      "isGamePass": true,
+      "isNewToGamePass": true,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -10882,6 +10909,13 @@
       "percent": 35,
       "timestamp": "2026-08-13T16:54:18.990Z",
       "type": "popular"
+    },
+    "xbox_new_9P91FNMH1GG0": {
+      "title": "Age of Empires III: Definitive Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-13T17:55:26.787Z",
+      "type": "xbox_new"
     }
   }
 }
