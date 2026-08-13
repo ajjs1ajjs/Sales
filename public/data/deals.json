@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T18:59:50.461Z",
+  "lastUpdated": "2026-08-13T19:57:26.313Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -61,7 +61,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2764460",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "2523770",
@@ -74,18 +74,6 @@
       "url": "https://store.steampowered.com/app/2523770",
       "isSpecial": true,
       "isPopular": true
-    },
-    {
-      "id": "2358720",
-      "title": "Black Myth: Wukong",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
-      "originalPrice": 1699,
-      "discountPrice": 1189,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2358720",
-      "isSpecial": true,
-      "isPopular": false
     },
     {
       "id": "2950790",
@@ -112,6 +100,18 @@
       "isPopular": false
     },
     {
+      "id": "2358720",
+      "title": "Black Myth: Wukong",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
+      "originalPrice": 1699,
+      "discountPrice": 1189,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2358720",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1478500",
       "title": "Big Walk",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
@@ -120,18 +120,6 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1478500",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1067360",
-      "title": "Pax Autocratica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786607873",
-      "originalPrice": 620,
-      "discountPrice": 515,
-      "discountPercent": 17,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1067360",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,6 +136,18 @@
       "isPopular": false
     },
     {
+      "id": "1067360",
+      "title": "Pax Autocratica",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786607873",
+      "originalPrice": 620,
+      "discountPrice": 515,
+      "discountPercent": 17,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1067360",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2542020",
       "title": "Duskfade",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2542020/54099f5cee11132f07b5617323184ecd8f451cee/capsule_616x353.jpg?t=1786631734",
@@ -160,14 +160,14 @@
       "isPopular": false
     },
     {
-      "id": "3636770",
-      "title": "Servant of the Lake",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/6a548a0c7f36e279e7ffd899115319cad890527a/capsule_616x353.jpg?t=1786622239",
-      "originalPrice": 195,
-      "discountPrice": 146,
-      "discountPercent": 25,
+      "id": "3315060",
+      "title": "Ledgerbound",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3315060/5fe963d3568b94a808f8106146e1640432036147/capsule_616x353.jpg?t=1786642418",
+      "originalPrice": 620,
+      "discountPrice": 558,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3636770",
+      "url": "https://store.steampowered.com/app/3315060",
       "isSpecial": true,
       "isPopular": false
     },
@@ -192,6 +192,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3079210",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3394840",
+      "title": "Clawed",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3394840/83fe6706f9e58276b5b8335610e145a6791045ee/capsule_616x353.jpg?t=1786644044",
+      "originalPrice": 430,
+      "discountPrice": 387,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3394840",
       "isSpecial": false,
       "isPopular": true
     },
@@ -10916,6 +10928,20 @@
       "percent": 0,
       "timestamp": "2026-08-13T17:55:26.787Z",
       "type": "xbox_new"
+    },
+    "steam_discount_3315060": {
+      "title": "Ledgerbound",
+      "price": 558,
+      "percent": 10,
+      "timestamp": "2026-08-13T19:57:15.232Z",
+      "type": "discount"
+    },
+    "steam_popular_3394840": {
+      "title": "Clawed",
+      "price": 387,
+      "percent": 10,
+      "timestamp": "2026-08-13T19:57:15.232Z",
+      "type": "popular"
     }
   }
 }
