@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T15:56:04.478Z",
+  "lastUpdated": "2026-08-13T16:54:30.925Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -52,6 +52,18 @@
   ],
   "steam": [
     {
+      "id": "2764460",
+      "title": "Sandustry",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786638296",
+      "originalPrice": 199,
+      "discountPrice": 129,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2764460",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "2358720",
       "title": "Black Myth: Wukong",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
@@ -76,6 +88,18 @@
       "isPopular": true
     },
     {
+      "id": "2950790",
+      "title": "IRON NEST: Heavy Turret Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786639727",
+      "originalPrice": 299,
+      "discountPrice": 224,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2950790",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "553850",
       "title": "HELLDIVERS™ 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/5dca2c120a87aeee02bbe8ed58711b4255c26228/capsule_616x353.jpg?t=1786525389",
@@ -88,50 +112,14 @@
       "isPopular": false
     },
     {
-      "id": "2950790",
-      "title": "IRON NEST: Heavy Turret Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786529110",
-      "originalPrice": 299,
-      "discountPrice": 224,
-      "discountPercent": 25,
+      "id": "2542020",
+      "title": "Duskfade",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2542020/54099f5cee11132f07b5617323184ecd8f451cee/capsule_616x353.jpg?t=1786631734",
+      "originalPrice": 749,
+      "discountPrice": 599,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2950790",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3636770",
-      "title": "Servant of the Lake",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/6a548a0c7f36e279e7ffd899115319cad890527a/capsule_616x353.jpg?t=1786622239",
-      "originalPrice": 195,
-      "discountPrice": 146,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3636770",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1786561627",
-      "originalPrice": 199,
-      "discountPrice": 169,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
-      "originalPrice": 159,
-      "discountPrice": 79,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
+      "url": "https://store.steampowered.com/app/2542020",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,6 +136,30 @@
       "isPopular": false
     },
     {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
+      "originalPrice": 159,
+      "discountPrice": 79,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4108000",
+      "title": "Machine Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1786561627",
+      "originalPrice": 199,
+      "discountPrice": 169,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4108000",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1067360",
       "title": "Pax Autocratica",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786607873",
@@ -160,26 +172,14 @@
       "isPopular": false
     },
     {
-      "id": "2001120",
-      "title": "Split Fiction",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
-      "originalPrice": 1299,
-      "discountPrice": 844,
-      "discountPercent": 35,
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001120",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3079210",
-      "title": "Hell Let Loose: Vietnam",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079210/aeedc94bb7c21f9a4a4e9bb14beca090b36c7db1/capsule_616x353.jpg?t=1786120175",
-      "originalPrice": 810,
-      "discountPrice": 729,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3079210",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isPopular": true
     },
@@ -192,18 +192,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4115450",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10873,6 +10861,27 @@
       "percent": 0,
       "timestamp": "2026-08-13T15:55:59.018Z",
       "type": "xbox_new"
+    },
+    "steam_discount_2764460": {
+      "title": "Sandustry",
+      "price": 129,
+      "percent": 35,
+      "timestamp": "2026-08-13T16:54:18.990Z",
+      "type": "discount"
+    },
+    "steam_discount_2542020": {
+      "title": "Duskfade",
+      "price": 599,
+      "percent": 20,
+      "timestamp": "2026-08-13T16:54:18.990Z",
+      "type": "discount"
+    },
+    "steam_popular_2764460": {
+      "title": "Sandustry",
+      "price": 129,
+      "percent": 35,
+      "timestamp": "2026-08-13T16:54:18.990Z",
+      "type": "popular"
     }
   }
 }
