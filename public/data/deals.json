@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T19:57:26.313Z",
+  "lastUpdated": "2026-08-13T20:44:23.400Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -204,18 +204,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3394840",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1786515952",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isPopular": true
     }
