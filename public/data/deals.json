@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T23:37:31.840Z",
+  "lastUpdated": "2026-08-13T01:42:28.762Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -89,7 +89,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2358720",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1478500",
@@ -101,7 +101,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1478500",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "2950790",
@@ -152,18 +152,6 @@
       "isPopular": false
     },
     {
-      "id": "2552430",
-      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2552430",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4108000",
       "title": "Machine Party",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1786561627",
@@ -172,6 +160,18 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4108000",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2552430",
+      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2552430",
       "isSpecial": true,
       "isPopular": false
     },
@@ -200,18 +200,6 @@
       "isPopular": true
     },
     {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "3079210",
       "title": "Hell Let Loose: Vietnam",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079210/aeedc94bb7c21f9a4a4e9bb14beca090b36c7db1/capsule_616x353.jpg?t=1786120175",
@@ -220,6 +208,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3079210",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1626,14 +1626,14 @@
       "description": "Car Mechanic Simulator 2021 is new production with well settled player base. Start as a fresh owner of a car garage and work your way to service empire. Get your hands dirty in highly realistic simulation game with great attention to details. Get ready to work on 4000+ unique parts and over 72 cars. Roll up your sleeves and immerse yourself into highly realistic garage environment.\r\nExpand your range of services by investing in new work space and equipment. Repair, fix, test, paint, tune and rebuild cars. Pay a visit to a new Auction house and buy cars in various condition. If feeling lucky you can try it out at barns. Some of them may contain hidden gems - if you can find them.\r\n\r\nInfinitely generated number of orders will keep you busy for a while. If you up for bigger challenger - try yourself in specially crafted story missions. Each mission offers unique set of requirements and challenges you have to face.\r\n\r\nWhen you are done upgrading your workshop its time for a project car. Save up some money and buy your own ride and make it pristine. From rusty shell of a car to perfect condition vehicle. Time to make those hands dirty!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.30519.13635623008017579.c3c49040-6ffd-4834-b97d-bf656fa40ffa.617dd1ba-cc3f-459f-81d1-c1f212b88155",
       "originalPrice": 760,
-      "discountPrice": 760,
-      "discountPercent": 0,
+      "discountPrice": 228,
+      "discountPercent": 70,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NH019ZFFHTV",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NP1LC5MX609",
@@ -1656,14 +1656,14 @@
       "description": "Return to the ultimate medieval battlefield.\r\nChivalry 2 is a multiplayer first person slasher inspired by epic medieval movie battles. Players are thrust into the action of every iconic moment of the era - from clashing swords, to storms of flaming arrows, to sprawling castle sieges and more. \r\n\r\nStorm into battle with cross-play on all platforms!\r\nCharge headfirst into stunning cinematic battles inspired by epic medieval action films\r\nExperience large-scale conflicts in sprawling medieval environments ranging from Tournament grounds to full-scale castle sieges\r\nPick your playstyle with 4 classes and 12 subclasses, each with their own unique weapons and abilities \r\nand much more!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.2651.14071745200459129.f6415fab-b460-4210-a974-f5c4ed9bcf0e.73cdb7e3-f838-4633-b998-4a3083fc6e9a",
       "originalPrice": 1030,
-      "discountPrice": 1030,
-      "discountPercent": 0,
+      "discountPrice": 206,
+      "discountPercent": 80,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N7CJX93ZGWN",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NWVC7XP3PFD",
@@ -1906,19 +1906,34 @@
       "isDiscounted": false
     },
     {
+      "id": "9N6JF50HZFW9",
+      "title": "Cricket 26 - The Official Game of the Ashes",
+      "description": "Зовсім нова кар'єра менеджера, більша і краща професійна команда, поглиблений режим Ashes та розширений контроль на полі та поза ним завдяки вдосконаленому ігровому процесу та глибоким стратегіям — Cricket 26 — це The Ultimate Showdown. \n\nКожне рішення має значення!\nЗовсім нова кар'єра менеджера дозволяє вам взяти командування на себе — приведіть команду до вершини або виконайте ще складніше завдання — утримати її там! Шукайте, набирайте та розвивайте гравців, створюйте найкращий склад та розробляйте стратегії матчів. Грайте в крикет по-своєму та приведіть свою команду до слави, вдома або на світовій арені. \n\nУвійдіть в Ashes. Відчуйте кожну мить!\nНайбільше суперництво в крикеті повернулося, більшим ніж будь-коли, з розширеним режимом Ashes. Візьміть повний контроль над Австралією або Англією — з командними тренуваннями, прес-конференціями та іншим, що забезпечить вам глибший ніж будь-коли досвід Ashes.\n\nЗбирайте. Створюйте. Домінуйте!\nPro Team повернувся. Більше карток, більше режимів, більше викликів. Створіть свою найкращу команду Pro Team і візьміть участь у новому багатокористувацькому режимі Centurion. Створіть свою колекцію за допомогою щотижневих пакетів або аукціону, щоб закріпити за собою ключових гравців для вашого успіху. \n\nСтворюйте. Діліться. Грайте!\nДайте волю своїй творчості в Академії. Створюйте та діліться стадіонами, гравцями, битами та повними командами або грайте та завантажуйте контент із спільноти Cricket 26. \n\nКонтролюйте кожен м'яч. Опануйте кожен матч!\nПідніміться на абсолютно новий рівень контролю завдяки вдосконаленій механіці гри, пробивайте прогалини для швидких очок, збалансуйте свою атаку та захист – встановлюйте стратегії, щоб обмежити швидкість бігу або взяти вікети, швидко набирайте очки або зберігайте енергію у вимогливому тестовому матчі. ",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.61815.14013085416782408.e98ee06f-ac83-4b7e-91fa-fefedfe1c305.f8c15d34-a655-4956-9bba-3359950276b7",
+      "originalPrice": 2519,
+      "discountPrice": 2519,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9N6JF50HZFW9",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
       "id": "9NGZ1M3N98P2",
       "title": "Crime Scene Cleaner",
       "description": "When insurance companies dodge the responsibility, it’s up to you to save your daughter’s life. This will require some dirty work and shady clientele, but you have no other choice, right? When the big boss calls once again, bring a bucket and a mop cause you will really need them. Are you up for the challenge?\n\nYou need nerves of steel to clean crime scenes left behind by major and minor criminals. You may not have money for your daughter’s hospital stays, but what you do have is a very particular set of skills. With the help of an entire arsenal of equipment, you will clean blood, pack up bodies, and remove any odor. All this under the pressure of a ticking clock and police breathing down your neck.\n\nKey Features:\n\nDeep Clean - Grab your trusty mop and sponge. They will be handy for the majority of the missions. When the mess becomes too much, whip out the powerwasher and clean the outside spaces deeply. Or when the smell is a bit too strong, you have more than just an odor eliminator.\n\nArm’s Race - Sometimes, the equipment you have is not enough and needs an extra oomph. If your lamps or flashlights are not strong enough, get new ones! If there is too much blood outside, get a different set of power washer nozzles! So, before every mission, check the perks available and boost your cleaning arsenal. If you can make your job easier... why not take that opportunity?\n\nDeep Pockets - Make money in any way you can! Mobsters are known for being generous, but sometimes that’s not enough. And certain objects may be too tempting. Who is going to miss this expensive watch? The owner’s already dead.\n\nIt’s about Family - With all the gruesome things you will see and do on every job, you must not forget that you are doing this for her. The life of a single father has its challenges, and you need to overcome them all.\n\nSo, are you the bad guy? You’re simply a man with the brains and brawn to take fate into his own hands. You’re the man of the hour, so clean, keep your head down and get that cash.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.31187.13641013102004887.bf107aae-94c4-457f-a84e-5bd21f71f809.f2a26002-93da-45a5-8d45-901c738a5655",
       "originalPrice": 1055,
-      "discountPrice": 1055,
-      "discountPercent": 0,
+      "discountPrice": 685.75,
+      "discountPercent": 35,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NGZ1M3N98P2",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PNRHXZ6ZSS9",
@@ -3906,14 +3921,14 @@
       "description": "Hell is Us — це пригодницька гра від третьої особи, що поєднала в собі інтенсивні бої та захоплююче дослідження місцевості. Мандруйте напіввідкритим світом, де на вас чекають зустрічі з загадковими створіннями, та шукайте відповіді на свої запитання.\n\nЖОРСТОКИЙ СВІТ\nОкрім громадянської війни, що розділила країну, у регіоні вирує загадкове лихо. Воно породило надприродних істот, проти яких не діє жодна сучасна зброя. Ваші вірні союзники — дрон і стародавній меч — допоможуть вам прокласти шлях крізь землі, що кишать жахливими химерами, та розкрити таємницю виникнення цих жахливих створінь.\n\nУНІКАЛЬНА СИСТЕМА ДОСЛІДЖЕНЬ\nТут немає карти, компасу чи маркерів завдань — лише ваше внутрішнє чуття. Отримайте унікальний досвід: інноваційний сюжет та унікальний дизайн рівнів дозволять вам діяти, покладаючись на власні рішення та інтуїцію. Усі відкриття лише за вами.\n\nБОРОТЬБА З НЕЗВИЧАЙНИМИ СТВОРІННЯМИ\nМечі, списи та сокири: у вашому розпорядженні широкий вибір зброї, створеної спеціально для боротьби з цими надприродними істотами. Щоб залишитися в живих, вам доведеться навчитися боротися та розумно користуватися дроном.\n\n«Головна ідея Hell is Us полягає в тому, що людське насильство вічне, бо його підживлюють людські емоції та пристрасті», — Джонатан Жак-Белльтет, креативний директор",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.28194.13542441777400767.a5c76c76-ba5a-4024-b4ed-cbd190240c15.b1a52869-a951-40d2-9a9e-53df7017263c",
       "originalPrice": 1799,
-      "discountPrice": 1799,
-      "discountPercent": 0,
+      "discountPrice": 539.7,
+      "discountPercent": 70,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N9097G0XZMB",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PMBB7NGHV95",
@@ -9167,13 +9182,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_275850": {
-      "title": "No Man's Sky",
-      "price": 450,
-      "percent": 60,
-      "timestamp": "2026-07-13T23:52:04.590Z",
-      "type": "discount"
-    },
     "steam_discount_3159330": {
       "title": "Assassin’s Creed Shadows",
       "price": 899,
@@ -10859,6 +10867,13 @@
       "price": 0,
       "percent": 0,
       "timestamp": "2026-08-12T21:41:07.928Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9N6JF50HZFW9": {
+      "title": "Cricket 26 - The Official Game of the Ashes",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-13T01:42:20.485Z",
       "type": "xbox_new"
     }
   }
