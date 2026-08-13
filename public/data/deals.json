@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T17:55:32.777Z",
+  "lastUpdated": "2026-08-13T18:59:50.461Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -64,18 +64,6 @@
       "isPopular": true
     },
     {
-      "id": "2358720",
-      "title": "Black Myth: Wukong",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
-      "originalPrice": 1699,
-      "discountPrice": 1189,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2358720",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2523770",
       "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
@@ -86,6 +74,18 @@
       "url": "https://store.steampowered.com/app/2523770",
       "isSpecial": true,
       "isPopular": true
+    },
+    {
+      "id": "2358720",
+      "title": "Black Myth: Wukong",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
+      "originalPrice": 1699,
+      "discountPrice": 1189,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2358720",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "2950790",
@@ -124,14 +124,14 @@
       "isPopular": false
     },
     {
-      "id": "2542020",
-      "title": "Duskfade",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2542020/54099f5cee11132f07b5617323184ecd8f451cee/capsule_616x353.jpg?t=1786631734",
-      "originalPrice": 749,
-      "discountPrice": 599,
-      "discountPercent": 20,
+      "id": "1067360",
+      "title": "Pax Autocratica",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786607873",
+      "originalPrice": 620,
+      "discountPrice": 515,
+      "discountPercent": 17,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2542020",
+      "url": "https://store.steampowered.com/app/1067360",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,14 +148,14 @@
       "isPopular": false
     },
     {
-      "id": "1067360",
-      "title": "Pax Autocratica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786607873",
-      "originalPrice": 620,
-      "discountPrice": 515,
-      "discountPercent": 17,
+      "id": "2542020",
+      "title": "Duskfade",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2542020/54099f5cee11132f07b5617323184ecd8f451cee/capsule_616x353.jpg?t=1786631734",
+      "originalPrice": 749,
+      "discountPrice": 599,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1067360",
+      "url": "https://store.steampowered.com/app/2542020",
       "isSpecial": true,
       "isPopular": false
     },
@@ -184,18 +184,6 @@
       "isPopular": true
     },
     {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1786515952",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "3079210",
       "title": "Hell Let Loose: Vietnam",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079210/aeedc94bb7c21f9a4a4e9bb14beca090b36c7db1/capsule_616x353.jpg?t=1786637345",
@@ -204,6 +192,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3079210",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1786515952",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isPopular": true
     }
