@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T06:10:44.955Z",
+  "lastUpdated": "2026-08-14T08:12:19.072Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -64,18 +64,6 @@
       "isPopular": true
     },
     {
-      "id": "1478500",
-      "title": "Big Walk",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
-      "originalPrice": 449,
-      "discountPrice": 336,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1478500",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2523770",
       "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
@@ -84,6 +72,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2523770",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2764460",
+      "title": "Sandustry",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786641888",
+      "originalPrice": 199,
+      "discountPrice": 129,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2764460",
       "isSpecial": true,
       "isPopular": false
     },
@@ -100,14 +100,14 @@
       "isPopular": false
     },
     {
-      "id": "2764460",
-      "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786641888",
-      "originalPrice": 199,
-      "discountPrice": 129,
-      "discountPercent": 35,
+      "id": "1478500",
+      "title": "Big Walk",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
+      "originalPrice": 449,
+      "discountPrice": 336,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2764460",
+      "url": "https://store.steampowered.com/app/1478500",
       "isSpecial": true,
       "isPopular": false
     },
@@ -138,7 +138,7 @@
     {
       "id": "1067360",
       "title": "Pax Autocratica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786607873",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786694191",
       "originalPrice": 620,
       "discountPrice": 515,
       "discountPercent": 17,
@@ -160,28 +160,16 @@
       "isPopular": false
     },
     {
-      "id": "2542020",
-      "title": "Duskfade",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2542020/54099f5cee11132f07b5617323184ecd8f451cee/capsule_616x353.jpg?t=1786631734",
-      "originalPrice": 749,
-      "discountPrice": 599,
-      "discountPercent": 20,
+      "id": "3636770",
+      "title": "Servant of the Lake",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/6a548a0c7f36e279e7ffd899115319cad890527a/capsule_616x353.jpg?t=1786622239",
+      "originalPrice": 195,
+      "discountPrice": 146,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2542020",
+      "url": "https://store.steampowered.com/app/3636770",
       "isSpecial": true,
       "isPopular": false
-    },
-    {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1786515952",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
-      "isSpecial": false,
-      "isPopular": true
     },
     {
       "id": "4165910",
@@ -192,6 +180,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1786515952",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isPopular": true
     },
@@ -9181,13 +9181,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_4297840": {
-      "title": "Rock Bottom",
-      "price": 175,
-      "percent": 10,
-      "timestamp": "2026-07-15T08:02:53.296Z",
-      "type": "discount"
-    },
     "steam_popular_2569760": {
       "title": "The Mound: Omen of Cthulhu",
       "price": 719,
