@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T15:47:32.345Z",
+  "lastUpdated": "2026-08-14T16:49:01.503Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -88,18 +88,6 @@
       "isPopular": false
     },
     {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
-      "originalPrice": 159,
-      "discountPrice": 79,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1478500",
       "title": "Big Walk",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
@@ -120,6 +108,18 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2950790",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
+      "originalPrice": 159,
+      "discountPrice": 79,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isPopular": false
     },
@@ -160,14 +160,14 @@
       "isPopular": false
     },
     {
-      "id": "1142710",
-      "title": "Total War: WARHAMMER III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
-      "originalPrice": 1899,
-      "discountPrice": 284,
-      "discountPercent": 85,
+      "id": "1172620",
+      "title": "Sea of Thieves: 2026 Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172620/1617656502fd33cb55deaff55fe1ffada0c51e18/capsule_616x353.jpg?t=1782135471",
+      "originalPrice": 1030,
+      "discountPrice": 360,
+      "discountPercent": 65,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1142710",
+      "url": "https://store.steampowered.com/app/1172620",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9181,34 +9181,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_4512570": {
-      "title": "A Game About Chopping Trees",
-      "price": 175,
-      "percent": 10,
-      "timestamp": "2026-07-15T16:18:35.331Z",
-      "type": "discount"
-    },
-    "steam_popular_3767850": {
-      "title": "SpiritVale",
-      "price": 299,
-      "percent": 0,
-      "timestamp": "2026-07-15T16:18:35.331Z",
-      "type": "popular"
-    },
-    "xbox_new_9N18L56XHK8Z": {
-      "title": "Denshattack!",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-15T16:18:35.331Z",
-      "type": "xbox_new"
-    },
-    "xbox_new_9P9446P7D9TZ": {
-      "title": "Quarantine Zone: The Last Check",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-15T16:18:35.331Z",
-      "type": "xbox_new"
-    },
     "steam_discount_2524850": {
       "title": "Denshattack!",
       "price": 449,
@@ -10930,6 +10902,20 @@
       "percent": 35,
       "timestamp": "2026-08-14T12:58:00.882Z",
       "type": "discount"
+    },
+    "xbox_new_9N18L56XHK8Z": {
+      "title": "Denshattack!",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-14T16:48:53.634Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9P9446P7D9TZ": {
+      "title": "Quarantine Zone: The Last Check",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-14T16:48:53.634Z",
+      "type": "xbox_new"
     }
   }
 }
