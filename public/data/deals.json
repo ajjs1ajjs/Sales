@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T19:45:04.915Z",
+  "lastUpdated": "2026-08-14T20:27:22.400Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -148,18 +148,6 @@
       "isPopular": false
     },
     {
-      "id": "3091140",
-      "title": "Lootbound",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3091140/d8d30131ac537addce0802cb0f991a6198c3d564/capsule_616x353.jpg?t=1786719023",
-      "originalPrice": 399,
-      "discountPrice": 259,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3091140",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1142710",
       "title": "Total War: WARHAMMER III",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
@@ -168,6 +156,18 @@
       "discountPercent": 85,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1142710",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1313140",
+      "title": "Cult of the Lamb",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/cb5ff4e1c40adac0ea71aace62c3020a25f29d50/capsule_616x353.jpg?t=1786554901",
+      "originalPrice": 499,
+      "discountPrice": 199,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1313140",
       "isSpecial": true,
       "isPopular": false
     },
@@ -196,26 +196,14 @@
       "isPopular": true
     },
     {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1786515952",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4492700",
-      "title": "Mafia: The Old Country — Людина честі",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4492700/a9cc2db3c7008acadca2d7c20a8d576a399b02f8/capsule_616x353.jpg?t=1786729454",
-      "originalPrice": 439,
-      "discountPrice": 439,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4492700",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10928,6 +10916,13 @@
       "percent": 0,
       "timestamp": "2026-08-14T19:44:58.725Z",
       "type": "popular"
+    },
+    "steam_discount_1313140": {
+      "title": "Cult of the Lamb",
+      "price": 199,
+      "percent": 60,
+      "timestamp": "2026-08-14T20:27:17.478Z",
+      "type": "discount"
     }
   }
 }
