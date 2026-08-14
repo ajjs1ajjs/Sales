@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T11:46:29.880Z",
+  "lastUpdated": "2026-08-14T12:58:06.234Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -76,14 +76,14 @@
       "isPopular": false
     },
     {
-      "id": "2764460",
-      "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
-      "originalPrice": 199,
-      "discountPrice": 129,
-      "discountPercent": 35,
+      "id": "1478500",
+      "title": "Big Walk",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
+      "originalPrice": 449,
+      "discountPrice": 336,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2764460",
+      "url": "https://store.steampowered.com/app/1478500",
       "isSpecial": true,
       "isPopular": false
     },
@@ -112,18 +112,6 @@
       "isPopular": false
     },
     {
-      "id": "1478500",
-      "title": "Big Walk",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
-      "originalPrice": 449,
-      "discountPrice": 336,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1478500",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3527290",
       "title": "PEAK",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
@@ -136,6 +124,30 @@
       "isPopular": false
     },
     {
+      "id": "2764460",
+      "title": "Sandustry",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
+      "originalPrice": 199,
+      "discountPrice": 129,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2764460",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3091140",
+      "title": "Lootbound",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3091140/d8d30131ac537addce0802cb0f991a6198c3d564/capsule_616x353.jpg?t=1786706775",
+      "originalPrice": 399,
+      "discountPrice": 259,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3091140",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1067360",
       "title": "Pax Autocratica",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786694191",
@@ -144,18 +156,6 @@
       "discountPercent": 17,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1067360",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4855450",
-      "title": "不心动才有鬼",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4855450/322f22547a36d0b30b2d947524e60728d8c7fc07/capsule_616x353.jpg?t=1786671930",
-      "originalPrice": 295,
-      "discountPrice": 265,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4855450",
       "isSpecial": true,
       "isPopular": false
     },
@@ -10922,6 +10922,13 @@
       "price": 265,
       "percent": 10,
       "timestamp": "2026-08-14T10:58:01.062Z",
+      "type": "discount"
+    },
+    "steam_discount_3091140": {
+      "title": "Lootbound",
+      "price": 259,
+      "percent": 35,
+      "timestamp": "2026-08-14T12:58:00.882Z",
       "type": "discount"
     }
   }
