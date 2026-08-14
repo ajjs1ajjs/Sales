@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T16:49:01.503Z",
+  "lastUpdated": "2026-08-14T17:49:43.775Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -73,7 +73,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2523770",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "553850",
@@ -160,14 +160,14 @@
       "isPopular": false
     },
     {
-      "id": "1172620",
-      "title": "Sea of Thieves: 2026 Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172620/1617656502fd33cb55deaff55fe1ffada0c51e18/capsule_616x353.jpg?t=1782135471",
-      "originalPrice": 1030,
-      "discountPrice": 360,
-      "discountPercent": 65,
+      "id": "1142710",
+      "title": "Total War: WARHAMMER III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
+      "originalPrice": 1899,
+      "discountPrice": 284,
+      "discountPercent": 85,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1172620",
+      "url": "https://store.steampowered.com/app/1142710",
       "isSpecial": true,
       "isPopular": false
     },
