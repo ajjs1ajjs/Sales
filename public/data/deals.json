@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T09:57:04.587Z",
+  "lastUpdated": "2026-08-14T10:58:07.102Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -78,7 +78,7 @@
     {
       "id": "2764460",
       "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786701055",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
       "originalPrice": 199,
       "discountPrice": 129,
       "discountPercent": 35,
@@ -100,18 +100,6 @@
       "isPopular": false
     },
     {
-      "id": "1478500",
-      "title": "Big Walk",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
-      "originalPrice": 449,
-      "discountPrice": 336,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1478500",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "553850",
       "title": "HELLDIVERS™ 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/5dca2c120a87aeee02bbe8ed58711b4255c26228/capsule_616x353.jpg?t=1786525389",
@@ -120,6 +108,18 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/553850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1478500",
+      "title": "Big Walk",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
+      "originalPrice": 449,
+      "discountPrice": 336,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1478500",
       "isSpecial": true,
       "isPopular": false
     },
@@ -136,18 +136,6 @@
       "isPopular": false
     },
     {
-      "id": "1142710",
-      "title": "Total War: WARHAMMER III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
-      "originalPrice": 1899,
-      "discountPrice": 284,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1142710",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1067360",
       "title": "Pax Autocratica",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786694191",
@@ -160,14 +148,26 @@
       "isPopular": false
     },
     {
-      "id": "3636770",
-      "title": "Servant of the Lake",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/6a548a0c7f36e279e7ffd899115319cad890527a/capsule_616x353.jpg?t=1786622239",
-      "originalPrice": 195,
-      "discountPrice": 146,
-      "discountPercent": 25,
+      "id": "1142710",
+      "title": "Total War: WARHAMMER III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
+      "originalPrice": 1899,
+      "discountPrice": 284,
+      "discountPercent": 85,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3636770",
+      "url": "https://store.steampowered.com/app/1142710",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4855450",
+      "title": "不心动才有鬼",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4855450/322f22547a36d0b30b2d947524e60728d8c7fc07/capsule_616x353.jpg?t=1786671930",
+      "originalPrice": 295,
+      "discountPrice": 265,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4855450",
       "isSpecial": true,
       "isPopular": false
     },
@@ -515,14 +515,14 @@
       "description": "TRAPPED IN THE REALM OF DARKNESS\r\n\r\nThe Imperial Battle College has lost contact with the Battlespire, an elite training center hidden in a pocket realm of Oblivion. An agent sent to investigate discovers the Battlespire’s staff dead and the gate back to Tamriel blocked With the facility under siege by vile daedra, the only way out is to go deep into darkness and into the Daedric Realms.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.24182.13857302790153363.c220e79b-1a05-411e-880c-e0187d84cb85.33ee6b1a-cfef-49c0-bd90-ec771b278cb8",
       "originalPrice": 120,
-      "discountPrice": 48,
-      "discountPercent": 60,
+      "discountPrice": 120,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MVSRJWZBG9G",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PMHGHXLGLJM",
@@ -635,14 +635,14 @@
       "description": "JOURNEY TO THE WORLD OF ARX\r\n\r\nExplore a Fantasy World\r\nThis critically acclaimed first-person RPG from Arkane Studios takes the player on an amazing journey into the fantasy world of Arx. Arx is wrought with turmoil, brought to the brink of destruction by a violent war. The sun has disappeared from overhead to shroud the world in eternal darkness, forcing communities to begin inhabiting underground mines. But as food and drink becomes scarce, the wars become even more violent as each race – from trolls, goblins, and rat-men, to humans – struggle for survival.  Now, evil has arisen in this sunless world in the form of the God of Destruction, Akbaa. It’s up to you to defeat Akbaa and save Arx from his reign of terror. You must use bravery and cunning to uncover the long hidden secret of Arx. As your epic quest unfolds you will explore ancient temples, bustling cities and abandoned mines; unearth legendary artifacts and face terrifying foes.\r\n\r\nBuild Your Champion\r\nYou will become the hero of an underground world. Create a customizable character and allocate skill points in categories such as spellcasting, weapons, armor, and stealth to build your champion. \r\n\r\nWield Powerful Magic\r\nTake out enemy creatures with an innovative casting system featuring 50 powerful spells. Using the mouse, draw runes in mid-air and combine gestures to unleash powerful magical abilities. \r\n\r\nForge Your Own Path Through an Immersive World\r\nArx Fatalis mixes intelligent storytelling with nonlinear gameplay and challenging puzzles, and every choice you make in the game could have drastic impacts on the world. In true Arkane fashion, the game allows you choose your own playstyle and path, with several different possible endings awaiting you based on your decisions.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.33542.14495213989606263.a0bd1390-9948-45f8-a75b-39231ab81047.23d526d5-d2f5-409c-846a-acf30330312e",
       "originalPrice": 170,
-      "discountPrice": 56.1,
-      "discountPercent": 67,
+      "discountPrice": 170,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NXQKPGMHH9G",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NR7XDNVP5SW",
@@ -2165,14 +2165,14 @@
       "description": "DEATHLOOP is a next-gen first person shooter from Arkane Lyon, the award-winning studio behind Dishonored. In DEATHLOOP, two rival assassins are trapped in a mysterious timeloop on the island of Blackreef, doomed to repeat the same day for eternity. As Colt, the only chance for escape is to end the cycle by assassinating eight key targets before the day resets. Learn from each cycle - try new paths, gather intel, and find new weapons and abilities. Do whatever it takes to break the loop.\n\nIF AT FIRST YOU DON’T SUCCEED... DIE, DIE AGAIN \nEvery new loop is an opportunity to change things up. Use the knowledge you gain from each attempt to change up your playstyle, stealthily sneaking through levels or barreling into the fight, guns-blazing. In each loop you’ll discover new secrets, gather intel on your targets as well as the island of Blackreef, and expand your arsenal. Armed with a host of otherworldly abilities and savage weaponry, you’ll utilize every tool at your command to execute takedowns that are as striking as they are devastating. Customize your loadout wisely to survive this deadly game of hunter vs hunted.\n\nSINGLE PLAYER GAMEPLAY INJECTED WITH DEADLY MULTIPLAYER \nAre you the hero or the villain? You’ll experience DEATHLOOP’s main story as Colt, hunting down targets across the island of Blackreef to break the loop and earn your freedom. All the while, you’ll be hunted by your rival Julianna, who can be controlled by another player. So if you’re feeling devious, you, too, can step into Julianna’s stylish sneakers and invade another player’s campaign to kill Colt. The multiplayer experience is completely optional, and players can choose to have Julianna controlled by AI within their campaign.\n\nTHE ISLAND OF BLACKREEF – PARADISE OR PRISON    \nArkane is renowned for magnificently artistic worlds with multiple pathways and emergent gameplay. DEATHLOOP will present a stunning, retro-future, 60s-inspired environment, that feels like a character within itself. While Blackreef may be a stylish wonderland, for Colt it is his prison, a world ruled by decadence where death has no meaning, and delinquents party forever while keeping him captive.\n\nhttps://eulas.bethesda.net/deathloop",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.26641.14634955238674857.649b7ff9-0dfc-4951-9b65-c5d815215da6.bacdd878-0313-4c58-9434-459afd7cf535",
       "originalPrice": 1210,
-      "discountPrice": 242,
-      "discountPercent": 80,
+      "discountPrice": 1210,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P5Z4530318L",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NHFVWX1V7QJ",
@@ -2360,14 +2360,14 @@
       "description": "Reprise your role as a supernatural assassin in Dishonored 2 – the next chapter in the award-winning Dishonored saga by Arkane Studios. Play your way in a world where mysticism and industry collide. Will you choose to play as Empress Emily Kaldwin or the royal protector, Corvo Attano? Will you make your way through the game unseen, make full use of its brutal combat system, or use a blend of both? How will you combine your character’s unique set of powers, weapons and gadgets to eliminate your enemies? The story responds to your choices, leading to intriguing outcomes, as you play through each of the game’s hand-crafted missions. \n\nhttps://eulas.bethesda.net/en/Dishonored%202",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.26992.13846412966040921.9e60d32b-6c69-44a3-9f94-dcaf3d33e79c.e5e7ec51-b0d9-47e6-9706-c2b04261eda4",
       "originalPrice": 1000,
-      "discountPrice": 200,
-      "discountPercent": 80,
+      "discountPrice": 1000,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MW4RJDRSF78",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P1N07XDL1D4",
@@ -2375,14 +2375,14 @@
       "description": "Arkane Studios’ Dishonored®, winner of over 100 Game of the Year awards, and all of its additional content come to the next generation in Dishonored® Definitive Edition! With Dishonored’s flexible combat system, creatively eliminate your targets as you combine the supernatural abilities, weapons and unusual gadgets at your disposal. “Void Walker’s Arsenal” offers unique character bonuses, additional bone charm slots, and more that will aid you in pursuit of revenge. Enter the world of the Outsider in “Dunwall City Trials” where you will put your combat, stealth and mobility skills to the test. Finally, play as the legendary assassin Daud in \"The Knife of Dunwall\" and “The Brigmore Witches”.\n\nhttps://eulas.bethesda.net/Dishonored",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.62889.65371894126242138.81c958b9-c96e-47c6-81fa-93c549ea1a80.cfca16ac-2517-4803-8038-67afcf2f5c84",
       "originalPrice": 700,
-      "discountPrice": 175,
-      "discountPercent": 75,
+      "discountPrice": 700,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P1N07XDL1D4",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9MVF0PGV94F7",
@@ -2465,14 +2465,14 @@
       "description": "Owners Receive: \n- DOOM\n- DOOM II \n- TNT: Evilution 2\n- The Plutonia Experiment \n- Master Levels for DOOM II \n- No Rest for the Living \n- Sigil  \n- Legacy of Rust (a new episode created in collaboration by id Software, Nightdive Studios and MachineGames) \n- A new Deathmatch map pack featuring 26 maps \n\nAltogether, there are a total of 187 mission maps and 43 deathmatch maps in DOOM + DOOM II. \n\nNew Enhancements \n\n- Online, cross-platform deathmatch and co-op for up to 16 players¹\n\n- In-game mod browser¹'²\n\n- Choose between the original midi DOOM and DOOM II soundtracks or the modern IDKFA versions by Andrew Hulshult (including brand-new DOOM II recordings) \n\n- Improved performance with multithreaded rendering supporting up to 4K resolution and 120 FPS³ on Xbox Series X|S and PC. \n\n- Now on the KEX engine \n\n- BOOM source compatibility makes it possible for hundreds of community-created mods from the past 25 years to be published in-game \n\n- Accessibility options, such as a modern font to improve legibility, high contrast mode, text-to-speech, speech-to-text multiplayer chat and more \n\n- Translated into 8 new languages: Mexican Spanish, Brazilian Portuguese, Polish, Russian, Japanese, Korean, Traditional Chinese and Simplified Chinese \n\nExisting Enhancements \n\n- Upgraded visuals \n\n- Modern controller support \n\n- Weapon carousel for faster weapon switching \n\n- Improved mouse and keyboard controls \n\n- Local split-screen deathmatch and co-op for up to 4 players  \n\n- Featured community mods¹'², including REKKR, Revolution!, Syringe, Double Impact, Arrival, and more! Expect an ever-expanding list of single player mods to be added by the community modders. \n\n- 60 FPS and native 16:9 support – up to 1080p \n\n- Restored original in-game music using original hardware \n\n- Quick Save/Load support \n\n- DeHacked mod support \n\nFootnotes  \n\n¹ Bethesda.net account required.  \n\n² Mods need to be installed separately; installation requires additional system storage.  \n\n³ Compatible display required. \n\nhttps://eulas.bethesda.net/DOOM%20+%20DOOM%20II%20EULA",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.33328.14594598903877048.bbb5dc7a-5386-4439-89d6-a5136ac0725b.d07383ae-62fb-4299-8084-ecfedea194e0",
       "originalPrice": 355,
-      "discountPrice": 142,
-      "discountPercent": 60,
+      "discountPrice": 355,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P46M5JQ2PTF",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NSL68D814GC",
@@ -2480,14 +2480,14 @@
       "description": "Developed by id Software, and originally released in 2004, DOOM 3 is a critically acclaimed, horror/action first-person shooter and reimagining of the original DOOM. Released in 2019 to celebrate DOOM’s 25th anniversary, this enhanced version makes it even easier for players to enjoy the original game on modern platforms. \n\nStory \nA massive demonic invasion has overwhelmed the Union Aerospace Corporation's (UAC) Mars Research Facility, leaving only chaos and horror in its wake. As one of only a few survivors, you must fight your way to hell and back against a horde of demons. \n\nFeatures  \n- Upgraded visuals  \n- Improved mouse and keyboard controls  \n- Gamepad/controller support  \n- Widescreen resolution support  \n- Native 60 FPS support  \n- Resurrection of Evil and The Lost Missions expansion packs. \n- *Log in with your Slayers Club account to receive a retro-inspired, Red DOOM Marine skin and matching nameplate for DOOM Eternal.\n\n*Bethesda.net account required. See end user license agreement, Terms of Service, Privacy Policy and additional details at bethesda.net. \nhttps://eulas.bethesda.net/doom3",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.49616.14361385044335696.d9d52dee-3885-40bf-b48d-1934a8ba4324.d811c242-92de-477f-ac23-26449e84d684",
       "originalPrice": 355,
-      "discountPrice": 142,
-      "discountPercent": 60,
+      "discountPrice": 355,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NSL68D814GC",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9MXND4PQLK3W",
@@ -2495,14 +2495,14 @@
       "description": "Celebrate DOOM's 25th anniversary  with the release of DOOM 64, originally released on the Nintendo 64 in 1997.\r\n\r\nFight against demons in your crusade to hunt down the Mother of Demons and stop Hell's invasion. As you battle through more than 30 action-packed levels, be on the lookout for enhanced weapons and secrets to help you put an end to the demonic threat.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.62661.13886780434132750.58497d0f-3220-4d2f-a7ff-96dcff27bc5f.b73dcad6-d181-4cb9-91b3-2fcc2fd53852",
       "originalPrice": 100,
-      "discountPrice": 40,
-      "discountPercent": 60,
+      "discountPrice": 100,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MXND4PQLK3W",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PK09BL31FK1",
@@ -2510,14 +2510,14 @@
       "description": "Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.\n\nThe only thing they fear... is you.\n\nExperience the ultimate combination of speed and power in DOOM Eternal - the next leap in push-forward, first-person combat.\n\nSLAYER THREAT LEVEL AT MAXIMUM\nArmed with a shoulder-mounted flamethrower, retractable wrist-mounted blade, upgraded guns and mods, and abilities, you're faster, stronger, and more versatile than ever.\n\nUNHOLY TRINITY\nTake what you need from your enemies: Glory kill for extra health, incinerate for armor, and chainsaw demons to stock up on ammo to become the ultimate demon-slayer.\n\nEnter BATTLEMODE\nA new 2 versus 1 multiplayer experience. A fully-armed DOOM Slayer faces off against two player-controlled demons, fighting it out in a best-of-five round match of intense first-person combat.\n\nhttps://eulas.bethesda.net/doom-eternal",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.19006.14607483449828807.1bf8995c-7221-490e-a6d4-8718054337ce.713a79a0-3082-4e53-bc1c-e5fbe37339cb",
       "originalPrice": 895,
-      "discountPrice": 295.35,
-      "discountPercent": 67,
+      "discountPrice": 895,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PK09BL31FK1",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PH9X0760B0T",
@@ -2525,14 +2525,14 @@
       "description": "BECOME THE SLAYER IN A MEDIEVAL WAR AGAINST HELL\nDOOM: The Dark Ages is the prequel to the critically acclaimed DOOM (2016) and DOOM Eternal that tells an epic cinematic story worthy of the DOOM Slayer’s legend. In this third installment of the modern DOOM series, players will step into the blood-stained boots of the DOOM Slayer, in this never-before-seen dark and sinister medieval war against Hell. \n\nDOOM: The Dark Ages is a dark fantasy/sci-fi single-player experience that delivers the searing combat and over-the-top visuals of the incomparable DOOM franchise, powered by the latest idTech engine.\n\nSTAND AND FIGHT \nAs the super weapon of gods and kings, shred enemies with devastating favorites like the Super Shotgun while also wielding a variety of new bone-chewing weapons, including the versatile Shield Saw. Players will stand and fight on the demon-infested battlefields in the vicious, grounded combat the original DOOM is famous for. Take flight atop the new fierce Mecha Dragon, stand tall in a massive Atlan mech, and beat demons to a pulp with the newly enhanced glory kill system. Only the Slayer has the power to wield these devastating tools of mayhem.\n\nREIGN IN HELL \nBound to serve as the super weapon of gods and kings, the DOOM Slayer fends off demon hordes as their leader seeks to destroy the Slayer and become the only one that is feared. Witness the creation of a legend as the Slayer takes on all of Hell and turns the tide of the war. \n\nDISCOVER UNKNOWN REALMS \nIn his quest to crush the legions of Hell, the Slayer must take the fight to never-before-seen realms. Mystery, challenges, and rewards lurk in every shadow of ruined castles, epic battlefields, dark forests, ancient hellscapes, and worlds beyond. Armed with the viciously powerful Shield Saw, cut through a dark world of menace and secrets in id's largest and most expansive levels to date.\n\nhttps://eulas.bethesda.net/doom-the-dark-ages",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.52074.14239344665439398.f72b7e9e-0a95-4e76-b1e3-8989c4d70e2e.ef342e0d-743f-4ccd-91b3-8135d4737a48",
       "originalPrice": 2440,
-      "discountPrice": 805.2,
-      "discountPercent": 67,
+      "discountPrice": 2440,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PH9X0760B0T",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P5VB9G9CJ29",
@@ -2930,14 +2930,14 @@
       "description": "You've just unearthed the classic post-apocalyptic role-playing game that revitalized the entire CRPG genre. The Fallout® SPECIAL system allows drastically different types of characters, meaningful decisions and development that puts you in complete control. Explore the devastated ruins of a golden age civilization. Talk, sneak or fight your way past mutants, gangsters and robotic adversaries. Make the right decisions or you could end up as another fallen hero in the wastelands...",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.2234.13991296281172164.911bd54e-5f10-4b33-9849-cdf702cd4309.81987957-8bf6-40be-aa29-3aa82a20831f",
       "originalPrice": 200,
-      "discountPrice": 50,
-      "discountPercent": 75,
+      "discountPrice": 200,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N42CT1J5WGW",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P1JS86M9SXH",
@@ -2945,14 +2945,14 @@
       "description": "Fallout® 2 is the sequel to the critically acclaimed game that took RPG'ing out of the dungeons and into a dynamic, apocalyptic retro-future.\r\n\r\nIt's been 80 long years since your ancestors trod across the wastelands. As you search for the Garden of Eden Creation Kit to save your primitive village, your path is strewn with crippling radiation, megalomaniac mutants, and a relentless stream of lies, deceit and treachery. You begin to wonder if anyone really stands to gain anything from this brave new world.\r\n\r\nMastering your character's skills and traits for survival, Fallout® 2 will challenge you to endure in a post-nuclear world whose future withers with every passing moment...",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.40833.14505928851806264.bdce1e6f-6028-442f-838e-6c8088bf2f93.b3f57e80-efb8-4a87-bdcb-a09486546dd4",
       "originalPrice": 200,
-      "discountPrice": 50,
-      "discountPercent": 75,
+      "discountPrice": 200,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P1JS86M9SXH",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NBZ9JF6TFMD",
@@ -2960,14 +2960,14 @@
       "description": "Prepare for the Future™\r\nWith Fallout 3: Game of the Year Edition, experience the most acclaimed game of 2008 like never before. Create a character of your choosing and descend into an awe-inspiring, post-apocalyptic world where every minute is a fight for survival. Fallout 3: Game of the Year Edition includes all five of the Fallout 3 Game Add-on Packs:\r\n\r\n- Operation: Anchorage - Enter a military simulation and fight in the liberation of Anchorage, Alaska from its Chinese Communist invaders.\r\n- The Pitt - Travel to the post-apocalyptic remains of Pittsburgh and become embroiled in a conflict between slaves and their Raider masters.\r\n- Broken Steel - Increase your level cap to 30, and finish the fight against the Enclave remnants alongside Liberty Prime.\r\n- Point Lookout - Embark on a mysterious and open-ended adventure in a huge, murky swampland along the coast of Maryland.\r\n- Mothership Zeta - Defy hostile alien abductors and fight your way off of the alien mothership, orbiting miles above the Capital Wasteland.\r\n\r\nKey Features\r\n- Limitless Freedom - Take in the sights and sounds of the vast Capital Wasteland! See the great monuments of the United States lying in post-apocalyptic ruin! You make the choices that define you and change the world. Just keep an eye on your Rad Meter!\r\n- Experience S.P.E.C.I.A.L. - Vault-Tec engineers bring you the latest in human ability simulation — the SPECIAL Character System! Utilizing new breakthroughs in points-based ability representation, SPECIAL affords unlimited customization of your character. \r\n- Fantastic New Views - The wizards at Vault-Tec have done it again! No longer constrained to just one view, experience the world from 1st or 3rd person perspective.\r\n- The Power of Choice - Feeling like a dastardly villain today, or a Good Samaritan? Pick a side or walk the line, as every situation can be dealt with in many different ways.\r\n- Blast 'Em Away With V.A.T.S. - Even the odds in combat with the Vault-Tec Assisted Targeting System for your Pip-Boy Model 3000! V.A.T.S. allows you to pause time in combat, target specific body parts on your target, queue up attacks, and let Vault-Tec take out your aggression for you. Rain death and destruction in an all-new cinematic presentation.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.43444.13574127358458005.65070c14-0cf2-44ab-b4fc-c66107fdb092.5acef951-2322-424c-93ad-6bfc679a27ef",
       "originalPrice": 400,
-      "discountPrice": 132,
-      "discountPercent": 67,
+      "discountPrice": 400,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NBZ9JF6TFMD",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "C3KLDKZBHNCZ",
@@ -2975,14 +2975,14 @@
       "description": "From Bethesda Game Studios, the award-winning creators of Starfield and The Elder Scrolls V: Skyrim, comes Fallout 4. A landmark in open-world RPG design and winner of over 200 ‘Best Of’ honors, including the DICE and BAFTA Game of the Year.\n\nYou are the sole survivor of Vault 111, emerging into a world reduced to ash by nuclear war. Every moment is a battle for survival, every decision shapes the future. Rebuild, reshape, and reclaim the Wasteland—your way.\n\nWelcome home.\n\nFreedom and Liberty\nDo whatever you want in a massive open world filled with hundreds of locations, characters, and quests. Join factions, forge alliances or go it alone. The choices are yours, and every one of them matters.\n\nYou’re S.P.E.C.I.A.L.\nCreate your own unique character with the S.P.E.C.I.A.L. system. Choose from hundreds of Perks and develop your own playstyle, whether you’re a smooth-talking diplomat, stealthy sniper, or walking tank in Power Armor.\n\nCollect and Build\nScavenge, craft, and customize like never before. Build thousands of items—armor, weapons, food, and more—and even construct and manage entire settlements across the Commonwealth.\n\nImmersive First- or Third-Person Combat\nUse the dynamic Vault-Tec Assisted Targeting System (V.A.T.S.) to slow down time in combat and target enemies with cinematic precision—or take the fight into your own hands with real-time gunplay.\n\nhttps://eulas.bethesda.net/en/Fallout%204",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.31046.66091604408099736.4cc75ea1-c6a0-40ec-b7f9-7fdb8da581b2.a57d4b8c-5413-4da4-ac55-d22e67c07969",
       "originalPrice": 405,
-      "discountPrice": 162,
-      "discountPercent": 60,
+      "discountPrice": 405,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/C3KLDKZBHNCZ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NKGNMNK3K3Z",
@@ -2990,14 +2990,14 @@
       "description": "Bethesda Game Studios, the award-winning creators of Skyrim and Fallout 4, welcome you to Fallout 76. Twenty-five years after the bombs fell, you and your fellow Vault Dwellers—chosen from the nation’s best and brightest – emerge into post-nuclear America on Reclamation Day, 2102. Play solo or join together as you explore, quest, build, and triumph against the wasteland’s greatest threats. Explore a vast wasteland, devastated by nuclear war, in this open-world multiplayer addition to the Fallout story. Experience the largest, most dynamic world ever created in the legendary Fallout universe. \n\nImmersive Questlines and Engaging Characters\nUncover the secrets of West Virginia by playing through an immersive main quest, starting from the moment you leave Vault 76. Befriend or betray new neighbors who have come to rebuild, and experience Appalachia through the eyes of its residents.\n\nSeasons\nProgress through each season and unlock free rewards like consumables, C.A.M.P. items and more, by completing limited-time challenges.\n\nMultiplayer Roleplaying\nCreate your character with the S.P.E.C.I.A.L system and forge your own path and reputation in a new and untamed wasteland with hundreds of locations. Whether you journey alone or with friends, a new and unique Fallout adventure awaits.  \n\nMountain Splendorland \nThe story lives and breathes through the world of Fallout 76, which brings to life six distinct West Virginia regions. From the forests of Appalachia to the noxious crimson expanses of the Cranberry Bog, each area offers its own risks and rewards. \n\nA New American Dream\nUse the all-new Construction and Assembly Mobile Platform (C.A.M.P.) to build and craft anywhere in the world. Your C.A.M.P. will provide much-needed shelter, supplies, and safety. You can even set up shop to trade goods with other survivors.\n\nFallout Worlds\nPlay unique adventures in Appalachia with Fallout Worlds, which is an evolving set of features that give players the capability to play Fallout 76 in unique ways with customizable settings.\n\nhttps://eulas.bethesda.net/fallout-76",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.13787.13657086471689364.e50bcd74-5ff2-4070-837d-ba5caf050abc.a8469f63-6ec8-4f36-8273-0a1eed8b321f",
       "originalPrice": 805,
-      "discountPrice": 201.25,
-      "discountPercent": 75,
+      "discountPrice": 805,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NKGNMNK3K3Z",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NDV7FRVD7ML",
@@ -3005,14 +3005,14 @@
       "description": "Tactical Squad-Based Combat comes to the Fallout® Universe!\r\n\r\nYou are the wretched refuse. You may be born from dirt, but we will forge you into steel. You will learn to bend; if not you, will you break. In these dark times, the Brotherhood - your Brotherhood - is all that stands between the rekindled flame of civilization and the howling, radiated wasteland.\r\n\r\nYour weapons will become more than your tools, they will become your friends. You will use your skills to inspire the lowly and protect the weak... whether they like it or not. Your squadmates will be more dear to you than your kin and for those that survive there will be honor, respect and the spoils of war.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.26725.13611473418794607.9806bdd1-c446-4376-bb6e-95bf0a16329e.f01530d8-fe45-484d-afd0-580d0f8af657",
       "originalPrice": 200,
-      "discountPrice": 50,
-      "discountPercent": 75,
+      "discountPrice": 200,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NDV7FRVD7ML",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9MZR11JRF7BX",
@@ -3020,14 +3020,14 @@
       "description": "Welcome Back to New Vegas\r\n\r\nWith the introduction of the Ultimate Edition, Bethesda Softworks offers you the chance to double-down and get the complete package of New Vegas fun. For the first time in one package, you can get all the Fallout: New Vegas content including the full suite of highly acclaimed add-on content: Dead Money, Honest Hearts, Old World Blues and Lonesome Road. To sweeten the pot, you’ll be armed with the latest cache of unique weapons, ammo types and recipes from the most recent add-on packs: Courier’s Stash and Gun Runners Arsenal. Whether you’re a seasoned explorer of the Mojave or playing the game for the first time, you’ll find there are more friends and enemies to make, more consequences to your actions and more opportunities to live in glory or infamy throughout the Wasteland. The choices you make will be as crucial to your survival as ever.\r\n\r\n- Beyond the Wasteland: The world of New Vegas is more expansive than ever. Each new distinct area presents a fresh set of branching-quests, remarkable personalities and more chances to play the Savior or the Pariah to the natives of New Vegas.\r\n\r\n- Shiny New Toys: Each add-on pack increases the mountain of armaments already at your disposal. Whether you’re an in-your-face brawler or a long-range gunner, weapons such as the Two-Step Goodbye (unique ballistic fists) or Sleepytime (a handy 10mm Sub-Machinegun) will give that warmonger in you a chance to flex your ammo-filled muscles.\r\n\r\n- Room to Grow: With each of the four main add-on packs, the maximum levelcap is increased by 5 levels, ultimately raising the ceiling to Level 50.\r\n\r\n- Dead Money: Lured into a trap masquerading as the Sierra Madre Casino, you are thrown into a high stakes game where you’ll have to work with three other lost souls if you want to survive.\r\n\r\n- Honest Hearts: An expedition into Utah’s Zion National Park goes horribly wrong and you become embroiled in a war between tribes and put into a conflict between a New Canaanite missionary and the mysterious Burning Man.\r\n\r\n- Old World Blues: Transported to the Big MT research crater, you are enlisted by the Think Tank to save them from their own science experiments that have gone horribly out of control.\r\n\r\n- Lonesome Road: Ulysses, the original Courier Six, contacts you and promises to answer why he refused to deliver the Platinum Chip at the start of Fallout: New Vegas, but only if you make one last journey into the treacherous canyons of the Divide.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.56995.13869736752294987.ca050464-c72a-476d-941d-c1c814c4213d.086da48d-2bd1-47fd-85eb-cf98f6225882",
       "originalPrice": 400,
-      "discountPrice": 160,
-      "discountPercent": 60,
+      "discountPrice": 400,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MZR11JRF7BX",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NXWKGRHT31F",
@@ -3380,14 +3380,14 @@
       "description": "Бийтеся проти деспотичної Королеви Фарула самостійно або в команді з чотирьох гравців у сиквелі надзвичайно популярної рольової гри настільного типу «For The King» із покроковим проходженням і елементами rogue-lite. Чи вдасться вам розплутати жахливу таємницю Королеви, що колись була прекрасною та чарівною?\n\nКоролева Розомон колись була улюбленицею своїх підданих, але стала їхнім кошмаром після того, як поневолила людей у темних шахтах Фарула та утворила союзи з ницими й злими силами.\n\nВирушайте до Фарулу — у складі команди з чотирьох гравців або самостійно — щоб попри будь-які ризики подолати деспотичну Королеву й покласти край її лихому правлінню.\n\nТворці популярної рольової гри настільного типу «For The King» з елементами rogue-lite пропонують нову серію пригод у Фарулі з оновленнями й удосконаленнями ігрового процесу, які будуть цікаві як досвідченим героям, так і новоприбулим дослідникам.\n\nПРИГОДИ В СТИЛІ НАСТІЛЬНОЇ ГРИ\nБудь-хто може легко почати грати в «For The King II», але в процесі гри вам знадобиться здобувати навички, проявляти терпіння та стратегічно мислити. Завдяки автоматичному генеруванню мапи гра має безліч можливих сценаріїв розвитку подій, які ніколи не повторюються. Знайомі, але водночас унікальні механізми ходів, зіткнень і боїв у стилі ігор із кістьми додають ще більше неочікуваності та розмаїтості до низки злетів і падінь, які підготувала гравцям фортуна.\n\nЛЕГКА ДЛЯ СПРИЙНЯТТЯ КАМПАНІЯ В СТИЛІ ROGUE-LIKE\nУ «For The King II» на вас чекає повноцінна кампанія тривалістю понад 30 ігрових годин, розділена на 7 окремих пригод, пов’язаних між собою спільним сюжетом. Шлях буде довгим і складним, але вам не варто боятися — у разі поразки ви зможете розпочати гру заново вже з додатковими силами, новими знаннями та покращеним початковим спорядженням.\n\nНЕСКІНЧЕНИЙ РЕЖИМ ПІДЗЕМЕЛЛЯ\nЗапрошуємо всіх випробувати свої сили в нескінченному режимі підземелля «Темний карнавал». Під проводом хитрого Володаря арени вам потрібно підкорити якомога більше рівнів, перш ніж неминуче загинути. Збирайте квитки на карнавал, щоб відкривати нові шляхи, знаходьте численні тематичні кімнати та крутіть Колесо смерті, намагаючись уникнути злої долі. Як довго ви протримаєтеся на Темному карнавалі?\n\nКОМАНДА З ЧОТИРЬОХ ГРАВЦІВ\nПодорожувати Фарулом можна наодинці або в компанії максимум трьох друзів.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.11794.14401580739712929.1516cf95-6368-4bda-ba63-aea64b42d32f.4458b648-1d9d-4798-8525-94ef88449729",
       "originalPrice": 599,
-      "discountPrice": 197.67,
-      "discountPercent": 67,
+      "discountPrice": 599,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NVC9KWJVLT0",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NKX70BBCDRN",
@@ -3635,14 +3635,14 @@
       "description": "Face the unknown, uncover the truth and save the city \n\nTokyo is overrun by deadly supernatural forces as a dangerous occultist causes the city's population to vanish in an instant. Join forces with a powerful spectral entity on their quest for vengeance and master a powerful arsenal of abilities to unravel the dark truth behind the disappearance as you FACE THE UNKNOWN in Ghostwire: Tokyo. \n\n\nA beautifully haunted Tokyo  \n\nExplore a unique vision of Tokyo twisted by a supernatural presence. From its ultra-modern cityscape to its traditional temples and narrow alleyways, discover a hauntingly beautiful city teeming with Yokai - vengeful spirts spirits that prowl the streets.  \n\nDiscover iconic landmarks like Shibuya Crossing and Tokyo Tower, stunningly rendered with incredible detail and built to take advantage of next-generation technology. Experience the city frozen in time when the city’s population disappeared, and travel to the surreal underworld on your quest to save your family. \n\n\nDevastating Elemental Abilities  \n\nWield a combination of upgradeable elemental powers and ghost-hunting skills to combat the supernatural threat. Use your ethereal abilities to ascend to the top of Tokyo's skyline and soar over the streets to discover new missions or even get the drop on your enemies.\n\nhttps://eulas.bethesda.net/ghostwire%20tokyo",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.46275.14258547668150351.c20c8953-e19e-40f6-8081-ab904c694484.b9ad1409-0176-45dc-92f5-07d73e427c1a",
       "originalPrice": 2005,
-      "discountPrice": 501.25,
-      "discountPercent": 75,
+      "discountPrice": 2005,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PKP39CL0C8D",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PF2ZS4XB4JH",
@@ -3965,14 +3965,14 @@
       "description": "Forged by Raven Software on a modified DOOM engine, Heretic and Hexen were released in 1994 and 1995, pushing first person shooters into bold new territory. These innovative cult classics introduced groundbreaking features like inventory systems, vertical aiming, and distinct character classes, reshaping first person action games for generations to come. This enhanced restoration makes Heretic + Hexen available to new audiences and long-time fans with expanded accessibility across more platforms and languages than ever before. Whether you're returning to these shadowy realms or discovering them for the first time, an epic legacy awaits.\n\nOwners Receive\n• Heretic: Shadow of the Serpent Riders\n• Hexen: Beyond Heretic\n• Hexen: Deathkings of the Dark Citadel\n• Two all-new episodes created in collaboration between individuals at id Software + Nightdive Studios:\n              o Heretic: Faith Renewed \n              o Hexen: Vestiges of Grandeur\n\n© 2025 ZeniMax Media Inc. id, id Software, Bethesda, Bethesda Softworks, and ZeniMax are trademarks of the ZeniMax group of companies. All rights reserved. HERETIC and HEXEN are trademarks of Activision Publishing, Inc. HERETIC and HEXEN: BEYOND HERETIC © 1994-2020 Raven Software. All rights reserved.\n\nhttps://eulas.bethesda.net/Heretic%20+%20Hexen",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.189.13568632792554292.fea70ec4-25b5-4014-996b-52c5abc58b71.7db10407-59ab-41c4-ab67-6503fc465412",
       "originalPrice": 445,
-      "discountPrice": 298.15,
-      "discountPercent": 33,
+      "discountPrice": 445,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NC7NRD0CM11",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P5241RBH1SZ",
@@ -4145,14 +4145,14 @@
       "description": "***NEW LEVELS STEAMPUNK PARTY + TEST CHAMBER AVAILABLE NOW***\n\nCrossplay with friends on Xbox One, Xbox Series X|S and Windows 10.\n\nIncludes 31 great levels. Over 55 million units sold across all formats.\n\nParty Animals’ Nemo & Otta join the mayhem in the very first crossover collaboration for Human Fall Flat! The pair make their cameo in Steampunk Party. Also get ready to prove yourself in Test Chamber; designed to push your problem-solving skills to the limit! Now is a great time to join 58 million players worldwide enjoying the fun that is Human Fall Flat.\n\nPlay solo or call your friends; seven pals by your side in co-op maximises the silliness of an outsized adventure.\n\nHuman: Fall Flat is a hilarious, light-hearted physics platformer set in a world of floating dreamscapes. \n \nEach dream level provides a new environment to navigate, from mansions, castles and Aztec adventures to snowy mountains, eerie nightscapes and industrial locations. Multiple routes through each level, and perfectly playful puzzles ensure exploration and ingenuity are rewarded.\n\nThis game leverages Smart Delivery allowing access to both the Xbox One title and the Xbox Series X|S title.\"",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.47833.69811231537758929.fc90ef4a-ab04-4596-8db8-fa6120f06b6b.c358f2f1-4d39-470f-8f92-7dc6fd8d2757",
       "originalPrice": 429,
-      "discountPrice": 128.7,
-      "discountPercent": 70,
+      "discountPrice": 429,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/BSMZH25V6V46",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P57SQHVWND7",
@@ -4220,14 +4220,14 @@
       "description": "Uncover one of history’s greatest mysteries in Indiana Jones and the Great Circle™, a first-person, single-player adventure set between the events of Raiders of the Lost Ark™ and The Last Crusade™. The year is 1937, sinister forces are scouring the globe for the secret to an ancient power connected to the Great Circle, and only one person can stop them - Indiana Jones™. You’ll become the legendary archaeologist in this cinematic action-adventure game from MachineGames, the award-winning studio behind the recent Wolfenstein series, and executive produced by Hall of Fame game designer Todd Howard. \n \nYOU ARE INDIANA JONES \nLive the adventure as Indy in a thrilling story full of exploration, immersive action, and intriguing puzzles. As the brilliant archaeologist – famed for his keen intellect, cunning resourcefulness, and trademark humor – you will travel the world in a race against enemy forces to discover the secrets to one of the greatest mysteries of all time.   \n \nA WORLD OF MYSTERY AWAITS  \nTravel from the halls of Marshall College to the heart of the Vatican, the pyramids of Egypt, the sunken temples of Sukhothai, and beyond. When a break-in in the dead of night ends in a confrontation with a mysterious colossal man, you must set out to discover the world-shattering secret behind the theft of a seemingly unimportant artifact. Forging new alliances and facing familiar enemies, you’ll engage with intriguing characters, use guile and wits to solve ancient riddles, and survive intense set-pieces.  \n \nWHIP-CRACKING ACTION  \nIndiana’s trademark whip remains at the heart of his gear and can be used to distract, disarm, and attack enemies. But the whip isn’t just a weapon, it’s Indy’s most valuable tool for navigating the environment. Swing over unsuspecting patrols and scale walls as you make your way through a striking world. Combine stealth infiltration, melee combat, and gunplay to combat the enemy threat and unravel the mystery .\n\nTHE SPIRIT OF DISCOVERY  \nVenture through a dynamic mix of linear, narrative-driven gameplay and open-area maps. Indulge your inner explorer and unearth a world of fascinating secrets, deadly traps and fiendish puzzles, where anything could potentially hide the next piece of the mystery – or snakes. Why did it have to be snakes?   ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.22318.14050533476382116.9ce9be62-6690-4c40-8e76-7e5af2a256fb.4c40db28-b452-4915-9214-9c3e5fc44ddd",
       "originalPrice": 2440,
-      "discountPrice": 1464,
-      "discountPercent": 40,
+      "discountPrice": 2440,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N8FQ28Z6QX3",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9N020KFQG301",
@@ -6230,14 +6230,14 @@
       "description": "Developed by the award-winning id Software, Quake™ is the ground-breaking, original dark fantasy first-person shooter that inspires today’s retro-style FPS games. Now, experience the authentic, updated, and visually enhanced version of the original.\n\nExperience the Original Game, Enhanced\nEnjoy the original, authentic version of Quake, now with up to 4K* and widescreen resolution support, enhanced models, dynamic and colored lighting, anti-aliasing, depth of field, the original, atmospheric soundtrack and theme song by Trent Reznor, and more. There’s never been a better time to play Quake.\n\nPlay the Dark Fantasy Campaign\nYou are Ranger, a warrior armed with a powerful arsenal of weapons. Fight corrupted knights, deformed ogres and an army of twisted creatures across four dark dimensions of infested military bases, ancient medieval castles, lava-filled dungeons and gothic cathedrals in search of the four magic runes. Only after you have collected the runes will you hold the power to defeat the ancient evil that threatens all of humanity.\n\nGet the Original & New Expansion Packs\nQuake also comes with both original expansion packs: “The Scourge of Armagon” and “Dissolution of Eternity,” as well as three expansions developed by the award-winning team at MachineGames: “Dimension of the Past,” “Dimension of the Machine,” and the all-new “Dawn of the Machine.” \n\nDiscover the All-New “Dawn of the Machine” Expansion\nRanger is trapped in a dimension of endless illusion—reliving the same violent cycles for what feels like lifetimes, dying thousands of times in a futile attempt to escape. Wearied but unbroken, he has heard rumor of The Nightmare Machine.\nBeyond the hordes of monsters—twisted by an eternity in the Elder realms—lies the Machine. It is believed its destruction will shatter the illusion, finally breaking the loop. \n\n\nEnjoy Online & Local Multiplayer and CO-OP\nFight through the dark fantasy base campaign and expansions in 4-player online or local split-screen co-op, and compete in pure, retro-style combat with support for 8-player (online) or 4-player (local split-screen) matches. Featuring dedicated server support for online matchmaking and peer-to-peer support for custom matches. \n\nDownload Additional, Free Mods & Missions\nExpand your experience with free, curated, fan-made and official mods and missions such as Quake 64, which is available to download and play now. \n\nPlay Together with Crossplay\nPlay the campaign and all expansion packs cooperatively or go toe-to-toe in multiplayer matches with your friends regardless of platform! \n\n\n*Maximum display resolutions vary by platform.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.26053.14497943460299347.698189cd-abde-4390-8de0-c7c0eba77ee7.76fcbb8c-5b0c-4713-9b92-67ab2bdda749",
       "originalPrice": 200,
-      "discountPrice": 80,
-      "discountPercent": 60,
+      "discountPrice": 200,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P1Z43KRNQD4",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P2JXK37PFLZ",
@@ -6245,14 +6245,14 @@
       "description": "Developed in 2005 by Raven Software in collaboration with id Software, Quake 4 is a narrative-driven, sci-fi, military-style first-person shooter and direct sequel to Quake II that also includes arena-style multiplayer modes. \r\n\r\nStory \r\n\r\nAfter the successful assassination of the Strogg’s leader, Earth’s military reignited its attack on the hostile aliens’ homeworld of Stroggos. As Marine Corporal Matthew Kane of the elite Rhino Squad, your mission is to spearhead the invasion. But, in this desperate war for humanity’s survival against an unrelenting enemy, you may discover that the only way to defeat them...is to become one of them. \r\n\r\nFeatures \r\n\r\n- Experience the direct sequel to Quake II in this narrative-driven campaign. \r\n- Upgrade and wield an arsenal of advanced weaponry as you battle the Strogg army. \r\n- Tear through the Strogg ranks with mechanized walkers and hover tanks. \r\n- Compete in online multiplayer as a Strogg or Marine in Deathmatch, Team Deathmatch, and Capture the Flag.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.56694.14561296657701490.8a3c58fd-37c6-4dd1-a53f-f41ff63c20a8.dd6fcf17-ffe1-4656-942e-8ca01ff6c6e9",
       "originalPrice": 295,
-      "discountPrice": 97.35,
-      "discountPercent": 67,
+      "discountPrice": 295,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P2JXK37PFLZ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P7L9H478GGV",
@@ -6260,14 +6260,14 @@
       "description": "Developed by id Software in 1997, Quake II is a critically acclaimed first-person shooter that introduces an entirely new science fiction narrative and setting. Now, experience the authentic, enhanced and complete version of the original. \r\n\r\nFeatures \r\n\r\n• Experience the Military Sci-fi FPS, Enhanced \r\n\r\n• Get the Original Mission Packs: The Reckoning and Ground Zero \r\n\r\n• Play the All-New Expansion “Call of the Machine” \r\n\r\n• Get Quake II 64 for Free \r\n\r\n• Enjoy Online & Local Multiplayer/CO-OP \r\n\r\n• Play Together with Crossplay \r\n\r\n• Take Quake II Anywhere With xCloud Portability \r\n\r\nExperience the Original Game, Enhanced \r\n\r\nEnjoy the original, authentic version of Quake II, now with up to 4K* and widescreen resolution support, enhanced models, improved enemy animations and gore, improved and restored AI behaviors, enhanced cinematics, dynamic and colored lighting, anti-aliasing, depth of field, the original, heavy rock soundtrack by Sonic Mayhem, and more.  \r\n\r\nPlay the Intense Military Sci-fi Campaign \r\n\r\nMankind is at war with the Strogg, a hostile alien race that attacked Earth. In response, humanity launched a strike on the Strogg homeworld...it failed, but you survived. Outnumbered and outgunned, fight your way through fortified military installations and shut down the enemy's war machine. Only then will the fate of humanity be known. \r\n\r\nGet Both of the Original Mission Packs \r\n\r\nQuake II includes both original mission packs: “The Reckoning,” featuring 18 campaign levels and 7 deathmatch maps, and “Ground Zero,” featuring 15 campaign levels and 14 deathmatch maps. \r\n\r\nMission Pack: The Reckoning \r\n\r\nIn the first official expansion pack for Quake II, you are part of an elite commando force that must infiltrate a Strogg site. Once inside, you must scour industrial landscapes, crawl through waterways and air ducts, navigate treacherous canyons teeming with vicious mutants, stow away on an alien spacecraft, and destroy the enemy's secret moon base. \r\n\r\nMission Pack: Ground Zero \r\n\r\nIn the second official expansion pack for Quake II, you, and a few marines are the lucky ones. You've made it to the surface of Stroggos in one piece and are still able to contact the fleet. The Gravity Well, the Strogg's newest weapon in its arsenal against mankind, is operational. With the fleet trapped around Stroggos, only 5% of ground forces surviving, and that number dwindling by the second, your orders have changed: free your comrades and destroy the Gravity Well. \r\n\r\nPlay the All-New “Call of the Machine” Expansion \r\n\r\nA brand-new Quake II experience from MachineGames consisting of 28 campaign levels and one multiplayer deathmatch map. In the depths of Strogg space lies the Machine, a singularity capable of collapsing the fabric of reality. Fight across time and space to find the Strogg-Maker, destroy it, and change the destiny of man and machine. \r\n\r\nGet Quake II 64 for Free \r\n\r\nEnjoy all 19 campaign levels, 10 multiplayer deathmatch maps, and an additional, original soundtrack in this release of the original Quake II 64.\r\n\r\nEnjoy Online & Local Multiplayer and CO-OP \r\n\r\nFight the hostile Strogg through the gritty, military sci-fi campaign and expansions in 4-player online or local split-screen co-op, and compete in pure, retro-style combat with support for 16-player (online),*4-player (local split-screen), or *8-player (local split-screen) matches. Bot support for offline and online DM and TDM modes included. \r\n\r\nPlay Together with Crossplay \r\n\r\nPlay the campaign and all expansion packs cooperatively or go toe-to-toe in multiplayer matches with your friends regardless of platform!\r\n\r\nTake Quake II Anywhere with xCloud Portability \r\n\r\nPlay Quake II wherever you want with Xbox’s xCloud, available only to Game Pass Ultimate players. \r\n\r\n \r\n*Maximum display resolutions vary by platform. \r\n\r\n*Supports 4-player local split-screen multiplayer on Xbox One. \r\n\r\n*Supports 8-player local split-screen multiplayer on Xbox Series S and X. ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.5605.14105366677060737.a330b373-c24a-4e62-924d-968ee846f951.38f99ccd-f8f6-4af6-a961-113f60b9e4e4",
       "originalPrice": 242.5,
-      "discountPrice": 97,
-      "discountPercent": 60,
+      "discountPrice": 242.5,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P7L9H478GGV",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NWNLS28ZG37",
@@ -6275,14 +6275,14 @@
       "description": "Quake III Arena is a critically acclaimed, multiplayer-focused, arena first-person shooter developed by id Software and released in 1999. \r\n\r\nWelcome to the Arena \r\n\r\nThe greatest warriors of all time and space have been summoned to battle for the amusement of an ancient alien race. Wield a variety of guns and power-ups as you fight for glory against ruthless combatants in high-tech and gothic arenas in this fast-paced, skill-based single-player and multiplayer FPS. \r\n\r\n- Compete in fast-paced multiplayer action for up to 16 players \r\n- Play offline in single-player mode with AI-controlled bots \r\n- Enjoy exciting modes including Free for All (FFA), Team Deathmatch (TDM), Tournament (1v1), and Capture the Flag (CTF) \r\n- Experience thirty-five unique, gothic and sci-fi-infused arenas \r\n- Wield twelve powerful and unique weapons ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.8410.14446194801384982.3fae32b7-042d-4187-996b-b410a4650a54.2dd1326e-a167-4e82-8457-42dc5d30e209",
       "originalPrice": 295,
-      "discountPrice": 118,
-      "discountPercent": 60,
+      "discountPrice": 295,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NWNLS28ZG37",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NBLGGH6H0RV",
@@ -6335,14 +6335,14 @@
       "description": "An asteroid has annihilated 80% of the earth’s population, and humanity’s numbers are dwindling. Ruthless and bloodthirsty gangs roam the open roads and the tyrannical Authority seek to rule with an iron fist. As Walker, the last Ranger of the wasteland and a threat to their power, you have been robbed of your home and left for dead. Now you’ll have to rage for justice and freedom. \r\n\r\nWith ludicrous vehicle combat, super-powered first-person mayhem, and an open world full of emergent madness, you will tear across an unforgiving wasteland battling sadistic gangs to find the tools and tech needed to crush the oppressive rule of The Authority once and for all.\n\nhttps://eulas.bethesda.net/rage2",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.25179.65377716030309997.4ce8fd57-e617-46e7-9d4f-e8b49f4d07ef.c6a45f3d-a294-4a95-95e6-bcb8bab2ffec",
       "originalPrice": 805,
-      "discountPrice": 161,
-      "discountPercent": 80,
+      "discountPrice": 805,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P2J7WHV0K4N",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NQ4M2DG11L0",
@@ -6380,14 +6380,14 @@
       "description": "Redfall is an open-world, single player and co-op FPS from Arkane Austin, the award-winning team behind Prey and Dishonored. Continuing Arkane’s legacy of carefully crafted worlds and immersive sims, Redfall brings the studio’s signature gameplay to this story-driven action shooter.\r\n  \r\nFEATURES:\r\n\r\nUncover the Truth, Take Back Redfall\r\nThe island town of Redfall, Massachusetts, is under siege by a legion of vampires who have blocked out the sun and cut the citizens off from the outside world. Explore the open world and immerse yourself in a deep story campaign as you unravel the mystery behind the vampires’ appearance. Ally with a handful of survivors against the creatures threatening to bleed the town dry.\r\n \r\nSlay Alone or Squad Up\r\nRedfall blends single- and multiplayer options seamlessly, allowing the player to venture into the darkness alone or to squad-up for up to four player co-op. Teammates can try different hero loadouts and combine their strengths to find creative solutions to the vampire apocalypse. You will collect an arsenal of specialized weaponry and customize your character with unique upgrades and abilities to suit your playstyle for guns blazing, stealth combat, and everything in-between.\r\n \r\nUnconventional Heroes Vs. The Night\r\nCreated by science experiments gone wrong and gifted with psychic abilities, Redfall’s vampires will challenge you and your squad to get creative. You will choose from a team of diverse heroes – each with their own character-specific abilities – to overcome the vampire legion and their brood of maniacal followers. \r\n- DEVINDER CROUSLEY – The Verified Cryptid Hunter: A cryptozoologist and aspiring inventor. Armed with weapons of his own creation, he’s on a mission to prove himself.\r\n- LAYLA ELLISON – The Telekinetic Threat: A biomedical engineering student who volunteered for a medical trial where something went very wrong, leaving her with intense telekinetic abilities.\r\n- REMI DE LA ROSA – The Ingenious Ingeniera: A brilliant combat engineer who has spent her life on the frontlines. With the help of her robot cohort, Bribón, she’s determined to help rescue Redfall’s survivors.\r\n- JACOB BOYER – The Deadeye with an Undead Eye: An ex-military sharpshooter turned private contractor. Strange happenings on Redfall have left Jacob with a mysterious vampiric eye and a spectral raven that’s never far from his side.\r\n\r\nThe Open World of Redfall\r\nRedfall is a true Arkane experience set in a rich world that blends the familiar with the extraordinary.  Redfall’s open world is handcrafted by the master level designers behind Prey’s Talos I space station and Dishonored’s Dunwall. From the town’s once-bustling downtown and the haunted forest to the decimated seaside boardwalk and beyond, you will fight through cultist outposts and supernatural psychic spaces as you piece together Redfall’s many mysteries.\n\nhttps://eulas.bethesda.net/redfall",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.59770.14091188428798620.2f105d2c-1b7f-4fd0-b12e-5483087f47d1.5c054463-6cd6-4f2d-a278-d88154fe3e45",
       "originalPrice": 1300,
-      "discountPrice": 650,
-      "discountPercent": 50,
+      "discountPrice": 1300,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P8JRMWRQP4H",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P81K2C8RBF4",
@@ -6545,14 +6545,14 @@
       "description": "Originally released in 2001, Return to Castle Wolfenstein is an action/horror first-person shooter, and reboot of the Wolfenstein series. Powered by the Quake III Arena engine, it features a single-player campaign and team-based online multiplayer. \r\n\r\nStory \r\n\r\nWorld War II rages and nations fall. Himmler’s German SS Paranormal Division has Hitler's full backing to twist science and the occult into an army capable of annihilating the Allies once and for all. As US Army Ranger William “B.J.” Blazkowicz, you're on a solo mission to pierce the black heart of the Third Reich and stop Himmler...or die trying. \r\n\r\nFeatures \r\n\r\n- Experience a blend of action and horror in the single-player campaign. \r\n- Wield a combination of classic WW2 and fictional, sci-fi-inspired weapons. \r\n- Fight against Nazis, the undead, and experimental mutant soldiers. \r\n- Compete as Axis or Allies online, objective-focused and team-based multiplayer. ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38330.13967749296389194.10d4dd3f-5a58-4458-be2d-7f2ad1e13b24.f064628e-f924-4fc4-95cd-4bf119da57c1",
       "originalPrice": 100,
-      "discountPrice": 40,
-      "discountPercent": 60,
+      "discountPrice": 100,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N1WT4X26SHW",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NZ4T5RFD7KF",
@@ -7235,14 +7235,14 @@
       "description": "Starfield is the first new universe in 25 years from Bethesda Game Studios, the award-winning creators of The Elder Scrolls V: Skyrim and Fallout 4. In this next generation role-playing game set amongst the stars, create any character you want and explore with unparalleled freedom as you embark on an epic journey to answer humanity’s greatest mystery.\r\n\r\nThe year is 2330. Humanity has ventured beyond our solar system, settling new planets, and living as a spacefaring people. From humble beginnings as a space miner, you will join Constellation – the last group of space explorers seeking rare artifacts throughout the galaxy – and navigate the vast expanse of the Settled Systems in Bethesda Game Studios’ biggest and most ambitious game.\n\nhttps://eulas.bethesda.net/Starfield",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.52870.13567343664224659.1eb6fdf9-8a0b-4344-a135-ab17dfa3c609.20ed1644-2c01-4d5a-b636-3d54ac941a1f",
       "originalPrice": 1490,
-      "discountPrice": 1192,
-      "discountPercent": 20,
+      "discountPrice": 1490,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NCJSXWZTP88",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PL427M642BV",
@@ -7745,14 +7745,14 @@
       "description": "ONE MAN AGAINST AN EMPIRE\r\n\r\nTiber Septim has swept through Tamriel, uniting its squabbling lands by force. Even the mighty Redguards of Hammerfell have come under Imperial control. Cyrus, the legendary Redguard mercenary, leads a rebellion against the Empire. Along with a faction known as the Restless League, Cyrus defeats the occupying forces at Stros M’kai and forces Tiber Septim to make peace with the Redguards.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.47327.14196134042192885.dae518aa-30ee-48cd-90b1-dd41fe82de5d.36098308-11dc-4890-b83e-9f4404da28aa",
       "originalPrice": 120,
-      "discountPrice": 48,
-      "discountPercent": 60,
+      "discountPrice": 120,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PFXKRLVWJ0B",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PP7XSG5LDH1",
@@ -7760,14 +7760,14 @@
       "description": "An epic, open-ended single-player RPG, Morrowind allows you to create and play any kind of character imaginable. You can choose to follow the main storyline and find the source of the evil blight that plagues the land, or set off on your own to explore strange locations and develop your character based on their actions throughout the game. Featuring stunning 3D graphics, open-ended gameplay, and an incredible level of detail and interactivity, Morrowind offers a gameplay experience like no other.\r\n\r\nIn Tribunal, you journey to the capital city of Morrowind, called Mournhold, to meet the other two god-kings of Morrowind, Almalexia and Sotha Sil. Your journey will lead you to the Clockwork City of Sotha Sil and massive, epic-sized dungeons, where strange and deadly creatures await you, including goblins, lich lords, and the mysterious Fabricants.\r\n\r\nBloodmoon takes you to the frozen Island of Solstheim where you'll experience snow, blizzards, and new creatures, including frost trolls, ice minions, and wolves... just to name a few. You'll have a choice of stories to follow and have the opportunity to defend the colony, take control over how the colony is built up, and eliminate the werewolves. Or, you can decide to join the werewolves and become one of them, opening up a whole new style of gameplay.\r\n\r\nKey features:\r\n• Players can take their existing Morrowind characters and save games and continue their adventures in the Morrowind GotY edition\r\n• Adds up to 80 hours of new gameplay and quests for current Morrowind players \r\n• Explore the forests, caves, and snow-covered wastelands of the island of Solstheim \r\n• Delve into new, epic-sized dungeons and visit the Capital City of Mournhold and the Clockwork City of Sotha Sil  \r\n• Fight new creatures including bears and wolves, lich lords and goblins, ice minions and spriggans \r\n• Direct the construction of a mining colony and face the threat of savage werewolves \r\n• Become a werewolf and indulge your thirst for the hunt \r\n• New armor and weapons including Nordic Mail and Ice blades\r\n\r\nThe Elder Scrolls III: Morrowind Game of the Year Edition includes Morrowind plus all of the content from the Bloodmoon and Tribunal expansions. The original Mod Construction Set is not included in this package.\n\nhttps://eulas.bethesda.net/The%20Elder%20Scrolls%203:%20Morrowind",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.6736.14329181907474580.fffa1d70-f0e3-45ee-b468-096880ec659e.b54b24a7-5136-452e-af0b-3af6c4fbf2bb",
       "originalPrice": 295,
-      "discountPrice": 118,
-      "discountPercent": 60,
+      "discountPrice": 295,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PP7XSG5LDH1",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P2J5D12GJL5",
@@ -7790,14 +7790,14 @@
       "description": "The Elder Scrolls IV: Oblivion™ Remastered modernizes the 2006 Game of the Year with all new stunning visuals and refined gameplay. Explore the vast landscape of Cyrodiil like never before and stop the forces of Oblivion from overtaking the land in one of the greatest RPGs ever from the award-winning Bethesda Game Studios. \n\nRediscover Cyrodiil \nJourney through the rich world of Tamriel and battle across the planes of Oblivion where handcrafted details have been meticulously recreated to ensure each moment of exploration is awe-inspiring.   \n\nNavigate Your Own Story \nFrom the noble warrior to the sinister assassin, wizened sorcerer, or scrappy blacksmith, forge your path and play the way you want.     \n\nExperience an Epic Adventure \nStep inside a universe bursting with captivating stories and encounter an unforgettable cast of characters. Master swordcraft and wield powerful magic as you fight to save Tamriel from the Daedric invasion.  \n\nThe Complete Story  \nExperience everything Oblivion has to offer with previously released story expansions Shivering Isles, Knights of the Nine, and additional downloadable content included in The Elder Scrolls IV: Oblivion Remastered. \n\n***\n\nThe Elder Scrolls IV: Oblivion Remastered Standard Edition includes:\n\n• Digital base game\n• Shivering Isles and Knights of the Nine story expansions \n• Additional downloadable content: Fighter’s Stronghold, Spell Tomes, Vile Lair, Mehrune’s Razor, The Thieves Den, Wizard’s Tower, The Orrery, and Horse Armor Pack\n\nhttps://eulas.bethesda.net/oblivion-remaster",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.47122.13768907753672648.dcd706bb-ce91-4b3f-9525-10b1d4af8423.9c7a873e-551c-4fd5-b7e2-dc9e7fe3e642",
       "originalPrice": 1795,
-      "discountPrice": 1256.5,
-      "discountPercent": 30,
+      "discountPrice": 1795,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NQR437K7PQH",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "BRKX5CRMRTC2",
@@ -7805,14 +7805,14 @@
       "description": "Includes The Elder Scrolls Online base game plus the Morrowind, Imperial City, Orsinium, Thieves Guild, and Dark Brotherhood adventures.\n\nEvery legend starts somewhere and in The Elder Scrolls Online, it starts with you. Write your story into Tamriel's vibrant past set 1,000 years before TES V: Skyrim. With new Seasons dropping free adventures and rewards every three months, the world evolves alongside your journey.\n\nWELCOME TO SEASONS - Step into new stories and experimental content inspired by classic TES history, delivered every three months. Play and unlock epic rewards with Tamriel Tomes.\n\nA DIVERSE FANTASY WORLD - Travel Tamriel and discover a world of adventure. Explore mushroom forests in Morrowind, battle Daedra in Oblivion, or duel other players in PvP combat.\n\nRICH STORIES ON A SHARED CANVAS - Immerse yourself in storytelling crafted with the same spirit as your favorite Elder Scrolls games. Discover an ever-growing world with friends or solo. \n\nPURPOSE IN EVERY PATH - Choose from an array of quests and challenges that fit your desires and ambitions. Make this Elder Scrolls world your own - you belong here.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.6446.69742768075920623.827baea2-0e15-46be-a422-347ee95ca314.0be46946-0e36-44f6-8f27-e02b9d4c0c9f",
       "originalPrice": 595,
-      "discountPrice": 148.75,
-      "discountPercent": 75,
+      "discountPrice": 595,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/BRKX5CRMRTC2",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P03JGQ4S1GC",
@@ -7820,14 +7820,14 @@
       "description": "Winner of more than 200 Game of the Year Awards, The Elder Scrolls V: Skyrim Special Edition brings the epic fantasy to life in stunning detail. Skyrim Special Edition includes the critically acclaimed game and add-ons plus all-new features like remastered art and effects, volumetric god rays, dynamic depth of field, screen-space reflections and more. \r\n\r\nSkyrim Special Edition also brings the power of Bethesda Game Studios Creations to consoles. New quests, environments, characters, dialogue, armor, weapons and more – with Creations, there are no limits to what you can experience.\r\n\r\nEPIC FANTASY REBORN\r\nSkyrim reimagines and revolutionizes the open-world fantasy epic, bringing to life a complete virtual world open for you to explore any way you choose.\r\n\r\nLIVE ANOTHER LIFE, IN ANOTHER WORLD\r\nPlay any type of character you can imagine, and do whatever you want; the legendary freedom of choice, storytelling, and adventure of The Elder Scrolls is realized like never before.\r\n\r\nYOU ARE WHAT YOU PLAY\r\nChoose from hundreds of weapons, spells, and abilities. The new character system allows you to play any way you want and define yourself through your actions.\r\n\r\nBATTLE DRAGONS\r\nBattle ancient dragons like you’ve never seen. As Dragonborn, learn their secrets and harness their power for yourself.\n\nhttps://eulas.bethesda.net/The%20Elder%20Scrolls%20V:%20Skyrim%20-%20Special%20Edition",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.62159.14468615562328340.fdd2a6d3-ed01-4e8e-805a-630a8e7dcd61.6bac9228-e0f6-4bf4-8745-78becbe96b94",
       "originalPrice": 805,
-      "discountPrice": 201.25,
-      "discountPercent": 75,
+      "discountPrice": 805,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P03JGQ4S1GC",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9MX8R81JW1B5",
@@ -7850,14 +7850,14 @@
       "description": "From mastermind Shinji Mikami, The Evil Within 2 is the latest evolution of survival horror. Detective Sebastian Castellanos has lost it all. But when given a chance to save his daughter, he must descend once more into the nightmarish world of STEM. Horrifying threats emerge from every corner as the world twists and warps around him. Will Sebastian face adversity head on with weapons and traps, or sneak through the shadows to survive.\r\n· Story of Redemption – Return to the nightmare to win back your life and the ones you love.\r\n· Discover Horrifying Domains – Explore as far or quickly as you dare, but prepare wisely.\r\n· Face Disturbing Enemies – Survive the onslaught of horrifying creatures determined to rip you apart.\r\n· Choose How to Survive – Craft traps, sneak, run and hide, or try to battle the horror with limited ammo. \r\n· Visceral Horror and Suspense – Enter a frightening world filled with anxiety-inducing thrills and disturbing moments.\n\nhttps://eulas.bethesda.net/The%20Evil%20Within%202",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.10235.66902085872217864.df676289-5ef8-4c7c-8533-965928392024.db6ff62f-dadd-41bf-916b-5738e03b9b63",
       "originalPrice": 805,
-      "discountPrice": 161,
-      "discountPercent": 80,
+      "discountPrice": 805,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NT0NT8JQMQN",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PGD71CMDS0Z",
@@ -8930,14 +8930,14 @@
       "description": "Developed by id Software in 1992, Wolfenstein 3D is a ground-breaking and critically acclaimed, World War II, first-person shooter action game that started the modern-day FPS genre. \r\n\r\nStory \r\n\r\nWorld War II rages. You are William \"B.J.\" Blazkowicz, the Allies' most trusted agent. The Nazis are planning Operation Eisenfaust, a project to build an unstoppable, mutant army. Your mission was to steal the secret plans, but you were captured and imprisoned in Castle Wolfenstein. Now, a lucky break gives you the chance to make your escape, but a maze of passages and trigger-happy Nazis stand in your way. \r\n\r\nFeatures \r\n\r\n- Experience the origin of the modern first-person shooter genre. \r\n- Enjoy one of the first, fully-3D FPS games ever made. \r\n- Battle Nazi soldiers, evil scientists, mutants, and more. \r\n- Wield a variety of weapons including knives, pistols, and machine guns. \r\n- Run, gun, and fight your way through six episodes. \r\n\r\n'Spear of Destiny' Expansion Included\r\n\r\nIn this prequel to Wolfenstein 3D, you are William “B.J.” Blazkowicz, the Allies' most valuable agent. During the German Blitzkrieg of World War II, the spear that pierced the side of Christ is stolen from Versailles by the Nazis and secured in Castle Nuremberg. According to legend, no man can be defeated when he wields the spear. Your mission is to infiltrate the heavily guarded Nazi stronghold and recapture the Spear of Destiny before it’s too late. ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.30633.14103068553133050.5dce9644-f234-4860-92c4-d9058b94e09e.90fc783c-a66a-4365-b2a0-696cc0ce4179",
       "originalPrice": 100,
-      "discountPrice": 30,
-      "discountPercent": 70,
+      "discountPrice": 100,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P7Z1D3N8KR7",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NDBKK9G0FHL",
@@ -8945,14 +8945,14 @@
       "description": "Wolfenstein® II: The New Colossus™ is the highly anticipated sequel to the critically acclaimed, Wolfenstein®: The New Order™ developed by the award-winning studio MachineGames. An exhilarating adventure brought to life by the industry-leading id Tech® 6, Wolfenstein® II sends players to Nazi-controlled America on a mission to recruit the boldest resistance leaders left. Fight the Nazis in iconic American locations, equip an arsenal of badass guns, and unleash new abilities to blast your way through legions of Nazi soldiers in this definitive first-person shooter. \r\n\r\nAmerica, 1961. The Nazis maintain their stranglehold on the world. You are BJ Blazkowicz, aka “Terror-Billy,” member of the Resistance, scourge of the Nazi empire, and humanity’s last hope for liberty. Only you have the guts, guns, and gumption to return stateside, kill every Nazi in sight, and spark the second American Revolution.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.3811.13962055139666078.986125ff-0b8d-449b-b456-2db23128a1e6.6e196c0f-86d9-4c86-8403-b16d3c73b6c2",
       "originalPrice": 805,
-      "discountPrice": 120.75,
-      "discountPercent": 85,
+      "discountPrice": 805,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NDBKK9G0FHL",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P75CBJ9WT9W",
@@ -8960,14 +8960,14 @@
       "description": "Intense and cinematic, Wolfenstein: The New Order sends players across Europe on a personal mission to bring down the Nazi war machine. With the help of a small group of resistance fighters, infiltrate their most heavily guarded facilities, battle high-tech Nazi legions, and take control of super-weapons that have conquered the earth – and beyond.\r\n\r\nThe Story and Characters\r\nHi-octane action and thrilling adventure weaved together into a tightly paced, super immersive game narrative featuring memorable characters.\r\n\r\nThe History and Setting\r\nSet against a backdrop of an alternate 1960s, discover an unfamiliar world ruled by a familiar enemy—one that has changed and twisted history as you know it.\r\n\r\nThe Arsenal and Assault\r\nBreak into secret research facilities and heavily guarded weapon stashes to upgrade your tools of destruction. Experience intense first-person combat as you go up against oversized Nazi robots, hulking Super Soldiers and elite shock troops.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.18996.70764866595776237.49bcb933-4bfd-4b64-a764-f2ef10fde8d5.70d9caae-ca16-4b21-871a-f8c28349f7d9",
       "originalPrice": 400,
-      "discountPrice": 100,
-      "discountPercent": 75,
+      "discountPrice": 400,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P75CBJ9WT9W",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PBB4QHMSDKR",
@@ -8975,14 +8975,14 @@
       "description": "The year is 1946 and the Regime is on the brink of winning World War II. In an effort to turn the tide in the allies’ favor, B.J. Blazkowicz must embark on an epic, two-part mission deep within Bavaria…. \r\n\r\nPart one of Wolfenstein: The Old Blood - Rudi Jäger and the Den of Wolves - pits BJ Blazkowicz against a maniacal prison warden as he breaks into Castle Wolfenstein in an attempt to steal the coordinates to General Deathshead’s compound. In part two – The Dark Secrets of Helga Von Schabbs – our hero's search for the coordinates leads him to the city of Wulfburg where an obsessed Regime archaeologist is exhuming mysterious artifacts that threaten to unleash a dark and ancient power. \r\n\r\nThe Action!\r\nExperience MachineGames’ intense first-person combat as you brandish all-new weapons such as the bolt-action rifle, 1946 shotgun, and the grenade-launching Kampfpistole. Unlock your potential with a new set of perks for hi-octane action and vicious stealth take-downs.   \r\n\r\nThe Adventure!\r\nExplore breath-taking set pieces featuring rural Germanic towns, sprawling valleys tangled with cable cars and bridges, ghostly catacombs, as well as a return to the iconic Castle Wolfenstein. Use dual-wielding metal pipes to navigate the world with brand new wall-climbing abilities.\r\n\r\nThe Terror!\r\nGo up against a new cast of vicious villains and enemies, including legions of hulking new Super Soldiers, elite shock troops, drones and the Regime’s darkest and most terrifying creations yet.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38487.14122383886801714.65a75288-1d4b-4744-b3e8-5eb9e5357c0a.a6bd6c57-4dd6-443d-98cc-1ea1eab8951c",
       "originalPrice": 400,
-      "discountPrice": 100,
-      "discountPercent": 75,
+      "discountPrice": 400,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PBB4QHMSDKR",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PHFTS44F99K",
@@ -8990,14 +8990,14 @@
       "description": "Wolfenstein: Youngblood is the first modern co-op Wolfenstein adventure.\n\nNineteen years after the events of Wolfenstein II, BJ Blazkowicz has disappeared after a mission into Nazi-occupied Paris. Now, after years of training from their battle-hardened father, BJ’s twin daughters, Jess and Soph Blazkowicz, are forced into action.\n\nTeam up with a friend or play alone. Level up, explore, and complete missions to unlock new abilities, weapons, gadgets, cosmetics, and more to complement your playstyle and customize your appearance.\n\nWolfenstein: Youngblood features the most open-ended Wolfenstein experience to date. From a new base of operations located deep in the heart of the Paris catacombs, plan how and when to attack and dismantle the Nazi regime.\n\nhttps://eulas.bethesda.net/wolf-youngblood",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.52745.14232405978199420.10006ada-af2f-43d4-ab04-4e26289ccf76.01d3bf74-d13b-4644-a7c3-456fce990fd5",
       "originalPrice": 400,
-      "discountPrice": 100,
-      "discountPercent": 75,
+      "discountPrice": 400,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PHFTS44F99K",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9N11JM7F5CXK",
@@ -9181,13 +9181,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_2569760": {
-      "title": "The Mound: Omen of Cthulhu",
-      "price": 719,
-      "percent": 20,
-      "timestamp": "2026-07-15T10:46:14.131Z",
-      "type": "popular"
-    },
     "steam_discount_4512570": {
       "title": "A Game About Chopping Trees",
       "price": 175,
@@ -10923,6 +10916,13 @@
       "percent": 0,
       "timestamp": "2026-08-13T22:37:11.778Z",
       "type": "popular"
+    },
+    "steam_discount_4855450": {
+      "title": "不心动才有鬼",
+      "price": 265,
+      "percent": 10,
+      "timestamp": "2026-08-14T10:58:01.062Z",
+      "type": "discount"
     }
   }
 }
