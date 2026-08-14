@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T01:40:23.792Z",
+  "lastUpdated": "2026-08-14T04:04:29.972Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -64,18 +64,6 @@
       "isPopular": true
     },
     {
-      "id": "2523770",
-      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
-      "originalPrice": 415,
-      "discountPrice": 373,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2523770",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "2358720",
       "title": "Black Myth: Wukong",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
@@ -88,6 +76,18 @@
       "isPopular": false
     },
     {
+      "id": "2523770",
+      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
+      "originalPrice": 415,
+      "discountPrice": 373,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2523770",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "2764460",
       "title": "Sandustry",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786641888",
@@ -96,18 +96,6 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2764460",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2950790",
-      "title": "IRON NEST: Heavy Turret Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786639727",
-      "originalPrice": 299,
-      "discountPrice": 224,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2950790",
       "isSpecial": true,
       "isPopular": false
     },
@@ -124,6 +112,18 @@
       "isPopular": false
     },
     {
+      "id": "2950790",
+      "title": "IRON NEST: Heavy Turret Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786639727",
+      "originalPrice": 299,
+      "discountPrice": 224,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2950790",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3527290",
       "title": "PEAK",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
@@ -132,6 +132,18 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3527290",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1142710",
+      "title": "Total War: WARHAMMER III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
+      "originalPrice": 1899,
+      "discountPrice": 284,
+      "discountPercent": 85,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1142710",
       "isSpecial": true,
       "isPopular": false
     },
@@ -156,18 +168,6 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2542020",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1142710",
-      "title": "Total War: WARHAMMER III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
-      "originalPrice": 1899,
-      "discountPrice": 284,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1142710",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9018,7 +9018,7 @@
       "id": "9NK9K07FDPJV",
       "title": "World of Warships",
       "description": "Створіть флот і підкоріть моря \n\nОсобливості:\n• Понад 800 історичних кораблів, відтворених настільки точно, що аж дух захоплює.\n• П'ять різних класів кораблів: підводні човни, лінкори, крейсери, есмінці й авіаносці — кожен має власні особливості геймплею.\n• Дерево досліджень із 13 націями й десятками гілок розвитку.\n• Епічні багатокористувацькі морські бої між потужними флотами на просторах гігантських мап.\n• Широкі можливості для персоналізації корабля: від навичок командира й модулів корабля до камуфляжів та ефектів знищення супротивника.\n• Регулярні оновлення й новий контент, зокрема кораблі, пам'ятні прапори, спеціальні ігрові режими та бойові завдання, за які можна отримати цінні нагороди.\n• Безкоштовне завантаження й система прогресу, якою ви вільно просуваєтеся, просто граючи й накопичуючи досвід.\n\nСайт: https://worldofwarships.com/\nYouTube: https://www.youtube.com/@WorldofWarshipsOfficialChannel\nFacebook: https://www.facebook.com/WorldOfWarships/\nInstagram: https://www.instagram.com/worldofwarships/\nX: https://x.com/WorldofWarships",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.31148.13660342589962425.54146c3e-5b42-488e-8418-0e93c65ea304.b1f964e8-3482-4b4f-9f8b-4cb5aee24d2a",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.46828.13660342589962425.2996ae9a-7a25-4f2c-b39b-82e0ebf11032.637a4f21-d157-4860-aae7-291e8760d0b9",
       "originalPrice": 0,
       "discountPrice": 0,
       "discountPercent": 0,
