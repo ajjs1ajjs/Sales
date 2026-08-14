@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0e0a1e"/>
+      <stop offset="0.55" stop-color="#1a1440"/>
+      <stop offset="1" stop-color="#0e0a1e"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c084fc"/>
+      <stop offset="1" stop-color="#00f0ff"/>
+    </linearGradient>
+    <linearGradient id="epicGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="textGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+
+  <g opacity="0.07" stroke="#c084fc" stroke-width="1">
+    <path d="M0 90H1280M0 180H1280M0 270H1280M320 0V360M640 0V360M960 0V360"/>
+  </g>
+
+  <g transform="translate(70,120)">
+    <path d="M20 60 Q20 10 70 10 L120 10 Q170 10 170 60 L160 92 Q155 110 136 110 Q124 110 118 96 L108 70 L82 70 L72 96 Q66 110 54 110 Q35 110 30 92 Z" fill="none" stroke="url(#brand)" stroke-width="5" stroke-linejoin="round" filter="url(#glow)"/>
+    <rect x="56" y="36" width="14" height="34" rx="4" fill="#00f0ff" filter="url(#glow)"/>
+    <rect x="50" y="44" width="26" height="12" rx="4" fill="#00f0ff" filter="url(#glow)"/>
+    <circle cx="102" cy="38" r="6" fill="#c084fc" filter="url(#glow)"/>
+    <circle cx="122" cy="52" r="6" fill="#c084fc" filter="url(#glow)"/>
+    <circle cx="132" cy="76" r="6" fill="#c084fc" filter="url(#glow)"/>
+    <circle cx="112" cy="86" r="6" fill="#c084fc" filter="url(#glow)"/>
+  </g>
+
+  <text x="320" y="152" font-family="Segoe UI, sans-serif" font-size="60" font-weight="700" fill="#ffffff" filter="url(#textGlow)">Game Sales <tspan fill="url(#brand)">Aggregator</tspan></text>
+  <text x="324" y="198" font-family="Segoe UI, sans-serif" font-size="23" fill="#a5b4fc">Радар знижок та безкоштовних ігор — Steam · Epic · Xbox Game Pass</text>
+
+  <g transform="translate(320,240)">
+    <rect x="0" y="0" width="150" height="34" rx="17" fill="#00f0ff" opacity="0.12" stroke="#00f0ff" stroke-width="1"/>
+    <text x="75" y="23" font-family="Segoe UI, sans-serif" font-size="16" font-weight="600" fill="#67e8f9" text-anchor="middle">Steam</text>
+    <rect x="162" y="0" width="150" height="34" rx="17" fill="#a855f7" opacity="0.14" stroke="#a855f7" stroke-width="1"/>
+    <text x="237" y="23" font-family="Segoe UI, sans-serif" font-size="16" font-weight="600" fill="#d8b4fe" text-anchor="middle">Epic Games</text>
+    <rect x="324" y="0" width="190" height="34" rx="17" fill="#22c55e" opacity="0.12" stroke="#22c55e" stroke-width="1"/>
+    <text x="419" y="23" font-family="Segoe UI, sans-serif" font-size="16" font-weight="600" fill="#4ade80" text-anchor="middle">Xbox Game Pass</text>
+    <rect x="526" y="0" width="138" height="34" rx="17" fill="#38bdf8" opacity="0.12" stroke="#38bdf8" stroke-width="1"/>
+    <text x="595" y="23" font-family="Segoe UI, sans-serif" font-size="16" font-weight="600" fill="#7dd3fc" text-anchor="middle">Telegram</text>
+  </g>
+
+  <g transform="translate(930,52)">
+    <rect x="0" y="0" width="120" height="46" rx="12" fill="#e11d48" opacity="0.16" stroke="#e11d48" stroke-width="2"/>
+    <text x="60" y="30" font-family="Segoe UI, sans-serif" font-size="22" font-weight="800" fill="#fb7185" text-anchor="middle">FREE</text>
+  </g>
+  <g transform="translate(1076,52)">
+    <rect x="0" y="0" width="120" height="46" rx="12" fill="#22c55e" opacity="0.14" stroke="#22c55e" stroke-width="2"/>
+    <text x="60" y="30" font-family="Segoe UI, sans-serif" font-size="22" font-weight="800" fill="#4ade80" text-anchor="middle">−75%</text>
+  </g>
+  <g transform="translate(930,112)">
+    <rect x="0" y="0" width="120" height="46" rx="12" fill="#00f0ff" opacity="0.10" stroke="#00f0ff" stroke-width="2"/>
+    <text x="60" y="30" font-family="Segoe UI, sans-serif" font-size="18" font-weight="700" fill="#67e8f9" text-anchor="middle">🔥 Sale</text>
+  </g>
+  <g transform="translate(1076,112)">
+    <rect x="0" y="0" width="120" height="46" rx="12" fill="#8b5cf6" opacity="0.14" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="60" y="30" font-family="Segoe UI, sans-serif" font-size="18" font-weight="700" fill="#a78bfa" text-anchor="middle">👑 Top</text>
+  </g>
+
+  <path d="M0 322 Q60 314 120 322 T240 322 T360 322 T480 322 T600 322 T720 322 T840 322 T960 322 T1080 322 T1200 322 T1280 322" fill="none" stroke="url(#brand)" stroke-width="2" opacity="0.35"/>
+</svg>

@@ -1,22 +1,25 @@
-# Game Sales Aggregator
+<p align="center">
+  <img src="docs/banner.svg" width="100%" alt="Game Sales Aggregator">
+</p>
 
-<div align="center">
+# 🎮 Game Sales Aggregator
 
-**Персональний радар знижок та безкоштовних ігор**
+**Персональний радар знижок та безкоштовних ігор** — автоматично збирає актуальні пропозиції з **Steam**, **Epic Games Store** та **Xbox Game Pass (PC)** і публікує їх на сайті та у Telegram-каналі.
 
 [![Сайт](https://img.shields.io/badge/🌐_Сайт-ajjs1ajjs.github.io/Sales-blue?style=for-the-badge)](https://ajjs1ajjs.github.io/Sales/)
 [![Telegram](https://img.shields.io/badge/📢_Telegram-@salesgamesua-2CA5E0?style=for-the-badge&logo=telegram)](https://t.me/salesgamesua)
+[![Version](https://img.shields.io/badge/version-v1.0.0-c084fc?style=for-the-badge)](https://github.com/ajjs1ajjs/Sales/releases)
 [![GitHub Actions](https://img.shields.io/github/actions/workflow/status/ajjs1ajjs/Sales/scheduler.yml?style=for-the-badge&label=Автооновлення)](https://github.com/ajjs1ajjs/Sales/actions)
-
-</div>
 
 ---
 
-## Про проект
+## 🖼️ Інтерфейс
 
-**Game Sales Aggregator** — це автоматичний агрегатор ігрових знижок, безкоштовних роздач та нових надходжень. Збирає актуальні пропозиції зі **Steam**, **Epic Games Store** та **Xbox Game Pass (PC)** і публікує їх на сайті та у Telegram-каналі.
+| Головна сторінка | Історія сповіщень |
+|---|---|
+| <img src="docs/screenshots/main.png" alt="Головна сторінка"> | <img src="docs/screenshots/history.png" alt="Історія сповіщень"> |
 
-### Що відстежується:
+## 📡 Що відстежується
 
 | Платформа | Тип | Опис |
 |-----------|-----|-------|
@@ -29,23 +32,23 @@
 | **Xbox Game Pass PC** | Очікується | Ігри, що скоро з'являться в Game Pass |
 | **Xbox Game Pass PC** | Знижки | Знижки на ігри з каталогу Game Pass |
 
-### Можливості сайту:
+## ✨ Можливості сайту
 
-- **Пошук** за назвою гри (з debounce 300 мс)
-- **Фільтрація** за категоріями (Epic/Steam, безкоштовні/знижки/тренди)
-- **Сортування** за ціною, відсотком знижки або назвою
-- **Фільтр ціни** — вибір діапазону цін
-- **Список бажань** — додавайте ігри в обране (зберігається в localStorage)
-- **Історія сповіщень** — перегляд виявлених знижок за останні 30 днів
-- **Темна/світла тема** — перемикання одним кліком
-- **PWA** — можливість встановити як додаток на телефон/ПК
-- **Офлайн-режим** — кешування через Service Worker
-- **Двомовність** — українська та англійська мови (перемикання в хедері)
-- **SEO** — Open Graph, Twitter Cards, JSON-LD, sitemap.xml
+| | |
+|---|---|
+| 🔍 **Пошук** | за назвою гри, з debounce 300 мс |
+| 🗂️ **Фільтрація** | за категоріями (Epic/Steam, безкоштовні/знижки/тренди) |
+| ↕️ **Сортування** | за ціною, відсотком знижки або назвою |
+| 💰 **Фільтр ціни** | вибір діапазону цін |
+| ⭐ **Список бажань** | обрані ігри, зберігаються в localStorage |
+| 🕘 **Історія сповіщень** | виявлені знижки за останні 30 днів |
+| 🌗 **Теми** | темна/світла, перемикання одним кліком |
+| 📱 **PWA** | встановлюється як додаток на телефон/ПК |
+| 📴 **Офлайн-режим** | кешування через Service Worker |
+| 🌐 **Двомовність** | українська та англійська (перемикання в хедері) |
+| 🔎 **SEO** | Open Graph, Twitter Cards, JSON-LD, sitemap.xml |
 
----
-
-## Як це працює
+## ⚙️ Як це працює
 
 ```
 Кожну годину (24/7)
@@ -65,141 +68,71 @@ GitHub Actions запускає скрипт
         └──▶ Нові знижки/роздачі/додавання → Telegram-канал
 ```
 
----
+## 🚀 Локальний запуск
 
-## Технології
-
-- **Frontend:** React 19 + TypeScript + Vite + React Router
-- **Стилі:** Vanilla CSS з Glassmorphism-ефектами, темна/світла теми
-- **Локалізація:** Власна i18n система (LocaleContext) — українська та англійська мови
-- **Скрипт збору даних:** Node.js + TypeScript (tsx)
-- **Автоматизація:** GitHub Actions (cron кожну годину)
-- **Хостинг:** GitHub Pages
-- **Сповіщення:** Telegram Bot API
-- **PWA:** vite-plugin-pwa + Service Worker (Network-First для даних, Stale-While-Revalidate для статики)
-
----
-
-## Локальний запуск
-
-### Вимоги
-- Node.js 20+ (використовується `Array.prototype.toSorted`)
-- npm
-
-### Встановлення
+**Вимоги:** Node.js 20+ · npm
 
 ```bash
 git clone https://github.com/ajjs1ajjs/Sales.git
 cd Sales
-
 npm install
+
+npm run fetch   # отримати актуальні дані
+npm run dev     # запустити сайт локально
+npm run build   # продакшн-білд
+npm run lint    # лінтер
+npm test        # тести
 ```
 
-### Запуск
+## 🔑 Налаштування GitHub Actions
 
-```bash
-# Отримати актуальні дані
-npm run fetch
-
-# Запустити сайт локально
-npm run dev
-
-# Зібрати продакшн-білд
-npm run build
-
-# Лінтер
-npm run lint
-
-# Тести
-npm test
-```
-
----
-
-## Налаштування GitHub Actions
-
-Для повноцінної роботи потрібно додати **секрети** у налаштуваннях репозиторію:
-
-`Settings → Secrets and variables → Actions → New repository secret`
+Для повноцінної роботи додайте **секрети** у `Settings → Secrets and variables → Actions`:
 
 | Секрет | Опис |
 |--------|------|
 | `TELEGRAM_BOT_TOKEN` | Токен бота від @BotFather |
 | `TELEGRAM_CHAT_ID` | ID вашого Telegram-каналу |
 
-### Отримання Chat ID каналу:
+**Отримання Chat ID каналу:**
 1. Додайте бота як адміністратора каналу
 2. Надішліть повідомлення в канал
 3. Відкрийте: `https://api.telegram.org/bot<TOKEN>/getUpdates`
 4. Знайдіть поле `"chat": {"id": ...}`
 
----
+## 🧩 Технології
 
-## Структура проекту
+- **Frontend:** React 19 + TypeScript + Vite + React Router
+- **Стилі:** Vanilla CSS з Glassmorphism-ефектами, темна/світла теми
+- **Локалізація:** власна i18n (LocaleContext) — українська та англійська
+- **Збір даних:** Node.js + TypeScript (tsx)
+- **Автоматизація:** GitHub Actions (cron щогодини)
+- **Хостинг:** GitHub Pages
+- **Сповіщення:** Telegram Bot API
+- **PWA:** vite-plugin-pwa + Service Worker
+
+## 📁 Структура
 
 ```
 Sales/
-├── .github/
-│   └── workflows/
-│       └── scheduler.yml          # GitHub Actions (запуск щогодини)
-├── public/
-│   ├── data/
-│   │   └── deals.json             # Актуальні дані про знижки
-│   ├── favicon.svg
-│   ├── robots.txt
-│   └── sitemap.xml
+├── .github/workflows/scheduler.yml   # запуск щогодини
+├── public/data/deals.json            # актуальні дані про знижки
 ├── scripts/
-│   ├── fetch-deals.ts             # Скрипт збору даних з API
-│   └── generate-sitemap.ts        # Генерація sitemap.xml
+│   ├── fetch-deals.ts                # збір даних з API
+│   └── generate-sitemap.ts           # генерація sitemap.xml
 ├── src/
-│   ├── __tests__/                 # Тести ErrorBoundary
-│   ├── components/
-│   │   ├── __tests__/             # Тести компонентів
-│   │   ├── EpicSection.tsx        # Секція Epic Games
-│   │   ├── ErrorBoundaryWithLocale.tsx # ErrorBoundary з локалізацією
-│   │   ├── GameCard.tsx           # Картка гри
-│   │   ├── HistoryPage.tsx        # Сторінка історії сповіщень
-│   │   ├── InstallPWA.tsx         # Банер встановлення PWA
-│   │   ├── LanguageToggle.tsx     # Перемикач мови (uk/en)
-│   │   ├── PriceRangeFilter.tsx   # Фільтр за діапазоном цін
-│   │   ├── SearchControls.tsx     # Пошук та фільтри
-│   │   ├── ShowMore.tsx           # Кнопка "Показати ще"
-│   │   ├── Skeleton.tsx           # Скелетон-завантаження
-│   │   ├── SortControls.tsx       # Сортування
-│   │   ├── SteamSection.tsx       # Секція Steam
-│   │   ├── XboxSection.tsx        # Секція Xbox Game Pass
-│   │   ├── TelegramBanner.tsx     # Банер Telegram
-│   │   ├── ThemeToggle.tsx        # Перемикач теми
-│   │   └── WishlistButton.tsx     # Кнопка обраного
-│   ├── contexts/
-│   │   ├── LocaleContext.tsx      # Контекст локалізації (i18n)
-│   │   └── WishlistContext.tsx    # Контекст списку бажань
-│   ├── hooks/
-│   │   ├── useDebounce.ts         # Debounce hook
-│   │   ├── useInstallPWA.ts       # PWA install hook
-│   │   └── useLocalStorage.ts     # localStorage hook
-│   ├── locales/
-│   │   ├── en.ts                  # Англійські переклади
-│   │   └── uk.ts                  # Українські переклади
-│   ├── App.tsx                    # Головний компонент + роутер
-│   ├── DataContext.tsx            # Контекст завантаження deals.json
-│   ├── ErrorBoundary.tsx          # Обробка помилок React
-│   ├── index.css                  # Стилі
-│   ├── main.tsx                   # Точка входу
-│   ├── sw.ts                      # Service Worker
-│   ├── test-setup.ts              # Налаштування тестів
-│   ├── test-utils.tsx             # Хелпери для тестів
-│   ├── types.ts                   # Типи TypeScript
-│   └── utils.ts                   # Утиліти (форматування)
-├── index.html                     # HTML-шаблон з SEO мета-тегами
-└── vite.config.ts                 # Конфігурація Vite + PWA
+│   ├── components/                   # GameCard, Epic/Steam/XboxSection та ін.
+│   ├── contexts/                     # LocaleContext, WishlistContext
+│   ├── hooks/                        # useDebounce, useInstallPWA, useLocalStorage
+│   ├── locales/                      # uk.ts, en.ts
+│   ├── App.tsx                       # роутер
+│   ├── DataContext.tsx               # завантаження deals.json
+│   └── sw.ts                         # Service Worker
+└── vite.config.ts                    # Vite + PWA
 ```
 
----
+## 📢 Telegram-канал
 
-## Telegram-канал
-
-Підписуйтесь на [@salesgamesua](https://t.me/salesgamesua) — отримуйте миттєві сповіщення про:
+Підписуйтесь на [@salesgamesua](https://t.me/salesgamesua) — миттєві сповіщення про:
 - Безкоштовні ігри від Epic Games
 - Знижки в Epic Games Store
 - Гарячі знижки у Steam (від 5%)
