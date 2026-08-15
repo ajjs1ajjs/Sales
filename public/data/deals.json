@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T22:17:07.328Z",
+  "lastUpdated": "2026-08-15T23:16:57.711Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -76,18 +76,6 @@
       "isPopular": true
     },
     {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
-      "originalPrice": 159,
-      "discountPrice": 79,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1067360",
       "title": "Pax Autocratica",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786694191",
@@ -108,6 +96,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2523770",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
+      "originalPrice": 159,
+      "discountPrice": 79,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isPopular": false
     },
@@ -136,18 +136,6 @@
       "isPopular": false
     },
     {
-      "id": "2764460",
-      "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
-      "originalPrice": 199,
-      "discountPrice": 129,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2764460",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2552430",
       "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
@@ -156,6 +144,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2552430",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2764460",
+      "title": "Sandustry",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
+      "originalPrice": 199,
+      "discountPrice": 129,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2764460",
       "isSpecial": true,
       "isPopular": false
     },
