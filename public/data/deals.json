@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T07:27:21.281Z",
+  "lastUpdated": "2026-08-15T08:23:19.330Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -73,7 +73,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1478500",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "553850",
@@ -88,18 +88,6 @@
       "isPopular": false
     },
     {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
-      "originalPrice": 159,
-      "discountPrice": 79,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2523770",
       "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
@@ -108,6 +96,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2523770",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
+      "originalPrice": 159,
+      "discountPrice": 79,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isPopular": false
     },
@@ -160,14 +160,14 @@
       "isPopular": false
     },
     {
-      "id": "3236900",
-      "title": "Rebirth Pub",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3236900/8fa5c35bd9bdfc8e66d8fe2f76005dbba0940e22/capsule_616x353.jpg?t=1786693420",
-      "originalPrice": 385,
-      "discountPrice": 346,
-      "discountPercent": 10,
+      "id": "1313140",
+      "title": "Cult of the Lamb",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/cb5ff4e1c40adac0ea71aace62c3020a25f29d50/capsule_616x353.jpg?t=1786554901",
+      "originalPrice": 499,
+      "discountPrice": 199,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3236900",
+      "url": "https://store.steampowered.com/app/1313140",
       "isSpecial": true,
       "isPopular": false
     },
@@ -196,14 +196,26 @@
       "isPopular": true
     },
     {
-      "id": "3079210",
-      "title": "Hell Let Loose: Vietnam",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079210/aeedc94bb7c21f9a4a4e9bb14beca090b36c7db1/capsule_616x353.jpg?t=1786637345",
-      "originalPrice": 810,
-      "discountPrice": 810,
+      "id": "1289670",
+      "title": "EA Play",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289670/38a9c194965a78816f3bd61520d3c688bcf44b4e/capsule_616x353.jpg?t=1786039203",
+      "originalPrice": 129,
+      "discountPrice": 26,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1289670",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1202520",
+      "title": "Fallout 1st",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
+      "originalPrice": 399,
+      "discountPrice": 399,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3079210",
+      "url": "https://store.steampowered.com/app/1202520",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10923,6 +10935,13 @@
       "percent": 10,
       "timestamp": "2026-08-15T07:27:16.580Z",
       "type": "discount"
+    },
+    "steam_popular_1202520": {
+      "title": "Fallout 1st",
+      "price": 399,
+      "percent": 0,
+      "timestamp": "2026-08-15T08:23:10.434Z",
+      "type": "popular"
     }
   }
 }
