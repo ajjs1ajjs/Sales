@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T06:31:44.436Z",
+  "lastUpdated": "2026-08-15T07:27:21.281Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -112,18 +112,6 @@
       "isPopular": false
     },
     {
-      "id": "2950790",
-      "title": "IRON NEST: Heavy Turret Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786639727",
-      "originalPrice": 299,
-      "discountPrice": 224,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2950790",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1067360",
       "title": "Pax Autocratica",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786694191",
@@ -132,6 +120,18 @@
       "discountPercent": 17,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1067360",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2950790",
+      "title": "IRON NEST: Heavy Turret Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786639727",
+      "originalPrice": 299,
+      "discountPrice": 224,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2950790",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,18 +148,6 @@
       "isPopular": false
     },
     {
-      "id": "2552430",
-      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2552430",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1142710",
       "title": "Total War: WARHAMMER III",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
@@ -168,6 +156,18 @@
       "discountPercent": 85,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1142710",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3236900",
+      "title": "Rebirth Pub",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3236900/8fa5c35bd9bdfc8e66d8fe2f76005dbba0940e22/capsule_616x353.jpg?t=1786693420",
+      "originalPrice": 385,
+      "discountPrice": 346,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3236900",
       "isSpecial": true,
       "isPopular": false
     },
@@ -10916,6 +10916,13 @@
       "percent": 35,
       "timestamp": "2026-08-15T01:01:39.504Z",
       "type": "popular"
+    },
+    "steam_discount_3236900": {
+      "title": "Rebirth Pub",
+      "price": 346,
+      "percent": 10,
+      "timestamp": "2026-08-15T07:27:16.580Z",
+      "type": "discount"
     }
   }
 }
