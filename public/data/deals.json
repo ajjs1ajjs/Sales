@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T08:23:19.330Z",
+  "lastUpdated": "2026-08-15T09:21:46.995Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -76,18 +76,6 @@
       "isPopular": false
     },
     {
-      "id": "553850",
-      "title": "HELLDIVERS™ 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/5dca2c120a87aeee02bbe8ed58711b4255c26228/capsule_616x353.jpg?t=1786525389",
-      "originalPrice": 1199,
-      "discountPrice": 899,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/553850",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2523770",
       "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
@@ -96,6 +84,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2523770",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "553850",
+      "title": "HELLDIVERS™ 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/5dca2c120a87aeee02bbe8ed58711b4255c26228/capsule_616x353.jpg?t=1786525389",
+      "originalPrice": 1199,
+      "discountPrice": 899,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/553850",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9193,13 +9193,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_4449410": {
-      "title": "KYOTO XANADU -the Blooming Phantom-",
-      "price": 1649,
-      "percent": 0,
-      "timestamp": "2026-07-16T09:10:34.922Z",
-      "type": "popular"
-    },
     "steam_discount_3808690": {
       "title": "Pathogenic",
       "price": 88,
