@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T13:26:56.362Z",
+  "lastUpdated": "2026-08-15T14:18:11.596Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -9169,20 +9169,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_3808690": {
-      "title": "Pathogenic",
-      "price": 88,
-      "percent": 20,
-      "timestamp": "2026-07-16T13:42:56.997Z",
-      "type": "discount"
-    },
-    "xbox_new_9NZX67J81X6F": {
-      "title": "MAVRIX by Matt Jones",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-16T13:42:56.997Z",
-      "type": "xbox_new"
-    },
     "epic_free_c27f2bb0dd9b4c4ca4973e653ab8a5be": {
       "title": "Luto",
       "price": 0,
@@ -10911,6 +10897,13 @@
       "percent": 0,
       "timestamp": "2026-08-15T08:23:10.434Z",
       "type": "popular"
+    },
+    "xbox_new_9NZX67J81X6F": {
+      "title": "MAVRIX by Matt Jones",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-15T14:18:05.884Z",
+      "type": "xbox_new"
     }
   }
 }
