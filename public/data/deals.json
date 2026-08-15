@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T15:16:17.647Z",
+  "lastUpdated": "2026-08-15T16:19:33.424Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -112,18 +112,6 @@
       "isPopular": false
     },
     {
-      "id": "2523770",
-      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
-      "originalPrice": 415,
-      "discountPrice": 373,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2523770",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1067360",
       "title": "Pax Autocratica",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786694191",
@@ -132,6 +120,18 @@
       "discountPercent": 17,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1067360",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2523770",
+      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
+      "originalPrice": 415,
+      "discountPrice": 373,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2523770",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9181,69 +9181,6 @@
     }
   ],
   "notifiedHistory": {
-    "epic_free_c27f2bb0dd9b4c4ca4973e653ab8a5be": {
-      "title": "Luto",
-      "price": 0,
-      "percent": 100,
-      "timestamp": "2026-07-16T15:36:52.984Z",
-      "type": "free"
-    },
-    "epic_free_371545146a944478ad5a87f9b581ac29": {
-      "title": "Echo Generation: Midnight Edition",
-      "price": 0,
-      "percent": 100,
-      "timestamp": "2026-07-16T15:36:52.984Z",
-      "type": "free"
-    },
-    "epic_discount_223c59e227e74e079a1bbe5a234b896f": {
-      "title": "Foretales",
-      "price": 88.5,
-      "percent": 85,
-      "timestamp": "2026-07-16T15:36:52.984Z",
-      "type": "discount"
-    },
-    "epic_discount_921e40c4c69f4d728914ca2a4f0aa407": {
-      "title": "Eternal Threads",
-      "price": 73.8,
-      "percent": 80,
-      "timestamp": "2026-07-16T15:36:52.984Z",
-      "type": "discount"
-    },
-    "epic_discount_be5600439b434624802764f704755cde": {
-      "title": "Ghostrunner 2",
-      "price": 199.8,
-      "percent": 80,
-      "timestamp": "2026-07-16T15:36:52.984Z",
-      "type": "discount"
-    },
-    "epic_discount_4a88d0dc64114b20b67339c74543f859": {
-      "title": "Lost Castle: The Old Ones Awaken",
-      "price": 36.5,
-      "percent": 50,
-      "timestamp": "2026-07-16T15:36:52.984Z",
-      "type": "discount"
-    },
-    "epic_discount_8f80897c0b6e4e678fed08da169d44be": {
-      "title": "Castlevania Anniversary Collection",
-      "price": 111.6,
-      "percent": 60,
-      "timestamp": "2026-07-16T15:36:52.984Z",
-      "type": "discount"
-    },
-    "steam_discount_4210580": {
-      "title": "Ore Factory Squad ⛏️",
-      "price": 221,
-      "percent": 25,
-      "timestamp": "2026-07-16T15:36:52.984Z",
-      "type": "discount"
-    },
-    "steam_popular_4229450": {
-      "title": "PowerWash Simulator 2 - STAR WARS Pack",
-      "price": 230,
-      "percent": 0,
-      "timestamp": "2026-07-16T15:36:52.984Z",
-      "type": "popular"
-    },
     "steam_discount_3712080": {
       "title": "Funnel Runners",
       "price": 144,
