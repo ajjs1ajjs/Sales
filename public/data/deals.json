@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T19:18:51.237Z",
+  "lastUpdated": "2026-08-16T20:17:34.498Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -9133,13 +9133,6 @@
     }
   ],
   "notifiedHistory": {
-    "xbox_new_9P2PP895LSBJ": {
-      "title": "Fogpiercer",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-17T20:03:38.462Z",
-      "type": "xbox_new"
-    },
     "steam_discount_3219010": {
       "title": "Fogpiercer",
       "price": 224,
@@ -10776,6 +10769,13 @@
       "price": 0,
       "percent": 0,
       "timestamp": "2026-08-16T08:24:43.996Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9P2PP895LSBJ": {
+      "title": "Fogpiercer",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-16T20:17:26.103Z",
       "type": "xbox_new"
     }
   }
