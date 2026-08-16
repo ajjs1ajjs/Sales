@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T06:33:28.588Z",
+  "lastUpdated": "2026-08-16T07:27:54.461Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -76,18 +76,6 @@
       "isPopular": true
     },
     {
-      "id": "553850",
-      "title": "HELLDIVERS™ 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/5dca2c120a87aeee02bbe8ed58711b4255c26228/capsule_616x353.jpg?t=1786525389",
-      "originalPrice": 1199,
-      "discountPrice": 899,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/553850",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3527290",
       "title": "PEAK",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
@@ -96,6 +84,18 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3527290",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "553850",
+      "title": "HELLDIVERS™ 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/5dca2c120a87aeee02bbe8ed58711b4255c26228/capsule_616x353.jpg?t=1786525389",
+      "originalPrice": 1199,
+      "discountPrice": 899,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/553850",
       "isSpecial": true,
       "isPopular": false
     },
@@ -184,18 +184,6 @@
       "isPopular": true
     },
     {
-      "id": "292000",
-      "title": "No More Room in Hell 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/94b08f4c14af35673ec562dc3534282aa401ba06/capsule_616x353_alt_assets_10.jpg?t=1786638024",
-      "originalPrice": 600,
-      "discountPrice": 390,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/292000",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4115450",
       "title": "Phantom Blade Zero",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1786515952",
@@ -208,14 +196,26 @@
       "isPopular": true
     },
     {
-      "id": "3079210",
-      "title": "Hell Let Loose: Vietnam",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079210/aeedc94bb7c21f9a4a4e9bb14beca090b36c7db1/capsule_616x353.jpg?t=1786637345",
-      "originalPrice": 810,
-      "discountPrice": 810,
+      "id": "292000",
+      "title": "No More Room in Hell 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/94b08f4c14af35673ec562dc3534282aa401ba06/capsule_616x353_alt_assets_10.jpg?t=1786638024",
+      "originalPrice": 600,
+      "discountPrice": 390,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/292000",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2584270",
+      "title": "Mortal Shell II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/43d71a60525881c9f99cf3e1ca64efbb96e2abd8/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1786719153",
+      "originalPrice": 1449,
+      "discountPrice": 1449,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3079210",
+      "url": "https://store.steampowered.com/app/2584270",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10836,6 +10836,13 @@
       "price": 899,
       "percent": 25,
       "timestamp": "2026-08-15T21:17:31.226Z",
+      "type": "popular"
+    },
+    "steam_popular_2584270": {
+      "title": "Mortal Shell II",
+      "price": 1449,
+      "percent": 0,
+      "timestamp": "2026-08-16T07:27:47.438Z",
       "type": "popular"
     }
   }
