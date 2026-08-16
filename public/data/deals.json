@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T08:24:49.082Z",
+  "lastUpdated": "2026-08-16T09:23:48.179Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -76,18 +76,6 @@
       "isPopular": true
     },
     {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
-      "originalPrice": 159,
-      "discountPrice": 79,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "553850",
       "title": "HELLDIVERS™ 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/5dca2c120a87aeee02bbe8ed58711b4255c26228/capsule_616x353.jpg?t=1786525389",
@@ -96,6 +84,18 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/553850",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
+      "originalPrice": 159,
+      "discountPrice": 79,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isPopular": false
     },
@@ -112,18 +112,6 @@
       "isPopular": false
     },
     {
-      "id": "1067360",
-      "title": "Pax Autocratica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786694191",
-      "originalPrice": 620,
-      "discountPrice": 515,
-      "discountPercent": 17,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1067360",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2523770",
       "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
@@ -132,6 +120,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2523770",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1067360",
+      "title": "Pax Autocratica",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786694191",
+      "originalPrice": 620,
+      "discountPrice": 515,
+      "discountPercent": 17,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1067360",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,18 +148,6 @@
       "isPopular": false
     },
     {
-      "id": "2552430",
-      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2552430",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1313140",
       "title": "Cult of the Lamb",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/cb5ff4e1c40adac0ea71aace62c3020a25f29d50/capsule_616x353.jpg?t=1786554901",
@@ -168,6 +156,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1313140",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1142710",
+      "title": "Total War: WARHAMMER III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
+      "originalPrice": 1899,
+      "discountPrice": 284,
+      "discountPercent": 85,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1142710",
       "isSpecial": true,
       "isPopular": false
     },
@@ -196,18 +196,6 @@
       "isPopular": true
     },
     {
-      "id": "292000",
-      "title": "No More Room in Hell 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/94b08f4c14af35673ec562dc3534282aa401ba06/capsule_616x353_alt_assets_10.jpg?t=1786638024",
-      "originalPrice": 600,
-      "discountPrice": 390,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/292000",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "2584270",
       "title": "Mortal Shell II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/43d71a60525881c9f99cf3e1ca64efbb96e2abd8/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1786719153",
@@ -216,6 +204,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2584270",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "292000",
+      "title": "No More Room in Hell 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/94b08f4c14af35673ec562dc3534282aa401ba06/capsule_616x353_alt_assets_10.jpg?t=1786638024",
+      "originalPrice": 600,
+      "discountPrice": 390,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/292000",
       "isSpecial": false,
       "isPopular": true
     }
@@ -486,21 +486,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N1M64W9XZQ7",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
-      "id": "9PG28RXDG9GQ",
-      "title": "Aliens: Fireteam Elite",
-      "description": "Play with up to two players or AI as you battle through four campaigns to explore the mystery of a new planet, LV-895. Discover what hides in the ruins and caves beneath in this third-person survival shooter set in the Aliens universe.\r\n\r\nBuild your fireteam focusing on class composition, consumables, and weapons to take down Xenomorphs, beat Challenge Card runs, or play various game modes with friends.\r\n\r\nBlast through hordes of Xenomorphs, evade deadly Prowlers and Spitters, and set up defensive positions to stay alive long enough to get your fireteam to safety.\r\n\r\nBuild your Marine the way you want. Level up in each of 7 unique classes or be a master of one. Choose your weapon – everything from magnums and SMGs to rocket launchers – and use over 130 unique perks to create the build of your choice.\r\n\r\nLevel your character through 7 Class Kits, each with two unique abilities to use in combat and unlockable perks. Max out a variety of weapons, powering them up in stats the more you use them.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.30369.14189206062547849.34667497-3c97-48d3-916d-0cd555e3aee9.057ac9cb-1d5f-4c0e-b5bc-7a78774595a7",
-      "originalPrice": 760,
-      "discountPrice": 760,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9PG28RXDG9GQ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
@@ -951,21 +936,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NBLGGH43KZB",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
-      "id": "9NCGTG3KR2W9",
-      "title": "Atlas Fallen: Reign of Sand (Windows)",
-      "description": "Випробуйте Reign of Sand, оновлену версію Atlas Fallen, в одиночному або парному режимах. Мандруйте пісками нескінченного всесвіту та перемагайте легендарних монстрів своєю нищівною силою у видовищних битвах.\n\n Reign of Sand - оновлена версія Atlas Fallen\n\n\n Розширений світ, нові вороги та випробування, оновлений прогрес, нові квести, перероблена озвучка, додаткові рівні складності та режими \"Нова гра+\". Це масштабне й абсолютно безкоштовне оновлення відкриває збагачений всесвіт Atlas Fallen!\n\n Світ Atlas Fallen очікує на вас\n\n\n • Полюйте на легендарних велетнів у видовищних боях в одиночному або парному режимі\n\n • Підкорюйте піски та досліджуйте унікальний фантастичний всесвіт, сповнений таємниць та загроз.\n\n • Розкрийте дивовижні навички, щоб вільно розпоряджатися нищівною зброєю.\n\n• Налаштуйте свій ігровий стиль за власним бажанням завдяки понад 170 Essence Stones",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.31319.13563971826346196.3d957cff-bc47-48aa-b98f-be2691a13f70.f2160616-4476-4190-b158-a8bc1e5d68f6",
-      "originalPrice": 1030,
-      "discountPrice": 1030,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9NCGTG3KR2W9",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
@@ -3297,21 +3267,6 @@
       "isDiscounted": false
     },
     {
-      "id": "BQQKG9H2STC0",
-      "title": "Firewatch",
-      "description": "Firewatch is a single-player first-person mystery set in the Wyoming wilderness. \n\nThe year is 1989. You are a man named Henry who has retreated from your messy life to work as a fire lookout in the Wyoming wilderness. Perched high atop a mountain, it’s your job to look for smoke and keep the wilderness safe. An especially hot, dry summer has everyone on edge. Your supervisor, a woman named Delilah, is available to you at all times over a small, handheld radio—your only contact with the world you've left behind. But when something strange draws you out of your lookout tower and into the world, you’ll explore a wild and unknown environment, facing questions and making choices that can build or destroy the only meaningful relationship you have. \n\nA Note: Firewatch is a video game about adults having adult conversations about adult things. If you plan on playing with a younger gamer, that might be good to know going in.\nIncludes\nA stunningly beautiful wilderness environment that expands as you explore. \nA tailor-made story: the choices you make shape the narrative and build relationships. \nAn edge-of-your-seat mystery. \nSecrets and discoveries to be made over every hill.\nFeaturing\nLiving, breathing characters brought to life by Cissy Jones (The Walking Dead: Season 1) and Rich Sommer (Mad Men) \nA spectacular wilderness environment by Olly Moss (Illustrator) and Jane Ng (The Cave, Brutal Legend) \nA thrilling story and script by Sean Vanaman and Jake Rodkin (The Walking Dead: Season 1, Poker Night at the Inventory) \nA stirring original soundtrack by Chris Remo (Gone Home, Spacebase DF-9) \nFluid first-person animation by James Benson (Ori & the Blind Forest) \nGameplay scripting and design work by Patrick Ewing (Twitter) and Nels Anderson (Mark of the Ninja) \nProgramming by Will Armstrong (Bioshock II) and Ben Burbank (Costume Quest 2, Spacebase DF-9)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.14501.68688977722932617.c18986e0-354d-49e5-a689-33d52a7432cb.4324e613-281f-4948-bd74-d17321615130",
-      "originalPrice": 505,
-      "discountPrice": 505,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/BQQKG9H2STC0",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
       "id": "9N7MVHP2R7VP",
       "title": "FixForce",
       "description": "Leap, climb, and launch your friends in this chaotic co-op extraction platformer for up to 6 players! Use your drill-wrench to build your way across a vibrant post-apocalyptic world, find replacement parts, and fix broken machines. \n\nBUILD WITH FRIENDS\n\nAs FixForce bots, you and up to 5 friends will build towers and paths out of scrap parts, using the structures to climb all over the worksite. Rescue each other when things get hairy, and remember: how high or far you go is limited only by how much scrap you can find.\n\nFIND + FIX\n\nIn each round, you and your team will be dropped near machines in desperate need of repair. Once you’ve found them, use your drill-wrench to scour the site for the perfect replacement parts to get them working again so you can clock out on time. You might even find a few extra odd jobs around to line your pockets...\n\nWORKPLACE HAZARDS\n\nNo job is the same, but they’re all teeming with hazards and violent rogue robots. Keep your eyes peeled so you can protect yourself, your friends, and your precious towers and bridges from their destructive wrath while you finish the job.\n\nBUT DON’T LOSE YOUR HEAD\n\nFixForce means reliability, and high-risk assignments are your bread and butter. If you take a tumble, slip into the water, or find yourself on the wrong side of a rogue bot, your friends can simply recover your head and snap it onto another body. Good as new!\n\nPERKS OF THE JOB\n\nThe work is relentless, but so is your resolve! Every successful fix lines your bank account, letting you snag new tools to maximise efficiency and tackle even the toughest of challenges in exchange for a few unorthodox updates to your uniform.\n\nWield the drill-wrench: Use your built-in power tool to fix machines, build towers and bridges to get around, retrieve your friends’ fallen heads, and launch items around.",
@@ -4926,21 +4881,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PDDP6ML6XHF",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
-      "id": "9NQCJ397CQ6P",
-      "title": "MENACE (Game Preview)",
-      "description": "Командуйте морськими піхотинцями, найманцями та злочинцями у віддаленій системі, відрізаній від Основних світів. Беззаконний кордон системи «Далечінь» контролюється піратськими ватажками, нечистими на руку корпораціями та розрізненими планетарними урядами. Спочатку ви очолюєте загін морських піхотинців ударного крейсера TCRN Impetus, але незабаром вам доведеться об'єднати розрізнені озброєні групи місцевих жителів, щоб зупинити невідому загрозу. Маючи танки, ходунів та піхотні загони з величезним вибором техніки, ви будете тренувати свої війська, планувати операції та брати участь у кровопролитних тактичних боях.\n\nРозробники Battle Brothers переносять нас у далеке майбутнє в MENACE – покроковій тактичній рольовій грі, дія якої розгортається в ізольованій системі, де починає зароджуватися нова незнайома загроза.\n\nПРИЙМІТЬ КОМАНДУВАННЯ\nВаш штурмовий загін морської піхоти Республіки намагається повернути кордон під контроль, але те, що вважалося простою миротворчою місією, призвело до викриття загрози, яка наражає на небезпеку всю систему...\n\n- Ви самостійно визначаєте свій підхід — отримавши сигнали лиха з інших планет, ви вирішуєте, на які з них реагувати, які ресурси задіяти й коли вступати в бій, виходячи з рівня вашої готовності. Від вашого вибору залежить, як місцеві фракції сприйматимуть вашу присутність, що безпосередньо вплине на ваші стосунки з ними й на те, які послуги вони будуть готові вам надати. Хочете насамперед налагодити відносини з кримінальними елементами, які спеціалізуються на зборі інформації, зломі ворожого спорядження й забезпеченні найкращих цін у місцевих торговців? Чи відкладете їх на потім і зосередитеся на співпраці з ремонтно-відновлювальними бригадами, які підтримуватимуть ваш транспорт у робочому стані й забезпечуватимуть вас потужними передовими технологіями?\n- Коли всі канали зв'язку перервані, ви опиняєтеся на вершині командного ланцюга, і ваша збірна команда морських піхотинців, найманців та злочинців звертається до вас за відповідями. Будь-яка операція не обмежується лише одним полем бою, а розгалужується на декілька місій, кожна з яких вимагає від вас участі в серії битв, що охоплюють цілі світи. Приймайте стратегічні рішення по ходу операції, обираючи між доступними вам місіями – наприклад, ви можете спочатку знищити ворожі засоби ППО, які заважають вам висадити танки, або ж діяти безпосередньо в тилу ворога, намагаючись врятувати заручників і завоювати довіру місцевих жителів. Виконуйте місію за місією, щоб завершити операцію і, зрештою, продовжити свою грандіозну кампанію. Але будьте обережні – кожне рішення має серйозні наслідки не лише для поточної операції, але й для всієї системи загалом.\n- Штурмовий крейсер TCRN Impetus слугує вам базою для операцій, не лише переправляючи вас між місіями, але й забезпечуючи орбітальну підтримку та місце для вкрай необхідного відпочинку та відновлення. Не шкодуйте ресурсів на модернізацію та вдосконалення свого мобільного штабу, щоб найкраще адаптувати його до своїх дій на полі бою, а також шукайте підтримку серед місцевих союзників, щоб здобути допомогу у виконанні поставлених завдань.\n- Не маючи доступу до звичайного флотського арсеналу, вам доведеться покладатися на місцевих дилерів на чорному ринку та військові трофеї, щоб екіпірувати свої загони. Від саморобних бойових машин піратських угруповань до вишуканої, висококласної зброї місцевих найманців, кожна сутичка – це не лише можливість взяти під контроль розхитану систему, але й здобути нове ефективне спорядження.\n\nТАКТИЧНІ БИТВИ З ВИСОКИМИ СТАВКАМИ\nВам загрожує реальна смертельна небезпека, адже інколи ви опиняєтесь в оточенні не лише чисельно, але й технологічно переважаючих сил противника. Різні погодні умови та біоми мають значний вплив на перебіг бойових дій, а вороги-люди – найменше, що вас може турбувати. У закутках системи оселилося щось чужорідне, і воно діє непередбачувано та невблаганно.\n\n- Битви в MENACE також сповнені смертельних небезпек – під градом куль, плазмових зарядів і ракетного вогню ви зіткнетеся з добре підготовленими і безжальними ворогами. Ви будете втрачати командирів загонів та їхніх бійців, а також пристосовуватися до мінливих ситуацій на полі бою. Підкорити цілу систему неможливо без певних ризиків, тому переможцем стане той, хто продемонструє найвищу тактичну майстерність.\n- Використовуйте флангові маневри, щоб зайти в тил, або використовуйте важкі боєприпаси, щоб вибити ворога з його вогневих позицій. Переміщайтеся між укриттями, беручи ворога в кліщі, відкривайте вогонь, щоб придушити спротив і затиснути ворога на місці, одночасно знищуючи укриття, до якого він може втекти. Планування тактичних дій має важливе значення для перемоги, але пам'ятайте, що ви завжди повинні бути напоготові – хоча ви можете скласти план на основі розвідданих, отриманих під час брифінгу, плани ніколи не переживуть контакту з ворогом.\n- Враховуйте ефективну дальність стрільби вашої зброї, ступінь ураження на відстані, а також те, проти кого краще її використовувати – проти важко- чи легкоброньованих супротивників. Навіть якщо відстань до цілі занадто велика, кожен снаряд завдає певної шкоди підрозділам, поруч з якими він впав; неважливо, були вони задуманою ціллю чи ні, були вони друзями чи ворогами. Оскільки масований вогонь з більшою ймовірністю пригнічує ворога, ніж стрілецька зброя, ви зможете діяти, спираючись на наявні у вашому розпорядженні засоби – але не забувайте коригувати свій підхід у разі потреби. Вивчіть противника, щоб визначити, чи варто вам вести снайперський вогонь на відстані, або варто навпаки агресивно скорочувати відстань під прикриттям щільного вогню.\n- Прибувайте на поле бою на різноманітних транспортних засобах: від перезвіників загонів і РСЗВ до імпровізованих пікапів тощо, кожен з яких має свої сильні та слабкі сторони, а також різноманітні системи озброєння на вибір. Вогнева міць танка величезна, але спритний ходун здатний миттєво реагувати на загрози, пересуваючись вільно і швидко. Спеціально навчені пілоти здатні керувати цими машинами на полі бою, хоча і за високу ціну. Чи захочете ви кинути в бій дорогу самохідну артилерію, відібрану в найманців, заради кращого спорядження для піхоти? Ви можете втратити цілий загін, але додаткова вогнева міць може стати запорукою вашої перемоги.\n- Використовуйте обмежені ресурси, щоб екіпірувати свої загони перед кожною місією і бути впевненими, що ви готові до виконання завдання. Обирайте броню для піхоти, балансуючи між надійністю та практичністю, а також використовуйте додаткові слоти для спорядження – від дронів до гранат і покажчиків цілей. Кожен загін може бути оснащений широким вибором зброї з різними перевагами та недоліками, а також особливо потужною спеціальною зброєю – від вогнеметів і снайперських гвинтівок до ЕМІ-гармат.\n\nОСОБИСТІ ІСТОРІЇ ПЕРСОНАЖІВ\nПайк – зразковий морський піхотинець, він відданий Республіці та є професійним солдатом, непохитним перед труднощами. Рева страждає від травм минулого, а в глибині душі постійно кипить лють. Лім вдячний Пайку за порятунок його рідної колонії і не дуже довіряє всім, хто не є морськими піхотинцями, але йому доведеться навчитися йти назустріч, коли справи йдуть не найкраще. Кожен командир загону в MENACE має свою історію та особистість, і саме ви, як їхній командир, маєте зорієнтуватися серед неприємностей, які вони можуть принести.\n\n- Від морпіхів, з якими ви прибули, до місцевих жителів, яких потрібно завербувати, — кожен із командирів має власні очікування та прагнення. Успіхи й невдачі на полі бою впливатимуть на їхні лідерські якості. Відтак місія з кількома підтвердженими вбивствами може підняти бойовий дух для наступних сутичок, але в командира, який бачив загибель усього свого загону, може знизитися боєздатність, доки він не оговтається. Чи візьмете ви на себе відповідальність за малоефективний загін лише тому, що вам потрібні люди, чи дасте їм час на відновлення, що може поставити під загрозу всю поточну операцію?\n- Із часом командири загонів отримують підвищення й розвиваються, тож ви можете налаштовувати їх на свій смак і поліпшувати ефективність їхніх загонів. Зберігайте життя командирів загонів і вибирайте вміння з різноманітних дерев розвитку, отримуючи додаткові активні й пасивні здібності, котрі можна використовувати проти ворога.\n- Кожне проходження дозволяє вибрати персонажів з величезного списку – дізнайтеся, як пов'язані між собою окремі передісторії, та експериментуйте з підбором бійців. Розвиток подій розгортається несподівано, оскільки лідери ваших загонів ведуть бій за боєм. Спостерігайте, як армії зазнають поразки під тиском катастрофічних загроз, і зробіть все можливе, щоб підготувати свій загін до боротьби проти головної ЗАГРОЗИ.\n\nНЕСКІНЧЕННІ ВАРІАНТИ\nОперації та карти бою, що генеруються випадково, а також великий вибір персонажів та незліченна кількість варіантів спорядження роблять кожну гру в MENACE не схожою на попередню. Опиніться віч-на-віч із на перший погляд нездоланним лихом, що набуває різних форм під час проходження гри, і щоразу новим шляхом випробуйте свою стратегічну та тактичну майстерність.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.6475.13771742326595134.f8e03fea-8d76-499e-8b99-bf26a0ad0bf2.b21a6bf1-4df2-4668-a02c-aa2d47c3c709",
-      "originalPrice": 599,
-      "discountPrice": 599,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9NQCJ397CQ6P",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
