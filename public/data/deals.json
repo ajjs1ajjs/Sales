@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T02:56:20.557Z",
+  "lastUpdated": "2026-08-16T03:46:23.214Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -76,18 +76,6 @@
       "isPopular": false
     },
     {
-      "id": "553850",
-      "title": "HELLDIVERS™ 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/5dca2c120a87aeee02bbe8ed58711b4255c26228/capsule_616x353.jpg?t=1786525389",
-      "originalPrice": 1199,
-      "discountPrice": 899,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/553850",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "3527290",
       "title": "PEAK",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
@@ -100,14 +88,14 @@
       "isPopular": false
     },
     {
-      "id": "2523770",
-      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
-      "originalPrice": 415,
-      "discountPrice": 373,
-      "discountPercent": 10,
+      "id": "553850",
+      "title": "HELLDIVERS™ 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/5dca2c120a87aeee02bbe8ed58711b4255c26228/capsule_616x353.jpg?t=1786525389",
+      "originalPrice": 1199,
+      "discountPrice": 899,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2523770",
+      "url": "https://store.steampowered.com/app/553850",
       "isSpecial": true,
       "isPopular": false
     },
@@ -120,6 +108,18 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2950790",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2523770",
+      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
+      "originalPrice": 415,
+      "discountPrice": 373,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2523770",
       "isSpecial": true,
       "isPopular": false
     },
@@ -204,6 +204,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1786515952",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isPopular": true
     }
