@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T16:22:25.950Z",
+  "lastUpdated": "2026-08-17T17:23:32.770Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -64,14 +64,14 @@
       "isPopular": true
     },
     {
-      "id": "553850",
-      "title": "HELLDIVERS™ 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/5dca2c120a87aeee02bbe8ed58711b4255c26228/capsule_616x353.jpg?t=1786525389",
-      "originalPrice": 1199,
-      "discountPrice": 899,
+      "id": "1478500",
+      "title": "Big Walk",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
+      "originalPrice": 449,
+      "discountPrice": 336,
       "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/553850",
+      "url": "https://store.steampowered.com/app/1478500",
       "isSpecial": true,
       "isPopular": true
     },
@@ -84,18 +84,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1478500",
-      "title": "Big Walk",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
-      "originalPrice": 449,
-      "discountPrice": 336,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1478500",
       "isSpecial": true,
       "isPopular": false
     },
@@ -124,18 +112,6 @@
       "isPopular": false
     },
     {
-      "id": "2523770",
-      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
-      "originalPrice": 415,
-      "discountPrice": 373,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2523770",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2552430",
       "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
@@ -148,14 +124,14 @@
       "isPopular": false
     },
     {
-      "id": "1313140",
-      "title": "Cult of the Lamb",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/cb5ff4e1c40adac0ea71aace62c3020a25f29d50/capsule_616x353.jpg?t=1786554901",
-      "originalPrice": 499,
-      "discountPrice": 199,
-      "discountPercent": 60,
+      "id": "2523770",
+      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
+      "originalPrice": 415,
+      "discountPrice": 373,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1313140",
+      "url": "https://store.steampowered.com/app/2523770",
       "isSpecial": true,
       "isPopular": false
     },
@@ -172,6 +148,30 @@
       "isPopular": false
     },
     {
+      "id": "1313140",
+      "title": "Cult of the Lamb",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/cb5ff4e1c40adac0ea71aace62c3020a25f29d50/capsule_616x353.jpg?t=1786554901",
+      "originalPrice": 499,
+      "discountPrice": 199,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1313140",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1067360",
+      "title": "Pax Autocratica",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786694191",
+      "originalPrice": 620,
+      "discountPrice": 515,
+      "discountPercent": 17,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1067360",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2584270",
       "title": "Mortal Shell II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/8d1749b78f5cf462fa75060ad5c3bed114a4442c/capsule_616x353_alt_assets_3_ukrainian.jpg?t=1786972326",
@@ -180,6 +180,42 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2584270",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "553850",
+      "title": "HELLDIVERS™ 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/5dca2c120a87aeee02bbe8ed58711b4255c26228/capsule_616x353.jpg?t=1786525389",
+      "originalPrice": 1199,
+      "discountPrice": 1199,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/553850",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "292000",
+      "title": "No More Room in Hell 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/94b08f4c14af35673ec562dc3534282aa401ba06/capsule_616x353_alt_assets_10.jpg?t=1786638024",
+      "originalPrice": 600,
+      "discountPrice": 390,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/292000",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1867240",
+      "title": "WARDOGS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1786467028",
+      "originalPrice": 829,
+      "discountPrice": 829,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1867240",
       "isSpecial": false,
       "isPopular": true
     },
@@ -204,18 +240,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "292000",
-      "title": "No More Room in Hell 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/94b08f4c14af35673ec562dc3534282aa401ba06/capsule_616x353_alt_assets_10.jpg?t=1786638024",
-      "originalPrice": 600,
-      "discountPrice": 390,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/292000",
       "isSpecial": false,
       "isPopular": true
     }
