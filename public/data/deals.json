@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T19:24:31.260Z",
+  "lastUpdated": "2026-08-17T20:22:12.371Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -85,7 +85,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3849000",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "2950790",
@@ -108,6 +108,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2358720",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1771300",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
+      "originalPrice": 1599,
+      "discountPrice": 639,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1771300",
       "isSpecial": true,
       "isPopular": false
     },
@@ -136,45 +148,33 @@
       "isPopular": false
     },
     {
-      "id": "2552430",
-      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
+      "id": "4796830",
+      "title": "WE ARE SO DEAD",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4796830/45a3b7b67ad77aa9f3903465d68301f7ec603be3/capsule_616x353.jpg?t=1786989007",
+      "originalPrice": 195,
+      "discountPrice": 120,
+      "discountPercent": 38,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4796830",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1643320",
+      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/9a8e16d21fc4e6e15e204fcd14626dabcc77c6a1/capsule_616x353.jpg?t=1786719674",
       "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
+      "discountPrice": 979,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2552430",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1067360",
-      "title": "Pax Autocratica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786694191",
-      "originalPrice": 620,
-      "discountPrice": 515,
-      "discountPercent": 17,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1067360",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1142710",
-      "title": "Total War: WARHAMMER III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
-      "originalPrice": 1899,
-      "discountPrice": 284,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1142710",
+      "url": "https://store.steampowered.com/app/1643320",
       "isSpecial": true,
       "isPopular": false
     },
     {
       "id": "2584270",
       "title": "Mortal Shell II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/8d1749b78f5cf462fa75060ad5c3bed114a4442c/capsule_616x353_alt_assets_3_ukrainian.jpg?t=1786992561",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/8d1749b78f5cf462fa75060ad5c3bed114a4442c/capsule_616x353_alt_assets_3_ukrainian.jpg?t=1786997859",
       "originalPrice": 1449,
       "discountPrice": 1449,
       "discountPercent": 0,
@@ -196,18 +196,6 @@
       "isPopular": true
     },
     {
-      "id": "1867240",
-      "title": "WARDOGS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1786467028",
-      "originalPrice": 829,
-      "discountPrice": 829,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1867240",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
@@ -216,6 +204,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1867240",
+      "title": "WARDOGS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1786467028",
+      "originalPrice": 829,
+      "discountPrice": 829,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1867240",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10784,6 +10784,27 @@
       "percent": 10,
       "timestamp": "2026-08-17T16:22:17.132Z",
       "type": "popular"
+    },
+    "steam_discount_1771300": {
+      "title": "Kingdom Come: Deliverance II",
+      "price": 639,
+      "percent": 60,
+      "timestamp": "2026-08-17T20:22:06.466Z",
+      "type": "discount"
+    },
+    "steam_discount_4796830": {
+      "title": "WE ARE SO DEAD",
+      "price": 120,
+      "percent": 38,
+      "timestamp": "2026-08-17T20:22:06.466Z",
+      "type": "discount"
+    },
+    "steam_discount_1643320": {
+      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "price": 979,
+      "percent": 30,
+      "timestamp": "2026-08-17T20:22:06.466Z",
+      "type": "discount"
     }
   }
 }
