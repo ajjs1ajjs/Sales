@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T12:38:05.889Z",
+  "lastUpdated": "2026-08-18T13:39:01.021Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -160,14 +160,14 @@
       "isPopular": false
     },
     {
-      "id": "1067360",
-      "title": "Pax Autocratica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786694191",
-      "originalPrice": 620,
-      "discountPrice": 515,
-      "discountPercent": 17,
+      "id": "2552430",
+      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1067360",
+      "url": "https://store.steampowered.com/app/2552430",
       "isSpecial": true,
       "isPopular": false
     },
@@ -3503,21 +3503,6 @@
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NBLGGH4PBBM",
       "isGamePass": true,
       "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
-      "id": "9NHLZS3G6D8H",
-      "title": "Gears of War: E-Day Multiplayer Beta",
-      "description": "Бета-тестування багатокористувацького режимуGears of War: E-Day триватиме протягом двох вихідних наприкінці цього літа. \n\nРанній доступ: 6–10 серпня — передзамовте зараз або підпишіться на Game Pass Ultimate або PC, щоб отримати доступ!\n\nLancers до бою! Зустрінемося на полі битви! \n\n*Дати та час проведення бета-тестування багатокористувацького режиму можуть бути змінені. Для бета-тестування та інших багатокористувацьких функцій необхідна передплата Game Pass, що включає доступ до багатокористувацького онлайн-режиму, продається окремо.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.23638.13627829196808344.3645cdfb-1b16-4dc7-a443-7ea8f64b15f2.6199d3ae-66a1-4528-b17e-d99cfcef0eb3",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9NHLZS3G6D8H",
-      "isGamePass": true,
-      "isNewToGamePass": true,
       "isComingSoon": false,
       "isDiscounted": false
     },
