@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T09:28:25.264Z",
+  "lastUpdated": "2026-08-18T10:23:55.839Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -124,18 +124,6 @@
       "isPopular": false
     },
     {
-      "id": "1643320",
-      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/9a8e16d21fc4e6e15e204fcd14626dabcc77c6a1/capsule_616x353.jpg?t=1787002837",
-      "originalPrice": 1399,
-      "discountPrice": 979,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1643320",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2764460",
       "title": "Sandustry",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
@@ -144,6 +132,18 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2764460",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1643320",
+      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/9a8e16d21fc4e6e15e204fcd14626dabcc77c6a1/capsule_616x353.jpg?t=1787002837",
+      "originalPrice": 1399,
+      "discountPrice": 979,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1643320",
       "isSpecial": true,
       "isPopular": false
     },
@@ -184,18 +184,6 @@
       "isPopular": true
     },
     {
-      "id": "1289670",
-      "title": "EA Play",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289670/38a9c194965a78816f3bd61520d3c688bcf44b4e/capsule_616x353.jpg?t=1786039203",
-      "originalPrice": 129,
-      "discountPrice": 26,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1289670",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4115450",
       "title": "Phantom Blade Zero",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1786515952",
@@ -204,6 +192,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1289670",
+      "title": "EA Play",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289670/38a9c194965a78816f3bd61520d3c688bcf44b4e/capsule_616x353.jpg?t=1786039203",
+      "originalPrice": 129,
+      "discountPrice": 26,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1289670",
       "isSpecial": false,
       "isPopular": true
     },
@@ -3884,14 +3884,14 @@
       "description": "Hell is Us — це пригодницька гра від третьої особи, що поєднала в собі інтенсивні бої та захоплююче дослідження місцевості. Мандруйте напіввідкритим світом, де на вас чекають зустрічі з загадковими створіннями, та шукайте відповіді на свої запитання.\n\nЖОРСТОКИЙ СВІТ\nОкрім громадянської війни, що розділила країну, у регіоні вирує загадкове лихо. Воно породило надприродних істот, проти яких не діє жодна сучасна зброя. Ваші вірні союзники — дрон і стародавній меч — допоможуть вам прокласти шлях крізь землі, що кишать жахливими химерами, та розкрити таємницю виникнення цих жахливих створінь.\n\nУНІКАЛЬНА СИСТЕМА ДОСЛІДЖЕНЬ\nТут немає карти, компасу чи маркерів завдань — лише ваше внутрішнє чуття. Отримайте унікальний досвід: інноваційний сюжет та унікальний дизайн рівнів дозволять вам діяти, покладаючись на власні рішення та інтуїцію. Усі відкриття лише за вами.\n\nБОРОТЬБА З НЕЗВИЧАЙНИМИ СТВОРІННЯМИ\nМечі, списи та сокири: у вашому розпорядженні широкий вибір зброї, створеної спеціально для боротьби з цими надприродними істотами. Щоб залишитися в живих, вам доведеться навчитися боротися та розумно користуватися дроном.\n\n«Головна ідея Hell is Us полягає в тому, що людське насильство вічне, бо його підживлюють людські емоції та пристрасті», — Джонатан Жак-Белльтет, креативний директор",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.28194.13542441777400767.a5c76c76-ba5a-4024-b4ed-cbd190240c15.b1a52869-a951-40d2-9a9e-53df7017263c",
       "originalPrice": 1799,
-      "discountPrice": 539.7,
-      "discountPercent": 70,
+      "discountPrice": 1799,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N9097G0XZMB",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PMBB7NGHV95",
