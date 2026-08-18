@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T11:21:46.953Z",
+  "lastUpdated": "2026-08-18T12:38:05.889Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -73,7 +73,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "2358720",
@@ -85,7 +85,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2358720",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1771300",
@@ -124,18 +124,6 @@
       "isPopular": false
     },
     {
-      "id": "2764460",
-      "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
-      "originalPrice": 199,
-      "discountPrice": 129,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2764460",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "694280",
       "title": "Zombie Army 4: Dead War",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/capsule_616x353.jpg?t=1786965015",
@@ -144,6 +132,18 @@
       "discountPercent": 95,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/694280",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2764460",
+      "title": "Sandustry",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
+      "originalPrice": 199,
+      "discountPrice": 129,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2764460",
       "isSpecial": true,
       "isPopular": false
     },
@@ -7214,8 +7214,8 @@
     {
       "id": "9P86LLDCL5CC",
       "title": "Starsand Island",
-      "description": "Early Access Notice: Starsand Island is currently in Early Access. The game is still in development, and content and features will be expanded and refined through future updates.\n\nEscape the Urban Grind to Starsand Island - Your Island Paradise Awaits! Tired of the hustle and bustle? Return to the tranquil embrace of Starsand Island, a gem hailed as the \"Star of the Deep Sea.\" Here, immerse yourself in a serene pastoral lifestyle: slow-paced days spent bonding with adorable capybaras, cats, and dogs, savoring the thrill of bountiful fishing, exploring the mystical Moonlit Forest, or simply soaking in the island’s untouched beauty. Leave the mundane behind and rediscover life’s simple joys in this coastal utopia. \n\nLive in Harmony with Nature Cultivate tropical fruits and vegetables on your own farm, nurture bonds with charming animals, and design a unique countryside villa tailored to the island’s terrain. Decorate cascading terrace gardens and shape the island’s landscape—every corner invites your creativity and stewardship. \n\nFreedom to Roam, Thrills to Claim Glide on a longboard along pristine coastlines, zip through lush forests on a retro scooter, or sail to uncover neighboring islands’ secrets. With a diverse range of vehicles, embrace the joy of speed—or cruise the iconic coastal highway to witness breathtaking vistas at your own pace. \n\nHeartwarming Bonds with Islanders In this close-knit community, every resident has a story to tell. Forge lasting friendships through daily interactions and special quests. As connections deepen, you might even find that special someone to share your island life with. \n\nUncover the Island’s Mysteries Venture into fog-shrouded depths where ancient ruins, rare treasures, and hidden mineral veins await. Wield an arsenal of weapons, master combat skills, and face off against bizarre creatures—each battle promises unexpected surprises and rewards.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.1686.14098133702783854.4657bc1d-896a-4931-b731-70b0997a79a9.ffd13371-12ed-452a-8d76-f7328dd84602",
+      "description": "Escape the Urban Grind to Starsand Island - Your Island Paradise Awaits! Tired of the hustle and bustle? Return to the tranquil embrace of Starsand Island, a gem hailed as the \"Star of the Deep Sea.\" Here, immerse yourself in a serene pastoral lifestyle: slow-paced days spent bonding with adorable capybaras, cats, and dogs, savoring the thrill of bountiful fishing, exploring the mystical Moonlit Forest, or simply soaking in the island’s untouched beauty. Leave the mundane behind and rediscover life’s simple joys in this coastal utopia. \n\nLive in Harmony with Nature Cultivate tropical fruits and vegetables on your own farm, nurture bonds with charming animals, and design a unique countryside villa tailored to the island’s terrain. Decorate cascading terrace gardens and shape the island’s landscape—every corner invites your creativity and stewardship. \n\nFreedom to Roam, Thrills to Claim Glide on a longboard along pristine coastlines, zip through lush forests on a retro scooter, or sail to uncover neighboring islands’ secrets. With a diverse range of vehicles, embrace the joy of speed—or cruise the iconic coastal highway to witness breathtaking vistas at your own pace. \n\nHeartwarming Bonds with Islanders In this close-knit community, every resident has a story to tell. Forge lasting friendships through daily interactions and special quests. As connections deepen, you might even find that special someone to share your island life with. \n\nUncover the Island’s Mysteries Venture into fog-shrouded depths where ancient ruins, rare treasures, and hidden mineral veins await. Wield an arsenal of weapons, master combat skills, and face off against bizarre creatures—each battle promises unexpected surprises and rewards.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.60211.14098133702783854.46a1fda2-36c3-4396-94aa-a5ad05b760ae.27e41b2b-7801-43b5-bcea-21add889e808",
       "originalPrice": 1385,
       "discountPrice": 1108,
       "discountPercent": 20,
