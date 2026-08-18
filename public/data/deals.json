@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T17:22:59.281Z",
+  "lastUpdated": "2026-08-18T18:32:40.392Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -52,6 +52,18 @@
   ],
   "steam": [
     {
+      "id": "1575990",
+      "title": "Twisted Tower",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1575990/6d22ef43152b22ddeaf1a27c00c5aaacec12e96e/capsule_616x353.jpg?t=1787070748",
+      "originalPrice": 369,
+      "discountPrice": 332,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1575990",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "2358720",
       "title": "Black Myth: Wukong",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
@@ -88,18 +100,6 @@
       "isPopular": false
     },
     {
-      "id": "1167630",
-      "title": "Teardown",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167630/99378935f9e2cbcbc41fd13788a7868ca4c86638/capsule_616x353_alt_assets_7.jpg?t=1786967199",
-      "originalPrice": 649,
-      "discountPrice": 324,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1167630",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3849000",
       "title": "The Lantern of the Laughless Saint",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/947a4e9cdaef5f5709919cbec4040a973d35f15f/capsule_616x353.jpg?t=1786975870",
@@ -124,6 +124,18 @@
       "isPopular": false
     },
     {
+      "id": "1167630",
+      "title": "Teardown",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167630/99378935f9e2cbcbc41fd13788a7868ca4c86638/capsule_616x353_alt_assets_7.jpg?t=1786967199",
+      "originalPrice": 649,
+      "discountPrice": 324,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1167630",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "694280",
       "title": "Zombie Army 4: Dead War",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/capsule_616x353.jpg?t=1786965015",
@@ -144,18 +156,6 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1643320",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2552430",
-      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2552430",
       "isSpecial": true,
       "isPopular": false
     },
@@ -196,14 +196,14 @@
       "isPopular": true
     },
     {
-      "id": "1478500",
-      "title": "Big Walk",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
-      "originalPrice": 449,
-      "discountPrice": 449,
+      "id": "1867240",
+      "title": "WARDOGS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1786467028",
+      "originalPrice": 829,
+      "discountPrice": 829,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1478500",
+      "url": "https://store.steampowered.com/app/1867240",
       "isSpecial": false,
       "isPopular": true
     },
@@ -220,38 +220,26 @@
       "isPopular": true
     },
     {
-      "id": "1867240",
-      "title": "WARDOGS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1786467028",
-      "originalPrice": 829,
-      "discountPrice": 829,
+      "id": "1478500",
+      "title": "Big Walk",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
+      "originalPrice": 449,
+      "discountPrice": 449,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1867240",
+      "url": "https://store.steampowered.com/app/1478500",
       "isSpecial": false,
       "isPopular": true
     },
     {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/b233cb6e95308a74fb8dac2cfc1c1cfcf14a20d5/capsule_616x353_alt_assets_3.jpg?t=1786470571",
-      "originalPrice": 159,
-      "discountPrice": 159,
-      "discountPercent": 0,
+      "id": "292000",
+      "title": "No More Room in Hell 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/94b08f4c14af35673ec562dc3534282aa401ba06/capsule_616x353_alt_assets_10.jpg?t=1786638024",
+      "originalPrice": 600,
+      "discountPrice": 390,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d83658e07ce4a822676708770ff420d128ce119f/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1787071126",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
+      "url": "https://store.steampowered.com/app/292000",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10854,6 +10842,20 @@
       "percent": 50,
       "timestamp": "2026-08-18T16:26:56.067Z",
       "type": "discount"
+    },
+    "steam_discount_1575990": {
+      "title": "Twisted Tower",
+      "price": 332,
+      "percent": 10,
+      "timestamp": "2026-08-18T18:32:35.332Z",
+      "type": "discount"
+    },
+    "steam_popular_1575990": {
+      "title": "Twisted Tower",
+      "price": 332,
+      "percent": 10,
+      "timestamp": "2026-08-18T18:32:35.332Z",
+      "type": "popular"
     }
   }
 }
