@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T23:19:18.803Z",
+  "lastUpdated": "2026-08-18T01:01:08.803Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -100,18 +100,6 @@
       "isPopular": false
     },
     {
-      "id": "2950790",
-      "title": "IRON NEST: Heavy Turret Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786639727",
-      "originalPrice": 299,
-      "discountPrice": 224,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2950790",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2358720",
       "title": "Black Myth: Wukong",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
@@ -124,14 +112,14 @@
       "isPopular": false
     },
     {
-      "id": "2552430",
-      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
+      "id": "2950790",
+      "title": "IRON NEST: Heavy Turret Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786639727",
+      "originalPrice": 299,
+      "discountPrice": 224,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2552430",
+      "url": "https://store.steampowered.com/app/2950790",
       "isSpecial": true,
       "isPopular": false
     },
@@ -144,6 +132,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1643320",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2552430",
+      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2552430",
       "isSpecial": true,
       "isPopular": false
     },
@@ -196,6 +196,18 @@
       "isPopular": true
     },
     {
+      "id": "3079210",
+      "title": "Hell Let Loose: Vietnam",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079210/aeedc94bb7c21f9a4a4e9bb14beca090b36c7db1/capsule_616x353.jpg?t=1786637345",
+      "originalPrice": 810,
+      "discountPrice": 810,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3079210",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "1867240",
       "title": "WARDOGS",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1786467028",
@@ -216,18 +228,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3079210",
-      "title": "Hell Let Loose: Vietnam",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079210/aeedc94bb7c21f9a4a4e9bb14beca090b36c7db1/capsule_616x353.jpg?t=1786637345",
-      "originalPrice": 810,
-      "discountPrice": 810,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3079210",
       "isSpecial": false,
       "isPopular": true
     },
@@ -3326,14 +3326,14 @@
       "description": "УЖЕ ВИЙШЛА — ГРАЙТЕ СЬОГОДНI\nНова основа, з якою ваша футбольна доля буде у ваших руках! Створена на рушії Unity, FM26 — переосмислена спадщина, де ваша історія тренера еволюціонує. \nПереосмислений інтерфейс і ще більш захопливі враження ігрового дня наближають вас до подій та підсилюють кожну вирішальну мить. \nПеребудуйте команду за допомогою сучасних інструментів трансферу та створіть власну філософію футболу завдяки інноваціям і тактичному реалізму, який повністю змінює уявлення про гру.  \n\nЗДОБУДЬТЕ СЛАВУ FIFA WORLD CUP 2026™\nПеремога в найбільшому міжнародному футбольному турнірі — у ваших руках. Не проґавте спеціальну дату старту для FIFA World Cup 2026™ та випробуйте нові інструменти керування національними збірними, а також автентичну ліцензовану телевізійну графіку, брендинг турніру, офіційні м’ячі й форму.\n\nНАЙЯСКРАВІШІ ВРАЖЕННЯ ВІД МАТЧУ \nНасолоджуйтеся найнасиченішими враженнями ігрового дня в історії серії — поліпшений рух гравців і ще більша деталізація на полі додають кожному матчу нових рівнів глибини та драматизму.  \nВідчуйте адреналін стрімкого ривка з дриблінгом, ювелірного проникаючого пасу й незабутнього переможного гола на останніх секундах — із більшою виразністю завдяки оновленому захопленню руху та об’ємній анімації.\n\nПРЕМ’ЄР-ЛІГА ВСТУПАЄ В БІЙ  \nПрем’єр-ліга чекає на вас! Досягайте вершин англійського футболу та отримуйте повністю ліцензовані клубні значки, форму й офіційні фотографії гравців. \nНовий рівень автентичності. Ви змагаєтеся за головний приз у вітчизняному футболі — ніби перебуваєте на трибунах стадіону.  \n\nПОЛІПШЕННЯ ТАКТИКИ\nВізьміть під безпрецедентний контроль стиль гри команди на всіх ділянках поля — завдяки запровадженню окремих розстановок для гри у володінні м’ячем і без нього.\nОновлені ролі гравців і динамічний візуалізатор, що показує, як команда перешиковується в різних сценаріях, виводять вашу передматчеву підготовку на новий рівень — з матчу в матч.\n\nТОТАЛЬНИЙ ФУТБОЛ, ТОТАЛЬНИЙ КОНТРОЛЬ  \nКардинально оновлений інтерфейс, створений для сучасного тренера, додає ясності й плавності кожній взаємодії — а новий Портал стане вашим провідником у великий футбольний світ. \nНалаштуйте гру під власні пріоритети з появою «Закладок швидких посилань», а про прекрасну гру дізнавайтеся більше завдяки оновленому пошуку та новому глосарію FMPedia. \n\nПРЕДСТАВЛЯЄМО: ЖІНОЧИЙ ФУТБОЛ   \nВідкрийте для себе новий світ можливостей, адже жіночий футбол бездоганно дебютував і ввійшов у світ FM. \nЗ 14 доступними лігами з 11 країн, зокрема Women’s Super League та National Women’s Soccer League, у кожній кар’єрі на вас чекають нові виклики й нові таланти.\n\nІНСТРУМЕНТИ ПЕРЕВЕДЕННЯ ГРАВЦІВ\nСкористайтеся можливостями TransferRoom™ — розумно вибудовуйте чемпіонські склади із сезону в сезон.\nДекларуйте пріоритети добору у «Вимогах» і дізнавайтеся про потреби суперників напряму завдяки «Цільових пропозицій клубам» — для точнішого контролю над кожним підписанням і продажем.\n\nВАШ ТРЕНЕР — ВАШІ ПРАВИЛА\nВиражайте більше своєї індивідуальності й стилю в кожній кар’єрі — завдяки оновленому редактору тренера. \nСтворіть свій образ в удосконаленому редакторі тренера, а потім пропишіть унікальну передісторію кар’єри — вона по-особливому впливатиме на ваше життя на тренерській лаві.\n\nУ FM26 футбол належить лише вам. Настав час змінити правила гри. \n\nMicrosoft більше не підтримує Windows 10 чи старіші версії\n\n* Через погодження ліцензій не всі комплекти форми команд FIFA World Cup 2026™ будуть доступні на момент запуску цієї функції. Деякі з них можуть бути додані згодом.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.8539.14159410862978133.1c4f3bd5-0a15-470c-8be1-1c69266a4dc3.3d41f085-0cf7-419a-8b62-4b021e6c7527",
       "originalPrice": 2499,
-      "discountPrice": 2499,
-      "discountPercent": 0,
+      "discountPrice": 999.6,
+      "discountPercent": 60,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PD0Z90216RJ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NMNZ4CK59DM",
@@ -3341,14 +3341,14 @@
       "description": "СТВОРІТЬ СВОЮ ТАКТИКУ — ГРАЙТЕ ВЖЕ ЗАРАЗ\nНові можливості творити майбутнє футболу власноруч.\nЗавдяки простому інтуїтивному управлінню з консолі, переробленому інтерфейсу й динамічному ігровому процесу ви будете ближче до ключових моментів матчу.  \n\nЗДОБУДЬТЕ СЛАВУ FIFA WORLD CUP 2026™\nПеремога в найбільшому міжнародному футбольному турнірі — у ваших руках. Не проґавте спеціальну дату старту для FIFA World Cup 2026™ та випробуйте нові інструменти керування національними збірними, а також автентичну ліцензовану телевізійну графіку, брендинг турніру, офіційні м’ячі й форму.\n\nРОЗРОБЛЕНО НА UNITY\nНасолоджуйтеся найяскравішими враженнями від серії з оновленою графікою та деталями на полі!\nАтаки виразніші завдяки оновленому захопленню руху та об’ємним анімаціям, а нові швидкі команди на контролері між ключовими епізодами дають змогу оперативно коригувати тактику з бровки. \n\nЛАСКАВО ПРОСИМО ДО ПРЕМ’ЄР-ЛІГИ \nПориньте у світ Прем’єр-ліги, вперше повністю ліцензованої.\nНовий рівень автентичності: ТВ-подача й ракурс найкращого місця ведуть до головного трофея.  \n\nПОЛІПШЕННЯ ТАКТИКИ\nОпануйте сучасну тактику з новими формаціями для гри з м’ячем і без м’яча. \nОновлені ролі й візуалізація фаз гри підіймуть передматчеву підготовку на новий рівень.\n\nЩЕ БЛИЖЧЕ ДО ГРИ  \nОновлений інтерфейс: навігація на консолях плавніша й розумніша. Плануйте у своєму темпі: ключова інформація з’являється вчасно й там, де треба, завдяки новому «Порталу» — вашому вікну у світ футболу. \n\nПРЕДСТАВЛЯЄМО: ЖІНОЧИЙ ФУТБОЛ   \nНова сторінка: жіночий футбол дебютує у FM26 та інтегрований в єдиний футбольний світ.\nГрайте в 14 лігах в 11 країнах, від WSL до NWSL, і шукайте таланти в найбільшій ігровій базі жіночого футболу. \n\nІНСТРУМЕНТИ ПЕРЕВЕДЕННЯ ГРАВЦІВ\nВикористовуйте TransferRoom™, онлайн-ринок трансферів, щоб формувати чемпіонські склади з глибшим розумінням ринку.\nПідписуйте й продавайте простіше завдяки вимогам і можливостям. Більше контролю в кожному трансферному вікні.\n\nВАШ ТРЕНЕР — ВАШІ ПРАВИЛА\nБільше індивідуальності у вашій кар’єрі — завдяки оновленому редактору тренера. \nНалаштуйте зовнішність і створіть передісторію кар’єри, унікальну для вашого життя на тренерській лаві.\n\nУ FM26 на консолях футбол стає вашим проєктом. Настав час змінити правила гри.\n\n* Через погодження ліцензій не всі комплекти форми команд FIFA World Cup 2026™ будуть доступні на момент запуску цієї функції. Деякі з них можуть бути додані згодом.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.18485.13754609462095808.6e939a74-099e-490d-b009-02e7105155bd.57af7efd-c236-4f6c-ad75-9181b7718799",
       "originalPrice": 2499,
-      "discountPrice": 2499,
-      "discountPercent": 0,
+      "discountPrice": 999.6,
+      "discountPercent": 60,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NMNZ4CK59DM",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P82LXD5RH31",
@@ -4556,14 +4556,14 @@
       "description": "МІЦНА ЕМОЦІЙНА ДРАМА\r\nДва легендарних героя, яких звела доля — або ж дещо більш страшне...\r\n\r\nІтібан Касуга, невтомний невдаха, якому вже звично підніматися з самого дна, і Кадзума Кірю, надломлена людина, що доживає свої останні дні.\r\n\r\nПЕРШОКЛАСНИЙ РОЛЬОВИЙ БОЙОВИК\r\nНа вас чекають динамічні атмосферні битви в стилі рольових ігор, де саме поле боя стає зброєю. Бийте ворогів усім, що під руку потрапить!\r\n\r\nНезвичні професії та варіанти персоналізації допоможуть вам підбирати навички героїв під різні ситуації та долати супротивників з допомогою вражаючих прийомів.\r\n\r\nНЕСКІНЧЕННІ ПРИГОДИ\r\nГуляйте по Японії та розважайтесь на Гавайях у масштабній пригоді розміром з Тихий океан.\r\n\r\nЗустрічайте незабутні моменти, унікальні завдання та розваги на кожному кроці.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.43821.14465728597087432.6e0f939a-1434-4a25-b368-df8616b251aa.e3cbf96f-08cb-4fd9-b920-2f4dcbc9dd0c",
       "originalPrice": 1999,
-      "discountPrice": 1999,
-      "discountPercent": 0,
+      "discountPrice": 499.75,
+      "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P00SVGWDJCP",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P1303FCXW6X",
@@ -4571,14 +4571,14 @@
       "description": "У цій незвичній пригоді вас звати Горо Мадзіма, людина в черевиках зі сталевими облямівками, ви втратили пам’ять та стали грозою морів.\n\nВирушайте в захопливу піратську мандрівку разом із капітаном і його корабельною командою, беріть участь у грандіозних битвах на суші й на морі та спробуйте знайти свої втрачені спогади й легендарний скарб.\n\n■ ПІРАТСЬКІ ПРИГОДИ ПІРАТА-ЯКУЗДИ РОЗПОЧИНАЮТЬСЯ!\nГоро Мадзіма, сумнозвісний колишній якудза, зазнає корабельної аварії і опиняється на віддаленому острові в Тихому океані. Не пам'ятаючи навіть власного імені, він відправляється на пошуки втрачених спогадів в супроводі хлопчика на ім’я Ной, який врятував йому життя. Невдовзі вони стають учасниками конфлікту між жорстокими злочинцями, сучасними піратами та іншими негідниками, що прагнуть знайти легендарний скарб.\n\n■ ЗБУДУЙТЕ СВІЙ КОРАБЕЛЬ\nЗберіть власний екіпаж, модернізуйте корабель, досліджуйте безкрайній океан і станьте героєм легенд, сповнених гарматного вогню, несподівано потоваришувань і казкових скарбів.\n\nКоли ворожий піратський корабель наведе на вас свої гармати, у вас буде лише один вибір — вступити в пекельний бій. Швидко маневруйте у вигідну позицію, уникаючи ворожого вогню, а потім завдавайте нищівного удару. Беріть на абордаж підбитий корабель і під час кривавих боїв знищіть капітана і його головорізів. Тепер ви — справжній пірат-якудза! Підкорюйте моря, досліджуйте таємні острови, накопичуйте здобич.\n\n■ ПЕКЕЛЬНІ СТРАТЕГІЧНІ БОЇ\nЗалежно від вашої стратегії чергуйте стилі бою «Скажений пес» і «Пірат», щоб урізноманітнити атаки, застосовувати неочікувані комбо й прийоми, щоб нищити ворога як на морі, так і в повітрі.\n\nСтиль «Скажений пес» відрізняється швидкістю, спритністю і відчуттям бою, що дозволяє наносити точні, потужні удари, які змусять найсильнішого ворога спустити свій прапор.\n\nАбо змусьте ворогів пройти по піратській дошці, використовуючи стиль «Пірат» — озброївшись двома короткими мечами і використовуючи хитрі піратські приладдя.\n\nЦей продукт містить лише гру; є інші видання гри, що містять додатковий матеріал. Певний додатковий матеріал також можна купити окремо.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.4222.14515021988943563.1f3fe501-2a70-4602-ab4f-93c0a60ab77c.2724bbe9-7ef9-4ed4-8f44-2374c58e7cbe",
       "originalPrice": 2199,
-      "discountPrice": 2199,
-      "discountPercent": 0,
+      "discountPrice": 549.75,
+      "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P1303FCXW6X",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PNG83MDD6SH",
@@ -4931,14 +4931,14 @@
       "description": "From light planes to wide body jets to gliders and helicopters, fly highly detailed and accurate aircraft in the Microsoft Flight Simulator 40th Anniversary Edition. The world is at your fingertips.\r\n\r\nMicrosoft Flight Simulator 40th Anniversary Edition features 37 airplanes, gliders, and helicopters with unique flight models, 25 handcrafted airports, 4 classic commercial airports, 14 heliports and 15 glider airports.\r\n\r\nExplore Your World\r\n•\tVivid and Detailed Landscapes - Immerse yourself in the vast and beautiful world that is our planet with over 1.5 billion buildings, 2 trillion trees, mountains, roads, rivers and more.\r\n•\tLiving World - The Earth is vibrant and ever-changing and so is the world of Microsoft Flight Simulator, which includes live traffic, real-time weather, and animals.  \r\n\r\nEarn Your Wings\r\n•\tAircraft - Hone your pilot skills in a variety of aircraft from light planes to commercial jets with comprehensive flight models. Every aircraft includes highly detailed and accurate cockpits with realistic instrumentation.\r\n•\tChecklist System - From pro to beginner, scale your level from full manual to full assist with interactive and highlighted instrument guidance and checklist.\r\n\r\nTest Your Skill\r\n•\tLive Weather -The weather engine enables users to switch on the live weather mode to experience real-time weather including accurate wind speed and direction, temperature, humidity, rain and more.\r\n•\tDay and Night Engine - Experience flight at any time of day or year allowing for night VFR, visual flight rules, navigation.\r\n•\tAerodynamic Modeling - A state-of-the-art physics engine with over 1000 control surfaces per plane allows for a truly realistic experience.\r\n\r\nMicrosoft Flight Simulator has fulfilled the aspirations of aviators worldwide for 40 years. Celebrate the award-winning franchise with the 40th Anniversary Edition, loaded with all-new features, aircraft and content that span the history of aviation. \r\n\r\nThe 40th Anniversary Edition update introduces:\r\n•\t1 true-to-life Airbus A310 Airliner\r\n•\t2 helicopters and 14 heliports\r\n•\t2 gliders and 15 glider airports\r\n•\t7 famous historical aircraft including the Hughes H-4 Hercules (aka the Spruce Goose)\r\n•\t4 classic commercial airports\r\n•\t24 classic missions from the franchise’s past\r\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.31431.14293123921570736.739af26b-0b56-4d3a-8d57-149d26c2cc05.aea30a4c-375a-4431-ab26-ae7ac415f9ad",
       "originalPrice": 1540,
-      "discountPrice": 1540,
-      "discountPercent": 0,
+      "discountPrice": 539,
+      "discountPercent": 65,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PMQDM08SNK9",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P2VGCTBMM52",
@@ -4946,14 +4946,14 @@
       "description": "Видання Standard\nДосліджуйте світ на літаках з нашого найбільшого для видання Standard авіаційного парку та відчуйте, що таке симулятор нового рівня, обравши кар’єру пілота авіації у Microsoft Flight Simulator 2024. Видання Standard включає більш ніж 65 літаків та 150 відтворених вручну аеропортів.\n\nЛітайте з метою\n·       Почніть свою кар’єру авіатора у будь-якій точці світу, що вам до вподоби. Напрацьовуйте досвід, заробляйте собі репутацію та проходьте сертифікації, щоб отримати доступ до реалістичних авіаційних місій — від медичної евакуації, перевезення вантажів до протипожежних вильотів, пошуково-рятувальних операцій та багатьох інших, щоб врешті-решт стати пілотом пасажирських авіаліній. Почніть свій дійсно глобальний шлях в авіацію із практично нескінченним розмаїттям місій по всій планеті.\n·       Змагайтеся з іншими пілотами у абсолютно новому режимі Challenge League або відточуйте свої навички у десятках різних типів Операцій — від захоплюючих Ралі-перегонів та посадок на точність до змагань з польотів на низькій висоті, та багато іншого. Літайте на рівних із реальними суперниками у захоплюючих авіаперегонах Red Bull Air Race та легендарних Reno Air Race, включно з новими маршрутами Roswell.\n·       Станьте фотографом з усіх материків та подорожуйте по всій нашій прекрасній планеті, щоб зберігати на своїх знімках прекрасні природні краєвиди, відвідуйте знамениті природні дива та рукотворні пам’ятки — і закарбовуйте згадки про ці пригоди в фотографіях вашого туристичного щоденника. Унікальні фотографічні завдання та конкурси випробують ваше почуття краси одночасно з навичками пілотування, коли ви намагатиметесь створити та зафіксувати у кадрі прекрасну мить.\n\nВдосконалена симуляція\n·       Покращена система фізичного моделювання підтримує 10000+ поверхонь жорстких тіл, що забезпечує симуляцію літальних апаратів будь-якої форми. Фізика м’яких тіл підтримує тканини, мотузки, повітряні кулі та інші типи об’єктів. Покращена обробка наземних та водних поверхонь додатково підвищує реалізм.\n·       Нові, відтворені з високою точністю системи літальних апаратів включають електричну, пневматичну, паливну та гідравлічну системи, корисне навантаження та системи забезпечення життєдіяльності пасажирів, а також системи авіоніки, як-от Universal UNS-1 FMS та Honeywell Primus Epic 2. Ефект занурення посилюється завдяки виконанню передполітних перевірок та оглядів.\n·       Плануйте польоти у принципово новому планувальнику польотів, що підтримує і шар IFR, і шар VFR карти, схеми польотів IFR, планування маршрутів, планування палива та корисного навантаження, планування вертикального профілю польотів та планування ETOPS. Він також надає інформацію з аеропортів, включно з даними про погоду та сповіщеннями NOTAMS, яка доступна як всередині симуляції, так і на мобільних пристроях чи веб-браузерах, щоб планувати політ можна було поза симулятором.\n\nДосліджуйте нашу цифрову репліку Землі у вражаючій якості\n·       Досліджуйте нашу найбільш деталізовану репліку планети Земля на поточний день. Покращені цифрові карти висот, міста з більш ніж 500 вузлів TIN (нерегулярної триангуляційної мережі) та більш ніж 100 000 квадратних кілометрів поверхні Землі, відзнятих під час фотограмметрії територій, дали змогу створити цифрову репліку вражаюче високої якості. Більш ніж 150 аеропортів, 2000 летовищ для планерів, 10000 вертолітних майданчиків, 2000 визначних місць та 900 нафтовидобувних платформ були кропітко відтворені вручну, а процедурна система відтворює решту 40 000 аеропортів, 80 000 вертолітних майданчиків, 1,5 мільярда будівель та приблизно 3 трильйони дерев на нашій планеті.\n·       Приземляйтеся будь-де, та (уперше в Microsoft Flight Simulator) виходьте зі свого повітряного судна, щоб дослідити 27 біомів високої деталізації з сотнями видів рослинності, динамічно генерованими елементами місцевості, включно з камінням, травою та квітами — які змінюються за порами року. Цілком нова фотометрична система освітленості відтворює світ більш точно, ніж будь-коли раніше, а розширені погодні елементи, як-от нові типи хмар, північного сяйва та інші погодні феномени створюють новітні та переконливі візуальні враження. \n·       Світ буквально оживає завдяки розмаїттю наземних форм життя у своїх природних середовищах та стадам худоби на вільному вигулі, які можна побачити по всій земній кулі. У океанах, на морських торговельних шляхах вирує жвавий рух, заснований на інтерактивних даних з усього світу про кораблі, від великих танкерів та контейнеровозів до траулерів, буксирів та інших суден. Багате та різноманітне відтворення людства із врахуванням регіональних особливостей «вдихає життя» в аеропорти, повітряні судна та пасажирські салони по всьому світу. Збагачені дані про повітряний рух з реального світу заповнюють небеса, майданчики та ЗПС аеропортів сотнями точно відтворених моделей літаків у десятках офіційно ліцензованих ліврей.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.14580.14550648823552491.458517e5-6b50-4124-b28b-b87004bdb3d1.f9bbe86e-3b76-4300-ad5b-b685c42776cf",
       "originalPrice": 2400,
-      "discountPrice": 2400,
-      "discountPercent": 0,
+      "discountPrice": 1680,
+      "discountPercent": 30,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P2VGCTBMM52",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NC9M1NCZ7SD",
@@ -5891,14 +5891,14 @@
       "description": "Prepare for the award-winning RPG experience in this definitive edition of Persona 5 Royal, featuring a treasure trove of downloadable content included! \r\n\r\nForced to transfer to a high school in Tokyo, the protagonist has a strange dream. “You truly are a prisoner of fate. In the near future, ruin awaits you.” With the goal of “rehabilitation” looming overhead, he must save others from distorted desires by donning the mask of a Phantom Thief.\r\n\r\nKey Features include:\r\n-Explore Tokyo, unlock Personas, customize your own personal Thieves Den, experience alternate endings, and more\r\n-Become the ultimate Phantom Thief and defy conventions, discover the power within, and fight for justice in the definitive version of Persona 5 Royal\r\n-Includes over 40 items of previously released downloadable content\r\n-Choose between Japanese and English VO",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.6136.14482474285447263.0a4055ed-9044-4c0c-abf5-292bb1bcb735.3db4c9c4-de15-4e0f-8b4d-1539f8a2ab08",
       "originalPrice": 1799,
-      "discountPrice": 1799,
-      "discountPercent": 0,
+      "discountPrice": 539.7,
+      "discountPercent": 70,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NZDHXL9SJJ8",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P1P5Q3BNM7J",
@@ -7241,14 +7241,14 @@
       "description": "Early Access Notice: Starsand Island is currently in Early Access. The game is still in development, and content and features will be expanded and refined through future updates.\n\nEscape the Urban Grind to Starsand Island - Your Island Paradise Awaits! Tired of the hustle and bustle? Return to the tranquil embrace of Starsand Island, a gem hailed as the \"Star of the Deep Sea.\" Here, immerse yourself in a serene pastoral lifestyle: slow-paced days spent bonding with adorable capybaras, cats, and dogs, savoring the thrill of bountiful fishing, exploring the mystical Moonlit Forest, or simply soaking in the island’s untouched beauty. Leave the mundane behind and rediscover life’s simple joys in this coastal utopia. \n\nLive in Harmony with Nature Cultivate tropical fruits and vegetables on your own farm, nurture bonds with charming animals, and design a unique countryside villa tailored to the island’s terrain. Decorate cascading terrace gardens and shape the island’s landscape—every corner invites your creativity and stewardship. \n\nFreedom to Roam, Thrills to Claim Glide on a longboard along pristine coastlines, zip through lush forests on a retro scooter, or sail to uncover neighboring islands’ secrets. With a diverse range of vehicles, embrace the joy of speed—or cruise the iconic coastal highway to witness breathtaking vistas at your own pace. \n\nHeartwarming Bonds with Islanders In this close-knit community, every resident has a story to tell. Forge lasting friendships through daily interactions and special quests. As connections deepen, you might even find that special someone to share your island life with. \n\nUncover the Island’s Mysteries Venture into fog-shrouded depths where ancient ruins, rare treasures, and hidden mineral veins await. Wield an arsenal of weapons, master combat skills, and face off against bizarre creatures—each battle promises unexpected surprises and rewards.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.1686.14098133702783854.4657bc1d-896a-4931-b731-70b0997a79a9.ffd13371-12ed-452a-8d76-f7328dd84602",
       "originalPrice": 1385,
-      "discountPrice": 1385,
-      "discountPercent": 0,
+      "discountPrice": 1108,
+      "discountPercent": 20,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P86LLDCL5CC",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NTZH69PZSH0",
