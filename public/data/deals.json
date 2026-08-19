@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T20:22:17.246Z",
+  "lastUpdated": "2026-08-19T21:21:27.593Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -61,7 +61,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4315040",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "2950790",
@@ -76,18 +76,6 @@
       "isPopular": false
     },
     {
-      "id": "4026250",
-      "title": "Project P.I.T.T.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787152354",
-      "originalPrice": 230,
-      "discountPrice": 195,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4026250",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2358720",
       "title": "Black Myth: Wukong",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
@@ -96,6 +84,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2358720",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4026250",
+      "title": "Project P.I.T.T.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787152354",
+      "originalPrice": 230,
+      "discountPrice": 195,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4026250",
       "isSpecial": true,
       "isPopular": false
     },
@@ -136,6 +136,18 @@
       "isPopular": false
     },
     {
+      "id": "227300",
+      "title": "Euro Truck Simulator 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1785394779",
+      "originalPrice": 400,
+      "discountPrice": 100,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/227300",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2523770",
       "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
@@ -148,26 +160,14 @@
       "isPopular": false
     },
     {
-      "id": "694280",
-      "title": "Zombie Army 4: Dead War",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/capsule_616x353.jpg?t=1786965015",
-      "originalPrice": 925,
-      "discountPrice": 46,
-      "discountPercent": 95,
+      "id": "3849000",
+      "title": "The Lantern of the Laughless Saint",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/947a4e9cdaef5f5709919cbec4040a973d35f15f/capsule_616x353.jpg?t=1786975870",
+      "originalPrice": 430,
+      "discountPrice": 387,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/694280",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1643320",
-      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/9a8e16d21fc4e6e15e204fcd14626dabcc77c6a1/capsule_616x353.jpg?t=1787159375",
-      "originalPrice": 1399,
-      "discountPrice": 979,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1643320",
+      "url": "https://store.steampowered.com/app/3849000",
       "isSpecial": true,
       "isPopular": false
     },
@@ -216,6 +216,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1867240",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "292000",
+      "title": "No More Room in Hell 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/15efd97ad74787a9873f413970d84e758436c23c/capsule_616x353.jpg?t=1786638024",
+      "originalPrice": 600,
+      "discountPrice": 390,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/292000",
       "isSpecial": false,
       "isPopular": true
     }
@@ -9133,13 +9145,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_588030": {
-      "title": "Derail Valley",
-      "price": 574,
-      "percent": 25,
-      "timestamp": "2026-07-20T21:08:45.659Z",
-      "type": "discount"
-    },
     "steam_popular_2806050": {
       "title": "Halo: Campaign Evolved",
       "price": 1999,
@@ -10840,6 +10845,13 @@
       "percent": 10,
       "timestamp": "2026-08-19T18:29:19.107Z",
       "type": "popular"
+    },
+    "steam_discount_227300": {
+      "title": "Euro Truck Simulator 2",
+      "price": 100,
+      "percent": 75,
+      "timestamp": "2026-08-19T21:21:22.615Z",
+      "type": "discount"
     }
   }
 }
