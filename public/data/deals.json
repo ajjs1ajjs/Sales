@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T12:38:53.223Z",
+  "lastUpdated": "2026-08-19T13:41:09.700Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -148,6 +148,18 @@
       "isPopular": false
     },
     {
+      "id": "4164790",
+      "title": "Survival Log",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/86dac5064f382a0eed3e5144757725701e32072f/capsule_616x353.jpg?t=1786539085",
+      "originalPrice": 255,
+      "discountPrice": 216,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4164790",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1067360",
       "title": "Pax Autocratica",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786694191",
@@ -156,18 +168,6 @@
       "discountPercent": 17,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1067360",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2523770",
-      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
-      "originalPrice": 415,
-      "discountPrice": 373,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2523770",
       "isSpecial": true,
       "isPopular": false
     },
@@ -186,7 +186,7 @@
     {
       "id": "2584270",
       "title": "Mortal Shell II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1787083092",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1787146410",
       "originalPrice": 1449,
       "discountPrice": 1449,
       "discountPercent": 0,
@@ -10865,6 +10865,13 @@
       "price": 252,
       "percent": 50,
       "timestamp": "2026-08-19T06:38:04.997Z",
+      "type": "discount"
+    },
+    "steam_discount_4164790": {
+      "title": "Survival Log",
+      "price": 216,
+      "percent": 15,
+      "timestamp": "2026-08-19T13:41:02.884Z",
       "type": "discount"
     }
   }
