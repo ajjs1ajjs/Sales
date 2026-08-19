@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T04:33:05.157Z",
+  "lastUpdated": "2026-08-19T05:26:07.360Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -64,26 +64,14 @@
       "isPopular": false
     },
     {
-      "id": "3849000",
-      "title": "The Lantern of the Laughless Saint",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/947a4e9cdaef5f5709919cbec4040a973d35f15f/capsule_616x353.jpg?t=1786975870",
-      "originalPrice": 430,
-      "discountPrice": 387,
-      "discountPercent": 10,
+      "id": "1771300",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
+      "originalPrice": 1599,
+      "discountPrice": 639,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3849000",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1575990",
-      "title": "Twisted Tower",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1575990/6d22ef43152b22ddeaf1a27c00c5aaacec12e96e/capsule_616x353.jpg?t=1787070748",
-      "originalPrice": 369,
-      "discountPrice": 332,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1575990",
+      "url": "https://store.steampowered.com/app/1771300",
       "isSpecial": true,
       "isPopular": false
     },
@@ -100,14 +88,14 @@
       "isPopular": false
     },
     {
-      "id": "1771300",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
-      "originalPrice": 1599,
-      "discountPrice": 639,
-      "discountPercent": 60,
+      "id": "3849000",
+      "title": "The Lantern of the Laughless Saint",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/947a4e9cdaef5f5709919cbec4040a973d35f15f/capsule_616x353.jpg?t=1786975870",
+      "originalPrice": 430,
+      "discountPrice": 387,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1771300",
+      "url": "https://store.steampowered.com/app/3849000",
       "isSpecial": true,
       "isPopular": false
     },
@@ -120,6 +108,18 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2552430",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1575990",
+      "title": "Twisted Tower",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1575990/6d22ef43152b22ddeaf1a27c00c5aaacec12e96e/capsule_616x353.jpg?t=1787070748",
+      "originalPrice": 369,
+      "discountPrice": 332,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1575990",
       "isSpecial": true,
       "isPopular": false
     },
@@ -208,6 +208,18 @@
       "isPopular": true
     },
     {
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1786515952",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "292000",
       "title": "No More Room in Hell 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/94b08f4c14af35673ec562dc3534282aa401ba06/capsule_616x353_alt_assets_10.jpg?t=1786638024",
@@ -228,18 +240,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1786515952",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isPopular": true
     }
