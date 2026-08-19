@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T01:02:05.173Z",
+  "lastUpdated": "2026-08-19T02:53:41.155Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -52,6 +52,18 @@
   ],
   "steam": [
     {
+      "id": "2358720",
+      "title": "Black Myth: Wukong",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
+      "originalPrice": 1699,
+      "discountPrice": 1189,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2358720",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3849000",
       "title": "The Lantern of the Laughless Saint",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/947a4e9cdaef5f5709919cbec4040a973d35f15f/capsule_616x353.jpg?t=1786975870",
@@ -64,14 +76,14 @@
       "isPopular": false
     },
     {
-      "id": "2358720",
-      "title": "Black Myth: Wukong",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
-      "originalPrice": 1699,
-      "discountPrice": 1189,
-      "discountPercent": 30,
+      "id": "2950790",
+      "title": "IRON NEST: Heavy Turret Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786639727",
+      "originalPrice": 299,
+      "discountPrice": 224,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2358720",
+      "url": "https://store.steampowered.com/app/2950790",
       "isSpecial": true,
       "isPopular": false
     },
@@ -100,18 +112,6 @@
       "isPopular": false
     },
     {
-      "id": "2950790",
-      "title": "IRON NEST: Heavy Turret Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786639727",
-      "originalPrice": 299,
-      "discountPrice": 224,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2950790",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2552430",
       "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
@@ -124,14 +124,14 @@
       "isPopular": false
     },
     {
-      "id": "2764460",
-      "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
-      "originalPrice": 199,
-      "discountPrice": 129,
-      "discountPercent": 35,
+      "id": "694280",
+      "title": "Zombie Army 4: Dead War",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/capsule_616x353.jpg?t=1786965015",
+      "originalPrice": 925,
+      "discountPrice": 46,
+      "discountPercent": 95,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2764460",
+      "url": "https://store.steampowered.com/app/694280",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,14 +148,14 @@
       "isPopular": false
     },
     {
-      "id": "694280",
-      "title": "Zombie Army 4: Dead War",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/capsule_616x353.jpg?t=1786965015",
-      "originalPrice": 925,
-      "discountPrice": 46,
-      "discountPercent": 95,
+      "id": "2764460",
+      "title": "Sandustry",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
+      "originalPrice": 199,
+      "discountPrice": 129,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/694280",
+      "url": "https://store.steampowered.com/app/2764460",
       "isSpecial": true,
       "isPopular": false
     },
@@ -208,18 +208,6 @@
       "isPopular": true
     },
     {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d83658e07ce4a822676708770ff420d128ce119f/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1787071126",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
@@ -228,6 +216,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d83658e07ce4a822676708770ff420d128ce119f/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1787071126",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435490",
       "isSpecial": false,
       "isPopular": true
     },
@@ -8496,6 +8496,21 @@
       "isDiscounted": false
     },
     {
+      "id": "9N5VHX8KMVNV",
+      "title": "Vapor World: Over The Mind (Game Preview)",
+      "description": "Lost in darkness, a boy drawn into a twisted dream, no way out. Vapor World: Over The Mind is a narrative-driven souls-like platformer focused on deflection combat, set in a vast atmospheric dreamscape painted entirely by hand.\n\n\nMemory lost, a boy caught in a dark past. Nightmares bloomed from that past drag him deeper into darkness. The only way back to reality stands sealed before him. Lindsey, veiled keeper of dreams, tells him the door will open only when the dreams of those swallowed by trauma are gathered. Across the unfolding nightmare, the journey back to reality begins.\n\n\nFACE THE NIGHTMARE\nDefeat the Traumas, mighty bosses that haunt this world, and their offspring Seeds. Overcome each challenging battle and draw in the strength of every creature you break open.\n\n\nEXPLORE A MIND SHAPED BY SORROW AND REGRET\nThis dark dreamworld sprawls vast and unknowable, held together by a force beyond understanding. Recall each lost fragment and press deeper into the darkness. Push heavy obstacles aside, climb hidden ladders, and discover new abilities along the way.\n\n\nUNRAVEL THE DARKEST DREAM AND FACE THE HIDDEN TRUTH\nEvery fragment you recall brings forgotten memories closer to the surface. Descend through a dream filled with unimaginable dangers, and uncover the secrets veiled at its core.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.40314.14026248854300725.24c1a503-6f14-4fc7-a295-1bcfe3194519.f5ac1f11-b961-47b7-bbbc-d42d6fd01ce4",
+      "originalPrice": 525,
+      "discountPrice": 525,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9N5VHX8KMVNV",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
       "id": "9NJ5WV40PD08",
       "title": "Visions of Mana",
       "description": "Visions of Mana — нова гра в цій серії, сюжет якої обертається навколо священного меча й мани. \nГоловний герой Валь і його подруга дитинства Хінна, новопризначена «альма» вогню, вирушають у подорож до Дерева Мани. \n\nНа яскравих і величезних просторах гри ви зустрінете чарівних, але лютих монстрів, з якими зможете брати участь у стрімких тривимірних боях з використанням сили елементалів. \nЧерез пригоди з друзями, яких вони зустрічають на своєму шляху, вони починають бачити правду про цей світ. \nЧи повинні ми змиритися зі своєю долею? \nТут починається нова історія Mana, а класична фентезійна серія повертається до свого коріння. \n\n▸ Соковита графіка, сповнена характерного стилю Mana \nГерої мандрують яскравим світом, населеним духами. \n▸ Досліджуйте світ \nДосліджуйте величезний напіввідкритий світ, що простягається так далеко, як тільки може бачити око. Швидко та безпечно подорожуйте довкіллям із новими супутниками — пікулами. \n▸ Використовуйте силу елементалів \nУ цій грі ви будете битися з ворогами, використовуючи зброю, яка містить силу елементалів. Перемикайтеся між різними класами й персонажами відповідно до вашого стилю гри та насолоджуйтеся боєм, який еволюціонував як у тривимірному, так і в стратегічному плані. \n▸ Захопливий саундтрек \n100 музичних композицій від талановитої команди творців, які працювали над незліченною кількістю треків у різних іграх серії. У відкритих зонах грає інтерактивна музика, яка підвищує настрій на пригоди. ",
@@ -10856,6 +10871,13 @@
       "percent": 10,
       "timestamp": "2026-08-18T18:32:35.332Z",
       "type": "popular"
+    },
+    "xbox_new_9N5VHX8KMVNV": {
+      "title": "Vapor World: Over The Mind (Game Preview)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-19T02:53:34.101Z",
+      "type": "xbox_new"
     }
   }
 }
