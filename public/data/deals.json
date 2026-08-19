@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T15:27:12.125Z",
+  "lastUpdated": "2026-08-19T16:27:06.728Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -64,6 +64,18 @@
       "isPopular": false
     },
     {
+      "id": "2764460",
+      "title": "Sandustry",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
+      "originalPrice": 199,
+      "discountPrice": 129,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2764460",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1771300",
       "title": "Kingdom Come: Deliverance II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
@@ -88,18 +100,6 @@
       "isPopular": false
     },
     {
-      "id": "2764460",
-      "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
-      "originalPrice": 199,
-      "discountPrice": 129,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2764460",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "694280",
       "title": "Zombie Army 4: Dead War",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/capsule_616x353.jpg?t=1786965015",
@@ -108,18 +108,6 @@
       "discountPercent": 95,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/694280",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1575990",
-      "title": "Twisted Tower",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1575990/6d22ef43152b22ddeaf1a27c00c5aaacec12e96e/capsule_616x353.jpg?t=1787070748",
-      "originalPrice": 369,
-      "discountPrice": 332,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1575990",
       "isSpecial": true,
       "isPopular": false
     },
@@ -136,6 +124,18 @@
       "isPopular": false
     },
     {
+      "id": "1575990",
+      "title": "Twisted Tower",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1575990/6d22ef43152b22ddeaf1a27c00c5aaacec12e96e/capsule_616x353.jpg?t=1787070748",
+      "originalPrice": 369,
+      "discountPrice": 332,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1575990",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1067360",
       "title": "Pax Autocratica",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786694191",
@@ -144,30 +144,6 @@
       "discountPercent": 17,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1067360",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1672970",
-      "title": "Minecraft Dungeons",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1672970/capsule_616x353.jpg?t=1787063807",
-      "originalPrice": 505,
-      "discountPrice": 252,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1672970",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1643320",
-      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/9a8e16d21fc4e6e15e204fcd14626dabcc77c6a1/capsule_616x353.jpg?t=1787151675",
-      "originalPrice": 1399,
-      "discountPrice": 979,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1643320",
       "isSpecial": true,
       "isPopular": false
     },
@@ -196,18 +172,6 @@
       "isPopular": true
     },
     {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1787142639",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d83658e07ce4a822676708770ff420d128ce119f/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1787071126",
@@ -216,6 +180,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1787142639",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isPopular": true
     },
