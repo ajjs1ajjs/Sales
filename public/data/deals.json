@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T05:26:07.360Z",
+  "lastUpdated": "2026-08-19T06:38:11.488Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -148,6 +148,18 @@
       "isPopular": false
     },
     {
+      "id": "1672970",
+      "title": "Minecraft Dungeons",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1672970/capsule_616x353.jpg?t=1787063807",
+      "originalPrice": 505,
+      "discountPrice": 252,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1672970",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1067360",
       "title": "Pax Autocratica",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786694191",
@@ -156,18 +168,6 @@
       "discountPercent": 17,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1067360",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2523770",
-      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
-      "originalPrice": 415,
-      "discountPrice": 373,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2523770",
       "isSpecial": true,
       "isPopular": false
     },
@@ -192,18 +192,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2584270",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     },
@@ -240,6 +228,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10878,6 +10878,13 @@
       "percent": 0,
       "timestamp": "2026-08-19T02:53:34.101Z",
       "type": "xbox_new"
+    },
+    "steam_discount_1672970": {
+      "title": "Minecraft Dungeons",
+      "price": 252,
+      "percent": 50,
+      "timestamp": "2026-08-19T06:38:04.997Z",
+      "type": "discount"
     }
   }
 }
