@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T17:23:01.476Z",
+  "lastUpdated": "2026-08-19T18:29:24.528Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -52,6 +52,18 @@
   ],
   "steam": [
     {
+      "id": "4315040",
+      "title": "Hearth and Hamlet",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315040/22fe7e4e8f1d659912d4ec8942fc86c3370ba9ad/capsule_616x353.jpg?t=1787157670",
+      "originalPrice": 195,
+      "discountPrice": 175,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4315040",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "2358720",
       "title": "Black Myth: Wukong",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
@@ -60,6 +72,30 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2358720",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4026250",
+      "title": "Project P.I.T.T.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787152354",
+      "originalPrice": 230,
+      "discountPrice": 195,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4026250",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2950790",
+      "title": "IRON NEST: Heavy Turret Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786639727",
+      "originalPrice": 299,
+      "discountPrice": 224,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2950790",
       "isSpecial": true,
       "isPopular": false
     },
@@ -88,14 +124,14 @@
       "isPopular": false
     },
     {
-      "id": "2950790",
-      "title": "IRON NEST: Heavy Turret Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786639727",
-      "originalPrice": 299,
-      "discountPrice": 224,
-      "discountPercent": 25,
+      "id": "2552430",
+      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2950790",
+      "url": "https://store.steampowered.com/app/2552430",
       "isSpecial": true,
       "isPopular": false
     },
@@ -112,18 +148,6 @@
       "isPopular": false
     },
     {
-      "id": "2552430",
-      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2552430",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2523770",
       "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
@@ -132,30 +156,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2523770",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1067360",
-      "title": "Pax Autocratica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786694191",
-      "originalPrice": 620,
-      "discountPrice": 515,
-      "discountPercent": 17,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1067360",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1643320",
-      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/9a8e16d21fc4e6e15e204fcd14626dabcc77c6a1/capsule_616x353.jpg?t=1787159375",
-      "originalPrice": 1399,
-      "discountPrice": 979,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1643320",
       "isSpecial": true,
       "isPopular": false
     },
@@ -186,7 +186,7 @@
     {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d83658e07ce4a822676708770ff420d128ce119f/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1787071126",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d83658e07ce4a822676708770ff420d128ce119f/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1787160683",
       "originalPrice": 2449,
       "discountPrice": 2449,
       "discountPercent": 0,
@@ -204,18 +204,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1867240",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1787142639",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isPopular": true
     }
@@ -9133,34 +9121,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_2936290": {
-      "title": "The Life and Suffering of Prince Jerian",
-      "price": 416,
-      "percent": 15,
-      "timestamp": "2026-07-20T17:58:24.028Z",
-      "type": "discount"
-    },
-    "steam_discount_4252290": {
-      "title": "Meowgic",
-      "price": 98,
-      "percent": 38,
-      "timestamp": "2026-07-20T17:58:24.028Z",
-      "type": "discount"
-    },
-    "steam_popular_1605850": {
-      "title": "ZeroSpace",
-      "price": 688,
-      "percent": 10,
-      "timestamp": "2026-07-20T17:58:24.028Z",
-      "type": "popular"
-    },
-    "steam_popular_3405690": {
-      "title": "EA SPORTS FC™ 26",
-      "price": 459,
-      "percent": 80,
-      "timestamp": "2026-07-20T17:58:24.028Z",
-      "type": "popular"
-    },
     "steam_discount_1605850": {
       "title": "ZeroSpace",
       "price": 688,
@@ -10861,6 +10821,27 @@
       "percent": 15,
       "timestamp": "2026-08-19T13:41:02.884Z",
       "type": "discount"
+    },
+    "steam_discount_4315040": {
+      "title": "Hearth and Hamlet",
+      "price": 175,
+      "percent": 10,
+      "timestamp": "2026-08-19T18:29:19.107Z",
+      "type": "discount"
+    },
+    "steam_discount_4026250": {
+      "title": "Project P.I.T.T.",
+      "price": 195,
+      "percent": 15,
+      "timestamp": "2026-08-19T18:29:19.107Z",
+      "type": "discount"
+    },
+    "steam_popular_4315040": {
+      "title": "Hearth and Hamlet",
+      "price": 175,
+      "percent": 10,
+      "timestamp": "2026-08-19T18:29:19.107Z",
+      "type": "popular"
     }
   }
 }
