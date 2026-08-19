@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T19:21:45.023Z",
+  "lastUpdated": "2026-08-19T20:22:17.246Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -54,7 +54,7 @@
     {
       "id": "4315040",
       "title": "Hearth and Hamlet",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315040/22fe7e4e8f1d659912d4ec8942fc86c3370ba9ad/capsule_616x353.jpg?t=1787157670",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315040/22fe7e4e8f1d659912d4ec8942fc86c3370ba9ad/capsule_616x353.jpg?t=1787170538",
       "originalPrice": 195,
       "discountPrice": 175,
       "discountPercent": 10,
@@ -62,6 +62,18 @@
       "url": "https://store.steampowered.com/app/4315040",
       "isSpecial": true,
       "isPopular": true
+    },
+    {
+      "id": "2950790",
+      "title": "IRON NEST: Heavy Turret Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786639727",
+      "originalPrice": 299,
+      "discountPrice": 224,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2950790",
+      "isSpecial": true,
+      "isPopular": false
     },
     {
       "id": "4026250",
@@ -84,18 +96,6 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2358720",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2950790",
-      "title": "IRON NEST: Heavy Turret Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786639727",
-      "originalPrice": 299,
-      "discountPrice": 224,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2950790",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9133,20 +9133,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_1605850": {
-      "title": "ZeroSpace",
-      "price": 688,
-      "percent": 10,
-      "timestamp": "2026-07-20T19:48:21.505Z",
-      "type": "discount"
-    },
-    "steam_discount_1466060": {
-      "title": "Tainted Grail: The Fall of Avalon",
-      "price": 417,
-      "percent": 50,
-      "timestamp": "2026-07-20T19:48:21.505Z",
-      "type": "discount"
-    },
     "steam_discount_588030": {
       "title": "Derail Valley",
       "price": 574,
