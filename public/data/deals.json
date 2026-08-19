@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T18:29:24.528Z",
+  "lastUpdated": "2026-08-19T19:21:45.023Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -64,18 +64,6 @@
       "isPopular": true
     },
     {
-      "id": "2358720",
-      "title": "Black Myth: Wukong",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
-      "originalPrice": 1699,
-      "discountPrice": 1189,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2358720",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4026250",
       "title": "Project P.I.T.T.",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787152354",
@@ -84,6 +72,18 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4026250",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2358720",
+      "title": "Black Myth: Wukong",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
+      "originalPrice": 1699,
+      "discountPrice": 1189,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2358720",
       "isSpecial": true,
       "isPopular": false
     },
@@ -100,18 +100,6 @@
       "isPopular": false
     },
     {
-      "id": "2764460",
-      "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
-      "originalPrice": 199,
-      "discountPrice": 129,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2764460",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1771300",
       "title": "Kingdom Come: Deliverance II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
@@ -120,6 +108,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1771300",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2764460",
+      "title": "Sandustry",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
+      "originalPrice": 199,
+      "discountPrice": 129,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2764460",
       "isSpecial": true,
       "isPopular": false
     },
@@ -136,6 +136,18 @@
       "isPopular": false
     },
     {
+      "id": "2523770",
+      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
+      "originalPrice": 415,
+      "discountPrice": 373,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2523770",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "694280",
       "title": "Zombie Army 4: Dead War",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/capsule_616x353.jpg?t=1786965015",
@@ -148,14 +160,14 @@
       "isPopular": false
     },
     {
-      "id": "2523770",
-      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
-      "originalPrice": 415,
-      "discountPrice": 373,
-      "discountPercent": 10,
+      "id": "1643320",
+      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/9a8e16d21fc4e6e15e204fcd14626dabcc77c6a1/capsule_616x353.jpg?t=1787159375",
+      "originalPrice": 1399,
+      "discountPrice": 979,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2523770",
+      "url": "https://store.steampowered.com/app/1643320",
       "isSpecial": true,
       "isPopular": false
     },
@@ -8418,7 +8430,7 @@
       "id": "9NKCCHCFTHV2",
       "title": "VALORANT PC",
       "description": "VALORANT is a character-based 5v5 tactical shooter set on the global stage. Outwit, outplay, and outshine your competition with tactical abilities, precise gunplay, and adaptive teamwork.\r\n\r\nDEFY THE LIMITS\r\nBlend your style and experience on a global, competitive stage. You have 13 rounds to attack and defend your side using sharp gunplay and tactical abilities. And, with one life per-round, you'll need to think faster than your opponent if you want to survive. Take on foes across Competitive and Unranked modes as well as Deathmatch and Spike Rush.\r\n\r\nCREATIVITY IS YOUR GREATEST WEAPON\r\nMore than guns and bullets, you’ll choose an Agent armed with adaptive, swift, and lethal abilities that create opportunities to let your gunplay shine. No two Agents play alike, just as no two highlight reels will look the same.\r\n\r\nFIGHT AROUND THE WORLD\r\nEach map is a playground to showcase your creative thinking. Purpose-built for team strategies, spectacular plays, and clutch moments. Make the play others will imitate for years to come.\r\n\r\nWith Game Pass, members will unlock: \r\n●\tAll current Agents \r\n●\tDay-one access to every new Agent as they're released\r\n●\t20% Match XP boost given to Battlepass, Event Pass, and active Agent Contract progress.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.49512.13663857844271189.86bf8848-7dfd-487b-bd91-d633447aeada.72049992-ab3e-48e7-ae71-51ee1e28f60a",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.54027.13663857844271189.41debf59-13e2-4cf9-a53f-e10086983497.be6eb76e-a10b-4bf1-ab95-634452d4509d",
       "originalPrice": 0,
       "discountPrice": 0,
       "discountPercent": 0,
