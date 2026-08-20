@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T10:25:43.629Z",
+  "lastUpdated": "2026-08-20T11:22:57.966Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -114,7 +114,7 @@
     {
       "id": "4026250",
       "title": "Project P.I.T.T.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787152354",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787223275",
       "originalPrice": 230,
       "discountPrice": 195,
       "discountPercent": 15,
@@ -136,26 +136,26 @@
       "isPopular": false
     },
     {
-      "id": "2552430",
-      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
+      "id": "1643320",
+      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/9a8e16d21fc4e6e15e204fcd14626dabcc77c6a1/capsule_616x353.jpg?t=1787223071",
       "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
+      "discountPrice": 979,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2552430",
+      "url": "https://store.steampowered.com/app/1643320",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "2764460",
-      "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
-      "originalPrice": 199,
-      "discountPrice": 129,
-      "discountPercent": 35,
+      "id": "227300",
+      "title": "Euro Truck Simulator 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1785394779",
+      "originalPrice": 400,
+      "discountPrice": 100,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2764460",
+      "url": "https://store.steampowered.com/app/227300",
       "isSpecial": true,
       "isPopular": false
     },
