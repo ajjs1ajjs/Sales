@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T07:38:18.294Z",
+  "lastUpdated": "2026-08-20T08:33:39.729Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -52,6 +52,18 @@
   ],
   "steam": [
     {
+      "id": "4292950",
+      "title": "Shao Song I",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4292950/fb785193068e0ddc9da96c88befa68295d132cb2/capsule_616x353.jpg?t=1787201131",
+      "originalPrice": 335,
+      "discountPrice": 268,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4292950",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "2358720",
       "title": "Black Myth: Wukong",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
@@ -76,18 +88,6 @@
       "isPopular": false
     },
     {
-      "id": "2552430",
-      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2552430",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2950790",
       "title": "IRON NEST: Heavy Turret Simulator",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786639727",
@@ -96,6 +96,18 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2950790",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2552430",
+      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2552430",
       "isSpecial": true,
       "isPopular": false
     },
@@ -124,14 +136,14 @@
       "isPopular": false
     },
     {
-      "id": "4132330",
-      "title": "Pizza House Simulator🍕",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4132330/485a95db23ac26e677c679e890b3480d1c39530a/capsule_616x353.jpg?t=1787166636",
-      "originalPrice": 295,
-      "discountPrice": 221,
-      "discountPercent": 25,
+      "id": "4321510",
+      "title": "With the Devilish Her…",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4321510/30ace3ae604e4d201c6f1def39d79117b198f984/capsule_616x353.jpg?t=1787200233",
+      "originalPrice": 370,
+      "discountPrice": 333,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4132330",
+      "url": "https://store.steampowered.com/app/4321510",
       "isSpecial": true,
       "isPopular": false
     },
@@ -180,18 +192,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2584270",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4292950",
-      "title": "Shao Song I",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4292950/fb785193068e0ddc9da96c88befa68295d132cb2/capsule_616x353.jpg?t=1787201131",
-      "originalPrice": 335,
-      "discountPrice": 268,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4292950",
       "isSpecial": false,
       "isPopular": true
     },
@@ -10833,6 +10833,20 @@
       "percent": 20,
       "timestamp": "2026-08-20T06:39:00.784Z",
       "type": "popular"
+    },
+    "steam_discount_4292950": {
+      "title": "Shao Song I",
+      "price": 268,
+      "percent": 20,
+      "timestamp": "2026-08-20T08:33:30.654Z",
+      "type": "discount"
+    },
+    "steam_discount_4321510": {
+      "title": "With the Devilish Her…",
+      "price": 333,
+      "percent": 10,
+      "timestamp": "2026-08-20T08:33:30.654Z",
+      "type": "discount"
     }
   }
 }
