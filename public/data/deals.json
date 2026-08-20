@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T01:01:57.341Z",
+  "lastUpdated": "2026-08-20T02:53:16.227Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -52,18 +52,6 @@
   ],
   "steam": [
     {
-      "id": "4315040",
-      "title": "Hearth and Hamlet",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315040/22fe7e4e8f1d659912d4ec8942fc86c3370ba9ad/capsule_616x353.jpg?t=1787170538",
-      "originalPrice": 195,
-      "discountPrice": 175,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4315040",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2358720",
       "title": "Black Myth: Wukong",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
@@ -72,18 +60,6 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2358720",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4026250",
-      "title": "Project P.I.T.T.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787152354",
-      "originalPrice": 230,
-      "discountPrice": 195,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4026250",
       "isSpecial": true,
       "isPopular": false
     },
@@ -100,6 +76,30 @@
       "isPopular": false
     },
     {
+      "id": "4315040",
+      "title": "Hearth and Hamlet",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315040/22fe7e4e8f1d659912d4ec8942fc86c3370ba9ad/capsule_616x353.jpg?t=1787170538",
+      "originalPrice": 195,
+      "discountPrice": 175,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4315040",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4026250",
+      "title": "Project P.I.T.T.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787152354",
+      "originalPrice": 230,
+      "discountPrice": 195,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4026250",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2950790",
       "title": "IRON NEST: Heavy Turret Simulator",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786639727",
@@ -108,18 +108,6 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2950790",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3849000",
-      "title": "The Lantern of the Laughless Saint",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/947a4e9cdaef5f5709919cbec4040a973d35f15f/capsule_616x353.jpg?t=1786975870",
-      "originalPrice": 430,
-      "discountPrice": 387,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3849000",
       "isSpecial": true,
       "isPopular": false
     },
@@ -136,6 +124,18 @@
       "isPopular": false
     },
     {
+      "id": "3849000",
+      "title": "The Lantern of the Laughless Saint",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/947a4e9cdaef5f5709919cbec4040a973d35f15f/capsule_616x353.jpg?t=1786975870",
+      "originalPrice": 430,
+      "discountPrice": 387,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3849000",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1067360",
       "title": "Pax Autocratica",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786694191",
@@ -148,18 +148,6 @@
       "isPopular": false
     },
     {
-      "id": "2764460",
-      "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
-      "originalPrice": 199,
-      "discountPrice": 129,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2764460",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2523770",
       "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
@@ -168,6 +156,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2523770",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4132330",
+      "title": "Pizza House Simulator🍕",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4132330/485a95db23ac26e677c679e890b3480d1c39530a/capsule_616x353.jpg?t=1787166636",
+      "originalPrice": 295,
+      "discountPrice": 221,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4132330",
       "isSpecial": true,
       "isPopular": false
     },
@@ -228,6 +228,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1867240",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     }
@@ -9145,20 +9157,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_2050650": {
-      "title": "Resident Evil 4",
-      "price": 300,
-      "percent": 75,
-      "timestamp": "2026-07-21T02:34:46.444Z",
-      "type": "discount"
-    },
-    "xbox_new_9N072VV7MFK7": {
-      "title": "The Planet Crafter",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-21T02:34:46.444Z",
-      "type": "xbox_new"
-    },
     "steam_discount_3764200": {
       "title": "Resident Evil Requiem",
       "price": 1599,
@@ -10845,6 +10843,20 @@
       "percent": 75,
       "timestamp": "2026-08-19T21:21:22.615Z",
       "type": "discount"
+    },
+    "steam_discount_4132330": {
+      "title": "Pizza House Simulator🍕",
+      "price": 221,
+      "percent": 25,
+      "timestamp": "2026-08-20T02:53:11.512Z",
+      "type": "discount"
+    },
+    "xbox_new_9N072VV7MFK7": {
+      "title": "The Planet Crafter",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-20T02:53:11.512Z",
+      "type": "xbox_new"
     }
   }
 }
