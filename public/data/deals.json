@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T12:40:18.152Z",
+  "lastUpdated": "2026-08-20T13:42:50.659Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -73,7 +73,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4292950",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "4315040",
@@ -96,18 +96,6 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2950790",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4321510",
-      "title": "With the Devilish Her…",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4321510/30ace3ae604e4d201c6f1def39d79117b198f984/capsule_616x353.jpg?t=1787215834",
-      "originalPrice": 370,
-      "discountPrice": 333,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4321510",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,6 +136,18 @@
       "isPopular": false
     },
     {
+      "id": "1643320",
+      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787223071",
+      "originalPrice": 1399,
+      "discountPrice": 979,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1643320",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "227300",
       "title": "Euro Truck Simulator 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1785394779",
@@ -160,18 +160,6 @@
       "isPopular": false
     },
     {
-      "id": "2584270",
-      "title": "Mortal Shell II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1787146410",
-      "originalPrice": 1449,
-      "discountPrice": 1449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2584270",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
@@ -180,6 +168,30 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3765020",
+      "title": "S.T.A.L.K.E.R. 2: Cost of Hope",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3765020/c2da57a428f4d0856c80059e655548cc7efaf7c0/capsule_616x353.jpg?t=1787230770",
+      "originalPrice": 699,
+      "discountPrice": 699,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3765020",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2584270",
+      "title": "Mortal Shell II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1787231571",
+      "originalPrice": 1449,
+      "discountPrice": 1449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2584270",
       "isSpecial": false,
       "isPopular": true
     },
@@ -204,6 +216,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1867240",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3065940",
+      "title": "Gallipoli",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/b33077b89ec033f718020a77d5df93b2280485a9/capsule_616x353.jpg?t=1787227986",
+      "originalPrice": 620,
+      "discountPrice": 465,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3065940",
       "isSpecial": false,
       "isPopular": true
     }
@@ -9136,20 +9160,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_3279440": {
-      "title": "Drone Sector",
-      "price": 333,
-      "percent": 10,
-      "timestamp": "2026-07-21T13:40:51.162Z",
-      "type": "discount"
-    },
-    "steam_popular_4600470": {
-      "title": "Battlefield Pro сезону 4— Battlefield™ 6 і REDSEC",
-      "price": 749,
-      "percent": 0,
-      "timestamp": "2026-07-21T13:40:51.162Z",
-      "type": "popular"
-    },
     "xbox_new_9P1VNX9Z03N5": {
       "title": "Anno 1800™",
       "price": 0,
@@ -10857,6 +10867,20 @@
       "percent": 0,
       "timestamp": "2026-08-20T09:30:11.191Z",
       "type": "xbox_new"
+    },
+    "steam_popular_3765020": {
+      "title": "S.T.A.L.K.E.R. 2: Cost of Hope",
+      "price": 699,
+      "percent": 0,
+      "timestamp": "2026-08-20T13:42:42.474Z",
+      "type": "popular"
+    },
+    "steam_popular_3065940": {
+      "title": "Gallipoli",
+      "price": 465,
+      "percent": 25,
+      "timestamp": "2026-08-20T13:42:42.474Z",
+      "type": "popular"
     }
   }
 }
