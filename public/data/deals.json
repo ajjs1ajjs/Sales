@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T09:30:16.746Z",
+  "lastUpdated": "2026-08-20T10:25:43.629Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -52,18 +52,6 @@
   ],
   "steam": [
     {
-      "id": "4292950",
-      "title": "Shao Song I",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4292950/fb785193068e0ddc9da96c88befa68295d132cb2/capsule_616x353.jpg?t=1787201131",
-      "originalPrice": 335,
-      "discountPrice": 268,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4292950",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "2358720",
       "title": "Black Myth: Wukong",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
@@ -74,6 +62,18 @@
       "url": "https://store.steampowered.com/app/2358720",
       "isSpecial": true,
       "isPopular": false
+    },
+    {
+      "id": "4292950",
+      "title": "Shao Song I",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4292950/fb785193068e0ddc9da96c88befa68295d132cb2/capsule_616x353.jpg?t=1787201131",
+      "originalPrice": 335,
+      "discountPrice": 268,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4292950",
+      "isSpecial": true,
+      "isPopular": true
     },
     {
       "id": "4315040",
@@ -124,18 +124,6 @@
       "isPopular": false
     },
     {
-      "id": "2552430",
-      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2552430",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4321510",
       "title": "With the Devilish Her…",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4321510/30ace3ae604e4d201c6f1def39d79117b198f984/capsule_616x353.jpg?t=1787215834",
@@ -148,14 +136,14 @@
       "isPopular": false
     },
     {
-      "id": "694280",
-      "title": "Zombie Army 4: Dead War",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/capsule_616x353.jpg?t=1786965015",
-      "originalPrice": 925,
-      "discountPrice": 46,
-      "discountPercent": 95,
+      "id": "2552430",
+      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/694280",
+      "url": "https://store.steampowered.com/app/2552430",
       "isSpecial": true,
       "isPopular": false
     },
