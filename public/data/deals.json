@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T14:35:23.351Z",
+  "lastUpdated": "2026-08-20T15:29:46.911Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -7,15 +7,15 @@
       "description": "10-year old Jess accidentally gets everybody's favorite collectible card game banned in Dudsdale Elementary - even worse, it’s her first day! But when troubles arise and mutants from the game start to come to life, and it’s up to Jess and her friends to stop them. Become a Meg...",
       "imageUrl": "https://cdn1.epicgames.com/offer/2bfd5ca43ef443739ada168e017e1b78/s1_2560x1440-8d68e37943d666ad0f05093481c4d7df",
       "originalPrice": 339,
-      "discountPrice": 339,
+      "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/cardpocalypse",
       "startDate": "2026-08-20T15:00:00.000Z",
       "endDate": "2026-08-27T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": true,
+      "isFreeNow": true,
+      "isUpcomingFree": false,
       "isDiscounted": false,
-      "discountPercent": 0
+      "discountPercent": 100
     },
     {
       "id": "8401414902e84f2cb9afa9142f051d32",
@@ -34,22 +34,6 @@
       "discountPercent": 0
     },
     {
-      "id": "0e44600a079e419abbb291ccf5af9ee7",
-      "title": "Caravan SandWitch",
-      "description": "Embark on a journey across vast landscapes in Caravan SandWitch, a captivating narrative-driven exploration adventure.",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/95b9a9a220e8483c8c1a70ad692de4b3/caravan-sandwitch-1uz0l.jpg",
-      "originalPrice": 500,
-      "discountPrice": 0,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/caravan-sandwitch-05ff58",
-      "startDate": "2026-08-13T15:00:00.000Z",
-      "endDate": "2026-08-20T15:00:00.000Z",
-      "isFreeNow": true,
-      "isUpcomingFree": false,
-      "isDiscounted": false,
-      "discountPercent": 100
-    },
-    {
       "id": "a802acab90af4a07952a07a9fa677f2f",
       "title": "Epic Mage Bundle",
       "description": "Claim a magical Free Gift valued at more than $55! Enhance your Albion journey with enchanted vanity items, two unique mount skins, and a treasure trove of essential progression rewards.",
@@ -60,8 +44,8 @@
       "url": "https://store.epicgames.com/p/albion-online-7eb24d",
       "startDate": "2026-08-20T15:00:00.000Z",
       "endDate": "2026-08-27T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": true,
+      "isFreeNow": true,
+      "isUpcomingFree": false,
       "isDiscounted": false,
       "discountPercent": 0
     },
@@ -84,6 +68,18 @@
   ],
   "steam": [
     {
+      "id": "4001890",
+      "title": "How to Fish",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/c5ccd85d2910a21019adb2581011ac186741d030/capsule_616x353.jpg?t=1787234618",
+      "originalPrice": 159,
+      "discountPrice": 98,
+      "discountPercent": 38,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4001890",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2358720",
       "title": "Black Myth: Wukong",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
@@ -92,30 +88,6 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2358720",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4292950",
-      "title": "Shao Song I",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4292950/fb785193068e0ddc9da96c88befa68295d132cb2/capsule_616x353.jpg?t=1787201131",
-      "originalPrice": 335,
-      "discountPrice": 268,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4292950",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4315040",
-      "title": "Hearth and Hamlet",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315040/22fe7e4e8f1d659912d4ec8942fc86c3370ba9ad/capsule_616x353.jpg?t=1787170538",
-      "originalPrice": 195,
-      "discountPrice": 175,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4315040",
       "isSpecial": true,
       "isPopular": false
     },
@@ -132,38 +104,14 @@
       "isPopular": false
     },
     {
-      "id": "4026250",
-      "title": "Project P.I.T.T.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787223275",
-      "originalPrice": 230,
-      "discountPrice": 195,
-      "discountPercent": 15,
+      "id": "4315040",
+      "title": "Hearth and Hamlet",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315040/22fe7e4e8f1d659912d4ec8942fc86c3370ba9ad/capsule_616x353.jpg?t=1787170538",
+      "originalPrice": 195,
+      "discountPrice": 175,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4026250",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1771300",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
-      "originalPrice": 1599,
-      "discountPrice": 639,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1771300",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2552430",
-      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2552430",
+      "url": "https://store.steampowered.com/app/4315040",
       "isSpecial": true,
       "isPopular": false
     },
@@ -180,14 +128,62 @@
       "isPopular": false
     },
     {
-      "id": "227300",
-      "title": "Euro Truck Simulator 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1785394779",
-      "originalPrice": 400,
-      "discountPrice": 100,
-      "discountPercent": 75,
+      "id": "4292950",
+      "title": "Shao Song I",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4292950/fb785193068e0ddc9da96c88befa68295d132cb2/capsule_616x353.jpg?t=1787201131",
+      "originalPrice": 335,
+      "discountPrice": 268,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/227300",
+      "url": "https://store.steampowered.com/app/4292950",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4026250",
+      "title": "Project P.I.T.T.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787223275",
+      "originalPrice": 230,
+      "discountPrice": 195,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4026250",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2552430",
+      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2552430",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1771300",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
+      "originalPrice": 1599,
+      "discountPrice": 639,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1771300",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4321510",
+      "title": "With the Devilish Her…",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4321510/30ace3ae604e4d201c6f1def39d79117b198f984/capsule_616x353.jpg?t=1787215834",
+      "originalPrice": 370,
+      "discountPrice": 333,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4321510",
       "isSpecial": true,
       "isPopular": false
     },
@@ -10913,6 +10909,27 @@
       "percent": 25,
       "timestamp": "2026-08-20T13:42:42.474Z",
       "type": "popular"
+    },
+    "epic_free_b467b7d3570e44c0b84e59475f4a5636": {
+      "title": "Cardpocalypse Standard Edition",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-08-20T15:29:38.713Z",
+      "type": "free"
+    },
+    "epic_free_a802acab90af4a07952a07a9fa677f2f": {
+      "title": "Epic Mage Bundle",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-08-20T15:29:38.713Z",
+      "type": "free"
+    },
+    "steam_discount_4001890": {
+      "title": "How to Fish",
+      "price": 98,
+      "percent": 38,
+      "timestamp": "2026-08-20T15:29:38.713Z",
+      "type": "discount"
     }
   }
 }
