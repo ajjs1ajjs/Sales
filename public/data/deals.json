@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T03:42:53.808Z",
+  "lastUpdated": "2026-08-20T04:33:24.224Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -76,6 +76,18 @@
       "isPopular": false
     },
     {
+      "id": "2950790",
+      "title": "IRON NEST: Heavy Turret Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786639727",
+      "originalPrice": 299,
+      "discountPrice": 224,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2950790",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "4315040",
       "title": "Hearth and Hamlet",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315040/22fe7e4e8f1d659912d4ec8942fc86c3370ba9ad/capsule_616x353.jpg?t=1787170538",
@@ -100,18 +112,6 @@
       "isPopular": false
     },
     {
-      "id": "2950790",
-      "title": "IRON NEST: Heavy Turret Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786639727",
-      "originalPrice": 299,
-      "discountPrice": 224,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2950790",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1771300",
       "title": "Kingdom Come: Deliverance II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
@@ -120,18 +120,6 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1771300",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3849000",
-      "title": "The Lantern of the Laughless Saint",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/947a4e9cdaef5f5709919cbec4040a973d35f15f/capsule_616x353.jpg?t=1786975870",
-      "originalPrice": 430,
-      "discountPrice": 387,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3849000",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,14 +136,26 @@
       "isPopular": false
     },
     {
-      "id": "2523770",
-      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
-      "originalPrice": 415,
-      "discountPrice": 373,
+      "id": "694280",
+      "title": "Zombie Army 4: Dead War",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/capsule_616x353.jpg?t=1786965015",
+      "originalPrice": 925,
+      "discountPrice": 46,
+      "discountPercent": 95,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/694280",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3849000",
+      "title": "The Lantern of the Laughless Saint",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/947a4e9cdaef5f5709919cbec4040a973d35f15f/capsule_616x353.jpg?t=1786975870",
+      "originalPrice": 430,
+      "discountPrice": 387,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2523770",
+      "url": "https://store.steampowered.com/app/3849000",
       "isSpecial": true,
       "isPopular": false
     },
@@ -228,18 +228,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1867240",
-      "title": "WARDOGS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1786467028",
-      "originalPrice": 829,
-      "discountPrice": 829,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1867240",
       "isSpecial": false,
       "isPopular": true
     }
@@ -9069,7 +9057,7 @@
       "id": "9P41GS5W1C6L",
       "title": "Wuthering Waves",
       "description": "Wuthering Waves is a story-rich open-world action RPG with a high degree of freedom. You wake from your slumber as Rover, joined by a vibrant cast of Resonators on a journey to reclaim your lost memories and change the world.\n\nWelcome aboard, roving voyager.\nUpon the shores lay the silent embers of a world during the Ebb Tide.\nDesolated by the Lament, the erstwhile creations and earthly beings are left static.\nBut they strike back, strong enough to penetrate the silence.\nHumanity has risen anew from the ashes of the apocalypse. \nAnd you, Rover, are poised for an adventure of Awakening.\nCompanions to meet, enemies to conquer, new powers to gain, hidden truths to unveil, and unseen spectacles to behold... A vast world of endless possibilities awaits. The choice rests in your hands. Be the answer, be the leader, and follow the sounds to arrive at a new future.\nAs Wuthering Waves echo endlessly, mankind set sail on a new journey.\nRise and embark on your odyssey, Rover.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.34545.14597666972638877.4c0fa7d8-85b9-41ec-92d4-4c095a3f069c.8b46ce17-82a4-460e-8efe-a883a7387da6",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.60717.14597666972638877.55b60d16-e509-4234-9639-bf718c9d3da9.bb0685be-dba5-4aa4-8391-71b9d6d41852",
       "originalPrice": 0,
       "discountPrice": 0,
       "discountPercent": 0,
