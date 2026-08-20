@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T05:26:16.456Z",
+  "lastUpdated": "2026-08-20T06:39:08.343Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -124,18 +124,6 @@
       "isPopular": false
     },
     {
-      "id": "694280",
-      "title": "Zombie Army 4: Dead War",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/capsule_616x353.jpg?t=1786965015",
-      "originalPrice": 925,
-      "discountPrice": 46,
-      "discountPercent": 95,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/694280",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4132330",
       "title": "Pizza House Simulator🍕",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4132330/485a95db23ac26e677c679e890b3480d1c39530a/capsule_616x353.jpg?t=1787166636",
@@ -148,14 +136,26 @@
       "isPopular": false
     },
     {
-      "id": "1067360",
-      "title": "Pax Autocratica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786694191",
-      "originalPrice": 620,
-      "discountPrice": 515,
-      "discountPercent": 17,
+      "id": "694280",
+      "title": "Zombie Army 4: Dead War",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/capsule_616x353.jpg?t=1786965015",
+      "originalPrice": 925,
+      "discountPrice": 46,
+      "discountPercent": 95,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1067360",
+      "url": "https://store.steampowered.com/app/694280",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2764460",
+      "title": "Sandustry",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
+      "originalPrice": 199,
+      "discountPrice": 129,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2764460",
       "isSpecial": true,
       "isPopular": false
     },
@@ -196,26 +196,26 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
+      "id": "4292950",
+      "title": "Shao Song I",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4292950/fb785193068e0ddc9da96c88befa68295d132cb2/capsule_616x353.jpg?t=1787201131",
+      "originalPrice": 335,
+      "discountPrice": 268,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
+      "url": "https://store.steampowered.com/app/4292950",
       "isSpecial": false,
       "isPopular": true
     },
     {
-      "id": "292000",
-      "title": "No More Room in Hell 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/15efd97ad74787a9873f413970d84e758436c23c/capsule_616x353.jpg?t=1786638024",
-      "originalPrice": 600,
-      "discountPrice": 390,
-      "discountPercent": 35,
+      "id": "1867240",
+      "title": "WARDOGS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1786467028",
+      "originalPrice": 829,
+      "discountPrice": 829,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/292000",
+      "url": "https://store.steampowered.com/app/1867240",
       "isSpecial": false,
       "isPopular": true
     }
@@ -9133,13 +9133,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_3764200": {
-      "title": "Resident Evil Requiem",
-      "price": 1599,
-      "percent": 20,
-      "timestamp": "2026-07-21T05:47:25.265Z",
-      "type": "discount"
-    },
     "steam_discount_3279440": {
       "title": "Drone Sector",
       "price": 333,
@@ -10833,6 +10826,13 @@
       "percent": 0,
       "timestamp": "2026-08-20T02:53:11.512Z",
       "type": "xbox_new"
+    },
+    "steam_popular_4292950": {
+      "title": "Shao Song I",
+      "price": 268,
+      "percent": 20,
+      "timestamp": "2026-08-20T06:39:00.784Z",
+      "type": "popular"
     }
   }
 }
