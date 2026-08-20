@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T23:19:32.531Z",
+  "lastUpdated": "2026-08-20T01:01:57.341Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -64,30 +64,6 @@
       "isPopular": false
     },
     {
-      "id": "4026250",
-      "title": "Project P.I.T.T.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787152354",
-      "originalPrice": 230,
-      "discountPrice": 195,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4026250",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2950790",
-      "title": "IRON NEST: Heavy Turret Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786639727",
-      "originalPrice": 299,
-      "discountPrice": 224,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2950790",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2358720",
       "title": "Black Myth: Wukong",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
@@ -96,6 +72,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2358720",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4026250",
+      "title": "Project P.I.T.T.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787152354",
+      "originalPrice": 230,
+      "discountPrice": 195,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4026250",
       "isSpecial": true,
       "isPopular": false
     },
@@ -112,14 +100,14 @@
       "isPopular": false
     },
     {
-      "id": "227300",
-      "title": "Euro Truck Simulator 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1785394779",
-      "originalPrice": 400,
-      "discountPrice": 100,
-      "discountPercent": 75,
+      "id": "2950790",
+      "title": "IRON NEST: Heavy Turret Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/467cd309f0ba64b432367910801e56fe01e03373/capsule_616x353.jpg?t=1786639727",
+      "originalPrice": 299,
+      "discountPrice": 224,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/227300",
+      "url": "https://store.steampowered.com/app/2950790",
       "isSpecial": true,
       "isPopular": false
     },
@@ -148,6 +136,18 @@
       "isPopular": false
     },
     {
+      "id": "1067360",
+      "title": "Pax Autocratica",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786694191",
+      "originalPrice": 620,
+      "discountPrice": 515,
+      "discountPercent": 17,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1067360",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2764460",
       "title": "Sandustry",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
@@ -160,14 +160,14 @@
       "isPopular": false
     },
     {
-      "id": "1067360",
-      "title": "Pax Autocratica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/ffefee1519d86b741ca3eb0528beb5bfc9838d48/capsule_616x353.jpg?t=1786694191",
-      "originalPrice": 620,
-      "discountPrice": 515,
-      "discountPercent": 17,
+      "id": "2523770",
+      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
+      "originalPrice": 415,
+      "discountPrice": 373,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1067360",
+      "url": "https://store.steampowered.com/app/2523770",
       "isSpecial": true,
       "isPopular": false
     },
@@ -208,18 +208,6 @@
       "isPopular": true
     },
     {
-      "id": "1867240",
-      "title": "WARDOGS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1786467028",
-      "originalPrice": 829,
-      "discountPrice": 829,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1867240",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "292000",
       "title": "No More Room in Hell 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/15efd97ad74787a9873f413970d84e758436c23c/capsule_616x353.jpg?t=1786638024",
@@ -228,6 +216,18 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/292000",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "1867240",
+      "title": "WARDOGS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1786467028",
+      "originalPrice": 829,
+      "discountPrice": 829,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1867240",
       "isSpecial": false,
       "isPopular": true
     }
@@ -614,14 +614,14 @@
       "description": "Відродіться в новому досвіді виживання динозаврів, про який ви навіть не мріяли... оскільки ARK переосмислюється з нуля в технологію відеоігор нового покоління за допомогою Unreal Engine 5! Ви прокидаєтеся на таємничому острові, ваші почуття переповнені сліпучим сонячним світлом і яскравими кольорами, що відбиваються від усіх поверхонь навколо вас, блакитні води зеленого острова плескаються біля ваших босих ніг. Глибокий гуркіт лунає з туманних джунглів, спонукаючи вас до дії, і ви встаєте — не налякані, а заінтриговані. Чи готові ви сформувати плем’я, приборкати та розводити сотні видів динозаврів та інших первісних істот, досліджувати, створювати, будувати та пробиватися до вершини харчового ланцюга? Ваш новий світ чекає… Перейдіть крізь дзеркало та приєднайтеся до нього!\n\nОСОБЛИВОСТІ\n\nARK: Survival Ascended повністю відтворив і переробив ілюстрацію та світи ARK, щоб скористатися перевагами новітньої технології відеоігор, Unreal Engine 5, використовуючи високоякісні графічні функції, такі як повністю динамічне глобальне освітлення («Lumen»), щоб світло реалістично відбивається від поверхонь і забезпечує реалістичні відображення, а вдосконалена сітчаста потокова передача («Nanite») із сотень мільйонів трикутників для надзвичайної деталізації.\n\nНові передові фізичні системи, такі як динамічна вода, щоб кожна істота створювала хвилі, брижі, бризки та бульбашки, рухаючись крізь рідини, і повністю інтерактивне фізичне листя, де кожна травинка, кущ і дерево реагують на персонажів, вибухи, снаряди, і об'єкти фізики. Збийте дерево, і побачите, як воно врізається в інші дерева та тріпає все листя на своєму шляху вниз до трави внизу! Виявляйте ворога, який непомітно рухається крізь траву, коли він пересувається та хитається у відповідь на їх присутність. Знесіть будівлю та спостерігайте, як шматки реалістично розпадаються, взаємодіючи з травою та водою під час падіння.\n\nARK: Survival Ascended включає доступ до всіх світів ARK, включаючи Scorched Earth, Aberration, Extinction, ARK Genesis Part 1, ARK Genesis Part 2 тощо. «Острів», «Випалена земля», «Аберація» та «Центр» випущені зараз, а наступні світи розширення додаватимуться без додаткових витрат на регулярній основі.\n\nПовний досвід виживання повертається краще, ніж будь-коли: створіть свій Survivor, сформуйте плем’я та приручайте, тренуйте, розводьте та катайтеся на динозаврах у живій екосистемі. Слідкуйте за їжею, водою, температурою та погодою. Повільно розширюйтесь назовні, збираючи врожай, будуючи споруди, вирощуючи культури, налаштовуючи свій візуальний дизайн і продовжуючи досліджувати, щоб розкрити справжню природу Острова та світів за його межами. \n\nҐрунтовне оновлення якості життя в кожній області: перероблені інтерфейси користувача, динамічна навігація для розумного пошуку шляхів істот, дикі немовлята, режим фото, нові системи камер, нова система карт, система стеження, нові структури та предмети, нові істоти та багато іншого.\n\nКросплатформне модифікування: завантажуйте та відтворюйте новий власний вміст, створений гравцями, включаючи нові карти, істот, предмети та режими гри, за допомогою спеціальної колекції модів безпосередньо в грі! Насолоджуйтесь нескінченним потоком нового вмісту ARK, оскільки творчий потенціал і талант спільноти вперше повністю розкриваються на ігрових платформах!\n\nМіжплатформна багатокористувацька гра: сформуйте своє онлайн-плем’я на різних ігрових платформах, працюючи разом, щоб виживати та процвітати в ARK!\n\nПідтримує публічну багатокористувацьку онлайн-ігру для до 70 гравців, приватну багатокористувацьку сесію для до 8 гравців і локальний розділений екран для 2 гравців.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.34402.14545480955348978.6df932ed-6670-40c9-9a84-fc164557d4ec.635b23a8-4ec7-44bd-b0ba-bc07c9b9ebb6",
       "originalPrice": 1886.63,
-      "discountPrice": 1886.63,
-      "discountPercent": 0,
+      "discountPrice": 471.65,
+      "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P33VJGVPHVP",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P686C1GJ91L",
@@ -1334,14 +1334,14 @@
       "description": "Час приєднатися до пригод родини Хілерів! На вас чекають нові персонажі, мініігри, колекційні предмети та цікаві знахідки. \n\nПриєднуйтесь до Блуї, Бінго, Мами, Тата, а також до Маффін і дядька Страйпа та вирушайте у захопливі пригоди в добре знайомих локаціях. Обирайте свого улюбленця, вдягайте кумедний костюм і вперед! Побігайте по будинку Хілерів у мильній шапці, прогуляйтеся до струмка в стильному рушнику на голові чи шукайте тематичні колекційні предмети, як-от фламінго чи ракетки.\n\nАле це ще не все! Виконуйте кумедні завдання разом із Дідусем, тіткою Тріксі та Бабусею, щоб отримувати нові костюми, іграшки, трофеї та сторінки для книги спогадів. Спробуйте пограти у вже відомі «Утримай кульку», «Схованки з Чаттермаксом» та «Підлога — це лава» за новими правилами.\n\nЗручне керування, швидкий доступ до меню та легкість у перемиканні між іграми задовольнять навіть найменших гравців!\n\nГрайте наодинці або з друзями чи родиною — насолоджуйтесь чарівним світом Блуї разом!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.32031.13951667472045163.3fb7085f-1bf8-4c11-9c65-272ecae540f9.28866731-4d9a-4a70-83ab-f6589703706e",
       "originalPrice": 1055,
-      "discountPrice": 1055,
-      "discountPercent": 0,
+      "discountPrice": 633,
+      "discountPercent": 40,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N2J0FGV30DX",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P66TM1HLGLX",
@@ -2324,14 +2324,14 @@
       "description": "Let Loose\r\nWhilst respecting the heritage and retaining the DNA of the franchise, DIRT 5 writes a new chapter in the legacy of DIRT – bolder and braver than ever before. New features, new innovations and a fresh approach make DIRT 5 a hub of off-road racing, style and culture, where you can constantly create highlight-reel moments.\r\n\r\nBlaze a Trail Across the Globe\r\nTake a trip around the world to and race on over 70+ unique routes across 10 different global locations in stunning, dynamic environments. From racing on the frozen East River in New York, to under the Christ the Redeemer in Brazil, to shining by the Northern Lights at Norway, take on opponents, the terrain and extreme, everchanging conditions.\r\n\r\nPush The Limits with Incredible Cars\r\nGet behind the wheel of an eclectic and exciting roster of cars. Conquer the toughest of terrain with boulder-beating machines, take iconic rally cars to new locations, or feel the power of 900bhp sprint cars. Rallycross, GT, unlimited trucks, buggies and muscle cars complete the ultimate off-road garage.\r\n\r\nOwn the Spotlight in a Star-Studded Career\r\nUnder the tutelage of an icon, all eyes are on you to become the new star of an amplified world of off-road racing. Earn sponsorships and unique rewards, conquer all locations, and take on a fierce rival in our biggest ever Career.\r\n\r\nCompete or Co-Operate in Off-Road Action\r\nLocal split-screen up to four players on offline modes, including Career, makes DIRT 5 the perfect couch multiplayer racing game as you battle for position with your friends. Online, throw down in curated race playlists for up to 12 players, and compete in innovative objective-based modes. \r\n\r\nCreate, Share and Discover with Playgrounds\r\nFor the first time in a DIRT game, you can now create your own Gymkhana, Smash Attack and Time Attack challenges and share them online with friends and the DIRT community.\r\n\r\nGame leverages Smart Delivery allowing access to both the Xbox One title on 3rd November and the Xbox Series X|S title on 10th November.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.43063.14216887906907763.f147e9dc-f500-4358-91e8-68c6906fcc18.7a1b601c-5b4b-4b4a-a95c-28309baf099d",
       "originalPrice": 1795,
-      "discountPrice": 1795,
-      "discountPercent": 0,
+      "discountPrice": 538.5,
+      "discountPercent": 70,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PJGM0T0827V",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NTRS771L8HL",
@@ -5234,14 +5234,14 @@
       "description": "Це в нашій крові!\r\n\r\nВідкрийте для себе відроджений всесвіт Mortal Kombat, створений богом вогню Лю Каном. Mortal Kombat™ 1 починає нову еру культової франшизи з новою бойовою системою, режимами гри та добиваннями!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.23520.14007497573636681.4ee0da90-8866-4e78-bc18-31395aa61837.b1174db2-e914-4970-b730-c587c5135a62",
       "originalPrice": 1285,
-      "discountPrice": 1285,
-      "discountPercent": 0,
+      "discountPrice": 257,
+      "discountPercent": 80,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N7271QN4SGB",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P0073G9FW5Z",
@@ -5294,14 +5294,14 @@
       "description": "Have a fun-filled adventure by becoming Peppa Pig’s new friend! \r\n\r\nCreate and dress your character, ring Peppa’s doorbell, and begin a story that’s all up to you Peppa suggests activities everywhere you go – help Daddy Pig find his glasses, follow the animal tracks in the Forest, splash in muddy puddles, and much more! It’s just like being in an episode of the TV show, where all your favorite characters are excited to meet you. From the Beach to the Museum and even Potato City, every playtime is a new experience with your friend Peppa Pig.\r\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.16203.13613420443671332.a6ea2e8e-4acd-4934-b589-2d8cfaba7189.787c1e94-55bb-4581-806d-fc1d213da277",
       "originalPrice": 1030,
-      "discountPrice": 1030,
-      "discountPercent": 0,
+      "discountPrice": 309,
+      "discountPercent": 70,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NDJLXD2X2DM",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P9JZZ79KHDK",
@@ -8174,14 +8174,14 @@
       "description": "Get hyped for the legendary franchise to return with Tony Hawk’s™ Pro Skater™ 3 + 4. Everything you loved is back, but revamped with more skaters, new parks, gnarlier tricks, eardrum shattering music, plus a whole lot more.\n\nIncludes:\n\n- Cross-Gen Bundle of Tony Hawk's™ Pro Skater™ 3 + 4\n-- Includes Xbox One, Xbox X|S and PC (Microsoft Store) versions of the game\n\n- Reunite the crew with cross-platform online Multiplayer* for up to 8 skaters in new and returning game modes.\n- Drop in to new parks or tear it up across the timeless parks from both Tony Hawk’s™ Pro Skater™ 3 & Tony Hawk’s™ Pro Skater™ 4, authentically remade in jaw dropping 4K** resolution with streamlined goals and the epic 2-minute format.\n- Hit ‘em with some drip in the expanded Create-A-Skater and Create-A-Park modes, including the ability to create custom goals to share with friends for the first time ever.\n- Shred harder than ever with more challenging goals and an enhanced New Game+ mode.\n- Whether you’re a total casual or a grungy pro, the same smooth handling and simple-to-learn controls from Tony Hawk’s™ Pro Skater™ 1 + 2 will have you shredding like a Pro.\n\nAlert the neighborhood watch and grab your skate buddies because the shred’s not dead. It’s back and better than ever.\n\n\n*Activision account and internet required for online Multiplayer and other features. A Game Pass subscription may be required for Multiplayer and other features (sold separately). Activision may modify or discontinue online services in the future, which may impact the continued availability of online gameplay. Online services may be discontinued to to factors including number of players.\n\n**The Xbox Series X version of the game will run native 4K at 60FPS in Fidelity Mode. The Xbox Series S version will render at 1440P and upscale to 4K. 4K output requires a 4K compatible device or display.\n\nFor more information, please see www.tonyhawkthegame.com.\n\n© 2025 Activision Publishing Inc. ACTIVISION and PRO SKATER are trademarks of Activision Publishing, Inc. TONY HAWK is a registered trademark of Tony Hawk, Inc. All other trademarks and trade names are the property of their respective owners.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.43918.13545870293609016.82216e19-d3ac-41e6-877a-04dfdefd5e6e.7b3c0308-0253-4102-8a13-bde7ce066661",
       "originalPrice": 2096,
-      "discountPrice": 2096,
-      "discountPercent": 0,
+      "discountPrice": 1152.8,
+      "discountPercent": 45,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N926481VT1Z",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NC0071DJ6XC",
