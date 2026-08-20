@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T18:33:37.660Z",
+  "lastUpdated": "2026-08-20T19:27:57.773Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -104,26 +104,26 @@
       "isPopular": false
     },
     {
+      "id": "903930",
+      "title": "Brigador Killers",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/903930/59bac7f23d94e5ce4853462dc821474bcbc15ead/capsule_616x353.jpg?t=1787247927",
+      "originalPrice": 350,
+      "discountPrice": 315,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/903930",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1643320",
       "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787231306",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787251039",
       "originalPrice": 1399,
       "discountPrice": 979,
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1643320",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4315040",
-      "title": "Hearth and Hamlet",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315040/22fe7e4e8f1d659912d4ec8942fc86c3370ba9ad/capsule_616x353.jpg?t=1787170538",
-      "originalPrice": 195,
-      "discountPrice": 175,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4315040",
       "isSpecial": true,
       "isPopular": false
     },
@@ -140,6 +140,18 @@
       "isPopular": false
     },
     {
+      "id": "4315040",
+      "title": "Hearth and Hamlet",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315040/22fe7e4e8f1d659912d4ec8942fc86c3370ba9ad/capsule_616x353.jpg?t=1787170538",
+      "originalPrice": 195,
+      "discountPrice": 175,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4315040",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1771300",
       "title": "Kingdom Come: Deliverance II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
@@ -148,18 +160,6 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1771300",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2764460",
-      "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
-      "originalPrice": 199,
-      "discountPrice": 129,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2764460",
       "isSpecial": true,
       "isPopular": false
     },
@@ -176,14 +176,14 @@
       "isPopular": false
     },
     {
-      "id": "2523770",
-      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
-      "originalPrice": 415,
-      "discountPrice": 373,
-      "discountPercent": 10,
+      "id": "2764460",
+      "title": "Sandustry",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
+      "originalPrice": 199,
+      "discountPrice": 129,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2523770",
+      "url": "https://store.steampowered.com/app/2764460",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9176,13 +9176,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_3590290": {
-      "title": "DIVE or DIE - Children of Rain",
-      "price": 360,
-      "percent": 20,
-      "timestamp": "2026-07-21T19:16:07.913Z",
-      "type": "discount"
-    },
     "steam_discount_1145350": {
       "title": "Hades II",
       "price": 322,
@@ -10931,6 +10924,13 @@
       "price": 136,
       "percent": 20,
       "timestamp": "2026-08-20T18:33:31.646Z",
+      "type": "discount"
+    },
+    "steam_discount_903930": {
+      "title": "Brigador Killers",
+      "price": 315,
+      "percent": 10,
+      "timestamp": "2026-08-20T19:27:50.793Z",
       "type": "discount"
     }
   }
