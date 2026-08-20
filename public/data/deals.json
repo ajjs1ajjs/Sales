@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T06:39:08.343Z",
+  "lastUpdated": "2026-08-20T07:38:18.294Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -64,18 +64,6 @@
       "isPopular": false
     },
     {
-      "id": "2552430",
-      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2552430",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4315040",
       "title": "Hearth and Hamlet",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315040/22fe7e4e8f1d659912d4ec8942fc86c3370ba9ad/capsule_616x353.jpg?t=1787170538",
@@ -84,6 +72,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4315040",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2552430",
+      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2552430",
       "isSpecial": true,
       "isPopular": false
     },
@@ -100,18 +100,6 @@
       "isPopular": false
     },
     {
-      "id": "4026250",
-      "title": "Project P.I.T.T.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787152354",
-      "originalPrice": 230,
-      "discountPrice": 195,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4026250",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1771300",
       "title": "Kingdom Come: Deliverance II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
@@ -120,6 +108,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1771300",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4026250",
+      "title": "Project P.I.T.T.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787152354",
+      "originalPrice": 230,
+      "discountPrice": 195,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4026250",
       "isSpecial": true,
       "isPopular": false
     },
@@ -136,18 +136,6 @@
       "isPopular": false
     },
     {
-      "id": "694280",
-      "title": "Zombie Army 4: Dead War",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/capsule_616x353.jpg?t=1786965015",
-      "originalPrice": 925,
-      "discountPrice": 46,
-      "discountPercent": 95,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/694280",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2764460",
       "title": "Sandustry",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
@@ -156,6 +144,18 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2764460",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "694280",
+      "title": "Zombie Army 4: Dead War",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/capsule_616x353.jpg?t=1786965015",
+      "originalPrice": 925,
+      "discountPrice": 46,
+      "discountPercent": 95,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/694280",
       "isSpecial": true,
       "isPopular": false
     },
@@ -184,18 +184,6 @@
       "isPopular": true
     },
     {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d83658e07ce4a822676708770ff420d128ce119f/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1787160683",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4292950",
       "title": "Shao Song I",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4292950/fb785193068e0ddc9da96c88befa68295d132cb2/capsule_616x353.jpg?t=1787201131",
@@ -204,6 +192,18 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4292950",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d83658e07ce4a822676708770ff420d128ce119f/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1787160683",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435490",
       "isSpecial": false,
       "isPopular": true
     },
