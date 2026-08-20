@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T13:42:50.659Z",
+  "lastUpdated": "2026-08-20T14:35:23.351Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -12,6 +12,22 @@
       "url": "https://store.epicgames.com/p/cardpocalypse",
       "startDate": "2026-08-20T15:00:00.000Z",
       "endDate": "2026-08-27T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": true,
+      "isDiscounted": false,
+      "discountPercent": 0
+    },
+    {
+      "id": "8401414902e84f2cb9afa9142f051d32",
+      "title": "Breathedge",
+      "description": "Survive in outer space! Together with your immortal chicken, discover the truth behind your sudden spaceship crash. Craft tools, pilot vehicles, and even control space stations to survive and explore the wreckage.",
+      "imageUrl": "https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/egs-breathedge-redruinssoftworks-s1-2560x1440-76fd08cd9c2d-2560x1440-783424f6d4a7f32a0e75fc074f2f928e.jpg",
+      "originalPrice": 499,
+      "discountPrice": 499,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/breathedge",
+      "startDate": "2026-08-27T15:00:00.000Z",
+      "endDate": "2026-09-03T15:00:00.000Z",
       "isFreeNow": false,
       "isUpcomingFree": true,
       "isDiscounted": false,
@@ -44,6 +60,22 @@
       "url": "https://store.epicgames.com/p/albion-online-7eb24d",
       "startDate": "2026-08-20T15:00:00.000Z",
       "endDate": "2026-08-27T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": true,
+      "isDiscounted": false,
+      "discountPercent": 0
+    },
+    {
+      "id": "8f1fcf01e32e4fd4b2ae0a9737992760",
+      "title": "Rival Stars Horse Racing : Desktop Edition",
+      "description": "With stunning, realistic horses, an in-depth breeding system, and a range of exciting game modes, Rival Stars Horse Racing offers horse fans the ultimate racing and riding experience. Take the reins and become an equestrian legend!",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-scu1x.jpg",
+      "originalPrice": 459,
+      "discountPrice": 459,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/rival-stars-horse-racing-dd09de",
+      "startDate": "2026-08-27T15:00:00.000Z",
+      "endDate": "2026-09-03T15:00:00.000Z",
       "isFreeNow": false,
       "isUpcomingFree": true,
       "isDiscounted": false,
@@ -100,18 +132,6 @@
       "isPopular": false
     },
     {
-      "id": "1771300",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
-      "originalPrice": 1599,
-      "discountPrice": 639,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1771300",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4026250",
       "title": "Project P.I.T.T.",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787223275",
@@ -120,6 +140,18 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4026250",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1771300",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
+      "originalPrice": 1599,
+      "discountPrice": 639,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1771300",
       "isSpecial": true,
       "isPopular": false
     },
@@ -138,7 +170,7 @@
     {
       "id": "1643320",
       "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787223071",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787231306",
       "originalPrice": 1399,
       "discountPrice": 979,
       "discountPercent": 30,
@@ -160,14 +192,14 @@
       "isPopular": false
     },
     {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "2584270",
+      "title": "Mortal Shell II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1787231571",
+      "originalPrice": 1449,
+      "discountPrice": 1449,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
+      "url": "https://store.steampowered.com/app/2584270",
       "isSpecial": false,
       "isPopular": true
     },
@@ -184,14 +216,14 @@
       "isPopular": true
     },
     {
-      "id": "2584270",
-      "title": "Mortal Shell II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1787231571",
-      "originalPrice": 1449,
-      "discountPrice": 1449,
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2584270",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isPopular": true
     },
@@ -222,7 +254,7 @@
     {
       "id": "3065940",
       "title": "Gallipoli",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/b33077b89ec033f718020a77d5df93b2280485a9/capsule_616x353.jpg?t=1787227986",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/b33077b89ec033f718020a77d5df93b2280485a9/capsule_616x353.jpg?t=1787236304",
       "originalPrice": 620,
       "discountPrice": 465,
       "discountPercent": 25,
