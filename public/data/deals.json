@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T08:33:39.729Z",
+  "lastUpdated": "2026-08-20T09:30:16.746Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -100,18 +100,6 @@
       "isPopular": false
     },
     {
-      "id": "2552430",
-      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2552430",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1771300",
       "title": "Kingdom Come: Deliverance II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
@@ -136,26 +124,26 @@
       "isPopular": false
     },
     {
+      "id": "2552430",
+      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/capsule_616x353.jpg?t=1779418330",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2552430",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "4321510",
       "title": "With the Devilish Her…",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4321510/30ace3ae604e4d201c6f1def39d79117b198f984/capsule_616x353.jpg?t=1787200233",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4321510/30ace3ae604e4d201c6f1def39d79117b198f984/capsule_616x353.jpg?t=1787215834",
       "originalPrice": 370,
       "discountPrice": 333,
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4321510",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2764460",
-      "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
-      "originalPrice": 199,
-      "discountPrice": 129,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2764460",
       "isSpecial": true,
       "isPopular": false
     },
@@ -168,6 +156,18 @@
       "discountPercent": 95,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/694280",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2764460",
+      "title": "Sandustry",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1786703049",
+      "originalPrice": 199,
+      "discountPrice": 129,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2764460",
       "isSpecial": true,
       "isPopular": false
     },
@@ -8262,6 +8262,21 @@
       "isDiscounted": false
     },
     {
+      "id": "9NKDZ44LZR2R",
+      "title": "Transference",
+      "description": "Available in VR and Non-VR. \n\nImagine an escape room set in a deranged mind. Experience a first-person exploration game in a chilling new dimension. Shift between three perspectives of a family in this troubled scientist's experiment, and attempt to unravel the mystery hiding in this mind-bending psychological thriller.\n\nA THRILLER THAT FEELS LIKE A MOVIE\nProject yourself into a narrative experience that combines movies with gaming, as you become immersed in an unsettling psychological thriller.\n\nSOLVE THE MYSTERY  \nRecover a fragmented family as you shift between the corrupted consciousness of each individual’s perspective and attempt to piece together their mystery.\n\nIT’S YOUR UNIQUE EXPERIENCE\nIn this first-person narrative mystery, you must explore the walls of this family's home to interpret events and discover your truth.\n\n\n\n",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.12493.13662575907042688.2861c98a-7aa5-4a06-a574-f6e3595fc74e.a8854bfe-e599-4341-a885-cae56e3967f9",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9NKDZ44LZR2R",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
       "id": "9NCDMPCPDTQF",
       "title": "Trepang2",
       "description": "БУДЬ НАЙКРУТІШИМ\r\n\r\nТи гратимеш за солдата-втікача, що не пам’ятає свого минулого, але який має надприродні здібності. Його думки лише про помсту, і він не зупиниться, поки не отримає те, чого хоче. Завдавай нищівних ударів, пересувайся крадькома в тіні, користуйся вибуховою зброєю і нехай поганці дістануть по заслузі.\r\n\r\nОСОБЛИВОСТІ:\r\n\r\nВИБУХОВА ГРА ДЛЯ ОДНОГО ГРАВЦЯ\r\nТаємнича група людей витягує тебе із секретної в’язниці, що суворо охороняється. Усі твої спогади зникли, але бойові здібності виходять далеко за межі людських можливостей. Дай відсіч, знайди правду і зустрінь загрозу, навіть більш смертельнішу, ніж ти сам.\r\n\r\nНАСТУПНИЙ РІВЕНЬ СУПЕР-СИЛ\r\nОпануй надлюдську силу і швидкість, щоби здолати хвилі важкоозброєних найманців наступного тижня. Уповільнюй час, щоби ухилятися від швидкострільних куль, і маскуйся, щоби стати невидимим і скручуй голови ворогам, коли вони найменше цього очікують.\r\n\r\nЖОРСТОКИЙ БЛИЖНІЙ БІЙ\r\nБийся з ворогами у рукопашну та використовуй повну потужність у швидкісних перестрілках. Удар кулаком, удар ногою, ковзання і шалені комбінації рухів зітруть ворогів у пил.",
@@ -10847,6 +10862,13 @@
       "percent": 10,
       "timestamp": "2026-08-20T08:33:30.654Z",
       "type": "discount"
+    },
+    "xbox_new_9NKDZ44LZR2R": {
+      "title": "Transference",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-20T09:30:11.191Z",
+      "type": "xbox_new"
     }
   }
 }
