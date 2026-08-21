@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T22:20:10.280Z",
+  "lastUpdated": "2026-08-21T23:20:19.725Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -128,18 +128,6 @@
       "isPopular": false
     },
     {
-      "id": "4294490",
-      "title": "KOTAMON: My Sis Found A Super-Rare Card In Her Cereal Box, So I Became A Garbage Man To Find The Entire Collection And Earn $1,000,000",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4294490/50b9adb533c98ef79e03b57fbd190c6f98237a45/capsule_616x353.jpg?t=1787304812",
-      "originalPrice": 170,
-      "discountPrice": 136,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4294490",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1771300",
       "title": "Kingdom Come: Deliverance II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
@@ -148,6 +136,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1771300",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4294490",
+      "title": "KOTAMON: My Sis Found A Super-Rare Card In Her Cereal Box, So I Became A Garbage Man To Find The Entire Collection And Earn $1,000,000",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4294490/50b9adb533c98ef79e03b57fbd190c6f98237a45/capsule_616x353.jpg?t=1787304812",
+      "originalPrice": 170,
+      "discountPrice": 136,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4294490",
       "isSpecial": true,
       "isPopular": false
     },
@@ -176,16 +176,28 @@
       "isPopular": false
     },
     {
-      "id": "2764460",
-      "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1787306087",
-      "originalPrice": 199,
-      "discountPrice": 129,
-      "discountPercent": 35,
+      "id": "2432860",
+      "title": "MENACE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2432860/51096f28fa1f4d471436a5fd559e2c7ed2c791ab/capsule_616x353.jpg?t=1786634291",
+      "originalPrice": 599,
+      "discountPrice": 449,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2764460",
+      "url": "https://store.steampowered.com/app/2432860",
       "isSpecial": true,
       "isPopular": false
+    },
+    {
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
     },
     {
       "id": "1867240",
@@ -220,18 +232,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2584270",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isPopular": true
     }
