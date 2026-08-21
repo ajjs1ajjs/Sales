@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T07:39:36.629Z",
+  "lastUpdated": "2026-08-21T08:36:02.925Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -104,18 +104,6 @@
       "isPopular": false
     },
     {
-      "id": "4294490",
-      "title": "KOTAMON: My Sis Found A Super-Rare Card In Her Cereal Box, So I Became A Garbage Man To Find The Entire Collection And Earn $1,000,000",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4294490/50b9adb533c98ef79e03b57fbd190c6f98237a45/capsule_616x353.jpg?t=1787241636",
-      "originalPrice": 170,
-      "discountPrice": 136,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4294490",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1643320",
       "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787263142",
@@ -140,6 +128,18 @@
       "isPopular": false
     },
     {
+      "id": "4294490",
+      "title": "KOTAMON: My Sis Found A Super-Rare Card In Her Cereal Box, So I Became A Garbage Man To Find The Entire Collection And Earn $1,000,000",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4294490/50b9adb533c98ef79e03b57fbd190c6f98237a45/capsule_616x353.jpg?t=1787241636",
+      "originalPrice": 170,
+      "discountPrice": 136,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4294490",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3196440",
       "title": "Vacation Cafe Simulator",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3196440/3f56155b051e06b21836f65b8e108cd515c1ba1d/capsule_616x353.jpg?t=1787297674",
@@ -148,18 +148,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3196440",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "903930",
-      "title": "Brigador Killers",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/903930/59bac7f23d94e5ce4853462dc821474bcbc15ead/capsule_616x353.jpg?t=1787262286",
-      "originalPrice": 350,
-      "discountPrice": 315,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/903930",
       "isSpecial": true,
       "isPopular": false
     },
@@ -176,14 +164,14 @@
       "isPopular": false
     },
     {
-      "id": "4026250",
-      "title": "Project P.I.T.T.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787223275",
-      "originalPrice": 230,
-      "discountPrice": 195,
-      "discountPercent": 15,
+      "id": "4315040",
+      "title": "Hearth and Hamlet",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315040/22fe7e4e8f1d659912d4ec8942fc86c3370ba9ad/capsule_616x353.jpg?t=1787170538",
+      "originalPrice": 195,
+      "discountPrice": 175,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4026250",
+      "url": "https://store.steampowered.com/app/4315040",
       "isSpecial": true,
       "isPopular": false
     },
