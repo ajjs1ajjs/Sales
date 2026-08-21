@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T09:32:49.284Z",
+  "lastUpdated": "2026-08-21T10:26:03.285Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -104,18 +104,6 @@
       "isPopular": false
     },
     {
-      "id": "3749320",
-      "title": "花满楼",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3749320/460fcb6c3dedc1ddbcc57b581c22b4331278b320/capsule_616x353.jpg?t=1787291920",
-      "originalPrice": 255,
-      "discountPrice": 216,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3749320",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1643320",
       "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787263142",
@@ -142,7 +130,7 @@
     {
       "id": "3196440",
       "title": "Vacation Cafe Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3196440/3f56155b051e06b21836f65b8e108cd515c1ba1d/capsule_616x353.jpg?t=1787297674",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3196440/3f56155b051e06b21836f65b8e108cd515c1ba1d/capsule_616x353.jpg?t=1787306679",
       "originalPrice": 419,
       "discountPrice": 377,
       "discountPercent": 10,
@@ -154,7 +142,7 @@
     {
       "id": "4294490",
       "title": "KOTAMON: My Sis Found A Super-Rare Card In Her Cereal Box, So I Became A Garbage Man To Find The Entire Collection And Earn $1,000,000",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4294490/50b9adb533c98ef79e03b57fbd190c6f98237a45/capsule_616x353.jpg?t=1787241636",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4294490/50b9adb533c98ef79e03b57fbd190c6f98237a45/capsule_616x353.jpg?t=1787304812",
       "originalPrice": 170,
       "discountPrice": 136,
       "discountPercent": 20,
@@ -172,6 +160,30 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2432860",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4315040",
+      "title": "Hearth and Hamlet",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315040/22fe7e4e8f1d659912d4ec8942fc86c3370ba9ad/capsule_616x353.jpg?t=1787170538",
+      "originalPrice": 195,
+      "discountPrice": 175,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4315040",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4026250",
+      "title": "Project P.I.T.T.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787223275",
+      "originalPrice": 230,
+      "discountPrice": 195,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4026250",
       "isSpecial": true,
       "isPopular": false
     },
@@ -8088,14 +8100,14 @@
       "description": "Become an elite spec ops soldier known as a Ghost, tasked with a special mission to Auroa. The remote archipelago somewhere in the South Pacific has lost contact with outside world due to Skell Technology turning hostile. The Wolves, a rogue spec ops team, lead by your ex-brother in arms, have taken over and are hunting you down. Lead your team through the island landscape and save the civilians without being noticed.\n\nTaylor your experience to fit your playstyle:\n- Solo, as the leader of up 3 fully customizable AI Teammates\n- Or, play in coop PVE with up to 3 friends \n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38194.13854112670148905.26c6c61d-a4a5-45bb-b0b1-c5edd982ab6a.9b40f66f-1a82-47a6-940d-7d96cbbb45a2",
       "originalPrice": 915,
-      "discountPrice": 45.75,
-      "discountPercent": 95,
+      "discountPrice": 915,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PKJ0532DTCW",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NCZ8W65H33V",
@@ -8133,14 +8145,14 @@
       "description": "Create a team with up to 3 friends in Tom Clancy’s Ghost Recon® Wildlands and enjoy the ultimate military shooter experience set in a massive, dangerous, and responsive open world.\n\nTAKE DOWN THE CARTEL\nIn a near future, Bolivia has fallen into the hands of Santa Blanca, a merciless drug cartel who spread injustice and violence. Their objective: to create the biggest Narco-State in history.\n \nBECOME A GHOST\nCreate and fully customize your Ghost, weapons, and gear. Enjoy total freedom of playstyle. Lead your team and take down the cartel, either solo or with up to three friends.\n\nEXPLORE BOLIVIA\nJourney through Ubisoft's largest action-adventure open world. Discover the stunning diverse landscapes of the Wildlands both on and off road, in the air, on land, and at sea with over 60 different vehicles. \n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.35822.65577870102127192.24a0a154-ded1-4a40-a91f-102019aaee70.cdf0a22e-4116-4049-a936-c6e4508342fb",
       "originalPrice": 759,
-      "discountPrice": 37.95,
-      "discountPercent": 95,
+      "discountPrice": 759,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P85NL6T3DHP",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P0G4TBCCS7J",
