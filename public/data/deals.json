@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T05:28:37.928Z",
+  "lastUpdated": "2026-08-21T06:39:36.853Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -128,30 +128,6 @@
       "isPopular": false
     },
     {
-      "id": "903930",
-      "title": "Brigador Killers",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/903930/59bac7f23d94e5ce4853462dc821474bcbc15ead/capsule_616x353.jpg?t=1787262286",
-      "originalPrice": 350,
-      "discountPrice": 315,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/903930",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4026250",
-      "title": "Project P.I.T.T.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787223275",
-      "originalPrice": 230,
-      "discountPrice": 195,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4026250",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1771300",
       "title": "Kingdom Come: Deliverance II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
@@ -160,6 +136,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1771300",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "903930",
+      "title": "Brigador Killers",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/903930/59bac7f23d94e5ce4853462dc821474bcbc15ead/capsule_616x353.jpg?t=1787262286",
+      "originalPrice": 350,
+      "discountPrice": 315,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/903930",
       "isSpecial": true,
       "isPopular": false
     },
@@ -176,14 +164,14 @@
       "isPopular": false
     },
     {
-      "id": "2432860",
-      "title": "MENACE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2432860/51096f28fa1f4d471436a5fd559e2c7ed2c791ab/capsule_616x353.jpg?t=1786634291",
-      "originalPrice": 599,
-      "discountPrice": 449,
-      "discountPercent": 25,
+      "id": "4026250",
+      "title": "Project P.I.T.T.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787223275",
+      "originalPrice": 230,
+      "discountPrice": 195,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2432860",
+      "url": "https://store.steampowered.com/app/4026250",
       "isSpecial": true,
       "isPopular": false
     },
@@ -236,14 +224,14 @@
       "isPopular": true
     },
     {
-      "id": "292000",
-      "title": "No More Room in Hell 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/15efd97ad74787a9873f413970d84e758436c23c/capsule_616x353.jpg?t=1786638024",
-      "originalPrice": 600,
-      "discountPrice": 390,
-      "discountPercent": 35,
+      "id": "3765020",
+      "title": "S.T.A.L.K.E.R. 2: Cost of Hope",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3765020/c2da57a428f4d0856c80059e655548cc7efaf7c0/capsule_616x353.jpg?t=1787230770",
+      "originalPrice": 699,
+      "discountPrice": 699,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/292000",
+      "url": "https://store.steampowered.com/app/3765020",
       "isSpecial": false,
       "isPopular": true
     }
