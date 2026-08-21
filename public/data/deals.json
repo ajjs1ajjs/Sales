@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T23:21:45.884Z",
+  "lastUpdated": "2026-08-21T01:05:00.782Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -152,18 +152,6 @@
       "isPopular": false
     },
     {
-      "id": "3196440",
-      "title": "Vacation Cafe Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3196440/3f56155b051e06b21836f65b8e108cd515c1ba1d/capsule_616x353.jpg?t=1787251891",
-      "originalPrice": 419,
-      "discountPrice": 377,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3196440",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2432860",
       "title": "MENACE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2432860/51096f28fa1f4d471436a5fd559e2c7ed2c791ab/capsule_616x353.jpg?t=1786634291",
@@ -172,6 +160,18 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2432860",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3196440",
+      "title": "Vacation Cafe Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3196440/3f56155b051e06b21836f65b8e108cd515c1ba1d/capsule_616x353.jpg?t=1787251891",
+      "originalPrice": 419,
+      "discountPrice": 377,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3196440",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9164,13 +9164,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_1145360": {
-      "title": "Hades",
-      "price": 154,
-      "percent": 70,
-      "timestamp": "2026-07-21T23:53:45.608Z",
-      "type": "discount"
-    },
     "steam_popular_1913120": {
       "title": "Tears of Metal",
       "price": 477,
