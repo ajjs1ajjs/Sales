@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T16:28:53.397Z",
+  "lastUpdated": "2026-08-21T17:24:40.676Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -152,18 +152,6 @@
       "isPopular": false
     },
     {
-      "id": "2764460",
-      "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1787306087",
-      "originalPrice": 199,
-      "discountPrice": 129,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2764460",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2432860",
       "title": "MENACE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2432860/51096f28fa1f4d471436a5fd559e2c7ed2c791ab/capsule_616x353.jpg?t=1786634291",
@@ -184,6 +172,18 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/227300",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2764460",
+      "title": "Sandustry",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1787306087",
+      "originalPrice": 199,
+      "discountPrice": 129,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2764460",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9164,34 +9164,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_4324480": {
-      "title": "Dirty Business",
-      "price": 268,
-      "percent": 20,
-      "timestamp": "2026-07-22T17:13:57.879Z",
-      "type": "discount"
-    },
-    "steam_discount_1913120": {
-      "title": "Tears of Metal",
-      "price": 477,
-      "percent": 10,
-      "timestamp": "2026-07-22T17:13:57.879Z",
-      "type": "discount"
-    },
-    "steam_discount_3722330": {
-      "title": "Shift At Midnight",
-      "price": 207,
-      "percent": 10,
-      "timestamp": "2026-07-22T17:13:57.879Z",
-      "type": "discount"
-    },
-    "steam_popular_3722330": {
-      "title": "Shift At Midnight",
-      "price": 207,
-      "percent": 10,
-      "timestamp": "2026-07-22T17:13:57.879Z",
-      "type": "popular"
-    },
     "steam_discount_1845250": {
       "title": "Rubinite",
       "price": 387,
