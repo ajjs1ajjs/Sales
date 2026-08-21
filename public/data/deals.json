@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T15:28:59.907Z",
+  "lastUpdated": "2026-08-21T16:28:53.397Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -92,18 +92,6 @@
       "isPopular": false
     },
     {
-      "id": "3065940",
-      "title": "Gallipoli",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/c32bc1837f9cdfacf7b94631ea071a5cfaee4b19/capsule_616x353_alt_assets_0.jpg?t=1787315713",
-      "originalPrice": 620,
-      "discountPrice": 465,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3065940",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1643320",
       "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787314871",
@@ -116,14 +104,14 @@
       "isPopular": false
     },
     {
-      "id": "1771300",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
-      "originalPrice": 1599,
-      "discountPrice": 639,
-      "discountPercent": 60,
+      "id": "3065940",
+      "title": "Gallipoli",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/c32bc1837f9cdfacf7b94631ea071a5cfaee4b19/capsule_616x353_alt_assets_0.jpg?t=1787315713",
+      "originalPrice": 620,
+      "discountPrice": 465,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1771300",
+      "url": "https://store.steampowered.com/app/3065940",
       "isSpecial": true,
       "isPopular": false
     },
@@ -140,6 +128,18 @@
       "isPopular": false
     },
     {
+      "id": "1771300",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
+      "originalPrice": 1599,
+      "discountPrice": 639,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1771300",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "4294490",
       "title": "KOTAMON: My Sis Found A Super-Rare Card In Her Cereal Box, So I Became A Garbage Man To Find The Entire Collection And Earn $1,000,000",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4294490/50b9adb533c98ef79e03b57fbd190c6f98237a45/capsule_616x353.jpg?t=1787304812",
@@ -148,6 +148,18 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4294490",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2764460",
+      "title": "Sandustry",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1787306087",
+      "originalPrice": 199,
+      "discountPrice": 129,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2764460",
       "isSpecial": true,
       "isPopular": false
     },
@@ -176,18 +188,6 @@
       "isPopular": false
     },
     {
-      "id": "2764460",
-      "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1787306087",
-      "originalPrice": 199,
-      "discountPrice": 129,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2764460",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1867240",
       "title": "WARDOGS",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1787240917",
@@ -200,26 +200,26 @@
       "isPopular": true
     },
     {
-      "id": "2584270",
-      "title": "Mortal Shell II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1787231571",
-      "originalPrice": 1449,
-      "discountPrice": 1449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2584270",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/daaffacf138e472703881fcc24609a3dd8e57c6b/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1787243124",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/daaffacf138e472703881fcc24609a3dd8e57c6b/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1787327331",
       "originalPrice": 2449,
       "discountPrice": 2449,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2584270",
+      "title": "Mortal Shell II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1787326472",
+      "originalPrice": 1449,
+      "discountPrice": 1449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2584270",
       "isSpecial": false,
       "isPopular": true
     },
@@ -9164,34 +9164,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_1913120": {
-      "title": "Tears of Metal",
-      "price": 477,
-      "percent": 10,
-      "timestamp": "2026-07-22T15:38:09.842Z",
-      "type": "popular"
-    },
-    "steam_popular_4324480": {
-      "title": "Dirty Business",
-      "price": 268,
-      "percent": 20,
-      "timestamp": "2026-07-22T15:38:09.842Z",
-      "type": "popular"
-    },
-    "xbox_new_9N0WDPMXNHWN": {
-      "title": "Shift At Midnight",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-22T15:38:09.842Z",
-      "type": "xbox_new"
-    },
-    "xbox_new_9PN8M16GG8M4": {
-      "title": "Tears of Metal (Game Preview)",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-22T15:38:09.842Z",
-      "type": "xbox_new"
-    },
     "steam_discount_4324480": {
       "title": "Dirty Business",
       "price": 268,
@@ -10934,6 +10906,20 @@
       "percent": 15,
       "timestamp": "2026-08-21T09:32:44.707Z",
       "type": "discount"
+    },
+    "xbox_new_9N0WDPMXNHWN": {
+      "title": "Shift At Midnight",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-21T16:28:46.167Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9PN8M16GG8M4": {
+      "title": "Tears of Metal (Game Preview)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-21T16:28:46.167Z",
+      "type": "xbox_new"
     }
   }
 }
