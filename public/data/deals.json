@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T03:54:13.509Z",
+  "lastUpdated": "2026-08-21T04:33:57.094Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -116,18 +116,6 @@
       "isPopular": false
     },
     {
-      "id": "903930",
-      "title": "Brigador Killers",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/903930/59bac7f23d94e5ce4853462dc821474bcbc15ead/capsule_616x353.jpg?t=1787262286",
-      "originalPrice": 350,
-      "discountPrice": 315,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/903930",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1643320",
       "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787263142",
@@ -136,6 +124,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1643320",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "903930",
+      "title": "Brigador Killers",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/903930/59bac7f23d94e5ce4853462dc821474bcbc15ead/capsule_616x353.jpg?t=1787262286",
+      "originalPrice": 350,
+      "discountPrice": 315,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/903930",
       "isSpecial": true,
       "isPopular": false
     },
