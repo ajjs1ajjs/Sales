@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T20:18:20.244Z",
+  "lastUpdated": "2026-08-22T21:18:09.196Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -128,6 +128,18 @@
       "isPopular": false
     },
     {
+      "id": "1142710",
+      "title": "Total War: WARHAMMER III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
+      "originalPrice": 1899,
+      "discountPrice": 284,
+      "discountPercent": 85,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1142710",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2764460",
       "title": "Sandustry",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1787306087",
@@ -136,18 +148,6 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2764460",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4026250",
-      "title": "Project P.I.T.T.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787223275",
-      "originalPrice": 230,
-      "discountPrice": 195,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4026250",
       "isSpecial": true,
       "isPopular": false
     },
@@ -164,14 +164,14 @@
       "isPopular": false
     },
     {
-      "id": "1142710",
-      "title": "Total War: WARHAMMER III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
-      "originalPrice": 1899,
-      "discountPrice": 284,
-      "discountPercent": 85,
+      "id": "4026250",
+      "title": "Project P.I.T.T.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787223275",
+      "originalPrice": 230,
+      "discountPrice": 195,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1142710",
+      "url": "https://store.steampowered.com/app/4026250",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9164,13 +9164,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_1149460": {
-      "title": "ICARUS",
-      "price": 140,
-      "percent": 80,
-      "timestamp": "2026-07-23T20:59:41.443Z",
-      "type": "discount"
-    },
     "steam_discount_2840770": {
       "title": "Avatar: Frontiers of Pandora™",
       "price": 515,
