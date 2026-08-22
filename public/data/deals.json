@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T21:18:09.196Z",
+  "lastUpdated": "2026-08-22T22:17:52.454Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -128,6 +128,18 @@
       "isPopular": false
     },
     {
+      "id": "2523770",
+      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
+      "originalPrice": 415,
+      "discountPrice": 373,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2523770",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1142710",
       "title": "Total War: WARHAMMER III",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
@@ -152,26 +164,14 @@
       "isPopular": false
     },
     {
-      "id": "2523770",
-      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
-      "originalPrice": 415,
-      "discountPrice": 373,
+      "id": "3849000",
+      "title": "The Lantern of the Laughless Saint",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/947a4e9cdaef5f5709919cbec4040a973d35f15f/capsule_616x353.jpg?t=1787331024",
+      "originalPrice": 430,
+      "discountPrice": 387,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2523770",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4026250",
-      "title": "Project P.I.T.T.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787223275",
-      "originalPrice": 230,
-      "discountPrice": 195,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4026250",
+      "url": "https://store.steampowered.com/app/3849000",
       "isSpecial": true,
       "isPopular": false
     },
