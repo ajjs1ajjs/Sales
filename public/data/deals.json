@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T04:28:36.073Z",
+  "lastUpdated": "2026-08-22T05:23:30.002Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -128,6 +128,18 @@
       "isPopular": false
     },
     {
+      "id": "1687950",
+      "title": "Persona 5 Royal",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/capsule_616x353.jpg?t=1783356822",
+      "originalPrice": 1899,
+      "discountPrice": 569,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1687950",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3065940",
       "title": "Gallipoli",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/c32bc1837f9cdfacf7b94631ea071a5cfaee4b19/capsule_616x353_alt_assets_0.jpg?t=1787348331",
@@ -136,6 +148,18 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3065940",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2432860",
+      "title": "MENACE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2432860/51096f28fa1f4d471436a5fd559e2c7ed2c791ab/capsule_616x353.jpg?t=1786634291",
+      "originalPrice": 599,
+      "discountPrice": 449,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2432860",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,38 +176,14 @@
       "isPopular": false
     },
     {
-      "id": "2523770",
-      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/827d4b30805c9c6615647f6b6624945d27e6a8c6/capsule_616x353.jpg?t=1786466870",
-      "originalPrice": 415,
-      "discountPrice": 373,
-      "discountPercent": 10,
+      "id": "4294490",
+      "title": "KOTAMON: My Sis Found A Super-Rare Card In Her Cereal Box, So I Became A Garbage Man To Find The Entire Collection And Earn $1,000,000",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4294490/50b9adb533c98ef79e03b57fbd190c6f98237a45/capsule_616x353.jpg?t=1787304812",
+      "originalPrice": 170,
+      "discountPrice": 136,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2523770",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1687950",
-      "title": "Persona 5 Royal",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/capsule_616x353.jpg?t=1783356822",
-      "originalPrice": 1899,
-      "discountPrice": 569,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1687950",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "3849000",
-      "title": "The Lantern of the Laughless Saint",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/947a4e9cdaef5f5709919cbec4040a973d35f15f/capsule_616x353.jpg?t=1787331024",
-      "originalPrice": 430,
-      "discountPrice": 387,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3849000",
+      "url": "https://store.steampowered.com/app/4294490",
       "isSpecial": true,
       "isPopular": false
     },
