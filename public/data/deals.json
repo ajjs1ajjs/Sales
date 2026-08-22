@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T14:17:43.781Z",
+  "lastUpdated": "2026-08-22T15:16:51.994Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -128,18 +128,6 @@
       "isPopular": false
     },
     {
-      "id": "3065940",
-      "title": "Gallipoli",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/c32bc1837f9cdfacf7b94631ea071a5cfaee4b19/capsule_616x353_alt_assets_0.jpg?t=1787348331",
-      "originalPrice": 620,
-      "discountPrice": 465,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3065940",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4131730",
       "title": "VHOLUME",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/b164be0b53a9e286273e10fe6af57441accee9c7/capsule_616x353.jpg?t=1787333844",
@@ -148,6 +136,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4131730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3065940",
+      "title": "Gallipoli",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/c32bc1837f9cdfacf7b94631ea071a5cfaee4b19/capsule_616x353_alt_assets_0.jpg?t=1787348331",
+      "originalPrice": 620,
+      "discountPrice": 465,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3065940",
       "isSpecial": true,
       "isPopular": false
     },
@@ -164,40 +164,28 @@
       "isPopular": false
     },
     {
-      "id": "1142710",
-      "title": "Total War: WARHAMMER III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
+      "id": "2432860",
+      "title": "MENACE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2432860/51096f28fa1f4d471436a5fd559e2c7ed2c791ab/capsule_616x353.jpg?t=1786634291",
+      "originalPrice": 599,
+      "discountPrice": 449,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2432860",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1687950",
+      "title": "Persona 5 Royal",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/capsule_616x353.jpg?t=1783356822",
       "originalPrice": 1899,
-      "discountPrice": 284,
-      "discountPercent": 85,
+      "discountPrice": 569,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1142710",
+      "url": "https://store.steampowered.com/app/1687950",
       "isSpecial": true,
       "isPopular": false
-    },
-    {
-      "id": "3196440",
-      "title": "Vacation Cafe Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3196440/3f56155b051e06b21836f65b8e108cd515c1ba1d/capsule_616x353.jpg?t=1787306679",
-      "originalPrice": 419,
-      "discountPrice": 377,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3196440",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isPopular": true
     },
     {
       "id": "1867240",
@@ -208,6 +196,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1867240",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isPopular": true
     },
@@ -9164,34 +9164,6 @@
     }
   ],
   "notifiedHistory": {
-    "epic_free_223c59e227e74e079a1bbe5a234b896f": {
-      "title": "Foretales",
-      "price": 0,
-      "percent": 100,
-      "timestamp": "2026-07-23T15:06:02.489Z",
-      "type": "free"
-    },
-    "epic_discount_fb86769d4908427986ca9f7d94b581c2": {
-      "title": "OTXO",
-      "price": 123.75,
-      "percent": 55,
-      "timestamp": "2026-07-23T15:06:02.489Z",
-      "type": "discount"
-    },
-    "steam_popular_2699230": {
-      "title": "Grim Dawn - Fangs of Asterkarn",
-      "price": 364,
-      "percent": 10,
-      "timestamp": "2026-07-23T15:06:02.489Z",
-      "type": "popular"
-    },
-    "xbox_new_9N9097G0XZMB": {
-      "title": "Hell is Us",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-23T15:06:02.489Z",
-      "type": "xbox_new"
-    },
     "steam_discount_2699230": {
       "title": "Grim Dawn - Fangs of Asterkarn",
       "price": 364,
@@ -10892,6 +10864,13 @@
       "percent": 50,
       "timestamp": "2026-08-22T06:33:22.186Z",
       "type": "discount"
+    },
+    "xbox_new_9N9097G0XZMB": {
+      "title": "Hell is Us",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-22T15:16:46.721Z",
+      "type": "xbox_new"
     }
   }
 }
