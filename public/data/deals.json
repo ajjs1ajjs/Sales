@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T16:19:09.137Z",
+  "lastUpdated": "2026-08-22T17:17:18.521Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -140,30 +140,6 @@
       "isPopular": false
     },
     {
-      "id": "2432860",
-      "title": "MENACE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2432860/51096f28fa1f4d471436a5fd559e2c7ed2c791ab/capsule_616x353.jpg?t=1786634291",
-      "originalPrice": 599,
-      "discountPrice": 449,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2432860",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "227300",
-      "title": "Euro Truck Simulator 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1785394779",
-      "originalPrice": 400,
-      "discountPrice": 100,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/227300",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1687950",
       "title": "Persona 5 Royal",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/capsule_616x353.jpg?t=1783356822",
@@ -176,6 +152,18 @@
       "isPopular": false
     },
     {
+      "id": "2432860",
+      "title": "MENACE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2432860/51096f28fa1f4d471436a5fd559e2c7ed2c791ab/capsule_616x353.jpg?t=1786634291",
+      "originalPrice": 599,
+      "discountPrice": 449,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2432860",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1142710",
       "title": "Total War: WARHAMMER III",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
@@ -184,6 +172,18 @@
       "discountPercent": 85,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1142710",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "227300",
+      "title": "Euro Truck Simulator 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1785394779",
+      "originalPrice": 400,
+      "discountPrice": 100,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/227300",
       "isSpecial": true,
       "isPopular": false
     },
