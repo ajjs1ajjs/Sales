@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T09:23:13.330Z",
+  "lastUpdated": "2026-08-22T10:18:55.955Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -116,18 +116,6 @@
       "isPopular": false
     },
     {
-      "id": "4131730",
-      "title": "VHOLUME",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/b164be0b53a9e286273e10fe6af57441accee9c7/capsule_616x353.jpg?t=1787333844",
-      "originalPrice": 180,
-      "discountPrice": 162,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4131730",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2764460",
       "title": "Sandustry",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1787306087",
@@ -136,6 +124,18 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2764460",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4131730",
+      "title": "VHOLUME",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/b164be0b53a9e286273e10fe6af57441accee9c7/capsule_616x353.jpg?t=1787333844",
+      "originalPrice": 180,
+      "discountPrice": 162,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4131730",
       "isSpecial": true,
       "isPopular": false
     },
@@ -164,6 +164,18 @@
       "isPopular": false
     },
     {
+      "id": "4164790",
+      "title": "Survival Log",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/86dac5064f382a0eed3e5144757725701e32072f/capsule_616x353.jpg?t=1787312259",
+      "originalPrice": 255,
+      "discountPrice": 216,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4164790",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3196440",
       "title": "Vacation Cafe Simulator",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3196440/3f56155b051e06b21836f65b8e108cd515c1ba1d/capsule_616x353.jpg?t=1787306679",
@@ -172,18 +184,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3196440",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1868140",
-      "title": "DAVE THE DIVER",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/890058df24a6b0c8a768ef2573a700c00ff67463/capsule_616x353.jpg?t=1786442860",
-      "originalPrice": 415,
-      "discountPrice": 207,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1868140",
       "isSpecial": true,
       "isPopular": false
     },
