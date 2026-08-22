@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T05:23:30.002Z",
+  "lastUpdated": "2026-08-22T06:33:26.767Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -164,14 +164,14 @@
       "isPopular": false
     },
     {
-      "id": "4026250",
-      "title": "Project P.I.T.T.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/8af004afc152fceddab81b8875893ea9a7d88662/capsule_616x353.jpg?t=1787223275",
-      "originalPrice": 230,
-      "discountPrice": 195,
-      "discountPercent": 15,
+      "id": "1868140",
+      "title": "DAVE THE DIVER",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/890058df24a6b0c8a768ef2573a700c00ff67463/capsule_616x353.jpg?t=1786442860",
+      "originalPrice": 415,
+      "discountPrice": 207,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4026250",
+      "url": "https://store.steampowered.com/app/1868140",
       "isSpecial": true,
       "isPopular": false
     },
@@ -186,6 +186,18 @@
       "url": "https://store.steampowered.com/app/4294490",
       "isSpecial": true,
       "isPopular": false
+    },
+    {
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
     },
     {
       "id": "1867240",
@@ -208,18 +220,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isPopular": true
     },
@@ -10891,6 +10891,13 @@
       "price": 207,
       "percent": 10,
       "timestamp": "2026-08-21T18:31:25.885Z",
+      "type": "discount"
+    },
+    "steam_discount_1868140": {
+      "title": "DAVE THE DIVER",
+      "price": 207,
+      "percent": 50,
+      "timestamp": "2026-08-22T06:33:22.186Z",
       "type": "discount"
     }
   }
