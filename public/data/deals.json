@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T13:28:27.187Z",
+  "lastUpdated": "2026-08-22T14:17:43.781Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -164,18 +164,6 @@
       "isPopular": false
     },
     {
-      "id": "3196440",
-      "title": "Vacation Cafe Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3196440/3f56155b051e06b21836f65b8e108cd515c1ba1d/capsule_616x353.jpg?t=1787306679",
-      "originalPrice": 419,
-      "discountPrice": 377,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3196440",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1142710",
       "title": "Total War: WARHAMMER III",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
@@ -184,6 +172,18 @@
       "discountPercent": 85,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1142710",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3196440",
+      "title": "Vacation Cafe Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3196440/3f56155b051e06b21836f65b8e108cd515c1ba1d/capsule_616x353.jpg?t=1787306679",
+      "originalPrice": 419,
+      "discountPrice": 377,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3196440",
       "isSpecial": true,
       "isPopular": false
     },
