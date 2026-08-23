@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T19:19:44.408Z",
+  "lastUpdated": "2026-08-23T20:18:00.014Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -128,14 +128,14 @@
       "isPopular": false
     },
     {
-      "id": "1687950",
-      "title": "Persona 5 Royal",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/capsule_616x353.jpg?t=1783356822",
-      "originalPrice": 1899,
-      "discountPrice": 569,
-      "discountPercent": 70,
+      "id": "1569580",
+      "title": "Blue Prince",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/e69fbec887a2120c40b63d8b47d1697e9f733ae0/capsule_616x353.jpg?t=1783605097",
+      "originalPrice": 599,
+      "discountPrice": 359,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1687950",
+      "url": "https://store.steampowered.com/app/1569580",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,6 +152,18 @@
       "isPopular": false
     },
     {
+      "id": "1687950",
+      "title": "Persona 5 Royal",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/capsule_616x353.jpg?t=1783356822",
+      "originalPrice": 1899,
+      "discountPrice": 569,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1687950",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2161700",
       "title": "Persona 3 Reload",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg?t=1764776430",
@@ -160,18 +172,6 @@
       "discountPercent": 65,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2161700",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1142710",
-      "title": "Total War: WARHAMMER III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
-      "originalPrice": 1899,
-      "discountPrice": 284,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1142710",
       "isSpecial": true,
       "isPopular": false
     },
@@ -200,18 +200,6 @@
       "isPopular": true
     },
     {
-      "id": "2584270",
-      "title": "Mortal Shell II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1787326472",
-      "originalPrice": 1449,
-      "discountPrice": 1449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2584270",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
@@ -220,6 +208,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2584270",
+      "title": "Mortal Shell II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1787326472",
+      "originalPrice": 1449,
+      "discountPrice": 1449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2584270",
       "isSpecial": false,
       "isPopular": true
     },
@@ -8505,7 +8505,7 @@
     {
       "id": "9N5VHX8KMVNV",
       "title": "Vapor World: Over The Mind (Game Preview)",
-      "description": "Lost in darkness, a boy drawn into a twisted dream, no way out. Vapor World: Over The Mind is a narrative-driven souls-like platformer focused on deflection combat, set in a vast atmospheric dreamscape painted entirely by hand.\n\n\nMemory lost, a boy caught in a dark past. Nightmares bloomed from that past drag him deeper into darkness. The only way back to reality stands sealed before him. Lindsey, veiled keeper of dreams, tells him the door will open only when the dreams of those swallowed by trauma are gathered. Across the unfolding nightmare, the journey back to reality begins.\n\n\nFACE THE NIGHTMARE\nDefeat the Traumas, mighty bosses that haunt this world, and their offspring Seeds. Overcome each challenging battle and draw in the strength of every creature you break open.\n\n\nEXPLORE A MIND SHAPED BY SORROW AND REGRET\nThis dark dreamworld sprawls vast and unknowable, held together by a force beyond understanding. Recall each lost fragment and press deeper into the darkness. Push heavy obstacles aside, climb hidden ladders, and discover new abilities along the way.\n\n\nUNRAVEL THE DARKEST DREAM AND FACE THE HIDDEN TRUTH\nEvery fragment you recall brings forgotten memories closer to the surface. Descend through a dream filled with unimaginable dangers, and uncover the secrets veiled at its core.",
+      "description": "The full message from the director is included at the bottom of the game description page and in this version's release notes.\n\nLost in darkness, a boy drawn into a twisted dream, no way out. Vapor World: Over The Mind is a narrative-driven souls-like platformer focused on deflection combat, set in a vast atmospheric dreamscape painted entirely by hand.\n\n\nMemory lost, a boy caught in a dark past. Nightmares bloomed from that past drag him deeper into darkness. The only way back to reality stands sealed before him. Lindsey, veiled keeper of dreams, tells him the door will open only when the dreams of those swallowed by trauma are gathered. Across the unfolding nightmare, the journey back to reality begins.\n\n\nFACE THE NIGHTMARE\nDefeat the Traumas, mighty bosses that haunt this world, and their offspring Seeds. Overcome each challenging battle and draw in the strength of every creature you break open.\n\n\nEXPLORE A MIND SHAPED BY SORROW AND REGRET\nThis dark dreamworld sprawls vast and unknowable, held together by a force beyond understanding. Recall each lost fragment and press deeper into the darkness. Push heavy obstacles aside, climb hidden ladders, and discover new abilities along the way.\n\n\nUNRAVEL THE DARKEST DREAM AND FACE THE HIDDEN TRUTH\nEvery fragment you recall brings forgotten memories closer to the surface. Descend through a dream filled with unimaginable dangers, and uncover the secrets veiled at its core.\n\n\nA MESSAGE FROM THE DIRECTOR\n\nHello, this is the director of Vapor World.\n\nBefore anything else, there is still a great deal for us to fill in, and I want to thank everyone who has given our game a chance.\n\nTo everyone who has had a poor experience with this release, I am sincerely sorry.\n\nWe looked into several ways to get news to you quickly, but there was no proper place to post it. Please bear with us for leaving this notice in the patch notes and in the store description.\n\n[On this release]\n\nWe do not think the standard we have to meet changes because this is Game Preview. You paid for it, so it is a release like any other, and we knew we owed you the best experience we could give.\n\nWith this release we did not reach that standard. There is no excuse for that. I am sorry.\n\nWe did the best we could under pressure from several directions, including matters inside the company, and we made a number of mistakes at the end. That responsibility is ours.\n\nWe know there is a great deal still to fill in. We will fill in what is missing and repay your interest and support with a good game.\n\n[Why the updates were late]\n\nOn Xbox, every build has to pass both build verification and submission certification, and a single round takes a considerable amount of time. During this launch, a build that still had problems in it passed certification and shipped. The fix for those problems had to go through certification again from the start. A weekend fell inside that window, and our response here ended up far slower than on other platforms.\n\nFor making you wait because our ability to respond fell short, I bow my head and apologize once again.\n\n[What happened after launch]\n\nThe thing we were criticized for most right after launch was the use of AI-generated video in our cutscenes.\n\nInside the time and money we had, we judged that we had to put our effort into combat and level design, which matter most in this genre, and we chose AI for the cutscenes.\n\nI did not expect our fans to react this strongly against the use of AI. That was my failure. I am sorry.\n\nThat same day we made two promises. No AI in our cutscenes from that point on, and every AI cutscene already in the game removed and replaced with work we made ourselves. We kept both of them the same day.\n\nThere is a reason we could undo it that fast. Every cutscene in this game was originally an in-game cutscene built with our own hands. Switching them to AI video happened right before launch, and our own originals were still there. All we had to do was take the AI versions out and put ours back.\n\nThe cutscenes for the coming episodes will be made by our own hands as well.\n\n[What we have done since]\n\nWe fixed the error that reset save data. The most common piece of feedback was that movement felt slow and heavy, so we greatly improved movement speed and the responsiveness of actions. We read every report and review that came in after launch, one by one, and what we have fixed so far is written above.\n\n[What we will hold ourselves to]\n\nWe will ship updates on a fixed cycle, and we will tell you what is in each update before it goes out. Every update through full release is included at no extra cost for everyone who has bought the game now. We read every report and review, and they go into the list.\n\nWe will post a roadmap this weekend. It will lay out which update ships when, what goes into it, and how much playtime each one adds.\n\nThank you to everyone taking part in Game Preview. From here on we will communicate more, and we will work to show you the process of this game being completed, transparently.\n\nThank you sincerely to everyone who was disappointed and still took the time to write. Your posts are what built the list above.\n\nI am truly sorry for putting you through this. We will keep building this into content you can look forward to. To the fans who have waited so long, I am sorry once more, and we will repay you with a good game.\n\nIf you have more questions, come to our Discord and tell me directly. I will answer as quickly as I can.\n\ndiscord.gg/uBzxgTmFSU\n\nThank you.\n\nYoung Kim\nDirector of ALIVE",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.40314.14026248854300725.24c1a503-6f14-4fc7-a295-1bcfe3194519.f5ac1f11-b961-47b7-bbbc-d42d6fd01ce4",
       "originalPrice": 525,
       "discountPrice": 525,
@@ -10821,6 +10821,13 @@
       "price": 299,
       "percent": 40,
       "timestamp": "2026-08-23T04:33:04.756Z",
+      "type": "discount"
+    },
+    "steam_discount_1569580": {
+      "title": "Blue Prince",
+      "price": 359,
+      "percent": 40,
+      "timestamp": "2026-08-23T20:17:55.328Z",
       "type": "discount"
     }
   }
