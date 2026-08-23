@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T18:23:25.942Z",
+  "lastUpdated": "2026-08-23T19:19:44.408Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -140,18 +140,6 @@
       "isPopular": false
     },
     {
-      "id": "2161700",
-      "title": "Persona 3 Reload",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg?t=1764776430",
-      "originalPrice": 1799,
-      "discountPrice": 629,
-      "discountPercent": 65,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2161700",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4131730",
       "title": "VHOLUME",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/b164be0b53a9e286273e10fe6af57441accee9c7/capsule_616x353.jpg?t=1787478152",
@@ -160,6 +148,18 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4131730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2161700",
+      "title": "Persona 3 Reload",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg?t=1764776430",
+      "originalPrice": 1799,
+      "discountPrice": 629,
+      "discountPercent": 65,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2161700",
       "isSpecial": true,
       "isPopular": false
     },
