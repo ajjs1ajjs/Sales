@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T06:34:50.172Z",
+  "lastUpdated": "2026-08-23T07:30:07.557Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -92,6 +92,18 @@
       "isPopular": false
     },
     {
+      "id": "1643320",
+      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787314871",
+      "originalPrice": 1399,
+      "discountPrice": 979,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1643320",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1771300",
       "title": "Kingdom Come: Deliverance II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
@@ -116,18 +128,6 @@
       "isPopular": false
     },
     {
-      "id": "1643320",
-      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787314871",
-      "originalPrice": 1399,
-      "discountPrice": 979,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1643320",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1687950",
       "title": "Persona 5 Royal",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/capsule_616x353.jpg?t=1783356822",
@@ -136,18 +136,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1687950",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2161700",
-      "title": "Persona 3 Reload",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg?t=1764776430",
-      "originalPrice": 1799,
-      "discountPrice": 629,
-      "discountPercent": 65,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2161700",
       "isSpecial": true,
       "isPopular": false
     },
@@ -164,6 +152,18 @@
       "isPopular": false
     },
     {
+      "id": "2161700",
+      "title": "Persona 3 Reload",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg?t=1764776430",
+      "originalPrice": 1799,
+      "discountPrice": 629,
+      "discountPercent": 65,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2161700",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1142710",
       "title": "Total War: WARHAMMER III",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
@@ -176,14 +176,14 @@
       "isPopular": false
     },
     {
-      "id": "753640",
-      "title": "Outer Wilds",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/d8d60759820aab1272090bb2edd60fde2b42dcf7/capsule_616x353.jpg?t=1785424341",
-      "originalPrice": 499,
-      "discountPrice": 299,
-      "discountPercent": 40,
+      "id": "2764460",
+      "title": "Sandustry",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1787306087",
+      "originalPrice": 199,
+      "discountPrice": 129,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/753640",
+      "url": "https://store.steampowered.com/app/2764460",
       "isSpecial": true,
       "isPopular": false
     },
@@ -196,18 +196,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1867240",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/daaffacf138e472703881fcc24609a3dd8e57c6b/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1787345750",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
       "isSpecial": false,
       "isPopular": true
     },
@@ -232,6 +220,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2584270",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/daaffacf138e472703881fcc24609a3dd8e57c6b/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1787345750",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435490",
       "isSpecial": false,
       "isPopular": true
     }
