@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T03:54:32.397Z",
+  "lastUpdated": "2026-08-23T04:33:10.778Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -104,18 +104,6 @@
       "isPopular": false
     },
     {
-      "id": "1332010",
-      "title": "Stray",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1785424330",
-      "originalPrice": 579,
-      "discountPrice": 289,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1332010",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1771300",
       "title": "Kingdom Come: Deliverance II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
@@ -124,6 +112,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1771300",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1332010",
+      "title": "Stray",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1785424330",
+      "originalPrice": 579,
+      "discountPrice": 289,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1332010",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,18 +152,6 @@
       "isPopular": false
     },
     {
-      "id": "3849000",
-      "title": "The Lantern of the Laughless Saint",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/947a4e9cdaef5f5709919cbec4040a973d35f15f/capsule_616x353.jpg?t=1787331024",
-      "originalPrice": 430,
-      "discountPrice": 387,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3849000",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2161700",
       "title": "Persona 3 Reload",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg?t=1764776430",
@@ -176,14 +164,26 @@
       "isPopular": false
     },
     {
-      "id": "1142710",
-      "title": "Total War: WARHAMMER III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
-      "originalPrice": 1899,
-      "discountPrice": 284,
-      "discountPercent": 85,
+      "id": "753640",
+      "title": "Outer Wilds",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/d8d60759820aab1272090bb2edd60fde2b42dcf7/capsule_616x353.jpg?t=1785424341",
+      "originalPrice": 499,
+      "discountPrice": 299,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1142710",
+      "url": "https://store.steampowered.com/app/753640",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3849000",
+      "title": "The Lantern of the Laughless Saint",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/947a4e9cdaef5f5709919cbec4040a973d35f15f/capsule_616x353.jpg?t=1787331024",
+      "originalPrice": 430,
+      "discountPrice": 387,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3849000",
       "isSpecial": true,
       "isPopular": false
     },
@@ -10828,6 +10828,13 @@
       "price": 629,
       "percent": 65,
       "timestamp": "2026-08-23T02:58:55.405Z",
+      "type": "discount"
+    },
+    "steam_discount_753640": {
+      "title": "Outer Wilds",
+      "price": 299,
+      "percent": 40,
+      "timestamp": "2026-08-23T04:33:04.756Z",
       "type": "discount"
     }
   }
