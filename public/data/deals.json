@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T05:25:24.538Z",
+  "lastUpdated": "2026-08-23T06:34:50.172Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -92,6 +92,18 @@
       "isPopular": false
     },
     {
+      "id": "1771300",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
+      "originalPrice": 1599,
+      "discountPrice": 639,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1771300",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1332010",
       "title": "Stray",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1785424330",
@@ -116,18 +128,6 @@
       "isPopular": false
     },
     {
-      "id": "1771300",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
-      "originalPrice": 1599,
-      "discountPrice": 639,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1771300",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1687950",
       "title": "Persona 5 Royal",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/capsule_616x353.jpg?t=1783356822",
@@ -140,18 +140,6 @@
       "isPopular": false
     },
     {
-      "id": "4131730",
-      "title": "VHOLUME",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/b164be0b53a9e286273e10fe6af57441accee9c7/capsule_616x353.jpg?t=1787333844",
-      "originalPrice": 180,
-      "discountPrice": 162,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4131730",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2161700",
       "title": "Persona 3 Reload",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg?t=1764776430",
@@ -160,6 +148,18 @@
       "discountPercent": 65,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2161700",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4131730",
+      "title": "VHOLUME",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/b164be0b53a9e286273e10fe6af57441accee9c7/capsule_616x353.jpg?t=1787333844",
+      "originalPrice": 180,
+      "discountPrice": 162,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4131730",
       "isSpecial": true,
       "isPopular": false
     },
@@ -212,18 +212,6 @@
       "isPopular": true
     },
     {
-      "id": "2584270",
-      "title": "Mortal Shell II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1787326472",
-      "originalPrice": 1449,
-      "discountPrice": 1449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2584270",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
@@ -232,6 +220,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2584270",
+      "title": "Mortal Shell II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1787326472",
+      "originalPrice": 1449,
+      "discountPrice": 1449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2584270",
       "isSpecial": false,
       "isPopular": true
     }
