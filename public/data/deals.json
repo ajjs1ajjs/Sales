@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T07:30:07.557Z",
+  "lastUpdated": "2026-08-23T08:24:40.164Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -176,14 +176,14 @@
       "isPopular": false
     },
     {
-      "id": "2764460",
-      "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1787306087",
-      "originalPrice": 199,
-      "discountPrice": 129,
-      "discountPercent": 35,
+      "id": "4164790",
+      "title": "Survival Log",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/86dac5064f382a0eed3e5144757725701e32072f/capsule_616x353.jpg?t=1787312259",
+      "originalPrice": 255,
+      "discountPrice": 216,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2764460",
+      "url": "https://store.steampowered.com/app/4164790",
       "isSpecial": true,
       "isPopular": false
     },
@@ -9164,13 +9164,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_1809540": {
-      "title": "Nine Sols",
-      "price": 300,
-      "percent": 50,
-      "timestamp": "2026-07-24T08:22:01.521Z",
-      "type": "discount"
-    },
     "steam_discount_3683770": {
       "title": "Boba Cafe Simulator",
       "price": 227,
