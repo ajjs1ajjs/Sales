@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T13:59:21.529Z",
+  "lastUpdated": "2026-08-24T14:37:32.130Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -212,18 +212,6 @@
       "isPopular": true
     },
     {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/daaffacf138e472703881fcc24609a3dd8e57c6b/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1787345750",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "2075800",
       "title": "STAR WARS Zero Company™",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2075800/01bbe17c5f935a5304362d8d423101c299d1eab3/capsule_616x353_alt_assets_0.jpg?t=1787045473",
@@ -232,6 +220,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2075800",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/daaffacf138e472703881fcc24609a3dd8e57c6b/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1787345750",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435490",
       "isSpecial": false,
       "isPopular": true
     }
@@ -9164,13 +9164,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_3561220": {
-      "title": "Pass the Fear",
-      "price": 333,
-      "percent": 10,
-      "timestamp": "2026-07-25T14:28:38.434Z",
-      "type": "discount"
-    },
     "steam_discount_3240220": {
       "title": "Grand Theft Auto V Enhanced",
       "price": 674,
