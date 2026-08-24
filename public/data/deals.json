@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T05:34:46.450Z",
+  "lastUpdated": "2026-08-24T06:51:02.644Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -89,7 +89,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2358720",
       "isSpecial": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "2161700",
@@ -104,18 +104,6 @@
       "isPopular": false
     },
     {
-      "id": "1687950",
-      "title": "Persona 5 Royal",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/capsule_616x353.jpg?t=1783356822",
-      "originalPrice": 1899,
-      "discountPrice": 569,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1687950",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1771300",
       "title": "Kingdom Come: Deliverance II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
@@ -124,6 +112,18 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1771300",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1687950",
+      "title": "Persona 5 Royal",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/capsule_616x353.jpg?t=1783356822",
+      "originalPrice": 1899,
+      "discountPrice": 569,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1687950",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,6 +152,18 @@
       "isPopular": false
     },
     {
+      "id": "4164790",
+      "title": "Survival Log",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/86dac5064f382a0eed3e5144757725701e32072f/capsule_616x353.jpg?t=1787312259",
+      "originalPrice": 255,
+      "discountPrice": 216,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4164790",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1332010",
       "title": "Stray",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1785424330",
@@ -176,16 +188,16 @@
       "isPopular": false
     },
     {
-      "id": "4164790",
-      "title": "Survival Log",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/86dac5064f382a0eed3e5144757725701e32072f/capsule_616x353.jpg?t=1787312259",
-      "originalPrice": 255,
-      "discountPrice": 216,
-      "discountPercent": 15,
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4164790",
-      "isSpecial": true,
-      "isPopular": false
+      "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
     },
     {
       "id": "2584270",
@@ -196,18 +208,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2584270",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isPopular": true
     },
@@ -224,14 +224,14 @@
       "isPopular": true
     },
     {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/daaffacf138e472703881fcc24609a3dd8e57c6b/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1787345750",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
+      "id": "2075800",
+      "title": "STAR WARS Zero Company™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2075800/01bbe17c5f935a5304362d8d423101c299d1eab3/capsule_616x353_alt_assets_0.jpg?t=1787045473",
+      "originalPrice": 1599,
+      "discountPrice": 1599,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
+      "url": "https://store.steampowered.com/app/2075800",
       "isSpecial": false,
       "isPopular": true
     }
