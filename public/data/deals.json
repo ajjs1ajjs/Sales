@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T06:51:02.644Z",
+  "lastUpdated": "2026-08-24T07:55:01.588Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -92,18 +92,6 @@
       "isPopular": true
     },
     {
-      "id": "2161700",
-      "title": "Persona 3 Reload",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg?t=1764776430",
-      "originalPrice": 1799,
-      "discountPrice": 629,
-      "discountPercent": 65,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2161700",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1771300",
       "title": "Kingdom Come: Deliverance II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
@@ -128,6 +116,18 @@
       "isPopular": false
     },
     {
+      "id": "2161700",
+      "title": "Persona 3 Reload",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg?t=1764776430",
+      "originalPrice": 1799,
+      "discountPrice": 629,
+      "discountPercent": 65,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2161700",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1643320",
       "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787314871",
@@ -136,30 +136,6 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1643320",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4131730",
-      "title": "VHOLUME",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/b164be0b53a9e286273e10fe6af57441accee9c7/capsule_616x353.jpg?t=1787478152",
-      "originalPrice": 180,
-      "discountPrice": 162,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4131730",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4164790",
-      "title": "Survival Log",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/86dac5064f382a0eed3e5144757725701e32072f/capsule_616x353.jpg?t=1787312259",
-      "originalPrice": 255,
-      "discountPrice": 216,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4164790",
       "isSpecial": true,
       "isPopular": false
     },
@@ -176,6 +152,18 @@
       "isPopular": false
     },
     {
+      "id": "4131730",
+      "title": "VHOLUME",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/b164be0b53a9e286273e10fe6af57441accee9c7/capsule_616x353.jpg?t=1787478152",
+      "originalPrice": 180,
+      "discountPrice": 162,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4131730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1142710",
       "title": "Total War: WARHAMMER III",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
@@ -184,6 +172,18 @@
       "discountPercent": 85,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1142710",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4164790",
+      "title": "Survival Log",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/86dac5064f382a0eed3e5144757725701e32072f/capsule_616x353.jpg?t=1787312259",
+      "originalPrice": 255,
+      "discountPrice": 216,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4164790",
       "isSpecial": true,
       "isPopular": false
     },
@@ -208,18 +208,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2584270",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "292000",
-      "title": "No More Room in Hell 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/15efd97ad74787a9873f413970d84e758436c23c/capsule_616x353.jpg?t=1786638024",
-      "originalPrice": 600,
-      "discountPrice": 390,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/292000",
       "isSpecial": false,
       "isPopular": true
     },
