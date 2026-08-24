@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T19:26:01.838Z",
+  "lastUpdated": "2026-08-24T20:25:45.108Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -116,6 +116,18 @@
       "isPopular": false
     },
     {
+      "id": "302510",
+      "title": "Ryse: Son of Rome",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/302510/27dc059a2f765d1a1390796c29beac701f7581e2/capsule_616x353.jpg?t=1783415457",
+      "originalPrice": 230,
+      "discountPrice": 66,
+      "discountPercent": 71,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/302510",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1643320",
       "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787314871",
@@ -140,26 +152,14 @@
       "isPopular": false
     },
     {
-      "id": "4075620",
-      "title": "Combolands: Roguelike Citybuilder",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/abdd3b68342eb1c786cc1352d6cce2f3a5fdbcbc/capsule_616x353.jpg?t=1787580309",
-      "originalPrice": 230,
-      "discountPrice": 184,
+      "id": "4195110",
+      "title": "Ultrapool",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4195110/45b15628170fce70bd7f30852f33250ad337bf26/capsule_616x353.jpg?t=1787572553",
+      "originalPrice": 275,
+      "discountPrice": 220,
       "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4075620",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4560660",
-      "title": "Eslabong",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/8810bda4e5b51e1e614ce5ac0c580fbae5618d47/capsule_616x353.jpg?t=1787590753",
-      "originalPrice": 335,
-      "discountPrice": 284,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4560660",
+      "url": "https://store.steampowered.com/app/4195110",
       "isSpecial": true,
       "isPopular": false
     },
@@ -176,28 +176,16 @@
       "isPopular": false
     },
     {
-      "id": "302510",
-      "title": "Ryse: Son of Rome",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/302510/27dc059a2f765d1a1390796c29beac701f7581e2/capsule_616x353.jpg?t=1783415457",
+      "id": "4075620",
+      "title": "Combolands: Roguelike Citybuilder",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/abdd3b68342eb1c786cc1352d6cce2f3a5fdbcbc/capsule_616x353.jpg?t=1787580309",
       "originalPrice": 230,
-      "discountPrice": 66,
-      "discountPercent": 71,
+      "discountPrice": 184,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/302510",
+      "url": "https://store.steampowered.com/app/4075620",
       "isSpecial": true,
       "isPopular": false
-    },
-    {
-      "id": "2584270",
-      "title": "Mortal Shell II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1787326472",
-      "originalPrice": 1449,
-      "discountPrice": 1449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2584270",
-      "isSpecial": false,
-      "isPopular": true
     },
     {
       "id": "4165910",
@@ -208,6 +196,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2584270",
+      "title": "Mortal Shell II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1787326472",
+      "originalPrice": 1449,
+      "discountPrice": 1449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2584270",
       "isSpecial": false,
       "isPopular": true
     },
@@ -8505,7 +8505,7 @@
     {
       "id": "9N5VHX8KMVNV",
       "title": "Vapor World: Over The Mind (Game Preview)",
-      "description": "The full message from the director is included at the bottom of the game description page and in this version's release notes.\n\nLost in darkness, a boy drawn into a twisted dream, no way out. Vapor World: Over The Mind is a narrative-driven souls-like platformer focused on deflection combat, set in a vast atmospheric dreamscape painted entirely by hand.\n\n\nMemory lost, a boy caught in a dark past. Nightmares bloomed from that past drag him deeper into darkness. The only way back to reality stands sealed before him. Lindsey, veiled keeper of dreams, tells him the door will open only when the dreams of those swallowed by trauma are gathered. Across the unfolding nightmare, the journey back to reality begins.\n\n\nFACE THE NIGHTMARE\nDefeat the Traumas, mighty bosses that haunt this world, and their offspring Seeds. Overcome each challenging battle and draw in the strength of every creature you break open.\n\n\nEXPLORE A MIND SHAPED BY SORROW AND REGRET\nThis dark dreamworld sprawls vast and unknowable, held together by a force beyond understanding. Recall each lost fragment and press deeper into the darkness. Push heavy obstacles aside, climb hidden ladders, and discover new abilities along the way.\n\n\nUNRAVEL THE DARKEST DREAM AND FACE THE HIDDEN TRUTH\nEvery fragment you recall brings forgotten memories closer to the surface. Descend through a dream filled with unimaginable dangers, and uncover the secrets veiled at its core.\n\n\nA MESSAGE FROM THE DIRECTOR\n\nHello, this is the director of Vapor World.\n\nBefore anything else, there is still a great deal for us to fill in, and I want to thank everyone who has given our game a chance.\n\nTo everyone who has had a poor experience with this release, I am sincerely sorry.\n\nWe looked into several ways to get news to you quickly, but there was no proper place to post it. Please bear with us for leaving this notice in the patch notes and in the store description.\n\n[On this release]\n\nWe do not think the standard we have to meet changes because this is Game Preview. You paid for it, so it is a release like any other, and we knew we owed you the best experience we could give.\n\nWith this release we did not reach that standard. There is no excuse for that. I am sorry.\n\nWe did the best we could under pressure from several directions, including matters inside the company, and we made a number of mistakes at the end. That responsibility is ours.\n\nWe know there is a great deal still to fill in. We will fill in what is missing and repay your interest and support with a good game.\n\n[Why the updates were late]\n\nOn Xbox, every build has to pass both build verification and submission certification, and a single round takes a considerable amount of time. During this launch, a build that still had problems in it passed certification and shipped. The fix for those problems had to go through certification again from the start. A weekend fell inside that window, and our response here ended up far slower than on other platforms.\n\nFor making you wait because our ability to respond fell short, I bow my head and apologize once again.\n\n[What happened after launch]\n\nThe thing we were criticized for most right after launch was the use of AI-generated video in our cutscenes.\n\nInside the time and money we had, we judged that we had to put our effort into combat and level design, which matter most in this genre, and we chose AI for the cutscenes.\n\nI did not expect our fans to react this strongly against the use of AI. That was my failure. I am sorry.\n\nThat same day we made two promises. No AI in our cutscenes from that point on, and every AI cutscene already in the game removed and replaced with work we made ourselves. We kept both of them the same day.\n\nThere is a reason we could undo it that fast. Every cutscene in this game was originally an in-game cutscene built with our own hands. Switching them to AI video happened right before launch, and our own originals were still there. All we had to do was take the AI versions out and put ours back.\n\nThe cutscenes for the coming episodes will be made by our own hands as well.\n\n[What we have done since]\n\nWe fixed the error that reset save data. The most common piece of feedback was that movement felt slow and heavy, so we greatly improved movement speed and the responsiveness of actions. We read every report and review that came in after launch, one by one, and what we have fixed so far is written above.\n\n[What we will hold ourselves to]\n\nWe will ship updates on a fixed cycle, and we will tell you what is in each update before it goes out. Every update through full release is included at no extra cost for everyone who has bought the game now. We read every report and review, and they go into the list.\n\nWe will post a roadmap this weekend. It will lay out which update ships when, what goes into it, and how much playtime each one adds.\n\nThank you to everyone taking part in Game Preview. From here on we will communicate more, and we will work to show you the process of this game being completed, transparently.\n\nThank you sincerely to everyone who was disappointed and still took the time to write. Your posts are what built the list above.\n\nI am truly sorry for putting you through this. We will keep building this into content you can look forward to. To the fans who have waited so long, I am sorry once more, and we will repay you with a good game.\n\nIf you have more questions, come to our Discord and tell me directly. I will answer as quickly as I can.\n\ndiscord.gg/uBzxgTmFSU\n\nThank you.\n\nYoung Kim\nDirector of ALIVE",
+      "description": "The full message from the director is included at the bottom of the game description page.\n\nLost in darkness, a boy drawn into a twisted dream, no way out. Vapor World: Over The Mind is a narrative-driven souls-like platformer focused on deflection combat, set in a vast atmospheric dreamscape painted entirely by hand.\n\n\nMemory lost, a boy caught in a dark past. Nightmares bloomed from that past drag him deeper into darkness. The only way back to reality stands sealed before him. Lindsey, veiled keeper of dreams, tells him the door will open only when the dreams of those swallowed by trauma are gathered. Across the unfolding nightmare, the journey back to reality begins.\n\n\nFACE THE NIGHTMARE\nDefeat the Traumas, mighty bosses that haunt this world, and their offspring Seeds. Overcome each challenging battle and draw in the strength of every creature you break open.\n\n\nEXPLORE A MIND SHAPED BY SORROW AND REGRET\nThis dark dreamworld sprawls vast and unknowable, held together by a force beyond understanding. Recall each lost fragment and press deeper into the darkness. Push heavy obstacles aside, climb hidden ladders, and discover new abilities along the way.\n\n\nUNRAVEL THE DARKEST DREAM AND FACE THE HIDDEN TRUTH\nEvery fragment you recall brings forgotten memories closer to the surface. Descend through a dream filled with unimaginable dangers, and uncover the secrets veiled at its core.\n\nA MESSAGE FROM THE DIRECTOR\n\nDear players, this is the director of Vapor World.\n\nBefore I begin, I want to thank everyone who has picked up our game, even though there is still much for us to improve.\n\nTo everyone who has had a poor experience with this release, I am sincerely sorry.\n\nWe looked for a faster way to reach you and could not find one on Xbox, so this message is here in the store description instead.\n\n[On this release]\n\nWe do not think the standard we have to meet changes because this is Game Preview. You paid for it, so it is a release like any other, and we knew we owed you the best experience we could give.\n\nWith this release we did not reach that standard. There is no excuse for that. I am sorry.\n\nThere were many twists and turns on the way to launch. We tried to take on too much, and ended up unable to take care of what mattered most. We made mistakes at the end, and that responsibility, too, is ours.\n\nWe know there is much left to build out. We will make sure to complete what is missing and repay your interest and support with a good game.\n\n[On the build that shipped first]\n\nWe have confirmed that a version check error during Xbox certification put an old build live at launch.\n\nSome of the issues you are raising have already been fixed in the current build.\n\nThis one is on us as well. I am ashamed of it.\n\n[Why the updates were late]\n\nOn Xbox, every build has to pass both build verification and submission certification, and a single round takes a long time. The fix had to go through certification again from the start. A weekend fell inside that window, and our response here ended up far slower than on other platforms.\n\nOnce again, I am sorry that our ability to respond fell short and kept you waiting.\n\n[What happened after launch]\n\nThe thing we were criticized for most right after launch was the use of AI-generated video in our cutscenes.\n\nWith the time and money we had, we judged that combat and level design mattered most in this genre and put our effort there, and we chose AI for the cutscenes.\n\nI did not expect our fans to react this strongly against the use of AI. That was my failure. I am sorry.\n\nThat same day we made two promises. No AI in our cutscenes from that point on, and every AI cutscene already in the game removed and replaced with work we made ourselves. We kept both of them the same day.\n\nThere is a reason we could undo it that fast. Every cutscene in this game was originally an in-game cutscene built with our own hands. Switching them to AI video happened right before launch, and our own originals were still there. All we had to do was take the AI versions out and put ours back.\n\nThe cutscenes for the coming episodes will be made by our own hands as well.\n\n[What we have done since]\n\nWe fixed the error that reset save data. The most common piece of feedback was that movement felt slow and heavy, so we greatly improved movement speed and the responsiveness of actions. We have read every report and review that came in after launch, one by one, and they are what shaped this update.\n\nCertification on Xbox takes time, so even the fixes we have already made can reach you later than we would like.\n\nRemoving the AI video from the build reset save data. We did not tell you before it happened, and for that I am sincerely sorry once again. If you have not received the update yet, your save data may be reset a few more times. This time, we are telling you in advance.\n\n[What we will hold ourselves to]\n\nWe will ship updates on a fixed cycle, and we will tell you what is in each one before it goes out. Every update through full release is included at no extra cost for everyone who owns the game now.\n\nWe have not found a place on Xbox where we can post announcements, so the roadmap will go up on our Discord. It will lay out which update ships when, what goes into it, and how much playtime each one adds. Please come by and take a look.\n\nThere are five of us making this game. That can make us slower than we would like, but we will fix things one by one, without fail. Thank you for waiting, and for bearing with us.\n\nThank you to everyone taking part in Game Preview. From here on we will say more, and say it earlier, so you can watch this game being built instead of hearing about it afterwards.\n\nTo everyone who was disappointed and still took the time to write: your posts are what shaped this update. Thank you.\n\nI am sorry once more for the experience this launch gave you. We will keep building this into something worth your time, and we will repay you with a good game.\n\nIf you have more questions, come to our Discord and tell me directly. I am always there. Whatever you tell me, I will listen and do my best to put it into the game.\n\ndiscord.gg/uBzxgTmFSU\n\nTo everyone who has taken an interest in our game, thank you once again, sincerely.\n\nYoung Kim\nDirector of ALIVE",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.40314.14026248854300725.24c1a503-6f14-4fc7-a295-1bcfe3194519.f5ac1f11-b961-47b7-bbbc-d42d6fd01ce4",
       "originalPrice": 525,
       "discountPrice": 525,
@@ -10850,6 +10850,13 @@
       "percent": 0,
       "timestamp": "2026-08-24T19:25:55.597Z",
       "type": "popular"
+    },
+    "steam_discount_4195110": {
+      "title": "Ultrapool",
+      "price": 220,
+      "percent": 20,
+      "timestamp": "2026-08-24T20:25:38.180Z",
+      "type": "discount"
     }
   }
 }
