@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T04:52:51.609Z",
+  "lastUpdated": "2026-08-24T05:34:46.450Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -176,14 +176,14 @@
       "isPopular": false
     },
     {
-      "id": "3849000",
-      "title": "The Lantern of the Laughless Saint",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/947a4e9cdaef5f5709919cbec4040a973d35f15f/capsule_616x353.jpg?t=1787331024",
-      "originalPrice": 430,
-      "discountPrice": 387,
-      "discountPercent": 10,
+      "id": "4164790",
+      "title": "Survival Log",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/86dac5064f382a0eed3e5144757725701e32072f/capsule_616x353.jpg?t=1787312259",
+      "originalPrice": 255,
+      "discountPrice": 216,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3849000",
+      "url": "https://store.steampowered.com/app/4164790",
       "isSpecial": true,
       "isPopular": false
     },
