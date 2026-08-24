@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T18:34:55.396Z",
+  "lastUpdated": "2026-08-24T19:26:01.838Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -89,7 +89,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2358720",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "3240220",
@@ -152,6 +152,18 @@
       "isPopular": false
     },
     {
+      "id": "4560660",
+      "title": "Eslabong",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/8810bda4e5b51e1e614ce5ac0c580fbae5618d47/capsule_616x353.jpg?t=1787590753",
+      "originalPrice": 335,
+      "discountPrice": 284,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4560660",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1332010",
       "title": "Stray",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1785424330",
@@ -164,26 +176,14 @@
       "isPopular": false
     },
     {
-      "id": "4131730",
-      "title": "VHOLUME",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/b164be0b53a9e286273e10fe6af57441accee9c7/capsule_616x353.jpg?t=1787478152",
-      "originalPrice": 180,
-      "discountPrice": 162,
-      "discountPercent": 10,
+      "id": "302510",
+      "title": "Ryse: Son of Rome",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/302510/27dc059a2f765d1a1390796c29beac701f7581e2/capsule_616x353.jpg?t=1783415457",
+      "originalPrice": 230,
+      "discountPrice": 66,
+      "discountPercent": 71,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4131730",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1142710",
-      "title": "Total War: WARHAMMER III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
-      "originalPrice": 1899,
-      "discountPrice": 284,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1142710",
+      "url": "https://store.steampowered.com/app/302510",
       "isSpecial": true,
       "isPopular": false
     },
@@ -220,6 +220,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2075800",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2406770",
+      "title": "Bodycam",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/ac4a1da41b76d1949da9d68d0f372c47ba854959/capsule_616x353.jpg?t=1787522517",
+      "originalPrice": 700,
+      "discountPrice": 700,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2406770",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10817,6 +10829,27 @@
       "percent": 20,
       "timestamp": "2026-08-24T17:27:12.106Z",
       "type": "discount"
+    },
+    "steam_discount_4560660": {
+      "title": "Eslabong",
+      "price": 284,
+      "percent": 15,
+      "timestamp": "2026-08-24T19:25:55.597Z",
+      "type": "discount"
+    },
+    "steam_discount_302510": {
+      "title": "Ryse: Son of Rome",
+      "price": 66,
+      "percent": 71,
+      "timestamp": "2026-08-24T19:25:55.597Z",
+      "type": "discount"
+    },
+    "steam_popular_2406770": {
+      "title": "Bodycam",
+      "price": 700,
+      "percent": 0,
+      "timestamp": "2026-08-24T19:25:55.597Z",
+      "type": "popular"
     }
   }
 }
