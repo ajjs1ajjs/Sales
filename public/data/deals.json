@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T11:24:11.080Z",
+  "lastUpdated": "2026-08-24T12:41:34.213Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -176,14 +176,14 @@
       "isPopular": false
     },
     {
-      "id": "1332010",
-      "title": "Stray",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1785424330",
-      "originalPrice": 579,
-      "discountPrice": 289,
-      "discountPercent": 50,
+      "id": "1158310",
+      "title": "Crusader Kings III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/07b3c23cd831fb520b8192f03e687e4fab535eef/capsule_616x353.jpg?t=1785862913",
+      "originalPrice": 1349,
+      "discountPrice": 404,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1332010",
+      "url": "https://store.steampowered.com/app/1158310",
       "isSpecial": true,
       "isPopular": false
     },
@@ -220,6 +220,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2075800",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/daaffacf138e472703881fcc24609a3dd8e57c6b/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1787345750",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435490",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10809,6 +10821,13 @@
       "price": 359,
       "percent": 40,
       "timestamp": "2026-08-23T20:17:55.328Z",
+      "type": "discount"
+    },
+    "steam_discount_1158310": {
+      "title": "Crusader Kings III",
+      "price": 404,
+      "percent": 70,
+      "timestamp": "2026-08-24T12:41:24.891Z",
       "type": "discount"
     }
   }
