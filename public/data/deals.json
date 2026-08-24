@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T01:04:18.505Z",
+  "lastUpdated": "2026-08-24T02:59:24.493Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -92,6 +92,30 @@
       "isPopular": false
     },
     {
+      "id": "2161700",
+      "title": "Persona 3 Reload",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg?t=1764776430",
+      "originalPrice": 1799,
+      "discountPrice": 629,
+      "discountPercent": 65,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2161700",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1687950",
+      "title": "Persona 5 Royal",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/capsule_616x353.jpg?t=1783356822",
+      "originalPrice": 1899,
+      "discountPrice": 569,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1687950",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "1771300",
       "title": "Kingdom Come: Deliverance II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
@@ -128,26 +152,14 @@
       "isPopular": false
     },
     {
-      "id": "2161700",
-      "title": "Persona 3 Reload",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg?t=1764776430",
-      "originalPrice": 1799,
-      "discountPrice": 629,
-      "discountPercent": 65,
+      "id": "1332010",
+      "title": "Stray",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1785424330",
+      "originalPrice": 579,
+      "discountPrice": 289,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2161700",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1687950",
-      "title": "Persona 5 Royal",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/capsule_616x353.jpg?t=1783356822",
-      "originalPrice": 1899,
-      "discountPrice": 569,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1687950",
+      "url": "https://store.steampowered.com/app/1332010",
       "isSpecial": true,
       "isPopular": false
     },
@@ -160,18 +172,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3849000",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1332010",
-      "title": "Stray",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1785424330",
-      "originalPrice": 579,
-      "discountPrice": 289,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1332010",
       "isSpecial": true,
       "isPopular": false
     },
@@ -212,14 +212,14 @@
       "isPopular": true
     },
     {
-      "id": "1867240",
-      "title": "WARDOGS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1787240917",
-      "originalPrice": 829,
-      "discountPrice": 829,
-      "discountPercent": 0,
+      "id": "292000",
+      "title": "No More Room in Hell 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/15efd97ad74787a9873f413970d84e758436c23c/capsule_616x353.jpg?t=1786638024",
+      "originalPrice": 600,
+      "discountPrice": 390,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1867240",
+      "url": "https://store.steampowered.com/app/292000",
       "isSpecial": false,
       "isPopular": true
     },
