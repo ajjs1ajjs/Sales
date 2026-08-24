@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T16:32:30.384Z",
+  "lastUpdated": "2026-08-24T17:27:17.925Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -92,50 +92,14 @@
       "isPopular": true
     },
     {
-      "id": "1771300",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
-      "originalPrice": 1599,
-      "discountPrice": 639,
-      "discountPercent": 60,
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1999,
+      "discountPrice": 879,
+      "discountPercent": 56,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1771300",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1687950",
-      "title": "Persona 5 Royal",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/capsule_616x353.jpg?t=1783356822",
-      "originalPrice": 1899,
-      "discountPrice": 569,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1687950",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1643320",
-      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787314871",
-      "originalPrice": 1399,
-      "discountPrice": 979,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1643320",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2161700",
-      "title": "Persona 3 Reload",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg?t=1764776430",
-      "originalPrice": 1799,
-      "discountPrice": 629,
-      "discountPercent": 65,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2161700",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,6 +116,18 @@
       "isPopular": false
     },
     {
+      "id": "1643320",
+      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787314871",
+      "originalPrice": 1399,
+      "discountPrice": 979,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1643320",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "227300",
       "title": "Euro Truck Simulator 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1785394779",
@@ -164,26 +140,50 @@
       "isPopular": false
     },
     {
-      "id": "1158310",
-      "title": "Crusader Kings III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/07b3c23cd831fb520b8192f03e687e4fab535eef/capsule_616x353.jpg?t=1785862913",
-      "originalPrice": 1349,
-      "discountPrice": 404,
-      "discountPercent": 70,
+      "id": "4075620",
+      "title": "Combolands: Roguelike Citybuilder",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/abdd3b68342eb1c786cc1352d6cce2f3a5fdbcbc/capsule_616x353.jpg?t=1787580309",
+      "originalPrice": 230,
+      "discountPrice": 184,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1158310",
+      "url": "https://store.steampowered.com/app/4075620",
       "isSpecial": true,
       "isPopular": false
     },
     {
-      "id": "4164790",
-      "title": "Survival Log",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/9004be05732beee305be1a02fd6a2bf3b337aff2/capsule_616x353.jpg?t=1787567999",
-      "originalPrice": 255,
-      "discountPrice": 216,
-      "discountPercent": 15,
+      "id": "4131730",
+      "title": "VHOLUME",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/b164be0b53a9e286273e10fe6af57441accee9c7/capsule_616x353.jpg?t=1787478152",
+      "originalPrice": 180,
+      "discountPrice": 162,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4164790",
+      "url": "https://store.steampowered.com/app/4131730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1332010",
+      "title": "Stray",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1785424330",
+      "originalPrice": 579,
+      "discountPrice": 289,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1332010",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1142710",
+      "title": "Total War: WARHAMMER III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg?t=1786634522",
+      "originalPrice": 1899,
+      "discountPrice": 284,
+      "discountPercent": 85,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1142710",
       "isSpecial": true,
       "isPopular": false
     },
@@ -2673,7 +2673,7 @@
     {
       "id": "9P8RC7S4NRQ3",
       "title": "EA SPORTS FC™ 25 - PC",
-      "description": "EA SPORTS FC™ 25 gives you more ways to win for the club.\n\nTeam up with 5v5 Rush, a new way to play with friends in Football Ultimate Team™, Clubs, and Kick-Off with small-sided gameplay. In Football Ultimate Team Rush, build your dream 5-a-side squad with up to three friends, each controlling your favourite Player Item.\n\nGet your team playing like the world’s best with FC IQ. An overhaul of tactical foundations across the game delivers greater strategic control and more realistic collective movement at the team level, while a new AI model, powered by real-world data, influences player tactics through all-new Player Roles.\n\nNew additions to Manager and Player Career let you live out the biggest storylines from the real-world with Live Start Points**; rewrite the stories of past ICONs with today’s teams in Player Career; and for the first time, play an authentic Women’s Career experience, taking control of a club or player from the top five women’s leagues.\n\nEA SPORTS FC™ 25 has the best players from the biggest clubs and competitions around the globe, with match data from the world’s top leagues powering how 19,000+ players move, play, and win in every match.\n\nIntroducing Club Membership – the next phase of loyalty in EA SPORTS FC™ 25. Available to fans that have played EA SPORTS FC™ 24 before 27 September 2024 and play EA SPORTS FC™ 25 before November 1st, 2024*.\nFC 25 Club Members will receive a host of exclusive benefits across the year, including a badge and kit to represent their status and rewards across all your favourite game modes.\nOnce again, all Founders will be able to unlock their Founders exclusive cosmetic items.\n\nNo matter how you choose to win in EA SPORTS FC™ 25, do it for the club.\n\nThis game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n\nConditions & restrictions apply. See ea.com/legal for details.\n\n†Conditions & restrictions apply. See https://www.ea.com/games/ea-sports-fc/fc-25/dual-entitlement for details.\n*Conditions and restrictions apply. See https://www.ea.com/games/ea-sports-fc/fc-25/disclaimers for details.\n**To be released with a post-launch update. For more details & availability, visit https://www.ea.com/games/ea-sports-fc/fc-25/disclaimers.\n\nFC Points purchase is not available in Belgium.\n\nAll unspent FC Points will expire and be removed from your balance after 180 days from date of purchase.\n\nAudio commentary for languages other than English and the console-settings language requires a separate download.\n\n© 2024 Electronic Arts Inc. Electronic Arts, EA, EA SPORTS, the EA SPORTS logo, EA SPORTS FC, the EA SPORTS FC logo, Frostbite, the Frostbite logo, Football Ultimate Team, and Ultimate Team are trademarks of Electronic Arts Inc.",
+      "description": "EA SPORTS FC™ 25 gives you more ways to win for the club.\r\n\r\nTeam up with 5v5 Rush, a new way to play with friends in Football Ultimate Team™, Clubs, and Kick-Off with small-sided gameplay. In Football Ultimate Team Rush, build your dream 5-a-side squad with up to three friends, each controlling your favourite Player Item.\r\n\r\nGet your team playing like the world’s best with FC IQ. An overhaul of tactical foundations across the game delivers greater strategic control and more realistic collective movement at the team level, while a new AI model, powered by real-world data, influences player tactics through all-new Player Roles.\r\n\r\nNew additions to Manager and Player Career let you live out the biggest storylines from the real-world with Live Start Points**; rewrite the stories of past ICONs with today’s teams in Player Career; and for the first time, play an authentic Women’s Career experience, taking control of a club or player from the top five women’s leagues.\r\n\r\nEA SPORTS FC™ 25 has the best players from the biggest clubs and competitions around the globe, with match data from the world’s top leagues powering how 19,000+ players move, play, and win in every match.\r\n\r\nIntroducing Club Membership – the next phase of loyalty in EA SPORTS FC™ 25. Available to fans that have played EA SPORTS FC™ 24 before 27 September 2024 and play EA SPORTS FC™ 25 before November 1st, 2024*.\r\nFC 25 Club Members will receive a host of exclusive benefits across the year, including a badge and kit to represent their status and rewards across all your favourite game modes.\r\nOnce again, all Founders will be able to unlock their Founders exclusive cosmetic items.\r\n\r\nNo matter how you choose to win in EA SPORTS FC™ 25, do it for the club.\r\n\r\nThis game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\r\n\r\nConditions & restrictions apply. See ea.com/legal for details.\r\n\r\n†Conditions & restrictions apply. See https://www.ea.com/games/ea-sports-fc/fc-25/dual-entitlement for details.\r\n*Conditions and restrictions apply. See https://www.ea.com/games/ea-sports-fc/fc-25/disclaimers for details.\r\n**To be released with a post-launch update. For more details & availability, visit https://www.ea.com/games/ea-sports-fc/fc-25/disclaimers.\r\n\r\nFC Points purchase is not available in Belgium and South Korea.\r\n\r\nAll unspent FC Points will expire and be removed from your balance after 180 days from date of purchase.\r\n\r\nAudio commentary for languages other than English and the console-settings language requires a separate download.\r\n\r\n© 2024 Electronic Arts Inc. Electronic Arts, EA, EA SPORTS, the EA SPORTS logo, EA SPORTS FC, the EA SPORTS FC logo, Frostbite, the Frostbite logo, Football Ultimate Team, and Ultimate Team are trademarks of Electronic Arts Inc.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.32877.14082742796871732.7467348b-0622-4793-a9c9-1d21ce257c67.701ff4b0-554f-47f4-8799-64dcf42fe626",
       "originalPrice": 0,
       "discountPrice": 0,
@@ -10809,6 +10809,13 @@
       "price": 404,
       "percent": 70,
       "timestamp": "2026-08-24T12:41:24.891Z",
+      "type": "discount"
+    },
+    "steam_discount_4075620": {
+      "title": "Combolands: Roguelike Citybuilder",
+      "price": 184,
+      "percent": 20,
+      "timestamp": "2026-08-24T17:27:12.106Z",
       "type": "discount"
     }
   }
