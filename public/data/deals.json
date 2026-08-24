@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T20:25:45.108Z",
+  "lastUpdated": "2026-08-24T21:24:46.917Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -80,18 +80,6 @@
       "isPopular": true
     },
     {
-      "id": "2358720",
-      "title": "Black Myth: Wukong",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
-      "originalPrice": 1699,
-      "discountPrice": 1189,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2358720",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -104,9 +92,21 @@
       "isPopular": false
     },
     {
+      "id": "2358720",
+      "title": "Black Myth: Wukong",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
+      "originalPrice": 1699,
+      "discountPrice": 1189,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2358720",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2764460",
       "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1787306087",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1787606192",
       "originalPrice": 199,
       "discountPrice": 129,
       "discountPercent": 35,
@@ -124,6 +124,30 @@
       "discountPercent": 71,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/302510",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2680010",
+      "title": "The First Berserker: Khazan",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/77f0471fc4cb000cdf1e0c4e1da2e047217195fa/capsule_616x353.jpg?t=1776936760",
+      "originalPrice": 1649,
+      "discountPrice": 989,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2680010",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4195110",
+      "title": "Ultrapool",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4195110/45b15628170fce70bd7f30852f33250ad337bf26/capsule_616x353.jpg?t=1787572553",
+      "originalPrice": 275,
+      "discountPrice": 220,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4195110",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,18 +176,6 @@
       "isPopular": false
     },
     {
-      "id": "4195110",
-      "title": "Ultrapool",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4195110/45b15628170fce70bd7f30852f33250ad337bf26/capsule_616x353.jpg?t=1787572553",
-      "originalPrice": 275,
-      "discountPrice": 220,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4195110",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1332010",
       "title": "Stray",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1785424330",
@@ -172,18 +184,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1332010",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4075620",
-      "title": "Combolands: Roguelike Citybuilder",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/abdd3b68342eb1c786cc1352d6cce2f3a5fdbcbc/capsule_616x353.jpg?t=1787580309",
-      "originalPrice": 230,
-      "discountPrice": 184,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4075620",
       "isSpecial": true,
       "isPopular": false
     },
@@ -232,6 +232,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2406770",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "292000",
+      "title": "No More Room in Hell 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/15efd97ad74787a9873f413970d84e758436c23c/capsule_616x353.jpg?t=1786638024",
+      "originalPrice": 600,
+      "discountPrice": 390,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/292000",
       "isSpecial": false,
       "isPopular": true
     }
@@ -9164,13 +9176,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_3240220": {
-      "title": "Grand Theft Auto V Enhanced",
-      "price": 674,
-      "percent": 50,
-      "timestamp": "2026-07-25T20:46:34.071Z",
-      "type": "discount"
-    },
     "steam_discount_1874880": {
       "title": "Arma Reforger",
       "price": 629,
@@ -10856,6 +10861,20 @@
       "price": 220,
       "percent": 20,
       "timestamp": "2026-08-24T20:25:38.180Z",
+      "type": "discount"
+    },
+    "steam_discount_3240220": {
+      "title": "Grand Theft Auto V Enhanced",
+      "price": 879,
+      "percent": 56,
+      "timestamp": "2026-08-24T21:24:42.124Z",
+      "type": "discount"
+    },
+    "steam_discount_2680010": {
+      "title": "The First Berserker: Khazan",
+      "price": 989,
+      "percent": 40,
+      "timestamp": "2026-08-24T21:24:42.124Z",
       "type": "discount"
     }
   }
