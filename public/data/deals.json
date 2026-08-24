@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T07:55:01.588Z",
+  "lastUpdated": "2026-08-24T08:43:12.578Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -152,6 +152,18 @@
       "isPopular": false
     },
     {
+      "id": "4164790",
+      "title": "Survival Log",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/86dac5064f382a0eed3e5144757725701e32072f/capsule_616x353.jpg?t=1787312259",
+      "originalPrice": 255,
+      "discountPrice": 216,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4164790",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "4131730",
       "title": "VHOLUME",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/b164be0b53a9e286273e10fe6af57441accee9c7/capsule_616x353.jpg?t=1787478152",
@@ -172,18 +184,6 @@
       "discountPercent": 85,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1142710",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4164790",
-      "title": "Survival Log",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/86dac5064f382a0eed3e5144757725701e32072f/capsule_616x353.jpg?t=1787312259",
-      "originalPrice": 255,
-      "discountPrice": 216,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4164790",
       "isSpecial": true,
       "isPopular": false
     },
