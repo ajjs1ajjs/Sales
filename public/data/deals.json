@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T09:31:56.005Z",
+  "lastUpdated": "2026-08-25T10:27:52.704Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -80,18 +80,6 @@
       "isPopular": true
     },
     {
-      "id": "3321460",
-      "title": "Crimson Desert",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/d76689d0bd0a77b863a64b08760b8dd1c5b50081/capsule_616x353.jpg?t=1781661893",
-      "originalPrice": 2449,
-      "discountPrice": 1959,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3321460",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -116,6 +104,18 @@
       "isPopular": true
     },
     {
+      "id": "3321460",
+      "title": "Crimson Desert",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/d76689d0bd0a77b863a64b08760b8dd1c5b50081/capsule_616x353.jpg?t=1781661893",
+      "originalPrice": 2449,
+      "discountPrice": 1959,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3321460",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "2764460",
       "title": "Sandustry",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1787606192",
@@ -124,18 +124,6 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2764460",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "2680010",
-      "title": "The First Berserker: Khazan",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/77f0471fc4cb000cdf1e0c4e1da2e047217195fa/capsule_616x353.jpg?t=1776936760",
-      "originalPrice": 1649,
-      "discountPrice": 989,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2680010",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,14 +140,14 @@
       "isPopular": false
     },
     {
-      "id": "1643320",
-      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787314871",
-      "originalPrice": 1399,
-      "discountPrice": 979,
-      "discountPercent": 30,
+      "id": "2680010",
+      "title": "The First Berserker: Khazan",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/77f0471fc4cb000cdf1e0c4e1da2e047217195fa/capsule_616x353.jpg?t=1776936760",
+      "originalPrice": 1649,
+      "discountPrice": 989,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1643320",
+      "url": "https://store.steampowered.com/app/2680010",
       "isSpecial": true,
       "isPopular": false
     },
@@ -176,14 +164,26 @@
       "isPopular": false
     },
     {
-      "id": "1332010",
-      "title": "Stray",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1785424330",
-      "originalPrice": 579,
-      "discountPrice": 289,
-      "discountPercent": 50,
+      "id": "1643320",
+      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787314871",
+      "originalPrice": 1399,
+      "discountPrice": 979,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1332010",
+      "url": "https://store.steampowered.com/app/1643320",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4164790",
+      "title": "Survival Log",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/9004be05732beee305be1a02fd6a2bf3b337aff2/capsule_616x353.jpg?t=1787629162",
+      "originalPrice": 255,
+      "discountPrice": 216,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4164790",
       "isSpecial": true,
       "isPopular": false
     },
@@ -3306,14 +3306,14 @@
       "description": "УЖЕ ВИЙШЛА — ГРАЙТЕ СЬОГОДНI\nНова основа, з якою ваша футбольна доля буде у ваших руках! Створена на рушії Unity, FM26 — переосмислена спадщина, де ваша історія тренера еволюціонує. \nПереосмислений інтерфейс і ще більш захопливі враження ігрового дня наближають вас до подій та підсилюють кожну вирішальну мить. \nПеребудуйте команду за допомогою сучасних інструментів трансферу та створіть власну філософію футболу завдяки інноваціям і тактичному реалізму, який повністю змінює уявлення про гру.  \n\nЗДОБУДЬТЕ СЛАВУ FIFA WORLD CUP 2026™\nПеремога в найбільшому міжнародному футбольному турнірі — у ваших руках. Не проґавте спеціальну дату старту для FIFA World Cup 2026™ та випробуйте нові інструменти керування національними збірними, а також автентичну ліцензовану телевізійну графіку, брендинг турніру, офіційні м’ячі й форму.\n\nНАЙЯСКРАВІШІ ВРАЖЕННЯ ВІД МАТЧУ \nНасолоджуйтеся найнасиченішими враженнями ігрового дня в історії серії — поліпшений рух гравців і ще більша деталізація на полі додають кожному матчу нових рівнів глибини та драматизму.  \nВідчуйте адреналін стрімкого ривка з дриблінгом, ювелірного проникаючого пасу й незабутнього переможного гола на останніх секундах — із більшою виразністю завдяки оновленому захопленню руху та об’ємній анімації.\n\nПРЕМ’ЄР-ЛІГА ВСТУПАЄ В БІЙ  \nПрем’єр-ліга чекає на вас! Досягайте вершин англійського футболу та отримуйте повністю ліцензовані клубні значки, форму й офіційні фотографії гравців. \nНовий рівень автентичності. Ви змагаєтеся за головний приз у вітчизняному футболі — ніби перебуваєте на трибунах стадіону.  \n\nПОЛІПШЕННЯ ТАКТИКИ\nВізьміть під безпрецедентний контроль стиль гри команди на всіх ділянках поля — завдяки запровадженню окремих розстановок для гри у володінні м’ячем і без нього.\nОновлені ролі гравців і динамічний візуалізатор, що показує, як команда перешиковується в різних сценаріях, виводять вашу передматчеву підготовку на новий рівень — з матчу в матч.\n\nТОТАЛЬНИЙ ФУТБОЛ, ТОТАЛЬНИЙ КОНТРОЛЬ  \nКардинально оновлений інтерфейс, створений для сучасного тренера, додає ясності й плавності кожній взаємодії — а новий Портал стане вашим провідником у великий футбольний світ. \nНалаштуйте гру під власні пріоритети з появою «Закладок швидких посилань», а про прекрасну гру дізнавайтеся більше завдяки оновленому пошуку та новому глосарію FMPedia. \n\nПРЕДСТАВЛЯЄМО: ЖІНОЧИЙ ФУТБОЛ   \nВідкрийте для себе новий світ можливостей, адже жіночий футбол бездоганно дебютував і ввійшов у світ FM. \nЗ 14 доступними лігами з 11 країн, зокрема Women’s Super League та National Women’s Soccer League, у кожній кар’єрі на вас чекають нові виклики й нові таланти.\n\nІНСТРУМЕНТИ ПЕРЕВЕДЕННЯ ГРАВЦІВ\nСкористайтеся можливостями TransferRoom™ — розумно вибудовуйте чемпіонські склади із сезону в сезон.\nДекларуйте пріоритети добору у «Вимогах» і дізнавайтеся про потреби суперників напряму завдяки «Цільових пропозицій клубам» — для точнішого контролю над кожним підписанням і продажем.\n\nВАШ ТРЕНЕР — ВАШІ ПРАВИЛА\nВиражайте більше своєї індивідуальності й стилю в кожній кар’єрі — завдяки оновленому редактору тренера. \nСтворіть свій образ в удосконаленому редакторі тренера, а потім пропишіть унікальну передісторію кар’єри — вона по-особливому впливатиме на ваше життя на тренерській лаві.\n\nУ FM26 футбол належить лише вам. Настав час змінити правила гри. \n\nMicrosoft більше не підтримує Windows 10 чи старіші версії\n\n* Через погодження ліцензій не всі комплекти форми команд FIFA World Cup 2026™ будуть доступні на момент запуску цієї функції. Деякі з них можуть бути додані згодом.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.8539.14159410862978133.1c4f3bd5-0a15-470c-8be1-1c69266a4dc3.3d41f085-0cf7-419a-8b62-4b021e6c7527",
       "originalPrice": 2499,
-      "discountPrice": 999.6,
-      "discountPercent": 60,
+      "discountPrice": 2499,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PD0Z90216RJ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NMNZ4CK59DM",
@@ -3321,14 +3321,14 @@
       "description": "СТВОРІТЬ СВОЮ ТАКТИКУ — ГРАЙТЕ ВЖЕ ЗАРАЗ\nНові можливості творити майбутнє футболу власноруч.\nЗавдяки простому інтуїтивному управлінню з консолі, переробленому інтерфейсу й динамічному ігровому процесу ви будете ближче до ключових моментів матчу.  \n\nЗДОБУДЬТЕ СЛАВУ FIFA WORLD CUP 2026™\nПеремога в найбільшому міжнародному футбольному турнірі — у ваших руках. Не проґавте спеціальну дату старту для FIFA World Cup 2026™ та випробуйте нові інструменти керування національними збірними, а також автентичну ліцензовану телевізійну графіку, брендинг турніру, офіційні м’ячі й форму.\n\nРОЗРОБЛЕНО НА UNITY\nНасолоджуйтеся найяскравішими враженнями від серії з оновленою графікою та деталями на полі!\nАтаки виразніші завдяки оновленому захопленню руху та об’ємним анімаціям, а нові швидкі команди на контролері між ключовими епізодами дають змогу оперативно коригувати тактику з бровки. \n\nЛАСКАВО ПРОСИМО ДО ПРЕМ’ЄР-ЛІГИ \nПориньте у світ Прем’єр-ліги, вперше повністю ліцензованої.\nНовий рівень автентичності: ТВ-подача й ракурс найкращого місця ведуть до головного трофея.  \n\nПОЛІПШЕННЯ ТАКТИКИ\nОпануйте сучасну тактику з новими формаціями для гри з м’ячем і без м’яча. \nОновлені ролі й візуалізація фаз гри підіймуть передматчеву підготовку на новий рівень.\n\nЩЕ БЛИЖЧЕ ДО ГРИ  \nОновлений інтерфейс: навігація на консолях плавніша й розумніша. Плануйте у своєму темпі: ключова інформація з’являється вчасно й там, де треба, завдяки новому «Порталу» — вашому вікну у світ футболу. \n\nПРЕДСТАВЛЯЄМО: ЖІНОЧИЙ ФУТБОЛ   \nНова сторінка: жіночий футбол дебютує у FM26 та інтегрований в єдиний футбольний світ.\nГрайте в 14 лігах в 11 країнах, від WSL до NWSL, і шукайте таланти в найбільшій ігровій базі жіночого футболу. \n\nІНСТРУМЕНТИ ПЕРЕВЕДЕННЯ ГРАВЦІВ\nВикористовуйте TransferRoom™, онлайн-ринок трансферів, щоб формувати чемпіонські склади з глибшим розумінням ринку.\nПідписуйте й продавайте простіше завдяки вимогам і можливостям. Більше контролю в кожному трансферному вікні.\n\nВАШ ТРЕНЕР — ВАШІ ПРАВИЛА\nБільше індивідуальності у вашій кар’єрі — завдяки оновленому редактору тренера. \nНалаштуйте зовнішність і створіть передісторію кар’єри, унікальну для вашого життя на тренерській лаві.\n\nУ FM26 на консолях футбол стає вашим проєктом. Настав час змінити правила гри.\n\n* Через погодження ліцензій не всі комплекти форми команд FIFA World Cup 2026™ будуть доступні на момент запуску цієї функції. Деякі з них можуть бути додані згодом.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.18485.13754609462095808.6e939a74-099e-490d-b009-02e7105155bd.57af7efd-c236-4f6c-ad75-9181b7718799",
       "originalPrice": 2499,
-      "discountPrice": 999.6,
-      "discountPercent": 60,
+      "discountPrice": 2499,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NMNZ4CK59DM",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P82LXD5RH31",
@@ -4521,14 +4521,14 @@
       "description": "МІЦНА ЕМОЦІЙНА ДРАМА\r\nДва легендарних героя, яких звела доля — або ж дещо більш страшне...\r\n\r\nІтібан Касуга, невтомний невдаха, якому вже звично підніматися з самого дна, і Кадзума Кірю, надломлена людина, що доживає свої останні дні.\r\n\r\nПЕРШОКЛАСНИЙ РОЛЬОВИЙ БОЙОВИК\r\nНа вас чекають динамічні атмосферні битви в стилі рольових ігор, де саме поле боя стає зброєю. Бийте ворогів усім, що під руку потрапить!\r\n\r\nНезвичні професії та варіанти персоналізації допоможуть вам підбирати навички героїв під різні ситуації та долати супротивників з допомогою вражаючих прийомів.\r\n\r\nНЕСКІНЧЕННІ ПРИГОДИ\r\nГуляйте по Японії та розважайтесь на Гавайях у масштабній пригоді розміром з Тихий океан.\r\n\r\nЗустрічайте незабутні моменти, унікальні завдання та розваги на кожному кроці.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.43821.14465728597087432.6e0f939a-1434-4a25-b368-df8616b251aa.e3cbf96f-08cb-4fd9-b920-2f4dcbc9dd0c",
       "originalPrice": 1999,
-      "discountPrice": 499.75,
-      "discountPercent": 75,
+      "discountPrice": 1999,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P00SVGWDJCP",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P1303FCXW6X",
@@ -4536,14 +4536,14 @@
       "description": "У цій незвичній пригоді вас звати Горо Мадзіма, людина в черевиках зі сталевими облямівками, ви втратили пам’ять та стали грозою морів.\n\nВирушайте в захопливу піратську мандрівку разом із капітаном і його корабельною командою, беріть участь у грандіозних битвах на суші й на морі та спробуйте знайти свої втрачені спогади й легендарний скарб.\n\n■ ПІРАТСЬКІ ПРИГОДИ ПІРАТА-ЯКУЗДИ РОЗПОЧИНАЮТЬСЯ!\nГоро Мадзіма, сумнозвісний колишній якудза, зазнає корабельної аварії і опиняється на віддаленому острові в Тихому океані. Не пам'ятаючи навіть власного імені, він відправляється на пошуки втрачених спогадів в супроводі хлопчика на ім’я Ной, який врятував йому життя. Невдовзі вони стають учасниками конфлікту між жорстокими злочинцями, сучасними піратами та іншими негідниками, що прагнуть знайти легендарний скарб.\n\n■ ЗБУДУЙТЕ СВІЙ КОРАБЕЛЬ\nЗберіть власний екіпаж, модернізуйте корабель, досліджуйте безкрайній океан і станьте героєм легенд, сповнених гарматного вогню, несподівано потоваришувань і казкових скарбів.\n\nКоли ворожий піратський корабель наведе на вас свої гармати, у вас буде лише один вибір — вступити в пекельний бій. Швидко маневруйте у вигідну позицію, уникаючи ворожого вогню, а потім завдавайте нищівного удару. Беріть на абордаж підбитий корабель і під час кривавих боїв знищіть капітана і його головорізів. Тепер ви — справжній пірат-якудза! Підкорюйте моря, досліджуйте таємні острови, накопичуйте здобич.\n\n■ ПЕКЕЛЬНІ СТРАТЕГІЧНІ БОЇ\nЗалежно від вашої стратегії чергуйте стилі бою «Скажений пес» і «Пірат», щоб урізноманітнити атаки, застосовувати неочікувані комбо й прийоми, щоб нищити ворога як на морі, так і в повітрі.\n\nСтиль «Скажений пес» відрізняється швидкістю, спритністю і відчуттям бою, що дозволяє наносити точні, потужні удари, які змусять найсильнішого ворога спустити свій прапор.\n\nАбо змусьте ворогів пройти по піратській дошці, використовуючи стиль «Пірат» — озброївшись двома короткими мечами і використовуючи хитрі піратські приладдя.\n\nЦей продукт містить лише гру; є інші видання гри, що містять додатковий матеріал. Певний додатковий матеріал також можна купити окремо.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.4222.14515021988943563.1f3fe501-2a70-4602-ab4f-93c0a60ab77c.2724bbe9-7ef9-4ed4-8f44-2374c58e7cbe",
       "originalPrice": 2199,
-      "discountPrice": 549.75,
-      "discountPercent": 75,
+      "discountPrice": 2199,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P1303FCXW6X",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PNG83MDD6SH",
@@ -5856,14 +5856,14 @@
       "description": "Prepare for the award-winning RPG experience in this definitive edition of Persona 5 Royal, featuring a treasure trove of downloadable content included! \r\n\r\nForced to transfer to a high school in Tokyo, the protagonist has a strange dream. “You truly are a prisoner of fate. In the near future, ruin awaits you.” With the goal of “rehabilitation” looming overhead, he must save others from distorted desires by donning the mask of a Phantom Thief.\r\n\r\nKey Features include:\r\n-Explore Tokyo, unlock Personas, customize your own personal Thieves Den, experience alternate endings, and more\r\n-Become the ultimate Phantom Thief and defy conventions, discover the power within, and fight for justice in the definitive version of Persona 5 Royal\r\n-Includes over 40 items of previously released downloadable content\r\n-Choose between Japanese and English VO",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.6136.14482474285447263.0a4055ed-9044-4c0c-abf5-292bb1bcb735.3db4c9c4-de15-4e0f-8b4d-1539f8a2ab08",
       "originalPrice": 1799,
-      "discountPrice": 539.7,
-      "discountPercent": 70,
+      "discountPrice": 1799,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NZDHXL9SJJ8",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P1P5Q3BNM7J",
