@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T10:27:52.704Z",
+  "lastUpdated": "2026-08-25T11:23:30.373Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -89,7 +89,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "2358720",
@@ -128,18 +128,6 @@
       "isPopular": false
     },
     {
-      "id": "302510",
-      "title": "Ryse: Son of Rome",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/302510/27dc059a2f765d1a1390796c29beac701f7581e2/capsule_616x353.jpg?t=1783415457",
-      "originalPrice": 230,
-      "discountPrice": 66,
-      "discountPercent": 71,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/302510",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2680010",
       "title": "The First Berserker: Khazan",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/77f0471fc4cb000cdf1e0c4e1da2e047217195fa/capsule_616x353.jpg?t=1776936760",
@@ -148,6 +136,18 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2680010",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "302510",
+      "title": "Ryse: Son of Rome",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/302510/27dc059a2f765d1a1390796c29beac701f7581e2/capsule_616x353.jpg?t=1783415457",
+      "originalPrice": 230,
+      "discountPrice": 66,
+      "discountPercent": 71,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/302510",
       "isSpecial": true,
       "isPopular": false
     },
@@ -200,18 +200,6 @@
       "isPopular": true
     },
     {
-      "id": "2075800",
-      "title": "STAR WARS Zero Company™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2075800/01bbe17c5f935a5304362d8d423101c299d1eab3/capsule_616x353_alt_assets_0.jpg?t=1787045473",
-      "originalPrice": 1599,
-      "discountPrice": 1599,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2075800",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "2584270",
       "title": "Mortal Shell II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1787326472",
@@ -220,6 +208,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2584270",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2075800",
+      "title": "STAR WARS Zero Company™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2075800/01bbe17c5f935a5304362d8d423101c299d1eab3/capsule_616x353_alt_assets_0.jpg?t=1787045473",
+      "originalPrice": 1599,
+      "discountPrice": 1599,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2075800",
       "isSpecial": false,
       "isPopular": true
     }
