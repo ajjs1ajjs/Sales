@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T13:45:46.561Z",
+  "lastUpdated": "2026-08-25T14:40:56.503Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -80,18 +80,6 @@
       "isPopular": true
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1999,
-      "discountPrice": 879,
-      "discountPercent": 56,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "2358720",
       "title": "Black Myth: Wukong",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
@@ -100,6 +88,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2358720",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1999,
+      "discountPrice": 879,
+      "discountPercent": 56,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": true
     },
@@ -200,9 +200,21 @@
       "isPopular": true
     },
     {
+      "id": "2075800",
+      "title": "STAR WARS Zero Company™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2075800/01bbe17c5f935a5304362d8d423101c299d1eab3/capsule_616x353_alt_assets_0.jpg?t=1787045473",
+      "originalPrice": 1599,
+      "discountPrice": 1599,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2075800",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "2584270",
       "title": "Mortal Shell II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1787326472",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1787666100",
       "originalPrice": 1449,
       "discountPrice": 1449,
       "discountPercent": 0,
