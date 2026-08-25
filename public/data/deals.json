@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T16:32:47.944Z",
+  "lastUpdated": "2026-08-25T17:28:05.400Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -116,6 +116,30 @@
       "isPopular": false
     },
     {
+      "id": "1623730",
+      "title": "Palworld",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
+      "originalPrice": 600,
+      "discountPrice": 420,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2483190",
+      "title": "Forza Horizon 6",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/125ec16733b894a5f60d98e5979ef0c669b131dd/capsule_616x353_alt_assets_3.jpg?t=1787677842",
+      "originalPrice": 2299,
+      "discountPrice": 1954,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2483190",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2680010",
       "title": "The First Berserker: Khazan",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/77f0471fc4cb000cdf1e0c4e1da2e047217195fa/capsule_616x353.jpg?t=1776936760",
@@ -124,18 +148,6 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2680010",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "227300",
-      "title": "Euro Truck Simulator 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1785394779",
-      "originalPrice": 400,
-      "discountPrice": 100,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/227300",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,18 +164,6 @@
       "isPopular": false
     },
     {
-      "id": "1313140",
-      "title": "Cult of the Lamb",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/cb5ff4e1c40adac0ea71aace62c3020a25f29d50/capsule_616x353.jpg?t=1786554901",
-      "originalPrice": 499,
-      "discountPrice": 199,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1313140",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1643320",
       "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787314871",
@@ -176,14 +176,14 @@
       "isPopular": false
     },
     {
-      "id": "4164790",
-      "title": "Survival Log",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/9004be05732beee305be1a02fd6a2bf3b337aff2/capsule_616x353.jpg?t=1787629162",
-      "originalPrice": 255,
-      "discountPrice": 216,
-      "discountPercent": 15,
+      "id": "1332010",
+      "title": "Stray",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1785424330",
+      "originalPrice": 579,
+      "discountPrice": 289,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4164790",
+      "url": "https://store.steampowered.com/app/1332010",
       "isSpecial": true,
       "isPopular": false
     },
@@ -224,14 +224,14 @@
       "isPopular": true
     },
     {
-      "id": "2358720",
-      "title": "Black Myth: Wukong",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
-      "originalPrice": 1699,
-      "discountPrice": 1699,
+      "id": "2075800",
+      "title": "STAR WARS Zero Company™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2075800/01bbe17c5f935a5304362d8d423101c299d1eab3/capsule_616x353_alt_assets_0.jpg?t=1787045473",
+      "originalPrice": 1599,
+      "discountPrice": 1599,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2358720",
+      "url": "https://store.steampowered.com/app/2075800",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10900,6 +10900,20 @@
       "percent": 0,
       "timestamp": "2026-08-25T16:32:41.961Z",
       "type": "xbox_new"
+    },
+    "steam_discount_1623730": {
+      "title": "Palworld",
+      "price": 420,
+      "percent": 30,
+      "timestamp": "2026-08-25T17:28:00.262Z",
+      "type": "discount"
+    },
+    "steam_discount_2483190": {
+      "title": "Forza Horizon 6",
+      "price": 1954,
+      "percent": 15,
+      "timestamp": "2026-08-25T17:28:00.262Z",
+      "type": "discount"
     }
   }
 }
