@@ -1,19 +1,21 @@
-<p align="center">
-  <img src="docs/banner.svg" width="100%" alt="Game Sales Aggregator">
-</p>
+<div align="center">
+
+<img src="docs/banner.svg" width="100%" alt="Game Sales Aggregator">
 
 # 🎮 Game Sales Aggregator
 
 **Персональний радар знижок та безкоштовних ігор** — автоматично збирає актуальні пропозиції з **Steam**, **Epic Games Store** та **Xbox Game Pass (PC)** і публікує їх на сайті та у Telegram-каналі.
 
-[![Сайт](https://img.shields.io/badge/🌐_Сайт-ajjs1ajjs.github.io/Sales-blue?style=for-the-badge)](https://ajjs1ajjs.github.io/Sales/)
-[![Telegram](https://img.shields.io/badge/📢_Telegram-@salesgamesua-2CA5E0?style=for-the-badge&logo=telegram)](https://t.me/salesgamesua)
-[![Version](https://img.shields.io/badge/version-v1.0.0-c084fc?style=for-the-badge)](https://github.com/ajjs1ajjs/Sales/releases)
-[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/ajjs1ajjs/Sales/scheduler.yml?style=for-the-badge&label=Автооновлення)](https://github.com/ajjs1ajjs/Sales/actions)
+[![Website](https://img.shields.io/badge/website-GitHub%20Pages-2563eb)](https://ajjs1ajjs.github.io/Sales/)
+[![Telegram](https://img.shields.io/badge/Telegram-@salesgamesua-2CA5E0?logo=telegram)](https://t.me/salesgamesua)
+[![Version](https://img.shields.io/badge/version-v1.0.0-c084fc)](https://github.com/ajjs1ajjs/Sales/releases)
+[![CI](https://img.shields.io/github/actions/workflow/status/ajjs1ajjs/Sales/scheduler.yml?label=CI)](https://github.com/ajjs1ajjs/Sales/actions)
+
+</div>
 
 ---
 
-## 🖼️ Інтерфейс
+## 🖼️ Screenshots
 
 | Головна сторінка | Історія сповіщень |
 |---|---|
