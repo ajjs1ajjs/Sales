@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T22:22:36.881Z",
+  "lastUpdated": "2026-08-25T23:21:57.181Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -140,18 +140,6 @@
       "isPopular": false
     },
     {
-      "id": "2764460",
-      "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1787606192",
-      "originalPrice": 199,
-      "discountPrice": 129,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2764460",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "381210",
       "title": "Dead by Daylight",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/c7bb3443d9236b764e5c6c72a561a54dc9703101/capsule_616x353_alt_assets_9.jpg?t=1787688694",
@@ -164,14 +152,14 @@
       "isPopular": false
     },
     {
-      "id": "1551360",
-      "title": "Forza Horizon 5",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1787677939",
-      "originalPrice": 1199,
-      "discountPrice": 479,
-      "discountPercent": 60,
+      "id": "2764460",
+      "title": "Sandustry",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1787606192",
+      "originalPrice": 199,
+      "discountPrice": 129,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1551360",
+      "url": "https://store.steampowered.com/app/2764460",
       "isSpecial": true,
       "isPopular": false
     },
@@ -188,6 +176,18 @@
       "isPopular": false
     },
     {
+      "id": "1551360",
+      "title": "Forza Horizon 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1787677939",
+      "originalPrice": 1199,
+      "discountPrice": 479,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1551360",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
@@ -196,18 +196,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3949550",
-      "title": "1666: Amsterdam",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949550/e9f871e90bd0aae6899e57c6715bffa6d9170249/capsule_616x353.jpg?t=1787686479",
-      "originalPrice": 620,
-      "discountPrice": 558,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3949550",
       "isSpecial": false,
       "isPopular": true
     },
@@ -9191,13 +9179,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_2417610": {
-      "title": "METAL GEAR SOLID Δ: SNAKE EATER",
-      "price": 590,
-      "percent": 60,
-      "timestamp": "2026-07-26T22:58:21.216Z",
-      "type": "discount"
-    },
     "steam_popular_2417610": {
       "title": "METAL GEAR SOLID Δ: SNAKE EATER",
       "price": 590,
