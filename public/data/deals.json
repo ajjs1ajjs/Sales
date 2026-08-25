@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T15:38:28.697Z",
+  "lastUpdated": "2026-08-25T16:32:47.944Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -80,18 +80,6 @@
       "isPopular": true
     },
     {
-      "id": "2358720",
-      "title": "Black Myth: Wukong",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
-      "originalPrice": 1699,
-      "discountPrice": 1189,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2358720",
-      "isSpecial": true,
-      "isPopular": true
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -164,18 +152,6 @@
       "isPopular": false
     },
     {
-      "id": "1643320",
-      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787314871",
-      "originalPrice": 1399,
-      "discountPrice": 979,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1643320",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1313140",
       "title": "Cult of the Lamb",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/cb5ff4e1c40adac0ea71aace62c3020a25f29d50/capsule_616x353.jpg?t=1786554901",
@@ -188,9 +164,33 @@
       "isPopular": false
     },
     {
+      "id": "1643320",
+      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787314871",
+      "originalPrice": 1399,
+      "discountPrice": 979,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1643320",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4164790",
+      "title": "Survival Log",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/9004be05732beee305be1a02fd6a2bf3b337aff2/capsule_616x353.jpg?t=1787629162",
+      "originalPrice": 255,
+      "discountPrice": 216,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4164790",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "3448650",
       "title": "Aliens: Fireteam Elite 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448650/353477f915fe0eb13f3df52a6cd5f2573321b8e6/capsule_616x353.jpg?t=1787669684",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448650/353477f915fe0eb13f3df52a6cd5f2573321b8e6/capsule_616x353.jpg?t=1787672724",
       "originalPrice": 2100,
       "discountPrice": 2100,
       "discountPercent": 0,
@@ -220,6 +220,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/5060920",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "2358720",
+      "title": "Black Myth: Wukong",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
+      "originalPrice": 1699,
+      "discountPrice": 1699,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2358720",
       "isSpecial": false,
       "isPopular": true
     }
@@ -1304,6 +1316,21 @@
       "isNewToGamePass": false,
       "isComingSoon": false,
       "isDiscounted": false
+    },
+    {
+      "id": "9MSVBF0KZFVW",
+      "title": "Blood Dungeon",
+      "description": "Від творців Nidhogg — виживайте в динамічному 2D-платформері. Майстерно долайте підступні підземелля, тримайте монстрів на відстані та збирайте кров і підсилення. \n\nПереживіть вилазку, віднесіть здобуті кістки до Кістяної крамниці й станьте сильнішими. \n\nВиконуйте завдання, щоб відкривати покращення, арени, скіни та інше.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.2173.13820636594696612.89ecbd3c-b2c0-41f3-8114-c05de3a18b22.75b0a15c-a098-4c47-a5c5-cfe9aabea869",
+      "originalPrice": 350,
+      "discountPrice": 297.5,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9MSVBF0KZFVW",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": true
     },
     {
       "id": "9PFRTPRQ569Q",
@@ -10866,6 +10893,13 @@
       "percent": 0,
       "timestamp": "2026-08-25T15:38:23.883Z",
       "type": "popular"
+    },
+    "xbox_new_9MSVBF0KZFVW": {
+      "title": "Blood Dungeon",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-25T16:32:41.961Z",
+      "type": "xbox_new"
     }
   }
 }
