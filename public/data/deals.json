@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T19:28:12.729Z",
+  "lastUpdated": "2026-08-25T20:24:17.000Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -104,18 +104,6 @@
       "isPopular": false
     },
     {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
-      "originalPrice": 600,
-      "discountPrice": 420,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -124,6 +112,18 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1623730",
+      "title": "Palworld",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
+      "originalPrice": 600,
+      "discountPrice": 420,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1623730",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,21 +152,9 @@
       "isPopular": false
     },
     {
-      "id": "2680010",
-      "title": "The First Berserker: Khazan",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/77f0471fc4cb000cdf1e0c4e1da2e047217195fa/capsule_616x353.jpg?t=1776936760",
-      "originalPrice": 1649,
-      "discountPrice": 989,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2680010",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "381210",
       "title": "Dead by Daylight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/c7bb3443d9236b764e5c6c72a561a54dc9703101/capsule_616x353_alt_assets_9.jpg?t=1787681834",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/c7bb3443d9236b764e5c6c72a561a54dc9703101/capsule_616x353_alt_assets_9.jpg?t=1787688694",
       "originalPrice": 429,
       "discountPrice": 171,
       "discountPercent": 60,
@@ -176,14 +164,26 @@
       "isPopular": false
     },
     {
-      "id": "1643320",
-      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/1878565b0cfe428b7be47dd2456ea4b1b5ae3210/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1787314871",
-      "originalPrice": 1399,
-      "discountPrice": 979,
-      "discountPercent": 30,
+      "id": "1551360",
+      "title": "Forza Horizon 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1787677939",
+      "originalPrice": 1199,
+      "discountPrice": 479,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1643320",
+      "url": "https://store.steampowered.com/app/1551360",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "2680010",
+      "title": "The First Berserker: Khazan",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/77f0471fc4cb000cdf1e0c4e1da2e047217195fa/capsule_616x353.jpg?t=1776936760",
+      "originalPrice": 1649,
+      "discountPrice": 989,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2680010",
       "isSpecial": true,
       "isPopular": false
     },
@@ -200,14 +200,14 @@
       "isPopular": true
     },
     {
-      "id": "3448650",
-      "title": "Aliens: Fireteam Elite 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448650/353477f915fe0eb13f3df52a6cd5f2573321b8e6/capsule_616x353.jpg?t=1787672724",
-      "originalPrice": 2100,
-      "discountPrice": 2100,
-      "discountPercent": 0,
+      "id": "3949550",
+      "title": "1666: Amsterdam",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949550/e9f871e90bd0aae6899e57c6715bffa6d9170249/capsule_616x353.jpg?t=1787686479",
+      "originalPrice": 620,
+      "discountPrice": 558,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3448650",
+      "url": "https://store.steampowered.com/app/3949550",
       "isSpecial": false,
       "isPopular": true
     },
@@ -224,6 +224,18 @@
       "isPopular": true
     },
     {
+      "id": "3448650",
+      "title": "Aliens: Fireteam Elite 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448650/353477f915fe0eb13f3df52a6cd5f2573321b8e6/capsule_616x353.jpg?t=1787672724",
+      "originalPrice": 2100,
+      "discountPrice": 2100,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3448650",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
       "id": "2075800",
       "title": "STAR WARS Zero Company™",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2075800/01bbe17c5f935a5304362d8d423101c299d1eab3/capsule_616x353_alt_assets_0.jpg?t=1787045473",
@@ -232,18 +244,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2075800",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isPopular": true
     }
@@ -5680,21 +5680,6 @@
       "isDiscounted": false
     },
     {
-      "id": "9N0QWXC09MPT",
-      "title": "Once Human",
-      "description": "Once Human — це гра про виживання в дивних світах, дія якої розгортається в химерному постапокаліптичному світі. Боріться пліч-о-пліч із друзями за ресурси для виживання, будуйте свою домашню територію та разом долайте жахливе невідоме, розкриваючи правду про падіння світу. Ви колись були людиною. Чи є у вас ще відповідь на те, що означає бути людиною?\n\nСвіт пробудився — Вони були автобусами, телевізорами та стільцями. Тепер вони ходять, говорять і пильно дивляться.\nШукай або помри — Брухт старого світу підтримує у вас життя. Аномалії живлять ваше спорядження та дім.\nСтворіть загін — Захоплюйте Аномалії, які ви перемагаєте. Вчорашній ворог — завтрашній союзник.\nСтворюйте зброю — Перетворіть брухт і силу Аномалій на сотні видів смертоносної, персоналізованої зброї.\nПобудуйте свій дім — Вони рубають дрова, видобувають руду та доглядають за полями. Цей дім тримається на вас усіх.\nСтаньте ними — Відкиньте свою людяність. Зливайтеся з переможеними Аномаліями та володійте їхньою силою.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.42166.13916126641198036.93e1b525-8641-4737-a69b-7287498c268a.175f7f1a-408c-4f9c-8d77-0fa1ed7a323d",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9N0QWXC09MPT",
-      "isGamePass": true,
-      "isNewToGamePass": true,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
       "id": "9NRCM30L6GRQ",
       "title": "One Lonely Outpost",
       "description": "You're the first pioneer to hit the surface of a barren, alien world - a desolate expanse as far as the eye can see. Your job is simple: Take your Space-RV, power up your multipurpose tech gauntlet, and use whatever seeds found in the cargo to start a new life on this world. Over time, you'll make the planet life-sustaining for yourself and dozens of future colonists. But until then, it's going to be one lonely outpost...",
@@ -10962,6 +10947,20 @@
       "percent": 60,
       "timestamp": "2026-08-25T19:28:06.885Z",
       "type": "discount"
+    },
+    "steam_discount_1551360": {
+      "title": "Forza Horizon 5",
+      "price": 479,
+      "percent": 60,
+      "timestamp": "2026-08-25T20:24:10.850Z",
+      "type": "discount"
+    },
+    "steam_popular_3949550": {
+      "title": "1666: Amsterdam",
+      "price": 558,
+      "percent": 10,
+      "timestamp": "2026-08-25T20:24:10.850Z",
+      "type": "popular"
     }
   }
 }
