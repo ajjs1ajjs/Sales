@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T23:21:57.181Z",
+  "lastUpdated": "2026-08-26T01:05:15.573Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -92,18 +92,6 @@
       "isPopular": true
     },
     {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -124,6 +112,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isPopular": false
     },
@@ -152,14 +152,14 @@
       "isPopular": false
     },
     {
-      "id": "2764460",
-      "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1787606192",
-      "originalPrice": 199,
-      "discountPrice": 129,
-      "discountPercent": 35,
+      "id": "1551360",
+      "title": "Forza Horizon 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1787677939",
+      "originalPrice": 1199,
+      "discountPrice": 479,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2764460",
+      "url": "https://store.steampowered.com/app/1551360",
       "isSpecial": true,
       "isPopular": false
     },
@@ -176,14 +176,14 @@
       "isPopular": false
     },
     {
-      "id": "1551360",
-      "title": "Forza Horizon 5",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1787677939",
-      "originalPrice": 1199,
-      "discountPrice": 479,
-      "discountPercent": 60,
+      "id": "2764460",
+      "title": "Sandustry",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1787606192",
+      "originalPrice": 199,
+      "discountPrice": 129,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1551360",
+      "url": "https://store.steampowered.com/app/2764460",
       "isSpecial": true,
       "isPopular": false
     },
@@ -5668,6 +5668,21 @@
       "isDiscounted": false
     },
     {
+      "id": "9N0QWXC09MPT",
+      "title": "Once Human",
+      "description": "Once Human — це гра про виживання в дивних світах, дія якої розгортається в химерному постапокаліптичному світі. Боріться пліч-о-пліч із друзями за ресурси для виживання, будуйте свою домашню територію та разом долайте жахливе невідоме, розкриваючи правду про падіння світу. Ви колись були людиною. Чи є у вас ще відповідь на те, що означає бути людиною?\n\nСвіт пробудився — Вони були автобусами, телевізорами та стільцями. Тепер вони ходять, говорять і пильно дивляться.\nШукай або помри — Брухт старого світу підтримує у вас життя. Аномалії живлять ваше спорядження та дім.\nСтворіть загін — Захоплюйте Аномалії, які ви перемагаєте. Вчорашній ворог — завтрашній союзник.\nСтворюйте зброю — Перетворіть брухт і силу Аномалій на сотні видів смертоносної, персоналізованої зброї.\nПобудуйте свій дім — Вони рубають дрова, видобувають руду та доглядають за полями. Цей дім тримається на вас усіх.\nСтаньте ними — Відкиньте свою людяність. Зливайтеся з переможеними Аномаліями та володійте їхньою силою.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.42166.13916126641198036.93e1b525-8641-4737-a69b-7287498c268a.175f7f1a-408c-4f9c-8d77-0fa1ed7a323d",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9N0QWXC09MPT",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
       "id": "9NRCM30L6GRQ",
       "title": "One Lonely Outpost",
       "description": "You're the first pioneer to hit the surface of a barren, alien world - a desolate expanse as far as the eye can see. Your job is simple: Take your Space-RV, power up your multipurpose tech gauntlet, and use whatever seeds found in the cargo to start a new life on this world. Over time, you'll make the planet life-sustaining for yourself and dozens of future colonists. But until then, it's going to be one lonely outpost...",
@@ -9179,13 +9194,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_2417610": {
-      "title": "METAL GEAR SOLID Δ: SNAKE EATER",
-      "price": 590,
-      "percent": 60,
-      "timestamp": "2026-07-27T00:03:06.462Z",
-      "type": "popular"
-    },
     "steam_popular_951770": {
       "title": "Forsaken Realms: Vahrin's Call",
       "price": 648,
