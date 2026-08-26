@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T09:36:34.584Z",
+  "lastUpdated": "2026-08-26T10:31:25.640Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -116,18 +116,6 @@
       "isPopular": false
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1999,
-      "discountPrice": 879,
-      "discountPercent": 56,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1623730",
       "title": "Palworld",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
@@ -136,6 +124,18 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1999,
+      "discountPrice": 879,
+      "discountPercent": 56,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isPopular": false
     },
@@ -164,18 +164,6 @@
       "isPopular": false
     },
     {
-      "id": "954740",
-      "title": "Terminator: Resistance",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/954740/capsule_616x353.jpg?t=1701952741",
-      "originalPrice": 472,
-      "discountPrice": 94,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/954740",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "2764460",
       "title": "Sandustry",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1787606192",
@@ -184,6 +172,18 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2764460",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "954740",
+      "title": "Terminator: Resistance",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/954740/capsule_616x353.jpg?t=1701952741",
+      "originalPrice": 472,
+      "discountPrice": 94,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/954740",
       "isSpecial": true,
       "isPopular": false
     },
@@ -200,18 +200,6 @@
       "isPopular": true
     },
     {
-      "id": "3448650",
-      "title": "Aliens: Fireteam Elite 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448650/353477f915fe0eb13f3df52a6cd5f2573321b8e6/capsule_616x353.jpg?t=1787672724",
-      "originalPrice": 2100,
-      "discountPrice": 2100,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3448650",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
       "id": "2075800",
       "title": "STAR WARS Zero Company™",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2075800/01bbe17c5f935a5304362d8d423101c299d1eab3/capsule_616x353_alt_assets_0.jpg?t=1787045473",
@@ -220,6 +208,18 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2075800",
+      "isSpecial": false,
+      "isPopular": true
+    },
+    {
+      "id": "3448650",
+      "title": "Aliens: Fireteam Elite 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448650/353477f915fe0eb13f3df52a6cd5f2573321b8e6/capsule_616x353.jpg?t=1787672724",
+      "originalPrice": 2100,
+      "discountPrice": 2100,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3448650",
       "isSpecial": false,
       "isPopular": true
     },
@@ -4923,14 +4923,14 @@
       "description": "From light planes to wide body jets to gliders and helicopters, fly highly detailed and accurate aircraft in the Microsoft Flight Simulator 40th Anniversary Edition. The world is at your fingertips.\r\n\r\nMicrosoft Flight Simulator 40th Anniversary Edition features 37 airplanes, gliders, and helicopters with unique flight models, 25 handcrafted airports, 4 classic commercial airports, 14 heliports and 15 glider airports.\r\n\r\nExplore Your World\r\n•\tVivid and Detailed Landscapes - Immerse yourself in the vast and beautiful world that is our planet with over 1.5 billion buildings, 2 trillion trees, mountains, roads, rivers and more.\r\n•\tLiving World - The Earth is vibrant and ever-changing and so is the world of Microsoft Flight Simulator, which includes live traffic, real-time weather, and animals.  \r\n\r\nEarn Your Wings\r\n•\tAircraft - Hone your pilot skills in a variety of aircraft from light planes to commercial jets with comprehensive flight models. Every aircraft includes highly detailed and accurate cockpits with realistic instrumentation.\r\n•\tChecklist System - From pro to beginner, scale your level from full manual to full assist with interactive and highlighted instrument guidance and checklist.\r\n\r\nTest Your Skill\r\n•\tLive Weather -The weather engine enables users to switch on the live weather mode to experience real-time weather including accurate wind speed and direction, temperature, humidity, rain and more.\r\n•\tDay and Night Engine - Experience flight at any time of day or year allowing for night VFR, visual flight rules, navigation.\r\n•\tAerodynamic Modeling - A state-of-the-art physics engine with over 1000 control surfaces per plane allows for a truly realistic experience.\r\n\r\nMicrosoft Flight Simulator has fulfilled the aspirations of aviators worldwide for 40 years. Celebrate the award-winning franchise with the 40th Anniversary Edition, loaded with all-new features, aircraft and content that span the history of aviation. \r\n\r\nThe 40th Anniversary Edition update introduces:\r\n•\t1 true-to-life Airbus A310 Airliner\r\n•\t2 helicopters and 14 heliports\r\n•\t2 gliders and 15 glider airports\r\n•\t7 famous historical aircraft including the Hughes H-4 Hercules (aka the Spruce Goose)\r\n•\t4 classic commercial airports\r\n•\t24 classic missions from the franchise’s past\r\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.31431.14293123921570736.739af26b-0b56-4d3a-8d57-149d26c2cc05.aea30a4c-375a-4431-ab26-ae7ac415f9ad",
       "originalPrice": 1540,
-      "discountPrice": 539,
-      "discountPercent": 65,
+      "discountPrice": 1540,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PMQDM08SNK9",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P2VGCTBMM52",
