@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T16:14:58.220Z",
+  "lastUpdated": "2026-08-26T18:56:26.899Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -104,18 +104,6 @@
       "isPopular": true
     },
     {
-      "id": "1551360",
-      "title": "Forza Horizon 5",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1787677939",
-      "originalPrice": 1199,
-      "discountPrice": 479,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1551360",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1623730",
       "title": "Palworld",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
@@ -140,6 +128,18 @@
       "isPopular": false
     },
     {
+      "id": "1551360",
+      "title": "Forza Horizon 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1787677939",
+      "originalPrice": 1199,
+      "discountPrice": 479,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1551360",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2483190",
       "title": "Forza Horizon 6",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/125ec16733b894a5f60d98e5979ef0c669b131dd/capsule_616x353_alt_assets_3.jpg?t=1787677842",
@@ -154,24 +154,12 @@
     {
       "id": "381210",
       "title": "Dead by Daylight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/c7bb3443d9236b764e5c6c72a561a54dc9703101/capsule_616x353_alt_assets_9.jpg?t=1787757466",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/c7bb3443d9236b764e5c6c72a561a54dc9703101/capsule_616x353_alt_assets_9.jpg?t=1787769494",
       "originalPrice": 429,
       "discountPrice": 171,
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/381210",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "4423580",
-      "title": "Підземелля тіней",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4423580/d90dfd1308737fc56a9d1b448288e2dc33f22fc3/capsule_616x353.jpg?t=1787744876",
-      "originalPrice": 230,
-      "discountPrice": 207,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4423580",
       "isSpecial": true,
       "isPopular": false
     },
@@ -184,6 +172,18 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2764460",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4627110",
+      "title": "Fell & Sell",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4627110/2af986dab5093a7c5299e52e1ad2a65b1161b02b/capsule_616x353.jpg?t=1787766350",
+      "originalPrice": 210,
+      "discountPrice": 189,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4627110",
       "isSpecial": true,
       "isPopular": false
     },
@@ -214,7 +214,7 @@
     {
       "id": "4356430",
       "title": "NBA 2K27",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/f36173562a29d72ec0da4bfcd5e66e5825b671e0/capsule_616x353.jpg?t=1787760847",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/f36173562a29d72ec0da4bfcd5e66e5825b671e0/capsule_616x353.jpg?t=1787761691",
       "originalPrice": 1999,
       "discountPrice": 1999,
       "discountPercent": 0,
@@ -9194,20 +9194,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_2684630": {
-      "title": "Endacopia",
-      "price": 323,
-      "percent": 10,
-      "timestamp": "2026-07-27T17:39:37.826Z",
-      "type": "discount"
-    },
-    "steam_popular_2684630": {
-      "title": "Endacopia",
-      "price": 323,
-      "percent": 10,
-      "timestamp": "2026-07-27T17:39:37.826Z",
-      "type": "popular"
-    },
     "steam_discount_1091500": {
       "title": "Cyberpunk 2077",
       "price": 419,
@@ -10977,6 +10963,13 @@
       "price": 207,
       "percent": 10,
       "timestamp": "2026-08-26T13:41:07.838Z",
+      "type": "discount"
+    },
+    "steam_discount_4627110": {
+      "title": "Fell & Sell",
+      "price": 189,
+      "percent": 10,
+      "timestamp": "2026-08-26T18:56:21.074Z",
       "type": "discount"
     }
   }
