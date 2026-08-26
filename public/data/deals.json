@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T08:38:39.321Z",
+  "lastUpdated": "2026-08-26T09:36:34.584Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -80,6 +80,18 @@
       "isPopular": true
     },
     {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isPopular": true
+    },
+    {
       "id": "3321460",
       "title": "Crimson Desert Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1787682679",
@@ -90,18 +102,6 @@
       "url": "https://store.steampowered.com/app/3321460",
       "isSpecial": true,
       "isPopular": true
-    },
-    {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isPopular": false
     },
     {
       "id": "1551360",
@@ -224,14 +224,14 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "3493540",
+      "title": "Transport Fever 3",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3493540/3f5c124c9857489eae23d037f03838412cb197b5/capsule_616x353.jpg?t=1787686502",
+      "originalPrice": 1299,
+      "discountPrice": 1299,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
+      "url": "https://store.steampowered.com/app/3493540",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10964,6 +10964,20 @@
       "percent": 80,
       "timestamp": "2026-08-26T05:30:35.111Z",
       "type": "discount"
+    },
+    "steam_popular_1174180": {
+      "title": "Red Dead Redemption 2",
+      "price": 649,
+      "percent": 75,
+      "timestamp": "2026-08-26T09:36:30.153Z",
+      "type": "popular"
+    },
+    "steam_popular_3493540": {
+      "title": "Transport Fever 3",
+      "price": 1299,
+      "percent": 0,
+      "timestamp": "2026-08-26T09:36:30.153Z",
+      "type": "popular"
     }
   }
 }
