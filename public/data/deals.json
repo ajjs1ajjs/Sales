@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T12:44:03.629Z",
+  "lastUpdated": "2026-08-26T13:41:15.123Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -116,18 +116,6 @@
       "isPopular": false
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1999,
-      "discountPrice": 879,
-      "discountPercent": 56,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "1623730",
       "title": "Palworld",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
@@ -140,6 +128,18 @@
       "isPopular": false
     },
     {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1999,
+      "discountPrice": 879,
+      "discountPercent": 56,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
       "id": "2483190",
       "title": "Forza Horizon 6",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/125ec16733b894a5f60d98e5979ef0c669b131dd/capsule_616x353_alt_assets_3.jpg?t=1787677842",
@@ -148,6 +148,18 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2483190",
+      "isSpecial": true,
+      "isPopular": false
+    },
+    {
+      "id": "4423580",
+      "title": "Підземелля тіней",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4423580/d90dfd1308737fc56a9d1b448288e2dc33f22fc3/capsule_616x353.jpg?t=1787744876",
+      "originalPrice": 230,
+      "discountPrice": 207,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4423580",
       "isSpecial": true,
       "isPopular": false
     },
@@ -176,18 +188,6 @@
       "isPopular": false
     },
     {
-      "id": "954740",
-      "title": "Terminator: Resistance",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/954740/capsule_616x353.jpg?t=1701952741",
-      "originalPrice": 472,
-      "discountPrice": 94,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/954740",
-      "isSpecial": true,
-      "isPopular": false
-    },
-    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
@@ -196,18 +196,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4356430",
-      "title": "NBA 2K27",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/f36173562a29d72ec0da4bfcd5e66e5825b671e0/capsule_616x353.jpg?t=1787589025",
-      "originalPrice": 1999,
-      "discountPrice": 1999,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4356430",
       "isSpecial": false,
       "isPopular": true
     },
@@ -224,14 +212,14 @@
       "isPopular": true
     },
     {
-      "id": "3448650",
-      "title": "Aliens: Fireteam Elite 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448650/353477f915fe0eb13f3df52a6cd5f2573321b8e6/capsule_616x353.jpg?t=1787672724",
-      "originalPrice": 2100,
-      "discountPrice": 2100,
+      "id": "4356430",
+      "title": "NBA 2K27",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/f36173562a29d72ec0da4bfcd5e66e5825b671e0/capsule_616x353.jpg?t=1787589025",
+      "originalPrice": 1999,
+      "discountPrice": 1999,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3448650",
+      "url": "https://store.steampowered.com/app/4356430",
       "isSpecial": false,
       "isPopular": true
     }
@@ -10978,6 +10966,13 @@
       "percent": 0,
       "timestamp": "2026-08-26T09:36:30.153Z",
       "type": "popular"
+    },
+    "steam_discount_4423580": {
+      "title": "Підземелля тіней",
+      "price": 207,
+      "percent": 10,
+      "timestamp": "2026-08-26T13:41:07.838Z",
+      "type": "discount"
     }
   }
 }
