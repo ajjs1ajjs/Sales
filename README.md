@@ -74,6 +74,20 @@ GitHub Actions запускає скрипт
 
 **Вимоги:** Node.js 20+ · npm
 
+**Автоматичне встановлення** (сам ставить Node.js, залежності, дані та білд):
+```bash
+# Windows (PowerShell)
+irm https://raw.githubusercontent.com/ajjs1ajjs/Sales/main/scripts/install.ps1 | iex
+```
+```bash
+# Ubuntu / Debian
+curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/Sales/main/scripts/install.sh | bash
+# або режим dev-сервера:
+bash scripts/install.sh --dev
+```
+
+**Вручну:**
+
 ```bash
 git clone https://github.com/ajjs1ajjs/Sales.git
 cd Sales
