@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T18:56:26.899Z",
+  "lastUpdated": "2026-08-26T21:17:26.627Z",
   "epic": [
     {
       "id": "b467b7d3570e44c0b84e59475f4a5636",
@@ -77,7 +77,8 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4001890",
       "isSpecial": true,
-      "isPopular": true
+      "isFree": false,
+      "isPopular": false
     },
     {
       "id": "1174180",
@@ -89,6 +90,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
+      "isFree": false,
       "isPopular": false
     },
     {
@@ -101,7 +103,8 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3321460",
       "isSpecial": true,
-      "isPopular": true
+      "isFree": false,
+      "isPopular": false
     },
     {
       "id": "1623730",
@@ -113,6 +116,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
       "isSpecial": true,
+      "isFree": false,
       "isPopular": false
     },
     {
@@ -125,18 +129,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
-      "isPopular": false
-    },
-    {
-      "id": "1551360",
-      "title": "Forza Horizon 5",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1787677939",
-      "originalPrice": 1199,
-      "discountPrice": 479,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1551360",
-      "isSpecial": true,
+      "isFree": false,
       "isPopular": false
     },
     {
@@ -149,6 +142,20 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2483190",
       "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1551360",
+      "title": "Forza Horizon 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1787677939",
+      "originalPrice": 1199,
+      "discountPrice": 479,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1551360",
+      "isSpecial": true,
+      "isFree": false,
       "isPopular": false
     },
     {
@@ -161,6 +168,7 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/381210",
       "isSpecial": true,
+      "isFree": false,
       "isPopular": false
     },
     {
@@ -173,67 +181,21 @@
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2764460",
       "isSpecial": true,
+      "isFree": false,
       "isPopular": false
     },
     {
-      "id": "4627110",
-      "title": "Fell & Sell",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4627110/2af986dab5093a7c5299e52e1ad2a65b1161b02b/capsule_616x353.jpg?t=1787766350",
-      "originalPrice": 210,
-      "discountPrice": 189,
-      "discountPercent": 10,
+      "id": "1874880",
+      "title": "Arma Reforger",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874880/capsule_616x353.jpg?t=1779966148",
+      "originalPrice": 899,
+      "discountPrice": 629,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4627110",
+      "url": "https://store.steampowered.com/app/1874880",
       "isSpecial": true,
+      "isFree": false,
       "isPopular": false
-    },
-    {
-      "id": "2075800",
-      "title": "STAR WARS Zero Company™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2075800/01bbe17c5f935a5304362d8d423101c299d1eab3/capsule_616x353_alt_assets_0.jpg?t=1787045473",
-      "originalPrice": 1599,
-      "discountPrice": 1599,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2075800",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1782171053",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "4356430",
-      "title": "NBA 2K27",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/f36173562a29d72ec0da4bfcd5e66e5825b671e0/capsule_616x353.jpg?t=1787761691",
-      "originalPrice": 1999,
-      "discountPrice": 1999,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4356430",
-      "isSpecial": false,
-      "isPopular": true
-    },
-    {
-      "id": "3493540",
-      "title": "Transport Fever 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3493540/3f5c124c9857489eae23d037f03838412cb197b5/capsule_616x353.jpg?t=1787686502",
-      "originalPrice": 1299,
-      "discountPrice": 1299,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3493540",
-      "isSpecial": false,
-      "isPopular": true
     }
   ],
   "xbox": [
@@ -9194,20 +9156,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_1091500": {
-      "title": "Cyberpunk 2077",
-      "price": 419,
-      "percent": 70,
-      "timestamp": "2026-07-27T19:22:01.153Z",
-      "type": "discount"
-    },
-    "steam_discount_2138330": {
-      "title": "Cyberpunk 2077: Ілюзія свободи",
-      "price": 419,
-      "percent": 40,
-      "timestamp": "2026-07-27T19:22:01.153Z",
-      "type": "discount"
-    },
     "steam_discount_2215200": {
       "title": "LEGO® Batman™: Legacy of the Dark Knight",
       "price": 1519,
@@ -10970,6 +10918,13 @@
       "price": 189,
       "percent": 10,
       "timestamp": "2026-08-26T18:56:21.074Z",
+      "type": "discount"
+    },
+    "steam_discount_1874880": {
+      "title": "Arma Reforger",
+      "price": 629,
+      "percent": 30,
+      "timestamp": "2026-08-26T21:17:18.581Z",
       "type": "discount"
     }
   }
