@@ -40,6 +40,7 @@ const mockSteamGame: SteamGame = {
   currency: 'UAH',
   url: 'https://store.steampowered.com/app/1',
   isSpecial: true,
+  isFree: false,
   isPopular: false,
 };
 

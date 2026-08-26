@@ -28,8 +28,9 @@ describe('SearchControls', () => {
     expect(screen.getByText('Всі категорії')).toBeInTheDocument();
     expect(screen.getByText('Epic Роздачі')).toBeInTheDocument();
     expect(screen.getByText('Epic Знижки')).toBeInTheDocument();
+    expect(screen.getByText('Steam Безкоштовно')).toBeInTheDocument();
     expect(screen.getByText('Steam Знижки')).toBeInTheDocument();
-    expect(screen.getByText('Steam Тренди')).toBeInTheDocument();
+    expect(screen.getByText('Нові Game Pass')).toBeInTheDocument();
     expect(screen.getByText('Обране')).toBeInTheDocument();
   });
 
@@ -62,11 +63,9 @@ describe('SearchControls', () => {
       all: 15,
       epic_free: 2,
       epic_discount: 5,
+      steam_free: 1,
       steam_specials: 6,
-      steam_popular: 2,
-      xbox_gamepass: 0,
       xbox_new: 0,
-      xbox_discount: 0,
       wishlist: 1,
     };
     render(<SearchControls {...defaultProps} filterCounts={filterCounts} />, { wrapper: Wrapper });
@@ -74,7 +73,7 @@ describe('SearchControls', () => {
     expect(screen.getByRole('button', { name: /Epic Роздачі\(2\)/i })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: /Epic Знижки\(5\)/i })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: /Steam Знижки\(6\)/i })).toBeInTheDocument();
-    expect(screen.getByRole('button', { name: /Steam Тренди\(2\)/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /Steam Безкоштовно\(1\)/i })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: /Обране\(1\)/i })).toBeInTheDocument();
   });
 });

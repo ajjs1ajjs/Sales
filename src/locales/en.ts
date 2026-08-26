@@ -3,7 +3,7 @@ import type { Translations } from './uk';
 export const en: Translations = {
   app: {
     title: 'Game Sales Aggregator',
-    description: 'Your personal PC gaming deals radar. Free games from Epic Games Store, Steam discounts & top sellers, new PC Game Pass additions.',
+    description: 'Your personal PC gaming deals radar. Free offers and discounts from Steam and Epic Games Store, plus new PC Game Pass additions.',
     footer: '© {year} Game Sales Aggregator. All rights reserved.',
     footerSub: 'Built for gamers with ❤️. Data provided by unofficial Steam and Epic Games Store APIs.',
     footerLink: 'Source code available on {link}.',
@@ -41,6 +41,7 @@ export const en: Translations = {
     all: 'All Categories',
     epicFree: 'Epic Free',
     epicDiscount: 'Epic Deals',
+    steamFree: 'Steam Free',
     steamSpecials: 'Steam Deals',
     steamPopular: 'Steam Trends',
     xboxGamePass: 'Game Pass',
@@ -90,6 +91,9 @@ export const en: Translations = {
     discountTag: 'Limited-time discount in Epic Games Store.',
   },
   steam: {
+    freeTitle: 'Steam Free Offers',
+    emptyFree: 'Nothing found',
+    emptyFreeDesc: 'There are no active free offers in Steam right now.',
     specialsTitle: 'Steam Hot Deals',
     popularTitle: 'Steam Trending (Top Sellers)',
     emptySpecials: 'Nothing found',
@@ -116,7 +120,7 @@ export const en: Translations = {
   },
   telegram: {
     title: 'Join our Telegram channel!',
-    desc: 'Get instant notifications about free games, Steam discounts, new releases and top sellers every hour.',
+    desc: 'Get instant notifications about Steam and Epic free offers and discounts, plus new PC Game Pass additions.',
     subscribe: 'Subscribe',
     dismiss: 'Dismiss Telegram banner',
   },
@@ -127,7 +131,7 @@ export const en: Translations = {
   },
   history: {
     title: 'Notification History',
-    subtitle: 'Last 30 days of detected deals, giveaways and top sellers.',
+    subtitle: 'Last 30 days of detected free offers, discounts and new Game Pass additions.',
     all: 'All',
     free: 'Freebies',
     discount: 'Discounts',

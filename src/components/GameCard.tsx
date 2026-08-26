@@ -57,6 +57,7 @@ export function GameCard({
   const { t, locale } = useLocale();
   const [imgError, setImgError] = useState(false);
   const defaultLinkText = linkText ?? t.steam.buy;
+  const isFreeOffer = (isEpicGame(game) && game.isFreeNow) || ('isFree' in game && game.isFree);
 
   const highlightRegex = useMemo(() => {
     const q = searchQuery.trim();
@@ -137,7 +138,7 @@ export function GameCard({
                 {formatPrice(game.originalPrice, game.currency, locale)}
               </span>
             )}
-            {isEpicGame(game) && game.isFreeNow ? (
+            {isFreeOffer ? (
               <span className="price-current free-text">{t.price.free}</span>
             ) : (
               <span className="price-current">

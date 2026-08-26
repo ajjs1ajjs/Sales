@@ -58,7 +58,7 @@ function HomePage() {
     priceFilteredXbox,
   } = useGameFilters(data, wishlist, searchQuery);
 
-  const isXboxFilter = activeFilter === 'xbox_gamepass' || activeFilter === 'xbox_new' || activeFilter === 'xbox_discount';
+  const isXboxFilter = activeFilter === 'xbox_new';
 
   const formatUpdate = locale === 'en' ? formatLastUpdatedEn : formatLastUpdated;
   const historyAria = locale === 'en' ? 'Notification history' : 'Історія сповіщень';
@@ -107,7 +107,7 @@ function HomePage() {
         onSortChange={setSortType}
       />
 
-      {(activeFilter === 'all' || activeFilter === 'wishlist' || activeFilter === 'epic_discount' || activeFilter === 'steam_specials' || activeFilter === 'steam_popular' || isXboxFilter) && (
+      {(activeFilter === 'all' || activeFilter === 'wishlist' || activeFilter === 'epic_discount' || activeFilter === 'steam_specials' || isXboxFilter) && (
         <PriceRangeFilter
           minPrice={absoluteMinPrice}
           maxPrice={absoluteMaxPrice}

@@ -75,7 +75,6 @@ interface SteamItem {
 }
 interface SteamResponse {
   specials?: { items?: SteamItem[] };
-  top_sellers?: { items?: SteamItem[] };
 }
 
 async function fetchEpicGames(): Promise<EpicGame[]> {
@@ -193,11 +192,9 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
     const data = await res.json() as SteamResponse;
 
     const specials = data.specials?.items || [];
-    const topSellers = data.top_sellers?.items || [];
-
     const gamesMap = new Map<string, SteamGame>();
 
-    const processItems = (items: SteamItem[], isSpecial: boolean, isPopular: boolean) => {
+    const processItems = (items: SteamItem[], isSpecial: boolean) => {
       for (const item of items) {
         const id = String(item.id);
         const imageUrl = item.large_capsule_image || item.header_image || item.capsule_image || "";
@@ -213,11 +210,17 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
 
         const originalPrice = (item.original_price ?? item.final_price ?? 0) / 100;
         const discountPrice = (item.final_price ?? 0) / 100;
+        const isFree = isSpecial && originalPrice > 0 && discountPrice === 0;
+        const isDiscounted = isSpecial && !isFree && (item.discount_percent ?? 0) >= 5;
+
+        // The specials feed can contain full-price or free-to-play entries.
+        // Keep only real discounts/free promotions in the Steam deals feed.
+        if (isSpecial && !isDiscounted && !isFree) continue;
 
         if (gamesMap.has(id)) {
           const existing = gamesMap.get(id)!;
-          if (isSpecial) existing.isSpecial = true;
-          if (isPopular) existing.isPopular = true;
+          if (isDiscounted) existing.isSpecial = true;
+          if (isFree) existing.isFree = true;
           if ((item.discount_percent ?? 0) > existing.discountPercent) {
             existing.discountPercent = item.discount_percent ?? 0;
             existing.originalPrice = originalPrice;
@@ -233,15 +236,15 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
             discountPercent: item.discount_percent || 0,
             currency: item.currency || "UAH",
             url: `https://store.steampowered.com/app/${id}`,
-            isSpecial,
-            isPopular
+            isSpecial: isDiscounted,
+            isFree,
+            isPopular: false,
           });
         }
       }
     };
     
-    processItems(specials, true, false);
-    processItems(topSellers, false, true);
+    processItems(specials, true);
     
     return Array.from(gamesMap.values());
   } catch (err) {
@@ -396,7 +399,7 @@ async function fetchXboxGames(): Promise<{ games: XboxGame[]; allIds: string[]; 
         currency: priceInfo.currency,
         url: `https://www.xbox.com/uk-ua/games/store/-/${id}`,
         isGamePass: true,
-        isNewToGamePass: newSet.has(id) || eaSet.has(id),
+        isNewToGamePass: newSet.has(id),
         isComingSoon: comingSet.has(id),
         isDiscounted: priceInfo.discountPercent > 0,
       });
@@ -524,8 +527,8 @@ async function run() {
   // Detect changes
   const newFreeGames: EpicGame[] = [];
   const newEpicDiscounts: EpicGame[] = [];
+  const newSteamFreeGames: SteamGame[] = [];
   const newSteamDeals: SteamGame[] = [];
-  const newPopularGames: SteamGame[] = [];
   const newXboxAdditions: XboxGame[] = [];
   
   // Epic: Find currently free games and discounts that were not notified
@@ -574,7 +577,16 @@ async function run() {
   
   // Steam: Find new items
   for (const game of freshSteam) {
-    // 1. Hot deals: newly marked as isSpecial and discount >= 5
+    if (game.isFree) {
+      const historyKey = `steam_free_${game.id}`;
+      const historyEntry = notifiedHistory[historyKey];
+      const cooldownExpired = !historyEntry || now.getTime() - new Date(historyEntry.timestamp).getTime() > FREE_GAME_COOLDOWN_MS;
+      if (cooldownExpired) {
+        newSteamFreeGames.push(game);
+      }
+    }
+
+    // Hot deals: newly marked as isSpecial and discount >= 5
     if (game.isSpecial && game.discountPercent >= 5) {
       const historyKey = `steam_discount_${game.id}`;
       const historyEntry = notifiedHistory[historyKey];
@@ -596,26 +608,6 @@ async function run() {
       }
     }
     
-    // 2. New Popular Games (Top Sellers): newly marked as isPopular
-    if (game.isPopular) {
-      const historyKey = `steam_popular_${game.id}`;
-      const historyEntry = notifiedHistory[historyKey];
-      
-      let shouldNotify = false;
-      if (!historyEntry) {
-        shouldNotify = true;
-      } else {
-        const lastNotified = new Date(historyEntry.timestamp).getTime();
-        const cooldownExpired = now.getTime() - lastNotified > DISCOUNT_COOLDOWN_MS;
-        if (cooldownExpired) {
-          shouldNotify = true;
-        }
-      }
-      
-      if (shouldNotify) {
-        newPopularGames.push(game);
-      }
-    }
   }
   
   // Xbox: Find new Game Pass additions
@@ -646,7 +638,7 @@ async function run() {
     }
   }
 
-  console.log(`Detected: ${newFreeGames.length} free Epic, ${newEpicDiscounts.length} discounted Epic, ${newSteamDeals.length} hot Steam, ${newPopularGames.length} popular Steam, ${newXboxAdditions.length} new Xbox Game Pass.`);
+  console.log(`Detected: ${newFreeGames.length} free Epic, ${newEpicDiscounts.length} discounted Epic, ${newSteamFreeGames.length} free Steam, ${newSteamDeals.length} hot Steam, ${newXboxAdditions.length} new Xbox Game Pass.`);
 
   function markNotified(key: string, entry: NotifiedItem) {
     notifiedHistory[key] = entry;
@@ -737,20 +729,15 @@ async function run() {
       }),
     );
   }
-  
-  if (newPopularGames.length > 0) {
+
+  if (newSteamFreeGames.length > 0) {
     await sendBatched(
-      `⭐ <b>ТРЕНДОВІ ІГРИ В STEAM (TOP SELLERS)!</b>\n\n`,
-      newPopularGames,
-      `🚀 Більше популярних ігор дивіться на нашому сайті!`,
-      (game) => {
-        const priceText = game.discountPercent > 0 
-          ? `<s>${formatPrice(game.originalPrice, game.currency)}</s> ➡️ <b>${formatPrice(game.discountPrice, game.currency)}</b> (-${game.discountPercent}%)`
-          : `<b>${formatPrice(game.discountPrice, game.currency)}</b>`;
-        return `🎮 ${gameTitle(game.title)}\n💰 Ціна: ${priceText}\n🔗 ${storeLink('Дивитися в Steam', game.url)}`;
-      },
-      (i) => markNotified(`steam_popular_${newPopularGames[i].id}`, {
-        title: newPopularGames[i].title, price: newPopularGames[i].discountPrice, percent: newPopularGames[i].discountPercent, timestamp: now.toISOString(), type: 'popular'
+      `🎁 <b>БЕЗКОШТОВНІ ПРОПОЗИЦІЇ В STEAM!</b>\n\n`,
+      newSteamFreeGames,
+      `🚀 Інші пропозиції дивіться на нашому сайті!`,
+      (game) => `🎮 ${gameTitle(game.title)}\n💰 <b>БЕЗКОШТОВНО</b>\n🔗 ${storeLink('Забрати в Steam', game.url)}`,
+      (i) => markNotified(`steam_free_${newSteamFreeGames[i].id}`, {
+        title: newSteamFreeGames[i].title, price: 0, percent: 100, timestamp: now.toISOString(), type: 'free'
       }),
     );
   }

@@ -25,6 +25,7 @@ export interface SteamGame {
   currency: string;
   url: string;
   isSpecial: boolean;
+  isFree: boolean;
   isPopular: boolean;
 }
 
@@ -60,6 +61,6 @@ export interface DealsData {
   notifiedHistory?: Record<string, NotifiedItem>;
 }
 
-export type FilterType = 'all' | 'epic_free' | 'epic_discount' | 'steam_specials' | 'steam_popular' | 'xbox_gamepass' | 'xbox_new' | 'xbox_discount' | 'wishlist';
+export type FilterType = 'all' | 'epic_free' | 'epic_discount' | 'steam_free' | 'steam_specials' | 'xbox_new' | 'wishlist';
 
 export type SortType = 'default' | 'name-asc' | 'name-desc' | 'price-asc' | 'price-desc' | 'discount-desc';

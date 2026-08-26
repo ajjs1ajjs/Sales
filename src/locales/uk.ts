@@ -1,7 +1,7 @@
 export const uk = {
   app: {
     title: 'Game Sales Aggregator',
-    description: 'Ваш персональний радар знижок та новинок ПК-ігор. Безкоштовні ігри від Epic Games Store, знижки та хіти Steam, нові надходження PC Game Pass.',
+    description: 'Ваш персональний радар знижок та новинок ПК-ігор. Безкоштовні пропозиції й знижки Steam та Epic Games Store, нові надходження PC Game Pass.',
     footer: '© {year} Game Sales Aggregator. Усі права захищено.',
     footerSub: 'Розроблено для геймерів з ❤️. Дані надано неофіційними API Steam та Epic Games Store.',
     footerLink: 'Код проекту доступний на {link}.',
@@ -39,6 +39,7 @@ export const uk = {
     all: 'Всі категорії',
     epicFree: 'Epic Роздачі',
     epicDiscount: 'Epic Знижки',
+    steamFree: 'Steam Безкоштовно',
     steamSpecials: 'Steam Знижки',
     steamPopular: 'Steam Тренди',
     xboxGamePass: 'Game Pass',
@@ -88,6 +89,9 @@ export const uk = {
     discountTag: 'Тимчасова знижка в Epic Games Store.',
   },
   steam: {
+    freeTitle: 'Безкоштовні пропозиції Steam',
+    emptyFree: 'Нічого не знайдено',
+    emptyFreeDesc: 'Наразі немає активних безкоштовних пропозицій у Steam.',
     specialsTitle: 'Гарячі знижки Steam',
     popularTitle: 'Трендові ігри Steam (Top Sellers)',
     emptySpecials: 'Нічого не знайдено',
@@ -114,7 +118,7 @@ export const uk = {
   },
   telegram: {
     title: 'Приєднуйтесь до нашого Telegram-каналу!',
-    desc: 'Отримуйте миттєві сповіщення про безкоштовні ігри, будь-які знижки Steam, нові релізи та хіти продажів щогодини.',
+    desc: 'Отримуйте миттєві сповіщення про безкоштовні пропозиції та знижки Steam і Epic Games, а також нові надходження PC Game Pass.',
     subscribe: 'Підписатися',
     dismiss: 'Приховати банер Telegram-каналу',
   },
@@ -125,7 +129,7 @@ export const uk = {
   },
   history: {
     title: 'Історія сповіщень',
-    subtitle: 'Останні 30 днів виявлених знижок, роздач та хітів продажів.',
+    subtitle: 'Останні 30 днів виявлених безкоштовних пропозицій, знижок та нових надходжень Game Pass.',
     all: 'Всі',
     free: 'Роздачі',
     discount: 'Знижки',

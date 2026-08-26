@@ -50,16 +50,19 @@ function normalizeEpic(g: Record<string, unknown>): EpicGame {
 }
 
 function normalizeSteam(g: Record<string, unknown>): SteamGame {
+  const originalPrice = num(g.originalPrice);
+  const discountPrice = num(g.discountPrice);
   return {
     id: str(g.id),
     title: str(g.title),
     imageUrl: str(g.imageUrl),
-    originalPrice: num(g.originalPrice),
-    discountPrice: num(g.discountPrice),
+    originalPrice,
+    discountPrice,
     discountPercent: num(g.discountPercent),
     currency: str(g.currency),
     url: str(g.url),
     isSpecial: Boolean(g.isSpecial),
+    isFree: typeof g.isFree === 'boolean' ? g.isFree : originalPrice > 0 && discountPrice === 0,
     isPopular: Boolean(g.isPopular),
   };
 }

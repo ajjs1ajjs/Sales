@@ -59,16 +59,14 @@ export function SearchControls({
     {
       label: 'Steam',
       items: [
+        { filterKey: 'steam_free', label: t.filters.steamFree },
         { filterKey: 'steam_specials', label: t.filters.steamSpecials },
-        { filterKey: 'steam_popular', label: t.filters.steamPopular },
       ],
     },
     {
       label: 'Xbox Game Pass (PC)',
       items: [
-        { filterKey: 'xbox_gamepass', label: t.filters.xboxGamePass },
         { filterKey: 'xbox_new', label: t.filters.xboxNew },
-        { filterKey: 'xbox_discount', label: t.filters.xboxDiscount },
       ],
     },
   ];
