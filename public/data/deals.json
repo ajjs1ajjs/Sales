@@ -1,53 +1,21 @@
 {
-  "lastUpdated": "2026-08-26T21:17:26.627Z",
+  "lastUpdated": "2026-08-28T07:52:21.985Z",
   "epic": [
-    {
-      "id": "b467b7d3570e44c0b84e59475f4a5636",
-      "title": "Cardpocalypse Standard Edition",
-      "description": "10-year old Jess accidentally gets everybody's favorite collectible card game banned in Dudsdale Elementary - even worse, it’s her first day! But when troubles arise and mutants from the game start to come to life, and it’s up to Jess and her friends to stop them. Become a Meg...",
-      "imageUrl": "https://cdn1.epicgames.com/offer/2bfd5ca43ef443739ada168e017e1b78/s1_2560x1440-8d68e37943d666ad0f05093481c4d7df",
-      "originalPrice": 339,
-      "discountPrice": 0,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/cardpocalypse",
-      "startDate": "2026-08-20T15:00:00.000Z",
-      "endDate": "2026-08-27T15:00:00.000Z",
-      "isFreeNow": true,
-      "isUpcomingFree": false,
-      "isDiscounted": false,
-      "discountPercent": 100
-    },
     {
       "id": "8401414902e84f2cb9afa9142f051d32",
       "title": "Breathedge",
       "description": "Survive in outer space! Together with your immortal chicken, discover the truth behind your sudden spaceship crash. Craft tools, pilot vehicles, and even control space stations to survive and explore the wreckage.",
       "imageUrl": "https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/egs-breathedge-redruinssoftworks-s1-2560x1440-76fd08cd9c2d-2560x1440-783424f6d4a7f32a0e75fc074f2f928e.jpg",
       "originalPrice": 499,
-      "discountPrice": 499,
+      "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/breathedge",
       "startDate": "2026-08-27T15:00:00.000Z",
       "endDate": "2026-09-03T15:00:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": true,
-      "isDiscounted": false,
-      "discountPercent": 0
-    },
-    {
-      "id": "a802acab90af4a07952a07a9fa677f2f",
-      "title": "Epic Mage Bundle",
-      "description": "Claim a magical Free Gift valued at more than $55! Enhance your Albion journey with enchanted vanity items, two unique mount skins, and a treasure trove of essential progression rewards.",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/92837229023341268267ff64cae425a5/albion-online-7k7df.png",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/albion-online-7eb24d",
-      "startDate": "2026-08-20T15:00:00.000Z",
-      "endDate": "2026-08-27T15:00:00.000Z",
       "isFreeNow": true,
       "isUpcomingFree": false,
       "isDiscounted": false,
-      "discountPercent": 0
+      "discountPercent": 100
     },
     {
       "id": "8f1fcf01e32e4fd4b2ae0a9737992760",
@@ -55,11 +23,27 @@
       "description": "With stunning, realistic horses, an in-depth breeding system, and a range of exciting game modes, Rival Stars Horse Racing offers horse fans the ultimate racing and riding experience. Take the reins and become an equestrian legend!",
       "imageUrl": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-scu1x.jpg",
       "originalPrice": 459,
-      "discountPrice": 459,
+      "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/rival-stars-horse-racing-dd09de",
       "startDate": "2026-08-27T15:00:00.000Z",
       "endDate": "2026-09-03T15:00:00.000Z",
+      "isFreeNow": true,
+      "isUpcomingFree": false,
+      "isDiscounted": false,
+      "discountPercent": 100
+    },
+    {
+      "id": "b8cc76ce7d6645f0a282b843a072cc78",
+      "title": "Alone With You",
+      "description": "ALONE WITH YOU is a sci-fi point-and-click adventure game that tells a rich story about relationships. You're the last survivor of a doomed space colony, trying to escape a planet before it implodes around you.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-cllc3.png",
+      "originalPrice": 184,
+      "discountPrice": 184,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/alone-with-you-028a15",
+      "startDate": "2026-09-03T15:00:00.000Z",
+      "endDate": "2026-09-10T15:00:00.000Z",
       "isFreeNow": false,
       "isUpcomingFree": true,
       "isDiscounted": false,
@@ -68,14 +52,27 @@
   ],
   "steam": [
     {
-      "id": "4001890",
-      "title": "How to Fish",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/c5ccd85d2910a21019adb2581011ac186741d030/capsule_616x353.jpg?t=1787234618",
-      "originalPrice": 159,
-      "discountPrice": 98,
-      "discountPercent": 38,
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1999,
+      "discountPrice": 879,
+      "discountPercent": 56,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4001890",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3321460",
+      "title": "Crimson Desert Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1787821990",
+      "originalPrice": 2449,
+      "discountPrice": 1959,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3321460",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -94,19 +91,6 @@
       "isPopular": false
     },
     {
-      "id": "3321460",
-      "title": "Crimson Desert Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1787682679",
-      "originalPrice": 2449,
-      "discountPrice": 1959,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3321460",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "1623730",
       "title": "Palworld",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
@@ -120,27 +104,27 @@
       "isPopular": false
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1999,
-      "discountPrice": 879,
-      "discountPercent": 56,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "2483190",
       "title": "Forza Horizon 6",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/125ec16733b894a5f60d98e5979ef0c669b131dd/capsule_616x353_alt_assets_3.jpg?t=1787677842",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/125ec16733b894a5f60d98e5979ef0c669b131dd/capsule_616x353_alt_assets_3.jpg?t=1787843145",
       "originalPrice": 2299,
       "discountPrice": 1954,
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2483190",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3718190",
+      "title": "スーパーリアル麻雀 Venus Returns",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3718190/b0d72df7c6a07ebc27aef5bdeee964ec45dcfdb2/capsule_616x353.jpg?t=1787889267",
+      "originalPrice": 749,
+      "discountPrice": 599,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3718190",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -159,40 +143,40 @@
       "isPopular": false
     },
     {
-      "id": "381210",
-      "title": "Dead by Daylight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/c7bb3443d9236b764e5c6c72a561a54dc9703101/capsule_616x353_alt_assets_9.jpg?t=1787769494",
-      "originalPrice": 429,
-      "discountPrice": 171,
-      "discountPercent": 60,
+      "id": "990080",
+      "title": "Hogwarts Legacy",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/22dd5a52e39a1952e77da2bd4ee49cc2e5e1a972/capsule_616x353.jpg?t=1778797474",
+      "originalPrice": 1599,
+      "discountPrice": 159,
+      "discountPercent": 90,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/381210",
+      "url": "https://store.steampowered.com/app/990080",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
     },
     {
-      "id": "2764460",
-      "title": "Sandustry",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg?t=1787606192",
-      "originalPrice": 199,
-      "discountPrice": 129,
+      "id": "1363080",
+      "title": "Manor Lords",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1363080/capsule_616x353.jpg?t=1786634669",
+      "originalPrice": 599,
+      "discountPrice": 389,
       "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2764460",
+      "url": "https://store.steampowered.com/app/1363080",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
     },
     {
-      "id": "1874880",
-      "title": "Arma Reforger",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874880/capsule_616x353.jpg?t=1779966148",
-      "originalPrice": 899,
-      "discountPrice": 629,
-      "discountPercent": 30,
+      "id": "3124540",
+      "title": "Far Far West",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/7b551edc576e4034f7fb941080f161a56d2d63b1/capsule_616x353_alt_assets_5.jpg?t=1787841818",
+      "originalPrice": 349,
+      "discountPrice": 279,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1874880",
+      "url": "https://store.steampowered.com/app/3124540",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -1585,14 +1569,14 @@
       "description": "Car Mechanic Simulator 2021 is new production with well settled player base. Start as a fresh owner of a car garage and work your way to service empire. Get your hands dirty in highly realistic simulation game with great attention to details. Get ready to work on 4000+ unique parts and over 72 cars. Roll up your sleeves and immerse yourself into highly realistic garage environment.\r\nExpand your range of services by investing in new work space and equipment. Repair, fix, test, paint, tune and rebuild cars. Pay a visit to a new Auction house and buy cars in various condition. If feeling lucky you can try it out at barns. Some of them may contain hidden gems - if you can find them.\r\n\r\nInfinitely generated number of orders will keep you busy for a while. If you up for bigger challenger - try yourself in specially crafted story missions. Each mission offers unique set of requirements and challenges you have to face.\r\n\r\nWhen you are done upgrading your workshop its time for a project car. Save up some money and buy your own ride and make it pristine. From rusty shell of a car to perfect condition vehicle. Time to make those hands dirty!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.30519.13635623008017579.c3c49040-6ffd-4834-b97d-bf656fa40ffa.617dd1ba-cc3f-459f-81d1-c1f212b88155",
       "originalPrice": 760,
-      "discountPrice": 228,
-      "discountPercent": 70,
+      "discountPrice": 760,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NH019ZFFHTV",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NP1LC5MX609",
@@ -1615,14 +1599,14 @@
       "description": "Return to the ultimate medieval battlefield.\r\nChivalry 2 is a multiplayer first person slasher inspired by epic medieval movie battles. Players are thrust into the action of every iconic moment of the era - from clashing swords, to storms of flaming arrows, to sprawling castle sieges and more. \r\n\r\nStorm into battle with cross-play on all platforms!\r\nCharge headfirst into stunning cinematic battles inspired by epic medieval action films\r\nExperience large-scale conflicts in sprawling medieval environments ranging from Tournament grounds to full-scale castle sieges\r\nPick your playstyle with 4 classes and 12 subclasses, each with their own unique weapons and abilities \r\nand much more!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.2651.14071745200459129.f6415fab-b460-4210-a974-f5c4ed9bcf0e.73cdb7e3-f838-4633-b998-4a3083fc6e9a",
       "originalPrice": 1030,
-      "discountPrice": 206,
-      "discountPercent": 80,
+      "discountPrice": 1030,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N7CJX93ZGWN",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NWVC7XP3PFD",
@@ -1885,14 +1869,14 @@
       "description": "When insurance companies dodge the responsibility, it’s up to you to save your daughter’s life. This will require some dirty work and shady clientele, but you have no other choice, right? When the big boss calls once again, bring a bucket and a mop cause you will really need them. Are you up for the challenge?\n\nYou need nerves of steel to clean crime scenes left behind by major and minor criminals. You may not have money for your daughter’s hospital stays, but what you do have is a very particular set of skills. With the help of an entire arsenal of equipment, you will clean blood, pack up bodies, and remove any odor. All this under the pressure of a ticking clock and police breathing down your neck.\n\nKey Features:\n\nDeep Clean - Grab your trusty mop and sponge. They will be handy for the majority of the missions. When the mess becomes too much, whip out the powerwasher and clean the outside spaces deeply. Or when the smell is a bit too strong, you have more than just an odor eliminator.\n\nArm’s Race - Sometimes, the equipment you have is not enough and needs an extra oomph. If your lamps or flashlights are not strong enough, get new ones! If there is too much blood outside, get a different set of power washer nozzles! So, before every mission, check the perks available and boost your cleaning arsenal. If you can make your job easier... why not take that opportunity?\n\nDeep Pockets - Make money in any way you can! Mobsters are known for being generous, but sometimes that’s not enough. And certain objects may be too tempting. Who is going to miss this expensive watch? The owner’s already dead.\n\nIt’s about Family - With all the gruesome things you will see and do on every job, you must not forget that you are doing this for her. The life of a single father has its challenges, and you need to overcome them all.\n\nSo, are you the bad guy? You’re simply a man with the brains and brawn to take fate into his own hands. You’re the man of the hour, so clean, keep your head down and get that cash.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.31187.13641013102004887.bf107aae-94c4-457f-a84e-5bd21f71f809.f2a26002-93da-45a5-8d45-901c738a5655",
       "originalPrice": 1055,
-      "discountPrice": 685.75,
-      "discountPercent": 35,
+      "discountPrice": 1055,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NGZ1M3N98P2",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PNRHXZ6ZSS9",
@@ -3295,14 +3279,14 @@
       "description": "УЖЕ ВИЙШЛА — ГРАЙТЕ СЬОГОДНI\nНова основа, з якою ваша футбольна доля буде у ваших руках! Створена на рушії Unity, FM26 — переосмислена спадщина, де ваша історія тренера еволюціонує. \nПереосмислений інтерфейс і ще більш захопливі враження ігрового дня наближають вас до подій та підсилюють кожну вирішальну мить. \nПеребудуйте команду за допомогою сучасних інструментів трансферу та створіть власну філософію футболу завдяки інноваціям і тактичному реалізму, який повністю змінює уявлення про гру.  \n\nЗДОБУДЬТЕ СЛАВУ FIFA WORLD CUP 2026™\nПеремога в найбільшому міжнародному футбольному турнірі — у ваших руках. Не проґавте спеціальну дату старту для FIFA World Cup 2026™ та випробуйте нові інструменти керування національними збірними, а також автентичну ліцензовану телевізійну графіку, брендинг турніру, офіційні м’ячі й форму.\n\nНАЙЯСКРАВІШІ ВРАЖЕННЯ ВІД МАТЧУ \nНасолоджуйтеся найнасиченішими враженнями ігрового дня в історії серії — поліпшений рух гравців і ще більша деталізація на полі додають кожному матчу нових рівнів глибини та драматизму.  \nВідчуйте адреналін стрімкого ривка з дриблінгом, ювелірного проникаючого пасу й незабутнього переможного гола на останніх секундах — із більшою виразністю завдяки оновленому захопленню руху та об’ємній анімації.\n\nПРЕМ’ЄР-ЛІГА ВСТУПАЄ В БІЙ  \nПрем’єр-ліга чекає на вас! Досягайте вершин англійського футболу та отримуйте повністю ліцензовані клубні значки, форму й офіційні фотографії гравців. \nНовий рівень автентичності. Ви змагаєтеся за головний приз у вітчизняному футболі — ніби перебуваєте на трибунах стадіону.  \n\nПОЛІПШЕННЯ ТАКТИКИ\nВізьміть під безпрецедентний контроль стиль гри команди на всіх ділянках поля — завдяки запровадженню окремих розстановок для гри у володінні м’ячем і без нього.\nОновлені ролі гравців і динамічний візуалізатор, що показує, як команда перешиковується в різних сценаріях, виводять вашу передматчеву підготовку на новий рівень — з матчу в матч.\n\nТОТАЛЬНИЙ ФУТБОЛ, ТОТАЛЬНИЙ КОНТРОЛЬ  \nКардинально оновлений інтерфейс, створений для сучасного тренера, додає ясності й плавності кожній взаємодії — а новий Портал стане вашим провідником у великий футбольний світ. \nНалаштуйте гру під власні пріоритети з появою «Закладок швидких посилань», а про прекрасну гру дізнавайтеся більше завдяки оновленому пошуку та новому глосарію FMPedia. \n\nПРЕДСТАВЛЯЄМО: ЖІНОЧИЙ ФУТБОЛ   \nВідкрийте для себе новий світ можливостей, адже жіночий футбол бездоганно дебютував і ввійшов у світ FM. \nЗ 14 доступними лігами з 11 країн, зокрема Women’s Super League та National Women’s Soccer League, у кожній кар’єрі на вас чекають нові виклики й нові таланти.\n\nІНСТРУМЕНТИ ПЕРЕВЕДЕННЯ ГРАВЦІВ\nСкористайтеся можливостями TransferRoom™ — розумно вибудовуйте чемпіонські склади із сезону в сезон.\nДекларуйте пріоритети добору у «Вимогах» і дізнавайтеся про потреби суперників напряму завдяки «Цільових пропозицій клубам» — для точнішого контролю над кожним підписанням і продажем.\n\nВАШ ТРЕНЕР — ВАШІ ПРАВИЛА\nВиражайте більше своєї індивідуальності й стилю в кожній кар’єрі — завдяки оновленому редактору тренера. \nСтворіть свій образ в удосконаленому редакторі тренера, а потім пропишіть унікальну передісторію кар’єри — вона по-особливому впливатиме на ваше життя на тренерській лаві.\n\nУ FM26 футбол належить лише вам. Настав час змінити правила гри. \n\nMicrosoft більше не підтримує Windows 10 чи старіші версії\n\n* Через погодження ліцензій не всі комплекти форми команд FIFA World Cup 2026™ будуть доступні на момент запуску цієї функції. Деякі з них можуть бути додані згодом.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.8539.14159410862978133.1c4f3bd5-0a15-470c-8be1-1c69266a4dc3.3d41f085-0cf7-419a-8b62-4b021e6c7527",
       "originalPrice": 2499,
-      "discountPrice": 2499,
-      "discountPercent": 0,
+      "discountPrice": 999.6,
+      "discountPercent": 60,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PD0Z90216RJ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NMNZ4CK59DM",
@@ -3310,14 +3294,14 @@
       "description": "СТВОРІТЬ СВОЮ ТАКТИКУ — ГРАЙТЕ ВЖЕ ЗАРАЗ\nНові можливості творити майбутнє футболу власноруч.\nЗавдяки простому інтуїтивному управлінню з консолі, переробленому інтерфейсу й динамічному ігровому процесу ви будете ближче до ключових моментів матчу.  \n\nЗДОБУДЬТЕ СЛАВУ FIFA WORLD CUP 2026™\nПеремога в найбільшому міжнародному футбольному турнірі — у ваших руках. Не проґавте спеціальну дату старту для FIFA World Cup 2026™ та випробуйте нові інструменти керування національними збірними, а також автентичну ліцензовану телевізійну графіку, брендинг турніру, офіційні м’ячі й форму.\n\nРОЗРОБЛЕНО НА UNITY\nНасолоджуйтеся найяскравішими враженнями від серії з оновленою графікою та деталями на полі!\nАтаки виразніші завдяки оновленому захопленню руху та об’ємним анімаціям, а нові швидкі команди на контролері між ключовими епізодами дають змогу оперативно коригувати тактику з бровки. \n\nЛАСКАВО ПРОСИМО ДО ПРЕМ’ЄР-ЛІГИ \nПориньте у світ Прем’єр-ліги, вперше повністю ліцензованої.\nНовий рівень автентичності: ТВ-подача й ракурс найкращого місця ведуть до головного трофея.  \n\nПОЛІПШЕННЯ ТАКТИКИ\nОпануйте сучасну тактику з новими формаціями для гри з м’ячем і без м’яча. \nОновлені ролі й візуалізація фаз гри підіймуть передматчеву підготовку на новий рівень.\n\nЩЕ БЛИЖЧЕ ДО ГРИ  \nОновлений інтерфейс: навігація на консолях плавніша й розумніша. Плануйте у своєму темпі: ключова інформація з’являється вчасно й там, де треба, завдяки новому «Порталу» — вашому вікну у світ футболу. \n\nПРЕДСТАВЛЯЄМО: ЖІНОЧИЙ ФУТБОЛ   \nНова сторінка: жіночий футбол дебютує у FM26 та інтегрований в єдиний футбольний світ.\nГрайте в 14 лігах в 11 країнах, від WSL до NWSL, і шукайте таланти в найбільшій ігровій базі жіночого футболу. \n\nІНСТРУМЕНТИ ПЕРЕВЕДЕННЯ ГРАВЦІВ\nВикористовуйте TransferRoom™, онлайн-ринок трансферів, щоб формувати чемпіонські склади з глибшим розумінням ринку.\nПідписуйте й продавайте простіше завдяки вимогам і можливостям. Більше контролю в кожному трансферному вікні.\n\nВАШ ТРЕНЕР — ВАШІ ПРАВИЛА\nБільше індивідуальності у вашій кар’єрі — завдяки оновленому редактору тренера. \nНалаштуйте зовнішність і створіть передісторію кар’єри, унікальну для вашого життя на тренерській лаві.\n\nУ FM26 на консолях футбол стає вашим проєктом. Настав час змінити правила гри.\n\n* Через погодження ліцензій не всі комплекти форми команд FIFA World Cup 2026™ будуть доступні на момент запуску цієї функції. Деякі з них можуть бути додані згодом.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.18485.13754609462095808.6e939a74-099e-490d-b009-02e7105155bd.57af7efd-c236-4f6c-ad75-9181b7718799",
       "originalPrice": 2499,
-      "discountPrice": 2499,
-      "discountPercent": 0,
+      "discountPrice": 999.6,
+      "discountPercent": 60,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NMNZ4CK59DM",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P82LXD5RH31",
@@ -3398,7 +3382,7 @@
       "id": "9MW715J1P29D",
       "title": "FragPunk",
       "description": "Ламайте правила та картки!\nУ FragPunk кожен раунд унікальний. Відкрийте для себе більше 100 карт з набором різних рис, які змінюються в кожному раунді, створюючи нові унікальні комбінації та нескінченні можливості! Картки можуть збільшити висоту стрибка, поміняти місцями нападників і захисників, огорнути ваші кулі полум'ям або перетворити їх на блискавки і навіть можуть воскресити вас і вашу команду!\n\nНереальний шутер 5 на 5!\nКожен раунд триває 2,5 хвилини, тобто треба поквапитися! Малий час на вбивство означає, що треба добре цілитися. Виберіть одного з 12 героїв з різноманітними здібностями, налаштуйте свою комбінацію зброї, виберіть свої картки і приготуйтеся до бою!\n\nРізноманіття варіативності\nВиберіть з 12 героїв свого улюбленого: кожен має свої унікальні здібності. Знайдіть улюблену зброю серед 17 доступних: деяка навіть має особливі здібності. Відкривайте нових героїв, зброю або комбінації карток та розвивайте персональний стиль бою!\n\nАтмосферні мапи та яскрава дія!\nПриготуйтеся до насиченого дизайну мап і візуальних ефектів, включаючи колажі, графіті й поєднання реалістичних та стилізованих текстур. Милуйтеся сміливими кольорами, чіткими формами й динамічними лініями, які подарують вам різноманітні візуальні враження під час польоту куль.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.26512.13848987134544813.7b30c9e3-5909-4f77-afb6-d69bee0cdff7.bdc2882b-cf8b-483c-bf54-727bfa64bbb4",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.15439.13848987134544813.d162bf9e-36cf-4556-97b2-4e3906f60e29.91d04bd1-97f6-4849-8cb3-abf671f9e05d",
       "originalPrice": 0,
       "discountPrice": 0,
       "discountPercent": 0,
@@ -4030,14 +4014,14 @@
       "description": "Hogwarts Legacy — рольова гра з відкритим світом, що базується на книгах про Гаррі Поттера. Вирушайте в подорож уже знайомими та новими місцями, знаходьте магічних звірів, індивідуалізуйте персонажа, варіть зілля, опановуйте закляття, поліпшуйте здібності й станьте чарівником або чаклункою своїх мрій.\n\nНа вас чекає Гоґвортс 1800-х. Ви — учень або учениця, що мають ключ до старовинної таємниці, яка може розірвати світ чар на шматочки. Знаходьте союзників, бийтеся з темними чаклунами й вирішуйте долю світу чар. Ви самі створюєте свою спадщину. Проживіть те, чого немає на сторінках книг.\n\nВключає завдання в магазині з привидами, де ви отримаєте доступ до нового підземелля, косметичний набір продавця та магазин у Гоґсміді.\n\nНовинки:\n- фоторежим;\n- скидання очок таланту.\n\nТепер нові косметичні предмети доступні усім: живі окуляри, наряд і плащ в'язня Азкабану, їздовий оніксовий гіпогриф, рецепт зілля Фелікс Феліціс, мітли темного чарівника (2).\n\nЯкщо у вас вже є цифрова версія цієї гри для Xbox One, ви можете придбати цифрову версію Xbox Series X|S зі знижкою.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38223.13814785456466922.0fef76f8-710d-4aca-b42f-c45e536f8d2b.0570d0b7-cf5e-4106-84d7-fa031e67d49f",
       "originalPrice": 1795,
-      "discountPrice": 1795,
-      "discountPercent": 0,
+      "discountPrice": 269.25,
+      "discountPercent": 85,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MT5NJ5W7B8Z",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N116V0599HB",
@@ -4510,14 +4494,14 @@
       "description": "МІЦНА ЕМОЦІЙНА ДРАМА\r\nДва легендарних героя, яких звела доля — або ж дещо більш страшне...\r\n\r\nІтібан Касуга, невтомний невдаха, якому вже звично підніматися з самого дна, і Кадзума Кірю, надломлена людина, що доживає свої останні дні.\r\n\r\nПЕРШОКЛАСНИЙ РОЛЬОВИЙ БОЙОВИК\r\nНа вас чекають динамічні атмосферні битви в стилі рольових ігор, де саме поле боя стає зброєю. Бийте ворогів усім, що під руку потрапить!\r\n\r\nНезвичні професії та варіанти персоналізації допоможуть вам підбирати навички героїв під різні ситуації та долати супротивників з допомогою вражаючих прийомів.\r\n\r\nНЕСКІНЧЕННІ ПРИГОДИ\r\nГуляйте по Японії та розважайтесь на Гавайях у масштабній пригоді розміром з Тихий океан.\r\n\r\nЗустрічайте незабутні моменти, унікальні завдання та розваги на кожному кроці.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.43821.14465728597087432.6e0f939a-1434-4a25-b368-df8616b251aa.e3cbf96f-08cb-4fd9-b920-2f4dcbc9dd0c",
       "originalPrice": 1999,
-      "discountPrice": 1999,
-      "discountPercent": 0,
+      "discountPrice": 499.75,
+      "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P00SVGWDJCP",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P1303FCXW6X",
@@ -4525,14 +4509,14 @@
       "description": "У цій незвичній пригоді вас звати Горо Мадзіма, людина в черевиках зі сталевими облямівками, ви втратили пам’ять та стали грозою морів.\n\nВирушайте в захопливу піратську мандрівку разом із капітаном і його корабельною командою, беріть участь у грандіозних битвах на суші й на морі та спробуйте знайти свої втрачені спогади й легендарний скарб.\n\n■ ПІРАТСЬКІ ПРИГОДИ ПІРАТА-ЯКУЗДИ РОЗПОЧИНАЮТЬСЯ!\nГоро Мадзіма, сумнозвісний колишній якудза, зазнає корабельної аварії і опиняється на віддаленому острові в Тихому океані. Не пам'ятаючи навіть власного імені, він відправляється на пошуки втрачених спогадів в супроводі хлопчика на ім’я Ной, який врятував йому життя. Невдовзі вони стають учасниками конфлікту між жорстокими злочинцями, сучасними піратами та іншими негідниками, що прагнуть знайти легендарний скарб.\n\n■ ЗБУДУЙТЕ СВІЙ КОРАБЕЛЬ\nЗберіть власний екіпаж, модернізуйте корабель, досліджуйте безкрайній океан і станьте героєм легенд, сповнених гарматного вогню, несподівано потоваришувань і казкових скарбів.\n\nКоли ворожий піратський корабель наведе на вас свої гармати, у вас буде лише один вибір — вступити в пекельний бій. Швидко маневруйте у вигідну позицію, уникаючи ворожого вогню, а потім завдавайте нищівного удару. Беріть на абордаж підбитий корабель і під час кривавих боїв знищіть капітана і його головорізів. Тепер ви — справжній пірат-якудза! Підкорюйте моря, досліджуйте таємні острови, накопичуйте здобич.\n\n■ ПЕКЕЛЬНІ СТРАТЕГІЧНІ БОЇ\nЗалежно від вашої стратегії чергуйте стилі бою «Скажений пес» і «Пірат», щоб урізноманітнити атаки, застосовувати неочікувані комбо й прийоми, щоб нищити ворога як на морі, так і в повітрі.\n\nСтиль «Скажений пес» відрізняється швидкістю, спритністю і відчуттям бою, що дозволяє наносити точні, потужні удари, які змусять найсильнішого ворога спустити свій прапор.\n\nАбо змусьте ворогів пройти по піратській дошці, використовуючи стиль «Пірат» — озброївшись двома короткими мечами і використовуючи хитрі піратські приладдя.\n\nЦей продукт містить лише гру; є інші видання гри, що містять додатковий матеріал. Певний додатковий матеріал також можна купити окремо.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.4222.14515021988943563.1f3fe501-2a70-4602-ab4f-93c0a60ab77c.2724bbe9-7ef9-4ed4-8f44-2374c58e7cbe",
       "originalPrice": 2199,
-      "discountPrice": 2199,
-      "discountPercent": 0,
+      "discountPrice": 549.75,
+      "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P1303FCXW6X",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PNG83MDD6SH",
@@ -5860,14 +5844,14 @@
       "description": "Prepare for the award-winning RPG experience in this definitive edition of Persona 5 Royal, featuring a treasure trove of downloadable content included! \r\n\r\nForced to transfer to a high school in Tokyo, the protagonist has a strange dream. “You truly are a prisoner of fate. In the near future, ruin awaits you.” With the goal of “rehabilitation” looming overhead, he must save others from distorted desires by donning the mask of a Phantom Thief.\r\n\r\nKey Features include:\r\n-Explore Tokyo, unlock Personas, customize your own personal Thieves Den, experience alternate endings, and more\r\n-Become the ultimate Phantom Thief and defy conventions, discover the power within, and fight for justice in the definitive version of Persona 5 Royal\r\n-Includes over 40 items of previously released downloadable content\r\n-Choose between Japanese and English VO",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.6136.14482474285447263.0a4055ed-9044-4c0c-abf5-292bb1bcb735.3db4c9c4-de15-4e0f-8b4d-1539f8a2ab08",
       "originalPrice": 1799,
-      "discountPrice": 1799,
-      "discountPercent": 0,
+      "discountPrice": 539.7,
+      "discountPercent": 70,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NZDHXL9SJJ8",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P1P5Q3BNM7J",
@@ -6470,6 +6454,21 @@
       "isDiscounted": false
     },
     {
+      "id": "9PPBNCXP0096",
+      "title": "Resonance: A Plague Tale Legacy",
+      "description": "Події розгортаються за 15 років до «Реквієму», і ви граєте за Софію — молоду, але безстрашну розбійницю, яка переховується від погоні й прагне розгадати таємниці свого минулого. Пориньте в захопливу історію, у якій на вас чекають бої, міти та доля із зовсім новим поглядом на всесвіт гри A Plague Tale. \n\nЦя пригода привела Софію на острів Мінотавра, де вона потрапляє в смертельні випробування, подорожує небезпечними місцями, вирішує головоломки, а також б'ється й біжить усе далі від армії переслідувачів. Але справжня пригода розпочнеться, коли прокинеться жахлива мітична істота й Софії не вдасться її оминути... \n\nЩо далі вглиб до серця острова, то більше розкриється правди про стародавнє прокляття. \n\n• Услід за вами йде безліч ворогів, які так і хочуть потрапити на острів та першими забрати таємничий скарб, а ви мусите пройти небезпечний лабіринт. Завжди покладайтеся на свою витривалість, гнучкість і миттєві рефлекси, щоб перехитрити супротивників, відточити відбивання атак та показати справжню силу задля виграшу в смертельних сутичках. \n• Перемикайтеся між Софією із середніх віків та мінойських часів, де події минулого визначатимуть долю сьогодення. Пориньте в нову історію всесвіту гри A Plague Tale, у якій шляхи двох персонажів тісно пов'язані між собою самою долею і таємною спадщиною Макули. \n• Знання, записані у вашому щоденнику, допоможуть вам пробиратися далі вслід за командою, досліджувати насичений різними дрібницями світ, розгадувати таємниці й проходити небезпечні випробування. Використовуйте вкрадену мінойську сферу, щоб вирішувати головоломки, у яких без сили світла ніяк — цю силу, власне, у саме серце острова заклав Дедал. \n• Кажуть, що не всі здатні повернутися звідти. У тіні ховається щось зловісне, і воно бачить кожен ваш наступний порух у закутках острова, ходить за вами всюди, полює. Ризик щокроку, кожна зупинка — смертельно небезпечна. Ніколи переводити подих: постійно потрібно ховатися, випереджати і йти дедалі вглиб. \n\nЧи вдасться вам пережити всі випробування й уціліти, чи цей острів поглине вас у забуття?\n\nЩоб отримати найкращі враження від гри на ПК, рекомендуємо грати з контролером. Клавіатура й миша теж повністю підтримуються.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.39294.14332070469741251.b219f2ed-9161-4e36-815d-0a90a76aae89.a69aff95-48f7-4ef9-977f-95aea9a74b66",
+      "originalPrice": 2105,
+      "discountPrice": 2105,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9PPBNCXP0096",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
       "id": "9MTVJ3HHTQGS",
       "title": "Retro Classics",
       "description": "Discover timeless classics and hidden gems with Game Pass. Retro Classics includes over 50 restored and ready-to-play games available for Xbox Game Pass members. Power up your play with community challenges, competitive leaderboards, all-new challenge modes, high-score rankings and more.\nPlay over 50 classic games from Activision like Commando, Grand Prix, Kaboom! Mech Warrior 2: 31st Century Combat, and Pitfall!\nTake on friends, rivals or the entire world with unique challenges - or dive in solo - and collect achievements.\nSave your progress and continue later for the first time for many games.\nAvailable for Game Pass members to play on console, PC, and on supported devices with cloud gaming.\n",
@@ -6549,8 +6548,8 @@
       "title": "Roadside Research (Game Preview)",
       "description": "This game is a work in progress. It may or may not change over time or release as a final product. Purchase only if you are comfortable with the current state of the unfinished game. Full details on the latest status of the game, how you can give feedback and report issues can be found at https://discord.gg/XVNhp72cqw\n\nAliens have landed on Earth… to run a gas station. Play solo or up to 4 players and do human tasks to blend in. People depend on you, it’s your job to make sure that the shelves have the correct items, refuel customers passing by, and provide food for travelers. But most importantly, you must conduct your research.\n\nSTAY UNDETECTED\nYour mission is simple. Gather all data you can from humans without their knowledge. Scan, steal, and test various methods on customers while they stop by the gas station. Be careful not to raise the “suspicion meter” too high, as that will trigger the visit of government officials.\n\nBE NORMAL, BE HUMAN\nDuring the day, take care of the gas station as an ordinary employee. Restock the shelves, order wares for the shop, refuel passersby, and exchange goods for cash. At night you will be able to gather your thoughts, and plan for the next day. \n\nUPGRADE AND CUSTOMIZE\nBalance between two missions, upgrading the gas station to attract more customers and upgrading your alien tech to process data and gather information more efficiently. To blend in, draw a very normal human expression on your state-of-the-art disguise.\n\nDuring closing hours, you can also upgrade the station, inside and outside to make sure everything is going according to plan.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.20076.14201145446258372.f588f7e4-e94a-4edb-8b52-6195998cd764.bd19d7f0-ee30-42a3-b57d-63522d2e5e8b",
-      "originalPrice": 455,
-      "discountPrice": 455,
+      "originalPrice": 340,
+      "discountPrice": 340,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PFNXM9G4N83",
@@ -6910,14 +6909,14 @@
       "description": "When Miho steps into the pantry to get a potato for his grandmothers' soup, he's pulled into a distant fantastical land where he must retrace the steps of a mysterious great traveler before him.\n\nHe must venture through a world of wonderous rainforests, teetering towns, and talking beasts, outsmarting thieves and meeting quirky characters along the way.\n\nBut each time he returns to the kitchen with an ingredient, things have changed in unexpected ways…\n\nVenture forth in the search for Nana's exotic ingredients and learn the secret behind SOPA…\n\n…the pot's already boiling…\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.39810.13960509830993635.4471c47e-92e9-4052-8f4a-4b145424ae5d.44b405a8-eaf0-46ba-b08a-81fb851c473d",
       "originalPrice": 700,
-      "discountPrice": 595,
-      "discountPercent": 15,
+      "discountPrice": 700,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N221ZTFGQB0",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NJCVGS6T30K",
@@ -9156,62 +9155,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_2215200": {
-      "title": "LEGO® Batman™: Legacy of the Dark Knight",
-      "price": 1519,
-      "percent": 20,
-      "timestamp": "2026-07-27T22:57:50.284Z",
-      "type": "discount"
-    },
-    "steam_popular_1091500": {
-      "title": "Cyberpunk 2077",
-      "price": 419,
-      "percent": 70,
-      "timestamp": "2026-07-27T22:57:50.284Z",
-      "type": "popular"
-    },
-    "steam_popular_3240220": {
-      "title": "Grand Theft Auto V Enhanced",
-      "price": 674,
-      "percent": 50,
-      "timestamp": "2026-07-28T06:30:57.011Z",
-      "type": "popular"
-    },
-    "steam_popular_4906890": {
-      "title": "Le Mans Ultimate - US Track Pass",
-      "price": 1350,
-      "percent": 10,
-      "timestamp": "2026-07-28T11:54:56.315Z",
-      "type": "popular"
-    },
-    "steam_discount_4594150": {
-      "title": "Sir, We Have an Orc Problem",
-      "price": 116,
-      "percent": 10,
-      "timestamp": "2026-07-28T16:06:22.706Z",
-      "type": "discount"
-    },
-    "steam_popular_4594150": {
-      "title": "Sir, We Have an Orc Problem",
-      "price": 116,
-      "percent": 10,
-      "timestamp": "2026-07-28T16:06:22.706Z",
-      "type": "popular"
-    },
-    "xbox_new_9N6J4RNFPKKL": {
-      "title": "Halo: Campaign Evolved — Standard Edition",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-28T16:06:22.706Z",
-      "type": "xbox_new"
-    },
-    "xbox_new_9N4X0WFZ2STM": {
-      "title": "Zenless Zone Zero",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-29T02:28:14.062Z",
-      "type": "xbox_new"
-    },
     "steam_popular_266410": {
       "title": "iRacing",
       "price": 225,
@@ -10926,6 +10869,69 @@
       "percent": 30,
       "timestamp": "2026-08-26T21:17:18.581Z",
       "type": "discount"
+    },
+    "epic_free_8401414902e84f2cb9afa9142f051d32": {
+      "title": "Breathedge",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-08-28T07:52:16.603Z",
+      "type": "free"
+    },
+    "epic_free_8f1fcf01e32e4fd4b2ae0a9737992760": {
+      "title": "Rival Stars Horse Racing : Desktop Edition",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-08-28T07:52:16.603Z",
+      "type": "free"
+    },
+    "steam_discount_3718190": {
+      "title": "スーパーリアル麻雀 Venus Returns",
+      "price": 599,
+      "percent": 20,
+      "timestamp": "2026-08-28T07:52:16.603Z",
+      "type": "discount"
+    },
+    "steam_discount_990080": {
+      "title": "Hogwarts Legacy",
+      "price": 159,
+      "percent": 90,
+      "timestamp": "2026-08-28T07:52:16.603Z",
+      "type": "discount"
+    },
+    "steam_discount_1363080": {
+      "title": "Manor Lords",
+      "price": 389,
+      "percent": 35,
+      "timestamp": "2026-08-28T07:52:16.603Z",
+      "type": "discount"
+    },
+    "steam_discount_3124540": {
+      "title": "Far Far West",
+      "price": 279,
+      "percent": 20,
+      "timestamp": "2026-08-28T07:52:16.603Z",
+      "type": "discount"
+    },
+    "xbox_new_9N6J4RNFPKKL": {
+      "title": "Halo: Campaign Evolved — Standard Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-28T07:52:16.603Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9PPBNCXP0096": {
+      "title": "Resonance: A Plague Tale Legacy",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-28T07:52:16.603Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9N4X0WFZ2STM": {
+      "title": "Zenless Zone Zero",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-08-28T07:52:16.603Z",
+      "type": "xbox_new"
     }
   }
 }
