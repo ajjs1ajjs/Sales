@@ -66,6 +66,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@1ef5a1b1df4c63fe21a2242edbee6cac921ece01 # v4.1.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.PUBLIC_RELEASE_TOKEN }}
+          external_repository: ajjs1ajjs/Sales
           publish_dir: ./dist
-          publish_branch: gh-pages
+          publish_branch: main
