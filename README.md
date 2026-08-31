@@ -1,4 +1,15 @@
-<div align="center">
+﻿<div align="center">
+
+# Game Sales Aggregator — Source Code
+
+[![Deployed to](https://img.shields.io/badge/Deployed_to-Sales-blue)](https://github.com/ajjs1ajjs/Sales)
+[![Website](https://img.shields.io/badge/Website-ajjs1ajjs.github.io%2FSales-green)](https://ajjs1ajjs.github.io/Sales/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![CI](https://img.shields.io/github/actions/workflow/status/ajjs1ajjs/Sales-source/scheduler.yml?label=CI)](https://github.com/ajjs1ajjs/Sales-source/actions)
+
+> **Це репозиторій з вихідним кодом Sales gaming deals tracker.**
+> Готовий продукт деплоїться в: **https://github.com/ajjs1ajjs/Sales**
+> Офіційний сайт: **https://ajjs1ajjs.github.io/Sales/**
 
 <img src="docs/banner.svg" width="100%" alt="Game Sales Aggregator">
 
@@ -12,7 +23,6 @@
 [![CI](https://img.shields.io/github/actions/workflow/status/ajjs1ajjs/Sales/scheduler.yml?label=CI)](https://github.com/ajjs1ajjs/Sales/actions)
 
 </div>
-
 ---
 
 ## 🖼️ Screenshots
@@ -41,7 +51,7 @@
 | ↕️ **Сортування** | за ціною, відсотком знижки або назвою |
 | 💰 **Фільтр ціни** | вибір діапазону цін |
 | ⭐ **Список бажань** | обрані ігри, зберігаються в localStorage |
-| 🕘 **Історія сповіщень** | виявлені знижки за останні 30 днів |
+| 🕘 **Історія сповіщень** | виявлені знижки/роздачі/додавання за останні 30 днів |
 | 🌗 **Теми** | темна/світла, перемикання одним кліком |
 | 📱 **PWA** | встановлюється як додаток на телефон/ПК |
 | 📴 **Офлайн-режим** | кешування через Service Worker |
