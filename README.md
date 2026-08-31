@@ -19,7 +19,7 @@
 
 [![Website](https://img.shields.io/badge/website-GitHub%20Pages-2563eb)](https://ajjs1ajjs.github.io/Sales/)
 [![Telegram](https://img.shields.io/badge/Telegram-@salesgamesua-2CA5E0?logo=telegram)](https://t.me/salesgamesua)
-[![Version](https://img.shields.io/badge/version-v1.0.0-c084fc)](https://github.com/ajjs1ajjs/Sales/releases)
+[![Version](https://img.shields.io/badge/version-v1.0.1-c084fc)](https://github.com/ajjs1ajjs/Sales/releases)
 [![CI](https://img.shields.io/github/actions/workflow/status/ajjs1ajjs/Sales/scheduler.yml?label=CI)](https://github.com/ajjs1ajjs/Sales/actions)
 
 </div>
@@ -83,10 +83,6 @@ GitHub Actions запускає скрипт
 **Вимоги:** Node.js 20+ · npm
 
 **Автоматичне встановлення** (сам ставить Node.js, залежності, дані та білд):
-```bash
-# Windows (PowerShell)
-irm https://raw.githubusercontent.com/ajjs1ajjs/Sales/main/scripts/install.ps1 | iex
-```
 ```bash
 # Ubuntu / Debian
 curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/Sales/main/scripts/install.sh | bash
