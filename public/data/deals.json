@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T06:17:34.956Z",
+  "lastUpdated": "2026-09-01T12:17:01.484Z",
   "epic": [
     {
       "id": "8401414902e84f2cb9afa9142f051d32",
@@ -94,19 +94,6 @@
       "isPopular": false
     },
     {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -115,6 +102,32 @@
       "discountPercent": 56,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1807120",
+      "title": "Being a DIK - Season 3",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1807120/b4b05f2b0d8a7157a1470cf2f73a558feb9d2d99/capsule_616x353.jpg?t=1788256738",
+      "originalPrice": 430,
+      "discountPrice": 387,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1807120",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -159,19 +172,6 @@
       "isPopular": false
     },
     {
-      "id": "264710",
-      "title": "Subnautica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/capsule_616x353.jpg?t=1777456112",
-      "originalPrice": 799,
-      "discountPrice": 199,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/264710",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "648800",
       "title": "Raft",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/capsule_616x353.jpg?t=1727184011",
@@ -185,14 +185,14 @@
       "isPopular": false
     },
     {
-      "id": "2483190",
-      "title": "Forza Horizon 6",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/125ec16733b894a5f60d98e5979ef0c669b131dd/capsule_616x353_alt_assets_3.jpg?t=1787843145",
-      "originalPrice": 2299,
-      "discountPrice": 1954,
-      "discountPercent": 15,
+      "id": "251570",
+      "title": "7 Days to Die",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251570/capsule_616x353.jpg?t=1788209289",
+      "originalPrice": 835,
+      "discountPrice": 459,
+      "discountPercent": 45,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2483190",
+      "url": "https://store.steampowered.com/app/251570",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -355,14 +355,14 @@
       "description": "Age of Empires, the pivotal RTS that launched a 20-year legacy returns in definitive form for Windows 10 PCs. Bringing together all of the officially released content with modernized gameplay, all-new visuals and a host of other new features, Age of Empires: Definitive Edition is the complete RTS package. Engage in over 40 hours of updated campaign content with new narration and pacing, jump online in up to 8-player battles with new competitive features and modes, experience 4K HD visuals with overhauled animations, get creative with the scenario builder and share your creations. There’s never been a better time to jump in to Age of Empires. Welcome back to history.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n* Requires a free Xbox Live account.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.27816.13672427983916579.274b1ffd-9cde-4bef-9a3e-6f37073d5ed0.cf59b4ae-d726-4e4e-9f93-4a93820d90bd",
       "originalPrice": 505,
-      "discountPrice": 126.25,
-      "discountPercent": 75,
+      "discountPrice": 505,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NJWTJSVGVLJ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9N42SSSX2MTG",
@@ -370,14 +370,14 @@
       "description": "Age of Empires II: Definitive Edition celebrates the 20th anniversary of one of the most popular strategy games ever, now with stunning 4K Ultra HD graphics, and a fully remastered soundtrack.  Age of Empires II: DE features “The Last Khans” with 3 new campaigns and 4 new Civilizations. Frequent updates include events, additional content, new game modes, and enhanced features with the recent addition of Co-Op mode!\r\n\r\nExplore all the original Campaigns and the best-selling expansions like never before.  With over 200 hours of gameplay and 1,000 years of human history, improved experiences await.  Head online to challenge other players in your quest for world domination with 35 different Civilizations. You can also experience new Civilizations and Campaigns with the Lords of the West DLC!  Recent updates include a Battle Royale game mode, ongoing support for the Scenario Editor, Quick Play for easy social games, enhancements to the game UI, and more! \r\n\r\nChoose your path to greatness with an eye-catching and engaging remaster to one of the most beloved strategy games of all time.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.40318.13991012152837663.1297136a-f273-41f1-947f-59044c848c55.f4593f31-dd4c-4ede-850a-bed086930be1",
       "originalPrice": 707.5,
-      "discountPrice": 247.62,
-      "discountPercent": 65,
+      "discountPrice": 707.5,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N42SSSX2MTG",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P91FNMH1GG0",
@@ -400,14 +400,14 @@
       "description": "Celebrating its first year of delighting millions of global players, the award-winning and best-selling strategy franchise continues with Age of Empires IV: Anniversary Edition, putting you at the center of even more epic historical battles that shaped the world.\r\n\r\nFeaturing both familiar and innovative new ways to expand your empire in vast landscapes with stunning 4K visual fidelity, Age of Empires IV: Anniversary Edition brings an evolved real-time strategy game to the next level in this celebratory new version that includes a host of free new content such as brand-new civilizations, new maps, additional in-game updates and languages, and new masteries, challenges, taunts and cheats – all at an amazing value that packs in more history than ever before! \r\n\r\nTwo New Civilizations, 8 New Maps - Lead the mighty Malians of West Africa as one of the richest trading nations of all-time as you focus on strong economic prowess in mining and investing in gold. \r\n\r\nOr assemble one of the longest lasting empires in history with the Ottoman civilization and its well-trained military force, which features the largest gunpowder siege weapons available – the Great Bombards – mighty cannons that can fell any opponents who stand in your way. \r\n\r\nCustomize Your Game with Mods (Beta) - Chart your own course with powerful creator tools in the latest beta release of Mod Editor. Sculpt your own skirmish and multiplayer maps, craft unique mission scenarios, forge data driven tuning packs and envision new modes of play for Age of Empires IV.\r\n\r\nReturn to History – The past is prologue as you are immersed in a rich historical setting of 10 diverse civilizations across the world from the English to the Chinese to the Delhi Sultanate in your quest for victory. Build cities, manage resources, and lead your troops to battle on land and at sea in 4 distinct campaigns with 35 missions that span across 500 years of history from the Dark Ages up to the Renaissance.\r\n\r\nAn Age for All Players – Age of Empires IV is an inviting experience for new players with a tutorial system that teaches the essence of real-time strategy and a Campaign Story Mode designed for first time players to help achieve easy setup and success, yet is challenging enough for veteran players with new game mechanics, evolved strategies, and combat techniques.\r\n\r\nChallenge the World – Jump online to compete, cooperate or spectate with up to 7 of your friends in PVP and PVE multiplayer modes that include ranked seasons and much more! \r\n\r\nChoose Your Path to Greatness with Historical Figures – Live the adventures of Joan of Arc in her quest to defeat the English, or command mighty Mongol troops as Genghis Khan in his conquest across Asia. The choice is yours – and every decision you make will determine the outcome of history. ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.31161.14235977975261210.592375c9-78a4-4653-8c7f-a8e510e6c26a.27f053eb-1224-45b5-aa37-0402b5789c7a",
       "originalPrice": 1030,
-      "discountPrice": 515,
-      "discountPercent": 50,
+      "discountPrice": 1030,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N94NCGM1Q2N",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NPKGVXPFRSX",
@@ -415,14 +415,14 @@
       "description": "From the creators of the award-winning Age of Empires franchise, Age of Mythology: Retold goes beyond history to a mythical age where gods, monsters, and humans collide. Combining the best elements of the beloved Age of Mythology with modern real-time strategy design and visuals, Retold is an epic and innovative experience for old and new players alike. Secure your domain, command legendary monsters, and call upon the power of the gods to crush your enemies.  \n\n \n\nWill you become Mythic?  \n\n \n\nCall Upon the Gods  \nChoose your gods from the Greek, Norse, Egyptian, and Atlantean pantheons. Devastate your enemies by summoning powerful lightning storms, earth-shattering quakes, and even the famed Nidhogg dragon. Or call upon nourishing rains and protective Dryads to help your people grow & prosper.  \n\nUnleash the Monsters  \nUnleash Centaurs, Trolls, Mummies, and more. From bejeweled crocodiles who harness the power of the sun to the mighty one-eyed Cyclops, you will command diverse units inspired by the world’s great mythologies.  \n\nLimitless Adventure, Solo or with Friends  \nExperience Age of Mythology: Retold like never before. In the main game, go head-to-head with friends or challenge the advanced AI across countless, randomly generated maps for endless strategic battles.  \n \nFor a fresh twist, step into Arena of the Gods—an all-new mode where you take on the role of a legendary hero, facing 35 mythic skirmishes filled with divine challenges. Play solo or join forces in co-op*, battling through epic trials from the frozen Tundra to the heights of Mount Olympus. Face world-changing twists and unlock godly blessings as you fight solo or with friends. \n \nBuilt for controller \nRTS on console? We’ve got you covered. Streamlined controls make it easy to build, battle, and conquer—all without a keyboard. \n\n*Requires Age of Mythology: Retold or Xbox Game Pass membership (Ultimate and PC only) \n\n**Online console multiplayer requires Game Pass Ultimate or Core, sold separately. ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.53.13792255792507479.50cfeea2-c5bd-47d9-a4a1-04e07fae9288.faa72e4f-cbe2-4fee-a3e9-fd9f14e4e4b9",
       "originalPrice": 760,
-      "discountPrice": 380,
-      "discountPercent": 50,
+      "discountPrice": 760,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NPKGVXPFRSX",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PDC9X7BKZR3",
@@ -530,21 +530,6 @@
       "isDiscounted": false
     },
     {
-      "id": "9P97ZTRTH25W",
-      "title": "Another Crab's Treasure",
-      "description": "Примірте на себе роль рака-самітника на ім'я Кріл і використовуйте підручне сміття для захисту від атак ворогів, які багаторазово перевершують вас у розмірах. Вирушайте на епічне полювання за скарбами, щоб повернути свою мушлю, та розкрийте темні таємниці, що приховує забруднений океан.\r\n\r\nСМІТТЯ ЧИ СКАРБ?\r\nУ цьому підводному суспільстві сміття — це не просто частина життя, а цінний ресурс, який використовується для створення всього, від модного одягу до вогнепальної зброї. Однак разом зі сміттям приходить і таємнича небезпека — якийсь слиз, здатний погубити весь океан.\r\n\r\nВЧІТЬСЯ У ПРИРОДИ\r\nДосліджуючи океан, Кріл вивчатиме різноманітні техніки умамі — потужні атаки, перейняті в морських мешканців. Бийте ворогів із вражаючою міццю рака-богомола, ловіть їх у пастку за допомогою жахливого пурпурного черв'яка й виконуйте безліч інших прийомів.\r\n\r\nНЕЗВІДАНІ ГЛИБИНИ\r\nОкеан глибший, ніж можна собі уявити. Пробивайтеся через зарості водоростей, коралові рифи, міста з піщаних замків і навіть непроглядну пітьму глибоководних каньйонів — і все заради повернення дорогоцінної мушлі.\r\n\r\nГРАЙТЕ У СВОЄМУ ТЕМПІ\r\nAnother Crab's Treasure, доступна як ветеранам жанру, так і гравцям-новачкам, дає змогу вести гру незалежно від рівня навичок і кількості приділеного часу – допоміжні опції роблять гру більш прихильною до гравця.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.52285.14077481160620630.1db41d01-0b54-4154-a1e1-f00cf31fab40.a53798b8-70df-4890-bb94-f3b1694d8da4",
-      "originalPrice": 550,
-      "discountPrice": 550,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9P97ZTRTH25W",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
       "id": "9NK8947Z28XL",
       "title": "Aphelion",
       "description": "Науково-фантастична пригода на краю Сонячної системи\n\nК 2060 року Земля стала непридатною для проживання людей. Людству залишається сподіватися на Персефону (Persephone) — дев'яту планету, знайдену на самому краю Сонячної системи. Європейське космічне агентство споряджає на планету наукову місію «Хоуп-01» (Hope-01), у якій беруть участь двоє найдосвідченіших астронавтів: Аріан (Ariane) і Томас (Thomas). Їхня мета — дослідити планету й вирішити, чи придатна вона для відродження людства.\n\nАле подорож астронавтів пішла не за планом від самого початку: їхній корабель зазнав аварії, а вони самі тепер вимушені відчайдушно шукати одне одного. \n\nAphelion — кінематографічна динамічна пригода від третьої особи на недослідженій холодній планеті Персефона. Зазнавши аварії й опинившись у ізоляції, астронавтам доведеться зіткнутися з чимось справді невідомим, і лише возз'єднавшись знову вони зможуть завершити свою місію. Долайте підступні землі, уникайте прихованих загроз і розкрийте жахливі таємниці, що поховані під товщею льоду.  \n\nДосліджуйте невідому планету \n\nДосліджуйте надзвичайно фантастичну красу Персефони — величезної морозної планети, чий ландшафт постійно змінюється через жахливі кліматичні умови.\n\nВикористовуйте свої дослідницькі інструменти, як-от Pathfinder, бак з киснем, гак й інші, щоб долати перешкоди й дізнаватися більше про дивний феномен, що здатний змінити реальність і серйозно загрожує життю. \n\nАріана повинна йти уперед, незважаючи на труднощі, щоб врятувати Томаса. Її інструмент Pathfinder допоможе знайти шлях у величезному світі, що змінюється. Їй доведеться відчайдушно стрибати через темні розщелини й проявляти спритність, долаючи лід, що тане, щохвилини ризикуючи життям. Томас, що постраждав під час аварії, повинен покладатися на кмітливість і спостережливість: щоб урятуватися, йому доведеться розібратися, що його оточує і як це використовувати. Досліджуючи оточуючий світ, персонажі розкриють таємниці планети, дізнаються природу її незвичних явищ і з'ясують причину катастрофи їх корабля.   \n\nХовайтеся, щоб вижити \n\nВи тут не одні. Вас переслідує ворожа форма життя. Уникайте зустрічі с ворогом у напружених епізодах, де потрібно діяти скритно. Використовуйте оточення, щоб завжди бути на крок попереду. Досліджуйте Персефону й завершіть місію, незважаючи на жахливу загрозу з боку невідомого супротивника. \n\nШукайте один одного\n\nЗалишившись на самому краю Сонячної системи, команда «Хоуп-01» опиняється сам на сам з жорстоким новим світом і відлунням складного минулого. Аріан Монклер (Ariane Montclair) і Томас Крос (Thomas Cross) давно знайомі, але були змушені покинути свої відносини задля кар'єри й місії. Коли герої лишаються перед надзвичайною небезпекою, їхній давній зв'язок стає єдиним шансом знайти одне одного у темряві.\n\n\nОсобливості гри:  \n\n- Переконливі елементи космічних досліджень: виконуйте реалістичне дослідження нової планети у недалекому майбутньому. \n- Боротьба за виживання двох героїв: досліджуйте світ, граючи за Томаса, й виконуйте небезпечні трюки в ролі Аріани. \n- Кінематографічна гра від третьої особи: хапайтеся за об'єкти оточення, ковзайте й використовуйте імпульс руху, щоб видовищно долати перепони. \n- Напружені епізоди, що базуються на скритності: дійте непомітно, щоб перехитрувати інопланетного ворога. \n- Емоційна драма: дізнайтесь історію двох астронавтів, пов'язаних непростим минулим, які долають труднощі, щоб знайти один одного. \n\nГра розроблена у співробітництві з: European Space Agency (ESA)",
@@ -565,14 +550,14 @@
       "description": "Ara: History Untold is an evolution in historical grand strategy, featuring beloved classic PC strategy mechanics alongside innovative gameplay like a national crafting economy, true simultaneous turn resolution, a non-linear technology tree, and cloud-backed synchronous/asynchronous multiplayer - all with an expansive and vibrant presentation where you can zoom out from surveying the very edges of your empire all the way down to your citizens living their daily lives. In Ara, there are no pre-set paths to victory, leading to endless possibilities. Your choices will define the world you create, your experience, and your legacy.\n\nExplore an Immersive Living World:\nExplore a dynamic living world filled with life and charm across sweeping landscapes ranging from tropical jungles to sand-swept deserts as you discover the resources you need to develop your nation. Witness the world come to life in vivid, realistic detail as citizens move throughout the world and react dynamically to times of health and sickness, war and peace, wealth and despair with unique biomes, cultures, and eras representing the diversity of human experience.\n\nBuild Your Nation:\nServe your people and grow your prestige with numerous Improvements, from forges to libraries, citadels to cathedrals, public parks to industrial factories - as well as a global variety of the greatest architectural Triumphs ever conceived and built by human hands.\n\nGuide your people through the eras of human discovery:\nNurture your people’s brilliance and invention as you progress your Nation through twelve unique Technology Eras, making the hard choices about where to focus your Nation’s greatest minds. As you near the end of each Era, you’ll have to decide how fast to push your scientists along the path to the future - at the risk of the present.\n\nOversee a rich and detailed national economy:\nHarvest the bounty of the natural world and deploy the labor of your people with a depth-filled National Crafting system. Will you manufacture Amenities - like lavish feasts - to provide your cities and citizens with powerful benefits, or invest in the creation of Equipment - the weapons of war - to prepare your Armies to defend your nation or conquer your rivals?  Whatever paths you choose you’ll need to carefully optimize your resources and production to achieve the most efficient systems if you want to outpace your rivals to fortune and lasting glory.\n\nRule Your Way:\nChoose from dozens of history's most influential figures to embody as you reshape the world through your choices. The unique and varied global Leaders and Nations in Ara emphasize a wide variety of different playstyles. Experiment with gameplay-impacting Traits and powerful Leader Abilities drawn from the effect they had on world history. Whether friend or foe, each Leader has a distinct personality based on their historical background that informs their AI behaviors.\n\nGrow your Nation:\nExtend your reach and expand your Nation’s borders through claiming new territory, conquering cities, spreading your Religion, or by expending Influence. How your Nation grows and defines new borders is up to you.\n\nExperience True Simultaneous Turns:\nEvery turn each nation's actions and choices resolve simultaneously, leading to suspense, anticipation, unique outcomes, and surprising twists on the classic turn-based formula. The fate of your people will be determined by your decisions and your ability to predict your opponent’s next move, putting your skill as a leader to the ultimate test.\n\nDefend your people by land, sea, and air:\nWarfare in Ara is presented in the Living World, as thousands of years of military conflict reflect the progress and martial prowess of your people. Develop technologies to advance your weaponry against your rivals, hone your wartime economy and industry to gain the edge, and outthink your opponent’s strategies as maneuvers resolve authentically at once thanks to the power of True Simultaneous Turns.\n\nProve Your Worth in Online Multiplayer:\nCombining the speed and surprise of True Simultaneous Turns with the power of the cloud - multiplayer in Ara is fast, seamless, and able to be enjoyed asynchronously with a wide range of options to tailor you and your friend’s experience to the way you want to play together.\n\nA Microsoft Account is required to play online multiplayer.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.48253.14155779103420171.dca58691-4a2d-49e7-ae9b-e9ad6afc25bc.49f987a4-a076-45dc-9bf2-96635e111f46",
       "originalPrice": 1011,
-      "discountPrice": 404.4,
-      "discountPercent": 60,
+      "discountPrice": 1011,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PDDRVKPF6KG",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P33VJGVPHVP",
@@ -625,14 +610,14 @@
       "description": "As Dusk Falls is an original interactive drama from INTERIOR/NIGHT that explores the entangled lives of two families across thirty years. Starting in 1998 with a robbery-gone-wrong in small town Arizona, the choices you make have a powerful impact on the characters’ lives in this uncompromising story of betrayal, sacrifice and resilience.\r\n\r\nReplay the story again and again to uncover vastly different outcomes for the characters and explore hidden nuances behind every decision. Will your characters survive unscathed? What kind of people will they ultimately become?\r\n\r\nDrive the lives and relationships of multiple characters in a decades-spanning story told across two intense books.\r\n\r\nUncompromising Crime Drama. The cinematic story is brought to life by the performance of actors that are digitally rendered into a beautiful art style, creating a unique experience that plays like a motion graphic novel.\r\n\r\nSacrifice vs Survival. Can you break free from your family’s toxic influence? What will you sacrifice for the ones you love? Can you overcome your past? Your decisions will shape the characters’ fates.\r\n\r\nInterwoven Destinies. Follow two families in their struggle to survive, protect, and endure through challenges rooted in the previous generations’ mistakes.\r\n\r\nExperience Together. Reveal insights about yourself and those you play with as you discover the underlying values of your decisions in cooperative gameplay with up to 8 players at a time, locally or online (or a mix). The As Dusk Falls companion app makes making choices in game easy, just use your phone or tablet to vote with or against your friends. (Online console multiplayer requires Xbox Game Pass Ultimate or Game Pass Core, subscriptions sold separately).",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.20006.14387733153613072.563f42df-3a88-4df7-999d-62897cc0ccde.a7393a26-d54a-42bd-b304-886b4dfb025d",
       "originalPrice": 760,
-      "discountPrice": 190,
-      "discountPercent": 75,
+      "discountPrice": 760,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NR7XDNVP5SW",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NHCT85MKHCV",
@@ -955,14 +940,14 @@
       "description": "Welcome to the Living Lands, a mysterious island filled with adventure and danger.\nSet in the fictional world of Eora that was first introduced to players in the Pillars of Eternity franchise, Avowed is a first-person fantasy action RPG from the award-winning team at Obsidian Entertainment. \nYou are the envoy of Aedyr, a distant land, sent to investigate rumors of a spreading plague throughout the Living Lands - an island full of mysteries and secrets, danger and adventure, and choices and consequences, and untamed wilderness. You discover a personal connection to the Living Lands and an ancient secret that threatens to destroy everything. Can you save this unknown frontier and your soul from the forces threatening to tear them asunder?\n\nThe Weird and Wonderful Living Lands\nThe Living Lands is a place that feels foreign yet somewhat intrinsic to you as it feels the island itself is calling out to you for help. Explore an island home to many different environments and landscapes, each with their own unique ecosystem.\n \nVisceral Combat to Play Your Way\nMix and match swords, spells, guns, and shields to fight your way. Dig into your grimoire for spells to trap, freeze or burn enemies, bash them with your shield, or use range bows to attack from a distance.\n \nCompanions as part of your journey\nCompanions from a spread of species will fight alongside you, with their own unique set of abilities. From a former mercenary to an eccentric wizard, they will be part of your journey with your choices shaping them as you help them with their quests.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.53943.13624715126573049.35e3abd5-bd41-4efb-bc2a-0bfbdd50b02a.3088ab72-d216-469d-95b4-0e4dc0b8cd32",
       "originalPrice": 1755,
-      "discountPrice": 1053,
-      "discountPercent": 40,
+      "discountPrice": 1755,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MSVPJCHHRPR",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PK087LNGJC5",
@@ -1795,14 +1780,14 @@
       "description": "Time to step up your boom and stop crime as a super-powered Agent in Crackdown 3's open-world sandbox of mayhem and destruction. Explore the heights of New Providence, tear up the streets in iconic vehicles, and use your powerful abilities to stop a ruthless criminal empire. Play the campaign solo or with a friend in co-op mode or compete in the all-new “Wrecking Zone,” a multiplayer mode where destruction is your ultimate weapon. Online multiplayer requires Game Pass Core subscription (sold separately).\r\n\r\nLevel Up Your Agent\r\n•\tLevel up your super-Agent skills to move as fast as lightning, jump over skyscrapers, hurl trucks at your enemies and protect the city from cold-blooded criminals. \r\n\r\nDangerous Open-World Playground\r\n•\tPlay solo or with a friend in co-op mode to explore an expansive, vertical world to infiltrate crime lords and take down their syndicates. \r\n\r\nTake a BOOM Out of Crime\r\n•\tLure vindictive crime lords out of hiding by completing objectives, attacking criminal operations and taking out high-value captains.\r\n\r\nAll-New Multiplayer “Wrecking Zone”\r\n•\tCrackdown 3 includes the all-new “Wrecking Zone” – an explosive competition with unique modes where destruction is your ultimate weapon against friends and rivals.\r\n\r\n***Game Pass Core membership required for online multiplayer on Xbox One (sold separately).  Play on one device at a time. PC hardware requirements may vary for games on Windows 10.  Enhanced features for Xbox One X subject to release of a content update. Games information at xbox.com/enhanced. Specific enhancements vary by game.\r\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.7524.14494915233617130.8bc2d647-9563-4ed3-9081-f4a771cfa3a6.a1bdb61c-5265-420e-a5d0-307940ca5f9f",
       "originalPrice": 760,
-      "discountPrice": 190,
-      "discountPercent": 75,
+      "discountPrice": 760,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NXR6469DM2P",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NMW7RJ8FP94",
@@ -2395,14 +2380,14 @@
       "description": "\"Experience the magic of Disneyland like never before! Take a journey where stories come to life and dreams come true, right in your living room! Explore Disneyland® park — from Main Street U.S.A. to Critter Country — join Peter Pan to battle Captain Hook, high-five Mickey Mouse or hug Snow White.\r\r\n\r\r\n“Disneyland Adventures” allows children, families and Disney fans of all ages to explore Disneyland park, step into adventures based on attractions, engage in challenging quests and interact with beloved Disney characters remastered in 4K Ultra HD and HDR.\"   © Disney",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.28105.14005003576279990.0c6a268a-9564-428a-a950-b65b0bea07a2.067c0051-b06c-4b3d-8cdb-26d1fd4c275b",
       "originalPrice": 505,
-      "discountPrice": 166.65,
-      "discountPercent": 67,
+      "discountPrice": 505,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N6Z8DQXSQWH",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P8XKV2D5DZ5",
@@ -3295,14 +3280,14 @@
       "description": "УЖЕ ВИЙШЛА — ГРАЙТЕ СЬОГОДНI\nНова основа, з якою ваша футбольна доля буде у ваших руках! Створена на рушії Unity, FM26 — переосмислена спадщина, де ваша історія тренера еволюціонує. \nПереосмислений інтерфейс і ще більш захопливі враження ігрового дня наближають вас до подій та підсилюють кожну вирішальну мить. \nПеребудуйте команду за допомогою сучасних інструментів трансферу та створіть власну філософію футболу завдяки інноваціям і тактичному реалізму, який повністю змінює уявлення про гру.  \n\nЗДОБУДЬТЕ СЛАВУ FIFA WORLD CUP 2026™\nПеремога в найбільшому міжнародному футбольному турнірі — у ваших руках. Не проґавте спеціальну дату старту для FIFA World Cup 2026™ та випробуйте нові інструменти керування національними збірними, а також автентичну ліцензовану телевізійну графіку, брендинг турніру, офіційні м’ячі й форму.\n\nНАЙЯСКРАВІШІ ВРАЖЕННЯ ВІД МАТЧУ \nНасолоджуйтеся найнасиченішими враженнями ігрового дня в історії серії — поліпшений рух гравців і ще більша деталізація на полі додають кожному матчу нових рівнів глибини та драматизму.  \nВідчуйте адреналін стрімкого ривка з дриблінгом, ювелірного проникаючого пасу й незабутнього переможного гола на останніх секундах — із більшою виразністю завдяки оновленому захопленню руху та об’ємній анімації.\n\nПРЕМ’ЄР-ЛІГА ВСТУПАЄ В БІЙ  \nПрем’єр-ліга чекає на вас! Досягайте вершин англійського футболу та отримуйте повністю ліцензовані клубні значки, форму й офіційні фотографії гравців. \nНовий рівень автентичності. Ви змагаєтеся за головний приз у вітчизняному футболі — ніби перебуваєте на трибунах стадіону.  \n\nПОЛІПШЕННЯ ТАКТИКИ\nВізьміть під безпрецедентний контроль стиль гри команди на всіх ділянках поля — завдяки запровадженню окремих розстановок для гри у володінні м’ячем і без нього.\nОновлені ролі гравців і динамічний візуалізатор, що показує, як команда перешиковується в різних сценаріях, виводять вашу передматчеву підготовку на новий рівень — з матчу в матч.\n\nТОТАЛЬНИЙ ФУТБОЛ, ТОТАЛЬНИЙ КОНТРОЛЬ  \nКардинально оновлений інтерфейс, створений для сучасного тренера, додає ясності й плавності кожній взаємодії — а новий Портал стане вашим провідником у великий футбольний світ. \nНалаштуйте гру під власні пріоритети з появою «Закладок швидких посилань», а про прекрасну гру дізнавайтеся більше завдяки оновленому пошуку та новому глосарію FMPedia. \n\nПРЕДСТАВЛЯЄМО: ЖІНОЧИЙ ФУТБОЛ   \nВідкрийте для себе новий світ можливостей, адже жіночий футбол бездоганно дебютував і ввійшов у світ FM. \nЗ 14 доступними лігами з 11 країн, зокрема Women’s Super League та National Women’s Soccer League, у кожній кар’єрі на вас чекають нові виклики й нові таланти.\n\nІНСТРУМЕНТИ ПЕРЕВЕДЕННЯ ГРАВЦІВ\nСкористайтеся можливостями TransferRoom™ — розумно вибудовуйте чемпіонські склади із сезону в сезон.\nДекларуйте пріоритети добору у «Вимогах» і дізнавайтеся про потреби суперників напряму завдяки «Цільових пропозицій клубам» — для точнішого контролю над кожним підписанням і продажем.\n\nВАШ ТРЕНЕР — ВАШІ ПРАВИЛА\nВиражайте більше своєї індивідуальності й стилю в кожній кар’єрі — завдяки оновленому редактору тренера. \nСтворіть свій образ в удосконаленому редакторі тренера, а потім пропишіть унікальну передісторію кар’єри — вона по-особливому впливатиме на ваше життя на тренерській лаві.\n\nУ FM26 футбол належить лише вам. Настав час змінити правила гри. \n\nMicrosoft більше не підтримує Windows 10 чи старіші версії\n\n* Через погодження ліцензій не всі комплекти форми команд FIFA World Cup 2026™ будуть доступні на момент запуску цієї функції. Деякі з них можуть бути додані згодом.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.8539.14159410862978133.1c4f3bd5-0a15-470c-8be1-1c69266a4dc3.3d41f085-0cf7-419a-8b62-4b021e6c7527",
       "originalPrice": 2499,
-      "discountPrice": 999.6,
-      "discountPercent": 60,
+      "discountPrice": 2499,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PD0Z90216RJ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NMNZ4CK59DM",
@@ -3310,14 +3295,14 @@
       "description": "СТВОРІТЬ СВОЮ ТАКТИКУ — ГРАЙТЕ ВЖЕ ЗАРАЗ\nНові можливості творити майбутнє футболу власноруч.\nЗавдяки простому інтуїтивному управлінню з консолі, переробленому інтерфейсу й динамічному ігровому процесу ви будете ближче до ключових моментів матчу.  \n\nЗДОБУДЬТЕ СЛАВУ FIFA WORLD CUP 2026™\nПеремога в найбільшому міжнародному футбольному турнірі — у ваших руках. Не проґавте спеціальну дату старту для FIFA World Cup 2026™ та випробуйте нові інструменти керування національними збірними, а також автентичну ліцензовану телевізійну графіку, брендинг турніру, офіційні м’ячі й форму.\n\nРОЗРОБЛЕНО НА UNITY\nНасолоджуйтеся найяскравішими враженнями від серії з оновленою графікою та деталями на полі!\nАтаки виразніші завдяки оновленому захопленню руху та об’ємним анімаціям, а нові швидкі команди на контролері між ключовими епізодами дають змогу оперативно коригувати тактику з бровки. \n\nЛАСКАВО ПРОСИМО ДО ПРЕМ’ЄР-ЛІГИ \nПориньте у світ Прем’єр-ліги, вперше повністю ліцензованої.\nНовий рівень автентичності: ТВ-подача й ракурс найкращого місця ведуть до головного трофея.  \n\nПОЛІПШЕННЯ ТАКТИКИ\nОпануйте сучасну тактику з новими формаціями для гри з м’ячем і без м’яча. \nОновлені ролі й візуалізація фаз гри підіймуть передматчеву підготовку на новий рівень.\n\nЩЕ БЛИЖЧЕ ДО ГРИ  \nОновлений інтерфейс: навігація на консолях плавніша й розумніша. Плануйте у своєму темпі: ключова інформація з’являється вчасно й там, де треба, завдяки новому «Порталу» — вашому вікну у світ футболу. \n\nПРЕДСТАВЛЯЄМО: ЖІНОЧИЙ ФУТБОЛ   \nНова сторінка: жіночий футбол дебютує у FM26 та інтегрований в єдиний футбольний світ.\nГрайте в 14 лігах в 11 країнах, від WSL до NWSL, і шукайте таланти в найбільшій ігровій базі жіночого футболу. \n\nІНСТРУМЕНТИ ПЕРЕВЕДЕННЯ ГРАВЦІВ\nВикористовуйте TransferRoom™, онлайн-ринок трансферів, щоб формувати чемпіонські склади з глибшим розумінням ринку.\nПідписуйте й продавайте простіше завдяки вимогам і можливостям. Більше контролю в кожному трансферному вікні.\n\nВАШ ТРЕНЕР — ВАШІ ПРАВИЛА\nБільше індивідуальності у вашій кар’єрі — завдяки оновленому редактору тренера. \nНалаштуйте зовнішність і створіть передісторію кар’єри, унікальну для вашого життя на тренерській лаві.\n\nУ FM26 на консолях футбол стає вашим проєктом. Настав час змінити правила гри.\n\n* Через погодження ліцензій не всі комплекти форми команд FIFA World Cup 2026™ будуть доступні на момент запуску цієї функції. Деякі з них можуть бути додані згодом.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.18485.13754609462095808.6e939a74-099e-490d-b009-02e7105155bd.57af7efd-c236-4f6c-ad75-9181b7718799",
       "originalPrice": 2499,
-      "discountPrice": 999.6,
-      "discountPercent": 60,
+      "discountPrice": 2499,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NMNZ4CK59DM",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P82LXD5RH31",
@@ -3355,14 +3340,14 @@
       "description": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars. ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.33953.13718773309227929.bebdcc0e-1ed5-4778-8732-f4ef65a2f445.9428b75f-2c08-4e70-9f95-281741b15341",
       "originalPrice": 1540,
-      "discountPrice": 616,
-      "discountPercent": 60,
+      "discountPrice": 1540,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NKX70BBCDRN",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9N431PX143P8",
@@ -3370,14 +3355,14 @@
       "description": "Discover the breathtaking landscapes of Japan in over 550 real-world cars and become a racing Legend at the Horizon Festival. Start your journey as a tourist and explore a world full of hit music and Japanese culture. Build a Valley Estate, acquire awe-inspiring homes, and display your prized car collection in fully Customizable Garages. Cruise the roads with your friends and join Car Meets around Japan, unleash your imagination with EventLab and build together in Horizon CoLab.*\n\nYour journey to a Horizon Legend starts now – Japan Awaits!\n\nEXPERIENCE TOKYO, HORIZON’S LARGEST EVER CITY\nWelcome to Japan, a place where the stunning contrasts of rural and urban come together as you uncover the secrets hidden within Horizon's most dense map yet, full of verticality, diverse biomes and spectacular driving experiences. Cruise the suburbs and iconic downtown streets or challenge yourself in the docks and industrial districts of Tokyo City, the largest ever urban area in a Forza Horizon game, and the home for car enthusiasts.\n\nFEEL IMMERSED IN JAPANESE CAR CULTURE\nDrive over 550 real-world cars, including some much loved and fan favorite JDM classics, featuring cutting-edge engine audio and updated steering animations with up to 540 degrees of wheel rotation. As you explore Japan, collect special Forza Edition cars fitted with extreme modifications and find rare Aftermarket Cars to test drive and buy. Your path to making a name for yourself will see you meet the Legends of the Horizon Festival, participate in Touge Battles, and experience authentic stories rooted in Japan’s legendary car culture.\n\nRACE AND DISCOVER IN JAPAN\nIn Forza Horizon 6, you will explore a vast campaign of discovery and Festival racing, playable solo and in co-op with your friends.* You’ll start as a tourist and must prove you’ve got what it takes to join the Horizon Festival as a rookie driver, all while you Discover Japan and complete your Collection Journal. Qualify for the Festival in the Horizon Invitational, then rise through the ranks in progressively faster cars and earn new Wristbands to become a Horizon Legend. Your newfound status will grant you access to Legend Island, an exclusive space reserved for the greatest drivers.\n\nMAKE THE WHOLE WORLD YOURS\nYour journey will see you purchase gorgeous homes in Japan, each with customizable garages – allowing you to create the ideal spaces to showcase your car collection, or you can download layouts shared online by the community. Unlock the Estate, a mountain valley where you can build freely in the open world, creating nearly anything you can imagine. And for your favorite cars, those can be upgraded with body kits and new Forza Aero options, as well as the ability to paint custom liveries on windows.\n\nJOIN THE COMMUNITY IN MULTIPLAYER\nThis Festival is always better with your friends.* Seamlessly participate in Time Attack Circuits and Drag Meets or show off your customized cars at Car Meets. Earn new co-op LINK skills with other players, compete in Spec Racing Championships, or jump into the Horizon Multiplayer modes you know and love including The Eliminator and nailbiting Hide & Seek.\n\nBUILD TOGETHER, ANYWHERE IN JAPAN\nCreate with unprecedented freedom anywhere in Japan as you build custom events with your friends in CoLab, the upgraded EventLab toolset – now featuring multiplayer support* and the ability to build literally anywhere in the world. Share your masterpieces for everyone to play and discover an always evolving catalog of exciting new content created by the community.\n\nTHE FESTIVAL FOR EVERY DRIVER \nHit the open road in our most approachable Horizon game yet. Our customization options include Granular High Contrast Mode, Car Proximity Radar, American and British Sign Language (coming in a later update), and AutoDrive, allowing players to experience the beautiful cars, hit music and spectacular locations of the Horizon Festival. \n\nDiscover your Legend, and Explore the Contrasts and Culture of Japan.\n\n*Online console multiplayer requires a Game Pass subscription that includes online multiplayer, sold separately.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.24935.14202278764680089.8e4c786a-0a1c-4737-a244-0bdfa34aab7b.40c11e20-8ff6-4db3-9365-faad9fa06d1a",
       "originalPrice": 2299,
-      "discountPrice": 1954.15,
-      "discountPercent": 15,
+      "discountPrice": 2299,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N431PX143P8",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PLKVSWR299F",
@@ -3385,14 +3370,14 @@
       "description": "•\tExperience an expanding world of competition in Forza Motorsport. Race the latest cars and tracks and hone your skills in epic solo tours and online events. Updates are regularly released with new features, gameplay and enhancements.\n•\tImmerse yourself in over 500 real cars across 30 world-famous tracks with multiple layouts to master, including returning fan favorite locations Fujimi Kaido, Nürburgring Nordschleife and Sunset Peninsula, each featuring fully dynamic time-of-day with weather and unique driving conditions.\n•\tOut-build the competition using more than 800 performance upgrades in the all-new, fun and rewarding single-player experience, the Builders Cup Career Mode.\n•\tRace alongside your friends in adjudicated multiplayer* events with tire and fuel strategy, a race weekend inspired structure and new driver and safety ratings. \n•\tCompete with cutting edge AI opponents, advanced physics, powerful assists, new damage and dirt accumulation systems and photorealistic visuals with real-time ray tracing on-track.\n\nImmerse yourself in an expanding world of competition in Forza Motorsport. Race the latest cars and tracks and hone your skills in epic solo tours and online events.\n\nRace over 500 real-world cars including modern race cars and more than 100 cars new to Forza Motorsport. Make every lap count across 30 living tracks with multiple layouts to master and returning fan-favorite locations Fujimi Kaido, Nürburgring Nordschleife and Sunset Peninsula, each featuring live on-track scoring, fully dynamic time-of-day with weather and unique driving conditions that ensure no two laps ever look or play the same. \n\nExperience a cutting-edge simulation with incredible photorealistic visuals that deliver real-time ray tracing on-track, new damage and dirt accumulation systems, and massively upgraded physics featuring powerful assists and a 48x improvement in tire fidelity. \n \nOut-build the competition by earning over 800 performance upgrades and race our most advanced AI opponents yet in a fun and rewarding single-player campaign, the Builders Cup Career Mode. Install modifications to your favorite cars at any time – new car progression options give you control in how you build and tune cars. \n\nCompete for the podium in Featured Multiplayer* events with a race weekend inspired structure or create the racing you and your friends desire in Free Play. Online racing is safer, more fun and more competitive with AI-powered Forza Race Regulations, tire and fuel strategy, and new driver and safety ratings.  \n\n*Online console multiplayer requires Xbox Game Pass Ultimate or Core, sold separately\n**Models redeemable in the Challenge Hub or Showroom using credits earned through play. 2024 Nissan Z NISMO available until 6/25/2025.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.8784.14311721322459352.08838dcd-1049-42ef-a004-b13ad1d41946.a6083228-6115-4ef3-a64c-7667cd746088",
       "originalPrice": 1795,
-      "discountPrice": 718,
-      "discountPercent": 60,
+      "discountPrice": 1795,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PLKVSWR299F",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9MW715J1P29D",
@@ -3505,14 +3490,14 @@
       "description": "THE DEFINITIVE RELEASE \n\nThe Original, Remastered: Powered by Unreal Engine, Gears of War: Reloaded is a remaster of the blockbuster first Gears of War, now fully optimized for the latest generation of gaming platforms. \n\nAll Included: Gears of War: Reloaded delivers all post-launch content for the original title, including a bonus campaign act, multiplayer maps, plus characters and cosmetics, at no additional cost. \n\nRefined Controls: Newcomers can choose a modern, streamlined control layout, while veterans can relive the classic feel they love. \n\nBUILT FOR BROTHERHOOD \n\nCampaign Co-Op: Crush the Locust threat together through campaign split-screen or online co-op. Fight on with your squad in Versus multiplayer running at up to 120fps with unmatched clarity and visual fidelity.* \n\nCross Play: Gears of War: Reloaded supports cross-play across all platforms, allowing you and your friends to squad-up, regardless of where you play.* \n\nCross Progression: Jump from one platform to another and your campaign saves as well as multiplayer progression will come with you. Signing in with your Microsoft Account required is for cross progression.* \n\nOPTIMIZED FOR XBOX & PC:  \n\nNatively Optimized for Xbox Series X|S: The iconic original now looks and plays better than ever with lightning-fast load times, 4K assets plus remastered textures, lighting, shadows and reflections, HDR and Dolby Vision, Dolby Atmos, as well as up to 120 FPS in multiplayer.* \n\nOptimized for PC & Handhelds: In addition to stunning remastered visuals, Gears of War: Reloaded also delivers PC-first features such as ultrawide support, a benchmark mode, variable refresh rate, mouse and keyboard support, FSR3.1 and DLSS3.5 Super Resolution support as well as controller remapping.\n\n*4K, HDR & 144FPS: requires capable display. Co-Op: campaign split-screen not available on PC or handhelds.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.28335.14083498106527717.9ead5e24-2930-400c-b5af-fa93c72ee8a7.149dfdad-28fb-498d-8099-a92842fbf429",
       "originalPrice": 809,
-      "discountPrice": 202.25,
-      "discountPercent": 75,
+      "discountPrice": 809,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P8PS6993LSL",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NBLGGH3SHM5",
@@ -3670,14 +3655,14 @@
       "description": "The world is a vast, beautiful, and dangerous place – especially when you have been shrunken to the size of an ant. Explore, build, and survive together in this cooperative survival-adventure. Can you thrive alongside the hordes of giant insects, fighting to survive the perils of the backyard? \r\n\r\nUncover the mysteries while playing through the story!\r\nHow did you wind up so small? Who did this to you? How do you go home? These are all answers you will uncover as you play through the story.\r\n\r\nSolo or with friends – anytime!\r\nYou can face the backyard alone or together, online, with up to three friends. Not only that, but with the Shared Worlds feature, you can continue to play in your shared world even if the original host is not on, with all your progression saving!\r\n\r\n(Online console multiplayer requires Xbox Game Pass Ultimate or Game Pass Core, sold separately.)\r\n\r\nNowhere is safe – not even your base.\r\nCreatures can be found roaming the yard in a multitude of environments, such as the depths of the pond, the caverns of the termite den, and even the sweltering heat found in the sandbox. You can even attract them to different places in the yard by activating the MIX.R devices. However, the more you interfere with the creatures in the yard, the higher the chance that they come knocking at your own door, so you better prepare.\r\n\r\nPlay true to your playstyle!\r\nUse the in-game customization systems such as Mutations and Milk Molars to activate the bonuses and perks you want for your character. Not only that, but craft and upgrade your armor and weapons to give your character the stats and advantages you need in order to take on the perils of the backyard.\r\n\r\nIt’s time to go big, or never go home!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.27514.14280109286674604.1fb359e4-01eb-4818-b992-b225ce4869c9.c9733025-0344-4e66-aff1-ee3bcf9016a7",
       "originalPrice": 1030,
-      "discountPrice": 515,
-      "discountPercent": 50,
+      "discountPrice": 1030,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PJTHRNVH62H",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P77PG7DK0W2",
@@ -3745,14 +3730,14 @@
       "description": "Free-to-Play Multiplayer:  \n\nExperience Halo’s celebrated multiplayer reimagined and free-to-play! With over 70 maps in matchmaking, billions of customization configurations, and countless community Forge creations to experience, Halo Infinite is the franchise’s most expansive multiplayer offering to date.  \n\nEnjoy an unprecedented variety of gameplay experiences, ranging from fast-paced intense ranked modes to whimsical mayhem in Custom Games, or even co-operative coordination in the wave-based survival mode Firefight: King of the Hill. With something to meet every player’s preference and playstyle, it’s time to suit up and assemble your Fireteam! \n\n \n\nForge Beta: \n\nHalo’s legendary content creation tool is more powerful than ever with advanced features like a new visual scripting engine, mode editor, object scaling, lighting and audio tools as well as marked improvements in fidelity and object budget limits. \n\nForge also includes the powerful AI Toolkit, allowing players to add campaign AI to their creations. Whether it’s remaking iconic experiences from previous Halo entries or creating something entirely unique, the possibilities for thrilling custom maps and game modes are infinite.   \n\n \n\nCross-Generation and Cross-Platform Gaming:  \n\nHalo Infinite provides an amazing experience across the Xbox One and newer family of consoles as well as PC with stunning 4k graphics and world-class cross-platform play. And, on Xbox Series X as well as supported PCs, enjoy enhanced features like up to 120FPS and greatly reduced load times creating seamless gameplay that usher in the next generation of gaming.* \n\n*Up to 120FPS and 4K Ultra HD available on Xbox Series X consoles and compatible PCs only across supported maps and modes; compatible TV or monitor required.  ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.50670.13727851868390641.c9cc5f66-aff8-406c-af6b-440838730be0.d205e025-5444-4eb1-ae46-571ae6895928",
       "originalPrice": 1540,
-      "discountPrice": 508.2,
-      "discountPercent": 67,
+      "discountPrice": 1540,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NP1P1WFS0LB",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NBLGGH515BD",
@@ -3760,14 +3745,14 @@
       "description": "It’s the Halo experience you’ve dreamed of – controlling entire armies of Marines, Warthogs, Scorpion tanks, and Spartans on the battlefield from the Commander’s point of view. Halo Wars 2 is a real-time strategy game playable in native 4K Ultra HD graphics with HDR on the Xbox One X and Windows 10. Halo Wars 2 also supports Xbox Play Anywhere: Buy once, play on both Xbox and Windows 10. \r\n\r\nAll-new, Action-packed Story – The heroes of Halo Wars awake to find themselves - and the galaxy - in more danger than ever. Following the events of Halo 5, the all-new story is told in action-packed missions set on the legendary Halo destination known as the Ark. Players will command overwhelming firepower in large-scale battles against a terrifying threat facing the UNSC and all of humanity. \r\n\r\nBuild Your Halo Army – Construct your bases, prepare your vehicles and amass your troops. Lead them into huge battles across campaign skirmish matches against the AI, and with and against friends in up to 3v3 matches on Xbox Live. Learn new strategies as you play as different leaders across Blitz and Multiplayer game modes. \r\n\r\nWith Halo Wars 2, you’ll be able to explore and battle in the Halo universe like you never have before. \r\n\r\nOnline multiplayer features require Game Pass Core membership (sold separately). \r\n\r\nPHOTOSENSITIVITY SEIZURE WARNING: A very small percentage of people may experience a seizure when exposed to certain visual images, including flashing lights or patterns that may appear in video games. Visit Xbox.com for more information.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.47197.13510798887619155.1152921504719988256.112c600a-b900-4599-851f-e266a27db04a",
       "originalPrice": 1030,
-      "discountPrice": 257.5,
-      "discountPercent": 75,
+      "discountPrice": 1030,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NBLGGH515BD",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NBLGGH5WLR0",
@@ -3775,14 +3760,14 @@
       "description": "Supports Xbox Play Anywhere: yours to play on both Xbox One and Windows 10 PC at no additional cost.\r\n\r\nHalo Wars: Definitive Edition is an enhanced version of the real-time strategy classic, Halo Wars, updated to run natively on Xbox One and Windows 10. \r\n\r\nSet early in the iconic war between the Covenant and UNSC - made famous by the Halo FPS games - Halo Wars: Definitive Edition provides a unique angle on the war while bringing new heroes to the battlefield. Control large Halo armies and direct them in action-packed warfare. \r\n \r\nHalo Wars: Definitive Edition includes improved graphics, new achievements and all the DLC from the landmark game. Re-live the epic campaign or compete in online multiplayer battles with armies of powerful Halo forces at your command.\r\n\r\nNetwork play for this product is exclusive to Windows 10.  Cross-play with Steam versions of the same game is not supported. ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.41418.13510798886375925.7fdd10df-25c0-4a5f-90ce-63205d1f83c4.d5a00a77-17c9-433d-a71d-8f68eef63ed6",
       "originalPrice": 505,
-      "discountPrice": 126.25,
-      "discountPercent": 75,
+      "discountPrice": 505,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NBLGGH5WLR0",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9N6J4RNFPKKL",
@@ -3865,14 +3850,14 @@
       "description": "Продовження титулованої гри Hellblade: Senua's Sacrifice. Сенуа повертається і бореться за виживання, зустрічаючись із легендами та жахами Острова вікінгів. Щоб врятувати тих, хто став жертвами жахів тиранії, Сенуа має кинути виклик темряві — всередині та зовні.\n\n\nОновлення 2025 року: тепер із новими функціями для ще глибшого занурення в цю визнану критиками та удостоєну нагород історію виживання.\n• Обирайте новий режим продуктивності для плавної гри за стабільних 60 кадрів/сек на Xbox Series X*.\n• Для ПК із Windows додано графічний пресет «Дуже висока якість».\n• Темна гниль повертається в режимі жорстоких бойових випробувань.\n• Більше можливостей у фоторежимі для створення кінематографічних кадрів.\n• Дізнайтеся, як Ninja Theory створювали цей визнаний шедевр ← у новому коментарі від розробників.\n\n\n \nІСТОРІЯ СЕНУА ПРОДОВЖУЄТЬСЯ\nСенуа повертається, проходячи жорстокий шлях і виживаючи у світі міфів та випробувань ісландських вікінгів.\nНЕЙМОВІРНА КІНЕМАТОГРАФІЧНІСТЬ\nЗануртесь у світ Сенуа — завдяки неперевершеній графіці та захопливому звуковому супроводу.\nУНІКАЛЬНЕ СВІТОСПРИЙНЯТТЯ СЕНУА\nПогляньте на світ очима кельтської воїтельки Сенуа, що страждає на психоз.\nПОДОРОЖ У ІСЛАНДІЮ ЧАСІВ ВІКІНГІВ\nЕпічна мандрівка Ісландією X століття, що відтворена з реальних локацій у вражаючих деталях.\nКОЖНА БИТВА — ЦЕ ОКРЕМА ІСТОРІЯ\nЖорстокі й напружені сутички, де Сенуа бореться за виживання.\nДОСВІД, ВІДЗНАЧЕНИЙ НАГОРОДАМИ\nПереможець The Game Awards, BAFTA Game Awards та інших престижних нагород.\n\n\n*Режим продуктивності не підтримується на Xbox Series S",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.52424.14301289549560004.f1ff7c98-dc44-454c-bfda-7a6374c95761.5bcb2e48-c715-4512-94b5-cbf89ab80a39",
       "originalPrice": 1285,
-      "discountPrice": 321.25,
-      "discountPercent": 75,
+      "discountPrice": 1285,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PMBB7NGHV95",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NCLP4LV5K7Z",
@@ -4115,21 +4100,6 @@
       "isDiscounted": false
     },
     {
-      "id": "9PF9FQGH89WM",
-      "title": "I Am Your Beast",
-      "description": "Hunt the military-industrial complex across stylish comic book micro-sandboxes in this fast-paced covert revenge thriller FPS from the developers of El Paso, Elsewhere.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.52957.14208859939056310.d1ec68da-591a-444e-932d-068d9ca0f8b5.7564ea2d-5f28-405a-a696-4ddb7fafac01",
-      "originalPrice": 512.5,
-      "discountPrice": 512.5,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9PF9FQGH89WM",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
       "id": "9NV0Q705NQ2N",
       "title": "Immortals Fenyx Rising™",
       "description": "Immortals Fenyx Rising brings grand mythological adventure to life. \n\nPlay as Fenyx, a new, winged demigod, on a quest to save the Greek gods. The fate of the world is at stake – you are the gods’ last hope.\n\n- Wield the powers of the gods, like Achilles' sword and Daidalos' wings, to battle powerful enemies and solve ancient puzzles.\n- Fight iconic mythological beasts like Cyclops and Medusa in dynamic combat in the air and on the ground. \n- Use your skills and diverse weapons, including self-guided arrows, telekinesis, and more, for devastating damage.  \n- Discover a stylized open world across seven unique regions, each inspired by the gods.\n\nThis game leverages Smart Delivery allowing access to both the Xbox One title and the Xbox Series X|S title",
@@ -4285,14 +4255,14 @@
       "description": "Jurassic World Evolution 3 — найновіша гра славетної серії, дасть вам можливість побудувати свій власний Світ Юрського періоду.  \n\nДопоможіть життю знайти шлях, синтезуючи, розводячи та плекаючи доісторичні види. Керуйте видами, забезпечуючи їх процвітання, допомагаючи динозаврам створювати родини та передавати свої гени наступним поколінням. \n\nСтворюйте безпечні умови для ваших динозаврів, будуйте захопливі нові атракціони для гостей парку і тримайте ситуацію під контролем, коли до вас завітає чергова катастрофа. \n\nРозвивайте нові покоління динозаврів \nНа вас чекають більше 85 неймовірних доісторичних видів, 75 із яких ви зможете вирощувати, розмножувати та плекати цілими поколіннями. Ростіть їх з грайливих дитинчат до вражаючих дорослих особин, кожен з яких має унікальні варіанти для самців, самок і молодших особин. \n\nГості парку із захопленням спостерігатимуть, як ці величні створіння спілкуються одне з одним і реагують на яскравий світ навколо. \n\nКеруйте унікальними соціальними потребами динозаврів та спостерігайте за їх цілком новою поведінкою, коли динозаври-амфібії пірнатимуть до глибин, а птерозаври ходитимуть землею. \n\nЕволюція креативності \nСтворюйте парки, від яких перехоплює подих, за допомогою нових інструментів, рівних яким в серії Jurassic World Evolution ще не було! Від революційного редагування ландшафту до модульного налаштування об’єктів — створюйте свій парк з нуля та налаштовуйте кожен його елемент. Або створіть унікальну мапу за допомогою генератора островів. Рішення — за вами!\n\nСтворюйте природні вольєри, використовуючи схили та рельєф. Додавайте захопливі нові атракціони — як-от «Повітряний тур», який дозволить гостям побачити (а, може, й торкнутися) доісторичних істот у рамках «Зустрічі з динозаврами» або легендарний «Круїз Крейдового періоду», де відвідувачі зможуть спостерігати за динозаврами з води.   \n\nСтворюйте, завантажуйте та діліться кросплатформенними дизайнами за допомогою майстерні Frontier. Дивіться найкращі витвори спільноти й навіть запозичуйте їх для власних парків. Або ж пірніть у творчість і створіть унікальні парки, якими поділитеся зі світом. \n\nЕпічна кампанія по всьому світу \nЗустріньте знайомі обличчя з франшизи «Світ Юрського періоду», зокрема доктора Іана Малкольма, та вирушайте в нелінійну кампанію на величезній карті світу, де на вас чекають знакові локації на кшталт пусток Монтани й нові території, як-от Японія — кожна з яких пропонує захопливі нові випробування. Кожне ваше рішення перевірятиме ваші навички управління парком, адже вам потрібно буде знаходити баланс між конкуруючими інтересами людей і делікатною інтеграцією динозаврів у сучасний світ. \n\nВам доведеться жонглювати своєю репутацією серед трьох впливових секторів економіки та задовольняти унікальні вимоги клієнтів, які володіють ділянками. Але будьте обережні: не всі бажають повернення та процвітання динозаврів. \n\nКеруйте хаосом \nКеруйте своїм майданчиком максимально ефективно, використовуючи потужні та доступні інструменти менеджменту, які дадуть вам повний контроль над усіма функціями парку. \n\nАле єдине, на що в цьому світі можна покластися, це настання хаосу, тож готуйтесь до катастроф за допомогою камер безпеки, що допоможуть вам автоматизувати реакцію на втечу динозаврів і активувати вашу аварійну команду техобслуговування, щоб стримати загрозу, швидко відремонтувавши все, що потрібно. ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.55788.14430340622751764.c415a8ac-16b1-42ce-b087-a6256b8d0b36.60b8adfc-e9e6-40d0-b426-4968d314b50d",
       "originalPrice": 1540,
-      "discountPrice": 1001,
-      "discountPercent": 35,
+      "discountPrice": 1540,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NX7HCWL13Z9",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NM4WQ7TTH3J",
@@ -4315,14 +4285,14 @@
       "description": "Keeper — красива й сюрреалістична мандрівка до інших світів й історія без слів від Лі Петті та студії Double Fine Productions.\n\nНа острові посеред давно загубленого моря стоїть забутий маяк — сплячий, схований у тіні далекої гірської вершини. Та коли навколо нього починають клубочитися й зростатися зів’ялі паростки, він пробуджується. За таємничим покликом і в супроводі жвавої морської пташки, маяк стає героєм зворушливої історії про несподівану дружбу, одіссею загадкових перетворень і неочікувану подорож до самого серця острова — до світів, що виходять за межі розуміння.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.39734.13566978592979529.8c034f7f-7f73-4897-9410-31e1512536ea.b02e8dab-1b34-462a-be12-d50a87f2251d",
       "originalPrice": 1055,
-      "discountPrice": 527.5,
-      "discountPercent": 50,
+      "discountPrice": 1055,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NCJWHHMVHR0",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9MXHL3TT792F",
@@ -4360,14 +4330,14 @@
       "description": "Double Fine Productions представляє Kiln — фантастичну гру про гончарів для тих, хто любить і створювати, і руйнувати. Ви отримаєте подвійне задоволення, створюючи чудові речі, а потім розбиваючи їх на дрібні черепки. Створіть свій горщик, покличте друзів і вступіть в команду різнокольорових духів, які б'ються один проти одного в поєдинках на мережевих аренах. Горщики, створені на гончарному колі, стануть бійцями, яких ви поведете у битву.\n \nФорма ваших творінь визначає доступні здібності й ваш стиль гри. Який горщик ви створите — великий чи маленький? Широкий або високий? Що ви виготовите: тацю, глечик, чашку або миску?\n \nНа вас чекає безліч комбінацій різних розмірів і форм, у кожної з яких унікальні здібності й атаки, а також оригінальні, неочікувані стилі гри. Діючи разом, знайдіть найбільш вдалу комбінацію горщиків і стилів гри, щоб пробити ворожу оборону, набрати достатній запас води й погасити полум'я в печі суперників. Чи вистачить таланту вашій команді, щоб створити шлях до перемоги й буквально розбити своїх суперників? По мірі того, як на поле битви накопичується все більше уламків переможених союзників і ворогів, перемога все більше буде залежати від ваших навичок і злагодженої роботи в команді.\n \nПісля перемоги, вирушайте в Горштадт, де ви зможете вдосконалити гончарні навички, прикрасити горщики, надавши їм неповторний вигляд, і поділитися витворами з друзями (а також полюбуватися їхніми шедеврами).\n \nТворіть і руйнуйте разом — обпалювати й розбивати горщики веселіше с друзями. Спілкуйтеся, експериментуйте з глиною й діліться творіннями або вирушайте в мережеві битви й починайте махати глиняними кулаками!\n \nСтаньте майстром гончарної справи — працюйте з реалістичною глиною, створюйте керамічні вироби на гончарному колі й прикрашайте їх, використовуючи різноманітні техніки й інструменти.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.20929.13846114870355423.c6d5bbc2-3a52-4589-8bbf-606749aa483c.baefbe6e-d0f1-4fef-b5b5-5a40b9fffc4d",
       "originalPrice": 700,
-      "discountPrice": 350,
-      "discountPercent": 50,
+      "discountPrice": 700,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MW53ZKZH168",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P3T7HVKM6D0",
@@ -4420,14 +4390,14 @@
       "description": "Experience the first ever co-op action-adventure game featuring Lara Croft. Team up with a friend or go at it alone as you traverse and solve deadly traps, fight hordes of undead enemies, and collect over 60 artifacts and relics.  Lara Croft and the Guardian of Light offers fast-paced action and breathtaking visuals shown through an isometric view.\n\nIncludes downloadable content;\n* Raziel and Kain character pack\n* All the Trappings - Challenge Pack 1\n* Things that go Boom - Challenge Pack 2\n* Hazadous Reunion - Challenge Pack 3\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.8065.14375628118106119.0b332df6-8930-4796-a54f-b6a7fba77404.c60741f4-37ad-4b50-833f-b78372f2316c",
       "originalPrice": 265,
-      "discountPrice": 39.75,
-      "discountPercent": 85,
+      "discountPrice": 265,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NS37Q75LBCG",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "C3553MB4P5TT",
@@ -4435,14 +4405,14 @@
       "description": "Lara Croft and the Temple of Osiris is the sequel to the critically acclaimed Lara Croft and the Guardian of Light. This all-new adventure takes place in the Temple of Osiris, hidden deep in the deserts of Egypt. Lara Croft arrives at the temple, hoping to be the first inside, but rival treasure hunter Carter Bell has beaten her to the entrance. They each seek the Staff of Osiris, but they discover more than they bargained for. Upon entering the tomb, Carter removes the mythical Staff from its resting place and inadvertently triggers a trap cursing them both and unleashing the evil god Set. But the staff also awakens the gods Horus and Isis, the son and wife of Osiris. Now free from their ancient prison, they join forces with Lara and Carter in order to resurrect Osiris, the only god capable of removing the curse. As Lara and her companions fight their way across the sands and through ancient tombs, they will face gods and monsters of myth and legend. With the fate of the world at stake, Lara must uncover the fragments of Osiris to stop Set from enslaving all mankind.\n\nNote: Cross-save and cross-play functionality are not available between Xbox console and Windows PC products",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.28853.66406861093311956.a8c8f515-daa8-479b-af0e-06d27ad9565d.8e2fb0f8-8ac8-4004-8ec8-15afe854860e",
       "originalPrice": 640,
-      "discountPrice": 96,
-      "discountPercent": 85,
+      "discountPrice": 640,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/C3553MB4P5TT",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PB301R051CQ",
@@ -4510,14 +4480,14 @@
       "description": "МІЦНА ЕМОЦІЙНА ДРАМА\r\nДва легендарних героя, яких звела доля — або ж дещо більш страшне...\r\n\r\nІтібан Касуга, невтомний невдаха, якому вже звично підніматися з самого дна, і Кадзума Кірю, надломлена людина, що доживає свої останні дні.\r\n\r\nПЕРШОКЛАСНИЙ РОЛЬОВИЙ БОЙОВИК\r\nНа вас чекають динамічні атмосферні битви в стилі рольових ігор, де саме поле боя стає зброєю. Бийте ворогів усім, що під руку потрапить!\r\n\r\nНезвичні професії та варіанти персоналізації допоможуть вам підбирати навички героїв під різні ситуації та долати супротивників з допомогою вражаючих прийомів.\r\n\r\nНЕСКІНЧЕННІ ПРИГОДИ\r\nГуляйте по Японії та розважайтесь на Гавайях у масштабній пригоді розміром з Тихий океан.\r\n\r\nЗустрічайте незабутні моменти, унікальні завдання та розваги на кожному кроці.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.43821.14465728597087432.6e0f939a-1434-4a25-b368-df8616b251aa.e3cbf96f-08cb-4fd9-b920-2f4dcbc9dd0c",
       "originalPrice": 1999,
-      "discountPrice": 499.75,
-      "discountPercent": 75,
+      "discountPrice": 1999,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P00SVGWDJCP",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P1303FCXW6X",
@@ -4525,14 +4495,14 @@
       "description": "У цій незвичній пригоді вас звати Горо Мадзіма, людина в черевиках зі сталевими облямівками, ви втратили пам’ять та стали грозою морів.\n\nВирушайте в захопливу піратську мандрівку разом із капітаном і його корабельною командою, беріть участь у грандіозних битвах на суші й на морі та спробуйте знайти свої втрачені спогади й легендарний скарб.\n\n■ ПІРАТСЬКІ ПРИГОДИ ПІРАТА-ЯКУЗДИ РОЗПОЧИНАЮТЬСЯ!\nГоро Мадзіма, сумнозвісний колишній якудза, зазнає корабельної аварії і опиняється на віддаленому острові в Тихому океані. Не пам'ятаючи навіть власного імені, він відправляється на пошуки втрачених спогадів в супроводі хлопчика на ім’я Ной, який врятував йому життя. Невдовзі вони стають учасниками конфлікту між жорстокими злочинцями, сучасними піратами та іншими негідниками, що прагнуть знайти легендарний скарб.\n\n■ ЗБУДУЙТЕ СВІЙ КОРАБЕЛЬ\nЗберіть власний екіпаж, модернізуйте корабель, досліджуйте безкрайній океан і станьте героєм легенд, сповнених гарматного вогню, несподівано потоваришувань і казкових скарбів.\n\nКоли ворожий піратський корабель наведе на вас свої гармати, у вас буде лише один вибір — вступити в пекельний бій. Швидко маневруйте у вигідну позицію, уникаючи ворожого вогню, а потім завдавайте нищівного удару. Беріть на абордаж підбитий корабель і під час кривавих боїв знищіть капітана і його головорізів. Тепер ви — справжній пірат-якудза! Підкорюйте моря, досліджуйте таємні острови, накопичуйте здобич.\n\n■ ПЕКЕЛЬНІ СТРАТЕГІЧНІ БОЇ\nЗалежно від вашої стратегії чергуйте стилі бою «Скажений пес» і «Пірат», щоб урізноманітнити атаки, застосовувати неочікувані комбо й прийоми, щоб нищити ворога як на морі, так і в повітрі.\n\nСтиль «Скажений пес» відрізняється швидкістю, спритністю і відчуттям бою, що дозволяє наносити точні, потужні удари, які змусять найсильнішого ворога спустити свій прапор.\n\nАбо змусьте ворогів пройти по піратській дошці, використовуючи стиль «Пірат» — озброївшись двома короткими мечами і використовуючи хитрі піратські приладдя.\n\nЦей продукт містить лише гру; є інші видання гри, що містять додатковий матеріал. Певний додатковий матеріал також можна купити окремо.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.4222.14515021988943563.1f3fe501-2a70-4602-ab4f-93c0a60ab77c.2724bbe9-7ef9-4ed4-8f44-2374c58e7cbe",
       "originalPrice": 2199,
-      "discountPrice": 549.75,
-      "discountPercent": 75,
+      "discountPrice": 2199,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P1303FCXW6X",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PNG83MDD6SH",
@@ -4570,14 +4540,14 @@
       "description": "(Повторно) зануртеся в химерний сюжет гри Little Nightmares — тепер у приголомшливій 4K-якості із частотою 60 кадрів/с.\n\nУ Little Nightmares Enhanced Edition можна вибирати між якістю і продуктивністю в залежності від ваших уподобань — візуальних ефектів або ж кадрової частоти.\n\nНасолоджуйтеся кращими візуальними ефектами, зокрема RTX-відбиттям, промальовуванням води, глибшою фрагментацією і об'ємними тінями.\n\nДля покращення ігрового процесу додано допоміжні повідомлення. \n\nСерія Little Nightmares захопила мільйони гравців по всьому світу з 2017 року. Тепер ваша черга спробувати вижити в першій частині найчарівнішої серії жахів.\n\nВізьміть на себе роль Шостої — самотньої дитини, що загубилась на величезному металевому судні «Черево», де повно небезпечних і спотворених дорослих. Вам потрібно зробити все можливе, щоб втекти цілими й неушкодженими, або ваша доля виявиться гіршою, ніж ви могли собі уявити.\n\nСПОСТЕРІГАЙТЕ ЗА ОТОЧЕННЯМ\n\nВи прокидаєтесь у сирому й темному приміщенні. Все, що ви маєте, — це латунна запальничка. Ви не пам'ятаєте про те, як потрапили сюди, але розумієте, що вам загрожує небезпека. Тільки гострий зір і швидкий розум допоможуть вам вибратися звідси цілими й неушкодженими.\n\nЗНАЙДІТЬ ВИХІД\n\nЦей світ не призначений для дітей, але ви можете використовувати свій зріст як перевагу, додавши трохи фантазії. Забирайтеся на шухляди й полиці, щоб знайти в «Череві» проходи дитячого розміру, занадто маленькій для дорослих, і ви будете в безпеці... принаймні на деякий час.\n\nУНИКАЙТЕ МЕШКАНЦІВ\n\nМешканці «Черева» використовують дітей лише з однією метою, і це ніколи не буває приємним. Діти, які не хочуть бути спіймані, повинні ховатись і рухатись обережно, коли вони поруч. За певних обставин можна відвернути їхню увагу на достатньо довгий час, щоб ви могли втекти без проблем. Будьте обережні, якщо ви випадково здіймете занадто багато шуму, адже мешканці налаштовані досить рішуче, якщо ви потрапили їм на очі.\n\nБІЖІТЬ ЩОДУХУ\n\nІноді немає іншого вибору, окрім як тікати. Якщо протримаєтеся достатньо довго, щоб дістатися туди, де мешканці до вас не дістануться, то, можливо, виживете.\n\nЧи зможете ви вирватися з «Черева» на волю? Шоста розраховує на вас. Щасти тобі, мала.\n\nЗбереження гри не можна перенести з Little Nightmares (базової версії) в Little Nightmares Enhanced Edition (і навпаки).",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.25246.14040297946202100.6fa86a09-9303-48d5-9ee2-31fcb012aba5.5af552e3-2127-4933-9685-f5f7eaa805db",
       "originalPrice": 605.99,
-      "discountPrice": 151.49,
-      "discountPercent": 75,
+      "discountPrice": 605.99,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N8Q6DRTG22H",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PBM67RXX3V8",
@@ -4960,14 +4930,14 @@
       "description": "If you are playing the Windows 10 version of the game and you uninstall the game, your save files will be permanently removed. This means that your save files will be deleted and you will lose all of your progress.\r\n\r\nFight your way through an all-new action-adventure game, inspired by classic dungeon crawlers and set in the Minecraft universe! Brave the dungeons alone, or team up with friends! Up to four players can battle together through action-packed, treasure-stuffed, wildly varied levels – all in an epic quest to save the villagers and take down the evil Arch-Illager!\r\n \r\nDiscover a trove of powerful new weapons and items that will help you defeat ruthless swarms of new-and-nasty mobs. Fight or flee through canyons, swamps and – of course – mines! Any adventurer brave or foolish enough to explore this blocky and beautiful world will need to come prepared. So quickly, gear up!\r\n \r\nDungeon Creeper! Battle new-and-nasty mobs in this all-new action-adventure, inspired by classic dungeon crawlers.\r\n\r\nMultiplayer! Up to four players can team up and fight together in co-op mode.\r\n\r\nPower Up! Unlock dozens of unique items and weapon enchantments for devastating special attacks.\r\n\r\nOptions! Personalize your character, then fight up-close and personal with melee swings, hang back with ranged attacks, or tank your way through swarms of mobs, shielded by heavy armour!\r\n\r\nEpicness! Explore treasure-stuffed levels in a quest to take down the evil Arch-Illager!\r\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.39985.14089602043039621.efe46bfe-4de2-4879-a22b-f3b08650221c.41a0976b-9c34-4589-8dc8-87b39d930f7e",
       "originalPrice": 505,
-      "discountPrice": 252.5,
-      "discountPercent": 50,
+      "discountPrice": 505,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NB6BVL3MTG4",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NM395CH685J",
@@ -5450,21 +5420,6 @@
       "isDiscounted": false
     },
     {
-      "id": "9PLWSGHFQ4PS",
-      "title": "Neon Abyss",
-      "description": "Neon Abyss is a frantic, roguelike action-platformer where you run ‘n’ gun your way into the Abyss as part of the Hades formed ‘Grim Squad’. Featuring unlimited item synergies and a unique dungeon evolution system, each run diversifies the experience and every choice alters the ruleset. Get ready to unleash hell!\r\n\r\nAbout the game\r\nCombining furious run ‘n’ gun action and deep, roguelike mechanics, Neon Abyss pits you as a member of the ‘Grim Squad’ – a task force set-up by Hades himself to infiltrate the Abyss and defeat the New Gods. Death is not the end as every time you die, you’ll find yourself more empowered than before.\r\n\r\nEvolving Dungeon\r\nWith each run, you will be able to unlock new rooms, items, bosses, special rules and even new endings! This means each dungeon is unique and expandable, being tailored to your own specific playstyle.\r\n\r\nUnlimited Item Synergies\r\nAs you progress through each dungeon, random item drops will be key in helping you infiltrate the Abyss and these passive effects can stack between every item. With no limit to how many can apply; a wide variety of combinations will make each run unique.\r\n\r\nHatch and Evolve Pets\r\nIf you need some company on your journey into the depths of the abyss, or just some additional firepower or assistance, eggs can be found which will turn into a random pet that has a special ability and will evolve the longer you survive. \r\n\r\nMini-games\r\nTake a short break from slaying minions and take part in random mini-games that will also bag you some loot! Jump into Piano Performances, Meditation Challenge, Dance Competitions, and more – staying alive just got a lot more interesting!",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.4323.14309576365758777.173ab21c-81bd-4a31-b5cc-0d6495ab6a15.523626e9-f078-4295-8c96-3386839b8656",
-      "originalPrice": 505,
-      "discountPrice": 505,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9PLWSGHFQ4PS",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
       "id": "9MZN3SMXN824",
       "title": "New Super Lucky's Tale",
       "description": "Join Lucky on his thrilling journey through the Book of Ages, a magical artifact that opens doors to amazing worlds. Meet new friends, explore exciting lands, and recover the missing pages from the evil sorcerer Jinx and his villainous family, the dreaded Kitty Litter.\r\n\r\n• Featuring a huge variety of gameplay, from expansive 3D hubs, to story-based adventure levels, 2D side-scrolling challenges, rewarding mini-games, mind-bending puzzles, and thrilling boss battles.\r\n\r\n• Thousands of collectibles to gather, tons of rewarding secrets to discover, a cast of memorable characters, and an entire wardrobe of costumes for the stylish adventurer.\r\n\r\n• Designed to delight and challenge players of all ages and skill levels. \r\n\r\n• A complete re-imagining of the original Super Lucky's Tale, featuring redesigned and new levels, a fully rotatable camera, tighter movement control, and major overhauls to nearly every other aspect, including the story, cinematics, music, and more.\r\n\r\nJump, burrow, and tail swipe your way to victory in this love letter to classic 3D platformers!",
@@ -5560,14 +5515,14 @@
       "description": "The definitive ninja hack & slash franchise returns with NINJA GAIDEN 4! Embark on a cutting-edge adventure where legacy meets innovation in this high-octane blend of style and no-holds-barred combat.\n\nReturn of the Legend\nExperience a return to the intense, high-speed combat that established NINJA GAIDEN as a premier action game series. Prepare for a legacy reborn with captivating style for a new generation of players.\n\nEpic Hack and Slash Combat, Evolved\nNINJA GAIDEN 4 fuses Team NINJA’s tempered combat philosophy with the stylish, dynamic action gameplay of PlatinumGames. Engage in visually stunning combat that rewards precision and strategy. Use Bloodbind Ninjutsu to transform your weapons and unleash devastation upon your enemies, alongside legacy techniques like the Izuna Drop and Flying Swallow. The legendary Ryu Hayabusa also returns with a revamped yet familiar set of tools to master.  With a customizable player experience, NINJA GAIDEN 4 will push action game veterans to their limits while allowing newcomers to enjoy a heart-pounding adventure full of twists and turns.\n\nAn Ancient Enemy Returns\nAn endless rain of miasma hangs over a near-future Tokyo in the wake of an ancient enemy’s resurrection. The fate of the city lies in the hands of young ninja prodigy, Yakumo. Fighting his way through cybernetic ninja soldiers and otherworldly creatures, Yakumo must reconcile a destiny he shares with the legendary Ryu Hayabusa himself and free Tokyo from the ancient curse that brought the city to its knees.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.64712.14524843898704391.85a1bf00-ba10-44d9-90b4-d20f9cb73fb6.3070b529-8018-4d3e-8653-6fe2183573d7",
       "originalPrice": 2299,
-      "discountPrice": 1379.4,
-      "discountPercent": 40,
+      "discountPrice": 2299,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N7358JZPX1Z",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PGFSLP8GWQK",
@@ -5645,34 +5600,19 @@
       "isDiscounted": false
     },
     {
-      "id": "9NRCM30L6GRQ",
-      "title": "One Lonely Outpost",
-      "description": "You're the first pioneer to hit the surface of a barren, alien world - a desolate expanse as far as the eye can see. Your job is simple: Take your Space-RV, power up your multipurpose tech gauntlet, and use whatever seeds found in the cargo to start a new life on this world. Over time, you'll make the planet life-sustaining for yourself and dozens of future colonists. But until then, it's going to be one lonely outpost...",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.61234.14390018847119191.29453666-331b-4d4a-872c-2620e4ba4254.4ec09756-2bc6-4c87-aee9-99cf0edfe17e",
-      "originalPrice": 399,
-      "discountPrice": 399,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9NRCM30L6GRQ",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
       "id": "9NBLGGH1Z6FB",
       "title": "Ori and the Blind Forest: Definitive Edition",
       "description": "Ori and the Blind Forest is a must-play, award winning franchise that tells the tale of a young orphan destined for heroics, through a visually stunning Action-Platformer crafted by Moon Studios. Featuring hand-painted artwork, meticulously animated character performance, a fully orchestrated score and dozens of new features in the Definitive Edition, “Ori and the Blind Forest” explores a deeply emotional story about love and sacrifice, and the hope that exists in us all.\n\nNEW IN THE DEFINITIVE EDITION\n• Packed with new and additional content: New areas, new secrets, new abilities, more story sequences, multiple difficulty modes, full backtracking support and much more!\n• Discover Naru’s past in two brand new environments.\n• Master two powerful new abilities – Dash and Light Burst.\n• Find new secret areas and explore Nibel faster by teleporting between Spirit Wells.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.3754.13510798886186647.c0e11caa-fdaa-466b-aa26-f52ce4feba84.b8c452aa-2dc1-4cec-9056-fc08b2ae404d",
       "originalPrice": 505,
-      "discountPrice": 126.25,
-      "discountPercent": 75,
+      "discountPrice": 505,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NBLGGH1Z6FB",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9N8CD0XZKLP4",
@@ -5680,14 +5620,14 @@
       "description": "Discover Ori’s true destiny\r\nEmbark on a journey in a vast, exotic world where you’ll encounter towering enemies and challenging puzzles on your quest, in the must-play sequel, fully optimized for Xbox Series X and Xbox Series S.\r\n\r\nThe little spirit Ori is no stranger to peril, but when a fateful flight puts the owlet Ku in harm’s way, it will take more than bravery to bring a family back together, heal a broken land, and discover Ori’s true destiny. From the creators of the acclaimed action-platformer Ori and the Blind Forest comes an adventure through a beautiful world filled with friends and foes that come to life in stunning, hand-painted artwork. Set to a fully orchestrated original score, Ori and the Will of the Wisps continues the Moon Studios tradition of tightly crafted platforming action and deeply emotional storytelling.\r\n\r\nImmerse yourself in a hand-crafted narrative experience.\r\n•\tStrikingly beautiful environments – Explore a vast, exotic, and breathtaking world in 4K and HDR on Xbox Series X, Xbox One X and Windows 10.\r\n•\tEmotional and engaging story - Unravel Ori’s true destiny in this hand-crafted story driven adventure featuring a stunning soundtrack.\r\n\r\nMaster unique skills.\r\n•\tWeapons and attacks – Wield spirit weapons, spells and skills offering dynamic combat mechanics to the world of Ori.\r\n•\tShard System - Power-up Ori’s abilities and customize your style of play.\r\n\r\nFace epic enemies and challenging puzzles.\r\n•\tLarger-than-life bosses – Encounter towering enemies and thrilling escape sequences.\r\n•\tColorful characters - Seek help from an expansive cast of characters who will help you uncover Ori’s mysterious fate.\r\n\r\nExperience thrilling modes.\r\n•\tSpirit Trials - Race to the top of the leaderboards in exciting speed-run challenges throughout the game.\r\n•\tSpirit Shrines – Face increasingly challenging waves of enemies in timed trials to collect rewards.\r\n\r\nOptimized for Xbox Series X.\r\n•\t4k HDR Locked 120 FPS: Experience Ori platforming with incredible smoothness and instant input response while maintaining sharp and vibrant HDR image on the Xbox Series X.  Xbox Series S will deliver 1080p HDR at locked 120 FPS as well!\r\n•\tDynamic high-fidelity Audio with Convolution Reverb: Experience Ori’s soundtrack and gameplay at the highest quality assets with increased dynamic range, advanced real time mixing and ambience with convolution reverb, previously not possible in real-time. Available on both Xbox Series X and S.\r\n•\tReduced in Game Load Times: Ori game modes load significantly faster with the custom SSD in the Xbox Series X|S.\r\n•\tQuick Resume: Seamlessly switch between multiple different titles and resume instantly from where you left off.\r\n•\tXbox Smart Delivery:  Buy Ori and the Will of the Wisps for your console and download the optimized version for your Xbox device for free.\r\n\r\nORI AND THE WILL OF THE WISPS IS A MUST PLAY*:\r\n• 98/100 GAMESBEAT “…an exhilarating, emotional masterpiece”\r\n• 9.5/10 GAMEINFORMER “the story is fantastic, the world is breathtaking”\r\n• 9/10 IGN “the best praise you can give a sequel”\r\n• 9.5/10 DESTRUCTOID “An early defining moment of the decade to come”\r\n• 4.5/5 WINDOWS CENTRAL \" Sensational and mind-blowing…\"\r\n• 90/100 GAMERS HEROES “Ori and the Will of the Wisps is a game of passion, made from the heart.”\r\n• 9/10 PRESS START AUS “its final act will fill your heart and have it bursting with joie de vivre.”\r\n• 9/10 AUS GAMERS\r\n• 9/10 EUROGAMER ITALY\r\n• 91/100 GAMESTAR.DE\r\n• 90/100 ATOMIX\r\n• 5/5 HARDCORE GAMER\r\n• 9.4/10 VANDAL\r\n• 9/10 VIDEOGAMER\r\n• 5/5 DAILY STAR : “a finely-crafted, emotional masterpiece that elevates the Metroidvania genre\r\n• 9.2/10 MERISTATION\r\n• 9/10 GAMESPEW “Ori and the Will of the Wisps is perhaps the most beautiful game I have ever played.”\r\n• 9.8/10 THE GAMES MACHINE\r\n• 4.5/5 SCREEN RANT “A Spectacular Sequel”\r\n• 9.5/10 EASYALLIES “It’s an exceptional game that you don’t want to miss.”\r\n• 9.2/10 GAMERSKY\r\n• 4.5/5 TWINFINITE “A Magical Metroidvania Adventure”\r\n• 94/100 COGconnected\r\n\r\n*Review scores and quotes reference Windows PC and/or console versions of the game. Source Metacritic.com 03/17/2020",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.40411.14047496556148589.9fda5cef-7995-4dbb-a626-66d2ab3feb4f.d87f046c-667d-4ce7-98bc-eba2b535dc94",
       "originalPrice": 760,
-      "discountPrice": 250.8,
-      "discountPercent": 67,
+      "discountPrice": 760,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N8CD0XZKLP4",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PFWZMT737GG",
@@ -5845,14 +5785,14 @@
       "description": "Art Imitates Death\r\nStep into a living illustrated world inspired by illuminated manuscripts and printed woodcuts in a time when Europe is at a crossroads of great religious and political change. Walk in the footsteps of Andreas Maler, a master artist who finds himself in the middle of murders, scandals, and intrigue in the Bavarian Alps.\r\n\r\nIllustrated world\r\nExperience 16th century Europe as the master artists of the time saw them. Art inspired by great illuminated manuscripts and the earliest printed books becomes a living, breathing world in Pentiment.\r\n\r\nUncover mysteries\r\nChoose different academic and social backgrounds and meet a colorful cast of characters as you discover the stories and secrets that lie within the small Bavarian town of Tassing and nearby Keirsau Abbey.\r\n\r\nImpact a changing world\r\nIn an era of great religious and political change, each decision you make can have a profound impact on the community’s future. Find your own way through this turbulent time and see the consequences of your choices play out over generations.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.50312.14431229486160986.b3655366-4704-41dd-bb1b-0ea3f2425df6.aefac356-4a3a-44b5-9544-78fd45cf702c",
       "originalPrice": 505,
-      "discountPrice": 252.5,
-      "discountPercent": 50,
+      "discountPrice": 505,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NX6K9HN4F4K",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NZDHXL9SJJ8",
@@ -5860,14 +5800,14 @@
       "description": "Prepare for the award-winning RPG experience in this definitive edition of Persona 5 Royal, featuring a treasure trove of downloadable content included! \r\n\r\nForced to transfer to a high school in Tokyo, the protagonist has a strange dream. “You truly are a prisoner of fate. In the near future, ruin awaits you.” With the goal of “rehabilitation” looming overhead, he must save others from distorted desires by donning the mask of a Phantom Thief.\r\n\r\nKey Features include:\r\n-Explore Tokyo, unlock Personas, customize your own personal Thieves Den, experience alternate endings, and more\r\n-Become the ultimate Phantom Thief and defy conventions, discover the power within, and fight for justice in the definitive version of Persona 5 Royal\r\n-Includes over 40 items of previously released downloadable content\r\n-Choose between Japanese and English VO",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.6136.14482474285447263.0a4055ed-9044-4c0c-abf5-292bb1bcb735.3db4c9c4-de15-4e0f-8b4d-1539f8a2ab08",
       "originalPrice": 1799,
-      "discountPrice": 539.7,
-      "discountPercent": 70,
+      "discountPrice": 1799,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NZDHXL9SJJ8",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P1P5Q3BNM7J",
@@ -5935,14 +5875,14 @@
       "description": "Create a splash with Planet Coaster 2 - sequel to the world’s best coaster park simulator!  \n\nReach new heights of creativity, management, and sharing as you construct the theme parks of your dreams combining epic water rides and coasters to delight and thrill your park guests. \n\nDive in now! \n\nEMBRACE CREATIVITY \n\nExpand your imagination: Enhanced and improved building and pathing tools let you create spectacular, true-to-life theme parks, complete with sprawling plazas. Make your mark on the world as you shape terrain and populate your park with stunning swimming pools and thrilling rides. It’s never been easier to bring your dream park to life.  \n\nCreate the ultimate theme park: Dive into a world of creativity with nine distinct themes, from returning classics like Pirate and Western, to exciting new additions in Viking and Mythology. With thousands of themed customisable pieces at your fingertips, every creation will be truly unique.\n\nNext-level customisation: Embark on the coaster park experience of a lifetime as you push the boundaries of creativity like never before!  Unleash your imagination as you build the most awe-inspiring themed creations with unparalleled customisation tools! For the first time, intuitively add scalable scenery and objects to every ride to elevate your park and give your guests a day to remember. \n\nCombine epic water and coaster rides: Create the ultimate experience for your thrill-seeking guests using piece-by-piece construction. Build a vibrant array of exhilarating rollercoasters and jaw-dropping thrill rides. Design a seamlessly interconnected park paradise with glistening swimming pools and twisting water flumes.   \n\nCreate unforgettable experiences: Surprise and amaze as you bring the dramatic flair of real-world theme parks to your guests with the brand-new event sequencer tool, while sophisticated global illumination lighting brings the theme park experience to your home with stunning visuals and striking authenticity. \n\nMASTER MANAGEMENT \n\nFind the secret to success: Balance thrilling your guests with managing your budget - populate your park with amazing efficiently powered attractions and the right amenities to boost your rating and become a theme park master. \n\nTake care: Provide for your guests’ health, well-being, and happiness so your park can thrive. With all-new waterparks comes the need for shade, sunscreen, lifeguards, changing rooms, and more to ensure everyone has their best day both in and out of the pool. \n\nSatisfaction guaranteed: Understanding the wants and needs of your guests has never been easier! The new ‘heat maps’ feature lets you understand the wider park’s needs at a glance before diving deeper into the details -simply select any guest to see how they and their immediate group are enjoying your theme park.  \n\nSHARE THE RIDE \n\nCreate together: Unleash your collective creativity in Sandbox Mode. Take turns to work on building a park with players around the world using a shared cross-platform save! \n\nPlay together: For the first time ever, collaborate with friends in Franchise Mode to create the best theme park empire and compete with others to reach the top of worldwide leaderboards! \n\nVisit together: Soak up the fun and get up close and personal, as you experience other players theme park creations first hand - explore their worlds in first person as a park guest! \n\nShare creations: Share anything and everything! Upload coasters, rides, or even full theme parks for other players, and download and delight in other’s creations. All are easily accessible from the cross-platform Frontier Workshop both in-game and online. ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.52104.14268784579049883.7baa6b03-b644-46a0-b2d9-71ca584b3862.692a612f-da62-4c24-a8d0-233242564626",
       "originalPrice": 1285,
-      "discountPrice": 449.75,
-      "discountPercent": 65,
+      "discountPrice": 1285,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PK5WS0HXQKQ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PL89B9HCZ9W",
@@ -6145,14 +6085,14 @@
       "description": "This classic action/adventure platformer from acclaimed developers Double Fine Productions follows the story of a young psychic named Razputin. In his quest to join the Psychonauts--an elite group of international psychic secret agents--he breaks into their secret training facility: Whispering Rock Psychic Summer Camp. But this is no average psychic summer camp! A mysterious villain has kidnapped Raz’s fellow campers and stolen their brains. Now he must use his psychic powers of Telekinesis, Levitation, and most of all his ability to project himself into the minds of others--to find the loose noodles and keep them from falling into the wrong hands. Fight mental demons! Uncover hidden memories! Sort emotional baggage! Explore the fantastic realm of the inner mind! Join the Psychonauts!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.20895.13561496157760288.f7bf4326-45d3-4a39-8977-2f5f5ce39a58.e9029071-d03d-4d8f-b575-b13a25e0001d",
       "originalPrice": 250,
-      "discountPrice": 62.5,
-      "discountPercent": 75,
+      "discountPrice": 250,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NCT87FKQ4GM",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NBR2VXT87SJ",
@@ -6160,14 +6100,14 @@
       "description": "Photosensitivity Notice: Certain visual content, including flashing lights or patterns, may affect photosensitive players and viewers. Please visit https://support.xbox.com/help/family-online-safety/online-safety/photosensitive-seizure-warning/ for additional information.\r\n\r\nRazputin “Raz” Aquato, trained acrobat and powerful young psychic, has realized his lifelong dream of joining the international psychic espionage organization known as the Psychonauts! But these psychic super spies are in trouble. Their leader hasn't been the same since he was rescued from a kidnapping, and what's worse, there's a mole hiding in headquarters.\r\n\r\nCombining quirky missions and mysterious conspiracies, Psychonauts 2 is a platform-adventure game with cinematic style and tons of customizable psychic powers. Psychonauts 2 serves up danger, excitement and laughs in equal measure as players guide Raz on a journey through the minds of friends and foes on a quest to defeat a murderous psychic villain.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38893.13578175979543723.424401c3-5602-4e35-abfc-c00f9156296a.e5bedcb0-57fa-41f5-b177-a84aec587699",
       "originalPrice": 1540,
-      "discountPrice": 385,
-      "discountPercent": 75,
+      "discountPrice": 1540,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NBR2VXT87SJ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P1Z43KRNQD4",
@@ -6235,14 +6175,14 @@
       "description": "Time is Power in Quantum Break. Click ‘More’ to find out if your PC is powerful enough for Quantum Break.\r\n\r\nFrom Remedy Entertainment, the masters of cinematic action games such as Max Payne and Alan Wake, comes Quantum Break, a time-amplified suspenseful blockbuster. The Quantum Break experience is part game, part live action show—where decisions in one dramatically affect the other. You are Jack Joyce, fighting the nefarious Monarch corporation to stop the end of time. Epic moments of destruction, frozen in chaotic “time stutters,” become playgrounds for intense combat. With a star-studded cast of actors from X-Men, Game of Thrones, The Wire and more, Quantum Break’s time-amplified story is a new and unique entertainment experience.\r\n\r\nFEATURES:\r\n• In-depth, fast-paced narrative experience crafted by Remedy Entertainment \r\n• Top quality live action show that is directly impacted by choices made in-game\r\n• Stellar cast of actors \r\n• One story told many ways \r\n• Time-amplified action gameplay\r\n• Navigate epic scenes of destruction as they skip and rewind in broken time\r\n\r\nXBOX LIVE FEATURES: \r\n• Quantum Break includes rich Xbox Live features like Achievements, Game DVR, Leaderboards, and more. \r\n• To play this game, you'll need to use your existing account on Xbox Live or the same Microsoft account you used to purchase the game.\r\n\r\nLearn more about Quantum Break at https://www.quantumbreak.com and https://www.xbox.com/quantumbreak \r\n\r\nHELPFUL TIPS FOR QUANTUM BREAK: http://xbox.com/quantum\r\n\r\nDEFAULT INSTALL LOCATION: The game app will install to the default location set by your device.  To see where the game will install, press the Windows button and type “storage” and then select ‘Storage.’  You may choose which drive apps will save to by default here.\r\n\r\nPLAY WHILE ONLINE FOR BEST EXPERIENCE: You can play the game offline, however, some features, such as purchasing additional items from the Store, or viewing the in-game TV show will not be available until you go online. Additionally, any leaderboards will be unavailable while you’re offline.\r\n\r\nXBOX LIVE ACCOUNT REQUIRED: You’ll need a Microsoft account on Xbox Live to play Quantum Break. If you already play games on Xbox 360 or Xbox One, you can use the same account.\r\n\r\nCROSS SAVING QUANTUM BREAK:  http://support.xbox.com/xbox-one/games/cloud-game-saves-faq",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.5263.13510798886714035.08632c07-fe3d-4104-8c72-396827524258.ea4b6672-b3b6-4c08-9466-18cd53e50fc7",
       "originalPrice": 295,
-      "discountPrice": 73.75,
-      "discountPercent": 75,
+      "discountPrice": 295,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NBLGGH6H0RV",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P9446P7D9TZ",
@@ -6310,14 +6250,14 @@
       "description": "From legendary creator Keiji Inafune and the makers of Metroid Prime comes the “ReCore Definitive Edition”, an action-adventure masterfully crafted for a new generation.\r\n \r\nYou are “Joule Adams”, one of the last remaining humans on the planet “Far Eden”, a mysterious and dangerous world controlled by robotic foes bent on your destruction. To survive you must forge friendships with a courageous group of “Corebot” companions, each with unique abilities and powers. \r\n \r\nThe ReCore Definitive Edition includes the new “Eye of Obsidian” adventure. Join the plucky Corebot “Violet” and journey into the permanent midnight of the “Starving Sea”, a previously unexplored region of Far Eden where ancient enemies plot their revenge—on Joule and all humankind!\r\n \r\nOther features of the ReCore Definitive Edition include:\r\n \r\n• The “T8-NK” (or “Tank”) Corebot frame. Use the T8-NK to cross quicksand and explore Far Eden with new power and speed!\r\n• Dynamic sandstorms in Far Eden’s “Shifting Sands” regions. Brave the storms to defeat more dangerous enemies and earn more valuable loot!\r\n• 10 new dungeons and 2 new overworld areas\r\n• 3 new weapon modes for Joule’s Energy Rifle\r\n• Upscaled to higher resolutions with HDR skies and lighting\r\n• Dozens of additional Corebot gear pieces\r\n• Decreased loading times and other improvements\r\n• Increased level caps and gameplay tuning\r\n• All new Achievements\r\n \r\nSupports Xbox Play Anywhere: yours to play on both Xbox One and Windows 10 PC at no additional cost!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.25983.13510798886186651.afa678b2-6141-401c-868d-2c30769054ea.fbd2b41c-ffb2-4148-816e-a140d005237b",
       "originalPrice": 505,
-      "discountPrice": 126.25,
-      "discountPercent": 75,
+      "discountPrice": 505,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NBLGGH1Z6FQ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P8JRMWRQP4H",
@@ -6535,14 +6475,14 @@
       "description": "10/10 “Best real time strategy game ever” – MAXIMUM PC\r\n93% “Big Huge Games delivers a sensational strategy game” – PC GAMER\r\n89 METACRITIC.COM\r\n\r\nPC Game of the Year \r\n  - Gamespot.com, 2003\r\n\r\nStrategy Game of the Year \r\n  - Game-Revolution.com, 2003\r\n  - Gamespy.com, 2003\r\n  - TechTV, 2003\r\n\r\nTHE ENTIRE SPAN OF HUMAN HISTORY IS IN YOUR HANDS, IN THIS “GAME OF THE YEAR” WINNING FRANCHISE\r\n\r\nThe Extended Edition Includes:\r\n  - Rise of Nations Original \r\n  - Rise of Nations: Thrones and Patriots – The Expansion for the PC Game of the Year\r\n\r\nJoin the over 2 million Rise of Nations fans. Master 6,000 years of history, from the Ancient Age to the Information Age. What forces will you wield to lead your nation to global prominence? Trade, espionage, diplomacy…war? Whichever path you choose, you’ll discover the pulse-pounding thrill and speed of real-time strategy gaming combined with the epic scope and depth of turn-based strategy games – brought together for the first time ever in Rise of Nations.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.6075.14372382618520757.0031877f-4201-47f9-947a-368aafe965d8.cef01285-6886-4a9d-9aff-831c84f477fd",
       "originalPrice": 505,
-      "discountPrice": 166.65,
-      "discountPercent": 67,
+      "discountPrice": 505,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NS84HCWZD8B",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9N4J937WLFPZ",
@@ -6625,14 +6565,14 @@
       "description": "\"“Rush: A Disney•Pixar Adventure,” invites families and fans of all ages to experience the worlds of six beloved Disney•Pixar films like never before. Team up with characters from “The Incredibles,” “Ratatouille,” “Up,” “Cars”, “Toy Story”, and “Finding Dory” to solve puzzles and uncover hidden secrets all remastered in 4K Ultra HD and HDR.\r\n\r\n\r\n\r\nYou and your favorite Pixar character can interact on screen and play cooperatively to solve challenges. Move from fast-paced puzzle-solving to moments of pulse-pounding agility and speed.\"  © Disney/Pixar ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.65520.14538559069860396.17bb7f72-641c-43fd-b6d7-d9080eed863d.335840d5-48b1-4c57-a5c5-038efe572d04",
       "originalPrice": 505,
-      "discountPrice": 166.65,
-      "discountPercent": 67,
+      "discountPrice": 505,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P3PL76N0KWZ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9MW79BJVF3QX",
@@ -7255,14 +7195,14 @@
       "description": "The dead have risen and civilization has fallen. Not even the military could stop the zombies, and now it's up to you to gather survivors, scavenge for resources and build a community with up to three of your friends in a post-apocalyptic world – a world where every decision matters, and where you define what it means to survive in this ultimate zombie survival simulation.\r\n\r\nState of Decay 2: Juggernaut Edition re-imagines the popular survival game as a brand-new experience to welcome first-time players... and those who've come back from the dead. This edition is packed with new and remastered content for the ultimate zombie survival experience.\r\n\r\nJoin over 10 million existing players and discover what Juggernaut Edition has to offer:\r\n\r\n• The base game plus all three add-on packs released to date, including the all-new Homecoming update:\r\n     o Homecoming: a full-size, fully remastered, open world version of Trumbull Valley for the core game, reintegrating the Mount Tanner and Fairfield regions to the map, and adding new sites to scavenge, along with new sights to behold.\r\n     o Heartland: an massive story campaign set in a familiar town with new challenges\r\n     o Daybreak Pack: a test of teamwork with siege-style, \"survive the horde\" gameplay\r\n     o Independence Pack: a celebration of history that blows up zombies... with fireworks!\r\n• Remastered graphics and an upgraded engine featuring realistic fog effects\r\n• An expanded soundtrack with hours of new thematic musical arrangements\r\n• Providence Ridge: a brand-new open-world map full of forests, zombies, and mystery\r\n• Two-handed heavy weapons with new melee combat moves to bust zombie heads\r\n• A new introductory experience and improved controls to help you master the apocalypse\r\n\r\n... and countless other improvements to the classic open-ended sandbox gameplay.\r\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.45572.14425140369408817.14846606-f5bc-4fb1-b355-26ef6a25e847.ca79acfc-0a9a-4e61-a626-d7623bb12248",
       "originalPrice": 760,
-      "discountPrice": 190,
-      "discountPercent": 75,
+      "discountPrice": 760,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NT4X7P8B9NB",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P2RT7TNT37T",
@@ -7300,14 +7240,14 @@
       "description": "Don’t miss the game that IGN awarded Best Xbox One Game of 2014, the game that Polygon rated 9 out of 10, and the game that Eurogamer calls “a breath of fresh air.” In Sunset Overdrive, the year is 2027 and Sunset City is under siege. A contaminated energy drink has transformed most of the population into toxic mutants. For many it's the end of the world, but for you it’s a dream come true. Your old boss? Dead. Your boring job? Gone. Transform the open-world into your tactical playground by grinding, vaulting and wall-running across the city while using a devastating, unconventional arsenal. With hyper-agility, unique weapons, and customizable special abilities, Sunset Overdrive rewrites the rules of traditional shooters and delivers an explosive, irreverent, stylish, and totally unique adventure.\r\n\r\nEmbrace the chaos of Sunset City through a hyper-colorful, post-apocalyptic single-player campaign and two bonus expansions, Mystery of Mooil Rig and Dawn of the Rise of the Fallen Machines. Outgun crazed mutants, homicidal robots, and villainous thugs on your journeys with the included Weapons Pack.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.5419.13736301732248840.1e2d854a-e5e9-4c32-b8a1-2630937d19b9.7e9979f0-6b9b-45eb-88ef-ebda38d47762",
       "originalPrice": 280,
-      "discountPrice": 70,
-      "discountPercent": 75,
+      "discountPrice": 280,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NNLBL0T2Z43",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PLMGFWCFZ9G",
@@ -7540,14 +7480,14 @@
       "description": "All Chapters FREE in June!\r\nTell Me Why is the latest narrative adventure game from DONTNOD Entertainment, the studio behind the beloved franchise, Life is Strange. In this intimate mystery, reunited twins Tyler and Alyson Ronan use their supernatural bond to unravel the memories of their loving but troubled childhood. Set in beautiful small-town Alaska, Tell Me Why features true-to-life characters, mature themes and gripping choices.\r\nAs you conjure up memories of the past, your choices will affect the twins’ relationship, determine the strength of their bond, and shape the course of their lives.\r\nExperience all chapters free in June! \r\n \r\nRevisit your past, discover the truth, and shape your future\r\n• Uncover the truth – Use the twins’ supernatural bond to relive and explore their conflicting childhood memories.\r\n• Shape your Story – Influence the relationship between Tyler and Alyson with choices that will determine their future.\r\n• Unlock even more secrets – Match wits with puzzles that deepen the story and open a window into the twins’ fantasy world, “The Book of Goblins.”\r\nExperience true-to-life setting and characters\r\n• Unique characters – Build relationships and solve mysteries through the eyes of compelling and realistic characters.\r\n• Alaskan splendor – Explore locations set in beautiful, highly detailed small-town Alaska in stunning 4K and HDR.\r\n\r\nStorytelling with purpose – DONTNOD Entertainment and Xbox Game Studios conducted on-the-ground research and partnered closely with cultural, mental health and gender advocates to craft a thoughtful, true-to-life experience.\r\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.767.13599353568798630.567fc0f9-a81e-456c-a9ee-55bb0bb153b5.9160630f-b7b8-470d-a39f-8d36788ec893",
       "originalPrice": 505,
-      "discountPrice": 126.25,
-      "discountPercent": 75,
+      "discountPrice": 505,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NF83PRZK6K3",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P6X0VL8BXZF",
@@ -7615,14 +7555,14 @@
       "description": "You are the Bard: a selfish rogue weary of pointless sub-quests and rat-infested cellars. Through magical song you summon characters to join your quest!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.18671.14351919773829236.17768c0e-ff0d-4fe7-86a5-a0cdd0bfe3a6.42dffd5c-f70e-4af8-9323-7c725c28badb",
       "originalPrice": 280,
-      "discountPrice": 56,
-      "discountPercent": 80,
+      "discountPrice": 280,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PN3VDFTB5HZ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "C2B4T86TXLRS",
@@ -7630,14 +7570,14 @@
       "description": "Hidden in the shadows, an evil has waited patiently. Until now. Who will face the darkness if not you? A heroic adventure featuring 50+ hours of gameplay, 350 speaking parts, a Legacy Mode for returning fans, and over 100 pieces of incredible music!\r\n\r\nCustomize How You Play\r\nDefine the way you play, using sliders on numerous options such as saving (including “save anywhere”), the mini-map, waypoint markers and many more. Whether you seek a hardcore challenge, a lighter experience, or something in-between, the choice is yours.\r\n\r\nCreate the Hero You Want To Be\r\nPlay as Bard, Fighter, Practitioner, and Rogue, each featuring 60-70 skills and collectively unlocking 21 unique classes. Build an array of characters to make every playthrough a unique experience.\r\n\r\nCraft your Party, Your Way\r\nStart your party with a single character, recruiting or creating new heroes to bolster your ranks. Build a party that suits your play style!\r\n\r\nAn Adventure Around Every Corner\r\nExplore towns full of quest givers, fight your way through dark and deadly dungeons, and navigate beautiful rolling hills, dense forests, ancient tombs, and icy wastes.\r\n\r\nOutsmart Evil\r\nBattle your enemies in dynamic, intuitive turn-based tactical combat,that rewards clever thinking. Use superior strategies, thoughtful positioning, and deadly combos to bring down your foes!\r\n\r\nUnlock the Secrets of the Past\r\nUnravel challenging mysteries. If your enemies don’t get you, the devious riddles and dangerous traps just might.\r\n\r\nElven Puzzle Weapons\r\nThe sense of discovery and mystery doesn’t stop with the environment. Gain ancient Elven weapons containing hidden powerful skills which you’ll need to uncover by carefully examining them.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.10488.65351109767529701.defb4d0d-acab-4fd9-8208-7283068f991e.d901abc2-dc3f-4c32-9f57-48244d5b364d",
       "originalPrice": 1405,
-      "discountPrice": 281,
-      "discountPercent": 80,
+      "discountPrice": 1405,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/C2B4T86TXLRS",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9MVN4ND41DD3",
@@ -7645,14 +7585,14 @@
       "description": "Experience the events that led to The Bard’s Tale IV: Barrows Deep and The Mage’s Tale! The Bard's Tale Trilogy is a remastering of the classic 1980s series, one of the godfathers of the RPG genre. Create an adventuring party in the first volume and play it across all three, creating a heroic story all your own! \r\n\r\nThe Bard’s Tale Trilogy contains remastered versions of all three classic games: The Bard's Tale: Tales of the Unknown, The Bard’s Tale II: The Destiny Knight, and The Bard’s Tale III: Thief of Fate! \r\n\r\nRescue a city trapped by a wizard, reforge the legendary Destiny Wand, and travel across time and space to confront a Mad God! \r\n\r\nEnjoy a uniform playing experience across all three titles without the need for emulation or compatibility concerns. \r\n\r\nFor the first time, play as male or female across all three games! Also includes other quality of life changes such as automapping for all three games, spell access, and updated equipment/inventory management.\r\n\r\nGo old school with Legacy Mode, a suite of features which allows veteran players to experience the games similarly to how they first played them \"back in the day\".\r\n\r\nThe Bard's Tale Trilogy is a chance for old fans to be young once again and for a new generation of roleplaying and dungeon crawler fans to discover why these games matter so much all these years later. Pick up the game and start your epic adventure today!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.59104.13855942306543540.f07392fd-5f64-460d-82f5-27790455d1e0.3501f74c-cb28-4bc9-bbf5-04ed2c308e5d",
       "originalPrice": 230,
-      "discountPrice": 57.5,
-      "discountPercent": 75,
+      "discountPrice": 230,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MVN4ND41DD3",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PG0PMB5Q0GT",
@@ -7870,14 +7810,14 @@
       "description": "The Outer Worlds 2 is the eagerly-awaited sequel to the award-winning first-person sci-fi RPG from Obsidian Entertainment (just look at the exciting number of dashes in this sentence!). Time to clear your calendar – get ready for an action-packed adventure with a new crew, new weapons, and new enemies in a new colony! So much newness!\n\nAs a daring and most likely good-looking Earth Directorate agent, you must uncover the source of devastating rifts threatening to destroy all of humanity. Your investigation leads to Arcadia, home of skip drive technology, where the fate of the colony, and ultimately the entire galaxy, rests on your decisions—your strengths, your flaws, your crew, and the factions you choose to trust.\n\nExplore a New Frontier\nThe Arcadia colony is engulfed in a factional war, as the Protectorate’s so-called benevolent rule is challenged by the rebellion of their religious order and a corporate invasion. As destructive rifts spread across the colony, each faction fights to control or close them for their own ends. Navigate diverse zones, uncover hidden lore, and shape the fate of a system on the brink!\n\nYour Commander, Your Way\nBuild your character with the abilities and choices that reflect your playstyle. The colony reacts to your every move, crafting a narrative that’s yours to own—whether you’re a disciple of diplomacy, an astute strategist, a crusader for chaos, or something different altogether. And yes, you can dumb!\n\nEnlist Your Companions\nRecruit companions with unique traits, backgrounds and goals. Whether you choose to help them achieve their ambitions or steer them toward your own objectives, your influence shapes their growth (or death), making them an integral part of the immersive story you create together.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.1745.14086924108488409.fad105ac-c62f-4c33-b793-e5cc36df9afe.53df5beb-d9da-4b64-8cb8-2af92e231f5a",
       "originalPrice": 1795,
-      "discountPrice": 1077,
-      "discountPercent": 40,
+      "discountPrice": 1795,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P8RMKXRML7D",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9N072VV7MFK7",
@@ -8200,14 +8140,14 @@
       "description": "Explore Earth one billion years in the future in the science-fantasy setting of Numenera. Discover the Ninth World built on the bones of extinct, hyper-advanced civilizations and leave your own mark on it. Make thousands of essential choices, face the consequences, and meet death incarnated as you seek the answer to the ultimate question: What does one life matter?\r\r\n\r\r\n\r\r\n\r\r\nTorment: Tides of Numenera is a thematic successor to one of the greatest RPGs ever created. The new game explores similar deep and personal themes of life, mortality, and sacrifice, challenging players to take intellectual stances and make moral decisions.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.36110.13573916410389292.c37074d3-3b34-4830-9506-f6a100b0dfd2.984d2661-0a74-411b-a9ee-c1547fc30ebe",
       "originalPrice": 535,
-      "discountPrice": 133.75,
-      "discountPercent": 75,
+      "discountPrice": 535,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NC0071DJ6XC",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PC4RWP34M2D",
@@ -8230,14 +8170,14 @@
       "description": "Towerborne is an exciting side-scrolling Action RPG Brawler. Rise again as an Ace, an immortal warrior reborn to defend the Belfry against the darkness beyond its walls. Journey across a crumbling world, uncover the mystery of the fallen City of Numbers, and push back the corruption threatening humanity’s survival.\n\nMaster the Mayhem\nExperience classic combo-based brawler combat combined with a modern RPG. Customize your Ace with powerful gear, experiment with diverse combat styles, and refine your skills through relentless battles. Every fight makes you stronger, every victory opens new strategies, and every weapon reshapes your journey.\n\nFight Your Way\nWhether you want quick pick-up-and-play sessions or intricate systems to master, Towerborne lets you choose your play style. Its fast-paced, responsive combat rewards timing and creativity, making every encounter feel fresh and challenging as you grow stronger.\n\nGrow Stronger Together\nJoin forces with up to three other Aces* or venture solo with Umbra lending unique abilities to your side. Teamwork amplifies the chaos and the thrill, where synergy and strategy make the difference between victory and defeat. Rally together to fight as one.\n\nTake an Unforgettable Journey\nTowerborne expands beyond combat with a compelling Story Campaign designed to spark excitement and fuel unstoppable action. For players who crave more than battles, Towerborne’s full story campaign brings to life the lore, characters, and stakes of the Belfry’s survival.  Explore, progress, and uncover the world at your own pace and take your Ace’s journey offline then reconnect online to fight alongside friends without missing a beat. ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.48022.14100945740468620.e64e8a74-2c2b-437c-ae40-c08f6d244c4f.75adef7e-63d3-4359-9166-623b0a4e02ee",
       "originalPrice": 880,
-      "discountPrice": 528,
-      "discountPercent": 40,
+      "discountPrice": 880,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P7TLX79S7N7",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9N2SB04LKPFP",
@@ -8695,14 +8635,14 @@
       "description": "From the Producer of the original Fallout comes Wasteland 2, the sequel to the first-ever post-apocalyptic computer RPG.\r\n\r\nThe Wasteland's hellish landscape is waiting for you to make your mark... or die trying. With over 80 hours of gameplay, you will deck out your Desert Ranger squad with the most devastating weaponry this side of the fallout zone, test the limits of your strategy skills, and bring justice to the wasteland. \r\n\r\nFeatures:\r\n- One Size Does Not Fit All: Don't feel like finding the key for a door? Pick the lock, bash it down with your boot, or just blow it open!\r\n- Decision Making... with Consequences: With both short and long term reactivity, your choices ripple outwards, changing the game's events and forever altering the lives of those in the wasteland.\r\n- Huge & Customizable: Hundreds of characters. Thousands of variations on your Rangers' appearance. Over 150 weapons. No two players will have the same experience.\r\n\r\nCopyright 2015 inXile entertainment Inc., Wasteland, the Wasteland logos, and inXile entertainment and the inXile entertainment logo are trademarks or registered trademarks of inXile entertainment Inc. in the U.S. and/or other countries.  Copyright 2002-2015, inXile entertainment, Inc. All Rights Reserved. Fallout is a registered trademark of Bethesda Softworks LLC.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.1978.67543493413768448.5fe0b603-cfee-4844-b8b0-07e502111713.ef3562d0-e126-4395-bd11-6fe22bf938e7",
       "originalPrice": 379,
-      "discountPrice": 94.75,
-      "discountPercent": 75,
+      "discountPrice": 379,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/C521HDXRTS7F",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NLT5XR52ZS7",
@@ -8710,14 +8650,14 @@
       "description": "In Wasteland 3 the fate of Arizona depends on the fate of Colorado. You’re a Desert Ranger, fighting a losing battle to keep your beloved Arizona alive, when the self-proclaimed Patriarch of Colorado radios, promising aid if you’ll do a job he can only entrust to an outsider—rescue his land from the ambitions of his three bloodthirsty children.\r\n\r\nWasteland 3 is a post-apocalyptic RPG from inXile entertainment, featuring challenging tactical combat, hours of exploration, and a deep, reactive story full of twists, turns, and brutal ethical decisions. Play in single-player or co-op as you customize your squad with perks and abilities geared to your playstyle, and customize your vehicle—the Kodiak—turning it into a hardened war beast. Saving Colorado isn't going to be easy, but Arizona is counting on you, so... don't screw it up.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.59735.13700876625277388.3ab4e7f7-46ea-4ec2-88e9-2b48623d6613.43c82da5-c298-4795-91fe-2cb3370ac9c5",
       "originalPrice": 1030,
-      "discountPrice": 309,
-      "discountPercent": 70,
+      "discountPrice": 1030,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NLT5XR52ZS7",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NGH1FK0RJGL",
@@ -8725,14 +8665,14 @@
       "description": "Originally released in 1988, Wasteland brought the post-apocalypse to video games and inspired a genre. Play one of history’s defining RPGs with completely overhauled graphics, sound, and expanded musical score.\r\n\r\nThe year is 2087, nearly a century after an all-out nuclear war turned vast swaths of the Earth into a radioactive hellscape. You are a Desert Ranger, a band of stalwart lawmen who are the only hope left in what was once the American southwest, and good people’s last defense against hunger, sickness, ravaging raiders, and mutants.\r\n\r\nNow something more secretive and sinister is menacing humanity, and it's your job to investigate. Recruit help and follow leads—the choices you make will shape the world around you. Choose wisely, your life and the lives of those you’re sworn to protect depend on it.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.60150.13650100416089145.e9c63102-735a-40a7-b414-10693b469ff1.bd9c07a7-be22-4688-89db-b2a8a38df68d",
       "originalPrice": 385,
-      "discountPrice": 96.25,
-      "discountPercent": 75,
+      "discountPrice": 385,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NGH1FK0RJGL",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9MXG725MBV3N",
@@ -9160,24 +9100,17 @@
       "description": "* Windows 10 Version 10.0.16299 or higher required for online multiplayer.\r\nThe wildly popular Zoo Tycoon series gets fully-remastered and set to crank up the excitement, challenge, and fun of building the ultimate zoo. Let your imagination run wild with Zoo Tycoon: Ultimate Animal Collection! Choose from almost 200 visually stunning animals and the largest, most detailed selection of environments ever, then build, manage, and maintain your dream zoo alone or with up to four players on Xbox LIVE.  This zoo simulation will charm animal lovers of all ages.\r\n\r\nEasy to start and easy to play, Zoo Tycoon gets you up close and interacting with the animals and zoo, offering intuitive controls and fun tutorials that allow players of all ages to have fun. Play smart as animals and guests will react to your creative choices and ultimately decide your chances to become a Zoo Tycoon.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.62256.14226270511206590.471ff2d9-c815-4969-917b-04a7eb451770.36b036c3-2740-4bd6-99f1-23b613cd230b",
       "originalPrice": 505,
-      "discountPrice": 166.65,
-      "discountPercent": 67,
+      "discountPrice": 505,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PJ06TZX4NMH",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     }
   ],
   "notifiedHistory": {
-    "steam_discount_2436940": {
-      "title": "Sephiria",
-      "price": 195,
-      "percent": 40,
-      "timestamp": "2026-08-02T08:17:17.067Z",
-      "type": "discount"
-    },
     "steam_popular_4108000": {
       "title": "Machine Party",
       "price": 169,
@@ -10780,6 +10713,20 @@
       "percent": 0,
       "timestamp": "2026-09-01T06:17:30.102Z",
       "type": "xbox_new"
+    },
+    "steam_discount_1807120": {
+      "title": "Being a DIK - Season 3",
+      "price": 387,
+      "percent": 10,
+      "timestamp": "2026-09-01T12:16:54.142Z",
+      "type": "discount"
+    },
+    "steam_discount_251570": {
+      "title": "7 Days to Die",
+      "price": 459,
+      "percent": 45,
+      "timestamp": "2026-09-01T12:16:54.142Z",
+      "type": "discount"
     }
   }
 }
