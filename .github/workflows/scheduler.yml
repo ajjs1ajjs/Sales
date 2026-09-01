@@ -69,4 +69,4 @@ jobs:
           personal_token: ${{ secrets.PUBLIC_RELEASE_TOKEN }}
           external_repository: ajjs1ajjs/Sales
           publish_dir: ./dist
-          publish_branch: main
+          publish_branch: gh-pages
