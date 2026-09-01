@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T07:52:21.985Z",
+  "lastUpdated": "2026-09-01T06:17:34.956Z",
   "epic": [
     {
       "id": "8401414902e84f2cb9afa9142f051d32",
@@ -16,6 +16,22 @@
       "isUpcomingFree": false,
       "isDiscounted": false,
       "discountPercent": 100
+    },
+    {
+      "id": "4a88d0dc64114b20b67339c74543f859",
+      "title": "Lost Castle: The Old Ones Awaken",
+      "description": "The Old Ones Awaken adds new levels to explore, new enemies to defeat, and new bosses to face along with a host exciting new weapons and equipment to wield and wear.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/a6d76157ad884f2c9aa470b30da9e2ff/lost-castle-r390n.png",
+      "originalPrice": 73,
+      "discountPrice": 36.5,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/lost-castle-abb2e2",
+      "startDate": "2026-08-30T01:00:00.000Z",
+      "endDate": "2026-09-13T23:59:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": false,
+      "isDiscounted": true,
+      "discountPercent": 50
     },
     {
       "id": "8f1fcf01e32e4fd4b2ae0a9737992760",
@@ -52,27 +68,27 @@
   ],
   "steam": [
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1999,
-      "discountPrice": 879,
-      "discountPercent": 56,
+      "id": "1326470",
+      "title": "Sons Of The Forest",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
+      "originalPrice": 600,
+      "discountPrice": 180,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
+      "url": "https://store.steampowered.com/app/1326470",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
     },
     {
-      "id": "3321460",
-      "title": "Crimson Desert Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1787821990",
-      "originalPrice": 2449,
-      "discountPrice": 1959,
-      "discountPercent": 20,
+      "id": "108600",
+      "title": "Project Zomboid",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1787740093",
+      "originalPrice": 530,
+      "discountPrice": 355,
+      "discountPercent": 33,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3321460",
+      "url": "https://store.steampowered.com/app/108600",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -91,6 +107,32 @@
       "isPopular": false
     },
     {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1999,
+      "discountPrice": 879,
+      "discountPercent": 56,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "105600",
+      "title": "Terraria",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/capsule_616x353.jpg?t=1769844435",
+      "originalPrice": 225,
+      "discountPrice": 112,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/105600",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "1623730",
       "title": "Palworld",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
@@ -104,6 +146,45 @@
       "isPopular": false
     },
     {
+      "id": "3321460",
+      "title": "Crimson Desert Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1788226529",
+      "originalPrice": 2449,
+      "discountPrice": 1959,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3321460",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "264710",
+      "title": "Subnautica",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/capsule_616x353.jpg?t=1777456112",
+      "originalPrice": 799,
+      "discountPrice": 199,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/264710",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "648800",
+      "title": "Raft",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/capsule_616x353.jpg?t=1727184011",
+      "originalPrice": 430,
+      "discountPrice": 288,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/648800",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "2483190",
       "title": "Forza Horizon 6",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/125ec16733b894a5f60d98e5979ef0c669b131dd/capsule_616x353_alt_assets_3.jpg?t=1787843145",
@@ -112,71 +193,6 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2483190",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3718190",
-      "title": "スーパーリアル麻雀 Venus Returns",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3718190/b0d72df7c6a07ebc27aef5bdeee964ec45dcfdb2/capsule_616x353.jpg?t=1787889267",
-      "originalPrice": 749,
-      "discountPrice": 599,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3718190",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1551360",
-      "title": "Forza Horizon 5",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1787677939",
-      "originalPrice": 1199,
-      "discountPrice": 479,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1551360",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "990080",
-      "title": "Hogwarts Legacy",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/22dd5a52e39a1952e77da2bd4ee49cc2e5e1a972/capsule_616x353.jpg?t=1778797474",
-      "originalPrice": 1599,
-      "discountPrice": 159,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/990080",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1363080",
-      "title": "Manor Lords",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1363080/capsule_616x353.jpg?t=1786634669",
-      "originalPrice": 599,
-      "discountPrice": 389,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1363080",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3124540",
-      "title": "Far Far West",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/7b551edc576e4034f7fb941080f161a56d2d63b1/capsule_616x353_alt_assets_5.jpg?t=1787841818",
-      "originalPrice": 349,
-      "discountPrice": 279,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3124540",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -411,8 +427,8 @@
     {
       "id": "9PDC9X7BKZR3",
       "title": "Albion Online",
-      "description": "Albion Online is a sandbox MMORPG set in an open medieval fantasy world. The game features a player-driven economy where nearly every item is player-crafted. Combine armor pieces and weapons suited to your playstyle in a unique, classless \"you are what you wear\" system. Explore the world, take on other adventurers in thrilling battles, conquer territories, and build a home.\n\nCraft. Trade. Conquer.\nDive in now and become part of a living fantasy world where everybody matters.\n\nPLAYER-DRIVEN ECONOMY\n\nFrom basic tools and clothes to mighty armors and powerful weapons – nearly every item in the game is crafted by players, in player-constructed buildings, from resources gathered by players. Buy, sell, and trade with other players at local marketplaces all across the world of Albion. Craft rare and powerful items, then sell them to the highest bidder and grow your fortune.\n\nNO CLASSES, NO RESTRICTIONS\n\nIn Albion Online's classless combat system, you are what you wear. The weapons and armor you use define your skills, and switching playstyles is as easy as switching gear. Test out new equipment anytime and change up your weapons, armor, and mounts to suit any situation. Hone your character’s skills by crafting new items, or by simply using your favorite equipment.\n\nPREPARE TO FIGHT\n\nFrom solo to small-group to large-scale battles, you'll need strategy, tactics, and skill to prevail. Test yourself against other adventurers in high-risk, high-reward full-loot fights. Level your combat specializations, create unique builds with complementary skills, and use every tool at your disposal to emerge victorious.\n\nCONQUER THE WORLD\n\nJoin a guild and carve out your own piece of Albion in massive open-world battles. Claim territories for access to incredible resources, construct guild halls, and build a Hideout to give your guild a powerful home base deep in dangerous lands. Lead your guild to victory in the Crystal League, and track your progress against other guilds worldwide on a constantly-updated seasonal leaderboard.\n\nPUT DOWN ROOTS\n\nClaim a city plot or private island and make it your own. Grow crops to sell or craft into food, raise your own livestock and mounts, and place crafting stations for other players to use for a fee. Stock your house with custom furniture and trophies, build chests to store your growing collection of loot, and hire laborers to keep everything at your homestead running smoothly.\n\nFACE DEADLY FOES\n\nFrom small scouting bands to massive bosses, from dungeons to full-blown faction bases, the inhabitants of Albion’s open world await your challenge. Take on six different factions, each with different enemies that require unique strategies. Partake in solo or group Expeditions, or seek out the ultimate thrill by facing demons and other players alike in Hellgates and Corrupted Dungeons.\n\nEXPLORE A VAST WORLD\n\nExplore five vivid biomes, each with its own challenges. Gather raw materials for crafting, or cast a line into Albion's lakes and oceans to catch fish. Seek out randomly generated solo and group dungeons and slay powerful foes for valuable loot. Enter the mystical Roads of Avalon to discover ever-changing paths between distant zones, face off against long-dormant foes, and build your own Hideout in this vast and ancient land.\n\nCROSS-PLATFORM PLAY\n\nAlbion Online is a true cross-platform MMO experience. One account lets you play seamlessly across all supported devices. Switch devices anytime and pick up right where you left off.\n\n\nAlbion Online account required.\nUser Generated Content permissions are required to view player-generated text.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.54780.14157015172806022.f8f04f91-6e90-4f62-b45a-4fa839c73465.b8daca46-2f31-4d44-8e58-379ea115a3fa",
+      "description": "Albion Online is a sandbox MMORPG set in an open medieval fantasy world. The game features a player-driven economy where nearly every item is player-crafted. Combine armor pieces and weapons suited to your playstyle in a unique, classless \"you are what you wear\" system. Explore the world, take on other adventurers in thrilling battles, conquer territories, and build a home.\n\nCraft. Trade. Conquer.\nDive in now and become part of a living fantasy world where everybody matters.\n\nDRAGONFIRE IS LIVE!\n\nChallenge a new raid dungeon in the Ancient Lands, where Azaryon, the Fire Dragon, awaits at the heart of Albion's most challenging PvE encounter. Explore a region shaped by ancient magic, confront dragon invasions across the world, and earn exclusive cosmetics and powerful rewards, including your own dragon mount.\n\nPLAYER-DRIVEN ECONOMY\n\nFrom basic tools and clothes to mighty armors and powerful weapons – nearly every item in the game is crafted by players, in player-constructed buildings, from resources gathered by players. Buy, sell, and trade with other players at local marketplaces all across the world of Albion. Craft rare and powerful items, then sell them to the highest bidder and grow your fortune.\n\nNO CLASSES, NO RESTRICTIONS\n\nIn Albion Online's classless combat system, you are what you wear. The weapons and armor you use define your skills, and switching playstyles is as easy as switching gear. Test out new equipment anytime and change up your weapons, armor, and mounts to suit any situation. Hone your character’s skills by crafting new items, or by simply using your favorite equipment.\n\nPREPARE TO FIGHT\n\nFrom solo to small-group to large-scale battles, you'll need strategy, tactics, and skill to prevail. Test yourself against other adventurers in high-risk, high-reward full-loot fights. Level your combat specializations, create unique builds with complementary skills, and use every tool at your disposal to emerge victorious.\n\nCONQUER THE WORLD\n\nJoin a guild and carve out your own piece of Albion in massive open-world battles. Claim territories for access to incredible resources, construct guild halls, and build a Hideout to give your guild a powerful home base deep in dangerous lands. Lead your guild to victory in the Crystal League, and track your progress against other guilds worldwide on a constantly-updated seasonal leaderboard.\n\nPUT DOWN ROOTS\n\nClaim a city plot or private island and make it your own. Grow crops to sell or craft into food, raise your own livestock and mounts, and place crafting stations for other players to use for a fee. Stock your house with custom furniture and trophies, build chests to store your growing collection of loot, and hire laborers to keep everything at your homestead running smoothly.\n\nFACE DEADLY FOES\n\nFrom small scouting bands to massive bosses, from dungeons to full-blown faction bases, the inhabitants of Albion’s open world await your challenge. Take on six different factions, each with different enemies that require unique strategies. Partake in solo or group Expeditions, or seek out the ultimate thrill by facing demons and other players alike in Hellgates and Corrupted Dungeons.\n\nEXPLORE A VAST WORLD\n\nExplore five vivid biomes, each with its own challenges. Gather raw materials for crafting, or cast a line into Albion's lakes and oceans to catch fish. Seek out randomly generated solo and group dungeons and slay powerful foes for valuable loot. Enter the mystical Roads of Avalon to discover ever-changing paths between distant zones, face off against long-dormant foes, and build your own Hideout in this vast and ancient land.\n\nCROSS-PLATFORM PLAY\n\nAlbion Online is a true cross-platform MMO experience. One account lets you play seamlessly across all supported devices. Switch devices anytime and pick up right where you left off.\n\n\nAlbion Online account required.\nUser Generated Content permissions are required to view player-generated text.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.15644.14157015172806022.a55b35f1-6078-4896-8521-0d5455682f95.7b883105-19f6-4548-b4fd-a5597be55ca9",
       "originalPrice": 0,
       "discountPrice": 0,
       "discountPercent": 0,
@@ -1539,14 +1555,14 @@
       "description": "У Міскатонікському університеті відбувається щось лиховісне. Професор Гаррі Евергарт старанно ігнорує тіні, які бачить периферичним зором, а студентку Еванджелін Дрейтон переслідують неймовірні сни про знайдений десять років тому артефакт. У пошуках відповідей пара героїв відкриє для себе безліч секретів, які сягають у століття далі, ніж можна собі уявити.\n\nШокуючі секрети\nЗнайомі за Call of the Sea головоломки, засновані на взаємодії з предметами й уважності, повертаються, набувши нової глибини. Вивчайте детально промальоване оточення в пошуках підказок. Перемикайтеся між Гаррі та Еванджелін, щоб розв’язувати складні, багатоетапні завдання, переміщаючись у просторі та часі. Підберіть для себе оптимальний рівень складності, відображаючи й приховуючи підказки, значки та записи в щоденнику.\n\nНеймовірні історії\nУ своїх пригодах Гаррі та Еванджелін відвідають особняк у Новій Англії та його освітлені вогнями бібліотеки, всипані червоним піском австралійські нетрі, морозні пустки та загублені в часі загадкові міста. Дослідження детально намальованих на рушії Unreal Engine 5 локацій супроводжується саундтреком, написаним відзначеним багатьма нагородами композитором Едуардо Де Ла Іглесіа.\n\nТінь з позачасся\nДопоможіть Гаррі Евергарту й Еванджелін Дрейтон дізнатися правду про своїх коханих і вистояти, зіткнувшись із сутностями за межею їхнього розуміння. Натхнена повістю Говарда Філліпса Лавкрафта «Тінь з позачасся» гра Call of the Elder Gods — це історія про горе, сім’ю і здоровий глузд, повністю озвучена досвідченими акторами Юрієм Ловенталем (Spider-Man, Arcane, Final Fantasy VII Rebirth) і Сіссі Джонс (Firewatch, Starfield, Baldur's Gate III).",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.44552.14206254537148158.e93ed201-c1eb-4f42-89ea-0d9ad5b233de.f1b66766-3855-46bc-9ff7-72e88d9a7e6f",
       "originalPrice": 405,
-      "discountPrice": 405,
-      "discountPercent": 0,
+      "discountPrice": 283.5,
+      "discountPercent": 30,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PF697TG7PP7",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NDC5LJS839S",
@@ -1929,14 +1945,14 @@
       "description": "Date Everything! — це новий і захоплюючий погляд на жанр симулятора побачень. На жаль, ваш диплом спеціаліста з обслуговування клієнтів вам не знадобиться, оскільки ви втратили роботу через ШІ. Але… таємничий незнайомець надіслав вам подарунок — чарівні окуляри, які називаються «побавіаторами», — завдяки яким усе в оселі ожило та стало доступним для стосунків!\n\nКожен предмет матиме власні історії життя та зможе стати вашим коханцем, другом чи ворогом. У грі вас супроводжуватиме зірковий склад акторів озвучення!\n\nОсобливості:\n• 100 предметів, із якими можна почати стосунки.\n• Повне озвучення.\n• Розгалужені сюжетні лінії.\n• Принаймні 3 кінцівки в кожного персонажа.\n• Безліч каламбурів!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.57489.13927821742762283.65947d84-9ff2-4bcf-88a7-64f41a7faa9d.f71e2c68-6810-4e4f-a8db-80a919f9fe3e",
       "originalPrice": 999,
-      "discountPrice": 999,
-      "discountPercent": 0,
+      "discountPrice": 329.67,
+      "discountPercent": 67,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N0CCPMBLJQ8",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NKK6CX54183",
@@ -3998,8 +4014,8 @@
       "title": "High On Life 2",
       "description": "Вам це вдалося. Ви розгромили міжгалактичний картель, врятували людство від зникнення і розшукали небезпечних злочинців у найвіддаленіших куточках галактики. Полюючи за головами, ви здобули багатство, славу та кохання, аж раптом з'являється таємнича постать з минулого, яка оголошує нагороду за голову вашої сестри, і ваше безтурботне життя перетворюється на суцільний хаос.\n\nЧи вистачить вам наснаги ризикнути всім і розкрити міжгалактичну змову, яка знову загрожує вашому улюбленому виду (людству)?\n\nHigh On Life ПОВЕРТАЄТЬСЯ, і ви разом із вашою улюбленою командою інопланетних пройдисвітів стрілятимете, рубатимете і кататиметеся на скейті по розкішних, небезпечних світах по всій галактиці, щоб розтрощити ЗЛОВМИСНИЙ фармацевтичний конгломерат, який прагне начепити цінники на ЛЮДСЬКЕ ЖИТТЯ!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.40959.13600359535610445.83a29ac7-f121-4e17-8768-bd1631b536e6.988ecc0e-5f29-4011-ac83-826b6fb74489",
-      "originalPrice": 2105,
-      "discountPrice": 2105,
+      "originalPrice": 1405,
+      "discountPrice": 1405,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NF6XPSBTTGB",
@@ -4629,14 +4645,14 @@
       "description": "Ви — в'язень, який має дослідити покинуту мегаструктуру, яка розкинулася в надрах Місяця — фальшивого супутника, що приховує під своєю поверхнею безодню таємниць. Ваше завдання — відшукати забуті технології в глибинах Безодні та покинутої колонії, яку вона поглинула. Весь ваш шлях пройде під пильним наглядом Ейлін — породженої машиною тюремниці.\n\nЦі прадавні руїни оживають від божевільної луни, просякнутої секретами великого міста Греймонта та його жахливого фіналу. Скверна. Заповіти Всеотця. Хор Колективу. Голоси Безодні кличуть вас, нашіптуючи дивні послання...",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.46935.14316223285043893.d7cf4143-4c42-4a15-aa79-8500ca19ac53.9fca0545-ac3c-4ce5-a476-b1ce419da651",
       "originalPrice": 1055,
-      "discountPrice": 1055,
-      "discountPercent": 0,
+      "discountPrice": 738.5,
+      "discountPercent": 30,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PLBH9J0XGR8",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P3FG98R5X8F",
@@ -5229,14 +5245,14 @@
       "description": "Moving Out 2 — це чудернацьке продовження всесвітньо відомого симулятора переїзду, що спирається на закони фізики. Грайте самостійно, як незалежний підрядник П.О.П.А. або разом друзями (до 3 чол.), одягніться у форму Smooth Moves і допоможіть мешканцям Пакмора та інших міст зібрати речі та переїхати!\r\n\r\nБАГАТОВИМІРНА ЛОКАЛЬНА ГРА ТА БАКАТОКОРИСТУВАЦЬКА ОНЛАЙН ГРА\r\nДрузі, які переїжджають разом, все роблять разом! Незалежно від того, чи любите ви локальні кооперативні ігри чи багатокористувацькі онлайн-ігри, у нас ви зможете підписати коробки, запечатати їх та доставити!\r\n\r\nНОВА ПРИГОДА\r\nМи більше не в Пакморі… Через міжвимірні портали ви досліджуватимете нове світи, наповнені веселими і чудернацькими випробуваннями та хаотичною і смішною грою.\r\n\r\nНОВІ ТА УЛЮБЛЕНІ ПЕРСОНАЖІ, ЩО ПОВЕРНУЛИСЯ\r\nУ грі Moving Out 2 абсолютно новий підбір надзвичайно милих персонажів, тому що Smooth Moves залучили новобранців П.О.П.А.! Але не хвилюйтеся, Рай Ю та Сідні все ще працюють тут…\r\n\r\nГРА ДЛЯ КОЖНОГО!\r\nРежим допомоги?! Є! Широкий спектр можливостей доступності?! Є! Безліч персонажів і незліченна кількість тонко підібраних образів для всіх любителів моди?! Є! Є! Є!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.10050.14092419520193072.64e53d99-3172-4ca7-856b-dd313b69b944.b7fa8580-c451-49b3-bb65-f485d4d8e309",
       "originalPrice": 760,
-      "discountPrice": 760,
-      "discountPercent": 0,
+      "discountPrice": 190,
+      "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P88K6NQW12H",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PG8TV30NN9H",
@@ -5679,14 +5695,14 @@
       "description": "Досліджуй колоритний світ і будуй власний затишний дім на колесах. Створюй робочі станції й отримуй енергію від сонця, вітру або води. Удосконалюй і персоналізуй свій транспорт, вирощуй врожаї та живи енергонезалежно в компанії до 4 інших гравців.\n\nOutbound — це затишна дослідницька гра з відкритим світом, дія якої відбувається в недалекому утопічному майбутньому. Почни з порожнього фургона й перетвори його на дім мрії — самотужки або разом із друзями. Будуй і досліджуй у зручному темпі. Збирай матеріали, створюй і розміщуй модульні частини як усередині, так і ззовні свого транспорту. Розвивай технології й ефективно використовуй енергію для забезпечення дому.\n\nДосліджуй\nДосліджуй колоритний світ за кермом електричного фургона, що живиться енергією сонця, вітру або води. Відкривай знакові місця в різноманітних біомах.\n\nБудуй і створюй\nОблаштовуй власну рухому базу завдяки модульній системі. Персоналізуй свій транспорт за допомогою фарби, прикрас і меблів, створивши ідеальне затишне місце на свій смак.\n\nВирощуй\nЗакладай сади, щоби вирощувати смачні й поживні рослини та гриби. Споживай їх сирими або готуй вишукані страви, щоб утамувати голод у дорозі.\n\nНайкращі друзі назавжди\nЗаведи нового друга в лоджі «Лапи й вуса». Годуй, песть і тренуй його допомагати тобі день у день.\n\nГрай із друзями\nВирушай у подорож різноманітними біомами та збудуй власний дім на колесах самотужки або в мережі з 4 іншими гравцями.\n\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.43708.14196427234086945.901894be-1096-43bd-aa09-55fbbd5f3312.98961ad9-4dbf-4f54-9d41-1028f6ec74fd",
       "originalPrice": 519,
-      "discountPrice": 519,
-      "discountPercent": 0,
+      "discountPrice": 415.2,
+      "discountPercent": 20,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PFWZMT737GG",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PGB72NFG5JN",
@@ -6629,7 +6645,7 @@
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MW79BJVF3QX",
       "isGamePass": true,
-      "isNewToGamePass": true,
+      "isNewToGamePass": false,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -7419,14 +7435,14 @@
       "description": "SWORN — кооперативний екшен/rogue-like на 1–4 гравців. Досліджуйте занепалу фортецю Камелот та звільніть її від царювання злого Артура та його лицарів Круглого столу.\nГрайте поодинці і в кооперативному режимі\n\nГрайте поодинці або об’єднуйтеся з друзями та бийтеся з лицарями Круглого столу. Експериментуйте з комбінаціями сильних сторін ваших персонажів та опановуйте їхні здібності, щоби стати лицарями, достойними виступити проти самого Артура.\n\nДосліджуйте занепалий Камелот\n\n\"Зустрічайте друзів і ворогів, знайомих за легендами про короля Артура.\nЗнайдіть звідки походить зло, що накрило своєю темрявою Авалон.\nНавчіться мудрості від своїх нових друзів — Мерліна, Німуе та інших. \nЗдійміть свого меча як лицар Загартованого духу.\"\n\nКеруйте силою фей\n\nПрисягніться на вірність Лордам фей та обирайте з 200 унікальних благословень, які допоможуть вам розкрити весь ваш потенціал. Обрушуйте на ворогів очищуюче полум’я Титанії, або прийміть благословення Оберона та бийте їх із люттю вітра. \n\nВивільніть свою креативність\n\nМінливі поля битв Камелота — безкраїй простір для експериментів. Комбінуйте благословення із різними наборами персонажів, зброї та навичок. Спробуйте тисячі різноманітних комбінацій на вашій путі до того, щоб стати досвідченим лицарем.\n\nДоведіть свою гідність\n\nПосилення від Маяка Авалору з часом перетворять вашого зброєносця на гідного свого титулу паладина. Але якщо вам здається, що ви вже готові вийти проти самого Артура, приготуйтеся до випробування, в якому вам буде треба задіяти всі свої навички. \n\nПориньте у цей світ\n\nДослідіть усі куточки цього розкішного і красивого світу, намальованому у стилі коміксів американського художника Майка Міньйоли. Насолоджуйтеся прекрасною графікою та оригінальним саундтреком, завдяки яким світ SWORN по-справжньому оживає.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.64945.13511316360139765.c27c733b-7cf6-4671-a04c-5a2fcb95b0f0.ffc35dea-4ec4-4d82-93b8-db33a5342958",
       "originalPrice": 760,
-      "discountPrice": 760,
-      "discountPercent": 0,
+      "discountPrice": 190,
+      "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MWDJRQ1BXTC",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NBLHDB0WLHZ",
@@ -8289,14 +8305,14 @@
       "description": "БУДЬ НАЙКРУТІШИМ\r\n\r\nТи гратимеш за солдата-втікача, що не пам’ятає свого минулого, але який має надприродні здібності. Його думки лише про помсту, і він не зупиниться, поки не отримає те, чого хоче. Завдавай нищівних ударів, пересувайся крадькома в тіні, користуйся вибуховою зброєю і нехай поганці дістануть по заслузі.\r\n\r\nОСОБЛИВОСТІ:\r\n\r\nВИБУХОВА ГРА ДЛЯ ОДНОГО ГРАВЦЯ\r\nТаємнича група людей витягує тебе із секретної в’язниці, що суворо охороняється. Усі твої спогади зникли, але бойові здібності виходять далеко за межі людських можливостей. Дай відсіч, знайди правду і зустрінь загрозу, навіть більш смертельнішу, ніж ти сам.\r\n\r\nНАСТУПНИЙ РІВЕНЬ СУПЕР-СИЛ\r\nОпануй надлюдську силу і швидкість, щоби здолати хвилі важкоозброєних найманців наступного тижня. Уповільнюй час, щоби ухилятися від швидкострільних куль, і маскуйся, щоби стати невидимим і скручуй голови ворогам, коли вони найменше цього очікують.\r\n\r\nЖОРСТОКИЙ БЛИЖНІЙ БІЙ\r\nБийся з ворогами у рукопашну та використовуй повну потужність у швидкісних перестрілках. Удар кулаком, удар ногою, ковзання і шалені комбінації рухів зітруть ворогів у пил.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.9118.13565307987155634.2e7d3c9a-2f66-4f64-b6d1-4ba36001191e.77dac885-dfe1-43cc-9a1a-f3764545db87",
       "originalPrice": 760,
-      "discountPrice": 760,
-      "discountPercent": 0,
+      "discountPrice": 190,
+      "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NCDMPCPDTQF",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P1VK0ZCQGND",
@@ -9080,9 +9096,9 @@
     },
     {
       "id": "9N3KQH8183GD",
-      "title": "Young Suns (Game Preview)",
-      "description": "This game is a work in progress. It may or may not change over time or release as a final product. Purchase only if you are comfortable with the current state of the unfinished game.\n\nYoung Suns is a 1-4 player narrative life sim set on Jupiter in an optimistic alternative future, intended for one-to-two hours of daily play, alone or with friends.\n\nBuild your home among the stars, and take it with you on adventures!\n\nFOLLOW OUR DEVELOPMENT—A GAME THAT GROWS ALONGSIDE YOU\n\n👷🏽 Young Suns is still in early, active development. Playing the game now is recommended only for players interested in following the game’s development, participating in the community, and contributing feedback and suggestions. \n\n🧑🏽‍🏭 While core features are present, many you'd expect are still in development, and some content—especially quest content—is missing. Even in this state, the game is playable and fun for its intended pattern of play: checking in on a world for an hour or two a day, slowly building up your perfect ship-home, and making new friends among the stars.\n\n🗓️ To follow our update roadmap, learn more about the game’s development, and join the community for support & feedback please visit www.youngsuns.com.\n\nBE YOURSELF AMONG THE STARS—HELP BUILD A FUTURE FOR EVERYONE\n\nThe people of Jupiter are newly free, and they’ve entrusted you with your very own ship. There’s a lot of work to be done, if we want to make this a better world! Visit planetoids, ruins, and stations with a crew of up to three friends, or entirely on your own. Take on quests from the friendly citizens of Jupiter. Decorate and customize your spaceship. Build relationships with a huge cast of lovable characters, and help rebuild & improve society, for everyone.\n\nKEY FEATURES\n\n◌ 30 FULLY REALIZED CHARACTERS, with unique looks, behaviors and over 2 months of unique daily chats. Learn their stories, and help with the many problems faced by the people of Jupiter.\n\n◌ CREATE YOUR CHARACTER and alter any aspect of your look during play—character creation is only the beginning. Recolor clothing to match your style.\n\n◌ YOUR SHIP IS YOUR HOME. Personalize your spaceship with 80+ discoverable recipes and items. Paint the walls, stack your shelves—create your perfect cozy nest.\n\n◌ THAT’S NOT JUNK, IT’S TREASURE! Find and repair damaged furniture, clothing and tools. Use them yourself, gift them, or donate them to the common cause.\n\n◌ GROW AND THRIVE. Upgrade your tools to perform harder jobs. Improve and expand your ship. \n\n◌ OPEN WORLD EXPLORATION. Fly your ship to fantastical planetoids, derelict ruins, and converted space stations on your journey through a newly-reclaimed region of Jovian space.\n\n◌ SPACE IS BEAUTIFUL. Featuring a dynamic fully-composed soundtrack, gorgeous colorful visuals, and deep, characterful writing.\n\nFull details on the latest status of the game, how you can give feedback and report issues can be found at www.youngsuns.com.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.41687.14000938598007723.1c20633c-9e09-40dc-b4c0-9b7443ea3118.d0c77a9f-7df6-4314-8522-0e16e7697044",
+      "title": "Young Suns",
+      "description": "Young Suns is a 1-4 player narrative life sim set after a successful revolution on Jupiter, intended for one-to-two hours of daily play alone or with friends.\n\nBuild your home among the stars, and take it with you on adventures!\n\nFOLLOW OUR DEVELOPMENT—A GAME THAT GROWS ALONGSIDE YOU\n\n👷🏽 Young Suns is actively developing. Players are encouraged to participate in the community and contribute feedback and suggestions.\n\n🧑🏽‍🏭 Young Suns is synced to real-world time and is intended for one-to-two hours of daily play, completing daily and weekly quests from the friendly citizens of Jupiter, thoughtfully building up your perfect ship-home, and making new friends among the stars. \n\n🗓️ To follow our update roadmap, learn more about the game’s development, and join the community for support and feedback please visit www.youngsuns.com.\n\nBE YOURSELF AMONG THE STARS—HELP BUILD A FUTURE FOR EVERYONE\n\nThe people of Jupiter are newly free from predatory corporate control, and they’ve entrusted you with your very own ship. Along the way, you’ll meet revolutionaries trying to find their place in a future they weren’t sure they’d live to see, navigate lingering conflicts between several factions who all have their own idea of the best path forward, and help the friendly Jovian citizens build a better tomorrow.\n\nExplore moonlets, ruins, and stations with a crew of up to three friends, or entirely on your own, discovering and repairing broken items for your own use or to donate to the common good. Decorate and customize your spaceship. Build relationships with a huge cast of lovable characters. Help rebuild and improve society for everyone.\n\nThere’s a lot of work to be done if we want to make this a better world, and we can’t do it alone! \n\nKEY FEATURES\n\n◌ 30 FULLY REALIZED CHARACTERS with unique looks, personalities, and histories. Learn their stories and help with the many problems faced by the people of Jupiter.\n\n◌ CREATE YOUR CHARACTER and alter any aspect of your look during play—character creation is only the beginning. Discover and repair broken cosmetics, and craft your own to match your style.\n\n◌ YOUR SHIP IS YOUR HOME. Personalize your spaceship with 80+ discoverable recipes and items. Paint the walls, stack your shelves—create your perfect cozy space.\n\n◌ THAT’S NOT JUNK, IT’S TREASURE! Find and repair damaged furniture, clothing and tools. Use them yourself, gift them, or donate them to the common cause.\n\n◌ GROW AND THRIVE. Upgrade your tools to perform harder jobs. Enhance and expand your ship. Build relationships with your fellow Jovians to improve the world around you.\n\n◌ SPACE IS BEAUTIFUL. Fly your ship to fantastical moonlets, derelict ruins, and converted space stations on your journey through a newly-reclaimed region of Jovian space.\n\nFull details on the latest status of the game, how you can give feedback and report issues can be found at www.youngsuns.com.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.3265.14000938598007723.bdd09231-8f55-4ab1-9908-7d3679c5e743.e52ad26b-fecf-4e99-beb5-9232b860ee66",
       "originalPrice": 440,
       "discountPrice": 440,
       "discountPercent": 0,
@@ -9155,230 +9171,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_266410": {
-      "title": "iRacing",
-      "price": 225,
-      "percent": 0,
-      "timestamp": "2026-07-29T08:34:31.837Z",
-      "type": "popular"
-    },
-    "steam_discount_4906890": {
-      "title": "Le Mans Ultimate - US Track Pass",
-      "price": 1350,
-      "percent": 10,
-      "timestamp": "2026-07-29T11:23:01.461Z",
-      "type": "discount"
-    },
-    "steam_popular_3934250": {
-      "title": "Village in the Shade",
-      "price": 1125,
-      "percent": 0,
-      "timestamp": "2026-07-29T16:18:31.923Z",
-      "type": "popular"
-    },
-    "steam_popular_4165910": {
-      "title": "Steam Machine",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-29T18:04:14.027Z",
-      "type": "popular"
-    },
-    "steam_discount_252490": {
-      "title": "Rust",
-      "price": 389,
-      "percent": 50,
-      "timestamp": "2026-07-29T20:10:06.784Z",
-      "type": "discount"
-    },
-    "steam_popular_3282300": {
-      "title": "Mistfall Hunter",
-      "price": 477,
-      "percent": 10,
-      "timestamp": "2026-07-30T02:03:34.299Z",
-      "type": "popular"
-    },
-    "steam_popular_4433900": {
-      "title": "DRAGON BALL: Sparking! ZERO - Super Limit-Breaking NEO",
-      "price": 1109,
-      "percent": 0,
-      "timestamp": "2026-07-30T02:03:34.299Z",
-      "type": "popular"
-    },
-    "steam_popular_4572310": {
-      "title": "Mistfall Hunter - Upgrade to Deluxe Edition",
-      "price": 270,
-      "percent": 10,
-      "timestamp": "2026-07-30T02:03:34.299Z",
-      "type": "popular"
-    },
-    "xbox_new_9P8X6TVW9ZW8": {
-      "title": "Mistfall Hunter",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-30T02:03:34.299Z",
-      "type": "xbox_new"
-    },
-    "steam_discount_1086940": {
-      "title": "Baldur's Gate 3",
-      "price": 629,
-      "percent": 30,
-      "timestamp": "2026-07-30T08:20:12.756Z",
-      "type": "discount"
-    },
-    "steam_popular_1086940": {
-      "title": "Baldur's Gate 3",
-      "price": 629,
-      "percent": 30,
-      "timestamp": "2026-07-30T11:04:16.123Z",
-      "type": "popular"
-    },
-    "epic_free_fb86769d4908427986ca9f7d94b581c2": {
-      "title": "OTXO",
-      "price": 0,
-      "percent": 100,
-      "timestamp": "2026-07-30T15:49:59.526Z",
-      "type": "free"
-    },
-    "epic_free_c71375f1ac9444fcae1ca584a53ba6f0": {
-      "title": "Sol Cesto",
-      "price": 0,
-      "percent": 100,
-      "timestamp": "2026-07-30T15:49:59.526Z",
-      "type": "free"
-    },
-    "steam_discount_1097840": {
-      "title": "Gears 5",
-      "price": 114,
-      "percent": 85,
-      "timestamp": "2026-07-30T15:49:59.526Z",
-      "type": "discount"
-    },
-    "steam_discount_3934270": {
-      "title": "How Many Dudes?",
-      "price": 217,
-      "percent": 35,
-      "timestamp": "2026-07-30T17:23:14.898Z",
-      "type": "discount"
-    },
-    "steam_discount_4108000": {
-      "title": "Machine Party",
-      "price": 169,
-      "percent": 15,
-      "timestamp": "2026-07-30T17:23:14.898Z",
-      "type": "discount"
-    },
-    "steam_popular_3934270": {
-      "title": "How Many Dudes?",
-      "price": 217,
-      "percent": 35,
-      "timestamp": "2026-07-30T17:23:14.898Z",
-      "type": "popular"
-    },
-    "steam_discount_1817070": {
-      "title": "Marvel’s Spider-Man Remastered",
-      "price": 559,
-      "percent": 60,
-      "timestamp": "2026-07-30T19:20:44.013Z",
-      "type": "discount"
-    },
-    "steam_discount_3558600": {
-      "title": "Leafy Corner",
-      "price": 159,
-      "percent": 20,
-      "timestamp": "2026-07-30T19:20:44.013Z",
-      "type": "discount"
-    },
-    "steam_discount_1817190": {
-      "title": "Marvel’s Spider-Man: Miles Morales",
-      "price": 599,
-      "percent": 60,
-      "timestamp": "2026-07-30T21:05:07.493Z",
-      "type": "discount"
-    },
-    "steam_discount_3164500": {
-      "title": "Schedule I",
-      "price": 290,
-      "percent": 30,
-      "timestamp": "2026-07-30T23:02:27.983Z",
-      "type": "discount"
-    },
-    "steam_popular_1817070": {
-      "title": "Marvel’s Spider-Man Remastered",
-      "price": 559,
-      "percent": 60,
-      "timestamp": "2026-07-31T02:30:03.135Z",
-      "type": "popular"
-    },
-    "steam_discount_2001120": {
-      "title": "Split Fiction",
-      "price": 844,
-      "percent": 35,
-      "timestamp": "2026-07-31T06:09:05.894Z",
-      "type": "discount"
-    },
-    "steam_popular_2651280": {
-      "title": "Marvel's Spider-Man 2",
-      "price": 1138,
-      "percent": 33,
-      "timestamp": "2026-07-31T06:09:05.894Z",
-      "type": "popular"
-    },
-    "steam_discount_3282300": {
-      "title": "Mistfall Hunter",
-      "price": 477,
-      "percent": 10,
-      "timestamp": "2026-07-31T09:40:58.009Z",
-      "type": "discount"
-    },
-    "steam_discount_1426210": {
-      "title": "It Takes Two",
-      "price": 299,
-      "percent": 70,
-      "timestamp": "2026-07-31T09:40:58.009Z",
-      "type": "discount"
-    },
-    "steam_popular_1368140": {
-      "title": "Corsair Cove",
-      "price": 449,
-      "percent": 25,
-      "timestamp": "2026-07-31T16:42:38.351Z",
-      "type": "popular"
-    },
-    "xbox_new_9PHS0189K408": {
-      "title": "Corsair Cove",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-07-31T16:42:38.351Z",
-      "type": "xbox_new"
-    },
-    "steam_discount_1368140": {
-      "title": "Corsair Cove",
-      "price": 449,
-      "percent": 25,
-      "timestamp": "2026-07-31T18:17:23.208Z",
-      "type": "discount"
-    },
-    "steam_discount_3293260": {
-      "title": "Waterpark Simulator",
-      "price": 196,
-      "percent": 20,
-      "timestamp": "2026-07-31T20:17:20.216Z",
-      "type": "discount"
-    },
-    "steam_discount_393380": {
-      "title": "Squad",
-      "price": 439,
-      "percent": 60,
-      "timestamp": "2026-07-31T22:01:53.525Z",
-      "type": "discount"
-    },
-    "steam_discount_2651280": {
-      "title": "Marvel's Spider-Man 2",
-      "price": 1138,
-      "percent": 33,
-      "timestamp": "2026-08-01T23:54:20.958Z",
-      "type": "discount"
-    },
     "steam_discount_2436940": {
       "title": "Sephiria",
       "price": 195,
@@ -10931,6 +10723,62 @@
       "price": 0,
       "percent": 0,
       "timestamp": "2026-08-28T07:52:16.603Z",
+      "type": "xbox_new"
+    },
+    "epic_discount_4a88d0dc64114b20b67339c74543f859": {
+      "title": "Lost Castle: The Old Ones Awaken",
+      "price": 36.5,
+      "percent": 50,
+      "timestamp": "2026-09-01T06:17:30.102Z",
+      "type": "discount"
+    },
+    "steam_discount_1326470": {
+      "title": "Sons Of The Forest",
+      "price": 180,
+      "percent": 70,
+      "timestamp": "2026-09-01T06:17:30.102Z",
+      "type": "discount"
+    },
+    "steam_discount_108600": {
+      "title": "Project Zomboid",
+      "price": 355,
+      "percent": 33,
+      "timestamp": "2026-09-01T06:17:30.102Z",
+      "type": "discount"
+    },
+    "steam_discount_105600": {
+      "title": "Terraria",
+      "price": 112,
+      "percent": 50,
+      "timestamp": "2026-09-01T06:17:30.102Z",
+      "type": "discount"
+    },
+    "steam_discount_264710": {
+      "title": "Subnautica",
+      "price": 199,
+      "percent": 75,
+      "timestamp": "2026-09-01T06:17:30.102Z",
+      "type": "discount"
+    },
+    "steam_discount_648800": {
+      "title": "Raft",
+      "price": 288,
+      "percent": 33,
+      "timestamp": "2026-09-01T06:17:30.102Z",
+      "type": "discount"
+    },
+    "xbox_new_9PHS0189K408": {
+      "title": "Corsair Cove",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-09-01T06:17:30.102Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9P8X6TVW9ZW8": {
+      "title": "Mistfall Hunter",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-09-01T06:17:30.102Z",
       "type": "xbox_new"
     }
   }
