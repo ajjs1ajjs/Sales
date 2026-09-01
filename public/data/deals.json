@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T12:17:01.484Z",
+  "lastUpdated": "2026-09-01T17:06:16.276Z",
   "epic": [
     {
       "id": "8401414902e84f2cb9afa9142f051d32",
@@ -107,19 +107,6 @@
       "isPopular": false
     },
     {
-      "id": "1807120",
-      "title": "Being a DIK - Season 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1807120/b4b05f2b0d8a7157a1470cf2f73a558feb9d2d99/capsule_616x353.jpg?t=1788256738",
-      "originalPrice": 430,
-      "discountPrice": 387,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1807120",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -133,19 +120,6 @@
       "isPopular": false
     },
     {
-      "id": "105600",
-      "title": "Terraria",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/capsule_616x353.jpg?t=1769844435",
-      "originalPrice": 225,
-      "discountPrice": 112,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/105600",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "1623730",
       "title": "Palworld",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
@@ -154,6 +128,19 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "105600",
+      "title": "Terraria",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/capsule_616x353.jpg?t=1769844435",
+      "originalPrice": 225,
+      "discountPrice": 112,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/105600",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -185,14 +172,27 @@
       "isPopular": false
     },
     {
-      "id": "251570",
-      "title": "7 Days to Die",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251570/capsule_616x353.jpg?t=1788209289",
-      "originalPrice": 835,
-      "discountPrice": 459,
-      "discountPercent": 45,
+      "id": "1807120",
+      "title": "Being a DIK - Season 3",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1807120/b4b05f2b0d8a7157a1470cf2f73a558feb9d2d99/capsule_616x353.jpg?t=1788256738",
+      "originalPrice": 430,
+      "discountPrice": 387,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/251570",
+      "url": "https://store.steampowered.com/app/1807120",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2483190",
+      "title": "Forza Horizon 6",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/125ec16733b894a5f60d98e5979ef0c669b131dd/capsule_616x353_alt_assets_3.jpg?t=1787843145",
+      "originalPrice": 2299,
+      "discountPrice": 1954,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2483190",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -6680,6 +6680,21 @@
       "isDiscounted": false
     },
     {
+      "id": "9N51NR4GX891",
+      "title": "Shelldiver",
+      "description": "All aboard the submarine! Shelldiver is an incremental game about a turtle fishing jellyfish and selling them at their little shop. Help our senior protagonist upgrade their equipment, explore various biomes and oceanic depths, and help out their local turtle population – maybe right after a well-deserved nap!\n\nYour primary resource is jellyfish – the favorite meal of these turtles! With your handy bubble gun, you can chase and capture various unique types of jellyfish, each with their own unique spin – and taste, probably – then sell them at your little shop. Electric jellyfishes, mutant amalgamations, hellish jellies who explode when nearby – the more you collect, and the faster you do, the more money you get to invest back into your business!\n\nOn top of the gelatinous creatures, you will also have other types of resources floating about near the ocean floor to scrap for parts! Use your powerful laser blaster to take apart human trash, crystal rocks, mushrooms, and other distinct components, then use them to upgrade your submarine, tools and more.\n\nThe more you collect, progress and explore, the more opportunities you'll get to improve your skills. With a large branching skill tree, you can pick and choose your favorite perks and customize your future expeditions to maximize the things you want most – from your oxygen tank to the size of your shop!\n\nThe ocean is vast, and your clientele is demanding! Unlock and explore various unique biomes – from volcanic waters to crystalline caverns – as well as their varying depths and unique resources. Just don't forget to check your oxygen supply!",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.59813.13976576036437000.15d2217e-0f3f-430d-bd96-a7159bbf5985.ad45259c-69ba-4670-a289-c2efcce781be",
+      "originalPrice": 175,
+      "discountPrice": 140,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9N51NR4GX891",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": true
+    },
+    {
       "id": "9N0WDPMXNHWN",
       "title": "Shift At Midnight",
       "description": "Керувати автозаправкою – нелегка справа: тримайте полиці заповненими, продавайте достатньо товарів, щоб виконати денну норму, приймайте поставки й підтримуйте чистоту в магазині.\n\nА ще не забувайте допитувати кожного клієнта, якого ви обслуговуєте, бо деякі з них не люди, а двійники. Пропустите одного, і він повернеться пізніше протягом тієї ж зміни, щоб убити вас і ваших друзів… Якщо ви впевнені, що перед вами не людина, ліквідуйте на місці. Тільки не забудьте після цього прибрати.\n\nЯкщо ж припуститеся помилки, готуйтеся розставляти пастки, барикадувати двері та ховатися, тому що двійники повертаються у формі жахливих монстрів.\n\nКеруйте своєю автозаправкою \nПоповнюйте полиці, приймайте поставки, підтримуйте чистоту й обслуговуйте клієнтів. Кожна зміна генерується випадково, тому вони ніколи не повторюватимуться.\n\nНе всі клієнти – люди…\nПросто керувати автозаправкою недостатньо – вам доведеться ще й бути детективом. Ви можете поставити кожному клієнту п’ять запитань, перевірити його документи, звірити дані в комп’ютері та спостерігати за поведінкою. Перш ніж відпустити клієнта, переконайтеся, що перед вами людина, інакше він повернеться пізніше…\n\nЗабивайте двері, розставляйте пастки й ховайтеся\nЯкщо хоч одній істоті вдасться покинути магазин, почнеться справжній хаос. Барикадуйте двері, встановлюйте пастки та шукайте укриття. Виживання не гарантоване.\n\nКраще грати з друзями!\nВесь потенціал гри розкривається саме в мультиплеєрі. Працюйте разом або ж принаймні тримайтеся поруч… Проксіміті-чат робить гру ще захопливішою.\n\nОсобливості:\n•\tМультиплеєр\n•\tПроксіміті-чат\n•\tДопит клієнтів\n•\tВипадково згенеровані робочі зміни\n•\tКерування автозаправкою\n•\tКастомізація персонажів",
@@ -9111,13 +9126,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_4108000": {
-      "title": "Machine Party",
-      "price": 169,
-      "percent": 15,
-      "timestamp": "2026-08-02T13:44:30.940Z",
-      "type": "popular"
-    },
     "steam_popular_2001760": {
       "title": "Beast of Reincarnation",
       "price": 1499,
@@ -10727,6 +10735,13 @@
       "percent": 45,
       "timestamp": "2026-09-01T12:16:54.142Z",
       "type": "discount"
+    },
+    "xbox_new_9N51NR4GX891": {
+      "title": "Shelldiver",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-09-01T17:06:10.318Z",
+      "type": "xbox_new"
     }
   }
 }
