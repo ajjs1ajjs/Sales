@@ -27,7 +27,8 @@ async function fetchWithRetry(url: string, options?: RequestInit, retries = 3, d
     if (res) {
       if (res.ok) return res;
       // 4xx — клієнтська помилка (404/400/403): повторювати безглуздо, перериваємо одразу.
-      if (res.status >= 400 && res.status < 500) {
+      // 429 (Too Many Requests) — виняток: це тимчасове обмеження, повторюємо з backoff.
+      if (res.status >= 400 && res.status < 500 && res.status !== 429) {
         throw new Error(`Failed to fetch ${url}: non-retryable client error ${res.status}.`);
       }
       console.warn(`⚠️ Fetch failed for ${url} with status ${res.status}. Attempt ${i + 1} of ${retries}.`);
@@ -696,7 +697,7 @@ async function run() {
                    `📅 Роздача діє до: <b>${formatDate(game.endDate, true)}</b>\n\n` +
                    `🔗 ${storeLink('Забрати гру в магазині', game.url)}`;
       try {
-        await sendTelegramMessage(text);
+        await sendTelegramMessage(text.slice(0, TG_MESSAGE_LIMIT));
         markNotified(`epic_free_${game.id}`, {
           title: game.title, price: 0, percent: 100, timestamp: now.toISOString(), type: 'free'
         });

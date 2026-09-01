@@ -13,8 +13,10 @@ const WishlistContext = createContext<WishlistContextValue | null>(null);
 const isStringArray = (v: unknown): v is string[] =>
   Array.isArray(v) && v.every((x) => typeof x === 'string');
 
+const EMPTY_WISHLIST: string[] = [];
+
 export function WishlistProvider({ children }: { children: ReactNode }) {
-  const [wishlist, setWishlist] = useLocalStorage<string[]>('wishlist', [], isStringArray);
+  const [wishlist, setWishlist] = useLocalStorage<string[]>('wishlist', EMPTY_WISHLIST, isStringArray);
 
   const wishlistSet = useMemo(() => new Set(wishlist), [wishlist]);
 

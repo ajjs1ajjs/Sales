@@ -5,7 +5,7 @@
 [![Deployed to](https://img.shields.io/badge/Deployed_to-Sales-blue)](https://github.com/ajjs1ajjs/Sales)
 [![Website](https://img.shields.io/badge/Website-ajjs1ajjs.github.io%2FSales-green)](https://ajjs1ajjs.github.io/Sales/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![CI](https://img.shields.io/github/actions/workflow/status/ajjs1ajjs/Sales-source/scheduler.yml?label=CI)](https://github.com/ajjs1ajjs/Sales-source/actions)
+[![CI](https://img.shields.io/github/actions/workflow/status/ajjs1ajjs/Sales/scheduler.yml?label=CI)](https://github.com/ajjs1ajjs/Sales/actions/workflows/scheduler.yml)
 
 > **Це репозиторій з вихідним кодом Sales gaming deals tracker.**
 > Готовий продукт деплоїться в: **https://github.com/ajjs1ajjs/Sales**
@@ -19,8 +19,8 @@
 
 [![Website](https://img.shields.io/badge/website-GitHub%20Pages-2563eb)](https://ajjs1ajjs.github.io/Sales/)
 [![Telegram](https://img.shields.io/badge/Telegram-@salesgamesua-2CA5E0?logo=telegram)](https://t.me/salesgamesua)
-[![Version](https://img.shields.io/badge/version-v1.0.1-c084fc)](https://github.com/ajjs1ajjs/Sales/releases)
-[![CI](https://img.shields.io/github/actions/workflow/status/ajjs1ajjs/Sales/scheduler.yml?label=CI)](https://github.com/ajjs1ajjs/Sales/actions)
+[![Version](https://img.shields.io/badge/version-v1.1.0-c084fc)](https://github.com/ajjs1ajjs/Sales/releases)
+[![CI](https://img.shields.io/github/actions/workflow/status/ajjs1ajjs/Sales/scheduler.yml?label=CI)](https://github.com/ajjs1ajjs/Sales/actions/workflows/scheduler.yml)
 
 </div>
 ---
@@ -90,6 +90,13 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/Sales/main/scripts/instal
 bash scripts/install.sh --dev
 ```
 
+```powershell
+# Windows (PowerShell)
+irm https://raw.githubusercontent.com/ajjs1ajjs/Sales/main/scripts/install.ps1 | iex
+# або режим dev-сервера:
+powershell -ExecutionPolicy Bypass -File scripts\install.ps1 -Dev
+```
+
 **Вручну:**
 
 ```bash
@@ -104,7 +111,7 @@ npm run lint    # лінтер
 npm test        # тести
 ```
 
-> **Цільове середовище:** проєкт повністю сумісний із **Ubuntu / Debian** серверами — збірка, тести та деплой у CI працюють на `ubuntu-latest`. Застосунок статичний (PWA), для розгортання `dist/` достатньо будь-якого веб-сервера (nginx, Caddy тощо).
+> **Цільове середовище CI/деплою:** збірка, тести та деплой у GitHub Actions працюють на `ubuntu-latest`. Локальна розробка та встановлення підтримуються і на **Ubuntu / Debian** (`scripts/install.sh`), і на **Windows** (`scripts/install.ps1`). Застосунок статичний (PWA), для розгортання `dist/` достатньо будь-якого веб-сервера (nginx, Caddy тощо).
 
 ## 🔑 Налаштування GitHub Actions
 
