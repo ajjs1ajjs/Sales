@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T15:12:01.991Z",
+  "lastUpdated": "2026-09-02T18:17:00.674Z",
   "epic": [
     {
       "id": "8401414902e84f2cb9afa9142f051d32",
@@ -81,19 +81,6 @@
       "isPopular": false
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1999,
-      "discountPrice": 879,
-      "discountPercent": 56,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "1326470",
       "title": "Sons Of The Forest",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
@@ -102,19 +89,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1326470",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -133,6 +107,32 @@
       "isPopular": false
     },
     {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1999,
+      "discountPrice": 879,
+      "discountPercent": 56,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "1623730",
       "title": "Palworld",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
@@ -146,6 +146,32 @@
       "isPopular": false
     },
     {
+      "id": "2350790",
+      "title": "Moonlighter 2: The Endless Vault",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2350790/27cfe41dfa396d804165ab87a02971d594c21b0c/capsule_616x353_alt_assets_4.jpg?t=1788369976",
+      "originalPrice": 600,
+      "discountPrice": 420,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2350790",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2483190",
+      "title": "Forza Horizon 6",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/125ec16733b894a5f60d98e5979ef0c669b131dd/capsule_616x353_alt_assets_3.jpg?t=1787843145",
+      "originalPrice": 2299,
+      "discountPrice": 1954,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2483190",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "3321460",
       "title": "Crimson Desert Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1788226529",
@@ -154,32 +180,6 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3321460",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "105600",
-      "title": "Terraria",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/capsule_616x353.jpg?t=1769844435",
-      "originalPrice": 225,
-      "discountPrice": 112,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/105600",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "648800",
-      "title": "Raft",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/capsule_616x353.jpg?t=1727184011",
-      "originalPrice": 430,
-      "discountPrice": 288,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/648800",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -4316,8 +4316,8 @@
       "title": "Kiln",
       "description": "Double Fine Productions представляє Kiln — фантастичну гру про гончарів для тих, хто любить і створювати, і руйнувати. Ви отримаєте подвійне задоволення, створюючи чудові речі, а потім розбиваючи їх на дрібні черепки. Створіть свій горщик, покличте друзів і вступіть в команду різнокольорових духів, які б'ються один проти одного в поєдинках на мережевих аренах. Горщики, створені на гончарному колі, стануть бійцями, яких ви поведете у битву.\n \nФорма ваших творінь визначає доступні здібності й ваш стиль гри. Який горщик ви створите — великий чи маленький? Широкий або високий? Що ви виготовите: тацю, глечик, чашку або миску?\n \nНа вас чекає безліч комбінацій різних розмірів і форм, у кожної з яких унікальні здібності й атаки, а також оригінальні, неочікувані стилі гри. Діючи разом, знайдіть найбільш вдалу комбінацію горщиків і стилів гри, щоб пробити ворожу оборону, набрати достатній запас води й погасити полум'я в печі суперників. Чи вистачить таланту вашій команді, щоб створити шлях до перемоги й буквально розбити своїх суперників? По мірі того, як на поле битви накопичується все більше уламків переможених союзників і ворогів, перемога все більше буде залежати від ваших навичок і злагодженої роботи в команді.\n \nПісля перемоги, вирушайте в Горштадт, де ви зможете вдосконалити гончарні навички, прикрасити горщики, надавши їм неповторний вигляд, і поділитися витворами з друзями (а також полюбуватися їхніми шедеврами).\n \nТворіть і руйнуйте разом — обпалювати й розбивати горщики веселіше с друзями. Спілкуйтеся, експериментуйте з глиною й діліться творіннями або вирушайте в мережеві битви й починайте махати глиняними кулаками!\n \nСтаньте майстром гончарної справи — працюйте з реалістичною глиною, створюйте керамічні вироби на гончарному колі й прикрашайте їх, використовуючи різноманітні техніки й інструменти.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.20929.13846114870355423.c6d5bbc2-3a52-4589-8bbf-606749aa483c.baefbe6e-d0f1-4fef-b5b5-5a40b9fffc4d",
-      "originalPrice": 700,
-      "discountPrice": 700,
+      "originalPrice": 281,
+      "discountPrice": 281,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MW53ZKZH168",
@@ -10729,6 +10729,13 @@
       "percent": 0,
       "timestamp": "2026-09-02T15:08:54.382Z",
       "type": "xbox_new"
+    },
+    "steam_discount_2350790": {
+      "title": "Moonlighter 2: The Endless Vault",
+      "price": 420,
+      "percent": 30,
+      "timestamp": "2026-09-02T18:16:53.107Z",
+      "type": "discount"
     }
   }
 }
