@@ -1,22 +1,6 @@
 {
-  "lastUpdated": "2026-09-03T13:09:04.575Z",
+  "lastUpdated": "2026-09-03T18:16:02.935Z",
   "epic": [
-    {
-      "id": "8401414902e84f2cb9afa9142f051d32",
-      "title": "Breathedge",
-      "description": "Survive in outer space! Together with your immortal chicken, discover the truth behind your sudden spaceship crash. Craft tools, pilot vehicles, and even control space stations to survive and explore the wreckage.",
-      "imageUrl": "https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/egs-breathedge-redruinssoftworks-s1-2560x1440-76fd08cd9c2d-2560x1440-783424f6d4a7f32a0e75fc074f2f928e.jpg",
-      "originalPrice": 499,
-      "discountPrice": 0,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/breathedge",
-      "startDate": "2026-08-27T15:00:00.000Z",
-      "endDate": "2026-09-03T15:00:00.000Z",
-      "isFreeNow": true,
-      "isUpcomingFree": false,
-      "isDiscounted": false,
-      "discountPercent": 100
-    },
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
       "title": "Lost Castle: The Old Ones Awaken",
@@ -34,20 +18,36 @@
       "discountPercent": 50
     },
     {
-      "id": "8f1fcf01e32e4fd4b2ae0a9737992760",
-      "title": "Rival Stars Horse Racing : Desktop Edition",
-      "description": "With stunning, realistic horses, an in-depth breeding system, and a range of exciting game modes, Rival Stars Horse Racing offers horse fans the ultimate racing and riding experience. Take the reins and become an equestrian legend!",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-scu1x.jpg",
-      "originalPrice": 459,
-      "discountPrice": 0,
+      "id": "8f80897c0b6e4e678fed08da169d44be",
+      "title": "Castlevania Anniversary Collection",
+      "description": "Konami's Castlevania Anniversary Collection traces the origins of the historic vampire franchise. Included is a unique eBook with details provided by developers, artists and others inspired by the Castlevania legacy which sheds a fresh light into the world of Castlevania.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
+      "originalPrice": 279,
+      "discountPrice": 111.6,
       "currency": "UAH",
-      "url": "https://store.epicgames.com/p/rival-stars-horse-racing-dd09de",
-      "startDate": "2026-08-27T15:00:00.000Z",
-      "endDate": "2026-09-03T15:00:00.000Z",
-      "isFreeNow": true,
+      "url": "https://store.epicgames.com/p/castlevania-anniversary-collection-a61f94",
+      "startDate": "2026-09-03T15:00:00.000Z",
+      "endDate": "2026-09-17T15:00:00.000Z",
+      "isFreeNow": false,
       "isUpcomingFree": false,
-      "isDiscounted": false,
-      "discountPercent": 100
+      "isDiscounted": true,
+      "discountPercent": 60
+    },
+    {
+      "id": "f967cff9761c4198b4e972cfd71e40d7",
+      "title": "Monument Valley",
+      "description": "Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
+      "originalPrice": 187,
+      "discountPrice": 46.75,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/monument-valley-1d99d3",
+      "startDate": "2026-09-03T15:00:00.000Z",
+      "endDate": "2026-09-17T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": false,
+      "isDiscounted": true,
+      "discountPercent": 75
     },
     {
       "id": "b8cc76ce7d6645f0a282b843a072cc78",
@@ -55,11 +55,43 @@
       "description": "ALONE WITH YOU is a sci-fi point-and-click adventure game that tells a rich story about relationships. You're the last survivor of a doomed space colony, trying to escape a planet before it implodes around you.",
       "imageUrl": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-cllc3.png",
       "originalPrice": 184,
-      "discountPrice": 184,
+      "discountPrice": 0,
       "currency": "UAH",
       "url": "https://store.epicgames.com/p/alone-with-you-028a15",
       "startDate": "2026-09-03T15:00:00.000Z",
       "endDate": "2026-09-10T15:00:00.000Z",
+      "isFreeNow": true,
+      "isUpcomingFree": false,
+      "isDiscounted": false,
+      "discountPercent": 100
+    },
+    {
+      "id": "c76046dddcdb43619c33ce0395941033",
+      "title": "Luftrausers",
+      "description": "The skies are aflame and the seas will overflow with wreckage in Vlambeer’s stylish arcade shooter LUFTRAUSERS! Take to the skies in customized fighter planes to battle battleships, submarines, and rival aces for glory, honor, and high scores.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-1mxb1.png",
+      "originalPrice": 184,
+      "discountPrice": 184,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/luftrausers-51e5e9",
+      "startDate": "2026-09-10T15:00:00.000Z",
+      "endDate": "2026-09-17T15:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": true,
+      "isDiscounted": false,
+      "discountPercent": 0
+    },
+    {
+      "id": "e9bb092228f544c582e2c9395fae96f3",
+      "title": "Astral Ascent",
+      "description": "Choose one of four heroes and explore the Garden, an astral prison guarded by 12 powerful mystical bosses: the Zodiacs. Challenge them with dozens of unique spells and faithful friends by your side to unfold the story of this platform roguelite with lightning fast combat.",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-b0gcm.png",
+      "originalPrice": 459,
+      "discountPrice": 459,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/astral-ascent-b33bc2",
+      "startDate": "2026-09-10T15:00:00.000Z",
+      "endDate": "2026-09-17T15:00:00.000Z",
       "isFreeNow": false,
       "isUpcomingFree": true,
       "isDiscounted": false,
@@ -67,6 +99,19 @@
     }
   ],
   "steam": [
+    {
+      "id": "2406770",
+      "title": "Bodycam",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/3b629529870a04b47055d715214e4e3ae7c32fdd/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1788456092",
+      "originalPrice": 700,
+      "discountPrice": 560,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2406770",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
     {
       "id": "4656000",
       "title": "BOMBANANA!",
@@ -76,19 +121,6 @@
       "discountPercent": 38,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4656000",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1326470",
-      "title": "Sons Of The Forest",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
-      "originalPrice": 600,
-      "discountPrice": 180,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1326470",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -107,14 +139,27 @@
       "isPopular": false
     },
     {
-      "id": "2483190",
-      "title": "Forza Horizon 6",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/125ec16733b894a5f60d98e5979ef0c669b131dd/capsule_616x353_alt_assets_3.jpg?t=1787843145",
-      "originalPrice": 2299,
-      "discountPrice": 1954,
-      "discountPercent": 15,
+      "id": "1326470",
+      "title": "Sons Of The Forest",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
+      "originalPrice": 600,
+      "discountPrice": 180,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2483190",
+      "url": "https://store.steampowered.com/app/1326470",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3321460",
+      "title": "Crimson Desert Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1788450739",
+      "originalPrice": 2449,
+      "discountPrice": 1959,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3321460",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -146,32 +191,6 @@
       "isPopular": false
     },
     {
-      "id": "3321460",
-      "title": "Crimson Desert Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1788226529",
-      "originalPrice": 2449,
-      "discountPrice": 1959,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3321460",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1551360",
-      "title": "Forza Horizon 5",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1787677939",
-      "originalPrice": 1199,
-      "discountPrice": 479,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1551360",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "1623730",
       "title": "Palworld",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
@@ -185,14 +204,14 @@
       "isPopular": false
     },
     {
-      "id": "648800",
-      "title": "Raft",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/capsule_616x353.jpg?t=1727184011",
-      "originalPrice": 430,
-      "discountPrice": 288,
-      "discountPercent": 33,
+      "id": "668580",
+      "title": "Atomic Heart",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/capsule_616x353.jpg?t=1786632138",
+      "originalPrice": 1499,
+      "discountPrice": 299,
+      "discountPercent": 80,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/648800",
+      "url": "https://store.steampowered.com/app/668580",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -4283,9 +4302,9 @@
       "id": "9NCJWHHMVHR0",
       "title": "Keeper",
       "description": "Keeper — красива й сюрреалістична мандрівка до інших світів й історія без слів від Лі Петті та студії Double Fine Productions.\n\nНа острові посеред давно загубленого моря стоїть забутий маяк — сплячий, схований у тіні далекої гірської вершини. Та коли навколо нього починають клубочитися й зростатися зів’ялі паростки, він пробуджується. За таємничим покликом і в супроводі жвавої морської пташки, маяк стає героєм зворушливої історії про несподівану дружбу, одіссею загадкових перетворень і неочікувану подорож до самого серця острова — до світів, що виходять за межі розуміння.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.39734.13566978592979529.8c034f7f-7f73-4897-9410-31e1512536ea.b02e8dab-1b34-462a-be12-d50a87f2251d",
-      "originalPrice": 1055,
-      "discountPrice": 1055,
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.16709.13566978592979529.a309a78d-6446-4646-b4cf-5f86cff39735.18c4df6b-8d9d-4a53-81d0-b4698891a1e5",
+      "originalPrice": 700,
+      "discountPrice": 700,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NCJWHHMVHR0",
@@ -6935,6 +6954,21 @@
       "isDiscounted": false
     },
     {
+      "id": "9PPKR9N31BW6",
+      "title": "SpeedRunners 2: King of Speed",
+      "description": "НАСТУПНЕ ПОКОЛІННЯ SPEEDRUNNERS\nУ цьому сиквелі ми хотіли ретельно відтворити унікальний \"стиль SpeedRunners\" у новій ері, зберігши глибину та плинність системи руху, а також її простоту. Окрім цього, King of Speed пропонує високоякісну графіку й покращений мережевий код.\n\nНЕ ЗВОЛІКАЙТЕ!\nSpeedRunners 2: King of Speed — динамічний змагальний платформер і сиквел однієї з найулюбленіших інді-ігор 2010-х років. Обирайте будь-якого персонажа з низки ексцентричних старих і нових супергероїв, і виборюйте перемогу в перегонах з іншими гравцями (до 8 на лобі), у локальному чи онлайн-режимі.\n\nБІЖІТЬ, НАВІТЬ КОЛИ ІНШІ ВПАДУТЬ\nВаша мета — випередити всіх за будь-яку ціну й видертися на перше місце, поки вогняне коло, що постійно стискатиметься, поглинатиме ваших опонентів один за одним. Біжіть так, наче від цього залежить ваше життя, долаючи безліч мальовничих трас у ретрофутуристичному світі, натхненому супергеройською утопією 1960-х.\n\nМАКСИМАЛЬНИЙ ФОРСАЖ\nВибивайте суперників за межі екрана й усувайте конкурентів, застосовуючи такі потужні знахідки, як снаряди, пастки, заморожувальні промені чи золотий гак. Руйнуйте дружбу, розбивайте контролери та приймайте миттєві рішення, щоби стати справжнім Королем швидкості!\n\nБІЖІТЬ У ВЛАСНОМУ СТИЛІ\nВідточуйте власну майстерність у швидкісних перегонах протягом сотень годин. Долучайтеся до відданої спільноти для участі в турнірах, власних змаганнях і підйому в таблицях лідерів, чи створюйте приватне лобі з друзями, щоб розважатися без напруги у PvP-режимі.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.31714.14327242010981927.a5495c37-2e09-4b3f-82a1-e015a8eb734a.6d3e263c-1f8a-4946-9fc2-84b0d9cfd9a8",
+      "originalPrice": 525,
+      "discountPrice": 420,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9PPKR9N31BW6",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": true
+    },
+    {
       "id": "9NG5L58FD3X5",
       "title": "Spiritfarer®: Farewell Edition",
       "description": "Spiritfarer® is a cozy management game about dying. You play Stella, ferrymaster to the deceased, a Spiritfarer. Build a boat to explore the world, then befriend and care for spirits before finally releasing them into the afterlife. Farm, mine, fish, harvest, cook, and craft your way across mystical seas. Join the adventure as Daffodil the cat, in two-player cooperative play. Spend relaxing quality time with your spirit passengers, create lasting memories, and, ultimately, learn how to say goodbye to your cherished friends.\r\n\r\nThe Spiritfarer FAREWELL EDITION is the definitive edition of the award-winning cozy management game about dying. Includes the heartwarming base game beloved by over 1 million players and three major content updates: explore an expanded world and befriend four new spirit friends! See why critics called Spiritfarer one of the Best Games of 2020.",
@@ -9126,27 +9160,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_1478500": {
-      "title": "Big Walk",
-      "price": 336,
-      "percent": 25,
-      "timestamp": "2026-08-04T15:27:40.108Z",
-      "type": "discount"
-    },
-    "steam_popular_1478500": {
-      "title": "Big Walk",
-      "price": 336,
-      "percent": 25,
-      "timestamp": "2026-08-04T15:27:40.108Z",
-      "type": "popular"
-    },
-    "steam_popular_247970": {
-      "title": "Korea. IL-2 Series",
-      "price": 2290,
-      "percent": 0,
-      "timestamp": "2026-08-04T17:43:57.114Z",
-      "type": "popular"
-    },
     "steam_discount_1144200": {
       "title": "Ready or Not",
       "price": 312,
@@ -10727,6 +10740,48 @@
       "price": 0,
       "percent": 0,
       "timestamp": "2026-09-03T13:08:58.893Z",
+      "type": "xbox_new"
+    },
+    "epic_free_b8cc76ce7d6645f0a282b843a072cc78": {
+      "title": "Alone With You",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-09-03T18:15:55.671Z",
+      "type": "free"
+    },
+    "epic_discount_8f80897c0b6e4e678fed08da169d44be": {
+      "title": "Castlevania Anniversary Collection",
+      "price": 111.6,
+      "percent": 60,
+      "timestamp": "2026-09-03T18:15:55.671Z",
+      "type": "discount"
+    },
+    "epic_discount_f967cff9761c4198b4e972cfd71e40d7": {
+      "title": "Monument Valley",
+      "price": 46.75,
+      "percent": 75,
+      "timestamp": "2026-09-03T18:15:55.671Z",
+      "type": "discount"
+    },
+    "steam_discount_2406770": {
+      "title": "Bodycam",
+      "price": 560,
+      "percent": 20,
+      "timestamp": "2026-09-03T18:15:55.671Z",
+      "type": "discount"
+    },
+    "steam_discount_668580": {
+      "title": "Atomic Heart",
+      "price": 299,
+      "percent": 80,
+      "timestamp": "2026-09-03T18:15:55.671Z",
+      "type": "discount"
+    },
+    "xbox_new_9PPKR9N31BW6": {
+      "title": "SpeedRunners 2: King of Speed",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-09-03T18:15:55.671Z",
       "type": "xbox_new"
     }
   }
