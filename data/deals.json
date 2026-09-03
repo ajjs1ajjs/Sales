@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T22:55:34.507Z",
+  "lastUpdated": "2026-09-03T13:09:04.575Z",
   "epic": [
     {
       "id": "8401414902e84f2cb9afa9142f051d32",
@@ -81,19 +81,6 @@
       "isPopular": false
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1999,
-      "discountPrice": 879,
-      "discountPercent": 56,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "1326470",
       "title": "Sons Of The Forest",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
@@ -107,53 +94,14 @@
       "isPopular": false
     },
     {
-      "id": "108600",
-      "title": "Project Zomboid",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1787740093",
-      "originalPrice": 530,
-      "discountPrice": 355,
-      "discountPercent": 33,
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1999,
+      "discountPrice": 879,
+      "discountPercent": 56,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/108600",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
-      "originalPrice": 600,
-      "discountPrice": 420,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3321460",
-      "title": "Crimson Desert Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1788226529",
-      "originalPrice": 2449,
-      "discountPrice": 1959,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3321460",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -172,14 +120,79 @@
       "isPopular": false
     },
     {
-      "id": "2350790",
-      "title": "Moonlighter 2: The Endless Vault",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2350790/27cfe41dfa396d804165ab87a02971d594c21b0c/capsule_616x353_alt_assets_4.jpg?t=1788369976",
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "108600",
+      "title": "Project Zomboid",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1787740093",
+      "originalPrice": 530,
+      "discountPrice": 355,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/108600",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3321460",
+      "title": "Crimson Desert Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1788226529",
+      "originalPrice": 2449,
+      "discountPrice": 1959,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3321460",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1551360",
+      "title": "Forza Horizon 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1787677939",
+      "originalPrice": 1199,
+      "discountPrice": 479,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1551360",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1623730",
+      "title": "Palworld",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
       "originalPrice": 600,
       "discountPrice": 420,
       "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2350790",
+      "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "648800",
+      "title": "Raft",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/capsule_616x353.jpg?t=1727184011",
+      "originalPrice": 430,
+      "discountPrice": 288,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/648800",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -222,14 +235,14 @@
       "description": "Побудуйте найсильніше місто серед усіх королівств завдяки безлічі комбінацій будівель, підрозділів, заклять і розташувань. Скористайтеся хаотичними комбо й потужними підсиленнями, щоб випробувати можливості гри та стати непереможними. Розвивайте своє королівство з використанням стратегічних підходів, готуйтеся до десятків унікальних подій і доводьте всім, що ваше королівство точно витримає будь-які випробування як в одноосібному, так і в асинхронному багатокористувацькому режимах.\n\nБУДУЙТЕ СВОЮ СТОЛИЦЮ\nВід скромного села до величезної цитаделі – ваша столиця набирає підрозділи та збільшує їхню силу. Розширюйте своє королівство стратегічно й будуйте його так, щоб воно пережило будь-які війни та конфлікти.\n\nЗАХИЩАЙТЕ КОРОЛІВСТВО\nМіцні лицарі та чаклуни, смертельні маги та бомбери, натовпи підступних бісів і розумних грибів – десятки підрозділів, якими можна керувати та з якими можна боротися. Накопичуйте золото, щоб найняти тисячі найманців, використовуйте темну магію, щоб піднімати мертвих, і приборкайте природу, щоб знищити своїх ворогів!\n\nЗБЕРІТЬ СВОЮ КОЛОДУ\nКожен з королів має свою унікальну стартову колоду – будівлі, війська та заклинання, а ще ви можете грабувати суперників, які нападають на ваші землі, щоб отримати карти з їхніх колод. Укладіть мир із тими, чиї підрозділи не відповідають вашому стилю гри, і оголошуйте війну королям, чиї сили вам потрібні. Застосовуйте здобуті у ворога карти, щоб розблокувати безліч посилень і модифікаторів для створення непереможної армії.\n\nКЕРУЙТЕ НА СВІЙ ЛАД\nАсинхронний багатокористувацький режим занурює вас у протистояння з вісьмома королівствами, щоб визначити, яке зможе протриматися найдовше. Підкоріть рейтинг, доведіть свою першість серед королів і налаштуйте зовнішній вигляд за допомогою косметичних елементів, отриманих за щоденні завдання й медалі. \n\nУ режимі завдань ви проходитимете унікальні випробування, що ламають звичні механіки, на просторах світу, де доведеться протистояти іншим королям за право володіти їхніми коронами.\n\nУ нескінченому режимі вам доведеться, вибравши правителя, відбивати нескінченні атаки ворожих королів і їхніх наймогутніших воїнів — як довго ви зможете протриматися?\n\nБезліч комбінацій карток — створюйте небачені комбінації та спостерігайте, як величезні армії борються за вашу корону, впевнено давайте відсіч дедалі сильнішим супротивникам чи випробуйте гру на повну й спостерігайте, як усі недруги падають до ваших ніг.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.62983.13735777332261166.5394db02-c668-41cb-a4ca-b8088edda9f3.efb04c97-620f-4bde-967a-bd62fa86b702",
       "originalPrice": 299,
-      "discountPrice": 299,
-      "discountPercent": 0,
+      "discountPrice": 149.5,
+      "discountPercent": 50,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NNM7PKZN3JF",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NGLST31DG26",
@@ -327,14 +340,14 @@
       "description": "Aerial_Knight’s Dropshot is a fast, stylish action shooter that throws you straight out of a plane and into the chaos. Take out enemies, dodge wild traps, and make it to the ground first. Filled with finger blasting, Dragons, Powerups, and a bunch of stuff trying to take you down midair. Don't let anything get in your way of becoming a legend! Just try to look cool & land in one piece!\n\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.19945.14572770853787241.e8f60c1b-bd5c-4119-9516-47ceec4ed732.e51f52b9-10c9-4f67-abef-3967dd16b6f0",
       "originalPrice": 700,
-      "discountPrice": 700,
-      "discountPercent": 0,
+      "discountPrice": 140,
+      "discountPercent": 80,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P59J86GHDGL",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NJWTJSVGVLJ",
@@ -882,14 +895,14 @@
       "description": "Explore and reshape distant worlds! Astroneer is set during the 25th century Intergalactic Age of Discovery, where Astroneers explore the frontiers of outer space, risking their lives in harsh environments to unearth rare discoveries and unlock the mysteries of the universe.\r\n\r\nOn this adventure, players can work together to build custom bases above or below ground, create vehicles to explore a vast solar system, and use terrain to create anything they can imagine. A player’s creativity and ingenuity are the key to seeking out and thriving while on exciting planetary adventures! In Astroneer you can:\r\n\r\n•Reshape the ground under your feet as though it were made of clay.\r\n•Survive on and explore carefully crafted planets that can be entirely deformed and traversed.\r\n•Snap together components and objects to build bases and vehicles.\r\n•Play with friends in 4 player online drop-in/drop-out co-op.\r\n•Discover and uncover the mysteries of the solar system\r\n\r\n•••Deform & shape everything around you•••\r\nIn Astroneer, players use their deform tool to dig, collect, shape and build anything they wish. Use this ability to dig to the center of the planet, build a ramp into the sky, or make megaliths just by using terrain! \r\n\r\n•••Explore an entire solar system•••\r\nOur vast solar system includes 7 wondrous planets that players can travel between and explore every inch of, from the entire spherical surface, through treacherous layers of caves, all the way down to mysterious the core. Each of those planets has unique and challenging surface and cave biomes that offer a multitude of challenges for players on their journey.\r\n\r\n•••Customize & build on the fly••• \r\nItems that Astroneers craft and find in the world can be snapped and connected together to create unique creations for any situation. Customize and decorate your bases, vehicles, and Astroneer.\r\n\r\n•••4 Player co-op•••\r\nAstroneer is better with friends. Group up with other players and work together to create massive industrial bases or to create fun games in the extensive creative sandbox. \r\n\r\n•••Survive & harness the power of the planets•••\r\nOnce Astroneers are ready, they may choose to attempt to understand and possibly harness the power behind mysterious structures found in the world.\r\n\r\nAstroneer began as a Game Preview title and would not be here today if not for your support, feedback, and ideas throughout that process. Now that we have hit 1.0 we will keep our pledge to continue building on the foundation that is Astroneer with free, ongoing content updates. If you're curious about the direction we're aiming for, be sure to go check out our roadmap, and our development vlogs to keep updated on what we are working on!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.54149.13510798887933723.57e43f19-4066-429e-b1a2-caea56e427b4.dcf4a36f-b6bf-4cbd-809f-f4dfd75f32b9",
       "originalPrice": 479.99,
-      "discountPrice": 479.99,
-      "discountPercent": 0,
+      "discountPrice": 119.99,
+      "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NBLGGH43KZB",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NC4WDL5KZBL",
@@ -897,14 +910,14 @@
       "description": "A survival-action game inspired by real-life events, Atomfall is set five years after the Windscale nuclear disaster in Northern England.\nExplore the fictional quarantine zone, scavenge, craft, barter, fight and talk your way through a British countryside setting filled with bizarre characters, mysticism, cults, and rogue government agencies.\nFrom Rebellion, the studio behind Sniper Elite and Zombie Army, Atomfall will challenge you to solve the dark mystery of what really happened.\nPlayer Driven Mystery: Unravel a tapestry of interwoven narratives through exploration, conversation, investigation, and combat, where every choice you make has consequences.\n\nSearch, Scavage, Survive: You’ll need to scavenge for supplies, craft weapons and items, and fight desperately to make it out alive!\n\nDesperate Combat: With weapons and ammunition scarce, each frenetic engagement will see you blend marksmanship with vicious hand-to-hand combat. Manage your heart rate to hold a steady aim and ensure you have the energy you need to reach for your cricket bat and land the killer blow.\n\nGreen and Unpleasant Land: The picturesque British countryside, with rolling green hills, lush valleys, and rural villages belie the dangers that await you. Navigate cult-controlled ruins, natural caves, nuclear bunkers and more as you explore this dense, foreboding world.\n\nReimagining Windscale: A fictional reimagining of a real-world event, Atomfall draws from science fiction, folk horror, and Cold War influences to create a world that is eerily familiar yet completely alien.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.15012.13575061151050973.cebfa75f-b2f4-4dde-99fa-c709bab904af.a2bea58d-f1fe-4201-895c-59870cfa2c80",
       "originalPrice": 1540,
-      "discountPrice": 1540,
-      "discountPercent": 0,
+      "discountPrice": 616,
+      "discountPercent": 60,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NC4WDL5KZBL",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N21G14CVS5L",
@@ -1287,14 +1300,14 @@
       "description": "Час приєднатися до пригод родини Хілерів! На вас чекають нові персонажі, мініігри, колекційні предмети та цікаві знахідки. \n\nПриєднуйтесь до Блуї, Бінго, Мами, Тата, а також до Маффін і дядька Страйпа та вирушайте у захопливі пригоди в добре знайомих локаціях. Обирайте свого улюбленця, вдягайте кумедний костюм і вперед! Побігайте по будинку Хілерів у мильній шапці, прогуляйтеся до струмка в стильному рушнику на голові чи шукайте тематичні колекційні предмети, як-от фламінго чи ракетки.\n\nАле це ще не все! Виконуйте кумедні завдання разом із Дідусем, тіткою Тріксі та Бабусею, щоб отримувати нові костюми, іграшки, трофеї та сторінки для книги спогадів. Спробуйте пограти у вже відомі «Утримай кульку», «Схованки з Чаттермаксом» та «Підлога — це лава» за новими правилами.\n\nЗручне керування, швидкий доступ до меню та легкість у перемиканні між іграми задовольнять навіть найменших гравців!\n\nГрайте наодинці або з друзями чи родиною — насолоджуйтесь чарівним світом Блуї разом!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.32031.13951667472045163.3fb7085f-1bf8-4c11-9c65-272ecae540f9.28866731-4d9a-4a70-83ab-f6589703706e",
       "originalPrice": 1055,
-      "discountPrice": 633,
-      "discountPercent": 40,
+      "discountPrice": 1055,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N2J0FGV30DX",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P66TM1HLGLX",
@@ -1542,14 +1555,14 @@
       "description": "Enjoy a unique open world fishing experience\nFeel the thrill and challenge of landing Legendary fish species as you embark on your journey to become a master angler. From the creators of theHunter: Call of the Wild, The Angler delivers nature’s most breathtaking backdrops with true-to-life settings in an authentic fishing experience. Enjoy complete freedom to fish, explore, and relax on your own in solo mode or with friends in online co-op multiplayer mode.\n\nDiscover a variety of fish species\nEach lake, river, and pond offer unique challenges, most notably to find the most impressive catches. With an array of fish species occupying these waters, this is your chance to explore the depths where every species holds its own behaviors and traits. Observe their preferences in bait and strategize to outsmart their attempts to evade your tactics.\n\nChoose from a range of rods, reels, and lures, and combine them to entice the fish to bite. Make your catch in style by customizing your gear and apparel to fit your fishing finesse. Complete missions and reel in the rewards to tailor your tacklebox to your liking.\n\nRide the open waters and fish with friends\nPlay with or compete against up to 11 other Anglers. Create fishing parties and share your secret hotspots to increase your chances of snagging a Diamond catch! Relish a variety of challenges as you travel unrestricted by boat, off-road 4x4 vehicle, or on foot, and discover the perfect fishing spot to relax and unwind.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.45160.13546622578028181.ca6f2004-2229-49ec-83ec-b4fad4124702.b12d600b-c714-4997-9683-ecba7e266c5a",
       "originalPrice": 760,
-      "discountPrice": 760,
-      "discountPercent": 0,
+      "discountPrice": 190,
+      "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NDC5LJS839S",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NH019ZFFHTV",
@@ -1647,14 +1660,14 @@
       "description": "Clone Drone in the Danger Zone is a robot voxel slice-em-up where any part of your body can be sliced off. With your mind downloaded into a robot gladiator, you must survive the sinister trials of the arena.\r\n\r\nSingleplayer Game Modes:\r\n   • Story Mode - One part epic tale of human defiance, another part laser swords.\r\n   • Endless Mode - Challenge yourself to fight through 86 level variants spread across 7 difficulty tiers. Can you make it to TITANIUM?\r\n   • Challenge Mode - Bow-only, hammer-only, can you still survive the arena?\r\n\r\nMultiplayer Game Modes:\r\n   • Last Bot Standing - A Battle-Royale-like game mode with short, 5-10 minute play sessions and up to 15 players. Survive, and shower in the remains of your fellow robot competitors.\r\n   • Private Duels - Challenge your friend to a 1v1 duel!\r\n   • Online Co-op! - Use the power of human friendship (and laser swords!) to survive in the arena!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.63442.13656707570024266.6eb12281-8416-458c-8123-d1d704e3a0c1.dab1e435-5e21-4bba-b3dd-4852c5fb6e42",
       "originalPrice": 605.99,
-      "discountPrice": 605.99,
-      "discountPercent": 0,
+      "discountPrice": 121.19,
+      "discountPercent": 80,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NKHKBQJSSC3",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P8V7HR160B4",
@@ -1707,14 +1720,14 @@
       "description": "Construction Simulator повернувся ще більшим та масштабнішим, ніж раніше! Втілюйте в реальність ваші мрії про успішну кар'єру будівельника, заснувавши з нуля власний бізнес за допомогою наставника Хейпа. Беріться за цікаві проекти різного масштабу і з різними вимогами, щоб заробити гроші, за які можна додати ще більш потужні машини у ваш парк. На шляху до вершин бізнесу вам зустрінеться безліч клієнтів, кожен з яких максимально випробує усі ваші навички та вміння. Будьте готові показати себе з найвигіднішої сторони, поки ви беретеся за різні випробування у цій динамічній і незвичайній пригоді!\n\nПочніть свій бізнес на двох окремих мапах, натхненних ландшафтами в США та Німеччині. Кожна з них пропонує власну кампанію, що допоможе вам піднятися по сходах успіху. Friedenberg створено схожим на мальовничі міста Південної Німеччини з низькими пагорбами та зеленими берегами річок. Тут вашою метою стануть допомога у створенні альтернативної енергетики та покращення міської інфраструктури. Крім цього ви знайдете безліч побічних завдань, що допоможуть вам випробувати усі наявні машини та обладнання. Sunny Haven, з іншого боку, є типовим портовим американським містом, яке вам доведеться повністю оновити, щоб зробити його привабливим для туристів. Разом на обох мапах вас чекає більше 90 захопливих контрактів, тож вам ніколи не буде нудно!\n\nПовертайтесь до будівництва з машинним парком, розміру якого можна лише позаздрити! Обирайте з більш ніж 80 машин від офіційних ліцензованих партнерів, кожна з котрих ретельно копіює оригінал. Вас чекають яскраві та потужні машини, серед яких будуть як знайомі з минулих частин гри, так і повністю нові. Те ж саме можна сказати про їх виробників: на додаток до таких добре відомих партнерів Construction Simulator, як Atlas, BELL, Bobcat, Bomag, CASE, Caterpillar©, Kenworth, Liebherr, MAN, Mack Trucks, Meiller-Kipper, Palfinger, Still та Wirtgen Group, у вас буде можливість випробувати машини від Benninghoven з Wirtgen Group, CIFA, DAF, Doosan, Nooteboom, Scania, Schwing Stetter та Wacker Neuson. А ще під час створення персонажу ви зможете обрати ліцензоване захисне спорядження від нашого нового партнера Engelbert Strauss.\n\nГадаєте, це все? Аж ніяк: оновлення, що робилися для Construction Simulator після його виходу, містили не тільки виправлення, але й додатковий безкоштовний вміст. Саме так до гри потрапило кілька нових машин, серед яких інноваційний колісний екскаватор EW100 від Wacker Neuson та практична сервісна машина для заправки та ремонту. На додаток завдяки Wacker Neuson EW100 та Wacker Neuson ET145 ви зможете обирати необхідні інструменти для швидкої адаптації до неймовірних випробувань на будмайданчику. Система міжплатформної гри для ПК та консолей підтримує голосову бесіду, що зробить гру з друзями ще цікавіше. Передавати свій настрій можна і особливими емоціями персонажів — розкрийте себе світу!   ще у оновленнях на вас чекають нові функції та інструменти, як то перероблений ґрунт, підвищена місткість гаражу чи зручний новий ліхтарик. Крім того, ми не хочемо, щоб ви нудьгували, виконуючи одні й ті ж завдання, тож додали у гру повністю нову туристичну зону, а також різноманітні сезонні контракти. \n\nПоєднуючи базову гру і всі оновлення, Construction Simulator пропонує вам більш ніж 100 контрактів, більше 90 будівельних машин, а ще майже безмежне задоволення від будівництва, яким можна насолоджуватися в компанії до трьох друзів в багатокористувацькому режимі. Звучить непогано! Ну то чого ж ви чекаєте? GET TO WORK!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.63130.13712624405302534.e55738fd-2c3b-455f-a5a8-9e7ddcadb7c8.6f37dc5b-6f88-4f2b-936a-51ebe294a762",
       "originalPrice": 1055,
-      "discountPrice": 1055,
-      "discountPercent": 0,
+      "discountPrice": 348.15,
+      "discountPercent": 67,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NLFZVMSQ7CC",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P7LVXNVQ6K7",
@@ -1947,14 +1960,14 @@
       "description": "This is your Story\n\nDayZ is a hardcore survival game where players must strive to endure a post-apocalyptic world populated by frenzied infected and other survivors.\n\nDayZ includes – the original map of Chernarus – and Livonia Terrain.\n\n\n\nChernarus – The iconic DayZ terrain, set in the post-soviet state of Chernarus and encompassing 230 km2 of hand-crafted environment based on real life locations.\n\n\n\nLivonia – The dense 163 km2 map lets players experience the hardcore survival hit in a whole new environment. Players can put their survival skills to the test by venturing into the unfamiliar land of Livonia, and seeing just how long they can last in this deadlier-than-ever world.\n\nDayZ is a hardcore open-world survival game with only one rule: stay alive, no matter what. But with a myriad of threats lurking around every corner, that might be easier said than done...\n\n\n\nKey Features:\n\nWith no checkpoints or saves, when you die, you lose everything and have to start over.\nComplex and authentic survival mechanics, including hunting, crafting, building, health preservation, and resource management.\nUnpredictable and often emotional interactions with other players leading to a limitless spectrum of emergent gameplay.\nA huge 230 km2 map with a variety of beautiful landscapes and landmarks based on real-life locations.\nUp to 60 players striving to survive by any means necessary. Make friends, kill on sight, kidnap strangers and bend them to your will, or be betrayed for a can of beans. Anything and everything is possible.\nAn array of environmental threats that will test your capabilities. From erratic weather and dangerous wildlife to pitch-black nights and rage-induced infected.\n\n\nEnter Livonia. Teeming with wildlife, ruins, and hidden locations, Livonia offers 163 km2 of fields, forests, and mysterious landscape - a unique new experience that will appeal to newcomers and DayZ veterans alike.\n\n\n\nExplore the land. An exciting variety of undiscovered locations awaits the brave and adventurous. Explore murky swamps, abandoned hunting cabins, sawmills and deforested areas, as well as massive quarries containing stashes of leftover explosives.\n\n\n\nFollow the bear. Livonia's food supply is scarce. If you want to survive, you'll have to learn how to hunt, fish, and forage in the unforgiving wilderness. Luckily, the land appears to be more alive now than it ever was before the apocalypse.\n\n\n\nDiscover the secret. Venture south and find the hidden entrance that leads to a mysterious underground complex. Make sure you're with a friend while you look for a way in. And don't forget to bring some supplies, especially a flashlight. Otherwise you might get lost in the darkened maze of corridors awaiting all who enter.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.7566.69886306496288395.3699bb4a-83a0-4ce6-b5b0-ffeae2db7441.03cb28c2-4203-40bb-a29a-521ce20cf129",
       "originalPrice": 1405,
-      "discountPrice": 1405,
-      "discountPercent": 0,
+      "discountPrice": 702.5,
+      "discountPercent": 50,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/BSR9NLHVF1KL",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NMS4SFNBGBH",
@@ -2277,14 +2290,14 @@
       "description": "Let Loose\r\nWhilst respecting the heritage and retaining the DNA of the franchise, DIRT 5 writes a new chapter in the legacy of DIRT – bolder and braver than ever before. New features, new innovations and a fresh approach make DIRT 5 a hub of off-road racing, style and culture, where you can constantly create highlight-reel moments.\r\n\r\nBlaze a Trail Across the Globe\r\nTake a trip around the world to and race on over 70+ unique routes across 10 different global locations in stunning, dynamic environments. From racing on the frozen East River in New York, to under the Christ the Redeemer in Brazil, to shining by the Northern Lights at Norway, take on opponents, the terrain and extreme, everchanging conditions.\r\n\r\nPush The Limits with Incredible Cars\r\nGet behind the wheel of an eclectic and exciting roster of cars. Conquer the toughest of terrain with boulder-beating machines, take iconic rally cars to new locations, or feel the power of 900bhp sprint cars. Rallycross, GT, unlimited trucks, buggies and muscle cars complete the ultimate off-road garage.\r\n\r\nOwn the Spotlight in a Star-Studded Career\r\nUnder the tutelage of an icon, all eyes are on you to become the new star of an amplified world of off-road racing. Earn sponsorships and unique rewards, conquer all locations, and take on a fierce rival in our biggest ever Career.\r\n\r\nCompete or Co-Operate in Off-Road Action\r\nLocal split-screen up to four players on offline modes, including Career, makes DIRT 5 the perfect couch multiplayer racing game as you battle for position with your friends. Online, throw down in curated race playlists for up to 12 players, and compete in innovative objective-based modes. \r\n\r\nCreate, Share and Discover with Playgrounds\r\nFor the first time in a DIRT game, you can now create your own Gymkhana, Smash Attack and Time Attack challenges and share them online with friends and the DIRT community.\r\n\r\nGame leverages Smart Delivery allowing access to both the Xbox One title on 3rd November and the Xbox Series X|S title on 10th November.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.43063.14216887906907763.f147e9dc-f500-4358-91e8-68c6906fcc18.7a1b601c-5b4b-4b4a-a95c-28309baf099d",
       "originalPrice": 1795,
-      "discountPrice": 538.5,
-      "discountPercent": 70,
+      "discountPrice": 1795,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PJGM0T0827V",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NTRS771L8HL",
@@ -2292,14 +2305,14 @@
       "description": "Winner of 3 BAFTAs, The Game Awards, DICE, Game Developers Choice Awards, South-by-Southwest, Dreamhack, and many more.\r\n\r\nPC Gamer - Game of the Year 2019, Gamespot - Highest Rated Game of 2019, IGN - Best PC Exclusive 2019, Metacritic - Absolute Must Play of 2019.\r\n\r\n\r\nFeatures  –\r\n\r\nUnprecedented freedom of choice.\r\nIntimidate, sweet-talk, resort to violence, write poetry, sing karaoke, dance like a beast or solve the meaning of life. Disco Elysium is the most faithful representation of desktop role playing ever attempted in video games.\r\n\r\nCountless tools for role playing.\r\nMix and match from 24 wildly different skills. Develop a personal style with 80 clothes items. Wield 14 tools from guns to flashlights to a boombox, or pour yourself a cocktail of 6 different psychoactive substances. Develop your character even further with 60 wild ​thoughts ​to think – with the detective’s Thought Cabinet.\r\n\r\nA revolutionary dialogue system with unforgettable characters.\r\nThe world is alive with real people, not extras. Play them against each other, try to help them, or fall hopelessly in love. Disco Elysium’s revolutionary dialogue system lets you do almost anything.\r\n\r\nCarve your unique path across the city.\r\nExplore, manipulate, collect tare, or become a millionaire in an open world, unlike anything you’ve seen before. The city of Revachol is yours for the taking, one small piece at a time. From the streets to the beaches – and beyond.\r\n\r\nHARD BOILED, HARD CORE\r\n​Death, sex, taxes, and disco – nothing is off the table. Revachol is a real place with real challenges. Solve a massive murder investigation, or relax and kick back with sprawling side-cases. The detective decides – the citizens abide.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.13059.14408364206805299.680b8485-72a0-44c2-a023-110b7219cc2c.fef3fe4f-2be6-4467-8100-33c170e5bedf",
       "originalPrice": 1235.99,
-      "discountPrice": 1235.99,
-      "discountPercent": 0,
+      "discountPrice": 308.99,
+      "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NTRS771L8HL",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9MW4RJDRSF78",
@@ -2397,14 +2410,14 @@
       "description": "Donut County is a story-based physics puzzle game where you play as an ever-growing hole in the ground. Meet cute characters, steal their trash, and throw them in a hole.\r\n\r\nWhere Trash is Treasure\r\nRaccoons have taken over Donut County with remote-controlled trash-stealing holes. You play as BK, a hole-driving raccoon who swallows up his friends and their homes to earn idiotic prizes. \r\n\r\nWhen BK falls into one of his own holes, he’s confronted by his best friend Mira and the residents of Donut County, who are all stuck 999 feet underground… and they demand answers!\r\n\r\nThe Hole Keeps Growing\r\n• EXPLORE every character’s home, each with their own unique environment.\r\n• MOVE the hole to swallow up their stuff, growing bigger each time.\r\n• COMBINE objects inside for crazy effects: cook soup, breed bunnies, launch fireworks, and more.\r\n• CATAPULT things back out of the hole. You can use it to solve puzzles...or just destroy stuff.\r\n• DEVOUR everything. The hole won’t stop until the whole county is all gone.\r\n \r\nDonut County was created by Ben Esposito, designer on What Remains of Edith Finch and The Unfinished Swan. It is the result of six years of solo development, dozens of donuts (for research), and one fateful encounter with a raccoon.\r\n\r\nThe PC version of this game does not support Xbox Live",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.29308.14011542784181932.80ac6320-df7b-4be6-9355-e9083a5d2063.7453474c-587b-4024-ad6d-a785d30d7fc4",
       "originalPrice": 325,
-      "discountPrice": 325,
-      "discountPercent": 0,
+      "discountPrice": 97.5,
+      "discountPercent": 70,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N6V2181GHLM",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P46M5JQ2PTF",
@@ -3522,14 +3535,14 @@
       "description": "Generation Zero is set in the familiar but hostile open world of Östertörn, Sweden. Your once peaceful home has now been overrun by mysterious, deadly machine enemies. You must choose your battles wisely as you engage in adrenaline-pumping guerilla combat against the mechanical forces.\n\nExplore a Hostile Open World\n\nExplore a huge map inspired by the Swedish Cold War era where danger lurks on every street, in every patch of forest and deep inside every bunker.\n\nWage Guerilla Warfare\n\nEngage in tense battles against sophisticated and deadly machines. Take them on solo or together with up to three friends. Can you outsmart a relentless enemy designed to hunt you down?\n\nGrow Stronger\n\nGrow stronger as you gain experience fighting back against the machines. Scavenge parts from your fallen enemies and use them to craft equipment, weapons and ammunition. Build and fortify your own bases across the island and start taking back your home!\n\nUncover the Mystery Behind the Machines\n\nDiscover the truth behind what really happened to the region of Östertörn.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.18399.65743914527603622.b98c7b82-aeb0-44e7-8071-19a17867fd8c.d4c19546-885f-4094-9e7b-35453dc31596",
       "originalPrice": 760,
-      "discountPrice": 760,
-      "discountPercent": 0,
+      "discountPrice": 152,
+      "discountPercent": 80,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/C20WW4W29FQ1",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9MWGGC7JH35B",
@@ -3927,14 +3940,14 @@
       "description": "Нова частина легендарної серії Heroes of Might and Magic поєднує стратегічне будівництво держав, грандіозні покрокові битви та глибоку рольову механіку у світі з фантастичними істотами, могутніми чаклунами та безстрашними героями. Досліджуйте яскравий світ, повний таємниць і небезпек, у масштабній сюжетній кампанії, що передвіщує лихо, або підкорюйте процедурно згенеровані та користувацькі мапи, будуйте прекрасні міста та збирайте величезні армії міфічних істот для перемоги над ворогами.\n\nHeroes of Might and Magic: Olden Era створена і для ветеранів серії, і для тих, хто тільки знайомиться з цим світом. Вона базується на найкращих стратегіях усіх часів і пропонує безліч режимів – як класичних, так і зовсім нових – для одиночної гри та мережевих битв із друзями.\n\nПРИЙМІТЬ КОМАНДУВАННЯ\nОберіть одну з шести могутніх фракцій, щоб керувати нею в фантастичному світі, де хоробрі герої ведуть за собою на битву армії могутніх воїнів і магічних істот. Кожна фракція має власний унікальний набір бойових загонів і героїв – від закутих у броню лицарів Храму та стихійних духів Пралісу до вогнедишних драконів Підземелля та піднятих мерців Некрополіса.\n• Кожна фракція в Olden Era має великий вибір унікальних істот, з якими можна створити власний стиль гри за своїми тактичними уподобаннями. Чи оберете ви армію смертоносних, але вразливих вампірів та лічів, здатних з кожною атакою витягувати силу з ворога та поглинати життя, щоб відроджувати полеглих воїнів? Чи віддасте перевагу таким міцним бійцям, як благородні грифони зі здатністю контратакувати кілька разів, або ж лицарі з могутніми атаками? Використовуйте активні та пасивні здібності, щоб телепортувати війська далі, ніж звичайна відстань їх руху, викликати на поле бою додаткові сили, заважати ворогу використовувати чари чи здібності, або ж інакше повернути хід битви на свою користь.\n• Будуйте у своїх містах необхідні споруди, щоб наймати та покращувати війська, перетворюючи їх на грізну силу. Або шукайте на глобальній мапі житла, щоб залучити істот інших фракцій до своєї армії, відкриваючи нові можливості та синергії для перемоги над ворогами. \n• Наймайте могутніх героїв, які командують арміями та, набуваючи досвіду, по-різному посилюють вашу державу: один вміє збільшувати швидкість руху армії, другий прискорює війська на полі бою, третій допомагає наймати певних бійців чи приносить важливі ресурси. Понад сто унікальних героїв, які мають свої війська, здібності та чари, забезпечують величезний вибір стратегій.\n\nДОСЛІДЖУЙТЕ ТА ЗАХОПЛЮЙТЕ\nБоріться за панування у процедурно згенерованих світах або на мапах, створених розробниками та гравцями за допомогою ігрового редактора – Heroes of Might and Magic завжди переносить вас у новий недосліджений світ. Відправляйте армії на розвідку невідомої місцевості, де на вас чекають великі можливості та небезпеки, і змагайтеся з ворогами за володіння важливими об'єктами, які допоможуть збудувати міцну економіку. Досліджуйте складний рельєф і різні кліматичні зони, знаходьте гірські проходи, вузькі місця та обхідні шляхи, які сторожать могутні істоти та ворожі армії.\n• Почніть з одного міста, де ви можете споруджувати будівлі, вербувати та покращувати бійців, а також наймати додаткових героїв. Потім вирушайте у світ на пошуки споруд, які можуть принести важливі ресурси, збільшити магічну силу або захист героїв. З обмеженням очок руху кожен ваш вибір на мапі стає важливим: чи поспішити до криниці та поповнити ману героя, вважаючи, що ворог чатує прямо за межами вашого поля зору? Або, можливо, блиск скарбів та пропозиція великої винагороди є більш спокусливими? \n• Ключові точки на мапі захищені сильними арміями, і переможець у цій битві отримає винагороду, яка може привести до перемоги. Завдяки корисним артефактам – від зброї та броні до магічних перснів та амулетів – герої з правильним спорядженням можуть посилити свою початкову армію або ж відкрити несподівані комбінації та синергії.\n• Захоплюйте нові міста, щоб отримувати підкріплення ближче до мінливого фронту, та захищайте їх, розміщуючи гарнізони в їхніх стінах. Розвивайте кожне місто по-різному, щоб забезпечити конкретні потреби кожного фронту та реагувати на загрози у протистоянні з ворогами.\n\nБОРІТЬСЯ ЗА ПАНУВАННЯ\nПоля бою Olden Era стають суворим випробуванням для воїнів і чаклунів, коли звичайні піхотинці стають пліч-о-пліч із гідрами, феніксами, мінотаврами та іншими істотами – чи то як союзники, чи то як вороги. Потужні чари чотирьох різних шкіл магії розривають повітря, коли герої знищують ворогів чи відроджують союзників, щоб повернути хід битви на свою користь.\n• Тактичні покрокові битви Olden Era вимагатимуть від вас стратегічної майстерності. Шукайте потужні комбінації бійців, героїв, що ними командують, та заклинань і артефактів, які вони використовують. Вдала синергія здатна перетворити навіть слабкого скелета-воїна на загрозу, а кмітливий тактик знайде перевагу в несподіваних ситуаціях. Бойова система Olden Era заохочує до розумної агресивності – дальні атаки охоплюють усе поле бою, дистанції миттєво скорочуються, а чари вражають з будь-якої точки.\n• Завдаючи та отримуючи шкоду, ви заробляєте очки фокуса, потрібного для особливих здібностей – посилення атаки, захисту, ініціативи чи швидкості. Кожен боєць пропонує низку цікавих можливостей – наприклад, гробар викликає скелетів, а сарана стрибає до найближчого трупа та підсилюється, пожираючи його. Чи витратите ви дорогоцінний фокус, щоб зцілити поранених бійців за допомогою свого Ієрофанта та утримати їх на полі бою ще кілька вирішальних ходів? Чи, можливо, ваш арбітр зможе зненацька телепортувати потужного союзника в тил супротивника, де він почувався в безпеці, щоб швидко повернути хід битви на вашу користь? Кожен вибір є критично важливим, і якщо ситуація безнадійна, ви завжди можете сплатити ціну та відступити, щоб битися іншого дня.\n\nОбирайте, що вам до душі: нелінійна сюжетна кампанія, битви проти ШІ чи мережеві битви з друзями та незнайомцями в трьох різних ігрових режимах. У Heroes of Might and Magic: Olden Era на вас чекає живий фантастичний світ, де ви знайдете безліч фракцій, великий вибір потужних чарів і здібностей, а також повну свободу для створення власного стилю гри.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.43299.14555346148176053.3c4eeac4-80f2-4a05-b548-e0a6dfdd9587.39eacc85-c477-408a-befb-711d8fbb07e7",
       "originalPrice": 599,
-      "discountPrice": 599,
-      "discountPercent": 0,
+      "discountPrice": 449.25,
+      "discountPercent": 25,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P2TFCCRKMRD",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PBRN7JS4XPC",
@@ -3972,14 +3985,14 @@
       "description": "Щойно закінчивши середню школу, ти без роботи та амбіцій, у тебе насправді нічого немає. Але на Землю напав інопланетний картель, який хоче позбутися людства. Тепер ти з командою харизматичної балакучої зброї повинен врятувати світ і стати найсмертоноснішим міжгалактичним мисливцем за головами. \r\n\r\nПодорожуй різноманітними регіонами та локаціями по всьому космосу, виступай проти мерзенного Гармантуса та його банди головорізів, збирай здобич, зустрічай унікальних персонажів. Це все та багато іншого є в комедійній пригоді Squanch Games!\r\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.62993.13714596773589453.b0e22fc5-f8b4-4b36-b12d-db5d42554c10.af715a88-dc1b-4ec0-95a2-2f8a95c4387f",
       "originalPrice": 1030,
-      "discountPrice": 1030,
-      "discountPercent": 0,
+      "discountPrice": 360.5,
+      "discountPercent": 65,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NL4714VTLRS",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NF6XPSBTTGB",
@@ -4002,14 +4015,14 @@
       "description": "Hogwarts Legacy — рольова гра з відкритим світом, що базується на книгах про Гаррі Поттера. Вирушайте в подорож уже знайомими та новими місцями, знаходьте магічних звірів, індивідуалізуйте персонажа, варіть зілля, опановуйте закляття, поліпшуйте здібності й станьте чарівником або чаклункою своїх мрій.\n\nНа вас чекає Гоґвортс 1800-х. Ви — учень або учениця, що мають ключ до старовинної таємниці, яка може розірвати світ чар на шматочки. Знаходьте союзників, бийтеся з темними чаклунами й вирішуйте долю світу чар. Ви самі створюєте свою спадщину. Проживіть те, чого немає на сторінках книг.\n\nВключає завдання в магазині з привидами, де ви отримаєте доступ до нового підземелля, косметичний набір продавця та магазин у Гоґсміді.\n\nНовинки:\n- фоторежим;\n- скидання очок таланту.\n\nТепер нові косметичні предмети доступні усім: живі окуляри, наряд і плащ в'язня Азкабану, їздовий оніксовий гіпогриф, рецепт зілля Фелікс Феліціс, мітли темного чарівника (2).\n\nЯкщо у вас вже є цифрова версія цієї гри для Xbox One, ви можете придбати цифрову версію Xbox Series X|S зі знижкою.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38223.13814785456466922.0fef76f8-710d-4aca-b42f-c45e536f8d2b.0570d0b7-cf5e-4106-84d7-fa031e67d49f",
       "originalPrice": 1795,
-      "discountPrice": 269.25,
-      "discountPercent": 85,
+      "discountPrice": 1795,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MT5NJ5W7B8Z",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9N116V0599HB",
@@ -4377,14 +4390,14 @@
       "description": "Experience the first ever co-op action-adventure game featuring Lara Croft. Team up with a friend or go at it alone as you traverse and solve deadly traps, fight hordes of undead enemies, and collect over 60 artifacts and relics.  Lara Croft and the Guardian of Light offers fast-paced action and breathtaking visuals shown through an isometric view.\n\nIncludes downloadable content;\n* Raziel and Kain character pack\n* All the Trappings - Challenge Pack 1\n* Things that go Boom - Challenge Pack 2\n* Hazadous Reunion - Challenge Pack 3\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.8065.14375628118106119.0b332df6-8930-4796-a54f-b6a7fba77404.c60741f4-37ad-4b50-833f-b78372f2316c",
       "originalPrice": 265,
-      "discountPrice": 265,
-      "discountPercent": 0,
+      "discountPrice": 39.75,
+      "discountPercent": 85,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NS37Q75LBCG",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "C3553MB4P5TT",
@@ -4392,14 +4405,14 @@
       "description": "Lara Croft and the Temple of Osiris is the sequel to the critically acclaimed Lara Croft and the Guardian of Light. This all-new adventure takes place in the Temple of Osiris, hidden deep in the deserts of Egypt. Lara Croft arrives at the temple, hoping to be the first inside, but rival treasure hunter Carter Bell has beaten her to the entrance. They each seek the Staff of Osiris, but they discover more than they bargained for. Upon entering the tomb, Carter removes the mythical Staff from its resting place and inadvertently triggers a trap cursing them both and unleashing the evil god Set. But the staff also awakens the gods Horus and Isis, the son and wife of Osiris. Now free from their ancient prison, they join forces with Lara and Carter in order to resurrect Osiris, the only god capable of removing the curse. As Lara and her companions fight their way across the sands and through ancient tombs, they will face gods and monsters of myth and legend. With the fate of the world at stake, Lara must uncover the fragments of Osiris to stop Set from enslaving all mankind.\n\nNote: Cross-save and cross-play functionality are not available between Xbox console and Windows PC products",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.28853.66406861093311956.a8c8f515-daa8-479b-af0e-06d27ad9565d.8e2fb0f8-8ac8-4004-8ec8-15afe854860e",
       "originalPrice": 640,
-      "discountPrice": 640,
-      "discountPercent": 0,
+      "discountPrice": 96,
+      "discountPercent": 85,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/C3553MB4P5TT",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PB301R051CQ",
@@ -4632,14 +4645,14 @@
       "description": "Manor Lords – це стратегія, в якій кожен зможе відчути себе справжнім середньовічним лордом. Розвивайте своє початкове селище і перетворіть його на велике галасливе місто, керуйте ресурсами і виробничими ланцюжками та захоплюйте нові землі.\n\nБеручи за основу франконський живопис і архітектуру кінця XIV століття, Manor Lords намагається в усьому дотримуватися історичної достовірності – як в ігрових механіках, так і в зовнішньому оформленні. Звичні середньовічні образи, що стали кліше, поступаються тут місцем історичній точності – все заради того, щоб зробити світ гри реалістичнішим, барвистішим і правдоподібнішим.\n\nОБМЕЖЕНЕ МІСТОБУДУВАННЯ\nManor Lords пропонує вам повну свободу містобудування – обертайте і розташовуйте будівлі, як вам хочеться, у будь-якому місці. В основі будівельної механіки лежать принципи зведення реальних середньовічних міст і селищ, коли утворення і розвиток поселень багато в чому залежали від ландшафту і розташування важливих торгових шляхів.\n\n• Почніть з центрального ринку і поступово розширюйтеся, добудовуючи житлові, торговельні та промислові райони з урахуванням природного ландшафту. Будуйте житниці на родючих ґрунтах, створюйте мисливські угіддя там, де водяться дикі тварини, і забезпечте доступ до деревини та інших ресурсів, необхідних для будівництва та подальшого розвитку.\n• Позначайте зони житлових районів і дивіться, як селяни починають будувати свої будинки у повній відповідності з історичною системою господарювання. Кожна зона буде додатково розділена з урахуванням розташування доріг і виділеного простору, і будинки в них розміщуватимуться відповідним чином.\n• Робіть прибудови позаду великих будинків, щоб мати джерело ресурсів, які не можна отримати іншими способами. Домовласники не просто платять податки – вони вирощують овочі, розводять курей і кіз і забезпечують себе та сусідів усім необхідним на додачу до того, що виробляють ваші житниці, пасовища та мануфактури.\n• Кожен сезон приносить нові можливості та нові випробування: допомагайте своїм людям зі збором врожаю після рясних весняних дощів і з підготовкою до суворих зимових холодів.\n\nУПРАВЛІННЯ РЕСУРСАМИ\nВід черевиків до ячменю, від шкур до меду – в Manor Lords представлено величезне розмаїття продукції та товарів, що відповідають своїй епосі. Матеріали потрібно перевозити й обробляти, а для виготовлення товарів потрібно налагоджувати виробничі ланцюжки. Приготуйтеся вирішувати, що для вас важливіше: задоволення базових потреб ваших підданих або створення предметів розкоші, виробництво товарів на експорт або зброї та обладунків для військових походів.\n\n• Ресурси розкидані по всій карті – і щоб дістатися до них, вам доведеться розширювати свої володіння і розбивати спеціалізовані поселення. Шахтарські колонії забезпечуватимуть вас цінними рудами, а села, що спеціалізуються на землеробстві, скотарстві та полюванні, приноситимуть вам зерно і м'ясо. Ви витратите свій важко зароблений вплив, щоб спочатку придбати багате джерело заліза для своїх ковалів, чи віддасте перевагу регіонам із родючим ґрунтом, які стануть вашою житницею?\n• При цьому безконтрольне розширення матиме негативні наслідки для навколишнього середовища. Під натиском цивілізації олені покинуть ліси, недостатня сівозміна зробить ґрунт менш родючим, а надто активна вирубка дерев призведе до того, що у ваших володіннях не залишиться лісів.\n• Продавайте надлишки товарів мандрівним торговцям або створюйте власні торгові шляхи. Виробництво та експорт якісних товарів принесе вам кошти, за допомогою яких ви зможете покращувати оселі своїх підданих, імпортувати товари, які не можете виробляти самі, і через податки на зазначене багатство наповнюйте власну скарбницю.\n\nСЕРЕДНЬОВІЧНІ БОЇ\nВаші володіння – це лише невеличкий клаптик землі посеред величезної території, і суперництво з сусідніми лордами неодмінно виллється у збройний конфлікт. Коли ви поведете своїх людей у бій, пам'ятайте, що перед вами не витратний матеріал, який можна легко замінити, а ваші улюблені вірні піддані, і кожна смерть на полі бою матиме велику ціну.\n\n• Сусідні лорди також будуватимуть міста й розширюватимуть свої володіння, конкуруючи з вами й часом змушуючи вас діяти. Будуйте замки й захищайте свої володіння, шукаючи можливості напасти на цих лордів-суперників.\n• Навчайте досвідчених дружинників, які битимуться пліч-о-пліч із новобранцями з ополчення. Солдати будуть потрібні як для боротьби з розбійниками, так і для захоплення або захисту територій. За потреби можна навіть скористатися послугами найманців, щоправда коштуватиме це недешево. Чи збиратимете ви ополчення при перших ознаках біди, зупиняючи виробництво, коли селяни візьмуть до рук зброю, або натомість заплатите найманцям зі свого особистого гаманця?\n• Керуйте тактичними битвами в реальному часі, враховуючи втому бійців, погодні умови і стан спорядження. Розташуйте свої війська мудро: за грамотного керівництва навіть мале військо може розгромити ворога, який перевершує числом.\n• Відчуйте ціну війни: навіть якщо ви перемогли, з кожним полеглим солдатом ви втрачаєте жителів свого міста.\n\nГРА РУЧНОЇ РОБОТИ\nЦя гра – творчий задум, розробку якого почала всього одна людина, але який потім переріс завдяки сприянню гравців у повноцінний командний проєкт пристрасних спеціалістів – від програмістів і 2D-художників до ігрових дизайнерів та розробників мап. Ви можете зв'язатися з нами й поділитися своїми думками, ідеями й критикою. Будемо раді вашим відгукам.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.47785.14574664570876265.471d597a-3551-49d3-8539-0d6889ee7e31.14adf253-cf1c-42bd-abe7-d302c1c8de74",
       "originalPrice": 595,
-      "discountPrice": 595,
-      "discountPercent": 0,
+      "discountPrice": 386.75,
+      "discountPercent": 35,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P5F966564FS",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N79TQTZTQQ4",
@@ -4737,14 +4750,14 @@
       "description": "Designed by Pro Red Bull Athlete Matt Jones, MAVRIX is THE ultimate multiplayer open world for riders, with authenticity at the core.\n\nPure creativity. Spanning 100 square kilometres of Downhill race tracks, huge Slopestyle lines and multiple bike parks! Get ready to race or bring your style and creativity to define your own lines.\n\nRide Together with your buddies, discover hidden challenges and join the Pros to hit huge jumps.\n\nGlobal Rankings: Want to be the best? The rankings don't lie. Race hard to unlock rare items and compete for genuine prizes.\n\nAuthentic Physics & Control: Using dual stick controls, independent brake levers and physics based handling/suspension. The MAVRIX physics engine connects you with the bike to balance grip, stomp tricks and ride in your own unique way.\n\nSponsorship puts the life of a professional rider in your hands. Sign and collect contracts to manage your own MTB career.\n\nCustomisation is key. Unlock bikes, clothes and components from real MTB brands to create your dream set-up.\n\nSee you on the mountain!\n\nFull details on the latest status of the game, how you can give feedback and report issues can be found at https://discord.gg/ZmambDFz].\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.28668.14471845286194830.d020df30-4cbe-4cbc-88b5-60f65e890792.e1be86c0-7f04-4b35-ba0f-4f1737699473",
       "originalPrice": 1405,
-      "discountPrice": 1405,
-      "discountPercent": 0,
+      "discountPrice": 702.5,
+      "discountPercent": 50,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NZX67J81X6F",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P9FJCK32PMT",
@@ -4752,14 +4765,14 @@
       "description": "In MECHWARRIOR 5: CLANS, players take on the role of a newly graduated pilot from the Smoke Jaguar cadet program, thrust into the heart of the Clan Invasion of the Inner Sphere during Operation Revival. This pivotal moment in the MechWarrior universe sees players leading a five-mech \"Star\" squad across numerous planets with diverse biomes, engaging in an expansive campaign filled with immersive gameplay and intricate combat encounters. Armed with customizable BattleMechs featuring cutting-edge technologies, players explore a wealth of tactical options and strategic possibilities. The game leverages the power of the Unreal Engine to deliver stunning environmental details and visceral destruction, making every battle against the tyrants of the Inner Sphere an epic experience. As the first Clan-based MechWarrior game in nearly three decades, it combines a captivating narrative with well-crafted characters and moral dilemmas, culminating in a dynamic and adaptive combat experience enhanced by a revamped MechLab, Hardpoint, and OmniPod system.  \n\nMechWarrior 5: Clans supported platforms - Xbox Series X|S and PC",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.42108.14143931878007168.4330aaf2-cbcb-486f-ab36-dfe4d055c2a3.5472a784-d7f6-4dd5-a1fd-c46f757a6734",
       "originalPrice": 760,
-      "discountPrice": 760,
-      "discountPercent": 0,
+      "discountPrice": 380,
+      "discountPercent": 50,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P9FJCK32PMT",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PB86W3JK8Z5",
@@ -4767,14 +4780,14 @@
       "description": "BE YOUR OWN WEAPON OF WAR\r\n\r\nWelcome to the year 3015! It’s a hell of a time to be alive.\r\n\r\nHumanity has colonized thousands of star systems spanning a vast region of space known as the Inner Sphere. The golden age of cooperation and advancement is now a distant memory, and humanity has once again splintered into disparate factions all vying for supremacy. \r\n\r\nIn the midst of these Succession Wars, power hungry Mercenaries like yourself are in a privileged position to capitalize big time. It’s dangerous work but that’s why you’re here, right? If you’ve got an itch to blast, wreck, stomp and go all out ballistic, step inside and become your own weapon of war!  \r\n\r\nNote: MW5 mercs does not support progress synchronization on PC. Progress cloud save is available only between Xbox consoles",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.19363.14123304312086404.1f4060bd-aef3-45c0-923f-5c43523babcd.20fd294e-a538-40a7-b4e8-c23a79faa174",
       "originalPrice": 911.99,
-      "discountPrice": 911.99,
-      "discountPercent": 0,
+      "discountPrice": 364.79,
+      "discountPercent": 60,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PB86W3JK8Z5",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P28J28WGSPZ",
@@ -5097,14 +5110,14 @@
       "description": "Master the Monster Sanctuary!\r\nDelve deep into the Metroidvania inspired world of Monster Sanctuary, explore the expansive lands and call upon your monsters to lend their aid in and out of combat! Use their unique skills to fly, ride and brute force your way through environmental puzzles and precise platforming! The world is yours to traverse as you see fit, are you ready to take on the Sanctuary?\r\n\r\nCollect, Evolve and Battle!\r\nYour quest begins with a choice of an ancient spectral familiar, a wistful monster who will guide your first steps into the sanctuary. They will be by your side as you catch your first of 111 monsters. From here it is up to you to hatch, collect, evolve and train monsters from across the Sanctuary! Each possesses unique abilities and a skill tree for you to customise as your team grows in strength.\r\n\r\nBattle it out in Strategic Combat!\r\nStrategically order your attacks for maximum efficiency, stacking your attacks to deal devastating combos! Try out different team combinations and make use of synergies between your monsters. Encounter formidable foes, endurance challenges and train an unbeatable team!\r\n\r\nClash in PvP battles across the Globe!\r\nFace off in a test of skill and ability in online player vs player! Gather and train monsters, max out their skill trees and take on friends and foes in an epic battle to have the last monsters standing!\r\n\r\nOptional Game modes for more replayability!\r\nAdded with the latest update, you can enable and combine optional Randomizer, Bravery and Permadeath game modes, making every playthrough a fresh and different experience.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.43786.14110383629447010.17706117-8769-46af-985e-db557adb3449.9655d7cb-4193-4988-8af3-060f3123596d",
       "originalPrice": 505,
-      "discountPrice": 505,
-      "discountPercent": 0,
+      "discountPrice": 126.25,
+      "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PBWWQGXVMKC",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NJC29JG70LM",
@@ -5172,14 +5185,14 @@
       "description": "Це в нашій крові!\r\n\r\nВідкрийте для себе відроджений всесвіт Mortal Kombat, створений богом вогню Лю Каном. Mortal Kombat™ 1 починає нову еру культової франшизи з новою бойовою системою, режимами гри та добиваннями!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.23520.14007497573636681.4ee0da90-8866-4e78-bc18-31395aa61837.b1174db2-e914-4970-b730-c587c5135a62",
       "originalPrice": 1285,
-      "discountPrice": 257,
-      "discountPercent": 80,
+      "discountPrice": 1285,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N7271QN4SGB",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P0073G9FW5Z",
@@ -5232,14 +5245,14 @@
       "description": "Have a fun-filled adventure by becoming Peppa Pig’s new friend! \r\n\r\nCreate and dress your character, ring Peppa’s doorbell, and begin a story that’s all up to you Peppa suggests activities everywhere you go – help Daddy Pig find his glasses, follow the animal tracks in the Forest, splash in muddy puddles, and much more! It’s just like being in an episode of the TV show, where all your favorite characters are excited to meet you. From the Beach to the Museum and even Potato City, every playtime is a new experience with your friend Peppa Pig.\r\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.16203.13613420443671332.a6ea2e8e-4acd-4934-b589-2d8cfaba7189.787c1e94-55bb-4581-806d-fc1d213da277",
       "originalPrice": 1030,
-      "discountPrice": 309,
-      "discountPercent": 70,
+      "discountPrice": 1030,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NDJLXD2X2DM",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P9JZZ79KHDK",
@@ -5532,14 +5545,14 @@
       "description": "No Man’s Sky comes complete with all major updates up to and including The Swarm.\n\nInspired by the adventure and imagination that we love from classic science-fiction, No Man's Sky presents you with a galaxy to explore, filled with unique planets and lifeforms, and constant danger and action.\n\nIn No Man's Sky, every star is the light of a distant sun, each orbited by planets filled with life, and you can go to any of them you choose. Fly smoothly from deep space to planetary surfaces, with no loading screens, and no limits. In this infinite procedurally generated universe, you'll discover places and creatures that no other players have seen before - and perhaps never will again.\n\nEmbark on an epic voyage\nAt the centre of the galaxy lies a irresistible pulse which draws you on a journey towards it to learn the true nature of the cosmos. But, facing hostile creatures and fierce pirates, you'll know that death comes at a cost, and survival will be down to the choices you make over how you upgrade your ship, your weapon and suit.\n\nFind your own destiny\nYour voyage through No Man's Sky is up to you. Will you be a fighter, preying on the weak and taking their riches, or taking out pirates for their bounties? Power is yours if you upgrade your ship for speed and weaponry.\nOr a trader? Find rich resources on forgotten worlds and exploit them for the highest prices. Invest in more cargo space and you'll reap huge rewards.\nOr perhaps an explorer? Go beyond the known frontier and discover places and things that no one has ever seen before. Upgrade your engines to jump ever farther, and strengthen your suit for survival in toxic environments that would kill the unwary.\n\nShare your journey\nThe galaxy is a living, breathing place. Trade convoys travel between stars, factions vie for territory, pirates hunt the unwary, and the police are ever watching. Every other player lives in the same galaxy, and you can choose to share your discoveries with them on a map that spans known space. Perhaps you will see the results of their actions as well as your own...",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.43892.68818099466568894.c45f3219-f40b-416f-b0ee-34cb9652410f.b196776d-cfc0-42d6-aec4-1254993e3f08",
       "originalPrice": 1540,
-      "discountPrice": 1540,
-      "discountPercent": 0,
+      "discountPrice": 616,
+      "discountPercent": 60,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/BQVQTL3PCH05",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NBNFBQ546DT",
@@ -5547,14 +5560,14 @@
       "description": "Колись велична Римська імперія переживає крах. Очольте групу громадян, яка вирушила до нових земель, щоб побудувати там Nova Roma – Новий Рим, оплот усього, чим колись славилася імперія. Спершу у вашому розпорядженні буде лише скромне селище. Задобрюйте богів, зводячи розкішні храми, забезпечуйте городян усім необхідним і побудуйте суспільство, яке стане прикладом для всього світу на найближчу тисячу років.\n\nКРАЇНА МОЖЛИВОСТЕЙ\nМудрий містобудівник знає, як отримати максимум користі з земель, що йому дісталися. Зводьте дамби й акведуки, щоб перенаправити річки в штучні водойми. Зверніть увагу, як це впливає на родючість ґрунту і що буде, якщо сезон дощів накриє ваше місто. Шукайте багаті на ресурси місця і налагоджуйте інфраструктуру, щоб перевозити сировину і перероблені матеріали великими незасвоєними територіями. Чи зумієте ви знайти той крихкий баланс, який дасть змогу вашому місту рости у потрібному темпі, чи накличете на себе гнів богів і самої природи?\n\nДРУЗІ, БРАТИ, РИМЛЯНИ\nЗ приростом населення збільшуватимуться і потреби містян не тільки в хлібі та вині, а й у розвагах, освіті та вірі. Саме ви відповідатимете за щастя і безпеку свого народу. Навчайте гладіаторів, ремісників і акторів і спостерігайте, як люди проводять дні у роботі, а ночі – у веселощах.\n\nЗАКОНИ БОГІВ І ЛЮДЕЙ\nРозглядаючи питання оподаткування та запровадження технологічних нововведеннь, не забувайте про вищі сили: зводьте розкішні храми на славу богів, щоб не накликати їхній гнів, а натомість отримати їхнє благословення і забезпечити тривале процвітання Нового Риму.\n\nNova Roma пропонує вам зануритися у вирішення культурних і соціальних питань великого міста з урахуванням особливостей ландшафту, гідродинаміки, погодних умов і постійної загрози божественного втручання. Візьміть у свої руки долю римського містечка і перетворіть його на процвітаючий метрополіс, який витримає перевірку часом!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.53244.13514288515095406.3f7236b5-ddee-4494-adf3-12dbe4be4e57.da54fbd9-d910-472e-a11a-3211e5148bb3",
       "originalPrice": 400,
-      "discountPrice": 400,
-      "discountPercent": 0,
+      "discountPrice": 320,
+      "discountPercent": 20,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NBNFBQ546DT",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N4WHFF9HJ7H",
@@ -5727,14 +5740,14 @@
       "description": "Серія PBA Pro Bowling повертається зі своїм найкращим творінням — PBA Pro Bowling 2026. Це не просто оновлення — це абсолютно нова гра, переосмислена та розроблена з нуля. Проходьте гру у обширному режимі кар'єри з чудовим редактором персонажів або змагайтеся з друзями та суперниками онлайн. Насолоджуйтеся найкращим ігровим процесом з оновленою фізикою куль і кеглів, покращеною імітацією нанесення олії та реалістичним розподілом олії на доріжці. PBA Pro Bowling 2026 пропонує нові режими гри, місця змагань, професіоналів, кулі, щоденні цілі та інше. Це досконала гра про боулінг, в якій є все, що люблять і шанувальники, і звичайні гравці.\nНовітня фізика\nPBA Pro Bowling 2026 — найамбіційніша гра про боулінг усіх часів. Завдяки новітньому рушію гра має приголомшливу графіку, відточену фізику та модернізований ігровий процес, що передає справжні відчуття від цього виду спорту.\nНовий, повністю перетворений режим кар'єри\nНа відміну від того, що було в попередніх частинах серії, тут режим кар'єри перероблено з нуля. Почніть як новачок у лізі рідного міста та пробийтеся на професійний турнір з боулінгу PBA Pro Tour, просуваючись у рейтингу та збираючи нові кулі та спорядження. Оберіть власний шлях: зосередьтеся на традиційних змаганнях із боулінгу чи спробуйте такі цікаві альтернативні режими, як страйк-дербі або кендлпін-боулінг. Просувайтеся від місцевих до національних змагань і станьте новою легендою.\nНові режими гри\nКендлпін-боулінг, дакпін-боулінг, страйк-дербі, випробування зі збиттям окремих кеглів і рулетка способів нанесення олії — усе це свіжі способи урізноманітнити ігровий процес.\nНові захопливі місця змагань\nКатайте кулі в 13 приголомшливих локаціях: від реальних знакових місць, як-от Національний стадіон для боулінгу в Ріно, штат Невада, до вигаданих на кшталт підводного боулінгу. У цьому виданні додано 2 цілком нові майданчики, а всі 11 улюблених місць із минулих ігор повністю перероблено для надання їм напрочуд автентичного й разючого зовнішнього вигляду.\nЗберіть свою колекцію куль\nКожну кулю точно відтворено з урахуванням природних властивостей і матеріалу, тож не знадобиться жодних поліпшень чи купівель у грі. Зберіть ідеальну колекцію, яка пасуватиме під будь-яку з доріжок, просувайтесь у кар'єрі та відкривайте нові кулі. Ви зможете зібрати загалом 272 кулі від улюблених реальних брендів, серед яких 100 нових моделей і досі небачені анімовані кулі, що зроблять колекцію справді унікальною.\nГрайте з профі\nВипробуйте свої сили проти 32 найкращих зірок PBA сучасності, втілених у грі за допомогою новітніх технологій. Киньте виклик легендам і молодим зіркам, зокрема 7 нещодавно доданим персонажам, як-от Пеккі Хенрахан, Ей Джей Джонсон і Кайл Шерман. Подолайте їх усіх і станьте першим.\nОфіційна ліцензія PBA і трансляції з коментарями\nГра PBA Pro Bowling 2026 має офіційну ліцензію від Асоціації професійних боулерів (PBA), а коментує ігри телевізійна команда Роба Стоуна та члена Зали слави Ренді Педерсена.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.14347.14276876348664667.9e0ca272-03d8-4736-b77b-d1224ceb323a.3e098c80-9fc8-48d6-bd57-a281a8ff5168",
       "originalPrice": 1405,
-      "discountPrice": 1405,
-      "discountPercent": 0,
+      "discountPrice": 351.25,
+      "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PJRQHMCFQGS",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9MVPD3Z5N4QL",
@@ -5952,14 +5965,14 @@
       "description": "PlateUp! combines chaotic kitchen and restaurant management with strategic planning and development to create a delightful roguelite dish unlike any other.\r\n\r\nUp to four players build and run a restaurant from scratch, choosing dishes, buying and placing appliances – some of which can be daisy-chained together to create ambitious automatic kitchens – cooking food and serving customers.\r\n\r\nPlayers have free rein to design their restaurant which will expand and develop between shifts – with additional content and challenges unlocked through progression.\r\n\r\nCan you cook, serve and manage your way through 15 hectic days in your restaurant and unlock a brand-new franchise?\r\n\r\nClassic co-op cooking action, with a wide selection of mains, sides, sauces, toppings, desserts, and starters.\r\nChoose your equipment, lay out your kitchen, curate your menu and plate up your dishes.\r\nFrom bubbling soups to sublime salads, tender steaks to hearty pies, there's something for everyone.\r\n\r\nLook after front-of-house: seating customers, delivering orders, and managing patience.\r\nEquip your restaurant to handle the most fickle of customers and deliver them what they need, right when they need it.\r\nCo-operate with your team like a well-olive-oiled machine or build a name for yourself going it alone.\r\nExceed your goals and take your franchise to greater heights at a new location, bringing with you new unlocks and upgrades.\r\n\r\nUpgrade and rearrange your restaurant to your personal taste: when the restaurant closes for the day, the planning begins!\r\nDecide what new equipment to purchase, and place it wherever you want.\r\nWant to go high-tech? Install the turbo-ovens, crank up the conveyors, and make way for the robo-kitchen of the future.\r\nFancy something a little more... fancy? Curate your art collection, fix up that wallpaper, enlist a friend as a maître d' and get ready to provide the culinary experience of a lifetime.\r\n\r\nExceed your goals and start over at your next location, bringing with you new unlocks and upgrades.\r\nTailor your brand towards gourmet dining, or fine-tune your fast food franchise.\r\nEvery restaurant is procedurally-generated with its own climate, customers and conditions.\r\nReturn to your franchise HQ to view your achievements, customise your characters and upgrade your kit, ready for your next adventure!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.57631.14557765520174668.1718d940-8154-42aa-b7e5-83e812dac193.25205be2-f2b8-46d3-889f-4c0bedc93f2e",
       "originalPrice": 505,
-      "discountPrice": 505,
-      "discountPercent": 0,
+      "discountPrice": 151.5,
+      "discountPercent": 70,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P2HHT3VS7MP",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P0NPLQ9P1DB",
@@ -5967,14 +5980,14 @@
       "description": "Ласкаво просимо до Брайтона! Приєднайтесь до лав поліції вигаданого американського міста та зануртесь в поліційні будні. Почавши з квитків за неправильне паркування, з часом ви будете готові взяти на себе справжню відповідальність. Станьте частиною спільноти Брайтона, вивчіть свій район, познайомтесь з його мешканцями та виконуйте свій обов’язок, борючись зі злочинністю. Будьте рішучими, але справедливими: не виходьте за рамки закону, отримуйте досвід і відкривайте нові райони та обов’язки!\r\n\r\nСИМУЛЯТОР ПОЛІЦІЇ: PATROL OFFICERS забезпечить вас роботою з органічним дорожнім рухом та непередбачуваними ДТП й іншими надзвичайними ситуаціями, що трапляться під час вашої зміни. Будьте готові виконати свій обов’язок у будь-який момент! У відкритому світі Брайтона ви самі обираєте, які квартали патрулювати та захищати. Відвідайте три райони, у кожному з яких декілька кварталів. Кожен район унікальний: від багатоповерхівок центру міста до історичних будівель Брікстона. Система Інтуїції вкаже вам на важливі докази під час опитувань свідків, що дозволять вам вирішити справу на місці. Будьте пильними та не пропустіть нічого зі сказаного чи зробленого. Ваші обов’язки — ваша відповідальність!\r\n\r\nВідкрийте нові райони, а з ними — і нові обов’язки Почніть з виписування штрафів за неправильне паркування, але будьте готові до більшого! В живому та цікавому місті вас можуть чекати будь-які неочікуваності. Не дайте наркоторговцям продати свій товар в парку, доженіть та покарайте хуліганів, що розмальовують стіни, зупиніть правопорушників, котрі перевищують дозволену швидкість та навіть розслідуйте ДТП. Будьте готові до всього, від водія автівки, що заблокував дорогу для автобуса, до затримання або арешту підозрюваних. Ваші обов’язки — ваша відповідальність!\r\n\r\nСИМУЛЯТОР ПОЛІЦІЇ: PATROL OFFICERS пропонує два режими: Симулятор для досвідчених гравців, які готові кинути собі виклик, та Казуальний — для тих, хто хоче розслабитись під час патрулювання Брайтона. ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.26344.14523320294659833.0e9cb134-00a8-4d23-9793-93834d8d61ef.749a3894-1367-4657-9f81-cd40abad6530",
       "originalPrice": 760,
-      "discountPrice": 760,
-      "discountPercent": 0,
+      "discountPrice": 250.8,
+      "discountPercent": 67,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P0NPLQ9P1DB",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N7LPX50LSCH",
@@ -6987,14 +7000,14 @@
       "description": "–Застрибуйте за кермо вантажівки на ракетному двигуні, перевозьте вантажі, збирайте здобич і спілкуйтеся з колоритною командою зіркових далекобійників у пронизаній американським духом подорожі по безмежних космічних просторах!\n\nПЕРЕВОЗЬТЕ Й СПІЛКУЙТЕСЯ\n\nМандруйте гіпермагістралями й виконуйте найрізноманітніші завдання, як-от дальні перевезення в умовах дефіциту пального та ризиковані висадки, щоб заробити грошей і розблокувати новий контент.\n\nІ не забувайте виходити в етер за допомогою своєї Сі-Бі-рації для спілкування з колегами по цеху — це чудовий спосіб дізнатися про побічні маршрути й останні чутки.\n\n\nКЕРУЙТЕ Й ОБСЛУГОВУЙТЕ\n\nПідтримувати вантажівку на ходу завжди важко. Основні системи мають працювати, компенсатор сили тяжіння обертатися, а корпус має бути залатаний, щоб не допустити витікання кисню.\n\nПеред рейсом неодмінно зазирніть у крамницю, щоб придбати запасні частини, а також розгляньте варіант модернізації вантажівки в місцевому гаражі. Це допоможе вам безпечно працювати у нестабільних секторах і гарантувати своєчасну доставку.\n\n\nГІПЕРСТРИБОК!\n\nВикористовуйте галактичну мапу, щоб планувати подорож і варп-стрибки, стежте за запасом пального й рівнем потужності.\n\nПрокладіть маршрут, відкиньтеся в кріслі, увімкніть музику й насолоджуйтеся добіркою оригінальних пісень, що поєднують зоряний блюз, галактичний рок і настояну на астероїдах американу. Дорога чекає!\n\nВІД МОНСТРІВ\nStar Trucker — це дитя невеличкої команди Monster and Monster — інді-студії з двох людей, котрі люблять симулятори й усе науково-фантастичне.\n\nЗа підтримки талановитих друзів вони розробили дивовижну гру, наповнену несподіваними викликами й комплексними механіками, що потребують освоєння. Тож пристебніть ремені й вирушайте з ними в довгу подорож!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.41920.13821700683757810.93b2f721-fab5-4d3d-b441-a854a8efa421.b8e20177-867b-4e6f-8eb0-5c6ed474cf75",
       "originalPrice": 640,
-      "discountPrice": 640,
-      "discountPercent": 0,
+      "discountPrice": 256,
+      "discountPercent": 60,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MT19Q3CRMQZ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PK2KH9WR7SB",
@@ -7332,14 +7345,14 @@
       "description": "The long-awaited third game in the groundbreaking SUPERHOT franchise - MIND CONTROL DELETE gives you more insight into the world of SUPERHOT, more story, more signature gameplay. Hours and hours of timeless combat. Keep dancing the slow-motion ballet of destruction for so much longer than ever before. \r\n\r\nYou amass an arsenal of new skills and new weapons. Time moves only when you move. Enemies pour in from every direction. You are in complete control as you shoot, slice, and explode your way through dozens and dozens of increasingly challenging combat encounters. The closer you get to the core, the more powerful you become. You uncover snippets of precious knowledge - of the meaning that you crave so much.\r\n\r\nYou shoot and slice. You move forward. You repeat. You repeat. You repeat. It becomes a ritual. It starts to mean something again. You take a moment to consider. You’ve been here before. So many times. Maybe this time it will actually mean something. Everything explodes into action. You hope this time will be different.\r\n \r\nBuilt on the foundations of SUPERHOT and SUPERHOT VR, MIND CONTROL DELETE continues to bring you more of SUPERHOT’s signature power fantasy. \r\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.28317.14383048766618347.734b0c9a-e030-4976-bf99-73f141752531.b87e0805-ad4f-48f8-8f81-699aec9ab611",
       "originalPrice": 640,
-      "discountPrice": 640,
-      "discountPercent": 0,
+      "discountPrice": 256,
+      "discountPercent": 60,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NRH78B682L8",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NVR4ZQKNBSB",
@@ -7977,14 +7990,14 @@
       "description": "Discover an atmospheric hunting game like no other in this realistic, stunning open world – regularly updated in collaboration with the community. Immerse yourself in the single player campaign, or share the ultimate hunting experience with friends.\n\nTHE MOST REALISTIC, OPEN WORLD HUNTING EXPERIENCE\nRoam freely across meticulously crafted environments and explore a diverse range of regions and biomes, each with its own unique flora and fauna. Experience the intricacies of complex animal behavior, dynamic weather events, full day and night cycles, simulated ballistics, highly realistic acoustics, and scents carried by the wind. \n\nYOUR HUNT. YOUR CHOICE\nSelect from a variety of weapons, ammunition, and equipment to create the ultimate hunting experience. With a diverse range of wildlife, including Jackrabbits, Mallard Ducks, Black Bears, Elk, and Moose, you will need to strategically match prey to weaponry to successfully track, lure, and ambush animals based on their unique behavior and environment.\n\nEVOLVING THROUGH PLAYER COLLABORATION\nDeveloped in close collaboration with the community, theHunter: Call of the Wild offers a wealth of paid and free content, including reserves, hunting equipment, weapon packs, and trophy lodges. With new content and updates regularly added, players can look forward to a constantly evolving experience.\n\nHONOR THE HUNT\nEvery hunt has a unique story to tell. Immortalize your tales of triumph from the Layton Lake and Hirschfelden reserves by displaying your most prized trophies in your spacious Trophy Lodge, or relax by the fireplace as you plan your next hunt. \n\nBETTER TOGETHER\nExperience online multiplayer for up to eight players in breathtaking hunting reserves. Collaborate and strategize with friends, or compete to take down the most impressive trophy. You can access any paid DLC reserve as long as one member of your hunting party owns it.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.54570.13762125458177399.e3dc12bf-b35c-48a4-ae96-9cd3eda2895e.163aca32-a703-4ffb-ba70-ddbd81eb4489",
       "originalPrice": 760,
-      "discountPrice": 760,
-      "discountPercent": 0,
+      "discountPrice": 152,
+      "discountPercent": 80,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NQV7C0G1040",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9ND19JDMBS3R",
@@ -8127,14 +8140,14 @@
       "description": "Get hyped for the legendary franchise to return with Tony Hawk’s™ Pro Skater™ 3 + 4. Everything you loved is back, but revamped with more skaters, new parks, gnarlier tricks, eardrum shattering music, plus a whole lot more.\n\nIncludes:\n\n- Cross-Gen Bundle of Tony Hawk's™ Pro Skater™ 3 + 4\n-- Includes Xbox One, Xbox X|S and PC (Microsoft Store) versions of the game\n\n- Reunite the crew with cross-platform online Multiplayer* for up to 8 skaters in new and returning game modes.\n- Drop in to new parks or tear it up across the timeless parks from both Tony Hawk’s™ Pro Skater™ 3 & Tony Hawk’s™ Pro Skater™ 4, authentically remade in jaw dropping 4K** resolution with streamlined goals and the epic 2-minute format.\n- Hit ‘em with some drip in the expanded Create-A-Skater and Create-A-Park modes, including the ability to create custom goals to share with friends for the first time ever.\n- Shred harder than ever with more challenging goals and an enhanced New Game+ mode.\n- Whether you’re a total casual or a grungy pro, the same smooth handling and simple-to-learn controls from Tony Hawk’s™ Pro Skater™ 1 + 2 will have you shredding like a Pro.\n\nAlert the neighborhood watch and grab your skate buddies because the shred’s not dead. It’s back and better than ever.\n\n\n*Activision account and internet required for online Multiplayer and other features. A Game Pass subscription may be required for Multiplayer and other features (sold separately). Activision may modify or discontinue online services in the future, which may impact the continued availability of online gameplay. Online services may be discontinued to to factors including number of players.\n\n**The Xbox Series X version of the game will run native 4K at 60FPS in Fidelity Mode. The Xbox Series S version will render at 1440P and upscale to 4K. 4K output requires a 4K compatible device or display.\n\nFor more information, please see www.tonyhawkthegame.com.\n\n© 2025 Activision Publishing Inc. ACTIVISION and PRO SKATER are trademarks of Activision Publishing, Inc. TONY HAWK is a registered trademark of Tony Hawk, Inc. All other trademarks and trade names are the property of their respective owners.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.43918.13545870293609016.82216e19-d3ac-41e6-877a-04dfdefd5e6e.7b3c0308-0253-4102-8a13-bde7ce066661",
       "originalPrice": 2096,
-      "discountPrice": 1152.8,
-      "discountPercent": 45,
+      "discountPrice": 2096,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N926481VT1Z",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NC0071DJ6XC",
@@ -8157,14 +8170,14 @@
       "description": "Be the leader of red and blue wobblers from ancient lands, spooky places and fantasy worlds. Watch them fight in simulations made with the wobbliest physics system ever created.\r\n\r\nWhen you grow tired of the 100+ wobblers at your disposal you can make new ones in the unit creator.\r\n\r\nYou can also send your wobblers to fight your friends or strangers in online multiplayer!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.8372.14176345306313891.79ca8837-5397-4838-85b6-4a8a9720856c.8d4e1080-09b7-4a26-aafa-58c34e4ebb7e",
       "originalPrice": 505,
-      "discountPrice": 505,
-      "discountPercent": 0,
+      "discountPrice": 166.65,
+      "discountPercent": 67,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PC4RWP34M2D",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P7TLX79S7N7",
@@ -8202,14 +8215,14 @@
       "description": "Trailmakers is a play-as-you-like vehicle building game with reliable physics, controlled chaos, land, sea, and air combat.\n\nJump straight into the open-world Pioneers campaign where you complete missions, craft blocks and fight BOTNAKs. If you just want to play around with a plethora of different blocks, there are five dedicated sandbox maps that will let you tinker with vehicles in space, water, and ground. \n\nSandbox gives you fun challenges, creative freedom, and high speed driving and flying.\n\nUse the integrated workshop to download other people’s creations and have addictingly fun skirmishes with up to seven friends in multiplayer.\n\nBUILD EVERYTHING\nThe intricate yet intuitive building mechanic allows you to either choose pre-made vehicles from the game and the community workshop or build your own vehicles completely from scratch using hundreds of blocks that affect both aerodynamics, functionality, speed, combat ability, and much more in a world ruled by reliable physics. \n\nCustomize your character and block designs with a heap of different skins, colors, and pattern combinations to create your own personal brand. \n\nThe builder is made to be as accessible and intuitive as possible for players who are new to building games while also equipped with features for the more hardcore segment of engineers: Easy to learn, hard to master!\n\nCOMBAT\nTrailmakers offers an arsenal of 14 different weapons like minigun, EMPs, laser blasters, rocket launchers and shotguns to name a few. Set up a server with your friends or join one of the hundreds of public games to test them out in different PvP scenarios. Fight in the air, ocean, ground, or in space. Your choice of mayhem is entirely up to you.\n\n\nMULTIPLAYER\nAll game modes in Trailmakers, including the main story, allow Multiplayer for 2-8 people. \nJump into one of the five dedicated sandbox maps, hang out and build together, test each other's vehicles, or share and be inspired from thousands of incredible community made workshop builds.\n\nControlled chaos, land, sea, air, and space combat awaits you and your friends - or jump into Race Island where 14 different tracks are ready for you to put your name on the leaderboards.  \n\nThis is the ultimate do-whatever-your-heart-desires game.\n\nCAMPAIGN\nIn the main game mode, “Pioneers” you will dive head-first into a breathtaking open world with loveable NPCs, challenging enemies, and an adventurous story. Unlock new parts as you complete missions and build different vehicles for the different biomes and terrains - play the campaign alone or multiplayer.\n\nYou will join the Trailmakers: An elite society of engineers and are sent out to help the population of Gregory - a community of peaceful frogs who have been invaded by the evil BOTNAKs who are ruthlessly mining the planet and stealing its resources. ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.11014.14364758607471359.5497a0ed-4b70-4e20-ac65-ae6509b7e4e7.79bf2532-d97e-4cc7-a2bf-c573d07602b3",
       "originalPrice": 760,
-      "discountPrice": 760,
-      "discountPercent": 0,
+      "discountPrice": 152,
+      "discountPercent": 80,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NSFGM8J6MBJ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N9FR8CSZP56",
@@ -8502,14 +8515,14 @@
       "description": "You are an engineer thrust into the strange and mysterious Void, a world with its own history, rules and future. Build and upgrade your own train, craft powerful weapons, fight various enemies and survive the surreal landscapes of the Void alone or together with friends.\n\nEXPLORE THE VOID\nExplore a vast ever-changing world full of mysteries and unique places. Discover floating islands with puzzles and dangerous fauna. Make your way through minefields and visit depots. Meet adorable Rofleemo and make them part of your crew. The Void has much to offer for those seeking adventure, so get ready to accept its challenges!\n\nBUILD YOUR TRAIN\nYou won't simply expand the train, but you'll build it yourself from scratch. Start with an empty trolley and develop it into a proper train with multiple wagons and an advanced engine. Customize the look of your train and fill it with all sorts of objects: from storages and workbenches to decorations and tables for mini games.\n\nFIGHT TO SURVIVE\nThe Void is a dangerous place, and you’ll face a variety of enemies on your way: from regular soldiers to bloodthirsty sharks. Craft and customize your weapons and equipment, escape from being chased, stand against multiple enemy waves in the arenas, clear outposts and be prepared to constantly fight for your life.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.17636.13766638199955298.30c51e02-5250-4a92-bce6-4ed56d85cf3c.b921d8f4-8656-49eb-93d5-02fb55202cf8",
       "originalPrice": 760,
-      "discountPrice": 760,
-      "discountPercent": 0,
+      "discountPrice": 380,
+      "discountPercent": 50,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NQMVR9WL9FW",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "BX1DTCBD1HXJ",
@@ -8622,14 +8635,14 @@
       "description": "Fight, survive and live to tell the tales.\r\n\r\nA century has passed since the fall of the Edoran Empire at the hands of an unprecedented plague that swept the nation. Now, the land is rife with mercenary work, banditry and thievery, with honor having become an almost entirely forgotten virtue.\r\n\r\nNow, prepare to lead a group of unscrupulous characters in a massive open world where combat, death and a thirst for riches will dictate your day to day life. You are not the hero of this story, destined to usher in a new era of peace. Your goal is solely to survive and thrive in this harsh and hostile world, by any means necessary…\r\n\r\nOnly the bravest and most ambitious can hope to see their story written in the Wartales!\r\n\r\n\r\nDevelop your group of mercenaries.\r\n\r\nLead a group of mercenaries on a dangerous quest for riches and recognition in a medieval world ravaged by destitution and greed, recruiting new companions with numerous unique specializations, skill sets, weapon preferences and personalities.\r\n\r\nCustomize your group's skills, equipment, and appearance with an intuitive RPG progression and crafting system, while developing your camp with luxuries, tools, and equipment to help your team endure and recover from the hardships each day brings.\r\n\r\n\r\nExplore a vibrant and mysterious world.\r\n\r\nJourney through a vast, open world in your quest for notoriety, wealth, and recognition, immersing yourself in lively villages and remnants of a bygone era. Explore abandoned mines, tombs, and camps as you piece together the history of this harsh world.\r\n\r\n\r\nProsper and write your story.\r\n\r\nCollect bounties and take on contracts. From protecting the innocent from petty thieves to defeating the land's most notorious figures, there's no such thing as a profit too small to take.\r\n\r\nOvercome your foes with a tactical turn-based combat system that rewards careful planning and strategic thinking, selecting the best combination of characters, equipment, and tactics to succeed in each unique battle.\r\n\r\n\r\n4 player cooperative.\r\n\r\nTraverse the vast open world of Wartales as a band of up to 4 players, planning tactics and devising a strategy before confronting some of the many hostile inhabitants that roam these mysterious lands and defeating them as a team.\r\n\r\nShare money, loot, resources, and end the day with a delicious meal around a roaring campfire with your loyal companions, building camaraderie and forging unbreakable bonds that will help you overcome any obstacle.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.8343.14440655325358467.0a9794a6-3645-4db4-a85e-c611d041111a.8efb2136-86ee-4f16-b635-7f64680e2062",
       "originalPrice": 1030,
-      "discountPrice": 1030,
-      "discountPercent": 0,
+      "discountPrice": 309,
+      "discountPercent": 70,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NWQ686JB33G",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "C521HDXRTS7F",
@@ -9087,14 +9100,14 @@
       "description": "Hitler’s hordes are back for more in this spine-chilling shooter from the makers of Sniper Elite 4! Abominable occult enemies, epic weapons and a harrowing new campaign for 1-4 players await in 1940s Europe, as you fight to save humankind from undead Armageddon!\r\n\r\nThe resistance have defeated Zombie Hitler and cast him into Hell – but the dead rise once again with greater hunger than before! Continue the alternate history of Zombie Army Trilogy in huge new levels, and uncover a sinister plan that takes the Survivor Brigade across Italy and beyond! \r\n\r\nExperience genre-defining ballistics, build the slayer that suits you and harness the power of fire, lightning and divine essence as you upgrade your guns to fight back against the dead. When the horde surrounds you, tear them apart with enhanced melee combat and flesh-rending takedown moves!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.2216.14307155302772688.6d2bb19d-e8cc-4826-bd21-920020654895.bdcdac0b-51a7-48f8-815b-e77215cd2c8e",
       "originalPrice": 1285,
-      "discountPrice": 1285,
-      "discountPercent": 0,
+      "discountPrice": 257,
+      "discountPercent": 80,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PLSCHRN5715",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PJ06TZX4NMH",
@@ -9113,20 +9126,6 @@
     }
   ],
   "notifiedHistory": {
-    "xbox_new_9NXWSWBM4H6T": {
-      "title": "Beast of Reincarnation",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-08-04T00:05:46.683Z",
-      "type": "xbox_new"
-    },
-    "steam_discount_1222680": {
-      "title": "Need for Speed™ Heat",
-      "price": 99,
-      "percent": 95,
-      "timestamp": "2026-08-04T12:59:02.713Z",
-      "type": "discount"
-    },
     "steam_discount_1478500": {
       "title": "Big Walk",
       "price": 336,
@@ -10722,6 +10721,13 @@
       "percent": 30,
       "timestamp": "2026-09-02T18:16:53.107Z",
       "type": "discount"
+    },
+    "xbox_new_9NXWSWBM4H6T": {
+      "title": "Beast of Reincarnation",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-09-03T13:08:58.893Z",
+      "type": "xbox_new"
     }
   }
 }
