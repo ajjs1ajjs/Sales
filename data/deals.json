@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T17:56:09.840Z",
+  "lastUpdated": "2026-09-04T20:08:18.119Z",
   "epic": [
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
@@ -102,25 +102,12 @@
     {
       "id": "2406770",
       "title": "Bodycam",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/3b629529870a04b47055d715214e4e3ae7c32fdd/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1788530378",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/3b629529870a04b47055d715214e4e3ae7c32fdd/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1788548796",
       "originalPrice": 700,
       "discountPrice": 560,
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2406770",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "668580",
-      "title": "Atomic Heart",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/capsule_616x353.jpg?t=1786632138",
-      "originalPrice": 1499,
-      "discountPrice": 299,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/668580",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -139,14 +126,14 @@
       "isPopular": false
     },
     {
-      "id": "3321460",
-      "title": "Crimson Desert Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1788450739",
-      "originalPrice": 2449,
-      "discountPrice": 1959,
-      "discountPercent": 20,
+      "id": "668580",
+      "title": "Atomic Heart",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/capsule_616x353.jpg?t=1786632138",
+      "originalPrice": 1499,
+      "discountPrice": 299,
+      "discountPercent": 80,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3321460",
+      "url": "https://store.steampowered.com/app/668580",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -165,19 +152,6 @@
       "isPopular": false
     },
     {
-      "id": "2798330",
-      "title": "Dungeon Settlers",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2798330/7eca35a1b6580778900ad7e4b995c7a8754595ce/capsule_616x353.jpg?t=1788527075",
-      "originalPrice": 329,
-      "discountPrice": 279,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2798330",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "311210",
       "title": "Call of Duty®: Black Ops III",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1780963650",
@@ -186,6 +160,32 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/311210",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3321460",
+      "title": "Crimson Desert Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1788450739",
+      "originalPrice": 2449,
+      "discountPrice": 1959,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3321460",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2798330",
+      "title": "Dungeon Settlers",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2798330/7eca35a1b6580778900ad7e4b995c7a8754595ce/capsule_616x353.jpg?t=1788527075",
+      "originalPrice": 329,
+      "discountPrice": 279,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2798330",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -204,19 +204,6 @@
       "isPopular": false
     },
     {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "1326470",
       "title": "Sons Of The Forest",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
@@ -225,6 +212,19 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1326470",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -9173,13 +9173,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_2142790": {
-      "title": "Fields of Mistria",
-      "price": 279,
-      "percent": 10,
-      "timestamp": "2026-08-05T18:18:04.942Z",
-      "type": "popular"
-    },
     "steam_popular_4908380": {
       "title": "The Bazaar - The Dragons",
       "price": 415,
