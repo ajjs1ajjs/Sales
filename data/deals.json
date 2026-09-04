@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T22:55:19.010Z",
+  "lastUpdated": "2026-09-04T13:03:18.512Z",
   "epic": [
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
@@ -113,32 +113,6 @@
       "isPopular": false
     },
     {
-      "id": "311210",
-      "title": "Call of Duty®: Black Ops III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1780963650",
-      "originalPrice": 2552,
-      "discountPrice": 638,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/311210",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1787837240",
-      "originalPrice": 1559,
-      "discountPrice": 389,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "668580",
       "title": "Atomic Heart",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/capsule_616x353.jpg?t=1786632138",
@@ -147,6 +121,19 @@
       "discountPercent": 80,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/668580",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2798330",
+      "title": "Dungeon Settlers",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2798330/7eca35a1b6580778900ad7e4b995c7a8754595ce/capsule_616x353.jpg?t=1788513032",
+      "originalPrice": 329,
+      "discountPrice": 279,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2798330",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -178,27 +165,14 @@
       "isPopular": false
     },
     {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1787837240",
+      "originalPrice": 1559,
+      "discountPrice": 389,
       "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "108600",
-      "title": "Project Zomboid",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1787740093",
-      "originalPrice": 530,
-      "discountPrice": 355,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/108600",
+      "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -212,6 +186,45 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1326470",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1999,
+      "discountPrice": 879,
+      "discountPercent": 56,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "311210",
+      "title": "Call of Duty®: Black Ops III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1780963650",
+      "originalPrice": 2552,
+      "discountPrice": 638,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/311210",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -584,14 +597,14 @@
       "description": "Відродіться в новому досвіді виживання динозаврів, про який ви навіть не мріяли... оскільки ARK переосмислюється з нуля в технологію відеоігор нового покоління за допомогою Unreal Engine 5! Ви прокидаєтеся на таємничому острові, ваші почуття переповнені сліпучим сонячним світлом і яскравими кольорами, що відбиваються від усіх поверхонь навколо вас, блакитні води зеленого острова плескаються біля ваших босих ніг. Глибокий гуркіт лунає з туманних джунглів, спонукаючи вас до дії, і ви встаєте — не налякані, а заінтриговані. Чи готові ви сформувати плем’я, приборкати та розводити сотні видів динозаврів та інших первісних істот, досліджувати, створювати, будувати та пробиватися до вершини харчового ланцюга? Ваш новий світ чекає… Перейдіть крізь дзеркало та приєднайтеся до нього!\n\nОСОБЛИВОСТІ\n\nARK: Survival Ascended повністю відтворив і переробив ілюстрацію та світи ARK, щоб скористатися перевагами новітньої технології відеоігор, Unreal Engine 5, використовуючи високоякісні графічні функції, такі як повністю динамічне глобальне освітлення («Lumen»), щоб світло реалістично відбивається від поверхонь і забезпечує реалістичні відображення, а вдосконалена сітчаста потокова передача («Nanite») із сотень мільйонів трикутників для надзвичайної деталізації.\n\nНові передові фізичні системи, такі як динамічна вода, щоб кожна істота створювала хвилі, брижі, бризки та бульбашки, рухаючись крізь рідини, і повністю інтерактивне фізичне листя, де кожна травинка, кущ і дерево реагують на персонажів, вибухи, снаряди, і об'єкти фізики. Збийте дерево, і побачите, як воно врізається в інші дерева та тріпає все листя на своєму шляху вниз до трави внизу! Виявляйте ворога, який непомітно рухається крізь траву, коли він пересувається та хитається у відповідь на їх присутність. Знесіть будівлю та спостерігайте, як шматки реалістично розпадаються, взаємодіючи з травою та водою під час падіння.\n\nARK: Survival Ascended включає доступ до всіх світів ARK, включаючи Scorched Earth, Aberration, Extinction, ARK Genesis Part 1, ARK Genesis Part 2 тощо. «Острів», «Випалена земля», «Аберація» та «Центр» випущені зараз, а наступні світи розширення додаватимуться без додаткових витрат на регулярній основі.\n\nПовний досвід виживання повертається краще, ніж будь-коли: створіть свій Survivor, сформуйте плем’я та приручайте, тренуйте, розводьте та катайтеся на динозаврах у живій екосистемі. Слідкуйте за їжею, водою, температурою та погодою. Повільно розширюйтесь назовні, збираючи врожай, будуючи споруди, вирощуючи культури, налаштовуючи свій візуальний дизайн і продовжуючи досліджувати, щоб розкрити справжню природу Острова та світів за його межами. \n\nҐрунтовне оновлення якості життя в кожній області: перероблені інтерфейси користувача, динамічна навігація для розумного пошуку шляхів істот, дикі немовлята, режим фото, нові системи камер, нова система карт, система стеження, нові структури та предмети, нові істоти та багато іншого.\n\nКросплатформне модифікування: завантажуйте та відтворюйте новий власний вміст, створений гравцями, включаючи нові карти, істот, предмети та режими гри, за допомогою спеціальної колекції модів безпосередньо в грі! Насолоджуйтесь нескінченним потоком нового вмісту ARK, оскільки творчий потенціал і талант спільноти вперше повністю розкриваються на ігрових платформах!\n\nМіжплатформна багатокористувацька гра: сформуйте своє онлайн-плем’я на різних ігрових платформах, працюючи разом, щоб виживати та процвітати в ARK!\n\nПідтримує публічну багатокористувацьку онлайн-ігру для до 70 гравців, приватну багатокористувацьку сесію для до 8 гравців і локальний розділений екран для 2 гравців.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.34402.14545480955348978.6df932ed-6670-40c9-9a84-fc164557d4ec.635b23a8-4ec7-44bd-b0ba-bc07c9b9ebb6",
       "originalPrice": 1886.63,
-      "discountPrice": 471.65,
-      "discountPercent": 75,
+      "discountPrice": 1886.63,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P33VJGVPHVP",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P686C1GJ91L",
@@ -8854,7 +8867,7 @@
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P1ZW5K4S44V",
       "isGamePass": true,
-      "isNewToGamePass": true,
+      "isNewToGamePass": false,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -9160,27 +9173,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_1144200": {
-      "title": "Ready or Not",
-      "price": 312,
-      "percent": 50,
-      "timestamp": "2026-08-04T22:59:43.554Z",
-      "type": "discount"
-    },
-    "steam_popular_3010850": {
-      "title": "Gears of War: E-Day",
-      "price": 2299,
-      "percent": 0,
-      "timestamp": "2026-08-04T22:59:43.554Z",
-      "type": "popular"
-    },
-    "steam_discount_3527290": {
-      "title": "PEAK",
-      "price": 79,
-      "percent": 50,
-      "timestamp": "2026-08-05T00:11:16.036Z",
-      "type": "discount"
-    },
     "steam_discount_2142790": {
       "title": "Fields of Mistria",
       "price": 279,
@@ -10796,6 +10788,13 @@
       "price": 389,
       "percent": 75,
       "timestamp": "2026-09-03T22:55:11.210Z",
+      "type": "discount"
+    },
+    "steam_discount_2798330": {
+      "title": "Dungeon Settlers",
+      "price": 279,
+      "percent": 15,
+      "timestamp": "2026-09-04T13:03:12.214Z",
       "type": "discount"
     }
   }
