@@ -31,7 +31,12 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build
+        run: |
+          echo "=== Starting build ==="
+          npm run build 2>&1
+          echo "=== Build completed ==="
+          echo "=== Checking dist folder ==="
+          ls -la dist/ || echo "dist folder not found!"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
