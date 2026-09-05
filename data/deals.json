@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T22:40:39.385Z",
+  "lastUpdated": "2026-09-05T10:42:07.298Z",
   "epic": [
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
@@ -113,19 +113,6 @@
       "isPopular": false
     },
     {
-      "id": "311210",
-      "title": "Call of Duty®: Black Ops III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1780963650",
-      "originalPrice": 2552,
-      "discountPrice": 638,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/311210",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "3321460",
       "title": "Crimson Desert Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1788450739",
@@ -152,14 +139,14 @@
       "isPopular": false
     },
     {
-      "id": "2798330",
-      "title": "Dungeon Settlers",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2798330/7eca35a1b6580778900ad7e4b995c7a8754595ce/capsule_616x353.jpg?t=1788527075",
-      "originalPrice": 329,
-      "discountPrice": 279,
-      "discountPercent": 15,
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1999,
+      "discountPrice": 879,
+      "discountPercent": 56,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2798330",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -178,27 +165,40 @@
       "isPopular": false
     },
     {
-      "id": "108600",
-      "title": "Project Zomboid",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1787740093",
-      "originalPrice": 530,
-      "discountPrice": 355,
-      "discountPercent": 33,
+      "id": "668580",
+      "title": "Atomic Heart",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/capsule_616x353.jpg?t=1786632138",
+      "originalPrice": 1499,
+      "discountPrice": 299,
+      "discountPercent": 80,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/108600",
+      "url": "https://store.steampowered.com/app/668580",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1999,
-      "discountPrice": 879,
-      "discountPercent": 56,
+      "id": "2798330",
+      "title": "Dungeon Settlers",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2798330/7eca35a1b6580778900ad7e4b995c7a8754595ce/capsule_616x353.jpg?t=1788527075",
+      "originalPrice": 329,
+      "discountPrice": 279,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
+      "url": "https://store.steampowered.com/app/2798330",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1326470",
+      "title": "Sons Of The Forest",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
+      "originalPrice": 600,
+      "discountPrice": 180,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1326470",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -217,14 +217,14 @@
       "isPopular": false
     },
     {
-      "id": "1326470",
-      "title": "Sons Of The Forest",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
+      "id": "1623730",
+      "title": "Palworld",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
       "originalPrice": 600,
-      "discountPrice": 180,
-      "discountPercent": 70,
+      "discountPrice": 420,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1326470",
+      "url": "https://store.steampowered.com/app/1623730",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
