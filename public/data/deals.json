@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T13:32:30.187Z",
+  "lastUpdated": "2026-09-05T13:35:08.817Z",
   "epic": [
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
@@ -178,19 +178,6 @@
       "isPopular": false
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1787837240",
-      "originalPrice": 1559,
-      "discountPrice": 389,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "108600",
       "title": "Project Zomboid",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1787740093",
@@ -199,6 +186,19 @@
       "discountPercent": 33,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/108600",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1787837240",
+      "originalPrice": 1559,
+      "discountPrice": 389,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
