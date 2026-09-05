@@ -23,7 +23,8 @@ for arg in "$@"; do
     esac
 done
 
-REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+REPO_URL="https://github.com/ajjs1ajjs/Sales.git"
+REPO_DIR_NAME="Sales"
 
 log()  { printf '\033[1;36m[Sales]\033[0m %s\n' "$*"; }
 warn() { printf '\033[1;33m[Sales]\033[0m %s\n' "$*"; }
@@ -52,6 +53,20 @@ check_ubuntu_version() {
     log "Detected $ID $VERSION_ID ($PRETTY_NAME) — supported."
 }
 
+find_repo_root() {
+    if [ -f "package.json" ] && grep -q '"name": "game-sales"' package.json 2>/dev/null; then
+        pwd
+        return 0
+    fi
+    local script_dir
+    script_dir="$(cd "$(dirname "${BASH_SOURCE[0]:-.}")" 2>/dev/null && pwd || true)"
+    if [ -n "$script_dir" ] && [ -f "$script_dir/package.json" ] && grep -q '"name": "game-sales"' "$script_dir/package.json" 2>/dev/null; then
+        echo "$script_dir"
+        return 0
+    fi
+    return 1
+}
+
 check_ubuntu_version
 
 ensure_node() {
@@ -68,6 +83,19 @@ ensure_node() {
     fi
     command -v npm >/dev/null 2>&1 || fail "Node.js installed but 'npm' is not on PATH yet. Open a new shell and re-run."
 }
+
+REPO_ROOT="$(find_repo_root || true)"
+
+if [ -z "$REPO_ROOT" ]; then
+    if [ -d "$REPO_DIR_NAME/.git" ]; then
+        log "Using existing checkout at ./$REPO_DIR_NAME"
+    else
+        command -v git >/dev/null 2>&1 || fail "git is required to clone the repository. Install it: sudo apt install -y git"
+        log "Cloning $REPO_URL into ./$REPO_DIR_NAME ..."
+        git clone "$REPO_URL" "$REPO_DIR_NAME"
+    fi
+    REPO_ROOT="$(cd "$REPO_DIR_NAME" && pwd)"
+fi
 
 cd "$REPO_ROOT"
 
