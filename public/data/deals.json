@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T17:02:54.501Z",
+  "lastUpdated": "2026-09-05T18:44:14.920Z",
   "epic": [
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
@@ -139,32 +139,6 @@
       "isPopular": false
     },
     {
-      "id": "1326470",
-      "title": "Sons Of The Forest",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
-      "originalPrice": 600,
-      "discountPrice": 180,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1326470",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "4656000",
-      "title": "BOMBANANA!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1788351950",
-      "originalPrice": 195,
-      "discountPrice": 120,
-      "discountPercent": 38,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4656000",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "3321460",
       "title": "Crimson Desert Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1788450739",
@@ -191,6 +165,19 @@
       "isPopular": false
     },
     {
+      "id": "1326470",
+      "title": "Sons Of The Forest",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
+      "originalPrice": 600,
+      "discountPrice": 180,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1326470",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "108600",
       "title": "Project Zomboid",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1787740093",
@@ -199,6 +186,19 @@
       "discountPercent": 33,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/108600",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "4656000",
+      "title": "BOMBANANA!",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1788351950",
+      "originalPrice": 195,
+      "discountPrice": 120,
+      "discountPercent": 38,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4656000",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
