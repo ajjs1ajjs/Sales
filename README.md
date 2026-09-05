@@ -22,6 +22,8 @@
 [![Version](https://img.shields.io/badge/version-v1.1.0-c084fc)](https://github.com/ajjs1ajjs/Sales/releases)
 [![CI](https://img.shields.io/github/actions/workflow/status/ajjs1ajjs/Sales/scheduler.yml?label=CI)](https://github.com/ajjs1ajjs/Sales/actions/workflows/scheduler.yml)
 
+[**🌐 Live Site**](https://ajjs1ajjs.github.io/Sales/) · [Releases](https://github.com/ajjs1ajjs/Sales/releases) · [Actions](https://github.com/ajjs1ajjs/Sales/actions)
+
 </div>
 ---
 
