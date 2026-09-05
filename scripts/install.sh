@@ -29,6 +29,31 @@ log()  { printf '\033[1;36m[Sales]\033[0m %s\n' "$*"; }
 warn() { printf '\033[1;33m[Sales]\033[0m %s\n' "$*"; }
 fail() { printf '\033[1;31m[Sales]\033[0m %s\n' "$*" >&2; exit 1; }
 
+check_ubuntu_version() {
+    if [ ! -f /etc/os-release ]; then
+        fail "Cannot determine OS version (/etc/os-release not found)."
+    fi
+    . /etc/os-release
+    if [ "$ID" != "ubuntu" ] && [ "$ID" != "debian" ]; then
+        fail "This installer supports Ubuntu and Debian only. Detected: $ID"
+    fi
+    local ver="${VERSION_ID%%.*}"
+    local supported="24 25 26"
+    local is_supported=0
+    for s in $supported; do
+        if [ "$ver" = "$s" ]; then
+            is_supported=1
+            break
+        fi
+    done
+    if [ "$is_supported" -eq 0 ]; then
+        fail "Unsupported $ID version: $VERSION_ID. Supported: Ubuntu/Debian 24, 25, 26 (latest and preview)."
+    fi
+    log "Detected $ID $VERSION_ID ($PRETTY_NAME) — supported."
+}
+
+check_ubuntu_version
+
 ensure_node() {
     if command -v npm >/dev/null 2>&1; then
         return 0

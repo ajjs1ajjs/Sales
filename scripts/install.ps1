@@ -37,6 +37,18 @@ function Log  { param($m) Write-Host "[Sales] $m" -ForegroundColor Cyan }
 function Warn { param($m) Write-Host "[Sales] $m" -ForegroundColor Yellow }
 function Fail { param($m) Write-Host "[Sales] $m" -ForegroundColor Red; exit 1 }
 
+function Check-WindowsVersion {
+    $osVersion = [System.Environment]::OSVersion.Version
+    $build = (Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion").CurrentBuild
+    $supportedBuilds = @(19044, 19045, 20049, 21313, 21382, 22000, 22336, 22621, 22631, 23466, 23530, 25398)
+    if (-not ($build -in $supportedBuilds)) {
+        Fail "Unsupported Windows version: Build $build. Supported: Windows 10 21H1/21H2, Windows 11 22H2+, Windows Server 2022/2025."
+    }
+    Log "Detected Windows Build $build — supported."
+}
+
+Check-WindowsVersion
+
 function Refresh-Path {
     $machinePath = [Environment]::GetEnvironmentVariable("PATH", "Machine")
     $userPath    = [Environment]::GetEnvironmentVariable("PATH", "User")
