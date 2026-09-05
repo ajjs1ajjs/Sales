@@ -1,0 +1,75 @@
+﻿/* Design System - obsidian dark mode with futuristic glows */
+
+:root {
+  /* Color Palette - Dark */
+  --bg-primary: #0a0712;
+  --bg-secondary: rgba(20, 16, 36, 0.6);
+  --bg-tertiary: rgba(30, 25, 54, 0.8);
+
+  --text-primary: #f3f4f6;
+  --text-secondary: #9ca3af;
+  --text-muted: #6b7280;
+
+  --accent-steam: #00f0ff;
+  --accent-epic: #c084fc;
+  --accent-telegram: #38bdf8;
+  --accent-discount: #22c55e;
+  --accent-free: #e11d48;
+  --accent-xbox: #107c10;
+  --accent-wishlist: #f43f5e;
+
+  --border-glow: rgba(192, 132, 252, 0.15);
+  --border-glow-hover: rgba(0, 240, 255, 0.3);
+
+  --font-heading: 'Outfit', 'Inter', -apple-system, sans-serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  --glow-shadow: 0 0 15px rgba(0, 240, 255, 0.1);
+
+  --skeleton-base: rgba(255, 255, 255, 0.06);
+  --skeleton-shine: rgba(255, 255, 255, 0.1);
+
+  --toast-bg: rgba(20, 16, 36, 0.95);
+}
+
+/* Light theme */
+[data-theme="light"] {
+  --bg-primary: #f5f3ff;
+  --bg-secondary: rgba(255, 255, 255, 0.8);
+  --bg-tertiary: rgba(255, 255, 255, 0.9);
+
+  --text-primary: #1e1b4b;
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
+
+  --border-glow: rgba(192, 132, 252, 0.2);
+  --border-glow-hover: rgba(139, 92, 246, 0.4);
+
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08);
+
+  --skeleton-base: rgba(0, 0, 0, 0.06);
+  --skeleton-shine: rgba(0, 0, 0, 0.1);
+
+  --toast-bg: rgba(255, 255, 255, 0.95);
+}
+
+/* Reset & Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+

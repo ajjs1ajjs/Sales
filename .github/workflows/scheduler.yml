@@ -1,0 +1,73 @@
+name: Update Deals and Deploy
+
+on:
+  schedule:
+    - cron: '0 9,15,18,21 * * *'
+    - cron: '0 * * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'public/data/deals.json'
+      - 'README.md'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Run tests
+        run: npm test
+
+      - name: Fetch latest deals
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: npx tsx scripts/fetch-deals.ts
+
+      - name: Commit and push updated deals.json
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/deals.json
+          if git diff-index --quiet HEAD; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: update deals data [skip ci]"
+          # Синхронізуємося з main перед push, щоб не загубити notifiedHistory
+          # через non-fast-forward (інакше — повторні сповіщення в Telegram).
+          git pull --rebase --autostash origin main
+          git push origin main
+
+      - name: Build React App
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@1ef5a1b1df4c63fe21a2242edbee6cac921ece01 # v4.1.0
+        with:
+          personal_token: ${{ secrets.PUBLIC_RELEASE_TOKEN }}
+          external_repository: ajjs1ajjs/Sales
+          publish_dir: ./dist
+          publish_branch: gh-pages

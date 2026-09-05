@@ -1,0 +1,20 @@
+diff --git a/node_modules/vite-plugin-pwa/dist/vite-build-BGK4YAIU.js b/node_modules/vite-plugin-pwa/dist/vite-build-BGK4YAIU.js
+index 9370ed6..aecca46 100644
+--- a/node_modules/vite-plugin-pwa/dist/vite-build-BGK4YAIU.js
++++ b/node_modules/vite-plugin-pwa/dist/vite-build-BGK4YAIU.js
+@@ -100,13 +100,13 @@ function prepareViteBuild(options, viteOptions) {
+     Object.assign(inlineConfig.build, {
+       ...inlineConfig.build,
+       modulePreload: false,
++      codeSplitting: false,
+       rollupOptions: {
+         ...rollupOptions,
+         plugins: buildPlugins?.rollup ?? plugins,
+         input: options.swSrc,
+         output: {
+-          entryFileNames: swMjsName,
+-          inlineDynamicImports: true
++          entryFileNames: swMjsName
+         }
+       }
+     });
