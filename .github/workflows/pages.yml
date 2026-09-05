@@ -17,6 +17,9 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: https://ajjs1ajjs.github.io/Sales/
     steps:
       - name: Checkout
         uses: actions/checkout@v4
