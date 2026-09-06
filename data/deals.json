@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T12:29:40.871Z",
+  "lastUpdated": "2026-09-06T13:53:11.556Z",
   "epic": [
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
@@ -113,27 +113,14 @@
       "isPopular": false
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1999,
-      "discountPrice": 879,
-      "discountPercent": 56,
+      "id": "4656000",
+      "title": "BOMBANANA!",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1788351950",
+      "originalPrice": 195,
+      "discountPrice": 120,
+      "discountPercent": 38,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1787837240",
-      "originalPrice": 1559,
-      "discountPrice": 389,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
+      "url": "https://store.steampowered.com/app/4656000",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -152,6 +139,19 @@
       "isPopular": false
     },
     {
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1787837240",
+      "originalPrice": 1559,
+      "discountPrice": 389,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2183900",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "1326470",
       "title": "Sons Of The Forest",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
@@ -165,6 +165,19 @@
       "isPopular": false
     },
     {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1999,
+      "discountPrice": 879,
+      "discountPercent": 56,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -173,19 +186,6 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "4656000",
-      "title": "BOMBANANA!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1788351950",
-      "originalPrice": 195,
-      "discountPrice": 120,
-      "discountPercent": 38,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4656000",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
