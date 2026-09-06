@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T22:34:37.941Z",
+  "lastUpdated": "2026-09-06T00:29:39.695Z",
   "epic": [
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
@@ -126,27 +126,14 @@
       "isPopular": false
     },
     {
-      "id": "3321460",
-      "title": "Crimson Desert Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1788450739",
-      "originalPrice": 2449,
-      "discountPrice": 1959,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3321460",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
+      "id": "311210",
+      "title": "Call of Duty®: Black Ops III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1780963650",
+      "originalPrice": 2552,
+      "discountPrice": 638,
       "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
+      "url": "https://store.steampowered.com/app/311210",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -165,27 +152,14 @@
       "isPopular": false
     },
     {
-      "id": "1326470",
-      "title": "Sons Of The Forest",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
-      "originalPrice": 600,
-      "discountPrice": 180,
-      "discountPercent": 70,
+      "id": "3321460",
+      "title": "Crimson Desert Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1788450739",
+      "originalPrice": 2449,
+      "discountPrice": 1959,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1326470",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "311210",
-      "title": "Call of Duty®: Black Ops III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1780963650",
-      "originalPrice": 2552,
-      "discountPrice": 638,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/311210",
+      "url": "https://store.steampowered.com/app/3321460",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -204,14 +178,27 @@
       "isPopular": false
     },
     {
-      "id": "4656000",
-      "title": "BOMBANANA!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1788351950",
-      "originalPrice": 195,
-      "discountPrice": 120,
-      "discountPercent": 38,
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4656000",
+      "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1326470",
+      "title": "Sons Of The Forest",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
+      "originalPrice": 600,
+      "discountPrice": 180,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1326470",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -225,6 +212,19 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "4656000",
+      "title": "BOMBANANA!",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1788351950",
+      "originalPrice": 195,
+      "discountPrice": 120,
+      "discountPercent": 38,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4656000",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
