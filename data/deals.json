@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T00:29:39.695Z",
+  "lastUpdated": "2026-09-06T05:24:43.841Z",
   "epic": [
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
@@ -126,19 +126,6 @@
       "isPopular": false
     },
     {
-      "id": "311210",
-      "title": "Call of Duty®: Black Ops III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1780963650",
-      "originalPrice": 2552,
-      "discountPrice": 638,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/311210",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -165,32 +152,6 @@
       "isPopular": false
     },
     {
-      "id": "108600",
-      "title": "Project Zomboid",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1787740093",
-      "originalPrice": 530,
-      "discountPrice": 355,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/108600",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "1326470",
       "title": "Sons Of The Forest",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_616x353.jpg?t=1708624856",
@@ -199,6 +160,19 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1326470",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "311210",
+      "title": "Call of Duty®: Black Ops III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1780963650",
+      "originalPrice": 2552,
+      "discountPrice": 638,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/311210",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -225,6 +199,32 @@
       "discountPercent": 38,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4656000",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "108600",
+      "title": "Project Zomboid",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1787740093",
+      "originalPrice": 530,
+      "discountPrice": 355,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/108600",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -9173,62 +9173,6 @@
     }
   ],
   "notifiedHistory": {
-    "epic_free_871cc4ff18444059890a4d28653a62d5": {
-      "title": "Beacon Pines",
-      "price": 0,
-      "percent": 100,
-      "timestamp": "2026-08-07T00:39:15.904Z",
-      "type": "free"
-    },
-    "epic_free_231e8f6d250a453f9c44c0adf3a34656": {
-      "title": "We Were Here Together",
-      "price": 0,
-      "percent": 100,
-      "timestamp": "2026-08-07T00:39:15.904Z",
-      "type": "free"
-    },
-    "steam_discount_2950790": {
-      "title": "IRON NEST: Heavy Turret Simulator",
-      "price": 224,
-      "percent": 25,
-      "timestamp": "2026-08-07T00:39:15.904Z",
-      "type": "discount"
-    },
-    "steam_discount_3812600": {
-      "title": "ReStory: Chill Electronics Repairs",
-      "price": 269,
-      "percent": 10,
-      "timestamp": "2026-08-07T00:39:15.904Z",
-      "type": "discount"
-    },
-    "steam_discount_3904850": {
-      "title": "Approximately Up",
-      "price": 424,
-      "percent": 20,
-      "timestamp": "2026-08-07T00:39:15.904Z",
-      "type": "discount"
-    },
-    "steam_discount_2231380": {
-      "title": "Tom Clancy's Ghost Recon® Breakpoint",
-      "price": 45,
-      "percent": 95,
-      "timestamp": "2026-08-07T00:39:15.904Z",
-      "type": "discount"
-    },
-    "steam_discount_3469450": {
-      "title": "DOOM: The Dark Ages | Revelations",
-      "price": 299,
-      "percent": 50,
-      "timestamp": "2026-08-07T00:39:15.904Z",
-      "type": "discount"
-    },
-    "steam_popular_2950790": {
-      "title": "IRON NEST: Heavy Turret Simulator",
-      "price": 224,
-      "percent": 25,
-      "timestamp": "2026-08-07T00:39:15.904Z",
-      "type": "popular"
-    },
     "steam_popular_1289670": {
       "title": "EA Play",
       "price": 26,
