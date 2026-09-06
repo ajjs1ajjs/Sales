@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T20:59:56.665Z",
+  "lastUpdated": "2026-09-06T22:35:48.637Z",
   "epic": [
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
@@ -126,19 +126,6 @@
       "isPopular": false
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1787837240",
-      "originalPrice": 1559,
-      "discountPrice": 389,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -147,6 +134,19 @@
       "discountPercent": 56,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1787837240",
+      "originalPrice": 1559,
+      "discountPrice": 389,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -178,19 +178,6 @@
       "isPopular": false
     },
     {
-      "id": "3321460",
-      "title": "Crimson Desert Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1788450739",
-      "originalPrice": 2449,
-      "discountPrice": 1959,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3321460",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "311210",
       "title": "Call of Duty®: Black Ops III",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1780963650",
@@ -199,6 +186,19 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/311210",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3321460",
+      "title": "Crimson Desert Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1788450739",
+      "originalPrice": 2449,
+      "discountPrice": 1959,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3321460",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
