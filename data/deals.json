@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T05:34:51.015Z",
+  "lastUpdated": "2026-09-07T11:18:37.473Z",
   "epic": [
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
@@ -113,6 +113,19 @@
       "isPopular": false
     },
     {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1999,
+      "discountPrice": 879,
+      "discountPercent": 56,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "108600",
       "title": "Project Zomboid",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_616x353.jpg?t=1787740093",
@@ -139,40 +152,14 @@
       "isPopular": false
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1787837240",
-      "originalPrice": 1559,
-      "discountPrice": 389,
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
       "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1999,
-      "discountPrice": 879,
-      "discountPercent": 56,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "311210",
-      "title": "Call of Duty®: Black Ops III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1780963650",
-      "originalPrice": 2552,
-      "discountPrice": 638,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/311210",
+      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -191,27 +178,14 @@
       "isPopular": false
     },
     {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
-      "originalPrice": 600,
-      "discountPrice": 420,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1787837240",
+      "originalPrice": 1559,
+      "discountPrice": 389,
       "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
+      "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -225,6 +199,32 @@
       "discountPercent": 38,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4656000",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1623730",
+      "title": "Palworld",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
+      "originalPrice": 600,
+      "discountPrice": 420,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "105600",
+      "title": "Terraria",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/capsule_616x353.jpg?t=1769844435",
+      "originalPrice": 225,
+      "discountPrice": 112,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/105600",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -5332,21 +5332,6 @@
       "isDiscounted": false
     },
     {
-      "id": "9N2FJQC9NTX6",
-      "title": "NBA 2K26 Standard Edition (Windows PC)",
-      "description": "This edition includes a digital copy of NBA 2K26* for Windows PC**. \n\nBragging rights are on the line in NBA 2K26. Build your legend in MyCAREER, collect and compete with stars in MyTEAM, and make executive decisions in MyNBA on Windows PC.\n\nPOWERED BY ProPLAY™\n\nDominate every possession with immersive technology that directly translates NBA footage into realistic gameplay on Windows PC. Feel more connected to every dribble and crossover, and move with freedom as you unleash dynamic playmaking using all-new features.\n\nSQUAD UP AND WIN\n\nBuild a MyPLAYER that transcends the game in MyCAREER and rise from a budding prospect to a global superstar. Take over stunning environments where you can team up with friends and challenge rival squads for bragging rights.\n\nUNITE STARS IN MyTEAM\n\nCollect and compete with past and present legends of the game in MyTEAM. Assemble a star-studded roster, test your dream team in single-player and multiplayer modes, and acquire new cards to make your MyTEAM fantasy a reality.\n\nYOUR TEAM, YOUR STORY\n\nWrite the next chapter of an NBA franchise as a General Manager in MyNBA. Influence the future of the sport and leave an indelible mark on the league.\n\n*Internet connection and NBA 2K Account required to redeem and use bonus content. Terms apply.\n\n**Certain features of the game, including online multiplayer, communication and other online features, may not be accessible by Xbox child accounts. At Xbox, a child means players under the age of 13, unless local laws specify differently. Play Now, MyLeague, and WNBA are available offline.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.64882.13957745975285029.52df9602-ccd8-4a0d-873f-5731652c7052.7f924e0f-d1d2-4b61-a053-0a8485bb9e74",
-      "originalPrice": 1999,
-      "discountPrice": 1999,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://www.xbox.com/uk-ua/games/store/-/9N2FJQC9NTX6",
-      "isGamePass": true,
-      "isNewToGamePass": false,
-      "isComingSoon": false,
-      "isDiscounted": false
-    },
-    {
       "id": "9NXLNL5JXBZJ",
       "title": "Need for Speed™ Deluxe Edition",
       "description": "Get ahead with Need for Speed™ Deluxe Edition, including content packs, car wraps and more.\r\n\r\nBecome an icon of car culture in Need for Speed.\r\n\r\n• FIVE WAYS TO PLAY – Earn reputation and master Five Ways to Play - Speed, Style, Build, Crew and Outlaw.\r\n\r\n• RICH, AUTHENTIC CUSTOMIZATION – Customize your car and express your style with extensive visual modifications, performance upgrades and handling tuned to your specification.\r\n\r\nNeed for Speed… Tonight We Ride.\r\n\r\nExtra content includes: Performance and Styling Packs, 10% discount on all game items using in-game currency and an additional starter car – the BMW M3 E46. Plus – a VIP icon, sticker and exclusive wraps.\r\n\r\n*Discount applies to in-game transactions using fictional Need for Speed Dollars earned in-game - the game’s only currency.\r\n\r\nNeed For Speed is an online game. \r\nAn Internet connection speed of 192 Kbps or higher is required.",
@@ -9025,7 +9010,7 @@
       "id": "C1ZT6N30L1WH",
       "title": "World of Warships: Legends",
       "description": "Command history's greatest warships and dominate the seas in this epic free-to-play naval combat game. Step aboard, rewrite naval history, and take the helms of legendary vessels in World of Warships: Legends—an immersive online multiplayer game. Assemble your fleet, recruit powerful Commanders, and outsmart real opponents in tactical 5v5 and 9v9 battles across stunning ocean maps.\n\nSTART YOUR NAVAL JOURNEY\nWith over 600 destroyers, cruisers, battleships, and aircraft carriers from 13 different nations at your fingertips—no two Captains fight the same. Dominate at knife-fight range, rain down fire from the horizon, or forge your own unpredictable strategy. The ocean rewards those bold enough to claim it.\n\nENJOY REGULAR UPDATES\nDive into a constant wave of new content, including warships, campaigns, and limited-time events. Each update delivers fresh gameplay, unique rewards, and game-changing features to keep you in the heat of battle. \n\nPLAY YOUR WAY WITH ENDLESS FEATURES\nKeep the action fresh with new vessels, campaigns with exclusive rewards, and PvE operations inspired by historical events like the Hunt for Bismarck and more. Whether you're clashing in battle; building icons like mighty Yamato; or collecting famous warships such as HMS Hood, USS Iowa, and others—there's always something new to master.\n\nJOIN EXCITING EVENTS, COLLABS, AND TOURNAMENTS\nTake part in seasonal events celebrating Halloween, April Fools’ Day, and more to earn unique rewards! Discover collaborations with popular franchises packed with exclusive themed content. Prove your skills in Ranked Battles, experiment with wild mechanic tweaks in Brawls, and compete for the prestigious Fleet Cup in a special tournament for Fleet Divisions.\n\nTEAM UP AND DOMINATE THE SEAS\nJoin forces with friends or make new allies across all platforms to coordinate devastating strikes, outmaneuver rival fleets, and seize victory in battles where teamwork isn’t just an advantage—it’s the ultimate weapon.\n\nWorld of Warships: Legends features containers with loot-box mechanics, packed with surprises—from powerful warships to various resources that help you dominate the seas.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.48710.65694988112101034.315588c9-f4fb-4605-b06d-bd525b01ce5f.1e93cf12-a4bf-472b-a29e-17f631c5c630",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.22013.65694988112101034.63b3705a-17e4-4e7b-b45a-a3aa58f7a4fc.df65c6b7-7174-4ce2-a917-667c1bd7771d",
       "originalPrice": 0,
       "discountPrice": 0,
       "discountPercent": 0,
@@ -9173,111 +9158,6 @@
     }
   ],
   "notifiedHistory": {
-    "xbox_new_9P8LR42PTRGJ": {
-      "title": "33 Immortals",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-08-08T08:35:52.543Z",
-      "type": "xbox_new"
-    },
-    "xbox_new_9P8NKVVB0XQJ": {
-      "title": "Abyssus",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-08-08T08:35:52.543Z",
-      "type": "xbox_new"
-    },
-    "xbox_new_9NJRSC0B0K88": {
-      "title": "Beastro",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-08-08T08:35:52.543Z",
-      "type": "xbox_new"
-    },
-    "xbox_new_9N4X39HZ1CSQ": {
-      "title": "Beatdown City Survivors",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-08-08T08:35:52.543Z",
-      "type": "xbox_new"
-    },
-    "xbox_new_9P5B8CPQ9S7F": {
-      "title": "Buckshot Roulette",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-08-08T08:35:52.543Z",
-      "type": "xbox_new"
-    },
-    "xbox_new_9MZ1RZTJTZKB": {
-      "title": "Call of Duty®: Black Ops 6 - Standard Edition (Windows)",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-08-08T08:35:52.543Z",
-      "type": "xbox_new"
-    },
-    "xbox_new_9N0SNSC9PK4D": {
-      "title": "Call of Duty®: Vanguard - Standard Edition",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-08-08T08:35:52.543Z",
-      "type": "xbox_new"
-    },
-    "xbox_new_9N3XQQ1LHJ4X": {
-      "title": "EA SPORTS FC™ 26 - PC",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-08-08T08:35:52.543Z",
-      "type": "xbox_new"
-    },
-    "xbox_new_9N16RZ0S50V2": {
-      "title": "Frog Sqwad",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-08-08T08:35:52.543Z",
-      "type": "xbox_new"
-    },
-    "xbox_new_9NZPKBFF0CV9": {
-      "title": "Junkster",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-08-08T08:35:52.543Z",
-      "type": "xbox_new"
-    },
-    "xbox_new_9MW79BJVF3QX": {
-      "title": "RV There Yet?",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-08-08T08:35:52.543Z",
-      "type": "xbox_new"
-    },
-    "xbox_new_9NTZH69PZSH0": {
-      "title": "STARSEEKER: Astroneer Expeditions (Game Preview)",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-08-08T08:35:52.543Z",
-      "type": "xbox_new"
-    },
-    "xbox_new_9P43RGDPJ62T": {
-      "title": "Tamashika",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-08-08T08:35:52.543Z",
-      "type": "xbox_new"
-    },
-    "xbox_new_9NLFKBTNP2VJ": {
-      "title": "Watch Dogs®2",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-08-08T08:35:52.543Z",
-      "type": "xbox_new"
-    },
-    "xbox_new_9P1ZW5K4S44V": {
-      "title": "Winds of Arcana: Ruination",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-08-08T08:35:52.543Z",
-      "type": "xbox_new"
-    },
     "steam_popular_1623730": {
       "title": "Palworld",
       "price": 600,
