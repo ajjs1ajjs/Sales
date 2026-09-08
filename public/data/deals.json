@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T16:59:40.090Z",
+  "lastUpdated": "2026-09-08T18:12:54.590Z",
   "epic": [
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
@@ -100,32 +100,6 @@
   ],
   "steam": [
     {
-      "id": "3624140",
-      "title": "Wanderburg",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/c3794a3264f063828569dd74e38baee8cec7fa59/capsule_616x353_alt_assets_2.jpg?t=1788882563",
-      "originalPrice": 299,
-      "discountPrice": 194,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3624140",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "2406770",
       "title": "Bodycam",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/3b629529870a04b47055d715214e4e3ae7c32fdd/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1788548796",
@@ -134,6 +108,19 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2406770",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3624140",
+      "title": "Wanderburg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/c3794a3264f063828569dd74e38baee8cec7fa59/capsule_616x353_alt_assets_2.jpg?t=1788882563",
+      "originalPrice": 299,
+      "discountPrice": 194,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3624140",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -178,14 +165,14 @@
       "isPopular": false
     },
     {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
-      "originalPrice": 600,
-      "discountPrice": 420,
+      "id": "3764200",
+      "title": "Resident Evil Requiem",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
+      "originalPrice": 1999,
+      "discountPrice": 1399,
       "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
+      "url": "https://store.steampowered.com/app/3764200",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -204,14 +191,14 @@
       "isPopular": false
     },
     {
-      "id": "3764200",
-      "title": "Resident Evil Requiem",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
-      "originalPrice": 1999,
-      "discountPrice": 1399,
-      "discountPercent": 30,
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/974dcc1be690e64e9c9bdd8cf559bd5b8d5ce738/capsule_616x353.jpg?t=1787045299",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3764200",
+      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -225,6 +212,19 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2183900",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2050650",
+      "title": "Resident Evil 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
+      "originalPrice": 1200,
+      "discountPrice": 300,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2050650",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -1302,14 +1302,14 @@
       "description": "Від творців Nidhogg — виживайте в динамічному 2D-платформері. Майстерно долайте підступні підземелля, тримайте монстрів на відстані та збирайте кров і підсилення. \n\nПереживіть вилазку, віднесіть здобуті кістки до Кістяної крамниці й станьте сильнішими. \n\nВиконуйте завдання, щоб відкривати покращення, арени, скіни та інше.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.2173.13820636594696612.89ecbd3c-b2c0-41f3-8114-c05de3a18b22.75b0a15c-a098-4c47-a5c5-cfe9aabea869",
       "originalPrice": 350,
-      "discountPrice": 297.5,
-      "discountPercent": 15,
+      "discountPrice": 350,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MSVBF0KZFVW",
       "isGamePass": true,
       "isNewToGamePass": true,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PFRTPRQ569Q",
@@ -10607,6 +10607,13 @@
       "percent": 0,
       "timestamp": "2026-09-08T16:59:31.354Z",
       "type": "xbox_new"
+    },
+    "steam_discount_2050650": {
+      "title": "Resident Evil 4",
+      "price": 300,
+      "percent": 75,
+      "timestamp": "2026-09-08T18:12:46.692Z",
+      "type": "discount"
     }
   }
 }
