@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T07:41:34.358Z",
+  "lastUpdated": "2026-09-08T12:30:34.069Z",
   "epic": [
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
@@ -126,27 +126,14 @@
       "isPopular": false
     },
     {
-      "id": "3764200",
-      "title": "Resident Evil Requiem",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
-      "originalPrice": 1999,
-      "discountPrice": 1399,
-      "discountPercent": 30,
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3764200",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3357650",
-      "title": "PRAGMATA",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/341da3fa5338fad44ae87b2d14edfe6be80ff4c3/capsule_616x353.jpg?t=1777351016",
-      "originalPrice": 1799,
-      "discountPrice": 1439,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3357650",
+      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -165,27 +152,14 @@
       "isPopular": false
     },
     {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
+      "id": "3357650",
+      "title": "PRAGMATA",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/341da3fa5338fad44ae87b2d14edfe6be80ff4c3/capsule_616x353.jpg?t=1777351016",
+      "originalPrice": 1799,
+      "discountPrice": 1439,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/974dcc1be690e64e9c9bdd8cf559bd5b8d5ce738/capsule_616x353.jpg?t=1787045299",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
+      "url": "https://store.steampowered.com/app/3357650",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -204,14 +178,14 @@
       "isPopular": false
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1787837240",
-      "originalPrice": 1559,
-      "discountPrice": 389,
-      "discountPercent": 75,
+      "id": "3764200",
+      "title": "Resident Evil Requiem",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
+      "originalPrice": 1999,
+      "discountPrice": 1399,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
+      "url": "https://store.steampowered.com/app/3764200",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -225,6 +199,32 @@
       "discountPercent": 38,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4656000",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1787837240",
+      "originalPrice": 1559,
+      "discountPrice": 389,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2183900",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/974dcc1be690e64e9c9bdd8cf559bd5b8d5ce738/capsule_616x353.jpg?t=1787045299",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -1572,14 +1572,14 @@
       "description": "У Міскатонікському університеті відбувається щось лиховісне. Професор Гаррі Евергарт старанно ігнорує тіні, які бачить периферичним зором, а студентку Еванджелін Дрейтон переслідують неймовірні сни про знайдений десять років тому артефакт. У пошуках відповідей пара героїв відкриє для себе безліч секретів, які сягають у століття далі, ніж можна собі уявити.\n\nШокуючі секрети\nЗнайомі за Call of the Sea головоломки, засновані на взаємодії з предметами й уважності, повертаються, набувши нової глибини. Вивчайте детально промальоване оточення в пошуках підказок. Перемикайтеся між Гаррі та Еванджелін, щоб розв’язувати складні, багатоетапні завдання, переміщаючись у просторі та часі. Підберіть для себе оптимальний рівень складності, відображаючи й приховуючи підказки, значки та записи в щоденнику.\n\nНеймовірні історії\nУ своїх пригодах Гаррі та Еванджелін відвідають особняк у Новій Англії та його освітлені вогнями бібліотеки, всипані червоним піском австралійські нетрі, морозні пустки та загублені в часі загадкові міста. Дослідження детально намальованих на рушії Unreal Engine 5 локацій супроводжується саундтреком, написаним відзначеним багатьма нагородами композитором Едуардо Де Ла Іглесіа.\n\nТінь з позачасся\nДопоможіть Гаррі Евергарту й Еванджелін Дрейтон дізнатися правду про своїх коханих і вистояти, зіткнувшись із сутностями за межею їхнього розуміння. Натхнена повістю Говарда Філліпса Лавкрафта «Тінь з позачасся» гра Call of the Elder Gods — це історія про горе, сім’ю і здоровий глузд, повністю озвучена досвідченими акторами Юрієм Ловенталем (Spider-Man, Arcane, Final Fantasy VII Rebirth) і Сіссі Джонс (Firewatch, Starfield, Baldur's Gate III).",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.44552.14206254537148158.e93ed201-c1eb-4f42-89ea-0d9ad5b233de.f1b66766-3855-46bc-9ff7-72e88d9a7e6f",
       "originalPrice": 405,
-      "discountPrice": 283.5,
-      "discountPercent": 30,
+      "discountPrice": 405,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PF697TG7PP7",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9NDC5LJS839S",
@@ -4647,14 +4647,14 @@
       "description": "Ви — в'язень, який має дослідити покинуту мегаструктуру, яка розкинулася в надрах Місяця — фальшивого супутника, що приховує під своєю поверхнею безодню таємниць. Ваше завдання — відшукати забуті технології в глибинах Безодні та покинутої колонії, яку вона поглинула. Весь ваш шлях пройде під пильним наглядом Ейлін — породженої машиною тюремниці.\n\nЦі прадавні руїни оживають від божевільної луни, просякнутої секретами великого міста Греймонта та його жахливого фіналу. Скверна. Заповіти Всеотця. Хор Колективу. Голоси Безодні кличуть вас, нашіптуючи дивні послання...",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.46935.14316223285043893.d7cf4143-4c42-4a15-aa79-8500ca19ac53.9fca0545-ac3c-4ce5-a476-b1ce419da651",
       "originalPrice": 1055,
-      "discountPrice": 738.5,
-      "discountPercent": 30,
+      "discountPrice": 1055,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PLBH9J0XGR8",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9P3FG98R5X8F",
@@ -5652,14 +5652,14 @@
       "description": "Досліджуй колоритний світ і будуй власний затишний дім на колесах. Створюй робочі станції й отримуй енергію від сонця, вітру або води. Удосконалюй і персоналізуй свій транспорт, вирощуй врожаї та живи енергонезалежно в компанії до 4 інших гравців.\n\nOutbound — це затишна дослідницька гра з відкритим світом, дія якої відбувається в недалекому утопічному майбутньому. Почни з порожнього фургона й перетвори його на дім мрії — самотужки або разом із друзями. Будуй і досліджуй у зручному темпі. Збирай матеріали, створюй і розміщуй модульні частини як усередині, так і ззовні свого транспорту. Розвивай технології й ефективно використовуй енергію для забезпечення дому.\n\nДосліджуй\nДосліджуй колоритний світ за кермом електричного фургона, що живиться енергією сонця, вітру або води. Відкривай знакові місця в різноманітних біомах.\n\nБудуй і створюй\nОблаштовуй власну рухому базу завдяки модульній системі. Персоналізуй свій транспорт за допомогою фарби, прикрас і меблів, створивши ідеальне затишне місце на свій смак.\n\nВирощуй\nЗакладай сади, щоби вирощувати смачні й поживні рослини та гриби. Споживай їх сирими або готуй вишукані страви, щоб утамувати голод у дорозі.\n\nНайкращі друзі назавжди\nЗаведи нового друга в лоджі «Лапи й вуса». Годуй, песть і тренуй його допомагати тобі день у день.\n\nГрай із друзями\nВирушай у подорож різноманітними біомами та збудуй власний дім на колесах самотужки або в мережі з 4 іншими гравцями.\n\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.43708.14196427234086945.901894be-1096-43bd-aa09-55fbbd5f3312.98961ad9-4dbf-4f54-9d41-1028f6ec74fd",
       "originalPrice": 519,
-      "discountPrice": 415.2,
-      "discountPercent": 20,
+      "discountPrice": 519,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PFWZMT737GG",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": true
+      "isDiscounted": false
     },
     {
       "id": "9PGB72NFG5JN",
