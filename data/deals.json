@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T13:12:00.834Z",
+  "lastUpdated": "2026-09-08T16:59:40.090Z",
   "epic": [
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
@@ -100,6 +100,32 @@
   ],
   "steam": [
     {
+      "id": "3624140",
+      "title": "Wanderburg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/c3794a3264f063828569dd74e38baee8cec7fa59/capsule_616x353_alt_assets_2.jpg?t=1788882563",
+      "originalPrice": 299,
+      "discountPrice": 194,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3624140",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "2406770",
       "title": "Bodycam",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/3b629529870a04b47055d715214e4e3ae7c32fdd/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1788548796",
@@ -121,19 +147,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -165,19 +178,6 @@
       "isPopular": false
     },
     {
-      "id": "4656000",
-      "title": "BOMBANANA!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1788351950",
-      "originalPrice": 195,
-      "discountPrice": 120,
-      "discountPercent": 38,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4656000",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "1623730",
       "title": "Palworld",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1784714419",
@@ -186,6 +186,19 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "4656000",
+      "title": "BOMBANANA!",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1788351950",
+      "originalPrice": 195,
+      "discountPrice": 120,
+      "discountPercent": 38,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4656000",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -212,19 +225,6 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/974dcc1be690e64e9c9bdd8cf559bd5b8d5ce738/capsule_616x353.jpg?t=1787045299",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -1473,6 +1473,21 @@
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N8KMNW6942X",
       "isGamePass": true,
       "isNewToGamePass": false,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
+      "id": "9N72SFQ24KW8",
+      "title": "Call of Duty®: Black Ops Cold War (Windows)",
+      "description": "Includes:\n\n- Call of Duty®: Black Ops Cold War game\n- Legendary Captain Price Operator Skin*\n\nBlack Ops Cold War, the direct sequel to Call of Duty®: Black Ops, drops fans into the depths of the Cold War’s volatile geopolitical battle of the early 1980s. Nothing is ever as it seems in a gripping single-player Campaign, where players come face-to-face with historical figures and hard truths, as they battle around the globe through iconic locales like East Berlin, Vietnam, Turkey, Soviet KGB headquarters and more.\n\n\n*All existing owners and future purchasers of Black Ops Cold War will receive the Legendary Captain Price Operator. Buy Black Ops Cold War and log in to receive this free in-game Legendary Operator Skin.\n\nFor more information, please visit www.callofduty.com.\n\n© 2020 Activision Publishing, Inc. ACTIVISION, CALL OF DUTY and CALL OF DUTY BLACK OPS are trademarks of Activision Publishing, Inc. All other trademarks and trade names are the properties of their respective owners. This product contains software technology licensed from Id Software ('Id Technology'). Id Technology © 1999-2026 Id Software, Inc.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.52829.14006772409173009.275a9108-bec7-47d8-b889-1be3519a0aa3.72fc2576-c467-4e61-8ccd-4cbf909f34a2",
+      "originalPrice": 2516,
+      "discountPrice": 2516,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9N72SFQ24KW8",
+      "isGamePass": true,
+      "isNewToGamePass": true,
       "isComingSoon": false,
       "isDiscounted": false
     },
@@ -10578,6 +10593,20 @@
       "percent": 60,
       "timestamp": "2026-09-07T20:59:26.732Z",
       "type": "discount"
+    },
+    "steam_discount_3624140": {
+      "title": "Wanderburg",
+      "price": 194,
+      "percent": 35,
+      "timestamp": "2026-09-08T16:59:31.354Z",
+      "type": "discount"
+    },
+    "xbox_new_9N72SFQ24KW8": {
+      "title": "Call of Duty®: Black Ops Cold War (Windows)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-09-08T16:59:31.354Z",
+      "type": "xbox_new"
     }
   }
 }
