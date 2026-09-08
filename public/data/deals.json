@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T19:47:32.970Z",
+  "lastUpdated": "2026-09-08T22:16:38.636Z",
   "epic": [
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
@@ -100,19 +100,6 @@
   ],
   "steam": [
     {
-      "id": "3624140",
-      "title": "Wanderburg",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/c3794a3264f063828569dd74e38baee8cec7fa59/capsule_616x353_alt_assets_2.jpg?t=1788882563",
-      "originalPrice": 299,
-      "discountPrice": 194,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3624140",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "2406770",
       "title": "Bodycam",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/3b629529870a04b47055d715214e4e3ae7c32fdd/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1788548796",
@@ -126,6 +113,19 @@
       "isPopular": false
     },
     {
+      "id": "3624140",
+      "title": "Wanderburg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/c3794a3264f063828569dd74e38baee8cec7fa59/capsule_616x353_alt_assets_2.jpg?t=1788882563",
+      "originalPrice": 299,
+      "discountPrice": 194,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3624140",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -134,6 +134,19 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
+      "originalPrice": 625,
+      "discountPrice": 312,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1144200",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -178,19 +191,6 @@
       "isPopular": false
     },
     {
-      "id": "4656000",
-      "title": "BOMBANANA!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1788351950",
-      "originalPrice": 195,
-      "discountPrice": 120,
-      "discountPercent": 38,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4656000",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1787837240",
@@ -217,14 +217,14 @@
       "isPopular": false
     },
     {
-      "id": "2050650",
-      "title": "Resident Evil 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
-      "originalPrice": 1200,
-      "discountPrice": 300,
-      "discountPercent": 75,
+      "id": "4656000",
+      "title": "BOMBANANA!",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1788351950",
+      "originalPrice": 195,
+      "discountPrice": 120,
+      "discountPercent": 38,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2050650",
+      "url": "https://store.steampowered.com/app/4656000",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -9115,7 +9115,7 @@
       "id": "9N4X0WFZ2STM",
       "title": "Zenless Zone Zero",
       "description": "Zenless Zone Zero is HoYoverse's brand-new urban fantasy ARPG.\n\nHere, contemporary civilization has been destroyed by a calamity known as \"Hollows.\" They appear out of thin air, creating spatial anomalies filled with formidable monsters — \"Ethereals.\"\n \nAmidst this overwhelming catastrophe, New Eridu, the last metropolis that survived the apocalypse, has risen against the odds by harnessing the technology and resources necessary to fight the Hollow disaster, gradually evolving into human civilization's last beacon of hope.\n \nIn New Eridu, you step into the shoes of a Proxy, a professional specialized in navigating the dangerous Hollows, guiding those who, for various reasons, need to venture inside. You will embark on an adventure with unique characters to explore Hollows, battle formidable enemies, complete commissions, and learn about the mysteries behind the city.",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.56867.13974579424110118.a7c4bc1b-04b3-4177-85c0-1252f18d6f9c.6d018030-74e6-4dcd-a504-a34a6c0b5f4d",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.49401.13974579424110118.c5a91c87-b857-4a17-add3-fc6ba76c3f74.3c112ef0-28b8-4395-8ec6-363c9fa24e3f",
       "originalPrice": 0,
       "discountPrice": 0,
       "discountPercent": 0,
@@ -10613,6 +10613,13 @@
       "price": 300,
       "percent": 75,
       "timestamp": "2026-09-08T18:12:46.692Z",
+      "type": "discount"
+    },
+    "steam_discount_1144200": {
+      "title": "Ready or Not",
+      "price": 312,
+      "percent": 50,
+      "timestamp": "2026-09-08T22:16:33.241Z",
       "type": "discount"
     }
   }
