@@ -35,6 +35,10 @@ export default defineConfig({
     }),
   ],
   base: '/Sales/',
+  build: {
+    sourcemap: false,
+    chunkSizeWarningLimit: 600,
+  },
   test: {
     environment: 'jsdom',
     globals: true,
