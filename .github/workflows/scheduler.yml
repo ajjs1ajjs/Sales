@@ -61,6 +61,13 @@ jobs:
             exit 0
           fi
           git commit -m "chore: update deals data [skip ci]"
+          # Another run may have pushed while we were fetching — rebase first.
+          # Generated data files always resolve to the fresh run ("theirs").
+          git pull --rebase --autostash origin main || {
+            git checkout --theirs -- public/data/deals.json public/data/notified-history.json
+            git add public/data/deals.json public/data/notified-history.json
+            GIT_EDITOR=true git rebase --continue
+          }
           git push origin main
 
       - name: Build React App
