@@ -64,6 +64,12 @@ export function GameCard({
     return q ? new RegExp(`(${escapeRegExp(q)})`, 'gi') : null;
   }, [searchQuery]);
 
+  const safeImageUrl = useMemo(
+    () => (imgError ? FALLBACK_IMG : (safeUrl(game.imageUrl) || FALLBACK_IMG)),
+    [game.imageUrl, imgError],
+  );
+  const safeStoreUrl = useMemo(() => safeUrl(game.url) || '#', [game.url]);
+
   return (
     <article
       className={`game-card${isUpcoming ? ' game-card--upcoming' : ''}`}
@@ -79,7 +85,7 @@ export function GameCard({
           </span>
         )}
         <img
-          src={imgError ? FALLBACK_IMG : (safeUrl(game.imageUrl) || FALLBACK_IMG)}
+          src={safeImageUrl}
           alt={game.title}
           className="card-image"
           loading="lazy"
@@ -147,7 +153,7 @@ export function GameCard({
             )}
           </div>
           <a
-            href={safeUrl(game.url) || '#'}
+            href={safeStoreUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="store-link"

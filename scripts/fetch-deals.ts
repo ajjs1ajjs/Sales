@@ -1,37 +1,95 @@
 import fs from 'fs';
 import path from 'path';
+import pino from 'pino';
+import { RateLimiter } from './rate-limiter';
 import type { EpicGame, SteamGame, XboxGame, DealsData, NotifiedItem } from '../src/types';
 import { formatPrice, formatDate, escapeHtml, escapeAttr } from '../src/shared/format';
 
-const DEALS_DIR = path.join(process.cwd(), 'public', 'data');
+const runId = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
+const logger = pino({
+  level: process.env.LOG_LEVEL ?? 'info',
+  base: { service: 'fetch-deals', runId },
+});
+
+const CONFIG = {
+  dealsDir: path.join(process.cwd(), 'public', 'data'),
+  freeGameCooldownMs: 14 * 24 * 60 * 60 * 1000,
+  discountCooldownMs: 30 * 24 * 60 * 60 * 1000,
+  historyRetentionMs: 30 * 24 * 60 * 60 * 1000,
+  tgMessageLimit: 4000,
+  tgTimeoutMs: 10000,
+  fetchTimeoutMs: 30000,
+  fetchRetries: 3,
+  fetchRetryDelayMs: 2000,
+  xboxBatchSize: 20,
+} as const;
+
+const DEALS_DIR = CONFIG.dealsDir;
 const DEALS_PATH = path.join(DEALS_DIR, 'deals.json');
+const HISTORY_PATH = path.join(DEALS_DIR, 'notified-history.json');
 
-const FREE_GAME_COOLDOWN_MS = 14 * 24 * 60 * 60 * 1000;
-const DISCOUNT_COOLDOWN_MS = 30 * 24 * 60 * 60 * 1000;
-const TG_MESSAGE_LIMIT = 4000;
+const FREE_GAME_COOLDOWN_MS = CONFIG.freeGameCooldownMs;
+const DISCOUNT_COOLDOWN_MS = CONFIG.discountCooldownMs;
+const TG_MESSAGE_LIMIT = CONFIG.tgMessageLimit;
 
-const XBOX_SGL_ALL_PC = process.env.XBOX_SGL_ALL_PC ?? '609d944c-d395-4c0a-9ea4-e9f39b52c1ad';
-const XBOX_SGL_NEW_PC = process.env.XBOX_SGL_NEW_PC ?? '3fdd7f57-7092-4b65-bd40-5a9dac1b2b84';
-const XBOX_SGL_COMING_PC = process.env.XBOX_SGL_COMING_PC ?? '4165f752-d702-49c8-886b-fb57936f6bae';
-const XBOX_SGL_EA_PLAY_PC = process.env.XBOX_SGL_EA_PLAY_PC ?? '1d33fbb9-b895-4732-a8ca-a55c8b99fa2c';
+/** Strip CR/LF to prevent log forgery from upstream game titles. */
+const sanitizeLog = (v: unknown): string =>
+  String(v ?? '').replace(/[\r\n]+/g, ' ').slice(0, 500);
 
-async function fetchWithRetry(url: string, options?: RequestInit, retries = 3, delay = 2000): Promise<Response> {
+// Rate limiter configuration per API
+const RATE_LIMITS = {
+  epic: { requestsPerMinute: 30 },
+  steam: { requestsPerMinute: 60 },
+  xbox: { requestsPerMinute: 100 },
+} as const;
+
+const rateLimiters = {
+  epic: new RateLimiter(RATE_LIMITS.epic.requestsPerMinute),
+  steam: new RateLimiter(RATE_LIMITS.steam.requestsPerMinute),
+  xbox: new RateLimiter(RATE_LIMITS.xbox.requestsPerMinute),
+};
+
+const XBOX_SGL_ALL_PC = process.env.XBOX_SGL_ALL_PC;
+const XBOX_SGL_NEW_PC = process.env.XBOX_SGL_NEW_PC;
+const XBOX_SGL_COMING_PC = process.env.XBOX_SGL_COMING_PC;
+const XBOX_SGL_EA_PLAY_PC = process.env.XBOX_SGL_EA_PLAY_PC;
+
+if (!XBOX_SGL_ALL_PC || !XBOX_SGL_NEW_PC || !XBOX_SGL_COMING_PC || !XBOX_SGL_EA_PLAY_PC) {
+  throw new Error('XBOX_SGL_* environment variables are required but not set');
+}
+
+const XBOX_IDS = {
+  all: XBOX_SGL_ALL_PC as string,
+  new: XBOX_SGL_NEW_PC as string,
+  coming: XBOX_SGL_COMING_PC as string,
+  eaPlay: XBOX_SGL_EA_PLAY_PC as string,
+};
+
+async function fetchWithRetry(url: string, options?: RequestInit, retries = 3, delay = 2000, timeoutMs = 30000): Promise<Response> {
   for (let i = 0; i < retries; i++) {
     let res: Response | undefined;
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), timeoutMs);
+    const fetchOptions = { ...options, signal: controller.signal };
+    
     try {
-      res = await fetch(url, options);
+      res = await fetch(url, fetchOptions);
     } catch (err) {
-      console.warn(`⚠️ Fetch error for ${url}: ${err instanceof Error ? err.message : String(err)}. Attempt ${i + 1} of ${retries}.`);
+      clearTimeout(timeout);
+      logger.warn({ url: sanitizeLog(url), attempt: i + 1, retries, err: sanitizeLog(err instanceof Error ? err.message : String(err)) }, 'fetch error');
     }
 
     if (res) {
+      clearTimeout(timeout);
       if (res.ok) return res;
       // 4xx — клієнтська помилка (404/400/403): повторювати безглуздо, перериваємо одразу.
       // 429 (Too Many Requests) — виняток: це тимчасове обмеження, повторюємо з backoff.
       if (res.status >= 400 && res.status < 500 && res.status !== 429) {
         throw new Error(`Failed to fetch ${url}: non-retryable client error ${res.status}.`);
       }
-      console.warn(`⚠️ Fetch failed for ${url} with status ${res.status}. Attempt ${i + 1} of ${retries}.`);
+      logger.warn({ url: sanitizeLog(url), status: res.status, attempt: i + 1, retries }, 'fetch failed');
+    } else {
+      clearTimeout(timeout);
     }
 
     if (i < retries - 1) {
@@ -80,7 +138,8 @@ interface SteamResponse {
 
 async function fetchEpicGames(): Promise<EpicGame[]> {
   try {
-    console.log("Fetching Epic Games promotions...");
+    logger.info("Fetching Epic Games promotions...");
+    await rateLimiters.epic.take();
     const url = 'https://store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions?locale=uk&country=UA';
     const res = await fetchWithRetry(url);
     const data = await res.json() as EpicResponse;
@@ -187,7 +246,8 @@ async function fetchEpicGames(): Promise<EpicGame[]> {
 
 async function fetchSteamGames(): Promise<SteamGame[]> {
   try {
-    console.log("Fetching Steam categories...");
+    logger.info("Fetching Steam categories...");
+    await rateLimiters.steam.take();
     const url = 'https://store.steampowered.com/api/featuredcategories/?cc=UA&l=ukrainian';
     const res = await fetchWithRetry(url);
     const data = await res.json() as SteamResponse;
@@ -270,6 +330,7 @@ interface XboxAvailability {
 }
 
 async function fetchXboxGameIds(sglId: string): Promise<string[]> {
+  await rateLimiters.xbox.take();
   const url = `https://catalog.gamepass.com/sigls/v2?id=${sglId}&market=UA&language=uk-UA`;
   const res = await fetchWithRetry(url);
   const data = (await res.json()) as { id?: string }[];
@@ -280,10 +341,11 @@ async function fetchXboxGameIds(sglId: string): Promise<string[]> {
 
 async function fetchXboxDetails(ids: string[]): Promise<XboxProduct[]> {
   if (ids.length === 0) return [];
-  const batchSize = 20;
+  const batchSize = CONFIG.xboxBatchSize;
   const allDetails: XboxProduct[] = [];
   for (let i = 0; i < ids.length; i += batchSize) {
     const batch = ids.slice(i, i + batchSize);
+    await rateLimiters.xbox.take();
     const url = `https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=${batch.join(',')}&market=UA&languages=uk-UA`;
     const res = await fetchWithRetry(url);
     const data = (await res.json()) as XboxProductResponse;
@@ -338,12 +400,12 @@ function extractXboxImage(product: XboxProduct): string {
 
 async function fetchXboxGames(): Promise<{ games: XboxGame[]; allIds: string[]; newIds: Set<string>; comingIds: Set<string> }> {
   try {
-    console.log("Fetching Xbox Game Pass games...");
+    logger.info("Fetching Xbox Game Pass games...");
     const [newIds, comingIds, allIds, eaIds] = await Promise.all([
-      fetchXboxGameIds(XBOX_SGL_NEW_PC),
-      fetchXboxGameIds(XBOX_SGL_COMING_PC),
-      fetchXboxGameIds(XBOX_SGL_ALL_PC),
-      fetchXboxGameIds(XBOX_SGL_EA_PLAY_PC),
+      fetchXboxGameIds(XBOX_IDS.new),
+      fetchXboxGameIds(XBOX_IDS.coming),
+      fetchXboxGameIds(XBOX_IDS.all),
+      fetchXboxGameIds(XBOX_IDS.eaPlay),
     ]);
     const newSet = new Set(newIds);
     const comingSet = new Set(comingIds);
@@ -416,14 +478,16 @@ async function sendTelegramMessage(text: string) {
   const chatId = process.env.TELEGRAM_CHAT_ID;
   
   if (!token || !chatId) {
-    console.log("⚠️ Telegram credentials not found (TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID). Skipping notification.");
+    logger.info("⚠️ Telegram credentials not found (TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID). Skipping notification.");
     return;
   }
   
-  // Never log the full URL: the bot token lives in the path and must not leak
-  // into CI logs via error messages / stack traces.
   const url = `https://api.telegram.org/bot${token}/sendMessage`;
   const logSafeUrl = 'https://api.telegram.org/bot[REDACTED]/sendMessage';
+  
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 10000);
+  
   let response: Response;
   try {
     response = await fetch(url, {
@@ -434,22 +498,28 @@ async function sendTelegramMessage(text: string) {
         text: text,
         parse_mode: 'HTML',
         disable_web_page_preview: false
-      })
+      }),
+      signal: controller.signal
     });
   } catch (err) {
-    console.error(`❌ Telegram API network error for ${logSafeUrl}: ${err instanceof Error ? err.message : String(err)}`);
-    throw err;
+    clearTimeout(timeout);
+    const message = err instanceof Error ? err.message : String(err);
+    const sanitized = message.replace(token, '[REDACTED]');
+    logger.error({ url: logSafeUrl, err: sanitized }, 'telegram api network error');
+    throw new Error(`Telegram send failed: ${sanitized}`, { cause: err });
+  } finally {
+    clearTimeout(timeout);
   }
   
   if (!response.ok) {
-    console.error(`❌ Telegram API error for ${logSafeUrl}: ${response.status}`);
+    logger.error({ url: logSafeUrl, status: response.status }, 'telegram api error');
   } else {
-    console.log("✅ Telegram message sent successfully.");
+    logger.info("✅ Telegram message sent successfully.");
   }
 }
 
 async function run() {
-  console.log("Starting deals fetcher script...");
+  logger.info("Starting deals fetcher script...");
   
   // Load previous deals for comparison
   // Coerce whatever we read (local file OR remote GitHub Pages) into a valid
@@ -463,10 +533,7 @@ async function run() {
       epic: Array.isArray(p.epic) ? (p.epic as DealsData['epic']) : [],
       steam: Array.isArray(p.steam) ? (p.steam as DealsData['steam']) : [],
       xbox: Array.isArray(p.xbox) ? (p.xbox as DealsData['xbox']) : [],
-      notifiedHistory:
-        p.notifiedHistory && typeof p.notifiedHistory === 'object'
-          ? (p.notifiedHistory as DealsData['notifiedHistory'])
-          : {},
+      notifiedHistory: {},
     };
   };
 
@@ -474,26 +541,51 @@ async function run() {
   if (fs.existsSync(DEALS_PATH)) {
     try {
       oldData = coerceOldData(JSON.parse(fs.readFileSync(DEALS_PATH, 'utf-8')));
-      console.log("Loaded previous deals from local path.");
+      logger.info("Loaded previous deals from local path.");
     } catch (err) {
-      console.error("⚠️ Failed to parse old local deals.json:", err);
+      logger.error({ err: err instanceof Error ? err.message : String(err) }, 'failed to parse old local deals.json');
     }
   } else {
     try {
       const githubPagesUrl = `https://ajjs1ajjs.github.io/Sales/data/deals.json`;
-      console.log(`Trying to fetch previous deals from GitHub Pages: ${githubPagesUrl}`);
+      logger.info(`Trying to fetch previous deals from GitHub Pages: ${githubPagesUrl}`);
       const res = await fetch(githubPagesUrl);
       if (res.ok) {
         oldData = coerceOldData(await res.json());
-        console.log("✅ Loaded previous deals from GitHub Pages.");
+        logger.info("✅ Loaded previous deals from GitHub Pages.");
       }
     } catch {
-      console.log("⚠️ Could not fetch from GitHub Pages, starting fresh.");
+      logger.info("⚠️ Could not fetch from GitHub Pages, starting fresh.");
     }
   }
   
-  // Load and clean notified history
-  const notifiedHistory = oldData.notifiedHistory || {};
+  // Load notified history from separate file (append-only, merge-friendly)
+  let notifiedHistory: Record<string, NotifiedItem> = {};
+  if (fs.existsSync(HISTORY_PATH)) {
+    try {
+      const parsed = JSON.parse(fs.readFileSync(HISTORY_PATH, 'utf-8'));
+      if (parsed && typeof parsed === 'object') {
+        notifiedHistory = parsed as Record<string, NotifiedItem>;
+      }
+      logger.info("Loaded notified history from local path.");
+    } catch (err) {
+      logger.error({ err: err instanceof Error ? err.message : String(err) }, 'failed to parse notified-history.json');
+    }
+  } else {
+    try {
+      const githubPagesHistoryUrl = `https://ajjs1ajjs.github.io/Sales/data/notified-history.json`;
+      logger.info(`Trying to fetch notified history from GitHub Pages: ${githubPagesHistoryUrl}`);
+      const res = await fetch(githubPagesHistoryUrl);
+      if (res.ok) {
+        notifiedHistory = (await res.json()) as Record<string, NotifiedItem>;
+        logger.info("✅ Loaded notified history from GitHub Pages.");
+      }
+    } catch {
+      logger.info("⚠️ Could not fetch notified history from GitHub Pages, starting fresh.");
+    }
+  }
+  
+  // Clean notified history: remove expired (30 days) and corrupted (NaN timestamp) entries
   const now = new Date();
   const thirtyDaysAgo = now.getTime() - 30 * 24 * 60 * 60 * 1000;
   
@@ -507,22 +599,36 @@ async function run() {
   }
   
   // Fetch fresh data
-  const freshEpic = await fetchEpicGames();
-  const freshSteam = await fetchSteamGames();
-  const freshXboxData = await fetchXboxGames();
+  let epicFetchSuccess = false;
+  let steamFetchSuccess = false;
+  let xboxFetchSuccess = false;
+  
+  const freshEpic = await fetchEpicGames().then(r => { epicFetchSuccess = true; return r; }).catch(() => []);
+  const freshSteam = await fetchSteamGames().then(r => { steamFetchSuccess = true; return r; }).catch(() => []);
+  const freshXboxData = await fetchXboxGames().then(r => { xboxFetchSuccess = true; return r; }).catch(() => ({ games: [], allIds: [], newIds: new Set(), comingIds: new Set() }));
   const freshXbox = freshXboxData.games;
   
   // Guard against API/scraping failure:
-  // If we fetched 0 games but we had games previously, it's highly likely a scrape failure.
-  // We should keep the old data and abort rather than overwriting the dataset with empty arrays.
-  if (freshEpic.length === 0 && oldData.epic.length > 0) {
-    throw new Error('Scraped Epic Games list is empty, but previous data was not. Aborting to prevent data deletion.');
+  // If fetch failed (not just empty) but we had games previously, abort to prevent data deletion.
+  if (!epicFetchSuccess && oldData.epic.length > 0) {
+    throw new Error('Epic Games fetch failed, but previous data was not empty. Aborting to prevent data deletion.');
   }
-  if (freshSteam.length === 0 && oldData.steam.length > 0) {
-    throw new Error('Scraped Steam games list is empty, but previous data was not. Aborting to prevent data deletion.');
+  if (!steamFetchSuccess && oldData.steam.length > 0) {
+    throw new Error('Steam games fetch failed, but previous data was not empty. Aborting to prevent data deletion.');
   }
-  if (freshXbox.length === 0 && oldData.xbox.length > 0) {
-    throw new Error('Fetched Xbox games list is empty, but previous data was not. Aborting to prevent data deletion.');
+  if (!xboxFetchSuccess && oldData.xbox.length > 0) {
+    throw new Error('Xbox games fetch failed, but previous data was not empty. Aborting to prevent data deletion.');
+  }
+  
+  // If fetch succeeded but returned empty, log warning but continue (could be legitimate no deals)
+  if (epicFetchSuccess && freshEpic.length === 0 && oldData.epic.length > 0) {
+    logger.warn('⚠️ Epic Games fetch succeeded but returned empty list. Previous data had games. Keeping old data.');
+  }
+  if (steamFetchSuccess && freshSteam.length === 0 && oldData.steam.length > 0) {
+    logger.warn('⚠️ Steam fetch succeeded but returned empty list. Previous data had games. Keeping old data.');
+  }
+  if (xboxFetchSuccess && freshXbox.length === 0 && oldData.xbox.length > 0) {
+    logger.warn('⚠️ Xbox fetch succeeded but returned empty list. Previous data had games. Keeping old data.');
   }
   
   // Detect changes
@@ -639,7 +745,7 @@ async function run() {
     }
   }
 
-  console.log(`Detected: ${newFreeGames.length} free Epic, ${newEpicDiscounts.length} discounted Epic, ${newSteamFreeGames.length} free Steam, ${newSteamDeals.length} hot Steam, ${newXboxAdditions.length} new Xbox Game Pass.`);
+  logger.info(`Detected: ${newFreeGames.length} free Epic, ${newEpicDiscounts.length} discounted Epic, ${newSteamFreeGames.length} free Steam, ${newSteamDeals.length} hot Steam, ${newXboxAdditions.length} new Xbox Game Pass.`);
 
   function markNotified(key: string, entry: NotifiedItem) {
     notifiedHistory[key] = entry;
@@ -702,7 +808,7 @@ async function run() {
           title: game.title, price: 0, percent: 100, timestamp: now.toISOString(), type: 'free'
         });
       } catch (err) {
-        console.error(`❌ Failed to notify free game ${game.title}:`, err);
+        logger.error({ game: sanitizeLog(game.title), err: sanitizeLog(err instanceof Error ? err.message : String(err)) }, 'failed to notify free game');
       }
     }
   }
@@ -777,15 +883,31 @@ async function run() {
     epic: freshEpic,
     steam: freshSteam,
     xbox: freshXbox,
-    notifiedHistory
+    notifiedHistory: {}
   };
   
   await fs.promises.mkdir(DEALS_DIR, { recursive: true });
   await fs.promises.writeFile(DEALS_PATH, JSON.stringify(newData, null, 2), 'utf-8');
-  console.log(`✅ Saved new data to ${DEALS_PATH}`);
+  logger.info(`✅ Saved new data to ${DEALS_PATH}`);
+  
+  // Save notified history to separate file (atomic write via temp file)
+  const historyTmpPath = `${HISTORY_PATH}.tmp`;
+  await fs.promises.writeFile(historyTmpPath, JSON.stringify(notifiedHistory, null, 2), 'utf-8');
+  await fs.promises.rename(historyTmpPath, HISTORY_PATH);
+  logger.info(`✅ Saved notified history to ${HISTORY_PATH}`);
+}
+
+let shuttingDown = false;
+for (const sig of ['SIGTERM', 'SIGINT'] as const) {
+  process.on(sig, () => {
+    if (shuttingDown) return;
+    shuttingDown = true;
+    logger.warn({ sig }, 'received shutdown signal, exiting');
+    process.exit(143);
+  });
 }
 
 run().catch(err => {
-  console.error("❌ Critical error running fetcher:", err);
+  logger.error({ err: err instanceof Error ? { message: err.message, stack: err.stack } : String(err) }, 'critical error running fetcher');
   process.exit(1);
 });
