@@ -49,13 +49,22 @@ const rateLimiters = {
   xbox: new RateLimiter(RATE_LIMITS.xbox.requestsPerMinute),
 };
 
-const XBOX_SGL_ALL_PC = process.env.XBOX_SGL_ALL_PC;
-const XBOX_SGL_NEW_PC = process.env.XBOX_SGL_NEW_PC;
-const XBOX_SGL_COMING_PC = process.env.XBOX_SGL_COMING_PC;
-const XBOX_SGL_EA_PLAY_PC = process.env.XBOX_SGL_EA_PLAY_PC;
+// Public Xbox catalog IDs — safe as in-source defaults (not secrets).
+// Env vars allow override; a warning is logged when falling back.
+const XBOX_SGL_DEFAULTS = {
+  all: '609d944c-d395-4c0a-9ea4-e9f39b52c1ad',
+  new: '3fdd7f57-7092-4b65-bd40-5a9dac1b2b84',
+  coming: '4165f752-d702-49c8-886b-fb57936f6bae',
+  eaPlay: '1d33fbb9-b895-4732-a8ca-a55c8b99fa2c',
+} as const;
 
-if (!XBOX_SGL_ALL_PC || !XBOX_SGL_NEW_PC || !XBOX_SGL_COMING_PC || !XBOX_SGL_EA_PLAY_PC) {
-  throw new Error('XBOX_SGL_* environment variables are required but not set');
+const XBOX_SGL_ALL_PC = process.env.XBOX_SGL_ALL_PC ?? XBOX_SGL_DEFAULTS.all;
+const XBOX_SGL_NEW_PC = process.env.XBOX_SGL_NEW_PC ?? XBOX_SGL_DEFAULTS.new;
+const XBOX_SGL_COMING_PC = process.env.XBOX_SGL_COMING_PC ?? XBOX_SGL_DEFAULTS.coming;
+const XBOX_SGL_EA_PLAY_PC = process.env.XBOX_SGL_EA_PLAY_PC ?? XBOX_SGL_DEFAULTS.eaPlay;
+
+if (!process.env.XBOX_SGL_ALL_PC || !process.env.XBOX_SGL_NEW_PC || !process.env.XBOX_SGL_COMING_PC || !process.env.XBOX_SGL_EA_PLAY_PC) {
+  logger.warn('XBOX_SGL_* env vars not set, using built-in catalog defaults');
 }
 
 const XBOX_IDS = {
