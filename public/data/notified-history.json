@@ -537,5 +537,12 @@
     "percent": 30,
     "timestamp": "2026-09-09T14:58:16.602Z",
     "type": "discount"
+  },
+  "steam_discount_3892270": {
+    "title": "Gamble With Your Friends",
+    "price": 115,
+    "percent": 39,
+    "timestamp": "2026-09-09T18:12:56.898Z",
+    "type": "discount"
   }
 }
