@@ -530,5 +530,12 @@
     "percent": 0,
     "timestamp": "2026-09-09T14:25:50.906Z",
     "type": "xbox_new"
+  },
+  "steam_discount_3764200": {
+    "title": "Resident Evil Requiem",
+    "price": 1399,
+    "percent": 30,
+    "timestamp": "2026-09-09T14:58:16.602Z",
+    "type": "discount"
   }
 }
