@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T10:35:11.149Z",
+  "lastUpdated": "2026-09-09T13:17:30.546Z",
   "epic": [
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
@@ -100,19 +100,6 @@
   ],
   "steam": [
     {
-      "id": "3971950",
-      "title": "In Falsus",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3971950/1966a2ed3b737755eb4e72203e3da399d9892cfd/capsule_616x353.jpg?t=1788940567",
-      "originalPrice": 990,
-      "discountPrice": 891,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3971950",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "2406770",
       "title": "Bodycam",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/3b629529870a04b47055d715214e4e3ae7c32fdd/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1788548796",
@@ -121,19 +108,6 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2406770",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3624140",
-      "title": "Wanderburg",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/c3794a3264f063828569dd74e38baee8cec7fa59/capsule_616x353_alt_assets_2.jpg?t=1788934272",
-      "originalPrice": 299,
-      "discountPrice": 194,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3624140",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -152,14 +126,14 @@
       "isPopular": false
     },
     {
-      "id": "3321460",
-      "title": "Crimson Desert Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1788450739",
-      "originalPrice": 2449,
-      "discountPrice": 1959,
-      "discountPercent": 20,
+      "id": "3624140",
+      "title": "Wanderburg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/c3794a3264f063828569dd74e38baee8cec7fa59/capsule_616x353_alt_assets_2.jpg?t=1788934272",
+      "originalPrice": 299,
+      "discountPrice": 194,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3321460",
+      "url": "https://store.steampowered.com/app/3624140",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -178,27 +152,27 @@
       "isPopular": false
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1787837240",
-      "originalPrice": 1559,
-      "discountPrice": 389,
-      "discountPercent": 75,
+      "id": "3971950",
+      "title": "In Falsus",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3971950/1966a2ed3b737755eb4e72203e3da399d9892cfd/capsule_616x353.jpg?t=1788940567",
+      "originalPrice": 990,
+      "discountPrice": 891,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
+      "url": "https://store.steampowered.com/app/3971950",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
     },
     {
-      "id": "3357650",
-      "title": "PRAGMATA",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/341da3fa5338fad44ae87b2d14edfe6be80ff4c3/capsule_616x353.jpg?t=1777351016",
-      "originalPrice": 1799,
-      "discountPrice": 1439,
+      "id": "3321460",
+      "title": "Crimson Desert Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1788450739",
+      "originalPrice": 2449,
+      "discountPrice": 1959,
       "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3357650",
+      "url": "https://store.steampowered.com/app/3321460",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -217,14 +191,40 @@
       "isPopular": false
     },
     {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/974dcc1be690e64e9c9bdd8cf559bd5b8d5ce738/capsule_616x353.jpg?t=1787045299",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
+      "id": "3764200",
+      "title": "Resident Evil Requiem",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
+      "originalPrice": 1999,
+      "discountPrice": 1399,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
+      "url": "https://store.steampowered.com/app/3764200",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3357650",
+      "title": "PRAGMATA",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/341da3fa5338fad44ae87b2d14edfe6be80ff4c3/capsule_616x353.jpg?t=1777351016",
+      "originalPrice": 1799,
+      "discountPrice": 1439,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3357650",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1787837240",
+      "originalPrice": 1559,
+      "discountPrice": 389,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
