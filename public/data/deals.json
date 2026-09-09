@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T23:05:17.237Z",
+  "lastUpdated": "2026-09-09T00:58:01.302Z",
   "epic": [
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
@@ -191,19 +191,6 @@
       "isPopular": false
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1787837240",
-      "originalPrice": 1559,
-      "discountPrice": 389,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "275850",
       "title": "No Man's Sky",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/974dcc1be690e64e9c9bdd8cf559bd5b8d5ce738/capsule_616x353.jpg?t=1787045299",
@@ -212,6 +199,19 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/275850",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "4656000",
+      "title": "BOMBANANA!",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1788351950",
+      "originalPrice": 195,
+      "discountPrice": 120,
+      "discountPercent": 38,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4656000",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -1452,14 +1452,14 @@
       "description": "Forced to go rogue. Hunted from within. This is Call of Duty®: Black Ops 6.\n\nDeveloped by Treyarch and Raven, Black Ops 6 is a spy action thriller set in the early 90s, a period of transition and upheaval in global politics, characterised by the end of the Cold War and the rise of the United States as a single superpower. With a mind-bending narrative and unbound by the rules of engagement, this is signature Black Ops.\n\nThe Black Ops 6 Campaign provides dynamic moment-to-moment gameplay that includes a variety of play spaces with blockbuster set pieces and action-packed moments, high-stakes heists and cloak-and-dagger spy activity.\n\nIn a best-in-class Multiplayer experience, players will test their skills across an immense line up of maps and modes.\n\nBlack Ops 6 also marks the epic return of Round-Based Zombies, the fan-favourite mode where players will take down hordes of the undead. Fight across six new maps, with the new Directed Mode for those wanting to witness the Zombies story with a guided experience and Grief, a mode for those looking for a more competitive experience.\n\n\nA mobile phone number linked to your Activision account may be required to play Black Ops 6.\n\nActivision may modify or discontinue online service in the future, which may impact the continued availability of online gameplay. Online services may be discontinued due to factors including number of players.\n\nAdditional storage space may be required for mandatory game updates.\n\nFor more information, please visit www.callofduty.com.\n\n© 2024-2025 Activision Publishing, Inc. ACTIVISION, CALL OF DUTY and CALL OF DUTY BLACK OPS are trademarks of Activision Publishing, Inc. All other trademarks and trade names are the property of their respective owners. This product contains software technology licensed from Id Software ('Id Technology'). Id Technology © 1999-2025 Id Software, Inc.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.5449.14346543607136639.d932bf87-6edc-4da6-bbd5-c944ad33bc0d.13679419-d921-4346-9597-8a6e1a1cae81",
       "originalPrice": 3299,
-      "discountPrice": 3299,
-      "discountPercent": 0,
+      "discountPrice": 1319.6,
+      "discountPercent": 60,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MZ1RZTJTZKB",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N8KMNW6942X",
@@ -1467,14 +1467,14 @@
       "description": "Includes:\n\n- Cross-Gen Bundle of Call of Duty®: Black Ops 7\n-- Includes Xbox Series X|S, Xbox One and Xbox on PC versions of the game\n\nIn Call of Duty®: Black Ops 7, Treyarch and Raven Software are bringing players the biggest Black Ops ever.\n\nThe year is 2035 and the world is on the brink of chaos, ravaged by violent conflict and psychological warfare. David Mason leads an elite JSOC team on a covert mission to the sprawling Mediterranean city of Avalon. While there, they discover a sophisticated plot that won’t just plunge the world into chaos, it will pull them into their own haunting pasts.\n\nSquad up or go solo in an innovative Co-Op Campaign that redefines the Black Ops experience.\n\nMultiplayer explodes out of the gate with 16 electrifying 6v6 maps and two 20v20 maps at launch. Master a cutting-edge arsenal and outmanoeuvre your enemies with a next level Omnimovement system.\n\nIn Treyarch’s legendary Round-Based Zombies mode, the nightmare begins where reality ends. Trapped in the heart of the Dark Aether, the crew is thrust into a vast, ever-shifting hellscape in the biggest Round-Based Zombies map in Black Ops history.\n\n\nGame requires a Game Pass Essential subscription (sold separately).\n\nTPM 2.0 and Secure Boot required for PC, other security measures may be enforced. Learn more at https://support.activision.com/tpm.\n\nContent, features, services, online play, and support not available in all regions, and may vary, change, or terminate.\n\nRequires an Activision account and acceptance of the Activision Software License and Services Agreement. A mobile phone number linked to your Activision account may be required to play Black Ops 7.\n\nAdditional storage space may be required for mandatory game updates.\n\nFor more information, please visit www.callofduty.com.\n\n©/TM/® 2025-2026 Activision Publishing, Inc. This product contains software technology licensed from Id Software ('Id Technology'). Id Technology © 1999-2026 Id Software, Inc.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.57334.14316447222402733.6d8fadcf-e3df-4eac-b52c-fdf9ff5b2532.a033275a-9c18-4a03-8d42-1d9bb67ef0c4",
       "originalPrice": 3399,
-      "discountPrice": 3399,
-      "discountPercent": 0,
+      "discountPrice": 1699.5,
+      "discountPercent": 50,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N8KMNW6942X",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N72SFQ24KW8",
@@ -1497,14 +1497,14 @@
       "description": "Experience a visceral Campaign or assemble your team in the ultimate online playground with multiple Special Ops challenges and a mix of Multiplayer maps and modes.\n\n\nFor more information, please visit www.callofduty.com.\n\n© 2019 Activision Publishing, Inc. ACTIVISION, CALL OF DUTY and MODERN WARFARE are trademarks of Activision Publishing, Inc. All other trademarks and trade names are the properties of their respective owners. This product contains software technology licensed from Id Software ('Id Technology'). Id Technology © 1999-2026 Id Software, Inc.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.1926.13754207406549189.cd8c44dd-5d70-4cac-9ae7-2f630b4a1996.a73b5df7-6261-42dd-91ee-24210bd73fb6",
       "originalPrice": 2516,
-      "discountPrice": 2516,
-      "discountPercent": 0,
+      "discountPrice": 629,
+      "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NMPDV49K4TX",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P7RQ1QFFF8R",
@@ -1512,14 +1512,14 @@
       "description": "Call of Duty®: Modern Warfare® II drops players into an unprecedented global conflict that features the return of the iconic Operators of Task Force 141. From small-scale, high-stakes infiltration tactical ops to highly classified missions, players will deploy alongside friends in a truly immersive experience.\n\nModern Warfare® II includes a globe-trotting single-player campaign, immersive Multiplayer combat and a narrative-driven, co-op Special Ops experience.\n\n\nA mobile phone number linked to your Activision account may be required to play Modern Warfare® II.\n\nFor more information, please visit www.callofduty.com.\n\n© 2022-2023 Activision Publishing, Inc. ACTIVISION, CALL OF DUTY and MODERN WARFARE are trademarks of Activision Publishing, Inc. All other trademarks and trade names are the property of their respective owners. This product contains software technology licensed from Id Software ('Id Technology'). Id Technology © 1999-2023 Id Software, Inc.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.46802.14101915825563460.e102526c-a483-423c-87f0-446d67ef06cd.bd9f52ec-c100-4a3a-b61a-d0a436082167",
       "originalPrice": 2375,
-      "discountPrice": 2375,
-      "discountPercent": 0,
+      "discountPrice": 712.5,
+      "discountPercent": 70,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P7RQ1QFFF8R",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NDKFJ6XDX2M",
@@ -1527,14 +1527,14 @@
       "description": "ADAPT OR DIE IN A FIGHT AGAINST THE ULTIMATE THREAT\n\nIn the direct sequel to the record-breaking Call of Duty®: Modern Warfare® II, Captain Price and Task Force 141 face off against the ultimate threat. The ultranationalist war criminal Vladimir Makarov is extending his grasp across the world causing Task Force 141 to fight like never before.\n\nIT’S TIME TO SETTLE OLD SCORES AND START NEW ONES\n\nModern Warfare® III celebrates the 20th anniversary of Call of Duty® with one of the greatest collections of Multiplayer maps ever assembled - both fan favourites and all new ones. This includes all 16 launch maps from the original Modern Warfare® 2 (2009), modernised with new modes and gameplay features, as well as multiple new core 6v6 maps.\n\nALL NEW OPEN WORLD ZOMBIES\n\nFor the first time, team up with other squads to survive and fight massive hordes of the undead. Modern Warfare® Zombies (MWZ) tells a new Treyarch Zombies story with missions, core Zombies features and secrets to discover.\n\n\nA mobile phone number linked to your Activision account may be required to play Modern Warfare® III.\n\nFor more information, please visit www.callofduty.com.\n\n© 2024 Activision Publishing, Inc. ACTIVISION, CALL OF DUTY, and MODERN WARFARE are trademarks of Activision Publishing, Inc. All other trademarks and trade names are the property of their respective owners. This product contains software technology licensed from Id Software ('Id Technology'). Id Technology © 1999-2024 Id Software, Inc.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.44508.13612848337674936.f9e71e15-6765-4282-8a3d-968dccfb729c.848723cd-1659-4c5b-8665-b4055a2a091e",
       "originalPrice": 3299,
-      "discountPrice": 3299,
-      "discountPercent": 0,
+      "discountPrice": 1319.6,
+      "discountPercent": 60,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NDKFJ6XDX2M",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N0SNSC9PK4D",
@@ -1542,14 +1542,14 @@
       "description": "Rise on every front: Dogfight over the Pacific, airdrop over France, defend Stalingrad with a sniper’s precision and blast through advancing forces in North Africa. Experience Call of Duty®: Vanguard, developed by Sledgehammer Games, where players are immersed in visceral WWII combat on an unprecedented global scale.\n\nCall of Duty®: Vanguard includes a deeply engaging single player Campaign, a massive Multiplayer offering, and an exciting Zombies experience developed by Treyarch.\n\nFor more information, please visit www.callofduty.com.\n\n© 2021 Activision Publishing, Inc. ACTIVISION, CALL OF DUTY and CALL OF DUTY VANGUARD are trademarks of Activision Publishing, Inc. All other trademarks and trade names are the properties of their respective owners. This product contains software technology licensed from Id Software ('Id Technology'). Id Technology © 1999-2026 Id Software, Inc.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.27881.13919092698619191.2d46d279-f52a-433a-8664-7762555e4777.fde320d5-ff5e-451e-b759-efa6cc55d4f4",
       "originalPrice": 2516,
-      "discountPrice": 2516,
-      "discountPercent": 0,
+      "discountPrice": 880.6,
+      "discountPercent": 65,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N0SNSC9PK4D",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NNFG8BQRCXL",
@@ -1572,14 +1572,14 @@
       "description": "Call of Duty®: WWII - a breathtaking experience that redefines World War II.\n\nLand in Normandy on D-Day and battle across Europe through iconic locations in history’s most monumental war. Experience classic Call of Duty® combat, the bonds of camaraderie and the unforgiving nature of war against a global power throwing the world into tyranny.\n\nCall of Duty®: WWII creates the definitive World War II experience across three different game modes: Campaign, Multiplayer and Co-Operative.\n\n- Featuring stunning visuals, the Campaign transports players to the European theatre, as they engage in a Call of Duty® story set in iconic World War II battles.\n- Multiplayer brings players classic, boots-on-the ground Call of Duty® gameplay. Authentic weapons and traditional run-and-gun action immerse you in a vast array of World War II-themed locations.\n- The Co-Operative mode unleashes an original story in a standalone game experience full of unexpected, adrenaline-pumping moments.\n\n\nCross-platform Multiplayer is not supported.\n\nFor more information, please visit www.callofduty.com.\n\n© 2017 Activision Publishing, Inc. ACTIVISION, CALL OF DUTY and CALL OF DUTY WWII are trademarks of Activision Publishing, Inc. All other trademarks and trade names are the property of their respective owners. This product contains software technology licensed from Id Software ('Id Technology'). Id Technology © 1999-2025 Id Software, Inc.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.45650.14533307924484300.5a3a220a-5bc7-4189-a4d8-3425c0822397.b25f0da0-2cbf-49d4-b726-42fa86984898",
       "originalPrice": 2516,
-      "discountPrice": 2516,
-      "discountPercent": 0,
+      "discountPrice": 629,
+      "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P3QS4LX8BM9",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PF697TG7PP7",
@@ -1857,14 +1857,14 @@
       "description": "Your favorite marsupial, Crash Bandicoot™, is back! He’s enhanced, entranced and ready-to-dance with the N. Sane Trilogy game collection. Now you can experience Crash Bandicoot like never before. Spin, jump, wump and repeat as you take on the epic challenges and adventures through the three games that started it all, Crash Bandicoot™, Crash Bandicoot™ 2: Cortex Strikes Back and Crash Bandicoot™ 3: Warped. Relive all your favorite Crash moments in their fully-remastered graphical glory and get ready to put some UMPH in your WUMP!\r\n\r\nCrash Bandicoot™ N. Sane Trilogy Stormy Ascent Level\r\n\r\nExperience the notorious Stormy Ascent level from the original Crash Bandicoot game. Previously unfinished and unreleased, this level will challenge even the most hardcore of Crash fans! Do you have what it takes to tackle the fast retracting steps, vial throwing lab assistants, flying birds, moving platforms and iron spikes?\r\n\r\nCrash Bandicoot N. Sane Trilogy Future Tense Level\r\n\r\nPlay the first-ever NEW level built for the original trilogy’s gameplay in almost 20 years. Drawing inspiration from the cut \"Waterfall Level\" from the first Crash Bandicoot game, Future Tense features several puzzles from the original level set in the futuristic setting from Crash Bandicoot 3: Warped. Discover a whole new level of difficulty for Crash Bandicoot N. Sane Trilogy as you dodge rockets, destroy robots and leaps lasers while ascending a massive futuristic skyscraper.\r\n\r\n\r\n© 2018 Activision Publishing, Inc. ACTIVISION and CRASH BANDICOOT are trademarks of Activision Publishing, Inc.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.8017.13619069964366497.5db0830a-5ca2-4c6f-9968-5e84b3538655.d39894b4-a1fe-4ebd-a413-a386cefc0bb0",
       "originalPrice": 1357,
-      "discountPrice": 1357,
-      "discountPercent": 0,
+      "discountPrice": 407.1,
+      "discountPercent": 70,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NJ2FD5HJ7SB",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NJJVQZ3BVPX",
@@ -2142,14 +2142,14 @@
       "description": "Step into the myth-shrouded lands where the hunter Ro begins her journey to bring her son back from the dead. Immerse yourself in the depths of the Spirit World, fractured into 4 realms and scarred with 13 distinct regions. Confront over 30 enemy types and harness the potential of more than 160 cards, forging unique archetypes and a multitude of powerful combinations. A dark journey awaits you, spanning 25+ hours of gameplay, with numerous enthralling side quests and grim boss battles.\n\nMaster Your Deck-Building Skills\nCraft over 160 cards and fashion synergistic decks that focus on poison, strength, sacrifice, retaliation, backstabbing, blocking, movement, and more. Discover shamanic totems with unique effects to enhance your deck. Each new element allows you to tailor your tactical style as you prepare for your next deadly encounter.\n\nEngage in Grid-Based Combat\nFace a host of restless spirits - Skulldogs, Crackle Bursts, Woeful Seashrooms and more - in grid-based battles where each move is crucial. Test your wit by fighting unique enemy types, powerful bosses, and mini-bosses, all while taking into account environmental hazards and boons. Grow stronger, adapt your deck, and choose your battles as you explore a vast world filled with dangerous challenges.\n\nJourney to the spirit realm\nIn forgotten lands shrouded by myth, Ro - a hunter from a small tribe - is overcome by grief following the death of her beloved son. Guided by voices from another world, she transcends into the realm of spirits, in hopes of bringing him back. Meet strange spirits and help them with quests and challenges that affect your deck – although not all of them may have your best interests at heart. Discover a mysterious world of forgotten lore, where darkness whispers secrets and invites you to unearth buried memories.\n\n\n\n\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.18198.14153289927843166.5079f8ec-a171-48c2-871c-d91520b81fb5.bbd48e81-c928-402a-8f5e-7183a1983c94",
       "originalPrice": 700,
-      "discountPrice": 700,
-      "discountPercent": 0,
+      "discountPrice": 490,
+      "discountPercent": 30,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PD9SZGNCMDZ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NQGN8TGNT8P",
@@ -3462,14 +3462,14 @@
       "description": "Версія Frostpunk 2 для Xbox не підтримує створені спільнотою гравців модифікації. Вони доступні лише у ПК-версії гри.\n\nFrostpunk 2 відкриває нові грані жанру виживання міста. Вам належить рятувати місто в ряді суворих випробувань, які так і сиплються на засніжений пост-апокаліптичний пейзаж. Будуйте райони, враховуйте потреби жителів, а також залагоджуйте конфлікти між фракціями. Тільки ви зможете управляти поселенням і зробити з нього квітучий мегаполіс.\n\nМісто росте\nНа світ опустилася вічна зима, що безпосередньо загрожує всьому людству. Містам потрібно паливо і ресурси, а жителі не протягнуть довго без їжі і обігріву. Frostpunk 2 покладе на вас завдання вирішити всі пов'язані з цим проблеми.\n\nРайони міста\nВаше місто розділене на кілька зон, у кожної з яких своє завдання. Вам необхідно розширювати територію і налагоджувати кооперацію між районами.\n\nОсобливі будівлі\nЗгодом вам доведеться побудувати Зал Ради і дослідницький інститут, адже саме там будуть створюватися закони і проекти, що регулюють життя всього міста.\n\nКолонії\nВижити в морозній пустці — необхідний мінімум, але щоб стати квітучим містом, необхідно розширювати сфери впливу. Ви зможете будувати колонії, а разом з ними і знаходити нові ресурси.\n\nЧужа душа потемки\nЗі збільшенням кількості жителів зростає і відповідальність за них, бо у кожного свої потреби і прагнення. Вам доведеться балансувати між інтересами груп людей і міста в цілому.\n\nНью-Лондонці\nВаші громадяни можуть об'єднуватися в спільноти і фракції, у кожної з яких є свої ідеї щодо майбутнього міста. У Залі Ради ви будете приймати закони і обговорювати їх з представниками фракцій.\n\nЗал Ради\nПідтримка однієї з фракцій неминуче призведе до погіршення відношень з іншою, тому вибирайте розумно і слухайте доводи кожної зі сторін.\n\nВперед до прогресу\nНауково-дослідний інститут — це місце, де ви формуєте майбутнє. Кожен новий проект потрібно довірити певній фракції, тому вам знову доведеться маневрувати та створювати стратегічні союзи.\n\nФракції\nЖителі вашого міста хочуть мати право голосу. У кожної фракції є своя ідеологія і уявлення про майбутнє, але вони мають щось спільне — жагу до влади. Союзників слід вибирати з обережністю і належною підготовкою.\n\nРежим сюжету та утопії\nFrostpunk 2 — сага з декількох глав, дія якої розгортається в морозній пустці. У сюжетному режимі вам належить звалити на себе відповідальність за тисячі життів, або ж ви можете вибрати режим «Будівництво утопії» і грати в «пісочниці» скільки душі завгодно, експериментуючи з інфраструктурою та спільнотою.\n\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.46521.13923668312910701.01edfea1-db44-49e5-8fd9-8f546040b4b7.d709052d-5d71-4046-9583-14b3790cedf5",
       "originalPrice": 1150,
-      "discountPrice": 1150,
-      "discountPercent": 0,
+      "discountPrice": 575,
+      "discountPercent": 50,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N0KN24FWP6B",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P3ZRGNQVC7D",
@@ -7032,14 +7032,14 @@
       "description": "The original roast master is back! Same sick burns, same smoldering attitude, now all scaled up in stunning HD. Spyro is bringing the heat like never before in the Spyro™ Reignited Trilogy game collection. Rekindle the fire with the original three games, Spyro™ the Dragon, Spyro™ 2: Ripto's Rage! and Spyro™: Year of the Dragon. Explore the expansive realms, re-encounter the fiery personalities and relive the adventure in fully remastered glory. Because when there’s a realm that needs saving, there’s only one dragon to call.\r\n\r\n\r\n© 2019 Activision Publishing, Inc. ACTIVISION and SPYRO are trademarks of Activision Publishing, Inc.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.60281.13709344681304622.947598b8-f8f2-4612-a37c-b93b58e6b6fa.85537ccd-b4bb-4e1c-bfdc-26f01bffd8bc",
       "originalPrice": 1357,
-      "discountPrice": 1357,
-      "discountPercent": 0,
+      "discountPrice": 474.95,
+      "discountPercent": 65,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NLD3ZRWF8DT",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9MT19Q3CRMQZ",
@@ -7602,14 +7602,14 @@
       "description": "ГРА НА ВИЖИВАННЯ ЩЕ НІКОЛИ НЕ ЗАЧІПАЛА ТАКИХ ГЛИБИН ДУШІ\nThe Alters — амбітна науково-фантастична гра на виживання, яких ви ще не бачили. Відчуйте себе в ролі Яна Дольського, єдиного учасника космічної експедиції, який врятувався після невдалого приземлення на ворожій планеті. Задля виживання вам необхідно сформувати новий екіпаж для мобільної бази. Користуючись речовиною під назвою рапідій, створюйте альтернативні версії Яна, — АЛЬТЕРСІВ, — кожна з яких є втіленням вибору різних доленосних рішень із минулого протагоніста.\n\nСтворюйте власних альтерсів\nЗа допомогою квантового комп'ютера, що знаходиться на борту вашої бази, змоделюйте альтернативні варіанти минулих виборів Яна й дізнайтеся, якими могли б бути його життєві стежки. Кожен альтерс, що оживає завдяки дивовижним властивостям рапідія, наділений унікальними навичками й переживаннями. Подібне рішення одночасно створює як можливості, так і виклики, адже вам доведеться зіткнутися з особистими труднощами й підтримувати крихку рівновагу в команді.\n\nОсобливості виживання\nЩоб користуватися мобільною базою, вам доведеться досліджувати поверхню планети в пошуках цінних ресурсів, як-от метали та органічні сполуки. Однак перебування за межами безпечного прихистку супроводжується ризиком зустрічі із різноманітними смертельними аномаліями, а також впливом сонячної радіації. Тому варто враховувати цикл зміни дня і ночі в грі й ретельно планувати свої справи впродовж доби!\n\nРозгалужена історія\nПросувайтеся неймовірною сюжетною лінією, сповненою моральних дилем і численних розгалужень. Ваш вибір визначатиме стосунки Яна з його альтерсами, що позначиться на вашій подорожі й матиме різні наслідки, а отже вплине й на кінцівку історії.\n\nРозширюйте базу\nЗібрані ресурси можна витратити як вам треба: зробити необхідні предмети або поліпшити базу за допомогою додаткових модулів, як-от дослідницька лабораторія або кімната дозвілля. Іноді вам доведеться обирати між створенням предметів суто для альтерсів, і тих, що можуть посприяти успіху місії, як-от детектори аномалій або радіаційні фільтри. Тягар кожного рішення лежатиме виключно на ваших плечах, бо задовольнити потреби всіх не вийде.\n\nДослідження\nНа планеті повно унікальних біомів і таємниць, які треба розгадати, але на вашому шляху стоять смертельні аномалії. Левітуючі каменюки й моторошні викривлення реальності миттєво привертають увагу, тоді як інші сингулярності ніяк не побачити неозброєним оком: для цього вам знадобляться особливі інструменти. У будь-якому випадку ви повинні бути дуже обережними, бо ризикуєте миттєво загинути, отримати травми від радіації і навіть зіткнутися із розпадом часу-простору. Крім того, намагайтеся уникати дослідження планети в години, коли особливо сильна радіація може роз'їсти ваш костюм. Щасливої подорожі!\n\nНауково-фантастична історія, яка відгукується у серці\nЯн Дольський буквально зможе отримати відповідь на гнітюче питання: «А що, якби?..», співпрацюючи з альтернативними версіями самого себе. А це ще більше ускладнює його становище, оскільки ви поволі починаєте розуміти, як кожен вибір впливає на виживання Яна.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38282.13917104365848520.a4bd4730-c578-4118-a439-d16f88dde25a.44b2ea97-4aef-4233-a76d-cffc0db061a0",
       "originalPrice": 895,
-      "discountPrice": 895,
-      "discountPercent": 0,
+      "discountPrice": 447.5,
+      "discountPercent": 50,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N0P25WJHM8C",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PN3VDFTB5HZ",
@@ -8022,14 +8022,14 @@
       "description": "Герой з вадою\nВіктор Шульский — тауматург, майстер містичних мистецтв, здатний заглядати в серця й уми інших людей, дізнаючись про їхні прихованні почуття, бажання та секрети. Проте ці здібності живлять і його гординю — ваду, яка може відкрити перед ним різні можливості або призвести до негативних наслідків.\n\nНевідомі таємниці, що чекають розкриття\nЖоден секрет або інтрига не будуть в безпеці, коли поруч є тауматург. Унікальні здібності дають вам велику перевагу, дозволяючи успішно проводити детективні розслідування, стати витонченим світським левом або навіть розібратися зі злочинцями. Досліджуйте світ за допомогою сприйняття Віктора, знаходячи заховані в предметах особисті секрети, які дозволяють з іншого боку поглянути на події, що здаються очевидними на перший погляд.\n\nПриручення міфічних створінь\nБудучи тауматургом, ви черпаєте свою силу в здатності закликати салюторів — натхнених фольклором містичних демонів, що мешкають у потойбічному світі. Використовуйте їхні сили, щоб маніпулювати ворогами, впливати на розум союзників і битися із противниками в покрокових тактичних боях.\n\nУнікальні покрокові бої\nБеріть участь у насичених тактичних боях проти різних противників — відчутних і безтілесних. Тауматургічні здібності Віктора дозволяють вам змінювати правила реальності, закликаючи демонів для проведення потужних атак або отримання стратегічних переваг.\n\nБагата галерея персонажів\nВаршава початку XX століття — це мультикультурна столиця з мешканцями з усіх верств суспільства. Серед них ви зустрінете таких історичних осіб, як чернець Распутін або цар Микола II. Сюжет також познайомить вас із цілою галереєю персонажів, пов'язаних з непростим минулим Віктора, таких як його ерудована сестра Лігія або друг дитинства Абаурсі, що став злочинцем.\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.7257.13864939885830854.d34bd631-1a6a-4b07-906e-871ca2bfbd36.61b18c5d-bbd3-41ee-9147-7e8277fd7f11",
       "originalPrice": 895,
-      "discountPrice": 895,
-      "discountPercent": 0,
+      "discountPrice": 313.25,
+      "discountPercent": 65,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9MZZZCHZ26NK",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NQV7C0G1040",
@@ -8187,14 +8187,14 @@
       "description": "Get hyped for the legendary franchise to return with Tony Hawk’s™ Pro Skater™ 3 + 4. Everything you loved is back, but revamped with more skaters, new parks, gnarlier tricks, eardrum shattering music, plus a whole lot more.\n\nIncludes:\n\n- Cross-Gen Bundle of Tony Hawk's™ Pro Skater™ 3 + 4\n-- Includes Xbox One, Xbox X|S and PC (Microsoft Store) versions of the game\n\n- Reunite the crew with cross-platform online Multiplayer* for up to 8 skaters in new and returning game modes.\n- Drop in to new parks or tear it up across the timeless parks from both Tony Hawk’s™ Pro Skater™ 3 & Tony Hawk’s™ Pro Skater™ 4, authentically remade in jaw dropping 4K** resolution with streamlined goals and the epic 2-minute format.\n- Hit ‘em with some drip in the expanded Create-A-Skater and Create-A-Park modes, including the ability to create custom goals to share with friends for the first time ever.\n- Shred harder than ever with more challenging goals and an enhanced New Game+ mode.\n- Whether you’re a total casual or a grungy pro, the same smooth handling and simple-to-learn controls from Tony Hawk’s™ Pro Skater™ 1 + 2 will have you shredding like a Pro.\n\nAlert the neighborhood watch and grab your skate buddies because the shred’s not dead. It’s back and better than ever.\n\n\n*Activision account and internet required for online Multiplayer and other features. A Game Pass subscription may be required for Multiplayer and other features (sold separately). Activision may modify or discontinue online services in the future, which may impact the continued availability of online gameplay. Online services may be discontinued to to factors including number of players.\n\n**The Xbox Series X version of the game will run native 4K at 60FPS in Fidelity Mode. The Xbox Series S version will render at 1440P and upscale to 4K. 4K output requires a 4K compatible device or display.\n\nFor more information, please see www.tonyhawkthegame.com.\n\n© 2025 Activision Publishing Inc. ACTIVISION and PRO SKATER are trademarks of Activision Publishing, Inc. TONY HAWK is a registered trademark of Tony Hawk, Inc. All other trademarks and trade names are the property of their respective owners.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.43918.13545870293609016.82216e19-d3ac-41e6-877a-04dfdefd5e6e.7b3c0308-0253-4102-8a13-bde7ce066661",
       "originalPrice": 2096,
-      "discountPrice": 2096,
-      "discountPercent": 0,
+      "discountPrice": 1048,
+      "discountPercent": 50,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N926481VT1Z",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NC0071DJ6XC",
@@ -8892,14 +8892,14 @@
       "description": "From the depths of darkness, a dragon soars. \r\n\r\nA new dark fantasy Three Kingdoms action RPG, presented by Team NINJA.\r\n\r\n184 AD, Later Han Dynasty China. The land is overcome by chaos and destruction. The imperial dynasty that prospered for many years is now about to collapse. \r\n\r\nWo Long: Fallen Dynasty is a dramatic, action-packed story of a nameless militia soldier fighting for survival in a dark fantasy version of the Later Han Dynasty where demons plague the Three Kingdoms.  Players fight off deadly creatures and enemy soldiers using swordplay based on the Chinese martial arts, attempting to overcome the odds by awakening the true power from within. \r\n\r\nWo Long refers to a crouching dragon, and also refers to a hero or person of greatness who is not yet known. This is the story of officers, who will later become heroes, during their ‘unknown’ period, and also the story of a protagonist’s rise from being a ‘nobody’.\r\n \r\nNote: You must have an internet connection in order to use various content.\r\nNote: This is the standard edition of the game. The Complete Edition is also available.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.37661.13524128328401524.c8089ad9-5e75-4246-83e8-2dac88f04afd.a9a5be29-01b6-4923-9f0b-2f66facb4b81",
       "originalPrice": 1030,
-      "discountPrice": 1030,
-      "discountPercent": 0,
+      "discountPrice": 515,
+      "discountPercent": 50,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N9X9PC8V9CP",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NS86BQ33SPX",
