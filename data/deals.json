@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T05:45:13.239Z",
+  "lastUpdated": "2026-09-09T10:35:11.149Z",
   "epic": [
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
@@ -100,6 +100,19 @@
   ],
   "steam": [
     {
+      "id": "3971950",
+      "title": "In Falsus",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3971950/1966a2ed3b737755eb4e72203e3da399d9892cfd/capsule_616x353.jpg?t=1788940567",
+      "originalPrice": 990,
+      "discountPrice": 891,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3971950",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "2406770",
       "title": "Bodycam",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/3b629529870a04b47055d715214e4e3ae7c32fdd/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1788548796",
@@ -113,6 +126,19 @@
       "isPopular": false
     },
     {
+      "id": "3624140",
+      "title": "Wanderburg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/c3794a3264f063828569dd74e38baee8cec7fa59/capsule_616x353_alt_assets_2.jpg?t=1788934272",
+      "originalPrice": 299,
+      "discountPrice": 194,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3624140",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -121,19 +147,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3624140",
-      "title": "Wanderburg",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/c3794a3264f063828569dd74e38baee8cec7fa59/capsule_616x353_alt_assets_2.jpg?t=1788882563",
-      "originalPrice": 299,
-      "discountPrice": 194,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3624140",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -165,19 +178,6 @@
       "isPopular": false
     },
     {
-      "id": "3357650",
-      "title": "PRAGMATA",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/341da3fa5338fad44ae87b2d14edfe6be80ff4c3/capsule_616x353.jpg?t=1777351016",
-      "originalPrice": 1799,
-      "discountPrice": 1439,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3357650",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1787837240",
@@ -191,6 +191,19 @@
       "isPopular": false
     },
     {
+      "id": "3357650",
+      "title": "PRAGMATA",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/341da3fa5338fad44ae87b2d14edfe6be80ff4c3/capsule_616x353.jpg?t=1777351016",
+      "originalPrice": 1799,
+      "discountPrice": 1439,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3357650",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "1144200",
       "title": "Ready or Not",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1781703931",
@@ -199,19 +212,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1144200",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "311210",
-      "title": "Call of Duty®: Black Ops III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1780963650",
-      "originalPrice": 2552,
-      "discountPrice": 638,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/311210",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -9173,13 +9173,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_popular_1675200": {
-      "title": "Steam Deck",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-08-10T09:15:46.643Z",
-      "type": "popular"
-    },
     "steam_popular_1067360": {
       "title": "Pax Autocratica",
       "price": 514,
@@ -10620,6 +10613,13 @@
       "price": 312,
       "percent": 50,
       "timestamp": "2026-09-08T22:16:33.241Z",
+      "type": "discount"
+    },
+    "steam_discount_3971950": {
+      "title": "In Falsus",
+      "price": 891,
+      "percent": 10,
+      "timestamp": "2026-09-09T10:35:05.627Z",
       "type": "discount"
     }
   }
