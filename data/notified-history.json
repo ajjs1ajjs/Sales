@@ -544,5 +544,19 @@
     "percent": 39,
     "timestamp": "2026-09-09T18:12:56.898Z",
     "type": "discount"
+  },
+  "steam_discount_3123060": {
+    "title": "Warlord: Awaji",
+    "price": 477,
+    "percent": 10,
+    "timestamp": "2026-09-09T21:27:23.644Z",
+    "type": "discount"
+  },
+  "steam_discount_311210": {
+    "title": "Call of Duty®: Black Ops III",
+    "price": 638,
+    "percent": 75,
+    "timestamp": "2026-09-09T21:27:23.644Z",
+    "type": "discount"
   }
 }

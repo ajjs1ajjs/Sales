@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T18:21:14.310Z",
+  "lastUpdated": "2026-09-09T21:27:28.742Z",
   "epic": [
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
@@ -165,14 +165,14 @@
       "isPopular": false
     },
     {
-      "id": "3971950",
-      "title": "In Falsus",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3971950/1966a2ed3b737755eb4e72203e3da399d9892cfd/capsule_616x353.jpg?t=1788940567",
-      "originalPrice": 990,
-      "discountPrice": 891,
+      "id": "3123060",
+      "title": "Warlord: Awaji",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3123060/e036b4dcb6af2b66eb834bc6df3eec6448e87589/capsule_616x353.jpg?t=1788980422",
+      "originalPrice": 530,
+      "discountPrice": 477,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3971950",
+      "url": "https://store.steampowered.com/app/3123060",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -204,27 +204,27 @@
       "isPopular": false
     },
     {
-      "id": "3357650",
-      "title": "PRAGMATA",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/341da3fa5338fad44ae87b2d14edfe6be80ff4c3/capsule_616x353.jpg?t=1777351016",
-      "originalPrice": 1799,
-      "discountPrice": 1439,
-      "discountPercent": 20,
+      "id": "311210",
+      "title": "Call of Duty®: Black Ops III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1780963650",
+      "originalPrice": 2552,
+      "discountPrice": 638,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3357650",
+      "url": "https://store.steampowered.com/app/311210",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
     },
     {
-      "id": "3892270",
-      "title": "Gamble With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/78a9deef0ef784825518781a668724e219099d1f/capsule_616x353.jpg?t=1788800889",
-      "originalPrice": 187,
-      "discountPrice": 115,
-      "discountPercent": 39,
+      "id": "3971950",
+      "title": "In Falsus",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3971950/1966a2ed3b737755eb4e72203e3da399d9892cfd/capsule_616x353.jpg?t=1788940567",
+      "originalPrice": 990,
+      "discountPrice": 891,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3892270",
+      "url": "https://store.steampowered.com/app/3971950",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
