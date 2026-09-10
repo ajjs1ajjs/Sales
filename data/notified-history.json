@@ -642,5 +642,12 @@
     "percent": 75,
     "timestamp": "2026-09-10T20:28:11.196Z",
     "type": "discount"
+  },
+  "steam_discount_2536520": {
+    "title": "Diablo II: Resurrected - Infernal Edition",
+    "price": 1189,
+    "percent": 30,
+    "timestamp": "2026-09-10T22:10:53.957Z",
+    "type": "discount"
   }
 }
