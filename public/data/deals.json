@@ -1,6 +1,22 @@
 {
-  "lastUpdated": "2026-09-10T16:50:48.434Z",
+  "lastUpdated": "2026-09-10T17:58:22.817Z",
   "epic": [
+    {
+      "id": "be5600439b434624802764f704755cde",
+      "title": "Ghostrunner 2",
+      "description": "Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
+      "imageUrl": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
+      "originalPrice": 999,
+      "discountPrice": 199.8,
+      "currency": "UAH",
+      "url": "https://store.epicgames.com/p/ghostrunner-2",
+      "startDate": "2026-09-10T17:00:00.000Z",
+      "endDate": "2026-09-24T17:00:00.000Z",
+      "isFreeNow": false,
+      "isUpcomingFree": false,
+      "isDiscounted": true,
+      "discountPercent": 80
+    },
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
       "title": "Lost Castle: The Old Ones Awaken",
@@ -116,19 +132,6 @@
   ],
   "steam": [
     {
-      "id": "2406770",
-      "title": "Bodycam",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/3b629529870a04b47055d715214e4e3ae7c32fdd/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1788548796",
-      "originalPrice": 700,
-      "discountPrice": 560,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2406770",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "275850",
       "title": "No Man's Sky",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/fa7722a7f8ae7edca879c4c7f969c15e8f47c8b1/capsule_616x353_alt_assets_25.jpg?t=1789027039",
@@ -142,19 +145,6 @@
       "isPopular": false
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "3195440",
       "title": "Welcome to Elderfield",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3195440/f7e694966dc68ac5131cf92adf5c6493d0e27f3f/capsule_616x353.jpg?t=1789053771",
@@ -163,6 +153,19 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3195440",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -233,14 +236,27 @@
       "isPopular": false
     },
     {
-      "id": "4030150",
-      "title": "The Legend of Fancy Realm Remake",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4030150/3179309e4f7dbd0e8d3f13be5bf328b39a954e55/capsule_616x353.jpg?t=1789030369",
-      "originalPrice": 530,
-      "discountPrice": 477,
-      "discountPercent": 10,
+      "id": "668580",
+      "title": "Atomic Heart",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/capsule_616x353.jpg?t=1786632138",
+      "originalPrice": 1499,
+      "discountPrice": 299,
+      "discountPercent": 80,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4030150",
+      "url": "https://store.steampowered.com/app/668580",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3768760",
+      "title": "007 First Light",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/dcfa016f5be67396518b27816ca2e3a017c0bbc9/capsule_616x353_alt_assets_2.jpg?t=1788855872",
+      "originalPrice": 1599,
+      "discountPrice": 1279,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3768760",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -7932,8 +7948,8 @@
       "title": "The Royal Writ",
       "description": "In The Royal Writ, you don't just play cards - you command them on the battlefield. Place your loyal subjects strategically as they advance toward the enemy, dealing damage. But beware: any card that reaches the enemy base before victory is permanently destroyed and removed from your deck for the rest of your run.\n\nSacrifice isn't just a risk - it's an essential strategy that creates memorable sub-stories with each run. Will you honor the subjects who gave everything for your cause? Every fallen card tells a tale, and their glory lives on in the legacy you build.\n\nLead an army of adorable yet battle-hardened animals with abilities to shape your strategy. Your ranks may comprise a frail and wounded flamingo, a short sighted chicken bowman, or even a crafty lizard who cheats death by only losing its tail! From the renegade red ants to the sacrificial lamb, every card in your deck has a personality and purpose.\n\nAs they march toward glory or death, their individual stories become part of your kingdom's legacy, and their sacrifices will never be forgotten. You may even come across some peculiar creatures on your journey, like the crazed mantis dentist, the goat tactician or the impatient boar shopkeeper - just don’t ask them where they got their credentials.\n\nConquer the realm through two distinct adventures:\n\nThe First Campaign pits you against a growing rebellion as you try to maintain the king’s good and just rule (objectively). Battle your way through a challenging environment filled with deep pits and poison swamps as you try to suppress your enemies. As you progress, you may start to wonder if there are more to the kingdom’s troubles than meet the eye? \n\nThe Second Campaign introduces a new threat - gunpowder. As new experimental weapons now enter the battlefield, your strategy must change. No longer are you simply avoiding the environmental hazards - you must dodge an onslaught of bullets to ensure you and your troops are not fatally wounded as you march forth. \n\nEach campaign features unique cards, bosses, and strategic challenges. The battlefield awaits your command!\n\nIntuitive Yet Deep Gameplay - Easy to learn without compromising on the challenge\nRoguelike Progression - Every run is different\nCard Permadeath - Lost cards stay lost!\nCharming Art Style - Picture-book visuals blend with medieval absurdity and dark humor\nMemorable NPC Encounters - Are they friend or foe?\nSpecial Boss Mechanics - Unique challenges that will test you\nGradual Difficulty Ladder - Climb through harder and harder difficulties as you progress\nChallenge Modes - Test your skills in special modes with unique rules\nRelics - Collect relics with various effects that change how you play\n\nFrom an ancient royal decree:\n\n\"The art of war is simple. Send forth your subjects to die gloriously in your name. Their sacrifice ensures your legacy... and if they happen to win, all the better!\"\n\nWill you write your name in the annals of history, or become just another forgotten monarch? The balance between loss and triumph is yours to master.\n\nAll hail! May your fallen be remembered  and your victories sweet!\n",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.10273.13929128993190644.5fdad478-5d9a-4e47-b2a4-acc499d07c78.73f7f83c-b49b-4fa5-a04a-0ba93f2448f1",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "originalPrice": 344,
+      "discountPrice": 344,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N034X5G08B7",
