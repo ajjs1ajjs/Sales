@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T17:58:22.817Z",
+  "lastUpdated": "2026-09-10T19:25:48.804Z",
   "epic": [
     {
       "id": "be5600439b434624802764f704755cde",
@@ -145,14 +145,14 @@
       "isPopular": false
     },
     {
-      "id": "3195440",
-      "title": "Welcome to Elderfield",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3195440/f7e694966dc68ac5131cf92adf5c6493d0e27f3f/capsule_616x353.jpg?t=1789053771",
-      "originalPrice": 385,
-      "discountPrice": 346,
+      "id": "4739660",
+      "title": "Drag'n Wash",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739660/a1812c31e87957cdbf1840ceffda393d9b437d53/capsule_616x353.jpg?t=1789058838",
+      "originalPrice": 335,
+      "discountPrice": 301,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3195440",
+      "url": "https://store.steampowered.com/app/4739660",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -173,12 +173,25 @@
     {
       "id": "3624140",
       "title": "Wanderburg",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/c3794a3264f063828569dd74e38baee8cec7fa59/capsule_616x353_alt_assets_2.jpg?t=1788973804",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/c3794a3264f063828569dd74e38baee8cec7fa59/capsule_616x353_alt_assets_2.jpg?t=1789065688",
       "originalPrice": 299,
       "discountPrice": 194,
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3624140",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3195440",
+      "title": "Welcome to Elderfield",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3195440/f7e694966dc68ac5131cf92adf5c6493d0e27f3f/capsule_616x353.jpg?t=1789053771",
+      "originalPrice": 385,
+      "discountPrice": 346,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3195440",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -236,27 +249,14 @@
       "isPopular": false
     },
     {
-      "id": "668580",
-      "title": "Atomic Heart",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/capsule_616x353.jpg?t=1786632138",
-      "originalPrice": 1499,
-      "discountPrice": 299,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/668580",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3768760",
-      "title": "007 First Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/dcfa016f5be67396518b27816ca2e3a017c0bbc9/capsule_616x353_alt_assets_2.jpg?t=1788855872",
-      "originalPrice": 1599,
-      "discountPrice": 1279,
+      "id": "3357650",
+      "title": "PRAGMATA",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/341da3fa5338fad44ae87b2d14edfe6be80ff4c3/capsule_616x353.jpg?t=1777351016",
+      "originalPrice": 1799,
+      "discountPrice": 1439,
       "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3768760",
+      "url": "https://store.steampowered.com/app/3357650",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
