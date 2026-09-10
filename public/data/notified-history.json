@@ -579,5 +579,33 @@
     "percent": 0,
     "timestamp": "2026-09-10T02:35:29.635Z",
     "type": "xbox_new"
+  },
+  "epic_free_c76046dddcdb43619c33ce0395941033": {
+    "title": "Luftrausers",
+    "price": 0,
+    "percent": 100,
+    "timestamp": "2026-09-10T16:50:41.947Z",
+    "type": "free"
+  },
+  "epic_free_e9bb092228f544c582e2c9395fae96f3": {
+    "title": "Astral Ascent",
+    "price": 0,
+    "percent": 100,
+    "timestamp": "2026-09-10T16:50:41.947Z",
+    "type": "free"
+  },
+  "steam_discount_3195440": {
+    "title": "Welcome to Elderfield",
+    "price": 346,
+    "percent": 10,
+    "timestamp": "2026-09-10T16:50:41.947Z",
+    "type": "discount"
+  },
+  "steam_discount_3949040": {
+    "title": "RV There Yet?",
+    "price": 112,
+    "percent": 40,
+    "timestamp": "2026-09-10T16:50:41.947Z",
+    "type": "discount"
   }
 }
