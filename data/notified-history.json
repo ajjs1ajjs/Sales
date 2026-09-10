@@ -607,5 +607,26 @@
     "percent": 40,
     "timestamp": "2026-09-10T16:50:41.947Z",
     "type": "discount"
+  },
+  "epic_discount_be5600439b434624802764f704755cde": {
+    "title": "Ghostrunner 2",
+    "price": 199.8,
+    "percent": 80,
+    "timestamp": "2026-09-10T17:58:15.663Z",
+    "type": "discount"
+  },
+  "steam_discount_668580": {
+    "title": "Atomic Heart",
+    "price": 299,
+    "percent": 80,
+    "timestamp": "2026-09-10T17:58:15.663Z",
+    "type": "discount"
+  },
+  "steam_discount_3768760": {
+    "title": "007 First Light",
+    "price": 1279,
+    "percent": 20,
+    "timestamp": "2026-09-10T17:58:15.663Z",
+    "type": "discount"
   }
 }
