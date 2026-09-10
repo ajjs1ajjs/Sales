@@ -558,5 +558,26 @@
     "percent": 75,
     "timestamp": "2026-09-09T21:27:23.644Z",
     "type": "discount"
+  },
+  "steam_discount_4030150": {
+    "title": "The Legend of Fancy Realm Remake",
+    "price": 477,
+    "percent": 10,
+    "timestamp": "2026-09-10T02:35:29.635Z",
+    "type": "discount"
+  },
+  "xbox_new_9N034X5G08B7": {
+    "title": "The Royal Writ",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-09-10T02:35:29.635Z",
+    "type": "xbox_new"
+  },
+  "xbox_new_9NSM674QVLBS": {
+    "title": "Virtua Fighter 5 R.E.V.O. World Stage",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-09-10T02:35:29.635Z",
+    "type": "xbox_new"
   }
 }

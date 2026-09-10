@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T23:45:20.406Z",
+  "lastUpdated": "2026-09-10T02:35:35.210Z",
   "epic": [
     {
       "id": "4a88d0dc64114b20b67339c74543f859",
@@ -126,19 +126,6 @@
       "isPopular": false
     },
     {
-      "id": "3624140",
-      "title": "Wanderburg",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/c3794a3264f063828569dd74e38baee8cec7fa59/capsule_616x353_alt_assets_2.jpg?t=1788973804",
-      "originalPrice": 299,
-      "discountPrice": 194,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3624140",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -147,6 +134,19 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3624140",
+      "title": "Wanderburg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/c3794a3264f063828569dd74e38baee8cec7fa59/capsule_616x353_alt_assets_2.jpg?t=1788973804",
+      "originalPrice": 299,
+      "discountPrice": 194,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3624140",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -165,19 +165,6 @@
       "isPopular": false
     },
     {
-      "id": "3764200",
-      "title": "Resident Evil Requiem",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
-      "originalPrice": 1999,
-      "discountPrice": 1399,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3764200",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "311210",
       "title": "Call of Duty®: Black Ops III",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1780963650",
@@ -191,6 +178,32 @@
       "isPopular": false
     },
     {
+      "id": "4030150",
+      "title": "The Legend of Fancy Realm Remake",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4030150/3179309e4f7dbd0e8d3f13be5bf328b39a954e55/capsule_616x353.jpg?t=1788968730",
+      "originalPrice": 530,
+      "discountPrice": 477,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4030150",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3764200",
+      "title": "Resident Evil Requiem",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
+      "originalPrice": 1999,
+      "discountPrice": 1399,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3764200",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "3971950",
       "title": "In Falsus",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3971950/1966a2ed3b737755eb4e72203e3da399d9892cfd/capsule_616x353.jpg?t=1788940567",
@@ -199,19 +212,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3971950",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3357650",
-      "title": "PRAGMATA",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/341da3fa5338fad44ae87b2d14edfe6be80ff4c3/capsule_616x353.jpg?t=1777351016",
-      "originalPrice": 1799,
-      "discountPrice": 1439,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3357650",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -297,14 +297,14 @@
       "description": "Far across the sea, an island calls…\r\nEmbark on a heartrending journey into a brutal, breathtaking world twisted by supernatural forces.\r\n\r\nAfter escaping their devastated homeland, Amicia and Hugo travel far south, to new regions and vibrant cities. There, they attempt to start a new life and control Hugo’s curse. \r\n\r\nBut, when Hugo’s powers reawaken, death and destruction return in a flood of devouring rats. Forced to flee once more, the siblings place their hopes in a prophesized island that may hold the key to saving Hugo. \r\n\r\nDiscover the cost of saving those you love in a desperate struggle for survival. Strike from the shadows or unleash hell, overcoming foes and challenges with a variety of weapons, tools and unearthly powers.\r\n\r\n●\tSequel to the award-winning adventure A Plague Tale: Innocence\r\n●\tA spectacular grounded tale twisted by supernatural forces\r\n●\tUse a variety of tools, sneak, fight, or unleash hell and rats\r\n●\tStunning visuals combine with an enthralling score",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.59830.13537574391772742.e387dd56-e35c-40fb-bc0c-c0c1decef3a1.389d1f4c-4085-48ae-b003-f34a93db083b",
       "originalPrice": 850,
-      "discountPrice": 850,
-      "discountPercent": 0,
+      "discountPrice": 255,
+      "discountPercent": 70,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N97RC576957",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P698GM5GR3W",
@@ -492,14 +492,14 @@
       "description": "У грі Aliens: Dark Descent командуйте загоном загартованих колоніальних морських піхотинців, щоб зупинити жахливу пошесть ксеноморфів на супутникові Лете. Ведіть своїх солдатів в режимі реального часу на бій проти культових ксеноморфів, неконтрольованих агентів з жадібної корпорації Вейланд-Ютані та безлічі жахливих створінь, нових для франшизи Alien. \r\n\r\nВи — командир. Вони — твоя зброя.\r\n\r\nПроникайте непоміченим на великі відкриті рівні та знищуйте ворогів своїм загоном, відправляючи накази стратегічно й інтуїтивно — одним натисканням кнопки. Маневруйте обережно: полюючи на вас, вороги пристосовують свою тактику до ваших дій, а смерть безповоротна. Прокладайте унікальні шляхи для виживання, знаходячи лазівки, створюючи безпечні зони та встановлюючи трекери руху в постійному світі, де ваші дії назавжди змінюють рівень.\r\n\r\nНалаштуйте свій загін, обираючи різні класи. Підвищуйте рівень та спеціалізуйте солдатів, даючи їм унікальні здібності та арсенал зброї, броні та бонусів для виконання місій з високими ставками на підступній території. Розвивайте свою базу, щоб досліджувати нові технології та ще більше вдосконалювати свій загін.\r\n\r\nРозумно розпоряджайтеся ресурсами і ризикуйте, щоб перехитрити найсмертоноснішу істоту, з якою будь-коли мало справу людство. Чи зможете ви зі своїм загоном зупинити пошесть, поки не пізно?\r\n\r\n•\tВ цій захопливій оригінальній історії з серії Alien вам належить зіткнутися з культовими істотами-ксеноморфами, починаючи від лицехапів до преторіанців, інопланетних королев та багатьох інших, включаючи командос-дезертирів і абсолютно нову загрозу, унікальну для цієї сюжетної лінії у світі Alien\r\n•\tКеруйте стратегічно та змінюйте тактику від місії до місії, ретельно порядкуючи здоров’ям, ресурсами та психікою своїх солдатів, щоб уникнути незворотних втрат та психічних розладів серед особового складу\r\n•\tПрокладайте унікальні шляхи для виживання в постійному світі, відкриваючи лазівки, створюючи безпечні зони та встановлюючи трекери руху, щоб постійно випереджати цих істот\r\n•\tГуртуйте та підвищуйте рівень загонів, що складаються з 5 початкових класів морської піхоти, з десятками спеціалізацій, унікальних здібностей та численної зброї.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.37081.13898888461912760.834aa9dd-7399-4287-8be9-57be8cd1e516.2891184a-7e25-4946-ad9a-004537f8d7c1",
       "originalPrice": 1030,
-      "discountPrice": 1030,
-      "discountPercent": 0,
+      "discountPrice": 309,
+      "discountPercent": 70,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N1M64W9XZQ7",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NG07QJNK38J",
@@ -1017,14 +1017,14 @@
       "description": "Новий Едем, 1695 рік. Закохані Антея Дюарт і Ред Мак-Рейт займаються вигнанням – вони мисливці на привидів, що поклялися захищати живих від неприкаяних привидів і духів. Під час останньої фатальної місії Антея помирає від поранення й сама стає одним із тих привидів, яких ненавидить. Серед населених привидами диких земель Північної Америки пара відчайдушно намагається відшукати спосіб порятунку Антеї із цієї біди.\r\n\r\nПориньте в прекрасну, щиру й потужну історію двох закоханих. Ставайте частиною спільнот Нового Едему та розслідуйте випадки появи привидів у цьому містичному світі з багатою історією, в якому немає спокою через надприродних істот і прадавні таємниці. Спирайтеся на власну кмітливість або поєднуйте духовні сили Антеї й арсенал Реда задля подолання й вигнання душ, що мучать живих.\r\n\r\nВам доведеться робити складний вибір, адже будь-яке ваше рішення кардинально впливатиме на головних персонажів і долю мешканців Нового Едему, як живих людей, так і мандрівних душ. Наскільки ви готові поступитися клятвою мисливця на привидів заради коханої, яка сама стала таким духом?\r\n\r\n• Грайте за Антею і Реда та боріться з надприродними силами за допомогою чарів, зброї та духовних сил\r\n• Розблоковуйте нове спорядження і здібності, щоб розкрити весь потенціал вигнання\r\n• Розкривайте прадавні секрети й приховані таємниці містичного світу з багатою історією\r\n• Опис від відомої студії DON’T NOD: вам часто доведеться робити осмислений і неоднозначний вибір, кожен із яких впливатиме на сюжет, світ й долю всіх персонажів – живих і мертвих",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.30245.13657630976058747.9ef5e6b7-85d8-4766-8d40-394c59f5ad8f.6df523d3-4efb-4bf1-9ba4-befd15baff92",
       "originalPrice": 2125,
-      "discountPrice": 2125,
-      "discountPercent": 0,
+      "discountPrice": 637.5,
+      "discountPercent": 70,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NKFS43DLFFL",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N21ZCV0JW6V",
@@ -2157,14 +2157,14 @@
       "description": "Роботи легендарного творця ігор Хідео Кодзіма завжди унікальні, і сьогодні до них додалася ця надзвичайна DIRECTOR’S CUT. \n \nУ майбутньому стається таємнича подія під назвою «Death Stranding», «Сплетіння смерті», яка утворює прохід між світами живих та мертвих. І страхітливі створіння зі світу мертвих захоплюють зруйнований світ, сповнений нещасних та відірваних одне від одного людей. \n \nВи — Сем Бріджес, і лише ви можете врятувати людство, згуртувавши останніх людей сплюндрованої Америки. \n Чи вдасться вам знову об’єднати розірваний на шматки світ, крок за кроком? \n \nDEATH STRANDING DIRECTOR’S CUT для Xbox Series X|S та Windows PC — це ВИСОКА ЧАСТОТА КАДРІВ, РЕЖИМ ФОТОЗЙОМКИ та ПІДТРИМКА МОНІТОРІВ ULTRA-WIDE. Також присутній контент, спільний з HALF-LIFE від Valve Corporation та Cyberpunk 2077 від CD Projekt Red. Підтримуйте зв’язок з іншими гравцями в світі завдяки Social Strand System™.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.8503.13774354316070254.dbfd815f-aaf8-4e63-b069-bd514601d13b.16ada0a5-9808-40e8-a5f1-6320735b19ff",
       "originalPrice": 1030,
-      "discountPrice": 1030,
-      "discountPercent": 0,
+      "discountPrice": 360.5,
+      "discountPercent": 65,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NQGN8TGNT8P",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P5Z4530318L",
@@ -2892,14 +2892,14 @@
       "description": "Зло безсонне... але вразливе.\r\n\r\nТемна загроза охопила американську землю. Ви — один із останніх агентів секретного інституту, що спеціалізується на полюванні на вампірів, останній промінь світла, що відділяє людство від жаху, схованого у темряві. Станьте супергероєм Дикого Заходу, знищте вампірів та врятуйте Америку!\r\n\r\nЗнищуйте пекельних створінь у захоплюючих битвах з допомогою вогнестрільної зброї, блискавкової рукавиці та особливих інструментів. Полюйте на кровожерливих монстрів самотужки чи з другом в режимі сумісної гри. Досліджуйте та боріться у сюжетній кампанії, покращуючи зброю та мисливські інструменти. Отримуйте нові особливості, розвивайте унікальні смертоносні навички та не залишайте ордам чудовиськ жодного шансу.\r\n\r\n- Боріться самостійно чи з другом — криваво та стильно.\r\n- Міфи та легенди оживають у стилізованому та незвичайному всесвіті Дикого Заходу.\r\n- Розвивайте особливості, покращуйте зброю та інструменти\r\n- Досліджуйте, боріться та врятуйте Америку в сюжетній кампанії.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.31215.14176554647910182.b03fa26e-38ab-4eae-a31e-457e38d3b885.745b3998-17e0-41db-a6fa-224c92067784",
       "originalPrice": 1045,
-      "discountPrice": 1045,
-      "discountPercent": 0,
+      "discountPrice": 209,
+      "discountPercent": 80,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PC49MD70881",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N123ZCCL33B",
@@ -3192,14 +3192,14 @@
       "description": "*This product is also contained within a bundle. Please take care not to purchase multiple copies of this product.*\n\nA remodeled 2D take on the first game in the world-renowned FINAL FANTASY series! Enjoy the timeless story told through charming retro graphics. All the magic of the original, with improved ease of play.\n\nEarth, fire, water, wind... The light that once shone within the four Crystals was lost. Darkness covered the land, until the only hope for humanity rested in legends past. Become the Warriors of Light and embark on your own journey to restore power to the Crystals and save the world.\n\nSwitch between classes to improve your characters. Traverse the wide world with your airship and other vessels. Return to the game that started it all.\n\n-------------------------------------------------------------------------------\n\n■ Beautifully revived with new graphics and sound!\n・Universally updated 2D pixel graphics, including the iconic FINAL FANTASY character pixel designs created by Kazuko Shibuya, the original artist and current collaborator.\n・Beautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu.\n\n■Improved gameplay!\n・Including modernized UI, auto-battle options, and more.\n・Switch the soundtrack between the rearranged version, created for the pixel remaster, or the original version, capturing the sound of the original game.\n・Now possible to switch between different fonts, including the default font and a pixel-based font based on the atmosphere of the original game. \n・Additional boost features to expand gameplay options, including switching off random encounters and adjusting experience gained multipliers between 0 and 4.\n・Dive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player.\n\n(This remaster is based on the original \"FINAL FANTASY\" game released in 1987. Features and/or content may differ from previously rereleased versions of the game.)",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.8396.14497225432838110.c9bc6313-59b0-4390-ab1e-e37d38dd231a.76a01602-8b6e-4e1d-8cee-b0e4e6e1a90f",
       "originalPrice": 399,
-      "discountPrice": 399,
-      "discountPercent": 0,
+      "discountPrice": 239.4,
+      "discountPercent": 40,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P20JCF7BV93",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P8S1MN4066K",
@@ -3207,14 +3207,14 @@
       "description": "*This product is also contained within a bundle. Please take care not to purchase multiple copies of this product.*\n\nA remodeled 2D take on the second game in the world-renowned FINAL FANTASY series! Enjoy the timeless story told through charming retro graphics. All the magic of the original, with improved ease of play. \n\nOur epic tale begins with four young souls orphaned during the struggle between the Palamecian Empire and the rebel army. On their journey, the youths join forces with the white wizard Minwu, Prince Gordon of Kashuan, Leila the pirate, and many others. Behold the beautiful and sometimes tragic twists of fate that await you on your adventure.\n\nFFII introduced a unique skill level system that strengthens different attributes of the characters depending on their fighting style instead of leveling up. Use the key terms you learn in conversation to unlock new information and progress in the story. \n\nThis innovative game series takes an ambitious turn in this second installment in the FINAL FANTASY series!\n\n-----------------------------------------------------------------------\n\n■ Beautifully revived with new graphics and sound!\n・Universally updated 2D pixel graphics, including the iconic FINAL FANTASY character pixel designs created by Kazuko Shibuya, the original artist and current collaborator.\n・Beautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu.\n\n■Improved gameplay!\n・Including modernized UI, auto-battle options, and more.\n・Switch the soundtrack between the rearranged version, created for the pixel remaster, or the original version, capturing the sound of the original game.\n・Now possible to switch between different fonts, including the default font and a pixel-based font based on the atmosphere of the original game. \n・Additional boost features to expand gameplay options, including switching off random encounters, compensatory HP, and adjusting weapon skill level gained multipliers between 0 and 4.\n・Dive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player.\n\n\n(This remaster is based on the original \"FINAL FANTASY II\" game released in 1988. Features and/or content may differ from previously rereleased versions of the game.)",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.24364.14086627234907834.c86030ab-e956-465c-adca-f4a75ba02c31.c1eb1d87-7dd2-474a-b56d-f9cc4d50a4ae",
       "originalPrice": 399,
-      "discountPrice": 399,
-      "discountPercent": 0,
+      "discountPrice": 239.4,
+      "discountPercent": 40,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P8S1MN4066K",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NWDPFPPK30V",
@@ -3222,14 +3222,14 @@
       "description": "*This product is also contained within a bundle. Please take care not to purchase multiple copies of this product.*\n\nA remodeled 2D take on the third game in the world-renowned FINAL FANTASY series! Enjoy the timeless story told through charming retro graphics. All the magic of the original, with improved ease of play.\n\nWith the power of light nearly eclipsed by the power of darkness, only the crystals' four chosen adventurers can save the world.\n\nExperience the iconic job changing system first introduced in FFIII - switch jobs at will and use various abilities as you progress in the game. Change into a variety of classes like Warrior, Monk, White Mage, Black Mage, Dragoon, Evoker, or even call monsters to do your bidding with as a Summoner.\n\nEnjoy the exciting third installment in the FINAL FANTASY series!\n\n--------------------------------------------------------------\n\n■ Beautifully revived with new graphics and sound!\n・Universally updated 2D pixel graphics, including the iconic FINAL FANTASY character pixel designs created by Kazuko Shibuya, the original artist and current collaborator.\n・Beautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu.\n\n■Improved gameplay!\n・Including modernized UI, auto-battle options, and more.\n・Switch the soundtrack between the rearranged version, created for the pixel remaster, or the original version, capturing the sound of the original game.\n・Now possible to switch between different fonts, including the default font and a pixel-based font based on the atmosphere of the original game. \n・Additional boost features to expand gameplay options, including switching off random encounters and adjusting experience gained multipliers between 0 and 4.\n・Dive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player.\n\n(This remaster is based on the original \"FINAL FANTASY III\" game released in 1990. Features and/or content may differ from previously rereleased versions of the game.)",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.3478.14451317888346729.aa788569-1cd5-4640-bca3-a53d5278fc18.607412be-08b6-4fa5-bf2b-2ccdcb2dca08",
       "originalPrice": 589,
-      "discountPrice": 589,
-      "discountPercent": 0,
+      "discountPrice": 353.4,
+      "discountPercent": 40,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NWDPFPPK30V",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N8C07SS8C9D",
@@ -3237,14 +3237,14 @@
       "description": "*This product is also contained within a bundle. Please take care not to purchase multiple copies of this product.*\n\nA remodeled 2D take on the fourth game in the world-renowned FINAL FANTASY series! Enjoy the timeless story told through charming retro graphics. All the magic of the original, with improved ease of play.\n\nThe Kingdom of Baron sent their elite airship fleet, the Red Wings, to attack the surrounding countries. Distressed by his mission, Cecil, a dark knight and captain of the Red Wings, decides to fight against the tyrannical Baron with his trusted friend and his paramour at his side. In his search for the crystals, Cecil must travel over land, under the ground, to the Land of Summons, and even to the moon. Join forces with Kain the dragoon, Rosa the white mage, Rydia the summoner, and many more skilled allies.\n\nFFIV is the first title to introduce the dynamic \"Active Time Battle\" system, where time moves even during battle, giving the players an exciting sense of urgency.Thanks to the wide appeal of the game, this revolutionary system would be implemented in many future titles in the series.\n\nWitness the dramatic story and dynamic battles in this fourth installment of the FINAL FANTASY series!\n\n-----------------------------------------------------------------------\n\n■ Beautifully revived with new graphics and sound!\n・Universally updated 2D pixel graphics, including the iconic FINAL FANTASY character pixel designs created by Kazuko Shibuya, the original artist and current collaborator.\n・Beautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu.\n\n■Improved gameplay!\n・Including modernized UI, auto-battle options, and more.\n・Switch the soundtrack between the rearranged version, created for the pixel remaster, or the original version, capturing the sound of the original game.\n・Now possible to switch between different fonts, including the default font and a pixel-based font based on the atmosphere of the original game. \n・Additional boost features to expand gameplay options, including switching off random encounters and adjusting experience gained multipliers between 0 and 4.\n・Dive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player.\n\n(This remaster is based on the original \"FINAL FANTASY IV\" game released in 1991. Features and/or content may differ from previously rereleased versions of the game.)",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.63015.14047651100003233.0972ca9a-2a5a-40da-ab16-debd2d97175b.8ba05fbd-6465-44e8-9ed1-7887edd618f2",
       "originalPrice": 589,
-      "discountPrice": 589,
-      "discountPercent": 0,
+      "discountPrice": 353.4,
+      "discountPercent": 40,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N8C07SS8C9D",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N9C8SV0S16W",
@@ -3252,14 +3252,14 @@
       "description": "*This product is also contained within a bundle. Please take care not to purchase multiple copies of this product.*\n\nA remodeled 2D take on the fifth game in the world-renowned FINAL FANTASY series! Enjoy the timeless story told through charming retro graphics. All the magic of the original, with improved ease of play.\n\nThe King of Tycoon has sensed a disturbance in the wind. When the crystals that balance the powers of the world are threatened, the king hastens to the rescue...only to go missing. Somewhere a young man and his Chocobo find themselves drawn toward friends that will change their destiny.\n\nBuilding on the job systems of previous games, FFV includes a diverse selection of jobs to try, and a unique ability system that lets you combine skills.\n\nDevelop your characters with free reign, and master your battle tactics in the fifth installment of the FINAL FANTASY series!\n\n----------------------------------------------------------------------\n\n■ Beautifully revived with new graphics and sound!\n・Universally updated 2D pixel graphics, including the iconic FINAL FANTASY character pixel designs created by Kazuko Shibuya, the original artist and current collaborator.\n・Beautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu.\n\n■Improved gameplay!\n・Including modernized UI, auto-battle options, and more.\n・Switch the soundtrack between the rearranged version, created for the pixel remaster, or the original version, capturing the sound of the original game.\n・Now possible to switch between different fonts, including the default font and a pixel-based font based on the atmosphere of the original game. \n・Additional boost features to expand gameplay options, including switching off random encounters and adjusting experience and ABP gained multipliers between 0 and 4.\n・Dive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player.\n\n(This remaster is based on the original \"FINAL FANTASY V\" game released in 1992. Features and/or content may differ from previously rereleased versions of the game.)",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.35027.13539872402382388.b924c764-f5ca-49ac-9e31-d5ada1c5b84b.d20d7f8f-6279-44c7-a744-9e70ee6f6ea1",
       "originalPrice": 589,
-      "discountPrice": 589,
-      "discountPercent": 0,
+      "discountPrice": 353.4,
+      "discountPercent": 40,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N9C8SV0S16W",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N255K81XBD3",
@@ -3267,14 +3267,14 @@
       "description": "*This product is also contained within a bundle. Please take care not to purchase multiple copies of this product.*\r\n\r\nA remodeled 2D take on the sixth game in the world-renowned FINAL FANTASY series! Enjoy the timeless story told through charming retro graphics. All the magic of the original, with improved ease of play.\r\n\r\nThe War of the Magi caused magic to disappear from the world. A thousand years later, humanity relies on machines - until they find a young woman with mysterious powers. The magicite system allows players to customize which abilities, magic spells, and summons the party members learn. All the playable characters have their own stories, goals, and destinies. Journey through their interwoven fates in this sweeping melodrama.\r\n\r\nThe pinnacle of the FF series at the time of its release, FFVI remains critically acclaimed and beloved to this day.\r\n\r\n-------------------------------------------------------------\r\n\r\n■ Beautifully revived with new graphics and sound!\r\n・Universally updated 2D pixel graphics, including the iconic FINAL FANTASY character pixel designs created by Kazuko Shibuya, the original artist and current collaborator.\r\n・Beautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu.\r\n・Reimagined cinematic-style opera scene, complete with newly recorded vocal performances.\r\n\r\n■Improved gameplay!\r\n・Including modernized UI, auto-battle options, and more.\r\n・Switch the soundtrack between the rearranged version, created for the pixel remaster, or the original version, capturing the sound of the original game.\r\n・Now possible to switch between different fonts, including the default font and a pixel-based font based on the atmosphere of the original game. \r\n・Additional boost features to expand gameplay options, including switching off random encounters and adjusting experience and magic AP gained multipliers between 0 and 4\r\n・Dive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player.\r\n\r\n(This remaster is based on the original \"FINAL FANTASY VI\" game released in 1994. Features and/or content may differ from previously rereleased versions of the game.)",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.30525.13963239069939428.625a335f-7e8c-428e-8629-b822af0d8cc8.037d077c-a380-466f-b61e-590952ec7d6a",
       "originalPrice": 589,
-      "discountPrice": 589,
-      "discountPercent": 0,
+      "discountPrice": 353.4,
+      "discountPercent": 40,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N255K81XBD3",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NBZ7Z3JRXQ8",
@@ -4482,14 +4482,14 @@
       "description": "«Світ можна сформувати своєю уявою! Ви про це знали?»\t\r\n\t\r\nLegend of Mana — це рольовий екшен, у якому ви зможете подорожувати світом Fa'Diel.\r\n\t\r\nВідкрийте для себе світ, населений різними расами: людьми, звіролюдами, пінгвінами-піратами, мудрими драконами та джумі — расою, що знаходиться на шляху до знищення.\r\nПротягом цієї казки всі вони, кожен зі своїм набором цінностей, конфліктують або співпрацюють.\r\nІсторія розгортається на тлі графіки, що нагадує стиль чарівної книжки з картинками, а вас супроводжує чарівний саундтрек.\r\n\r\nОсобливості гри\r\n ◆ Система Land Creation\r\nРозміщуйте артефакти, отримані під час пригод, на порожній карті, щоб відкрити нові міста та підземелля, які просувають історію вперед.\t\r\nПоступово карта наповнюється життям і фіксує шлях, який пройшла ваша пригода.\t\r\n\t\r\n◆ 68 різних подій\t\r\nЗагалом історія складається з 68 різних подій. Кого ви зустрінете, і де це відбудеться? Як розгортатиметься ваша казка? Усе залежить від ваших рішень.\t\r\nПісля завершення події не забудьте поспілкуватися з Малюком Кактусом, який чекає на вас вдома!\t\r\n\t\r\n ◆ Багатий і глибокий вміст\t\r\nУчасть у певних подіях відкриває різноманітний вміст, наприклад дозволяє кувати зброю й обладунки, створювати големів і тримати улюбленців.\t\r\nВи можете відправитися на пошуки найсильнішої зброї або молодих монстрів — як ви будете грати, залежить тільки від вас.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.7653.14556235508309133.ebb6dc1c-004f-4bb2-8ce7-f545c53b97d2.3e0cd699-9bc4-45d1-a038-7341b45f13d4",
       "originalPrice": 999,
-      "discountPrice": 999,
-      "discountPercent": 0,
+      "discountPrice": 349.65,
+      "discountPercent": 65,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P2S2QVRB97N",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P9XGNFNF11R",
@@ -5052,14 +5052,14 @@
       "description": "На вас чекає дивовижний світ, де панує гниття. \n\nРозбудіть МІО, робота з екстраординарними здібностями, і розгадайте таємниці Vessel — величезного ковчега, який заріс пишною рослинністю і обладнання якого вийшло з-під контролю. \n\nНіхто не знає, чому доглядачі цього ковчегу несподівано перестали функціонувати. Тепер Vessel очікує неминуче відключення. Пориньте в його глибини, щоб відродити втрачені спогади, і розгадайте своє справжнє минуле і долю в цій захоплюючій метроідваніі.\n\nЧи впораєтеся ви з завданням та врятуєте ковчег від знищення? Не забракує вам сміливості, щоб пробудити спогади?\n\n• Дослідіть захоплюючий всесвіт, повний чудес і рідкостей. Познайомтесь з ковчегом та знайдіть усі втрачені моменти минулого. \n\n• Розвивайте здібності MIO, які допоможуть просуватися в цьому заплутаному та взаємопов'язаному просторі. Піднімайтеся по стінах, як павук, або літайте, немов птах, використовуючи свою силу. Опануйте точність, ритм і хронометраж, щоб піймати потік!\n\n• Боріться з понад 30 різними типами ворогів та 15 грізними босами. Адаптуйте свою тактику та навички залежно від ситуації. Ухиляйтеся від ворогів, використовуйте гак, випускайте снаряди і навіть створюйте клони-приманки, щоб стати невловимими. Вибір за вами!\n\n• Підсилюйте MIO різними компонентами. Покращуйте бойові навички і перетворюйте MIO на грізну силу, яка відповідає вашому стилю гри. ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.13468.13723335579611778.7eddaa57-cef9-4feb-a795-53abfb3c19e7.facbd0f0-a818-4d45-969f-9aa1b16a2202",
       "originalPrice": 700,
-      "discountPrice": 700,
-      "discountPercent": 0,
+      "discountPrice": 525,
+      "discountPercent": 25,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NP86K57SQM3",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PJPZ1DQD0WM",
@@ -6387,14 +6387,14 @@
       "description": "A deadly virus engulfs the residents of Raccoon City in September of 1998, plunging the city into chaos as flesh eating zombies roam the streets for survivors.\r\n\r\nAn unparalleled adrenaline rush, gripping storyline, and unimaginable horrors await you.\r\n\r\nWitness the return of Resident Evil 2.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.45242.71571739681700792.c61fa2d7-3d69-4edf-8e51-accc41d47823.8a16b21a-96c4-474e-8fd4-629b9bc622ad",
       "originalPrice": 1398.99,
-      "discountPrice": 1398.99,
-      "discountPercent": 0,
+      "discountPrice": 279.79,
+      "discountPercent": 80,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/BWMH951M3G3P",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9P7T44TTDL7M",
@@ -6402,14 +6402,14 @@
       "description": "- This game does not support Xbox Play Anywhere. In order to play on Xbox, you must purchase the Xbox version separately.\r\n- Please note that the Windows version of Resident Evil 3 does not include Resident Evil Resistance.\r\n\r\nJill Valentine is one of the last remaining people in Raccoon City to witness the atrocities Umbrella performed. To stop her, Umbrella unleashes their ultimate secret weapon; Nemesis!\r\n\r\nPlaying as Jill, you must navigate through the chaotic, zombie infested streets of Raccoon City, stunningly re-built using Capcom's proprietary RE Engine. Solve puzzles, encounter other gruesome creatures and try to escape the relentless Nemesis in this reimagining of the 1999 classic!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.33165.71880157815410720.768ba6e5-793f-45af-8f98-a14bc261e1c1.a913127d-06dc-4f3d-9409-d7416e6bf0f7",
       "originalPrice": 999,
-      "discountPrice": 999,
-      "discountPercent": 0,
+      "discountPrice": 249.75,
+      "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9P7T44TTDL7M",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NBLGGH4SPK6",
@@ -6432,14 +6432,14 @@
       "description": "The Windows version of Resident Evil Village will be available on January 20, 2026, at 00:00 AM (UTC).\n\nExperience survival horror like never before in the eighth major installment in the storied Resident Evil franchise - Resident Evil Village.\n\nSet a few years after the horrifying events in the critically acclaimed Resident Evil 7 biohazard, the all-new storyline begins with Ethan Winters and his wife Mia living peacefully in a new location, free from their past nightmares. Just as they are building their new life together, tragedy befalls them once again.\n\nAcceptance of the End User License Agreement is required to play the Windows version of Resident Evil Village. (https://manual.capcom.com/eula/game/)",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.39328.13946458263695761.43457946-df8c-4dc7-96ef-7ffc79bd1869.f8635450-b763-4716-83e9-ac9afbb6fac2",
       "originalPrice": 1199,
-      "discountPrice": 1199,
-      "discountPercent": 0,
+      "discountPrice": 299.75,
+      "discountPercent": 75,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N2S04LGXXH4",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PPBNCXP0096",
@@ -6522,14 +6522,14 @@
       "description": "Ліквідація наслідків\n\nВи керуєте компанією, яка займається відновлювальними роботами на об'єктах, зруйнованих внаслідок стихійних лих. На вас чекає багато завдань із перезапуску місцевої промисловості: розчищення завалів, заміна несправного обладнання, відновлення доріг і мостів, пошкоджених негодою, та багато іншого! Уважно вибирайте маршрут для вашої техніки, прокладаючи його через покинуті заводи, затоплені дамби чи непрацюючі сонячні електростанції. Станьте операційним менеджером, щоб керувати вантажівками й прокладати для них маршрути на мапі, оминаючи перешкоди, які можуть заблокувати їхній шлях! Випробуйте вдосконалений симулятор нового покоління, розроблений Saber Interactive — творцями MudRunner і SnowRunner.\n\n- Отримуйте захопливі враження в цьому вдосконаленому фізичному симуляторі, відбудовуючи зруйновані райони самостійно або ж спільними зусиллями в команді до 4 гравців.\n- Керуйте понад 40 машинами різних видів: від бульдозерів до будівельних кранів.\n- Проводьте роботи в найрізноманітніших регіонах світу на 8 мапах, кожна з яких має площу 4 км².\n- Завдяки новому фізичному движку від Saber Interactive ви зможете маніпулювати такими елементами, як деревина, пісок й асфальт.\n- Будуйте нові дороги й мости, щоб спрощувати пересування пересіченою місцевістю.\n- Прокладайте на мапі маршрути від точки до точки, щоб керувати логістикою колон, перетворюючи при цьому завали на матеріали для відновлювальних робіт.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.37296.13982274548286624.6ccdd9db-6d03-467c-b6c3-b56c939a6347.b7aec3d6-bdf3-4fa7-a534-a0d07ee24894",
       "originalPrice": 1030,
-      "discountPrice": 1030,
-      "discountPercent": 0,
+      "discountPrice": 618,
+      "discountPercent": 40,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N4J937WLFPZ",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PFNXM9G4N83",
@@ -7912,6 +7912,21 @@
       "isDiscounted": false
     },
     {
+      "id": "9N034X5G08B7",
+      "title": "The Royal Writ",
+      "description": "In The Royal Writ, you don't just play cards - you command them on the battlefield. Place your loyal subjects strategically as they advance toward the enemy, dealing damage. But beware: any card that reaches the enemy base before victory is permanently destroyed and removed from your deck for the rest of your run.\n\nSacrifice isn't just a risk - it's an essential strategy that creates memorable sub-stories with each run. Will you honor the subjects who gave everything for your cause? Every fallen card tells a tale, and their glory lives on in the legacy you build.\n\nLead an army of adorable yet battle-hardened animals with abilities to shape your strategy. Your ranks may comprise a frail and wounded flamingo, a short sighted chicken bowman, or even a crafty lizard who cheats death by only losing its tail! From the renegade red ants to the sacrificial lamb, every card in your deck has a personality and purpose.\n\nAs they march toward glory or death, their individual stories become part of your kingdom's legacy, and their sacrifices will never be forgotten. You may even come across some peculiar creatures on your journey, like the crazed mantis dentist, the goat tactician or the impatient boar shopkeeper - just don’t ask them where they got their credentials.\n\nConquer the realm through two distinct adventures:\n\nThe First Campaign pits you against a growing rebellion as you try to maintain the king’s good and just rule (objectively). Battle your way through a challenging environment filled with deep pits and poison swamps as you try to suppress your enemies. As you progress, you may start to wonder if there are more to the kingdom’s troubles than meet the eye? \n\nThe Second Campaign introduces a new threat - gunpowder. As new experimental weapons now enter the battlefield, your strategy must change. No longer are you simply avoiding the environmental hazards - you must dodge an onslaught of bullets to ensure you and your troops are not fatally wounded as you march forth. \n\nEach campaign features unique cards, bosses, and strategic challenges. The battlefield awaits your command!\n\nIntuitive Yet Deep Gameplay - Easy to learn without compromising on the challenge\nRoguelike Progression - Every run is different\nCard Permadeath - Lost cards stay lost!\nCharming Art Style - Picture-book visuals blend with medieval absurdity and dark humor\nMemorable NPC Encounters - Are they friend or foe?\nSpecial Boss Mechanics - Unique challenges that will test you\nGradual Difficulty Ladder - Climb through harder and harder difficulties as you progress\nChallenge Modes - Test your skills in special modes with unique rules\nRelics - Collect relics with various effects that change how you play\n\nFrom an ancient royal decree:\n\n\"The art of war is simple. Send forth your subjects to die gloriously in your name. Their sacrifice ensures your legacy... and if they happen to win, all the better!\"\n\nWill you write your name in the annals of history, or become just another forgotten monarch? The balance between loss and triumph is yours to master.\n\nAll hail! May your fallen be remembered  and your victories sweet!\n",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.10273.13929128993190644.5fdad478-5d9a-4e47-b2a4-acc499d07c78.73f7f83c-b49b-4fa5-a04a-0ba93f2448f1",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9N034X5G08B7",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": false
+    },
+    {
       "id": "9PMVJR05PFJW",
       "title": "The Saboteur™",
       "description": "Not all wars are fought on the open battlefield. Download The Saboteur to visit 1940s Nazi-occupied Paris, as you play tough Irish racecar mechanic Sean Devlin. Working with the French Resistance, Sean is out for revenge against ruthless Nazi Colonel Kurt Dierker, who executed Sean’s best friend.\r\n\r\n\r\n\r\nThis open-world action thriller takes you through the seedy streets of Paris, as you seek to undermine the German authority and lead a rebellion. Fight across rooftops and through dangerous alleys, and operate a wide variety of vehicles as you navigate your terrain. You can even climb the Eiffel Tower or Notre Dame Cathedral for a sniping mission.\r\n\r\n\r\n\r\nUse stealth and disguise to strike at the heart of the Nazi war machine by disabling trains, destroying bridges, and blowing up enemy facilities. As you work to remove the oppressive forces from parts of the city, the drab black-and-white palette gives way to bright colors, signifying that you have inspired the townspeople. The more you incite the people, the more they will aid you by intervening in fights or providing a quick getaway from pursuing Germans. The Saboteur presents a fresh take on World War II and features dramatic cinematic elements. The action and intrigue is yours to experience via download on the PC now.\r\n\r\n\r\n\r\nFeatures:\r\n\r\n• 1st Ever Open-World Paris - Climb the Eiffel Tour, snipe from Notre Dame Cathedral, and brawl on the Champs d’Elysee as you sabotage your enemies. Fight, climb, and prowl through the dark alleys, rooftops, burlesque houses, and seedy streets of the City of Lights — the ultimate playground for the Saboteur.\r\n\r\n• The Art Of Sabotage - Being the Saboteur is all about attacking while staying unnoticed. Get your mission intel at underground clubs and cabarets. Eliminate your adversaries with stealth attacks, disguise, distractions, and explosives. Master a variety of weapons, automobiles, and skills to sabotage enemy operations.\r\n\r\n• The Will To Fight - An action-packed experience and thrilling storyline are made even more engaging by an innovative visual style, characters, and the new “Will to Fight” technology. Experience how the city reacts and changes around you as you free it from Nazi oppression. Only you can restore hope and grandeur to Paris.\r\n\r\n• French Resistance Strikes - Call in for support from The Underground in the form of getaway cars, weapon deliveries, distractions, and much more.\r\n\r\n\r\nCONDITIONS AND RESTRICTIONS APPLY. SEE EA.COM/LEGAL FOR DETAILS.",
@@ -8337,14 +8352,14 @@
       "description": "Trials of Mana — це 3D-римейк популярної класичної рольової гри, що вийшла у 1995 році під назвою Seiken Densetsu 3.\n\nЦя смілива історія про подолання випробувань долі отримала нове життя! Пориньте в повністю модернізовану улюблену пригоду: на вас чекають графічні покращення, озвучення персонажів, ремастер саундтрека, новий епізод, який можна пройти після закінчення гри, а також система здібностей, новий клас, який реконструює систему підвищення рівню персонажів, і ще більше активних битв!\n\nЦя історія переплетіння доль змінюється залежно від того, кого ви обираєте як головного героя та супутників! Чи зможуть ці юні шукачі пригод використати силу мани, щоб врятувати світ на краю загибелі?\n\nКоли світ був огорнутий темрявою, Богиня Мани витягла Меч Мани, щоб вразити вісьмох Беневодонів, монстрів руйнування. Вона запечатала жахіття всередині восьми Каменів Мани, відвівши світ від краю прірви. Знесилена відбудовою світу, богиня перетворилася на дерево й заснула глибоким сном на довгі роки. Однак незабаром сили зла спробували звільнити Беневодонів, щоб отримати контроль над світом. Вони розпочали жахливу війну, щоб виконати свою жахливу мету та підірвати стабільність у королівствах. Мир закінчився. Сама мана почала зникати зі світу, а Дерево Мани почало в'янути...\n\nКЛЮЧОВІ ОСОБЛИВОСТІ\nОновлена 3D-графіка\nTrials of Mana — це повний 3D-рімейк третьої гри серії Mana, яка спочатку вийшла в Японії під назвою Seiken Densetsu 3. Уся гра була повністю перебудована з нуля з використанням сучасної 3D-графіки.\n\nОберіть свій загін\nГравці можуть обрати улюбленого героя та двох супутників із шести різних персонажів. Історія буде розвиватися по-різному, залежно від комбінації головного героя та супутників у загоні.\n\nБитви та розвиток персонажів\nПідете ви за світлом або за темрявою? Створюйте різні типи персонажів за допомогою системи зміни класів! Розвиток персонажів було перероблено, додавши нову механіку здібностей і четвертий клас для кожного персонажа, щоб розширити можливості персоналізації. Зберіть загін, який хочете, та насолоджуйтеся захопливою бойовою системою з розширеним ігровим процесом.\n\nМузика\nНові аранжування для 60 музичних треків під керівництвом композитора Кікути Хірокі. Також можна вільно перемикатися між оригінальним та аранжованим саундтреками.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.52805.13622716626834505.ab757391-28a2-430c-9eef-0acea7eb4158.4548be89-3b23-4c46-a777-43a8baa7006a",
       "originalPrice": 1499,
-      "discountPrice": 1499,
-      "discountPercent": 0,
+      "discountPrice": 449.7,
+      "discountPercent": 70,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NHMR19TS1M0",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9PG0ZSTFBL1T",
@@ -8527,19 +8542,34 @@
       "isDiscounted": false
     },
     {
+      "id": "9NSM674QVLBS",
+      "title": "Virtua Fighter 5 R.E.V.O. World Stage",
+      "description": "Легендарна серія 3D-файтингу виходить на новий рівень. Зустрічайте Virtua Fighter 5 R.E.V.O. World Stage на Xbox Series X|S.\n\nVirtua Fighter 5 R.E.V.O. World Stage представляє вдосконалений ігролад Virtua Fighter 5.\n\nЗавдяки технології Rollback Netcode та підтримці крос-гри ви зможете зійтися в найзапекліших битвах із гравцями з усього світу.\n\nНовий однокористувацький режим World Stage — це ваша особиста битва за звання абсолютного чемпіона. Перемагайте найсильніших, станьте найкращим.\n\nОновлені інструменти для тренування та розширені функції повторів, щоб стати ще сильнішими.\n\nПРИМІТКА\nЦей продукт містить лише базову версію гри.\nТакож можна буде придбати окремий комплект із базовою грою та додатковим вмістом.\nУникайте повторного придбання вже наявного вмісту.",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.65264.14360936962313275.d2dd0342-a5b1-4e46-bd2a-9de7360ee291.69963562-18aa-4db4-9593-e7d9aa84f414",
+      "originalPrice": 729,
+      "discountPrice": 364.5,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://www.xbox.com/uk-ua/games/store/-/9NSM674QVLBS",
+      "isGamePass": true,
+      "isNewToGamePass": true,
+      "isComingSoon": false,
+      "isDiscounted": true
+    },
+    {
       "id": "9NJ5WV40PD08",
       "title": "Visions of Mana",
       "description": "Visions of Mana — нова гра в цій серії, сюжет якої обертається навколо священного меча й мани. \nГоловний герой Валь і його подруга дитинства Хінна, новопризначена «альма» вогню, вирушають у подорож до Дерева Мани. \n\nНа яскравих і величезних просторах гри ви зустрінете чарівних, але лютих монстрів, з якими зможете брати участь у стрімких тривимірних боях з використанням сили елементалів. \nЧерез пригоди з друзями, яких вони зустрічають на своєму шляху, вони починають бачити правду про цей світ. \nЧи повинні ми змиритися зі своєю долею? \nТут починається нова історія Mana, а класична фентезійна серія повертається до свого коріння. \n\n▸ Соковита графіка, сповнена характерного стилю Mana \nГерої мандрують яскравим світом, населеним духами. \n▸ Досліджуйте світ \nДосліджуйте величезний напіввідкритий світ, що простягається так далеко, як тільки може бачити око. Швидко та безпечно подорожуйте довкіллям із новими супутниками — пікулами. \n▸ Використовуйте силу елементалів \nУ цій грі ви будете битися з ворогами, використовуючи зброю, яка містить силу елементалів. Перемикайтеся між різними класами й персонажами відповідно до вашого стилю гри та насолоджуйтеся боєм, який еволюціонував як у тривимірному, так і в стратегічному плані. \n▸ Захопливий саундтрек \n100 музичних композицій від талановитої команди творців, які працювали над незліченною кількістю треків у різних іграх серії. У відкритих зонах грає інтерактивна музика, яка підвищує настрій на пригоди. ",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.24377.13682791436862455.fd616451-bc9e-4d12-b724-a0f613e579be.05e76e41-4927-4fe6-9f35-36390deb1d38",
       "originalPrice": 1999,
-      "discountPrice": 1999,
-      "discountPercent": 0,
+      "discountPrice": 799.6,
+      "discountPercent": 60,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9NJ5WV40PD08",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9N9K5QP9G3GL",
@@ -8667,14 +8697,14 @@
       "description": "Ваше ремесло — смерть.\n \nВтільте надлюдську майстерність і безжальність космодесантників — найвеличніших воїнів Імператора. За допомогою смертоносних здібностей і руйнівної зброї стримайте галактичні жахіття в епічних битвах на віддалених планетах. Розкрийте темні секрети та проженіть вічну ніч, щоби довести свою абсолютну відданість людству. \n \nЗнищте рої тиранідів. Захистіть людство.\n\n●\tУ ролі легендарного космодесантника Тіта винищуйте невблаганні орди тиранідів у новій захопливій кампанії. Грайте наодинці або з друзями в режимі спільної гри на 3 гравців.\n●\tНасолоджуйтеся напруженим, кривавим і стрімким бойовиком із сотнями ворогів на екрані від творців культового кооперативного шутера World War Z.\n●\tЗахищайте Імперіум у жорстоких і різноманітних PvE-місіях. У цьому вам допоможуть до 2 друзів і 7 класів космодесантників, для яких можна розблокувати нові вміння та косметичні предмети.\n●\tВедіть непримиренну війну з ворожими командами в шалених PvP-матчах 6х6 і здобудьте славу для своєї фракції!",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.64063.13528912654162373.752dd58c-93b6-40eb-ba0f-2d5ce3229dff.ed5a34b6-3865-43aa-9137-230f6560f5ba",
       "originalPrice": 1795,
-      "discountPrice": 1795,
-      "discountPercent": 0,
+      "discountPrice": 538.5,
+      "discountPercent": 70,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9N9PCZWHVP2L",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NWQ686JB33G",
@@ -9042,14 +9072,14 @@
       "description": "World War Z: Aftermath — це новий зомбі-бойовик для сумісного проходження, створений за мотивами блокбастера Paramount Pictures, який став новим ступенем еволюції оригінальної World War Z, що підкорила серця більш ніж 20 мільйонів гравців. Зупиніть зомбі-апокаліпсис, вступивши до бою на ПК та консолях з підтримкою кросплатформної гри. Запросіть до трьох друзів або бийтеся з безліччю розлючених зомбі в компанії ШІ-союзників, проходячи насичені діями сюжетні епізоди, дія яких розгортається по всьому світі. На вас чекають Рим, Ватикан та Камчатка. \r\n\r\nДо версії World War Z: Aftermath також включені всі матеріали з видання Game of the Year Edition. Гравці, які мають копію оригінальної гри World War Z або видання Game of the Year Edition, зможуть придбати World War Z: Aftermath зі знижкою на тій самій платформі.\r\n\r\nНові історії світу, в якому бушує війна\r\n\r\nПроходьте нові сюжетні епізоди, дія яких відбувається в Римі, Ватикані та на Камчатці. Грайте за нових та вже знайомих персонажів. Боріться з живими мерцями, виконуючи нову жорстку систему рукопашного бою. Бийтеся з зіками, використовуючи унікальні прийоми, навички та парну зброю (серпи, тесаки та інше). Воюйте з новими чудовиськами на кшталт полчищ кровожерливих пацюків, які спробують посіяти паніку у вашій команді. \r\n \r\nПолчища зомбі нового покоління\r\n\r\nНасолодіться якістю 4K при 60 к./сек. на Xbox Series XIS. Відбивайте нескінченні атаки зомбі з поступово зростаючою складністю в новому режимі орди XL на Xbox Series X|S — ви ще ніколи не бачили такої кількості зомбі одночасно. \r\n\r\nПовне занурення та розвиток персонажа\r\n\r\nЗануріться до атмосфери Aftermath завдяки новому виду від першої особи. У грі є вісім унікальних класів: стрілок, породження пекла, рубака, медик, технар, термінатор, оператор дрона, а також новий клас — захисник. Кожен має свої особливості та стиль гри. Покращуйте зброю, щоб пережити будь-які випробування та виконуйте щоденні завдання з особливими модифікаторами для отримання бонусних нагород.",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.6226.14045535769728047.85d0711f-7ce8-4a86-bd72-ebb541ae51d5.d217f364-9faa-49c2-9d66-271db2341be3",
       "originalPrice": 1030,
-      "discountPrice": 1030,
-      "discountPercent": 0,
+      "discountPrice": 515,
+      "discountPercent": 50,
       "currency": "UAH",
       "url": "https://www.xbox.com/uk-ua/games/store/-/9PLCL2VB2SC0",
       "isGamePass": true,
       "isNewToGamePass": false,
       "isComingSoon": false,
-      "isDiscounted": false
+      "isDiscounted": true
     },
     {
       "id": "9NG06CSMM97P",
