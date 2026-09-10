@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T20:28:18.072Z",
+  "lastUpdated": "2026-09-10T22:11:01.527Z",
   "epic": [
     {
       "id": "be5600439b434624802764f704755cde",
@@ -147,7 +147,7 @@
     {
       "id": "4739660",
       "title": "Drag'n Wash",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739660/a1812c31e87957cdbf1840ceffda393d9b437d53/capsule_616x353.jpg?t=1789058838",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739660/a1812c31e87957cdbf1840ceffda393d9b437d53/capsule_616x353.jpg?t=1789077994",
       "originalPrice": 335,
       "discountPrice": 301,
       "discountPercent": 10,
@@ -197,6 +197,19 @@
       "isPopular": false
     },
     {
+      "id": "2536520",
+      "title": "Diablo II: Resurrected - Infernal Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
+      "originalPrice": 1699,
+      "discountPrice": 1189,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2536520",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "3949040",
       "title": "RV There Yet?",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/31b108275f35fc3362664877cf0223ea2541a639/capsule_616x353_alt_assets_0.jpg?t=1789049074",
@@ -231,19 +244,6 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1144200",
-      "title": "Ready or Not",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1789019569",
-      "originalPrice": 625,
-      "discountPrice": 312,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1144200",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
