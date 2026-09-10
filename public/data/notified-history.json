@@ -649,5 +649,12 @@
     "percent": 30,
     "timestamp": "2026-09-10T22:10:53.957Z",
     "type": "discount"
+  },
+  "steam_discount_2668510": {
+    "title": "Red Dead Redemption",
+    "price": 1099,
+    "percent": 50,
+    "timestamp": "2026-09-10T22:52:22.621Z",
+    "type": "discount"
   }
 }
