@@ -635,5 +635,12 @@
     "percent": 10,
     "timestamp": "2026-09-10T19:25:43.025Z",
     "type": "discount"
+  },
+  "steam_discount_1850570": {
+    "title": "DEATH STRANDING DIRECTOR'S CUT",
+    "price": 299,
+    "percent": 75,
+    "timestamp": "2026-09-10T20:28:11.196Z",
+    "type": "discount"
   }
 }
