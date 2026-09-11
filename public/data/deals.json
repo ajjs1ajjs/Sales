@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T22:52:28.404Z",
+  "lastUpdated": "2026-09-11T00:45:38.341Z",
   "epic": [
     {
       "id": "be5600439b434624802764f704755cde",
@@ -184,6 +184,19 @@
       "isPopular": false
     },
     {
+      "id": "3195440",
+      "title": "Welcome to Elderfield",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3195440/f7e694966dc68ac5131cf92adf5c6493d0e27f3f/capsule_616x353.jpg?t=1789053771",
+      "originalPrice": 385,
+      "discountPrice": 346,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3195440",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "3624140",
       "title": "Wanderburg",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/c3794a3264f063828569dd74e38baee8cec7fa59/capsule_616x353_alt_assets_2.jpg?t=1789065688",
@@ -197,14 +210,14 @@
       "isPopular": false
     },
     {
-      "id": "3195440",
-      "title": "Welcome to Elderfield",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3195440/f7e694966dc68ac5131cf92adf5c6493d0e27f3f/capsule_616x353.jpg?t=1789053771",
-      "originalPrice": 385,
-      "discountPrice": 346,
-      "discountPercent": 10,
+      "id": "2668510",
+      "title": "Red Dead Redemption",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2668510/8f73dc378141e642d00e40484adde709e0ad33cb/capsule_616x353.jpg?t=1781132266",
+      "originalPrice": 2199,
+      "discountPrice": 1099,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3195440",
+      "url": "https://store.steampowered.com/app/2668510",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -223,27 +236,14 @@
       "isPopular": false
     },
     {
-      "id": "3949040",
-      "title": "RV There Yet?",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/31b108275f35fc3362664877cf0223ea2541a639/capsule_616x353_alt_assets_0.jpg?t=1789049074",
-      "originalPrice": 187,
-      "discountPrice": 112,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3949040",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "2668510",
-      "title": "Red Dead Redemption",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2668510/8f73dc378141e642d00e40484adde709e0ad33cb/capsule_616x353.jpg?t=1781132266",
-      "originalPrice": 2199,
-      "discountPrice": 1099,
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1789019569",
+      "originalPrice": 625,
+      "discountPrice": 312,
       "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2668510",
+      "url": "https://store.steampowered.com/app/1144200",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
