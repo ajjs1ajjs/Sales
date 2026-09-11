@@ -656,5 +656,12 @@
     "percent": 50,
     "timestamp": "2026-09-10T22:52:22.621Z",
     "type": "discount"
+  },
+  "steam_discount_2456740": {
+    "title": "inZOI",
+    "price": 959,
+    "percent": 20,
+    "timestamp": "2026-09-11T22:54:44.764Z",
+    "type": "discount"
   }
 }
