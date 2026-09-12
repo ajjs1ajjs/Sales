@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T07:34:28.685Z",
+  "lastUpdated": "2026-09-12T11:53:43.382Z",
   "epic": [
     {
       "id": "be5600439b434624802764f704755cde",
@@ -158,32 +158,6 @@
       "isPopular": false
     },
     {
-      "id": "1850570",
-      "title": "DEATH STRANDING DIRECTOR'S CUT",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/3b0d071a89844ffc8062edbb36bc0b6a7ab3f7ce/capsule_616x353.jpg?t=1773400635",
-      "originalPrice": 1199,
-      "discountPrice": 299,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1850570",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "4739660",
-      "title": "Drag'n Wash",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739660/a1812c31e87957cdbf1840ceffda393d9b437d53/capsule_616x353.jpg?t=1789186451",
-      "originalPrice": 335,
-      "discountPrice": 301,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4739660",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "3624140",
       "title": "Wanderburg",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/c3794a3264f063828569dd74e38baee8cec7fa59/capsule_616x353_alt_assets_2.jpg?t=1789141114",
@@ -192,6 +166,19 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3624140",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1850570",
+      "title": "DEATH STRANDING DIRECTOR'S CUT",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/3b0d071a89844ffc8062edbb36bc0b6a7ab3f7ce/capsule_616x353.jpg?t=1773400635",
+      "originalPrice": 1199,
+      "discountPrice": 299,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1850570",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -236,14 +223,27 @@
       "isPopular": false
     },
     {
-      "id": "3764200",
-      "title": "Resident Evil Requiem",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
-      "originalPrice": 1999,
-      "discountPrice": 1399,
-      "discountPercent": 30,
+      "id": "3949040",
+      "title": "RV There Yet?",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/31b108275f35fc3362664877cf0223ea2541a639/capsule_616x353_alt_assets_0.jpg?t=1789134289",
+      "originalPrice": 187,
+      "discountPrice": 112,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3764200",
+      "url": "https://store.steampowered.com/app/3949040",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "4739660",
+      "title": "Drag'n Wash",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739660/a1812c31e87957cdbf1840ceffda393d9b437d53/capsule_616x353.jpg?t=1789186451",
+      "originalPrice": 335,
+      "discountPrice": 301,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4739660",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
