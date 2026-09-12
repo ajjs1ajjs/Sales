@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T20:00:26.803Z",
+  "lastUpdated": "2026-09-12T22:09:13.780Z",
   "epic": [
     {
       "id": "be5600439b434624802764f704755cde",
@@ -184,6 +184,19 @@
       "isPopular": false
     },
     {
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1789019569",
+      "originalPrice": 625,
+      "discountPrice": 312,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1144200",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1787837240",
@@ -223,27 +236,14 @@
       "isPopular": false
     },
     {
-      "id": "1144200",
-      "title": "Ready or Not",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1789019569",
-      "originalPrice": 625,
-      "discountPrice": 312,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1144200",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "2456740",
-      "title": "inZOI",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2456740/169fdacc61e59aa8d0272b3a4f1e93c8dfe8d18a/capsule_616x353.jpg?t=1777449358",
-      "originalPrice": 1199,
-      "discountPrice": 959,
+      "id": "3768760",
+      "title": "007 First Light",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/dcfa016f5be67396518b27816ca2e3a017c0bbc9/capsule_616x353_alt_assets_2.jpg?t=1788855872",
+      "originalPrice": 1599,
+      "discountPrice": 1279,
       "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2456740",
+      "url": "https://store.steampowered.com/app/3768760",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
