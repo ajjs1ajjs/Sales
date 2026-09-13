@@ -670,5 +670,12 @@
     "percent": 50,
     "timestamp": "2026-09-13T00:32:24.482Z",
     "type": "discount"
+  },
+  "steam_discount_4108000": {
+    "title": "Machine Party",
+    "price": 159,
+    "percent": 20,
+    "timestamp": "2026-09-13T05:33:30.890Z",
+    "type": "discount"
   }
 }
