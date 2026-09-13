@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T20:07:34.408Z",
+  "lastUpdated": "2026-09-13T22:44:32.264Z",
   "epic": [
     {
       "id": "be5600439b434624802764f704755cde",
@@ -184,6 +184,19 @@
       "isPopular": false
     },
     {
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1789019569",
+      "originalPrice": 625,
+      "discountPrice": 312,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1144200",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "3624140",
       "title": "Wanderburg",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/c3794a3264f063828569dd74e38baee8cec7fa59/capsule_616x353_alt_assets_2.jpg?t=1789141114",
@@ -210,32 +223,6 @@
       "isPopular": false
     },
     {
-      "id": "3949040",
-      "title": "RV There Yet?",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/31b108275f35fc3362664877cf0223ea2541a639/capsule_616x353_alt_assets_0.jpg?t=1789134289",
-      "originalPrice": 187,
-      "discountPrice": 112,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3949040",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1144200",
-      "title": "Ready or Not",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/f202837c9238c8f115a72395f76022c18e247b78/capsule_616x353.jpg?t=1789019569",
-      "originalPrice": 625,
-      "discountPrice": 312,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1144200",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "311210",
       "title": "Call of Duty®: Black Ops III",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1780963650",
@@ -244,6 +231,19 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/311210",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3949040",
+      "title": "RV There Yet?",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/31b108275f35fc3362664877cf0223ea2541a639/capsule_616x353_alt_assets_0.jpg?t=1789134289",
+      "originalPrice": 187,
+      "discountPrice": 112,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3949040",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
