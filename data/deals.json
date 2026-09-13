@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T05:33:37.563Z",
+  "lastUpdated": "2026-09-13T10:55:47.197Z",
   "epic": [
     {
       "id": "be5600439b434624802764f704755cde",
@@ -158,32 +158,6 @@
       "isPopular": false
     },
     {
-      "id": "1850570",
-      "title": "DEATH STRANDING DIRECTOR'S CUT",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/3b0d071a89844ffc8062edbb36bc0b6a7ab3f7ce/capsule_616x353.jpg?t=1773400635",
-      "originalPrice": 1199,
-      "discountPrice": 299,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1850570",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "4739660",
-      "title": "Drag'n Wash",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739660/a1812c31e87957cdbf1840ceffda393d9b437d53/capsule_616x353.jpg?t=1789186451",
-      "originalPrice": 335,
-      "discountPrice": 301,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4739660",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1787837240",
@@ -192,6 +166,45 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2183900",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3624140",
+      "title": "Wanderburg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/c3794a3264f063828569dd74e38baee8cec7fa59/capsule_616x353_alt_assets_2.jpg?t=1789141114",
+      "originalPrice": 299,
+      "discountPrice": 194,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3624140",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/252490",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1850570",
+      "title": "DEATH STRANDING DIRECTOR'S CUT",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/3b0d071a89844ffc8062edbb36bc0b6a7ab3f7ce/capsule_616x353.jpg?t=1773400635",
+      "originalPrice": 1199,
+      "discountPrice": 299,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1850570",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -210,40 +223,27 @@
       "isPopular": false
     },
     {
-      "id": "4108000",
-      "title": "Machine Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1786561627",
-      "originalPrice": 199,
-      "discountPrice": 159,
+      "id": "3949040",
+      "title": "RV There Yet?",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/31b108275f35fc3362664877cf0223ea2541a639/capsule_616x353_alt_assets_0.jpg?t=1789134289",
+      "originalPrice": 187,
+      "discountPrice": 112,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3949040",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3768760",
+      "title": "007 First Light",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/dcfa016f5be67396518b27816ca2e3a017c0bbc9/capsule_616x353_alt_assets_2.jpg?t=1788855872",
+      "originalPrice": 1599,
+      "discountPrice": 1279,
       "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4108000",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "311210",
-      "title": "Call of Duty®: Black Ops III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1780963650",
-      "originalPrice": 2552,
-      "discountPrice": 638,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/311210",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
+      "url": "https://store.steampowered.com/app/3768760",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
