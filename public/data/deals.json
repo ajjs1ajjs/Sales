@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T22:46:38.948Z",
+  "lastUpdated": "2026-09-14T00:35:56.126Z",
   "epic": [
     {
       "id": "be5600439b434624802764f704755cde",
@@ -16,22 +16,6 @@
       "isUpcomingFree": false,
       "isDiscounted": true,
       "discountPercent": 80
-    },
-    {
-      "id": "4a88d0dc64114b20b67339c74543f859",
-      "title": "Lost Castle: The Old Ones Awaken",
-      "description": "The Old Ones Awaken adds new levels to explore, new enemies to defeat, and new bosses to face along with a host exciting new weapons and equipment to wield and wear.",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/a6d76157ad884f2c9aa470b30da9e2ff/lost-castle-r390n.png",
-      "originalPrice": 73,
-      "discountPrice": 36.5,
-      "currency": "UAH",
-      "url": "https://store.epicgames.com/p/lost-castle-abb2e2",
-      "startDate": "2026-08-30T01:00:00.000Z",
-      "endDate": "2026-09-13T23:59:00.000Z",
-      "isFreeNow": false,
-      "isUpcomingFree": false,
-      "isDiscounted": true,
-      "discountPercent": 50
     },
     {
       "id": "8f80897c0b6e4e678fed08da169d44be",
@@ -171,14 +155,14 @@
       "isPopular": false
     },
     {
-      "id": "1850570",
-      "title": "DEATH STRANDING DIRECTOR'S CUT",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/3b0d071a89844ffc8062edbb36bc0b6a7ab3f7ce/capsule_616x353.jpg?t=1773400635",
-      "originalPrice": 1199,
-      "discountPrice": 299,
+      "id": "311210",
+      "title": "Call of Duty®: Black Ops III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1780963650",
+      "originalPrice": 2552,
+      "discountPrice": 638,
       "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1850570",
+      "url": "https://store.steampowered.com/app/311210",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -197,6 +181,19 @@
       "isPopular": false
     },
     {
+      "id": "4739660",
+      "title": "Drag'n Wash",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739660/a1812c31e87957cdbf1840ceffda393d9b437d53/capsule_616x353.jpg?t=1789341978",
+      "originalPrice": 335,
+      "discountPrice": 301,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4739660",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "3624140",
       "title": "Wanderburg",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/c3794a3264f063828569dd74e38baee8cec7fa59/capsule_616x353_alt_assets_2.jpg?t=1789141114",
@@ -210,40 +207,27 @@
       "isPopular": false
     },
     {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "311210",
-      "title": "Call of Duty®: Black Ops III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1780963650",
-      "originalPrice": 2552,
-      "discountPrice": 638,
+      "id": "1850570",
+      "title": "DEATH STRANDING DIRECTOR'S CUT",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/3b0d071a89844ffc8062edbb36bc0b6a7ab3f7ce/capsule_616x353.jpg?t=1773400635",
+      "originalPrice": 1199,
+      "discountPrice": 299,
       "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/311210",
+      "url": "https://store.steampowered.com/app/1850570",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
     },
     {
-      "id": "3949040",
-      "title": "RV There Yet?",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/31b108275f35fc3362664877cf0223ea2541a639/capsule_616x353_alt_assets_0.jpg?t=1789134289",
-      "originalPrice": 187,
-      "discountPrice": 112,
-      "discountPercent": 40,
+      "id": "3764200",
+      "title": "Resident Evil Requiem",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
+      "originalPrice": 1999,
+      "discountPrice": 1399,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3949040",
+      "url": "https://store.steampowered.com/app/3764200",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
