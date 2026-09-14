@@ -1,5 +1,16 @@
 # Changelog
 
+## [Unreleased]
+
+### Видалено
+
+- **Підтримка Windows та Debian**: видалено `scripts/install.ps1` (Windows-інсталятор) та секцію Windows з README. Тепер встановлення/розгортання підтримується лише на **Ubuntu** через `scripts/install.sh` (curl one-liner).
+- Всі згадки про Windows, PowerShell, Debian та інші ОС прибрані з документації та інструкцій.
+
+### Змінено
+
+- `scripts/install.sh`: суворо перевіряє Ubuntu (видалено підтримку Debian), оновлено повідомлення про помилки.
+
 ## [1.1.0] - 2026-09-01
 
 ### Додано

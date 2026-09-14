@@ -86,17 +86,10 @@ GitHub Actions запускає скрипт
 
 **Автоматичне встановлення** (сам ставить Node.js, залежності, дані та білд):
 ```bash
-# Ubuntu / Debian
+# Ubuntu
 curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/Sales/main/scripts/install.sh | bash
 # або режим dev-сервера:
 bash scripts/install.sh --dev
-```
-
-```powershell
-# Windows (PowerShell)
-irm https://raw.githubusercontent.com/ajjs1ajjs/Sales/main/scripts/install.ps1 | iex
-# або режим dev-сервера:
-powershell -ExecutionPolicy Bypass -File scripts\install.ps1 -Dev
 ```
 
 **Вручну:**
@@ -113,7 +106,7 @@ npm run lint    # лінтер
 npm test        # тести
 ```
 
-> **Цільове середовище CI/деплою:** збірка, тести та деплой у GitHub Actions працюють на `ubuntu-latest`. Локальна розробка та встановлення підтримуються і на **Ubuntu / Debian** (`scripts/install.sh`), і на **Windows** (`scripts/install.ps1`). Застосунок статичний (PWA), для розгортання `dist/` достатньо будь-якого веб-сервера (nginx, Caddy тощо).
+> **Цільове середовище CI/деплою:** збірка, тести та деплой у GitHub Actions працюють на `ubuntu-latest`. Локальна розробка та встановлення підтримуються лише на **Ubuntu** (`scripts/install.sh`). Застосунок статичний (PWA), для розгортання `dist/` достатньо будь-якого веб-сервера (nginx, Caddy тощо).
 
 ## 🔑 Налаштування GitHub Actions
 

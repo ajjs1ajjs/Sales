@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Game Sales Aggregator - one-line installer/runner for Ubuntu / Debian.
+# Game Sales Aggregator - one-line installer/runner for Ubuntu.
 #
 # Usage:
 #   curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/Sales/main/scripts/install.sh | bash
@@ -35,8 +35,8 @@ check_ubuntu_version() {
         fail "Cannot determine OS version (/etc/os-release not found)."
     fi
     . /etc/os-release
-    if [ "$ID" != "ubuntu" ] && [ "$ID" != "debian" ]; then
-        fail "This installer supports Ubuntu and Debian only. Detected: $ID"
+    if [ "$ID" != "ubuntu" ]; then
+        fail "This installer supports Ubuntu only. Detected: $ID"
     fi
     local ver="${VERSION_ID%%.*}"
     local supported="24 25 26"
@@ -48,19 +48,19 @@ check_ubuntu_version() {
         fi
     done
     if [ "$is_supported" -eq 0 ]; then
-        fail "Unsupported $ID version: $VERSION_ID. Supported: Ubuntu/Debian 24, 25, 26 (latest and preview)."
+        fail "Unsupported Ubuntu version: $VERSION_ID. Supported: 24, 25, 26 (latest and preview)."
     fi
-    log "Detected $ID $VERSION_ID ($PRETTY_NAME) — supported."
+    log "Detected Ubuntu $VERSION_ID ($PRETTY_NAME) — supported."
 }
 
 find_repo_root() {
-    if [ -f "package.json" ] && grep -q '"name": "game-sales"' package.json 2>/dev/null; then
+    if [ -f "package.json" ] && grep -q '"name": "sales"' package.json 2>/dev/null; then
         pwd
         return 0
     fi
     local script_dir
     script_dir="$(cd "$(dirname "${BASH_SOURCE[0]:-.}")" 2>/dev/null && pwd || true)"
-    if [ -n "$script_dir" ] && [ -f "$script_dir/package.json" ] && grep -q '"name": "game-sales"' "$script_dir/package.json" 2>/dev/null; then
+    if [ -n "$script_dir" ] && [ -f "$script_dir/package.json" ] && grep -q '"name": "sales"' "$script_dir/package.json" 2>/dev/null; then
         echo "$script_dir"
         return 0
     fi
@@ -96,6 +96,8 @@ if [ -z "$REPO_ROOT" ]; then
     fi
     REPO_ROOT="$(cd "$REPO_DIR_NAME" && pwd)"
 fi
+
+ensure_node
 
 cd "$REPO_ROOT"
 
