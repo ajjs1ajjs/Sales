@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.0] - 2026-09-15
+
+### Fixed (leftover findings)
+
+- **PWA icons**: generated `public/icons/icon-192.png` + `icon-512.png` (maskable, brand gamepad) via `scripts/generate-icons.mjs` — Chrome installability no longer relies on SVG alone; wired into manifest + `apple-touch-icon`.
+- **Single deploy path**: removed competing `peaceiris/actions-gh-pages` deploy from `scheduler.yml` — Pages now deploys only via official `deploy-pages` (`pages.yml`), PAT `PUBLIC_RELEASE_TOKEN` no longer used; data-commit pushes trigger the same pipeline.
+- Dead `Build React App` step in scheduler removed (artifact was discarded anyway).
+
 ## [1.4.0] - 2026-09-15
 
 ### Security (audit round, all findings closed)

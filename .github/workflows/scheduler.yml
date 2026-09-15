@@ -73,17 +73,8 @@ jobs:
             GIT_EDITOR=true git rebase --continue
           }
           git push origin main
-
-      - name: Build React App
-        run: npm run build
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          personal_token: ${{ secrets.PUBLIC_RELEASE_TOKEN }}
-          external_repository: ajjs1ajjs/Sales
-          publish_dir: ./dist
-          publish_branch: gh-pages
+          # Deploy is handled by .github/workflows/pages.yml (official Pages
+          # deploy), which runs on every push to main — including this one.
 
   auto-release:
     needs: build-and-deploy
