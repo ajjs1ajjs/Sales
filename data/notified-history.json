@@ -747,5 +747,12 @@
     "percent": 0,
     "timestamp": "2026-09-15T14:02:23.026Z",
     "type": "xbox_new"
+  },
+  "steam_discount_2402680": {
+    "title": "Dimraeth",
+    "price": 419,
+    "percent": 10,
+    "timestamp": "2026-09-15T18:37:27.467Z",
+    "type": "discount"
   }
 }
