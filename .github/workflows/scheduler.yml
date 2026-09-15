@@ -13,7 +13,7 @@ on:
       - 'README.md'
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: fetch-deals
@@ -22,21 +22,26 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           fetch-depth: 0
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@40f1582b2485089dde7abd97c1529aa768e1baff # v5
         with:
           node-version: 22
           cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Security audit (high+)
+        run: npm audit --audit-level=high
 
       - name: Lint
         run: npm run lint
@@ -88,7 +93,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           fetch-depth: 0
 

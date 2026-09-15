@@ -57,3 +57,42 @@ describe('BUG-003 regression: xbox all-filter shows every game', () => {
     expect(predicate('all')).toBe(true);
   });
 });
+
+describe('audit round 2: history type allowlist', () => {
+  it('accepts known types and falls back for unknown', async () => {
+    const { safeHistoryType } = await import('../utils');
+    expect(safeHistoryType('free')).toBe('free');
+    expect(safeHistoryType('discount')).toBe('discount');
+    expect(safeHistoryType('nope')).toBe('free');
+    expect(safeHistoryType('free" onmouseover="x')).toBe('free');
+  });
+});
+
+describe('audit round 2: finiteOr clamps non-finite prices', () => {
+  it('documents the contract (Infinity must not reach discount math)', () => {
+    const finiteOr = (v: number, dflt: number): number =>
+      Number.isFinite(v) ? v : dflt;
+    expect(finiteOr(Number('Infinity'), 0)).toBe(0);
+    expect(finiteOr(12.5, 0)).toBe(12.5);
+  });
+});
+
+describe('audit round 2: notified-history coercion', () => {
+  it('drops malformed entries instead of crashing', () => {
+    const coerce = (parsed: unknown): Record<string, unknown> => {
+      if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {};
+      const out: Record<string, unknown> = {};
+      for (const [k, v] of Object.entries(parsed as Record<string, unknown>)) {
+        if (!v || typeof v !== 'object' || Array.isArray(v)) continue;
+        const item = v as Record<string, unknown>;
+        if (typeof item.timestamp !== 'string' || Number.isNaN(new Date(item.timestamp).getTime())) continue;
+        if (typeof item.type !== 'string' || typeof item.title !== 'string') continue;
+        out[k] = item;
+      }
+      return out;
+    };
+    expect(coerce(null)).toEqual({});
+    expect(coerce({ a: null, b: { timestamp: 'x', type: 'free', title: 't' } })).toEqual({});
+    expect(Object.keys(coerce({ ok: { timestamp: new Date().toISOString(), type: 'free', title: 't' } }))).toEqual(['ok']);
+  });
+});

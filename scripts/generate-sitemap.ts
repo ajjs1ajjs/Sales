@@ -4,9 +4,10 @@ const BASE_URL = 'https://ajjs1ajjs.github.io/Sales/';
 const SITEMAP_PATH = 'public/sitemap.xml';
 
 function generateSitemap() {
+  // Single URL: crawlers ignore the #fragment, so a #/history entry would be
+  // a dead listing (the app is one hash-routed page).
   const urlMeta: [string, string, string][] = [
     [BASE_URL, 'hourly', '1.0'],
-    [`${BASE_URL}#/history`, 'daily', '0.5'],
   ];
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>

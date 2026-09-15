@@ -12,6 +12,13 @@ export function isXboxGame(game: Game): game is XboxGame {
 
 export { formatPrice, formatDate } from './shared/format';
 
+// Allowlist for history item types before class-name interpolation: a
+// compromised deals.json must not inject arbitrary class strings.
+const HISTORY_TYPES: ReadonlySet<string> = new Set(['free', 'discount', 'popular', 'xbox_new']);
+export function safeHistoryType(t: string): string {
+  return HISTORY_TYPES.has(t) ? t : 'free';
+}
+
 export function formatLastUpdated(dateStr: string): string {
   if (!dateStr) return '';
   try {

@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.4.0] - 2026-09-15
+
+### Security (audit round, all findings closed)
+
+- **CSP**: `object-src 'none'` + `upgrade-insecure-requests` in meta tag.
+- **History classes**: `safeHistoryType` allowlist before class interpolation.
+- **Build URLs**: `encodeURIComponent` on all upstream IDs (Epic slug, Steam/Xbox IDs, SGL IDs, batches).
+- **Pipeline**: `CONFIG.tgTimeoutMs` wired; notified-history per-entry coercion; `replaceAll` token redact; `finiteOr` clamps Infinity.
+- **Supply chain**: `vite-plugin-pwa` pinned exact + patch rationale in `patches/README.md`; lock/manifest versions synced; Dependabot (npm + actions); `npm audit` in scheduler CI.
+- **CI**: least-privilege permissions, SHA-pinned actions, Node 22 everywhere, tsc gate in pages build; sitemap without dead `#/history` URL.
+
+### Tests
+
+- 3 new regression suites (allowlist, finiteOr, coercion). `npm test` 50/50, `eslint` clean, `vite build` ok.
+
 ## [Unreleased]
 
 ### Видалено

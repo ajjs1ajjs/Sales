@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Calendar, ExternalLink, RefreshCw } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
 import type { DealsData } from '../types';
-import { formatDate, formatDateEn } from '../utils';
+import { formatDate, formatDateEn, safeHistoryType } from '../utils';
 
 interface Props {
   data: DealsData | null;
@@ -88,10 +88,10 @@ export function HistoryPage({ data, loading = false }: Props) {
       ) : (
         <div className="history-list">
           {filtered.map((item) => (
-            <div key={item.key} className={`history-item history-item--${item.type}`}>
+            <div key={item.key} className={`history-item history-item--${safeHistoryType(item.type)}`}>
               <div className="history-item-main">
-                <span className={`history-badge history-badge--${item.type}`}>
-                  {({ free: t.history.freeBadge, discount: `-${item.percent}%`, popular: t.history.topBadge, xbox_new: t.history.xboxBadge } satisfies Record<string, string>)[item.type]}
+                <span className={`history-badge history-badge--${safeHistoryType(item.type)}`}>
+                  {({ free: t.history.freeBadge, discount: `-${item.percent}%`, popular: t.history.topBadge, xbox_new: t.history.xboxBadge } satisfies Record<string, string>)[safeHistoryType(item.type)]}
                 </span>
                 <span className="history-item-title">{item.title}</span>
               </div>

@@ -36,6 +36,11 @@ const TG_MESSAGE_LIMIT = CONFIG.tgMessageLimit;
 const sanitizeLog = (v: unknown): string =>
   String(v ?? '').replace(/[\r\n]+/g, ' ').slice(0, 500);
 
+/** Finite-number coercion: Number() passes Infinity through ||0, which then
+ * poisons discount math (1 - x/Inf = NaN). Clamp non-finite to the default. */
+const finiteOr = (v: number, dflt: number): number =>
+  Number.isFinite(v) ? v : dflt;
+
 // Rate limiter configuration per API
 const RATE_LIMITS = {
   epic: { requestsPerMinute: 30 },
@@ -162,8 +167,8 @@ async function fetchEpicGames(): Promise<EpicGame[]> {
       // element throw and abort the whole hourly fetch + deploy.
       const totalPrice = item?.price?.totalPrice;
       if (!totalPrice || typeof item?.title !== 'string') continue;
-      const originalPrice = (Number(totalPrice.originalPrice) || 0) / 100;
-      const discountPrice = (Number(totalPrice.discountPrice) || 0) / 100;
+      const originalPrice = finiteOr(Number(totalPrice.originalPrice), 0) / 100;
+      const discountPrice = finiteOr(Number(totalPrice.discountPrice), 0) / 100;
       const isDiscounted = discountPrice < originalPrice && discountPrice > 0;
       const discountPercent = originalPrice > 0 ? Math.round((1 - discountPrice / originalPrice) * 100) : 0;
       
@@ -226,7 +231,7 @@ async function fetchEpicGames(): Promise<EpicGame[]> {
           if (attrSlug) return attrSlug;
           return item.urlSlug || '';
         })();
-        const gameUrl = `https://store.epicgames.com/p/${slug}`;
+        const gameUrl = `https://store.epicgames.com/p/${encodeURIComponent(slug)}`;
         
         games.push({
           id: item.id,
@@ -305,7 +310,7 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
             discountPrice,
             discountPercent: item.discount_percent || 0,
             currency: item.currency || "UAH",
-            url: `https://store.steampowered.com/app/${id}`,
+            url: `https://store.steampowered.com/app/${encodeURIComponent(id)}`,
             isSpecial: isDiscounted,
             isFree,
             isPopular: false,
@@ -340,7 +345,9 @@ interface XboxAvailability {
 
 async function fetchXboxGameIds(sglId: string): Promise<string[]> {
   await rateLimiters.xbox.take();
-  const url = `https://catalog.gamepass.com/sigls/v2?id=${sglId}&market=UA&language=uk-UA`;
+  // sglId comes from env (owner-controlled) — encode so a stray & or space
+  // can never rewrite the query string.
+  const url = `https://catalog.gamepass.com/sigls/v2?id=${encodeURIComponent(sglId)}&market=UA&language=uk-UA`;
   const res = await fetchWithRetry(url);
   const data = (await res.json()) as { id?: string }[];
   return data
@@ -355,7 +362,9 @@ async function fetchXboxDetails(ids: string[]): Promise<XboxProduct[]> {
   for (let i = 0; i < ids.length; i += batchSize) {
     const batch = ids.slice(i, i + batchSize);
     await rateLimiters.xbox.take();
-    const url = `https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=${batch.join(',')}&market=UA&languages=uk-UA`;
+    // Product IDs come from the upstream catalog response — encode each so a
+    // hostile ID cannot break out of the bigIds parameter.
+    const url = `https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=${batch.map(encodeURIComponent).join(',')}&market=UA&languages=uk-UA`;
     const res = await fetchWithRetry(url);
     const data = (await res.json()) as XboxProductResponse;
     if (data.Products) {
@@ -445,7 +454,7 @@ async function fetchXboxGames(): Promise<{ games: XboxGame[]; allIds: string[]; 
         discountPrice: priceInfo.discountPrice,
         discountPercent: priceInfo.discountPercent,
         currency: priceInfo.currency,
-        url: `https://www.xbox.com/uk-ua/games/store/-/${id}`,
+        url: `https://www.xbox.com/uk-ua/games/store/-/${encodeURIComponent(id)}`,
         isGamePass: true,
         isNewToGamePass: newSet.has(id),
         isComingSoon: comingSet.has(id),
@@ -469,7 +478,7 @@ async function fetchXboxGames(): Promise<{ games: XboxGame[]; allIds: string[]; 
         discountPrice: priceInfo.discountPrice,
         discountPercent: priceInfo.discountPercent,
         currency: priceInfo.currency,
-        url: `https://www.xbox.com/uk-ua/games/store/-/${id}`,
+        url: `https://www.xbox.com/uk-ua/games/store/-/${encodeURIComponent(id)}`,
         isGamePass: true,
         isNewToGamePass: newSet.has(id),
         isComingSoon: comingSet.has(id),
@@ -495,7 +504,7 @@ async function sendTelegramMessage(text: string) {
   const logSafeUrl = 'https://api.telegram.org/bot[REDACTED]/sendMessage';
   
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 10000);
+  const timeout = setTimeout(() => controller.abort(), CONFIG.tgTimeoutMs);
   
   let response: Response;
   try {
@@ -513,7 +522,7 @@ async function sendTelegramMessage(text: string) {
   } catch (err) {
     clearTimeout(timeout);
     const message = err instanceof Error ? err.message : String(err);
-    const sanitized = message.replace(token, '[REDACTED]');
+    const sanitized = message.split(token).join('[REDACTED]');
     logger.error({ url: logSafeUrl, err: sanitized }, 'telegram api network error');
     throw new Error(`Telegram send failed: ${sanitized}`, { cause: err });
   } finally {
@@ -568,14 +577,25 @@ async function run() {
     }
   }
   
-  // Load notified history from separate file (append-only, merge-friendly)
+  // Load notified history from separate file (append-only, merge-friendly).
+  // Coerced entry-by-entry like deals.json: a malformed value (null, array,
+  // bad timestamp) is dropped instead of crashing the run later.
   let notifiedHistory: Record<string, NotifiedItem> = {};
+  const coerceHistory = (parsed: unknown): Record<string, NotifiedItem> => {
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {};
+    const out: Record<string, NotifiedItem> = {};
+    for (const [k, v] of Object.entries(parsed as Record<string, unknown>)) {
+      if (!v || typeof v !== 'object' || Array.isArray(v)) continue;
+      const item = v as Record<string, unknown>;
+      if (typeof item.timestamp !== 'string' || Number.isNaN(new Date(item.timestamp).getTime())) continue;
+      if (typeof item.type !== 'string' || typeof item.title !== 'string') continue;
+      out[k] = item as unknown as NotifiedItem;
+    }
+    return out;
+  };
   if (fs.existsSync(HISTORY_PATH)) {
     try {
-      const parsed = JSON.parse(fs.readFileSync(HISTORY_PATH, 'utf-8'));
-      if (parsed && typeof parsed === 'object') {
-        notifiedHistory = parsed as Record<string, NotifiedItem>;
-      }
+      notifiedHistory = coerceHistory(JSON.parse(fs.readFileSync(HISTORY_PATH, 'utf-8')));
       logger.info("Loaded notified history from local path.");
     } catch (err) {
       logger.error({ err: err instanceof Error ? err.message : String(err) }, 'failed to parse notified-history.json');
@@ -586,7 +606,7 @@ async function run() {
       logger.info(`Trying to fetch notified history from GitHub Pages: ${githubPagesHistoryUrl}`);
       const res = await fetch(githubPagesHistoryUrl);
       if (res.ok) {
-        notifiedHistory = (await res.json()) as Record<string, NotifiedItem>;
+        notifiedHistory = coerceHistory(await res.json());
         logger.info("✅ Loaded notified history from GitHub Pages.");
       }
     } catch {
