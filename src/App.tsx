@@ -1,7 +1,7 @@
 import { lazy, useState, type FunctionComponent, Suspense, Fragment } from 'react';
 import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import { Clock, RefreshCw, AlertCircle, History } from 'lucide-react';
-import type { FilterType, SortType, EpicGame, SteamGame, XboxGame } from './types';
+import type { FilterType, SortType, EpicGame, SteamGame } from './types';
 import { ErrorBoundaryWithLocale } from './components/ErrorBoundaryWithLocale';
 import { TelegramBanner } from './components/TelegramBanner';
 import { SearchControls } from './components/SearchControls';
@@ -17,7 +17,7 @@ import { formatLastUpdated, formatLastUpdatedEn, interp } from './utils';
 import { Skeleton } from './components/Skeleton';
 
 type SectionProps = {
-  games: EpicGame[] | SteamGame[] | XboxGame[];
+  games: EpicGame[] | SteamGame[];
   activeFilter: FilterType;
   searchQuery: string;
   sortType: SortType;
@@ -28,9 +28,6 @@ const EpicSection = lazy(() =>
 );
 const SteamSection = lazy(() =>
   import('./components/SteamSection').then((m) => ({ default: m.SteamSection as FunctionComponent<SectionProps> })),
-);
-const XboxSection = lazy(() =>
-  import('./components/XboxSection').then((m) => ({ default: m.XboxSection as FunctionComponent<SectionProps> })),
 );
 const HistoryPageLazy = lazy(() =>
   import('./components/HistoryPage').then((m) => ({ default: m.HistoryPage })),
@@ -55,10 +52,7 @@ function HomePage() {
     filterCounts,
     priceFilteredEpic,
     priceFilteredSteam,
-    priceFilteredXbox,
   } = useGameFilters(data, wishlist, searchQuery);
-
-  const isXboxFilter = activeFilter === 'xbox_new';
 
   const formatUpdate = locale === 'en' ? formatLastUpdatedEn : formatLastUpdated;
   const historyAria = locale === 'en' ? 'Notification history' : 'Історія сповіщень';
@@ -107,13 +101,13 @@ function HomePage() {
         onSortChange={setSortType}
       />
 
-      {(activeFilter === 'all' || activeFilter === 'wishlist' || activeFilter === 'epic_discount' || activeFilter === 'steam_specials' || isXboxFilter) && (
+      {(activeFilter === 'all' || activeFilter === 'wishlist' || activeFilter === 'epic_discount' || activeFilter === 'steam_specials') && (
         <PriceRangeFilter
           minPrice={absoluteMinPrice}
           maxPrice={absoluteMaxPrice}
           range={priceRange}
           onChange={setUserPriceRange}
-          currency={data?.epic[0]?.currency || data?.steam[0]?.currency || data?.xbox[0]?.currency || 'UAH'}
+          currency={data?.epic[0]?.currency || data?.steam[0]?.currency || 'UAH'}
         />
       )}
 
@@ -151,18 +145,9 @@ function HomePage() {
                 searchQuery={debouncedSearch}
                 sortType={sortType}
               />
-              <hr className="platform-separator" />
-              <XboxSection
-                games={priceFilteredXbox}
-                activeFilter={activeFilter}
-                searchQuery={debouncedSearch}
-                sortType={sortType}
-              />
-
               {activeFilter === 'all' &&
                 priceFilteredEpic.length === 0 &&
                 priceFilteredSteam.length === 0 &&
-                priceFilteredXbox.length === 0 &&
                 !debouncedSearch && (
                   <div className="empty-state section-gap-top">
                     <h3>{t.app.noDeals}</h3>
@@ -172,8 +157,7 @@ function HomePage() {
 
               {activeFilter === 'wishlist' &&
                 priceFilteredEpic.length === 0 &&
-                priceFilteredSteam.length === 0 &&
-                priceFilteredXbox.length === 0 && (
+                priceFilteredSteam.length === 0 && (
                   <div className="empty-state section-gap-top">
                     <h3>{isPriceFiltered ? t.app.wishlistEmptyPrice : t.app.wishlistEmpty}</h3>
                     <p>{isPriceFiltered ? t.app.wishlistEmptyPriceDesc : t.app.wishlistEmptyDesc}</p>

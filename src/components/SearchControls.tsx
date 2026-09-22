@@ -50,23 +50,17 @@ export function SearchControls({
       ],
     },
     {
-      label: 'Epic Games',
+      label: t.filters.groupEpic,
       items: [
         { filterKey: 'epic_free', label: t.filters.epicFree },
         { filterKey: 'epic_discount', label: t.filters.epicDiscount },
       ],
     },
     {
-      label: 'Steam',
+      label: t.filters.groupSteam,
       items: [
         { filterKey: 'steam_free', label: t.filters.steamFree },
         { filterKey: 'steam_specials', label: t.filters.steamSpecials },
-      ],
-    },
-    {
-      label: 'Xbox Game Pass (PC)',
-      items: [
-        { filterKey: 'xbox_new', label: t.filters.xboxNew },
       ],
     },
   ];

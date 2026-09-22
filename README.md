@@ -12,7 +12,7 @@
 
 # 🎮 Game Sales Aggregator
 
-**Персональний радар знижок та безкоштовних ігор** — автоматично збирає актуальні пропозиції з **Steam**, **Epic Games Store** та **Xbox Game Pass (PC)** і публікує їх на сайті та у Telegram-каналі.
+**Персональний радар знижок та безкоштовних ігор** — автоматично збирає актуальні пропозиції з **Steam** та **Epic Games Store** і публікує їх на сайті та у Telegram-каналі.
 
 [![Website](https://img.shields.io/badge/website-dist%2Fsales-2563eb)](https://ajjs1ajjs.github.io/dist/sales/)
 [![Telegram](https://img.shields.io/badge/Telegram-@salesgamesua-2CA5E0?logo=telegram)](https://t.me/salesgamesua)
@@ -37,14 +37,13 @@
 | **Epic Games** | Знижки | Акційні пропозиції в Epic Games Store |
 | **Steam** | Безкоштовні пропозиції | Ігри, які тимчасово можна отримати безкоштовно |
 | **Steam** | Гарячі знижки | Акційні пропозиції від 5% |
-| **Xbox Game Pass PC** | Нові надходження | Ігри, щойно додані до PC Game Pass |
 
 ## ✨ Можливості сайту
 
 | | |
 |---|---|
 | 🔍 **Пошук** | за назвою гри, з debounce 300 мс |
-| 🗂️ **Фільтрація** | за категоріями (Epic/Steam, безкоштовні/знижки, нові ігри Game Pass) |
+| 🗂️ **Фільтрація** | за категоріями (Epic/Steam, безкоштовні/знижки) |
 | ↕️ **Сортування** | за ціною, відсотком знижки або назвою |
 | 💰 **Фільтр ціни** | вибір діапазону цін |
 | ⭐ **Список бажань** | обрані ігри, зберігаються в localStorage |
@@ -64,7 +63,7 @@
 GitHub Actions запускає скрипт
         │
         ▼
-Збираються дані з API Steam, Epic Games та Xbox Game Pass
+Збираються дані з API Steam та Epic Games
         │
         ├──▶ Оновлюється deals.json у репозиторії
         │
@@ -139,7 +138,7 @@ Sales/
 │   ├── fetch-deals.ts                # збір даних з API
 │   └── generate-sitemap.ts           # генерація sitemap.xml
 ├── src/
-│   ├── components/                   # GameCard, Epic/Steam/XboxSection та ін.
+│   ├── components/                   # GameCard, Epic/SteamSection та ін.
 │   ├── contexts/                     # LocaleContext, WishlistContext
 │   ├── hooks/                        # useDebounce, useInstallPWA, useLocalStorage
 │   ├── locales/                      # uk.ts, en.ts
@@ -155,8 +154,6 @@ Sales/
 - Безкоштовні ігри від Epic Games
 - Знижки в Epic Games Store
 - Гарячі знижки у Steam (від 5%)
-- Нові ігри в PC Game Pass
-- Очікувані додавання до Game Pass
 
 ---
 

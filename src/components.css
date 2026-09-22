@@ -185,7 +185,7 @@
 }
 
 .section-title--toggle:focus-visible {
-  outline: 2px solid var(--accent-xbox);
+  outline: 2px solid var(--accent-epic);
   outline-offset: 4px;
   border-radius: 8px;
 }
@@ -395,11 +395,6 @@
 .platform-badge.epic {
   color: var(--accent-epic);
   border-color: rgba(192, 132, 252, 0.25);
-}
-
-.platform-badge.xbox {
-  color: var(--accent-xbox);
-  border-color: rgba(16, 124, 16, 0.25);
 }
 
 .deal-badge {
@@ -793,10 +788,6 @@ footer a:hover {
 
 .icon-steam {
   color: var(--accent-steam);
-}
-
-.icon-xbox {
-  color: var(--accent-xbox);
 }
 
 .icon-muted {

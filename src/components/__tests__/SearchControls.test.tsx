@@ -30,7 +30,6 @@ describe('SearchControls', () => {
     expect(screen.getByText('Epic Знижки')).toBeInTheDocument();
     expect(screen.getByText('Steam Безкоштовно')).toBeInTheDocument();
     expect(screen.getByText('Steam Знижки')).toBeInTheDocument();
-    expect(screen.getByText('Нові Game Pass')).toBeInTheDocument();
     expect(screen.getByText('Обране')).toBeInTheDocument();
   });
 
@@ -65,7 +64,6 @@ describe('SearchControls', () => {
       epic_discount: 5,
       steam_free: 1,
       steam_specials: 6,
-      xbox_new: 0,
       wishlist: 1,
     };
     render(<SearchControls {...defaultProps} filterCounts={filterCounts} />, { wrapper: Wrapper });

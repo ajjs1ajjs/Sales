@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import type { DealsData, EpicGame, FilterType, SortType, SteamGame, XboxGame } from '../types';
+import type { DealsData, EpicGame, FilterType, SortType, SteamGame } from '../types';
 import { useDebounce } from './useDebounce';
 import { useLocalStorage } from './useLocalStorage';
 
@@ -21,7 +21,6 @@ export interface GameFilters {
   filterCounts: Record<FilterType, number>;
   priceFilteredEpic: EpicGame[];
   priceFilteredSteam: SteamGame[];
-  priceFilteredXbox: XboxGame[];
 }
 
 export function useGameFilters(data: DealsData | null, wishlist: string[], searchQuery: string): GameFilters {
@@ -31,8 +30,6 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
   const debouncedSearch = useDebounce(searchQuery, 300);
 
   const wishlistSet = useMemo(() => new Set(wishlist), [wishlist]);
-
-  const isXboxFilter = activeFilter === 'xbox_new';
 
   const { absoluteMinPrice, absoluteMaxPrice } = useMemo(() => {
     if (!data) return { absoluteMinPrice: 0, absoluteMaxPrice: 10000 };
@@ -46,12 +43,6 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
     }
 
     for (const g of data.steam) {
-      const price = g.discountPrice;
-      if (price < min) min = price;
-      if (price > max) max = price;
-    }
-
-    for (const g of data.xbox) {
       const price = g.discountPrice;
       if (price < min) min = price;
       if (price > max) max = price;
@@ -85,18 +76,12 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
     ) || [];
   }, [data, debouncedSearch]);
 
-  const xboxMatchingSearch = useMemo(() => {
-    return data?.xbox.filter((game) =>
-      game.title.toLowerCase().includes(debouncedSearch.toLowerCase()),
-    ) || [];
-  }, [data, debouncedSearch]);
-
   const filterCounts = useMemo(() => {
     const inPriceRange = (price: number) => price >= priceRange[0] && price <= priceRange[1];
     const counts: Record<FilterType, number> = {
       all: 0, epic_free: 0, epic_discount: 0,
       steam_free: 0, steam_specials: 0,
-      xbox_new: 0, wishlist: 0,
+      wishlist: 0,
     };
 
     for (const g of epicMatchingSearch) {
@@ -121,49 +106,28 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
       if (wishlistSet.has(g.id)) counts.wishlist++;
     }
 
-    for (const g of xboxMatchingSearch) {
-      const price = g.discountPrice;
-      if (!inPriceRange(price)) continue;
-      if (wishlistSet.has(g.id)) counts.wishlist++;
-      if (g.isNewToGamePass) {
-        counts.all++;
-        counts.xbox_new++;
-      }
-    }
-
     return counts;
-  }, [epicMatchingSearch, steamMatchingSearch, xboxMatchingSearch, wishlistSet, priceRange]);
+  }, [epicMatchingSearch, steamMatchingSearch, wishlistSet, priceRange]);
 
   const filteredEpic = useMemo(() => {
     return epicMatchingSearch.filter((game) => {
-      if (isXboxFilter) return false;
       if (activeFilter === 'wishlist') return wishlistSet.has(game.id);
       if (activeFilter === 'epic_free') return game.isFreeNow || game.isUpcomingFree;
       if (activeFilter === 'epic_discount') return game.isDiscounted;
       if (activeFilter === 'all') return true;
       return false;
     });
-  }, [epicMatchingSearch, activeFilter, wishlistSet, isXboxFilter]);
+  }, [epicMatchingSearch, activeFilter, wishlistSet]);
 
   const filteredSteam = useMemo(() => {
     return steamMatchingSearch.filter((game) => {
-      if (isXboxFilter) return false;
       if (activeFilter === 'wishlist') return wishlistSet.has(game.id);
       if (activeFilter === 'steam_free') return game.isFree;
       if (activeFilter === 'steam_specials') return game.isSpecial;
       if (activeFilter === 'all') return true;
       return false;
     });
-  }, [steamMatchingSearch, activeFilter, wishlistSet, isXboxFilter]);
-
-  const filteredXbox = useMemo(() => {
-    return xboxMatchingSearch.filter((game) => {
-      if (activeFilter === 'wishlist') return wishlistSet.has(game.id);
-      if (activeFilter === 'xbox_new') return game.isNewToGamePass;
-      if (activeFilter === 'all') return true;
-      return false;
-    });
-  }, [xboxMatchingSearch, activeFilter, wishlistSet]);
+  }, [steamMatchingSearch, activeFilter, wishlistSet]);
 
   const priceFilteredEpic = useMemo(() => {
     return filteredEpic.filter((game) => {
@@ -179,13 +143,6 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
     });
   }, [filteredSteam, priceRange]);
 
-  const priceFilteredXbox = useMemo(() => {
-    return filteredXbox.filter((game) => {
-      const price = game.discountPrice;
-      return price >= priceRange[0] && price <= priceRange[1];
-    });
-  }, [filteredXbox, priceRange]);
-
   return {
     activeFilter,
     setActiveFilter,
@@ -200,6 +157,5 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
     filterCounts,
     priceFilteredEpic,
     priceFilteredSteam,
-    priceFilteredXbox,
   };
 }

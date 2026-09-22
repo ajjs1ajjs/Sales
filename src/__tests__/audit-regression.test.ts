@@ -48,16 +48,6 @@ describe('SEC-001 regression: rate limiter', () => {
   });
 });
 
-describe('BUG-003 regression: xbox all-filter shows every game', () => {
-  it('documents expected predicate (all => true)', () => {
-    const predicate = (activeFilter: string) => {
-      if (activeFilter === 'all') return true;
-      return false;
-    };
-    expect(predicate('all')).toBe(true);
-  });
-});
-
 describe('audit round 2: history type allowlist', () => {
   it('accepts known types and falls back for unknown', async () => {
     const { safeHistoryType } = await import('../utils');

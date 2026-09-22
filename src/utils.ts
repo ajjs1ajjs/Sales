@@ -1,20 +1,16 @@
-import type { EpicGame, SteamGame, XboxGame, SortType } from './types';
+import type { EpicGame, SteamGame, SortType } from './types';
 
-export type Game = EpicGame | SteamGame | XboxGame;
+export type Game = EpicGame | SteamGame;
 
 export function isEpicGame(game: Game): game is EpicGame {
   return 'isFreeNow' in game && 'isUpcomingFree' in game;
-}
-
-export function isXboxGame(game: Game): game is XboxGame {
-  return 'isGamePass' in game;
 }
 
 export { formatPrice, formatDate } from './shared/format';
 
 // Allowlist for history item types before class-name interpolation: a
 // compromised deals.json must not inject arbitrary class strings.
-const HISTORY_TYPES: ReadonlySet<string> = new Set(['free', 'discount', 'popular', 'xbox_new']);
+const HISTORY_TYPES: ReadonlySet<string> = new Set(['free', 'discount', 'popular']);
 export function safeHistoryType(t: string): string {
   return HISTORY_TYPES.has(t) ? t : 'free';
 }
@@ -105,7 +101,7 @@ export function interp(template: string): { text: string; key: string | null }[]
   return parts;
 }
 
-export function sortGames<T extends EpicGame | SteamGame | XboxGame>(games: T[], sortType: SortType): T[] {
+export function sortGames<T extends EpicGame | SteamGame>(games: T[], sortType: SortType): T[] {
   switch (sortType) {
     case 'name-asc':
       return games.toSorted((a, b) => a.title.localeCompare(b.title));
