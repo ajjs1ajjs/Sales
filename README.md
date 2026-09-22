@@ -2,14 +2,11 @@
 
 # Game Sales Aggregator — Source Code
 
-[![Deployed to](https://img.shields.io/badge/Deployed_to-Sales-blue)](https://github.com/ajjs1ajjs/Sales)
-[![Website](https://img.shields.io/badge/Website-ajjs1ajjs.github.io%2FSales-green)](https://ajjs1ajjs.github.io/Sales/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![CI](https://img.shields.io/github/actions/workflow/status/ajjs1ajjs/Sales/scheduler.yml?label=CI)](https://github.com/ajjs1ajjs/Sales/actions/workflows/scheduler.yml)
+[![Website](https://img.shields.io/badge/website-dist%2Fsales-2563eb)](https://ajjs1ajjs.github.io/dist/sales/)
 
-> **Це репозиторій з вихідним кодом Sales gaming deals tracker.**
-> Готовий продукт деплоїться в: **https://github.com/ajjs1ajjs/Sales**
-> Офіційний сайт: **https://ajjs1ajjs.github.io/Sales/**
+> **Це приватний репозиторій з вихідним кодом Sales gaming deals tracker.**
+> Готовий сайт хоститься з публічного репозиторію артефактів:
+> **https://ajjs1ajjs.github.io/dist/sales/**
 
 <img src="docs/banner.svg" width="100%" alt="Game Sales Aggregator">
 
@@ -17,12 +14,10 @@
 
 **Персональний радар знижок та безкоштовних ігор** — автоматично збирає актуальні пропозиції з **Steam**, **Epic Games Store** та **Xbox Game Pass (PC)** і публікує їх на сайті та у Telegram-каналі.
 
-[![Website](https://img.shields.io/badge/website-GitHub%20Pages-2563eb)](https://ajjs1ajjs.github.io/Sales/)
+[![Website](https://img.shields.io/badge/website-dist%2Fsales-2563eb)](https://ajjs1ajjs.github.io/dist/sales/)
 [![Telegram](https://img.shields.io/badge/Telegram-@salesgamesua-2CA5E0?logo=telegram)](https://t.me/salesgamesua)
-[![Version](https://img.shields.io/badge/version-v1.1.0-c084fc)](https://github.com/ajjs1ajjs/Sales/releases)
-[![CI](https://img.shields.io/github/actions/workflow/status/ajjs1ajjs/Sales/scheduler.yml?label=CI)](https://github.com/ajjs1ajjs/Sales/actions/workflows/scheduler.yml)
 
-[**🌐 Live Site**](https://ajjs1ajjs.github.io/Sales/) · [Releases](https://github.com/ajjs1ajjs/Sales/releases) · [Actions](https://github.com/ajjs1ajjs/Sales/actions)
+[**🌐 Live Site**](https://ajjs1ajjs.github.io/dist/sales/)
 
 </div>
 ---

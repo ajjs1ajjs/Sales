@@ -17,25 +17,25 @@ export default defineConfig({
         name: 'Game Sales Aggregator',
         short_name: 'Game Sales',
         description: 'Агрегатор знижок та безкоштовних ігор у Steam та Epic Games Store',
-        start_url: '/Sales/',
+        start_url: '/dist/sales/',
         display: 'standalone',
         background_color: '#0a0712',
         theme_color: '#c084fc',
         icons: [
           {
-            src: '/Sales/favicon.svg',
+            src: '/dist/sales/favicon.svg',
             sizes: 'any',
             type: 'image/svg+xml',
             purpose: 'any',
           },
           {
-            src: '/Sales/icons/icon-192.png',
+            src: '/dist/sales/icons/icon-192.png',
             sizes: '192x192',
             type: 'image/png',
             purpose: 'any maskable',
           },
           {
-            src: '/Sales/icons/icon-512.png',
+            src: '/dist/sales/icons/icon-512.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any maskable',
@@ -46,7 +46,7 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/Sales/',
+  base: '/dist/sales/',
   build: {
     sourcemap: false,
     chunkSizeWarningLimit: 600,
