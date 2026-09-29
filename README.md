@@ -62,13 +62,15 @@
         │
         ▼
 Цей репозиторій (вихідний код, приватний):
-        push у main → CI (lint, тести, build) → Release
+        push у main / щодня за розкладом → Release (lint, тести, build)
         │
         └──▶ Збірка PWA → ajjs1ajjs/dist/sales (GitHub Pages)
 ```
 
 > Збірка й деплой виконуються у GitHub Actions цього репозиторію
-> (`.github/workflows/release.yml`). Актуальні дані про знижки
+> (`.github/workflows/release.yml`): на кожен push у `main`, щодня за
+> розкладом (`05:17 UTC`) та вручну. Якщо збірка ідентична опублікованій,
+> версія не підвищується й тег не створюється. Актуальні дані про знижки
 > (`sales/data/deals.json`) оновлює scheduler у публічному репо `ajjs1ajjs/dist`,
 > тому сайт завжди показує свіжі пропозиції без перезбірки застосунку.
 

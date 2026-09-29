@@ -1,10 +1,16 @@
 name: Release
 
-# One-click release: computes the next `sales-v<semver>` tag automatically (from the
-# latest release already published in the shared ajjs1ajjs/dist repo), bumps the
-# version in package.json, builds the PWA and publishes it to the public
-# ajjs1ajjs/dist repo at /sales (GitHub Pages), then commits the version bump back.
-# Runs automatically on every push to main (or manually from the Actions tab).
+# Builds the PWA and publishes it to the public ajjs1ajjs/dist repo at /sales
+# (GitHub Pages). Runs on every push to main (real code changes), on a daily
+# schedule, and manually from the Actions tab.
+#
+# The source code lives in this PRIVATE repo; the site + deals data are public
+# in ajjs1ajjs/dist. Deals data (sales/data/) is owned by dist's
+# sales-scheduler.yml, so it is preserved here — only the app shell is replaced.
+#
+# If a run finds no site changes (e.g. a scheduled rebuild with unchanged code)
+# it publishes nothing and cuts no tag; only real changes bump the version and
+# create a `sales-v<semver>` release in the dist repo.
 
 on:
   push:
@@ -13,6 +19,10 @@ on:
       - '**/*.md'
       - 'docs/**'
       - 'public/data/**'
+  schedule:
+    # Daily rebuild/rescue run at 05:17 UTC (~08:17 Kyiv). The first tick after
+    # the Actions billing/limit reset on Oct 1 republishes the current build.
+    - cron: '17 5 * * *'
   workflow_dispatch:
     inputs:
       bump:
@@ -70,14 +80,6 @@ jobs:
           echo "tag=${PREFIX}${NEXT}" >> "$GITHUB_OUTPUT"
           echo "Releasing ${PREFIX}${NEXT}"
 
-      - name: Bump version in source
-        env:
-          NEXT: ${{ steps.ver.outputs.version }}
-        run: |
-          set -euo pipefail
-          node -e "const fs=require('fs');const p='package.json';const j=JSON.parse(fs.readFileSync(p,'utf8'));j.version=process.env.NEXT;fs.writeFileSync(p,JSON.stringify(j,null,2)+'\n');"
-          node -p "require('./package.json').version"
-
       - name: Install dependencies
         run: npm ci
 
@@ -93,10 +95,10 @@ jobs:
       - name: Build
         run: npm run build
 
-      # The site is served from the public dist repo at /sales (GitHub Pages).
-      # Deals data (sales/data/) is owned by dist's sales-scheduler.yml, so it is
-      # preserved — only the app shell/assets are replaced.
-      - name: Publish site + release tag to ajjs1ajjs/dist
+      # Compare the fresh build with what is live; skip bumping/tagging when
+      # nothing changed so scheduled rebuilds stay idempotent.
+      - name: Publish site to ajjs1ajjs/dist
+        id: publish
         env:
           GH_TOKEN: ${{ secrets.PUBLIC_RELEASE_TOKEN }}
           DIST_REPO: ajjs1ajjs/dist
@@ -107,30 +109,46 @@ jobs:
           tmp="$RUNNER_TEMP/dist-sales"
           git clone "https://x-access-token:${GH_TOKEN}@github.com/${DIST_REPO}.git" "$tmp" --depth 1
           mkdir -p "$tmp/sales"
+          # Deals data (sales/data/) is owned by dist's scheduler — preserve it.
           rsync -a --delete --exclude 'data/' --exclude '.nojekyll' dist/ "$tmp/sales/"
           cd "$tmp"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A sales
           if git diff --cached --quiet; then
-            echo "No site changes to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No site changes to publish."
           else
             git commit -m "chore(sales): publish site build ($TAG)"
             git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Published $TAG build."
           fi
-          # Tag the release so the shared dist history stays traceable.
+
+      # Cut a release tag + bump the source version only when something shipped.
+      - name: Create release tag
+        if: steps.publish.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.PUBLIC_RELEASE_TOKEN }}
+          DIST_REPO: ajjs1ajjs/dist
+          TAG: ${{ steps.ver.outputs.tag }}
+        run: |
+          set -euo pipefail
           if gh release view "$TAG" --repo "$DIST_REPO" >/dev/null 2>&1; then
             echo "Release $TAG already exists."
           else
             gh release create "$TAG" --repo "$DIST_REPO" --title "Game Sales $TAG" --generate-notes
           fi
 
-      - name: Commit version bump
+      - name: Bump version in source
+        if: steps.publish.outputs.changed == 'true'
         continue-on-error: true
         env:
+          NEXT: ${{ steps.ver.outputs.version }}
           TAG: ${{ steps.ver.outputs.tag }}
         run: |
           set -euo pipefail
+          node -e "const fs=require('fs');const p='package.json';const j=JSON.parse(fs.readFileSync(p,'utf8'));j.version=process.env.NEXT;fs.writeFileSync(p,JSON.stringify(j,null,2)+'\n');"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add package.json
