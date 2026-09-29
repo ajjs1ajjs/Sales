@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Sun, Moon } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
 import { useLocalStorage } from '../hooks/useLocalStorage';
@@ -10,10 +11,14 @@ export function ThemeToggle() {
   const { t } = useLocale();
   const [theme, setTheme] = useLocalStorage<Theme>('theme', 'dark', isValidTheme);
 
+  // Keep the DOM attribute in sync with the stored theme: applies the persisted
+  // value on mount/reload and mirrors cross-tab `storage` updates.
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+  }, [theme]);
+
   const toggleTheme = () => {
-    const next = theme === 'dark' ? 'light' : 'dark';
-    setTheme(next);
-    document.documentElement.setAttribute('data-theme', next);
+    setTheme(theme === 'dark' ? 'light' : 'dark');
   };
 
   return (

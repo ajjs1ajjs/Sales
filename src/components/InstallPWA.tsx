@@ -9,7 +9,7 @@ export function InstallPWA() {
   if (!isInstallable) return null;
 
   return (
-    <div className="install-banner" role="alert" aria-live="polite">
+    <div className="install-banner" role="status">
       <div className="install-banner-content">
         <Download size={20} aria-hidden="true" />
         <span>{t.pwa.installText}</span>

@@ -46,6 +46,27 @@ describe('PriceRangeFilter', () => {
     expect(onChange).toHaveBeenCalledWith([0, 500]);
   });
 
+  it('accepts decimal prices without corrupting the input', () => {
+    const onChange = vi.fn();
+    render(<PriceRangeFilter {...defaultProps} onChange={onChange} />, { wrapper: Wrapper });
+    fireEvent.click(screen.getByText('Фільтр за ціною'));
+    const minInput = screen.getByDisplayValue('0');
+    fireEvent.change(minInput, { target: { value: '46.75' } });
+    expect(onChange).toHaveBeenCalledWith([46.75, 1000]);
+
+    // A trailing separator must stay as typed while editing.
+    fireEvent.change(minInput, { target: { value: '46.' } });
+    expect(screen.getByDisplayValue('46.')).toBeInTheDocument();
+  });
+
+  it('accepts comma as the decimal separator', () => {
+    const onChange = vi.fn();
+    render(<PriceRangeFilter {...defaultProps} onChange={onChange} />, { wrapper: Wrapper });
+    fireEvent.click(screen.getByText('Фільтр за ціною'));
+    fireEvent.change(screen.getByDisplayValue('0'), { target: { value: '12,5' } });
+    expect(onChange).toHaveBeenCalledWith([12.5, 1000]);
+  });
+
   it('resets values on reset click', () => {
     const onChange = vi.fn();
     render(<PriceRangeFilter {...defaultProps} range={[100, 500]} onChange={onChange} />, { wrapper: Wrapper });

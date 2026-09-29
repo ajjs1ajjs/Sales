@@ -9,7 +9,7 @@ export function TelegramBanner() {
   if (isDismissed) return null;
 
   return (
-    <section className="telegram-banner" aria-label="Telegram канал">
+    <section className="telegram-banner" aria-label={t.telegram.title}>
       <div className="tg-info">
         <h3>
           <Send size={22} className="text-telegram" aria-hidden="true" />

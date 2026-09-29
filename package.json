@@ -3,7 +3,6 @@
   "private": true,
   "version": "1.5.0",
   "type": "module",
-  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "npm run sitemap && tsc -b && vite build",

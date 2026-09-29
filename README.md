@@ -57,22 +57,20 @@
 ## ⚙️ Як це працює
 
 ```
-Кожну годину (24/7)
+Дані (щогодини, у публічному репо ajjs1ajjs/dist):
+        scheduler → API Steam/Epic → sales/data/deals.json + Telegram
         │
         ▼
-GitHub Actions запускає скрипт
+Цей репозиторій (вихідний код, приватний):
+        push у main → CI (lint, тести, build) → Release
         │
-        ▼
-Збираються дані з API Steam та Epic Games
-        │
-        ├──▶ Оновлюється deals.json у репозиторії
-        │
-        ├──▶ Генерується sitemap.xml
-        │
-        ├──▶ Будується React-додаток → GitHub Pages (сайт)
-        │
-        └──▶ Нові знижки/роздачі/додавання → Telegram-канал
+        └──▶ Збірка PWA → ajjs1ajjs/dist/sales (GitHub Pages)
 ```
+
+> Збірка й деплой виконуються у GitHub Actions цього репозиторію
+> (`.github/workflows/release.yml`). Актуальні дані про знижки
+> (`sales/data/deals.json`) оновлює scheduler у публічному репо `ajjs1ajjs/dist`,
+> тому сайт завжди показує свіжі пропозиції без перезбірки застосунку.
 
 ## 🚀 Локальний запуск
 
@@ -106,10 +104,11 @@ npm test        # тести
 
 Для повноцінної роботи додайте **секрети** у `Settings → Secrets and variables → Actions`:
 
-| Секрет | Опис |
-|--------|------|
-| `TELEGRAM_BOT_TOKEN` | Токен бота від @BotFather |
-| `TELEGRAM_CHAT_ID` | ID вашого Telegram-каналу |
+| Секрет | Обов'язковий | Опис |
+|--------|--------------|------|
+| `PUBLIC_RELEASE_TOKEN` | так (деплой) | Personal Access Token з правом `repo` на публічний репозиторій `ajjs1ajjs/dist` — потрібен `release.yml` для публікації збірки й реліз-тегів |
+| `TELEGRAM_BOT_TOKEN` | ні (дані/сповіщення) | Токен бота від @BotFather — використовується scheduler-ом для сповіщень |
+| `TELEGRAM_CHAT_ID` | ні (дані/сповіщення) | ID вашого Telegram-каналу |
 
 **Отримання Chat ID каналу:**
 1. Додайте бота як адміністратора каналу
@@ -132,7 +131,8 @@ npm test        # тести
 
 ```
 Sales/
-├── .github/workflows/scheduler.yml   # запуск щогодини
+├── .github/workflows/ci.yml          # build + лінт + тести
+├── .github/workflows/release.yml     # збірка сайту → ajjs1ajjs/dist/sales
 ├── public/data/deals.json            # актуальні дані про знижки
 ├── scripts/
 │   ├── fetch-deals.ts                # збір даних з API

@@ -145,6 +145,7 @@
 
 /* Sections */
 .section-title {
+  position: relative;
   font-family: var(--font-heading);
   font-size: 1.8rem;
   font-weight: 700;
@@ -188,6 +189,26 @@
   outline: 2px solid var(--accent-epic);
   outline-offset: 4px;
   border-radius: 8px;
+}
+
+/* Full-size invisible button so the heading keeps its semantics while the
+   whole title row stays clickable/keyboard-operable. */
+.section-toggle-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.section-toggle-overlay:focus-visible {
+  outline: 2px solid var(--accent-epic);
+  outline-offset: 4px;
 }
 
 .section-chevron {

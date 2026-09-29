@@ -1,5 +1,31 @@
 # Changelog
 
+## [Unreleased]
+
+### Виправлено
+
+- **Тема**: збережена тема застосовується при завантаженні сторінки та при синхронізації між вкладками (`ThemeToggle`).
+- **Фільтр ціни**: підтримка десяткових цін (напр. 46.75), ввід більше не спотворюється клемом на кожен keystroke; додано `aria-expanded`/`aria-controls`.
+- **Обране**: безпечна підстановка назви гри в `aria-label` (без `$&`-патернів) + `aria-pressed`.
+- **Доступність**: заголовки секцій зберегли роль `heading`; виправлено конфлікт `role="alert"` / `aria-live`; локалізовано `aria-label` Telegram-банера.
+- **fetch-deals**: fallback-дані тягнуться з актуального `/dist/sales/data/...` (раніше — мертвий `/Sales/...`, HTTP 404).
+- **CI/Release**: `npm audit --audit-level=high` більше не валить збірку (оновлено lockfile); прибрано дублювання запусків на push до `main` та на md-only змінах (економія Actions-хвилин); аудит додано в release-пайплайн.
+
+### Видалено
+
+- **Підтримка Windows та Debian**: видалено `scripts/install.ps1` (Windows-інсталятор) та секцію Windows з README. Тепер встановлення/розгортання підтримується лише на **Ubuntu** через `scripts/install.sh` (curl one-liner).
+- Всі згадки про Windows, PowerShell, Debian та інші ОС прибрані з документації та інструкцій.
+
+### Змінено
+
+- `package.json`: прибрано застаріле поле `"license": "MIT"` (файл `LICENSE` видалено, репозиторій приватний).
+- README: задокументовано секрет `PUBLIC_RELEASE_TOKEN`, оновлено схему збірки/деплою (дані — у публічному `dist`, збірка — у цьому репо).
+- `scripts/install.sh`: суворо перевіряє Ubuntu (видалено підтримку Debian), оновлено повідомлення про помилки.
+
+### Тести
+
+- Додано регресійні набори `ThemeToggle`, `CollapsibleSection` та кейси десяткових цін у `PriceRangeFilter` (56/56).
+
 ## [1.5.0] - 2026-09-15
 
 ### Fixed (leftover findings)
@@ -22,17 +48,6 @@
 ### Tests
 
 - 3 new regression suites (allowlist, finiteOr, coercion). `npm test` 50/50, `eslint` clean, `vite build` ok.
-
-## [Unreleased]
-
-### Видалено
-
-- **Підтримка Windows та Debian**: видалено `scripts/install.ps1` (Windows-інсталятор) та секцію Windows з README. Тепер встановлення/розгортання підтримується лише на **Ubuntu** через `scripts/install.sh` (curl one-liner).
-- Всі згадки про Windows, PowerShell, Debian та інші ОС прибрані з документації та інструкцій.
-
-### Змінено
-
-- `scripts/install.sh`: суворо перевіряє Ubuntu (видалено підтримку Debian), оновлено повідомлення про помилки.
 
 ## [1.1.0] - 2026-09-01
 

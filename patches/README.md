@@ -11,7 +11,7 @@ Rules:
 
 - **Do not bump `vite-plugin-pwa` casually.** The patch targets a hashed
   build artifact (`dist/vite-build-BGK4YAIU.js`) — ANY upstream bump renames
-  it and fails `postinstall` everywhere (all three workflows run `npm ci`).
+  it and fails `postinstall` everywhere (all workflows run `npm ci`).
   The dependency is pinned to exactly `1.3.0` for this reason.
 - **Bump procedure:** bump → `npx patch-package vite-plugin-pwa` to
   re-record → verify `npm run build` → offline smoke test

@@ -1,0 +1,139 @@
+name: Release
+
+# One-click release: computes the next `sales-v<semver>` tag automatically (from the
+# latest release already published in the shared ajjs1ajjs/dist repo), bumps the
+# version in package.json, builds the PWA and publishes it to the public
+# ajjs1ajjs/dist repo at /sales (GitHub Pages), then commits the version bump back.
+# Runs automatically on every push to main (or manually from the Actions tab).
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '**/*.md'
+      - 'docs/**'
+      - 'public/data/**'
+  workflow_dispatch:
+    inputs:
+      bump:
+        description: 'Version bump'
+        type: choice
+        options: [patch, minor, major]
+        default: patch
+      version:
+        description: 'Explicit x.y.z (overrides bump)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-sales
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: Build PWA and publish to dist/sales
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@40f1582b2485089dde7abd97c1529aa768e1baff # v5
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Resolve next version
+        id: ver
+        env:
+          GH_TOKEN: ${{ secrets.PUBLIC_RELEASE_TOKEN }}
+          DIST_REPO: ajjs1ajjs/dist
+          PREFIX: sales-v
+          INPUT_VERSION: ${{ inputs.version }}
+          BUMP: ${{ inputs.bump }}
+        run: |
+          set -euo pipefail
+          if [ -n "${INPUT_VERSION:-}" ]; then
+            NEXT="$INPUT_VERSION"
+          else
+            LATEST=$(gh release list --repo "$DIST_REPO" --limit 200 --json tagName --jq '.[].tagName' \
+              | grep -E "^${PREFIX}[0-9]+\.[0-9]+\.[0-9]+$" | sed "s/^${PREFIX}//" | sort -V | tail -n1 || true)
+            [ -n "$LATEST" ] || LATEST="0.0.0"
+            NEXT=$(echo "$LATEST" | awk -F. -v b="${BUMP:-patch}" '{ if (b=="major") printf "%d.0.0",$1+1; else if (b=="minor") printf "%d.%d.0",$1,$2+1; else printf "%d.%d.%d",$1,$2,$3+1 }')
+          fi
+          echo "version=$NEXT" >> "$GITHUB_OUTPUT"
+          echo "tag=${PREFIX}${NEXT}" >> "$GITHUB_OUTPUT"
+          echo "Releasing ${PREFIX}${NEXT}"
+
+      - name: Bump version in source
+        env:
+          NEXT: ${{ steps.ver.outputs.version }}
+        run: |
+          set -euo pipefail
+          node -e "const fs=require('fs');const p='package.json';const j=JSON.parse(fs.readFileSync(p,'utf8'));j.version=process.env.NEXT;fs.writeFileSync(p,JSON.stringify(j,null,2)+'\n');"
+          node -p "require('./package.json').version"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Security audit (high+)
+        run: npm audit --audit-level=high
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Tests
+        run: npm test
+
+      - name: Build
+        run: npm run build
+
+      # The site is served from the public dist repo at /sales (GitHub Pages).
+      # Deals data (sales/data/) is owned by dist's sales-scheduler.yml, so it is
+      # preserved — only the app shell/assets are replaced.
+      - name: Publish site + release tag to ajjs1ajjs/dist
+        env:
+          GH_TOKEN: ${{ secrets.PUBLIC_RELEASE_TOKEN }}
+          DIST_REPO: ajjs1ajjs/dist
+          TAG: ${{ steps.ver.outputs.tag }}
+        run: |
+          set -euo pipefail
+          test -n "$GH_TOKEN" || { echo "::error::PUBLIC_RELEASE_TOKEN is not set"; exit 1; }
+          tmp="$RUNNER_TEMP/dist-sales"
+          git clone "https://x-access-token:${GH_TOKEN}@github.com/${DIST_REPO}.git" "$tmp" --depth 1
+          mkdir -p "$tmp/sales"
+          rsync -a --delete --exclude 'data/' --exclude '.nojekyll' dist/ "$tmp/sales/"
+          cd "$tmp"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A sales
+          if git diff --cached --quiet; then
+            echo "No site changes to commit."
+          else
+            git commit -m "chore(sales): publish site build ($TAG)"
+            git push origin HEAD:main
+          fi
+          # Tag the release so the shared dist history stays traceable.
+          if gh release view "$TAG" --repo "$DIST_REPO" >/dev/null 2>&1; then
+            echo "Release $TAG already exists."
+          else
+            gh release create "$TAG" --repo "$DIST_REPO" --title "Game Sales $TAG" --generate-notes
+          fi
+
+      - name: Commit version bump
+        continue-on-error: true
+        env:
+          TAG: ${{ steps.ver.outputs.tag }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add package.json
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "chore(release): $TAG [skip ci]"
+          git push

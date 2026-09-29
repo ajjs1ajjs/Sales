@@ -17,10 +17,11 @@ export function WishlistButton({ gameId, title }: Props) {
       type="button"
       className={`wishlist-btn${active ? ' wishlist-btn--active' : ''}`}
       onClick={() => toggleWishlist(gameId)}
-      aria-label={active ? t.wishlist.remove.replace('{title}', title) : t.wishlist.add.replace('{title}', title)}
+      aria-label={(active ? t.wishlist.remove : t.wishlist.add).replace('{title}', () => title)}
+      aria-pressed={active}
       title={active ? t.wishlist.removeTooltip : t.wishlist.addTooltip}
     >
-      <Heart size={16} fill={active ? 'currentColor' : 'none'} />
+      <Heart size={16} fill={active ? 'currentColor' : 'none'} aria-hidden="true" />
     </button>
   );
 }

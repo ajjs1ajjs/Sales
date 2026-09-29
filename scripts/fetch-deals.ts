@@ -372,7 +372,7 @@ async function run() {
     }
   } else {
     try {
-      const githubPagesUrl = `https://ajjs1ajjs.github.io/Sales/data/deals.json`;
+      const githubPagesUrl = `https://ajjs1ajjs.github.io/dist/sales/data/deals.json`;
       logger.info(`Trying to fetch previous deals from GitHub Pages: ${githubPagesUrl}`);
       const res = await fetch(githubPagesUrl);
       if (res.ok) {
@@ -409,7 +409,7 @@ async function run() {
     }
   } else {
     try {
-      const githubPagesHistoryUrl = `https://ajjs1ajjs.github.io/Sales/data/notified-history.json`;
+      const githubPagesHistoryUrl = `https://ajjs1ajjs.github.io/dist/sales/data/notified-history.json`;
       logger.info(`Trying to fetch notified history from GitHub Pages: ${githubPagesHistoryUrl}`);
       const res = await fetch(githubPagesHistoryUrl);
       if (res.ok) {
