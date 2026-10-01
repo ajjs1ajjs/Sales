@@ -1,7 +1,7 @@
-import { lazy, useState, type FunctionComponent, Suspense, Fragment } from 'react';
+import { lazy, useState, Suspense, Fragment } from 'react';
 import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import { Clock, RefreshCw, AlertCircle, History } from 'lucide-react';
-import type { FilterType, SortType, EpicGame, SteamGame } from './types';
+import type { FilterType, SortType, SteamGame } from './types';
 import { ErrorBoundaryWithLocale } from './components/ErrorBoundaryWithLocale';
 import { TelegramBanner } from './components/TelegramBanner';
 import { SearchControls } from './components/SearchControls';
@@ -17,17 +17,14 @@ import { formatLastUpdated, formatLastUpdatedEn, interp } from './utils';
 import { Skeleton } from './components/Skeleton';
 
 type SectionProps = {
-  games: EpicGame[] | SteamGame[];
+  games: SteamGame[];
   activeFilter: FilterType;
   searchQuery: string;
   sortType: SortType;
 };
 
-const EpicSection = lazy(() =>
-  import('./components/EpicSection').then((m) => ({ default: m.EpicSection as FunctionComponent<SectionProps> })),
-);
 const SteamSection = lazy(() =>
-  import('./components/SteamSection').then((m) => ({ default: m.SteamSection as FunctionComponent<SectionProps> })),
+  import('./components/SteamSection').then((m) => ({ default: m.SteamSection as React.FunctionComponent<SectionProps> })),
 );
 const HistoryPageLazy = lazy(() =>
   import('./components/HistoryPage').then((m) => ({ default: m.HistoryPage })),
@@ -50,7 +47,6 @@ function HomePage() {
     absoluteMinPrice,
     absoluteMaxPrice,
     filterCounts,
-    priceFilteredEpic,
     priceFilteredSteam,
   } = useGameFilters(data, wishlist, searchQuery);
 
@@ -101,13 +97,13 @@ function HomePage() {
         onSortChange={setSortType}
       />
 
-      {(activeFilter === 'all' || activeFilter === 'wishlist' || activeFilter === 'epic_discount' || activeFilter === 'steam_specials') && (
+      {(activeFilter === 'all' || activeFilter === 'wishlist' || activeFilter === 'steam_specials' || activeFilter === 'steam_popular') && (
         <PriceRangeFilter
           minPrice={absoluteMinPrice}
           maxPrice={absoluteMaxPrice}
           range={priceRange}
           onChange={setUserPriceRange}
-          currency={data?.epic[0]?.currency || data?.steam[0]?.currency || 'UAH'}
+          currency={data?.steam[0]?.currency || 'UAH'}
         />
       )}
 
@@ -132,13 +128,6 @@ function HomePage() {
 
           {!loading && !error && (
             <>
-              <EpicSection
-                games={priceFilteredEpic}
-                activeFilter={activeFilter}
-                searchQuery={debouncedSearch}
-                sortType={sortType}
-              />
-              <hr className="platform-separator" />
               <SteamSection
                 games={priceFilteredSteam}
                 activeFilter={activeFilter}
@@ -146,7 +135,6 @@ function HomePage() {
                 sortType={sortType}
               />
               {activeFilter === 'all' &&
-                priceFilteredEpic.length === 0 &&
                 priceFilteredSteam.length === 0 &&
                 !debouncedSearch && (
                   <div className="empty-state section-gap-top">
@@ -156,7 +144,6 @@ function HomePage() {
                 )}
 
               {activeFilter === 'wishlist' &&
-                priceFilteredEpic.length === 0 &&
                 priceFilteredSteam.length === 0 && (
                   <div className="empty-state section-gap-top">
                     <h3>{isPriceFiltered ? t.app.wishlistEmptyPrice : t.app.wishlistEmpty}</h3>
@@ -217,4 +204,3 @@ function HistoryPageWrapper() {
 }
 
 export default App;
-

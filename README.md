@@ -12,7 +12,7 @@
 
 # 🎮 Game Sales Aggregator
 
-**Персональний радар знижок та безкоштовних ігор** — автоматично збирає актуальні пропозиції з **Steam** та **Epic Games Store** і публікує їх на сайті та у Telegram-каналі.
+**Персональний радар знижок та безкоштовних ігор** — автоматично збирає актуальні пропозиції **Steam** (знижки, безкоштовне, топи продажів) і публікує їх на сайті та у Telegram-каналі.
 
 [![Website](https://img.shields.io/badge/website-dist%2Fsales-2563eb)](https://ajjs1ajjs.github.io/dist/sales/)
 [![Telegram](https://img.shields.io/badge/Telegram-@salesgamesua-2CA5E0?logo=telegram)](https://t.me/salesgamesua)
@@ -32,18 +32,16 @@
 
 | Платформа | Тип | Опис |
 |-----------|-----|-------|
-| **Epic Games** | Безкоштовні роздачі | Ігри, які зараз безкоштовні |
-| **Epic Games** | Майбутні роздачі | Ігри, що стануть безкоштовними невдовзі |
-| **Epic Games** | Знижки | Акційні пропозиції в Epic Games Store |
 | **Steam** | Безкоштовні пропозиції | Ігри, які тимчасово можна отримати безкоштовно |
-| **Steam** | Гарячі знижки | Акційні пропозиції від 5% |
+| **Steam** | Гарячі знижки | Акційні пропозиції від 5% (specials + топи продажів) |
+| **Steam** | Тренди | Top Sellers — хіти продажів прямо зараз |
 
 ## ✨ Можливості сайту
 
 | | |
 |---|---|
 | 🔍 **Пошук** | за назвою гри, з debounce 300 мс |
-| 🗂️ **Фільтрація** | за категоріями (Epic/Steam, безкоштовні/знижки) |
+| 🗂️ **Фільтрація** | за категоріями (Steam: безкоштовні/знижки/тренди) |
 | ↕️ **Сортування** | за ціною, відсотком знижки або назвою |
 | 💰 **Фільтр ціни** | вибір діапазону цін |
 | ⭐ **Список бажань** | обрані ігри, зберігаються в localStorage |
@@ -58,7 +56,7 @@
 
 ```
 Дані (щогодини, у публічному репо ajjs1ajjs/dist):
-        scheduler → API Steam/Epic → sales/data/deals.json + Telegram
+        scheduler → Steam API (categories + search topsellers) → sales/data/deals.json + Telegram
         │
         ▼
 Цей репозиторій (вихідний код, приватний):
@@ -140,7 +138,7 @@ Sales/
 │   ├── fetch-deals.ts                # збір даних з API
 │   └── generate-sitemap.ts           # генерація sitemap.xml
 ├── src/
-│   ├── components/                   # GameCard, Epic/SteamSection та ін.
+│   ├── components/                   # GameCard, SteamSection та ін.
 │   ├── contexts/                     # LocaleContext, WishlistContext
 │   ├── hooks/                        # useDebounce, useInstallPWA, useLocalStorage
 │   ├── locales/                      # uk.ts, en.ts
@@ -153,8 +151,7 @@ Sales/
 ## 📢 Telegram-канал
 
 Підписуйтесь на [@salesgamesua](https://t.me/salesgamesua) — миттєві сповіщення про:
-- Безкоштовні ігри від Epic Games
-- Знижки в Epic Games Store
+- Безкоштовні пропозиції у Steam
 - Гарячі знижки у Steam (від 5%)
 
 ---

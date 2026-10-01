@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import type { DealsData, EpicGame, FilterType, SortType, SteamGame } from '../types';
+import type { DealsData, FilterType, SortType, SteamGame } from '../types';
 import { useDebounce } from './useDebounce';
 import { useLocalStorage } from './useLocalStorage';
 
@@ -19,7 +19,6 @@ export interface GameFilters {
   absoluteMinPrice: number;
   absoluteMaxPrice: number;
   filterCounts: Record<FilterType, number>;
-  priceFilteredEpic: EpicGame[];
   priceFilteredSteam: SteamGame[];
 }
 
@@ -35,12 +34,6 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
     if (!data) return { absoluteMinPrice: 0, absoluteMaxPrice: 10000 };
     let min = Infinity;
     let max = -Infinity;
-
-    for (const g of data.epic) {
-      const price = g.isFreeNow ? 0 : g.discountPrice;
-      if (price < min) min = price;
-      if (price > max) max = price;
-    }
 
     for (const g of data.steam) {
       const price = g.discountPrice;
@@ -64,12 +57,6 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
   // range), so the wishlist empty-state message stays correct after a reset.
   const isPriceFiltered = priceRange[0] > absoluteMinPrice || priceRange[1] < absoluteMaxPrice;
 
-  const epicMatchingSearch = useMemo(() => {
-    return data?.epic.filter((game) =>
-      game.title.toLowerCase().includes(debouncedSearch.toLowerCase()),
-    ) || [];
-  }, [data, debouncedSearch]);
-
   const steamMatchingSearch = useMemo(() => {
     return data?.steam.filter((game) =>
       game.title.toLowerCase().includes(debouncedSearch.toLowerCase()),
@@ -79,62 +66,38 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
   const filterCounts = useMemo(() => {
     const inPriceRange = (price: number) => price >= priceRange[0] && price <= priceRange[1];
     const counts: Record<FilterType, number> = {
-      all: 0, epic_free: 0, epic_discount: 0,
-      steam_free: 0, steam_specials: 0,
+      all: 0,
+      steam_free: 0, steam_specials: 0, steam_popular: 0,
       wishlist: 0,
     };
-
-    for (const g of epicMatchingSearch) {
-      const price = g.isFreeNow ? 0 : g.discountPrice;
-      if (!inPriceRange(price)) continue;
-      counts.all++;
-      if (g.isFreeNow || g.isUpcomingFree) counts.epic_free++;
-      if (g.isDiscounted) counts.epic_discount++;
-      if (wishlistSet.has(g.id)) counts.wishlist++;
-    }
 
     for (const g of steamMatchingSearch) {
       const price = g.discountPrice;
       if (!inPriceRange(price)) continue;
-      if (!g.isFree && !g.isSpecial) {
+      if (!g.isFree && !g.isSpecial && !g.isPopular) {
         if (wishlistSet.has(g.id)) counts.wishlist++;
         continue;
       }
       counts.all++;
       if (g.isFree) counts.steam_free++;
       if (g.isSpecial) counts.steam_specials++;
+      if (g.isPopular) counts.steam_popular++;
       if (wishlistSet.has(g.id)) counts.wishlist++;
     }
 
     return counts;
-  }, [epicMatchingSearch, steamMatchingSearch, wishlistSet, priceRange]);
-
-  const filteredEpic = useMemo(() => {
-    return epicMatchingSearch.filter((game) => {
-      if (activeFilter === 'wishlist') return wishlistSet.has(game.id);
-      if (activeFilter === 'epic_free') return game.isFreeNow || game.isUpcomingFree;
-      if (activeFilter === 'epic_discount') return game.isDiscounted;
-      if (activeFilter === 'all') return true;
-      return false;
-    });
-  }, [epicMatchingSearch, activeFilter, wishlistSet]);
+  }, [steamMatchingSearch, wishlistSet, priceRange]);
 
   const filteredSteam = useMemo(() => {
     return steamMatchingSearch.filter((game) => {
       if (activeFilter === 'wishlist') return wishlistSet.has(game.id);
       if (activeFilter === 'steam_free') return game.isFree;
       if (activeFilter === 'steam_specials') return game.isSpecial;
+      if (activeFilter === 'steam_popular') return game.isPopular;
       if (activeFilter === 'all') return true;
       return false;
     });
   }, [steamMatchingSearch, activeFilter, wishlistSet]);
-
-  const priceFilteredEpic = useMemo(() => {
-    return filteredEpic.filter((game) => {
-      const price = game.isFreeNow ? 0 : game.discountPrice;
-      return price >= priceRange[0] && price <= priceRange[1];
-    });
-  }, [filteredEpic, priceRange]);
 
   const priceFilteredSteam = useMemo(() => {
     return filteredSteam.filter((game) => {
@@ -155,7 +118,6 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
     absoluteMinPrice,
     absoluteMaxPrice,
     filterCounts,
-    priceFilteredEpic,
     priceFilteredSteam,
   };
 }

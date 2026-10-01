@@ -1,14 +1,14 @@
 import { useMemo, useState } from 'react';
 import { ExternalLink, Tag, TrendingUp } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
-import type { EpicGame, SteamGame } from '../types';
-import { isEpicGame, formatPrice, formatDate, formatDateEn, safeUrl } from '../utils';
+import type { SteamGame } from '../types';
+import { formatPrice, formatDate, formatDateEn, safeUrl } from '../utils';
 import { WishlistButton } from './WishlistButton';
 
-export type Game = EpicGame | SteamGame;
+export type Game = SteamGame;
 
 interface BaseProps {
-  platform: 'epic' | 'steam';
+  platform: 'steam';
   badge?: string;
   badgeVariant?: 'free' | 'discount';
   showTagDescription?: boolean;
@@ -57,7 +57,7 @@ export function GameCard({
   const { t, locale } = useLocale();
   const [imgError, setImgError] = useState(false);
   const defaultLinkText = linkText ?? t.steam.buy;
-  const isFreeOffer = (isEpicGame(game) && game.isFreeNow) || ('isFree' in game && game.isFree);
+  const isFreeOffer = game.isFree;
 
   const highlightRegex = useMemo(() => {
     const q = searchQuery.trim();
@@ -73,11 +73,11 @@ export function GameCard({
   return (
     <article
       className={`game-card${isUpcoming ? ' game-card--upcoming' : ''}`}
-      aria-label={t.platform.gameAria.replace('{title}', game.title).replace('{platform}', platform === 'epic' ? t.platform.epic : t.platform.steam)}
+      aria-label={t.platform.gameAria.replace('{title}', game.title).replace('{platform}', t.platform.steam)}
     >
       <div className="card-image-wrapper">
         <span className={`platform-badge ${platform}`}>
-          {platform === 'epic' ? 'Epic Games' : 'Steam'}
+          {'Steam'}
         </span>
         {badge && (
           <span className={`deal-badge${badgeVariant ? ` ${badgeVariant}` : ''}`}>
@@ -101,20 +101,10 @@ export function GameCard({
           <WishlistButton gameId={game.id} title={game.title} />
         </div>
 
-        {'description' in game && game.description && !showTagDescription && !showTrendingDescription && (
-          <p className="card-desc">
-            {game.description.length > 200
-              ? `${game.description.slice(0, 200)}…`
-              : game.description}
-          </p>
-        )}
-
         {showTagDescription && (
           <p className="card-desc card-desc--with-icon">
             <Tag size={14} aria-hidden="true" />{' '}
-            {platform === 'epic'
-              ? t.epic.discountTag
-              : t.steam.specialsTag}
+            {t.steam.specialsTag}
           </p>
         )}
 

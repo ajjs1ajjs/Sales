@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { Flame, Gift } from 'lucide-react';
+import { Flame, Gift, TrendingUp } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 import type { SteamGame, FilterType, SortType } from '../types';
@@ -20,10 +20,12 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType }: Pro
   const { t } = useLocale();
   const [collapsedFree, setCollapsedFree] = useLocalStorage('collapse-steam-free', false);
   const [collapsedSpecials, setCollapsedSpecials] = useLocalStorage('collapse-steam-specials', false);
+  const [collapsedPopular, setCollapsedPopular] = useLocalStorage('collapse-steam-popular', false);
   const sorted = useMemo(() => sortGames(games, sortType), [games, sortType]);
 
   const free = sorted.filter((g) => g.isFree);
   const specials = sorted.filter((g) => g.isSpecial && !g.isFree);
+  const popular = sorted.filter((g) => g.isPopular && !g.isFree && !g.isSpecial);
 
   const canCollapse = activeFilter === 'all';
 
@@ -86,6 +88,39 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType }: Pro
                     platform="steam"
                     badge={deal.discountPercent > 0 ? `-${deal.discountPercent}%` : undefined}
                     showTagDescription
+                    searchQuery={searchQuery}
+                  />
+                ))}
+              />
+            </div>
+          )}
+        </CollapsibleSection>
+      )}
+
+      {(activeFilter === 'all' || activeFilter === 'steam_popular') && (
+        <CollapsibleSection
+          id="steam-popular-title"
+          title={t.steam.popularTitle}
+          icon={<TrendingUp size={22} className="icon-steam" aria-hidden="true" />}
+          canCollapse={canCollapse}
+          collapsed={collapsedPopular}
+          onToggle={() => setCollapsedPopular((c) => !c)}
+        >
+          {popular.length === 0 ? (
+            <div className="empty-state section-gap-bottom">
+              <h3>{t.steam.emptyPopular}</h3>
+              <p>{t.steam.emptyPopularDesc}</p>
+            </div>
+          ) : (
+            <div className="deals-grid section-gap-bottom">
+              <ShowMore
+                items={popular.map((deal) => (
+                  <GameCard
+                    key={deal.id}
+                    game={deal}
+                    platform="steam"
+                    badge={deal.discountPercent > 0 ? `-${deal.discountPercent}%` : undefined}
+                    showTrendingDescription
                     searchQuery={searchQuery}
                   />
                 ))}

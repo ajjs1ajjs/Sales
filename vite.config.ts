@@ -16,7 +16,7 @@ export default defineConfig({
       manifest: {
         name: 'Game Sales Aggregator',
         short_name: 'Game Sales',
-        description: 'Агрегатор знижок та безкоштовних ігор у Steam та Epic Games Store',
+        description: 'Агрегатор знижок, безкоштовних пропозицій та топів продажів Steam',
         start_url: '/dist/sales/',
         display: 'standalone',
         background_color: '#0a0712',

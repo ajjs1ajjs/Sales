@@ -1,9 +1,9 @@
 export const uk = {
   app: {
     title: 'Game Sales Aggregator',
-    description: 'Ваш персональний радар знижок та новинок ПК-ігор. Безкоштовні пропозиції й знижки Steam та Epic Games Store.',
+    description: 'Ваш персональний радар знижок та новинок ПК-ігор. Безкоштовні пропозиції, знижки та топи продажів Steam.',
     footer: '© {year} Game Sales Aggregator. Усі права захищено.',
-    footerSub: 'Розроблено для геймерів з ❤️. Дані надано неофіційними API Steam та Epic Games Store.',
+    footerSub: 'Розроблено для геймерів з ❤️. Дані надано неофіційним API Steam.',
     footerLink: 'Код проекту доступний на {link}.',
     viewOnGitHub: 'GitHub',
     lastUpdated: 'Останнє оновлення: {date}',
@@ -37,12 +37,9 @@ export const uk = {
   },
   filters: {
     all: 'Всі категорії',
-    epicFree: 'Epic Роздачі',
-    epicDiscount: 'Epic Знижки',
     steamFree: 'Steam Безкоштовно',
     steamSpecials: 'Steam Знижки',
     steamPopular: 'Steam Тренди',
-    groupEpic: 'Epic Знижки та безкоштовно',
     groupSteam: 'Steam Знижки та безкоштовно',
     wishlist: 'Обране',
     ariaLabel: 'Фільтри категорій',
@@ -57,19 +54,6 @@ export const uk = {
     nameAsc: 'Назва А-Я',
     nameDesc: 'Назва Я-А',
     groupAria: 'Сортування ігор',
-  },
-  epic: {
-    freeTitle: 'Роздачі Epic Games Store',
-    freeSubtitle: 'Безкоштовно зараз ({count})',
-    upcomingSubtitle: 'Незабаром у роздачі ({count})',
-    discountTitle: 'Знижки Epic Games Store',
-    emptyFree: 'Нічого не знайдено',
-    emptyFreeDesc: 'Наразі немає активних роздач або акцій, що відповідають вашому запиту.',
-    emptyDiscount: 'Нічого не знайдено',
-    emptyDiscountDesc: 'Наразі немає активних знижок в Epic Games Store, що відповідають вашому запиту.',
-    getFree: 'Забрати',
-    toStore: 'До магазину',
-    discountTag: 'Тимчасова знижка в Epic Games Store.',
   },
   steam: {
     freeTitle: 'Безкоштовні пропозиції Steam',
@@ -101,7 +85,7 @@ export const uk = {
   },
   telegram: {
     title: 'Приєднуйтесь до нашого Telegram-каналу!',
-    desc: 'Отримуйте миттєві сповіщення про безкоштовні пропозиції та знижки Steam і Epic Games.',
+    desc: 'Отримуйте миттєві сповіщення про безкоштовні пропозиції та знижки Steam.',
     subscribe: 'Підписатися',
     dismiss: 'Приховати банер Telegram-каналу',
   },
@@ -127,7 +111,6 @@ export const uk = {
     topBadge: 'TOP',
   },
   platform: {
-    epic: 'Epic Games',
     steam: 'Steam',
     gameAria: '{title} — {platform}',
   },

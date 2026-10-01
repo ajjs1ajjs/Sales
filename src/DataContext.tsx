@@ -1,35 +1,15 @@
 /* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
-import type { DealsData, EpicGame, SteamGame } from './types';
+import type { DealsData, SteamGame } from './types';
 
-// deals.json is generated from external Epic/Steam APIs, so an element can be
-// missing fields (e.g. an upstream API omits a title). Normalize EVERY element
-// — not just the array shape — so a single malformed item can't crash the UI's
-// .filter()/.toLowerCase()/price math.
+// deals.json генерується із зовнішнього Steam API, тому елемент може не мати
+// полів (напр. upstream пропустив title). Нормалізуємо КОЖЕН елемент,
+// щоб один битий запис не клав UI через .filter()/.toLowerCase()/ціни.
 const num = (v: unknown): number => {
   const n = typeof v === 'number' ? v : Number(v);
   return Number.isFinite(n) ? n : 0;
 };
 const str = (v: unknown): string => (typeof v === 'string' ? v : v == null ? '' : String(v));
-
-function normalizeEpic(g: Record<string, unknown>): EpicGame {
-  return {
-    id: str(g.id),
-    title: str(g.title),
-    description: str(g.description),
-    imageUrl: str(g.imageUrl),
-    originalPrice: num(g.originalPrice),
-    discountPrice: num(g.discountPrice),
-    currency: str(g.currency),
-    url: str(g.url),
-    startDate: str(g.startDate),
-    endDate: str(g.endDate),
-    isFreeNow: Boolean(g.isFreeNow),
-    isUpcomingFree: Boolean(g.isUpcomingFree),
-    isDiscounted: Boolean(g.isDiscounted),
-    discountPercent: num(g.discountPercent),
-  };
-}
 
 function normalizeSteam(g: Record<string, unknown>): SteamGame {
   const originalPrice = num(g.originalPrice);
@@ -95,9 +75,9 @@ export function DataProvider({ children }: { children: ReactNode }) {
         const raw = await res.json();
         // Нормалізуємо форму замість сліпого `as DealsData`:
         // частковий/пошкоджений файл не повинен ламати .filter() в UI.
+        // Поле `epic` ігнорується (лишилось у старих deals.json до переходу на Steam-only).
         const jsonData: DealsData = {
           lastUpdated: typeof raw?.lastUpdated === 'string' ? raw.lastUpdated : '',
-          epic: normalizeList(raw?.epic, normalizeEpic),
           steam: normalizeList(raw?.steam, normalizeSteam),
           notifiedHistory:
             raw?.notifiedHistory && typeof raw.notifiedHistory === 'object'

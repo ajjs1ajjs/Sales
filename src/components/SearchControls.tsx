@@ -50,17 +50,11 @@ export function SearchControls({
       ],
     },
     {
-      label: t.filters.groupEpic,
-      items: [
-        { filterKey: 'epic_free', label: t.filters.epicFree },
-        { filterKey: 'epic_discount', label: t.filters.epicDiscount },
-      ],
-    },
-    {
       label: t.filters.groupSteam,
       items: [
         { filterKey: 'steam_free', label: t.filters.steamFree },
         { filterKey: 'steam_specials', label: t.filters.steamSpecials },
+        { filterKey: 'steam_popular', label: t.filters.steamPopular },
       ],
     },
   ];

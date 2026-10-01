@@ -3,9 +3,9 @@ import type { Translations } from './uk';
 export const en: Translations = {
   app: {
     title: 'Game Sales Aggregator',
-    description: 'Your personal PC gaming deals radar. Free offers and discounts from Steam and Epic Games Store.',
+    description: 'Your personal PC gaming deals radar. Free offers, discounts and top sellers from Steam.',
     footer: '© {year} Game Sales Aggregator. All rights reserved.',
-    footerSub: 'Built for gamers with ❤️. Data provided by unofficial Steam and Epic Games Store APIs.',
+    footerSub: 'Built for gamers with ❤️. Data provided by unofficial Steam API.',
     footerLink: 'Source code available on {link}.',
     viewOnGitHub: 'GitHub',
     lastUpdated: 'Last updated: {date}',
@@ -39,12 +39,9 @@ export const en: Translations = {
   },
   filters: {
     all: 'All Categories',
-    epicFree: 'Epic Free',
-    epicDiscount: 'Epic Deals',
     steamFree: 'Steam Free',
     steamSpecials: 'Steam Deals',
     steamPopular: 'Steam Trends',
-    groupEpic: 'Epic Deals & Free',
     groupSteam: 'Steam Deals & Free',
     wishlist: 'Wishlist',
     ariaLabel: 'Category filters',
@@ -59,19 +56,6 @@ export const en: Translations = {
     nameAsc: 'Name A-Z',
     nameDesc: 'Name Z-A',
     groupAria: 'Sort games',
-  },
-  epic: {
-    freeTitle: 'Epic Games Store Freebies',
-    freeSubtitle: 'Free right now ({count})',
-    upcomingSubtitle: 'Coming up for free ({count})',
-    discountTitle: 'Epic Games Store Deals',
-    emptyFree: 'Nothing found',
-    emptyFreeDesc: 'No active freebies or deals matching your query.',
-    emptyDiscount: 'Nothing found',
-    emptyDiscountDesc: 'No active discounts in Epic Games Store matching your query.',
-    getFree: 'Get Free',
-    toStore: 'View in Store',
-    discountTag: 'Limited-time discount in Epic Games Store.',
   },
   steam: {
     freeTitle: 'Steam Free Offers',
@@ -103,7 +87,7 @@ export const en: Translations = {
   },
   telegram: {
     title: 'Join our Telegram channel!',
-    desc: 'Get instant notifications about Steam and Epic free offers and discounts.',
+    desc: 'Get instant notifications about Steam free offers and discounts.',
     subscribe: 'Subscribe',
     dismiss: 'Dismiss Telegram banner',
   },
@@ -129,7 +113,6 @@ export const en: Translations = {
     topBadge: 'TOP',
   },
   platform: {
-    epic: 'Epic Games',
     steam: 'Steam',
     gameAria: '{title} — {platform}',
   },

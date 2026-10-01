@@ -15,10 +15,9 @@ function Wrapper({ children }: { children: React.ReactNode }) {
 
 const mockData: DealsData = {
   lastUpdated: '2026-06-16T03:44:30.960Z',
-  epic: [],
   steam: [],
   notifiedHistory: {
-    'epic_free_game1': {
+    'steam_free_game1': {
       title: 'Free Game 1',
       price: 0,
       percent: 100,

@@ -26,10 +26,9 @@ describe('SearchControls', () => {
   it('renders all filter buttons', () => {
     render(<SearchControls {...defaultProps} />, { wrapper: Wrapper });
     expect(screen.getByText('Всі категорії')).toBeInTheDocument();
-    expect(screen.getByText('Epic Роздачі')).toBeInTheDocument();
-    expect(screen.getByText('Epic Знижки')).toBeInTheDocument();
     expect(screen.getByText('Steam Безкоштовно')).toBeInTheDocument();
     expect(screen.getByText('Steam Знижки')).toBeInTheDocument();
+    expect(screen.getByText('Steam Тренди')).toBeInTheDocument();
     expect(screen.getByText('Обране')).toBeInTheDocument();
   });
 
@@ -45,13 +44,13 @@ describe('SearchControls', () => {
   it('calls onFilterChange on button click', () => {
     const onFilterChange = vi.fn();
     render(<SearchControls {...defaultProps} onFilterChange={onFilterChange} />, { wrapper: Wrapper });
-    fireEvent.click(screen.getByText('Epic Роздачі'));
-    expect(onFilterChange).toHaveBeenCalledWith('epic_free');
+    fireEvent.click(screen.getByText('Steam Безкоштовно'));
+    expect(onFilterChange).toHaveBeenCalledWith('steam_free');
   });
 
   it('marks active filter button as pressed', () => {
-    const { rerender } = render(<SearchControls {...defaultProps} activeFilter="epic_free" />, { wrapper: Wrapper });
-    expect(screen.getByText('Epic Роздачі')).toHaveAttribute('aria-pressed', 'true');
+    const { rerender } = render(<SearchControls {...defaultProps} activeFilter="steam_free" />, { wrapper: Wrapper });
+    expect(screen.getByText('Steam Безкоштовно')).toHaveAttribute('aria-pressed', 'true');
 
     rerender(<SearchControls {...defaultProps} activeFilter="steam_specials" />);
     expect(screen.getByText('Steam Знижки')).toHaveAttribute('aria-pressed', 'true');
@@ -60,18 +59,16 @@ describe('SearchControls', () => {
   it('renders filter counts when provided', () => {
     const filterCounts = {
       all: 15,
-      epic_free: 2,
-      epic_discount: 5,
       steam_free: 1,
       steam_specials: 6,
+      steam_popular: 8,
       wishlist: 1,
     };
     render(<SearchControls {...defaultProps} filterCounts={filterCounts} />, { wrapper: Wrapper });
     expect(screen.getByRole('button', { name: /Всі категорії\(15\)/i })).toBeInTheDocument();
-    expect(screen.getByRole('button', { name: /Epic Роздачі\(2\)/i })).toBeInTheDocument();
-    expect(screen.getByRole('button', { name: /Epic Знижки\(5\)/i })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: /Steam Знижки\(6\)/i })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: /Steam Безкоштовно\(1\)/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /Steam Тренди\(8\)/i })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: /Обране\(1\)/i })).toBeInTheDocument();
   });
 });

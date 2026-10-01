@@ -3,7 +3,7 @@ import { describe, it, expect } from 'vitest';
 import { LocaleProvider } from '../../contexts/LocaleContext';
 import { WishlistProvider } from '../../contexts/WishlistContext';
 import { GameCard } from '../GameCard';
-import type { EpicGame, SteamGame } from '../../types';
+import type { SteamGame } from '../../types';
 
 function Wrapper({ children }: { children: React.ReactNode }) {
   return (
@@ -13,21 +13,18 @@ function Wrapper({ children }: { children: React.ReactNode }) {
   );
 }
 
-const mockEpicGame: EpicGame = {
-  id: 'epic-1',
-  title: 'Test Epic Game',
-  description: 'An awesome free game',
-  imageUrl: 'https://example.com/img.jpg',
-  originalPrice: 59.99,
+const mockSteamFreeGame: SteamGame = {
+  id: '123',
+  title: 'Test Steam Free Game',
+  imageUrl: 'https://example.com/steam.jpg',
+  originalPrice: 29.99,
   discountPrice: 0,
-  currency: 'USD',
-  url: 'https://store.epicgames.com/p/test',
-  startDate: '',
-  endDate: '2026-06-01T00:00:00Z',
-  isFreeNow: true,
-  isUpcomingFree: false,
-  isDiscounted: false,
-  discountPercent: 0,
+  discountPercent: 100,
+  currency: 'UAH',
+  url: 'https://store.steampowered.com/app/123',
+  isSpecial: false,
+  isFree: true,
+  isPopular: false,
 };
 
 const mockSteamGame: SteamGame = {
@@ -45,12 +42,12 @@ const mockSteamGame: SteamGame = {
 };
 
 describe('GameCard', () => {
-  it('renders Epic free game', () => {
-    render(<GameCard game={mockEpicGame} platform="epic" badge="FREE" badgeVariant="free" linkText="Забрати" />, { wrapper: Wrapper });
-    expect(screen.getByText('Test Epic Game')).toBeInTheDocument();
+  it('renders Steam free game', () => {
+    render(<GameCard game={mockSteamFreeGame} platform="steam" badge="FREE" badgeVariant="free" linkText="Придбати" />, { wrapper: Wrapper });
+    expect(screen.getByText('Test Steam Free Game')).toBeInTheDocument();
     expect(screen.getByText('FREE')).toBeInTheDocument();
     expect(screen.getByText('БЕЗКОШТОВНО')).toBeInTheDocument();
-    expect(screen.getByText('Забрати')).toBeInTheDocument();
+    expect(screen.getByText('Придбати')).toBeInTheDocument();
   });
 
   it('renders Steam discount game', () => {
@@ -61,10 +58,7 @@ describe('GameCard', () => {
   });
 
   it('renders platform badges', () => {
-    const { rerender } = render(<GameCard game={mockEpicGame} platform="epic" />, { wrapper: Wrapper });
-    expect(screen.getByText('Epic Games')).toBeInTheDocument();
-
-    rerender(<GameCard game={mockSteamGame} platform="steam" />);
+    render(<GameCard game={mockSteamGame} platform="steam" />, { wrapper: Wrapper });
     expect(screen.getByText('Steam')).toBeInTheDocument();
   });
 
@@ -81,14 +75,14 @@ describe('GameCard', () => {
   });
 
   it('renders link with correct href', () => {
-    render(<GameCard game={mockEpicGame} platform="epic" linkText="Забрати" />, { wrapper: Wrapper });
-    const link = screen.getByRole('link', { name: /забрати/i });
-    expect(link).toHaveAttribute('href', mockEpicGame.url);
+    render(<GameCard game={mockSteamFreeGame} platform="steam" linkText="Придбати" />, { wrapper: Wrapper });
+    const link = screen.getByRole('link', { name: /придбати/i });
+    expect(link).toHaveAttribute('href', mockSteamFreeGame.url);
     expect(link).toHaveAttribute('target', '_blank');
   });
 
   it('renders wishlist button', () => {
-    render(<GameCard game={mockEpicGame} platform="epic" />, { wrapper: Wrapper });
+    render(<GameCard game={mockSteamGame} platform="steam" />, { wrapper: Wrapper });
     expect(screen.getByRole('button', { name: /додати.*в обране/i })).toBeInTheDocument();
   });
 });
