@@ -95,8 +95,19 @@ try {
 }
 
 # --- 4. Тег релізу ------------------------------------------------------------
-$exists = gh release view $tag --repo $DistRepo 2>$null
-if (-not $exists) {
+# Note: gh exits 1 when the release is missing — expected on first publish.
+# Temporarily relax the preference so the probe can't terminate the script.
+$prevPref = $ErrorActionPreference
+$ErrorActionPreference = 'Continue'
+try {
+  gh release view $tag --repo $DistRepo 2>$null | Out-Null
+  $tagExists = ($LASTEXITCODE -eq 0)
+} catch {
+  $tagExists = $false
+} finally {
+  $ErrorActionPreference = $prevPref
+}
+if (-not $tagExists) {
   $prev = $tags | Where-Object { $_ -match $pattern -and $_ -ne $tag } |
     ForEach-Object { $_ -replace ("^" + $Prefix), '' } |
     Sort-Object { [version]$_ } | Select-Object -Last 1
