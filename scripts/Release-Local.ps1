@@ -113,7 +113,7 @@ if (-not $tagExists) {
     Sort-Object { [version]$_ } | Select-Object -Last 1
   if ($prev) { $notes = "**Full Changelog**: https://github.com/$DistRepo/compare/$Prefix$prev...$tag" }
   else { $notes = "Game Sales $tag" }
-  gh release create $tag --repo $DistRepo --title "Game Sales $tag" --notes $notes
+    gh release create $tag --repo $DistRepo --title "Game Sales v$next" --notes $notes
   if ($LASTEXITCODE -ne 0) { Fail 'gh release failed' }
 } else {
   Write-Host "Release $tag already exists."

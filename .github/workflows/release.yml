@@ -133,7 +133,7 @@ jobs:
             else
               NOTES="Game Sales ${TAG}"
             fi
-            gh release create "$TAG" --repo "$DIST_REPO" --title "Game Sales $TAG" --notes "$NOTES"
+            gh release create "$TAG" --repo "$DIST_REPO" --title "Game Sales v${TAG#sales-v}" --notes "$NOTES"
           fi
 
       - name: Bump version in source
