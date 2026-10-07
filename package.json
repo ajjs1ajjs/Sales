@@ -11,8 +11,7 @@
     "test:watch": "vitest",
     "preview": "vite preview",
     "fetch": "tsx scripts/fetch-deals.ts",
-    "sitemap": "tsx scripts/generate-sitemap.ts",
-    "postinstall": "patch-package"
+    "sitemap": "tsx scripts/generate-sitemap.ts"
   },
   "dependencies": {
     "lucide-react": "^1.16.0",
@@ -28,7 +27,6 @@
     "@types/node": "^24.12.3",
     "@types/pino": "^7.0.4",
     "@types/react": "^19.2.14",
-    "pino": "^10.3.1",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
     "eslint": "^10.3.0",
@@ -36,7 +34,7 @@
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.6.0",
     "jsdom": "^29.1.1",
-    "patch-package": "^8.0.1",
+    "pino": "^10.3.1",
     "tsx": "^4.22.3",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.59.2",
