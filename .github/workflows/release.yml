@@ -138,7 +138,6 @@ jobs:
 
       - name: Bump version in source
         if: steps.publish.outputs.changed == 'true'
-        continue-on-error: true
         env:
           NEXT: ${{ steps.ver.outputs.version }}
           TAG: ${{ steps.ver.outputs.tag }}

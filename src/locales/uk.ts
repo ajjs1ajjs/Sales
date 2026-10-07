@@ -93,6 +93,8 @@ export const uk = {
     installText: 'Встановіть додаток для швидкого доступу',
     install: 'Встановити',
     close: 'Закрити',
+    updateText: 'Доступна нова версія',
+    update: 'Оновити',
   },
   history: {
     title: 'Історія сповіщень',

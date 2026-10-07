@@ -12,6 +12,9 @@ export default defineConfig({
       filename: 'sw.ts',
       injectManifest: {
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
+        // H3: single-file dist/sw.js нативно (раніше — patch-package до
+        // хешованого файла плагіна, що ламався на кожному бампі).
+        rollupFormat: 'iife',
       },
       manifest: {
         name: 'Game Sales Aggregator',

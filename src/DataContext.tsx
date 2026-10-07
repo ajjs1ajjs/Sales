@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
-import type { DealsData, SteamGame } from './types';
+import type { DealsData, NotifiedItem, SteamGame } from './types';
 
 // deals.json генерується із зовнішнього Steam API, тому елемент може не мати
 // полів (напр. upstream пропустив title). Нормалізуємо КОЖЕН елемент,
@@ -45,6 +45,22 @@ function normalizeList<T>(raw: unknown, normalize: (g: Record<string, unknown>) 
     .map(normalize);
 }
 
+// M2: notifiedHistory нормалізується так само як steam — сирий timestamp/
+// percent з отруєного deals.json ламав сортування (-NaN%) в HistoryPage.
+function normalizeHistory(raw: unknown): Record<string, NotifiedItem> {
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return {};
+  const out: Record<string, NotifiedItem> = {};
+  for (const [key, v] of Object.entries(raw as Record<string, unknown>)) {
+    if (typeof key !== 'string' || !v || typeof v !== 'object') continue;
+    const item = v as Record<string, unknown>;
+    if (typeof item.title !== 'string') continue;
+    const type = item.type === 'free' || item.type === 'discount' || item.type === 'popular' ? item.type : 'discount';
+    const ts = typeof item.timestamp === 'string' && !Number.isNaN(Date.parse(item.timestamp)) ? item.timestamp : '';
+    out[key] = { title: item.title, price: num(item.price), percent: num(item.percent), timestamp: ts, type };
+  }
+  return out;
+}
+
 interface DataContextValue {
   data: DealsData | null;
   loading: boolean;
@@ -79,10 +95,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
         const jsonData: DealsData = {
           lastUpdated: typeof raw?.lastUpdated === 'string' ? raw.lastUpdated : '',
           steam: normalizeList(raw?.steam, normalizeSteam),
-          notifiedHistory:
-            raw?.notifiedHistory && typeof raw.notifiedHistory === 'object'
-              ? raw.notifiedHistory
-              : {},
+          notifiedHistory: normalizeHistory(raw?.notifiedHistory),
         };
         setData(jsonData);
         setError(null);

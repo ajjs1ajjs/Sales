@@ -95,6 +95,8 @@ export const en: Translations = {
     installText: 'Install the app for quick access',
     install: 'Install',
     close: 'Close',
+    updateText: 'A new version is available',
+    update: 'Update',
   },
   history: {
     title: 'Notification History',

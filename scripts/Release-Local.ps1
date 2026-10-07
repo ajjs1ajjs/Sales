@@ -65,9 +65,14 @@ git checkout -- public/sitemap.xml 2>$null
 
 # --- 3. Публікація в dist (тільки при змінах) --------------------------------
 $tmp = Join-Path ([IO.Path]::GetTempPath()) ('dist-sales-{0}' -f [guid]::NewGuid().ToString('N'))
-$token = (gh auth token).Trim()
-git clone "https://x-access-token:$token@github.com/$DistRepo.git" $tmp --depth 1 --quiet
+# M3: токен через заголовок, а не в URL — інакше світиться в ps/логах.
+$env:GH_TOKEN = (gh auth token).Trim()
+git -c http.extraHeader="Authorization: Bearer $env:GH_TOKEN" clone "https://github.com/$DistRepo.git" $tmp --depth 1 --quiet
 if ($LASTEXITCODE -ne 0) { Fail 'dist clone failed' }
+# Push у $tmp теж потребує авторизації: той самий заголовок локально в клон
+# (temp-тека видаляється у finally, токен ніде не світиться).
+git -C $tmp config http.extraHeader "Authorization: Bearer $env:GH_TOKEN"
+$env:GH_TOKEN = $null
 try {
   New-Item -ItemType Directory -Path "$tmp/sales" -Force | Out-Null
   # Дзеркало dist/sales <- dist/, КРІМ data/ (.nojekyll теж зберігаємо як було).

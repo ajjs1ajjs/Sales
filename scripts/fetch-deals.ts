@@ -355,10 +355,16 @@ async function sendTelegramMessage(text: string) {
   }
 
   if (!response.ok) {
+    // M1: тихий пропуск гірший за падіння рану — невідправлене маркувалось
+    // sent і чекало кулдауну 30 днів. Кидаємо зі статусом: викликач вирішує
+    // (429/5xx — перервати ран і повторити наступного разу; решта 4xx —
+    // перманентно, маркувати щоб не отруїти чергу).
     logger.error({ url: logSafeUrl, status: response.status }, 'telegram api error');
-  } else {
-    logger.info('✅ Telegram message sent successfully.');
+    const err = new Error(`Telegram send failed: HTTP ${response.status}`);
+    (err as NodeJS.ErrnoException).code = `HTTP_${response.status}`;
+    throw err;
   }
+  logger.info('✅ Telegram message sent successfully.');
 }
 
 async function run() {
@@ -548,7 +554,9 @@ async function run() {
 
   // Helper: split array of items into batches and send each as Telegram message.
   // Calls markSent(index) after each successful batch to prevent duplicate
-  // notifications on the next cron run if a later batch fails.
+  // notifications on the next cron run if a later batch fails. Retryable
+  // failures (429/5xx) abort the run unmarked (retry next time); permanent
+  // 4xx are marked to avoid poisoning the queue forever.
   async function sendBatched<T>(
     header: string,
     items: T[],
@@ -564,7 +572,15 @@ async function run() {
         text += buildItem(item) + '\n\n';
       }
       text += footer;
-      await sendTelegramMessage(text.slice(0, TG_MESSAGE_LIMIT));
+      try {
+        await sendTelegramMessage(text.slice(0, TG_MESSAGE_LIMIT));
+      } catch (err) {
+        const code = (err as NodeJS.ErrnoException)?.code ?? '';
+        const status = Number(code.replace('HTTP_', ''));
+        const retryable = code === '' || status === 429 || status >= 500;
+        if (retryable) throw err;
+        logger.error({ err: String(err) }, 'permanent telegram error, marking batch as sent');
+      }
       for (let j = 0; j < batch.length; j++) {
         markSent(i + j);
       }

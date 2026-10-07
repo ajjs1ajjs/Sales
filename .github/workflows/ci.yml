@@ -1,9 +1,15 @@
 name: CI
 
 on:
-  # Checks run on PRs; pushes to main are covered by Release (which also runs
-  # lint + tests + build). This avoids running the same pipeline twice per push
-  # and keeps GitHub Actions minutes low.
+  # Checks run on PRs, on pushes to main (public repo: minutes are free)
+  # and manually. Release is manual-only and does NOT run checks on push,
+  # so there is no double pipeline per push.
+  push:
+    branches: [main]
+    paths-ignore:
+      - '**/*.md'
+      - 'docs/**'
+      - 'public/data/**'
   pull_request:
     branches: [main]
     paths-ignore:
