@@ -185,6 +185,10 @@
   border-left: 3px solid var(--accent-epic);
 }
 
+.history-item--gamepass {
+  border-left: 3px solid var(--accent-gamepass);
+}
+
 .history-item-main {
   display: flex;
   align-items: center;
@@ -214,6 +218,11 @@
 .history-badge--popular {
   background: rgba(192, 132, 252, 0.15);
   color: var(--accent-epic);
+}
+
+.history-badge--gamepass {
+  background: rgba(74, 222, 128, 0.15);
+  color: var(--accent-gamepass);
 }
 
 .history-item-title {

@@ -29,7 +29,18 @@ describe('SearchControls', () => {
     expect(screen.getByText('Steam Безкоштовно')).toBeInTheDocument();
     expect(screen.getByText('Steam Знижки')).toBeInTheDocument();
     expect(screen.getByText('Steam Тренди')).toBeInTheDocument();
+    expect(screen.getByText('Game Pass Нові')).toBeInTheDocument();
+    expect(screen.getByText('Game Pass Топ')).toBeInTheDocument();
     expect(screen.getByText('Обране')).toBeInTheDocument();
+  });
+
+  it('calls onFilterChange with gamepass filter keys', () => {
+    const onFilterChange = vi.fn();
+    render(<SearchControls {...defaultProps} onFilterChange={onFilterChange} />, { wrapper: Wrapper });
+    fireEvent.click(screen.getByText('Game Pass Нові'));
+    expect(onFilterChange).toHaveBeenCalledWith('gamepass_new');
+    fireEvent.click(screen.getByText('Game Pass Топ'));
+    expect(onFilterChange).toHaveBeenCalledWith('gamepass_popular');
   });
 
   it('calls onSearchChange on input', () => {
@@ -62,6 +73,8 @@ describe('SearchControls', () => {
       steam_free: 1,
       steam_specials: 6,
       steam_popular: 8,
+      gamepass_new: 3,
+      gamepass_popular: 2,
       wishlist: 1,
     };
     render(<SearchControls {...defaultProps} filterCounts={filterCounts} />, { wrapper: Wrapper });
@@ -69,6 +82,8 @@ describe('SearchControls', () => {
     expect(screen.getByRole('button', { name: /Steam Знижки\(6\)/i })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: /Steam Безкоштовно\(1\)/i })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: /Steam Тренди\(8\)/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /Game Pass Нові\(3\)/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /Game Pass Топ\(2\)/i })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: /Обране\(1\)/i })).toBeInTheDocument();
   });
 });

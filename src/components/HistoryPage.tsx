@@ -10,7 +10,7 @@ interface Props {
   loading?: boolean;
 }
 
-type HistoryFilter = 'all' | 'free' | 'discount' | 'popular';
+type HistoryFilter = 'all' | 'free' | 'discount' | 'popular' | 'gamepass';
 
 export function HistoryPage({ data, loading = false }: Props) {
   const { t, locale } = useLocale();
@@ -18,14 +18,22 @@ export function HistoryPage({ data, loading = false }: Props) {
 
   const history = useMemo(() => {
     if (!data?.notifiedHistory) return [];
+    // У файлі gamepass-записи живуть довше (щоб не дублювати пости), але
+    // історія для всіх джерел однакова — останні 30 днів.
+    const cutoff = new Date().getTime() - 30 * 24 * 60 * 60 * 1000;
     return Object.entries(data.notifiedHistory)
       .map(([key, item]) => ({ key, ...item }))
+      .filter((item) => {
+        const time = new Date(item.timestamp).getTime();
+        return !Number.isNaN(time) && time >= cutoff;
+      })
       .sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime());
   }, [data]);
 
   const filtered = useMemo(() => {
     if (filter === 'all') return history;
-    return history.filter((item) => item.type === filter);
+    // safeHistoryType: легасі-записи xbox_new фільтруються як gamepass.
+    return history.filter((item) => safeHistoryType(item.type) === filter);
   }, [history, filter]);
 
   if (loading) {
@@ -66,6 +74,7 @@ export function HistoryPage({ data, loading = false }: Props) {
           ['free', t.history.free],
           ['discount', t.history.discount],
           ['popular', t.history.popular],
+          ['gamepass', t.history.gamepass],
         ] as [HistoryFilter, string][]).map(([key, label]) => (
           <button
             key={key}
@@ -90,7 +99,7 @@ export function HistoryPage({ data, loading = false }: Props) {
             <div key={item.key} className={`history-item history-item--${safeHistoryType(item.type)}`}>
               <div className="history-item-main">
                 <span className={`history-badge history-badge--${safeHistoryType(item.type)}`}>
-                  {({ free: t.history.freeBadge, discount: `-${item.percent}%`, popular: t.history.topBadge } satisfies Record<string, string>)[safeHistoryType(item.type)]}
+                  {({ free: t.history.freeBadge, discount: `-${item.percent}%`, popular: t.history.topBadge, gamepass: t.history.gamepassBadge } satisfies Record<string, string>)[safeHistoryType(item.type)]}
                 </span>
                 <span className="history-item-title">{item.title}</span>
               </div>

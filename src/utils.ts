@@ -1,4 +1,4 @@
-import type { SteamGame, SortType } from './types';
+import type { GamePassGame, SteamGame, SortType } from './types';
 
 export type Game = SteamGame;
 
@@ -6,8 +6,10 @@ export { formatPrice, formatDate } from './shared/format';
 
 // Allowlist for history item types before class-name interpolation: a
 // compromised deals.json must not inject arbitrary class strings.
-const HISTORY_TYPES: ReadonlySet<string> = new Set(['free', 'discount', 'popular']);
+const HISTORY_TYPES: ReadonlySet<string> = new Set(['free', 'discount', 'popular', 'gamepass']);
 export function safeHistoryType(t: string): string {
+  // Легасі-тип xbox_new (до перезапуску Game Pass) мапимо на gamepass.
+  if (t === 'xbox_new') return 'gamepass';
   return HISTORY_TYPES.has(t) ? t : 'free';
 }
 
@@ -109,6 +111,21 @@ export function sortGames<T extends SteamGame>(games: T[], sortType: SortType): 
       return games.toSorted((a, b) => b.discountPrice - a.discountPrice);
     case 'discount-desc':
       return games.toSorted((a, b) => b.discountPercent - a.discountPercent);
+    default:
+      return games;
+  }
+}
+
+/**
+ * Game Pass-ігри не мають ціни/знижки — для них працює лише сортування за
+ * назвою; решта типів лишає природний порядок каталогу.
+ */
+export function sortGamePassGames(games: GamePassGame[], sortType: SortType): GamePassGame[] {
+  switch (sortType) {
+    case 'name-asc':
+      return games.toSorted((a, b) => a.title.localeCompare(b.title));
+    case 'name-desc':
+      return games.toSorted((a, b) => b.title.localeCompare(a.title));
     default:
       return games;
   }

@@ -57,6 +57,13 @@ export function SearchControls({
         { filterKey: 'steam_popular', label: t.filters.steamPopular },
       ],
     },
+    {
+      label: t.filters.groupGamePass,
+      items: [
+        { filterKey: 'gamepass_new', label: t.filters.gamepassNew },
+        { filterKey: 'gamepass_popular', label: t.filters.gamepassPopular },
+      ],
+    },
   ];
 
   function renderGroup(group: typeof groupedFilters[number]) {

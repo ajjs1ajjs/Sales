@@ -1,10 +1,11 @@
 import { lazy, useState, Suspense, Fragment } from 'react';
 import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import { Clock, RefreshCw, AlertCircle, History } from 'lucide-react';
-import type { FilterType, SortType, SteamGame } from './types';
+import type { FilterType, SortType, SteamGame, GamePassGame } from './types';
 import { ErrorBoundaryWithLocale } from './components/ErrorBoundaryWithLocale';
 import { TelegramBanner } from './components/TelegramBanner';
 import { SearchControls } from './components/SearchControls';
+import { SearchEmptyState } from './components/SearchEmptyState';
 import { ThemeToggle } from './components/ThemeToggle';
 import { LanguageToggle } from './components/LanguageToggle';
 import { InstallPWA } from './components/InstallPWA';
@@ -23,8 +24,21 @@ type SectionProps = {
   sortType: SortType;
 };
 
+type GamePassSectionProps = {
+  games: GamePassGame[];
+  activeFilter: FilterType;
+  searchQuery: string;
+  sortType: SortType;
+};
+
 const SteamSection = lazy(() =>
   import('./components/SteamSection').then((m) => ({ default: m.SteamSection as React.FunctionComponent<SectionProps> })),
+);
+const GamePassSection = lazy(() =>
+  import('./components/GamePassSection').then((m) => ({ default: m.GamePassSection as React.FunctionComponent<GamePassSectionProps> })),
+);
+const WishlistSection = lazy(() =>
+  import('./components/WishlistSection').then((m) => ({ default: m.WishlistSection })),
 );
 const HistoryPageLazy = lazy(() =>
   import('./components/HistoryPage').then((m) => ({ default: m.HistoryPage })),
@@ -48,10 +62,13 @@ function HomePage() {
     absoluteMaxPrice,
     filterCounts,
     priceFilteredSteam,
+    gamepassGames,
   } = useGameFilters(data, wishlist, searchQuery);
 
   const formatUpdate = locale === 'en' ? formatLastUpdatedEn : formatLastUpdated;
   const historyAria = locale === 'en' ? 'Notification history' : 'Історія сповіщень';
+  const steamVisible = priceFilteredSteam.length > 0;
+  const gamepassVisible = gamepassGames.length > 0;
 
   return (
     <ErrorBoundaryWithLocale>
@@ -128,28 +145,49 @@ function HomePage() {
 
           {!loading && !error && (
             <>
-              <SteamSection
-                games={priceFilteredSteam}
-                activeFilter={activeFilter}
-                searchQuery={debouncedSearch}
-                sortType={sortType}
-              />
-              {activeFilter === 'all' &&
-                priceFilteredSteam.length === 0 &&
-                !debouncedSearch && (
-                  <div className="empty-state section-gap-top">
-                    <h3>{t.app.noDeals}</h3>
-                    <p>{t.app.noDealsDesc}</p>
-                  </div>
-                )}
+              {activeFilter === 'wishlist' ? (
+                (steamVisible || gamepassVisible) && (
+                  <WishlistSection
+                    steam={priceFilteredSteam}
+                    gamepass={gamepassGames}
+                    searchQuery={debouncedSearch}
+                    sortType={sortType}
+                  />
+                )
+              ) : (
+                <>
+                  <SteamSection
+                    games={priceFilteredSteam}
+                    activeFilter={activeFilter}
+                    searchQuery={debouncedSearch}
+                    sortType={sortType}
+                  />
+                  <GamePassSection
+                    games={gamepassGames}
+                    activeFilter={activeFilter}
+                    searchQuery={debouncedSearch}
+                    sortType={sortType}
+                  />
+                </>
+              )}
 
-              {activeFilter === 'wishlist' &&
-                priceFilteredSteam.length === 0 && (
-                  <div className="empty-state section-gap-top">
-                    <h3>{isPriceFiltered ? t.app.wishlistEmptyPrice : t.app.wishlistEmpty}</h3>
-                    <p>{isPriceFiltered ? t.app.wishlistEmptyPriceDesc : t.app.wishlistEmptyDesc}</p>
-                  </div>
-                )}
+              {activeFilter === 'all' && !steamVisible && !gamepassVisible && !debouncedSearch && (
+                <div className="empty-state section-gap-top">
+                  <h3>{t.app.noDeals}</h3>
+                  <p>{t.app.noDealsDesc}</p>
+                </div>
+              )}
+
+              {activeFilter === 'all' && !steamVisible && !gamepassVisible && debouncedSearch && (
+                <SearchEmptyState searchQuery={debouncedSearch} />
+              )}
+
+              {activeFilter === 'wishlist' && !steamVisible && !gamepassVisible && (
+                <div className="empty-state section-gap-top">
+                  <h3>{isPriceFiltered ? t.app.wishlistEmptyPrice : t.app.wishlistEmpty}</h3>
+                  <p>{isPriceFiltered ? t.app.wishlistEmptyPriceDesc : t.app.wishlistEmptyDesc}</p>
+                </div>
+              )}
             </>
           )}
         </main>

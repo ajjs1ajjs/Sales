@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import type { DealsData, FilterType, SortType, SteamGame } from '../types';
+import type { DealsData, FilterType, GamePassGame, SortType, SteamGame } from '../types';
 import { useDebounce } from './useDebounce';
 import { useLocalStorage } from './useLocalStorage';
 
@@ -20,6 +20,8 @@ export interface GameFilters {
   absoluteMaxPrice: number;
   filterCounts: Record<FilterType, number>;
   priceFilteredSteam: SteamGame[];
+  /** Game Pass-ігри після поточного фільтра й пошуку (ціновий фільтр не діє — у них немає ціни). */
+  gamepassGames: GamePassGame[];
 }
 
 export function useGameFilters(data: DealsData | null, wishlist: string[], searchQuery: string): GameFilters {
@@ -63,11 +65,18 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
     ) || [];
   }, [data, debouncedSearch]);
 
+  const gamepassMatchingSearch = useMemo(() => {
+    return (data?.gamepass ?? []).filter((game) =>
+      game.title.toLowerCase().includes(debouncedSearch.toLowerCase()),
+    );
+  }, [data, debouncedSearch]);
+
   const filterCounts = useMemo(() => {
     const inPriceRange = (price: number) => price >= priceRange[0] && price <= priceRange[1];
     const counts: Record<FilterType, number> = {
       all: 0,
       steam_free: 0, steam_specials: 0, steam_popular: 0,
+      gamepass_new: 0, gamepass_popular: 0,
       wishlist: 0,
     };
 
@@ -85,8 +94,16 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
       if (wishlistSet.has(g.id)) counts.wishlist++;
     }
 
+    // Game Pass не має ціни: у "all" входить весь пошуковий збіг.
+    counts.all += gamepassMatchingSearch.length;
+    for (const g of gamepassMatchingSearch) {
+      if (g.isNew) counts.gamepass_new++;
+      if (g.isPopular) counts.gamepass_popular++;
+      if (wishlistSet.has(g.id)) counts.wishlist++;
+    }
+
     return counts;
-  }, [steamMatchingSearch, wishlistSet, priceRange]);
+  }, [steamMatchingSearch, gamepassMatchingSearch, wishlistSet, priceRange]);
 
   const filteredSteam = useMemo(() => {
     return steamMatchingSearch.filter((game) => {
@@ -106,6 +123,22 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
     });
   }, [filteredSteam, priceRange]);
 
+  const gamepassGames = useMemo(() => {
+    switch (activeFilter) {
+      case 'gamepass_new':
+        return gamepassMatchingSearch.filter((g) => g.isNew);
+      case 'gamepass_popular':
+        return gamepassMatchingSearch.filter((g) => g.isPopular);
+      case 'wishlist':
+        return gamepassMatchingSearch.filter((g) => wishlistSet.has(g.id));
+      // Steam-фільтри показують лише Steam; Game Pass — у "all" і своїх фільтрах.
+      case 'all':
+        return gamepassMatchingSearch;
+      default:
+        return [];
+    }
+  }, [gamepassMatchingSearch, activeFilter, wishlistSet]);
+
   return {
     activeFilter,
     setActiveFilter,
@@ -119,5 +152,6 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
     absoluteMaxPrice,
     filterCounts,
     priceFilteredSteam,
+    gamepassGames,
   };
 }

@@ -1,16 +1,17 @@
 import { useMemo, useState } from 'react';
 import { ExternalLink, Tag, TrendingUp } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
-import type { SteamGame } from '../types';
+import type { GamePassGame, SteamGame } from '../types';
 import { formatPrice, formatDate, formatDateEn, safeUrl } from '../utils';
 import { WishlistButton } from './WishlistButton';
 
 export type Game = SteamGame;
+export type AnyGame = SteamGame | GamePassGame;
 
 interface BaseProps {
-  platform: 'steam';
+  platform: 'steam' | 'gamepass';
   badge?: string;
-  badgeVariant?: 'free' | 'discount';
+  badgeVariant?: 'free' | 'discount' | 'top';
   showTagDescription?: boolean;
   showTrendingDescription?: boolean;
   isUpcoming?: boolean;
@@ -19,7 +20,7 @@ interface BaseProps {
   searchQuery?: string;
 }
 
-type Props = BaseProps & { game: Game };
+type Props = BaseProps & { game: AnyGame };
 
 const FALLBACK_IMG = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22225%22%3E%3Crect fill=%22%23100d1a%22 width=%22400%22 height=%22225%22/%3E%3Ctext fill=%22%23555%22 x=%22200%22 y=%22120%22 text-anchor=%22middle%22 font-size=%2214%22%3EЗображення недоступне%3C/text%3E%3C/svg%3E';
 
@@ -56,8 +57,13 @@ export function GameCard({
 }: Props) {
   const { t, locale } = useLocale();
   const [imgError, setImgError] = useState(false);
-  const defaultLinkText = linkText ?? t.steam.buy;
-  const isFreeOffer = game.isFree;
+  const isGamePass = platform === 'gamepass';
+  // platform і game приходять узгоджено від секцій; для гілки Steam даємо
+  // TS-звуження, щоб не тягнути in-перевірки на кожне поле.
+  const steamGame = isGamePass ? null : (game as SteamGame);
+  const platformName = isGamePass ? t.platform.gamepass : t.platform.steam;
+  const defaultLinkText = linkText ?? (isGamePass ? t.gamepass.viewInStore : t.steam.buy);
+  const isFreeOffer = steamGame?.isFree ?? false;
 
   const highlightRegex = useMemo(() => {
     const q = searchQuery.trim();
@@ -73,11 +79,11 @@ export function GameCard({
   return (
     <article
       className={`game-card${isUpcoming ? ' game-card--upcoming' : ''}`}
-      aria-label={t.platform.gameAria.replace('{title}', game.title).replace('{platform}', t.platform.steam)}
+      aria-label={t.platform.gameAria.replace('{title}', game.title).replace('{platform}', platformName)}
     >
       <div className="card-image-wrapper">
         <span className={`platform-badge ${platform}`}>
-          {'Steam'}
+          {platformName}
         </span>
         {badge && (
           <span className={`deal-badge${badgeVariant ? ` ${badgeVariant}` : ''}`}>
@@ -127,18 +133,20 @@ export function GameCard({
 
         <div className="card-footer">
           <div className="price-container">
-            {'originalPrice' in game && game.originalPrice > 0 && (
+            {steamGame && steamGame.originalPrice > 0 && (
               <span className="price-original">
-                {formatPrice(game.originalPrice, game.currency, locale)}
+                {formatPrice(steamGame.originalPrice, steamGame.currency, locale)}
               </span>
             )}
-            {isFreeOffer ? (
+            {isGamePass ? (
+              <span className="price-current gp-included">{t.gamepass.included}</span>
+            ) : isFreeOffer ? (
               <span className="price-current free-text">{t.price.free}</span>
-            ) : (
+            ) : steamGame ? (
               <span className="price-current">
-                {formatPrice(game.discountPrice, game.currency, locale)}
+                {formatPrice(steamGame.discountPrice, steamGame.currency, locale)}
               </span>
-            )}
+            ) : null}
           </div>
           <a
             href={safeStoreUrl}

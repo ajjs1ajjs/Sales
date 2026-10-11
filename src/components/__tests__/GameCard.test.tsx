@@ -3,7 +3,7 @@ import { describe, it, expect } from 'vitest';
 import { LocaleProvider } from '../../contexts/LocaleContext';
 import { WishlistProvider } from '../../contexts/WishlistContext';
 import { GameCard } from '../GameCard';
-import type { SteamGame } from '../../types';
+import type { GamePassGame, SteamGame } from '../../types';
 
 function Wrapper({ children }: { children: React.ReactNode }) {
   return (
@@ -84,5 +84,31 @@ describe('GameCard', () => {
   it('renders wishlist button', () => {
     render(<GameCard game={mockSteamGame} platform="steam" />, { wrapper: Wrapper });
     expect(screen.getByRole('button', { name: /додати.*в обране/i })).toBeInTheDocument();
+  });
+
+  describe('Game Pass cards', () => {
+    const mockGamePassGame: GamePassGame = {
+      id: '9PB301R051CQ',
+      title: 'Test Game Pass Game',
+      imageUrl: 'https://store-images.s-microsoft.com/image/test.jpg',
+      url: 'https://www.xbox.com/uk-UA/games/store/test-game/9PB301R051CQ',
+      isNew: true,
+      isPopular: true,
+    };
+
+    it('renders subscription label instead of price', () => {
+      render(<GameCard game={mockGamePassGame} platform="gamepass" badge="НОВЕ" />, { wrapper: Wrapper });
+      expect(screen.getByText('Test Game Pass Game')).toBeInTheDocument();
+      expect(screen.getByText('НОВЕ')).toBeInTheDocument();
+      expect(screen.getByText('Включено у Game Pass')).toBeInTheDocument();
+      expect(screen.queryByText(/грн/)).not.toBeInTheDocument();
+    });
+
+    it('renders Game Pass platform badge and store link', () => {
+      render(<GameCard game={mockGamePassGame} platform="gamepass" />, { wrapper: Wrapper });
+      expect(screen.getByText('Game Pass')).toBeInTheDocument();
+      const link = screen.getByRole('link', { name: /детальніше/i });
+      expect(link).toHaveAttribute('href', mockGamePassGame.url);
+    });
   });
 });

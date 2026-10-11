@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
-import type { DealsData, NotifiedItem, SteamGame } from './types';
+import type { DealsData, GamePassGame, NotifiedItem, SteamGame } from './types';
 
 // deals.json генерується із зовнішнього Steam API, тому елемент може не мати
 // полів (напр. upstream пропустив title). Нормалізуємо КОЖЕН елемент,
@@ -25,6 +25,21 @@ function normalizeSteam(g: Record<string, unknown>): SteamGame {
     url: str(g.url),
     isSpecial: Boolean(g.isSpecial),
     isFree: typeof g.isFree === 'boolean' ? g.isFree : originalPrice > 0 && discountPrice === 0,
+    isPopular: Boolean(g.isPopular),
+  };
+}
+
+function normalizeGamePass(g: Record<string, unknown>): GamePassGame {
+  // Каталог Microsoft віддає protocol-relative зображення (`//store-images…`);
+  // safeUrl у картці такі відкидає, тому одразу робимо https.
+  const rawImage = str(g.imageUrl);
+  return {
+    id: str(g.id),
+    title: str(g.title),
+    imageUrl: rawImage.startsWith('//') ? `https:${rawImage}` : rawImage,
+    url: str(g.url),
+    description: str(g.description) || undefined,
+    isNew: Boolean(g.isNew),
     isPopular: Boolean(g.isPopular),
   };
 }
@@ -54,7 +69,9 @@ function normalizeHistory(raw: unknown): Record<string, NotifiedItem> {
     if (typeof key !== 'string' || !v || typeof v !== 'object') continue;
     const item = v as Record<string, unknown>;
     if (typeof item.title !== 'string') continue;
-    const type = item.type === 'free' || item.type === 'discount' || item.type === 'popular' ? item.type : 'discount';
+    // Легасі-тип xbox_new (до перезапуску Game Pass) мапимо на gamepass.
+    const rawType = item.type === 'xbox_new' ? 'gamepass' : item.type;
+    const type = rawType === 'free' || rawType === 'discount' || rawType === 'popular' || rawType === 'gamepass' ? rawType : 'discount';
     const ts = typeof item.timestamp === 'string' && !Number.isNaN(Date.parse(item.timestamp)) ? item.timestamp : '';
     out[key] = { title: item.title, price: num(item.price), percent: num(item.percent), timestamp: ts, type };
   }
@@ -95,6 +112,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
         const jsonData: DealsData = {
           lastUpdated: typeof raw?.lastUpdated === 'string' ? raw.lastUpdated : '',
           steam: normalizeList(raw?.steam, normalizeSteam),
+          gamepass: normalizeList(raw?.gamepass, normalizeGamePass),
           notifiedHistory: normalizeHistory(raw?.notifiedHistory),
         };
         setData(jsonData);

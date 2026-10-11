@@ -6,7 +6,6 @@ import type { SteamGame, FilterType, SortType } from '../types';
 import { sortGames } from '../utils';
 import { GameCard } from './GameCard';
 import { ShowMore } from './ShowMore';
-import { SearchEmptyState } from './SearchEmptyState';
 import { CollapsibleSection } from './CollapsibleSection';
 
 interface Props {
@@ -128,10 +127,6 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType }: Pro
             </div>
           )}
         </CollapsibleSection>
-      )}
-
-      {activeFilter === 'all' && games.length === 0 && searchQuery && (
-        <SearchEmptyState searchQuery={searchQuery} />
       )}
     </>
   );

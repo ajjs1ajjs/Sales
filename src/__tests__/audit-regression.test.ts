@@ -53,6 +53,9 @@ describe('audit round 2: history type allowlist', () => {
     const { safeHistoryType } = await import('../utils');
     expect(safeHistoryType('free')).toBe('free');
     expect(safeHistoryType('discount')).toBe('discount');
+    expect(safeHistoryType('popular')).toBe('popular');
+    expect(safeHistoryType('gamepass')).toBe('gamepass');
+    expect(safeHistoryType('xbox_new')).toBe('gamepass');
     expect(safeHistoryType('nope')).toBe('free');
     expect(safeHistoryType('free" onmouseover="x')).toBe('free');
   });

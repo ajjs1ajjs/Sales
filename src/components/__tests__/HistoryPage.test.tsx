@@ -13,30 +13,53 @@ function Wrapper({ children }: { children: React.ReactNode }) {
   );
 }
 
+const daysAgo = (n: number) => new Date(Date.now() - n * 24 * 60 * 60 * 1000).toISOString();
+
 const mockData: DealsData = {
-  lastUpdated: '2026-06-16T03:44:30.960Z',
+  lastUpdated: daysAgo(0),
   steam: [],
   notifiedHistory: {
     'steam_free_game1': {
       title: 'Free Game 1',
       price: 0,
       percent: 100,
-      timestamp: '2026-06-15T10:00:00.000Z',
+      timestamp: daysAgo(2),
       type: 'free',
     },
     'steam_discount_game2': {
       title: 'Discounted Game 2',
       price: 9.99,
       percent: 50,
-      timestamp: '2026-06-14T10:00:00.000Z',
+      timestamp: daysAgo(3),
       type: 'discount',
     },
     'steam_popular_game3': {
       title: 'Popular Game 3',
       price: 29.99,
       percent: 0,
-      timestamp: '2026-06-13T10:00:00.000Z',
+      timestamp: daysAgo(4),
       type: 'popular',
+    },
+    'gamepass_game4': {
+      title: 'Game Pass Game 4',
+      price: 0,
+      percent: 0,
+      timestamp: daysAgo(5),
+      type: 'gamepass',
+    },
+    'xbox_new_game5': {
+      title: 'Legacy Xbox Game 5',
+      price: 0,
+      percent: 0,
+      timestamp: daysAgo(6),
+      type: 'xbox_new',
+    },
+    'steam_free_game6': {
+      title: 'Old Game 6',
+      price: 0,
+      percent: 100,
+      timestamp: daysAgo(40),
+      type: 'free',
     },
   },
 };
@@ -83,5 +106,19 @@ describe('HistoryPage', () => {
     expect(screen.getByText('Роздачі')).toBeInTheDocument();
     expect(screen.getByText('Знижки')).toBeInTheDocument();
     expect(screen.getByText('Тренди')).toBeInTheDocument();
+    expect(screen.getByText('Game Pass')).toBeInTheDocument();
+  });
+
+  it('shows gamepass entries (incl. legacy xbox_new) under the Game Pass filter', () => {
+    render(<HistoryPage data={mockData} />, { wrapper: Wrapper });
+    fireEvent.click(screen.getByText('Game Pass'));
+    expect(screen.getByText('Game Pass Game 4')).toBeInTheDocument();
+    expect(screen.getByText('Legacy Xbox Game 5')).toBeInTheDocument();
+    expect(screen.queryByText('Free Game 1')).not.toBeInTheDocument();
+  });
+
+  it('hides entries older than 30 days', () => {
+    render(<HistoryPage data={mockData} />, { wrapper: Wrapper });
+    expect(screen.queryByText('Old Game 6')).not.toBeInTheDocument();
   });
 });
