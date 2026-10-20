@@ -1,15 +1,28 @@
 {
-  "lastUpdated": "2026-10-11T14:26:31.242Z",
+  "lastUpdated": "2026-10-20T10:09:43.984Z",
   "steam": [
     {
-      "id": "1808500",
-      "title": "ARC Raiders",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/0a1858e0ad97504cbaa70a931d870756de63c34c/capsule_616x353_alt_assets_8.jpg?t=1791401542",
-      "originalPrice": 1390,
-      "discountPrice": 695,
-      "discountPercent": 50,
+      "id": "1091500",
+      "title": "Cyberpunk 2077",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1808500",
+      "url": "https://store.steampowered.com/app/1091500",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3768760",
+      "title": "007 First Light",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c8fd64a71c14b826d9b47073c1f89b7497b09ef5/capsule_616x353_alt_assets_4.jpg?t=1791886607",
+      "originalPrice": 1599,
+      "discountPrice": 959,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3768760",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -41,92 +54,53 @@
       "isPopular": false
     },
     {
-      "id": "4656000",
-      "title": "BOMBANANA!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1791542068",
-      "originalPrice": 195,
-      "discountPrice": 117,
-      "discountPercent": 40,
+      "id": "990080",
+      "title": "Hogwarts Legacy",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/3f795a6fba1a710110ad16aa80583ecdf42812f4/capsule_616x353.jpg?t=1790708992",
+      "originalPrice": 1599,
+      "discountPrice": 159,
+      "discountPercent": 90,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4656000",
+      "url": "https://store.steampowered.com/app/990080",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
     },
     {
-      "id": "3883570",
-      "title": "Invokyr",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/01f83e02e38a2162e84f8cf02645a425ea1e410e/capsule_616x353.jpg?t=1791547174",
-      "originalPrice": 295,
-      "discountPrice": 221,
-      "discountPercent": 25,
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/0d3514fc053179b6886fb9042177987cc9988537/capsule_616x353_alt_assets_14_ukrainian.jpg?t=1790874369",
+      "originalPrice": 1559,
+      "discountPrice": 389,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3883570",
+      "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
     },
     {
-      "id": "814380",
-      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
-      "originalPrice": 2035,
-      "discountPrice": 1017,
-      "discountPercent": 50,
+      "id": "463530",
+      "title": "Empires of the Undergrowth",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/463530/8d001b479eabf42e1da138b6bf7d90a78dd3c078/capsule_616x353.jpg?t=1791278484",
+      "originalPrice": 399,
+      "discountPrice": 99,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/814380",
+      "url": "https://store.steampowered.com/app/463530",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
     },
     {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1790336367",
-      "originalPrice": 600,
-      "discountPrice": 420,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "4078430",
-      "title": "STAR WARS: Galactic Racer™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/3c44afd74567d593c23049525c1b0376ae80e287/capsule_616x353.jpg?t=1791388584",
-      "originalPrice": 1390,
-      "discountPrice": 1390,
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d06708fd9b55ec7675f1ec7c42e7c9b397fcfd8d/capsule_616x353_alt_assets_6_ukrainian.jpg?t=1792431472",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4078430",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1867240",
-      "title": "WARDOGS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1790774170",
-      "originalPrice": 829,
-      "discountPrice": 829,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1867240",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3219030",
-      "title": "Planet Zoo 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/d42390b547a06884e2b7cbf9bd1b0ae927b9bb46/capsule_616x353.jpg?t=1790942385",
-      "originalPrice": 1145,
-      "discountPrice": 1145,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3219030",
+      "url": "https://store.steampowered.com/app/4435490",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -158,20 +132,87 @@
       "isPopular": true
     },
     {
-      "id": "3055670",
-      "title": "Risk of Rain 2: Hallowed Concepts",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055670/9220991d3c4cf7a71617439e3a800488cd6b5ced/capsule_616x353.jpg?t=1791531426",
-      "originalPrice": 209,
-      "discountPrice": 209,
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1787142639",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3055670",
+      "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1867240",
+      "title": "WARDOGS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/2176797caa54942cc122e5bdefe1807852749f56/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1791928607",
+      "originalPrice": 829,
+      "discountPrice": 829,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1867240",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
     }
   ],
   "gamepass": [
+    {
+      "id": "9N4ZMKC3GX4M",
+      "title": "Beyond These Stars",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.65245.13973446484510076.fbb744c0-e1b7-4091-8221-12cc3c2830c8.5655f4f9-2ef0-4abe-939b-5cecbd366282",
+      "url": "https://www.xbox.com/uk-UA/games/store/beyond-these-stars/9N4ZMKC3GX4M",
+      "description": "Оговтавшись від смутних часів, ваші піпси опиняються на спині Кеви – самотнього космічного кита, що мандрує всесвітом. Будівництво міста на спині розумної істоти пов'язане з певними труднощами, але ко",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9PKZRN4RJRC9",
+      "title": "Chained Beasts",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.412.14257629622536824.7ae5f381-bcdf-4fa8-b97f-cc953530aeb5.9e83bf93-7fd3-40ab-a883-2a681cc0fe14",
+      "url": "https://www.xbox.com/uk-UA/games/store/chained-beasts/9PKZRN4RJRC9",
+      "description": "Step into the Colosseum chained to your friends. Chained Beasts is a co-op gladiator roguelike for 1-4 players, combining brutal combat with teamwork and slapstick moments. Can you gather your friends",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9NQVHHW88XW9",
+      "title": "Bluey's Happy Snaps",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.13570.13762188493241252.c9eed3d4-2711-40bb-b507-e4c31d9fe3e1.76f113cf-8899-43f3-83de-e503e07ff7a3",
+      "url": "https://www.xbox.com/uk-UA/games/store/bluey-s-happy-snaps/9NQVHHW88XW9",
+      "description": "Play, explore, and capture moments with Bluey and Bingo in this photo-powered adventure across familiar spots from the show. Snap memories solo or side-by-side with a second player, discover Australia",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9P861V1542BL",
+      "title": "Valor Mortis",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.53227.14098465670758705.ee77a872-5740-4661-bec6-399c86db9b2c.17df4b49-0b94-48ef-8466-a3b013d56f6b",
+      "url": "https://www.xbox.com/uk-UA/games/store/valor-mortis/9P861V1542BL",
+      "description": "Ви служили Наполеону. Ви вмерли за Наполеона. Ви повстали для Наполеона. Ви — Вільям, солдат Великої армії, піднятої з могил. Але нова Європа — не те місце, за яке ви колись віддали життя. Загадкова ч",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9P55XDLRJDHB",
+      "title": "Battlefield™ 6 - PC",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.34028.14575335752877003.2d45c53a-ed38-497f-93c5-4867ec70c026.96bb52c6-85a4-4f53-bf5a-335c2635ceeb",
+      "url": "https://www.xbox.com/uk-UA/games/store/battlefield-6-pc/9P55XDLRJDHB",
+      "description": "The ultimate all-out warfare experience. Fight in high-intensity infantry combat. Rip through the skies in aerial dogfights. Demolish your environment for a strategic advantage. Harness complete contr",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9PPF72ZH6RP8",
+      "title": "Deep Dish Dungeon",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.24721.14326063685133853.939b1741-3671-493b-b12d-2c262722c883.5ca038e4-4a9c-44dc-95d7-1adda3f6ad1d",
+      "url": "https://www.xbox.com/uk-UA/games/store/deep-dish-dungeon/9PPF72ZH6RP8",
+      "description": "Deep Dish Dungeon is a dungeon crawler and exploration game that rewards curiosity and resourcefulness. In an atmospheric environment, explore corridors, rooms and passageways solo or with up to two f",
+      "isNew": true,
+      "isPopular": false
+    },
     {
       "id": "9N72DFC6GL91",
       "title": "Echo Weaver",
@@ -206,7 +247,7 @@
       "url": "https://www.xbox.com/uk-UA/games/store/gears-of-war-e-day/9N4PT8HGCDHQ",
       "description": "Початок вторгнення Відчуйте жах і жорстокість Дня вторгнення Чотирнадцять років до оригінальної Gears of War — приєднуйтеся до Маркуса Фенікса та Домініка Сантьяго в оригінальній напруженій сюжетній к",
       "isNew": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "9PM3J18QM4Q3",
@@ -278,7 +319,7 @@
       "url": "https://www.xbox.com/uk-UA/games/store/runescape-dragonwilds/9P402RWR63H4",
       "description": "On RuneScape's forgotten continent of Ashenfall, dragons have awoken. Gather, build, skill and craft in this co-operative survival adventure. Only by mastering survival and uncovering ancient secrets ",
       "isNew": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "9N034X5G08B7",
@@ -353,42 +394,6 @@
       "isPopular": false
     },
     {
-      "id": "9NKDZ44LZR2R",
-      "title": "Transference",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.42332.13662575907042688.2861c98a-7aa5-4a06-a574-f6e3595fc74e.d81d6a36-4966-463a-b92f-9e5eee64c7e6",
-      "url": "https://www.xbox.com/uk-UA/games/store/transference/9NKDZ44LZR2R",
-      "description": "Available in VR and Non-VR. Imagine an escape room set in a deranged mind. Experience a first-person exploration game in a chilling new dimension. Shift between three perspectives of a family in this ",
-      "isNew": true,
-      "isPopular": false
-    },
-    {
-      "id": "9N5VHX8KMVNV",
-      "title": "Vapor World: Over The Mind (Game Preview)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.14555.14026248854300725.24c1a503-6f14-4fc7-a295-1bcfe3194519.059227ec-dfc5-442d-93a7-efa17f457bab",
-      "url": "https://www.xbox.com/uk-UA/games/store/vapor-world-over-the-mind-game-preview/9N5VHX8KMVNV",
-      "description": "The full message from the director is included at the bottom of the game description page. Lost in darkness, a boy drawn into a twisted dream, no way out. Vapor World: Over The Mind is a narrative-dri",
-      "isNew": true,
-      "isPopular": false
-    },
-    {
-      "id": "9PPH71DV44T7",
-      "title": "Sandustry (Game Preview)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.12646.14324477862367650.3d3cc6a2-f95a-4f3c-a402-9cd3bfe2dcd9.1cf079d6-83b6-4490-8b72-6b27cd69443e",
-      "url": "https://www.xbox.com/uk-UA/games/store/sandustry-game-preview/9PPH71DV44T7",
-      "description": "Sandustry — це гра про автоматизацію виробництва, у якій кожен піксель — це ресурс, що чекає, доки його видобудуть, поєднають, оброблять або знищать. Досліджуйте величезний відкритий світ, де все можн",
-      "isNew": true,
-      "isPopular": false
-    },
-    {
-      "id": "9N6JF50HZFW9",
-      "title": "Cricket 26 - The Official Game of the Ashes",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.28605.14013085416782408.e98ee06f-ac83-4b7e-91fa-fefedfe1c305.0d8f110d-5463-47b9-8ed4-6b6622930eb2",
-      "url": "https://www.xbox.com/uk-UA/games/store/cricket-26-the-official-game-of-the-ashes/9N6JF50HZFW9",
-      "description": "Зовсім нова кар'єра менеджера, більша і краща професійна команда, поглиблений режим Ashes та розширений контроль на полі та поза ним завдяки вдосконаленому ігровому процесу та глибоким стратегіям — Cr",
-      "isNew": true,
-      "isPopular": false
-    },
-    {
       "id": "9P9GX5D8H9DW",
       "title": "TCG Card Shop Simulator",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.64311.14143053245725704.14ebe58d-2f1e-46da-9224-f0da06983250.eaef76d6-e392-41b4-a1a5-4ed9c5855ae2",
@@ -407,18 +412,9 @@
       "isPopular": false
     },
     {
-      "id": "9P91FNMH1GG0",
-      "title": "Age of Empires III: Definitive Edition",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.20714.14081462193625859.994d9972-d3a0-4111-83ed-b0dd9fc78edd.e4baaecf-b239-4ef8-b204-fef8f0c984f0",
-      "url": "https://www.xbox.com/uk-UA/games/store/age-of-empires-iii-definitive-edition/9P91FNMH1GG0",
-      "description": "Age of Empires III: Definitive Edition відзначає одну з найулюбленіших франшиз у жанрі стратегії в реальному часі в повному виданні з розширеними функціями та модернізованим ігровим процесом. Візьміть",
-      "isNew": true,
-      "isPopular": false
-    },
-    {
       "id": "9NXP44L49SHJ",
       "title": "Minecraft: Java & Bedrock Edition for PC",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.58378.14492077886571533.338a563a-86e7-47b1-b9dc-41cf411f5dcd.dc840f22-6e8f-4a59-b7bc-57958a0740fd",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.12171.14492077886571533.da32bb0b-aeec-4028-a235-8a96c1292b6b.7c93ce73-8b7b-47f0-bfda-c7616b9f204f",
       "url": "https://www.xbox.com/uk-UA/games/store/minecraft-java-bedrock-edition-for-pc/9NXP44L49SHJ",
       "description": "ВТІЛЮЙТЕ ІДЕЇ Створюйте все, що можете уявити, у власному безмежному світі, що є унікальним для кожного проходження. ДОСЛІДЖУЙТЕ Знаходьте біоми, ресурси та мобів, прокладіть свій власний шлях у світі",
       "isNew": false,
@@ -461,20 +457,20 @@
       "isPopular": true
     },
     {
-      "id": "9NKCCHCFTHV2",
-      "title": "VALORANT PC",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.20115.13663857844271189.42ac3116-ce9d-40e2-939f-ca94e72c04a8.13d8e735-10da-4211-8403-8119d39f1b0a",
-      "url": "https://www.xbox.com/uk-UA/games/store/valorant-pc/9NKCCHCFTHV2",
-      "description": "VALORANT is a character-based 5v5 tactical shooter set on the global stage. Outwit, outplay, and outshine your competition with tactical abilities, precise gunplay, and adaptive teamwork. DEFY THE LIM",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
       "id": "9P36DQX6W9CS",
       "title": "Overwatch® PC",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.61926.14548245473193065.3d2dbc10-d879-4882-a2bb-cf42a6790f66.37d8b348-3f90-4136-84f7-318395b75e82",
       "url": "https://www.xbox.com/uk-UA/games/store/overwatch-pc/9P36DQX6W9CS",
       "description": "Overwatch — це безкоштовна командна гра в жанрі «геройська стрілянка», що постійно розвивається й наповнюється подіями. Її сюжет розгортається в оптимістичному майбутньому, де кожен матч — це справжня",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9NKCCHCFTHV2",
+      "title": "VALORANT PC",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.20115.13663857844271189.42ac3116-ce9d-40e2-939f-ca94e72c04a8.13d8e735-10da-4211-8403-8119d39f1b0a",
+      "url": "https://www.xbox.com/uk-UA/games/store/valorant-pc/9NKCCHCFTHV2",
+      "description": "VALORANT is a character-based 5v5 tactical shooter set on the global stage. Outwit, outplay, and outshine your competition with tactical abilities, precise gunplay, and adaptive teamwork. DEFY THE LIM",
       "isNew": false,
       "isPopular": true
     },
@@ -488,15 +484,6 @@
       "isPopular": true
     },
     {
-      "id": "9WZDNCRFHWD2",
-      "title": "Microsoft Solitaire Collection",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.38773.9007199266246761.b535414e-52ea-483a-af68-de38ef6ba67a.af30b913-522a-4c46-a969-0b119479bc74",
-      "url": "https://www.xbox.com/uk-UA/games/store/microsoft-solitaire-collection/9WZDNCRFHWD2",
-      "description": "Святкуймо 30 років РОЗВАГ. Долучайтеся до мільйонів геймерів по всьому світу в одній із найпопулярніших ігор УСІХ ЧАСІВ! Відкрийте для себе КРАЩІ пасьянси Solitaire в одній програмі: Klondike Solitair",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
       "id": "9PM709J61828",
       "title": "Farming Simulator 25 (PC)",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.45596.14299110548313627.7e916051-145b-467d-9222-536b54bd914d.f88fe704-4245-490c-b2cd-ced627636e14",
@@ -506,11 +493,11 @@
       "isPopular": true
     },
     {
-      "id": "9PBRN7JS4XPC",
-      "title": "Heroes of the Storm™",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.38378.14113515594390646.9e638c04-e7d6-468d-8441-ec0f6cc4f7b7.674600de-b6eb-4b18-8c64-ad133a32434e",
-      "url": "https://www.xbox.com/uk-UA/games/store/heroes-of-the-storm/9PBRN7JS4XPC",
-      "description": "JUMP INTO THE NEXUS Heroes of the Storm is a raucous MOBA starring your favorite Blizzard characters. Build and customize heroes from across every Blizzard universe to suit your play style. Team up wi",
+      "id": "9WZDNCRFHWD2",
+      "title": "Microsoft Solitaire Collection",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.38773.9007199266246761.b535414e-52ea-483a-af68-de38ef6ba67a.af30b913-522a-4c46-a969-0b119479bc74",
+      "url": "https://www.xbox.com/uk-UA/games/store/microsoft-solitaire-collection/9WZDNCRFHWD2",
+      "description": "Святкуймо 30 років РОЗВАГ. Долучайтеся до мільйонів геймерів по всьому світу в одній із найпопулярніших ігор УСІХ ЧАСІВ! Відкрийте для себе КРАЩІ пасьянси Solitaire в одній програмі: Klondike Solitair",
       "isNew": false,
       "isPopular": true
     },
@@ -524,20 +511,20 @@
       "isPopular": true
     },
     {
-      "id": "9P2VGCTBMM52",
-      "title": "Microsoft Flight Simulator 2024 - Standard Edition",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.2689.14550648823552491.458517e5-6b50-4124-b28b-b87004bdb3d1.70477e5a-c41e-494f-a710-995d5498a227",
-      "url": "https://www.xbox.com/uk-UA/games/store/microsoft-flight-simulator-2024-standard-edition/9P2VGCTBMM52",
-      "description": "Видання Standard Досліджуйте світ на літаках з нашого найбільшого для видання Standard авіаційного парку та відчуйте, що таке симулятор нового рівня, обравши кар’єру пілота авіації у Microsoft Flight ",
+      "id": "9PBRN7JS4XPC",
+      "title": "Heroes of the Storm™",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.38378.14113515594390646.9e638c04-e7d6-468d-8441-ec0f6cc4f7b7.674600de-b6eb-4b18-8c64-ad133a32434e",
+      "url": "https://www.xbox.com/uk-UA/games/store/heroes-of-the-storm/9PBRN7JS4XPC",
+      "description": "JUMP INTO THE NEXUS Heroes of the Storm is a raucous MOBA starring your favorite Blizzard characters. Build and customize heroes from across every Blizzard universe to suit your play style. Team up wi",
       "isNew": false,
       "isPopular": true
     },
     {
-      "id": "9PD0Z90216RJ",
-      "title": "Football Manager 26",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.31556.14159410862978133.08a7ac44-5c17-4c0d-a8d6-c3e247e74fcb.585f6932-0069-484a-a733-76359843a3ba",
-      "url": "https://www.xbox.com/uk-UA/games/store/football-manager-26/9PD0Z90216RJ",
-      "description": "УЖЕ ВИЙШЛА — ГРАЙТЕ СЬОГОДНI Нова основа, з якою ваша футбольна доля буде у ваших руках! Створена на рушії Unity, FM26 — переосмислена спадщина, де ваша історія тренера еволюціонує. Переосмислений інт",
+      "id": "9NWB9PL1L2PQ",
+      "title": "Warcraft® III: Reforged",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.28737.14448248237845491.d6ddaf53-8bde-4016-9af4-4a102f9369fd.179789aa-11fe-4154-bb08-8541fce4f582",
+      "url": "https://www.xbox.com/uk-UA/games/store/warcraft-iii-reforged/9NWB9PL1L2PQ",
+      "description": "Warcraft III: Reforged is a stunning reimagining of the revolutionary real-time strategy game that laid the foundation for Azeroth’s most epic stories. It is a remake in the truest sense, featuring a ",
       "isNew": false,
       "isPopular": true
     },
@@ -551,11 +538,20 @@
       "isPopular": true
     },
     {
-      "id": "9N4W31HSMVVD",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.50178.13979588110779567.5e6f9542-73ca-4800-a714-e6819fafc7f7.3fb95d1a-9b8e-438b-a957-aff893d4fc07",
-      "url": "https://www.xbox.com/uk-UA/games/store/kingdom-come-deliverance-ii/9N4W31HSMVVD",
-      "description": "Kingdom Come: Deliverance II — це захоплива динамічна рольова гра, у якій події відбуваються посеред хаосу громадянської війни у Богемії в 15 столітті. Ви гратимете за Генрі зі Скеліце, потрапивши у н",
+      "id": "9P2VGCTBMM52",
+      "title": "Microsoft Flight Simulator 2024 - Standard Edition",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.2689.14550648823552491.458517e5-6b50-4124-b28b-b87004bdb3d1.70477e5a-c41e-494f-a710-995d5498a227",
+      "url": "https://www.xbox.com/uk-UA/games/store/microsoft-flight-simulator-2024-standard-edition/9P2VGCTBMM52",
+      "description": "Видання Standard Досліджуйте світ на літаках з нашого найбільшого для видання Standard авіаційного парку та відчуйте, що таке симулятор нового рівня, обравши кар’єру пілота авіації у Microsoft Flight ",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9NKX70BBCDRN",
+      "title": "Forza Horizon 5 Standard Edition",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.19144.13718773309227929.bebdcc0e-1ed5-4778-8732-f4ef65a2f445.08f6abcd-96f3-4d91-877e-dc834b74132d",
+      "url": "https://www.xbox.com/uk-UA/games/store/forza-horizon-5-standard-edition/9NKX70BBCDRN",
+      "description": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.",
       "isNew": false,
       "isPopular": true
     },
@@ -570,104 +566,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_2456740": {
-      "title": "inZOI",
-      "price": 959,
-      "percent": 20,
-      "timestamp": "2026-09-11T22:54:44.764Z",
-      "type": "discount"
-    },
-    "steam_discount_252490": {
-      "title": "Rust",
-      "price": 389,
-      "percent": 50,
-      "timestamp": "2026-09-13T00:32:24.482Z",
-      "type": "discount"
-    },
-    "steam_discount_4108000": {
-      "title": "Machine Party",
-      "price": 159,
-      "percent": 20,
-      "timestamp": "2026-09-13T05:33:30.890Z",
-      "type": "discount"
-    },
-    "steam_discount_1086940": {
-      "title": "Baldur's Gate 3",
-      "price": 629,
-      "percent": 30,
-      "timestamp": "2026-09-14T21:13:39.281Z",
-      "type": "discount"
-    },
-    "steam_discount_3008130": {
-      "title": "Dying Light: The Beast",
-      "price": 799,
-      "percent": 50,
-      "timestamp": "2026-09-14T21:13:39.281Z",
-      "type": "discount"
-    },
-    "steam_discount_3375780": {
-      "title": "Trails in the Sky 1st Chapter",
-      "price": 562,
-      "percent": 50,
-      "timestamp": "2026-09-14T21:13:39.281Z",
-      "type": "discount"
-    },
-    "steam_discount_1172620": {
-      "title": "Sea of Thieves: 2026 Edition",
-      "price": 360,
-      "percent": 65,
-      "timestamp": "2026-09-14T21:13:39.281Z",
-      "type": "discount"
-    },
-    "steam_discount_2001120": {
-      "title": "Split Fiction",
-      "price": 844,
-      "percent": 35,
-      "timestamp": "2026-09-14T21:13:39.281Z",
-      "type": "discount"
-    },
-    "steam_discount_1426210": {
-      "title": "It Takes Two",
-      "price": 299,
-      "percent": 70,
-      "timestamp": "2026-09-15T14:02:23.026Z",
-      "type": "discount"
-    },
-    "steam_discount_4557380": {
-      "title": "Batomon Showdown",
-      "price": 217,
-      "percent": 35,
-      "timestamp": "2026-09-15T14:02:23.026Z",
-      "type": "discount"
-    },
-    "steam_discount_1627720": {
-      "title": "Lies of P",
-      "price": 812,
-      "percent": 50,
-      "timestamp": "2026-09-15T14:02:23.026Z",
-      "type": "discount"
-    },
-    "xbox_new_9P402RWR63H4": {
-      "title": "RuneScape: Dragonwilds",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-09-15T14:02:23.026Z",
-      "type": "xbox_new"
-    },
-    "xbox_new_9P9GX5D8H9DW": {
-      "title": "TCG Card Shop Simulator",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-09-15T14:02:23.026Z",
-      "type": "xbox_new"
-    },
-    "steam_discount_2402680": {
-      "title": "Dimraeth",
-      "price": 419,
-      "percent": 10,
-      "timestamp": "2026-09-15T18:37:27.467Z",
-      "type": "discount"
-    },
     "gamepass_9N72DFC6GL91": {
       "title": "Echo Weaver",
       "price": 0,
@@ -1164,6 +1062,118 @@
       "percent": 25,
       "timestamp": "2026-10-11T14:26:29.249Z",
       "type": "discount"
+    },
+    "gamepass_popular_9NWB9PL1L2PQ": {
+      "title": "Warcraft® III: Reforged",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-20T10:09:41.216Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9NKX70BBCDRN": {
+      "title": "Forza Horizon 5 Standard Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-20T10:09:41.216Z",
+      "type": "gamepass"
+    },
+    "steam_discount_990080": {
+      "title": "Hogwarts Legacy",
+      "price": 159,
+      "percent": 90,
+      "timestamp": "2026-10-20T10:09:41.216Z",
+      "type": "discount"
+    },
+    "steam_discount_2183900": {
+      "title": "Warhammer 40,000: Space Marine 2",
+      "price": 389,
+      "percent": 75,
+      "timestamp": "2026-10-20T10:09:41.216Z",
+      "type": "discount"
+    },
+    "steam_discount_463530": {
+      "title": "Empires of the Undergrowth",
+      "price": 99,
+      "percent": 75,
+      "timestamp": "2026-10-20T10:09:41.216Z",
+      "type": "discount"
+    },
+    "steam_discount_1091500": {
+      "title": "Cyberpunk 2077",
+      "price": 419,
+      "percent": 70,
+      "timestamp": "2026-10-20T10:09:41.216Z",
+      "type": "discount"
+    },
+    "steam_discount_3768760": {
+      "title": "007 First Light",
+      "price": 959,
+      "percent": 40,
+      "timestamp": "2026-10-20T10:09:41.216Z",
+      "type": "discount"
+    },
+    "gamepass_9N4ZMKC3GX4M": {
+      "title": "Beyond These Stars",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-20T10:09:41.216Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PKZRN4RJRC9": {
+      "title": "Chained Beasts",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-20T10:09:41.216Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NQVHHW88XW9": {
+      "title": "Bluey's Happy Snaps",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-20T10:09:41.216Z",
+      "type": "gamepass"
+    },
+    "gamepass_9P861V1542BL": {
+      "title": "Valor Mortis",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-20T10:09:41.216Z",
+      "type": "gamepass"
+    },
+    "gamepass_9P55XDLRJDHB": {
+      "title": "Battlefield™ 6 - PC",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-20T10:09:41.216Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PPF72ZH6RP8": {
+      "title": "Deep Dish Dungeon",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-20T10:09:41.216Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NWB9PL1L2PQ": {
+      "title": "Warcraft® III: Reforged",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-20T10:09:41.216Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NKX70BBCDRN": {
+      "title": "Forza Horizon 5 Standard Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-20T10:09:41.216Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9N4PT8HGCDHQ": {
+      "title": "Gears of War: E-Day",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-20T10:09:41.216Z",
+      "type": "gamepass"
     }
   }
 }

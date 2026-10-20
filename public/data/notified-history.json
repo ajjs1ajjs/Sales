@@ -1,102 +1,4 @@
 {
-  "steam_discount_2456740": {
-    "title": "inZOI",
-    "price": 959,
-    "percent": 20,
-    "timestamp": "2026-09-11T22:54:44.764Z",
-    "type": "discount"
-  },
-  "steam_discount_252490": {
-    "title": "Rust",
-    "price": 389,
-    "percent": 50,
-    "timestamp": "2026-09-13T00:32:24.482Z",
-    "type": "discount"
-  },
-  "steam_discount_4108000": {
-    "title": "Machine Party",
-    "price": 159,
-    "percent": 20,
-    "timestamp": "2026-09-13T05:33:30.890Z",
-    "type": "discount"
-  },
-  "steam_discount_1086940": {
-    "title": "Baldur's Gate 3",
-    "price": 629,
-    "percent": 30,
-    "timestamp": "2026-09-14T21:13:39.281Z",
-    "type": "discount"
-  },
-  "steam_discount_3008130": {
-    "title": "Dying Light: The Beast",
-    "price": 799,
-    "percent": 50,
-    "timestamp": "2026-09-14T21:13:39.281Z",
-    "type": "discount"
-  },
-  "steam_discount_3375780": {
-    "title": "Trails in the Sky 1st Chapter",
-    "price": 562,
-    "percent": 50,
-    "timestamp": "2026-09-14T21:13:39.281Z",
-    "type": "discount"
-  },
-  "steam_discount_1172620": {
-    "title": "Sea of Thieves: 2026 Edition",
-    "price": 360,
-    "percent": 65,
-    "timestamp": "2026-09-14T21:13:39.281Z",
-    "type": "discount"
-  },
-  "steam_discount_2001120": {
-    "title": "Split Fiction",
-    "price": 844,
-    "percent": 35,
-    "timestamp": "2026-09-14T21:13:39.281Z",
-    "type": "discount"
-  },
-  "steam_discount_1426210": {
-    "title": "It Takes Two",
-    "price": 299,
-    "percent": 70,
-    "timestamp": "2026-09-15T14:02:23.026Z",
-    "type": "discount"
-  },
-  "steam_discount_4557380": {
-    "title": "Batomon Showdown",
-    "price": 217,
-    "percent": 35,
-    "timestamp": "2026-09-15T14:02:23.026Z",
-    "type": "discount"
-  },
-  "steam_discount_1627720": {
-    "title": "Lies of P",
-    "price": 812,
-    "percent": 50,
-    "timestamp": "2026-09-15T14:02:23.026Z",
-    "type": "discount"
-  },
-  "xbox_new_9P402RWR63H4": {
-    "title": "RuneScape: Dragonwilds",
-    "price": 0,
-    "percent": 0,
-    "timestamp": "2026-09-15T14:02:23.026Z",
-    "type": "xbox_new"
-  },
-  "xbox_new_9P9GX5D8H9DW": {
-    "title": "TCG Card Shop Simulator",
-    "price": 0,
-    "percent": 0,
-    "timestamp": "2026-09-15T14:02:23.026Z",
-    "type": "xbox_new"
-  },
-  "steam_discount_2402680": {
-    "title": "Dimraeth",
-    "price": 419,
-    "percent": 10,
-    "timestamp": "2026-09-15T18:37:27.467Z",
-    "type": "discount"
-  },
   "gamepass_9N72DFC6GL91": {
     "title": "Echo Weaver",
     "price": 0,
@@ -593,5 +495,117 @@
     "percent": 25,
     "timestamp": "2026-10-11T14:26:29.249Z",
     "type": "discount"
+  },
+  "gamepass_popular_9NWB9PL1L2PQ": {
+    "title": "Warcraft® III: Reforged",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-20T10:09:41.216Z",
+    "type": "gamepass"
+  },
+  "gamepass_popular_9NKX70BBCDRN": {
+    "title": "Forza Horizon 5 Standard Edition",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-20T10:09:41.216Z",
+    "type": "gamepass"
+  },
+  "steam_discount_990080": {
+    "title": "Hogwarts Legacy",
+    "price": 159,
+    "percent": 90,
+    "timestamp": "2026-10-20T10:09:41.216Z",
+    "type": "discount"
+  },
+  "steam_discount_2183900": {
+    "title": "Warhammer 40,000: Space Marine 2",
+    "price": 389,
+    "percent": 75,
+    "timestamp": "2026-10-20T10:09:41.216Z",
+    "type": "discount"
+  },
+  "steam_discount_463530": {
+    "title": "Empires of the Undergrowth",
+    "price": 99,
+    "percent": 75,
+    "timestamp": "2026-10-20T10:09:41.216Z",
+    "type": "discount"
+  },
+  "steam_discount_1091500": {
+    "title": "Cyberpunk 2077",
+    "price": 419,
+    "percent": 70,
+    "timestamp": "2026-10-20T10:09:41.216Z",
+    "type": "discount"
+  },
+  "steam_discount_3768760": {
+    "title": "007 First Light",
+    "price": 959,
+    "percent": 40,
+    "timestamp": "2026-10-20T10:09:41.216Z",
+    "type": "discount"
+  },
+  "gamepass_9N4ZMKC3GX4M": {
+    "title": "Beyond These Stars",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-20T10:09:41.216Z",
+    "type": "gamepass"
+  },
+  "gamepass_9PKZRN4RJRC9": {
+    "title": "Chained Beasts",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-20T10:09:41.216Z",
+    "type": "gamepass"
+  },
+  "gamepass_9NQVHHW88XW9": {
+    "title": "Bluey's Happy Snaps",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-20T10:09:41.216Z",
+    "type": "gamepass"
+  },
+  "gamepass_9P861V1542BL": {
+    "title": "Valor Mortis",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-20T10:09:41.216Z",
+    "type": "gamepass"
+  },
+  "gamepass_9P55XDLRJDHB": {
+    "title": "Battlefield™ 6 - PC",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-20T10:09:41.216Z",
+    "type": "gamepass"
+  },
+  "gamepass_9PPF72ZH6RP8": {
+    "title": "Deep Dish Dungeon",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-20T10:09:41.216Z",
+    "type": "gamepass"
+  },
+  "gamepass_9NWB9PL1L2PQ": {
+    "title": "Warcraft® III: Reforged",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-20T10:09:41.216Z",
+    "type": "gamepass"
+  },
+  "gamepass_9NKX70BBCDRN": {
+    "title": "Forza Horizon 5 Standard Edition",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-20T10:09:41.216Z",
+    "type": "gamepass"
+  },
+  "gamepass_popular_9N4PT8HGCDHQ": {
+    "title": "Gears of War: E-Day",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-20T10:09:41.216Z",
+    "type": "gamepass"
   }
 }
