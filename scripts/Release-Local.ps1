@@ -50,6 +50,21 @@ if ($Version) {
 $tag = "$Prefix$next"
 Write-Host "Candidate tag: $tag"
 
+# --- 1.5. Снапшот даних (тільки для локального прев'ю) -----------------------
+# public/data/ НЕ публікується: крок 3 виключає data/ з копіювання, тому живу
+# дату на сайті тримає шедулер dist (щогодини). Тут лише попереджаємо, що
+# локальний снапшот застарів — на сам реліз це не впливає.
+try {
+  $deals = Get-Content 'public/data/deals.json' -Raw | ConvertFrom-Json
+  $snapshotUtc = [datetimeoffset]::Parse($deals.lastUpdated)
+  $ageHours = ([datetimeoffset]::UtcNow - $snapshotUtc).TotalHours
+  if ($ageHours -gt 48) {
+    Write-Warning ('Локальний снапшот deals.json від {0:yyyy-MM-dd HH:mm} UTC ({1:N0} год тому) — оновіть для прев''ю: npm run fetch' -f $snapshotUtc, $ageHours)
+  }
+} catch {
+  Write-Warning 'Не вдалося прочитати public/data/deals.json — локальний снапшот може бути відсутній.'
+}
+
 # --- 2. Перевірки + збірка ---------------------------------------------------
 npm ci
 if ($LASTEXITCODE -ne 0) { Fail 'npm ci failed' }
@@ -59,9 +74,11 @@ npm run lint
 if ($LASTEXITCODE -ne 0) { Fail 'lint failed' }
 npm test
 if ($LASTEXITCODE -ne 0) { Fail 'tests failed' }
+# Sitemap генерується щоразу (scripts/generate-sitemap.ts). Завдяки
+# .gitattributes (public/sitemap.xml text eol=lf) файл лишається байт-у-байт
+# тим самим, тому примусовий checkout більше не потрібен.
 npm run build
 if ($LASTEXITCODE -ne 0) { Fail 'build failed' }
-git checkout -- public/sitemap.xml 2>$null
 
 # --- 3. Публікація в dist (тільки при змінах) --------------------------------
 $tmp = Join-Path ([IO.Path]::GetTempPath()) ('dist-sales-{0}' -f [guid]::NewGuid().ToString('N'))

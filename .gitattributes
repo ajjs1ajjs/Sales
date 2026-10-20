@@ -1,1 +1,5 @@
 *.sh text eol=lf
+# Generated on every build (npm run build) and by the hourly data fetch —
+# keep LF in the working tree so builds do not leave the repo dirty.
+public/sitemap.xml text eol=lf
+public/data/*.json text eol=lf
