@@ -64,8 +64,8 @@ self.addEventListener('fetch', (event) => {
   const isDynamic =
     event.request.mode === 'navigate' ||
     // Suffix match handles both dev (/data/deals.json) and the GitHub Pages
-    // base (/Sales/data/deals.json) without depending on the build config.
-    event.request.url.endsWith('/data/deals.json');
+    // base (/dist/sales/data/deals.json) robustly across search/query params.
+    new URL(event.request.url).pathname.endsWith('/data/deals.json');
 
   if (isDynamic) {
     event.respondWith(

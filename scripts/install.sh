@@ -64,6 +64,10 @@ find_repo_root() {
         echo "$script_dir"
         return 0
     fi
+    if [ -n "$script_dir" ] && [ -f "$script_dir/../package.json" ] && grep -q '"name": "sales"' "$script_dir/../package.json" 2>/dev/null; then
+        cd "$script_dir/.." && pwd
+        return 0
+    fi
     return 1
 }
 

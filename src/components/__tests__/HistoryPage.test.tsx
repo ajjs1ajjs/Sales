@@ -121,4 +121,10 @@ describe('HistoryPage', () => {
     render(<HistoryPage data={mockData} />, { wrapper: Wrapper });
     expect(screen.queryByText('Old Game 6')).not.toBeInTheDocument();
   });
+
+  it('renders store links for items with valid keys', () => {
+    render(<HistoryPage data={mockData} />, { wrapper: Wrapper });
+    const link = screen.getByLabelText(/Free Game 1/);
+    expect(link).toHaveAttribute('href', 'https://store.steampowered.com/app/game1');
+  });
 });

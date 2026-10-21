@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Calendar, ExternalLink, RefreshCw } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
 import type { DealsData } from '../types';
-import { formatDate, formatDateEn, safeHistoryType } from '../utils';
+import { formatDate, formatDateEn, safeHistoryType, safeUrl } from '../utils';
 
 interface Props {
   data: DealsData | null;
@@ -11,6 +11,30 @@ interface Props {
 }
 
 type HistoryFilter = 'all' | 'free' | 'discount' | 'popular' | 'gamepass';
+
+function getHistoryItemUrl(key: string): string | null {
+  if (key.startsWith('steam_free_')) {
+    const id = key.slice('steam_free_'.length);
+    return id ? safeUrl(`https://store.steampowered.com/app/${encodeURIComponent(id)}`) : null;
+  }
+  if (key.startsWith('steam_discount_')) {
+    const id = key.slice('steam_discount_'.length);
+    return id ? safeUrl(`https://store.steampowered.com/app/${encodeURIComponent(id)}`) : null;
+  }
+  if (key.startsWith('steam_popular_')) {
+    const id = key.slice('steam_popular_'.length);
+    return id ? safeUrl(`https://store.steampowered.com/app/${encodeURIComponent(id)}`) : null;
+  }
+  if (key.startsWith('gamepass_popular_')) {
+    const id = key.slice('gamepass_popular_'.length);
+    return id ? safeUrl(`https://www.xbox.com/games/store/game/${encodeURIComponent(id)}`) : null;
+  }
+  if (key.startsWith('gamepass_')) {
+    const id = key.slice('gamepass_'.length);
+    return id ? safeUrl(`https://www.xbox.com/games/store/game/${encodeURIComponent(id)}`) : null;
+  }
+  return null;
+}
 
 export function HistoryPage({ data, loading = false }: Props) {
   const { t, locale } = useLocale();
@@ -95,24 +119,38 @@ export function HistoryPage({ data, loading = false }: Props) {
         </div>
       ) : (
         <div className="history-list">
-          {filtered.map((item) => (
-            <div key={item.key} className={`history-item history-item--${safeHistoryType(item.type)}`}>
-              <div className="history-item-main">
-                <span className={`history-badge history-badge--${safeHistoryType(item.type)}`}>
-                  {({ free: t.history.freeBadge, discount: `-${item.percent}%`, popular: t.history.topBadge, gamepass: t.history.gamepassBadge } satisfies Record<string, string>)[safeHistoryType(item.type)]}
-                </span>
-                <span className="history-item-title">{item.title}</span>
+          {filtered.map((item) => {
+            const itemUrl = getHistoryItemUrl(item.key);
+            const platformName = item.type === 'gamepass' || item.type === 'xbox_new'
+              ? t.platform.gamepass
+              : t.platform.steam;
+            return (
+              <div key={item.key} className={`history-item history-item--${safeHistoryType(item.type)}`}>
+                <div className="history-item-main">
+                  <span className={`history-badge history-badge--${safeHistoryType(item.type)}`}>
+                    {({ free: t.history.freeBadge, discount: `-${item.percent}%`, popular: t.history.topBadge, gamepass: t.history.gamepassBadge } satisfies Record<string, string>)[safeHistoryType(item.type)]}
+                  </span>
+                  <span className="history-item-title">{item.title}</span>
+                </div>
+                <div className="history-item-meta">
+                  <span className="history-item-date">
+                    {locale === 'en' ? formatDateEn(item.timestamp, true) : formatDate(item.timestamp, true)}
+                  </span>
+                  {itemUrl ? (
+                    <a
+                      href={itemUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="history-external-link"
+                      aria-label={`${item.title} (${platformName})`}
+                    >
+                      <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  ) : null}
+                </div>
               </div>
-              <div className="history-item-meta">
-                <span className="history-item-date">
-                  {locale === 'en' ? formatDateEn(item.timestamp, true) : formatDate(item.timestamp, true)}
-                </span>
-                {item.type === 'free' ? (
-                  <ExternalLink size={14} aria-hidden="true" />
-                ) : null}
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       )}
 

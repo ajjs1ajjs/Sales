@@ -1,4 +1,4 @@
-﻿/* Price Range Filter */
+/* Price Range Filter */
 .price-range-filter {
   margin-top: 12px;
 }
@@ -241,6 +241,17 @@
   font-size: 0.8rem;
   color: var(--text-muted);
   white-space: nowrap;
+}
+
+.history-external-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--text-muted);
+  transition: color var(--transition-fast);
+}
+
+.history-external-link:hover {
+  color: var(--text-primary);
 }
 
 /* Scrollbar styling */
