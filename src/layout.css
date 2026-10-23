@@ -1,4 +1,4 @@
-﻿/* Futuristic background glows */
+/* Futuristic background glows */
 body::before, body::after {
   content: '';
   position: fixed;
@@ -20,7 +20,7 @@ body::before {
 body::after {
   bottom: -100px;
   right: -100px;
-  background: radial-gradient(circle, var(--accent-steam) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(168, 85, 247, 0.12) 0%, transparent 70%);
 }
 
 [data-theme="light"] body::before,
@@ -79,14 +79,14 @@ header h1 {
   line-height: 1.2;
   letter-spacing: -0.03em;
   margin-bottom: 12px;
-  background: linear-gradient(135deg, #fff 30%, var(--accent-epic) 70%, var(--accent-steam) 100%);
+  background: linear-gradient(135deg, #ffffff 30%, #e9d5ff 70%, var(--accent-epic) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: fadeInDown 0.8s ease-out;
 }
 
 [data-theme="light"] header h1 {
-  background: linear-gradient(135deg, #1e1b4b 30%, var(--accent-epic) 70%, #6366f1 100%);
+  background: linear-gradient(135deg, var(--text-primary) 30%, #7c3aed 70%, var(--accent-epic) 100%);
   -webkit-background-clip: text;
 }
 
@@ -147,13 +147,13 @@ header p {
 }
 
 .history-nav-link:hover {
-  border-color: var(--accent-steam);
-  color: var(--accent-steam);
+  border-color: var(--accent-epic);
+  color: var(--accent-epic);
 }
 
 /* Install PWA Banner */
 .install-banner {
-  background: linear-gradient(135deg, rgba(192, 132, 252, 0.1) 0%, rgba(0, 240, 255, 0.05) 100%);
+  background: linear-gradient(135deg, rgba(192, 132, 252, 0.12) 0%, rgba(192, 132, 252, 0.03) 100%);
   border: 1px solid rgba(192, 132, 252, 0.2);
   border-radius: 12px;
   padding: 12px 20px;
@@ -269,4 +269,3 @@ header p {
   box-shadow: 0 6px 20px rgba(56, 189, 248, 0.5);
   filter: brightness(1.1);
 }
-

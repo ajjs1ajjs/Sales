@@ -1,16 +1,16 @@
-﻿/* Design System - obsidian dark mode with futuristic glows */
+/* Design System - obsidian dark mode with futuristic glows */
 
 :root {
   /* Color Palette - Dark */
-  --bg-primary: #0a0712;
-  --bg-secondary: rgba(20, 16, 36, 0.6);
-  --bg-tertiary: rgba(30, 25, 54, 0.8);
+  --bg-primary: #09090b;
+  --bg-secondary: rgba(24, 24, 27, 0.65);
+  --bg-tertiary: rgba(39, 39, 42, 0.8);
 
-  --text-primary: #f3f4f6;
-  --text-secondary: #9ca3af;
-  --text-muted: #6b7280;
+  --text-primary: #f4f4f5;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
 
-  --accent-steam: #00f0ff;
+  --accent-steam: #66c0f4;
   --accent-epic: #c084fc;
   --accent-gamepass: #4ade80;
   --accent-telegram: #38bdf8;
@@ -19,29 +19,29 @@
   --accent-wishlist: #f43f5e;
 
   --border-glow: rgba(192, 132, 252, 0.15);
-  --border-glow-hover: rgba(0, 240, 255, 0.3);
+  --border-glow-hover: rgba(192, 132, 252, 0.35);
 
   --font-heading: 'Outfit', 'Inter', -apple-system, sans-serif;
   --font-body: 'Inter', -apple-system, sans-serif;
 
   --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  --glow-shadow: 0 0 15px rgba(0, 240, 255, 0.1);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.45);
+  --glow-shadow: 0 0 15px rgba(192, 132, 252, 0.15);
 
   --skeleton-base: rgba(255, 255, 255, 0.06);
   --skeleton-shine: rgba(255, 255, 255, 0.1);
 
-  --toast-bg: rgba(20, 16, 36, 0.95);
+  --toast-bg: rgba(24, 24, 27, 0.95);
 }
 
 /* Light theme */
 [data-theme="light"] {
-  --bg-primary: #f5f3ff;
-  --bg-secondary: rgba(255, 255, 255, 0.8);
-  --bg-tertiary: rgba(255, 255, 255, 0.9);
+  --bg-primary: #f8f9fa;
+  --bg-secondary: rgba(255, 255, 255, 0.85);
+  --bg-tertiary: rgba(255, 255, 255, 0.95);
 
-  --text-primary: #1e1b4b;
-  --text-secondary: #6b7280;
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
   --text-muted: #9ca3af;
 
   --border-glow: rgba(192, 132, 252, 0.2);
@@ -72,4 +72,3 @@ body {
   -webkit-font-smoothing: antialiased;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-

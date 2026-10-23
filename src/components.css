@@ -1,4 +1,4 @@
-﻿/* Filters & Search Controls */
+/* Filters & Search Controls */
 .controls-container {
   display: flex;
   flex-direction: column;
@@ -318,7 +318,7 @@
 .game-card:hover {
   transform: translateY(-10px);
   border-color: var(--border-glow-hover);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 240, 255, 0.12);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5), 0 0 30px rgba(192, 132, 252, 0.15);
 }
 
 [data-theme="light"] .game-card:hover {
@@ -329,13 +329,13 @@
   position: relative;
   width: 100%;
   padding-top: 56.25%;
-  background: #100d1a;
+  background: #141416;
   overflow: hidden;
   isolation: isolate;
 }
 
 [data-theme="light"] .card-image-wrapper {
-  background: #e2e8f0;
+  background: #e5e7eb;
 }
 
 /* Shimmer overlay on image wrapper */
@@ -386,7 +386,7 @@
   position: absolute;
   top: 16px;
   left: 16px;
-  background: rgba(10, 7, 18, 0.8);
+  background: rgba(12, 12, 14, 0.85);
   border: 1px solid rgba(255, 255, 255, 0.12);
   padding: 6px 12px;
   border-radius: 12px;
@@ -410,7 +410,7 @@
 
 .platform-badge.steam {
   color: var(--accent-steam);
-  border-color: rgba(0, 240, 255, 0.25);
+  border-color: rgba(102, 192, 244, 0.3);
 }
 
 .platform-badge.gamepass {
@@ -494,7 +494,7 @@
 }
 
 [data-theme="light"] .card-title {
-  color: #1e1b4b;
+  color: var(--text-primary);
 }
 
 /* Wishlist Button */
@@ -568,12 +568,12 @@
 }
 
 [data-theme="light"] .price-current {
-  color: #1e1b4b;
+  color: var(--text-primary);
 }
 
 .price-current.free-text {
-  color: var(--accent-steam);
-  text-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+  color: var(--accent-discount);
+  text-shadow: 0 0 10px rgba(34, 197, 94, 0.25);
 }
 
 /* Game Pass-картка: ціни немає — лише мітка підписки */
@@ -601,7 +601,7 @@
 }
 
 [data-theme="light"] .store-link {
-  color: #1e1b4b;
+  color: var(--text-primary);
   background: rgba(0, 0, 0, 0.04);
   border-color: rgba(0, 0, 0, 0.1);
 }
@@ -614,9 +614,9 @@
 }
 
 [data-theme="light"] .store-link:hover {
-  background: #1e1b4b;
+  background: var(--text-primary);
   color: #fff;
-  border-color: #1e1b4b;
+  border-color: var(--text-primary);
 }
 
 /* Upcoming state styling */
@@ -677,7 +677,7 @@ footer a:hover {
 }
 
 [data-theme="light"] .empty-state h3 {
-  color: #1e1b4b;
+  color: var(--text-primary);
 }
 
 /* Spinner animation */
@@ -881,4 +881,3 @@ footer a:hover {
   background: rgba(192, 132, 252, 0.1);
   box-shadow: 0 0 15px rgba(192, 132, 252, 0.15);
 }
-

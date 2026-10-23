@@ -370,7 +370,7 @@
 
 [data-theme="light"] .highlighted-text {
   background-color: rgba(139, 92, 246, 0.2);
-  color: #1e1b4b;
+  color: var(--text-primary);
 }
 
 /* Pulsing Skeletons */
