@@ -5,8 +5,6 @@ declare let self: ServiceWorkerGlobalScope;
 const manifestEntries: { url: string; revision: string | null }[] = (self as unknown as { __WB_MANIFEST: { url: string; revision: string | null }[] }).__WB_MANIFEST;
 const CACHE_PREFIX = 'game-sales';
 
-// FNV-1a hash (32-bit, hex) — unique cache key per build without collisions
-// that truncating the concatenated revisions could cause.
 function fnv1a(input: string): string {
   let h = 0x811c9dc5;
   for (let i = 0; i < input.length; i++) {
@@ -17,91 +15,83 @@ function fnv1a(input: string): string {
 }
 
 const revisions = manifestEntries.map((e) => e.revision || '0').join('-');
-const CACHE = `${CACHE_PREFIX}-${revisions ? fnv1a(revisions) : 'static'}`;
-const NAV_FALLBACK =
-  manifestEntries.find((e) => e.url.endsWith('index.html'))?.url ?? manifestEntries[0]?.url;
-const MAX_DYNAMIC_ENTRIES = 200;
+const SHELL_CACHE = `${CACHE_PREFIX}-shell-${revisions ? fnv1a(revisions) : 'static'}`;
+const RUNTIME_CACHE = `${CACHE_PREFIX}-runtime`;
+const NAV_FALLBACK = manifestEntries.find((e) => e.url.endsWith('index.html'))?.url ?? manifestEntries[0]?.url;
+const MAX_RUNTIME_ENTRIES = 200;
 
-async function putWithLimit(request: Request, response: Response) {
+async function putRuntime(request: Request, response: Response): Promise<void> {
   try {
-    const cache = await caches.open(CACHE);
+    const cache = await caches.open(RUNTIME_CACHE);
     await cache.put(request, response);
     const keys = await cache.keys();
-    if (keys.length > MAX_DYNAMIC_ENTRIES) {
-      const oldest = keys.slice(0, keys.length - MAX_DYNAMIC_ENTRIES);
-      await Promise.all(oldest.map((k) => cache.delete(k)));
+    if (keys.length > MAX_RUNTIME_ENTRIES) {
+      await Promise.all(keys.slice(0, keys.length - MAX_RUNTIME_ENTRIES).map((key) => cache.delete(key)));
     }
   } catch {
-    /* quota exceeded — ignore */
+    // Storage quota or a non-cacheable response must not fail the page request.
   }
 }
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(CACHE).then((cache) =>
-      cache.addAll(manifestEntries.map((e) => e.url)),
-    ),
-  );
+  event.waitUntil(caches.open(SHELL_CACHE).then((cache) => cache.addAll(manifestEntries.map((entry) => entry.url))));
   self.skipWaiting();
 });
 
 self.addEventListener('activate', (event) => {
   event.waitUntil(
-    caches.keys().then((keys) =>
-      Promise.all(
-        keys.filter((k) => k.startsWith(CACHE_PREFIX) && k !== CACHE).map((k) => caches.delete(k)),
-      ),
-    ),
+    caches.keys().then((keys) => Promise.all(
+      keys.filter((key) => key.startsWith(CACHE_PREFIX) && key !== SHELL_CACHE && key !== RUNTIME_CACHE)
+        .map((key) => caches.delete(key)),
+    )),
   );
   self.clients.claim();
 });
 
 self.addEventListener('fetch', (event) => {
-  if (event.request.method !== 'GET' || !event.request.url.startsWith('http')) {
+  const request = event.request;
+  if (request.method !== 'GET' || !request.url.startsWith('http') || new URL(request.url).origin !== self.location.origin) return;
+
+  const isData = new URL(request.url).pathname.endsWith('/data/deals.json');
+  const isNavigation = request.mode === 'navigate';
+
+  if (isData || isNavigation) {
+    event.respondWith((async () => {
+      try {
+        const response = await fetch(request);
+        if (response.ok) {
+          await putRuntime(request, response.clone());
+          return response;
+        }
+        const cached = await caches.match(request, { ignoreSearch: isData });
+        if (cached) return cached;
+        if (isNavigation && NAV_FALLBACK) {
+          const shell = await caches.match(NAV_FALLBACK);
+          if (shell) return shell;
+        }
+        return response;
+      } catch {
+        const cached = await caches.match(request, { ignoreSearch: isData });
+        if (cached) return cached;
+        if (isNavigation && NAV_FALLBACK) {
+          const shell = await caches.match(NAV_FALLBACK);
+          if (shell) return shell;
+        }
+        return new Response('Offline and no cached content is available.', { status: 503 });
+      }
+    })());
     return;
   }
 
-  const isDynamic =
-    event.request.mode === 'navigate' ||
-    // Suffix match handles both dev (/data/deals.json) and the GitHub Pages
-    // base (/dist/sales/data/deals.json) robustly across search/query params.
-    new URL(event.request.url).pathname.endsWith('/data/deals.json');
-
-  if (isDynamic) {
-    event.respondWith(
-      fetch(event.request)
-        .then((response) => {
-          if (response.ok) {
-            const clone = response.clone();
-            putWithLimit(event.request, clone);
-          }
-          return response;
-        })
-        .catch(async () => {
-          const cached = await caches.match(event.request, { ignoreSearch: true });
-          if (cached) return cached;
-          if (event.request.mode === 'navigate' && NAV_FALLBACK) {
-            const shell = await caches.match(NAV_FALLBACK);
-            if (shell) return shell;
-          }
-          throw new Error('Offline and no cached data available');
-        })
-    );
-  } else {
-    event.respondWith(
-      caches.match(event.request).then((cached) => {
-        return fetch(event.request)
-          .then((response) => {
-            if (response.ok) {
-              const clone = response.clone();
-              putWithLimit(event.request, clone);
-              return response;
-            }
-            // Fetch returned an error — fall back to cache if available
-            return cached || response;
-          })
-          .catch(() => cached || new Response('Offline', { status: 503 }));
-      }),
-    );
-  }
+  // Build assets are immutable and already in the shell precache. Serve them
+  // cache-first so a deployed app does not depend on a network round trip.
+  event.respondWith((async () => {
+    const cached = await caches.match(request);
+    if (cached) return cached;
+    try {
+      return await fetch(request);
+    } catch {
+      return new Response('Offline', { status: 503 });
+    }
+  })());
 });

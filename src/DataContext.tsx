@@ -1,5 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
-import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
+import { createContext, useContext, useEffect, useRef, useState, type ReactNode } from 'react';
 import type { DealsData, GamePassGame, NotifiedItem, SteamGame } from './types';
 
 // deals.json генерується із зовнішнього Steam API, тому елемент може не мати
@@ -29,6 +29,23 @@ function normalizeSteam(g: Record<string, unknown>): SteamGame {
   };
 }
 
+function isValidSteamRecord(g: Record<string, unknown>): boolean {
+  return typeof g.id === 'string' && g.id.trim().length > 0 &&
+    typeof g.title === 'string' && g.title.trim().length > 0 &&
+    typeof g.originalPrice === 'number' && Number.isFinite(g.originalPrice) && g.originalPrice >= 0 &&
+    typeof g.discountPrice === 'number' && Number.isFinite(g.discountPrice) && g.discountPrice >= 0 &&
+    typeof g.discountPercent === 'number' && Number.isFinite(g.discountPercent) && g.discountPercent >= 0 && g.discountPercent <= 100 &&
+    typeof g.currency === 'string' && /^[A-Z]{3}$/.test(g.currency) &&
+    typeof g.url === 'string' && /^https:\/\/store\.steampowered\.com\/app\//.test(g.url);
+}
+
+function isValidGamePassRecord(g: Record<string, unknown>): boolean {
+  return typeof g.id === 'string' && g.id.trim().length > 0 &&
+    typeof g.title === 'string' && g.title.trim().length > 0 &&
+    typeof g.url === 'string' && /^https:\/\/(?:www\.)?xbox\.com\//.test(g.url) &&
+    typeof g.isNew === 'boolean' && typeof g.isPopular === 'boolean';
+}
+
 function normalizeGamePass(g: Record<string, unknown>): GamePassGame {
   // Каталог Microsoft віддає protocol-relative зображення (`//store-images…`);
   // safeUrl у картці такі відкидає, тому одразу робимо https.
@@ -44,11 +61,15 @@ function normalizeGamePass(g: Record<string, unknown>): GamePassGame {
   };
 }
 
-function normalizeList<T>(raw: unknown, normalize: (g: Record<string, unknown>) => T): T[] {
+function normalizeList<T>(
+  raw: unknown,
+  normalize: (g: Record<string, unknown>) => T,
+  validate: (g: Record<string, unknown>) => boolean,
+): T[] {
   if (!Array.isArray(raw)) return [];
   return raw
     .filter((g): g is Record<string, unknown> => {
-      const ok = !!g && typeof g === 'object' && typeof (g as { title?: unknown }).title === 'string';
+      const ok = !!g && typeof g === 'object' && validate(g as Record<string, unknown>);
       if (!ok) {
         if (import.meta.env.DEV) {
           const id = typeof g === 'object' && g !== null ? (g as Record<string, unknown>).id ?? 'unknown' : 'unknown';
@@ -90,13 +111,20 @@ export function DataProvider({ children }: { children: ReactNode }) {
   const [data, setData] = useState<DealsData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const hasData = useRef(false);
+  const lastAttemptAt = useRef(0);
 
   useEffect(() => {
     const controller = new AbortController();
+    let disposed = false;
+    let inFlight = false;
 
     const fetchData = async () => {
+      if (disposed || inFlight) return;
+      inFlight = true;
+      lastAttemptAt.current = Date.now();
       try {
-        setLoading(true);
+        if (!hasData.current) setLoading(true);
         const baseUrl = import.meta.env.BASE_URL || '/';
         const res = await fetch(`${baseUrl}data/deals.json`, {
           cache: 'no-cache',
@@ -105,33 +133,54 @@ export function DataProvider({ children }: { children: ReactNode }) {
         if (!res.ok) {
           throw new Error(`Не вдалося завантажити дані (статус: ${res.status})`);
         }
-        const raw = await res.json();
+        const raw: unknown = await res.json();
+        if (!raw || typeof raw !== 'object' || Array.isArray(raw)) {
+          throw new Error('Формат файлу пропозицій некоректний.');
+        }
+        const source = raw as Record<string, unknown>;
+        if (!Array.isArray(source.steam) || (source.gamepass !== undefined && !Array.isArray(source.gamepass))) {
+          throw new Error('Формат файлу пропозицій некоректний.');
+        }
         // Нормалізуємо форму замість сліпого `as DealsData`:
         // частковий/пошкоджений файл не повинен ламати .filter() в UI.
         // Поле `epic` ігнорується (лишилось у старих deals.json до переходу на Steam-only).
         const jsonData: DealsData = {
-          lastUpdated: typeof raw?.lastUpdated === 'string' ? raw.lastUpdated : '',
-          steam: normalizeList(raw?.steam, normalizeSteam),
-          gamepass: normalizeList(raw?.gamepass, normalizeGamePass),
-          notifiedHistory: normalizeHistory(raw?.notifiedHistory),
+          lastUpdated: typeof source.lastUpdated === 'string' && !Number.isNaN(Date.parse(source.lastUpdated)) ? source.lastUpdated : '',
+          steam: normalizeList(source.steam, normalizeSteam, isValidSteamRecord),
+          gamepass: normalizeList(source.gamepass, normalizeGamePass, isValidGamePassRecord),
+          notifiedHistory: normalizeHistory(source.notifiedHistory),
         };
         setData(jsonData);
+        hasData.current = true;
         setError(null);
       } catch (err: unknown) {
-        if (controller.signal.aborted) return; // компонент розмонтовано — ігноруємо
+        if (controller.signal.aborted || disposed) return;
         const message =
           err instanceof Error
             ? err.message
             : 'Сталася помилка при завантаженні знижок.';
         console.error('Помилка завантаження даних:', err);
-        setError(message);
+        if (!hasData.current) setError(message);
       } finally {
-        if (!controller.signal.aborted) setLoading(false);
+        inFlight = false;
+        if (!controller.signal.aborted && !disposed) setLoading(false);
       }
     };
 
     fetchData();
-    return () => controller.abort();
+    const refreshWhenVisible = () => {
+      if (document.visibilityState === 'visible' && Date.now() - lastAttemptAt.current >= 5 * 60 * 1000) fetchData();
+    };
+    const refreshInterval = window.setInterval(fetchData, 60 * 60 * 1000);
+    document.addEventListener('visibilitychange', refreshWhenVisible);
+    window.addEventListener('online', fetchData);
+    return () => {
+      disposed = true;
+      controller.abort();
+      window.clearInterval(refreshInterval);
+      document.removeEventListener('visibilitychange', refreshWhenVisible);
+      window.removeEventListener('online', fetchData);
+    };
   }, []);
 
   return (

@@ -24,7 +24,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType }: Pro
 
   const free = sorted.filter((g) => g.isFree);
   const specials = sorted.filter((g) => g.isSpecial && !g.isFree);
-  const popular = sorted.filter((g) => g.isPopular && !g.isFree && !g.isSpecial);
+  const popular = sorted.filter((g) => g.isPopular && (activeFilter === 'steam_popular' || (!g.isFree && !g.isSpecial)));
 
   const canCollapse = activeFilter === 'all';
 

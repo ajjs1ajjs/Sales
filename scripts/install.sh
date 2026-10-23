@@ -74,18 +74,19 @@ find_repo_root() {
 check_ubuntu_version
 
 ensure_node() {
-    if command -v npm >/dev/null 2>&1; then
-        return 0
-    fi
-    log "npm not found - installing Node.js 22..."
-    if command -v apt-get >/dev/null 2>&1 && command -v curl >/dev/null 2>&1; then
-        if [ "$(id -u)" -eq 0 ]; then SUDO=""; else SUDO="sudo"; fi
-        curl -fsSL https://deb.nodesource.com/setup_22.x | $SUDO bash -
-        $SUDO apt-get install -y nodejs || fail "Node.js installation failed. Install it manually: https://nodejs.org"
-    else
-        fail "Need apt-get + curl to auto-install Node.js, or install Node.js 20+ manually and re-run."
+    if ! command -v npm >/dev/null 2>&1; then
+        log "npm not found - installing Node.js 22..."
+        if command -v apt-get >/dev/null 2>&1 && command -v curl >/dev/null 2>&1; then
+            if [ "$(id -u)" -eq 0 ]; then SUDO=""; else SUDO="sudo"; fi
+            curl -fsSL https://deb.nodesource.com/setup_22.x | $SUDO bash -
+            $SUDO apt-get install -y nodejs || fail "Node.js installation failed. Install it manually: https://nodejs.org"
+        else
+            fail "Need apt-get + curl to auto-install Node.js, or install Node.js 22.13+ manually and re-run."
+        fi
     fi
     command -v npm >/dev/null 2>&1 || fail "Node.js installed but 'npm' is not on PATH yet. Open a new shell and re-run."
+    node -e 'const [major, minor] = process.versions.node.split(".").map(Number); if (!(major > 22 || (major === 22 && minor >= 13))) process.exit(1)' \
+        || fail "Node.js 22.13+ is required. Detected: $(node --version)"
 }
 
 REPO_ROOT="$(find_repo_root || true)"

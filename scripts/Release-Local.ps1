@@ -22,6 +22,14 @@ $Prefix = 'sales-v'
 
 function Fail([string]$msg) { Write-Host "::error::$msg"; exit 1 }
 
+function Test-CachedDiff {
+  git diff --cached --quiet 2>$null
+  $code = $LASTEXITCODE
+  if ($code -eq 0) { return $false }
+  if ($code -eq 1) { return $true }
+  Fail "git diff --cached failed ($code)"
+}
+
 # --- 0. Передумови -----------------------------------------------------------
 foreach ($t in @('gh', 'node', 'npm', 'git')) {
   if (-not (Get-Command $t -ErrorAction SilentlyContinue)) { Fail "$t not found in PATH" }
@@ -95,7 +103,7 @@ try {
   git config user.name 'local-release'
   git config user.email 'local-release@localhost'
   git add -A sales
-  if (git diff --cached --quiet) {
+  if (-not (Test-CachedDiff)) {
     Write-Host 'No site changes to publish — no tag, no bump. Done.'
     Pop-Location
     exit 0
@@ -105,7 +113,9 @@ try {
     if ($ans -ne 'y' -and $ans -ne 'Y') { Pop-Location; Write-Host 'aborted'; exit 0 }
   }
   git commit -m "chore(sales): publish site build ($tag)"
+  if ($LASTEXITCODE -ne 0) { Fail 'dist commit failed' }
   git push origin HEAD:main
+  if ($LASTEXITCODE -ne 0) { Fail 'dist push failed' }
   Pop-Location
   Write-Host "Published $tag build."
 } finally {
@@ -138,9 +148,14 @@ if (-not $tagExists) {
 }
 
 # --- 5. Бамп версії ------------------------------------------------------------
-node -e "const fs=require('fs');const j=JSON.parse(fs.readFileSync('package.json','utf8'));j.version='$next';fs.writeFileSync('package.json',JSON.stringify(j,null,2)+'\n');"
+$env:SALES_NEXT_VERSION = $next
+node -e "const fs=require('fs');const version=process.env.SALES_NEXT_VERSION;for(const p of ['package.json','package-lock.json']){const j=JSON.parse(fs.readFileSync(p,'utf8'));j.version=version;if(p==='package-lock.json'&&j.packages?.[''])j.packages[''].version=version;fs.writeFileSync(p,JSON.stringify(j,null,2)+'\n');}"
+if ($LASTEXITCODE -ne 0) { Fail 'version bump failed' }
 git add package.json
-if (git diff --cached --quiet) { Write-Host 'no changes'; exit 0 }
+git add package-lock.json
+if (-not (Test-CachedDiff)) { Write-Host 'no changes'; exit 0 }
 git commit -m "chore(release): $tag [skip ci]"
+if ($LASTEXITCODE -ne 0) { Fail 'release commit failed' }
 git push
+if ($LASTEXITCODE -ne 0) { Fail 'release push failed' }
 Write-Host "Released $tag"
