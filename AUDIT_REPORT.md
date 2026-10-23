@@ -4,7 +4,7 @@
 
 Базовий commit: `ad69fe8f18f36883ad9291b05952543698b7c1f0`. Аудит охоплює поточну робочу копію, включно з наявними до аудиту змінами у `src/components.css`, `src/design.css`, `src/layout.css`, `src/utilities.css`. На час первісного аудиту ці зміни не редагувалися, а виправлення не виконувалися.
 
-> **Статус follow-up (23 жовтня 2026):** реалізовано виправлення AUD-01–10, AUD-12, AUD-14 та AUD-15. Для AUD-11 додано регресійні тести, але browser/SW lifecycle та release-failure gates залишаються. AUD-13 закрито частково: версії `package.json` і lockfile синхронізовано, але provenance для віддаленого artifact/release лишається. Подробиці та перевірки наведені в розділі 12. Оцінка 68/100 і підрахунок знахідок у розділі 1 описують стан до цих змін і не є повторною оцінкою.
+> **Статус follow-up (23 жовтня 2026):** реалізовано виправлення AUD-01–15. Для AUD-11 додано тести production SW/release логіки, worker type gate та CI gate для data-only змін. Для AUD-13 реліз прив’язаний manifest-ом і tag target до source/artifact SHA з повторним узгодженням після часткового збою. Перевірки та межі наведені в розділі 12. Оцінка 68/100 і підрахунок знахідок у розділі 1 описують стан до цих змін і не є повторною оцінкою.
 
 ## 1. Executive Summary
 
@@ -770,12 +770,12 @@ Follow-up 23.10.2026 вніс такі зміни після аудиту:
 - **AUD-04:** локальний PowerShell release розрізняє exit code `git diff --cached --quiet`, перевіряє результати commit/push та синхронно оновлює версії в `package.json` і `package-lock.json`.
 - **AUD-05/AUD-08/AUD-10:** Game Pass popular-only записи не оголошуються новинками; Steam popular-фільтр зберігає discounted popular ігри; відсутня/некоректна ціна Steam відкидається замість хибного безкоштовного запису.
 - **AUD-07/AUD-09:** тайм-аут охоплює читання body; клієнтська схема відкидає некоректні записи, а довгоживучий провайдер повторно завантажує дані за розкладом, після повернення вкладки та після відновлення мережі, зберігаючи попередній результат при збої.
-- **AUD-06/11:** shell precache відокремлено від обмеженого runtime cache; data/navigation використовують network-first з fallback на cache, а записи в кеш очікуються до завершення відповіді. Додані тести колектора/доставки/запису, але повні SW offline/update та release-failure перевірки ще потрібні.
+- **AUD-06/11:** shell precache відокремлено від обмеженого runtime cache; data/navigation використовують network-first з fallback на cache, а записи в кеш очікуються до завершення відповіді. Strategy тести викликають ті самі production-функції та перевіряють precache/cleanup, offline/503 fallback, cache writes/eviction. `tsconfig.sw.json` перевіряє worker у build; CI більше не пропускає data-only зміни. Додані PowerShell release-state tests перевіряють no-op, dirty state й помилки commit/push.
 - **AUD-12:** Vitest оновлено до 4.1.12; `npm audit --audit-level=moderate` не знайшов вразливостей на момент перевірки.
-- **AUD-13 (частково):** версії `package.json` і `package-lock.json` синхронізовано; локальний version bump оновлює обидва файли. Для віддаленого artifact commit/release ще немає SHA-bound manifest, тому відтворюваність публікації лишається відкритою.
+- **AUD-13:** release manifest містить версію, source SHA, artifact SHA та UTC timestamp; release tag створюється на точному artifact commit, а manifest додається asset-ом. Повторне використання tag перевіряє provenance, неузгоджену версію відхиляє. Якщо збій стається після artifact push, після tag creation або до source bump, повторний запуск знаходить marker у release/commit і продовжує; version bump оновлює package та lockfile й не перезаписує новіші зміни `main`.
 - **AUD-14:** мінімум Node задокументовано та перевіряється як 22.13+ у package metadata та installer.
 - **AUD-15:** додано `prefers-reduced-motion: reduce` для анімацій, переходів і плавного прокручування.
 
-Додано регресійні тести для Steam fallback і цін, Game Pass типу новизни, Telegram batch boundaries, атомарного JSON та тайм-ауту завантаження body. Локальна перевірка follow-up: **74 тести / 17 файлів пройшли**, `npm run lint` пройшов після виправлення знайденого lint-порушення, `npm run build` пройшов; `npm audit --audit-level=moderate` — 0 вразливостей. Це перевірка збірки й тестів, не підтвердження поведінки зовнішніх API або production hosting.
+Додано регресійні тести для Steam fallback/цін, Game Pass classification, Telegram limits, атомарного JSON, body timeout, SW strategies та release state/provenance. Перевірка follow-up: **82 тести / 19 файлів пройшли**, PowerShell 5.1 release tests пройшли, lint і production build пройшли (включно з окремим SW typecheck), `npm audit --audit-level=moderate` — 0 вразливостей. У preview production bundle сторінка завантажилася, а SW активувався та контролював клієнт; offline та HTTP error fallback підтверджені тестами strategy-функцій.
 
 Початкові CSS-зміни користувача в чотирьох файлах не входили до цього follow-up.

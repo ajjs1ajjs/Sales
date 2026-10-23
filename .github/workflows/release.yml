@@ -1,14 +1,7 @@
 name: Release
 
-# Manual release only (Actions -> Release -> Run workflow). Builds the PWA and
-# publishes it to the public ajjs1ajjs/dist repo at /sales (GitHub Pages).
-#
-# The source code lives in this PRIVATE repo; the site + deals data are public
-# in ajjs1ajjs/dist. Deals data (sales/data/) is owned by dist's
-# sales-scheduler.yml, so it is preserved here — only the app shell is replaced.
-#
-# If a run finds no site changes it publishes nothing and cuts no tag; only
-# real changes bump the version and create a `sales-v<semver>` release.
+# Manual release to ajjs1ajjs/dist. The published tag points at the exact
+# artifact commit and carries a manifest tying it to this source revision.
 
 on:
   workflow_dispatch:
@@ -40,39 +33,57 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Require the protected source branch
+        env:
+          SOURCE_REF: ${{ github.ref }}
+        run: |
+          set -euo pipefail
+          test "$SOURCE_REF" = "refs/heads/main" || { echo "::error::Releases must run from main."; exit 1; }
+
       - name: Setup Node.js
         uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
         with:
           node-version: '22'
           cache: 'npm'
 
-      - name: Resolve next version
+      - name: Resolve or reconcile release version
         id: ver
         env:
           GH_TOKEN: ${{ secrets.PUBLIC_RELEASE_TOKEN }}
           DIST_REPO: ajjs1ajjs/dist
           PREFIX: sales-v
+          SOURCE_SHA: ${{ github.sha }}
           INPUT_VERSION: ${{ inputs.version }}
           BUMP: ${{ inputs.bump }}
         run: |
           set -euo pipefail
-          if [ -n "${INPUT_VERSION:-}" ]; then
-            NEXT="$INPUT_VERSION"
+          RECONCILE=$(gh api --paginate "repos/${DIST_REPO}/releases?per_page=100" \
+            --jq '.[] | select((.body // "") | contains("Source commit: '"$SOURCE_SHA"'")) | .tag_name' | tail -n1 || true)
+          if [ -n "$RECONCILE" ]; then
+            NEXT="${RECONCILE#${PREFIX}}"
+            RECONCILE_FLAG=true
+            echo "Reconciling source version from existing release ${RECONCILE}."
           else
-            LATEST=$(gh release list --repo "$DIST_REPO" --limit 200 --json tagName --jq '.[].tagName' \
-              | grep -E "^${PREFIX}[0-9]+\.[0-9]+\.[0-9]+$" | sed "s/^${PREFIX}//" | sort -V | tail -n1 || true)
-            [ -n "$LATEST" ] || LATEST="0.0.0"
-            NEXT=$(echo "$LATEST" | awk -F. -v b="${BUMP:-patch}" '{ if (b=="major") printf "%d.0.0",$1+1; else if (b=="minor") printf "%d.%d.0",$1,$2+1; else printf "%d.%d.%d",$1,$2,$3+1 }')
+            RECONCILE_FLAG=false
+            if [ -n "${INPUT_VERSION:-}" ]; then
+              NEXT="$INPUT_VERSION"
+            else
+              LATEST=$(gh release list --repo "$DIST_REPO" --limit 200 --json tagName --jq '.[].tagName' \
+                | grep -E "^${PREFIX}[0-9]+\.[0-9]+\.[0-9]+$" | sed "s/^${PREFIX}//" | sort -V | tail -n1 || true)
+              [ -n "$LATEST" ] || LATEST="0.0.0"
+              NEXT=$(echo "$LATEST" | awk -F. -v b="${BUMP:-patch}" '{ if (b=="major") printf "%d.0.0",$1+1; else if (b=="minor") printf "%d.%d.0",$1,$2+1; else printf "%d.%d.%d",$1,$2,$3+1 }')
+            fi
           fi
+          [[ "$NEXT" =~ ^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$ ]] || { echo "::error::Invalid semver: $NEXT"; exit 1; }
           echo "version=$NEXT" >> "$GITHUB_OUTPUT"
           echo "tag=${PREFIX}${NEXT}" >> "$GITHUB_OUTPUT"
-          echo "Releasing ${PREFIX}${NEXT}"
+          echo "reconcile=$RECONCILE_FLAG" >> "$GITHUB_OUTPUT"
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Security audit (high+)
-        run: npm audit --audit-level=high
+      - name: Security audit
+        run: npm audit --audit-level=moderate
 
       - name: Lint
         run: npm run lint
@@ -83,70 +94,124 @@ jobs:
       - name: Build
         run: npm run build
 
-      # Compare the fresh build with what is live; skip bumping/tagging when
-      # nothing changed so scheduled rebuilds stay idempotent.
       - name: Publish site to ajjs1ajjs/dist
         id: publish
         env:
           GH_TOKEN: ${{ secrets.PUBLIC_RELEASE_TOKEN }}
           DIST_REPO: ajjs1ajjs/dist
           TAG: ${{ steps.ver.outputs.tag }}
+          RECONCILE: ${{ steps.ver.outputs.reconcile }}
+          SOURCE_SHA: ${{ github.sha }}
         run: |
           set -euo pipefail
           test -n "$GH_TOKEN" || { echo "::error::PUBLIC_RELEASE_TOKEN is not set"; exit 1; }
+          if [ "$RECONCILE" = "true" ]; then
+            BODY=$(gh release view "$TAG" --repo "$DIST_REPO" --json body --jq .body)
+            ARTIFACT_SHA=$(printf '%s\n' "$BODY" | sed -n 's/^Artifact commit: //p' | head -n1)
+            [[ "$ARTIFACT_SHA" =~ ^[0-9a-f]{40}$ ]] || { echo "::error::Existing release has no valid artifact SHA."; exit 1; }
+            echo "artifact_sha=$ARTIFACT_SHA" >> "$GITHUB_OUTPUT"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Reusing an already published release for this source revision."
+            exit 0
+          fi
+          if gh release view "$TAG" --repo "$DIST_REPO" >/dev/null 2>&1; then
+            echo "::error::Release $TAG already exists for a different source revision."
+            exit 1
+          fi
           tmp="$RUNNER_TEMP/dist-sales"
           git clone "https://x-access-token:${GH_TOKEN}@github.com/${DIST_REPO}.git" "$tmp" --depth 1
           mkdir -p "$tmp/sales"
-          # Deals data (sales/data/) is owned by dist's scheduler — preserve it.
+          # The deals scheduler owns sales/data; preserve it across shell deploys.
           rsync -a --delete --exclude 'data/' --exclude '.nojekyll' dist/ "$tmp/sales/"
           cd "$tmp"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A sales
           if git diff --cached --quiet; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No site changes to publish."
+            LAST_SUBJECT=$(git log -1 --format=%s)
+            if [[ "$LAST_SUBJECT" == *"($TAG)"* && "$LAST_SUBJECT" == *"[source=$SOURCE_SHA]"* ]]; then
+              ARTIFACT_SHA=$(git rev-parse HEAD)
+              echo "Recovered the artifact commit after a partial release failure."
+            else
+              echo "changed=false" >> "$GITHUB_OUTPUT"
+              echo "No site changes to publish."
+              exit 0
+            fi
           else
-            git commit -m "chore(sales): publish site build ($TAG)"
+            git commit -m "chore(sales): publish site build ($TAG) [source=$SOURCE_SHA]"
+            ARTIFACT_SHA=$(git rev-parse HEAD)
             git push origin HEAD:main
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-            echo "Published $TAG build."
           fi
+          echo "artifact_sha=$ARTIFACT_SHA" >> "$GITHUB_OUTPUT"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
 
-      # Cut a release tag + bump the source version only when something shipped.
-      - name: Create release tag
+      - name: Create or verify release provenance
         if: steps.publish.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ secrets.PUBLIC_RELEASE_TOKEN }}
           DIST_REPO: ajjs1ajjs/dist
           TAG: ${{ steps.ver.outputs.tag }}
+          VERSION: ${{ steps.ver.outputs.version }}
+          RECONCILE: ${{ steps.ver.outputs.reconcile }}
+          SOURCE_SHA: ${{ github.sha }}
+          ARTIFACT_SHA: ${{ steps.publish.outputs.artifact_sha }}
         run: |
           set -euo pipefail
+          MANIFEST="$RUNNER_TEMP/sales-release-manifest.json"
+          npx tsx scripts/release-core.ts write-manifest "$VERSION" "$SOURCE_SHA" "$ARTIFACT_SHA" "$MANIFEST"
+          NOTES=$(printf 'Game Sales %s\n\nSource commit: %s\nArtifact commit: %s' "$TAG" "$SOURCE_SHA" "$ARTIFACT_SHA")
           if gh release view "$TAG" --repo "$DIST_REPO" >/dev/null 2>&1; then
-            echo "Release $TAG already exists."
-          else
-            # dist is shared: --generate-notes would pick a foreign tag as base.
-            TAGS=$(gh release list --repo "$DIST_REPO" --limit 200 --json tagName --jq '.[].tagName' 2>/dev/null || true)
-            PREV=$(echo "$TAGS" | grep -E "^sales-v[0-9]+\.[0-9]+\.[0-9]+$" | grep -v "^${TAG}$" | sed "s/^sales-v//" | sort -V | tail -n 1 || true)
-            if [ -n "$PREV" ]; then
-              NOTES="**Full Changelog**: https://github.com/${DIST_REPO}/compare/sales-v${PREV}...${TAG}"
+            BODY=$(gh release view "$TAG" --repo "$DIST_REPO" --json body --jq .body)
+            printf '%s\n' "$BODY" | grep -Fx "Source commit: $SOURCE_SHA" >/dev/null
+            printf '%s\n' "$BODY" | grep -Fx "Artifact commit: $ARTIFACT_SHA" >/dev/null
+            REF=$(gh api "repos/$DIST_REPO/git/ref/tags/$TAG" --jq .object.sha)
+            TYPE=$(gh api "repos/$DIST_REPO/git/ref/tags/$TAG" --jq .object.type)
+            if [ "$TYPE" = "tag" ]; then
+              TAG_SHA=$(gh api "repos/$DIST_REPO/git/tags/$REF" --jq .object.sha)
             else
-              NOTES="Game Sales ${TAG}"
+              TAG_SHA="$REF"
             fi
-            gh release create "$TAG" --repo "$DIST_REPO" --title "Game Sales v${TAG#sales-v}" --notes "$NOTES"
+            test "$TAG_SHA" = "$ARTIFACT_SHA"
+            if gh release download "$TAG" --repo "$DIST_REPO" --pattern sales-release-manifest.json --dir "$RUNNER_TEMP"; then
+              npx tsx scripts/release-core.ts verify-manifest "$MANIFEST" "$VERSION" "$SOURCE_SHA" "$ARTIFACT_SHA"
+            else
+              gh release upload "$TAG" "$MANIFEST" --repo "$DIST_REPO" --clobber
+            fi
+          else
+            gh release create "$TAG" --repo "$DIST_REPO" --target "$ARTIFACT_SHA" \
+              --title "Game Sales v$VERSION" --notes "$NOTES"
+            gh release upload "$TAG" "$MANIFEST" --repo "$DIST_REPO"
           fi
 
-      - name: Bump version in source
+      - name: Bump source version and reconcile lockfile
         if: steps.publish.outputs.changed == 'true'
         env:
-          NEXT: ${{ steps.ver.outputs.version }}
+          VERSION: ${{ steps.ver.outputs.version }}
           TAG: ${{ steps.ver.outputs.tag }}
+          SOURCE_SHA: ${{ github.sha }}
+          ARTIFACT_SHA: ${{ steps.publish.outputs.artifact_sha }}
         run: |
           set -euo pipefail
-          node -e "const fs=require('fs');const p='package.json';const j=JSON.parse(fs.readFileSync(p,'utf8'));j.version=process.env.NEXT;fs.writeFileSync(p,JSON.stringify(j,null,2)+'\n');"
+          git fetch origin main
+          git checkout --detach origin/main
+          CURRENT_VERSION=$(node -p "require('./package.json').version")
+          LOCK_VERSION=$(node -p "require('./package-lock.json').packages[''].version")
+          if [ "$CURRENT_VERSION" = "$VERSION" ] && [ "$LOCK_VERSION" = "$VERSION" ]; then
+            echo "Source package and lockfile already match $VERSION."
+            exit 0
+          fi
+          VERSION_ORDER=$(node -e 'const [a,b]=process.argv.slice(1).map(v=>v.split(".").map(Number));for(let i=0;i<3;i++){if(a[i]!==b[i]){console.log(a[i]>b[i]?1:-1);process.exit(0)}}console.log(0)' "$CURRENT_VERSION" "$VERSION")
+          if [ "$VERSION_ORDER" -gt 0 ]; then
+            echo "Source main already has a newer version ($CURRENT_VERSION); refusing to downgrade it."
+            exit 0
+          fi
+          node -e "const fs=require('fs');for(const p of ['package.json','package-lock.json']){const j=JSON.parse(fs.readFileSync(p,'utf8'));j.version=process.env.VERSION;if(p==='package-lock.json'&&j.packages?.[''])j.packages[''].version=process.env.VERSION;fs.writeFileSync(p,JSON.stringify(j,null,2)+'\\n');}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add package.json
-          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
-          git commit -m "chore(release): $TAG [skip ci]"
-          git push
+          git add package.json package-lock.json
+          if git diff --cached --quiet; then
+            echo "::error::Release source version was not bumped despite a published release."
+            exit 1
+          fi
+          git commit -m "chore(release): $TAG [source=$SOURCE_SHA] [artifact=$ARTIFACT_SHA] [skip ci]"
+          git push origin HEAD:main

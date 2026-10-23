@@ -1,5 +1,7 @@
 /// <reference lib="webworker" />
 
+import { cacheFirst, networkFirst, precacheShell, removeOldCaches } from './sw-strategies';
+
 declare let self: ServiceWorkerGlobalScope;
 
 const manifestEntries: { url: string; revision: string | null }[] = (self as unknown as { __WB_MANIFEST: { url: string; revision: string | null }[] }).__WB_MANIFEST;
@@ -20,30 +22,14 @@ const RUNTIME_CACHE = `${CACHE_PREFIX}-runtime`;
 const NAV_FALLBACK = manifestEntries.find((e) => e.url.endsWith('index.html'))?.url ?? manifestEntries[0]?.url;
 const MAX_RUNTIME_ENTRIES = 200;
 
-async function putRuntime(request: Request, response: Response): Promise<void> {
-  try {
-    const cache = await caches.open(RUNTIME_CACHE);
-    await cache.put(request, response);
-    const keys = await cache.keys();
-    if (keys.length > MAX_RUNTIME_ENTRIES) {
-      await Promise.all(keys.slice(0, keys.length - MAX_RUNTIME_ENTRIES).map((key) => cache.delete(key)));
-    }
-  } catch {
-    // Storage quota or a non-cacheable response must not fail the page request.
-  }
-}
-
 self.addEventListener('install', (event) => {
-  event.waitUntil(caches.open(SHELL_CACHE).then((cache) => cache.addAll(manifestEntries.map((entry) => entry.url))));
+  event.waitUntil(precacheShell(caches, SHELL_CACHE, manifestEntries.map((entry) => entry.url)));
   self.skipWaiting();
 });
 
 self.addEventListener('activate', (event) => {
   event.waitUntil(
-    caches.keys().then((keys) => Promise.all(
-      keys.filter((key) => key.startsWith(CACHE_PREFIX) && key !== SHELL_CACHE && key !== RUNTIME_CACHE)
-        .map((key) => caches.delete(key)),
-    )),
+    removeOldCaches(caches, CACHE_PREFIX, [SHELL_CACHE, RUNTIME_CACHE]),
   );
   self.clients.claim();
 });
@@ -56,42 +42,17 @@ self.addEventListener('fetch', (event) => {
   const isNavigation = request.mode === 'navigate';
 
   if (isData || isNavigation) {
-    event.respondWith((async () => {
-      try {
-        const response = await fetch(request);
-        if (response.ok) {
-          await putRuntime(request, response.clone());
-          return response;
-        }
-        const cached = await caches.match(request, { ignoreSearch: isData });
-        if (cached) return cached;
-        if (isNavigation && NAV_FALLBACK) {
-          const shell = await caches.match(NAV_FALLBACK);
-          if (shell) return shell;
-        }
-        return response;
-      } catch {
-        const cached = await caches.match(request, { ignoreSearch: isData });
-        if (cached) return cached;
-        if (isNavigation && NAV_FALLBACK) {
-          const shell = await caches.match(NAV_FALLBACK);
-          if (shell) return shell;
-        }
-        return new Response('Offline and no cached content is available.', { status: 503 });
-      }
-    })());
+    event.respondWith(networkFirst(request, {
+      cacheStorage: caches,
+      fetcher: fetch,
+      runtimeCacheName: RUNTIME_CACHE,
+      navigationFallback: NAV_FALLBACK,
+      maxRuntimeEntries: MAX_RUNTIME_ENTRIES,
+    }, isData, isNavigation));
     return;
   }
 
   // Build assets are immutable and already in the shell precache. Serve them
   // cache-first so a deployed app does not depend on a network round trip.
-  event.respondWith((async () => {
-    const cached = await caches.match(request);
-    if (cached) return cached;
-    try {
-      return await fetch(request);
-    } catch {
-      return new Response('Offline', { status: 503 });
-    }
-  })());
+  event.respondWith(cacheFirst(request, caches, fetch));
 });

@@ -8,7 +8,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run sitemap && tsc -b && vite build",
+    "build": "npm run sitemap && tsc -b && tsc -p tsconfig.sw.json && vite build",
     "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest",
