@@ -122,4 +122,43 @@ describe('service worker cache lifecycle and strategies', () => {
     expect(await (await cacheFirst(request, storage, async () => { throw new Error('offline'); })).text()).toBe('cached asset');
     expect((await cacheFirst(new Request('https://sales.test/missing'), storage, async () => { throw new Error('offline'); })).status).toBe(503);
   });
+
+  it('prefers the versioned shell over a stale runtime navigation entry (AUD-18)', async () => {
+    const storage = createCacheStorage();
+    // A navigation response left in the shared runtime cache by an older SW version.
+    const runtime = await storage.open('game-sales-runtime');
+    await runtime.put(new Request('https://sales.test/deals'), new Response('<main>stale old shell</main>'));
+    // The current, versioned shell still has the fresh HTML.
+    const shell = await storage.open('game-sales-shell-v2');
+    await shell.put('/index.html', new Response('<main>fresh shell</main>'));
+
+    const response = await networkFirst(
+      new Request('https://sales.test/deals'),
+      {
+        cacheStorage: storage,
+        fetcher: async () => {
+          throw new Error('offline');
+        },
+        runtimeCacheName: 'game-sales-runtime',
+        navigationFallback: '/index.html',
+      },
+      false,
+      true,
+    );
+    expect(await response.text()).toBe('<main>fresh shell</main>');
+  });
+
+  it('does not persist navigation HTML into the shared runtime cache (AUD-18)', async () => {
+    const storage = createCacheStorage();
+    const runtime = await storage.open('game-sales-runtime');
+    const fetcher = vi.fn(async () => new Response('<main>online shell</main>'));
+    const response = await networkFirst(
+      new Request('https://sales.test/deals'),
+      { cacheStorage: storage, fetcher, runtimeCacheName: 'game-sales-runtime' },
+      false,
+      true,
+    );
+    expect(await response.text()).toBe('<main>online shell</main>');
+    expect(await runtime.keys()).toHaveLength(0);
+  });
 });

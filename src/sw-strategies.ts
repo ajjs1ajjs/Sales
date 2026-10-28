@@ -56,25 +56,34 @@ export async function networkFirst(
   isNavigation: boolean,
 ): Promise<Response> {
   const matchCached = async (): Promise<Response | undefined> => {
-    const cached = await options.cacheStorage.match(request, { ignoreSearch: isData });
-    if (cached) return cached;
-    if (isNavigation && options.navigationFallback) {
-      const shell = await options.cacheStorage.match(options.navigationFallback);
-      if (shell) return shell;
+    // Navigations must always fall back to the *versioned* shell. A navigation
+    // response cached in the shared runtime cache can outlive an update; once
+    // the old shell cache is removed, that stale HTML points at missing JS.
+    if (isNavigation) {
+      if (options.navigationFallback) {
+        const shell = await options.cacheStorage.match(options.navigationFallback);
+        if (shell) return shell;
+      }
+      return undefined;
     }
-    return undefined;
+    const cached = await options.cacheStorage.match(request, { ignoreSearch: isData });
+    return cached ?? undefined;
   };
 
   try {
     const response = await options.fetcher(request);
     if (response.ok) {
-      await putRuntime(
-        request,
-        response.clone(),
-        options.cacheStorage,
-        options.runtimeCacheName,
-        options.maxRuntimeEntries ?? 200,
-      );
+      // Only data belongs in the runtime cache. Navigation HTML lives in the
+      // versioned shell cache; caching it again would create stale shadow copies.
+      if (isData) {
+        await putRuntime(
+          request,
+          response.clone(),
+          options.cacheStorage,
+          options.runtimeCacheName,
+          options.maxRuntimeEntries ?? 200,
+        );
+      }
       return response;
     }
     return (await matchCached()) ?? response;

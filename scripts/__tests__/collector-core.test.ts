@@ -43,4 +43,20 @@ describe('collector regression fixes', () => {
     ], { specialBucket: true, popularBucket: false });
     expect([...games.values()].map((game) => [game.title, game.isFree])).toEqual([['Free', true]]);
   });
+
+  it('does not flag a free specials game as a discount (AUD-16)', () => {
+    const games = new Map<string, SteamGame>();
+    processCategoryItems(games, [
+      { id: 10, name: 'Free weekend', original_price: 1000, final_price: 0, discount_percent: 100 },
+      { id: 11, name: 'Real discount', original_price: 1000, final_price: 500, discount_percent: 50 },
+    ], { specialBucket: true, popularBucket: false });
+
+    const free = games.get('10')!;
+    const discount = games.get('11')!;
+    // A free game must only be announced as free, never as a "-100%" discount.
+    expect(free.isFree).toBe(true);
+    expect(free.isSpecial).toBe(false);
+    expect(discount.isFree).toBe(false);
+    expect(discount.isSpecial).toBe(true);
+  });
 });
