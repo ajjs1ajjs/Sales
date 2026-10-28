@@ -3,15 +3,23 @@
 # Публікує ТІЛЬКИ якщо збірка відрізняється від живого сайту (дані sales/data/
 # належать шедулеру dist і зберігаються). Інакше — ні тега, ні бампа.
 #
-# Використання:
-#   .\scripts\Release-Local.ps1                 # patch-бамп при реальних змінах
-#   .\scripts\Release-Local.ps1 -Bump minor
-#   .\scripts\Release-Local.ps1 -Version 1.6.0
+# ВИМОГА: PowerShell 7+ (pwsh). Windows PowerShell 5.1 некоректно передає
+# аргументи з пробілами у native-команди (gh api --jq) і реліз падає.
+#
+# Використання (pwsh 7+):
+#   pwsh -NoProfile -File scripts/Release-Local.ps1   # patch-бамп при реальних змінах
+#   pwsh -NoProfile -File scripts/Release-Local.ps1 -Bump minor
+#   pwsh -NoProfile -File scripts/Release-Local.ps1 -Version 1.6.0
 param(
   [ValidateSet('patch', 'minor', 'major')][string]$Bump = 'patch',
   [string]$Version = '',
   [switch]$Force
 )
+
+if ($PSVersionTable.PSVersion.Major -lt 7) {
+  Write-Host '::error::Release requires PowerShell 7+ (pwsh): Windows PowerShell 5.1 mis-quotes native arguments (gh api --jq with spaces). Run: pwsh -NoProfile -File scripts/Release-Local.ps1'
+  exit 1
+}
 
 $ErrorActionPreference = 'Stop'
 $RepoRoot = Split-Path -Parent $PSScriptRoot
