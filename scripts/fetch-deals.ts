@@ -3,7 +3,7 @@ import path from 'path';
 import pino from 'pino';
 import { fileURLToPath } from 'node:url';
 import { RateLimiter } from './rate-limiter';
-import { chooseSteamSnapshot, planGamePassNewEntries } from './collector-core';
+import { chooseSteamSnapshot, isValidSteamSearchPage, planGamePassNewEntries } from './collector-core';
 import { writeJsonAtomically } from './persistence';
 import { buildTelegramBatches } from './telegram';
 import type { SteamGame, GamePassGame, DealsData, NotifiedItem } from '../src/types';
@@ -351,9 +351,8 @@ async function fetchSteamSearchDeals(gamesMap: Map<string, SteamGame>): Promise<
       { headers: { 'User-Agent': STEAM_UA, Accept: 'application/json' } },
     );
     const data = (await res.json()) as SteamSearchResponse;
-    if (!data.success || typeof data.results_html !== 'string') {
-      logger.warn({ page, start }, 'steam search page failed (no success/html)');
-      continue;
+    if (!isValidSteamSearchPage(data)) {
+      throw new Error(`Steam search page ${page} returned an incomplete response.`);
     }
     const added = parseSearchHtml(data.results_html, gamesMap);
     logger.info({ page, start, total: data.total_count ?? -1, added }, 'steam search page fetched');
@@ -483,9 +482,9 @@ async function fetchGamePassGames(): Promise<GamePassGame[]> {
 
   const ids = [...flags.keys()];
   const details = await fetchGamePassDetails(ids);
-  // Більшість батчів не віддали деталей — вважаємо ран невдалим, щоб не
-  // підмінити повний каталог обрізком.
-  if (ids.length > 0 && details.size < ids.length / 2) {
+  // A missing detail can mean a transient/partial catalogue response. Keep the
+  // previously published snapshot rather than advancing a partial one.
+  if (details.size < ids.length) {
     throw new Error(`gamepass details resolved only ${details.size}/${ids.length}`);
   }
 

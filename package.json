@@ -3,14 +3,15 @@
   "private": true,
   "version": "0.1.5",
   "engines": {
-    "node": ">=22.13"
+    "node": ">=24"
   },
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run sitemap && tsc -b && tsc -p tsconfig.sw.json && vite build",
+    "build": "npm run sitemap && tsc -b && tsc -p tsconfig.sw.json && vite build && npm run validate:build",
     "lint": "eslint .",
     "test": "vitest run",
+    "validate:build": "node scripts/validate-build.mjs",
     "test:watch": "vitest",
     "preview": "vite preview",
     "fetch": "tsx scripts/fetch-deals.ts",
@@ -28,7 +29,6 @@
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^14.6.1",
     "@types/node": "^24.12.3",
-    "@types/pino": "^7.0.4",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",

@@ -1,5 +1,9 @@
 import type { GamePassGame, SteamGame } from '../src/types';
 
+export function isValidSteamSearchPage(data: { success?: number; results_html?: unknown }): data is { success: number; results_html: string; total_count?: number } {
+  return data.success === 1 && typeof data.results_html === 'string';
+}
+
 export function chooseSteamSnapshot(
   fresh: SteamGame[],
   previous: SteamGame[],

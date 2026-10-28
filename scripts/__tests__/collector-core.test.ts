@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { chooseSteamSnapshot, planGamePassNewEntries, planGamePassPopularEntries } from '../collector-core';
+import { chooseSteamSnapshot, isValidSteamSearchPage, planGamePassNewEntries, planGamePassPopularEntries } from '../collector-core';
 import type { GamePassGame, SteamGame } from '../../src/types';
 import { processCategoryItems } from '../fetch-deals';
 
@@ -15,6 +15,11 @@ const gamePassGame = (id: string, flags: Partial<GamePassGame> = {}): GamePassGa
 });
 
 describe('collector regression fixes', () => {
+  it('treats a failed or malformed Steam search page as incomplete', () => {
+    expect(isValidSteamSearchPage({ success: 1, results_html: '' })).toBe(true);
+    expect(isValidSteamSearchPage({ success: 0, results_html: '<div></div>' })).toBe(false);
+    expect(isValidSteamSearchPage({ success: 1 })).toBe(false);
+  });
   it('keeps a known-good Steam snapshot when a fetch fails or returns empty', () => {
     const previous = [steamGame('old')];
     expect(chooseSteamSnapshot([], previous, true)).toEqual({ games: previous, usedPrevious: true });
