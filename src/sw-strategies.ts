@@ -9,6 +9,7 @@ interface StrategyOptions {
   runtimeCacheName: string;
   navigationFallback?: string;
   maxRuntimeEntries?: number;
+  networkTimeoutMs?: number;
 }
 
 async function putRuntime(
@@ -70,25 +71,49 @@ export async function networkFirst(
     return cached ?? undefined;
   };
 
-  try {
-    const response = await options.fetcher(request);
-    if (response.ok) {
-      // Only data belongs in the runtime cache. Navigation HTML lives in the
-      // versioned shell cache; caching it again would create stale shadow copies.
-      if (isData) {
-        await putRuntime(
-          request,
-          response.clone(),
-          options.cacheStorage,
-          options.runtimeCacheName,
-          options.maxRuntimeEntries ?? 200,
-        );
+  const timeoutMs = options.networkTimeoutMs;
+
+  const fetchPromise = (async () => {
+    try {
+      const response = await options.fetcher(request);
+      if (response.ok) {
+        // Only data belongs in the runtime cache. Navigation HTML lives in the
+        // versioned shell cache; caching it again would create stale shadow copies.
+        if (isData) {
+          await putRuntime(
+            request,
+            response.clone(),
+            options.cacheStorage,
+            options.runtimeCacheName,
+            options.maxRuntimeEntries ?? 200,
+          );
+        }
+        return response;
       }
-      return response;
+      return (await matchCached()) ?? response;
+    } catch {
+      return (await matchCached()) ?? new Response('Offline and no cached content is available.', { status: 503 });
     }
-    return (await matchCached()) ?? response;
-  } catch {
-    return (await matchCached()) ?? new Response('Offline and no cached content is available.', { status: 503 });
+  })();
+
+  if (!timeoutMs || timeoutMs <= 0) {
+    return fetchPromise;
+  }
+
+  let timerId: ReturnType<typeof setTimeout> | undefined;
+  const timeoutPromise = new Promise<Response | undefined>((resolve) => {
+    timerId = setTimeout(async () => {
+      const cached = await matchCached();
+      if (cached) resolve(cached);
+    }, timeoutMs);
+  });
+
+  try {
+    const winner = await Promise.race([fetchPromise, timeoutPromise]);
+    if (winner) return winner;
+    return await fetchPromise;
+  } finally {
+    if (timerId !== undefined) clearTimeout(timerId);
   }
 }
 

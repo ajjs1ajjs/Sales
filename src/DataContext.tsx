@@ -99,10 +99,31 @@ function normalizeHistory(raw: unknown): Record<string, NotifiedItem> {
   return out;
 }
 
-interface DataContextValue {
+function normalizeSourceUpdates(raw: unknown): DealsData['sourceUpdates'] {
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return undefined;
+  const obj = raw as Record<string, unknown>;
+  const steam = typeof obj.steam === 'string' && !Number.isNaN(Date.parse(obj.steam)) ? obj.steam : undefined;
+  const gamepass = typeof obj.gamepass === 'string' && !Number.isNaN(Date.parse(obj.gamepass)) ? obj.gamepass : undefined;
+  if (!steam && !gamepass) return undefined;
+  return { steam, gamepass };
+}
+
+export interface DataContextValue {
   data: DealsData | null;
   loading: boolean;
   error: string | null;
+  refreshError: string | null;
+  lastFetchedAt: number | null;
+}
+
+class HttpStatusError extends Error {
+  readonly status: number;
+
+  constructor(status: number) {
+    super(`Не вдалося завантажити дані (статус: ${status})`);
+    this.name = 'HttpStatusError';
+    this.status = status;
+  }
 }
 
 const DataContext = createContext<DataContextValue | null>(null);
@@ -111,6 +132,8 @@ export function DataProvider({ children }: { children: ReactNode }) {
   const [data, setData] = useState<DealsData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [refreshError, setRefreshError] = useState<string | null>(null);
+  const [lastFetchedAt, setLastFetchedAt] = useState<number | null>(null);
   const hasData = useRef(false);
   const lastAttemptAt = useRef(0);
 
@@ -129,26 +152,54 @@ export function DataProvider({ children }: { children: ReactNode }) {
       try {
         if (!hasData.current) setLoading(true);
         const baseUrl = import.meta.env.BASE_URL || '/';
-        let res: Response | undefined;
+        let raw: unknown = undefined;
+        let lastError: unknown;
         for (let attempt = 0; attempt < 3; attempt++) {
+          const attemptController = new AbortController();
+          const onParentAbort = () => attemptController.abort();
+          controller.signal.addEventListener('abort', onParentAbort);
+          // timeout covers body parsing too
+          let timeoutTimer: number | undefined;
+          const timeout = new Promise<never>((_, reject) => {
+            timeoutTimer = window.setTimeout(() => {
+              reject(new Error('Перевищено час очікування відповіді сервера.'));
+              attemptController.abort();
+            }, 8000);
+          });
+
           try {
-            res = await fetch(`${baseUrl}data/deals.json`, {
-              cache: 'no-cache',
-              signal: controller.signal,
-            });
-            if (res.ok || res.status < 500 || attempt === 2) break;
+            raw = await Promise.race([
+              (async () => {
+                const response = await fetch(`${baseUrl}data/deals.json`, {
+                  cache: 'no-cache',
+                  signal: attemptController.signal,
+                });
+                if (!response.ok) {
+                  void response.body?.cancel().catch(() => {});
+                  throw new HttpStatusError(response.status);
+                }
+                // Keep the timeout armed while the body is read.
+                return await response.json();
+              })(),
+              timeout,
+            ]);
+            lastError = undefined;
+            break;
           } catch (err) {
-            if (controller.signal.aborted || attempt === 2) throw err;
+            lastError = err;
+            if (controller.signal.aborted || disposed) throw err;
+            // Retry only transport failures and 5xx; 4xx will not heal by itself.
+            const retryable = !(err instanceof HttpStatusError) || err.status >= 500;
+            if (!retryable || attempt === 2) throw err;
+          } finally {
+            if (timeoutTimer !== undefined) window.clearTimeout(timeoutTimer);
+            controller.signal.removeEventListener('abort', onParentAbort);
           }
           // GitHub Pages can briefly return 5xx while publishing. Retry before
           // surfacing an error so visitors do not need to hard-refresh.
           await wait(500 * (attempt + 1));
         }
-        if (!res) throw new Error('Не вдалося завантажити дані.');
-        if (!res.ok) {
-          throw new Error(`Не вдалося завантажити дані (статус: ${res.status})`);
-        }
-        const raw: unknown = await res.json();
+        if (lastError) throw lastError;
         if (!raw || typeof raw !== 'object' || Array.isArray(raw)) {
           throw new Error('Формат файлу пропозицій некоректний.');
         }
@@ -161,6 +212,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
         // Поле `epic` ігнорується (лишилось у старих deals.json до переходу на Steam-only).
         const jsonData: DealsData = {
           lastUpdated: typeof source.lastUpdated === 'string' && !Number.isNaN(Date.parse(source.lastUpdated)) ? source.lastUpdated : '',
+          sourceUpdates: normalizeSourceUpdates(source.sourceUpdates),
           steam: normalizeList(source.steam, normalizeSteam, isValidSteamRecord),
           gamepass: normalizeList(source.gamepass, normalizeGamePass, isValidGamePassRecord),
           notifiedHistory: normalizeHistory(source.notifiedHistory),
@@ -168,6 +220,8 @@ export function DataProvider({ children }: { children: ReactNode }) {
         setData(jsonData);
         hasData.current = true;
         setError(null);
+        setRefreshError(null);
+        setLastFetchedAt(Date.now());
         if (retryTimer !== undefined) {
           window.clearTimeout(retryTimer);
           retryTimer = undefined;
@@ -187,6 +241,8 @@ export function DataProvider({ children }: { children: ReactNode }) {
             retryTimer = undefined;
             fetchData();
           }, 30_000);
+        } else {
+          setRefreshError(message);
         }
       } finally {
         inFlight = false;
@@ -212,7 +268,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
   }, []);
 
   return (
-    <DataContext.Provider value={{ data, loading, error }}>
+    <DataContext.Provider value={{ data, loading, error, refreshError, lastFetchedAt }}>
       {children}
     </DataContext.Provider>
   );

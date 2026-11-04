@@ -16,6 +16,7 @@ import { LocaleProvider, useLocale } from './contexts/LocaleContext';
 import { WishlistProvider, useWishlist } from './contexts/WishlistContext';
 import { formatLastUpdated, formatLastUpdatedEn, interp } from './utils';
 import { Skeleton } from './components/Skeleton';
+import { DataFreshness } from './components/DataFreshness';
 
 type SectionProps = {
   games: SteamGame[];
@@ -45,7 +46,7 @@ const HistoryPageLazy = lazy(() =>
 );
 
 function HomePage() {
-  const { data, loading, error } = useData();
+  const { data, loading, error, refreshError, lastFetchedAt } = useData();
   const { t, locale } = useLocale();
   const [searchQuery, setSearchQuery] = useState('');
   const { wishlist } = useWishlist();
@@ -90,6 +91,11 @@ function HomePage() {
                 </span>
               </div>
             )}
+            <DataFreshness
+              sourceUpdates={data?.sourceUpdates}
+              refreshError={refreshError}
+              lastFetchedAt={lastFetchedAt}
+            />
           </div>
           <div className="header-right">
             <LanguageToggle />

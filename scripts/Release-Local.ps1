@@ -229,31 +229,27 @@ if (-not $tagExists) {
 } else {
   $manifestDir = Join-Path ([IO.Path]::GetTempPath()) ('sales-release-{0}' -f [guid]::NewGuid().ToString('N'))
   New-Item -ItemType Directory -Path $manifestDir | Out-Null
-  $prevPref = $ErrorActionPreference
-  $ErrorActionPreference = 'Continue'
-  try {
+  $assets = gh release view $tag --repo $DistRepo --json assets --jq '.assets[].name'
+  Assert-ReleaseCommandSucceeded $LASTEXITCODE 'read existing release assets'
+  if ($assets -contains 'sales-release-manifest.json') {
+    # A real download failure must stop the release instead of overwriting the
+    # existing provenance with a freshly generated manifest.
     gh release download $tag --repo $DistRepo --pattern 'sales-release-manifest.json' --dir $manifestDir
-    $downloadExitCode = $LASTEXITCODE
-  } catch {
-    $downloadExitCode = 1
-  } finally {
-    $ErrorActionPreference = $prevPref
-  }
-  if ($downloadExitCode -ne 0) {
-    # Recover a release whose tag was created but whose asset upload failed.
-    $manifestPath = Join-Path $manifestDir 'sales-release-manifest.json'
-    npx tsx scripts/release-core.ts write-manifest $next $sourceSha $artifactSha $manifestPath
-    Assert-ReleaseCommandSucceeded $LASTEXITCODE 'recreate release provenance'
-    gh release upload $tag $manifestPath --repo $DistRepo --clobber
-    $uploadExitCode = $LASTEXITCODE
-    Remove-Item -LiteralPath $manifestDir -Recurse -Force
-    Assert-ReleaseCommandSucceeded $uploadExitCode 'recover release provenance upload'
-  } else {
+    Assert-ReleaseCommandSucceeded $LASTEXITCODE 'download existing release provenance'
     npx tsx scripts/release-core.ts verify-manifest (Join-Path $manifestDir 'sales-release-manifest.json') $next $sourceSha $artifactSha
     $verifyExitCode = $LASTEXITCODE
     Remove-Item -LiteralPath $manifestDir -Recurse -Force
     Assert-ReleaseCommandSucceeded $verifyExitCode 'verify existing release provenance'
     Write-Host "Release $tag already exists and matches this source/artifact build."
+  } else {
+    # Recover a release whose tag was created but whose asset upload failed.
+    $manifestPath = Join-Path $manifestDir 'sales-release-manifest.json'
+    npx tsx scripts/release-core.ts write-manifest $next $sourceSha $artifactSha $manifestPath
+    Assert-ReleaseCommandSucceeded $LASTEXITCODE 'recreate release provenance'
+    gh release upload $tag $manifestPath --repo $DistRepo
+    $uploadExitCode = $LASTEXITCODE
+    Remove-Item -LiteralPath $manifestDir -Recurse -Force
+    Assert-ReleaseCommandSucceeded $uploadExitCode 'recover release provenance upload'
   }
 }
 

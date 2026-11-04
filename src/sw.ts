@@ -48,6 +48,7 @@ self.addEventListener('fetch', (event) => {
       runtimeCacheName: RUNTIME_CACHE,
       navigationFallback: NAV_FALLBACK,
       maxRuntimeEntries: MAX_RUNTIME_ENTRIES,
+      networkTimeoutMs: 3000,
     }, isData, isNavigation));
     return;
   }

@@ -157,8 +157,15 @@ jobs:
           ARTIFACT_SHA: ${{ steps.publish.outputs.artifact_sha }}
         run: |
           set -euo pipefail
-          MANIFEST="$RUNNER_TEMP/sales-release-manifest.json"
-          npx tsx scripts/release-core.ts write-manifest "$VERSION" "$SOURCE_SHA" "$ARTIFACT_SHA" "$MANIFEST"
+          EXPECTED_DIR="$RUNNER_TEMP/expected-release-manifest"
+          EXPECTED_MANIFEST="$EXPECTED_DIR/sales-release-manifest.json"
+          ASSET_DIR="$RUNNER_TEMP/sales-release-assets"
+          # Keep the expected file in its own directory (the asset name comes
+          # from the basename) and download into an empty one: the expected
+          # manifest must never shadow a failed download or a missing asset.
+          rm -rf "$EXPECTED_DIR" "$ASSET_DIR"
+          mkdir -p "$EXPECTED_DIR" "$ASSET_DIR"
+          npx tsx scripts/release-core.ts write-manifest "$VERSION" "$SOURCE_SHA" "$ARTIFACT_SHA" "$EXPECTED_MANIFEST"
           NOTES=$(printf 'Game Sales %s\n\nSource commit: %s\nArtifact commit: %s' "$TAG" "$SOURCE_SHA" "$ARTIFACT_SHA")
           if gh release view "$TAG" --repo "$DIST_REPO" >/dev/null 2>&1; then
             BODY=$(gh release view "$TAG" --repo "$DIST_REPO" --json body --jq .body)
@@ -172,15 +179,18 @@ jobs:
               TAG_SHA="$REF"
             fi
             test "$TAG_SHA" = "$ARTIFACT_SHA"
-            if gh release download "$TAG" --repo "$DIST_REPO" --pattern sales-release-manifest.json --dir "$RUNNER_TEMP"; then
-              npx tsx scripts/release-core.ts verify-manifest "$MANIFEST" "$VERSION" "$SOURCE_SHA" "$ARTIFACT_SHA"
+            ASSETS=$(gh release view "$TAG" --repo "$DIST_REPO" --json assets --jq '.assets[].name')
+            if printf '%s\n' "$ASSETS" | grep -Fx 'sales-release-manifest.json' >/dev/null; then
+              gh release download "$TAG" --repo "$DIST_REPO" --pattern 'sales-release-manifest.json' --dir "$ASSET_DIR"
+              npx tsx scripts/release-core.ts verify-manifest "$ASSET_DIR/sales-release-manifest.json" "$VERSION" "$SOURCE_SHA" "$ARTIFACT_SHA"
             else
-              gh release upload "$TAG" "$MANIFEST" --repo "$DIST_REPO" --clobber
+              echo "Release provenance asset is missing; uploading it for the existing release."
+              gh release upload "$TAG" "$EXPECTED_MANIFEST" --repo "$DIST_REPO"
             fi
           else
             gh release create "$TAG" --repo "$DIST_REPO" --target "$ARTIFACT_SHA" \
               --title "Game Sales v$VERSION" --notes "$NOTES"
-            gh release upload "$TAG" "$MANIFEST" --repo "$DIST_REPO"
+            gh release upload "$TAG" "$EXPECTED_MANIFEST" --repo "$DIST_REPO"
           fi
 
       - name: Bump source version and reconcile lockfile

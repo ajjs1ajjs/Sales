@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest';
-import { chooseSteamSnapshot, isValidSteamSearchPage, planGamePassNewEntries, planGamePassPopularEntries } from '../collector-core';
+import {
+  chooseSteamSnapshot,
+  isValidSteamSearchPage,
+  planGamePassNewEntries,
+  planGamePassPopularEntries,
+  resolveCatalogTimestamps,
+} from '../collector-core';
 import type { GamePassGame, SteamGame } from '../../src/types';
 import { processCategoryItems } from '../fetch-deals';
 
@@ -42,6 +48,72 @@ describe('collector regression fixes', () => {
       { id: 3, name: 'Free', original_price: 100, final_price: 0, discount_percent: 100 },
     ], { specialBucket: true, popularBucket: false });
     expect([...games.values()].map((game) => [game.title, game.isFree])).toEqual([['Free', true]]);
+  });
+
+  it('does not advance the catalog timestamp when every source keeps its previous snapshot', () => {
+    const previous = '2026-11-01T08:00:00.000Z';
+    const result = resolveCatalogTimestamps({
+      nowIso: '2026-11-04T12:00:00.000Z',
+      oldData: {
+        lastUpdated: previous,
+        sourceUpdates: { steam: previous, gamepass: previous },
+        steam: [steamGame('old')],
+        gamepass: [gamePassGame('old')],
+      },
+      steamUpdated: false,
+      gamepassUpdated: false,
+    });
+
+    expect(result).toEqual({
+      lastUpdated: previous,
+      sourceUpdates: { steam: previous, gamepass: previous },
+    });
+  });
+
+  it('advances only the source that actually refreshed', () => {
+    const previous = '2026-11-01T08:00:00.000Z';
+    const now = '2026-11-04T12:00:00.000Z';
+    const result = resolveCatalogTimestamps({
+      nowIso: now,
+      oldData: {
+        lastUpdated: previous,
+        sourceUpdates: { steam: previous, gamepass: previous },
+        steam: [steamGame('old')],
+        gamepass: [gamePassGame('old')],
+      },
+      steamUpdated: true,
+      gamepassUpdated: false,
+    });
+
+    expect(result).toEqual({
+      lastUpdated: now,
+      sourceUpdates: { steam: now, gamepass: previous },
+    });
+  });
+
+  it('derives per-source dates from lastUpdated for legacy snapshots without sourceUpdates', () => {
+    const previous = '2026-11-01T08:00:00.000Z';
+    const now = '2026-11-04T12:00:00.000Z';
+    const result = resolveCatalogTimestamps({
+      nowIso: now,
+      oldData: { lastUpdated: previous, steam: [steamGame('old')], gamepass: [] },
+      steamUpdated: false,
+      gamepassUpdated: true,
+    });
+
+    expect(result).toEqual({
+      lastUpdated: now,
+      sourceUpdates: { steam: previous, gamepass: now },
+    });
+  });
+
+  it('does not invent timestamps for catalogs that never existed', () => {
+    expect(resolveCatalogTimestamps({
+      nowIso: '2026-11-04T12:00:00.000Z',
+      oldData: { lastUpdated: '' },
+      steamUpdated: false,
+      gamepassUpdated: false,
+    })).toEqual({ lastUpdated: '', sourceUpdates: {} });
   });
 
   it('does not flag a free specials game as a discount (AUD-16)', () => {

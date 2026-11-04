@@ -95,6 +95,22 @@ describe('service worker cache lifecycle and strategies', () => {
     expect(await offlineNavigation.text()).toBe('<main>shell</main>');
   });
 
+  it('serves cached data when the network stalls past the timeout', async () => {
+    const storage = createCacheStorage();
+    const runtime = await storage.open('runtime');
+    const request = new Request('https://sales.test/data/deals.json');
+    await runtime.put(request, new Response('{"cached":true}'));
+
+    const response = await networkFirst(request, {
+      cacheStorage: storage,
+      fetcher: () => new Promise<Response>(() => {}),
+      runtimeCacheName: 'runtime',
+      networkTimeoutMs: 10,
+    }, true, false);
+
+    expect(await response.text()).toBe('{"cached":true}');
+  });
+
   it('waits for successful runtime writes and trims only runtime entries', async () => {
     const storage = createCacheStorage();
     const fetcher = vi.fn(async () => new Response('fresh data'));
