@@ -24,6 +24,8 @@ if ($PSVersionTable.PSVersion.Major -lt 7) {
 $ErrorActionPreference = 'Stop'
 $RepoRoot = Split-Path -Parent $PSScriptRoot
 Set-Location $RepoRoot
+$BundledNode = Join-Path $env:LOCALAPPDATA 'RDM\build-tools\node-v22.23.4-win-x64'
+if (Test-Path -LiteralPath (Join-Path $BundledNode 'node.exe')) { $env:PATH = "$BundledNode;$env:PATH" }
 
 $DistRepo = 'ajjs1ajjs/dist'
 $Prefix = 'sales-v'
