@@ -44,7 +44,7 @@ self.addEventListener('fetch', (event) => {
   if (isData || isNavigation) {
     event.respondWith(networkFirst(request, {
       cacheStorage: caches,
-      fetcher: fetch,
+      fetcher: (input) => self.fetch(input),
       runtimeCacheName: RUNTIME_CACHE,
       navigationFallback: NAV_FALLBACK,
       maxRuntimeEntries: MAX_RUNTIME_ENTRIES,
@@ -54,5 +54,5 @@ self.addEventListener('fetch', (event) => {
 
   // Build assets are immutable and already in the shell precache. Serve them
   // cache-first so a deployed app does not depend on a network round trip.
-  event.respondWith(cacheFirst(request, caches, fetch));
+  event.respondWith(cacheFirst(request, caches, (input) => self.fetch(input)));
 });
