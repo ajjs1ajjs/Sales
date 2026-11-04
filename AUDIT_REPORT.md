@@ -968,4 +968,4 @@ Follow-up 23.10.2026 вніс такі зміни після аудиту:
 | Окремий node typecheck | `tsc -p tsconfig.node.json --noEmit` | Exit 0 |
 | Audit gate | `npm audit --audit-level=moderate` | 0 вразливостей |
 
-Межі: живий scheduler, GitHub Pages і Telegram не запускалися; перевірка обмежена кодом, тестами та локальною збіркою.
+Межі: живий scheduler і Telegram не запускалися; перевірка обмежена кодом, тестами та локальною збіркою. Prod-копію збирача в `ajjs1ajjs/dist` синхронізовано (коміт `a91eca4`), сайт v0.1.10 опубліковано; наступний плановий запуск scheduler-а запише `sourceUpdates` у `sales/data/deals.json`.
