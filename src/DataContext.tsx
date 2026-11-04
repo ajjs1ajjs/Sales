@@ -118,6 +118,9 @@ export function DataProvider({ children }: { children: ReactNode }) {
     const controller = new AbortController();
     let disposed = false;
     let inFlight = false;
+    let retryTimer: number | undefined;
+
+    const wait = (ms: number) => new Promise<void>((resolve) => window.setTimeout(resolve, ms));
 
     const fetchData = async () => {
       if (disposed || inFlight) return;
@@ -126,10 +129,22 @@ export function DataProvider({ children }: { children: ReactNode }) {
       try {
         if (!hasData.current) setLoading(true);
         const baseUrl = import.meta.env.BASE_URL || '/';
-        const res = await fetch(`${baseUrl}data/deals.json`, {
-          cache: 'no-cache',
-          signal: controller.signal,
-        });
+        let res: Response | undefined;
+        for (let attempt = 0; attempt < 3; attempt++) {
+          try {
+            res = await fetch(`${baseUrl}data/deals.json`, {
+              cache: 'no-cache',
+              signal: controller.signal,
+            });
+            if (res.ok || res.status < 500 || attempt === 2) break;
+          } catch (err) {
+            if (controller.signal.aborted || attempt === 2) throw err;
+          }
+          // GitHub Pages can briefly return 5xx while publishing. Retry before
+          // surfacing an error so visitors do not need to hard-refresh.
+          await wait(500 * (attempt + 1));
+        }
+        if (!res) throw new Error('Не вдалося завантажити дані.');
         if (!res.ok) {
           throw new Error(`Не вдалося завантажити дані (статус: ${res.status})`);
         }
@@ -153,6 +168,10 @@ export function DataProvider({ children }: { children: ReactNode }) {
         setData(jsonData);
         hasData.current = true;
         setError(null);
+        if (retryTimer !== undefined) {
+          window.clearTimeout(retryTimer);
+          retryTimer = undefined;
+        }
       } catch (err: unknown) {
         if (controller.signal.aborted || disposed) return;
         const message =
@@ -160,7 +179,15 @@ export function DataProvider({ children }: { children: ReactNode }) {
             ? err.message
             : 'Сталася помилка при завантаженні знижок.';
         console.error('Помилка завантаження даних:', err);
-        if (!hasData.current) setError(message);
+        if (!hasData.current) {
+          setError(message);
+          // Keep retrying in the background if the initial request failed
+          // throughout the short retry window.
+          retryTimer = window.setTimeout(() => {
+            retryTimer = undefined;
+            fetchData();
+          }, 30_000);
+        }
       } finally {
         inFlight = false;
         if (!controller.signal.aborted && !disposed) setLoading(false);
@@ -177,6 +204,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
     return () => {
       disposed = true;
       controller.abort();
+      if (retryTimer !== undefined) window.clearTimeout(retryTimer);
       window.clearInterval(refreshInterval);
       document.removeEventListener('visibilitychange', refreshWhenVisible);
       window.removeEventListener('online', fetchData);
