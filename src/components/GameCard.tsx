@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useState, type ReactNode } from 'react';
 import { ExternalLink, Tag, TrendingUp } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
 import type { GamePassGame, SteamGame } from '../types';
@@ -18,6 +18,7 @@ interface BaseProps {
   upcomingStartDate?: string;
   linkText?: string;
   searchQuery?: string;
+  extra?: ReactNode;
 }
 
 type Props = BaseProps & { game: AnyGame };
@@ -54,6 +55,7 @@ export function GameCard({
   upcomingStartDate,
   linkText,
   searchQuery = '',
+  extra,
 }: Props) {
   const { t, locale } = useLocale();
   const [imgError, setImgError] = useState(false);
@@ -158,6 +160,7 @@ export function GameCard({
             {defaultLinkText} <ExternalLink size={14} aria-hidden="true" />
           </a>
         </div>
+        {extra}
       </div>
     </article>
   );

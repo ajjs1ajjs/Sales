@@ -1,7 +1,7 @@
-import { lazy, useState, Suspense, Fragment } from 'react';
+import { lazy, useState, useEffect, Suspense, Fragment } from 'react';
 import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import { Clock, RefreshCw, AlertCircle, History } from 'lucide-react';
-import type { FilterType, SortType, SteamGame, GamePassGame } from './types';
+import type { FilterType, SortType, SteamGame, GamePassGame, PriceObservation } from './types';
 import { ErrorBoundaryWithLocale } from './components/ErrorBoundaryWithLocale';
 import { TelegramBanner } from './components/TelegramBanner';
 import { SearchControls } from './components/SearchControls';
@@ -23,6 +23,7 @@ type SectionProps = {
   activeFilter: FilterType;
   searchQuery: string;
   sortType: SortType;
+  priceHistory?: Record<string, PriceObservation[]>;
 };
 
 type GamePassSectionProps = {
@@ -49,7 +50,14 @@ function HomePage() {
   const { data, loading, error, refreshError, lastFetchedAt } = useData();
   const { t, locale } = useLocale();
   const [searchQuery, setSearchQuery] = useState('');
-  const { wishlist } = useWishlist();
+  const { wishlist, saved, saveSnapshots } = useWishlist();
+  useEffect(() => {
+    if (!data) return;
+    saveSnapshots([
+      ...data.steam.map(game => ({ platform: 'steam' as const, game })),
+      ...(data.gamepass ?? []).map(game => ({ platform: 'gamepass' as const, game })),
+    ]);
+  }, [data, saveSnapshots]);
   const {
     activeFilter,
     setActiveFilter,
@@ -66,6 +74,9 @@ function HomePage() {
     gamepassGames,
   } = useGameFilters(data, wishlist, searchQuery);
 
+  const catalogIds = new Set([...(data?.steam ?? []).map(g => g.id), ...(data?.gamepass ?? []).map(g => g.id)]);
+  const missingIds = wishlist.filter(id => !catalogIds.has(id) && (saved[id]?.game.title ?? id).toLowerCase().includes(debouncedSearch.toLowerCase()));
+  const counts = { ...filterCounts, wishlist: filterCounts.wishlist + missingIds.length };
   const formatUpdate = locale === 'en' ? formatLastUpdatedEn : formatLastUpdated;
   const historyAria = locale === 'en' ? 'Notification history' : 'Історія сповіщень';
   const steamVisible = priceFilteredSteam.length > 0;
@@ -115,7 +126,7 @@ function HomePage() {
         onSearchChange={setSearchQuery}
         activeFilter={activeFilter}
         onFilterChange={setActiveFilter}
-        filterCounts={filterCounts}
+        filterCounts={counts}
         sortType={sortType}
         onSortChange={setSortType}
       />
@@ -152,14 +163,14 @@ function HomePage() {
           {!loading && !error && (
             <>
               {activeFilter === 'wishlist' ? (
-                (steamVisible || gamepassVisible) && (
                   <WishlistSection
                     steam={priceFilteredSteam}
                     gamepass={gamepassGames}
                     searchQuery={debouncedSearch}
                     sortType={sortType}
+                    missingIds={missingIds}
+                    priceHistory={data?.priceHistory}
                   />
-                )
               ) : (
                 <>
                   <SteamSection
@@ -167,6 +178,7 @@ function HomePage() {
                     activeFilter={activeFilter}
                     searchQuery={debouncedSearch}
                     sortType={sortType}
+                    priceHistory={data?.priceHistory}
                   />
                   <GamePassSection
                     games={gamepassGames}
@@ -188,7 +200,7 @@ function HomePage() {
                 <SearchEmptyState searchQuery={debouncedSearch} />
               )}
 
-              {activeFilter === 'wishlist' && !steamVisible && !gamepassVisible && (
+              {activeFilter === 'wishlist' && wishlist.length > 0 && !steamVisible && !gamepassVisible && missingIds.length === 0 && (
                 <div className="empty-state section-gap-top">
                   <h3>{isPriceFiltered ? t.app.wishlistEmptyPrice : t.app.wishlistEmpty}</h3>
                   <p>{isPriceFiltered ? t.app.wishlistEmptyPriceDesc : t.app.wishlistEmptyDesc}</p>

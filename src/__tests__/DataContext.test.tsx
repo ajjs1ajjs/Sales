@@ -26,6 +26,35 @@ function StatusProbe() {
   );
 }
 
+function PriceHistoryProbe() {
+  const { data, loading } = useData();
+  return <div data-testid="price-history">{loading ? 'loading' : JSON.stringify(data?.priceHistory)}</div>;
+}
+
+describe('price history data', () => {
+  afterEach(() => vi.unstubAllGlobals());
+  it('normalizes external observations and sorts valid prices by date', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: true, json: async () => ({
+      lastUpdated: '', steam: [], priceHistory: {
+        '123': [
+          { date: '2026-11-11', price: 4, currency: 'UAH' },
+          { date: '2026-11-10', price: 5, currency: 'UAH' },
+          { date: 'invalid', price: 1, currency: 'UAH' },
+          { date: '2026-11-10', price: -1, currency: 'UAH' },
+        ],
+        invalid: [{ date: '2026-11-10', price: 1, currency: 'UAH' }],
+      },
+    }) }));
+    render(<DataProvider><PriceHistoryProbe /></DataProvider>);
+    await waitFor(() => expect(screen.getByTestId('price-history')).not.toHaveTextContent('loading'));
+    const history = JSON.parse(screen.getByTestId('price-history').textContent!);
+    expect(history).toEqual({ '123': [
+      { date: '2026-11-10', price: 5, currency: 'UAH' },
+      { date: '2026-11-11', price: 4, currency: 'UAH' },
+    ] });
+  });
+});
+
 describe('M2 regression: notifiedHistory is normalized like steam', () => {
   afterEach(() => {
     vi.unstubAllGlobals();

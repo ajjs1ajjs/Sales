@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useEffect, useRef, useState, type ReactNode } from 'react';
-import type { DealsData, GamePassGame, NotifiedItem, SteamGame } from './types';
+import type { DealsData, GamePassGame, NotifiedItem, SteamGame, PriceObservation } from './types';
 
 // deals.json генерується із зовнішнього Steam API, тому елемент може не мати
 // полів (напр. upstream пропустив title). Нормалізуємо КОЖЕН елемент,
@@ -108,6 +108,21 @@ function normalizeSourceUpdates(raw: unknown): DealsData['sourceUpdates'] {
   return { steam, gamepass };
 }
 
+function normalizePriceHistory(raw: unknown): Record<string, PriceObservation[]> {
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return {};
+  const result: Record<string, PriceObservation[]> = {};
+  for (const [id, entries] of Object.entries(raw)) {
+    if (!/^\d+$/.test(id) || !Array.isArray(entries)) continue;
+    const observations = entries.filter((entry): entry is PriceObservation => {
+      if (!entry || typeof entry !== 'object') return false;
+      const { date, price, currency } = entry as Record<string, unknown>;
+      return typeof date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(date) && !Number.isNaN(Date.parse(date)) && typeof price === 'number' && Number.isFinite(price) && price >= 0 && typeof currency === 'string' && /^[A-Z]{3}$/.test(currency);
+    }).sort((a, b) => a.date.localeCompare(b.date)).slice(-182);
+    if (observations.length) result[id] = observations;
+  }
+  return result;
+}
+
 export interface DataContextValue {
   data: DealsData | null;
   loading: boolean;
@@ -213,6 +228,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
         const jsonData: DealsData = {
           lastUpdated: typeof source.lastUpdated === 'string' && !Number.isNaN(Date.parse(source.lastUpdated)) ? source.lastUpdated : '',
           sourceUpdates: normalizeSourceUpdates(source.sourceUpdates),
+          priceHistory: normalizePriceHistory(source.priceHistory),
           steam: normalizeList(source.steam, normalizeSteam, isValidSteamRecord),
           gamepass: normalizeList(source.gamepass, normalizeGamePass, isValidGamePassRecord),
           notifiedHistory: normalizeHistory(source.notifiedHistory),

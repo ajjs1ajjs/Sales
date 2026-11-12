@@ -2,20 +2,22 @@ import { useMemo } from 'react';
 import { Flame, Gift, TrendingUp } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
 import { useLocalStorage } from '../hooks/useLocalStorage';
-import type { SteamGame, FilterType, SortType } from '../types';
+import type { SteamGame, FilterType, SortType, PriceObservation } from '../types';
 import { sortGames } from '../utils';
 import { GameCard } from './GameCard';
 import { ShowMore } from './ShowMore';
 import { CollapsibleSection } from './CollapsibleSection';
+import { PriceHistory } from './PriceTracking';
 
 interface Props {
   games: SteamGame[];
   activeFilter: FilterType;
   searchQuery: string;
   sortType: SortType;
+  priceHistory?: Record<string, PriceObservation[]>;
 }
 
-export function SteamSection({ games, activeFilter, searchQuery, sortType }: Props) {
+export function SteamSection({ games, activeFilter, searchQuery, sortType, priceHistory = {} }: Props) {
   const { t } = useLocale();
   const [collapsedFree, setCollapsedFree] = useLocalStorage('collapse-steam-free', false);
   const [collapsedSpecials, setCollapsedSpecials] = useLocalStorage('collapse-steam-specials', false);
@@ -55,6 +57,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType }: Pro
                     badge="FREE"
                     badgeVariant="free"
                     searchQuery={searchQuery}
+                    extra={<PriceHistory title={deal.title} currency={deal.currency} observations={priceHistory[deal.id] ?? []} />}
                   />
                 ))}
               />
@@ -88,6 +91,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType }: Pro
                     badge={deal.discountPercent > 0 ? `-${deal.discountPercent}%` : undefined}
                     showTagDescription
                     searchQuery={searchQuery}
+                    extra={<PriceHistory title={deal.title} currency={deal.currency} observations={priceHistory[deal.id] ?? []} />}
                   />
                 ))}
               />
@@ -121,6 +125,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType }: Pro
                     badge={deal.discountPercent > 0 ? `-${deal.discountPercent}%` : undefined}
                     showTrendingDescription
                     searchQuery={searchQuery}
+                    extra={<PriceHistory title={deal.title} currency={deal.currency} observations={priceHistory[deal.id] ?? []} />}
                   />
                 ))}
               />

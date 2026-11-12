@@ -5,6 +5,7 @@ import {
   planGamePassNewEntries,
   planGamePassPopularEntries,
   resolveCatalogTimestamps,
+  updatePriceHistory,
 } from '../collector-core';
 import type { GamePassGame, SteamGame } from '../../src/types';
 import { processCategoryItems } from '../fetch-deals';
@@ -21,6 +22,22 @@ const gamePassGame = (id: string, flags: Partial<GamePassGame> = {}): GamePassGa
 });
 
 describe('collector regression fixes', () => {
+  it('records only fresh Steam prices once per day and retains recent history on failure', () => {
+    const now = new Date('2026-11-12T12:00:00Z');
+    const previous = { '123': [
+      { date: '2026-01-01', price: 99, currency: 'USD' },
+      { date: '2026-11-11', price: 10, currency: 'USD' },
+      { date: '2026-11-12', price: 9, currency: 'USD' },
+    ] };
+    const updated = updatePriceHistory(previous, [steamGame('123')], now, true);
+    expect(updated['123']).toEqual([
+      { date: '2026-11-11', price: 10, currency: 'USD' },
+      { date: '2026-11-12', price: 5, currency: 'USD' },
+    ]);
+    expect(updatePriceHistory(updated, [steamGame('123')], now, false)['123']).toEqual(updated['123']);
+    const higherLater = { ...steamGame('123'), discountPrice: 8 };
+    expect(updatePriceHistory(updated, [higherLater], now, true)['123'].at(-1)?.price).toBe(5);
+  });
   it('treats a failed or malformed Steam search page as incomplete', () => {
     expect(isValidSteamSearchPage({ success: 1, results_html: '' })).toBe(true);
     expect(isValidSteamSearchPage({ success: 0, results_html: '<div></div>' })).toBe(false);
