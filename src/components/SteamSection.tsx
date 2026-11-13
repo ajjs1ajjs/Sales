@@ -29,6 +29,13 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, price
   const popular = sorted.filter((g) => g.isPopular && (activeFilter === 'steam_popular' || (!g.isFree && !g.isSpecial)));
 
   const canCollapse = activeFilter === 'all';
+  const resetKey = `${activeFilter}|${searchQuery}|${sortType}`;
+  const priceExtra = (deal: SteamGame) => {
+    const observations = priceHistory[deal.id];
+    return observations && observations.length > 0
+      ? <PriceHistory title={deal.title} currency={deal.currency} observations={observations} />
+      : undefined;
+  };
 
   return (
     <>
@@ -49,6 +56,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, price
           ) : (
             <div className="deals-grid section-gap-bottom">
               <ShowMore
+                resetKey={resetKey}
                 items={free.map((deal) => (
                   <GameCard
                     key={deal.id}
@@ -57,7 +65,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, price
                     badge="FREE"
                     badgeVariant="free"
                     searchQuery={searchQuery}
-                    extra={<PriceHistory title={deal.title} currency={deal.currency} observations={priceHistory[deal.id] ?? []} />}
+                    extra={priceExtra(deal)}
                   />
                 ))}
               />
@@ -83,6 +91,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, price
           ) : (
             <div className="deals-grid section-gap-bottom">
               <ShowMore
+                resetKey={resetKey}
                 items={specials.map((deal) => (
                   <GameCard
                     key={deal.id}
@@ -91,7 +100,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, price
                     badge={deal.discountPercent > 0 ? `-${deal.discountPercent}%` : undefined}
                     showTagDescription
                     searchQuery={searchQuery}
-                    extra={<PriceHistory title={deal.title} currency={deal.currency} observations={priceHistory[deal.id] ?? []} />}
+                    extra={priceExtra(deal)}
                   />
                 ))}
               />
@@ -117,6 +126,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, price
           ) : (
             <div className="deals-grid section-gap-bottom">
               <ShowMore
+                resetKey={resetKey}
                 items={popular.map((deal) => (
                   <GameCard
                     key={deal.id}
@@ -125,7 +135,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, price
                     badge={deal.discountPercent > 0 ? `-${deal.discountPercent}%` : undefined}
                     showTrendingDescription
                     searchQuery={searchQuery}
-                    extra={<PriceHistory title={deal.title} currency={deal.currency} observations={priceHistory[deal.id] ?? []} />}
+                    extra={priceExtra(deal)}
                   />
                 ))}
               />

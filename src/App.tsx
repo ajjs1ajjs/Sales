@@ -47,7 +47,7 @@ const HistoryPageLazy = lazy(() =>
 );
 
 function HomePage() {
-  const { data, loading, error, refreshError, lastFetchedAt } = useData();
+  const { data, loading, refreshing, error, refreshError, lastFetchedAt, refresh } = useData();
   const { t, locale } = useLocale();
   const [searchQuery, setSearchQuery] = useState('');
   const { wishlist, saved, saveSnapshots } = useWishlist();
@@ -109,6 +109,16 @@ function HomePage() {
             />
           </div>
           <div className="header-right">
+            <button
+              type="button"
+              className="header-btn"
+              onClick={refresh}
+              disabled={loading || refreshing}
+              aria-label={refreshing ? t.app.refreshingData : t.app.refreshData}
+              title={refreshing ? t.app.refreshingData : t.app.refreshData}
+            >
+              <RefreshCw size={18} className={refreshing ? 'spinner' : undefined} aria-hidden="true" />
+            </button>
             <LanguageToggle />
             <ThemeToggle />
             <Link to="/history" className="header-btn history-nav-link" aria-label={historyAria}>
@@ -197,7 +207,14 @@ function HomePage() {
               )}
 
               {activeFilter === 'all' && !steamVisible && !gamepassVisible && debouncedSearch && (
-                <SearchEmptyState searchQuery={debouncedSearch} />
+                <SearchEmptyState
+                  searchQuery={debouncedSearch}
+                  onReset={() => {
+                    setSearchQuery('');
+                    setActiveFilter('all');
+                    setUserPriceRange(null);
+                  }}
+                />
               )}
 
               {activeFilter === 'wishlist' && wishlist.length > 0 && !steamVisible && !gamepassVisible && missingIds.length === 0 && (
@@ -226,6 +243,16 @@ function HomePage() {
   );
 }
 
+function HistoryFallback() {
+  const { t } = useLocale();
+  return (
+    <div className="empty-state loading-state" role="status">
+      <RefreshCw size={40} className="spinner" aria-hidden="true" />
+      <h3>{t.history.loading}</h3>
+    </div>
+  );
+}
+
 function App() {
   return (
     <HashRouter>
@@ -235,7 +262,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/history" element={
-              <Suspense fallback={<div className="empty-state loading-state" role="status"><RefreshCw size={40} className="spinner" /><h3>Loading...</h3></div>}>
+              <Suspense fallback={<HistoryFallback />}>
                 <HistoryPageWrapper />
               </Suspense>
             } />

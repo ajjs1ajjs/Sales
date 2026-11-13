@@ -113,8 +113,8 @@ try {
 # --- 2. Перевірки + збірка ---------------------------------------------------
 npm ci
 if ($LASTEXITCODE -ne 0) { Fail 'npm ci failed' }
-npm audit --audit-level=high
-if ($LASTEXITCODE -ne 0) { Fail 'npm audit found high+ vulnerabilities' }
+npm audit --audit-level=moderate
+if ($LASTEXITCODE -ne 0) { Fail 'npm audit found moderate+ vulnerabilities' }
 npm run lint
 if ($LASTEXITCODE -ne 0) { Fail 'lint failed' }
 npm test

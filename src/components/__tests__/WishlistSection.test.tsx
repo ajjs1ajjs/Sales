@@ -15,12 +15,16 @@ describe('wishlist persistence', () => {
   it('shows saved games outside the current catalog without stale prices', () => {
     window.localStorage.setItem('wishlist', JSON.stringify(['123']));
     window.localStorage.setItem('wishlist-snapshots', JSON.stringify(saved));
-    show();
+    window.localStorage.setItem('wishlist-price-targets', JSON.stringify({ '123': { amount: 150, currency: 'UAH' } }));
+    const { container } = show();
     expect(screen.getByText('Saved game')).toBeInTheDocument();
+    expect(container.querySelector('.card-image-wrapper .card-image')).toBeInTheDocument();
     expect(screen.getByText(/Ціна невідома/)).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: 'Відкрити в магазині' })).toHaveAttribute('href', saved['123'].game.url);
+    expect(screen.getByRole('link', { name: /Відкрити в магазині/ })).toHaveAttribute('href', saved['123'].game.url);
     fireEvent.click(screen.getByRole('button', { name: 'Видалити Saved game з обраного' }));
     expect(JSON.parse(window.localStorage.getItem('wishlist')!)).toEqual([]);
+    expect(JSON.parse(window.localStorage.getItem('wishlist-snapshots')!)).toEqual({});
+    expect(JSON.parse(window.localStorage.getItem('wishlist-price-targets')!)).toEqual({});
   });
   it('merges an imported wishlist and rejects invalid data', async () => {
     window.localStorage.setItem('wishlist', JSON.stringify(['old']));

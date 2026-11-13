@@ -1,5 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
-import { createContext, useContext, useEffect, useRef, useState, type ReactNode } from 'react';
+import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from 'react';
 import type { DealsData, GamePassGame, NotifiedItem, SteamGame, PriceObservation } from './types';
 
 // deals.json генерується із зовнішнього Steam API, тому елемент може не мати
@@ -126,16 +126,20 @@ function normalizePriceHistory(raw: unknown): Record<string, PriceObservation[]>
 export interface DataContextValue {
   data: DealsData | null;
   loading: boolean;
+  refreshing: boolean;
   error: string | null;
   refreshError: string | null;
   lastFetchedAt: number | null;
+  refresh: () => void;
 }
+
+const isEnglishUi = () => typeof document !== 'undefined' && document.documentElement.lang === 'en';
 
 class HttpStatusError extends Error {
   readonly status: number;
 
   constructor(status: number) {
-    super(`Не вдалося завантажити дані (статус: ${status})`);
+    super(isEnglishUi() ? `Failed to load data (status: ${status})` : `Не вдалося завантажити дані (статус: ${status})`);
     this.name = 'HttpStatusError';
     this.status = status;
   }
@@ -146,11 +150,13 @@ const DataContext = createContext<DataContextValue | null>(null);
 export function DataProvider({ children }: { children: ReactNode }) {
   const [data, setData] = useState<DealsData | null>(null);
   const [loading, setLoading] = useState(true);
+  const [refreshing, setRefreshing] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [refreshError, setRefreshError] = useState<string | null>(null);
   const [lastFetchedAt, setLastFetchedAt] = useState<number | null>(null);
   const hasData = useRef(false);
   const lastAttemptAt = useRef(0);
+  const triggerFetchRef = useRef<(() => void) | null>(null);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -166,6 +172,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
       lastAttemptAt.current = Date.now();
       try {
         if (!hasData.current) setLoading(true);
+        else setRefreshing(true);
         const baseUrl = import.meta.env.BASE_URL || '/';
         let raw: unknown = undefined;
         let lastError: unknown;
@@ -177,7 +184,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
           let timeoutTimer: number | undefined;
           const timeout = new Promise<never>((_, reject) => {
             timeoutTimer = window.setTimeout(() => {
-              reject(new Error('Перевищено час очікування відповіді сервера.'));
+              reject(new Error(isEnglishUi() ? 'Server response timed out.' : 'Перевищено час очікування відповіді сервера.'));
               attemptController.abort();
             }, 8000);
           });
@@ -215,12 +222,13 @@ export function DataProvider({ children }: { children: ReactNode }) {
           await wait(500 * (attempt + 1));
         }
         if (lastError) throw lastError;
+        const invalidFormatMsg = isEnglishUi() ? 'Deals data format is invalid.' : 'Формат файлу пропозицій некоректний.';
         if (!raw || typeof raw !== 'object' || Array.isArray(raw)) {
-          throw new Error('Формат файлу пропозицій некоректний.');
+          throw new Error(invalidFormatMsg);
         }
         const source = raw as Record<string, unknown>;
         if (!Array.isArray(source.steam) || (source.gamepass !== undefined && !Array.isArray(source.gamepass))) {
-          throw new Error('Формат файлу пропозицій некоректний.');
+          throw new Error(invalidFormatMsg);
         }
         // Нормалізуємо форму замість сліпого `as DealsData`:
         // частковий/пошкоджений файл не повинен ламати .filter() в UI.
@@ -247,7 +255,9 @@ export function DataProvider({ children }: { children: ReactNode }) {
         const message =
           err instanceof Error
             ? err.message
-            : 'Сталася помилка при завантаженні знижок.';
+            : isEnglishUi()
+              ? 'An error occurred while loading deals.'
+              : 'Сталася помилка при завантаженні знижок.';
         console.error('Помилка завантаження даних:', err);
         if (!hasData.current) {
           setError(message);
@@ -262,10 +272,14 @@ export function DataProvider({ children }: { children: ReactNode }) {
         }
       } finally {
         inFlight = false;
-        if (!controller.signal.aborted && !disposed) setLoading(false);
+        if (!controller.signal.aborted && !disposed) {
+          setLoading(false);
+          setRefreshing(false);
+        }
       }
     };
 
+    triggerFetchRef.current = () => { void fetchData(); };
     fetchData();
     const refreshWhenVisible = () => {
       if (document.visibilityState === 'visible' && Date.now() - lastAttemptAt.current >= 5 * 60 * 1000) fetchData();
@@ -275,6 +289,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
     window.addEventListener('online', fetchData);
     return () => {
       disposed = true;
+      triggerFetchRef.current = null;
       controller.abort();
       if (retryTimer !== undefined) window.clearTimeout(retryTimer);
       window.clearInterval(refreshInterval);
@@ -283,8 +298,12 @@ export function DataProvider({ children }: { children: ReactNode }) {
     };
   }, []);
 
+  const refresh = useCallback(() => {
+    triggerFetchRef.current?.();
+  }, []);
+
   return (
-    <DataContext.Provider value={{ data, loading, error, refreshError, lastFetchedAt }}>
+    <DataContext.Provider value={{ data, loading, refreshing, error, refreshError, lastFetchedAt, refresh }}>
       {children}
     </DataContext.Provider>
   );

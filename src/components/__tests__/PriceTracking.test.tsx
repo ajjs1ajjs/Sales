@@ -18,10 +18,10 @@ describe('price tracking', () => {
   beforeEach(() => window.localStorage.clear());
   it('saves and removes a target, comparing it to the current price', () => {
     show(200);
-    fireEvent.change(screen.getByRole('spinbutton'), { target: { value: '250' } });
+    fireEvent.change(screen.getByRole('textbox'), { target: { value: '250,5' } });
     fireEvent.click(screen.getByRole('button', { name: 'Зберегти' }));
     expect(screen.getByRole('status')).toHaveTextContent('Бажаної ціни досягнуто');
-    expect(JSON.parse(window.localStorage.getItem('wishlist-price-targets')!)).toEqual({ '123': { amount: 250, currency: 'UAH' } });
+    expect(JSON.parse(window.localStorage.getItem('wishlist-price-targets')!)).toEqual({ '123': { amount: 250.5, currency: 'UAH' } });
     fireEvent.click(screen.getByRole('button', { name: 'Прибрати' }));
     expect(screen.queryByRole('status')).not.toBeInTheDocument();
   });

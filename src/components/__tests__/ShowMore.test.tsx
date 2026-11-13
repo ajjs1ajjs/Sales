@@ -38,4 +38,13 @@ describe('ShowMore', () => {
     const { container } = render(<ShowMore items={[]} />, { wrapper: Wrapper });
     expect(container.innerHTML).toBe('');
   });
+
+  it('resets visible count when resetKey changes', () => {
+    const items = Array.from({ length: 10 }, (_, i) => <div key={i}>Item {i + 1}</div>);
+    const { rerender } = render(<ShowMore items={items} initialCount={3} step={3} resetKey="a" />, { wrapper: Wrapper });
+    fireEvent.click(screen.getByText('Показати ще (3)'));
+    expect(screen.getByText('Item 6')).toBeInTheDocument();
+    rerender(<ShowMore items={items} initialCount={3} step={3} resetKey="b" />);
+    expect(screen.queryByText('Item 6')).not.toBeInTheDocument();
+  });
 });

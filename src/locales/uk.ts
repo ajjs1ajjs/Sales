@@ -31,6 +31,10 @@ export const uk = {
     searchLabel: 'Пошук гри за назвою',
     clearSearch: 'Очистити пошук',
     backToHome: 'На головну',
+    refreshData: 'Оновити дані',
+    refreshingData: 'Оновлення даних...',
+    resetFilters: 'Скинути пошук і фільтри',
+    imageUnavailable: 'Зображення недоступне',
   },
   theme: {
     light: 'Світла тема',
@@ -98,6 +102,7 @@ export const uk = {
   wishlist: {
     export: 'Експорт',
     import: 'Імпорт',
+    targetMetOnly: 'Досягнута ціна',
     importSuccess: 'Список об’єднано з обраним.',
     importError: 'Не вдалося імпортувати файл списку.',
     unavailable: 'Зараз немає в поточних добірках. Ціна невідома.',

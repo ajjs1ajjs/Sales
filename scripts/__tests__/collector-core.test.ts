@@ -5,10 +5,11 @@ import {
   planGamePassNewEntries,
   planGamePassPopularEntries,
   resolveCatalogTimestamps,
+  selectSteamNotifications,
   updatePriceHistory,
 } from '../collector-core';
 import type { GamePassGame, SteamGame } from '../../src/types';
-import { processCategoryItems } from '../fetch-deals';
+import { parseSearchHtml, processCategoryItems } from '../fetch-deals';
 
 const steamGame = (id: string): SteamGame => ({
   id, title: `Game ${id}`, imageUrl: '', originalPrice: 10, discountPrice: 5,
@@ -147,5 +148,43 @@ describe('collector regression fixes', () => {
     expect(free.isSpecial).toBe(false);
     expect(discount.isFree).toBe(false);
     expect(discount.isSpecial).toBe(true);
+  });
+
+  it('re-notifies Steam deals on >=5% price drops and freebies after 14 days while skipping queued keys', () => {
+    const now = new Date('2026-11-13T12:00:00.000Z');
+    const history = {
+      steam_discount_1: { title: 'Drop', price: 100, percent: 30, timestamp: '2026-11-10T12:00:00.000Z', type: 'discount' as const },
+      steam_discount_2: { title: 'Same', price: 100, percent: 30, timestamp: '2026-11-10T12:00:00.000Z', type: 'discount' as const },
+      steam_free_3: { title: 'FreeAgain', price: 0, percent: 100, timestamp: '2026-10-25T12:00:00.000Z', type: 'free' as const },
+    };
+    const games: SteamGame[] = [
+      { ...steamGame('1'), discountPrice: 90, discountPercent: 50, originalPrice: 180 },
+      { ...steamGame('2'), discountPrice: 98, discountPercent: 30, originalPrice: 140 },
+      { ...steamGame('3'), isFree: true, isSpecial: false, discountPrice: 0, discountPercent: 100, originalPrice: 200 },
+      { ...steamGame('4'), discountPrice: 50, discountPercent: 80, originalPrice: 250 },
+    ];
+    const result = selectSteamNotifications(games, history, new Set(['steam_discount_4']), now, {
+      minDiscountPercent: 25,
+      freeCooldownMs: 14 * 24 * 60 * 60 * 1000,
+      discountCooldownMs: 30 * 24 * 60 * 60 * 1000,
+      maxDealsPerRun: 1,
+    });
+    expect(result.deals.map((g) => g.id)).toEqual(['1']);
+    expect(result.freeGames.map((g) => g.id)).toEqual(['3']);
+  });
+
+  it('parses discount_original_price from Steam search HTML when available', () => {
+    const html = `
+      <a data-ds-appid="555" data-ds-itemkey="App_555">
+        <span class="title">Test Game</span>
+        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/555/capsule.jpg?t=1">
+        <div class="discount_pct">-75%</div>
+        <div class="discount_original_price">1 200,00₴</div>
+        <div data-price-final="30000">300₴</div>
+      </a>`;
+    const map = new Map<string, SteamGame>();
+    expect(parseSearchHtml(html, map)).toBe(1);
+    expect(map.get('555')?.originalPrice).toBe(1200);
+    expect(map.get('555')?.discountPrice).toBe(300);
   });
 });

@@ -62,7 +62,7 @@ export function WishlistProvider({ children }: { children: ReactNode }) {
     setSaved(prev => ({ ...snapshots, ...prev }));
     if (data.targets) {
       const importedTargets = data.targets as Record<string, PriceTarget>;
-      setTargets(prev => ({ ...importedTargets, ...prev }));
+      setTargets(prev => ({ ...prev, ...importedTargets }));
     }
     return true;
   }, [setWishlist, setSaved, setTargets]);
@@ -70,10 +70,25 @@ export function WishlistProvider({ children }: { children: ReactNode }) {
   const wishlistSet = useMemo(() => new Set(wishlist), [wishlist]);
 
   const toggleWishlist = useCallback((gameId: string) => {
+    const removing = wishlistSet.has(gameId);
     setWishlist((prev) =>
       prev.includes(gameId) ? prev.filter((id) => id !== gameId) : [...prev, gameId],
     );
-  }, [setWishlist]);
+    if (removing) {
+      setSaved((prev) => {
+        if (!(gameId in prev)) return prev;
+        const next = { ...prev };
+        delete next[gameId];
+        return next;
+      });
+      setTargets((prev) => {
+        if (!(gameId in prev)) return prev;
+        const next = { ...prev };
+        delete next[gameId];
+        return next;
+      });
+    }
+  }, [setWishlist, setSaved, setTargets, wishlistSet]);
 
   const isWishlisted = useCallback((gameId: string) => {
     return wishlistSet.has(gameId);

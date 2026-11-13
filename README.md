@@ -110,7 +110,7 @@ npm test        # тести
 
 ### Локальний реліз — тільки PowerShell 7+ (`pwsh`)
 
-Реліз виконується локально (GitHub Actions для збірки/релізу не запускаються):
+Реліз також можна виконати локально (альтернатива ручному `workflow_dispatch` у `.github/workflows/release.yml`):
 
 ```powershell
 pwsh -NoProfile -File scripts/Release-Local.ps1

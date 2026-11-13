@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import type { DealsData, FilterType, GamePassGame, SortType, SteamGame } from '../types';
 import { useDebounce } from './useDebounce';
 import { useLocalStorage } from './useLocalStorage';
@@ -27,7 +27,7 @@ export interface GameFilters {
 export function useGameFilters(data: DealsData | null, wishlist: string[], searchQuery: string): GameFilters {
   const [activeFilter, setActiveFilter] = useState<FilterType>('all');
   const [sortType, setSortType] = useLocalStorage<SortType>('sort-type', 'default', isValidSort);
-  const [userPriceRange, setUserPriceRange] = useState<[number, number] | null>(null);
+  const [userPriceRange, setUserPriceRangeState] = useState<[number, number] | null>(null);
   const debouncedSearch = useDebounce(searchQuery, 300);
 
   const wishlistSet = useMemo(() => new Set(wishlist), [wishlist]);
@@ -48,6 +48,19 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
       absoluteMaxPrice: max === -Infinity ? 10000 : Math.ceil(max),
     };
   }, [data]);
+
+  // Normalize full-span resets back to null so background catalog refreshes
+  // expand naturally instead of clamping to an older max price.
+  const setUserPriceRange = useCallback(
+    (range: [number, number] | null) => {
+      if (!range || (range[0] <= absoluteMinPrice && range[1] >= absoluteMaxPrice)) {
+        setUserPriceRangeState(null);
+      } else {
+        setUserPriceRangeState(range);
+      }
+    },
+    [absoluteMinPrice, absoluteMaxPrice],
+  );
 
   const priceRange: [number, number] = useMemo(
     () => userPriceRange ?? [absoluteMinPrice, absoluteMaxPrice],

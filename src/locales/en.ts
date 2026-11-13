@@ -33,6 +33,10 @@ export const en: Translations = {
     searchLabel: 'Search games by name',
     clearSearch: 'Clear search',
     backToHome: 'Back to home',
+    refreshData: 'Refresh data',
+    refreshingData: 'Refreshing data...',
+    resetFilters: 'Reset search & filters',
+    imageUnavailable: 'Image unavailable',
   },
   theme: {
     light: 'Light theme',
@@ -100,6 +104,7 @@ export const en: Translations = {
   wishlist: {
     export: 'Export',
     import: 'Import',
+    targetMetOnly: 'Target met',
     importSuccess: 'Wishlist merged successfully.',
     importError: 'Could not import the wishlist file.',
     unavailable: 'Not in the current selections. Price unknown.',

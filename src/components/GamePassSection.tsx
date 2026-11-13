@@ -25,6 +25,7 @@ export function GamePassSection({ games, activeFilter, searchQuery, sortType }: 
   const popular = sorted.filter((g) => g.isPopular);
 
   const canCollapse = activeFilter === 'all';
+  const resetKey = `${activeFilter}|${searchQuery}|${sortType}`;
 
   return (
     <>
@@ -45,6 +46,7 @@ export function GamePassSection({ games, activeFilter, searchQuery, sortType }: 
           ) : (
             <div className="deals-grid section-gap-bottom">
               <ShowMore
+                resetKey={resetKey}
                 items={newGames.map((deal) => (
                   <GameCard
                     key={deal.id}
@@ -77,6 +79,7 @@ export function GamePassSection({ games, activeFilter, searchQuery, sortType }: 
           ) : (
             <div className="deals-grid section-gap-bottom">
               <ShowMore
+                resetKey={resetKey}
                 items={popular.map((deal) => (
                   <GameCard
                     key={deal.id}

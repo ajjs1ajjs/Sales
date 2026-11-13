@@ -7,7 +7,7 @@
 #   bash scripts/install.sh            # build + preview server
 #   bash scripts/install.sh --dev      # Vite dev server
 #
-# Everything missing is installed automatically: Node.js 22 (NodeSource)
+# Everything missing is installed automatically: Node.js 24 (NodeSource)
 # and project dependencies via npm ci. Fetches fresh deals data, builds
 # dist/ and starts a local server.
 #
@@ -75,18 +75,18 @@ check_ubuntu_version
 
 ensure_node() {
     if ! command -v npm >/dev/null 2>&1; then
-        log "npm not found - installing Node.js 22..."
+        log "npm not found - installing Node.js 24..."
         if command -v apt-get >/dev/null 2>&1 && command -v curl >/dev/null 2>&1; then
             if [ "$(id -u)" -eq 0 ]; then SUDO=""; else SUDO="sudo"; fi
-            curl -fsSL https://deb.nodesource.com/setup_22.x | $SUDO bash -
+            curl -fsSL https://deb.nodesource.com/setup_24.x | $SUDO bash -
             $SUDO apt-get install -y nodejs || fail "Node.js installation failed. Install it manually: https://nodejs.org"
         else
-            fail "Need apt-get + curl to auto-install Node.js, or install Node.js 22.13+ manually and re-run."
+            fail "Need apt-get + curl to auto-install Node.js, or install Node.js 24+ manually and re-run."
         fi
     fi
     command -v npm >/dev/null 2>&1 || fail "Node.js installed but 'npm' is not on PATH yet. Open a new shell and re-run."
-    node -e 'const [major, minor] = process.versions.node.split(".").map(Number); if (!(major > 22 || (major === 22 && minor >= 13))) process.exit(1)' \
-        || fail "Node.js 22.13+ is required. Detected: $(node --version)"
+    node -e 'const [major] = process.versions.node.split(".").map(Number); if (!(major >= 24)) process.exit(1)' \
+        || fail "Node.js 24+ is required. Detected: $(node --version)"
 }
 
 REPO_ROOT="$(find_repo_root || true)"

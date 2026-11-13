@@ -6,9 +6,8 @@ import { useInstallPWA } from '../hooks/useInstallPWA';
 export function InstallPWA() {
   const { t } = useLocale();
   const { isInstallable, install, dismiss } = useInstallPWA();
-  // H2: SW нарешті реєструється — без цього precache/sw.js ніколи не
-  // підхоплювались браузером. Оновлення за запитом (не silent): skipWaiting
-  // в sw.ts + явна кнопка тут.
+  // H2: SW реєструється й очікує підтвердження користувача (SKIP_WAITING
+  // через updateServiceWorker(true)), щоб не зламати lazy-чанки відкритої вкладки.
   const {
     needRefresh: [needRefresh],
     updateServiceWorker,

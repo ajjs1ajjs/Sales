@@ -1,13 +1,14 @@
 import { useMemo, useRef, useState, type ChangeEvent } from 'react';
-import { Heart } from 'lucide-react';
-import { useWishlist } from '../contexts/WishlistContext';
+import { ExternalLink, Heart } from 'lucide-react';
+import { useWishlist, type PriceTarget, type SavedGame } from '../contexts/WishlistContext';
 import { useLocale } from '../contexts/LocaleContext';
 import type { GamePassGame, SortType, SteamGame, PriceObservation } from '../types';
-import { sortGames, sortGamePassGames, safeUrl } from '../utils';
-import { GameCard } from './GameCard';
+import { buildFallbackImage, buildHighlightRegex, sortGames, sortGamePassGames, safeUrl } from '../utils';
+import { GameCard, HighlightText } from './GameCard';
 import { ShowMore } from './ShowMore';
 import { CollapsibleSection } from './CollapsibleSection';
 import { PriceTracking } from './PriceTracking';
+import { WishlistButton } from './WishlistButton';
 
 interface Props {
   steam: SteamGame[];
@@ -18,6 +19,80 @@ interface Props {
   priceHistory?: Record<string, PriceObservation[]>;
 }
 
+function MissingWishlistCard({
+  id,
+  item,
+  searchQuery,
+  target,
+  observations,
+}: {
+  id: string;
+  item?: SavedGame;
+  searchQuery: string;
+  target?: PriceTarget;
+  observations: PriceObservation[];
+}) {
+  const { t } = useLocale();
+  const [failedUrl, setFailedUrl] = useState<string | null>(null);
+  const title = item?.game.title ?? id;
+  const url = item ? safeUrl(item.game.url) : '';
+  const rawImageUrl = item ? safeUrl(item.game.imageUrl) : '';
+  const fallbackImg = useMemo(() => buildFallbackImage(t.app.imageUnavailable), [t.app.imageUnavailable]);
+  const imageSrc = !rawImageUrl || failedUrl === rawImageUrl ? fallbackImg : rawImageUrl;
+  const platform = item?.platform ?? (/^\d+$/.test(id) ? 'steam' : 'gamepass');
+  const platformName = platform === 'gamepass' ? t.platform.gamepass : t.platform.steam;
+  const highlightRegex = useMemo(() => buildHighlightRegex(searchQuery), [searchQuery]);
+
+  return (
+    <article
+      className="game-card"
+      aria-label={t.platform.gameAria.replace('{title}', title).replace('{platform}', platformName)}
+    >
+      <div className="card-image-wrapper">
+        <span className={`platform-badge ${platform}`}>{platformName}</span>
+        <img
+          className="card-image"
+          src={imageSrc}
+          alt={title}
+          loading="lazy"
+          decoding="async"
+          onError={() => { if (rawImageUrl) setFailedUrl(rawImageUrl); }}
+        />
+      </div>
+      <div className="card-content">
+        <div className="card-title-row">
+          <h4 className="card-title" title={title}>
+            <HighlightText text={title} regex={highlightRegex} />
+          </h4>
+          <WishlistButton gameId={id} title={title} />
+        </div>
+        <p className="card-desc">{t.wishlist.unavailable}</p>
+        {url && (
+          <div className="card-footer">
+            <a href={url} target="_blank" rel="noopener noreferrer" className="store-link">
+              {t.wishlist.openStore} <ExternalLink size={14} aria-hidden="true" />
+            </a>
+          </div>
+        )}
+        {item?.platform === 'steam' && 'currency' in item.game && typeof item.game.currency === 'string' && /^[A-Z]{3}$/.test(item.game.currency) && (
+          <PriceTracking
+            key={`${id}-${target?.amount}-${target?.currency}`}
+            id={id}
+            title={title}
+            currency={item.game.currency}
+            observations={observations}
+          />
+        )}
+      </div>
+    </article>
+  );
+}
+
+function matchesPriceTarget(deal: SteamGame, targets: Record<string, PriceTarget>): boolean {
+  const target = targets[deal.id];
+  return !!target && target.currency === deal.currency && deal.discountPrice <= target.amount;
+}
+
 /**
  * Плоский список обраного (Steam + Game Pass). Раніше обране Steam малювалось
  * трьома секціями (free/specials/popular), і гра зі списку бажань, яка не
@@ -25,9 +100,11 @@ interface Props {
  */
 export function WishlistSection({ steam, gamepass, searchQuery, sortType, missingIds, priceHistory = {} }: Props) {
   const { t } = useLocale();
-  const { wishlist, saved, targets, toggleWishlist, importWishlist } = useWishlist();
+  const { wishlist, saved, targets, importWishlist } = useWishlist();
   const fileRef = useRef<HTMLInputElement>(null);
   const [message, setMessage] = useState('');
+  const [targetMetOnly, setTargetMetOnly] = useState(false);
+
   const exportList = () => {
     const snapshots = Object.fromEntries(wishlist.filter(id => saved[id]).map(id => [id, saved[id]]));
     const exportedTargets = Object.fromEntries(wishlist.filter(id => targets[id]).map(id => [id, targets[id]]));
@@ -48,8 +125,17 @@ export function WishlistSection({ steam, gamepass, searchQuery, sortType, missin
       setMessage(importWishlist(JSON.parse(await file.text())) ? t.wishlist.importSuccess : t.wishlist.importError);
     } catch { setMessage(t.wishlist.importError); }
   };
-  const steamSorted = useMemo(() => sortGames(steam, sortType), [steam, sortType]);
-  const gamepassSorted = useMemo(() => sortGamePassGames(gamepass, sortType), [gamepass, sortType]);
+
+  const targetMetCount = steam.filter((deal) => matchesPriceTarget(deal, targets)).length;
+
+  const steamSorted = useMemo(() => {
+    const base = targetMetOnly ? steam.filter((deal) => matchesPriceTarget(deal, targets)) : steam;
+    return sortGames(base, sortType);
+  }, [steam, sortType, targetMetOnly, targets]);
+  const gamepassSorted = useMemo(
+    () => (targetMetOnly ? [] : sortGamePassGames(gamepass, sortType)),
+    [gamepass, sortType, targetMetOnly],
+  );
 
   const items = useMemo(
     () => [
@@ -74,8 +160,18 @@ export function WishlistSection({ steam, gamepass, searchQuery, sortType, missin
           searchQuery={searchQuery}
         />
       )),
+      ...(targetMetOnly ? [] : missingIds).map((id) => (
+        <MissingWishlistCard
+          key={`missing-${id}`}
+          id={id}
+          item={saved[id]}
+          searchQuery={searchQuery}
+          target={targets[id]}
+          observations={priceHistory[id] ?? []}
+        />
+      )),
     ],
-    [steamSorted, gamepassSorted, searchQuery, t.gamepass.badgeNew, t.gamepass.badgeTop, priceHistory, targets],
+    [steamSorted, gamepassSorted, missingIds, saved, searchQuery, t.gamepass.badgeNew, t.gamepass.badgeTop, priceHistory, targets, targetMetOnly],
   );
 
   return (
@@ -90,29 +186,22 @@ export function WishlistSection({ steam, gamepass, searchQuery, sortType, missin
       <div className="wishlist-actions">
         <button type="button" className="filter-btn" onClick={exportList}>{t.wishlist.export}</button>
         <button type="button" className="filter-btn" onClick={() => fileRef.current?.click()}>{t.wishlist.import}</button>
+        {(targetMetCount > 0 || targetMetOnly) && (
+          <button
+            type="button"
+            className={`filter-btn${targetMetOnly ? ' active' : ''}`}
+            aria-pressed={targetMetOnly}
+            onClick={() => setTargetMetOnly((v) => !v)}
+          >
+            {t.wishlist.targetMetOnly} ({targetMetCount})
+          </button>
+        )}
         <input ref={fileRef} type="file" accept="application/json,.json" hidden onChange={onImport} />
         {message && <span role="status">{message}</span>}
       </div>
       {wishlist.length === 0 && <p>{t.app.wishlistEmptyDesc}</p>}
       <div className="deals-grid section-gap-bottom">
-        <ShowMore items={items} />
-        {missingIds.map(id => {
-          const item = saved[id];
-          const title = item?.game.title ?? id;
-          const url = item ? safeUrl(item.game.url) : '';
-          const imageUrl = item ? safeUrl(item.game.imageUrl) : '';
-          return <article className="game-card" key={`missing-${id}`}>
-            {imageUrl && <img className="card-image" src={imageUrl} alt="" loading="lazy" />}
-            <div className="card-content">
-              <div className="card-title-row"><h4 className="card-title">{title}</h4>
-                <button type="button" className="wishlist-btn wishlist-btn--active" onClick={() => toggleWishlist(id)} aria-label={t.wishlist.remove.replace('{title}', () => title)}><Heart size={16} fill="currentColor" aria-hidden="true" /></button>
-              </div>
-              <p className="card-desc">{t.wishlist.unavailable}</p>
-              {url && <a href={url} target="_blank" rel="noopener noreferrer" className="store-link">{t.wishlist.openStore}</a>}
-              {item?.platform === 'steam' && 'currency' in item.game && typeof item.game.currency === 'string' && /^[A-Z]{3}$/.test(item.game.currency) && <PriceTracking key={`${id}-${targets[id]?.amount}-${targets[id]?.currency}`} id={id} title={title} currency={item.game.currency} observations={priceHistory[id] ?? []} />}
-            </div>
-          </article>;
-        })}
+        <ShowMore items={items} resetKey={`${searchQuery}|${sortType}|${targetMetOnly}`} />
       </div>
     </CollapsibleSection>
   );

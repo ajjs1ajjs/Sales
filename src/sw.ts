@@ -24,7 +24,12 @@ const MAX_RUNTIME_ENTRIES = 200;
 
 self.addEventListener('install', (event) => {
   event.waitUntil(precacheShell(caches, SHELL_CACHE, manifestEntries.map((entry) => entry.url)));
-  self.skipWaiting();
+});
+
+self.addEventListener('message', (event) => {
+  if (event.data && typeof event.data === 'object' && (event.data as { type?: unknown }).type === 'SKIP_WAITING') {
+    void self.skipWaiting();
+  }
 });
 
 self.addEventListener('activate', (event) => {

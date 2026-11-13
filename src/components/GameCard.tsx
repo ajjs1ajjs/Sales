@@ -2,7 +2,7 @@ import { useMemo, useState, type ReactNode } from 'react';
 import { ExternalLink, Tag, TrendingUp } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
 import type { GamePassGame, SteamGame } from '../types';
-import { formatPrice, formatDate, formatDateEn, safeUrl } from '../utils';
+import { buildFallbackImage, buildHighlightRegex, formatPrice, formatDate, formatDateEn, safeUrl } from '../utils';
 import { WishlistButton } from './WishlistButton';
 
 export type Game = SteamGame;
@@ -23,11 +23,7 @@ interface BaseProps {
 
 type Props = BaseProps & { game: AnyGame };
 
-const FALLBACK_IMG = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22225%22%3E%3Crect fill=%22%23100d1a%22 width=%22400%22 height=%22225%22/%3E%3Ctext fill=%22%23555%22 x=%22200%22 y=%22120%22 text-anchor=%22middle%22 font-size=%2214%22%3EЗображення недоступне%3C/text%3E%3C/svg%3E';
-
-const escapeRegExp = (str: string) => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-
-function highlightText(text: string, regex: RegExp | null) {
+export function HighlightText({ text, regex }: { text: string; regex: RegExp | null }) {
   if (!regex) return <span>{text}</span>;
   // Capturing-група в split() кладе збіги на непарні індекси — один прохід, без stateful exec.
   const parts = text.split(regex);
@@ -58,23 +54,22 @@ export function GameCard({
   extra,
 }: Props) {
   const { t, locale } = useLocale();
-  const [imgError, setImgError] = useState(false);
+  const [failedImageUrl, setFailedImageUrl] = useState<string | null>(null);
+  const imgError = failedImageUrl === game.imageUrl;
   const isGamePass = platform === 'gamepass';
   // platform і game приходять узгоджено від секцій; для гілки Steam даємо
-  // TS-звуження, щоб не тягнути in-перевірки на кожне поле.
+  // TS-звуження, щоб не тягути in-перевірки на кожне поле.
   const steamGame = isGamePass ? null : (game as SteamGame);
   const platformName = isGamePass ? t.platform.gamepass : t.platform.steam;
   const defaultLinkText = linkText ?? (isGamePass ? t.gamepass.viewInStore : t.steam.buy);
   const isFreeOffer = steamGame?.isFree ?? false;
 
-  const highlightRegex = useMemo(() => {
-    const q = searchQuery.trim();
-    return q ? new RegExp(`(${escapeRegExp(q)})`, 'gi') : null;
-  }, [searchQuery]);
+  const highlightRegex = useMemo(() => buildHighlightRegex(searchQuery), [searchQuery]);
+  const fallbackImg = useMemo(() => buildFallbackImage(t.app.imageUnavailable), [t.app.imageUnavailable]);
 
   const safeImageUrl = useMemo(
-    () => (imgError ? FALLBACK_IMG : (safeUrl(game.imageUrl) || FALLBACK_IMG)),
-    [game.imageUrl, imgError],
+    () => (imgError ? fallbackImg : (safeUrl(game.imageUrl) || fallbackImg)),
+    [game.imageUrl, imgError, fallbackImg],
   );
   const safeStoreUrl = useMemo(() => safeUrl(game.url) || '#', [game.url]);
 
@@ -98,13 +93,13 @@ export function GameCard({
           className="card-image"
           loading="lazy"
           decoding="async"
-          onError={() => setImgError(true)}
+          onError={() => setFailedImageUrl(game.imageUrl)}
         />
       </div>
       <div className="card-content">
         <div className="card-title-row">
           <h4 className="card-title" title={game.title}>
-            {highlightText(game.title, highlightRegex)}
+            <HighlightText text={game.title} regex={highlightRegex} />
           </h4>
           <WishlistButton gameId={game.id} title={game.title} />
         </div>

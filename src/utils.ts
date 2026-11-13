@@ -99,6 +99,17 @@ export function interp(template: string): { text: string; key: string | null }[]
   return parts;
 }
 
+export function buildFallbackImage(label: string): string {
+  return `data:image/svg+xml,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="400" height="225"><rect fill="#100d1a" width="400" height="225"/><text fill="#71717a" x="200" y="120" text-anchor="middle" font-size="14">${label}</text></svg>`)}`;
+}
+
+export function buildHighlightRegex(searchQuery: string): RegExp | null {
+  const q = searchQuery.trim();
+  if (!q) return null;
+  const escaped = q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return new RegExp(`(${escaped})`, 'gi');
+}
+
 export function sortGames<T extends SteamGame>(games: T[], sortType: SortType): T[] {
   switch (sortType) {
     case 'name-asc':

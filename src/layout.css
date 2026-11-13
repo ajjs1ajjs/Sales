@@ -163,9 +163,14 @@ header p {
   text-decoration: none;
 }
 
-.header-btn:hover {
+.header-btn:hover:not(:disabled) {
   border-color: var(--accent-epic);
   color: var(--accent-epic);
+}
+
+.header-btn:disabled {
+  opacity: 0.55;
+  cursor: wait;
 }
 
 /* History nav link */

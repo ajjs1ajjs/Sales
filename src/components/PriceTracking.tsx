@@ -32,7 +32,7 @@ export function PriceTracking({ id, title, currency, currentPrice, observations 
     <form onSubmit={submit}>
       <label htmlFor={`target-${id}`}>{t.tracking.targetLabel.replace('{currency}', currency)}</label>
       <div className="price-target-controls">
-        <input id={`target-${id}`} type="number" min="0" max="100000000" step="0.01" value={input} onChange={event => { setInput(event.target.value); setError(false); }} aria-label={`${t.tracking.targetLabel.replace('{currency}', currency)} — ${title}`} />
+        <input id={`target-${id}`} type="text" inputMode="decimal" value={input} onChange={event => { setInput(event.target.value); setError(false); }} aria-label={`${t.tracking.targetLabel.replace('{currency}', currency)} — ${title}`} />
         <button type="submit" className="filter-btn">{t.tracking.save}</button>
         {target && <button type="button" className="filter-btn" onClick={() => { setTarget(id, null); setInput(''); setError(false); }}>{t.tracking.clear}</button>}
       </div>
@@ -62,9 +62,22 @@ export function PriceHistory({ title, currency, observations }: Pick<Props, 'tit
       {samples.length === 0 ? <p>{t.tracking.noHistory}</p> : <>
         <p>{t.tracking.observedMin.replace('{price}', formatPrice(minPrice!, currency, locale))}</p>
         <svg viewBox="0 0 300 80" role="img" aria-label={`${t.tracking.chartLabel} — ${title}`} className="price-chart">
-          {points.slice(1).map((point, index) => Date.parse(samples[index + 1].date) - Date.parse(samples[index].date) <= 86400000
-            ? <line key={`${samples[index].date}-${samples[index + 1].date}`} x1={points[index].x} y1={points[index].y} x2={point.x} y2={point.y} stroke="currentColor" strokeWidth="2" />
-            : null)}
+          {points.slice(1).map((point, index) => {
+            const isGap = Date.parse(samples[index + 1].date) - Date.parse(samples[index].date) > 86400000;
+            return (
+              <line
+                key={`${samples[index].date}-${samples[index + 1].date}`}
+                x1={points[index].x}
+                y1={points[index].y}
+                x2={point.x}
+                y2={point.y}
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeDasharray={isGap ? '3 3' : undefined}
+                strokeOpacity={isGap ? 0.45 : undefined}
+              />
+            );
+          })}
           {points.map((point, index) => <circle key={`${samples[index].date}-${index}`} cx={point.x} cy={point.y} r="3" fill="currentColor"><title>{samples[index].date}: {formatPrice(samples[index].price, currency, locale)}</title></circle>)}
         </svg>
         <div className="price-chart-dates"><span>{samples[0].date}</span><span>{samples[samples.length - 1].date}</span></div>
