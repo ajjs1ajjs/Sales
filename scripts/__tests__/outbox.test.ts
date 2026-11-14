@@ -66,3 +66,41 @@ it('corrupt outbox state fails closed instead of being replaced with an empty qu
   assert.throws(() => normalizeOutbox({ schemaVersion: 9, messages: [] }), /Unsupported/);
   assert.throws(() => normalizeOutbox({ schemaVersion: 1, messages: [{ id: 'bad' }] }), /Invalid/);
 });
+
+it('outbox preserves valid photoUrl, omits absent/invalid photoUrl, and rejects invalid persisted photoUrl', () => {
+  const outbox = emptyOutbox();
+  const withPhoto = enqueueMessage(
+    outbox,
+    '<b>Game</b>',
+    [receipt],
+    new Date('2026-10-28T00:00:00.000Z'),
+    'https://cdn.example.com/cover.jpg',
+  );
+  assert.equal(withPhoto?.photoUrl, 'https://cdn.example.com/cover.jpg');
+  const normalized = normalizeOutbox(outbox);
+  assert.equal(normalized.messages[0].photoUrl, 'https://cdn.example.com/cover.jpg');
+
+  const withoutPhotoOutbox = emptyOutbox();
+  const withoutPhoto = enqueueMessage(
+    withoutPhotoOutbox,
+    '<b>Game</b>',
+    [receipt],
+    new Date('2026-10-28T00:00:00.000Z'),
+    'ftp://invalid.example.com/cover.jpg',
+  );
+  assert.ok(withoutPhoto);
+  assert.equal('photoUrl' in withoutPhoto, false);
+
+  assert.throws(() => normalizeOutbox({
+    schemaVersion: 1,
+    messages: [{
+      id: 'bad-photo',
+      createdAt: '2026-10-28T00:00:00.000Z',
+      text: '<b>Game</b>',
+      photoUrl: 'ftp://invalid.example.com/cover.jpg',
+      receipts: [receipt],
+      status: 'pending',
+      attempts: 0,
+    }],
+  }), /Invalid/);
+});

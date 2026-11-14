@@ -18,4 +18,40 @@ describe('Telegram batching', () => {
   it('rejects a single item that cannot fit without truncation', () => {
     expect(() => buildTelegramBatches(['long'], '', '', () => 'x'.repeat(10), 9)).toThrow(/exceeds/);
   });
+
+  it('emits single-item photo cards for valid URLs, batches items without valid photos, and caps captions at 1000 chars', () => {
+    const items = [
+      { id: 'no-img', imageUrl: '' },
+      { id: 'proto-rel', imageUrl: '//cdn.example.com/a.jpg' },
+      { id: 'good-1', imageUrl: 'https://cdn.example.com/1.jpg' },
+      { id: 'good-2', imageUrl: 'http://cdn.example.com/2.jpg' },
+      { id: 'bad-proto', imageUrl: 'ftp://cdn.example.com/3.jpg' },
+    ];
+    const batches = buildTelegramBatches(
+      items,
+      'H\n',
+      'F',
+      (item) => item.id,
+      3800,
+      10,
+      (item) => item.imageUrl,
+    );
+    expect(batches).toHaveLength(4);
+    expect(batches[0]).toEqual({ items: [items[0], items[1]], text: 'H\nno-img\n\nproto-rel\n\nF' });
+    expect('photoUrl' in batches[0]).toBe(false);
+    expect(batches[1]).toEqual({ items: [items[2]], text: 'H\ngood-1\n\nF', photoUrl: 'https://cdn.example.com/1.jpg' });
+    expect(batches[2]).toEqual({ items: [items[3]], text: 'H\ngood-2\n\nF', photoUrl: 'http://cdn.example.com/2.jpg' });
+    expect(batches[3]).toEqual({ items: [items[4]], text: 'H\nbad-proto\n\nF' });
+    expect(() =>
+      buildTelegramBatches(
+        [{ id: 'x', imageUrl: 'https://cdn.example.com/x.jpg' }],
+        '',
+        '',
+        () => 'a'.repeat(999),
+        3800,
+        10,
+        (item) => item.imageUrl,
+      ),
+    ).toThrow(/exceeds/);
+  });
 });
