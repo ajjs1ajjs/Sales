@@ -21,7 +21,7 @@ const logger = pino({
 });
 
 const CONFIG = {
-  dealsDir: path.join(process.cwd(), 'public', 'data'),
+  dealsDir: process.env.DEALS_DIR ?? path.join(process.cwd(), 'public', 'data'),
   freeGameCooldownMs: 14 * 24 * 60 * 60 * 1000,
   discountCooldownMs: 30 * 24 * 60 * 60 * 1000,
   historyRetentionMs: 30 * 24 * 60 * 60 * 1000,
@@ -319,10 +319,12 @@ export function parseSearchHtml(html: string, gamesMap: Map<string, SteamGame>):
     if (!itemKey.startsWith('App_')) continue;
     const body = m[3];
 
-    const titleM = body.match(/<span class="title">(.*?)<\/span>/s);
-    const imgM = body.match(/<img\s+src="([^"]+)"/);
-    const pctM = body.match(/<div class="discount_pct">\s*-(\d+)%\s*<\/div>/);
-    const origM = body.match(/<div class="discount_original_price">([^<]+)<\/div>/);
+    const titleM = body.match(/<span class="title"[^>]*>(.*?)<\/span>/s);
+    const imgM = body.match(/<img\b[^>]*\bsrc="([^"]+)"/);
+    const pctM =
+      body.match(/<div class="discount_pct"[^>]*>\s*-(\d+)%\s*<\/div>/) ??
+      body.match(/\bdata-discount="(\d+)"/);
+    const origM = body.match(/<div class="discount_original_price"[^>]*>([^<]+)<\/div>/);
     const finalM = body.match(/data-price-final="(\d+)"/);
     if (!titleM || !pctM || !finalM) continue;
 
@@ -375,6 +377,14 @@ async function fetchSteamSearchDeals(gamesMap: Map<string, SteamGame>): Promise<
       throw new Error(`Steam search page ${page} returned an incomplete response.`);
     }
     const added = parseSearchHtml(data.results_html, gamesMap);
+    if (
+      page === 0 &&
+      added === 0 &&
+      /data-ds-itemkey="App_\d+"/.test(data.results_html) &&
+      /discount_pct|data-discount=/.test(data.results_html)
+    ) {
+      throw new Error('Steam search page 0 contained discounted app rows but 0 were parsed.');
+    }
     logger.info({ page, start, total: data.total_count ?? -1, added }, 'steam search page fetched');
     // Остання неповна сторінка — далі гортати нема чого.
     if (data.results_html.length < 1000) break;

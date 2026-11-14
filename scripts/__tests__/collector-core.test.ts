@@ -187,4 +187,28 @@ describe('collector regression fixes', () => {
     expect(map.get('555')?.originalPrice).toBe(1200);
     expect(map.get('555')?.discountPrice).toBe(300);
   });
+
+  it('parses Steam search HTML when discount_pct and title include extra HTML attributes', () => {
+    const html = `
+      <a href="https://store.steampowered.com/app/777/" data-ds-appid="777" data-ds-itemkey="App_777">
+        <div class="col search_capsule"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/777/capsule_sm_120.jpg?t=1"></div>
+        <span class="title" dir="auto">Attribute Game</span>
+        <div class="discount_block search_discount_block" data-price-final="10000" data-bundlediscount="0" data-discount="75">
+          <div class="discount_pct" aria-hidden="true" data-tooltip-text="Тимчасова знижка, що зменшує звичайну ціну.">-75%</div>
+          <div class="discount_prices" aria-hidden="true">
+            <div class="discount_original_price" aria-hidden="true">400,00₴</div>
+            <div class="discount_final_price">100,00₴</div>
+          </div>
+        </div>
+      </a>`;
+    const map = new Map<string, SteamGame>();
+    expect(parseSearchHtml(html, map)).toBe(1);
+    expect(map.get('777')).toMatchObject({
+      id: '777',
+      title: 'Attribute Game',
+      discountPercent: 75,
+      originalPrice: 400,
+      discountPrice: 100,
+    });
+  });
 });
