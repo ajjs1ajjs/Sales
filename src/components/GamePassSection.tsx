@@ -21,15 +21,17 @@ export function GamePassSection({ games, activeFilter, searchQuery, sortType }: 
   const [collapsedPopular, setCollapsedPopular] = useLocalStorage('collapse-gamepass-popular', false);
   const sorted = useMemo(() => sortGamePassGames(games, sortType), [games, sortType]);
 
+  const showAllGamePass = activeFilter === 'all' || activeFilter === 'gamepass_all';
   const newGames = sorted.filter((g) => g.isNew);
-  const popular = sorted.filter((g) => g.isPopular);
+  const popular = sorted.filter((g) => g.isPopular && (activeFilter === 'gamepass_popular' || !g.isNew));
 
-  const canCollapse = activeFilter === 'all';
+  const canCollapse = showAllGamePass;
+  const initialCount = activeFilter === 'all' && !searchQuery ? 6 : 12;
   const resetKey = `${activeFilter}|${searchQuery}|${sortType}`;
 
   return (
     <>
-      {(activeFilter === 'all' || activeFilter === 'gamepass_new') && (
+      {(showAllGamePass || activeFilter === 'gamepass_new') && (
         <CollapsibleSection
           id="gamepass-new-title"
           title={t.gamepass.newTitle}
@@ -46,6 +48,7 @@ export function GamePassSection({ games, activeFilter, searchQuery, sortType }: 
           ) : (
             <div className="deals-grid section-gap-bottom">
               <ShowMore
+                initialCount={initialCount}
                 resetKey={resetKey}
                 items={newGames.map((deal) => (
                   <GameCard
@@ -62,7 +65,7 @@ export function GamePassSection({ games, activeFilter, searchQuery, sortType }: 
         </CollapsibleSection>
       )}
 
-      {(activeFilter === 'all' || activeFilter === 'gamepass_popular') && (
+      {(showAllGamePass || activeFilter === 'gamepass_popular') && (
         <CollapsibleSection
           id="gamepass-popular-title"
           title={t.gamepass.popularTitle}
@@ -79,6 +82,7 @@ export function GamePassSection({ games, activeFilter, searchQuery, sortType }: 
           ) : (
             <div className="deals-grid section-gap-bottom">
               <ShowMore
+                initialCount={initialCount}
                 resetKey={resetKey}
                 items={popular.map((deal) => (
                   <GameCard

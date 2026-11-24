@@ -4,7 +4,7 @@ import type { SourceUpdates } from './types';
 export const SOURCE_STALE_AFTER_MS = 6 * 60 * 60 * 1000;
 
 export interface StaleSource {
-  key: 'steam' | 'gamepass';
+  key: 'steam' | 'gamepass' | 'playstation';
   label: string;
   date: string;
 }
@@ -17,6 +17,7 @@ export function findStaleSources(
   const sources = [
     ['steam', 'Steam'],
     ['gamepass', 'Game Pass'],
+    ['playstation', 'PlayStation 5'],
   ] as const;
   return sources.flatMap(([key, label]) => {
     const value = sourceUpdates[key];

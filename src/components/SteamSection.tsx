@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { Flame, Gift, TrendingUp } from 'lucide-react';
+import { Flame, Gift, Layers, TrendingUp } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 import type { SteamGame, FilterType, SortType, PriceObservation } from '../types';
@@ -22,13 +22,17 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, price
   const [collapsedFree, setCollapsedFree] = useLocalStorage('collapse-steam-free', false);
   const [collapsedSpecials, setCollapsedSpecials] = useLocalStorage('collapse-steam-specials', false);
   const [collapsedPopular, setCollapsedPopular] = useLocalStorage('collapse-steam-popular', false);
+  const [collapsedDlc, setCollapsedDlc] = useLocalStorage('collapse-steam-dlc', false);
   const sorted = useMemo(() => sortGames(games, sortType), [games, sortType]);
 
   const free = sorted.filter((g) => g.isFree);
-  const specials = sorted.filter((g) => g.isSpecial && !g.isFree);
-  const popular = sorted.filter((g) => g.isPopular && (activeFilter === 'steam_popular' || (!g.isFree && !g.isSpecial)));
+  const specials = sorted.filter((g) => g.isSpecial && !g.isFree && !g.isDlc);
+  const dlc = sorted.filter((g) => Boolean(g.isDlc) && (g.isSpecial || g.isFree));
+  const popular = sorted.filter((g) => g.isPopular && !g.isDlc && (activeFilter === 'steam_popular' || (!g.isFree && !g.isSpecial)));
 
-  const canCollapse = activeFilter === 'all';
+  const showAllSteam = activeFilter === 'all' || activeFilter === 'steam_all';
+  const canCollapse = showAllSteam;
+  const initialCount = activeFilter === 'all' && !searchQuery ? 6 : 12;
   const resetKey = `${activeFilter}|${searchQuery}|${sortType}`;
   const priceExtra = (deal: SteamGame) => {
     const observations = priceHistory[deal.id];
@@ -36,10 +40,15 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, price
       ? <PriceHistory title={deal.title} currency={deal.currency} observations={observations} />
       : undefined;
   };
+  const isLowestPrice = (deal: SteamGame): boolean => {
+    const observations = (priceHistory[deal.id] ?? []).filter((o) => o.currency === deal.currency);
+    if (observations.length < 2) return false;
+    return deal.discountPrice <= Math.min(...observations.map((o) => o.price));
+  };
 
   return (
     <>
-      {(activeFilter === 'all' || activeFilter === 'steam_free') && (
+      {(showAllSteam || activeFilter === 'steam_free') && (free.length > 0 || activeFilter === 'steam_free') && (
         <CollapsibleSection
           id="steam-free-title"
           title={t.steam.freeTitle}
@@ -56,6 +65,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, price
           ) : (
             <div className="deals-grid section-gap-bottom">
               <ShowMore
+                initialCount={initialCount}
                 resetKey={resetKey}
                 items={free.map((deal) => (
                   <GameCard
@@ -74,7 +84,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, price
         </CollapsibleSection>
       )}
 
-      {(activeFilter === 'all' || activeFilter === 'steam_specials') && (
+      {(showAllSteam || activeFilter === 'steam_specials') && (
         <CollapsibleSection
           id="steam-specials-title"
           title={t.steam.specialsTitle}
@@ -91,6 +101,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, price
           ) : (
             <div className="deals-grid section-gap-bottom">
               <ShowMore
+                initialCount={initialCount}
                 resetKey={resetKey}
                 items={specials.map((deal) => (
                   <GameCard
@@ -99,6 +110,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, price
                     platform="steam"
                     badge={deal.discountPercent > 0 ? `-${deal.discountPercent}%` : undefined}
                     showTagDescription
+                    isLowestPrice={isLowestPrice(deal)}
                     searchQuery={searchQuery}
                     extra={priceExtra(deal)}
                   />
@@ -109,7 +121,45 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, price
         </CollapsibleSection>
       )}
 
-      {(activeFilter === 'all' || activeFilter === 'steam_popular') && (
+      {(showAllSteam || activeFilter === 'steam_dlc') && (dlc.length > 0 || activeFilter === 'steam_dlc') && (
+        <CollapsibleSection
+          id="steam-dlc-title"
+          title={t.steam.dlcTitle}
+          icon={<Layers size={22} className="icon-dlc" aria-hidden="true" />}
+          canCollapse={canCollapse}
+          collapsed={collapsedDlc}
+          onToggle={() => setCollapsedDlc((c) => !c)}
+        >
+          {dlc.length === 0 ? (
+            <div className="empty-state section-gap-bottom">
+              <h3>{t.steam.emptyDlc}</h3>
+              <p>{t.steam.emptyDlcDesc}</p>
+            </div>
+          ) : (
+            <div className="deals-grid section-gap-bottom">
+              <ShowMore
+                initialCount={initialCount}
+                resetKey={resetKey}
+                items={dlc.map((deal) => (
+                  <GameCard
+                    key={deal.id}
+                    game={deal}
+                    platform="steam"
+                    badge={deal.isFree ? 'FREE' : deal.discountPercent > 0 ? `-${deal.discountPercent}%` : undefined}
+                    badgeVariant={deal.isFree ? 'free' : 'dlc'}
+                    showTagDescription
+                    isLowestPrice={isLowestPrice(deal)}
+                    searchQuery={searchQuery}
+                    extra={priceExtra(deal)}
+                  />
+                ))}
+              />
+            </div>
+          )}
+        </CollapsibleSection>
+      )}
+
+      {(showAllSteam || activeFilter === 'steam_popular') && (popular.length > 0 || activeFilter === 'steam_popular') && (
         <CollapsibleSection
           id="steam-popular-title"
           title={t.steam.popularTitle}
@@ -126,6 +176,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, price
           ) : (
             <div className="deals-grid section-gap-bottom">
               <ShowMore
+                initialCount={initialCount}
                 resetKey={resetKey}
                 items={popular.map((deal) => (
                   <GameCard
@@ -134,6 +185,7 @@ export function SteamSection({ games, activeFilter, searchQuery, sortType, price
                     platform="steam"
                     badge={deal.discountPercent > 0 ? `-${deal.discountPercent}%` : undefined}
                     showTrendingDescription
+                    isLowestPrice={isLowestPrice(deal)}
                     searchQuery={searchQuery}
                     extra={priceExtra(deal)}
                   />

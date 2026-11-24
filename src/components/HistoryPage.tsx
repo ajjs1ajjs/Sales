@@ -10,7 +10,7 @@ interface Props {
   loading?: boolean;
 }
 
-type HistoryFilter = 'all' | 'free' | 'discount' | 'popular' | 'gamepass';
+type HistoryFilter = 'all' | 'free' | 'discount' | 'dlc' | 'popular' | 'gamepass' | 'playstation';
 
 function getHistoryItemUrl(key: string): string | null {
   if (key.startsWith('steam_free_')) {
@@ -19,6 +19,10 @@ function getHistoryItemUrl(key: string): string | null {
   }
   if (key.startsWith('steam_discount_')) {
     const id = key.slice('steam_discount_'.length);
+    return id ? safeUrl(`https://store.steampowered.com/app/${encodeURIComponent(id)}`) : null;
+  }
+  if (key.startsWith('steam_dlc_')) {
+    const id = key.slice('steam_dlc_'.length);
     return id ? safeUrl(`https://store.steampowered.com/app/${encodeURIComponent(id)}`) : null;
   }
   if (key.startsWith('steam_popular_')) {
@@ -32,6 +36,13 @@ function getHistoryItemUrl(key: string): string | null {
   if (key.startsWith('gamepass_')) {
     const id = key.slice('gamepass_'.length);
     return id ? safeUrl(`https://www.xbox.com/games/store/game/${encodeURIComponent(id)}`) : null;
+  }
+  if (key.startsWith('ps_deal_')) {
+    const id = key.slice('ps_deal_'.length);
+    return id ? safeUrl(`https://store.playstation.com/uk-ua/product/${encodeURIComponent(id)}`) : null;
+  }
+  if (key.startsWith('ps_essential_') || key.startsWith('ps_extra_')) {
+    return safeUrl('https://store.playstation.com/uk-ua/pages/subscriptions');
   }
   return null;
 }
@@ -56,6 +67,12 @@ export function HistoryPage({ data, loading = false }: Props) {
 
   const filtered = useMemo(() => {
     if (filter === 'all') return history;
+    if (filter === 'playstation') {
+      return history.filter((item) => {
+        const type = safeHistoryType(item.type);
+        return type === 'ps_deal' || type === 'ps_essential' || type === 'ps_extra';
+      });
+    }
     // safeHistoryType: легасі-записи xbox_new фільтруються як gamepass.
     return history.filter((item) => safeHistoryType(item.type) === filter);
   }, [history, filter]);
@@ -97,8 +114,10 @@ export function HistoryPage({ data, loading = false }: Props) {
           ['all', t.history.all],
           ['free', t.history.free],
           ['discount', t.history.discount],
+          ['dlc', t.history.dlc],
           ['popular', t.history.popular],
           ['gamepass', t.history.gamepass],
+          ['playstation', t.history.playstation],
         ] as [HistoryFilter, string][]).map(([key, label]) => (
           <button
             key={key}
@@ -121,14 +140,28 @@ export function HistoryPage({ data, loading = false }: Props) {
         <div className="history-list">
           {filtered.map((item) => {
             const itemUrl = getHistoryItemUrl(item.key);
+            const normalizedType = safeHistoryType(item.type);
+            const isPs = normalizedType === 'ps_deal' || normalizedType === 'ps_essential' || normalizedType === 'ps_extra';
             const platformName = item.type === 'gamepass' || item.type === 'xbox_new'
               ? t.platform.gamepass
-              : t.platform.steam;
+              : isPs
+                ? t.platform.playstation
+                : t.platform.steam;
+            const badgeText = ({
+              free: t.history.freeBadge,
+              discount: `-${item.percent}%`,
+              dlc: `DLC -${item.percent}%`,
+              popular: t.history.topBadge,
+              gamepass: t.history.gamepassBadge,
+              ps_deal: `PS5 -${item.percent}%`,
+              ps_essential: t.history.psEssentialBadge,
+              ps_extra: t.history.psExtraBadge,
+            } satisfies Record<string, string>)[normalizedType] ?? t.history.freeBadge;
             return (
-              <div key={item.key} className={`history-item history-item--${safeHistoryType(item.type)}`}>
+              <div key={item.key} className={`history-item history-item--${normalizedType}`}>
                 <div className="history-item-main">
-                  <span className={`history-badge history-badge--${safeHistoryType(item.type)}`}>
-                    {({ free: t.history.freeBadge, discount: `-${item.percent}%`, popular: t.history.topBadge, gamepass: t.history.gamepassBadge } satisfies Record<string, string>)[safeHistoryType(item.type)]}
+                  <span className={`history-badge history-badge--${normalizedType}`}>
+                    {badgeText}
                   </span>
                   <span className="history-item-title">{item.title}</span>
                 </div>

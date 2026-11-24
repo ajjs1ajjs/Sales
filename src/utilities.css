@@ -189,6 +189,16 @@
   border-left: 3px solid var(--accent-gamepass);
 }
 
+.history-item--dlc {
+  border-left: 3px solid var(--accent-dlc);
+}
+
+.history-item--ps_deal,
+.history-item--ps_essential,
+.history-item--ps_extra {
+  border-left: 3px solid var(--accent-ps);
+}
+
 .history-item-main {
   display: flex;
   align-items: center;
@@ -223,6 +233,24 @@
 .history-badge--gamepass {
   background: rgba(74, 222, 128, 0.15);
   color: var(--accent-gamepass);
+}
+
+.history-badge--dlc {
+  background: rgba(245, 158, 11, 0.15);
+  color: var(--accent-dlc);
+}
+
+.history-badge--ps_deal,
+.history-badge--ps_essential,
+.history-badge--ps_extra {
+  background: rgba(59, 130, 246, 0.16);
+  color: #60a5fa;
+}
+
+[data-theme="light"] .history-badge--ps_deal,
+[data-theme="light"] .history-badge--ps_essential,
+[data-theme="light"] .history-badge--ps_extra {
+  color: #1d4ed8;
 }
 
 .history-item-title {

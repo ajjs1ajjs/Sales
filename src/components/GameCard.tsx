@@ -1,19 +1,29 @@
 import { useMemo, useState, type ReactNode } from 'react';
-import { ExternalLink, Tag, TrendingUp } from 'lucide-react';
+import { ExternalLink, Layers, Tag, ThumbsUp, TrendingDown, TrendingUp } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
-import type { GamePassGame, SteamGame } from '../types';
-import { buildFallbackImage, buildHighlightRegex, formatPrice, formatDate, formatDateEn, safeUrl } from '../utils';
+import type { GamePassGame, PlayStationGame, SteamGame } from '../types';
+import {
+  buildFallbackImage,
+  buildHighlightRegex,
+  formatDate,
+  formatDateEn,
+  formatPrice,
+  formatReviewCount,
+  safeUrl,
+} from '../utils';
 import { WishlistButton } from './WishlistButton';
 
 export type Game = SteamGame;
-export type AnyGame = SteamGame | GamePassGame;
+export type AnyGame = SteamGame | GamePassGame | PlayStationGame;
 
 interface BaseProps {
-  platform: 'steam' | 'gamepass';
+  platform: 'steam' | 'gamepass' | 'playstation';
   badge?: string;
-  badgeVariant?: 'free' | 'discount' | 'top';
+  badgeVariant?: 'free' | 'discount' | 'top' | 'ps' | 'dlc';
   showTagDescription?: boolean;
   showTrendingDescription?: boolean;
+  customDescription?: string;
+  isLowestPrice?: boolean;
   isUpcoming?: boolean;
   upcomingStartDate?: string;
   linkText?: string;
@@ -47,6 +57,8 @@ export function GameCard({
   badgeVariant,
   showTagDescription,
   showTrendingDescription,
+  customDescription,
+  isLowestPrice,
   isUpcoming,
   upcomingStartDate,
   linkText,
@@ -57,11 +69,23 @@ export function GameCard({
   const [failedImageUrl, setFailedImageUrl] = useState<string | null>(null);
   const imgError = failedImageUrl === game.imageUrl;
   const isGamePass = platform === 'gamepass';
-  // platform і game приходять узгоджено від секцій; для гілки Steam даємо
-  // TS-звуження, щоб не тягути in-перевірки на кожне поле.
-  const steamGame = isGamePass ? null : (game as SteamGame);
-  const platformName = isGamePass ? t.platform.gamepass : t.platform.steam;
-  const defaultLinkText = linkText ?? (isGamePass ? t.gamepass.viewInStore : t.steam.buy);
+  const isPlayStation = platform === 'playstation';
+  const steamGame = platform === 'steam' ? (game as SteamGame) : null;
+  const psGame = isPlayStation ? (game as PlayStationGame) : null;
+  const platformName = isGamePass
+    ? t.platform.gamepass
+    : isPlayStation
+      ? t.platform.playstation
+      : t.platform.steam;
+  const defaultLinkText =
+    linkText ??
+    (isGamePass
+      ? t.gamepass.viewInStore
+      : isPlayStation
+        ? psGame?.psPlusTier
+          ? t.playstation.viewInStore
+          : t.playstation.buy
+        : t.steam.buy);
   const isFreeOffer = steamGame?.isFree ?? false;
 
   const highlightRegex = useMemo(() => buildHighlightRegex(searchQuery), [searchQuery]);
@@ -72,6 +96,14 @@ export function GameCard({
     [game.imageUrl, imgError, fallbackImg],
   );
   const safeStoreUrl = useMemo(() => safeUrl(game.url) || '#', [game.url]);
+  const descriptionText = customDescription ?? (psGame?.description || (isGamePass ? (game as GamePassGame).description : undefined));
+  const hasMetaPills = Boolean(
+    (steamGame?.reviewPercent !== undefined && steamGame?.reviewCount) ||
+      steamGame?.isDlc ||
+      isLowestPrice ||
+      psGame?.isPsPlusExclusive ||
+      psGame?.psPlusMonth,
+  );
 
   return (
     <article
@@ -104,16 +136,54 @@ export function GameCard({
           <WishlistButton gameId={game.id} title={game.title} />
         </div>
 
+        {hasMetaPills && (
+          <div className="card-meta-row">
+            {steamGame?.isDlc && (
+              <span className="meta-pill meta-pill--dlc">
+                <Layers size={12} aria-hidden="true" />
+                {t.steam.dlcBadge}
+              </span>
+            )}
+            {steamGame?.reviewPercent !== undefined && steamGame?.reviewCount ? (
+              <span
+                className="meta-pill meta-pill--rating"
+                aria-label={t.steam.reviewsAria
+                  .replace('{percent}', String(steamGame.reviewPercent))
+                  .replace('{count}', formatReviewCount(steamGame.reviewCount))}
+              >
+                <ThumbsUp size={12} aria-hidden="true" />
+                {steamGame.reviewPercent}% · {formatReviewCount(steamGame.reviewCount)}
+              </span>
+            ) : null}
+            {isLowestPrice && (
+              <span className="meta-pill meta-pill--lowest">
+                <TrendingDown size={12} aria-hidden="true" />
+                {t.steam.lowestPrice}
+              </span>
+            )}
+            {psGame?.isPsPlusExclusive && (
+              <span className="meta-pill meta-pill--psplus">{t.playstation.psPlusExtraDiscount}</span>
+            )}
+            {psGame?.psPlusMonth && (
+              <span className="meta-pill meta-pill--psplus">{psGame.psPlusMonth}</span>
+            )}
+          </div>
+        )}
+
+        {descriptionText && !showTagDescription && !showTrendingDescription && (
+          <p className="card-desc">{descriptionText}</p>
+        )}
+
         {showTagDescription && (
           <p className="card-desc card-desc--with-icon">
             <Tag size={14} aria-hidden="true" />{' '}
-            {t.steam.specialsTag}
+            {steamGame?.isDlc ? t.steam.dlcDesc : isPlayStation ? t.playstation.dealsTag : t.steam.specialsTag}
           </p>
         )}
 
         {showTrendingDescription && (
           <p className="card-desc card-desc--with-icon">
-            <TrendingUp size={14} aria-hidden="true" /> {t.steam.trendingDesc}
+            <TrendingUp size={14} aria-hidden="true" /> {isPlayStation ? t.playstation.trendingDesc : t.steam.trendingDesc}
           </p>
         )}
 
@@ -135,13 +205,31 @@ export function GameCard({
                 {formatPrice(steamGame.originalPrice, steamGame.currency, locale)}
               </span>
             )}
+            {psGame &&
+              typeof psGame.originalPrice === 'number' &&
+              typeof psGame.discountPrice === 'number' &&
+              psGame.originalPrice > psGame.discountPrice && (
+                <span className="price-original">
+                  {formatPrice(psGame.originalPrice, psGame.currency || 'UAH', locale)}
+                </span>
+              )}
             {isGamePass ? (
               <span className="price-current gp-included">{t.gamepass.included}</span>
+            ) : psGame?.psPlusTier === 'essential' ? (
+              <span className="price-current ps-included">{t.playstation.includedEssential}</span>
+            ) : psGame?.psPlusTier === 'extra' ? (
+              <span className="price-current ps-included">{t.playstation.includedExtra}</span>
             ) : isFreeOffer ? (
               <span className="price-current free-text">{t.price.free}</span>
             ) : steamGame ? (
               <span className="price-current">
                 {formatPrice(steamGame.discountPrice, steamGame.currency, locale)}
+              </span>
+            ) : psGame && typeof psGame.discountPrice === 'number' ? (
+              <span className="price-current">
+                {psGame.discountPrice === 0
+                  ? t.price.free
+                  : formatPrice(psGame.discountPrice, psGame.currency || 'UAH', locale)}
               </span>
             ) : null}
           </div>

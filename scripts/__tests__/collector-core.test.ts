@@ -1,14 +1,18 @@
 import { describe, expect, it } from 'vitest';
 import {
+  choosePlayStationSnapshot,
   chooseSteamSnapshot,
+  filterQualitySteamGames,
   isValidSteamSearchPage,
+  partitionMegaSteamDeals,
   planGamePassNewEntries,
   planGamePassPopularEntries,
+  planPlayStationNotifications,
   resolveCatalogTimestamps,
   selectSteamNotifications,
   updatePriceHistory,
 } from '../collector-core';
-import type { GamePassGame, SteamGame } from '../../src/types';
+import type { GamePassGame, PlayStationGame, SteamGame } from '../../src/types';
 import { parseSearchHtml, processCategoryItems } from '../fetch-deals';
 
 const steamGame = (id: string): SteamGame => ({
@@ -210,5 +214,84 @@ describe('collector regression fixes', () => {
       originalPrice: 400,
       discountPrice: 100,
     });
+  });
+
+  it('filters Steam deals by review quality and excludes cosmetic/OST DLC junk', () => {
+    const now = new Date('2026-11-24T12:00:00Z');
+    const games: SteamGame[] = [
+      { ...steamGame('1'), title: 'Great Hit', discountPercent: 50, isPopular: true, popularRank: 1 },
+      { ...steamGame('2'), title: 'Obscure Shovelware', discountPercent: 80, isPopular: false },
+      { ...steamGame('3'), title: 'Mixed Reviews', discountPercent: 60, isPopular: false },
+      { ...steamGame('4'), title: 'Phantom Liberty', isDlc: true, originalPrice: 799, discountPrice: 559, discountPercent: 30, currency: 'UAH' },
+      { ...steamGame('5'), title: 'Game Original Soundtrack', isDlc: true, originalPrice: 300, discountPrice: 150, discountPercent: 50, currency: 'UAH' },
+    ];
+    const meta = new Map([
+      ['1', { type: 0, reviewCount: 25000, reviewPercent: 92 }],
+      ['2', { type: 0, reviewCount: 40, reviewPercent: 85 }],
+      ['3', { type: 0, reviewCount: 2000, reviewPercent: 55 }],
+      ['4', { type: 4, reviewCount: 22000, reviewPercent: 89, parentAppId: '1091500' }],
+      ['5', { type: 4, reviewCount: 500, reviewPercent: 90, parentAppId: '1' }],
+    ]);
+
+    const filtered = filterQualitySteamGames(games, meta, now, {
+      minDiscountPercent: 30,
+      topSellerMinDiscountPercent: 25,
+      minReviewPercent: 70,
+      minReviewCount: 500,
+      newReleaseDays: 45,
+      newReleaseMinReviews: 100,
+      popularMinReviewPercent: 65,
+      popularMinReviewCount: 100,
+      dlcMinDiscountPercent: 25,
+      dlcMinReviewCount: 300,
+      dlcMinReviewPercent: 70,
+      dlcMinOriginalPriceUah: 120,
+    });
+    expect(filtered.map((g) => g.id)).toEqual(['1', '4']);
+  });
+
+  it('splits mega-hits from regular Steam deals and plans PlayStation notifications', () => {
+    const deals: SteamGame[] = [
+      { ...steamGame('10'), discountPercent: 60, reviewCount: 15000, reviewPercent: 91 },
+      { ...steamGame('11'), discountPercent: 35, reviewCount: 1200, reviewPercent: 82 },
+    ];
+    const { megaDeals, digestDeals } = partitionMegaSteamDeals(deals, 3);
+    expect(megaDeals.map((d) => d.id)).toEqual(['10']);
+    expect(digestDeals.map((d) => d.id)).toEqual(['11']);
+
+    const psGames: PlayStationGame[] = [
+      {
+        id: 'ps_essential_dead-island-2',
+        title: 'Dead Island 2',
+        imageUrl: '',
+        url: 'https://store.playstation.com/uk-ua/search/Dead%20Island%202',
+        isDeal: false,
+        isPopular: false,
+        psPlusTier: 'essential',
+      },
+      {
+        id: 'EP0006-PPSA23566_00-BASEUFC6GAME0000',
+        title: 'UFC 6',
+        imageUrl: '',
+        url: 'https://store.playstation.com/uk-ua/product/EP0006-PPSA23566_00-BASEUFC6GAME0000',
+        originalPrice: 2599,
+        discountPrice: 1559.4,
+        discountPercent: 40,
+        currency: 'UAH',
+        isDeal: true,
+        isPopular: true,
+        popularRank: 1,
+      },
+    ];
+    const plan = planPlayStationNotifications(
+      psGames,
+      { ps_essential_old: { title: 'Old', price: 0, percent: 100, timestamp: '2026-10-01T00:00:00Z', type: 'ps_essential' } },
+      new Set(),
+      new Date('2026-11-24T12:00:00Z'),
+      { minDiscountPercent: 25, discountCooldownMs: 30 * 86400000, maxDealsPerRun: 5 },
+    );
+    expect(plan.essential.map((g) => g.id)).toEqual(['ps_essential_dead-island-2']);
+    expect(plan.deals.map((g) => g.id)).toEqual(['EP0006-PPSA23566_00-BASEUFC6GAME0000']);
+    expect(choosePlayStationSnapshot([], psGames, false).usedPrevious).toBe(true);
   });
 });

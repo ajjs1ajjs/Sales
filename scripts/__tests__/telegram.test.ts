@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { buildTelegramBatches } from '../telegram';
+import { buildDigestBatches, buildTelegramBatches, isQuietHoursKyiv } from '../telegram';
 
 describe('Telegram batching', () => {
   it('keeps every complete HTML item under both configured limits', () => {
@@ -53,5 +53,35 @@ describe('Telegram batching', () => {
         (item) => item.imageUrl,
       ),
     ).toThrow(/exceeds/);
+  });
+
+  it('builds compact digests with hero photo when <= 1000 chars and drops hero photo on long captions', () => {
+    const shortItems = ['Game A', 'Game B'];
+    const shortDigests = buildDigestBatches(shortItems, {
+      header: '<b>TOP</b>\n',
+      footer: '#steam',
+      renderItem: (x) => `• ${x}`,
+      heroPhotoUrl: 'https://cdn.example.com/hero.jpg',
+      replyMarkup: { inline_keyboard: [[{ text: 'Site', url: 'https://example.com' }]] },
+    });
+    expect(shortDigests).toHaveLength(1);
+    expect(shortDigests[0].photoUrl).toBe('https://cdn.example.com/hero.jpg');
+    expect(shortDigests[0].replyMarkup?.inline_keyboard[0][0].text).toBe('Site');
+
+    const longItems = Array.from({ length: 5 }, (_, i) => `Game ${i} ${'x'.repeat(220)}`);
+    const longDigests = buildDigestBatches(longItems, {
+      header: '<b>TOP</b>\n',
+      footer: '#steam',
+      renderItem: (x) => `• ${x}`,
+      heroPhotoUrl: 'https://cdn.example.com/hero.jpg',
+    });
+    expect(longDigests[0].photoUrl).toBeUndefined();
+  });
+
+  it('detects Kyiv quiet hours between 23:00 and 08:00', () => {
+    // 02:00 UTC in November is 04:00 Europe/Kyiv (quiet)
+    expect(isQuietHoursKyiv(new Date('2026-11-24T02:00:00Z'))).toBe(true);
+    // 12:00 UTC in November is 14:00 Europe/Kyiv (daytime)
+    expect(isQuietHoursKyiv(new Date('2026-11-24T12:00:00Z'))).toBe(false);
   });
 });

@@ -1,6 +1,7 @@
 /* eslint-disable react-refresh/only-export-components */
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from 'react';
-import type { DealsData, GamePassGame, NotifiedItem, SteamGame, PriceObservation } from './types';
+import type { DealsData, GamePassGame, NotifiedItem, PlayStationGame, PriceObservation, SteamGame } from './types';
+import { isPriceTrackedId } from './utils';
 
 // deals.json генерується із зовнішнього Steam API, тому елемент може не мати
 // полів (напр. upstream пропустив title). Нормалізуємо КОЖЕН елемент,
@@ -9,11 +10,19 @@ const num = (v: unknown): number => {
   const n = typeof v === 'number' ? v : Number(v);
   return Number.isFinite(n) ? n : 0;
 };
+const optNum = (v: unknown): number | undefined => {
+  if (v === undefined || v === null) return undefined;
+  const n = typeof v === 'number' ? v : Number(v);
+  return Number.isFinite(n) ? n : undefined;
+};
 const str = (v: unknown): string => (typeof v === 'string' ? v : v == null ? '' : String(v));
 
 function normalizeSteam(g: Record<string, unknown>): SteamGame {
   const originalPrice = num(g.originalPrice);
   const discountPrice = num(g.discountPrice);
+  const reviewPercent = optNum(g.reviewPercent);
+  const reviewCount = optNum(g.reviewCount);
+  const popularRank = optNum(g.popularRank);
   return {
     id: str(g.id),
     title: str(g.title),
@@ -26,6 +35,12 @@ function normalizeSteam(g: Record<string, unknown>): SteamGame {
     isSpecial: Boolean(g.isSpecial),
     isFree: typeof g.isFree === 'boolean' ? g.isFree : originalPrice > 0 && discountPrice === 0,
     isPopular: Boolean(g.isPopular),
+    ...(g.isDlc ? { isDlc: true } : {}),
+    ...(typeof g.parentAppId === 'string' && g.parentAppId ? { parentAppId: g.parentAppId } : {}),
+    ...(reviewPercent !== undefined ? { reviewPercent } : {}),
+    ...(reviewCount !== undefined ? { reviewCount } : {}),
+    ...(typeof g.reviewLabel === 'string' && g.reviewLabel ? { reviewLabel: g.reviewLabel } : {}),
+    ...(popularRank !== undefined ? { popularRank } : {}),
   };
 }
 
@@ -61,6 +76,39 @@ function normalizeGamePass(g: Record<string, unknown>): GamePassGame {
   };
 }
 
+function isValidPlayStationRecord(g: Record<string, unknown>): boolean {
+  return typeof g.id === 'string' && g.id.trim().length > 0 &&
+    typeof g.title === 'string' && g.title.trim().length > 0 &&
+    typeof g.url === 'string' && /^https:\/\/(?:store\.)?playstation\.com\//.test(g.url) &&
+    typeof g.isDeal === 'boolean' && typeof g.isPopular === 'boolean' &&
+    (g.psPlusTier === undefined || g.psPlusTier === 'essential' || g.psPlusTier === 'extra');
+}
+
+function normalizePlayStation(g: Record<string, unknown>): PlayStationGame {
+  const originalPrice = optNum(g.originalPrice);
+  const discountPrice = optNum(g.discountPrice);
+  const discountPercent = optNum(g.discountPercent);
+  const popularRank = optNum(g.popularRank);
+  const currency = typeof g.currency === 'string' && /^[A-Z]{3}$/.test(g.currency) ? g.currency : undefined;
+  return {
+    id: str(g.id),
+    title: str(g.title),
+    imageUrl: str(g.imageUrl),
+    url: str(g.url),
+    ...(typeof g.description === 'string' && g.description ? { description: g.description } : {}),
+    ...(originalPrice !== undefined ? { originalPrice } : {}),
+    ...(discountPrice !== undefined ? { discountPrice } : {}),
+    ...(discountPercent !== undefined ? { discountPercent } : {}),
+    ...(currency ? { currency } : {}),
+    isDeal: Boolean(g.isDeal),
+    isPopular: Boolean(g.isPopular),
+    ...(g.isPsPlusExclusive ? { isPsPlusExclusive: true } : {}),
+    ...(g.psPlusTier === 'essential' || g.psPlusTier === 'extra' ? { psPlusTier: g.psPlusTier } : {}),
+    ...(typeof g.psPlusMonth === 'string' && g.psPlusMonth ? { psPlusMonth: g.psPlusMonth } : {}),
+    ...(popularRank !== undefined ? { popularRank } : {}),
+  };
+}
+
 function normalizeList<T>(
   raw: unknown,
   normalize: (g: Record<string, unknown>) => T,
@@ -81,6 +129,17 @@ function normalizeList<T>(
     .map(normalize);
 }
 
+const VALID_HISTORY_TYPES = new Set([
+  'free',
+  'discount',
+  'popular',
+  'dlc',
+  'gamepass',
+  'ps_deal',
+  'ps_essential',
+  'ps_extra',
+]);
+
 // M2: notifiedHistory нормалізується так само як steam — сирий timestamp/
 // percent з отруєного deals.json ламав сортування (-NaN%) в HistoryPage.
 function normalizeHistory(raw: unknown): Record<string, NotifiedItem> {
@@ -92,7 +151,9 @@ function normalizeHistory(raw: unknown): Record<string, NotifiedItem> {
     if (typeof item.title !== 'string') continue;
     // Легасі-тип xbox_new (до перезапуску Game Pass) мапимо на gamepass.
     const rawType = item.type === 'xbox_new' ? 'gamepass' : item.type;
-    const type = rawType === 'free' || rawType === 'discount' || rawType === 'popular' || rawType === 'gamepass' ? rawType : 'discount';
+    const type = (typeof rawType === 'string' && VALID_HISTORY_TYPES.has(rawType)
+      ? rawType
+      : 'discount') as NotifiedItem['type'];
     const ts = typeof item.timestamp === 'string' && !Number.isNaN(Date.parse(item.timestamp)) ? item.timestamp : '';
     out[key] = { title: item.title, price: num(item.price), percent: num(item.percent), timestamp: ts, type };
   }
@@ -104,15 +165,20 @@ function normalizeSourceUpdates(raw: unknown): DealsData['sourceUpdates'] {
   const obj = raw as Record<string, unknown>;
   const steam = typeof obj.steam === 'string' && !Number.isNaN(Date.parse(obj.steam)) ? obj.steam : undefined;
   const gamepass = typeof obj.gamepass === 'string' && !Number.isNaN(Date.parse(obj.gamepass)) ? obj.gamepass : undefined;
-  if (!steam && !gamepass) return undefined;
-  return { steam, gamepass };
+  const playstation = typeof obj.playstation === 'string' && !Number.isNaN(Date.parse(obj.playstation)) ? obj.playstation : undefined;
+  if (!steam && !gamepass && !playstation) return undefined;
+  return {
+    ...(steam ? { steam } : {}),
+    ...(gamepass ? { gamepass } : {}),
+    ...(playstation ? { playstation } : {}),
+  };
 }
 
 function normalizePriceHistory(raw: unknown): Record<string, PriceObservation[]> {
   if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return {};
   const result: Record<string, PriceObservation[]> = {};
   for (const [id, entries] of Object.entries(raw)) {
-    if (!/^\d+$/.test(id) || !Array.isArray(entries)) continue;
+    if (!isPriceTrackedId(id) || !Array.isArray(entries)) continue;
     const observations = entries.filter((entry): entry is PriceObservation => {
       if (!entry || typeof entry !== 'object') return false;
       const { date, price, currency } = entry as Record<string, unknown>;
@@ -227,7 +293,11 @@ export function DataProvider({ children }: { children: ReactNode }) {
           throw new Error(invalidFormatMsg);
         }
         const source = raw as Record<string, unknown>;
-        if (!Array.isArray(source.steam) || (source.gamepass !== undefined && !Array.isArray(source.gamepass))) {
+        if (
+          !Array.isArray(source.steam) ||
+          (source.gamepass !== undefined && !Array.isArray(source.gamepass)) ||
+          (source.playstation !== undefined && !Array.isArray(source.playstation))
+        ) {
           throw new Error(invalidFormatMsg);
         }
         // Нормалізуємо форму замість сліпого `as DealsData`:
@@ -239,6 +309,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
           priceHistory: normalizePriceHistory(source.priceHistory),
           steam: normalizeList(source.steam, normalizeSteam, isValidSteamRecord),
           gamepass: normalizeList(source.gamepass, normalizeGamePass, isValidGamePassRecord),
+          playstation: normalizeList(source.playstation, normalizePlayStation, isValidPlayStationRecord),
           notifiedHistory: normalizeHistory(source.notifiedHistory),
         };
         setData(jsonData);

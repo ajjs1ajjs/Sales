@@ -1,18 +1,47 @@
 /* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useCallback, useMemo, type ReactNode } from 'react';
 import { useLocalStorage } from '../hooks/useLocalStorage';
-import type { SteamGame, GamePassGame } from '../types';
+import type { SteamGame, GamePassGame, PlayStationGame } from '../types';
+import { isPriceTrackedId } from '../utils';
 
-export type SavedGame = { platform: 'steam' | 'gamepass'; game: SteamGame | GamePassGame };
+export type SavedGame = {
+  platform: 'steam' | 'gamepass' | 'playstation';
+  game: SteamGame | GamePassGame | PlayStationGame;
+};
 export type PriceTarget = { amount: number; currency: string };
 const EMPTY_SAVED: Record<string, SavedGame> = {};
 const EMPTY_TARGETS: Record<string, PriceTarget> = {};
-const isPriceTargets = (v: unknown): v is Record<string, PriceTarget> => !!v && typeof v === 'object' && !Array.isArray(v) && Object.entries(v).every(([id, value]) => /^\d+$/.test(id) && !!value && typeof value === 'object' && typeof (value as PriceTarget).amount === 'number' && Number.isFinite((value as PriceTarget).amount) && (value as PriceTarget).amount >= 0 && typeof (value as PriceTarget).currency === 'string' && /^[A-Z]{3}$/.test((value as PriceTarget).currency));
-const isSavedGames = (v: unknown): v is Record<string, SavedGame> => !!v && typeof v === 'object' && !Array.isArray(v) && Object.entries(v).every(([id, value]) => {
-  if (!value || typeof value !== 'object') return false;
-  const item = value as SavedGame;
-  return (item.platform === 'steam' || item.platform === 'gamepass') && !!item.game && item.game.id === id && typeof item.game.title === 'string' && typeof item.game.url === 'string' && typeof item.game.imageUrl === 'string';
-});
+const isPriceTargets = (v: unknown): v is Record<string, PriceTarget> =>
+  !!v &&
+  typeof v === 'object' &&
+  !Array.isArray(v) &&
+  Object.entries(v).every(
+    ([id, value]) =>
+      isPriceTrackedId(id) &&
+      !!value &&
+      typeof value === 'object' &&
+      typeof (value as PriceTarget).amount === 'number' &&
+      Number.isFinite((value as PriceTarget).amount) &&
+      (value as PriceTarget).amount >= 0 &&
+      typeof (value as PriceTarget).currency === 'string' &&
+      /^[A-Z]{3}$/.test((value as PriceTarget).currency),
+  );
+const isSavedGames = (v: unknown): v is Record<string, SavedGame> =>
+  !!v &&
+  typeof v === 'object' &&
+  !Array.isArray(v) &&
+  Object.entries(v).every(([id, value]) => {
+    if (!value || typeof value !== 'object') return false;
+    const item = value as SavedGame;
+    return (
+      (item.platform === 'steam' || item.platform === 'gamepass' || item.platform === 'playstation') &&
+      !!item.game &&
+      item.game.id === id &&
+      typeof item.game.title === 'string' &&
+      typeof item.game.url === 'string' &&
+      typeof item.game.imageUrl === 'string'
+    );
+  });
 
 interface WishlistContextValue {
   wishlist: string[];

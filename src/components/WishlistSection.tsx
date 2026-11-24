@@ -2,8 +2,8 @@ import { useMemo, useRef, useState, type ChangeEvent } from 'react';
 import { ExternalLink, Heart } from 'lucide-react';
 import { useWishlist, type PriceTarget, type SavedGame } from '../contexts/WishlistContext';
 import { useLocale } from '../contexts/LocaleContext';
-import type { GamePassGame, SortType, SteamGame, PriceObservation } from '../types';
-import { buildFallbackImage, buildHighlightRegex, sortGames, sortGamePassGames, safeUrl } from '../utils';
+import type { GamePassGame, PlayStationGame, SortType, SteamGame, PriceObservation } from '../types';
+import { buildFallbackImage, buildHighlightRegex, isPriceTrackedId, sortGames, sortGamePassGames, sortPlayStationGames, safeUrl } from '../utils';
 import { GameCard, HighlightText } from './GameCard';
 import { ShowMore } from './ShowMore';
 import { CollapsibleSection } from './CollapsibleSection';
@@ -13,6 +13,7 @@ import { WishlistButton } from './WishlistButton';
 interface Props {
   steam: SteamGame[];
   gamepass: GamePassGame[];
+  playstation?: PlayStationGame[];
   searchQuery: string;
   sortType: SortType;
   missingIds: string[];
@@ -39,9 +40,23 @@ function MissingWishlistCard({
   const rawImageUrl = item ? safeUrl(item.game.imageUrl) : '';
   const fallbackImg = useMemo(() => buildFallbackImage(t.app.imageUnavailable), [t.app.imageUnavailable]);
   const imageSrc = !rawImageUrl || failedUrl === rawImageUrl ? fallbackImg : rawImageUrl;
-  const platform = item?.platform ?? (/^\d+$/.test(id) ? 'steam' : 'gamepass');
-  const platformName = platform === 'gamepass' ? t.platform.gamepass : t.platform.steam;
+  const inferredPlatform = /^\d+$/.test(id)
+    ? 'steam'
+    : id.startsWith('ps_') || /^[A-Z]{2}\d{4}-/.test(id)
+      ? 'playstation'
+      : 'gamepass';
+  const platform = item?.platform ?? inferredPlatform;
+  const platformName =
+    platform === 'gamepass'
+      ? t.platform.gamepass
+      : platform === 'playstation'
+        ? t.platform.playstation
+        : t.platform.steam;
   const highlightRegex = useMemo(() => buildHighlightRegex(searchQuery), [searchQuery]);
+  const snapshotCurrency =
+    item && 'currency' in item.game && typeof item.game.currency === 'string' && /^[A-Z]{3}$/.test(item.game.currency)
+      ? item.game.currency
+      : undefined;
 
   return (
     <article
@@ -74,12 +89,12 @@ function MissingWishlistCard({
             </a>
           </div>
         )}
-        {item?.platform === 'steam' && 'currency' in item.game && typeof item.game.currency === 'string' && /^[A-Z]{3}$/.test(item.game.currency) && (
+        {snapshotCurrency && isPriceTrackedId(id) && (
           <PriceTracking
             key={`${id}-${target?.amount}-${target?.currency}`}
             id={id}
             title={title}
-            currency={item.game.currency}
+            currency={snapshotCurrency}
             observations={observations}
           />
         )}
@@ -88,17 +103,32 @@ function MissingWishlistCard({
   );
 }
 
-function matchesPriceTarget(deal: SteamGame, targets: Record<string, PriceTarget>): boolean {
+function matchesPriceTarget(
+  deal: { id: string; currency?: string; discountPrice?: number },
+  targets: Record<string, PriceTarget>,
+): boolean {
   const target = targets[deal.id];
-  return !!target && target.currency === deal.currency && deal.discountPrice <= target.amount;
+  return (
+    !!target &&
+    !!deal.currency &&
+    typeof deal.discountPrice === 'number' &&
+    target.currency === deal.currency &&
+    deal.discountPrice <= target.amount
+  );
 }
 
 /**
- * Плоский список обраного (Steam + Game Pass). Раніше обране Steam малювалось
- * трьома секціями (free/specials/popular), і гра зі списку бажань, яка не
- * потрапляла в жодну секцію, не відображалась взагалі.
+ * Плоский список обраного (Steam + Game Pass + PlayStation 5).
  */
-export function WishlistSection({ steam, gamepass, searchQuery, sortType, missingIds, priceHistory = {} }: Props) {
+export function WishlistSection({
+  steam,
+  gamepass,
+  playstation = [],
+  searchQuery,
+  sortType,
+  missingIds,
+  priceHistory = {},
+}: Props) {
   const { t } = useLocale();
   const { wishlist, saved, targets, importWishlist } = useWishlist();
   const fileRef = useRef<HTMLInputElement>(null);
@@ -126,7 +156,9 @@ export function WishlistSection({ steam, gamepass, searchQuery, sortType, missin
     } catch { setMessage(t.wishlist.importError); }
   };
 
-  const targetMetCount = steam.filter((deal) => matchesPriceTarget(deal, targets)).length;
+  const targetMetCount =
+    steam.filter((deal) => matchesPriceTarget(deal, targets)).length +
+    playstation.filter((deal) => matchesPriceTarget(deal, targets)).length;
 
   const steamSorted = useMemo(() => {
     const base = targetMetOnly ? steam.filter((deal) => matchesPriceTarget(deal, targets)) : steam;
@@ -136,6 +168,10 @@ export function WishlistSection({ steam, gamepass, searchQuery, sortType, missin
     () => (targetMetOnly ? [] : sortGamePassGames(gamepass, sortType)),
     [gamepass, sortType, targetMetOnly],
   );
+  const psSorted = useMemo(() => {
+    const base = targetMetOnly ? playstation.filter((deal) => matchesPriceTarget(deal, targets)) : playstation;
+    return sortPlayStationGames(base, sortType);
+  }, [playstation, sortType, targetMetOnly, targets]);
 
   const items = useMemo(
     () => [
@@ -145,7 +181,7 @@ export function WishlistSection({ steam, gamepass, searchQuery, sortType, missin
           game={deal}
           platform="steam"
           badge={deal.isFree ? 'FREE' : deal.discountPercent > 0 ? `-${deal.discountPercent}%` : undefined}
-          badgeVariant={deal.isFree ? 'free' : undefined}
+          badgeVariant={deal.isFree ? 'free' : deal.isDlc ? 'dlc' : undefined}
           searchQuery={searchQuery}
           extra={<PriceTracking key={`${deal.id}-${targets[deal.id]?.amount}-${targets[deal.id]?.currency}`} id={deal.id} title={deal.title} currency={deal.currency} currentPrice={deal.discountPrice} observations={priceHistory[deal.id] ?? []} />}
         />
@@ -160,6 +196,44 @@ export function WishlistSection({ steam, gamepass, searchQuery, sortType, missin
           searchQuery={searchQuery}
         />
       )),
+      ...psSorted.map((deal) => {
+        const badge = deal.psPlusTier === 'essential'
+          ? t.playstation.badgeMonthly
+          : deal.psPlusTier === 'extra'
+            ? t.playstation.badgeExtra
+            : deal.discountPercent
+              ? `-${deal.discountPercent}%`
+              : deal.isPopular
+                ? t.playstation.badgeTop
+                : undefined;
+        const badgeVariant = deal.psPlusTier === 'essential'
+          ? 'free'
+          : deal.psPlusTier === 'extra' || (!deal.discountPercent && deal.isPopular)
+            ? 'ps'
+            : undefined;
+        return (
+          <GameCard
+            key={`ps-${deal.id}`}
+            game={deal}
+            platform="playstation"
+            badge={badge}
+            badgeVariant={badgeVariant}
+            searchQuery={searchQuery}
+            extra={
+              typeof deal.discountPrice === 'number' && deal.currency && isPriceTrackedId(deal.id) ? (
+                <PriceTracking
+                  key={`${deal.id}-${targets[deal.id]?.amount}-${targets[deal.id]?.currency}`}
+                  id={deal.id}
+                  title={deal.title}
+                  currency={deal.currency}
+                  currentPrice={deal.discountPrice}
+                  observations={priceHistory[deal.id] ?? []}
+                />
+              ) : undefined
+            }
+          />
+        );
+      }),
       ...(targetMetOnly ? [] : missingIds).map((id) => (
         <MissingWishlistCard
           key={`missing-${id}`}
@@ -171,7 +245,22 @@ export function WishlistSection({ steam, gamepass, searchQuery, sortType, missin
         />
       )),
     ],
-    [steamSorted, gamepassSorted, missingIds, saved, searchQuery, t.gamepass.badgeNew, t.gamepass.badgeTop, priceHistory, targets, targetMetOnly],
+    [
+      steamSorted,
+      gamepassSorted,
+      psSorted,
+      missingIds,
+      saved,
+      searchQuery,
+      t.gamepass.badgeNew,
+      t.gamepass.badgeTop,
+      t.playstation.badgeMonthly,
+      t.playstation.badgeExtra,
+      t.playstation.badgeTop,
+      priceHistory,
+      targets,
+      targetMetOnly,
+    ],
   );
 
   return (

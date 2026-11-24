@@ -19,9 +19,10 @@ describe('catalog freshness warnings', () => {
     const stale = new Date(now - SOURCE_STALE_AFTER_MS - 1000).toISOString();
     const fresh = new Date(now - 1000).toISOString();
 
-    expect(findStaleSources({ steam: stale, gamepass: fresh }, now).map((source) => source.key)).toEqual(['steam']);
-    expect(findStaleSources({ steam: fresh, gamepass: stale }, now).map((source) => source.key)).toEqual(['gamepass']);
-    expect(findStaleSources({ steam: fresh, gamepass: fresh }, now)).toEqual([]);
+    expect(findStaleSources({ steam: stale, gamepass: fresh, playstation: fresh }, now).map((source) => source.key)).toEqual(['steam']);
+    expect(findStaleSources({ steam: fresh, gamepass: stale, playstation: fresh }, now).map((source) => source.key)).toEqual(['gamepass']);
+    expect(findStaleSources({ steam: fresh, gamepass: fresh, playstation: stale }, now).map((source) => source.key)).toEqual(['playstation']);
+    expect(findStaleSources({ steam: fresh, gamepass: fresh, playstation: fresh }, now)).toEqual([]);
     expect(findStaleSources(undefined, now)).toEqual([]);
   });
 

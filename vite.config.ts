@@ -19,7 +19,7 @@ export default defineConfig({
       manifest: {
         name: 'Game Sales Aggregator',
         short_name: 'Game Sales',
-        description: 'Агрегатор знижок та безкоштовних пропозицій Steam і каталогу Game Pass для ПК',
+        description: 'Агрегатор якісних знижок, DLC і роздач Steam, каталогу PC Game Pass та PlayStation 5 (знижки й PS Plus)',
         start_url: '/dist/sales/',
         display: 'standalone',
         background_color: '#0a0712',

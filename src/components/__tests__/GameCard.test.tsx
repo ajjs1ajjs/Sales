@@ -3,7 +3,7 @@ import { describe, it, expect } from 'vitest';
 import { LocaleProvider } from '../../contexts/LocaleContext';
 import { WishlistProvider } from '../../contexts/WishlistContext';
 import { GameCard } from '../GameCard';
-import type { GamePassGame, SteamGame } from '../../types';
+import type { GamePassGame, PlayStationGame, SteamGame } from '../../types';
 
 function Wrapper({ children }: { children: React.ReactNode }) {
   return (
@@ -109,6 +109,42 @@ describe('GameCard', () => {
       expect(screen.getByText('Game Pass')).toBeInTheDocument();
       const link = screen.getByRole('link', { name: /детальніше/i });
       expect(link).toHaveAttribute('href', mockGamePassGame.url);
+    });
+  });
+
+  describe('Steam meta & PlayStation cards', () => {
+    it('renders Steam review rating, DLC chip, and lowest price badge', () => {
+      const dlcGame: SteamGame = {
+        ...mockSteamGame,
+        id: '2138330',
+        isDlc: true,
+        reviewPercent: 89,
+        reviewCount: 22826,
+      };
+      render(<GameCard game={dlcGame} platform="steam" badge="-30%" badgeVariant="dlc" isLowestPrice />, { wrapper: Wrapper });
+      expect(screen.getByText('DLC')).toBeInTheDocument();
+      expect(screen.getByText(/89% · 23K/)).toBeInTheDocument();
+      expect(screen.getByText('Мін. ціна')).toBeInTheDocument();
+    });
+
+    it('renders PlayStation 5 deal and PS Plus subscription cards', () => {
+      const psDeal: PlayStationGame = {
+        id: 'EP0006-PPSA23566_00-BASEUFC6GAME0000',
+        title: 'UFC 6',
+        imageUrl: 'https://example.com/ufc6.jpg',
+        url: 'https://store.playstation.com/uk-ua/product/EP0006-PPSA23566_00-BASEUFC6GAME0000',
+        originalPrice: 2599,
+        discountPrice: 1559.4,
+        discountPercent: 40,
+        currency: 'UAH',
+        isDeal: true,
+        isPopular: true,
+        isPsPlusExclusive: true,
+      };
+      render(<GameCard game={psDeal} platform="playstation" badge="-40%" />, { wrapper: Wrapper });
+      expect(screen.getByText('PlayStation 5')).toBeInTheDocument();
+      expect(screen.getByText('Додатково з PS+')).toBeInTheDocument();
+      expect(screen.getByText(/1\s*559,4\s*грн/)).toBeInTheDocument();
     });
   });
 });

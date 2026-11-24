@@ -105,8 +105,10 @@ describe('HistoryPage', () => {
     expect(screen.getByText('Всі')).toBeInTheDocument();
     expect(screen.getByText('Роздачі')).toBeInTheDocument();
     expect(screen.getByText('Знижки')).toBeInTheDocument();
+    expect(screen.getByText('DLC')).toBeInTheDocument();
     expect(screen.getByText('Тренди')).toBeInTheDocument();
     expect(screen.getByText('Game Pass')).toBeInTheDocument();
+    expect(screen.getByText('PS5 / PS+')).toBeInTheDocument();
   });
 
   it('shows gamepass entries (incl. legacy xbox_new) under the Game Pass filter', () => {

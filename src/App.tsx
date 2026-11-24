@@ -1,7 +1,7 @@
 import { lazy, useState, useEffect, Suspense, Fragment } from 'react';
 import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import { Clock, RefreshCw, AlertCircle, History } from 'lucide-react';
-import type { FilterType, SortType, SteamGame, GamePassGame, PriceObservation } from './types';
+import type { FilterType, SortType, SteamGame, GamePassGame, PlayStationGame, PriceObservation } from './types';
 import { ErrorBoundaryWithLocale } from './components/ErrorBoundaryWithLocale';
 import { TelegramBanner } from './components/TelegramBanner';
 import { SearchControls } from './components/SearchControls';
@@ -33,11 +33,22 @@ type GamePassSectionProps = {
   sortType: SortType;
 };
 
+type PlayStationSectionProps = {
+  games: PlayStationGame[];
+  activeFilter: FilterType;
+  searchQuery: string;
+  sortType: SortType;
+  priceHistory?: Record<string, PriceObservation[]>;
+};
+
 const SteamSection = lazy(() =>
   import('./components/SteamSection').then((m) => ({ default: m.SteamSection as React.FunctionComponent<SectionProps> })),
 );
 const GamePassSection = lazy(() =>
   import('./components/GamePassSection').then((m) => ({ default: m.GamePassSection as React.FunctionComponent<GamePassSectionProps> })),
+);
+const PlayStationSection = lazy(() =>
+  import('./components/PlayStationSection').then((m) => ({ default: m.PlayStationSection as React.FunctionComponent<PlayStationSectionProps> })),
 );
 const WishlistSection = lazy(() =>
   import('./components/WishlistSection').then((m) => ({ default: m.WishlistSection })),
@@ -56,6 +67,7 @@ function HomePage() {
     saveSnapshots([
       ...data.steam.map(game => ({ platform: 'steam' as const, game })),
       ...(data.gamepass ?? []).map(game => ({ platform: 'gamepass' as const, game })),
+      ...(data.playstation ?? []).map(game => ({ platform: 'playstation' as const, game })),
     ]);
   }, [data, saveSnapshots]);
   const {
@@ -72,15 +84,31 @@ function HomePage() {
     filterCounts,
     priceFilteredSteam,
     gamepassGames,
+    priceFilteredPlayStation,
   } = useGameFilters(data, wishlist, searchQuery);
 
-  const catalogIds = new Set([...(data?.steam ?? []).map(g => g.id), ...(data?.gamepass ?? []).map(g => g.id)]);
+  const catalogIds = new Set([
+    ...(data?.steam ?? []).map(g => g.id),
+    ...(data?.gamepass ?? []).map(g => g.id),
+    ...(data?.playstation ?? []).map(g => g.id),
+  ]);
   const missingIds = wishlist.filter(id => !catalogIds.has(id) && (saved[id]?.game.title ?? id).toLowerCase().includes(debouncedSearch.toLowerCase()));
   const counts = { ...filterCounts, wishlist: filterCounts.wishlist + missingIds.length };
   const formatUpdate = locale === 'en' ? formatLastUpdatedEn : formatLastUpdated;
   const historyAria = locale === 'en' ? 'Notification history' : 'Історія сповіщень';
   const steamVisible = priceFilteredSteam.length > 0;
   const gamepassVisible = gamepassGames.length > 0;
+  const playstationVisible = priceFilteredPlayStation.length > 0;
+  const showPriceRange =
+    activeFilter === 'all' ||
+    activeFilter === 'wishlist' ||
+    activeFilter === 'steam_all' ||
+    activeFilter === 'steam_specials' ||
+    activeFilter === 'steam_popular' ||
+    activeFilter === 'steam_dlc' ||
+    activeFilter === 'ps_all' ||
+    activeFilter === 'ps_deals' ||
+    activeFilter === 'ps_popular';
 
   return (
     <ErrorBoundaryWithLocale>
@@ -141,7 +169,7 @@ function HomePage() {
         onSortChange={setSortType}
       />
 
-      {(activeFilter === 'all' || activeFilter === 'wishlist' || activeFilter === 'steam_specials' || activeFilter === 'steam_popular') && (
+      {showPriceRange && (
         <PriceRangeFilter
           minPrice={absoluteMinPrice}
           maxPrice={absoluteMaxPrice}
@@ -176,6 +204,7 @@ function HomePage() {
                   <WishlistSection
                     steam={priceFilteredSteam}
                     gamepass={gamepassGames}
+                    playstation={priceFilteredPlayStation}
                     searchQuery={debouncedSearch}
                     sortType={sortType}
                     missingIds={missingIds}
@@ -196,17 +225,24 @@ function HomePage() {
                     searchQuery={debouncedSearch}
                     sortType={sortType}
                   />
+                  <PlayStationSection
+                    games={priceFilteredPlayStation}
+                    activeFilter={activeFilter}
+                    searchQuery={debouncedSearch}
+                    sortType={sortType}
+                    priceHistory={data?.priceHistory}
+                  />
                 </>
               )}
 
-              {activeFilter === 'all' && !steamVisible && !gamepassVisible && !debouncedSearch && (
+              {activeFilter === 'all' && !steamVisible && !gamepassVisible && !playstationVisible && !debouncedSearch && (
                 <div className="empty-state section-gap-top">
                   <h3>{t.app.noDeals}</h3>
                   <p>{t.app.noDealsDesc}</p>
                 </div>
               )}
 
-              {activeFilter === 'all' && !steamVisible && !gamepassVisible && debouncedSearch && (
+              {activeFilter === 'all' && !steamVisible && !gamepassVisible && !playstationVisible && debouncedSearch && (
                 <SearchEmptyState
                   searchQuery={debouncedSearch}
                   onReset={() => {
@@ -217,7 +253,7 @@ function HomePage() {
                 />
               )}
 
-              {activeFilter === 'wishlist' && wishlist.length > 0 && !steamVisible && !gamepassVisible && missingIds.length === 0 && (
+              {activeFilter === 'wishlist' && wishlist.length > 0 && !steamVisible && !gamepassVisible && !playstationVisible && missingIds.length === 0 && (
                 <div className="empty-state section-gap-top">
                   <h3>{isPriceFiltered ? t.app.wishlistEmptyPrice : t.app.wishlistEmpty}</h3>
                   <p>{isPriceFiltered ? t.app.wishlistEmptyPriceDesc : t.app.wishlistEmptyDesc}</p>

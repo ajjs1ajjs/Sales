@@ -1,9 +1,9 @@
 import { useCallback, useMemo, useState } from 'react';
-import type { DealsData, FilterType, GamePassGame, SortType, SteamGame } from '../types';
+import type { DealsData, FilterType, GamePassGame, PlayStationGame, SortType, SteamGame } from '../types';
 import { useDebounce } from './useDebounce';
 import { useLocalStorage } from './useLocalStorage';
 
-const SORT_VALUES = new Set<SortType>(['default','name-asc','name-desc','price-asc','price-desc','discount-desc']);
+const SORT_VALUES = new Set<SortType>(['default', 'name-asc', 'name-desc', 'price-asc', 'price-desc', 'discount-desc']);
 
 const isValidSort = (v: unknown): v is SortType => typeof v === 'string' && SORT_VALUES.has(v as SortType);
 
@@ -22,6 +22,8 @@ export interface GameFilters {
   priceFilteredSteam: SteamGame[];
   /** Game Pass-ігри після поточного фільтра й пошуку (ціновий фільтр не діє — у них немає ціни). */
   gamepassGames: GamePassGame[];
+  /** PlayStation 5 ігри та пропозиції PS Plus після поточного фільтра, пошуку й діапазону цін. */
+  priceFilteredPlayStation: PlayStationGame[];
 }
 
 export function useGameFilters(data: DealsData | null, wishlist: string[], searchQuery: string): GameFilters {
@@ -41,6 +43,13 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
       const price = g.discountPrice;
       if (price < min) min = price;
       if (price > max) max = price;
+    }
+
+    for (const g of data.playstation ?? []) {
+      if (typeof g.discountPrice === 'number' && Number.isFinite(g.discountPrice)) {
+        if (g.discountPrice < min) min = g.discountPrice;
+        if (g.discountPrice > max) max = g.discountPrice;
+      }
     }
 
     return {
@@ -67,64 +76,90 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
     [userPriceRange, absoluteMinPrice, absoluteMaxPrice],
   );
 
-  // A price filter is "active" only when the range is narrower than the full
-  // span — not merely when userPriceRange is non-null (Reset sets it to the full
-  // range), so the wishlist empty-state message stays correct after a reset.
   const isPriceFiltered = priceRange[0] > absoluteMinPrice || priceRange[1] < absoluteMaxPrice;
 
   const steamMatchingSearch = useMemo(() => {
-    return data?.steam.filter((game) =>
-      game.title.toLowerCase().includes(debouncedSearch.toLowerCase()),
-    ) || [];
+    const q = debouncedSearch.toLowerCase();
+    return data?.steam.filter((game) => game.title.toLowerCase().includes(q)) || [];
   }, [data, debouncedSearch]);
 
   const gamepassMatchingSearch = useMemo(() => {
-    return (data?.gamepass ?? []).filter((game) =>
-      game.title.toLowerCase().includes(debouncedSearch.toLowerCase()),
-    );
+    const q = debouncedSearch.toLowerCase();
+    return (data?.gamepass ?? []).filter((game) => game.title.toLowerCase().includes(q));
+  }, [data, debouncedSearch]);
+
+  const psMatchingSearch = useMemo(() => {
+    const q = debouncedSearch.toLowerCase();
+    return (data?.playstation ?? []).filter((game) => game.title.toLowerCase().includes(q));
   }, [data, debouncedSearch]);
 
   const filterCounts = useMemo(() => {
     const inPriceRange = (price: number) => price >= priceRange[0] && price <= priceRange[1];
     const counts: Record<FilterType, number> = {
       all: 0,
-      steam_free: 0, steam_specials: 0, steam_popular: 0,
-      gamepass_new: 0, gamepass_popular: 0,
+      steam_all: 0,
+      steam_free: 0,
+      steam_specials: 0,
+      steam_popular: 0,
+      steam_dlc: 0,
+      gamepass_all: 0,
+      gamepass_new: 0,
+      gamepass_popular: 0,
+      ps_all: 0,
+      ps_essential: 0,
+      ps_extra: 0,
+      ps_deals: 0,
+      ps_popular: 0,
       wishlist: 0,
     };
 
     for (const g of steamMatchingSearch) {
-      const price = g.discountPrice;
-      if (!inPriceRange(price)) continue;
+      if (!inPriceRange(g.discountPrice)) continue;
       if (!g.isFree && !g.isSpecial && !g.isPopular) {
         if (wishlistSet.has(g.id)) counts.wishlist++;
         continue;
       }
       counts.all++;
+      counts.steam_all++;
       if (g.isFree) counts.steam_free++;
-      if (g.isSpecial) counts.steam_specials++;
-      if (g.isPopular) counts.steam_popular++;
+      else if (g.isDlc && g.isSpecial) counts.steam_dlc++;
+      else if (g.isSpecial) counts.steam_specials++;
+      if (g.isPopular && !g.isDlc) counts.steam_popular++;
       if (wishlistSet.has(g.id)) counts.wishlist++;
     }
 
-    // Game Pass не має ціни: у "all" входить весь пошуковий збіг.
     counts.all += gamepassMatchingSearch.length;
+    counts.gamepass_all = gamepassMatchingSearch.length;
     for (const g of gamepassMatchingSearch) {
       if (g.isNew) counts.gamepass_new++;
       if (g.isPopular) counts.gamepass_popular++;
       if (wishlistSet.has(g.id)) counts.wishlist++;
     }
 
+    for (const g of psMatchingSearch) {
+      const hasPrice = typeof g.discountPrice === 'number';
+      if (hasPrice && !inPriceRange(g.discountPrice!)) continue;
+      if (!hasPrice && isPriceFiltered) continue;
+      counts.all++;
+      counts.ps_all++;
+      if (g.psPlusTier === 'essential') counts.ps_essential++;
+      if (g.psPlusTier === 'extra') counts.ps_extra++;
+      if (g.isDeal) counts.ps_deals++;
+      if (g.isPopular) counts.ps_popular++;
+      if (wishlistSet.has(g.id)) counts.wishlist++;
+    }
+
     return counts;
-  }, [steamMatchingSearch, gamepassMatchingSearch, wishlistSet, priceRange]);
+  }, [steamMatchingSearch, gamepassMatchingSearch, psMatchingSearch, wishlistSet, priceRange, isPriceFiltered]);
 
   const filteredSteam = useMemo(() => {
     return steamMatchingSearch.filter((game) => {
       if (activeFilter === 'wishlist') return wishlistSet.has(game.id);
       if (activeFilter === 'steam_free') return game.isFree;
-      if (activeFilter === 'steam_specials') return game.isSpecial;
-      if (activeFilter === 'steam_popular') return game.isPopular;
-      if (activeFilter === 'all') return true;
+      if (activeFilter === 'steam_dlc') return Boolean(game.isDlc) && (game.isSpecial || game.isFree);
+      if (activeFilter === 'steam_specials') return game.isSpecial && !game.isFree && !game.isDlc;
+      if (activeFilter === 'steam_popular') return game.isPopular && !game.isDlc;
+      if (activeFilter === 'all' || activeFilter === 'steam_all') return true;
       return false;
     });
   }, [steamMatchingSearch, activeFilter, wishlistSet]);
@@ -144,13 +179,42 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
         return gamepassMatchingSearch.filter((g) => g.isPopular);
       case 'wishlist':
         return gamepassMatchingSearch.filter((g) => wishlistSet.has(g.id));
-      // Steam-фільтри показують лише Steam; Game Pass — у "all" і своїх фільтрах.
       case 'all':
+      case 'gamepass_all':
         return gamepassMatchingSearch;
       default:
         return [];
     }
   }, [gamepassMatchingSearch, activeFilter, wishlistSet]);
+
+  const priceFilteredPlayStation = useMemo(() => {
+    return psMatchingSearch.filter((game) => {
+      const matchesFilter = (() => {
+        switch (activeFilter) {
+          case 'ps_essential':
+            return game.psPlusTier === 'essential';
+          case 'ps_extra':
+            return game.psPlusTier === 'extra';
+          case 'ps_deals':
+            return game.isDeal;
+          case 'ps_popular':
+            return game.isPopular;
+          case 'wishlist':
+            return wishlistSet.has(game.id);
+          case 'all':
+          case 'ps_all':
+            return true;
+          default:
+            return false;
+        }
+      })();
+      if (!matchesFilter) return false;
+      if (typeof game.discountPrice === 'number') {
+        return game.discountPrice >= priceRange[0] && game.discountPrice <= priceRange[1];
+      }
+      return !isPriceFiltered;
+    });
+  }, [psMatchingSearch, activeFilter, wishlistSet, priceRange, isPriceFiltered]);
 
   return {
     activeFilter,
@@ -166,5 +230,6 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
     filterCounts,
     priceFilteredSteam,
     gamepassGames,
+    priceFilteredPlayStation,
   };
 }

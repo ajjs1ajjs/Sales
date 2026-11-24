@@ -1,12 +1,21 @@
-import type { GamePassGame, SteamGame, SortType } from './types';
+import type { GamePassGame, PlayStationGame, SteamGame, SortType } from './types';
 
 export type Game = SteamGame;
 
-export { formatPrice, formatDate } from './shared/format';
+export { formatPrice, formatDate, isPriceTrackedId, formatReviewCount } from './shared/format';
 
 // Allowlist for history item types before class-name interpolation: a
 // compromised deals.json must not inject arbitrary class strings.
-const HISTORY_TYPES: ReadonlySet<string> = new Set(['free', 'discount', 'popular', 'gamepass']);
+const HISTORY_TYPES: ReadonlySet<string> = new Set([
+  'free',
+  'discount',
+  'popular',
+  'dlc',
+  'gamepass',
+  'ps_deal',
+  'ps_essential',
+  'ps_extra',
+]);
 export function safeHistoryType(t: string): string {
   // Легасі-тип xbox_new (до перезапуску Game Pass) мапимо на gamepass.
   if (t === 'xbox_new') return 'gamepass';
@@ -137,6 +146,25 @@ export function sortGamePassGames(games: GamePassGame[], sortType: SortType): Ga
       return games.toSorted((a, b) => a.title.localeCompare(b.title));
     case 'name-desc':
       return games.toSorted((a, b) => b.title.localeCompare(a.title));
+    default:
+      return games;
+  }
+}
+
+export function sortPlayStationGames(games: PlayStationGame[], sortType: SortType): PlayStationGame[] {
+  switch (sortType) {
+    case 'name-asc':
+      return games.toSorted((a, b) => a.title.localeCompare(b.title));
+    case 'name-desc':
+      return games.toSorted((a, b) => b.title.localeCompare(a.title));
+    case 'price-asc':
+      return games.toSorted(
+        (a, b) => (a.discountPrice ?? Number.POSITIVE_INFINITY) - (b.discountPrice ?? Number.POSITIVE_INFINITY),
+      );
+    case 'price-desc':
+      return games.toSorted((a, b) => (b.discountPrice ?? -1) - (a.discountPrice ?? -1));
+    case 'discount-desc':
+      return games.toSorted((a, b) => (b.discountPercent ?? 0) - (a.discountPercent ?? 0));
     default:
       return games;
   }
