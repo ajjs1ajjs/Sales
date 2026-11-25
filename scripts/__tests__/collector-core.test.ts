@@ -5,6 +5,7 @@ import {
   filterQualitySteamGames,
   isValidSteamSearchPage,
   partitionMegaSteamDeals,
+  planGamePassDealNotifications,
   planGamePassNewEntries,
   planGamePassPopularEntries,
   planPlayStationNotifications,
@@ -293,5 +294,102 @@ describe('collector regression fixes', () => {
     expect(plan.essential.map((g) => g.id)).toEqual(['ps_essential_dead-island-2']);
     expect(plan.deals.map((g) => g.id)).toEqual(['EP0006-PPSA23566_00-BASEUFC6GAME0000']);
     expect(choosePlayStationSnapshot([], psGames, false).usedPrevious).toBe(true);
+  });
+
+  it('parses Steam bundle-priced rows with data-price-final="0" using discount_final_price instead of marking them free', () => {
+    const html = `
+      <a data-ds-appid="1151640" data-ds-itemkey="App_1151640">
+        <span class="title">Horizon Zero Dawn™ Complete Edition</span>
+        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1151640/capsule.jpg?t=1">
+        <div class="discount_block search_discount_block" data-price-final="0" data-discount="50">
+          <div class="discount_pct">-50%</div>
+          <div class="discount_prices">
+            <div class="discount_original_price">1 499,00₴</div>
+            <div class="discount_final_price">749,00₴</div>
+          </div>
+        </div>
+      </a>`;
+    const map = new Map<string, SteamGame>();
+    expect(parseSearchHtml(html, map)).toBe(1);
+    const game = map.get('1151640')!;
+    expect(game.isFree).toBe(false);
+    expect(game.isSpecial).toBe(true);
+    expect(game.discountPercent).toBe(50);
+    expect(game.originalPrice).toBe(1499);
+    expect(game.discountPrice).toBe(749);
+  });
+
+  it('excludes non-game/non-DLC Steam metadata types like hardware and prioritizes popular deals', () => {
+    const now = new Date('2026-11-24T12:00:00Z');
+    const games: SteamGame[] = [
+      { ...steamGame('100'), title: 'Steam Hardware', discountPercent: 0, isPopular: true, popularRank: 1 },
+      { ...steamGame('101'), title: 'Popular Hit', discountPercent: 40, isPopular: true, popularRank: 2, reviewCount: 50000, reviewPercent: 95 },
+      { ...steamGame('102'), title: 'Obscure 70 Off', discountPercent: 70, isPopular: false, reviewCount: 600, reviewPercent: 80 },
+    ];
+    const meta = new Map([
+      ['100', { type: 6, reviewCount: 0, reviewPercent: 0 }],
+      ['101', { type: 0, reviewCount: 50000, reviewPercent: 95 }],
+      ['102', { type: 0, reviewCount: 600, reviewPercent: 80 }],
+    ]);
+
+    const filtered = filterQualitySteamGames(games, meta, now, {
+      minDiscountPercent: 30,
+      topSellerMinDiscountPercent: 25,
+      minReviewPercent: 70,
+      minReviewCount: 500,
+      newReleaseDays: 45,
+      newReleaseMinReviews: 100,
+      popularMinReviewPercent: 65,
+      popularMinReviewCount: 100,
+      dlcMinDiscountPercent: 25,
+      dlcMinReviewCount: 300,
+      dlcMinReviewPercent: 70,
+      dlcMinOriginalPriceUah: 120,
+    });
+    expect(filtered.map((g) => g.id)).toEqual(['101', '102']);
+
+    const notif = selectSteamNotifications(filtered, {}, new Set(), now, {
+      minDiscountPercent: 25,
+      freeCooldownMs: 14 * 86400000,
+      discountCooldownMs: 30 * 86400000,
+      maxDealsPerRun: 2,
+    });
+    expect(notif.deals.map((g) => g.id)).toEqual(['101', '102']);
+  });
+
+  it('plans Game Pass deal notifications prioritizing popular titles and respecting cooldown/price drops', () => {
+    const now = new Date('2026-11-25T12:00:00Z');
+    const gpGames: GamePassGame[] = [
+      { ...gamePassGame('GP_POP'), isNew: false, isPopular: true, isDeal: true, originalPrice: 1540, discountPrice: 616, discountPercent: 60, currency: 'UAH' },
+      { ...gamePassGame('GP_NEW'), isNew: true, isPopular: false, isDeal: true, originalPrice: 1200, discountPrice: 120, discountPercent: 90, currency: 'UAH' },
+      { ...gamePassGame('GP_DROP'), isNew: false, isPopular: true, isDeal: true, originalPrice: 1000, discountPrice: 400, discountPercent: 60, currency: 'UAH' },
+      { ...gamePassGame('GP_SAME'), isNew: false, isPopular: true, isDeal: true, originalPrice: 1000, discountPrice: 500, discountPercent: 50, currency: 'UAH' },
+      { ...gamePassGame('GP_QUEUED'), isNew: false, isPopular: true, isDeal: true, originalPrice: 1000, discountPrice: 300, discountPercent: 70, currency: 'UAH' },
+    ];
+    const history = {
+      gamepass_deal_GP_DROP: { title: 'Drop', price: 500, percent: 50, timestamp: '2026-11-20T12:00:00Z', type: 'gamepass_deal' as const },
+      gamepass_deal_GP_SAME: { title: 'Same', price: 500, percent: 50, timestamp: '2026-11-20T12:00:00Z', type: 'gamepass_deal' as const },
+    };
+    const planned = planGamePassDealNotifications(gpGames, history, new Set(['gamepass_deal_GP_QUEUED']), now, {
+      minDiscountPercent: 25,
+      discountCooldownMs: 30 * 86400000,
+      maxDealsPerRun: 5,
+    });
+    expect(planned.map((g) => g.id)).toEqual(['GP_POP', 'GP_DROP', 'GP_NEW']);
+  });
+
+  it('prioritizes PlayStation popular hits and sales30 order over raw discount percentage', () => {
+    const now = new Date('2026-11-25T12:00:00Z');
+    const psGames: PlayStationGame[] = [
+      { id: 'PS_SALES1', title: 'Sales Rank 1', imageUrl: '', url: 'https://store.playstation.com/1', originalPrice: 2000, discountPrice: 1200, discountPercent: 40, currency: 'UAH', isDeal: true, isPopular: false },
+      { id: 'PS_SALES2', title: 'Sales Rank 2', imageUrl: '', url: 'https://store.playstation.com/2', originalPrice: 500, discountPrice: 75, discountPercent: 85, currency: 'UAH', isDeal: true, isPopular: false },
+      { id: 'PS_POP', title: 'Top Popular', imageUrl: '', url: 'https://store.playstation.com/3', originalPrice: 1500, discountPrice: 1050, discountPercent: 30, currency: 'UAH', isDeal: true, isPopular: true, popularRank: 1 },
+    ];
+    const plan = planPlayStationNotifications(psGames, {}, new Set(), now, {
+      minDiscountPercent: 25,
+      discountCooldownMs: 30 * 86400000,
+      maxDealsPerRun: 5,
+    });
+    expect(plan.deals.map((g) => g.id)).toEqual(['PS_POP', 'PS_SALES1', 'PS_SALES2']);
   });
 });

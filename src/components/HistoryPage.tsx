@@ -29,6 +29,10 @@ function getHistoryItemUrl(key: string): string | null {
     const id = key.slice('steam_popular_'.length);
     return id ? safeUrl(`https://store.steampowered.com/app/${encodeURIComponent(id)}`) : null;
   }
+  if (key.startsWith('gamepass_deal_')) {
+    const id = key.slice('gamepass_deal_'.length);
+    return id ? safeUrl(`https://www.xbox.com/games/store/game/${encodeURIComponent(id)}`) : null;
+  }
   if (key.startsWith('gamepass_popular_')) {
     const id = key.slice('gamepass_popular_'.length);
     return id ? safeUrl(`https://www.xbox.com/games/store/game/${encodeURIComponent(id)}`) : null;
@@ -71,6 +75,12 @@ export function HistoryPage({ data, loading = false }: Props) {
       return history.filter((item) => {
         const type = safeHistoryType(item.type);
         return type === 'ps_deal' || type === 'ps_essential' || type === 'ps_extra';
+      });
+    }
+    if (filter === 'gamepass') {
+      return history.filter((item) => {
+        const type = safeHistoryType(item.type);
+        return type === 'gamepass' || type === 'gamepass_deal';
       });
     }
     // safeHistoryType: легасі-записи xbox_new фільтруються як gamepass.
@@ -142,7 +152,7 @@ export function HistoryPage({ data, loading = false }: Props) {
             const itemUrl = getHistoryItemUrl(item.key);
             const normalizedType = safeHistoryType(item.type);
             const isPs = normalizedType === 'ps_deal' || normalizedType === 'ps_essential' || normalizedType === 'ps_extra';
-            const platformName = item.type === 'gamepass' || item.type === 'xbox_new'
+            const platformName = item.type === 'gamepass' || item.type === 'gamepass_deal' || item.type === 'xbox_new'
               ? t.platform.gamepass
               : isPs
                 ? t.platform.playstation
@@ -153,6 +163,7 @@ export function HistoryPage({ data, loading = false }: Props) {
               dlc: `DLC -${item.percent}%`,
               popular: t.history.topBadge,
               gamepass: t.history.gamepassBadge,
+              gamepass_deal: `GP -${item.percent}%`,
               ps_deal: `PS5 -${item.percent}%`,
               ps_essential: t.history.psEssentialBadge,
               ps_extra: t.history.psExtraBadge,

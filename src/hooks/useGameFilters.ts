@@ -52,6 +52,13 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
       }
     }
 
+    for (const g of data.gamepass ?? []) {
+      if (typeof g.discountPrice === 'number' && Number.isFinite(g.discountPrice)) {
+        if (g.discountPrice < min) min = g.discountPrice;
+        if (g.discountPrice > max) max = g.discountPrice;
+      }
+    }
+
     return {
       absoluteMinPrice: min === Infinity ? 0 : Math.floor(min),
       absoluteMaxPrice: max === -Infinity ? 10000 : Math.ceil(max),
@@ -105,6 +112,7 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
       gamepass_all: 0,
       gamepass_new: 0,
       gamepass_popular: 0,
+      gamepass_deals: 0,
       ps_all: 0,
       ps_essential: 0,
       ps_extra: 0,
@@ -133,6 +141,12 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
     for (const g of gamepassMatchingSearch) {
       if (g.isNew) counts.gamepass_new++;
       if (g.isPopular) counts.gamepass_popular++;
+      if (g.isDeal) {
+        const hasPrice = typeof g.discountPrice === 'number';
+        if ((!hasPrice && !isPriceFiltered) || (hasPrice && inPriceRange(g.discountPrice!))) {
+          counts.gamepass_deals++;
+        }
+      }
       if (wishlistSet.has(g.id)) counts.wishlist++;
     }
 
@@ -177,6 +191,14 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
         return gamepassMatchingSearch.filter((g) => g.isNew);
       case 'gamepass_popular':
         return gamepassMatchingSearch.filter((g) => g.isPopular);
+      case 'gamepass_deals':
+        return gamepassMatchingSearch.filter((g) => {
+          if (!g.isDeal) return false;
+          if (typeof g.discountPrice === 'number') {
+            return g.discountPrice >= priceRange[0] && g.discountPrice <= priceRange[1];
+          }
+          return !isPriceFiltered;
+        });
       case 'wishlist':
         return gamepassMatchingSearch.filter((g) => wishlistSet.has(g.id));
       case 'all':
@@ -185,7 +207,7 @@ export function useGameFilters(data: DealsData | null, wishlist: string[], searc
       default:
         return [];
     }
-  }, [gamepassMatchingSearch, activeFilter, wishlistSet]);
+  }, [gamepassMatchingSearch, activeFilter, wishlistSet, priceRange, isPriceFiltered]);
 
   const priceFilteredPlayStation = useMemo(() => {
     return psMatchingSearch.filter((game) => {

@@ -185,7 +185,8 @@
   border-left: 3px solid var(--accent-epic);
 }
 
-.history-item--gamepass {
+.history-item--gamepass,
+.history-item--gamepass_deal {
   border-left: 3px solid var(--accent-gamepass);
 }
 
@@ -230,7 +231,8 @@
   color: var(--accent-epic);
 }
 
-.history-badge--gamepass {
+.history-badge--gamepass,
+.history-badge--gamepass_deal {
   background: rgba(74, 222, 128, 0.15);
   color: var(--accent-gamepass);
 }

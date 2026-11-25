@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { Sparkles, TrendingUp } from 'lucide-react';
+import { Flame, Sparkles, TrendingUp } from 'lucide-react';
 import { useLocale } from '../contexts/LocaleContext';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 import type { GamePassGame, FilterType, SortType } from '../types';
@@ -19,11 +19,13 @@ export function GamePassSection({ games, activeFilter, searchQuery, sortType }: 
   const { t } = useLocale();
   const [collapsedNew, setCollapsedNew] = useLocalStorage('collapse-gamepass-new', false);
   const [collapsedPopular, setCollapsedPopular] = useLocalStorage('collapse-gamepass-popular', false);
+  const [collapsedDeals, setCollapsedDeals] = useLocalStorage('collapse-gamepass-deals', false);
   const sorted = useMemo(() => sortGamePassGames(games, sortType), [games, sortType]);
 
   const showAllGamePass = activeFilter === 'all' || activeFilter === 'gamepass_all';
   const newGames = sorted.filter((g) => g.isNew);
   const popular = sorted.filter((g) => g.isPopular && (activeFilter === 'gamepass_popular' || !g.isNew));
+  const deals = sorted.filter((g) => Boolean(g.isDeal));
 
   const canCollapse = showAllGamePass;
   const initialCount = activeFilter === 'all' && !searchQuery ? 6 : 12;
@@ -91,6 +93,40 @@ export function GamePassSection({ games, activeFilter, searchQuery, sortType }: 
                     platform="gamepass"
                     badge={t.gamepass.badgeTop}
                     badgeVariant="top"
+                    searchQuery={searchQuery}
+                  />
+                ))}
+              />
+            </div>
+          )}
+        </CollapsibleSection>
+      )}
+      {(showAllGamePass || activeFilter === 'gamepass_deals') && (deals.length > 0 || activeFilter === 'gamepass_deals') && (
+        <CollapsibleSection
+          id="gamepass-deals-title"
+          title={t.gamepass.dealsTitle}
+          icon={<Flame size={22} className="icon-gamepass" aria-hidden="true" />}
+          canCollapse={canCollapse}
+          collapsed={collapsedDeals}
+          onToggle={() => setCollapsedDeals((c) => !c)}
+        >
+          {deals.length === 0 ? (
+            <div className="empty-state section-gap-bottom">
+              <h3>{t.gamepass.emptyDeals}</h3>
+              <p>{t.gamepass.emptyDealsDesc}</p>
+            </div>
+          ) : (
+            <div className="deals-grid section-gap-bottom">
+              <ShowMore
+                initialCount={initialCount}
+                resetKey={resetKey}
+                items={deals.map((deal) => (
+                  <GameCard
+                    key={deal.id}
+                    game={deal}
+                    platform="gamepass"
+                    badge={deal.discountPercent ? `-${deal.discountPercent}%` : undefined}
+                    showTagDescription
                     searchQuery={searchQuery}
                   />
                 ))}

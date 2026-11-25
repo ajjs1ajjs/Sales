@@ -106,6 +106,7 @@ function HomePage() {
     activeFilter === 'steam_specials' ||
     activeFilter === 'steam_popular' ||
     activeFilter === 'steam_dlc' ||
+    activeFilter === 'gamepass_deals' ||
     activeFilter === 'ps_all' ||
     activeFilter === 'ps_deals' ||
     activeFilter === 'ps_popular';

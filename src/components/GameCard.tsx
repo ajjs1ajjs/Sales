@@ -71,7 +71,9 @@ export function GameCard({
   const isGamePass = platform === 'gamepass';
   const isPlayStation = platform === 'playstation';
   const steamGame = platform === 'steam' ? (game as SteamGame) : null;
+  const gpGame = isGamePass ? (game as GamePassGame) : null;
   const psGame = isPlayStation ? (game as PlayStationGame) : null;
+  const isGamePassDeal = Boolean(gpGame?.isDeal && typeof gpGame.discountPrice === 'number');
   const platformName = isGamePass
     ? t.platform.gamepass
     : isPlayStation
@@ -80,7 +82,9 @@ export function GameCard({
   const defaultLinkText =
     linkText ??
     (isGamePass
-      ? t.gamepass.viewInStore
+      ? isGamePassDeal
+        ? t.gamepass.buy
+        : t.gamepass.viewInStore
       : isPlayStation
         ? psGame?.psPlusTier
           ? t.playstation.viewInStore
@@ -101,6 +105,7 @@ export function GameCard({
     (steamGame?.reviewPercent !== undefined && steamGame?.reviewCount) ||
       steamGame?.isDlc ||
       isLowestPrice ||
+      isGamePassDeal ||
       psGame?.isPsPlusExclusive ||
       psGame?.psPlusMonth,
   );
@@ -161,6 +166,9 @@ export function GameCard({
                 {t.steam.lowestPrice}
               </span>
             )}
+            {isGamePassDeal && (
+              <span className="meta-pill meta-pill--rating">{t.gamepass.included}</span>
+            )}
             {psGame?.isPsPlusExclusive && (
               <span className="meta-pill meta-pill--psplus">{t.playstation.psPlusExtraDiscount}</span>
             )}
@@ -177,7 +185,13 @@ export function GameCard({
         {showTagDescription && (
           <p className="card-desc card-desc--with-icon">
             <Tag size={14} aria-hidden="true" />{' '}
-            {steamGame?.isDlc ? t.steam.dlcDesc : isPlayStation ? t.playstation.dealsTag : t.steam.specialsTag}
+            {steamGame?.isDlc
+              ? t.steam.dlcDesc
+              : isPlayStation
+                ? t.playstation.dealsTag
+                : isGamePass
+                  ? t.gamepass.dealsTag
+                  : t.steam.specialsTag}
           </p>
         )}
 
@@ -205,6 +219,15 @@ export function GameCard({
                 {formatPrice(steamGame.originalPrice, steamGame.currency, locale)}
               </span>
             )}
+            {gpGame &&
+              isGamePassDeal &&
+              typeof gpGame.originalPrice === 'number' &&
+              typeof gpGame.discountPrice === 'number' &&
+              gpGame.originalPrice > gpGame.discountPrice && (
+                <span className="price-original">
+                  {formatPrice(gpGame.originalPrice, gpGame.currency || 'UAH', locale)}
+                </span>
+              )}
             {psGame &&
               typeof psGame.originalPrice === 'number' &&
               typeof psGame.discountPrice === 'number' &&
@@ -213,8 +236,14 @@ export function GameCard({
                   {formatPrice(psGame.originalPrice, psGame.currency || 'UAH', locale)}
                 </span>
               )}
-            {isGamePass ? (
+            {isGamePass && !isGamePassDeal ? (
               <span className="price-current gp-included">{t.gamepass.included}</span>
+            ) : gpGame && isGamePassDeal && typeof gpGame.discountPrice === 'number' ? (
+              <span className="price-current">
+                {gpGame.discountPrice === 0
+                  ? t.price.free
+                  : formatPrice(gpGame.discountPrice, gpGame.currency || 'UAH', locale)}
+              </span>
             ) : psGame?.psPlusTier === 'essential' ? (
               <span className="price-current ps-included">{t.playstation.includedEssential}</span>
             ) : psGame?.psPlusTier === 'extra' ? (

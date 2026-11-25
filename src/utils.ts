@@ -12,6 +12,7 @@ const HISTORY_TYPES: ReadonlySet<string> = new Set([
   'popular',
   'dlc',
   'gamepass',
+  'gamepass_deal',
   'ps_deal',
   'ps_essential',
   'ps_extra',
@@ -137,8 +138,7 @@ export function sortGames<T extends SteamGame>(games: T[], sortType: SortType): 
 }
 
 /**
- * Game Pass-ігри не мають ціни/знижки — для них працює лише сортування за
- * назвою; решта типів лишає природний порядок каталогу.
+ * Для Game Pass працює сортування за назвою, а також за ціною/знижкою (для позицій зі знижками).
  */
 export function sortGamePassGames(games: GamePassGame[], sortType: SortType): GamePassGame[] {
   switch (sortType) {
@@ -146,6 +146,14 @@ export function sortGamePassGames(games: GamePassGame[], sortType: SortType): Ga
       return games.toSorted((a, b) => a.title.localeCompare(b.title));
     case 'name-desc':
       return games.toSorted((a, b) => b.title.localeCompare(a.title));
+    case 'price-asc':
+      return games.toSorted(
+        (a, b) => (a.discountPrice ?? Number.POSITIVE_INFINITY) - (b.discountPrice ?? Number.POSITIVE_INFINITY),
+      );
+    case 'price-desc':
+      return games.toSorted((a, b) => (b.discountPrice ?? -1) - (a.discountPrice ?? -1));
+    case 'discount-desc':
+      return games.toSorted((a, b) => (b.discountPercent ?? 0) - (a.discountPercent ?? 0));
     default:
       return games;
   }

@@ -110,6 +110,23 @@ describe('GameCard', () => {
       const link = screen.getByRole('link', { name: /детальніше/i });
       expect(link).toHaveAttribute('href', mockGamePassGame.url);
     });
+
+    it('renders discounted Game Pass card with price and subscription pill', () => {
+      const discountedGp: GamePassGame = {
+        ...mockGamePassGame,
+        originalPrice: 1540,
+        discountPrice: 616,
+        discountPercent: 60,
+        currency: 'UAH',
+        isDeal: true,
+      };
+      render(<GameCard game={discountedGp} platform="gamepass" badge="-60%" showTagDescription />, { wrapper: Wrapper });
+      expect(screen.getByText('-60%')).toBeInTheDocument();
+      expect(screen.getByText('Включено у Game Pass')).toBeInTheDocument();
+      expect(screen.getByText(/616\s*грн/)).toBeInTheDocument();
+      expect(screen.getByText(/1\s*540\s*грн/)).toBeInTheDocument();
+      expect(screen.getByRole('link', { name: /у xbox store/i })).toBeInTheDocument();
+    });
   });
 
   describe('Steam meta & PlayStation cards', () => {

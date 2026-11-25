@@ -65,6 +65,10 @@ function normalizeGamePass(g: Record<string, unknown>): GamePassGame {
   // Каталог Microsoft віддає protocol-relative зображення (`//store-images…`);
   // safeUrl у картці такі відкидає, тому одразу робимо https.
   const rawImage = str(g.imageUrl);
+  const originalPrice = optNum(g.originalPrice);
+  const discountPrice = optNum(g.discountPrice);
+  const discountPercent = optNum(g.discountPercent);
+  const currency = typeof g.currency === 'string' && /^[A-Z]{3}$/.test(g.currency) ? g.currency : undefined;
   return {
     id: str(g.id),
     title: str(g.title),
@@ -73,6 +77,11 @@ function normalizeGamePass(g: Record<string, unknown>): GamePassGame {
     description: str(g.description) || undefined,
     isNew: Boolean(g.isNew),
     isPopular: Boolean(g.isPopular),
+    ...(originalPrice !== undefined ? { originalPrice } : {}),
+    ...(discountPrice !== undefined ? { discountPrice } : {}),
+    ...(discountPercent !== undefined ? { discountPercent } : {}),
+    ...(currency ? { currency } : {}),
+    ...(g.isDeal ? { isDeal: true } : {}),
   };
 }
 
@@ -135,6 +144,7 @@ const VALID_HISTORY_TYPES = new Set([
   'popular',
   'dlc',
   'gamepass',
+  'gamepass_deal',
   'ps_deal',
   'ps_essential',
   'ps_extra',

@@ -17,7 +17,7 @@ describe('TelegramBanner', () => {
   it('renders heading and description', () => {
     render(<TelegramBanner />, { wrapper: Wrapper });
     expect(screen.getByText('Приєднуйтесь до нашого Telegram-каналу!')).toBeInTheDocument();
-    expect(screen.getByText(/Дайджести без спаму/)).toBeInTheDocument();
+    expect(screen.getByText(/Окремі картки з обкладинками без спаму/)).toBeInTheDocument();
   });
 
   it('renders subscribe link with correct URL', () => {

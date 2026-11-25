@@ -63,6 +63,7 @@ export function SearchControls({
       { filterKey: 'steam_specials', label: t.filters.steamSpecials },
       { filterKey: 'steam_dlc', label: t.filters.steamDlc },
       { filterKey: 'gamepass_new', label: t.filters.gamepassNew },
+      { filterKey: 'gamepass_deals', label: t.filters.gamepassDeals },
       { filterKey: 'ps_deals', label: t.filters.psDeals },
       { filterKey: 'ps_essential', label: t.filters.psEssential },
       { filterKey: 'ps_extra', label: t.filters.psExtra },
@@ -78,6 +79,7 @@ export function SearchControls({
       { filterKey: 'gamepass_all', label: t.filters.gamepassAll },
       { filterKey: 'gamepass_new', label: t.filters.gamepassNew },
       { filterKey: 'gamepass_popular', label: t.filters.gamepassPopular },
+      { filterKey: 'gamepass_deals', label: t.filters.gamepassDeals },
     ],
     playstation: [
       { filterKey: 'ps_all', label: t.filters.psAll },

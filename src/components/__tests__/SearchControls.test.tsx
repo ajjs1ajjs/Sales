@@ -33,6 +33,7 @@ describe('SearchControls', () => {
     expect(screen.getByText('Steam Знижки')).toBeInTheDocument();
     expect(screen.getByText('Steam DLC')).toBeInTheDocument();
     expect(screen.getByText('Game Pass Нові')).toBeInTheDocument();
+    expect(screen.getByText('Game Pass Знижки')).toBeInTheDocument();
     expect(screen.getByText('PS5 Знижки')).toBeInTheDocument();
     expect(screen.getByText('PS+ Ігри місяця')).toBeInTheDocument();
     expect(screen.getByText('PS+ Extra')).toBeInTheDocument();
@@ -94,6 +95,7 @@ describe('SearchControls', () => {
       gamepass_all: 5,
       gamepass_new: 3,
       gamepass_popular: 2,
+      gamepass_deals: 4,
       ps_all: 5,
       ps_essential: 2,
       ps_extra: 1,
